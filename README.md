@@ -9,7 +9,7 @@ Welcome to the eLife-JATS-schematron wiki!
 ### Front
 
 * XML header/DTD version
-* Journal metadata
+* Journal dszxv sxc _metadata_
 * Article IDs
 * Article citation details
 * Licensing and copyright
