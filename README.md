@@ -1,15 +1,19 @@
+---
+description: Welcome to the eLife-JATS-schematron wiki!
+---
+
 # Initial page
 
 
 
-Welcome to the eLife-JATS-schematron wiki!
+
 
 ## Article structure
 
 ### Front
 
 * XML header/DTD version
-* Journal dszxv sxc _metadata_
+* Journal metadata
 * Article IDs
 * Article citation details
 * Licensing and copyright
