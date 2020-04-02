@@ -1,125 +1,36 @@
 ---
-description: Welcome to the eLife-JATS-schematron wiki!
+description: >-
+  Welcome to the eLife wiki! This wiki will provide quality check guidance for
+  manuscripts submitted to eLife, as well as useful tools and guidance for
+  interacting with authors.
 ---
 
-# Initial page
+# Introduction
+
+## Checklists
+
+* [QA at submission](checklists/qa-at-submission.md)
+* [Typesetting](checklists/typesetting.md)
+* [Copyediting](checklists/copyediting.md)
+* [Production check](checklists/production-check.md)
+* [Post-publication](checklists/post-publication.md)
+
+## Article details
+
+* [Content](article-details/content/)
+* [People](article-details/people.md)
+* [Peer review](article-details/peer-review.md)
+* [Relationships](article-details/relationships.md) \(rename?\)
+* [History](article-details/history.md)
+
+## Toolkit
+
+* [Kriya](toolkit/kriya.md)
+* [Github](toolkit/github.md)
+
+## Interacting with authors
+
+* [Emails](interacting-with-authors/emails.md)
 
 
-
-
-
-## Article structure
-
-### Front
-
-* XML header/DTD version
-* Journal metadata
-* Article IDs
-* Article citation details
-* Licensing and copyright
-* Article categories
-  * Subject areas
-  * Keywords
-* Article title
-* Authors
-  * Author names
-  * Author IDs
-  * Corresponding author status
-  * Email address
-  * Author affiliations
-  * Present addresses
-  * Author contributions
-  * Author competing interests
-  * Deceased status
-  * Group authors
-  * Bio
-  * Equal contributior status
-  * On behalf of
-* Non-author contributors
-  * Editor names
-  * Editor roles
-  * Editor affiliations
-  * Reviewer names
-  * Review affiliations
-* Publication dates
-* Submission history
-* Self URI/Download PDF
-* Related articles
-* Funding
-* Abstracts
-  * Abstract
-  * Impact Statement
-  * Digest
-* Clinical trial information
-
-### Body
-
-* Sections
-* \[\[Paragraphs\|Paragraphs\]\]
-* Style elements
-* Citations
-  * Reference citations
-  * Asset citations
-* Special characters
-* Display quotes
-* Hyperlinks
-* Lists
-* Boxes
-* Code blocks
-* Equations
-* RRIDs
-* Body assets
-  * \[\[Figures\|Figures\]\]
-    * Figure supplements
-    * Video supplements
-    * Figure source data/code
-  * Chemical structures
-  * Schema
-  * [Tables](https://github.com/elifesciences/eLife-JATS-schematron/wiki/Tables)
-    * Table source data/code
-    * Table footnotes
-    * Graphics in tables
-  * Videos
-    * Video source data/code
-  * Asset-level licensing
-
-### Back
-
-* Acknowledgements
-* Appendices
-  * Appendix assets
-    * Appendix figures
-      * Appendix figure supplements
-      * Appendix video supplements
-      * Appendix figure source data/code
-    * Appendix chemical structures
-    * Appendix schema
-    * Appendix tables
-      * Appendix table source data/code
-* Ethics
-* Data availability
-* Additional files
-  * Supplementary files
-  * Transparent reporting form
-  * Source code
-  * Source data
-* [References](https://github.com/elifesciences/eLife-JATS-schematron/wiki/References)
-  * Book
-    * Whole book
-    * Chapter
-  * \[\[Conference\|Conference-references\]\]
-  * Data
-  * \[\[Journal\|Journal-references\]\]
-  * \[\[Pre-print\|pre-print-references\]\]
-  * Periodical
-  * Report
-  * Software
-  * Thesis
-
-## Article style
-
-* Latin terms
-* Species names
-* [Country names](https://github.com/elifesciences/eLife-JATS-schematron/wiki/Country-names)
-* Allowed assets?
 
