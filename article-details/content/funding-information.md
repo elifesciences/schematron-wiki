@@ -264,7 +264,7 @@ The character ã is appearing as broken unicode. Doing an online search for `&#x
 
 **Warning**: _Whenever possible, institution-id\[@institution-id-type="FundRef"\] should be present in institution-wrap; warn staff if not - Fred to update warning text_
 
-**Action**: This will fire if a funder does not have a Funder Registry DOI associated with it. In these cases, first check that the funder name has been entered correctly by looking it up in the [Funder Registry](https://gitlab.com/crossref/open_funder_registry). Try searching for partial matches to the provided text. If no matches are returned, look the entered funder up online to check whether it is covered by a funding body that is in the registry.
+**Action**: This will fire if a funder does not have a Funder Registry DOI associated with it. In these cases, first check that the funder name has been entered correctly by looking it up in the [Funder Registry](https://gitlab.com/crossref/open_funder_registry). Try searching for partial matches to the provided text. If no matches are returned, search for the entered funder online to check whether it is covered by a funding body that is in the registry. \(For example, if the authors have entered '', this is an award issued by '', which is in the registry.\)
 
 If an online search shows that the funder is legitimate \(e.g. returns a website for the mentioned organisation\) but it is not on the Funder Registry and has no parent funding body, this warning can be ignored.
 
