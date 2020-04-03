@@ -361,7 +361,7 @@ If no funders are mentioned, there should be a funding statement which reads 'No
 
 **Error:** _Error_: _Every piece of funding must only have 1 institution. &lt;award-group id="XXXXXX"&gt; has XXXXXX - XXXXXX_
 
-**Action**_:_
+**Action:**
 
 \_\_
 
