@@ -320,31 +320,39 @@ If no funders are mentioned, there should be a funding statement which reads 'No
 
 **Warning**: _award-group must contain a funding-source._
 
-**Action**: Make sure a funder name is present in the award group element.
+**Action**: Make sure a funder name is present in the award group element. Should be impossible - check with production.
 
 #### award-group-test-3
 
 **Warning**: _award-group must contain a principal-award-recipient._
 
-**Action**: Make sure the funder has an author associated with it. 
+**Action**: Make sure the funder has an author associated with it. Check the acknowledgements/query author/check eJP
 
 #### award-group-test-4
 
 **Warning**: _award-group may contain one and only one award-id._
 
-**Action**: Make sure there is only one grant reference per funder.
+**Action**: Make sure there is only one grant reference per funder. Should be impossible from eJP/Kriya - check with production.
 
 #### award-group-test-5
 
 **Warning**: _funding-source must contain an institution-wrap._
 
-**Action**: Make sure the institution-wrap element \(containing the funder doi and funder name\) is present in the xml.
+**Action**: Make sure the institution-wrap element \(containing the funder doi and funder name\) is present in the xml. Should be impossible - check with production.
 
 #### award-group-test-6
 
-**Warning**: _One and only one institution must be present. - Fred to update text/split this into two warnings_
+**Warning**: _Every piece of funding must have an institution. &lt;award-group id="XXXXXX"&gt; does not have one._
 
 **Action**: Make sure there is only one institution element in the xml per award group.
+
+#### award-group-test-8
+
+**Warning**: _Every piece of funding must only have 1 institution.  has XXXXXX - XXXXXX_
+
+**Action**_:_
+
+\_\_
 
 ## XML structure
 
