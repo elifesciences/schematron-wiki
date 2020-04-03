@@ -161,7 +161,7 @@ The following tests are run on impact statements.
 
 #### final-custom-meta-test-6
 
-**Warning**: _Impact statement must end with a full stop or question mark._
+**Error**: _Impact statement must end with a full stop or question mark._
 
 **Action**: add a full-stop to the end of the impact statement.
 
@@ -195,7 +195,7 @@ The following tests are run on impact statements.
 
 #### custom-meta-test-10
 
-**Warning**: _Impact statement is comprised entirely of numbers, which must be incorrect._
+**Error**: _Impact statement is comprised entirely of numbers, which must be incorrect._
 
 Action: If the impact statement has been provided as a string of numbers, the authors must be asked to provide a proper statement:
 
@@ -227,7 +227,7 @@ Action: If the impact statement has been provided as a string of numbers, the au
 
 #### custom-meta-child-test-1
 
-**Warning**: _&lt;xxx&gt; is not allowed in impact statement._
+**Error**: _&lt;xxx&gt; is not allowed in impact statement._
 
 **Action**: The only XML elements allowed within the impact statement are `<italic>`, `<sup>` or `<sub>`. To address this warning, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks. For example, if the warning reads "&lt;bold&gt; is not allowed in impact statement", bold formatting is present and should be removed; similarly, "&lt;ext-link&gt; is not allowed in impact statement" indicates a hyperlink.
 
@@ -235,37 +235,37 @@ Action: If the impact statement has been provided as a string of numbers, the au
 
 #### custom-meta-test-1
 
-**Warning**: _One meta-name must be present in custom-meta._
+**Error**: _One meta-name must be present in custom-meta._
 
 **Action**: This rule will only fire for research content, where one `<custom-meta>` elements should be present in `<custom-meta-group>`, containing one `<meta-name>` element and one `<meta-value>` element. If this rule fires, either there are no `<meta-name>` elements present, or there is there is more than one. Ensure that one `<meta-name>`element is present in the XML. Remove any extra elements of this type.
 
 #### custom-meta-test-2
 
-**Warning**: _The value of meta-name can only be 'Author impact statement'. Currently it is 'XXXXX'._
+**Error**: _The value of meta-name can only be 'Author impact statement'. Currently it is 'XXXXX'._
 
 **Action**: This rule will only fire for research content. Correct the value within the `<meta-name>` element so that it is 'Author impact statement'.
 
 #### custom-meta-test-3
 
-**Warning**: _One meta-value must be present in custom-meta._
+**Error**: _One meta-value must be present in custom-meta._
 
 Action: For each instance of `<custom-meta>` in the XML, there should be one and only one `<meta-value>` element. Ensure this is the case and remove extra elements of this type.
 
 #### custom-meta-test-14
 
-**Warning**: _The value of the 1st meta-name can only be 'Author impact statement'. Currently it is 'XXXXXX'._
+**Error**: _The value of the 1st meta-name can only be 'Author impact statement'. Currently it is 'XXXXXX'._
 
 **Action**: This rule will only fire for feature content. Correct the value within the first `<meta-name>` in `<custom-meta>` element so that it is 'Author impact statement'.
 
 #### custom-meta-test-15
 
-**Warning**: _The value of the 2nd meta-name can only be 'Template'. Currently it is 'XXXXX'._
+**Error**: _The value of the 2nd meta-name can only be 'Template'. Currently it is 'XXXXX'._
 
 **Action**: This rule will only fire for feature content. Correct the value within the second `<meta-name>` in `<custom-meta>` element so that it is 'Template'.
 
 #### custom-meta-test-4
 
-**Warning**: _The value of meta-value cannot be empty_
+**Error**: _The value of meta-value cannot be empty_
 
 **Action**: If a `<meta-value>` element is present in the XML, it must contain some content.
 
