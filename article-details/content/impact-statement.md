@@ -217,13 +217,13 @@ Action: If the impact statement has been provided as a string of numbers, the au
 
 **Warning**: _Impact statement in Replication studies must begin with 'Editors' summary: '. This does not - 'XXXXXX'._
 
-**Action**: In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [above](impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, please contact the Production team \(who will query the Editorial team\) to get the correct text for the impact statement. This is a warning at the pre-author stages. 
+**Action**: In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [above](impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, please alert the Production team so that they can get the correct text from the Editorial team. The article should not go to the authors until this is resolved, but can be moved to waiting for assets. This is a warning at the pre-author stages. 
 
 #### final-rep-study-custom-meta-test
 
 **Error**: _Impact statement in Replication studies must begin with 'Editors' summary: '. This does not - 'XXXXXX'_
 
-**Action**: In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary:'. If this has been misspelled, please correct it. If this prefix is not present, please contact the Production team \(who will query the Editorial team\) to get the correct text for the impact statement. This is an error at the pre-author stages.
+**Action**: In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary:'. If this has been misspelled, please correct it. If this prefix is not present, the Production team will need to check with the Editorial team to get the correct text for the impact statement. This is an error at the pre-author stages.
 
 #### custom-meta-child-test-1
 
