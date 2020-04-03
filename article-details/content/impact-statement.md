@@ -46,7 +46,14 @@ In extreme cases, where it is not possible to create an acceptable impact statem
 
 ### Impact statements in Replication studies
 
-For Replication studies, the impact statement is formalised as an 'Editors' summary'.
+For Replication studies, the impact statement is used as an 'Editors' Summary', giving the outcome of the replication of a previously published work. There are several variations on this summary that apply to different outcomes:
+
+* Editors' Summary: This Replication Study has reproduced important parts of the original paper. 
+* Editors' Summary: This Replication Study has reproduced some parts of the original paper but other parts could not be interpreted.
+* Editors' Summary: This Replication Study has reproduced some parts of the original paper but it also contains results that are not consistent with other parts of the original paper.
+* Editors' Summary: This Replication Study did not reproduce those experiments in the original paper that it attempted to reproduce.
+
+The eLife Editorial team will ideally update the impact statement before the the article is exported for processing, but sometimes this will be delayed until the decision letter/author response has been edited. In such cases, the exported impact statement will need to be replaced with the finalised Editors' Summary.
 
 ## Examples
 
