@@ -22,7 +22,7 @@ The details of each funding reference need to be checked individually. Ideally, 
 Validated funders are indicated by a green tick at the end of the funder name.   
 If a funder is not validated, check whether it is on the[ Funder Registry](https://gitlab.com/crossref/open_funder_registry) list \(note: this list is updated sporadically so please re-download it every time you need to check it\).   
 Try re-typing the funder name if it is in the registry, this can make it "stick".    
-If the funder is not in the registry, conduct an online search. Sometimes the name may need correcting slightly, or what the author has listed as the funder is funded by another organisation that is in the Funder Registry \(in that case move the "sub-funder" name to the grant ID field and insert the parent funder into the Funder field\).
+If the funder is not in the registry, conduct an online search. Sometimes the name may need correcting slightly, or what the author has listed as the funder is funded by another organisation that is in the Funder Registry \(see [here](funding-information.md#splitting-out-parent-and-sub-funders) for examples of how to capture this information\).
 
 The Funder Registry contains variants of funder names. For example, the following all refer to the same funder:
 
@@ -66,12 +66,14 @@ When this article came out of pre-editing, the information for the Latham Vision
 
 ![](../../.gitbook/assets/1.png)
 
-1. Try entering the fun3der as ‘University of Washington department of Ophthalmology’. However, this does not appear as a funder so we can just keep it as ‘University of Washington’.
+1. Try entering the funder as ‘University of Washington department of Ophthalmology’. However, this does not appear as a funder so we can just keep it as ‘University of Washington’.
 
 ![](../../.gitbook/assets/2.png)
 
 1. Enter the funder as ‘University of Washington’ and ‘Latham Vision Research Innovation Award’ as the grant reference, and assign the correct author to this funder \(in this case, it would be ‘MBM’ i.e. Michael B Manookin\)
-2. Leave an author query for the authors to confirm this information has been entered correctly.
+2. Leave the following author query for the authors to confirm this information has been entered correctly.
+
+   * Please check that the edited funding details are still correct.
 
 #### For the Alcon Research Institute
 
@@ -94,7 +96,9 @@ The steps to take in this case are:
 1. Add a new funder and enter ‘National Institute of Neurological Disorders and Stroke’ in the funder field
 2. Add the grant reference R01-NS095368 and assign the same authors as in the first entry \(Jyun-you Liou, Elliot H Smith, Catherine Schevon\)
 3. Add a new funder and do the same again for the grant reference R01-NS110669
-4. Leave an author query asking the authors to confirm the edits to both funder entries
+4. Leave the following author query asking the authors to confirm the edits to both funder entries:
+
+* Please check that the edited funding details are still correct.
 
 ![](../../.gitbook/assets/5.png)
 
@@ -130,7 +134,9 @@ Looking up the COBRE Neuroscience Award online takes you to [this](http://www.me
 
 ![](../../.gitbook/assets/screenshot-2020-03-19-at-16.17.42.png)
 
-Note that this is a complicated example, and the authors should be asked to confirm whether this change is correct using an author query.
+Note that this is a complicated example, and the authors should be asked to confirm whether this change is correct using the following author query.
+
+* Please check that the edited funding details are still correct.
 
 ### Multiple grant references in one entry
 
@@ -138,7 +144,9 @@ Sometimes, multiple grant references will be entered under the same funder. In t
 
 ![](../../.gitbook/assets/7.png)
 
-In this case, split the grant references into two entries, enter the same author for both, and leave an author query \(see below\). 
+In this case, split the grant references into two entries, enter the same author for both, and leave the following author query:
+
+* Please check that the edited funding details are still correct.
 
 ![](../../.gitbook/assets/8.png)
 
@@ -210,11 +218,13 @@ This warning fired because the phrase 'Research and Development' was present in 
 
 ### No funding information given
 
-In rare cases, a study will not have any funders associated with it - in which case the funding statement should read 'No external funding was received for this work'. If this is not the case, an author query needs to be left asking the authors to confirm no funding was received. 
+In rare cases, a study will not have any funders associated with it - in which case the funding statement should read 'No external funding was received for this work'. If this is not the case the following author query needs to be left asking the authors to confirm no funding was received. 
+
+* Please confirm whether any funding was received for this work.
 
 ## Schematron warnings
 
-The following tests are run on the funding section.
+The following tests are run on the funding section. X or XXXXXX refers to filler text which will change depending on the article. 
 
 ### Content warnings
 
@@ -222,31 +232,35 @@ These warnings relate to the content of a funding statement.
 
 #### funding-group-test-3
 
-**Warning**: _Is funding-statement this correct? Please check with eLife staff. Usually it should be 'No external funding was received for this work.' - Fred to update warning text_
+**Warning**: _Is this funding-statement correct? - 'XXXXXX' Usually it should be 'No external funding was received for this work.'_
 
 **Action**: This will fire if there are no funding entries and the funding statement does not state 'No external funding was received for this work.' If the acknowledgements section mentions funding for the work, add the funders into the table and leave the following author query: 
 
 * We have added the additional funding information from your acknowledgements. Please check the changes to your funding details and confirm they are correct.
 
-If no funders are mentioned, the funding statement should be 'No external funding was received for this work.' Please leave the following author query for the authors to confirm that no external funding was received. 
+If no funders are mentioned, the funding statement should be 'No external funding was received for this work.' If this statement is not already present, please leave the following author query for the authors to confirm that no external funding was received:
 
-_Add no funding author query_
+* Please confirm whether any funding was received for this work.
 
 #### award-id-test-1
 
 **Warning**: _Funding entry with id 'fundX' has a comma or semi-colon in the award id. Should this be separated out into several funding entries? - 'XXXXXX'_
 
-**Action**: This will fire if the grant reference has a comma or semi-colon. If this seems like multiple grant references, split them out into separate funding entries and leave an author query. For more information on splitting out grant references, see [here](funding-information.md#multiple-grant-references-in-one-entry).
+**Action**: This will fire if the grant reference has a comma or semi-colon. If this seems like multiple grant references, split them out into separate funding entries and leave the following author query. 
+
+* Please check that the edited funding details are still correct.
+
+For more information on splitting out grant references, see [here](funding-information.md#multiple-grant-references-in-one-entry).
 
 #### award-id-test-2
 
-**Warning**: _Award id contains - ''N/A" - This entry should be empty._
+**Error**: _Award id contains - ''N/A" - This entry should be empty._
 
 **Action**: If the grant reference entry has 'N/A', please delete this text.
 
 #### award-id-test-3
 
-**Warning**: _Award id contains - ''None" - This entry should be empty._
+**Error**: _Award id contains - ''None" - This entry should be empty._
 
 **Action**: If the grant reference entry has 'None' please delete this text.
 
@@ -262,7 +276,7 @@ The character ã is appearing as broken unicode. Doing an online search for `&#x
 
 #### institution-id-test
 
-**Warning**: _Whenever possible, institution-id\[@institution-id-type="FundRef"\] should be present in institution-wrap; warn staff if not - Fred to update warning text_
+**Warning**: _Whenever possible, a funder should have a doi - please check whether there is an appropriate doi in the open funder registry. \(institution-id\[@institution-id-type="FundRef"\] is not present in institution-wrap\)._
 
 **Action**: This will fire if a funder does not have a Funder Registry DOI associated with it. In these cases, first check that the funder name has been entered correctly by looking it up in the [Funder Registry](https://gitlab.com/crossref/open_funder_registry). Try searching for partial matches to the provided text. If no matches are returned, search for the entered funder online to check whether it is covered by a funding body that is in the registry. \(For example, if the authors have entered '', this is an award issued by '', which is in the registry.\)
 
@@ -282,7 +296,7 @@ The University of Cambridge should not be listed in the funding table because it
 
 #### award-group-test-7
 
-**Warning**: _There is no author associated with the funding for 'XXXXXX', which is incorrect. \(There is no xref from a contrib pointing to this &lt;award-group id="fundX"&gt;\)_
+**Error**: _There is no author associated with the funding for 'XXXXXX', which is incorrect. \(There is no xref from a contrib pointing to this &lt;award-group id="fundX"&gt;\)_
 
 **Action**: Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, please leave the following author query: 
 
@@ -294,13 +308,13 @@ These warnings relate to the XML structure of the funding section.
 
 #### funding-group-test-1
 
-**Warning**: _One funding-statement should be present in funding-group._
+**Error**: _One funding-statement should be present in funding-group._
 
 **Action**: Make sure the article has a funding statement. If no funding was received for the work, this should state 'No external funding was received for this work.' If funding was received for the work, the statement should state 'The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.' 
 
 #### funding-group-test-2
 
-**Warning**: _funding-group contains no award-groups. Is this correct? Please check with eLife staff._
+**Warning**: _There is no funding for this article. Is this correct?_
 
 **Action**: This will fire if there are no funding entries. If the acknowledgements section mentions funding for the work, add the funders into the table and add the following author query:
 
@@ -312,9 +326,9 @@ If no funders are mentioned, there should be a funding statement which reads 'No
 
 #### award-group-test-1
 
-**Warning**: _award-group must have an @id, the value of which conforms to the convention 'fund', followed by a digit._
+**Error:** _award-group must have an @id, the value of which conforms to the convention 'fund', followed by a digit._
 
-**Action**: Make sure each funder has a funding id in the format 'fund' and a number e.g. fund1, fund2.
+**Action**: Make sure each funder has a funding id in the format 'fund' and a number e.g. fund1, fund2. This should only fire in 
 
 #### award-group-test-2
 
@@ -348,7 +362,7 @@ If no funders are mentioned, there should be a funding statement which reads 'No
 
 #### award-group-test-8
 
-**Warning**: _Every piece of funding must only have 1 institution.  has XXXXXX - XXXXXX_
+**Error:** _Error_: _Every piece of funding must only have 1 institution. &lt;award-group id="XXXXXX"&gt; has XXXXXX - XXXXXX_
 
 **Action**_:_
 
