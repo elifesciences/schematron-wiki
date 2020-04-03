@@ -44,7 +44,6 @@ Please check the acknowledgements section of the article for additional funders 
 * [Multiple grant references in one entry](funding-information.md#multiple-grant-references-in-one-entry)
 * [Third-party funding vs funding to authors](funding-information.md#third-party-funding-vs-funding-to-authors)
 * [Splitting out parent and sub-funders](funding-information.md#splitting-out-parent-and-sub-funders)
-* [Funders that are in Funder Registry but hard to track down](funding-information.md#funders-that-are-in-funder-registry-but-hard-to-track-down)
 * [Funders that are in Funder Registry but hard to track down - non-English funder names that require translation](funding-information.md#funders-that-are-in-funder-registry-but-hard-to-track-down-non-english-funder-names-that-require-translation)
 * [Funders not in the Funder Registry](funding-information.md#funders-not-in-the-funder-registry)
 * [Examples of when to ignore/pay attention to the schematron message](funding-information.md#examples-of-when-to-ignore-pay-attention-to-the-schematron-messages)
@@ -175,10 +174,6 @@ Another example of this is the Horizon 2020 funding given out by the European Co
 > We thank D Thomas Rutkowski for providing Atf6-/- MEFs and Svenja Siebels for helpful advice on the DPI-ELISA. This study was supported by the Deutsche Forschungsgemeinschaft \(BR 1730/6-1 to WB\), the **EU Horizon 2020 Marie Sklodowska-Curie ITN-TREATMENT** \(Grant 721236 to BT\), the German-Israeli Foundation \(Grant I-1471–414.13/2018 to BT\), and Giovanni Armenise-Harvard Foundation \(Career Development Award to EvA\).
 
 The parent funder here is Horizon 2020, which is listed in the Funder Registry. However, to be as specific as possible, H2020 Marie Skłodowska-Curie Actions should be entered, as this is also in the Funder Registry. As a general rule, you should be as specific as possible in the funding table.
-
-### Funders that are in Funder Registry but hard to track down
-
-
 
 ### Funders that are in Funder Registry but hard to track down - non-English funder names that require translation
 
