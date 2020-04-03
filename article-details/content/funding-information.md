@@ -273,11 +273,11 @@ The character ã is appearing as broken unicode. Doing an online search for `&#x
 
 **Warning**: _Whenever possible, a funder should have a doi - please check whether there is an appropriate doi in the open funder registry. \(institution-id\[@institution-id-type="FundRef"\] is not present in institution-wrap\)._
 
-**Action**: This will fire if a funder does not have a Funder Registry DOI associated with it. In these cases, first check that the funder name has been entered correctly by looking it up in the [Funder Registry](https://gitlab.com/crossref/open_funder_registry). Try searching for partial matches to the provided text. If no matches are returned, search for the entered funder online to check whether it is covered by a funding body that is in the registry.
-
-For example, if the authors have entered 'Lois Pope LIFE Fellows Program', this is an award issued by the University of Miami, which is in the registry. The text 'Lois Pope LIFE Fellows Program' should be moved to the grant reference column and the funder should be changed to 'University of Miami'. See also how to [split parent and sub-funders](funding-information.md#splitting-out-parent-and-sub-funders).
+**Action**: This warning will fire if a funder does not have a Funder Registry DOI associated with it. In these cases, first check that the funder name has been entered correctly by looking it up in the [Funder Registry](https://gitlab.com/crossref/open_funder_registry). Try searching for partial matches to the provided text. If no matches are returned, search for the entered funder online.
 
 If an online search shows that the funder is legitimate \(e.g. returns a website for the mentioned organisation\) but it is not on the Funder Registry and has no parent funding body, this warning can be ignored \(see [above](funding-information.md#funders-not-in-the-funder-registry)\).
+
+If the authors have entered a specific program \(e.g. 'Lois Pope LIFE Fellows Program'\), check whether this is an award issued by a funding body which is in the registry \(in this case, that would be the [University of Miami](http://biomed.med.miami.edu/graduate-programs/neuroscience/events/lois-pope-life-fellowship-awards)\). The program name should then be moved to the grant reference column and the funding body's name entered in its place . See also how to [split parent and sub-funders](funding-information.md#splitting-out-parent-and-sub-funders).
 
 For more information on the Funder Registry, see [here](funding-information.md#funder-registry).
 
