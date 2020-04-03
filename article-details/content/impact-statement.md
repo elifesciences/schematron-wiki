@@ -30,6 +30,7 @@ Impact statements may need to be edited as follows:
 * Any possessive phrases \('we show', 'this study shows' etc.\) should be removed or replaced with third-person alternatives.
 * If a colon or semi-colon is present, the statement should be rephrased \(unless the article is a Replication study, in which case the statement should begin 'Editors' summary:'\).
 * Uncommon abbreviations should be spelled out per the article text.
+* Brackets are not forbidden but should be removed if possible.
 
 Whenever an impact statement is edited, the author must be notified using the following author query:
 
@@ -44,6 +45,18 @@ In extreme cases, where it is not possible to create an acceptable impact statem
 * The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement that clearly explains the main results of your study.
 
 ## Examples
+
+### Bracket use
+
+If brackets can be replaced with commas, this should be done. For example, the following impact statement uses them to enclose the name of an enzyme:
+
+* "By combining structure-based computational predictions and a thorough structural analysis, a highly thermostable enzyme **\(alcohol dehydrogenase\)** has been engineered."
+
+This can be corrected to the following without affecting the readability of the statement:
+
+* "By combining structure-based computational predictions and a thorough structural analysis, a highly thermostable enzyme**, alcohol dehydrogenase,** has been engineered."
+
+In the following instance, however, this kind of edit would be inappropriate as the statement reads clearer wth the brackets in place
 
 ### Fragment correction
 
