@@ -36,13 +36,17 @@ Whenever an impact statement is edited, the author must be notified using the fo
 
 * The impact statement has been edited. Please confirm whether the revised wording is acceptable.
 
-If the statement is longer than 30 words, the authors will need to be asked to shorten it:
+If the statement is longer than 30 words, it should be shortened if this is possible without changing the scientific meaning of the text. If it is unclear how to do this, the authors will need to be asked to shorten it themselves:
 
 * Please rephrase this impact statement so that it is no more than 30 words in length.
 
 In extreme cases, where it is not possible to create an acceptable impact statement from the text provided \(e.g. they have provided multiple sentences and  it is unclear how they should be combined\), the following query may be used to ask the authors to start again:
 
 * The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement that clearly explains the main results of your study.
+
+### Impact statements in Replication studies
+
+For Replication studies, the impact statement is formalised as an 'Editors' summary'.
 
 ## Examples
 
@@ -142,7 +146,7 @@ The following tests are run on impact statements.
 
 #### custom-meta-test-5
 
-**Warning**: _Impact statement contains more than 30 words. This is not allowed - please alert eLife staff._
+**Warning**: _Impact statement contains more than 30 words. This is not allowed._
 
 **Action**: When an impact statement is more than 30 words in length, the author should be asked to rephrase it to bring it under the word limit:
 
@@ -174,13 +178,13 @@ The following tests are run on impact statements.
 
 **Warning**: _Impact statement contains a possessive phrase. This is not allowed_
 
-**Action**: The impact statement should be rephrased to avoid using 'We show', 'We prove', 'This work shows' or any other similar phrase. See [above](impact-statement.md#removing-possessive-phrases).
+**Action**: The impact statement should be rephrased to avoid using 'We show', 'We prove', 'This work shows' or any other similar phrase. See [above](impact-statement.md#removing-possessive-phrases). This is a warning at the pre-author stages.
 
 #### final-custom-meta-test-9
 
-**Warning**: _Impact statement contains a possessive phrase. This is not allowed_
+**Error**: _Impact statement contains a possessive phrase. This is not allowed_
 
-**Action**: The impact statement should be rephrased to avoid using 'We show', 'Our work proves', 'This work shows' or any other similar phrase. See [above](impact-statement.md#removing-possessive-phrases).
+**Action**: The impact statement should be rephrased to avoid using 'We show', 'We prove', 'This work shows' or any other similar phrase. See [above](impact-statement.md#removing-possessive-phrases). This is an error at the post-author stages.
 
 #### custom-meta-test-10
 
@@ -206,19 +210,19 @@ Action: If the impact statement has been provided as a string of numbers, the au
 
 **Warning**: _Impact statement in Replication studies must begin with 'Editors' summary: '. This does not - 'XXXXXX'._
 
-**Action**: In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary:'. If this has been misspelled, please correct it. If this prefix is not present, please contact the Editorial team to get the correct text for the impact statement.
+**Action**: In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary:'. If this has been misspelled, please correct it. If this prefix is not present, please contact the Production team \(who will query the Editorial team\) to get the correct text for the impact statement. This is a warning at the pre-author stages. 
 
 #### final-rep-study-custom-meta-test
 
-**Warning**: _Impact statement in Replication studies must begin with 'Editors' summary: '. This does not - 'XXXXXX'_
+**Error**: _Impact statement in Replication studies must begin with 'Editors' summary: '. This does not - 'XXXXXX'_
 
-**Action**: In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary:'. If this has been misspelled, please correct it. If this prefix is not present, please contact the Editorial team to get the correct text for the impact statement.
+**Action**: In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary:'. If this has been misspelled, please correct it. If this prefix is not present, please contact the Production team \(who will query the Editorial team\) to get the correct text for the impact statement. This is an error at the pre-author stages.
 
 #### custom-meta-child-test-1
 
 **Warning**: _&lt;xxx&gt; is not allowed in impact statement._
 
-**Action**: Remove any formatting that is not italic, superscript or subscript.
+**Action**: This warning will fire if there are any XML elements in the impact statement other than: `<italic>`, `<sup>` or `<sub>`. Remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks.
 
 ### XML structure warnings
 
