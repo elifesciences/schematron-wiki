@@ -12,7 +12,7 @@ An impact statement is a succinct summary of an article, intended for display on
 
 Impact statements do not display on the main article page on the website or the PDF.
 
-An impact statement should be a single complete sentence, no more than 30 words in length. Multiple sentences or multiple statements joined with semi-colons are not allowed. Colons are not allowed except when the article is a Replication study. The statement should be properly punctuated and end in a full stop. Bold text is not allowed but italics and superscript should be retained as the author provides, and as in the title, species names \(e.g. _Homo sapiens_\) should be in italics.
+An impact statement should be a single complete sentence, no more than 30 words in length. Multiple sentences or multiple statements joined with semi-colons are not allowed. Colons are similarly not allowed, except when the article is a [Replication study](impact-statement.md#impact-statements-in-replication-studies). The statement should be properly punctuated and end in a full stop. Bold text is not allowed but italics and superscript should be retained as the author provides, and as in the title, species names \(e.g. _Homo sapiens_\) should be in italics.
 
 The statement should not repeat the title and it should not be written in the first-person. It should not use acronyms without defining them, although commonly used terms \(such as RNA\) are OK. It should match the main text in terms of whether UK or US spelling is used.
 
