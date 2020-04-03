@@ -28,7 +28,7 @@ Impact statements may need to be edited as follows:
 * General spelling errors or missing spaces between words should be corrected.
 * Italics should be applied to any species names if not already present.
 * Any possessive phrases \('we show', 'this study shows' etc.\) should be removed or replaced with third-person alternatives.
-* If a colon or semi-colon is present, the statement should be rephrased \(unless the article is a Replication study, in which case the statement should begin 'Editors' summary:'\).
+* Excepting their use in scientific terms \(e.g. ratios 1:800\), if a colon or semi-colon is present, the statement should be rephrased \(unless the article is a Replication study, in which case the statement should begin 'Editors' summary:'\).
 * Uncommon abbreviations should be spelled out per the article text.
 * Brackets are not forbidden but should be removed if possible.
 
@@ -99,7 +99,7 @@ This was therefore edited to read instead:
 
 ### Semi-colon removal
 
-Semi-colons are usually not allowed in impact statements.
+Outside of their use in scientific terms, semi-colons are not allowed in impact statements.
 
 * "Plasmodium uses host-derived factors to form more rosettes to hamper **phagocytosis;** a good example of host-parasite interaction in immunopathobiology."
 
