@@ -217,7 +217,7 @@ Action: If the impact statement has been provided as a string of numbers, the au
 
 **Warning**: _Impact statement in Replication studies must begin with 'Editors' summary: '. This does not - 'XXXXXX'._
 
-**Action**: In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary:'. If this has been misspelled, please correct it. If this prefix is not present, please contact the Production team \(who will query the Editorial team\) to get the correct text for the impact statement. This is a warning at the pre-author stages. 
+**Action**: In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [above](impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, please contact the Production team \(who will query the Editorial team\) to get the correct text for the impact statement. This is a warning at the pre-author stages. 
 
 #### final-rep-study-custom-meta-test
 
@@ -229,7 +229,7 @@ Action: If the impact statement has been provided as a string of numbers, the au
 
 **Warning**: _&lt;xxx&gt; is not allowed in impact statement._
 
-**Action**: This warning will fire if there are any XML elements in the impact statement other than: `<italic>`, `<sup>` or `<sub>`. Remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks.
+**Action**: The only XML elements allowed within the impact statement are `<italic>`, `<sup>` or `<sub>`. To address this warning, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks. For example, if the warning reads "&lt;bold&gt; is not allowed in impact statement", bold formatting is present and should be removed; similarly, "&lt;ext-link&gt; is not allowed in impact statement" indicates a hyperlink.
 
 ### XML structure warnings
 
