@@ -251,7 +251,7 @@ The following tests are run on impact statements.
 
 **Error**: _One meta-value must be present in custom-meta._
 
-Action: For each instance of `<custom-meta>` in the XML, there should be one and only one `<meta-value>` element. Ensure this is the case and remove extra elements of this type.
+**Action**: For each instance of `<custom-meta>` in the XML, there should be one and only one `<meta-value>` element. Ensure this is the case and remove extra elements of this type.
 
 #### custom-meta-test-14
 
