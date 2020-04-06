@@ -157,7 +157,7 @@ The following tests are run on impact statements.
 
 **Warning**: _Impact statement contains more than 30 words. This is not allowed._
 
-**Action**: When an impact statement is more than 30 words in length, the author should be asked to rephrase it to bring it under the word limit:
+**Action**: When an impact statement is more than 30 words in length, it should be shortened if this is possible without changing the scientific meaning of the text. If this is not possible, the author should be asked to rephrase it to bring it under the word limit:
 
 * Please rephrase this impact statement so that it is no more than 30 words in length.
 
