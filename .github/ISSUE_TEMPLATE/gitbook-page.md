@@ -24,6 +24,6 @@ assignees: ''
 
 
 ### Definition of done
-- [ ] Wiki page completed
+- [ ] Page completed
 - [ ] Team reviewed and approved page?
 - [ ] '[Message change](https://github.com/elifesciences/eLife-JATS-schematron/issues/new/choose)' ticket created for Fred to update the Schematron
