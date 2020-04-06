@@ -67,7 +67,9 @@ This can be corrected to the following without affecting the readability of the 
 
 * "By combining structure-based computational predictions and a thorough structural analysis, a highly thermostable enzyme**, alcohol dehydrogenase,** has been engineered."
 
-In the following instance, however, this kind of edit would be inappropriate as the statement reads clearer wth the brackets in place
+In the following instance, however, this kind of edit would be inappropriate as the statement reads clearer with the brackets in place:
+
+* "Reprogramming of transcription factors by PRR-independent \(cAMP\) and PRR-dependent \(curdlan\) signaling induces new dendritic cell subset."
 
 ### Fragment correction
 
@@ -217,19 +219,19 @@ Action: If the impact statement has been provided as a string of numbers, the au
 
 **Warning**: _Impact statement in Replication studies must begin with 'Editors' summary: '. This does not - 'XXXXXX'._
 
-**Action**: In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [above](impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, please alert the Production team so that they can get the correct text from the Editorial team. The article should not go to the authors until this is resolved, but can be moved to waiting for assets. This is a warning at the pre-author stages. 
+**Action**: XXXXXX will be the current impact statement. In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [above](impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, please alert the Production team so that they can get the correct text from the Editorial team. The article should not go to the authors until this is resolved, but can be moved to waiting for assets. This is a warning at the pre-author stages. 
 
 #### final-rep-study-custom-meta-test
 
 **Error**: _Impact statement in Replication studies must begin with 'Editors' summary: '. This does not - 'XXXXXX'_
 
-**Action**: In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [above](impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, the Production team will need to check with the Editorial team to get the correct text for the impact statement. This is an error at the pre-author stages.
+**Action**: XXXXXX will be the current impact statement. In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [above](impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, the Production team will need to check with the Editorial team to get the correct text for the impact statement. This is an error at the pre-author stages.
 
 #### custom-meta-child-test-1
 
 **Error**: _&lt;xxx&gt; is not allowed in impact statement._
 
-**Action**: The only XML elements allowed within the impact statement are `<italic>`, `<sup>` or `<sub>`. To address this warning, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks. For example, if the warning reads "&lt;bold&gt; is not allowed in impact statement", bold formatting is present and should be removed; similarly, "&lt;ext-link&gt; is not allowed in impact statement" indicates a hyperlink.
+**Action**: `<xxx>` will be a disallowed XML element\(s\) currently present in the impact statement. The only XML elements allowed within the impact statement are `<italic>`, `<sup>` or `<sub>`. To address this warning, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks. For example, if the warning reads "&lt;bold&gt; is not allowed in impact statement", bold formatting is present and should be removed; similarly, "&lt;ext-link&gt; is not allowed in impact statement" indicates a hyperlink.
 
 ### XML structure warnings
 
@@ -241,9 +243,9 @@ Action: If the impact statement has been provided as a string of numbers, the au
 
 #### custom-meta-test-2
 
-**Error**: _The value of meta-name can only be 'Author impact statement'. Currently it is 'XXXXX'._
+**Error**: _The value of meta-name can only be 'Author impact statement'. Currently it is 'XXXXXX'._
 
-**Action**: This rule will only fire for research content. Correct the value within the `<meta-name>` element so that it is 'Author impact statement'.
+**Action**: XXXXXX will be the current value of `<meta-name>`. This rule will only fire for research content. Correct the value within the `<meta-name>` element so that it is 'Author impact statement'.
 
 #### custom-meta-test-3
 
@@ -255,13 +257,13 @@ Action: For each instance of `<custom-meta>` in the XML, there should be one and
 
 **Error**: _The value of the 1st meta-name can only be 'Author impact statement'. Currently it is 'XXXXXX'._
 
-**Action**: This rule will only fire for feature content. Correct the value within the first `<meta-name>` in `<custom-meta>` element so that it is 'Author impact statement'.
+**Action**: XXXXXX will be the current value of the 1st `<meta-name>` element. This rule will only fire for feature content. Correct the value within the first `<meta-name>` in `<custom-meta>` element so that it is 'Author impact statement'.
 
 #### custom-meta-test-15
 
 **Error**: _The value of the 2nd meta-name can only be 'Template'. Currently it is 'XXXXX'._
 
-**Action**: This rule will only fire for feature content. Correct the value within the second `<meta-name>` in `<custom-meta>` element so that it is 'Template'.
+**Action**: XXXXXX will be the current value of the 2nd `<meta-name>` element. This rule will only fire for feature content. Correct the value within the second `<meta-name>` in `<custom-meta>` element so that it is 'Template'.
 
 #### custom-meta-test-4
 
