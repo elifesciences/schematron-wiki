@@ -199,7 +199,7 @@ The following tests are run on impact statements.
 
 **Error**: _Impact statement is comprised entirely of numbers, which must be incorrect._
 
-Action: If the impact statement has been provided as a string of numbers, the authors must be asked to provide a proper statement:
+**Action**: If the impact statement has been provided as a string of numbers, the authors must be asked to provide a proper statement:
 
 * The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement that clearly explains the main results of your study.
 
