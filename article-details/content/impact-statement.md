@@ -30,7 +30,7 @@ Impact statements may need to be edited as follows:
 * Any possessive phrases \('we show', 'this study shows' etc.\) should be removed or replaced with third-person alternatives.
 * Excepting their use in scientific terms \(e.g. ratios 1:800\), if a colon or semi-colon is present, the statement should be rephrased \(unless the article is a Replication study, in which case the statement should begin 'Editors' summary:'\).
 * Uncommon abbreviations should be spelled out per the article text.
-* Brackets are not forbidden but should be removed if possible.
+* Brackets are not forbidden but should be removed if not required for clarity.
 
 Whenever an impact statement is edited, the author must be notified using the following author query:
 
