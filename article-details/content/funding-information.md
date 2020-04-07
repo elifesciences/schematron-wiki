@@ -15,6 +15,8 @@ If you are looking for a list of schematron messages related to the funding sect
   * If two or more grants are present in one entry, they should be [split into multiple funding entries](funding-information.md#multiple-grant-references-in-one-entry). 
   * If you need to split funding entries, cross-check with the acknowledgements to see if they have specified different authors for each of the grants, and add an author query if you are unsure the split is correct.
 
+![An example of the funding table](../../.gitbook/assets/screenshot-2020-04-07-at-11.47.55.png)
+
 ### Funder Registry
 
 The details of each funding reference need to be checked individually. Ideally, every funder should be validated against the Funder Registry.
@@ -24,7 +26,7 @@ If a funder is not validated, check whether it is on the[ Funder Registry](https
 Try re-typing the funder name if it is in the registry, this can make it "stick".    
 If the funder is not in the registry, conduct an online search. Sometimes the name may need correcting slightly, or what the author has listed as the funder is funded by another organisation that is in the Funder Registry \(see [here](funding-information.md#splitting-out-parent-and-sub-funders) for examples of how to capture this information\).
 
-The Funder Registry contains variants of funder names. For example, the following all refer to the same funder:
+The Funder Registry contains variants of funder names. For example, the following all refer to the same [funder](http://data.crossref.org/fundingdata/funder/10.13039/501100004792):
 
 * Ministère de l'Education Nationale, de l'Enseignement Superieur et de la Recherche
 * French Ministry of Higher Education and Research
@@ -35,12 +37,11 @@ All of these are valid. Leave as the author has provided as long as it validates
 
 ### Acknowledgements section
 
-Please check the acknowledgements section of the article for additional funders that may not have been entered into the table. The schematron validator will present a warning if funders on the Funder Registry registry are not entered into the table - but it will not pick up every instance and will sometimes fire unnecessarily, for instance if the funder name is anglicised in the funding section but not in the funding table or if the author is acknowledging help or indirect funding. You will need to manually check and use your discretion to decide whether a funder belongs in the funding table.
+Please check the acknowledgements section of the article for additional funders that may not have been entered into the table. The schematron validator will present a warning if funders on the Funder Registry registry are not entered into the table - but it will not pick up every instance and will sometimes fire unnecessarily, for instance if the funder name is anglicised in the acknowledgements section but not in the funding table or if the author is acknowledging help or indirect funding. You will need to manually check and use your discretion to decide whether a funder belongs in the funding table.
 
 ## Examples
 
 * [Funder details in acknowledgements section but not in funding section](funding-information.md#funder-details-in-acknowledgements-section-but-not-in-funding-section)
-* [Incomplete funding information in acknowledgements](funding-information.md#incomplete-funding-information-in-acknowledgements)
 * [Multiple grant references in one entry](funding-information.md#multiple-grant-references-in-one-entry)
 * [Third-party funding vs funding to authors](funding-information.md#third-party-funding-vs-funding-to-authors)
 * [Splitting out parent and sub-funders](funding-information.md#splitting-out-parent-and-sub-funders)
@@ -51,7 +52,7 @@ Please check the acknowledgements section of the article for additional funders 
 
 ### Funder details in acknowledgements section but not in funding section
 
-In this article \(51144\), the acknowledgements section states:
+In article 51144, the acknowledgements section states:
 
 > We thank Shellee Cunnington, Mark Cafaro, and Jim Kuchenbecker for technical assistance. Tissue was provided by the Tissue Distribution Program at the Washington National Primate Research Center \(WaNPRC; supported through NIH grant P51 OD-010425\), and we thank the WaNPRC staff, particularly Chris English and Audrey Baldessari, for making these experiments possible. Fred Rieke and Chris Chen assisted in tissue preparation. We thank Fred Rieke for helpful discussions. We also thank Ione Fine, Phil Mardoum, Christian Puller, and Greg Schwartz for feedback on a previous version of this manuscript. This work was supported in part by grants from the NIH \(NEI R01-EY027323 to MBM; NEI R01-EY029247 to EJC, FR, and MBM.; NEI P30-EY001730 to the Vision Core\), Research to Prevent Blindness Unrestricted Grant \(to the University of Washington Department of Ophthalmology\), **Latham Vision Research Innovation Award \(to MBM\), and the Alcon Young Investigator Award \(to MBM\).**
 
@@ -76,13 +77,12 @@ When this article came out of pre-editing, the information for the Latham Vision
 
 #### For the Alcon Research Institute
 
-1. Check the acknowledgements section for any grant reference information. In this case, the text reads: ‘Alcon Young Investigator Award \(to MBM\)’
-2. Doing an online search for ‘Alcon Young Investigator Award’ brings up [this page](https://www.alcon.com/alcon-research-institute), suggesting the funder is called Alcon Research Institute, and the award itself is the Alcon Young Investigator Award
-3. Enter this information in the funding table and assign the correct author \(in this case, it would be ‘MBM’ i.e. Michael B Manookin\)
+1. Search for ‘Alcon Young Investigator Award’ online - which brings up [this page](https://www.alcon.com/alcon-research-institute), suggesting the funder is called Alcon Research Institute, and the award itself is the Alcon Young Investigator Award
+2. Enter this information in the funding table and assign the correct author \(in this case, it would be ‘MBM’ i.e. Michael B Manookin\)
 
 ![](../../.gitbook/assets/3.png)
 
-In this article \(50927\), the acknowledgements section states:
+In article 50927, the acknowledgements section states:
 
 > This work was supported by the National Institutes of Health through **National Institute of Neurological Disorders and Stroke grants R01-NS084142, R01-NS095368, and R01-NS110669**, the Gatsby Charitable Trust, the Simons Foundation, and NSF NeuroNex Award DBI-1707398. We thank Steven Siegelbaum, Kenneth Miller, Sean Escola, Ning Qian, and colleagues at Columbia Neurotheory Center for their useful discussions and suggestions.
 
@@ -100,26 +100,6 @@ The steps to take in this case are:
 * Please check that the edited funding details are still correct.
 
 ![](../../.gitbook/assets/5.png)
-
-### Incomplete funding information in acknowledgements
-
-Sometimes funding information \(names of funders or grant references\) is not included in the acknowledgements. If the acknowledgements section includes funder names but no grant references, it is up to the authors to add these if they want to/if it is relevant. If they haven’t added them, we can just leave the grant reference field blank.
-
-In the example below, the acknowledgements section doesn’t include any grant reference numbers:
-
-> We thank Beate Lichtenberger and Rune Toftgård for valuable discussions and feedback on the manuscript, Sunny Wong and Scott Atwood for sharing important scientific insights, Maryam Saghafian for her help with mouse work, Mayumi Ito and Chae Ho Lim for their advice to perform the alkaline phosphatase assay, Maria Hölzl for embryonic mouse skin sections, Alexandra Joyner for sharing the Gli1creERT2 and Gli1LacZ mice, Hans Clevers for sharing the Lgr6creERT2 mice, and Benoit de Crombrugghe for sharing the Col1a2creER mice. This work was supported by grants from the Swedish Cancer Society, Swedish Research Council, Swedish Foundation for Strategic Research, Center for Innovative Medicine, and Ragnar Söderberg Foundation to MK, the Swedish Cancer Society, and Swedish Society for Medical Research to MG, the Wenner-Gren Foundation to TD, and Karolinska Institutet KID funding to SJ, TJ and KA. Parts of this study were performed at the Live Cell Imaging facility/Nikon Center of Excellence, Department of Biosciences and Nutrition, Karolinska Institutet. The authors have no conflicts of interest to declare.
-
-However the authors have provided some of these in their funding table:
-
-![](../../.gitbook/assets/6.png)
-
-Note that the entry for ‘Swedish Society for Medical Research’ doesn’t have any grant reference information. This is ok to leave.
-
-The acknowledgements section may not include any funding information at all, but only have this entered in the funding table \(see below example from 52676\). 
-
-![](../../.gitbook/assets/screenshot-2020-03-18-at-14.06.59.png)
-
-This is also okay to leave. 
 
 Some funders can be tricky to track down. For example, the acknowledgements section of 51440 states:
 
@@ -149,13 +129,19 @@ In this case, split the grant references into two entries, enter the same author
 
 ![](../../.gitbook/assets/8.png)
 
+Note that some grant references do include commas however. For example, in 53308: 
+
+![](../../.gitbook/assets/screenshot-2020-04-07-at-11.38.37.png)
+
+This is referring to a single grant - the project ID is just giving more information. This does not need to be split into multiple entries.
+
 ### Third-party funding vs funding to authors
 
 Sometimes authors will include information about third-party funders in their acknowledgements. Third party funding is any funding that did not go directly to the authors but to the institutes or labs they work at. These funders do not need to be listed in the funding table as they did not directly fund the work presented in the paper. For example, the acknowledgements section of 51915 states:
 
 > The authors thank Drs. Silvia Arber, Ruth Ashery-Padan, James Li, Andrew McMahon, Michael Robinson, David Ornitz, Xin Sun and Stephen Tsang for mice, Drs. Bridget Hogan, Gord Fishell, Suzanne Mansour and Gail Martin for in situ probes. We also thank Drs. Carlo Maurer and Kenneth Olive for help with Laser Capture Microscopy, Drs. Howard Worman and Ji-Yeon Shin for advice on Lamin A/C antibody, Dr. Mukesh Bansal for bioinformatics analysis, Joseph Ryo for critical reading of the manuscript. The work was supported by NIH \(EY017061 and EY025933 to XZ\). **The Columbia Ophthalmology Core Facility is supported by NIH Core grant 5P30EY019007 and unrestricted funds from Research to Prevent Blindness \(RPB\).** XZ is supported by Jules and Doris Stein Research to Prevent Blindness Professorship. AG was a recipient of STARR fellowship. QW is supported by a Postdoctoral Fellowship from Natural Sciences and Engineering Research Council of Canada.
 
-This information does not need to be added to the funding table as it refers to the Columbia Ophthalmology Core Facility and not a specific author. Note that the schematron validator would show the following warning \(with the doi for NIH listed\): 
+This information does not need to be added to the funding table as it refers to the Columbia Ophthalmology Core Facility and not a specific author. Note that the schematron validator would show the following [warning](funding-information.md#fundref-test-1) \(with the doi for NIH listed\): 
 
 > Acknowledgements contains funder\(s\) in the open funder registry, but their doi is not listed in the funding section. Please check -
 
@@ -163,7 +149,9 @@ However, this is okay to ignore in this case.
 
 ### Splitting out parent and sub-funders
 
-When parent and sub-funders are both listed in the acknowledgements, the sub-funder should be entered into the funding table. For example, the National Institutes of Health is a parent funder with many sub-funders. In this article \(50927\), the acknowledgements section states:
+Many funders are sub-funders of parent funding bodies. As a general rule, we need to be as specific as possible when editing entries in the funding table, and credit the sub-funder where appropriate.
+
+When parent and sub-funders are both listed in the acknowledgements, the sub-funder should be entered into the funding table. For example, the National Institutes of Health is a parent funder with many sub-funders. In article 50927, the acknowledgements section states:
 
 > This work was supported by the **National Institutes of Health through National Institute of Neurological Disorders and Stroke** grants R01-NS084142, R01-NS095368, and R01-NS110669, the Gatsby Charitable Trust, the Simons Foundation, and NSF NeuroNex Award DBI-1707398. We thank Steven Siegelbaum, Kenneth Miller, Sean Escola, Ning Qian, and colleagues at Columbia Neurotheory Center for their useful discussions and suggestions.
 
@@ -173,7 +161,11 @@ Another example of this is the Horizon 2020 funding given out by the European Co
 
 > We thank D Thomas Rutkowski for providing Atf6-/- MEFs and Svenja Siebels for helpful advice on the DPI-ELISA. This study was supported by the Deutsche Forschungsgemeinschaft \(BR 1730/6-1 to WB\), the **EU Horizon 2020 Marie Sklodowska-Curie ITN-TREATMENT** \(Grant 721236 to BT\), the German-Israeli Foundation \(Grant I-1471–414.13/2018 to BT\), and Giovanni Armenise-Harvard Foundation \(Career Development Award to EvA\).
 
-The parent funder here is Horizon 2020, which is listed in the Funder Registry. However, to be as specific as possible, H2020 Marie Skłodowska-Curie Actions should be entered, as this is also in the Funder Registry. As a general rule, you should be as specific as possible in the funding table.
+The parent funder here is Horizon 2020, which is listed in the Funder Registry. However, to be as specific as possible, H2020 Marie Skłodowska-Curie Actions should be entered, as this is also in the Funder Registry.
+
+Sometimes, authors will enter programs as main funders. If the authors have entered a details for specific program as a funder \(e.g. 'Lois Pope LIFE Fellows Program'\), check whether this is an award issued by a funding body which is in the registry \(in this case, that would be the [University of Miami](http://biomed.med.miami.edu/graduate-programs/neuroscience/events/lois-pope-life-fellowship-awards)\). The program name should then be moved to the grant reference column and the funding body's name entered in its place:
+
+![](../../.gitbook/assets/screenshot-2020-04-07-at-12.21.02.png)
 
 ### Funders that are in Funder Registry but hard to track down - non-English funder names that require translation
 
@@ -185,7 +177,7 @@ Some funders in the Funder Registry will not validate unless they are entered in
 
 ### Funders not in the Funder Registry
 
-In this example \(51928\), the acknowledgements section states:
+In article 51928, the acknowledgements section states:
 
 > This work was supported by Baylor College of Medicine, Texas Children’s Hospital, the National Institute of Neurological Disorders and Stroke \(AMB: F31NS101891, JJW: F31NS092264, RVS: R01NS089664 and R01NS100874\), the Eunice Kennedy Shriver National Institute of Child Health and Human Development \(U54HD083092\), a BCM IDDRC Project Development Award, **the Hamill Foundation**, the Mrs. Clifford Elder White Graham Endowed Research Fund, and the Bachmann-Strauss Dystonia and Parkinson Foundation, Inc. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Center for Research Resources or the National Institutes of Health.
 
@@ -193,19 +185,25 @@ When adding the Hamill Foundation as a funder, it did not validate against the F
 
 ![](../../.gitbook/assets/9.png)
 
-The following schematron warning was present: 
+The following schematron [warning](funding-information.md#institution-id-test) was present: 
 
-> Whenever possible, institution-id\[@institution-id-type="FundRef"\] should be present in institution-wrap; warn staff if not
+> Whenever possible, a funder should have a doi - please check whether there is an appropriate doi in the open funder registry. \(institution-id\[@institution-id-type="FundRef"\] is not present in institution-wrap\).
 
 An online search for 'Hamill Foundation' leads to [this page](https://www.guidestar.org/profile/23-7028238). As this looks like a legitimate funder, we can ignore the schematron warning in this case.  
 
+The funding table may also already have unvalidated funders in it. For example, in article 51712:
+
+![](../../.gitbook/assets/screenshot-2020-04-07-at-12.58.29.png)
+
+An online search for the 'Triad Foundation' leads to [this page](https://fconline.foundationcenter.org/fdo-grantmaker-profile?collection=grantmakers&key=TRIA018). As this looks like a legitimate funder, the schematron warning can be ignored. 
+
 ### Examples of when to ignore/pay attention to the schematron messages
 
-In 49392, the acknowledgements section states:
+In article 49392, the acknowledgements section states:
 
 > This work was supported by Grants-in-aid for Scientific Research from the Ministry of Education, Culture, Sports, Science and Technology \(MEXT\) of Japan \(26221005\); the Project for Development of Innovative Research on Cancer Therapeutics \(P-DIRECT\) \(14069014\) and the Project for Cancer Research And Therapeutic Evolution \(P-CREATE\) from **Japan Agency for Medical Research and Development \(AMED\)**; a grant from Tokyo Biochemical Research Foundation; a Keio Gijuku Academic Development Funds. We would like to thank Miyuki Saito for technical assistance and JeongHoon Park, Misako Horikawa, and Ryoko Suzuki for preparation of the manuscript.
 
-The following schematron warning fired:
+The following [schematron warning](funding-information.md#fundref-test-1) fired:
 
 > Acknowledgements contains funder\(s\) in the open funder registry, but their doi is not listed in the funding section. Please check - Research and Development - http://dx.doi.org/10.13039/100006190.
 
@@ -219,7 +217,7 @@ In rare cases, a study will not have any funders associated with it - in which c
 
 ## Schematron warnings
 
-The following tests are run on the funding section. X or XXXXXX refers to filler text which will change depending on the article. 
+The following tests are run on the funding section. X or XXXXXX refers to quoted text which will change depending on the article. 
 
 ### Content warnings
 
@@ -251,23 +249,23 @@ For more information on splitting out grant references, see [here](funding-infor
 
 **Error:** _Award id contains - ''N/A" - This entry should be empty._
 
-**Action:** If the grant reference entry has 'N/A', please delete this text.
+**Action:** If any grant reference entry has 'N/A', please delete this text.
 
 #### award-id-test-3
 
 **Error:** _Award id contains - ''None" - This entry should be empty._
 
-**Action:** If the grant reference entry has 'None' please delete this text.
+**Action:** If any grant reference entry has 'None' please delete this text.
 
 #### award-id-test-4
 
 **Warning**: _Award id contains what looks like a broken unicode - 'XXXXXX'._
 
-**Action**: Sometimes when articles are exported from eJP, some characters appear as broken unicode. Make sure the grant reference entry does not have broken unicode - if it does, search the unicode to see what the character should be and replace accordingly. For example, in this ethics statement:
+**Action**: Sometimes when articles are exported from eJP, some characters appear as broken unicode. Make sure the grant reference entry does not have broken unicode - if it does, search for the unicode online to see what the character should be and replace accordingly. For example:
 
-> This study was performed in strict accordance with the recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institutes of Health. All of the animals were handled according to approved institutional animal care and use committee \(IACUC\) protocols \(\#07-2014\) of the Institute of Biomedical Science of the University of S`&#x00E3`o Paulo. All surgery was performed under anesthesia, and every effort was made to minimize suffering.
+![](../../.gitbook/assets/screenshot-2020-04-07-at-12.52.40.png)
 
-The character ã is appearing as broken unicode. Doing an online search for `&#x00E3` will show what the correct character should be.
+The character / is appearing as broken unicode. Doing an online search for &\#x2215 will show what the correct character should be.
 
 #### institution-id-test
 
@@ -277,7 +275,7 @@ The character ã is appearing as broken unicode. Doing an online search for `&#x
 
 If an online search shows that the funder is legitimate \(e.g. returns a website for the mentioned organisation\) but it is not on the Funder Registry and has no parent funding body, this warning can be ignored \(see [above](funding-information.md#funders-not-in-the-funder-registry)\).
 
-If the authors have entered a specific program \(e.g. 'Lois Pope LIFE Fellows Program'\), check whether this is an award issued by a funding body which is in the registry \(in this case, it would be the [University of Miami](http://biomed.med.miami.edu/graduate-programs/neuroscience/events/lois-pope-life-fellowship-awards)\). The program name should then be moved to the grant reference column and the funding body's name entered in its place. See also how to [split parent and sub-funders](funding-information.md#splitting-out-parent-and-sub-funders).
+If the authors have entered a details for specific program \(e.g. 'Lois Pope LIFE Fellows Program'\), check whether this is an award issued by a funding body which is in the registry \(in this case, that would be the [University of Miami](http://biomed.med.miami.edu/graduate-programs/neuroscience/events/lois-pope-life-fellowship-awards)\). The program name should then be moved to the grant reference column and the funding body's name entered in its place. See also how to [split parent and sub-funders](funding-information.md#splitting-out-parent-and-sub-funders).
 
 For more information on the Funder Registry, see [here](funding-information.md#funder-registry).
 
@@ -285,7 +283,7 @@ For more information on the Funder Registry, see [here](funding-information.md#f
 
 **Warning:** _Acknowledgements contains funder\(s\) in the open funder registry, but their doi is not listed in the funding section. Please check - 'XXXXXX'._
 
-**Action:** This will fire if funders are mentioned in the acknowledgements section, but have not been added to the funding table. You may need to add funders into the table, but this may not be necessary - if for example, it refers to third-party funding. It may also not be necessary if the acknowledgements section mentions institutions of the individuals they are thanking, e.g.:
+**Action:** This will fire if funders are mentioned in the acknowledgements section, but have not been added to the funding table. You may need to add funders into the table, but this may not be necessary - if for example, it refers to [third-party funding](funding-information.md#third-party-funding-vs-funding-to-authors). It may also not be necessary if the acknowledgements section mentions institutions of the individuals they are thanking, e.g.:
 
 > The authors thank \[...\] Dr. Evan Reid \(University of Cambridge\) \[...\] The Leica SP8 microscope used in this study was purchased by the University of Manchester Strategic Fund.
 
@@ -323,9 +321,13 @@ If no funders are mentioned, please leave the following author query for the aut
 
 * Please check that the edited funding details are still correct.
 
+Additionally, make sure the funding statement reads: 'The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.'
+
 If no funders are mentioned, there should be a funding statement which reads 'No external funding was received for this work.' Please add the following author query:
 
 * Please confirm whether any funding was received for this work.
+
+If the authors confirm no funding was received, make sure the funding statement reads: 'No external funding was received for this work.'
 
 #### award-group-test-1
 
@@ -375,31 +377,44 @@ If no funders are mentioned, there should be a funding statement which reads 'No
 
 ## XML structure
 
+Article with funding
+
 ```markup
 <front>
     . . .
     <article-meta>
         . . . 
         <funding-group>
-            <award-group id="fund1">
+        <funding-group>
+            <award-group id="par-1">
                 <funding-source>
                     <institution-wrap>
-                        <institution-id institution-id-type="FundRef">doi link</institution-id>
-                        <institution>Institution name</institution>
+                        <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001711</institution-id>
+                        <institution>Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung</institution>
                     </institution-wrap>
                 </funding-source>
-                <award-id>Grant reference number</award-id>
+                <award-id>PZ00P3-161472</award-id>
                 <principal-award-recipient>
-                    <name><surname>Surname of Author 1</surname>
-                    <given-names>First name of Author 1</given-names>
-                    </name><name><surname>Surname of Author 2</surname>
-                    <given-names>First name of Author 2</given-names></name>
-                </principal-award-recipient></award-group>
-            <funding-statement>Funding statement depends on whether funding was received</funding-statement>
-        </funding-group>
+                    <name><surname>Züst</surname>
+                    <given-names>Tobias</given-names></name>
+                </principal-award-recipient>
+            </award-group>
+            <funding-statement>The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.</funding-statement>
     <article-meta>
 </front>
 ```
 
+Article with no funding
 
+```markup
+<front>
+    . . .
+    <article-meta>
+        . . . 
+        <funding-group>
+            <funding-statement>No external funding was received for this work</funding-statement>
+        </funding-group>
+    <article-meta>
+<front>
+```
 
