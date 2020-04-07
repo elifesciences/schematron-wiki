@@ -31,6 +31,7 @@ Impact statements may need to be edited as follows:
 * Excepting their use in scientific terms \(e.g. ratios 1:800\), if a colon or semi-colon is present, the statement should be rephrased \(unless the article is a Replication study, in which case the statement should begin 'Editors' summary:'\).
 * Uncommon abbreviations should be spelled out per the article text.
 * Brackets are not forbidden but should be removed if not required for clarity.
+* If the statement repeats the article title at length, it should be rephrased to avoid this.
 
 Whenever an impact statement is edited, the author must be notified using the following author query:
 
@@ -56,6 +57,16 @@ For Replication studies, the impact statement is used as an 'Editors' Summary', 
 The eLife Editorial team will ideally update the impact statement before the the article is exported for processing, but sometimes this will be delayed until the decision letter/author response has been edited. In these cases, the exported impact statement will need to be replaced with the finalised Editors’ Summary as soon as this is available \(usually at the point that the DL/AR are uploaded\). This will be done by the Production team.
 
 ## Examples
+
+### Avoiding title repetition
+
+An impact statement should not simply repeat the article title and it is generally preferred that they are clearly distinct from one another. In the following case, the statement for article "TLR5 participates in the TLR4 receptor complex and promotes MyD88-dependent signaling in environmental lung injury" originally read:
+
+* "TLR5 participates in the TLR4 signaling complex and modulates the response to TLR4 ligands in mice and humans."
+
+So the first five words of both were the same, "TLR5 participates in the TLR4". To correct this, the order of words in the statement was switched around as follow:
+
+* "The response to TLR4 ligands in mice and humans is modulated by TLR5, which participates in the TLR4 signaling complex."
 
 ### Bracket use
 
@@ -235,6 +246,8 @@ The following tests are run on impact statements.
 
 ### XML structure warnings
 
+These tests check the underlying structure of the [XML](impact-statement.md#xml-structure) for impact statements. Resolving these may require the intervention of technical support.
+
 #### custom-meta-test-1
 
 **Error**: _One meta-name must be present in custom-meta._
@@ -245,31 +258,33 @@ The following tests are run on impact statements.
 
 **Error**: _The value of meta-name can only be 'Author impact statement'. Currently it is 'XXXXXX'._
 
-**Action**: XXXXXX will be the current value of `<meta-name>`. This rule will only fire for research content. Correct the value within the `<meta-name>` element so that it is 'Author impact statement'.
+**Action**: XXXXXX will be the current value of `<meta-name>`. This rule will only fire for research content, when the contents of `<meta-name>` are not 'Author impact statement'. Correct the value within the `<meta-name>` element so that it is 'Author impact statement'.
 
 #### custom-meta-test-3
 
 **Error**: _One meta-value must be present in custom-meta._
 
-**Action**: For each instance of `<custom-meta>` in the XML, there should be one and only one `<meta-value>` element. Ensure this is the case and remove extra elements of this type.
+**Action**: For each instance of `<custom-meta>` in the [XML](impact-statement.md#xml-structure), there should be one and only one `<meta-value>` element. Ensure this is the case and remove extra elements of this type.
 
 #### custom-meta-test-14
 
 **Error**: _The value of the 1st meta-name can only be 'Author impact statement'. Currently it is 'XXXXXX'._
 
-**Action**: XXXXXX will be the current value of the 1st `<meta-name>` element. This rule will only fire for feature content. Correct the value within the first `<meta-name>` in `<custom-meta>` element so that it is 'Author impact statement'.
+**Action**: XXXXXX will be the current value of the first `<meta-name>` element. This rule will only fire for feature content when the contents of the first `<meta-name>` are not 'Author impact statement'. Correct the value within the first `<meta-name>` in `<custom-meta>` element so that it is 'Author impact statement'.
 
 #### custom-meta-test-15
 
 **Error**: _The value of the 2nd meta-name can only be 'Template'. Currently it is 'XXXXX'._
 
-**Action**: XXXXXX will be the current value of the 2nd `<meta-name>` element. This rule will only fire for feature content. Correct the value within the second `<meta-name>` in `<custom-meta>` element so that it is 'Template'.
+**Action**: XXXXXX will be the current value of the 2nd `<meta-name>` element. This rule will only fire for feature content when the contents of the second `<meta-name>` are not 'Template'. Correct the value within the second `<meta-name>` in `<custom-meta>` element so that it is 'Template'.
 
 #### custom-meta-test-4
 
 **Error**: _The value of meta-value cannot be empty_
 
-**Action**: If a `<meta-value>` element is present in the XML, it must contain some content.
+**Action**: If a `<meta-value>` element is present in the XML, it must contain some content. This should contain the text for the impact statement \(see [below](impact-statement.md#xml-structure)\). If this error fires, check that an impact statement is present. If it is, this problem will likely require intervention from technical support to fix the XML conversion. If there is no impact statement, the Production team will need to be alerted so they can check the submitted article details. In the event of an export bug, they should provide the submitted impact statement that should be entered. In the unlikely event that no statement was provided in the first place, the author should be queried:
+
+* The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement that clearly explains the main results of your study.
 
 ## XML structure
 
