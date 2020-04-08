@@ -13,7 +13,7 @@ If you are looking for a list of schematron messages related to the funding sect
 * Grant references are optional. 
   * [Only one grant number](funding-information.md#multiple-grant-references-in-one-entry) should be displayed per entry in the funding table. 
   * If two or more grants are present in one entry, they should be [split into multiple funding entries](funding-information.md#multiple-grant-references-in-one-entry). 
-  * If you need to split funding entries, cross-check with the acknowledgements to see if they have specified different authors for each of the grants, and add an author query if you are unsure the split is correct.
+* Whenever the funding section is edited, an author query must be added so the authors can approve the change.
 
 ![An example of the funding table](../../.gitbook/assets/screenshot-2020-04-07-at-11.47.55.png)
 
@@ -119,7 +119,7 @@ Note that this is a complicated example, and the authors should be asked to conf
 
 ### Multiple grant references in one entry
 
-Sometimes, multiple grant references will be entered under the same funder. In the example below, the first entry for the funder 'Cancerfonden' has the grant reference 'CAN2011/1180; CAN 2018/793'. If grant references include semi-colons or commas, this usually indicates multiple grants from the same funder. 
+Sometimes, multiple grant references will be entered under the same funder. In the example below, the first entry for the funder 'Cancerfonden' has the grant reference 'CAN2011/1180; CAN 2018/793'. If grant references include semi-colons or commas, this usually indicates multiple grants from the same funder. If you need to split funding entries, cross-check with the acknowledgements to see if they have specified different authors for each of the grants, and add an author query if you are unsure the split is correct.
 
 ![](../../.gitbook/assets/7.png)
 
@@ -129,11 +129,21 @@ In this case, split the grant references into two entries, enter the same author
 
 ![](../../.gitbook/assets/8.png)
 
-Note that some grant references do include commas however. For example, in 53308: 
+Note that the presence of a comma or semi-colon doesn't always indicate that there are multiple grant references. For example, in article 53308: 
 
 ![](../../.gitbook/assets/screenshot-2020-04-07-at-11.38.37.png)
 
-This is referring to a single grant - the project ID is just giving more information. This does not need to be split into multiple entries.
+This is referring to a single grant - the 'project A09' part is just giving extra information about the project which received the grant. This does not need to be split into multiple entries. In article 49206, a grant was incorrectly split into two entries:
+
+![](../../.gitbook/assets/screen-shot-2020-04-07-at-15.42.53.png)
+
+The information in eJP was as below: 
+
+![](../../.gitbook/assets/screenshot-2020-04-08-at-10.13.26.png)
+
+In this case, 'R-GNOSIS Integrated project, grant agreement number 241796' is all referring to the same grant given out by the European Community 7th Framework. 
+
+It can be tricky to work out when grants should be split into multiple entries in the funding table. Therefore, make sure an author query is left whenever any change is made to the funding section to make sure the authors can approve the change.
 
 ### Third-party funding vs funding to authors
 
