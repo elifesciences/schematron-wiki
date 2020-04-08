@@ -23,6 +23,8 @@ If two or more references would produce the same citation, they should be distin
 
 ## What needs to be checked?
 
+## Examples
+
 ### Brackets around citations
 
 Most of the time, references citations will be contained within brackets:
@@ -71,11 +73,15 @@ However, if more than one publication is cited at the end of a sentence that men
 
 ### Citations that have not been converted properly
 
-If the authors have provided the citations in their submitted file using anothe reference style e.g. numbered references, a conversion will be run to change this to eLife style.
+If the authors have provided the citations in their submitted file using another reference style e.g. numbered references in superscript or brackets, a conversion will be run to change this to eLife style. For example,
 
-## Examples
+"Förster resonance energy transfer \(smFRET\) or colocalization single-molecule spectroscopy \(CoSMoS\) can be dramatically extended with recently developed photostable dyes \(**3,4**\)."
 
+will be converted to
 
+"Förster resonance energy transfer \(smFRET\) or colocalization single-molecule spectroscopy \(CoSMoS\) can be dramatically extended with recently developed photostable dyes \(_**Grimm et al., 2015**; **Altman et al., 2012**_\)."
+
+Most of the time this process is successful. Sometimes, however, reference citations will not be converted correctly, leaving instances of superscript or bracketed numbers where there should be a name/year citation.
 
 ## Schematron warnings
 
