@@ -59,11 +59,11 @@ should be changed to
 
 Occasionally, the authors of a cited publication may be referred to by name in the same sentence as a bracketed citation. In some of these instances, it will be appropriate to replace the author names with an unbracketed citation and delete the bracketed one. So:
 
-
+"Murakoshi et al. used a single molecule fluorescence energy transfer \(FRET\) technique to observe single molecule activation of RAS molecules in the plasma membrane of cells \(_**Murakoshi et al., 2004**_\)."
 
 could be changed to
 
-
+"_**Murakoshi et al., 2004**_ used a single molecule fluorescence energy transfer \(FRET\) technique to observe single molecule activation of RAS molecules in the plasma membrane of cells."
 
 However, if more than one publication is cited at the end of a sentence that mentions author names, this would not an appropriate change. This, for example, should be left as it stands:
 
