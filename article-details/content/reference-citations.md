@@ -115,13 +115,13 @@ Most of the time this process is successful. Sometimes, however, reference citat
 
 #### ref-xref-test-2
 
-**Warning**: _There is no space between citation and the preceding text - '' - Is this correct?_
+**Warning**: _There is no space between citation and the preceding text - ''XXXXXX" - Is this correct?_
 
 **Action:** 
 
 #### ref-xref-test-3
 
-**Warning**: _There is no space between citation and the following text - '' - Is this correct?_
+**Warning**: _There is no space between citation and the following text - ''XXXXXX" - Is this correct?_
 
 **Action:** 
 
@@ -179,7 +179,7 @@ Most of the time this process is successful. Sometimes, however, reference citat
 
 #### ref-xref-test-29	
 
-**Warning**: _citation is preceded by ''''. The 'cf.' is unnecessary and should be removed._
+**Warning**: _citation is preceded by '''XXXXXX'. The 'cf.' is unnecessary and should be removed._
 
 **Action**:
 
