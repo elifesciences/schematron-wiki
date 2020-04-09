@@ -109,7 +109,7 @@ Most of the time this process is successful. Sometimes, however, reference citat
 
 #### ref-xref-test-1
 
-**Warning**:  _- citation does not conform to house style. It should be '''' or ''''. Preceding text = '''._
+**Warning**:  _XXXXXX - citation does not conform to house style. It should be "XXXXXX" or  "XXXXXX" Preceding text = "XXXXXX"._
 
 **Action:** 
 
