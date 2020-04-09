@@ -109,79 +109,75 @@ Most of the time this process is successful. Sometimes, however, reference citat
 
 #### ref-xref-test-1
 
-**Warning**:  _XXXXXX - citation does not conform to house style. It should be "XXXXXX" or  "XXXXXX" Preceding text = "XXXXXX"._
+**Error**: _XXXXXX - citation does not conform to house style. It should be 'XXXXXX' or 'XXXXXX'. Preceding text = 'XXXXXX'._
 
-**Action:** 
+**Action**:
 
 #### ref-xref-test-2
 
-**Warning**: _There is no space between citation and the preceding text - ''XXXXXX" - Is this correct?_
-
-**Action:** 
+**Warning**: _There is no space between citation and the preceding text - XXXXXX - Is this correct?_
 
 #### ref-xref-test-3
 
-**Warning**: _There is no space between citation and the following text - ''XXXXXX" - Is this correct?_
-
-**Action:** 
+**Warning**:  _There is no space between citation and the following text - XXXXXX - Is this correct?_
 
 #### ref-xref-test-4
 
-**Warning**: _citation doesn't contain numbers, which must be incorrect - ''_
-
-**Action:** 
+**Error**: _citation doesn't contain numbers, which must be incorrect - XXXXXX_
 
 #### ref-xref-test-5
 
-**Warning**: _citation doesn't contain letters, which must be incorrect - ''_
+**Error**: _citation doesn't contain letters, which must be incorrect - XXXXXX_
 
-**Action:** 
+#### ref-xref-test-6
 
-#### ref-xref-test-19	
+**Error**: _XXXXXX - citation is in non-parenthetic style, but the preceding text ends with open parentheses, so this isn't correct._
 
-**Warning**: _' - citation doesn't start with an author's name which is incorrect._
+#### ref-xref-test-7
 
-**Action:** 
+**Error**: _XXXXXX - citation is in non-parenthetic style, but the following text ends with closing parentheses, so this isn't correct._
 
-#### ref-xref-test-20	
+#### ref-xref-test-8	xref\[@ref-type='bibr'\]	\*Warning\*: \_XXXXXX - citation is in non-parenthetic style, but the preceding text has open parentheses. Should it be in the style of XXXXXX?\_
 
-**Warning**: _citation is followed by '\);', which in turn is followed by another link. This must be incorrect \(the bracket should be removed\) - ''''._
+#### ref-xref-test-9	xref\[@ref-type='bibr'\]	\*Warning\*: \_sentence before citation has more open brackets than closed - XXXXXX - Either one of the brackets is unnecessary or the citation should be in square brackets - XXXXXX.\_
 
-**Action:** 
+#### ref-xref-test-11	xref\[@ref-type='bibr'\]	\*Warning\*: \_XXXXXX - citation is in parenthetic style, but the preceding text ends with 'XXXXXX' which suggests it should be in the style - XXXXXX\_
 
-#### ref-xref-test-21	
+#### ref-xref-test-12	xref\[@ref-type='bibr'\]	\*Warning\*: \_XXXXXX - citation is in parenthetic style, but the following text begins with 'who', which suggests it should be in the style - XXXXXX\_
 
-**Warning**: _citation is preceded by a letter or number immediately followed by '\('. Is there a space missing before the '\('? - ''''._
+#### ref-xref-test-13	xref\[@ref-type='bibr'\]	\*Warning\*: \_XXXXXX - citation is in parenthetic style, but the following text begins with 'have', which suggests it should be in the style - XXXXXX\_
 
-**Action**:
+#### ref-xref-test-23	xref\[@ref-type='bibr'\]	\*Warning\*: \_XXXXXX - citation is in parenthetic style, but the following text begins with 'found', which suggests it should be in the style - XXXXXX\_
 
-#### ref-xref-test-22	
+#### ref-xref-test-25	xref\[@ref-type='bibr'\]	\*Warning\*: \_XXXXXX - citation is in parenthetic style, but the following text begins with 'used', which suggests it should be in the style - XXXXXX\_
 
-**Warning**: _citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'? - ''''._
+#### ref-xref-test-26	xref\[@ref-type='bibr'\]	\*Warning\*: \_XXXXXX - citation is in parenthetic style, but the following text begins with 'demonstrate', which suggests it should be in the style - XXXXXX\_
 
-**Action:** 
+#### ref-xref-test-14	xref\[@ref-type='bibr'\]	\*Warning\*: \_citation is preceded by text containing much of the citation text which is possibly unnecessary - XXXXXX\_
 
-#### ref-xref-test-24	
+#### ref-xref-test-15	xref\[@ref-type='bibr'\]	\*Warning\*: \_citation is followed by text containing much of the citation text. Is this correct? - XXXXXX\_
 
-**Warning**: _citation is surrounded by square brackets, do the square brackets need removing? - '''' - it doesn't seem to be already inside round brackets \(a parenthetic reference inside parentheses\) which is against house style._
+#### ref-xref-test-16	xref\[@ref-type='bibr'\]	\*Error\*: \_citation is followed by text starting with 2 or more closing brackets, which must be incorrect - XXXXXX\_
 
-#### ref-xref-test-27	
+#### ref-xref-test-17	xref\[@ref-type='bibr'\]	\*Warning\*: \_citation is in parenthetic format - XXXXXX - but the preceding text does not contain open parentheses. Should it be in the format - XXXXXX?\_
 
-**Warning**: _citation is followed by '\) \(', which in turn is followed by another link - ''''. Should the closing and opening brackets be replaced with a '; '? i.e. ''''._
+#### ref-xref-test-18	xref\[@ref-type='bibr'\]	\*Warning\*: \_citation is in parenthetic format, but the preceding text is ', ' . Should the preceding text be '; ' instead? XXXXXX\_
 
-**Action**:
+#### ref-xref-test-19	xref\[@ref-type='bibr'\]	\*Error\*: \_XXXXXX - citation doesn't start with an author's name which is incorrect.\_
 
-#### ref-xref-test-28
+#### ref-xref-test-20	xref\[@ref-type='bibr'\]	\*Error\*: \_citation is followed by '\);', which in turn is followed by another link. This must be incorrect \(the bracket should be removed\) - 'XXXXXX'.\_
 
-**Warning**: _citation is preceded by '\) \(', which in turn is preceded by another link - ''''. Should the closing and opening brackets be replaced with a '; '? i.e. ''''._
+#### ref-xref-test-21	xref\[@ref-type='bibr'\]	\*Warning\*: \_citation is preceded by a letter or number immediately followed by '\('. Is there a space missing before the '\('? - 'XXXXXX'.\_
 
-**Action**:
+#### ref-xref-test-22	xref\[@ref-type='bibr'\]	\*Warning\*: \_citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'? - 'XXXXXX'.\_
 
-#### ref-xref-test-29	
+#### ref-xref-test-24	xref\[@ref-type='bibr'\]	\*Warning\*: \_citation is surrounded by square brackets, do the square brackets need removing? - 'XXXXXX' - it doesn't seem to be already inside round brackets \(a parenthetic reference inside parentheses\) which is against house style.\_
 
-**Warning**: _citation is preceded by '''XXXXXX'. The 'cf.' is unnecessary and should be removed._
+#### ref-xref-test-27	xref\[@ref-type='bibr'\]	\*Warning\*: \_citation is followed by '\) \(', which in turn is followed by another link - 'XXXXXX'. Should the closing and opening brackets be replaced with a '; '? i.e. 'XXXXXX'.\_
 
-**Action**:
+#### ref-xref-test-28	xref\[@ref-type='bibr'\]	\*Warning\*: \_citation is preceded by '\) \(', which in turn is preceded by another link - 'XXXXXX'. Should the closing and opening brackets be replaced with a '; '? i.e. 'XXXXXX'.\_
+
+#### ref-xref-test-29	xref\[@ref-type='bibr'\]	\*Warning\*: \_citation is preceded by 'XXXXXX'. The 'cf.' is unnecessary and should be removed.\_
 
 ### XML structure
 
