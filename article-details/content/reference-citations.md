@@ -23,25 +23,39 @@ If two or more references would produce the same citation, they should be distin
 
 ## What needs to be checked?
 
+Most of the major possible issues with reference citations will be picked up by schematron rules. It is however important to be aware of the style rules relating to the following when adding or removing reference citations:
+
+* Brackets around citations \(when to use, when these are not required\)
+* ; should be used as a separator between citations
+* How to identify unconverted citations
+
+Examples of these can be found in the next section.
+
 ## Examples
 
 ### Brackets around citations
 
-Most of the time, references citations will be contained within brackets:
+Most of the time, references citations will be contained within parentheses:
 
 "Correspondingly, the inactivation of PDGFα receptor \(PDGFRα\), which is majorly expressed in OPCs \(_**Pringle et al., 1992**_\), results in . . ."
 
-Multiple reference citations may appear within one set of brackets:
+Multiple reference citations may appear within one set of parentheses:
 
 "On the one hand, behavioral and task-set learning are modeled on an abstract, psychological level \(_**Botvinick et al., 2009**_; _**Collins and Koechlin, 2012**_; _**Donoso et al., 2014**_\)."
 
-Where references are cited within a bracketed statement, square brackets may be used to separate them from the text. This is the only time it is appropriate to use square brackets around a citation:
+Where references are cited within a parenthetical statement, square brackets may be used to separate them from the text. This is the only time it is appropriate to use square brackets around a citation:
 
 ". . . behavioral policy \(recurrent versus open-ended sessions, while controlling for trial perceived difficulty, as implemented by reaction times \[_**Shenhav et al., 2013**_; _**Shenhav et al., 2014**_\]\)."
 
-Citations in brackets may be accompanied by additional text, usually a direction to the reader. For example, "\(see _**Smith et al., 2010**_\)" or "\(_**Dare et al., 1950**_; _**Morgan et al., 1953**_; for a review, see _**Ellis, 2004**_\)". In these cases, square brackets are not required. 
+Citations in parentheses may be accompanied by additional text, usually a direction to the reader. For example, "\(see _**Smith et al., 2010**_\)" or "\(_**Dare et al., 1950**_; _**Morgan et al., 1953**_; for a review, see _**Ellis, 2004**_\)". In these cases, square brackets are not required. 
 
-Where multiple sets of bracketed citations occur one after the other, these should be merged together. This applies to both reference and asset citations, which should be combined into the same set of brackets if they occur together. So, for example, “\(_**Figure 1**_\) \(_**Harrison et al, 2020**_; _**Albert and Smith, 1998**_\)” should be changed to “\(_**Figure 1**_; _**Harrison et al, 2020**_; _**Albert and Smith, 1998**_\)”.
+Where multiple sets of parenthetical citations occur one after the other, these should be merged together. This applies to both reference and asset citations, which should be combined into the same set of brackets if they occur together. So, for example
+
+ “\(_**Figure 1**_\) \(_**Harrison et al, 2020**_; _**Albert and Smith, 1998**_\)”
+
+should be changed to
+
+“\(_**Figure 1**_; _**Harrison et al, 2020**_; _**Albert and Smith, 1998**_\)”.
 
 ### Citations that do not require brackets
 
@@ -49,9 +63,15 @@ Authors will sometimes use a name/year citation as a part of a sentence. For exa
 
 "In consistent with our results, _**Shin et al., 2014**_ also found that Akt activity is not affected by Gab1 deletion in SCs."
 
-In these cases, no brackets are required around the citation. If brackets are provided for these cases, they should be removed. So "\(_**Shin et al., 2014**_\) also found that . . ." would need to be changed to "_**Shin et al., 2014**_ also found that . . ."
+In these cases, no parentheses are required around the citation. If parentheses are provided for these cases, they should be removed. So
 
-Similarly, if a sentence refers to something _in_ a particular reference, brackets are not required. Small gramatical changes may be necessary in such cases. The following:
+"\(_**Shin et al., 2014**_\) also found that . . ."
+
+would need to be changed to
+
+"_**Shin et al., 2014**_ also found that . . ."
+
+Similarly, if a sentence refers to something _in_ a particular reference, parentheses are not required. Small grammatical changes may be necessary in such cases. The following:
 
 “Peptide arrays were purchased from the MIT Biopolymers Laboratory as described previously in \(_**Karagöz et al., 2017**_; _**Gardner and Walter, 2011**_\).”
 
@@ -59,7 +79,7 @@ should be changed to
 
 “Peptide arrays were purchased from the MIT Biopolymers Laboratory as described previously in _**Karagöz et al., 2017**_ and _**Gardner and Walter, 2011**_.”
 
-Occasionally, the authors of a cited publication may be referred to by name in the same sentence as a bracketed citation. In some of these instances, it will be appropriate to replace the author names with an unbracketed citation and delete the bracketed one. So:
+Occasionally, the authors of a cited publication may be referred to by name in the same sentence as a parenthetical citation. In some of these instances, it will be appropriate to replace the author names with a non-parenthetical citation and delete the parenthetical one. So:
 
 "Murakoshi et al. used a single molecule fluorescence energy transfer \(FRET\) technique to observe single molecule activation of RAS molecules in the plasma membrane of cells \(_**Murakoshi et al., 2004**_\)."
 
@@ -75,7 +95,7 @@ However, if more than one publication is cited at the end of a sentence that men
 
 If the authors have provided the citations in their submitted file using another reference style e.g. numbered references in superscript or brackets, a conversion will be run to change this to eLife style. For example,
 
-"Förster resonance energy transfer \(smFRET\) or colocalization single-molecule spectroscopy \(CoSMoS\) can be dramatically extended with recently developed photostable dyes \(**3,4**\)."
+"Förster resonance energy transfer \(smFRET\) or colocalization single-molecule spectroscopy \(CoSMoS\) can be dramatically extended with recently developed photostable dyes \[**3,4**\]."
 
 will be converted to
 
