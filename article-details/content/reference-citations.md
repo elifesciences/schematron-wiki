@@ -21,6 +21,8 @@ If two or more references would produce the same citation, they should be distin
 * Smith et al., 2010a
 * Smith et al., 2010b
 
+In most cases, reference citations will appear inside brackets. Where multiple references are cited in one set of brackets, each citation should be separated from the next with a semi-colon followed by a space. There should be a space between the word that preceeds the citations and the opening bracket.
+
 ## What needs to be checked?
 
 Most of the major possible issues with reference citations will be picked up by schematron rules. It is however important to be aware of the style rules relating to the following when adding or removing reference citations:
