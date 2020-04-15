@@ -153,9 +153,13 @@ Most of the time this process is successful. Sometimes, however, reference citat
 
 **Warning**: _XXXXXX - citation is in parenthetic style, but the following text begins with 'who', which suggests it should be in the style - XXXXXX_
 
-#### ref-xref-test-13	xref\[@ref-type='bibr'\]	\*Warning\*: \_XXXXXX - citation is in parenthetic style, but the following text begins with 'have', which suggests it should be in the style - XXXXXX\_
+#### ref-xref-test-13
 
-#### ref-xref-test-23	xref\[@ref-type='bibr'\]	\*Warning\*: \_XXXXXX - citation is in parenthetic style, but the following text begins with 'found', which suggests it should be in the style - XXXXXX\_
+**Warning**: _XXXXXX - citation is in parenthetic style, but the following text begins with 'have', which suggests it should be in the style - XXXXXX_
+
+#### ref-xref-test-23
+
+**Warning**: _XXXXXX - citation is in parenthetic style, but the following text begins with 'found', which suggests it should be in the style - XXXXXX_
 
 #### ref-xref-test-25	xref\[@ref-type='bibr'\]	\*Warning\*: \_XXXXXX - citation is in parenthetic style, but the following text begins with 'used', which suggests it should be in the style - XXXXXX\_
 
