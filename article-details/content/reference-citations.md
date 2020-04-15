@@ -137,13 +137,21 @@ Most of the time this process is successful. Sometimes, however, reference citat
 
 **Error**: _XXXXXX - citation is in non-parenthetic style, but the following text ends with closing parentheses, so this isn't correct._
 
-#### ref-xref-test-8	xref\[@ref-type='bibr'\]	\*Warning\*: \_XXXXXX - citation is in non-parenthetic style, but the preceding text has open parentheses. Should it be in the style of XXXXXX?\_
+#### ref-xref-test-8
 
-#### ref-xref-test-9	xref\[@ref-type='bibr'\]	\*Warning\*: \_sentence before citation has more open brackets than closed - XXXXXX - Either one of the brackets is unnecessary or the citation should be in square brackets - XXXXXX.\_
+**Warning**: _XXXXXX - citation is in non-parenthetic style, but the preceding text has open parentheses. Should it be in the style of XXXXXX?_
 
-#### ref-xref-test-11	xref\[@ref-type='bibr'\]	\*Warning\*: \_XXXXXX - citation is in parenthetic style, but the preceding text ends with 'XXXXXX' which suggests it should be in the style - XXXXXX\_
+#### ref-xref-test-9
 
-#### ref-xref-test-12	xref\[@ref-type='bibr'\]	\*Warning\*: \_XXXXXX - citation is in parenthetic style, but the following text begins with 'who', which suggests it should be in the style - XXXXXX\_
+**Warning**: _sentence before citation has more open brackets than closed - XXXXXX - Either one of the brackets is unnecessary or the citation should be in square brackets - XXXXXX._
+
+#### ref-xref-test-11
+
+**Warning**: _XXXXXX - citation is in parenthetic style, but the preceding text ends with 'XXXXXX' which suggests it should be in the style - XXXXXX_
+
+#### ref-xref-test-12
+
+**Warning**: _XXXXXX - citation is in parenthetic style, but the following text begins with 'who', which suggests it should be in the style - XXXXXX_
 
 #### ref-xref-test-13	xref\[@ref-type='bibr'\]	\*Warning\*: \_XXXXXX - citation is in parenthetic style, but the following text begins with 'have', which suggests it should be in the style - XXXXXX\_
 
