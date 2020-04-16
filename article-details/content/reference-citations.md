@@ -81,7 +81,9 @@ should be changed to
 
 “Peptide arrays were purchased from the MIT Biopolymers Laboratory as described previously in _**Karagöz et al., 2017**_ and _**Gardner and Walter, 2011**_.”
 
-Occasionally, the authors of a cited publication may be referred to by name in the same sentence as a parenthetical citation. In some of these instances, it will be appropriate to replace the author names with a non-parenthetical citation and delete the parenthetical one. So:
+### Citations following mentions of author names
+
+Occasionally, the authors of a cited publication may be referred to by name in the same sentence as a parenthetical citation. If the citation appears in parentheses immediately after the author names, it may be appropriate to replace the author names with a non-parenthetical citation and delete the parenthetical one. So:
 
 "Murakoshi et al. \(_**Murakoshi et al., 2004**_\) used a single molecule fluorescence energy transfer \(FRET\) technique to observe single molecule activation of RAS molecules in the plasma membrane of cells."
 
@@ -89,7 +91,7 @@ could be changed to
 
 "_**Murakoshi et al., 2004**_ used a single molecule fluorescence energy transfer \(FRET\) technique to observe single molecule activation of RAS molecules in the plasma membrane of cells."
 
-However, if more than one publication is cited at the end of a sentence that mentions author names, this would not an appropriate change. This, for example, should be left as it stands:
+However, if the citation is at the end of the sentence, or more than one publication is cited after the author name\(s\), this would not an appropriate change. This, for example, should be left as it stands:
 
 "Pearce et al. designed a framework based on variable-order Markov models that learns statistics describing the temporal sequences in melodic sequences at various time-scales \(IDyOM; _**Pearce, 2005**_; _**Pearce and Wiggins, 2006\)**_."
 
