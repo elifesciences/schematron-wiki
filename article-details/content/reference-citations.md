@@ -83,7 +83,7 @@ should be changed to
 
 Occasionally, the authors of a cited publication may be referred to by name in the same sentence as a parenthetical citation. In some of these instances, it will be appropriate to replace the author names with a non-parenthetical citation and delete the parenthetical one. So:
 
-"Murakoshi et al. used a single molecule fluorescence energy transfer \(FRET\) technique to observe single molecule activation of RAS molecules in the plasma membrane of cells \(_**Murakoshi et al., 2004**_\)."
+"Murakoshi et al. \(_**Murakoshi et al., 2004**_\) used a single molecule fluorescence energy transfer \(FRET\) technique to observe single molecule activation of RAS molecules in the plasma membrane of cells."
 
 could be changed to
 
