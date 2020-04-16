@@ -95,6 +95,10 @@ However, if the citation is at the end of the sentence, or more than one publica
 
 "Pearce et al. designed a framework based on variable-order Markov models that learns statistics describing the temporal sequences in melodic sequences at various time-scales \(IDyOM; _**Pearce, 2005**_; _**Pearce and Wiggins, 2006\)**_."
 
+
+
+Statistical analysis: we used the Lilliefors test \(&lt;xref ref-type="bibr" rid="bib48"&gt;Lilliefors, 1967&lt;/xref&gt;\) to assure that in most of the cases, th
+
 ### Citations that have not been converted properly
 
 If the authors have provided the citations in their submitted file using another reference style e.g. numbered references in superscript or brackets, a conversion will be run to change this to eLife style. For example,
