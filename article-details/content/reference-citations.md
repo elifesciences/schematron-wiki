@@ -167,7 +167,7 @@ Most of the time this process is successful. Sometimes, however, reference citat
 
 **Warning**: _citation is preceded by text containing much of the citation text which is possibly unnecessary - XXXXXX_
 
-**Action**: 
+**Action**: This will fire if the author of a reference is mentioned in close proximity to the citation of that reference. It might indicate that the citation needs to take the place of the author name\(s\). See [above](reference-citations.md#citations-close-to-mentions-of-author-names) for examples of how to deal with this. This warning can be ignored if it is no appropriate to make a change.
 
 #### ref-xref-test-15
 
