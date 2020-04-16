@@ -95,9 +95,9 @@ However, if the citation is at the end of the sentence, or more than one publica
 
 "Pearce et al. designed a framework based on variable-order Markov models that learns statistics describing the temporal sequences in melodic sequences at various time-scales \(IDyOM; _**Pearce, 2005**_; _**Pearce and Wiggins, 2006\)**_."
 
+Please note that in some cases, the author of the reference will be mentioned in the context of a scientific term or method. In these cases, it is absolutely fine to leave the reference in brackets, as in the following:
 
-
-Statistical analysis: we used the Lilliefors test \(&lt;xref ref-type="bibr" rid="bib48"&gt;Lilliefors, 1967&lt;/xref&gt;\) to assure that in most of the cases, th
+". . . we used the Lilliefors test \(_**Lilliefors, 1967**_\) to assure that in most of the cases . . ."
 
 ### Citations that have not been converted properly
 
