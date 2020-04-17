@@ -125,7 +125,7 @@ Please be aware of this issue when dealing with uncited references: that may be 
 
 If, for example, only the year for a reference citation is present within the link \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\), or an alternate name/year citation style such as 'Smith \(2010\)' \( `<xref ref-type="bibr" rid="bib16">Smith (2010)</xref>`\) has been used, this should be corrected to the standard citation style.
 
-XXXXXX in this message will be replaced with the incorrect citation, the proposed correct citation and the text the precedes the citation, respectively.
+XXXXXX in this message will be the incorrect citation, the proposed correct citation and the text the precedes the citation, respectively.
 
 #### final-ref-xref-test-1
 
@@ -135,7 +135,7 @@ XXXXXX in this message will be replaced with the incorrect citation, the propose
 
 If, for example, only the year for a reference citation is present within the link \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\), this should be corrected to the standard citation style. However, during author proofing, the authors may request that an alternate style such as 'Smith \(2010\)' be used for particular reference citaitons. In the case where this has been explicitly requested, the indicated citations may be left in this alternate style and this warning can be ignored.
 
-XXXXXX in this message will be replaced with the incorrect citation, the proposed correct citation and the text the precedes the citation, respectively.
+XXXXXX in this message will be the incorrect citation, the proposed correct citation and the text the precedes the citation, respectively.
 
 #### ref-xref-test-2
 
@@ -143,63 +143,61 @@ XXXXXX in this message will be replaced with the incorrect citation, the propose
 
 **Action**: This warning will fire if a reference citation runs on with the text immediately before it, e.g. ". . . as described previously in_**Karagöz et al., 2017**_." This can happen if, for example, a citation was incorrectly converted from superscript number citation style, or if a new citation was added without appropriate spacing. To resolve the warning, add the missing space.
 
-XXXXXX in this message will show were the citation runs on with the text.
+XXXXXX in this message will be the text where the citation runs on with the text.
 
 #### ref-xref-test-3
 
 **Warning**: _There is no space between citation and the following text - XXXXXX - Is this correct?_
 
-**Action**: This warning will fire if a reference citation runs on with the text immediately after it, e.g. ". . . as described previously in _**Karagöz et al., 2017**_and . . ." This can happen if, for example, a citation was incorrectly converted from superscript number citation style, or if a new citation was added without appropriate spacing. To resolve the warning, add the missing space.
-
-XXXXXX in this message will show were the citation runs on with the text.
+**Action**: This warning will fire if a reference citation runs on with the text immediately after it, e.g. ". . . as described previously in _**Karagöz et al., 2017**_and . . ." This can happen if, for example, a citation was incorrectly converted from superscript number citation style, or if a new citation was added without appropriate spacing. To resolve the warning, add the missing space. XXXXXX in this message will be the text that needs checking.
 
 #### ref-xref-test-4
 
 **Error**: _citation doesn't contain numbers, which must be incorrect - XXXXXX_
 
-**Action**: 
+**Action**: This error will fire in a reference citation does not contain any numbers, e.g. it is just 'Smith et al.,' rather than 'Smith et al., 2010  \( `<xref ref-type="bibr" rid="bib16">Smith et al.,</xref>`\). Correct the citation text so that both name and year are present. XXXXXX in this message will be the current, incorrect citation text.
 
 #### ref-xref-test-5
 
 **Error**: _citation doesn't contain letters, which must be incorrect - XXXXXX_
 
-**Action**: 
+**Action**: This error will fire in a reference citation does not contain any numbers, e.g. it is just '2010' rather than 'Smith et al., 2010  \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\). Correct the citation text so that both name and year are present. XXXXXX in this message will be the current, incorrect citation text.
 
 #### ref-xref-test-11
 
 **Warning**: _'XXXXXX' - citation is preceded by text ending with a possessive, preposition or verb and bracket which suggests the bracket should be removed._
 
-**Action**: 
+**Action**: This warning will indicate instances such as ". . . as described previously in \(_**Karagöz et al., 2017**_\)", where it might not be appropriate to have the citation in parentheses. If the citation is part of the flow of the sentence, the parentheses should be removed. Please note that this message may appear even when the current text is fine \(e.g. \). See [above](reference-citations.md#citations-that-do-not-require-brackets) for more on when removing brackets is appropriate. XXXXXX in this message will be the text that needs checking.
 
 #### ref-xref-test-12
 
 **Warning**: _'XXXXXX' - citation is followed by a bracket and a possessive, preposition or verb which suggests the bracket is unnecessary._
 
-**Action**: 
+**Action**: This warning will indicate instances such as "\(_**Shin et al., 2014**_\) also found that . . .", where it might not be appropriate to have the citation in parentheses. If the citation is part of the flow of the sentence, the parentheses should be removed. Please note that this message may appear even when the current text is fine \(e.g. \). See [above](reference-citations.md#citations-that-do-not-require-brackets) for more on when removing brackets is appropriate. XXXXXX in this message will be the text that needs checking.
 
 #### ref-xref-test-14
 
 **Warning**: _citation is preceded by text containing much of the citation text which is possibly unnecessary - XXXXXX_
 
-**Action**: This will fire if the author of a reference is mentioned in close proximity to the citation of that reference. It might indicate that the citation needs to take the place of the author name\(s\). See [above](reference-citations.md#citations-close-to-mentions-of-author-names) for examples of how to deal with this. This warning can be ignored if it is no appropriate to make a change.
+**Action**: This will fire if the author of a reference is mentioned in close proximity to the citation of that reference. It might indicate that the citation needs to take the place of the author name\(s\). See [above](reference-citations.md#citations-close-to-mentions-of-author-names) for examples of how to deal with this. This warning can be ignored if it is no appropriate to make a change. XXXXXX in this message will be the text that needs checking. XXXXXX in this message will be the text that needs checking.
 
 #### ref-xref-test-15
 
 **Warning**: _citation is followed by text containing much of the citation text. Is this correct? - 'XXXXXX'_
 
-**Action**: This will fire if the author of a reference is mentioned in close proximity to the citation of that reference. It might indicate that the citation needs to take the place of the author name\(s\). See [above](reference-citations.md#citations-close-to-mentions-of-author-names) for examples of how to deal with this. This warning can be ignored if it is no appropriate to make a change.
+**Action**: This will fire if the author of a reference is mentioned in close proximity to the citation of that reference. It might indicate that the citation needs to take the place of the author name\(s\). See [above](reference-citations.md#citations-close-to-mentions-of-author-names) for examples of how to deal with this. This warning can be ignored if it is no appropriate to make a change. XXXXXX in this message will be the text that needs checking.
 
 #### ref-xref-test-19
 
 **Error**: _XXXXXX - citation doesn't start with an author's name which is incorrect._
 
-**Action**: 
+**Action**: This error indicates that the text within a reference citation does not start with the surname of the first author in the corresponding reference. This could be related to **ref-xref-test-5**, above.  The citation text should be corrected to include the first author's surname. XXXXXX in this message will indicate the text that needs correcting.
 
 #### ref-xref-test-20
 
 **Error**: _citation is followed by '\);', which in turn is followed by another link. This must be incorrect \(the bracket should be removed\) - 'XXXXXX'._
 
-**Action**: 
+**Action**: This error will fire when a reference citation is followed by a closing parenthesis and then by a semi-colon and another citation, e.g. ". . . _**Smith et al., 2010**_\); _**Jones et al., 2019**_ . . ." This should be corrected to remove the closing bracket after the first citation, leaving only the semi-colon as a separator: ". . . _**Smith et al., 2010**_; _**Jones et al., 2019**_ . . ." XXXXXX in this message will indicate the text where this error is present.
 
 #### ref-xref-test-21
 
