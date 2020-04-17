@@ -109,7 +109,9 @@ will be converted to
 
 "Förster resonance energy transfer \(smFRET\) or colocalization single-molecule spectroscopy \(CoSMoS\) can be dramatically extended with recently developed photostable dyes \(_**Grimm et al., 2015**; **Altman et al., 2012**_\)."
 
-Most of the time this process is successful. Sometimes, however, reference citations will not be converted correctly, leaving instances of superscript or bracketed numbers where there should be a name/year citation.
+Most of the time this process is successful. Sometimes, however, reference citations will not be converted correctly, leaving instances of superscript or bracketed numbers where there should be a name/year citation. These should be replaced with the corresponding citations in eLife style.
+
+Please be aware of this issue when dealing with uncited references: that may be caused by the citations not converting correctly.
 
 ## Schematron warnings
 
@@ -119,7 +121,9 @@ Most of the time this process is successful. Sometimes, however, reference citat
 
 **Error**: _XXXXXX - citation does not conform to house style. It should be 'XXXXXX'. Preceding text = 'XXXXXX'._
 
-**Action**: 
+**Action**: This error will fire if the text within a reference citation link \(the `<xref>` element\) does not match the standard style of 'Smith, 2010' \( `<xref ref-type="bibr" rid="bib16">Smith, 2010</xref>`\), 'Smith and Jones, 2007' \( `<xref ref-type="bibr" rid="bib16">Smith and Jones, 2007</xref>`\) or 'Smith et al., 2000' \( `<xref ref-type="bibr" rid="bib16">Smith et al., 2000</xref>`\) . 
+
+If, for example, only the year for a reference citation is present within the link \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\), or an alternate name/year citation style such as 'Smith \(2010\)' \( `<xref ref-type="bibr" rid="bib16">Smith (2010)</xref>`\) has been used, this should be corrected to the standard citation style. This error will fire at the pre-author stage.
 
 #### final-ref-xref-test-1
 
