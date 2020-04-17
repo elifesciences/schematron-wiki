@@ -121,15 +121,17 @@ Please be aware of this issue when dealing with uncited references: that may be 
 
 **Error**: _XXXXXX - citation does not conform to house style. It should be 'XXXXXX'. Preceding text = 'XXXXXX'._
 
-**Action**: This error will fire if the text within a reference citation link \(the `<xref>` element\) does not match the standard style of 'Smith, 2010' \( `<xref ref-type="bibr" rid="bib16">Smith, 2010</xref>`\), 'Smith and Jones, 2007' \( `<xref ref-type="bibr" rid="bib16">Smith and Jones, 2007</xref>`\) or 'Smith et al., 2000' \( `<xref ref-type="bibr" rid="bib16">Smith et al., 2000</xref>`\) . 
+**Action**: This error will fire at the pre-author stage if the text within a reference citation link \(the `<xref>` element\) does not match the standard style of 'Smith, 2010' \( `<xref ref-type="bibr" rid="bib16">Smith, 2010</xref>`\), 'Smith and Jones, 2007' \( `<xref ref-type="bibr" rid="bib16">Smith and Jones, 2007</xref>`\) or 'Smith et al., 2000' \( `<xref ref-type="bibr" rid="bib16">Smith et al., 2000</xref>`\) . 
 
-If, for example, only the year for a reference citation is present within the link \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\), or an alternate name/year citation style such as 'Smith \(2010\)' \( `<xref ref-type="bibr" rid="bib16">Smith (2010)</xref>`\) has been used, this should be corrected to the standard citation style. This error will fire at the pre-author stage.
+If, for example, only the year for a reference citation is present within the link \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\), or an alternate name/year citation style such as 'Smith \(2010\)' \( `<xref ref-type="bibr" rid="bib16">Smith (2010)</xref>`\) has been used, this should be corrected to the standard citation style.
 
 #### final-ref-xref-test-1
 
 **Error**: _XXXXXX - citation does not conform to house style. It should be 'XXXXXX' or 'XXXXXX'. Preceding text = 'XXXXXX'._
 
-**Action**: 
+**Action**: This warning will fire at the post-author stage if the text within a reference citation link \(the `<xref>` element\) does not match the standard style of 'Smith, 2010' \( `<xref ref-type="bibr" rid="bib16">Smith, 2010</xref>`\), 'Smith and Jones, 2007' \( `<xref ref-type="bibr" rid="bib16">Smith and Jones, 2007</xref>`\) or 'Smith et al., 2000' \( `<xref ref-type="bibr" rid="bib16">Smith et al., 2000</xref>`\) . 
+
+If, for example, only the year for a reference citation is present within the link \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\), this should be corrected to the standard citation style. However, during author proofing, the authors may request that an alternate style such as 'Smith \(2010\)' be used for particular reference citaitons. In the case where this has been explicitly requested, the indicated citations may be left in this alternate style and this warning can be ignored.
 
 #### ref-xref-test-2
 
