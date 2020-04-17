@@ -223,12 +223,6 @@ XXXXXX in this message will be the text where the citation runs on with the text
 
 **Action**: This warning indicates that two citations \(to references or assets\) have been placed in two set of parentheses immediately next to each other, e.g.  “\(**Figure 1**\) \(**Harrison et al, 2020**\) ”. The two sets of parentheses should be merged and the citations should be separated with a semi-colon instead \(see [above](reference-citations.md#brackets-around-citations)\). XXXXXX in this message will indicate the text that needs to be corrected and a suggestion for how to correct it, respectively.
 
-#### err-xref-high-2-1
-
-**Error**: \[err-xref-high-2-1\] Citations in the text to references with the same author\(s\) in the same year must be arranged in the same order as the reference list. The xref with the value 'XXXXXX' is in the wrong order in the text. Check all the references to citations for the same authors to determine which need to be changed.
-
-**Action**:
-
 #### ref-presence
 
 **Error**: _element contains 'Ref.' which is either incorrect or unnecessary._
