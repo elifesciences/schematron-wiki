@@ -273,7 +273,7 @@ XXXXXX in this message will be the text where the citation runs on with the text
 
 **Action**: Reference citations should not usually contain italic formatting. The only exception to this rule is if italics are present in the name of a collaboration e.g. "The _C. elegans_ Sequencing Consortium." If the formatting is present in a collaboration name, this should be retained in the citation, "**The** _**C. elegans**_ **Sequencing Consortium, 1998**". Otherwise, italic formatting in a reference citation should be removed. XXXXXX in this message will be the citation containing italics.
 
-bibr-xref-target-test
+#### bibr-xref-target-test
 
 **Error**: xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct.
 
