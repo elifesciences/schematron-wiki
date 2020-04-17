@@ -211,5 +211,16 @@ Most of the time this process is successful. Sometimes, however, reference citat
 
 **Action**: 
 
-### XML structure
+## XML structure
+
+```markup
+Furthermore, central spindle specifiers have sperm-specific localization 
+patterns at mid-late anaphase I instead of residing strongly within the 
+spindle midzone (<xref ref-type="bibr" rid="bib13">Davies et al., 2014</xref>;
+ <xref ref-type="bibr" rid="bib14">de Carvalho et al., 2008</xref>; 
+ <xref ref-type="bibr" rid="bib16">Dumont et al., 2010</xref>; 
+ <xref ref-type="bibr" rid="bib49">Maton et al., 2015</xref>; 
+ <xref ref-type="bibr" rid="bib80">Schumacher et al., 1998</xref>; 
+ <xref ref-type="bibr" rid="bib83">Severson et al., 2000</xref>). 
+```
 
