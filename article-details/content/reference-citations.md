@@ -131,7 +131,7 @@ Most of the time this process is successful. Sometimes, however, reference citat
 
 **Warning**: _There is no space between citation and the preceding text - XXXXXX - Is this correct?_
 
-**Action**: 
+**Action**: This warning will fire if a reference citation runs on with the text immediately before it. This can happen if, for example, if a citation was incorrectly converted from superscript number citation style, or if a new citation was added without appropriate spacing.
 
 #### ref-xref-test-3
 
