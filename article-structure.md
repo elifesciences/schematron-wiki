@@ -1,6 +1,8 @@
+---
+description: An overview of the structure of an article - for reference only.
+---
+
 # Article structure
-
-
 
 ## Article structure
 
