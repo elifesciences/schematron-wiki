@@ -125,6 +125,8 @@ Please be aware of this issue when dealing with uncited references: that may be 
 
 If, for example, only the year for a reference citation is present within the link \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\), or an alternate name/year citation style such as 'Smith \(2010\)' \( `<xref ref-type="bibr" rid="bib16">Smith (2010)</xref>`\) has been used, this should be corrected to the standard citation style.
 
+XXXXXX in this message will be replaced with the incorrect citation, the proposed correct citation and the text the precedes the citation, respectively.
+
 #### final-ref-xref-test-1
 
 **Error**: _XXXXXX - citation does not conform to house style. It should be 'XXXXXX' or 'XXXXXX'. Preceding text = 'XXXXXX'._
@@ -133,17 +135,23 @@ If, for example, only the year for a reference citation is present within the li
 
 If, for example, only the year for a reference citation is present within the link \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\), this should be corrected to the standard citation style. However, during author proofing, the authors may request that an alternate style such as 'Smith \(2010\)' be used for particular reference citaitons. In the case where this has been explicitly requested, the indicated citations may be left in this alternate style and this warning can be ignored.
 
+XXXXXX in this message will be replaced with the incorrect citation, the proposed correct citation and the text the precedes the citation, respectively.
+
 #### ref-xref-test-2
 
 **Warning**: _There is no space between citation and the preceding text - XXXXXX - Is this correct?_
 
-**Action**: This warning will fire if a reference citation runs on with the text immediately before it. This can happen if, for example, if a citation was incorrectly converted from superscript number citation style, or if a new citation was added without appropriate spacing.
+**Action**: This warning will fire if a reference citation runs on with the text immediately before it, e.g. ". . . as described previously in_**Karagöz et al., 2017**_." This can happen if, for example, a citation was incorrectly converted from superscript number citation style, or if a new citation was added without appropriate spacing. To resolve the warning, add the missing space.
+
+XXXXXX in this message will show were the citation runs on with the text.
 
 #### ref-xref-test-3
 
 **Warning**: _There is no space between citation and the following text - XXXXXX - Is this correct?_
 
-**Action**: 
+**Action**: This warning will fire if a reference citation runs on with the text immediately after it, e.g. ". . . as described previously in _**Karagöz et al., 2017**_and . . ." This can happen if, for example, a citation was incorrectly converted from superscript number citation style, or if a new citation was added without appropriate spacing. To resolve the warning, add the missing space.
+
+XXXXXX in this message will show were the citation runs on with the text.
 
 #### ref-xref-test-4
 
