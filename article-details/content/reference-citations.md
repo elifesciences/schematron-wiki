@@ -155,13 +155,13 @@ XXXXXX in this message will be the text where the citation runs on with the text
 
 **Error**: _citation doesn't contain numbers, which must be incorrect - XXXXXX_
 
-**Action**: This error will fire in a reference citation does not contain any numbers, e.g. it is just 'Smith et al.,' rather than 'Smith et al., 2010  \( `<xref ref-type="bibr" rid="bib16">Smith et al.,</xref>`\). Correct the citation text so that both name and year are present. XXXXXX in this message will be the current, incorrect citation text.
+**Action**: This error will fire in a reference citation does not contain any numbers, e.g. it is just '_**Smith et al.,**_' rather than '_**Smith et al., 2010**_'  \( `<xref ref-type="bibr" rid="bib16">Smith et al.,</xref>`\). Correct the citation text so that both name and year are present. XXXXXX in this message will be the current, incorrect citation text.
 
 #### ref-xref-test-5
 
 **Error**: _citation doesn't contain letters, which must be incorrect - XXXXXX_
 
-**Action**: This error will fire in a reference citation does not contain any numbers, e.g. it is just '2010' rather than 'Smith et al., 2010  \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\). Correct the citation text so that both name and year are present. XXXXXX in this message will be the current, incorrect citation text.
+**Action**: This error will fire in a reference citation does not contain any numbers, e.g. it is just '_**2010**_' rather than '_**Smith et al., 2010**_  \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\). Correct the citation text so that both name and year are present. XXXXXX in this message will be the current, incorrect citation text.
 
 #### ref-xref-test-11
 
@@ -203,19 +203,19 @@ XXXXXX in this message will be the text where the citation runs on with the text
 
 **Warning**: _citation is preceded by a letter or number immediately followed by '\('. Is there a space missing before the '\('? - 'XXXXXX'._
 
-**Action**: 
+**Action**: This warning indicates that a citation in parentheses has run on with the text immediately preceding it, e.g. ". . . majorly expressed in OPCs\(_**Pringle et al., 1992**_\) . . ." A space should be added between the opening parenthesis and the word immediately before it. XXXXXX in this message will indicate the text that needs to be corrected.
 
 #### ref-xref-test-22
 
 **Warning**: _citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'? - 'XXXXXX'._
 
-**Action**: 
+**Action**: This warning indicates that a citation in parentheses has run on with the text immediately following it, e.g. ". . . in OPCs \(_**Pringle et al., 1992**_\)and . . ." A space should be added between the closing parenthesis and the word immediately after it. XXXXXX in this message will indicate the text that needs to be corrected.
 
 #### ref-xref-test-27
 
 **Warning**: _citation is followed by '\) \(', which in turn is followed by another link - 'XXXXXX'. Should the closing and opening brackets be replaced with a '; '? i.e. 'XXXXXX'._
 
-**Action**: 
+**Action**: This warning indicates that two citations \(to references or assets\) have been placed in two set of parentheses immediately next to each other, e.g.  “\(_**Figure 1**_\) \(_**Harrison et al, 2020**_\)”. The two sets of parentheses should be merged and the citations should be separated with a semi-colon instead \(see [above](reference-citations.md#brackets-around-citations)\). XXXXXX in this message will indicate the text that needs to be corrected and a suggestion for how to correct it, respectively.
 
 #### ref-xref-test-28
 
