@@ -1,72 +1,48 @@
+---
+description: Add a page description.
+---
+
 # Template
 
-This is a page about XXXXXX. If you want to know about XXXXX instead, please go [here]().
+## Overview
 
-## Description
-
-Briefly describe the thing this page is about
-
-## Structure
-
-What is allowed for each part/element in this item. Crosscheck against the protocol documents in [this folder](https://drive.google.com/drive/folders/0B2wDI5EMHiJ-UzctZnVBdWFwbzA).
-
-| Component | Contains | XML | Required? |
-| :--- | :--- | :--- | :---: |
-| What is it? | What goes in it? | `<xml-tagging>` | Yes/No |
+Describe what the page is about and what needs to be checked. 
 
 ## Examples
 
-### Variant 1
+Give specific examples of everything that needs to be checked/any common problems. Add sub-sections where needed, but be as succinct as possible.
 
-Display:
+This section should also list any issues that can be spotted without the need to run Schematron tests such as low figure quality, broken paragraphs, badly formatted tables etc. Crosscheck against the protocol documents in [this folder](https://drive.google.com/drive/folders/0B2wDI5EMHiJ-UzctZnVBdWFwbzA).
 
-Show what it reads as.
+## Schematron warnings
 
-XML:
-
-```text
-<show>tagging</show>
-```
-
-### Variant 2 \(if applicable\)
-
-Display:
-
-Show alternative case.
-
-XML:
-
-```text
-<show>tagging</show>
-```
-
-## Guidance
-
-This section should highlight anything that a user needs to be aware of when working with this item. Add sub-sections where needed, but be a succinct as possible.
-
-### General troubleshooting
-
-This section should list any general issues that can be spotted without the need to run Schematron tests such as low figure quality, broken paragraphs, badly formatted tables etc.
-
-### Schematron
+### Content warnings
 
 List of errors and warnings that can occur, with guidance on how to solve each problem or on when it is OK to let the warning go by and not change anything.
 
-#### ID1
+These warnings relate to the content of XXXXXX.
 
-**Rule:**
+#### id-x
 
-**Action:** What you should do if this rule fires.
+**Warning/Error:** content of message
 
-**Example:** Example change, if appropriate.
+**Action:** What to do if this message fires
 
-#### ID2
+### XML structure warnings
 
-**Rule:**
+These warnings relate to the XML structure of XXXXXX. For more information about what the XML should look like, see below \(include link to XML structure\).
 
-**Action:** What you should do if this rule fires.
+#### id-x
 
-## Further reading and links
+**Warning/Error:** content of message
+
+**Action:** What to do if this message fires
+
+## XML structure
+
+Include an example of the xml with variations if appropriate. 
+
+## Further reading
 
 Where applicable, give links to related pages and external sites.
 
