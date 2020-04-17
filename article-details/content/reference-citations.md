@@ -25,7 +25,7 @@ In most cases, reference citations will appear inside brackets. Where multiple r
 
 ## What needs to be checked?
 
-Most of the major possible issues with reference citations will be picked up by schematron rules. It is however important to be aware of the style rules relating to the following when adding or removing reference citations:
+Most of the major possible issues with reference citations will be picked up by [schematron rules](reference-citations.md#schematron-warnings). It is however important to be aware of the style rules relating to the following when adding or removing reference citations:
 
 * Brackets around citations \(when to use, when these are not required\)
 * ; should be used as a separator between citations
@@ -247,11 +247,11 @@ XXXXXX in this message will be the text where the citation runs on with the text
 
 **Action**: An article abstract should not contain any live reference citations as these cannot be rendered correctly on downstream services such as PubMed. If citations are present in the abstract, please delete them and inform the author using an author query. If these were the only citations of those references in the article \(which is usually unlikely\), please ask the author to add new citations for them in the main text. XXXXXX in this message will be the citation\(s\) in the abstract.
 
-#### xref-colum-test
+#### xref-column-test
 
 **Warning**: 'XXXXXX' citation is in a column in the Key Resources Table which usually does not include references. Is it correct?
 
-**Action**: This warning indicates that a citation has been included in the Key Resources Table outside of the 
+**Action**: This warning indicates that a citation has been included in the Key Resources Table outside of the columns 'Source or reference' or 'Additional information' \(columns 3 and 5, respetively\). This may indicate that a superscript number has been incorrectly converted to a reference citation. Check the table for the indicated citation and compare to the original file to confirm whether or not it should be present.
 
 ### XML structure warnings
 
