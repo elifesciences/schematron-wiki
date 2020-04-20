@@ -25,7 +25,7 @@ In most cases, reference citations will appear inside brackets. Where multiple r
 
 ## What needs to be checked?
 
-Most of the major possible issues with reference citations will be picked up by [schematron rules](reference-citations.md#schematron-warnings). It is however important to be aware of the style rules relating to the following when adding or removing reference citations:
+Most of the major possible issues with reference citations will be picked up by [schematron rules](reference-citations.md#schematron-warnings). It is, however, important to be aware of the style rules relating to the following when adding or removing reference citations:
 
 * Brackets around citations \(when to use, when these are not required\)
 * ; should be used as a separator between citations
