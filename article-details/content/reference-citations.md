@@ -283,7 +283,7 @@ XXXXXX in this message will be the citation containing italics.
 
 **Error**: xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct.
 
-**Action**: This error will fire if a reference citation `<xref>` \(e.g. one with the attribute `ref-type="bibr"`\) points not to some other element such as a figure. 
+**Action**: This error will fire if a reference citation `<xref>` \(e.g. one with the attribute `ref-type="bibr"`\) points not to some other element such as a figure. So, for example, a figure citation with the type "bibr" is not allowed: `<xref ref-type="bibr" rid="fig1">Figure 1</xref>`. The tagging should be corrected to use the correct ref-type \(`ref-type="fig"` in this example\).
 
 ## XML structure
 
