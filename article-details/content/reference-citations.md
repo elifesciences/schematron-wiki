@@ -10,7 +10,7 @@ A reference citation is an in-text citation for a reference as given in an artic
 
 ![](../../.gitbook/assets/screen-shot-2020-03-25-at-17.03.28.png)
 
-eLife used 'name-year' citation style, where each reference is cited using the name of the first author and the year of publication. This style behaves differently depending on how many authors there are for a reference:
+eLife uses 'name-year' citation style, where each reference is cited using the name of the first author and the year of publication. This style behaves differently depending on how many authors there are for a reference:
 
 * One author - Smith, 2010
 * Two authors - Smith and Jones, 2010
