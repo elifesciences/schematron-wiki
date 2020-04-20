@@ -125,7 +125,7 @@ Please be aware of this issue when dealing with uncited references: that may be 
 
 If, for example, only the year for a reference citation is present within the link \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\), or an alternate name/year citation style such as '**Smith \(2010\)**' \( `<xref ref-type="bibr" rid="bib16">Smith (2010)</xref>`\) has been used, this should be corrected to the standard citation style.
 
-XXXXXX in this message will be the incorrect citation, the proposed correct citation and the text the precedes the citation, respectively.
+XXXXXX in this message will be the incorrect citation, the proposed correct citation and the text that precedes the citation, respectively.
 
 #### final-ref-xref-test-1
 
@@ -135,7 +135,7 @@ XXXXXX in this message will be the incorrect citation, the proposed correct cita
 
 If, for example, only the year for a reference citation is present within the link \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\), this should be corrected to the standard citation style. However, during author proofing, the authors may request that an alternate style such as '**Smith \(2010\)**' be used for particular reference citaitons. In the case where this has been explicitly requested, the indicated citations may be left in this alternate style and this warning can be ignored.
 
-XXXXXX in this message will be the incorrect citation, the proposed correct citation and the text the precedes the citation, respectively.
+XXXXXX in this message will be the incorrect citation, the proposed correct citation and the text that precedes the citation, respectively.
 
 #### ref-xref-test-2
 
@@ -179,7 +179,7 @@ XXXXXX in this message will be the text where the citation runs on with the text
 
 **Warning**: _citation is preceded by text containing much of the citation text which is possibly unnecessary - XXXXXX_
 
-**Action**: This will fire if the author of a reference is mentioned in close proximity to the citation of that reference. It might indicate that the citation needs to take the place of the author name\(s\). See [above](reference-citations.md#citations-close-to-mentions-of-author-names) for examples of how to deal with this. This warning can be ignored if it is no appropriate to make a change. XXXXXX in this message will be the text that needs checking. XXXXXX in this message will be the text that needs checking.
+**Action**: This will fire if the author of a reference is mentioned in close proximity to the citation of that reference. It might indicate that the citation needs to take the place of the author name\(s\). See [above](reference-citations.md#citations-close-to-mentions-of-author-names) for examples of how to deal with this. This warning can be ignored if it is not appropriate to make a change. XXXXXX in this message will be the text that needs checking.
 
 #### ref-xref-test-15
 
