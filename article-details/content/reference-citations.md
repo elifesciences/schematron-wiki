@@ -125,7 +125,7 @@ Please be aware of this issue when dealing with uncited references: that may be 
 
 For example, if the validator does not correctly pick up the author names, the citation may render as '**et al., 2010**'. This can usually be fixed by checking that the details have been entered correctly and revalidating the reference. Alternatively, the authors may have used a different name/year citation style such as '**Jones \(2010\)**' \( `<xref ref-type="bibr" rid="bib16">Jones (2010)</xref>`\). This should be corrected to the standard citation style \('Jones et al. \(2010\)' should be changed to 'Jones et al., 2010' for this example\).
 
-XXXXXX in this message will be the incorrect citation, the proposed correct citation and the text that precedes the citation, respectively.
+XXXXXX in this message will be the incorrect citation, the proposed correct citation and the text that precedes the citation, respectively. For example: _et al., 2010 - citation does not conform to house style. It should be 'Jones et al., 2010'. Preceding text = 'as has been shown in previous studies \('._
 
 #### final-ref-xref-test-1
 
@@ -137,7 +137,7 @@ For example, if the validator does not correctly pick up the author names, the c
 
 During author proofing, the authors may request that an alternate style such as '**Smith \(2010\)**' be used for particular reference citations. This style - **Smith \(2010\)**, **Smith and Jones \(2009\)**, **Smith et al. \(2008\)** - is allowed by this rule. If it highlights citations like these, please ensure that the closing bracket is within the citation link. That is,`<xref ref-type="bibr" rid="bib16">Smith et al. (2000</xref>)` would be an error and should be corrected to `<xref ref-type="bibr" rid="bib16">Smith et al. (2000)</xref>`.
 
-XXXXXX in this message will be the incorrect citation, the proposed correct citation and the text that precedes the citation, respectively.
+XXXXXX in this message will be the incorrect citation, the proposed correct citation and the text that precedes the citation, respectively. For example: _et al., 2010 - citation does not conform to house style. It should be 'Smith et al., 2010'. Preceding text = 'as has been shown in previous studies \('._
 
 #### ref-xref-test-2
 
