@@ -259,7 +259,9 @@ Please note that this rule will fire regardless of the context in which 'refs.' 
 
 **Error**: _xref - XXXXXX - has a formatting parent element - XXXXXX - which is not correct._
 
-**Action**: Reference citations should not be contained within style formatting such as superscript or bold \(italics is an exception, see **ref-xref-italic-child-test**\). If this formatting is present, please remove it. XXXXXX in this message will be the citation and the formatting element respectively.
+**Action**: Reference citations should not be contained within style formatting such as italics or bold. If this formatting is present, please remove it. For example, if a citation is within bold tags`<bold><xref ref-type="bibr" rid="bib16">Blogss et al., 2010</xref></bold>`, these tags need to be removed.
+
+XXXXXX in this message will be the citation and the formatting element respectively.
 
 #### ref-xref-child-test
 
