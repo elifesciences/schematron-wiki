@@ -259,7 +259,7 @@ Please note that this rule will fire regardless of the context in which 'refs.' 
 
 **Error**: _xref - XXXXXX - has a formatting parent element - XXXXXX - which is not correct._
 
-**Action**: Reference citations should not be contained within style formatting such as italics or bold. If this formatting is present, please remove it. For example, if a citation is within bold tags`<bold><xref ref-type="bibr" rid="bib16">Blogss et al., 2010</xref></bold>`, these tags need to be removed.
+**Action**: Reference citations should not be contained within style formatting such as italics or bold. If this formatting is present, please remove it. For example, if a citation is within italic tags`<italic><xref ref-type="bibr" rid="bib16">Bloggs et al., 2010</xref></italic>`, these tags need to be removed.
 
 XXXXXX in this message will be the citation and the formatting element respectively.
 
@@ -267,13 +267,17 @@ XXXXXX in this message will be the citation and the formatting element respectiv
 
 **Error**: _xref - XXXXXX - has a formatting child element - XXXXXX - which is not correct._
 
-**Action**: Reference citations should not contain style formatting such as superscript or bold \(italics is an exception, see **ref-xref-italic-child-test**\). If this formatting is present, please remove it. XXXXXX in this message will be the citation and the formatting element respectively.
+**Action**: Reference citations should not contain style formatting such as superscript or bold \(italics is an exception, see **ref-xref-italic-child-test**\). If this formatting is present, please remove it. For example, if a citation contains bold tags`<xref ref-type="bibr" rid="bib16"><bold>Bloggs et al., 2010</bold></xref>`, these tags need to be removed.
+
+XXXXXX in this message will be the citation and the formatting element respectively.
 
 #### ref-xref-italic-child-test
 
 **Warning**: xref - XXXXXX - contains italic formatting. Is this correct?
 
-**Action**: Reference citations should not usually contain italic formatting. The only exception to this rule is if italics are present in the name of a collaboration e.g. "The _C. elegans_ Sequencing Consortium." If the formatting is present in a collaboration name, this should be retained in the citation, "**The** _**C. elegans**_ **Sequencing Consortium, 1998**". Otherwise, italic formatting in a reference citation should be removed. XXXXXX in this message will be the citation containing italics.
+**Action**: Reference citations should not usually contain italic formatting. The only exception to this rule is if italics are present in the name of a collaboration e.g. "The _C. elegans_ Sequencing Consortium." If the formatting is present in a collaboration name, this should be retained in the citation, "**The** _**C. elegans**_ **Sequencing Consortium, 1998**" \(`<xref ref-type="bibr" rid="bib16">The <italic>C. elegans</italic> Sequencing Consortium, 1998</xref>`\). Otherwise, italic formatting in a reference citation should be removed.
+
+XXXXXX in this message will be the citation containing italics.
 
 #### bibr-xref-target-test
 
