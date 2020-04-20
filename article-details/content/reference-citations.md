@@ -229,13 +229,17 @@ XXXXXX in this message will be the text where the citation runs on with the text
 
 **Error**: _element contains 'Ref.' which is either incorrect or unnecessary._
 
-**Action**: This error will fire if the text 'Ref.' is present in a paragraph. This is likely to occur when the author writes something like "As can be seen in Ref. **Shin et al., 2014** . . ." It may be a hold-over from processing numbered citations into name/year citations, e.g.  "As can be seen in Ref. 6 . . ." The text 'Ref.' should be removed as it is redundant.
+**Action**: This error will fire if the text 'Ref.' or 'ref.' is present in a paragraph. This is likely to occur when the author writes something like "As can be seen in ref. **Shin et al., 2014** . . ." It may be a hold-over from processing numbered citations into name/year citations, e.g.  "As can be seen in ref. 6 . . ." The text 'ref.' should be removed as it is redundant.
+
+Please note that this rule will fire regardless of the context in which 'ref.' is used, even when it does not precede a reference citation \(for example, "ref. PMID 000001"\). In such cases, it is sufficient to simply remove the full stop after 'ref'.
 
 #### refs-presence
 
 **Error**: _element contains 'Refs.' which is either incorrect or unnecessary._
 
-**Action**: This error will fire if the text 'Refs.' is present in a paragraph. This is likely to occur when the author writes something like "As can be seen in Refs. **Shin et al., 2014; Smith et al., 2017** . . ." It may be a hold-over from processing numbered citations into name/year citations, e.g.  "As can be seen in Refs. 6, 7 . . ." The text 'Refs.' should be removed as it is redundant.
+**Action**: This error will fire if the text 'Refs.' or 'refs.' is present in a paragraph. This is likely to occur when the author writes something like "As can be seen in Refs. **Shin et al., 2014; Smith et al., 2017** . . ." It may be a hold-over from processing numbered citations into name/year citations, e.g.  "As can be seen in Refs. 6, 7 . . ." The text 'Refs.' should be removed as it is redundant.
+
+Please note that this rule will fire regardless of the context in which 'refs.' is used, even when it does not precede a reference citation \(for example, "refs. PMID 000001, PMID 000005"\). In such cases, it is sufficient to simply remove the full stop after 'refs'.
 
 #### xref-bibr-presence
 
