@@ -6,17 +6,17 @@ description: How to check and copy-edit reference citations
 
 ## What is a reference citation?
 
-A reference citation is an in-text citation for a reference as given in an article's reference list. This is in contrast to an asset citation \(for figures, tables etc\).
+A reference citation is an in-text citation for a reference in an article's reference list. This is in contrast to an asset citation \(for figures, tables etc\). These are rendered as links in the final article. Clicking them in the PDF will take the reader down to the page on which the reference is shown, and will bring up a pop-up with the reference details in the HTML view.
 
 ![](../../.gitbook/assets/screen-shot-2020-03-25-at-17.03.28.png)
 
 eLife uses 'name-year' citation style, where each reference is cited using the name of the first author and the year of publication. This style behaves differently depending on how many authors there are for a reference:
 
-* One author - Smith, 2010
-* Two authors - Smith and Jones, 2010
-* Three or more authors - Smith et al., 2010
+* One author: Smith, 2010
+* Two authors: Smith and Jones, 2010
+* Three or more authors: Smith et al., 2010
 
-If two or more references would produce the same citation, they should be distinguished with the addition of a,b,c,d etc to the years:
+If two or more references would produce the same citation, they need to be distinguished with the addition of a,b,c,d etc to the years:
 
 * Smith et al., 2010a
 * Smith et al., 2010b
