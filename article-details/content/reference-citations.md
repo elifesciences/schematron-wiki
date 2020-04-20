@@ -21,7 +21,7 @@ If two or more references would produce the same citation, they should be distin
 * Smith et al., 2010a
 * Smith et al., 2010b
 
-In most cases, reference citations will appear inside brackets. Where multiple references are cited in one set of brackets, each citation should be separated from the next with a semi-colon followed by a space. There should be a space between the word that precedes the citations and the opening bracket.
+In most cases, reference citations will appear inside brackets. Where multiple references are cited in one set of brackets, each citation should be separated from the next with a semi-colon followed by a space.
 
 ## What needs to be checked?
 
@@ -93,7 +93,7 @@ could be changed to
 
 However, if the citation is at the end of the sentence, or more than one publication is cited after the author name\(s\), this would not an appropriate change. This, for example, should be left as it stands:
 
-"Pearce et al. designed a framework based on variable-order Markov models that learns statistics describing the temporal sequences in melodic sequences at various time-scales \(IDyOM; **Pearce, 2005**; **Pearce and Wiggins, 2006\)**."
+"Pearce et al. designed a framework based on variable-order Markov models that learns statistics describing the temporal sequences in melodic sequences at various time-scales \(IDyOM; **Pearce, 2005**\)."
 
 Please note that in some cases, the author of the reference will be mentioned in the context of a scientific term or method. In these cases, it is absolutely fine to leave the reference in brackets, as in the following:
 
