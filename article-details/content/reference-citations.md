@@ -111,7 +111,7 @@ will be converted to
 
 Most of the time this process is successful. Sometimes, however, reference citations will not be converted correctly, leaving instances of superscript or bracketed numbers where there should be a name/year citation. These should be replaced with the corresponding citations in eLife style.
 
-Please be aware of this issue when dealing with uncited references: that may be caused by the citations not converting correctly.
+Please be aware of this issue when dealing with uncited references: the lack of citations may be caused by those the author provided not converting correctly. Additionally, the opposite problem may occur: a term that is not in fact a reference citation may be converted to one. This can occur if the author includes a superscript number or numbers in brackets.
 
 ## Schematron warnings
 
