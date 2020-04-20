@@ -133,7 +133,9 @@ XXXXXX in this message will be the incorrect citation, the proposed correct cita
 
 **Action**: This warning will fire at the post-author stage if the text within a reference citation link \(the `<xref>` element\) does not match the standard style of '**Smith, 2010**' \( `<xref ref-type="bibr" rid="bib16">Smith, 2010</xref>`\), '**Smith and Jones, 2007**' \( `<xref ref-type="bibr" rid="bib16">Smith and Jones, 2007</xref>`\) or '**Smith et al., 2000**' \( `<xref ref-type="bibr" rid="bib16">Smith et al., 2000</xref>`\) . 
 
-If, for example, only the year for a reference citation is present within the link \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\), this should be corrected to the standard citation style. However, during author proofing, the authors may request that an alternate style such as '**Smith \(2010\)**' be used for particular reference citations. In the case where this has been explicitly requested, the indicated citations may be left in this alternate style and this warning can be ignored.
+If, for example, only the year for a reference citation is present within the link \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\), this should be corrected to the standard citation style. 
+
+During author proofing, the authors may request that an alternate style such as '**Smith \(2010\)**' be used for particular reference citations. This style - **Smith \(2010\)**, **Smith and Jones \(2009\)**, **Smith et al. \(2008\)** - is allowed by this rule. If it highlights citations like these, please ensure that the closing bracket is within the citaiton link. That is, the following would be an error and need to be corrected: `<xref ref-type="bibr" rid="bib16">Smith et al. (2000</xref>)`
 
 XXXXXX in this message will be the incorrect citation, the proposed correct citation and the text that precedes the citation, respectively.
 
