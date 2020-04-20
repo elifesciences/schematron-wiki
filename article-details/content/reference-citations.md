@@ -173,13 +173,13 @@ XXXXXX in this message will be the current, incorrect citation text.
 
 **Warning**: _'XXXXXX' - citation is preceded by text ending with a possessive, preposition or verb and bracket which suggests the bracket should be removed._
 
-**Action**: This warning will indicate instances such as ". . . as described previously in \(**Karagöz et al., 2017**\)", where it might not be appropriate to have the citation in parentheses. If the citation is part of the flow of the sentence, the parentheses should be removed. Please note that this message may appear even when the current text is fine \(e.g. ". . . which were then treated as follows \(**Karagöz et al., 2017**\)."\). See [above](reference-citations.md#citations-that-do-not-require-brackets) for more on when removing brackets is appropriate. XXXXXX in this message will be the text that needs checking.
+**Action**: This warning will indicate instances such as ". . . as described previously in \(**Karagöz et al., 2017**\)", where it might not be appropriate to have the citation in parentheses. If the citation is part of the flow of the sentence, the parentheses should be removed. Please note that this message may appear even when the current text is fine \(e.g. ". . . which were then treated as follows \(**Karagöz et al., 2017**\):"\). See [above](reference-citations.md#citations-that-do-not-require-brackets) for more on when removing brackets is appropriate. XXXXXX in this message will be the text that needs checking.
 
 #### ref-xref-test-12
 
 **Warning**: _'XXXXXX' - citation is followed by a bracket and a possessive, preposition or verb which suggests the bracket is unnecessary._
 
-**Action**: This warning will indicate instances such as "\(**Shin et al., 2014**\) also found that . . .", where it might not be appropriate to have the citation in parentheses. If the citation is part of the flow of the sentence, the parentheses should be removed. Please note that this message may appear even when the current text is fine \(e.g. ". . . which were then treated as follows \(**Karagöz et al., 2017**\)."\). See [above](reference-citations.md#citations-that-do-not-require-brackets) for more on when removing brackets is appropriate. XXXXXX in this message will be the text that needs checking.
+**Action**: This warning will indicate instances such as "\(**Shin et al., 2014**\) also found that . . .", where it might not be appropriate to have the citation in parentheses. If the citation is part of the flow of the sentence, the parentheses should be removed. Please note that this message may appear even when the current text is fine \(e.g. ". . . which were then treated as follows \(**Karagöz et al., 2017**\):"\). See [above](reference-citations.md#citations-that-do-not-require-brackets) for more on when removing brackets is appropriate. XXXXXX in this message will be the text that needs checking.
 
 #### ref-xref-test-14
 
