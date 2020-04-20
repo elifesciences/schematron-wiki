@@ -227,13 +227,13 @@ XXXXXX in this message will be the text where the citation runs on with the text
 
 **Error**: _element contains 'Ref.' which is either incorrect or unnecessary._
 
-**Action**: This error will fire in the text 'Ref.' is present in a paragraph. This is likely to occur when the author writes something like "As can be seen in Ref. **Shin et al., 2014** . . ." It may be a hold-over from processing numbered citations into name/year citations, e.g.  "As can be seen in Ref. 6 . . ." The text 'Ref.' should be removed as it is redundant.
+**Action**: This error will fire if the text 'Ref.' is present in a paragraph. This is likely to occur when the author writes something like "As can be seen in Ref. **Shin et al., 2014** . . ." It may be a hold-over from processing numbered citations into name/year citations, e.g.  "As can be seen in Ref. 6 . . ." The text 'Ref.' should be removed as it is redundant.
 
 #### refs-presence
 
 **Error**: _element contains 'Refs.' which is either incorrect or unnecessary._
 
-**Action**: This error will fire in the text 'Refs.' is present in a paragraph. This is likely to occur when the author writes something like "As can be seen in Refs. **Shin et al., 2014; Smith et al., 2017** . . ." It may be a hold-over from processing numbered citations into name/year citations, e.g.  "As can be seen in Refs. 6, 7 . . ." The text 'Refs.' should be removed as it is redundant.
+**Action**: This error will fire if the text 'Refs.' is present in a paragraph. This is likely to occur when the author writes something like "As can be seen in Refs. **Shin et al., 2014; Smith et al., 2017** . . ." It may be a hold-over from processing numbered citations into name/year citations, e.g.  "As can be seen in Refs. 6, 7 . . ." The text 'Refs.' should be removed as it is redundant.
 
 #### xref-bibr-presence
 
@@ -245,7 +245,7 @@ XXXXXX in this message will be the text where the citation runs on with the text
 
 **Warning**: 'XXXXXX' citation is in a column in the Key Resources Table which usually does not include references. Is it correct?
 
-**Action**: This warning indicates that a citation has been included in the Key Resources Table outside of the columns 'Source or reference' or 'Additional information' \(columns 3 and 5, respetively\). This may indicate that a superscript number has been incorrectly converted to a reference citation. Check the table for the indicated citation and compare to the original file to confirm whether or not it should be present.
+**Action**: This warning indicates that a citation has been included in the Key Resources Table outside of the columns 'Source or reference' or 'Additional information' \(columns 3 and 5, respectively\). This may indicate that a superscript number has been incorrectly converted to a reference citation. Check the table for the indicated citation and compare to the original file to confirm whether or not it should be present.
 
 ### XML structure warnings
 
