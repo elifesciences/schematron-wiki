@@ -1,5 +1,5 @@
 ---
-description: How to fork code to eLife's
+description: How to fork code to eLife's GitHub repository
 ---
 
 # Forking Git-based repos
