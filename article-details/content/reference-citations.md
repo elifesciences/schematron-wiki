@@ -31,7 +31,7 @@ Most of the major possible issues with reference citations will be picked up by 
 * ; should be used as a separator between citations
 * How to identify unconverted citations
 
-Examples of these can be found in the next section.
+Examples of these can be found in the next section. Please be aware that these checks and tests only apply to the main text and appendices. The Decision letter and Author response sections are excluded from the schematron rules as there should be no live reference citations within these sub-articles.
 
 ## Examples
 
