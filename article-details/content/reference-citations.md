@@ -101,7 +101,7 @@ Please note that in some cases, the author of the reference will be mentioned in
 
 ### Citations that have not been converted properly
 
-If the authors have provided the citations in their submitted file using another reference style e.g. numbered references in superscript or brackets, a conversion will be run to change this to eLife style. For example,
+If the authors have provided the citations in their submitted file using another reference style \(e.g. numbered references in superscript or brackets\), a conversion will be run to change this to eLife style. For example,
 
 "Förster resonance energy transfer \(smFRET\) or colocalization single-molecule spectroscopy \(CoSMoS\) can be dramatically extended with recently developed photostable dyes \[**3,4**\]."
 
