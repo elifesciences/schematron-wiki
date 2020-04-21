@@ -111,9 +111,9 @@ will be converted to
 
 Most of the time this process is successful. Sometimes, however, reference citations will not be converted correctly, leaving instances of superscript or bracketed numbers where there should be a name/year citation. These should be replaced with the corresponding citations in eLife style.
 
-Please be aware of this issue when dealing with uncited references: the lack of citations may be caused by those the author provided not converting correctly. Additionally, the opposite problem may occur: a superscript number or number in brackets that is not a reference citation may be converted to one.
+Please be aware of this issue when dealing with uncited references: the lack of citations may be caused by those the author provided not converting correctly. Additionally, the opposite problem may occur: a superscript number or a number in brackets that is not a reference citation may be converted to one.
 
-For example, in the following text, the only bracketed number the author intended as a reference is \(51\). The rest are numerical ranges.
+For example, in the following text, the only bracketed number the author intended as a reference is '\(51\)'. The rest are numerical ranges.
 
 ". . . in a shallow surface groove formed by a short helix \(476-485\), two 422 beta strands \(51-63\), and two short loops \(355-360, 379-380\) \(**51**\)."
 
@@ -125,7 +125,7 @@ The correct conversion should have been:
 
 ". . . in a shallow surface groove formed by a short helix \(476-485\), two 422 beta strands \(51-63\), and two short loops \(355-360, 379-380\) \(**Johnson and Kollman, 2020**\)."
 
-There are no current schematron tests for either of these scenarios, meaning that catching them and correcting is dependant on a user catching the mistake. This may be done by spotting references appearing in a sequence of numbers, as in the above example \(only numbers that correspond to an article's reference list would be converted in error\) or by tracing square brackets to indentify unconverted citations, as in the previous example. However, it is understood that this is a difficult thing to detect and that it may only be discovered by the authors during proofing.
+There are currently no schematron tests to help in either of these scenarios, meaning that catching the errors is dependant on the user being able to identify them. This may be done by spotting references appearing in a sequence of numbers, as in the above example \(only numbers that correspond to an article's reference list would be converted in error\) or by tracing square brackets to find unconverted citations, as in the previous example. However, it is understood that this is a difficult thing to detect and that it may only be discovered by the authors during proofing.
 
 ## Schematron warnings
 
