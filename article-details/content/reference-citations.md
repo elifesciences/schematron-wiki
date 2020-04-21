@@ -165,7 +165,7 @@ XXXXXX in this message will be the current, incorrect citation text.
 
 **Error**: _citation doesn't contain letters, which must be incorrect - XXXXXX_
 
-**Action**: This error will fire in a reference citation does not contain any numbers, e.g. it is just '**2010**' rather than '**Smith et al., 2010**  \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\). Correct the citation text so that both name and year are present \( `<xref ref-type="bibr" rid="bib16">Smith et al., 2010</xref>`\). 
+**Action**: This error will fire in a reference citation does not contain any letters, e.g. it is just '**2010**' rather than '**Smith et al., 2010**  \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\). Correct the citation text so that both name and year are present \( `<xref ref-type="bibr" rid="bib16">Smith et al., 2010</xref>`\). 
 
 XXXXXX in this message will be the current, incorrect citation text.
 
