@@ -217,7 +217,11 @@ XXXXXX in this message will be the current, incorrect citation text.
 
 **Error**: _citation is followed by '\);', which in turn is followed by another link. This must be incorrect \(the bracket should be removed\) - 'XXXXXX'._
 
-**Action**: This error will fire when a reference citation is followed by a closing parenthesis and then by a semi-colon and another citation, e.g. ". . . **Smith et al., 2010**\); **Jones et al., 2019** . . ." This should be corrected to remove the closing bracket after the first citation, leaving only the semi-colon as a separator: ". . . **Smith et al., 2010**; **Jones et al., 2019** . . ." XXXXXX in this message will indicate the text where this error is present.
+**Action**: This error will fire when a reference citation is followed by a closing parenthesis and then by a semi-colon and another citation, e.g. ". . . **Smith et al., 2010**\); **Jones et al., 2019**\) . . ." This should be corrected to remove the closing bracket after the first citation, leaving only the semi-colon as a separator: ". . . **Smith et al., 2010**; **Jones et al., 2019**\) . . ."
+
+
+
+XXXXXX in this message will indicate the text where this error is present.
 
 #### ref-xref-test-21
 
@@ -263,7 +267,11 @@ Please note that this rule will fire regardless of the context in which 'refs.' 
 
 **Warning**: _Abstract contains a citation - 'XXXXXX' - which isn't usually allowed. Check that this is correct._
 
-**Action**: An article abstract should not contain any live reference citations as these cannot be rendered correctly on downstream services such as PubMed. If citations are present in the abstract, please delete them and inform the author using an author query. If these were the only citations of those references in the article \(which is usually unlikely\), please ask the author to add new citations for them in the main text. XXXXXX in this message will be the citation\(s\) in the abstract.
+**Action**: An article abstract should not contain any live reference citations as these cannot be rendered correctly on downstream services such as PubMed. If citations are present in the abstract, please delete them and inform the author using an author query. If these were the only citations of those references in the article \(which is usually unlikely\), please ask the author to add new citations for them in the main text. 
+
+Please note that this only refers to live reference citations. Plain text citations \(e.g. the text 'Smith et al., 2019' without any linking to the reference list\) are permitted in the abstracts for Research advances, Register reports or Replication studies so that a previous publication may be mentioned.
+
+XXXXXX in this message will be the live citation\(s\) in the abstract.
 
 #### xref-column-test
 
@@ -301,7 +309,7 @@ XXXXXX in this message will be the citation containing italics.
 
 **Error**: xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct.
 
-**Action**: This error will fire if a reference citation `<xref>` \(e.g. one with the attribute `ref-type="bibr"`\) points not to some other element such as a figure. So, for example, a figure citation with the type "bibr" is not allowed: `<xref ref-type="bibr" rid="fig1">Figure 1</xref>`. The tagging should be corrected to use the correct ref-type \(`ref-type="fig"` in this example\).
+**Action**: This error will fire if a reference citation `<xref>` \(e.g. one with the attribute `ref-type="bibr"`\) does not point to a reference but instead to some other element such as a figure. So, for example, a figure citation with the type "bibr" is not allowed: `<xref ref-type="bibr" rid="fig1">Figure 1</xref>`. The tagging should be corrected to use the correct ref-type \(`ref-type="fig"` in this example\).
 
 ## XML structure
 
