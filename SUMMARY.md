@@ -26,6 +26,8 @@
     * [Conference references](article-details/content/references/conference-references.md)
     * [Pre-print references](article-details/content/references/pre-print-references.md)
     * [Journal references](article-details/content/references/journal-references.md)
+    * [Software references](article-details/content/references/software-references/README.md)
+      * [Forking Git-based repos](article-details/content/references/software-references/forking-git-based-repos.md)
 * [People](article-details/people.md)
 * [Peer review](article-details/peer-review.md)
 * [Relationships](article-details/relationships.md)
