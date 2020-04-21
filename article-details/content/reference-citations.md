@@ -125,7 +125,7 @@ The correct conversion should have been:
 
 ". . . in a shallow surface groove formed by a short helix \(476-485\), two 422 beta strands \(51-63\), and two short loops \(355-360, 379-380\) \(**Johnson and Kollman, 2020**\)."
 
-There are currently no schematron tests to help in either of these scenarios, meaning that catching the errors is dependant on the user being able to identify them. This may be done by spotting references appearing in a sequence of numbers, as in the above example \(only numbers that correspond to an article's reference list would be converted in error\) or by tracing square brackets to find unconverted citations, as in the previous example. However, it is understood that this is a difficult thing to detect and that it may only be discovered by the authors during proofing.
+There are currently no schematron tests to help in either of these scenarios, meaning that catching the errors is dependant on the user being able to identify them. This may be done by spotting references interrupting a sequence of numbers, as in the above example \(only numbers that correspond to an article's reference list will be converted in error\) or by tracing square brackets to find unconverted citations, as in the previous example. However, it is understood that this is a difficult thing to detect and that it may only be discovered by the authors during proofing.
 
 ## Schematron warnings
 
