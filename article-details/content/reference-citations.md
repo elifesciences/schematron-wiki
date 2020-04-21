@@ -111,7 +111,21 @@ will be converted to
 
 Most of the time this process is successful. Sometimes, however, reference citations will not be converted correctly, leaving instances of superscript or bracketed numbers where there should be a name/year citation. These should be replaced with the corresponding citations in eLife style.
 
-Please be aware of this issue when dealing with uncited references: the lack of citations may be caused by those the author provided not converting correctly. Additionally, the opposite problem may occur: a term that is not in fact a reference citation may be converted to one. This can occur if the author includes a superscript number or numbers in brackets.
+Please be aware of this issue when dealing with uncited references: the lack of citations may be caused by those the author provided not converting correctly. Additionally, the opposite problem may occur: a superscript number or number in brackets that is not a reference citation may be converted to one.
+
+For example, in the following text, the only bracketed number the author intended as a reference is \(51\). The rest are numerical ranges.
+
+". . . in a shallow surface groove formed by a short helix \(476-485\), two 422 beta strands \(51-63\), and two short loops \(355-360, 379-380\) \(**51**\)."
+
+Unfortunately, the range "51-63" was interpreted as a range of citations and '\(51\)' failed to convert, resulting in the following:
+
+". . . in a shallow surface groove formed by a short helix \(476-485\), two 422 beta strands \(**Johnson and Kollman, 2020**; **Farber and Lolley, 1974**; **Salceda et al., 1982**; **Duong-Ly et al., 2018b**; **Wang et al., 2017**; **Wisniewski et al., 2009**; **Perkins et al., 1999**; **López-Begines et al., 2018**; **Alonso-García et al., 2009**; **Thomas et al., 2012**; **Di Pierro et al., 1995**; **Fan et al., 2019**; **Hoyo et al., 2014**\), and two short loops \(355-360, 379-380\) \(51\)."
+
+The correct conversion should have been:
+
+". . . in a shallow surface groove formed by a short helix \(476-485\), two 422 beta strands \(51-63\), and two short loops \(355-360, 379-380\) \(**Johnson and Kollman, 2020**\)."
+
+There are no current schematron tests for either of these scenarios, meaning that catching them and correcting is dependant on a user catching the mistake. This may be done by spotting references appearing in a sequence of numbers, as in the above example \(only numbers that correspond to an article's reference list would be converted in error\) or by tracing square brackets to indentify unconverted citations, as in the previous example. However, it is understood that this is a difficult thing to detect and that it may only be discovered by the authors during proofing.
 
 ## Schematron warnings
 
