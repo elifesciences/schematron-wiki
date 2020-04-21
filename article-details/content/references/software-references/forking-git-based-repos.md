@@ -2,7 +2,9 @@
 description: How to fork code to eLife's GitHub repository
 ---
 
-# Forking Git-based repos
+# Forking GitHub repositories
+
+For information on how to fork non-GitHub code, see here.
 
 ## Overview
 
@@ -130,5 +132,5 @@ Enter the name of the repository \(in the example above, this would be 'Orbital-
 
 ## Further reading
 
-Authors may upload code to other websites instead of GitHub. These include GitLab, Bitbucket, and others. For more information on how to deal with these instances, click here.
+Authors may upload code to other websites instead of GitHub. These include GitLab, Bitbucket, and others.
 
