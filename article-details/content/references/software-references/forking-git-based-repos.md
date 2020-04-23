@@ -2,9 +2,7 @@
 description: How to fork code to eLife's GitHub repository
 ---
 
-# Forking GitHub repositories
-
-For information on how to fork non-GitHub code, see here.
+# Forking Git-based repositories
 
 ## Overview
 
@@ -20,6 +18,7 @@ Overall, whether a GitHub repo needs forking can usually be discerned from readi
 
 * [ ] [Make sure the repository has an open-source license](forking-git-based-repos.md#checking-licenses)
 * [ ] [Fork the code to elife-sciences-publications](forking-git-based-repos.md#forking-to-elifes-repository)
+* [ ] [Import code from non-GitHub repositories if needed](forking-git-based-repos.md#importing-code-from-non-github-repositories)
 * [ ] [Add the new URL to the article text to indicate where the copy is archived](forking-git-based-repos.md#adding-the-new-url-to-the-article)
 * [ ] [Add a software reference for the repository](./)
 * [ ] [Add an author query to indicate the repo has been forked and text has been added](forking-git-based-repos.md#add-an-author-query-to-indicate-the-repo-has-been-forked)
@@ -66,9 +65,27 @@ The forking process will then begin. When it is complete, you will be taken to t
 
 ![](https://lh3.googleusercontent.com/Ry-MRNR2vRwyXo6-IyO-Snz3ygjIVF-KpqjNpeDWgw1aijg9ZkN2rN3s-4rnTegAP4K7VaAdZ1VX1rAnkowe8wZBXM2Fb-9tjW1BFEv87foU8l9knOfdcTi5ZbIxXyENskBypaQO)
 
-## Adding the new URL to the article
+## Importing code from non-GitHub repositories
 
-Once a repository has been forked, we need to include the link to this in the article. The authors may have referred to their code in the article text as well as in the data availability statement. In both instances, we need to add the text 'copy archived at XXXXXX' with the new link in place of 'XXXXXX'.
+Sometimes, authors will upload their code to repositories other than GitHub \(e.g. GitLab or Bitbucket\). In these cases, the code will need to be imported to eLife's repository. 
+
+From the [eLife repository](https://github.com/elifesciences-publications), follow these steps: 
+
+1. [ ] Create a new repository by clicking the 'New' button on the right.
+2. [ ] Give the repository a name. Either use the name the authors have given or use the article number if this is not available.
+3. [ ] At the bottom, click 'Create repository', ignoring all other fields including 'description'.
+4. [ ] On the next page, click the very last option 'Import code from another repository' \(see below\).
+
+![](https://lh5.googleusercontent.com/70YnC8aMYgV1A95jOyX3QCku1DVWFxHvOndsN2EouBIWOoWK_NheXQK77mLZwBAqqN3csgI2_-yYeRUY66RowTNQVOzmqiMrE-E8E5F2SP6IoQz9lyE-n_JnRZW-5sfqABsTnm27)
+
+* [ ]  ****Enter the url of the repository you want to clone into the 'Your old repository's clone URL'.
+* [ ] Click on 'Begin Import'. The rest will be done for you. 
+
+![](https://lh3.googleusercontent.com/rhpesbtno3yubnX-XcieocQmMWgdTMl2fUHPKtM2yK8oFp1cWKlq6rTZOA7PIWcGHGxxAR7haClAjdkNHbc5LEi-yoZB-tKE-BktI9Jj6aLZfpBQOB2OEDghKi0RBHg2Yc56wB3W)
+
+## Adding the new URL and reference to the article
+
+Once a repository has been forked or imported, we need to include the new link in the article. The authors may have referred to their code in the article text as well as in the data availability statement. In both instances, we need to add the text 'copy archived at XXXXXX' with the new link in place of 'XXXXXX'. A software reference also needs to be added \(see [here](./) for how to do this\).
 
 ![](../../../../.gitbook/assets/screenshot-2020-04-21-at-12.57.34.png)
 
@@ -129,8 +146,4 @@ The following window will pop up:
 ![](https://lh5.googleusercontent.com/16-4gneE-Bt-PrqoSepErx-SglkAtxKUUjRcVxVnGWb61oimVAmAo4fiXRWiarv0Ip-FwYvDjLADVsHIF3hhLzf19QNa_Zc5eCPpkeVv7kEcm8EWzZSy49Jl8cD437wub5tdXgQY)
 
 Enter the name of the repository \(in the example above, this would be 'Orbital-Tracking-Zebrafish2019-'\) and click to confirm you understand the consequence of archiving. The repository will become read-only and any further changes will not be possible unless it is un-archived by reversing this step. This is the final step.
-
-## Further reading
-
-Authors may upload code to other websites instead of GitHub. These include GitLab, Bitbucket, and others.
 
