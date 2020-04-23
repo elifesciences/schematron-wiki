@@ -147,3 +147,19 @@ The following window will pop up:
 
 Enter the name of the repository \(in the example above, this would be 'Orbital-Tracking-Zebrafish2019-'\) and click to confirm you understand the consequence of archiving. The repository will become read-only and any further changes will not be possible unless it is un-archived by reversing this step. This is the final step.
 
+## Examples of code that doesn't need to be forked
+
+Often, authors will include GitHub links to software they have used in their studies. These do not need to be forked if they were not generated specifically for the paper. In the example below, none of the github repositories linked need to be forked, as they are references to software that is already available.
+
+![](../../../../.gitbook/assets/screenshot-2020-04-23-at-10.24.29.png)
+
+## Schematron warnings
+
+The following tests are run on the funding section. X or XXXXXX refers to quoted text which will change depending on the article. 
+
+**code-fork-info**
+
+**Warning**: _Article possibly contains code that needs forking. Search - XXXXXX_
+
+**Action**: This warning will appear if the following words are present: github, gitlab, codeplex, sourceforge, bitbucket or assembla. If this warning fires, it may indicate there is code which needs to be forked or imported. [See above](forking-git-based-repos.md#overview) to determine whether this is necessary. 
+
