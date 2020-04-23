@@ -11,7 +11,7 @@ When a paper is accepted in eLife, if the authors have included a link to code w
 Overall, whether a GitHub repo needs forking can usually be discerned from reading the context in which it is mentioned:
 
 * Code mentioned in the Data Availability Statement \(e.g. “All analysis code has been made available on GitHub \([https://github.com/learning-memory-and-decision-lab/NassarBrucknerFrank\_eLife\_2019](https://github.com/learning-memory-and-decision-lab/NassarBrucknerFrank_eLife_2019)\).”\) should usually be forked.
-* Code that is mentioned in the text only and referred to as being a ‘package’ is unlikely to have been created for this specific work and therefore doesn’t need to be forked.
+* Code that is mentioned in the text only and referred to as being a ‘package’ is unlikely to have been created for this specific work and therefore doesn’t need to be forked. See [below](forking-git-based-repos.md#examples-of-code-that-doesnt-need-to-be-forked) for examples.
 * If the repository is years old, this usually indicates that the code should not be forked as it probably was not created specifically for the paper.
 
 ## Checklist for forking repositories
