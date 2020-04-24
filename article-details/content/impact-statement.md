@@ -62,53 +62,53 @@ The eLife Editorial team will ideally update the impact statement before the the
 
 An impact statement should not simply repeat the article title and it is generally preferred that they are clearly distinct from one another. In the following case, the statement for article "TLR5 participates in the TLR4 receptor complex and promotes MyD88-dependent signaling in environmental lung injury" originally read:
 
-* "TLR5 participates in the TLR4 signaling complex and modulates the response to TLR4 ligands in mice and humans."
+> "TLR5 participates in the TLR4 signaling complex and modulates the response to TLR4 ligands in mice and humans."
 
 So the first five words of both were the same, "TLR5 participates in the TLR4". To correct this, the order of words in the statement was switched around as follow:
 
-* "The response to TLR4 ligands in mice and humans is modulated by TLR5, which participates in the TLR4 signaling complex."
+> "The response to TLR4 ligands in mice and humans is modulated by TLR5, which participates in the TLR4 signaling complex."
 
 ### Bracket use
 
 If brackets can be replaced with commas, this should be done. For example, the following impact statement uses them to enclose the name of an enzyme:
 
-* "By combining structure-based computational predictions and a thorough structural analysis, a highly thermostable enzyme **\(alcohol dehydrogenase\)** has been engineered."
+> "By combining structure-based computational predictions and a thorough structural analysis, a highly thermostable enzyme **\(alcohol dehydrogenase\)** has been engineered."
 
 This can be corrected to the following without affecting the readability of the statement:
 
-* "By combining structure-based computational predictions and a thorough structural analysis, a highly thermostable enzyme**, alcohol dehydrogenase,** has been engineered."
+> "By combining structure-based computational predictions and a thorough structural analysis, a highly thermostable enzyme**, alcohol dehydrogenase,** has been engineered."
 
 In the following instance, however, this kind of edit would be inappropriate as the statement reads clearer with the brackets in place:
 
-* "Reprogramming of transcription factors by PRR-independent \(cAMP\) and PRR-dependent \(curdlan\) signaling induces new dendritic cell subset."
+> "Reprogramming of transcription factors by PRR-independent \(cAMP\) and PRR-dependent \(curdlan\) signaling induces new dendritic cell subset."
 
 ### Fragment correction
 
 The following impact statement is an example of a fragment rather than a complete sentence:
 
-* "Comprehensive compendium of myelin proteins in the peripheral nervous system and method to address molecular diversity of myelin sheaths in health and disease."
+> "Comprehensive compendium of myelin proteins in the peripheral nervous system and method to address molecular diversity of myelin sheaths in health and disease."
 
 This was edited so that rather than two descriptive phrases, it was formulated as a single proper sentence:
 
-* "A comprehensive compendium of myelin proteins in the peripheral nervous system has been created, alongside a method to address molecular diversity of myelin sheaths in health and disease."
+> "A comprehensive compendium of myelin proteins in the peripheral nervous system has been created, alongside a method to address molecular diversity of myelin sheaths in health and disease."
 
 Similarly, this impact statement was also not a full sentence.
 
-* "Calpain as a promising therapeutic target to reduce spasticity after a spinal cord injury."
+> "Calpain as a promising therapeutic target to reduce spasticity after a spinal cord injury."
 
 This was easily fixed by simply changed 'as' to 'is'.
 
-* "Calpain **is** a promising therapeutic target to reduce spasticity after a spinal cord injury."
+> "Calpain **is** a promising therapeutic target to reduce spasticity after a spinal cord injury."
 
 ### Removing possessive phrases
 
 Impact statements must be written in the third person, so phrases such as 'we show' are not allowed. If they are present, the statement must be rewritten. For example, this following impact statement has 'we named . . .' in it:
 
-* "A female fertility syndrome in _Drosophila_ called gonadal dysgenesis is caused by the _P_-transposase actively mobilizing a very short _P_-element variant **that we named** the _Har-P_."
+> "A female fertility syndrome in _Drosophila_ called gonadal dysgenesis is caused by the _P_-transposase actively mobilizing a very short _P_-element variant **that we named** the _Har-P_."
 
 This was therefore edited to read instead:
 
-* "A female fertility syndrome in _Drosophila_ called gonadal dysgenesis is caused by the _P_-transposase actively mobilizing a very short _P_-element variant **that has been named** the _Har-P."_
+> "A female fertility syndrome in _Drosophila_ called gonadal dysgenesis is caused by the _P_-transposase actively mobilizing a very short _P_-element variant **that has been named** the _Har-P."_
 
 ### Semi-colon removal
 

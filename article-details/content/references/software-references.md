@@ -12,7 +12,7 @@ Within the reference list, software references provide information about any sof
 
 The following is an example of how to add a GitHub reference \(for example, after forking code\). In Kriya, click on 'Add reference' and select 'Software.' 
 
-![The default fields in Kriya for a Software reference](../../../../.gitbook/assets/screenshot-2020-04-21-at-16.08.25.png)
+![The default fields in Kriya for a Software reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.08.25.png)
 
 The default fields in Kriya will need to be altered to include the following information:
 
@@ -23,7 +23,7 @@ The default fields in Kriya will need to be altered to include the following inf
 * Software version - for GitHub references, this is the latest commit number
 * Website - This should be a link to the original \(not the forked\) repository
 
-![Details required for a GitHub repository reference](../../../../.gitbook/assets/screenshot-2020-04-21-at-16.11.15.png)
+![Details required for a GitHub repository reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.11.15.png)
 
 ## Structure
 

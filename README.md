@@ -26,7 +26,7 @@ description: >-
 ## Toolkit
 
 * [Kriya](toolkit/kriya.md)
-* [Github](toolkit/github.md)
+* [Github](toolkit/github/)
 
 ## Interacting with authors
 
