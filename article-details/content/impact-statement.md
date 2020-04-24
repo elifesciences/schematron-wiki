@@ -244,6 +244,18 @@ The following tests are run on impact statements.
 
 **Action**: `<xxx>` will be a disallowed XML element\(s\) currently present in the impact statement. The only XML elements allowed within the impact statement are `<italic>`, `<sup>` or `<sub>`. To address this warning, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks. For example, if the warning reads "&lt;bold&gt; is not allowed in impact statement", bold formatting is present and should be removed; similarly, "&lt;ext-link&gt; is not allowed in impact statement" indicates a hyperlink.
 
+#### insight-asbtract-impact-test-1
+
+**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract reads "XXXXXX", whereas the impact statement reads "XXXXXX"._
+
+**Action**: As this warning states, the impact statements in an Insight article should match exactly to the abstract. The eLife Features team will need to be alerted when this is not the case so that they can make a decision about which text is correct.
+
+#### insight-asbtract-impact-test-2	
+
+**Warning**: _In insights, abtsracts must be the same as impact statements. Here the abstract has XXXXXX child element\(s\), whereas the impact statement has XXXXXX child element\(s\). Check for possible missing formatting._
+
+**Action**: The impact statements in an Insight article should match exactly to the abstract. This warning will fire if there are different numbers of child elements in the abstract and impact statement, indicating that there may be different formatting in the two places. Update the text so that the formatting is consistent - species names should be placed in italics, bold formatting should be removed. The eLife Features team should be queried if it is unclear which style is correct.
+
 ### XML structure warnings
 
 These tests check the underlying structure of the [XML](impact-statement.md#xml-structure) for impact statements. Resolving these may require the intervention of technical support.
