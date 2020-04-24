@@ -252,7 +252,7 @@ The following tests are run on impact statements.
 
 #### insight-asbtract-impact-test-2	
 
-**Warning**: _In insights, abtsracts must be the same as impact statements. Here the abstract has XXXXXX child element\(s\), whereas the impact statement has XXXXXX child element\(s\). Check for possible missing formatting._
+**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract has XXXXXX child element\(s\), whereas the impact statement has XXXXXX child element\(s\). Check for possible missing formatting._
 
 **Action**: The impact statements in an Insight article should match exactly to the abstract. This warning will fire if there are different numbers of child elements in the abstract and impact statement, indicating that there may be different formatting in the two places. Update the text so that the formatting is consistent - species names should be placed in italics, bold formatting should be removed. The eLife Features team should be queried if it is unclear which style is correct.
 
