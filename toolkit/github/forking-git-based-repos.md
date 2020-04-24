@@ -175,6 +175,8 @@ Comparing the forked repositories to the ones that are linked in the article sho
 
 ![Forked repository](../../.gitbook/assets/screenshot-2020-04-24-at-13.02.12.png)
 
+If someone else’s code has been modified for an eLife paper, this code should not be forked. A software reference to the original code should be added however.
+
 ## When to fork code in Tools and Resources papers
 
 If the repository has the same name as the tool being described, this usually indicates that it should not be forked. However, if data is analysed in a Tools and Resources paper, as in the example below,  the linked repositories should be forked. 
