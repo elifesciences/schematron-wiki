@@ -114,49 +114,49 @@ This was therefore edited to read instead:
 
 Outside of their use in scientific terms, semi-colons are not allowed in impact statements.
 
-* "Plasmodium uses host-derived factors to form more rosettes to hamper **phagocytosis;** a good example of host-parasite interaction in immunopathobiology."
+> "Plasmodium uses host-derived factors to form more rosettes to hamper **phagocytosis;** a good example of host-parasite interaction in immunopathobiology."
 
 This statement was edited to the following based on information given in the abstract:
 
-* "Plasmodium parasites use host-derived factors to form more rosettes and hamper phagocytosis, representing a new escape mechanism for the malaria parasites."
+> "Plasmodium parasites use host-derived factors to form more rosettes and hamper phagocytosis, representing a new escape mechanism for the malaria parasites."
 
 ### Spelling out abbreviations
 
 The use of undefined abbreviations is discouraged, excepting commonly used ones such as DNA or protein/gene names. A general rule of thumb is that if the authors spell out the term in full in their abstract/main text, it should be given in full in the impact statement \(provided this does not take the statement over the 30 word limit. For example:
 
-* "The tissue environment shapes the lipid recognition capacity of **NKT** cells."
+> "The tissue environment shapes the lipid recognition capacity of **NKT** cells."
 
 Here, the expansion of 'NKT' was found from the abstract:
 
 ![](../../.gitbook/assets/screen-shot-2020-03-17-at-15.08.05.png)
 
-* "The tissue environment shapes the lipid recognition capacity of **natural killer T** cells."
+> "The tissue environment shapes the lipid recognition capacity of **natural killer T** cells."
 
 If spelling out the abbreviation would take the statement over 30 words, it is acceptable to leave the abbreviation as it is, provided that the title of the article uses the spelled-out version. It is also acceptable to leave the abbreviations if the authors are defining it in their impact statement, e.g.
 
-* "The human cytomegalovirus \(HCMV\) interactome systematically characterises high-confidence viral-viral and viral-host protein interactions in HCMV-infected cells, facilitating multiple novel insights into HCMV and herpesviral function."
+> "The human cytomegalovirus \(HCMV\) interactome systematically characterises high-confidence viral-viral and viral-host protein interactions in HCMV-infected cells, facilitating multiple novel insights into HCMV and herpesviral function."
 
 ### 'This study' removal
 
 Simply referring to the work as 'a study' in the third person is fine, e.g.
 
-* "A study of 3,500 children in the UK shows that data on socioeconomic background and previous educational achievements can better predict how students will perform at school than genetic data."
+> "A study of 3,500 children in the UK shows that data on socioeconomic background and previous educational achievements can better predict how students will perform at school than genetic data."
 
 However, if phrases such as 'this study shows' or 'this work proves' are used, they will need to be edited. For example:
 
-* "**This study formulates** quantitative, experimentally testable predictions allowing to discriminate between contraction mechanisms in disordered actomyosin and microtubule/motor bundles."
+> "**This study formulates** quantitative, experimentally testable predictions allowing to discriminate between contraction mechanisms in disordered actomyosin and microtubule/motor bundles."
 
 This was changed to the following:
 
-* "Quantitative, experimentally testable predictions allow discrimination between contraction mechanisms in disordered actomyosin and microtubule/motor bundles."
+> "Quantitative, experimentally testable predictions allow discrimination between contraction mechanisms in disordered actomyosin and microtubule/motor bundles."
 
 A more subtle example of this can be seen in the following, where the authors do not refer directly to the work, but instead just say 'here':
 
-* "Novel drug-binding sites of TRPC6 **identified here** could potentially facilitate future design of drugs to treat TRPC6-mediated diseases."
+> "Novel drug-binding sites of TRPC6 **identified here** could potentially facilitate future design of drugs to treat TRPC6-mediated diseases."
 
 In this case, simply removing 'identified here' was sufficient to provide a correct statement:
 
-*  "Novel drug-binding sites of TRPC6 could potentially facilitate future design of drugs to treat TRPC6-mediated diseases."
+> "Novel drug-binding sites of TRPC6 could potentially facilitate future design of drugs to treat TRPC6-mediated diseases."
 
 ## Schematron warnings
 

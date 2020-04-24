@@ -175,7 +175,7 @@ Comparing the forked repositories to the ones that are linked in the article sho
 
 ![Forked repository](../../.gitbook/assets/screenshot-2020-04-24-at-13.02.12.png)
 
-If someone else’s code has been modified for an eLife paper, this code should not be forked. A software reference to the original code should be added however.
+If someone else’s code has been modified for an eLife paper, this code should not be forked. A [software reference](../../article-details/content/references/software-references.md#how-to-add-a-software-reference) to the original code should be added however.
 
 ## When to fork code in Tools and Resources papers
 
