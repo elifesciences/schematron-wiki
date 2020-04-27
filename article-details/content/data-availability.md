@@ -294,43 +294,43 @@ If it is not clear how to update citations of figures and files to us their fina
 
 **Warning**: _The reference in position XX of the data availability section does not have an identifier \(no pub-id\). Please ensure to add it in or query the authors asking for it._
 
-**Action**: 
+**Action**: At the pre-author stage, this warning indicates a dataset without an identifier. The author most be asked to provide the missing details if they cannot be found using the other dataset information. This warning fires if the `<pub-id>` element is missing.
 
-At the pre-author stage, this warning indicates a dataset without an identifier. The author most be asked to provide the missing details if they cannot be found using the other dataset information.
-
-*  * Please provide the identifier \(accession number or DOI\) for this dataset.
+* Please provide the identifier \(accession number or DOI\) for this dataset.
 
 #### final-das-elem-pub-id-1
 
 **Error**: _The reference in position XX of the data availability section does not have an identifier \(no pub-id\). Please ensure to add it in._
 
-**Action**: At the post-author stage, this error indicates a dataset without an identifier. The author should be asked by email to provide the missing details if they cannot be found using the other dataset information.
+**Action**: At the post-author stage, this error indicates a dataset without an identifier. The author should be asked by email to provide the missing details if they cannot be found using the other dataset information. This error fires if the `<pub-id>` element is missing.
 
 #### pre-das-elem-pub-id-2
 
 **Warning**: _The reference in position XX of the data availability section does not have an id \(pub-id is empty\). Please ensure to add it in or query the authors asking for it._
 
-**Action**: 
+**Action**: At the pre-author stage, this warning indicates a dataset without an identifier. The author most be asked to provide the missing details if they cannot be found using the other dataset information. This warning fires if the `<pub-id>` element is empty.
+
+* Please provide the identifier \(accession number or DOI\) for this dataset.
 
 #### final-das-elem-pub-id-2
 
 **Error**: _The reference in position XX of the data availability section does not have an id \(pub-id is empty\). Please ensure to add it in._
 
-**Action**: 
+**Action**: At the post-author stage, this error indicates a dataset without an identifier. The author should be asked by email to provide the missing details if they cannot be found using the other dataset information. This error fires if the `<pub-id>` element is empty.
 
 #### pre-das-elem-year-1
 
 **Warning**: _The reference in position XX of the data availability section does not have a year. Please ensure to add it in or query the authors asking for it._
 
-**Action**: 
+**Action**: At the pre-author stage, this warning indicates a dataset without a year. The author most be asked to provide the missing details if they cannot be found using the other dataset information. 
+
+* Please provide the year for this dataset.
 
 #### final-das-elem-year-1
 
 **Error**: _The reference in position XX of the data availability section does not have a year. Please ensure to add it in._
 
-**Action**: 
-
-* Please provide the year for this dataset.
+**Action**: At the post-author stage, this error indicates a dataset without a year. The author should be asked by email to provide the missing details if they cannot be found using the other dataset information. 
 
 #### das-elem-cit-3
 
