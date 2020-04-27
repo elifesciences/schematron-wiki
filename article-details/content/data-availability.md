@@ -20,6 +20,18 @@ In research content, the data availability statement is mandatory. The other two
 
 ## What needs to be checked?
 
+### Data availability statement
+
+The data availability statement should be a single paragraph consisting of complete sentences, ending in a full stop. Spelling and grammar errors should be corrected in the same manner as the main text.
+
+
+
+### Generated datasets
+
+
+
+### Previously published datasets
+
 
 
 ## Examples
@@ -32,13 +44,15 @@ In research content, the data availability statement is mandatory. The other two
 
 
 
+### Data available on request
+
+
+
 ### Data mentioned in the statement but not listed as a citation
 
 
 
 ### Data that is not yet public
-
-
 
 
 
