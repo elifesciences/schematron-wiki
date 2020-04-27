@@ -48,7 +48,19 @@ The same rules apply to as for generated datasets.
 
 ### Adding datasets
 
+Datasets will usually be entered by the authors on the submission system when they are uploading their article. The details will then be included in the XML for content processing. At any point during proofing, datasets may be added or removed. Clicking the 'add dataset' control will bring up the following editor:
 
+![](../../.gitbook/assets/screen-shot-2020-04-27-at-12.53.23.png)
+
+Each of these fields will need to be completed for the dataset to pass schematron validation.
+
+* **Authors**: Enter each author name as a surname followed by initials. A comma separated list \(Smith J, Bloggs T, Muggins I . . . \) may be pasted into this field and will process into separate names when the return key is pressed.
+* **Year**: This should be the year that the dataset was made publicly available. For generated datasets, be aware that this made not be the same as the year of publication for the current article.
+* **Dataset title**: The title for the dataset. This is often descriptive of the contents, but may also reflect the article to which the data is related \(e.g. 'Data from: Computational 3D histological phenotyping of whole zebrafish by X-ray histotomography' for a Dryad dataset\).
+* **Dataset url**: A direct link to the dataset. This should not be a link to a database landing page \(e.g. https://www.rcsb.org/\) but should instead take the reader straight to the data. 
+* **Database**: The name of the repository in which the data has been deposited.
+* **Identifier**: A unique string that can be used to indentify the dataset. This may be a DOI, an accession number or simply an ID unique to the database in which the data has been stored.
+* **pub-id-type**: The type of identifier present. Chose from: accession, archive, doi. This cannot be left as 'other'. Guidance on which databases take which value for this field can be found here.
 
 ### Incomplete datasets
 
@@ -68,7 +80,40 @@ The same rules apply to as for generated datasets.
 
 ### Data that is not yet public
 
+"All data generated or analysed during this study are included in the manuscript and supporting files. Source data files will be made available upon acceptance."
 
+
+
+
+
+| Database | Synonyms | URL Examples | DOI Examples | pub-id-type | assigning-authority |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Apollo - University of Cambridge Repository | Apollo, University of Cambridge Repository | [https://www.repository.cam.ac.uk/handle/1810/260862](https://www.repository.cam.ac.uk/handle/1810/260862) | [https://doi.org/10.17863/CAM.6018](https://doi.org/10.17863/CAM.6018) | doi | University of Cambridge |
+| ArrayExpress | EBI ArrayExpress | [https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3557/](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3557/) |  | accession | EBI |
+| CRCNS.org | CRCNS, Collaborative Research in Computational Neuroscience, Collaborative Research in Computational Neuroscience - Data sharing | [http://crcns.org/data-sets/bst/pag-1](http://crcns.org/data-sets/bst/pag-1) | [http://doi.org/10.6080/K0R49P0V](http://doi.org/10.6080/K0R49P0V) | doi | CRCNS |
+| Dryad Digital Repository | Dryad | [https://datadryad.org//resource/doi:10.5061/dryad.8153g](https://datadryad.org//resource/doi:10.5061/dryad.8153g) | [https://doi.org/10.5061/dryad.8153g](https://doi.org/10.5061/dryad.8153g) | doi | Dryad |
+| EBI European Nucleotide Archive | European Nucleotide Archive, ENA, EBI ENA | [https://www.ebi.ac.uk/ena/data/search?query=PRJEB18563](https://www.ebi.ac.uk/ena/data/search?query=PRJEB18563) |  | accession | EBI |
+| Edinburgh DataShare |  | [https://datashare.is.ed.ac.uk/handle/10283/1922](https://datashare.is.ed.ac.uk/handle/10283/1922) |  | doi | Edinburgh University |
+| EMDataBank | EMDB, Electron Microscopy Data Bank, The Electron Microscopy Data Bank | [http://emsearch.rutgers.edu/atlas/5778\_summary.html](http://emsearch.rutgers.edu/atlas/5778_summary.html) |  | accession | EMDB |
+| EMDataBank | EMDB, Electron Microscopy Data Bank, The Electron Microscopy Data Bank | [http://www.ebi.ac.uk/pdbe/entry/emdb/EMD-5778](http://www.ebi.ac.uk/pdbe/entry/emdb/EMD-5778) |  | accession | EMDB |
+| ETH Library Research Collection | ETH Research Collection | [https://www.research-collection.ethz.ch/handle/20.500.11850/300799](https://www.research-collection.ethz.ch/handle/20.500.11850/300799) | [https://doi.org/10.3929/ethz-b-000300799](https://doi.org/10.3929/ethz-b-000300799) | doi | ETH Zurich |
+| figshare | Figshare, FigShare | [https://figshare.com/articles/fMRI\_to\_intraneural\_microstimulation\_of\_single\_mechanoreceptive\_afferents/3205552](https://figshare.com/articles/fMRI_to_intraneural_microstimulation_of_single_mechanoreceptive_afferents/3205552) | [https://dx.doi.org/10.6084/m9.figshare.3205552](https://dx.doi.org/10.6084/m9.figshare.3205552) | doi | figshare |
+| GeneNetwork | WebQTL | [http://www.genenetwork.org/webqtl/main.py?FormID=sharinginfo&GN\_AccessionId=327](http://www.genenetwork.org/webqtl/main.py?FormID=sharinginfo&GN_AccessionId=327) |  | accession | University of Tennessee |
+| NCBI BioProject | BioProject | [https://www.ncbi.nlm.nih.gov/bioproject/263038](https://www.ncbi.nlm.nih.gov/bioproject/263038) |  | accession | NCBI |
+| NCBI BioSample | BioSample | [https://www.ncbi.nlm.nih.gov/biosample/SAMN10501893](https://www.ncbi.nlm.nih.gov/biosample/SAMN10501893) |  | accession | NCBI |
+| NCBI dbGaP | dbGaP | [https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study\_id=phs001660.v1.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001660.v1.p1) |  | accession | NCBI |
+| NCBI Gene Expression Omnibus | Gene Expression Omnibus, GEO, NCBI GEO | [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69545](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69545) |  | accession | NCBI |
+| NCBI Nucleotide | Nucleotide | [https://www.ncbi.nlm.nih.gov/nuccore/KY616976](https://www.ncbi.nlm.nih.gov/nuccore/KY616976) |  | accession | NCBI |
+| NCBI Sequence Read Archive | Sequence Read Archive, SRA, Short Read Archive, NCBI SRA | [https://www.ncbi.nlm.nih.gov/sra/?term=SRA012474](https://www.ncbi.nlm.nih.gov/sra/?term=SRA012474) |  | accession | NCBI |
+| NIMH Data Archive  | NDA | [https://nda.nih.gov/edit\_collection.html?id=2890](https://nda.nih.gov/edit_collection.html?id=2890) |  | archive | NIMH |
+| PRIDE | EBI PRIDE, PRoteomics IDEntifications Database | [https://www.ebi.ac.uk/pride/archive/projects/PXD007787](https://www.ebi.ac.uk/pride/archive/projects/PXD007787) |  | accession | EBI |
+| ProteomeXchange |  | [http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD005831](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD005831) |  | accession |  |
+| RCSB Protein Data Bank | Protein Data Bank, PDB, RCSB PDB, Protein Databank | [https://www.rcsb.org/structure/5HOO](https://www.rcsb.org/structure/5HOO) | [http://dx.doi.org/10.2210/pdb5HOO/pdb](http://dx.doi.org/10.2210/pdb5HOO/pdb) | accession | PDB |
+| Open Science Framework | OSF | [https://osf.io/6hmrz/](https://osf.io/6hmrz/) |  | archive | Open Science Framework |
+| Oxford University Research Archive | ORA | [https://ora.ox.ac.uk/objects/uuid:09bef38c-999f-4fb7-aa46-14eda3123571](https://ora.ox.ac.uk/objects/uuid:09bef38c-999f-4fb7-aa46-14eda3123571) |  | archive | Oxford University |
+| PeptideAtlas |  | [https://db.systemsbiology.net/sbeams/cgi/PeptideAtlas/PASS\_View?identifier=PASS01443](https://db.systemsbiology.net/sbeams/cgi/PeptideAtlas/PASS_View?identifier=PASS01443) |  | archive |  |
+| webKnossos |  | [https://wklink.org/8732](https://wklink.org/8732) |  | archive | webKnossos |
+| Zenodo |  | [https://zenodo.org/record/6960\#.WqEkGoL7lTY](https://zenodo.org/record/6960#.WqEkGoL7lTY) | [http://dx.doi.org/10.5281/zenodo.6960](http://dx.doi.org/10.5281/zenodo.6960) | doi | Zenodo |
 
 ## Schematron warnings
 
