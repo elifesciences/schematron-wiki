@@ -85,9 +85,9 @@ In cases where the dataset information cannot be found: A unique string that can
 * Please provide the year for this dataset.
 * Please provide the accession number for this dataset.
 
-[https://www.ncbi.nlm.nih.gov/geo/](https://www.ncbi.nlm.nih.gov/geo/), and the authors provide an accession number, GSE143881, then the direct URL will be [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881). Further examples of URLs can be found [below](data-availability.md#database-examples). It will usually possible to replace the identifier within the example link with the one the authors have provided to get the final URL. Please note, however, that this link may not be active yet \(this might be why the authors did not provide it\), so action will need to be [taken accordingly](data-availability.md#data-that-is-not-yet-public).
+In cases where the authors have not provided a URL, or where they have provided a link to the database homepage rather than a specific dataset, it may be possible to derive the specific URL. For example, if the dataset is in the NCBI Gene Expression Omnibus, [https://www.ncbi.nlm.nih.gov/geo/](https://www.ncbi.nlm.nih.gov/geo/), and the authors provide an accession number, GSE143881, then the direct URL will be [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881). Further examples of URLs can be found [below](data-availability.md#database-examples). It will usually possible to replace the identifier within the example link with the one the authors have provided to get the final URL. Please note, however, that this link may not be active yet \(this might be why the authors did not provide it\), so action will need to be [taken accordingly](data-availability.md#data-that-is-not-yet-public).
 
-If it is not possible to derive the URL from the informatIn cases where the authors have not provided a URL, or where they have provided a link to the database homepage rather than a specific dataset, it may be possible to derive the specific URL. For example, if the dataset is in the NCBI Gene Expression Omnibus, ion provided \(e.g. the authors did not provide an identifier, or the database does not have this neatly in individual URLS\), please use the following author query:
+If it is not possible to derive the URL from the information provided \(e.g. the authors did not provide an identifier, or the database does not have this neatly in individual URLS\), please use the following author query:
 
 * Please enter a direct URL for this dataset, not just the homepage for the database as a whole.
 
@@ -113,7 +113,7 @@ If approval for 'on request' data has not been indicated, the Production team sh
 
 ### Data available 'on acceptance'
 
-Related to the above, sometimes when authors are submitting their article, they will hold back data in order to keep it confidential until the article has passsed peer review
+Related to the above, sometimes when authors are submitting their article, they will hold back data in order to keep it confidential until the article has passed peer review
 
 > All data generated or analysed during this study are included in the manuscript and supporting files. Source data files will be made available upon acceptance
 
