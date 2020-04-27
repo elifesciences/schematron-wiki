@@ -59,7 +59,7 @@ Each of these fields will need to be completed for the dataset to pass schematro
 * **Dataset title**: The title for the dataset. This is often descriptive of the contents, but may also reflect the article to which the data is related \(e.g. 'Data from: Computational 3D histological phenotyping of whole zebrafish by X-ray histotomography' for a Dryad dataset\).
 * **Dataset url**: A direct link to the dataset. This should not be a link to a database landing page \(e.g. https://www.rcsb.org/\) but should instead take the reader straight to the data. 
 * **Database**: The name of the repository in which the data has been deposited.
-* **Identifier**: A unique string that can be used to indentify the dataset. This may be a DOI, an accession number or simply an ID unique to the database in which the data has been stored.
+* **Identifier**
 * **pub-id-type**: The type of identifier present. Chose from: accession, archive, doi. This cannot be left as 'other'. Guidance on which databases take which value for this field can be found [here](data-availability.md#database-examples).
 * assigning-authority: The organisation that assigned the identifier. Often the organisation that hosts/maintains the database. This can be set to 'other' if multiple organisations are involved or the authority is not on the list of allowed values. The values for common databases can be found [here](data-availability.md#database-examples).
 
@@ -79,15 +79,15 @@ However, some databases do not display the required information in an easily acc
 
 ![](../../.gitbook/assets/screen-shot-2020-04-27-at-14.37.01.png)
 
-In cases where the dataset information cannot be descerned from the link, or the authors have not provided a proper URL in the first place, the following queries should be used to ask the author to provide the missing details. Please combine these where necessary.
+In cases where the dataset information cannot be found: A unique string that can be used to identify the dataset. This may be a DOI, an accession number or simply an ID unique to the database in which the data has been stored. from the link, or the authors have not provided a proper URL in the first place, the following queries should be used to ask the author to provide the missing details. Please combine these where necessary.
 
 * Please provide the full author list for this dataset.
 * Please provide the year for this dataset.
 * Please provide the accession number for this dataset.
 
-In cases where the authors have not provided a URL, or where they have provided a link to the database homepage rather than a specific dataset, it may be possible to derrive the specific URL. For example, if the dataset is in the NCBI Gene Expression Omnibus, [https://www.ncbi.nlm.nih.gov/geo/](https://www.ncbi.nlm.nih.gov/geo/), and the authors provide an accession number, GSE143881, then the direct URL will be [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881). Further examples of URLs can be found [below](data-availability.md#database-examples). It will usually possible to replace the identifier within the example link with the one the authors have provided to get the final URL. Please note, however, that this link may not be active yet \(this might be why the authors did not provide it\), so action will need to be [taken accordingly](data-availability.md#data-that-is-not-yet-public).
+[https://www.ncbi.nlm.nih.gov/geo/](https://www.ncbi.nlm.nih.gov/geo/), and the authors provide an accession number, GSE143881, then the direct URL will be [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881). Further examples of URLs can be found [below](data-availability.md#database-examples). It will usually possible to replace the identifier within the example link with the one the authors have provided to get the final URL. Please note, however, that this link may not be active yet \(this might be why the authors did not provide it\), so action will need to be [taken accordingly](data-availability.md#data-that-is-not-yet-public).
 
-If it is not possible to derrive the URL from the information provided \(e.g. the authors did not provide an identifier, or the database does not have this neatly in individual URLS\), please use the following author query:
+If it is not possible to derive the URL from the informatIn cases where the authors have not provided a URL, or where they have provided a link to the database homepage rather than a specific dataset, it may be possible to derive the specific URL. For example, if the dataset is in the NCBI Gene Expression Omnibus, ion provided \(e.g. the authors did not provide an identifier, or the database does not have this neatly in individual URLS\), please use the following author query:
 
 * Please enter a direct URL for this dataset, not just the homepage for the database as a whole.
 
@@ -95,7 +95,7 @@ If it is not possible to derrive the URL from the information provided \(e.g. th
 
 It is standard practice for a lot of journals to allow authors to make their data available only 'on request', meaning that a reader must contact the corresponding author \(or other designated contact\) to access the data underlying an article. To ensure openness, eLife instead encourages authors to deposit all their data in a dedicated repository or a more general archive such as Dryad or figshare, where it will be available to anyone who wants it.
 
-If an article is submitted with a data availability statement that says generated data is available on request, the Editorial team will ask the authors to upload it to an appropriate repository. Usually there will be no problem with this and the data statement will be updated accordingly. On occasion, the authors may push back against this. This can be because of unfamiliarity with the available options and in these cases, the Editorial team will continue to work with the authors to find an appropriate solution. However, it can also be because the dataset is simply too large \(in the range of terra-bytes of data\) for any repository to accept, necessitating a custom solution such as a dedicated institutional server.
+If an article is submitted with a data availability statement that says generated data is available on request, the Editorial team will ask the authors to upload it to an appropriate repository. Usually there will be no problem with this and the data statement will be updated accordingly. On occasion, the authors may push back against this. This can be because of unfamiliarity with the available options and in these cases, the Editorial team will continue to work with the authors to find an appropriate solution. However, it can also be because the dataset is simply too large \(in the range of terrabytes of data\) for any repository to accept, necessitating a custom solution such as a dedicated institutional server.
 
 > The raw data that support the findings of this study are several TBs in size and are therefore available on request. A source data file for the main figures has been provided.
 
@@ -145,11 +145,17 @@ In these cases, the same author query is appropriate and the data availability s
 
 ### Journal articles entered as datasets
 
+Some authors misunderstand the instructions around datasets and include citations of journal articles in the data availability section:
 
+> Matia-González, A. M., Laing, E. E., & Gerber, A. P. \| 2015 \| Conserved mRNA-binding proteomes in eukaryotic organisms \| [https://www.ncbi.nlm.nih.gov/pubmed/26595419](https://www.ncbi.nlm.nih.gov/pubmed/26595419) \| This dataset was present in supplemental data for the publication in Nature Structural and Molecular Biology
+
+Provided that this is also mentioned in the main reference list and is cited in the text, this entry should be removed. If the reference is not in the main reference list, the author should be asked to move it there:
+
+* This section is for individual datasets deposited to dedicated repositories only. Citations of previous journal publications should be placed in the main reference list. Please indicate where in the article text this reference should be cited.
 
 ### Whole databases entered as datasets
 
-
+Some authors will try to enter citations of entire databases. This is inappropraite since 
 
 ### Data that is not yet public
 
