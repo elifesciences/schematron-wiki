@@ -178,6 +178,12 @@ The data availability section
 
 **Action**: 
 
+#### data-ref-given-names-test-1
+
+**Warning**: _Given names should always be initialised. Ref contains a given names with a string longer than 4 characters - 'XXXXXX' in XXXXXX. Is this a surname captured as given names? Or a fully spelt out given names?_
+
+**Action**: 
+
 #### data-geo-test
 
 Warning: Data reference with the title 'XXXXXX' has a 'https://www.ncbi.nlm.nih.gov/geo' type link, but the database name is not 'NCBI Gene Expression Omnibus' - XXXXXX. Is that correct?
@@ -342,143 +348,383 @@ data-rcsbpbd-test-2
 
 #### data-pride-test-3
 
-Warning: _Data reference with the title 'XXXXXX' has a PRIDE 'www.ebi.ac.uk/pride' type link, but is not marked as an accession type link._
+**Warning**: _Data reference with the title 'XXXXXX' has a PRIDE 'www.ebi.ac.uk/pride' type link, but is not marked as an accession type link._
 
 **Action**: 
 
-data-zenodo-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a doi starting with '10.5281/zenodo' but the database name is not 'Zenodo' - XXXXXX.\_
+#### data-zenodo-test-1
 
-data-zenodo-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.5281/zenodo', which is incorrect.\_
+**Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.5281/zenodo' but the database name is not 'Zenodo' - XXXXXX._
 
-data-zenodo-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, but the assigning authority is not Zenodo, which must be incorrect.\_
+**Action**: 
 
-data-osf-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a 'https://osf.io' type link, but the database name is not 'Open Science Framework' - XXXXXX. Is that correct?\_
+#### data-zenodo-test-2
 
-data-osf-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a 'https://osf.io' type link, but is not marked with Open Science Framework as its assigning authority, which must be incorrect.\_
+**Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.5281/zenodo', which is incorrect._
 
-data-osf-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has an OSF 'https://osf.io' type link, but is not marked as an archive type link.\_
+**Action**: 
 
-data-osf-test-4	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a doi starting with '10.17605/OSF' but the database name is not 'Open Science Framework' - XXXXXX.\_
+data-zenodo-test-3
 
-data-osf-test-5	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a OSF type doi - XXXXXX, but the assigning authority is not Open Science Framework, which must be incorrect.\_
+Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, but the assigning authority is not Zenodo, which must be incorrect.
 
-data-figshare-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a doi starting with '10.6084/m9.figshare' but the database name is not 'figshare' - XXXXXX.\_
+**Action**: 
 
-data-figshare-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.6084/m9.figshare' - is this correct? Figshare sometimes host for other organisations \(example http://doi.org/10.1184/R1/9963566\), so this may be fine.\_
+#### data-osf-test-1
 
-data-figshare-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a figshare type doi - XXXXXX, but the assigning authority is not figshare, which must be incorrect.\_
+**Warning**: _Data reference with the title 'XXXXXX' has a 'https://osf.io' type link, but the database name is not 'Open Science Framework' - XXXXXX. Is that correct?_
 
-data-proteomexchange-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a 'http://proteomecentral.proteomexchange.org/' type link, but the database name is not 'ProteomeXchange' - XXXXXX. Is that correct?\_
+**Action**: 
 
-data-proteomexchange-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a 'http://proteomecentral.proteomexchange.org/' type link, but is not marked with 'other' as its assigning authority, which must be incorrect.\_
+#### data-osf-test-2
 
-data-proteomexchange-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a ProteomeXchange 'http://proteomecentral.proteomexchange.org/' type link, but is not marked as an accession type link.\_
+**Warning**: _Data reference with the title 'XXXXXX' has a 'https://osf.io' type link, but is not marked with Open Science Framework as its assigning authority, which must be incorrect._
 
-data-openneuro-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a doi starting with '10.18112/openneuro' but the database name is not 'OpenNeuro' - XXXXXX.\_
+**Action**: 
 
-data-openneuro-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.18112/openneuro' or 'openneuro.org/datasets' type link, which is incorrect.\_
+#### data-osf-test-3
 
-data-openneuro-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a OpenNeuro type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect.\_
+**Warning**: _Data reference with the title 'XXXXXX' has an OSF 'https://osf.io' type link, but is not marked as an archive type link._
 
-data-synapse-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a doi starting with '10.7303/syn' but the database name is not 'Synapse' - XXXXXX.\_
+**Action**: 
 
-data-synapse-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.7303/syn', which is incorrect.\_
+#### data-osf-test-4
 
-data-synapse-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a Synapse type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect.\_
+**Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.17605/OSF' but the database name is not 'Open Science Framework' - XXXXXX._
 
-data-bmrb-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a 'www.bmrb.wisc.edu/data\_library/summary' type link, but the database name is not 'Biological Magnetic Resonance Data Bank' - XXXXXX. Is that correct?\_
+**Action**: 
 
-data-bmrb-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a 'www.bmrb.wisc.edu/data\_library/summary' type link, but is not marked with 'other' as its assigning authority, which must be incorrect\_
+#### data-osf-test-5
 
-data-bmrb-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a BMRB 'www.bmrb.wisc.edu/data\_library/summary' type link, but is not marked as an accession type link.\_
+**Warning**: _Data reference with the title 'XXXXXX' has a OSF type doi - XXXXXX, but the assigning authority is not Open Science Framework, which must be incorrect._
 
-data-morphdbase-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a 'www.morphdbase.de' type link, but the database name is not 'Morph D Base' - XXXXXX. Is that correct?\_
+**Action**: 
 
-data-morphdbase-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a 'www.morphdbase.de' type link, but is not marked with 'other' as its assigning authority, which must be incorrect\_
+#### data-figshare-test-1
 
-data-morphdbase-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a Morph D Base 'www.morphdbase.de' type link, but is not marked as an accession type link.\_
+**Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.6084/m9.figshare' but the database name is not 'figshare' - XXXXXX._
 
-data-mendeley-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a doi starting with '10.17632' but the database name is not 'Mendeley Data' - XXXXXX.\_
+**Action**: 
 
-data-mendeley-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.17632', which is incorrect.\_
+#### data-figshare-test-2
 
-data-mendeley-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a Mendeley Data type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect.\_
+**Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.6084/m9.figshare' - is this correct? Figshare sometimes host for other organisations \(example http://doi.org/10.1184/R1/9963566\), so this may be fine._
 
-data-edatashare-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a doi starting with '10.7488' but the database name is not 'Edinburgh DataShare' - XXXXXX.\_
+**Action**: 
 
-data-edatashare-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.7488', which is incorrect.\_
+#### data-figshare-test-3
 
-data-edatashare-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a Edinburgh DataShare type doi - XXXXXX, but the assigning authority is not 'Edinburgh University', which must be incorrect.\_
+**Warning**: _Data reference with the title 'XXXXXX' has a figshare type doi - XXXXXX, but the assigning authority is not figshare, which must be incorrect._
 
-data-eth-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a doi starting with '10.3929' but the database name is not 'ETH Library research collection' - XXXXXX.\_
+**Action**: 
 
-data-eth-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.3929', which is incorrect.\_
+#### data-proteomexchange-test-1
 
-data-eth-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a ETH Library research collection type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect.\_
+**Warning**: _Data reference with the title 'XXXXXX' has a 'http://proteomecentral.proteomexchange.org/' type link, but the database name is not 'ProteomeXchange' - XXXXXX. Is that correct?_
 
-data-crcns-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a doi starting with '10.6080' but the database name is not 'Collaborative Research in Computational Neuroscience' - XXXXXX.\_
+**Action**: 
 
-data-crcns-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.6080', which is incorrect.\_
+#### data-proteomexchange-test-2
 
-data-crcns-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a CRCNS type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect.\_
+**Warning**: _Data reference with the title 'XXXXXX' has a 'http://proteomecentral.proteomexchange.org/' type link, but is not marked with 'other' as its assigning authority, which must be incorrect._
 
-data-morphosource-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a doi starting with '10.17602' but the database name is not 'MorphoSource' - XXXXXX.\_
+**Action**: 
 
-data-morphosource-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.17602', which is incorrect.\_
+#### data-proteomexchange-test-3
 
-data-morphosource-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a MorphoSource type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect.\_
+**Warning**: _Data reference with the title 'XXXXXX' has a ProteomeXchange 'http://proteomecentral.proteomexchange.org/' type link, but is not marked as an accession type link._
 
-data-neurovault-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a 'neurovault.org/collections' type link, but the database name is not 'NeuroVault' - XXXXXX. Is that correct?\_
+**Action**: 
 
-data-neurovault-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a 'neurovault.org/collections' type link, but is not marked with 'other' as its assigning authority, which must be incorrect\_
+#### data-openneuro-test-1
 
-data-neurovault-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a NeuroVault 'neurovault.org/collections' type link, but is not marked as an archive type link.\_
+**Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.18112/openneuro' but the database name is not 'OpenNeuro' - XXXXXX._
 
-data-wwpdb-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a doi starting with '10.2210' but the database name is not 'Worldwide Protein Data Bank' - XXXXXX.\_
+**Action**: 
 
-data-wwpdb-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.2210', which is incorrect.\_
+#### data-openneuro-test-2
 
-data-wwpdb-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a Worldwide Protein Data Bank type doi - XXXXXX, but the assigning authority is not 'PDB', which must be incorrect.\_
+**Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.18112/openneuro' or 'openneuro.org/datasets' type link, which is incorrect._
 
-data-sbgdb-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a doi starting with '10.15785/SBGRID' but the database name is not 'SBGrid Data Bank' - XXXXXX.\_
+**Action**: 
 
-data-sbgdb-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.15785/SBGRID', which is likely incorrect.\_
+#### data-openneuro-test-3
 
-data-sbgdb-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a SBGrid Data Bank type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect.\_
+**Warning**: _Data reference with the title 'XXXXXX' has a OpenNeuro type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect._
 
-data-harvard-dataverse-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a doi starting with '10.7910' but the database name is not 'Harvard Dataverse' - XXXXXX.\_
+**Action**: 
 
-data-harvard-dataverse-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.7910', which is likely incorrect.\_
+#### data-synapse-test-1
 
-data-harvard-dataverse-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a Harvard Dataverse type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect.\_
+**Warning**: Data reference with the title 'XXXXXX' has a doi starting with '10.7303/syn' but the database name is not 'Synapse' - XXXXXX.
 
-data-encode-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a 'www.encodeproject.org' type link, but the database name is not 'ENCODE' - XXXXXX. Is that correct?\_
+**Action**: 
 
-data-encode-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a 'www.encodeproject.org' type link, but is not marked with 'other' as its assigning authority, which must be incorrect\_
+#### data-synapse-test-2
 
-data-encode-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has an ENCODE 'www.encodeproject.org' type link, but is not marked as an archive type link.\_
+**Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.7303/syn', which is incorrect._
 
-data-emdr-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a 'www.emdataresource.org' type link, but the database name is not 'EMDataResource' - XXXXXX. Is that correct?\_
+**Action**: 
 
-data-emdr-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a 'www.emdataresource.org' type link, but is not marked with 'other' as its assigning authority, which must be incorrect\_
+#### data-synapse-test-3
 
-data-emdr-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has an EMDataResource 'www.emdataresource.org' type link, but is not marked as an accession type link.\_
+**Warning**: _Data reference with the title 'XXXXXX' has a Synapse type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect._
+
+**Action**: 
+
+#### data-bmrb-test-1
+
+**Warning**: _Data reference with the title 'XXXXXX' has a 'www.bmrb.wisc.edu/data\_library/summary' type link, but the database name is not 'Biological Magnetic Resonance Data Bank' - XXXXXX. Is that correct?_
+
+**Action**: 
+
+#### data-bmrb-test-2
+
+**Warning**: _Data reference with the title 'XXXXXX' has a 'www.bmrb.wisc.edu/data\_library/summary' type link, but is not marked with 'other' as its assigning authority, which must be incorrect_
+
+**Action**: 
+
+#### data-bmrb-test-3
+
+**Warning**: _Data reference with the title 'XXXXXX' has a BMRB 'www.bmrb.wisc.edu/data\_library/summary' type link, but is not marked as an accession type link._
+
+**Action**: 
+
+#### data-morphdbase-test-1
+
+**Warning**: _Data reference with the title 'XXXXXX' has a 'www.morphdbase.de' type link, but the database name is not 'Morph D Base' - XXXXXX. Is that correct?_
+
+**Action**: 
+
+#### data-morphdbase-test-2
+
+**Warning**: _Data reference with the title 'XXXXXX' has a 'www.morphdbase.de' type link, but is not marked with 'other' as its assigning authority, which must be incorrect_
+
+**Action**: 
+
+#### data-morphdbase-test-3
+
+**Warning**: _Data reference with the title 'XXXXXX' has a Morph D Base 'www.morphdbase.de' type link, but is not marked as an accession type link._
+
+**Action**: 
+
+#### data-mendeley-test-1
+
+**Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.17632' but the database name is not 'Mendeley Data' - XXXXXX._
+
+**Action**: 
+
+#### data-mendeley-test-2
+
+**Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.17632', which is incorrect._
+
+**Action**: 
+
+#### data-mendeley-test-3
+
+**Warning**: _Data reference with the title 'XXXXXX' has a Mendeley Data type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect._
+
+**Action**: 
+
+#### data-edatashare-test-1
+
+**Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.7488' but the database name is not 'Edinburgh DataShare' - XXXXXX._
+
+**Action**: 
+
+#### data-edatashare-test-2
+
+**Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.7488', which is incorrect._
+
+**Action**: 
+
+#### data-edatashare-test-3
+
+**Warning**: _Data reference with the title 'XXXXXX' has a Edinburgh DataShare type doi - XXXXXX, but the assigning authority is not 'Edinburgh University', which must be incorrect._
+
+**Action**: 
+
+#### data-eth-test-1
+
+**Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.3929' but the database name is not 'ETH Library research collection' - XXXXXX._
+
+**Action**: 
+
+#### data-eth-test-2
+
+**Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.3929', which is incorrect._
+
+**Action**: 
+
+#### data-eth-test-3
+
+**Warning**: _Data reference with the title 'XXXXXX' has a ETH Library research collection type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect._
+
+**Action**: 
+
+#### data-crcns-test-1
+
+**Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.6080' but the database name is not 'Collaborative Research in Computational Neuroscience' - XXXXXX._
+
+**Action**: 
+
+#### data-crcns-test-2
+
+**Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.6080', which is incorrect._
+
+**Action**: 
+
+#### data-crcns-test-3
+
+**Warning**: _Data reference with the title 'XXXXXX' has a CRCNS type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect._
+
+**Action**: 
+
+#### data-morphosource-test-1
+
+**Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.17602' but the database name is not 'MorphoSource' - XXXXXX._
+
+**Action**: 
+
+#### data-morphosource-test-2
+
+**Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.17602', which is incorrect._
+
+**Action**: 
+
+#### data-morphosource-test-3
+
+**Warning**: _Data reference with the title 'XXXXXX' has a MorphoSource type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect._
+
+**Action**: 
+
+#### data-neurovault-test-1
+
+**Warning**: _Data reference with the title 'XXXXXX' has a 'neurovault.org/collections' type link, but the database name is not 'NeuroVault' - XXXXXX. Is that correct?_
+
+**Action**: 
+
+#### data-neurovault-test-2
+
+**Warning**: Data reference with the title 'XXXXXX' has a 'neurovault.org/collections' type link, but is not marked with 'other' as its assigning authority, which must be incorrect
+
+**Action**: 
+
+#### data-neurovault-test-3
+
+**Warning**: _Data reference with the title 'XXXXXX' has a NeuroVault 'neurovault.org/collections' type link, but is not marked as an archive type link._
+
+**Action**: 
+
+#### data-wwpdb-test-1
+
+**Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.2210' but the database name is not 'Worldwide Protein Data Bank' - XXXXXX._
+
+**Action**: 
+
+data-wwpdb-test-2
+
+**Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.2210', which is incorrect._
+
+**Action**: 
+
+#### data-wwpdb-test-3
+
+**Warning**: _Data reference with the title 'XXXXXX' has a Worldwide Protein Data Bank type doi - XXXXXX, but the assigning authority is not 'PDB', which must be incorrect._
+
+**Action**: 
+
+#### data-sbgdb-test-1
+
+**Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.15785/SBGRID' but the database name is not 'SBGrid Data Bank' - XXXXXX._
+
+**Action**: 
+
+#### data-sbgdb-test-2
+
+**Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.15785/SBGRID', which is likely incorrect._
+
+**Action**: 
+
+#### data-sbgdb-test-3
+
+**Warning**: _Data reference with the title 'XXXXXX' has a SBGrid Data Bank type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect._
+
+**Action**: 
+
+#### data-harvard-dataverse-test-1
+
+**Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.7910' but the database name is not 'Harvard Dataverse' - XXXXXX._
+
+**Action**: 
+
+#### data-harvard-dataverse-test-2
+
+**Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.7910', which is likely incorrect._
+
+**Action**: 
+
+#### data-harvard-dataverse-test-3
+
+**Warning**: _Data reference with the title 'XXXXXX' has a Harvard Dataverse type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect._
+
+**Action**: 
+
+#### data-encode-test-1
+
+**Warning**: _Data reference with the title 'XXXXXX' has a 'www.encodeproject.org' type link, but the database name is not 'ENCODE' - XXXXXX. Is that correct?_
+
+**Action**: 
+
+#### data-encode-test-2
+
+**Warning**: _Data reference with the title 'XXXXXX' has a 'www.encodeproject.org' type link, but is not marked with 'other' as its assigning authority, which must be incorrect_
+
+**Action**: 
+
+#### data-encode-test-3
+
+**Warning**: _Data reference with the title 'XXXXXX' has an ENCODE 'www.encodeproject.org' type link, but is not marked as an archive type link._
+
+**Action**: 
+
+#### data-emdr-test-1
+
+**Warning**: _Data reference with the title 'XXXXXX' has a 'www.emdataresource.org' type link, but the database name is not 'EMDataResource' - XXXXXX. Is that correct?_
+
+**Action**: 
+
+#### data-emdr-test-2
+
+**Warning**: _Data reference with the title 'XXXXXX' has a 'www.emdataresource.org' type link, but is not marked with 'other' as its assigning authority, which must be incorrect_
+
+**Action**: 
+
+#### data-emdr-test-3
+
+**Warning**: _Data reference with the title 'XXXXXX' has an EMDataResource 'www.emdataresource.org' type link, but is not marked as an accession type link._
+
+**Action**: 
 
 ### XML structure warnings
 
-back-test-3
+#### back-test-3
 
-Error: One and only one Data availiability section \(sec\[@sec-type="data-availability"\]\) must be present \(as a child of back\) for 'XXXXXX'.
+**Error**: _One and only one Data availiability section \(sec\[@sec-type="data-availability"\]\) must be present \(as a child of back\) for 'XXXXXX'._
 
-back-test-10
+**Action**: 
 
-Warning: One and only one Data availiability section \(sec\[@sec-type="data-availability"\]\) should be present \(as a child of back\) for 'XXXXXX'. Is this a new version which was published first without one? If not, then it certainly needs adding.
+#### back-test-10
 
-data-p-presence
+**Warning**: _One and only one Data availiability section \(sec\[@sec-type="data-availability"\]\) should be present \(as a child of back\) for 'XXXXXX'. Is this a new version which was published first without one? If not, then it certainly needs adding._
 
-Error: At least one p element must be present in sec\[@sec-type='data=availability'\].
+**Action**: 
 
+#### data-p-presence
 
+**Error**: _At least one p element must be present in sec\[@sec-type='data=availability'\]._
+
+**Action**: 
 
 ## XML structure
 
