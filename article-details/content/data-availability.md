@@ -24,7 +24,11 @@ In research content, the data availability statement is mandatory. The other two
 
 The data availability statement should be a single paragraph consisting of complete sentences, ending in a full stop. Spelling and grammar errors should be corrected in the same manner as the main text.
 
+The contents of the statement should be reflected in the rest of the dataset section. If specific generated or previously published datasets are mentioned in the statement, these should be listed under the appropriate headings below. If the authors mention using an entire database, however, it will not be appropriate to add a citation entry.
 
+Any statement that indicates data is available on request from the authors will need to be approved by Editorial. Cases where this is acceptable include exceptionally large datasets that cannot be supported by exisitng repositories and patient data that has not been anonymised. Usually in acceptable cases, there will be a note in the 'Production Comments' \(red sticky notes in the submission system\) to indicate that the statement has been OKed by the editors. Alternatively, a note may have been left to indicate that the Editorial team is in contact with the authors to ask them to deposit their data in an open repository. In the absence of any notes, the Production team will need to contact Editorial to clarify what needs to be done.
+
+Data availability statements may also mention code that has been made publicly available by the authors. Instructions on how to deal with this can be found [here](../../toolkit/github/forking-git-based-repos.md#checklist-for-forking-repositories).
 
 ### Generated datasets
 
