@@ -280,13 +280,15 @@ If it is not clear how to update citations of figures and files to us their fina
 
 **Warning**: _The reference in position XX of the data availability section does not have a database name \(no source\). Please ensure to add it in or query the authors asking for it._
 
-**Action**: 
+**Action**: At the pre-author stage, this warning indicates a dataset without a database name. The author most be asked to provide the missing details if they cannot be found using the other dataset information.
+
+* Please provide the database name for this dataset.
 
 #### final-das-elem-source-1
 
 **Error**: _The reference in position XX of the data availability section does not have a database name \(no source\). Please ensure to add it in._
 
-**Action**: 
+**Action**: At the post-author stage, this error indicates a dataset without a database name. The author should be asked by email to provide the missing details if they cannot be found using the other dataset information.
 
 #### pre-das-elem-pub-id-1
 
@@ -294,11 +296,15 @@ If it is not clear how to update citations of figures and files to us their fina
 
 **Action**: 
 
+At the pre-author stage, this warning indicates a dataset without an identifier. The author most be asked to provide the missing details if they cannot be found using the other dataset information.
+
+*  * Please provide the identifier \(accession number or DOI\) for this dataset.
+
 #### final-das-elem-pub-id-1
 
 **Error**: _The reference in position XX of the data availability section does not have an identifier \(no pub-id\). Please ensure to add it in._
 
-**Action**: 
+**Action**: At the post-author stage, this error indicates a dataset without an identifier. The author should be asked by email to provide the missing details if they cannot be found using the other dataset information.
 
 #### pre-das-elem-pub-id-2
 
