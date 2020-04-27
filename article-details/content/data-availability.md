@@ -165,6 +165,14 @@ In these cases, please ask the author to arrange the release of the data:
 
 * Please make all datasets listed here publicly available as soon as possible.
 
+In some cases, the author may provide a review link for the data rather than the final link. This is to allow the reviewers to access the data while final public release is still pending. Such links can generally be identified because they contain 'review' or 'reviewer' in the URL. For example, [https://dataview.ncbi.nlm.nih.gov/object/PRJNA475219?reviewer=f1ccdfce21ljl8v6q2v8mctid7](https://dataview.ncbi.nlm.nih.gov/object/PRJNA475219?reviewer=f1ccdfce21ljl8v6q2v8mctid7) is the review link for dataset [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA475219](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA475219). Any link like this will need to be replaced with the final dataset URL before publication. If it is not possible to identify the final link based on the reviewer link, please ask the author:
+
+* Please provide the final URL for this dataset.
+
+Note that reviewer links often work only for a limited period, so you may encounter messages such as the following. Helpfully, these can sometimes provide the final URL.
+
+![](../../.gitbook/assets/screen-shot-2020-04-27-at-16.54.09.png)
+
 ### References to files within the article
 
 If the authors mention specific files or figures within their article, please make sure that they have referenced them correctly in eLife style and are using the final names for these assets. For example, this data statement referes to figures and supplementary files using their originally submitted titles rather than those they would have in the final article:
