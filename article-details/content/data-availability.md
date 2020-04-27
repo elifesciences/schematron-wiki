@@ -97,13 +97,23 @@ It is standard practice for a lot of journals to allow authors to make their dat
 
 If an article is submitted with a data availability statement that says generated data is available on request, the Editorial team will ask the authors to upload it to an appropriate repository. Usually there will be no problem with this and the data statement will be updated accordingly. On occasion, the authors may push back against this. This can be because of unfamiliarity with the available options and in these cases, the Editorial team will continue to work with the authors to find an appropriate solution. However, it can also be because the dataset is simply too large \(in the range of terra-bytes of data\) for any repository to accept, necessitating a custom solution such as a dedicated institutional server.
 
+> Example of DAS with large dataset
+
+Another reason for not making the data publicly available would be if it contained identifying information about patients or participants in human trials.
+
+> Example of DAS with private data
+
+In both these cases, 'on request' data is permitted with the approval of the editors handling the article. 
+
 
 
 ### Data available 'on acceptance'
 
-
+Related to the above, sometimes when authors are submitting their article, they will hold back data in order to keep it confidential until the article has passsed peer review
 
 > All data generated or analysed during this study are included in the manuscript and supporting files. Source data files will be made available upon acceptance
+
+In these cases, the article should be updated with the full dataset information and/or additional source data files. Idealy this will happen before export from the submission system \(e.g. when the post-peer review revised submission is uploaded\). However, sometimes there will be a delay and an article will move on in the process before the data has been finalised. 
 
 ### Data mentioned in the statement but not listed as a citation
 
