@@ -155,15 +155,29 @@ Provided that this is also mentioned in the main reference list and is cited in 
 
 ### Whole databases entered as datasets
 
-Some authors will try to enter citations of entire databases. This is inappropraite since 
+Some authors will try to enter citations of entire databases. Since this section is only intended to cover individual datasets, this is inappropriate. 
 
 ### Data that is not yet public
 
+All datasets listed under generated or previously published should be publicly available at the point of publication. This can be checked by going to the URL provided. If this resolves to a dataset still private' screen or returns a 'page not found' message, the dataset has not been released.
 
+The author should be requested to make their data public as soon as possible:
+
+* Please make all datasets listed here publicly available as soon as possible.
 
 ### References to files within the article
 
-Source data files have been provided for Figures 4 and 7 and Supplementary Figures 2, 3, & 4.
+If the authors mention specific files or figures within their article, please make sure that they have referenced them correctly in eLife style and are using the final names for these assets. For example, this data statement referes to figures and supplementary files using their originally submitted titles rather than those they would have in the final article:
+
+> All data analyzed during this study are included in the manuscript. We also provided source data files for: Figures 2, 3, 4 and 5; for supplemental figure S2 and for supplemental tables S1, S2. S3, S4, S5, S6, S7 and S8.
+
+This was updated to:
+
+> All data analyzed during this study are included in the manuscript. We also provided source data files for: Figures 2, 3, 4 and 5; for Figure 4—figure supplement 1; and for Supplementary files 1–8.
+
+If it is not clear how to update citations of figures and files to us their final names, please query the authors:
+
+* Please update your data availability statement to use the final labels for all figure supplements and supplementary files.
 
 ### Database examples
 
