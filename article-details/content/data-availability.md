@@ -161,7 +161,7 @@ Some authors will try to enter citations of entire databases. Since this section
 
 All datasets listed under generated or previously published should be publicly available at the point of publication. This can be checked by going to the URL provided. If this resolves to a dataset still private' screen or returns a 'page not found' message, the dataset has not been released.
 
-The author should be requested to make their data public as soon as possible:
+In these cases, please ask the author to arrange the release of the data:
 
 * Please make all datasets listed here publicly available as soon as possible.
 
