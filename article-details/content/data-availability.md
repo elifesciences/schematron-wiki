@@ -97,15 +97,19 @@ It is standard practice for a lot of journals to allow authors to make their dat
 
 If an article is submitted with a data availability statement that says generated data is available on request, the Editorial team will ask the authors to upload it to an appropriate repository. Usually there will be no problem with this and the data statement will be updated accordingly. On occasion, the authors may push back against this. This can be because of unfamiliarity with the available options and in these cases, the Editorial team will continue to work with the authors to find an appropriate solution. However, it can also be because the dataset is simply too large \(in the range of terra-bytes of data\) for any repository to accept, necessitating a custom solution such as a dedicated institutional server.
 
-> Example of DAS with large dataset
+> The raw data that support the findings of this study are several TBs in size and are therefore available on request. A source data file for the main figures has been provided.
 
 Another reason for not making the data publicly available would be if it contained identifying information about patients or participants in human trials.
 
-> Example of DAS with private data
+> As participants did not give consent for their functional MRI data to be released publicly within the General Data Protection Regulation 2016/679 of the EU, these data can be made available on request to the corresponding author.
 
-In both these cases, 'on request' data is permitted with the approval of the editors handling the article. 
+In both these cases, 'on request' data is permitted with the approval of the editors handling the article. This approval will be indicated in the Production Comments if it has been received prior to export from the submission system; if approval is outstanding, this should also be indicated in these comments.
 
+![](../../.gitbook/assets/screen-shot-2020-04-27-at-15.36.08.png)
 
+The article cannot be published until this approval is granted, but proofing may proceed in the meantime.
+
+If approval for 'on request' data has not been indicated, the Production team should contact the Editorial team to establish whether they are working on this issue already and what action needs to be taken.
 
 ### Data available 'on acceptance'
 
@@ -113,11 +117,31 @@ Related to the above, sometimes when authors are submitting their article, they 
 
 > All data generated or analysed during this study are included in the manuscript and supporting files. Source data files will be made available upon acceptance
 
-In these cases, the article should be updated with the full dataset information and/or additional source data files. Idealy this will happen before export from the submission system \(e.g. when the post-peer review revised submission is uploaded\). However, sometimes there will be a delay and an article will move on in the process before the data has been finalised. 
+In these cases, the article should be updated with the full dataset information and/or additional source data files. Idealy this will happen before export from the submission system \(e.g. when the post-peer review revised submission is uploaded\). However, sometimes there will be a delay and an article will move on in the process before the data has been finalised.
+
+If a data availability statement still indicates that files or data will be available on acceptance, the Production team will need to contact the Editorial team to establish whether they are working on this issue already and what action needs to be taken. Most likely, the data availability section will need to be updated with the final details for the datasets and/or source data files. In some cases, however, the data will have been incorporated into the main article and the mention of 'on acceptance' data will simply need to be removed.
+
+Please check the Production Comments for any notes the Editorial team may have left regarding this data.
 
 ### Data mentioned in the statement but not listed as a citation
 
+Authors will sometimes mention data in their data availability statement without entering the corresponding dataset details.
 
+> Data and codes have been archived at the Open Science Framework \([https://osf.io/cvrb2/](https://osf.io/cvrb2/)\).
+
+If they have provided the database name and identifier or URL, as in the above example, it should be possible to add a generated dataset entry for this dataset. For the Open Science Framework, the details can be taken from the landing page:
+
+![](../../.gitbook/assets/screen-shot-2020-04-27-at-15.51.17.png)
+
+If it is not possible to add the dataset\(s\) based on the information provided, either because it is incomplete , the data is not yet public or the dataset landing page does not provide all the required details, please query the author:
+
+* Please provide the full details for the mentioned dataset\(s\) \(authors, year, title, database, identifier, direct URL\) and ensure that the data is publicly available.
+
+A variation on this issue occurs when the authors do not have the final details for their dataset when they are submitting their article:
+
+> All data generated or analysed during this study are included in the manuscript and supporting files. Source files have been provided for Figure 9. We are working with www.webKnossos.org to provide a direct link to our electron micrograph dataset.
+
+In these cases, the same author query is appropriate and the data availability statement will need to be updated once the authors have provided the full information.
 
 ### Dataset entries that will need to be removed
 
@@ -125,11 +149,11 @@ In these cases, the article should be updated with the full dataset information 
 
 ### Data that is not yet public
 
-"All data generated or analysed during this study are included in the manuscript and supporting files. Source data files will be made available upon acceptance."
 
 
+### References to files within the article
 
-
+Source data files have been provided for Figures 4 and 7 and Supplementary Figures 2, 3, & 4.
 
 ### Database examples
 
