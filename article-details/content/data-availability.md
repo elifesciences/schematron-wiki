@@ -226,13 +226,15 @@ If it is not clear how to update citations of figures and files to us their fina
 
 **Warning**: _ext-link looks like it points to a review dryad dataset - XXXXXX. Should it be updated?_
 
-**Action**: This warning indicates that 
+**Action**: This warning indicates that the URL for a dataset is a Dryad reviewer link rather than the final DOI. The URL will need to be replaced with the DOI URL \(e.g. https://doi.org/10.5061/dryad.4nb12g2\). The DOI string may have been given in the identifier field or in the data availability statement. If not and this warning occurs at the pre-author stage, the following query may be used:
+
+* Please provide the DOI for this dataset.
 
 #### sec-test-3
 
 **Warning**: _Section has a title 'XXXXXX'. Is it a duplicate of the data availability section \(and therefore should be removed\)?_
 
-**Action**:
+**Action**: This warning indicates that there is a section within the main body of an article that has the title 'Data availability'. 
 
 #### pre-das-elem-person-group-1
 
@@ -348,25 +350,7 @@ If it is not clear how to update citations of figures and files to us their fina
 
 **Error**: _Each pub-id element must have an @pub-id-type with one of these types: accession, archive, or doi._
 
-**Action**: 
-
-#### das-pub-id-2
-
-**Error**: _Each pub-id element which is not a doi must have an @xlink-href \(which is not empty\)._
-
-**Action**: 
-
-#### das-elem-citation-child-1
-
-**Error**: _Reference in the data availability section has a XXXXXX element in a XXXXXX element which is not allowed._
-
-**Action**: 
-
-#### das-elem-citation-year-1
-
-**Error**: _Every year in a reference must have an @iso-8601-date attribute equal to the numbers in the year. Reference with id XXXXXX has a year 'XXXXXX' but an @iso-8601-date 'XXXXXX'._
-
-**Action**: 
+**Action**: This error indicates that a pub-id-type has not been set for a dataset \(it has been left as 'other'\). Set the pub-id-type to the appropriate. The values for this attribute for commonly encountered datasets can be found [above](data-availability.md#database-examples).
 
 #### pre-das-elem-citation-year-2
 
@@ -943,6 +927,24 @@ data-wwpdb-test-2
 #### das-elem-cit-2
 
 **Error**: _The reference in position XX of the data availability section has a @specific-use value of XXXXXX, which is not allowed. It must be 'isSupplementedBy' or 'references'._
+
+**Action**: 
+
+#### das-pub-id-2
+
+**Error**: _Each pub-id element which is not a doi must have an @xlink-href \(which is not empty\)._
+
+**Action**: 
+
+#### das-elem-citation-child-1
+
+**Error**: _Reference in the data availability section has a XXXXXX element in a XXXXXX element which is not allowed._
+
+**Action**: 
+
+#### das-elem-citation-year-1
+
+**Error**: _Every year in a reference must have an @iso-8601-date attribute equal to the numbers in the year. Reference with id XXXXXX has a year 'XXXXXX' but an @iso-8601-date 'XXXXXX'._
 
 **Action**: 
 
