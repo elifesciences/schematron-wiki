@@ -324,7 +324,7 @@ If it is not clear how to update citations of figures and files to us their fina
 
 **Action**: 
 
-#### 
+* Please provide the year for this dataset.
 
 #### das-elem-cit-3
 
@@ -334,9 +334,9 @@ If it is not clear how to update citations of figures and files to us their fina
 
 #### das-elem-cit-4
 
-**Warning**: _The reference in position XXXXXX of the data availability section has a pub-id \(XXXXXX\) which is the same as another dataset reference in that section. This is very likely incorrect. Dataset reference pub-id should be distinct._
+**Warning**: _The reference in position XX of the data availability section has a pub-id \(XXXXXX\) which is the same as another dataset reference in that section. This is very likely incorrect. Dataset reference pub-id should be distinct._
 
-**Action**: 
+**Action**: This warning indicates that a dataset's identifier matches that of another dataset in this section. Check to find out which datasets are duplicates and see if the rest of the details match as well. If they do, all but one of the identical datasets should be deleted.
 
 #### das-pub-id-1
 
