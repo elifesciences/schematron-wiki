@@ -226,7 +226,7 @@ If it is not clear how to update citations of figures and files to us their fina
 
 **Warning**: _ext-link looks like it points to a review dryad dataset - XXXXXX. Should it be updated?_
 
-**Action**:
+**Action**: This warning indicates that 
 
 #### sec-test-3
 
@@ -236,109 +236,99 @@ If it is not clear how to update citations of figures and files to us their fina
 
 #### pre-das-elem-person-group-1
 
-**Warning**: _The reference in position XXXXXX of the data availability section does not have any authors \(no person-group\[@person-group-type='author'\]\). Please ensure to add them in or query the authors asking for the author list._
+**Warning**: _The reference in position XX of the data availability section does not have any authors \(no person-group\[@person-group-type='author'\]\). Please ensure to add them in or query the authors asking for the author list._
 
-**Action**: 
+**Action**: At the pre-author stage, this warning indicates a dataset without any authors. The author most be asked to provide the missing details if they cannot be found using the other dataset information. This warning fires if the `<person-group>` element is missing.
+
+* Please provide the full author list for this dataset.
 
 #### final-das-elem-person-group-1
 
-**Error**: _The reference in position XXXXXX of the data availability section does not have any authors \(no person-group\[@person-group-type='author'\]\). Please ensure to add them._
+**Error**: _The reference in position XX of the data availability section does not have any authors \(no person-group\[@person-group-type='author'\]\). Please ensure to add them._
 
-**Action**: 
-
-#### das-elem-person-group-2
-
-**Error**: _The reference in position XXXXXX of the data availability has XXXXXX person-group elements, which is incorrect_
-
-**Action**: 
+**Action**: At the post-author stage, this error indicates a dataset without any authors. The author should be asked by email to provide the missing details if they cannot be found using the other dataset information. This error fires if the `<person-group>` element is missing.
 
 #### pre-das-elem-person-1
 
-**Warning**: _The reference in position XXXXXX of the data availability section does not have any authors. Please ensure to add them in or query the authors asking for the author list._
+**Warning**: _The reference in position XX of the data availability section does not have any authors. Please ensure to add them in or query the authors asking for the author list._
 
-**Action**: 
+**Action**: At the pre-author stage, this warning indicates a dataset without any authors. The author most be asked to provide the missing details if they cannot be found using the other dataset information. This warning fires if there are no names within a `<person-group>` element.
+
+* Please provide the full author list for this dataset.
 
 #### final-das-elem-person-1
 
 **Error**: _The reference in position XXXXXX of the data availability section does not have any authors \(person-group\[@person-group-type='author'\]\). Please ensure to add them in._
 
-**Action**: 
+**Action**: At the post-author stage, this error indicates a dataset without any authors. The author should be asked by email to provide the missing details if they cannot be found using the other dataset information. This error fires if there are no names within a `<person-group>` element.
 
 #### pre-das-elem-data-title-1
 
-**Warning**: _The reference in position XXXXXX of the data availability section does not have a title \(no data-title\). Please ensure to add it in or query the authors asking for it._
+**Warning**: _The reference in position XX of the data availability section does not have a title \(no data-title\). Please ensure to add it in or query the authors asking for it._
 
-**Action**: 
+**Action**: At the pre-author stage, this warning indicates a dataset without a title. The author most be asked to provide the missing details if they cannot be found using the other dataset information.
+
+* Please provide the title for this dataset.
 
 #### final-das-elem-data-title-1
 
-**Error**: _The reference in position XXXXXX of the data availability section does not have a title \(no data-title\). Please ensure to add it_
+**Error**: _The reference in position XX of the data availability section does not have a title \(no data-title\). Please ensure to add it_
 
-**Action**: 
+**Action**: At the post-author stage, this error indicates a dataset without a title. The author should be asked by email to provide the missing details if they cannot be found using the other dataset information.
 
 #### pre-das-elem-source-1
 
-**Warning**: _The reference in position XXXXXX of the data availability section does not have a database name \(no source\). Please ensure to add it in or query the authors asking for it._
+**Warning**: _The reference in position XX of the data availability section does not have a database name \(no source\). Please ensure to add it in or query the authors asking for it._
 
 **Action**: 
 
 #### final-das-elem-source-1
 
-**Error**: _The reference in position XXXXXX of the data availability section does not have a database name \(no source\). Please ensure to add it in._
+**Error**: _The reference in position XX of the data availability section does not have a database name \(no source\). Please ensure to add it in._
 
 **Action**: 
 
 #### pre-das-elem-pub-id-1
 
-**Warning**: _The reference in position XXXXXX of the data availability section does not have an identifier \(no pub-id\). Please ensure to add it in or query the authors asking for it._
+**Warning**: _The reference in position XX of the data availability section does not have an identifier \(no pub-id\). Please ensure to add it in or query the authors asking for it._
 
 **Action**: 
 
 #### final-das-elem-pub-id-1
 
-**Error**: _The reference in position XXXXXX of the data availability section does not have an identifier \(no pub-id\). Please ensure to add it in._
+**Error**: _The reference in position XX of the data availability section does not have an identifier \(no pub-id\). Please ensure to add it in._
 
 **Action**: 
 
 #### pre-das-elem-pub-id-2
 
-**Warning**: _The reference in position XXXXXX of the data availability section does not have an id \(pub-id is empty\). Please ensure to add it in or query the authors asking for it._
+**Warning**: _The reference in position XX of the data availability section does not have an id \(pub-id is empty\). Please ensure to add it in or query the authors asking for it._
 
 **Action**: 
 
 #### final-das-elem-pub-id-2
 
-**Error**: _The reference in position XXXXXX of the data availability section does not have an id \(pub-id is empty\). Please ensure to add it in._
+**Error**: _The reference in position XX of the data availability section does not have an id \(pub-id is empty\). Please ensure to add it in._
 
 **Action**: 
 
 #### pre-das-elem-year-1
 
-**Warning**: _The reference in position XXXXXX of the data availability section does not have a year. Please ensure to add it in or query the authors asking for it._
+**Warning**: _The reference in position XX of the data availability section does not have a year. Please ensure to add it in or query the authors asking for it._
 
 **Action**: 
 
 #### final-das-elem-year-1
 
-**Error**: _The reference in position XXXXXX of the data availability section does not have a year. Please ensure to add it in._
+**Error**: _The reference in position XX of the data availability section does not have a year. Please ensure to add it in._
 
 **Action**: 
 
-#### das-elem-cit-1
-
-**Error**: _Every reference in the data availability section must have an @specific-use. The reference in position XXXXXX does not._
-
-**Action**: 
-
-#### das-elem-cit-2
-
-**Error**: _The reference in position XXXXXX of the data availability section has a @specific-use value of XXXXXX, which is not allowed. It must be 'isSupplementedBy' or 'references'._
-
-**Action**: 
+#### 
 
 #### das-elem-cit-3
 
-**Error**: _The reference in position XXXXXX of the data availability section has a link \(XXXXXX\) which is the same as another dataset reference in that section. Dataset reference links should be distinct._
+**Error**: _The reference in position XX of the data availability section has a link \(XXXXXX\) which is the same as another dataset reference in that section. Dataset reference links should be distinct._
 
 **Action**: 
 
@@ -929,6 +919,24 @@ data-wwpdb-test-2
 #### data-p-presence
 
 **Error**: _At least one p element must be present in sec\[@sec-type='data=availability'\]._
+
+**Action**: 
+
+#### das-elem-person-group-2
+
+**Error**: _The reference in position XX of the data availability has XX person-group elements, which is incorrect_
+
+**Action**: 
+
+#### das-elem-cit-1
+
+**Error**: _Every reference in the data availability section must have an @specific-use. The reference in position XX does not._
+
+**Action**: 
+
+#### das-elem-cit-2
+
+**Error**: _The reference in position XX of the data availability section has a @specific-use value of XXXXXX, which is not allowed. It must be 'isSupplementedBy' or 'references'._
 
 **Action**: 
 
