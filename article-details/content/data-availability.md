@@ -318,17 +318,33 @@ data-rcsbpbd-test-2
 
 #### data-arrayexpress-test-2
 
-Warning: _Data reference with the title 'XXXXXX' has a 'www.ebi.ac.uk/arrayexpress' type link, but is not marked with EBI as its assigning authority, which must be incorrect_
+**Warning**: _Data reference with the title 'XXXXXX' has a 'www.ebi.ac.uk/arrayexpress' type link, but is not marked with EBI as its assigning authority, which must be incorrect_
 
 **Action**: 
 
-data-arrayexpress-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has an ArrayExpress 'www.ebi.ac.uk/arrayexpress' type link, but is not marked as an accession type link.\_
+#### data-arrayexpress-test-3
 
-data-pride-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a 'www.ebi.ac.uk/pride' type link, but the database name is not 'PRIDE' - XXXXXX. Is that correct?\_
+**Warning**: _Data reference with the title 'XXXXXX' has an ArrayExpress 'www.ebi.ac.uk/arrayexpress' type link, but is not marked as an accession type link._
 
-data-pride-test-2	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a 'www.ebi.ac.uk/pride' type link, but is not marked with EBI as its assigning authority, which must be incorrect\_
+**Action**: 
 
-data-pride-test-3	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a PRIDE 'www.ebi.ac.uk/pride' type link, but is not marked as an accession type link.\_
+#### data-pride-test-1
+
+**Warning**: _Data reference with the title 'XXXXXX' has a 'www.ebi.ac.uk/pride' type link, but the database name is not 'PRIDE' - XXXXXX. Is that correct?_
+
+**Action**: 
+
+#### data-pride-test-2
+
+**Warning**: _Data reference with the title 'XXXXXX' has a 'www.ebi.ac.uk/pride' type link, but is not marked with EBI as its assigning authority, which must be incorrect_
+
+**Action**: 
+
+#### data-pride-test-3
+
+Warning: _Data reference with the title 'XXXXXX' has a PRIDE 'www.ebi.ac.uk/pride' type link, but is not marked as an accession type link._
+
+**Action**: 
 
 data-zenodo-test-1	element-citation\[@publication-type='data'\]	\*Warning\*: \_Data reference with the title 'XXXXXX' has a doi starting with '10.5281/zenodo' but the database name is not 'Zenodo' - XXXXXX.\_
 
