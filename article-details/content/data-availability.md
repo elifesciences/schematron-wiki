@@ -143,7 +143,11 @@ A variation on this issue occurs when the authors do not have the final details 
 
 In these cases, the same author query is appropriate and the data availability statement will need to be updated once the authors have provided the full information.
 
-### Dataset entries that will need to be removed
+### Journal articles entered as datasets
+
+
+
+### Whole databases entered as datasets
 
 
 
