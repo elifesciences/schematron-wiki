@@ -24,6 +24,24 @@ In research content, the data availability statement is mandatory. The other two
 
 ## Examples
 
+### Adding datasets
+
+
+
+### Incomplete datasets
+
+
+
+### Data mentioned in the statement but not listed as a citation
+
+
+
+### Data that is not yet public
+
+
+
+
+
 ## Schematron warnings
 
 ### Content warnings
