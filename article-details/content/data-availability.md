@@ -155,7 +155,7 @@ Provided that this is also mentioned in the main reference list and is cited in 
 
 ### Whole databases entered as datasets
 
-Some authors will try to enter citations of entire databases. Since this section is only intended to cover individual datasets, this is inappropriate. 
+Some authors will enter citations of entire databases. Since this section is only intended to cover individual datasets, this is inappropriate. 
 
 ### Data that is not yet public
 
