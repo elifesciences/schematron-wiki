@@ -32,11 +32,17 @@ Data availability statements may also mention code that has been made publicly a
 
 ### Generated datasets
 
+Each entry under the generated datasets heading should be a complete data citation in eLife style. Individual authors should be listed in 'Surname Intials' style \(e.g. Smith JS\), and a year, title, database and identifier should all be present. A direct URL should also be present for each dataset. Links that just go to the the landing page for a dataset will need to be replaced. See below for examples of how to do this.
 
+In this section only, references that would result in identical citation details \(e.g. two or more datasets that would be Smith et al., 2020\) do not need to be distinguished with a, b, c etc after the year.
+
+Each dataset listed must be publicly available at the point of publication. This can be checked by accessing the provided direct URL. See [below](data-availability.md#data-that-is-not-yet-public) for actions in cases where data is not yet available.
+
+Under no circumstances should journal articles be listed as generated datasets - these should be given in the main reference list only.
 
 ### Previously published datasets
 
-
+The same rules apply to as for generated datasets. 
 
 ## Examples
 
@@ -53,6 +59,10 @@ Data availability statements may also mention code that has been made publicly a
 
 
 ### Data mentioned in the statement but not listed as a citation
+
+
+
+### Dataset entries that will need to be removed
 
 
 
