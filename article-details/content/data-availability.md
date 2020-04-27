@@ -91,9 +91,19 @@ If it is not possible to derrive the URL from the information provided \(e.g. th
 
 * Please enter a direct URL for this dataset, not just the homepage for the database as a whole.
 
-### Data available on request
+### Data available 'on request'
+
+It is standard practice for a lot of journals to allow authors to make their data available only 'on request', meaning that a reader must contact the corresponding author \(or other designated contact\) to access the data underlying an article. To ensure openness, eLife instead encourages authors to deposit all their data in a dedicated repository or a more general archive such as Dryad or figshare, where it will be available to anyone who wants it.
+
+If an article is submitted with a data availability statement that says generated data is available on request, the Editorial team will ask the authors to upload it to an appropriate repository. Usually there will be no problem with this and the data statement will be updated accordingly. However, on occasion, 
 
 
+
+### Data available 'on acceptance'
+
+
+
+> All data generated or analysed during this study are included in the manuscript and supporting files. Source data files will be made available upon acceptance
 
 ### Data mentioned in the statement but not listed as a citation
 
