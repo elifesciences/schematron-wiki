@@ -969,7 +969,7 @@ data-wwpdb-test-2
 
 **Error**: _At least one p element must be present in sec\[@sec-type='data=availability'\]._
 
-**Action**: There must be a paragraph within the Data availability section \(for the Data availablity statement\). 
+**Action**: There must be a paragraph within the Data availability section \(for the Data availablity statement\). If this is not present, it must be added in. The Production team will need to check the submission system for the missing information if it is not present in the export XML.
 
 #### das-elem-person-group-2
 
@@ -1003,7 +1003,7 @@ data-wwpdb-test-2
 
 #### das-elem-citation-year-1
 
-**Error**: _Every year in a reference must have an @iso-8601-date attribute equal to the numbers in the year. Reference with id XXXXXX has a year 'XXXXXX' but an @iso-8601-date 'XXXXXX'._
+**Error**: _Every year in a reference must have an @iso-8601-date attribute equal to the numbers in the year. Reference with id XX has a year 'XXXX' but an @iso-8601-date 'XXXX'._
 
 **Action**: 
 
