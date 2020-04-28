@@ -435,61 +435,79 @@ The affected name will need to be corrected so that it is in 'Smith J' format.
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'https://www.ncbi.nlm.nih.gov/geo' type link, but the database name is not 'NCBI Gene Expression Omnibus' - XXXXXX. Is that correct?_
 
-**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. Check the list of database examples 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-nucleotide-test
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'https://www.ncbi.nlm.nih.gov/nuccore' type link, but the database name is not 'NCBI Nucleotide' or 'NCBI GenBank' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-bioproject-test
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'https://www.ncbi.nlm.nih.gov/bioproject' type link, but the database name is not 'NCBI BioProject' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-dbgap-test
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'https://www.ncbi.nlm.nih.gov/gap' type link, but the database name is not 'NCBI dbGaP' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-popset-test
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'https://www.ncbi.nlm.nih.gov/popset' type link, but the database name is not 'NCBI PopSet' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-sra-test
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'https://www.ncbi.nlm.nih.gov/sra' type link, but the database name is not 'NCBI Sequence Read Archive' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-biosample-test
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'https://www.ncbi.nlm.nih.gov/biosample' type link, but the database name is not 'NCBI BioSample' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-protein-test
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'https://www.ncbi.nlm.nih.gov/protein' type link, but the database name is not 'NCBI Protein' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-assembly-test
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'https://www.ncbi.nlm.nih.gov/assembly' type link, but the database name is not 'NCBI Assembly' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-ncbi-test-1
 
 **Warning**: _Data reference with an NCBI link 'XXXXXX' is not marked as an accession number, which is likely incorrect._
 
-**Action**: 
+**Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the URL provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
 #### data-ncbi-test-2
 
@@ -513,7 +531,9 @@ The affected name will need to be corrected so that it is in 'Smith J' format.
 
 **Warning**: _Data reference with the title 'XXXXXX' has a Dryad type doi XXXXXX, but the database name is not 'Dryad Digital Repository' - XXXXXX._
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the DOI provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the DOI provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-dryad-test-2
 
@@ -531,9 +551,11 @@ The affected name will need to be corrected so that it is in 'Smith J' format.
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'http://www.rcsb.org' type link, but the database name is not 'RCSB Protein Data Bank' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
 
-data-rcsbpbd-test-2
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
+
+#### data-rcsbpbd-test-2
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'http://www.rcsb.org' type link, but is not marked with PDB as its assigning authority, which must be incorrect_
 
@@ -543,13 +565,15 @@ data-rcsbpbd-test-2
 
 **Warning**: _Data reference with the title 'XXXXXX' has a PDB 'http://www.rcsb.org' type link, but is not marked as an accession type link._
 
-**Action**: 
+**Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the URL provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
 #### data-emdb-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'http://www.ebi.ac.uk/pdbe/emdb' type link, but the database name is not 'Electron Microscopy Data Bank' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-emdb-test-2
 
@@ -561,13 +585,15 @@ data-rcsbpbd-test-2
 
 **Warning**: _Data reference with the title 'XXXXXX' has a EMDB 'http://www.ebi.ac.uk/pdbe/emdb' type link, but is not marked as an accession type link._
 
-**Action**: 
+**Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the URL provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
 #### data-arrayexpress-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'www.ebi.ac.uk/arrayexpress' type link, but the database name is not 'ArrayExpress' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-arrayexpress-test-2
 
@@ -579,13 +605,15 @@ data-rcsbpbd-test-2
 
 **Warning**: _Data reference with the title 'XXXXXX' has an ArrayExpress 'www.ebi.ac.uk/arrayexpress' type link, but is not marked as an accession type link._
 
-**Action**: 
+**Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the URL provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
 #### data-pride-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'www.ebi.ac.uk/pride' type link, but the database name is not 'PRIDE' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-pride-test-2
 
@@ -597,13 +625,15 @@ data-rcsbpbd-test-2
 
 **Warning**: _Data reference with the title 'XXXXXX' has a PRIDE 'www.ebi.ac.uk/pride' type link, but is not marked as an accession type link._
 
-**Action**: 
+**Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the URL provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
 #### data-zenodo-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.5281/zenodo' but the database name is not 'Zenodo' - XXXXXX._
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the DOI provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the DOI provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-zenodo-test-2
 
@@ -611,7 +641,7 @@ data-rcsbpbd-test-2
 
 **Action**: 
 
-data-zenodo-test-3
+#### data-zenodo-test-3
 
 Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, but the assigning authority is not Zenodo, which must be incorrect.
 
@@ -621,7 +651,9 @@ Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, 
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'https://osf.io' type link, but the database name is not 'Open Science Framework' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-osf-test-2
 
@@ -633,7 +665,7 @@ Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, 
 
 **Warning**: _Data reference with the title 'XXXXXX' has an OSF 'https://osf.io' type link, but is not marked as an archive type link._
 
-**Action**: 
+**Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the URL provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
 #### data-osf-test-4
 
@@ -651,7 +683,9 @@ Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, 
 
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.6084/m9.figshare' but the database name is not 'figshare' - XXXXXX._
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-figshare-test-2
 
@@ -669,7 +703,9 @@ Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, 
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'http://proteomecentral.proteomexchange.org/' type link, but the database name is not 'ProteomeXchange' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-proteomexchange-test-2
 
@@ -681,13 +717,15 @@ Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, 
 
 **Warning**: _Data reference with the title 'XXXXXX' has a ProteomeXchange 'http://proteomecentral.proteomexchange.org/' type link, but is not marked as an accession type link._
 
-**Action**: 
+**Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the URL provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
 #### data-openneuro-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.18112/openneuro' but the database name is not 'OpenNeuro' - XXXXXX._
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-openneuro-test-2
 
@@ -705,7 +743,9 @@ Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, 
 
 **Warning**: Data reference with the title 'XXXXXX' has a doi starting with '10.7303/syn' but the database name is not 'Synapse' - XXXXXX.
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-synapse-test-2
 
@@ -723,7 +763,9 @@ Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, 
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'www.bmrb.wisc.edu/data\_library/summary' type link, but the database name is not 'Biological Magnetic Resonance Data Bank' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-bmrb-test-2
 
@@ -735,13 +777,15 @@ Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, 
 
 **Warning**: _Data reference with the title 'XXXXXX' has a BMRB 'www.bmrb.wisc.edu/data\_library/summary' type link, but is not marked as an accession type link._
 
-**Action**: 
+**Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the URL provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
 #### data-morphdbase-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'www.morphdbase.de' type link, but the database name is not 'Morph D Base' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-morphdbase-test-2
 
@@ -753,13 +797,15 @@ Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, 
 
 **Warning**: _Data reference with the title 'XXXXXX' has a Morph D Base 'www.morphdbase.de' type link, but is not marked as an accession type link._
 
-**Action**: 
+**Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the URL provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
 #### data-mendeley-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.17632' but the database name is not 'Mendeley Data' - XXXXXX._
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the DOI provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the DOI provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-mendeley-test-2
 
@@ -777,7 +823,9 @@ Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, 
 
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.7488' but the database name is not 'Edinburgh DataShare' - XXXXXX._
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the DOI provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the DOI provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-edatashare-test-2
 
@@ -795,7 +843,9 @@ Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, 
 
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.3929' but the database name is not 'ETH Library research collection' - XXXXXX._
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the DOI provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the DOI provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-eth-test-2
 
@@ -813,7 +863,9 @@ Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, 
 
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.6080' but the database name is not 'Collaborative Research in Computational Neuroscience' - XXXXXX._
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the DOI provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the DOI provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-crcns-test-2
 
@@ -831,7 +883,9 @@ Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, 
 
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.17602' but the database name is not 'MorphoSource' - XXXXXX._
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the DOI provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the DOI provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-morphosource-test-2
 
@@ -849,7 +903,9 @@ Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, 
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'neurovault.org/collections' type link, but the database name is not 'NeuroVault' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-neurovault-test-2
 
@@ -861,13 +917,15 @@ Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, 
 
 **Warning**: _Data reference with the title 'XXXXXX' has a NeuroVault 'neurovault.org/collections' type link, but is not marked as an archive type link._
 
-**Action**: 
+**Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the URL provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
 #### data-wwpdb-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.2210' but the database name is not 'Worldwide Protein Data Bank' - XXXXXX._
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the DOI provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the DOI provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 data-wwpdb-test-2
 
@@ -885,7 +943,9 @@ data-wwpdb-test-2
 
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.15785/SBGRID' but the database name is not 'SBGrid Data Bank' - XXXXXX._
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the DOI provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the DOI provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-sbgdb-test-2
 
@@ -903,7 +963,9 @@ data-wwpdb-test-2
 
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.7910' but the database name is not 'Harvard Dataverse' - XXXXXX._
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the DOI provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the DOI provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-harvard-dataverse-test-2
 
@@ -921,7 +983,9 @@ data-wwpdb-test-2
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'www.encodeproject.org' type link, but the database name is not 'ENCODE' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-encode-test-2
 
@@ -933,13 +997,15 @@ data-wwpdb-test-2
 
 **Warning**: _Data reference with the title 'XXXXXX' has an ENCODE 'www.encodeproject.org' type link, but is not marked as an archive type link._
 
-**Action**: 
+**Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the URL provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
 #### data-emdr-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'www.emdataresource.org' type link, but the database name is not 'EMDataResource' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+
+XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
 #### data-emdr-test-2
 
@@ -951,7 +1017,7 @@ data-wwpdb-test-2
 
 **Warning**: _Data reference with the title 'XXXXXX' has an EMDataResource 'www.emdataresource.org' type link, but is not marked as an accession type link._
 
-**Action**: 
+**Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the URL provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
 ### XML structure warnings
 
