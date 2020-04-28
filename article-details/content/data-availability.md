@@ -71,6 +71,8 @@ Once all the fields are completed, you dataset can be saved and it will appear i
 
 Sometimes, the authors will not have provided the complete dataset information when they submit the article. This can be because they did not have the finalised details, or simply because they did not want to fill out all the fields at the time. The full details must be added prior to publication.
 
+
+
 For example if the authors have simply added 'Smith et al.' or similar in the submission system, the full author list will need to be located and entered. For some datasets, this can be as simple as following the URL, since the page will often show the required details. See [https://www.rcsb.org/structure/4lk1](https://www.rcsb.org/structure/4lk1):
 
 ![](../../.gitbook/assets/screen-shot-2020-04-27-at-14.32.57.png)
