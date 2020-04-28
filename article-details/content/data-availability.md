@@ -541,7 +541,9 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.5061/dryad' or '10.7272', which is incorrect._
 
-**Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. 
+**Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. Ensure that a DOI of the correct type is entered in the identifier field. If this information cannot be located, query the author to provide the missing details:
+
+* Please provide the final DOI for this dataset.
 
 #### data-dryad-test-3
 
@@ -641,7 +643,9 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.5281/zenodo', which is incorrect._
 
-**Action**: 
+**Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. Ensure that a DOI of the correct type is entered in the identifier field. If this information cannot be located, query the author to provide the missing details:
+
+* Please provide the final DOI for this dataset.
 
 #### data-zenodo-test-3
 
@@ -685,7 +689,7 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.6084/m9.figshare' but the database name is not 'figshare' - XXXXXX._
 
-**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the DOI provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the DOI provided and if it does not correspond to the warning message, the Production team will need to investigate further.
 
 XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
@@ -693,7 +697,11 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.6084/m9.figshare' - is this correct? Figshare sometimes host for other organisations \(example http://doi.org/10.1184/R1/9963566\), so this may be fine._
 
-**Action**: 
+**Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. For figshare specifically this may be acceptable if the DOI resolves to a figshare-style page branded for another organisation \(e.g. [https://kilthub.cmu.edu/articles/T\_cell\_signaling\_proteins\_3D\_confocal\_microscope\_movies/9963566](https://kilthub.cmu.edu/articles/T_cell_signaling_proteins_3D_confocal_microscope_movies/9963566)\). Figshare hosts such pages on behalf of these organisations, who will have registered the DOIs themselves.
+
+If the DOI itself cannot be located, query the author to provide the missing details:
+
+* Please provide the final DOI for this dataset.
 
 #### data-figshare-test-3
 
@@ -753,7 +761,9 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.7303/syn', which is incorrect._
 
-**Action**: 
+**Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. Ensure that a DOI of the correct type is entered in the identifier field. If this information cannot be located, query the author to provide the missing details:
+
+* Please provide the final DOI for this dataset.
 
 #### data-synapse-test-3
 
@@ -813,7 +823,9 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.17632', which is incorrect._
 
-**Action**: 
+**Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. Ensure that a DOI of the correct type is entered in the identifier field. If this information cannot be located, query the author to provide the missing details:
+
+* Please provide the final DOI for this dataset.
 
 #### data-mendeley-test-3
 
@@ -833,7 +845,9 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.7488', which is incorrect._
 
-**Action**: 
+**Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. Ensure that a DOI of the correct type is entered in the identifier field. If this information cannot be located, query the author to provide the missing details:
+
+* Please provide the final DOI for this dataset.
 
 #### data-edatashare-test-3
 
@@ -853,7 +867,9 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.3929', which is incorrect._
 
-**Action**: 
+**Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. Ensure that a DOI of the correct type is entered in the identifier field. If this information cannot be located, query the author to provide the missing details:
+
+* Please provide the final DOI for this dataset.
 
 #### data-eth-test-3
 
@@ -873,7 +889,9 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.6080', which is incorrect._
 
-**Action**: 
+**Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. Ensure that a DOI of the correct type is entered in the identifier field. If this information cannot be located, query the author to provide the missing details:
+
+* Please provide the final DOI for this dataset.
 
 #### data-crcns-test-3
 
@@ -893,7 +911,9 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.17602', which is incorrect._
 
-**Action**: 
+**Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. Ensure that a DOI of the correct type is entered in the identifier field. If this information cannot be located, query the author to provide the missing details:
+
+* Please provide the final DOI for this dataset.
 
 #### data-morphosource-test-3
 
@@ -929,11 +949,13 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
-data-wwpdb-test-2
+#### data-wwpdb-test-2
 
 **Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.2210', which is incorrect._
 
-**Action**: 
+**Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. Ensure that a DOI of the correct type is entered in the identifier field. If this information cannot be located, query the author to provide the missing details:
+
+* Please provide the final DOI for this dataset.
 
 #### data-wwpdb-test-3
 
@@ -953,7 +975,9 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.15785/SBGRID', which is likely incorrect._
 
-**Action**: 
+**Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. Ensure that a DOI of the correct type is entered in the identifier field. If this information cannot be located, query the author to provide the missing details:
+
+* Please provide the final DOI for this dataset.
 
 #### data-sbgdb-test-3
 
@@ -973,7 +997,9 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.7910', which is likely incorrect._
 
-**Action**: 
+**Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. Ensure that a DOI of the correct type is entered in the identifier field. If this information cannot be located, query the author to provide the missing details:
+
+* Please provide the final DOI for this dataset.
 
 #### data-harvard-dataverse-test-3
 
