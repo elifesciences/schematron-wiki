@@ -159,17 +159,13 @@ Some authors will enter citations of entire databases or data browsers. Since th
 
 ![](../../.gitbook/assets/screen-shot-2020-04-28-at-10.57.58.png)
 
-Searching the text shows that the authors of this article downloaded multiple genomes from Ensembl as part of their work and that they cited the appropraite publication in accordance with Ensembl's citation guidelines \([https://www.ensembl.org/info/about/publications.html](https://www.ensembl.org/info/about/publications.html)\).
+Searching the text for 'Ensembl' shows that the authors of this article downloaded multiple genomes from this site as part of their work and that they cited the appropraite publication in accordance with Ensembl's citation guidelines \([https://www.ensembl.org/info/about/publications.html](https://www.ensembl.org/info/about/publications.html)\).
 
 ![](../../.gitbook/assets/screen-shot-2020-04-28-at-11.01.38.png)
 
 The citation of the database could therefore be removed completely from the previously published datasets section.
 
-In the next example, the authors provided an entry for the whole REDfly Database \([http://redfly.ccr.buffalo.edu/index.php](http://redfly.ccr.buffalo.edu/index.php)\) among acceptable previously published datasets.
-
-![](../../.gitbook/assets/screen-shot-2020-04-28-at-11.13.48.png)
-
-
+If the authors do not mention the database within their text 
 
 ### Data that is not yet public
 
@@ -421,7 +417,7 @@ For example, if the indentifiers for two datasets are both GSE135351, but the UR
 
 **Action**: This warning indicates a given name in a `<name>` element within a dataset consists of more than four characters, indicating that it is a full name rather than just a set of initials \(XXXXXX in this message will be the given name and the full author name, respectively\). This might be because the name has been entered in full as 'Smith Jonathan' or because the wrong name format has been used \(e.g. 'J Smith' or 'Jonathan Smith'\), resulting in the surname being tagged as the given name.
 
-The affected name will need to be corrected so that it is in the correct 'Smith J' format.
+The affected name will need to be corrected so that it is in 'Smith J' format.
 
 #### data-geo-test
 
