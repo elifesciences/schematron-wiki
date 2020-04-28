@@ -89,21 +89,21 @@ In cases where the dataset information cannot be found from the link, or the aut
 * Please provide the year for this dataset.
 * Please provide the accession number for this dataset.
 
-In cases where the authors have not provided a URL, or where they have provided a link to the database homepage rather than a specific dataset, it may be possible to derive the specific URL. For example, if the dataset is in the NCBI Gene Expression Omnibus, [https://www.ncbi.nlm.nih.gov/geo/](https://www.ncbi.nlm.nih.gov/geo/), and the authors provide an accession number, GSE143881, then the direct URL will be [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881). Further examples of URLs can be found [below](data-availability.md#database-examples). It will usually possible to replace the identifier within the example link with the one the authors have provided to get the final URL. Please note, however, that this link may not be active yet \(this might be why the authors did not provide it\), so action will need to be [taken accordingly](data-availability.md#data-that-is-not-yet-public).
+In cases where the authors have not provided a URL, or where they have provided a link to the database homepage rather than a specific dataset, it may be possible to derive the specific URL. For example, if the dataset is in the NCBI Gene Expression Omnibus, [https://www.ncbi.nlm.nih.gov/geo/](https://www.ncbi.nlm.nih.gov/geo/), and the authors provide an accession number, GSE143881, then the direct URL will be [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881). Further examples of URLs can be found [below](data-availability.md#database-examples). It will usually be possible to replace the identifier within the example link with the one the authors have provided to get the final URL. Please note, however, that this link may not be active yet \(this might be why the authors did not provide it\), so action will need to be [taken accordingly](data-availability.md#data-that-is-not-yet-public).
 
-If it is not possible to derive the URL from the information provided \(e.g. the authors did not provide an identifier, or the database does not have this neatly in individual URLS\), please use the following author query:
+If it is not possible to derive the URL from the information provided \(e.g. the authors did not provide an identifier, or the database has highly complex URLs\), please use the following author query:
 
 * Please enter a direct URL for this dataset, not just the homepage for the database as a whole.
 
 ### Data available 'on request'
 
-It is standard practice for a lot of journals to allow authors to make their data available only 'on request', meaning that a reader must contact the corresponding author \(or other designated contact\) to access the data underlying an article. To ensure openness, eLife instead encourages authors to deposit all their data in a dedicated repository or a more general archive such as Dryad or figshare, where it will be available to anyone who wants it.
+It is standard practice at many journals to allow authors to make their data available only 'on request', meaning that a reader must contact the corresponding author to receive the data underlying an article. To ensure openness, eLife instead encourages authors to deposit all their data in a dedicated repository or a more general archive such as Dryad or figshare, where it will be available to anyone who wants it.
 
-If an article is submitted with a data availability statement that says generated data is available on request, the Editorial team will ask the authors to upload it to an appropriate repository. Usually there will be no problem with this and the data statement will be updated accordingly. On occasion, the authors may push back against this. This can be because of unfamiliarity with the available options and in these cases, the Editorial team will continue to work with the authors to find an appropriate solution. However, it can also be because the dataset is simply too large \(in the range of terrabytes of data\) for any repository to accept, necessitating a custom solution such as a dedicated institutional server.
+If an article is submitted with a data availability statement that states generated data is available on request, the Editorial team will ask the authors to upload it to an appropriate repository. Usually there will be no problem with this and the data statement will be updated accordingly. On occasion, however, the authors may push back. This can be because of unfamiliarity with the available options and in these cases, the Editorial team will continue to work with the authors to find an appropriate solution. However, it can also be because the dataset is simply too large \(in the range of terrabytes of data\) for any repository to accept, necessitating a custom solution such as a dedicated institutional server.
 
 > The raw data that support the findings of this study are several TBs in size and are therefore available on request. A source data file for the main figures has been provided.
 
-Another reason for not making the data publicly available would be if it contained identifying information about patients or participants in human trials.
+Another reason for not making the data publicly available is when it contains identifying information about patients or participants in human trials, or permission to share medical information was not granted.
 
 > As participants did not give consent for their functional MRI data to be released publicly within the General Data Protection Regulation 2016/679 of the EU, these data can be made available on request to the corresponding author.
 
@@ -121,11 +121,11 @@ Related to the above, sometimes when authors are submitting their article, they 
 
 > All data generated or analysed during this study are included in the manuscript and supporting files. Source data files will be made available upon acceptance
 
-In these cases, the article should be updated with the full dataset information and/or additional source data files. Idealy this will happen before export from the submission system \(e.g. when the post-peer review revised submission is uploaded\). However, sometimes there will be a delay and an article will move on in the process before the data has been finalised.
+In these cases, the article should be updated with the full dataset information and/or additional source data files. Ideally this will happen before export from the submission system \(e.g. when the revised submission is uploaded\). However, sometimes there will be a delay and an article will be exported before the data has been finalised.
 
-If a data availability statement still indicates that files or data will be available on acceptance, the Production team will need to contact the Editorial team to establish whether they are working on this issue already and what action needs to be taken. Most likely, the data availability section will need to be updated with the final details for the datasets and/or source data files. In some cases, however, the data will have been incorporated into the main article and the mention of 'on acceptance' data will simply need to be removed.
+If a data availability statement still indicates that files or data will be available on acceptance, the Production team will need to contact the Editorial team to establish whether they are working on this issue already and what action needs to be taken. Most likely, the data availability section will need to be updated with the final details for the datasets and/or source data files. In some cases, however, the data will have been incorporated into the main article and the mention of 'on acceptance' data can be deleted.
 
-Please check the Production Comments for any notes the Editorial team may have left regarding this data.
+Please check the Production Comments for any notes from the Editorial team regarding this data.
 
 ### Data mentioned in the statement but not listed as a citation
 
@@ -133,7 +133,7 @@ Authors will sometimes mention data in their data availability statement without
 
 > Data and codes have been archived at the Open Science Framework \([https://osf.io/cvrb2/](https://osf.io/cvrb2/)\).
 
-If they have provided the database name and identifier or URL, as in the above example, it should be possible to add a generated dataset entry for this dataset. For the Open Science Framework, the details can be taken from the landing page:
+If they have provided the database name and identifier or a URL, as in the above example, it should be possible to add a generated dataset entry for this dataset. For the Open Science Framework, the details can be taken from the landing page:
 
 ![](../../.gitbook/assets/screen-shot-2020-04-27-at-15.51.17.png)
 
@@ -151,9 +151,9 @@ In these cases, the same author query is appropriate and the data availability s
 
 Some authors misunderstand the instructions around datasets and include citations of journal articles in the data availability section:
 
-> Matia-González, A. M., Laing, E. E., & Gerber, A. P. \| 2015 \| Conserved mRNA-binding proteomes in eukaryotic organisms \| [https://www.ncbi.nlm.nih.gov/pubmed/26595419](https://www.ncbi.nlm.nih.gov/pubmed/26595419) \| This dataset was present in supplemental data for the publication in Nature Structural and Molecular Biology
+![](../../.gitbook/assets/screen-shot-2020-04-28-at-14.47.58.png)
 
-Provided that this is also mentioned in the main reference list and is cited in the text, this entry should be removed. If the reference is not in the main reference list, the author should be asked to move it there:
+Provided an article is also mentioned in the main reference list and cited in the text, the data entry should be removed. If the reference is not in the main reference list, the author should be asked to move it there:
 
 * This section is for individual datasets deposited to dedicated repositories only. Citations of previous journal publications should be placed in the main reference list. Please indicate where in the article text this reference should be cited.
 
@@ -163,7 +163,7 @@ Some authors will enter citations of entire databases or data browsers. Since th
 
 ![](../../.gitbook/assets/screen-shot-2020-04-28-at-10.57.58.png)
 
-Searching the text for 'Ensembl' shows that the authors of this article downloaded multiple genomes from this site as part of their work and that they cited the appropriate publication in accordance with Ensembl's citation guidelines \([https://www.ensembl.org/info/about/publications.html](https://www.ensembl.org/info/about/publications.html)\).
+Searching the text for 'Ensembl' shows that the authors downloaded multiple genomes from this site as part of their work and that they cited the appropriate publication in accordance with Ensembl's citation guidelines \([https://www.ensembl.org/info/about/publications.html](https://www.ensembl.org/info/about/publications.html)\).
 
 ![](../../.gitbook/assets/screen-shot-2020-04-28-at-11.01.38.png)
 
@@ -177,7 +177,7 @@ Once the authors have responded, the entry for the whole database can be replace
 
 ### Data that is not yet public
 
-All datasets listed under generated or previously published should be publicly available at the point of publication. This can be checked by going to the URL provided. If this resolves to a dataset still private' screen or returns a 'page not found' message, the dataset has not been released.
+All datasets listed under generated or previously published should be publicly available at the point of publication. This can be checked by going to the URL provided. If this resolves to a 'dataset still private' screen or returns a 'page not found' message, the dataset has not been released.
 
 Please note that Dryad datasets in particular will only be released when the article is published online and the Dryad site has detected that publication. This is outside the authors control, so they do not need to be queried about releasing Dryad data.
 
@@ -185,27 +185,27 @@ In all other cases, please ask the author to arrange the release of the data:
 
 * Please make all datasets listed here publicly available as soon as possible.
 
-In some cases, the author may provide a review link for the data rather than the final link. This is to allow the reviewers to access the data while final public release is still pending. Such links can generally be identified because they contain 'review' or 'reviewer' in the URL. For example, [https://dataview.ncbi.nlm.nih.gov/object/PRJNA475219?reviewer=f1ccdfce21ljl8v6q2v8mctid7](https://dataview.ncbi.nlm.nih.gov/object/PRJNA475219?reviewer=f1ccdfce21ljl8v6q2v8mctid7) is the review link for dataset [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA475219](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA475219). Any link like this will need to be replaced with the final dataset URL before publication. If it is not possible to identify the final link based on the reviewer link, please ask the author:
+In some cases, the author may provide a review link for the data rather than the final link. This is to allow the reviewers to access the data before final public release. Such links can be identified by 'review' or 'reviewer' in the URL. For example, [https://dataview.ncbi.nlm.nih.gov/object/PRJNA475219?reviewer=f1ccdfce21ljl8v6q2v8mctid7](https://dataview.ncbi.nlm.nih.gov/object/PRJNA475219?reviewer=f1ccdfce21ljl8v6q2v8mctid7) is the review link for the dataset [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA475219](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA475219). Any link like this will need to be replaced with the final dataset URL before publication. If it is not possible to identify the final link based on the reviewer link or the given identifier, the author should be queried:
 
 * Please provide the final URL for this dataset.
 
-Note that reviewer links often work only for a limited period, so you may encounter messages such as the following. Helpfully, these can sometimes provide the final URL.
+Note that reviewer links often work only for a limited period, so you may encounter messages such as the following. Helpfully, these will sometimes provide the final URL.
 
 ![](../../.gitbook/assets/screen-shot-2020-04-27-at-16.54.09.png)
 
 ### References to files within the article
 
-If the authors mention specific files or figures within their article, please make sure that they have referenced them correctly in eLife style and are using the final names for these assets. For example, this data statement referes to figures and supplementary files using their originally submitted titles rather than those they would have in the final article:
+If the authors mention specific files or figures within their article, please make sure that they have referenced them correctly in eLife style and are using the final names for these assets. For example, this data statement refers to figures and supplementary files using their originally submitted titles rather than those they would be given in the final article:
 
 > All data analyzed during this study are included in the manuscript. We also provided source data files for: Figures 2, 3, 4 and 5; for supplemental figure S2 and for supplemental tables S1, S2. S3, S4, S5, S6, S7 and S8.
 
-This was updated to:
+This therefore need to be updated to:
 
 > All data analyzed during this study are included in the manuscript. We also provided source data files for: Figures 2, 3, 4 and 5; for Figure 4—figure supplement 1; and for Supplementary files 1–8.
 
-If it is not clear how to update citations of figures and files to us their final names, please query the authors:
+If it is not clear how to update citations of figures and files to use their final names, please query the authors:
 
-* Please update your data availability statement to use the final labels for all figure supplements and supplementary files.
+* Please update your data availability statement to use the final labels for all figure supplements and supplementary files mentioned.
 
 ### Database examples
 
@@ -254,17 +254,17 @@ If it is not clear how to update citations of figures and files to us their fina
 
 **Warning**: _Section has a title 'XXXXXX'. Is it a duplicate of the data availability section \(and therefore should be removed\)?_
 
-**Action**: This warning indicates that there is a section within the main body of an article that has the title 'Data availability' or a common variation of this \(e.g. 'Data statement', 'Data and code availability', 'Data accessibility' etc\). This can mean that the authors have included a copy or variation of the statement that they entered on the submission system.
+**Action**: This warning indicates that there is a section within the main body of an article that has the title 'Data availability' or a common variation of this \(e.g. 'Data statement', 'Data and code availability', 'Data accessibility' etc\). This can mean that the authors have included a copy of the statement they entered on the submission system.
 
 If the main-text data statement is identical to the one entered in the Data availability section and does not contain any reference citations, it should be deleted entirely. If it is identical and any references cited are also cited elsewhere in the main text, it can also be deleted.
 
 If the statement in the main text contains reference citations that are not cited elsewhere, it must be retained to preserve these citations \(live citations cannot currently be included in the Data availability statement\).
 
-In cases where the main-text data statement does not match the one in the Data availability statement, there are several possible options. If the Data availability statement contains information about datasets while the main-text statement says something like "data will be submitted on acceptance" then it is likely the authors did not update this text when they submitted their data to a repository. In this case, the main-text statement can simply be deleted.
+In cases where the main-text data statement and the Data availability statement do not match, there are several possible options. If the Data availability statement contains information about datasets while the main-text statement says something like "data will be submitted on acceptance", the main-text statement can be deleted.
 
-However, if the main-text statement contains additional information not captured in the Data availability statement, it may be necessary for the Production team to contact the Editorial team \(who may already be working on this issue\) or query the authors in order to clarify what the final Data availability statement should read.
+However, if the main-text statement contains additional information not captured in the Data availability statement, it will be necessary for the Production team to contact the Editorial team \(who may already be working on this issue\) or query the authors in order to clarify what the final Data availability statement should read.
 
-For example, in the following case, the given Data availability statement was:
+For example, in the following case, the Data availability statement was:
 
 > Data have been deposited on GEO under the accession number GSE140919. A source data file has  
 > been provided.
@@ -411,7 +411,7 @@ Alternatively, if the URL and title provided for this dataset indicate that the 
 
 **Action**: This error indicates that a dataset's URL matches that of another dataset in this section. Check to find out which datasets are duplicates and see if the rest of the details match as well. If they do, all but one of the identical datasets should be deleted. If the title or identifier do not match when the URLs do, check to see if the URL should be updated to match the identifier.
 
-For example, if the URLS for two datasets are both https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351, but the identifiers are GSE135351 and GSE143881, the dataset for the second identifier should have the URL https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881.
+For example, if the URLS for two datasets are both [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351), but the identifiers are GSE135351 and GSE143881, the dataset for the second identifier should have the URL [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881).
 
 #### das-elem-cit-4
 
@@ -419,21 +419,21 @@ For example, if the URLS for two datasets are both https://www.ncbi.nlm.nih.gov/
 
 **Action**: This warning indicates that a dataset's identifier matches that of another dataset in this section. Check to find out which datasets are duplicates and see if the rest of the details match as well. If they do, all but one of the identical datasets should be deleted. If the title or URL do not match when the identifiers do, check to see if the identifier should be updated to match the URL.
 
-For example, if the indentifiers for two datasets are both GSE135351, but the URLs are https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351 and https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881, the dataset for the second URL should have the identifier GSE143881.
+For example, if the indentifiers for two datasets are both GSE135351, but the URLs are [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351) and [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881), the dataset for the second URL should have the identifier GSE143881.
 
 #### das-pub-id-1
 
 **Error**: _Each pub-id element must have an @pub-id-type with one of these types: accession, archive, or doi._
 
-**Action**: This error indicates that a pub-id-type has not been set for a dataset \(it has been left as 'other'\). Set the pub-id-type to the appropriate. The values for this attribute for datasets in commonly encountered databases can be found [above](data-availability.md#database-examples).
+**Action**: This error indicates that a pub-id-type has not been set for a dataset \(it has been left as 'other'\). Set the pub-id-type to the appropriate value. The values for this attribute for datasets in commonly encountered databases can be found [above](data-availability.md#database-examples).
 
 #### data-ref-given-names-test-1
 
 **Warning**: _Given names should always be initialised. Ref contains a given names with a string longer than 4 characters - 'XXXXXX' in XXXXXX. Is this a surname captured as given names? Or a fully spelt out given names?_
 
-**Action**: This warning indicates a given name in a `<name>` element within a dataset consists of more than four characters, indicating that it is a full name rather than just a set of initials \(XXXXXX in this message will be the given name and the full author name, respectively\). This might be because the name has been entered in full as 'Smith Jonathan' or because the wrong name format has been used \(e.g. 'J Smith' or 'Jonathan Smith'\), resulting in the surname being tagged as the given name.
+**Action**: This warning indicates a given name in a `<name>` element within a dataset that consists of more than four characters, likely meaning it is a full name rather than just a set of initials \(XXXXXX in this message will be the given name and the full author name, respectively\). This might be because the name has been entered in full as 'Smith Jonathan' or because the wrong name format has been used \(e.g. 'J Smith' or 'Jonathan Smith'\), resulting in the surname being tagged as the given name.
 
-The affected name will need to be corrected so that it is in 'Smith J' format.
+The affected name will need to be corrected to 'Smith J' format.
 
 #### data-geo-test
 
@@ -1061,7 +1061,7 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: _One and only one Data availability section \(sec\[@sec-type="data-availability"\]\) should be present \(as a child of back\) for 'XXXXXX'. Is this a new version which was published first without one? If not, then it certainly needs adding._
 
-**Action**: 
+**Action**: This warning will fire if there is no `<sec sec-type="data-availability">` present in the `<back>` element for an article, or if there is more than one section of this type present. Extra sections will need to be removed but if this is a new version of a very old article, no data availability section is permitted.
 
 #### data-p-presence
 
@@ -1073,7 +1073,7 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Error**: _The reference in position XX of the data availability has XX person-group elements, which is incorrect_
 
-**Action**: 
+**Action**: One and only one `<person-group>` element must be present in each dataset entry. Add an author list if this is missing and remove extra elements of this type if they are present.
 
 #### das-elem-cit-1
 
@@ -1091,7 +1091,9 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Error**: _Each pub-id element which is not a doi must have an @xlink-href \(which is not empty\)._
 
-**Action**: 
+**Action**: If a `<pub-id>` element does not contain a DOI, the dataset URL should appear as an attribute on this element. Check that a URL has been provided and ask the author for it if it is missing:
+
+* Please provide the final URL for this dataset.
 
 #### das-elem-citation-child-1
 
@@ -1103,7 +1105,7 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Error**: _Every year in a reference must have an @iso-8601-date attribute equal to the numbers in the year. Reference with id XX has a year 'XXXX' but an @iso-8601-date 'XXXX'._
 
-**Action**: 
+**Action**: For each `<year>` element, an attribute `iso-8601-date` must be present with a value equal to the contents of the year, e.g. `<year iso-8601-date="2013">2013</year>`. This error will occur if the value of the element and its attribute do not match. Try reentering the year and contact support if this error persists.
 
 ## XML structure
 
