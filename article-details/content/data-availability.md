@@ -234,7 +234,13 @@ If it is not clear how to update citations of figures and files to us their fina
 
 **Warning**: _Section has a title 'XXXXXX'. Is it a duplicate of the data availability section \(and therefore should be removed\)?_
 
-**Action**: This warning indicates that there is a section within the main body of an article that has the title 'Data availability'. 
+**Action**: This warning indicates that there is a section within the main body of an article that has the title 'Data availability' or a common variation of this \(e.g. Data statement, Data and code availability, Data accessibility etc\). This can mean that the authors have included a copy or variation of the statement that they entered on the submission system.
+
+If the main-text 'Data availability' statement is identical to the one entered in the Data availability section and does not contain any reference citations, it should be deleted entirely. If it is identical and any references cited are also cited elsewhere in the main text, it can also be deleted.
+
+If the statement in the main text contains reference citations that are not cited elsewhere, it must be retained to preserve these citations.
+
+
 
 #### pre-das-elem-person-group-1
 
