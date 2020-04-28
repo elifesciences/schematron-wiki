@@ -1099,7 +1099,7 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Error**: _Reference in the data availability section has a XXXXXX element in a XXXXXX element which is not allowed._
 
-**Action**: 
+**Action**: The only child elements allowed for the title \(`<data-title>`\) or database name \(`<source>`\) are formatting tags for italics, superscript and subscript. Any other formatting should be removed and any hyperlinks in these fields should be changed to plain text. XXXXXX will be the child and parent elements, respectively.
 
 #### das-elem-citation-year-1
 
