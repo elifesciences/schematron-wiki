@@ -341,9 +341,15 @@ An author query was left requesting further details and once these were provided
 
 **Warning**: _The reference in position XX of the data availability section does not have an identifier \(no pub-id\). Please ensure to add it in or query the authors asking for it._
 
-**Action**: At the pre-author stage, this warning indicates a dataset without an identifier. The author most be asked to provide the missing details if they cannot be found using the other dataset information. This warning fires if the `<pub-id>` element is missing.
+**Action**: At the pre-author stage, this warning indicates a dataset without an identifier. The author most be asked to provide the missing details if they cannot be found using the other dataset information.
 
 * Please provide the identifier \(accession number or DOI\) for this dataset.
+
+Alternatively, if the URL and title provided for this dataset indicate that the entry is for an [entire database](data-availability.md#whole-databases-entered-as-datasets), the author may need to be asked to clarify what should be cited:
+
+* This section is for individual datasets only. Whole databases should be cited in the main text rather than listed here. Please provide the details for any specific datasets used, or indicate where in the text this database should be mentioned.
+
+ This warning fires if the `<pub-id>` element is missing.
 
 #### final-das-elem-pub-id-1
 
