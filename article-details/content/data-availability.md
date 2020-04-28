@@ -242,7 +242,9 @@ If the statement in the main text contains reference citations that are not cite
 
 In cases where the main-text data statement does not match the one in the Data availability statement, there are several possible options. If the Data availability statement contains information about datasets while the main-text statement says something like "data will be submitted on acceptance" then it is likely the authors did not update this text when they submitted their data to a repository. In this case, the main-text statement can simply be deleted.
 
-However, if the main-text statement contains additional information not captured in the Data availability statement, it may be necessary for the Production team to contact the Editorial team or query the authors in order to clarify what the final Data availability statement should read. For example, in the following case, the given Data availability statement was:
+However, if the main-text statement contains additional information not captured in the Data availability statement, it may be necessary for the Production team to contact the Editorial team \(who may already be working on this issue\) or query the authors in order to clarify what the final Data availability statement should read.
+
+For example, in the following case, the given Data availability statement was:
 
 > Data have been deposited on GEO under the accession number GSE140919. A source data file has  
 > been provided.
@@ -253,7 +255,17 @@ But an in-text statement mentioned additional data submitted to dbGAP:
 
 Since the authors did not provide details for their dbGAP dataset, the Production team first contacted Editorial to check if they were working on this already. The authors were then asked to provide the missing information but they responded that they had not, in fact, deposited data to dbGAP. The in-text statement was then deleted and the Data availability statement was retained as originally provided.
 
+In another instance, the Data availability statement was
 
+> All data generated or analyzed during this study are included in the manuscript and supporting files
+
+while the in-text equivalent read
+
+> Representative segmented neurons for all presented neuron types will be available at Virtual Fly Brain \([https://www.virtualflybrain.org](https://www.virtualflybrain.org/)\).
+
+An author query was left requesting further details and once these were provided, the main-text statement was removed and the text was combined with the Data availability statement:
+
+> All data generated or analyzed during this study are included in the manuscript and supporting files. Representative segmented neurons for all presented neuron types are available at Virtual Fly Brain \([http://virtualflybrain.org/data/Lee\_Lineage2020](http://virtualflybrain.org/data/Lee_Lineage2020)\).
 
 #### pre-das-elem-person-group-1
 
@@ -343,7 +355,7 @@ Since the authors did not provide details for their dbGAP dataset, the Productio
 
 **Warning**: _The reference in position XX of the data availability section does not have a year. Please ensure to add it in or query the authors asking for it._
 
-**Action**: At the pre-author stage, this warning indicates a dataset without a year. The author most be asked to provide the missing details if they cannot be found using the other dataset information. 
+**Action**: At the pre-author stage, this warning indicates a dataset without a year. The author most be asked to provide the missing details if they cannot be found using the other dataset information. This warning fires if the `<year>` element is missing.
 
 * Please provide the year for this dataset.
 
@@ -351,7 +363,21 @@ Since the authors did not provide details for their dbGAP dataset, the Productio
 
 **Error**: _The reference in position XX of the data availability section does not have a year. Please ensure to add it in._
 
-**Action**: At the post-author stage, this error indicates a dataset without a year. The author should be asked by email to provide the missing details if they cannot be found using the other dataset information. 
+**Action**: At the post-author stage, this error indicates a dataset without a year. The author should be asked by email to provide the missing details if they cannot be found using the other dataset information. This error fires if the `<year>` element is missing.
+
+#### pre-das-elem-citation-year-2
+
+**Warning**: _Reference with id XXXXXX has an empty year. Please ensure to add it in or query the authors asking for it._
+
+**Action**: At the pre-author stage, this warning indicates a dataset without a year. The author most be asked to provide the missing details if they cannot be found using the other dataset information. This warning fires if the `<year>` element is empty.
+
+* Please provide the year for this dataset.
+
+#### final-das-elem-citation-year-2
+
+**Error**: _Reference with id XXXXXX has an empty year. Please ensure to add it in._
+
+**Action**: At the post-author stage, this error indicates a dataset without a year. The author should be asked by email to provide the missing details if they cannot be found using the other dataset information. This error fires if the `<year>` element is empty.
 
 #### das-elem-cit-3
 
@@ -371,18 +397,6 @@ Since the authors did not provide details for their dbGAP dataset, the Productio
 
 **Action**: This error indicates that a pub-id-type has not been set for a dataset \(it has been left as 'other'\). Set the pub-id-type to the appropriate. The values for this attribute for commonly encountered datasets can be found [above](data-availability.md#database-examples).
 
-#### pre-das-elem-citation-year-2
-
-**Warning**: _Reference with id XXXXXX has an empty year. Please ensure to add it in or query the authors asking for it._
-
-**Action**: 
-
-#### final-das-elem-citation-year-2
-
-**Error**: _Reference with id XXXXXX has an empty year. Please ensure to add it in._
-
-**Action**: 
-
 #### data-ref-given-names-test-1
 
 **Warning**: _Given names should always be initialised. Ref contains a given names with a string longer than 4 characters - 'XXXXXX' in XXXXXX. Is this a surname captured as given names? Or a fully spelt out given names?_
@@ -391,7 +405,7 @@ Since the authors did not provide details for their dbGAP dataset, the Productio
 
 #### data-geo-test
 
-Warning: Data reference with the title 'XXXXXX' has a 'https://www.ncbi.nlm.nih.gov/geo' type link, but the database name is not 'NCBI Gene Expression Omnibus' - XXXXXX. Is that correct?
+**Warning**: _Data reference with the title 'XXXXXX' has a 'https://www.ncbi.nlm.nih.gov/geo' type link, but the database name is not 'NCBI Gene Expression Omnibus' - XXXXXX. Is that correct?_
 
 **Action**: 
 
