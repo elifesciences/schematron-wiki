@@ -177,7 +177,9 @@ Once the authors have responded, the entry for the whole database can be replace
 
 All datasets listed under generated or previously published should be publicly available at the point of publication. This can be checked by going to the URL provided. If this resolves to a dataset still private' screen or returns a 'page not found' message, the dataset has not been released.
 
-In these cases, please ask the author to arrange the release of the data:
+Please note that Dryad datasets in particular will only be released when the article is published online and the Dryad site has detected that publication. This is outside the authors control, so they do not need to be queried about releasing Dryad data.
+
+In all other cases, please ask the author to arrange the release of the data:
 
 * Please make all datasets listed here publicly available as soon as possible.
 
@@ -225,12 +227,12 @@ If it is not clear how to update citations of figures and files to us their fina
 | NCBI Nucleotide | Nucleotide | accession | NCBI | [https://www.ncbi.nlm.nih.gov/nuccore/KY616976](https://www.ncbi.nlm.nih.gov/nuccore/KY616976) |  |
 | NCBI Sequence Read Archive | Sequence Read Archive, SRA, Short Read Archive, NCBI SRA | accession | NCBI | [https://www.ncbi.nlm.nih.gov/sra/?term=SRA012474](https://www.ncbi.nlm.nih.gov/sra/?term=SRA012474) |  |
 | NIMH Data Archive  | NDA | archive | NIMH | [https://nda.nih.gov/edit\_collection.html?id=2890](https://nda.nih.gov/edit_collection.html?id=2890) |  |
-| PRIDE | EBI PRIDE, PRoteomics IDEntifications Database | accession | EBI | [https://www.ebi.ac.uk/pride/archive/projects/PXD007787](https://www.ebi.ac.uk/pride/archive/projects/PXD007787) |  |
-| ProteomeXchange |  | accession |  | [http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD005831](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD005831) |  |
-| RCSB Protein Data Bank | Protein Data Bank, PDB, RCSB PDB, Protein Databank | accession | PDB | [https://www.rcsb.org/structure/5HOO](https://www.rcsb.org/structure/5HOO) | [http://dx.doi.org/10.2210/pdb5HOO/pdb](http://dx.doi.org/10.2210/pdb5HOO/pdb) |
 | Open Science Framework | OSF | archive | Open Science Framework | [https://osf.io/6hmrz/](https://osf.io/6hmrz/) |  |
 | Oxford University Research Archive | ORA | archive | Oxford University | [https://ora.ox.ac.uk/objects/uuid:09bef38c-999f-4fb7-aa46-14eda3123571](https://ora.ox.ac.uk/objects/uuid:09bef38c-999f-4fb7-aa46-14eda3123571) |  |
 | PeptideAtlas |  | archive | PeptideAtlas | [https://db.systemsbiology.net/sbeams/cgi/PeptideAtlas/PASS\_View?identifier=PASS01443](https://db.systemsbiology.net/sbeams/cgi/PeptideAtlas/PASS_View?identifier=PASS01443) |  |
+| PRIDE | EBI PRIDE, PRoteomics IDEntifications Database | accession | EBI | [https://www.ebi.ac.uk/pride/archive/projects/PXD007787](https://www.ebi.ac.uk/pride/archive/projects/PXD007787) |  |
+| ProteomeXchange |  | accession |  | [http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD005831](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD005831) |  |
+| RCSB Protein Data Bank | Protein Data Bank, PDB, RCSB PDB, Protein Databank | accession | PDB | [https://www.rcsb.org/structure/5HOO](https://www.rcsb.org/structure/5HOO) | [http://dx.doi.org/10.2210/pdb5HOO/pdb](http://dx.doi.org/10.2210/pdb5HOO/pdb) |
 | webKnossos |  | archive | webKnossos | [https://wklink.org/8732](https://wklink.org/8732) |  |
 | Zenodo |  | doi | Zenodo | [https://zenodo.org/record/6960\#.WqEkGoL7lTY](https://zenodo.org/record/6960#.WqEkGoL7lTY) | [http://dx.doi.org/10.5281/zenodo.6960](http://dx.doi.org/10.5281/zenodo.6960) |
 
