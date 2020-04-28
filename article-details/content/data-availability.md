@@ -677,7 +677,7 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.17605/OSF' but the database name is not 'Open Science Framework' - XXXXXX._
 
-**Action**: 
+**Action**: This warning will fire if an OSF DOI is present for a dataset, but the database name entered is not 'Open Science Framework'. Please correct the database name accordingly.
 
 #### data-osf-test-5
 
