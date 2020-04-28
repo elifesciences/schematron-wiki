@@ -155,7 +155,17 @@ Provided that this is also mentioned in the main reference list and is cited in 
 
 ### Whole databases entered as datasets
 
-Some authors will enter citations of entire databases. Since this section is only intended to cover individual datasets, this is inappropriate. 
+Some authors will enter citations of entire databases or data browsers. Since this section is only intended to cover individual datasets, this is inappropriate. Usually, it is possible to spot these by the lack of identifier in the information provided \(either on its own or in the URL\). For example, the following is a citation of Ensembl \([https://www.ensembl.org/index.html](https://www.ensembl.org/index.html)\), a genome browser.
+
+![](../../.gitbook/assets/screen-shot-2020-04-28-at-10.57.58.png)
+
+Searching the text shows that the authors of this article downloaded multiple genomes from Ensembl as part of their work and that they cited the appropraite publication in accordance with Ensembl's citation guidelines \([https://www.ensembl.org/info/about/publications.html](https://www.ensembl.org/info/about/publications.html)\).
+
+![](../../.gitbook/assets/screen-shot-2020-04-28-at-11.01.38.png)
+
+The citation of the database could therefore be removed completely from the previously published datasets section.
+
+
 
 ### Data that is not yet public
 
@@ -383,13 +393,17 @@ An author query was left requesting further details and once these were provided
 
 **Error**: _The reference in position XX of the data availability section has a link \(XXXXXX\) which is the same as another dataset reference in that section. Dataset reference links should be distinct._
 
-**Action**: 
+**Action**: This error indicates that a dataset's URL matches that of another dataset in this section. Check to find out which datasets are duplicates and see if the rest of the details match as well. If they do, all but one of the identical datasets should be deleted. If the title or identifier do not match when the URLs do, check to see if the URL should be updated to match the identifier.
+
+For example, if the URLS for two datasets are both https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351, but the identifiers are GSE135351 and GSE143881, the dataset for the second identifier should have the URL https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881.
 
 #### das-elem-cit-4
 
 **Warning**: _The reference in position XX of the data availability section has a pub-id \(XXXXXX\) which is the same as another dataset reference in that section. This is very likely incorrect. Dataset reference pub-id should be distinct._
 
-**Action**: This warning indicates that a dataset's identifier matches that of another dataset in this section. Check to find out which datasets are duplicates and see if the rest of the details match as well. If they do, all but one of the identical datasets should be deleted.
+**Action**: This warning indicates that a dataset's identifier matches that of another dataset in this section. Check to find out which datasets are duplicates and see if the rest of the details match as well. If they do, all but one of the identical datasets should be deleted. If the title or URL do not match when the identifiers do, check to see if the identifier should be updated to match the URL.
+
+For example, if the indentifiers for two datasets are both GSE135351, but the URLs are https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351 and https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881, the dataset for the second URL should have the identifier GSE143881.
 
 #### das-pub-id-1
 
@@ -401,7 +415,9 @@ An author query was left requesting further details and once these were provided
 
 **Warning**: _Given names should always be initialised. Ref contains a given names with a string longer than 4 characters - 'XXXXXX' in XXXXXX. Is this a surname captured as given names? Or a fully spelt out given names?_
 
-**Action**: 
+**Action**: This warning indicates a given name in a `<name>` element within a dataset consists of more than four characters, indicating that it is a full name rather than just a set of initials \(XXXXXX in this message will be the given name and the full author name, respectively\). This might be because the name has been entered in full as 'Smith Jonathan' or because the wrong name format has been used \(e.g. 'J Smith' or 'Jonathan Smith'\), resulting in the surname being tagged as the given name.
+
+The affected name will need to be corrected so that it is in the correct 'Smith J' format.
 
 #### data-geo-test
 
