@@ -423,7 +423,7 @@ For example, if the indentifiers for two datasets are both GSE135351, but the UR
 
 **Error**: _Each pub-id element must have an @pub-id-type with one of these types: accession, archive, or doi._
 
-**Action**: This error indicates that a pub-id-type has not been set for a dataset \(it has been left as 'other'\). Set the pub-id-type to the appropriate. The values for this attribute for commonly encountered datasets can be found [above](data-availability.md#database-examples).
+**Action**: This error indicates that a pub-id-type has not been set for a dataset \(it has been left as 'other'\). Set the pub-id-type to the appropriate. The values for this attribute for datasets in commonly encountered databases can be found [above](data-availability.md#database-examples).
 
 #### data-ref-given-names-test-1
 
@@ -541,7 +541,7 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.5061/dryad' or '10.7272', which is incorrect._
 
-**Action**: 
+**Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. 
 
 #### data-dryad-test-3
 
