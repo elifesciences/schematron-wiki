@@ -165,6 +165,10 @@ Searching the text shows that the authors of this article downloaded multiple ge
 
 The citation of the database could therefore be removed completely from the previously published datasets section.
 
+In the next example, the authors provided an entry for the whole REDfly Database \([http://redfly.ccr.buffalo.edu/index.php](http://redfly.ccr.buffalo.edu/index.php)\) among acceptable previously published datasets.
+
+![](../../.gitbook/assets/screen-shot-2020-04-28-at-11.13.48.png)
+
 
 
 ### Data that is not yet public
