@@ -39,25 +39,27 @@ Examples of these can be found in the next section. Please be aware that these c
 
 Most of the time, references citations will be contained within parentheses:
 
-"Correspondingly, the inactivation of PDGFα receptor \(PDGFRα\), which is majorly expressed in OPCs \(**Pringle et al., 1992**\), results in . . ."
+> "Correspondingly, the inactivation of PDGFα receptor \(PDGFRα\), which is majorly expressed in OPCs \(**Pringle et al., 1992**\), results in . . ."
 
 Multiple reference citations may appear within one set of parentheses:
 
-"On the one hand, behavioral and task-set learning are modeled on an abstract, psychological level \(**Botvinick et al., 2009**; **Collins and Koechlin, 2012**; **Donoso et al., 2014**\)."
+> "On the one hand, behavioral and task-set learning are modeled on an abstract, psychological level \(**Botvinick et al., 2009**; **Collins and Koechlin, 2012**; **Donoso et al., 2014**\)."
 
 Where references are cited within a parenthetical statement, square brackets may be used to separate them from the text. This is the only time it is appropriate to use square brackets around a citation:
 
-". . . behavioral policy \(recurrent versus open-ended sessions, while controlling for trial perceived difficulty, as implemented by reaction times \[**Shenhav et al., 2013**; **Shenhav et al., 2014**\]\)."
+> ". . . behavioral policy \(recurrent versus open-ended sessions, while controlling for trial perceived difficulty, as implemented by reaction times \[**Shenhav et al., 2013**; **Shenhav et al., 2014**\]\)."
 
 Citations in parentheses may be accompanied by additional text, usually a direction to the reader. For example, "\(see **Smith et al., 2010**\)" or "\(**Dare et al., 1950**; **Morgan et al., 1953**; for a review, see **Ellis, 2004**\)". In these cases, square brackets are not required. 
 
-Where multiple sets of parenthetical citations occur one after the other, these should be merged together. This applies to both reference and asset citations, which should be combined into the same set of brackets if they occur together. So, for example
+Where multiple sets of parenthetical citations occur one after the other, these should be merged together. This applies to both reference and asset citations, which should be combined into the same set of brackets if they occur together. So, for example:
 
- “\(**Figure 1**\) \(**Harrison et al, 2020**; **Albert and Smith, 1998**\)”
+> “\(**Figure 1**\) \(**Harrison et al, 2020**; **Albert and Smith, 1998**\)”
 
 should be changed to
 
-“\(**Figure 1**; **Harrison et al, 2020**; **Albert and Smith, 1998**\)”.
+> "\(**Figure 1**; **Harrison et al, 2020**; **Albert and Smith, 1998**\)”.
+
+Please note that this is distinct from mentions of figures in other articles.
 
 ### Citations that do not require brackets
 
