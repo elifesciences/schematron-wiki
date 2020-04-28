@@ -18,6 +18,8 @@ This section consists of three parts - the data availability statement, generate
 
 In research content, the data availability statement is mandatory. The other two parts are optional, depending on whether any major datasets were generated or used. If only a small amount of data was generated, the authors may chose to include it as source data files for their article rather than submitting it to a repository, meaning no datasets need to be listed in this section. Relatedly, if previously published data was taken wholly from a journal article rather than from a repository, citing that article in the main text is sufficient and no entry in the data availability section is required. Finally, in the case where no data was generated at all, the data availability statement should reflect this.
 
+Feature content does not require a data availability section.
+
 ## What needs to be checked?
 
 ### Data availability statement
