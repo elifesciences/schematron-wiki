@@ -159,13 +159,17 @@ Some authors will enter citations of entire databases or data browsers. Since th
 
 ![](../../.gitbook/assets/screen-shot-2020-04-28-at-10.57.58.png)
 
-Searching the text for 'Ensembl' shows that the authors of this article downloaded multiple genomes from this site as part of their work and that they cited the appropraite publication in accordance with Ensembl's citation guidelines \([https://www.ensembl.org/info/about/publications.html](https://www.ensembl.org/info/about/publications.html)\).
+Searching the text for 'Ensembl' shows that the authors of this article downloaded multiple genomes from this site as part of their work and that they cited the appropriate publication in accordance with Ensembl's citation guidelines \([https://www.ensembl.org/info/about/publications.html](https://www.ensembl.org/info/about/publications.html)\).
 
 ![](../../.gitbook/assets/screen-shot-2020-04-28-at-11.01.38.png)
 
 The citation of the database could therefore be removed completely from the previously published datasets section.
 
-If the authors do not mention the database within their text 
+If the authors do not mention the database within their text, they will need to be queried to clarify whether they used the whole database or if specific datasets can be listed instead.
+
+* This section is for individual datasets only. Whole databases should be cited in the main text rather than listed here. Please provide the details for any specific datasets used, or indicate where in the text this database should be mentioned.
+
+Once the authors have responded, the entry for the whole database can be replaced with one or more specific datasets, or removed entirely in favour of a citation or URL link in the main text.
 
 ### Data that is not yet public
 
@@ -945,13 +949,13 @@ data-wwpdb-test-2
 
 #### back-test-3
 
-**Error**: _One and only one Data availiability section \(sec\[@sec-type="data-availability"\]\) must be present \(as a child of back\) for 'XXXXXX'._
+**Error**: _One and only one Data availability section \(sec\[@sec-type="data-availability"\]\) must be present \(as a child of back\) for 'XXXXXX'._
 
-**Action**: 
+**Action**: This error will fire if there is no `<sec sec-type="data-availability">` present in the `<back>` element for an article, or if there is more than one section of this type present. The section will need to be added in, or the extra sections will need to be removed.
 
 #### back-test-10
 
-**Warning**: _One and only one Data availiability section \(sec\[@sec-type="data-availability"\]\) should be present \(as a child of back\) for 'XXXXXX'. Is this a new version which was published first without one? If not, then it certainly needs adding._
+**Warning**: _One and only one Data availability section \(sec\[@sec-type="data-availability"\]\) should be present \(as a child of back\) for 'XXXXXX'. Is this a new version which was published first without one? If not, then it certainly needs adding._
 
 **Action**: 
 
@@ -959,7 +963,7 @@ data-wwpdb-test-2
 
 **Error**: _At least one p element must be present in sec\[@sec-type='data=availability'\]._
 
-**Action**: 
+**Action**: There must be a paragraph within the Data availability section \(for the Data availablity statement\). 
 
 #### das-elem-person-group-2
 
