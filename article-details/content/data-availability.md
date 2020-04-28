@@ -435,7 +435,7 @@ The affected name will need to be corrected so that it is in 'Smith J' format.
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'https://www.ncbi.nlm.nih.gov/geo' type link, but the database name is not 'NCBI Gene Expression Omnibus' - XXXXXX. Is that correct?_
 
-**Action**: 
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. Check the list of database examples 
 
 #### data-nucleotide-test
 
