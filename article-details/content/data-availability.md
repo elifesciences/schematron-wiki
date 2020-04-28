@@ -234,11 +234,24 @@ If it is not clear how to update citations of figures and files to us their fina
 
 **Warning**: _Section has a title 'XXXXXX'. Is it a duplicate of the data availability section \(and therefore should be removed\)?_
 
-**Action**: This warning indicates that there is a section within the main body of an article that has the title 'Data availability' or a common variation of this \(e.g. Data statement, Data and code availability, Data accessibility etc\). This can mean that the authors have included a copy or variation of the statement that they entered on the submission system.
+**Action**: This warning indicates that there is a section within the main body of an article that has the title 'Data availability' or a common variation of this \(e.g. 'Data statement', 'Data and code availability', 'Data accessibility' etc\). This can mean that the authors have included a copy or variation of the statement that they entered on the submission system.
 
-If the main-text 'Data availability' statement is identical to the one entered in the Data availability section and does not contain any reference citations, it should be deleted entirely. If it is identical and any references cited are also cited elsewhere in the main text, it can also be deleted.
+If the main-text data statement is identical to the one entered in the Data availability section and does not contain any reference citations, it should be deleted entirely. If it is identical and any references cited are also cited elsewhere in the main text, it can also be deleted.
 
-If the statement in the main text contains reference citations that are not cited elsewhere, it must be retained to preserve these citations.
+If the statement in the main text contains reference citations that are not cited elsewhere, it must be retained to preserve these citations \(live citations cannot currently be included in the Data availability statement\).
+
+In cases where the main-text data statement does not match the one in the Data availability statement, there are several possible options. If the Data availability statement contains information about datasets while the main-text statement says something like "data will be submitted on acceptance" then it is likely the authors did not update this text when they submitted their data to a repository. In this case, the main-text statement can simply be deleted.
+
+However, if the main-text statement contains additional information not captured in the Data availability statement, it may be necessary for the Production team to contact the Editorial team or query the authors in order to clarify what the final Data availability statement should read. For example, in the following case, the given Data availability statement was:
+
+> Data have been deposited on GEO under the accession number GSE140919. A source data file has  
+> been provided.
+
+But an in-text statement mentioned additional data submitted to dbGAP:
+
+> The data for this study have been deposited in the database dbGAP. The sequenceing data can be found as GenBank GSE140919. Data can also be found in the included source file.
+
+Since the authors did not provide details for their dbGAP dataset, the Production team first contacted Editorial to check if they were working on this already. The authors were then asked to provide the missing information but they responded that they had not, in fact, deposited data to dbGAP. The in-text statement was then deleted and the Data availability statement was retained as originally provided.
 
 
 
