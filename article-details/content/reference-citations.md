@@ -213,7 +213,7 @@ XXXXXX in this message will be the current, incorrect citation text.
 
 **Error**: _XXXXXX - citation doesn't start with an author's name which is incorrect._
 
-**Action**: This error indicates that the text within a reference citation does not start with the surname of the first author in the corresponding reference. This could be related to **ref-xref-test-5**, above.  The citation text should be corrected to include the first author's surname. XXXXXX in this message will indicate the text that needs correcting.
+**Action**: This error indicates that the text within a reference citation does not start with the surname of the first author in the corresponding reference. This could be related to **ref-xref-test-5**, above.  The citation text should be corrected to include the first author's surname, or the full text for a collaboration listed as first author. XXXXXX in this message will indicate the text that needs correcting.
 
 #### ref-xref-test-20
 
