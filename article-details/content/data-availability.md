@@ -1078,13 +1078,13 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Error**: _Every reference in the data availability section must have an @specific-use. The reference in position XX does not._
 
-**Action**: Each entry for a datset in this section should be an `<element-citation>` with the `specific-use` attribute \(set to either `specific-use="isSupplementedBy"` for generated datasets or `specific-use="references"` for previously published datasets\). This warning fires if the `specific-use` attribute is missing. This attribute will need to be added in.
+**Action**: Each entry for a dataset in this section should be an `<element-citation>` with the `specific-use` attribute \(set to either `specific-use="isSupplementedBy"` for generated datasets or `specific-use="references"` for previously published datasets\). This warning fires if the `specific-use` attribute is missing. This attribute will need to be added in.
 
 #### das-elem-cit-2
 
 **Error**: _The reference in position XX of the data availability section has a @specific-use value of XXXXXX, which is not allowed. It must be 'isSupplementedBy' or 'references'._
 
-**Action**: Each entry for a datset in this section should be an `<element-citation>` with the `specific-use` attribute \(set to either `specific-use="isSupplementedBy"` for generated datasets or `specific-use="references"` for previously published datasets\). This warning will fire if the `specific-use` attribute has another value. The value of the attribute will need to be corrected to one of the allowed values.
+**Action**: Each entry for a dataset in this section should be an `<element-citation>` with the `specific-use` attribute \(set to either `specific-use="isSupplementedBy"` for generated datasets or `specific-use="references"` for previously published datasets\). This warning will fire if the `specific-use` attribute has another value. The value of the attribute will need to be corrected to one of the allowed values.
 
 #### das-pub-id-2
 
