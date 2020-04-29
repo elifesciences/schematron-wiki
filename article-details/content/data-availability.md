@@ -26,7 +26,7 @@ Feature content does not require a data availability section.
 
 The data availability statement should be a single paragraph consisting of complete sentences, ending in a full stop. Spelling and grammar errors should be corrected in the same manner as the main text.
 
-The contentsof the statement should be reflected in the rest of the dataset section. If specific generated or previously published datasets are mentioned in the statement, they should be entered under the appropriate headings below. If the authors mention using an entire database, however, it will not be appropriate to add a citation entry.
+The contents of the statement should be reflected in the rest of the dataset section. If specific generated or previously published datasets are mentioned in the statement, they should be entered under the appropriate headings below. If the authors mention using an entire database, however, it will not be appropriate to add a citation entry.
 
 Any statement that indicates data is available on request from the authors will need to be approved by Editorial prior to publication. Cases where this is acceptable include exceptionally large datasets that cannot be supported by existing repositories and patient data that cannot be anonymised.
 
@@ -99,7 +99,7 @@ If it is not possible to derive the URL from the information provided \(e.g. the
 
 It is standard practice at many journals to allow authors to make their data available only 'on request', meaning that a reader must contact the corresponding author to receive the data underlying an article. To ensure openness, eLife instead encourages authors to deposit all their data in a dedicated repository or a more general archive such as Dryad or figshare, where it will be available to anyone who wants it.
 
-If an article is submitted with a data availability statement that states generated data is available on request, the Editorial team will ask the authors to upload it to an appropriate repository. Usually there will be no problem with this and the data statement will be updated accordingly. On occasion, however, the authors may push back. This can be because of unfamiliarity with the available options and in these cases, the Editorial team will continue to work with the authors to find an appropriate solution. However, it can also be because the dataset is simply too large \(in the range of terrabytes of data\) for any repository to accept, necessitating a custom solution such as a dedicated institutional server.
+If an article is submitted with a data availability statement that states generated data is available on request, the Editorial team will ask the authors to upload it to an appropriate repository. Usually there will be no problem with this and the data statement will be updated accordingly. On occasion, however, the authors may push back. This can be because of unfamiliarity with the available options and in these cases, the Editorial team will continue to work with the authors to find an appropriate solution. However, it can also be because the dataset is simply too large \(in the range of terabytes of data\) for any repository to accept, necessitating a custom solution such as a dedicated institutional server.
 
 > The raw data that support the findings of this study are several TBs in size and are therefore available on request. A source data file for the main figures has been provided.
 
@@ -153,7 +153,7 @@ Some authors misunderstand the instructions around datasets and include citation
 
 ![](../../.gitbook/assets/screen-shot-2020-04-28-at-14.47.58.png)
 
-Provided an article is also mentioned in the main reference list and cited in the text, the data entry should be removed. If the reference is not in the main reference list, the author should be asked to move it there:
+Provided an article is also mentioned in the main reference list and cited in the text, the data entry should be removed. If the reference is not in the main reference list, the author should be asked to move it there with the following query:
 
 * This section is for individual datasets deposited to dedicated repositories only. Citations of previous journal publications should be placed in the main reference list. Please indicate where in the article text this reference should be cited.
 
@@ -266,8 +266,7 @@ However, if the main-text statement contains additional information not captured
 
 For example, in the following case, the Data availability statement was:
 
-> Data have been deposited on GEO under the accession number GSE140919. A source data file has  
-> been provided.
+> Data have been deposited on GEO under the accession number GSE140919. A source data file has been provided.
 
 But an in-text statement mentioned additional data submitted to dbGAP:
 
