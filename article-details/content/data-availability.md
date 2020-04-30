@@ -1056,13 +1056,13 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Error**: _One and only one Data availability section \(sec\[@sec-type="data-availability"\]\) must be present \(as a child of back\) for 'XXXXXX'._
 
-**Action**: This error will fire if there is no `<sec sec-type="data-availability">` present in the `<back>` element for research content, or if there is more than one section of this type present. The section will need to be added in, or the extra sections will need to be removed.
+**Action**: This error will fire for articles younger than 31 May 2018 that have no `<sec sec-type="data-availability">` present in the `<back>` element for research content, or if there is more than one section of this type present. The section will need to be added in, or the extra sections will need to be removed.
 
 #### back-test-10
 
 **Warning**: _One and only one Data availability section \(sec\[@sec-type="data-availability"\]\) should be present \(as a child of back\) for 'XXXXXX'. Is this a new version which was published first without one? If not, then it certainly needs adding._
 
-**Action**: This warning will fire if there is no `<sec sec-type="data-availability">` present in the `<back>` element for research content, or if there is more than one section of this type present. Extra sections will need to be removed but if this is a new version of a very old article, no data availability section is permitted.
+**Action**: This warning will fire for articles older than 31 May 2018 that have no  `<sec sec-type="data-availability">` present in the `<back>` element for research content, or if there is more than one section of this type present. Extra sections will need to be removed but if this is a new version of a very old article, no data availability section is permitted.
 
 #### data-p-presence
 
