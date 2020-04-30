@@ -65,7 +65,7 @@ Each of these fields will need to be completed for the dataset to pass schematro
 * **pub-id-type**: The type of identifier present. Chose from: accession, archive, doi. This cannot be left as 'other'. Guidance on which databases take which value for this field can be found [here](data-availability.md#database-examples).
 * **assigning-authority**: The organisation that assigned the identifier. Often the organisation that hosts/maintains the database. This can be set to 'other' if multiple organisations are involved or the authority is not on the list of allowed values. The values for common databases can be found [here](data-availability.md#database-examples).
 
-Once all the fields are completed, the dataset can be saved and it will appear in the relevant section. The editor is the same for generated and previously published datasets.
+Once all the fields are completed, the dataset can be saved and it will appear in the relevant section. The form is the same for generated and previously published datasets.
 
 ### Incomplete datasets
 
