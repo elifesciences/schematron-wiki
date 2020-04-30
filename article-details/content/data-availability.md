@@ -209,6 +209,8 @@ If it is not clear how to update citations of figures and files to use their fin
 
 ### Database examples
 
+The following is a list of commonly encountered databases and the values for pub-id-type and assigning-authority that should be entered for their datasets. Datasets from databases not on this list should us 'other' as the assigning-authority.
+
 | Database | Synonyms | pub-id-type | assigning-authority | URL Examples | DOI Examples |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Apollo - University of Cambridge Repository | Apollo, University of Cambridge Repository | doi | University of Cambridge | [https://www.repository.cam.ac.uk/handle/1810/260862](https://www.repository.cam.ac.uk/handle/1810/260862) | [https://doi.org/10.17863/CAM.6018](https://doi.org/10.17863/CAM.6018) |
