@@ -756,7 +756,7 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: Data reference with the title 'XXXXXX' has a doi starting with '10.7303/syn' but the database name is not 'Synapse' - XXXXXX.
 
-**Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
+**Action**: This warning indicates that the database name for a dataset is not the one expected based on the DOI provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the DOI provided and if it does not correspond to the warning message, the Production team will need to investigate further.
 
 XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
