@@ -107,7 +107,7 @@ Another reason for not making the data publicly available is when it contains id
 
 > As participants did not give consent for their functional MRI data to be released publicly within the General Data Protection Regulation 2016/679 of the EU, these data can be made available on request to the corresponding author.
 
-In both these cases, 'on request' data is permitted with the approval of the editors handling the article. This approval will be indicated in the Production Comments if it has been received prior to export from the submission system; if approval is outstanding, this should also be indicated in these comments.
+In both these cases, 'on request' data is permitted with the approval of the editors. If the editors gave their approval before the article was exported from the submission system, this will be indicated in the Production Comments. If they have yet to do this, this should also be indicated in these comments.
 
 ![](../../.gitbook/assets/screen-shot-2020-04-27-at-15.36.08.png)
 
@@ -282,7 +282,7 @@ while the in-text equivalent read
 
 > Representative segmented neurons for all presented neuron types will be available at Virtual Fly Brain \([https://www.virtualflybrain.org](https://www.virtualflybrain.org/)\).
 
-An author query was left requesting further details and once these were provided, the main-text statement was removed and the text was combined with the Data availability statement:
+Production added an author query requesting further details and once these were provided, the main-text statement was removed and the text was combined with the Data availability statement:
 
 > All data generated or analyzed during this study are included in the manuscript and supporting files. Representative segmented neurons for all presented neuron types are available at Virtual Fly Brain \([http://virtualflybrain.org/data/Lee\_Lineage2020](http://virtualflybrain.org/data/Lee_Lineage2020)\).
 
