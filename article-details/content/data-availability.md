@@ -266,7 +266,7 @@ In cases where the main-text data statement and the Data availability statement 
 
 However, if the main-text statement contains additional information not captured in the Data availability statement, it will be necessary for the Production team to contact the Editorial team \(who may already be working on this issue\) or query the authors in order to clarify what the final Data availability statement should read.
 
-For example, in the following case, the Data availability statement was:
+For example, in the following case, the Data availability statement read:
 
 > Data have been deposited on GEO under the accession number GSE140919. A source data file has been provided.
 
