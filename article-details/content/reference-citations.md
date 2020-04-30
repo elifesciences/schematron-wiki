@@ -59,7 +59,7 @@ should be changed to
 
 > "\(**Figure 1**; **Harrison et al, 2020**; **Albert and Smith, 1998**\)”.
 
-Please note that this is distinct from mentions of figures in other articles.
+Please note that this is distinct from mentions of figures in other articles. These will be cited as e.g. "\(see Figure 1 in **Smith et al., 2009**\)".
 
 ### Citations that do not require brackets
 
