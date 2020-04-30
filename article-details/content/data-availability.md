@@ -412,7 +412,7 @@ Alternatively, if the URL and title provided for this dataset indicate that the 
 
 **Action**: This error indicates that a dataset's URL matches that of another dataset in this section. Check to find out which datasets are duplicates and see if the rest of the details match as well. If they do, all but one of the identical datasets should be deleted. If the title or identifier do not match when the URLs do, check to see if the URL should be updated to match the identifier.
 
-For example, if the URLS for two datasets are both [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351), but the identifiers are GSE135351 and GSE143881, the dataset for the second identifier should have the URL [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881).
+For example, if the URLs for two datasets are both [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351), but the identifiers are GSE135351 and GSE143881, the dataset for the second identifier should have the URL [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881).
 
 #### das-elem-cit-4
 
@@ -420,7 +420,7 @@ For example, if the URLS for two datasets are both [https://www.ncbi.nlm.nih.gov
 
 **Action**: This warning indicates that a dataset's identifier matches that of another dataset in this section. Check to find out which datasets are duplicates and see if the rest of the details match as well. If they do, all but one of the identical datasets should be deleted. If the title or URL do not match when the identifiers do, check to see if the identifier should be updated to match the URL.
 
-For example, if the indentifiers for two datasets are both GSE135351, but the URLs are [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351) and [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881), the dataset for the second URL should have the identifier GSE143881.
+For example, if the identifiers for two datasets are both GSE135351, but the URLs are [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351) and [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881), the dataset for the second URL should have the identifier GSE143881.
 
 #### das-pub-id-1
 
