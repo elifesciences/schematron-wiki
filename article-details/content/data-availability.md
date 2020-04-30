@@ -137,7 +137,7 @@ If they have provided the database name and identifier or a URL, as in the above
 
 ![](../../.gitbook/assets/screen-shot-2020-04-27-at-15.51.17.png)
 
-If it is not possible to add the dataset\(s\) based on the information provided, either because it is incomplete , the data is not yet public or the dataset landing page does not provide all the required details, please query the author:
+If it is not possible to add the dataset\(s\) based on the information provided, either because it is incomplete, the data is not yet public or the dataset landing page does not provide all the required details, please query the author:
 
 * Please provide the full details for the mentioned dataset\(s\) \(authors, year, title, database, identifier, direct URL\) and ensure that the data is publicly available.
 
@@ -258,7 +258,7 @@ The following is a list of commonly encountered databases and the values for pub
 
 **Action**: This warning indicates that there is a section within the main body of an article that has the title 'Data availability' or a common variation of this \(e.g. 'Data statement', 'Data and code availability', 'Data accessibility' etc\). This can mean that the authors have included a copy of the statement they entered on the submission system.
 
-If the main-text data statement is identical to the one entered in the Data availability section and does not contain any reference citations, it should be deleted entirely. If it is identical and any references cited are also cited elsewhere in the main text, it can also be deleted.
+If the main-text data statement is identical to the one entered in the Data availability section and does not contain any reference citations, it should be deleted entirely. If it is identical and any references cited are also cited elsewhere in the main text, it should also be deleted.
 
 If the statement in the main text contains reference citations that are not cited elsewhere, it must be retained to preserve these citations \(live citations cannot currently be included in the Data availability statement\).
 
@@ -312,7 +312,7 @@ Production added an author query requesting further details and once these were 
 
 #### final-das-elem-person-1
 
-**Error**: _The reference in position XXXXXX of the data availability section does not have any authors \(person-group\[@person-group-type='author'\]\). Please ensure to add them in._
+**Error**: _The reference in position XX of the data availability section does not have any authors \(person-group\[@person-group-type='author'\]\). Please ensure to add them in._
 
 **Action**: At the post-author stage, this error indicates a dataset without any authors. The author should be asked by email to provide the missing details if they cannot be found using the other dataset information. This error fires if there are no names within a `<person-group>` element.
 
