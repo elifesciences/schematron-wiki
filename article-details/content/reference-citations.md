@@ -65,51 +65,51 @@ Please note that this is distinct from mentions of figures in other articles. Th
 
 Authors will sometimes use a name/year citation as a part of a sentence. For example:
 
-"In consistent with our results, **Shin et al., 2014** also found that Akt activity is not affected by Gab1 deletion in SCs."
+> "In consistent with our results, **Shin et al., 2014** also found that Akt activity is not affected by Gab1 deletion in SCs."
 
 In these cases, no parentheses are required around the citation. If parentheses are provided for these cases, they should be removed. So
 
-"\(**Shin et al., 2014**\) also found that . . ."
+> "\(**Shin et al., 2014**\) also found that . . ."
 
 would need to be changed to
 
-"**Shin et al., 2014** also found that . . ."
+> "**Shin et al., 2014** also found that . . ."
 
 Similarly, if a sentence refers to something in a particular reference, parentheses are not required. Small grammatical changes may be necessary in such cases. The following:
 
-“Peptide arrays were purchased from the MIT Biopolymers Laboratory as described previously in \(**Karagöz et al., 2011**; **Gardner and Walter, 2017**\).”
+> “Peptide arrays were purchased from the MIT Biopolymers Laboratory as described previously in \(**Karagöz et al., 2011**; **Gardner and Walter, 2017**\).”
 
 should be changed to
 
-“Peptide arrays were purchased from the MIT Biopolymers Laboratory as described previously in **Karagöz et al., 2011** and **Gardner and Walter, 2017**.”
+> “Peptide arrays were purchased from the MIT Biopolymers Laboratory as described previously in **Karagöz et al., 2011** and **Gardner and Walter, 2017**.”
 
 ### Citations close to mentions of author names
 
 Occasionally, the authors of a cited publication may be referred to by name in the same sentence as a parenthetical citation. If the citation appears in parentheses immediately after the author names, it may be appropriate to replace the author names with a non-parenthetical citation and delete the parenthetical one. So:
 
-"Murakoshi et al. \(**Murakoshi et al., 2004**\) used a single molecule fluorescence energy transfer \(FRET\) technique to observe single molecule activation of RAS molecules in the plasma membrane of cells."
+> "Murakoshi et al. \(**Murakoshi et al., 2004**\) used a single molecule fluorescence energy transfer \(FRET\) technique to observe single molecule activation of RAS molecules in the plasma membrane of cells."
 
 could be changed to
 
-"**Murakoshi et al., 2004** used a single molecule fluorescence energy transfer \(FRET\) technique to observe single molecule activation of RAS molecules in the plasma membrane of cells."
+> "**Murakoshi et al., 2004** used a single molecule fluorescence energy transfer \(FRET\) technique to observe single molecule activation of RAS molecules in the plasma membrane of cells."
 
 However, if the citation is at the end of the sentence, or more than one publication is cited after the author name\(s\), this would not an appropriate change. This, for example, should be left as it stands:
 
-"Pearce et al. designed a framework based on variable-order Markov models that learns statistics describing the temporal sequences in melodic sequences at various time-scales \(IDyOM; **Pearce, 2005**\)."
+> "Pearce et al. designed a framework based on variable-order Markov models that learns statistics describing the temporal sequences in melodic sequences at various time-scales \(IDyOM; **Pearce, 2005**\)."
 
 Please note that in some cases, the author of the reference will be mentioned in the context of a scientific term or method. In these cases, it is absolutely fine to leave the reference in brackets, as in the following:
 
-". . . we used the Lilliefors test \(**Lilliefors, 1967**\) to assure that in most of the cases . . ."
+> ". . . we used the Lilliefors test \(**Lilliefors, 1967**\) to assure that in most of the cases . . ."
 
 ### Citations that have not been converted properly
 
 If the authors have provided the citations in their submitted file using another reference style \(e.g. numbered references in superscript or brackets\), a conversion will be run to change this to eLife style. For example,
 
-"Förster resonance energy transfer \(smFRET\) or colocalization single-molecule spectroscopy \(CoSMoS\) can be dramatically extended with recently developed photostable dyes \[**3,4**\]."
+> "Förster resonance energy transfer \(smFRET\) or colocalization single-molecule spectroscopy \(CoSMoS\) can be dramatically extended with recently developed photostable dyes \[**3,4**\]."
 
 will be converted to
 
-"Förster resonance energy transfer \(smFRET\) or colocalization single-molecule spectroscopy \(CoSMoS\) can be dramatically extended with recently developed photostable dyes \(**Grimm et al., 2015**; **Altman et al., 2012**\)."
+> "Förster resonance energy transfer \(smFRET\) or colocalization single-molecule spectroscopy \(CoSMoS\) can be dramatically extended with recently developed photostable dyes \(**Grimm et al., 2015**; **Altman et al., 2012**\)."
 
 Most of the time this process is successful. Sometimes, however, reference citations will not be converted correctly, leaving instances of superscript or bracketed numbers where there should be a name/year citation. These should be replaced with the corresponding citations in eLife style.
 
@@ -117,15 +117,15 @@ Please be aware of this issue when dealing with uncited references: the lack of 
 
 For example, in the following text, the only bracketed number the author intended as a reference is '\(51\)'. The rest are numerical ranges.
 
-". . . in a shallow surface groove formed by a short helix \(476-485\), two 422 beta strands \(51-63\), and two short loops \(355-360, 379-380\) \(**51**\)."
+> ". . . in a shallow surface groove formed by a short helix \(476-485\), two 422 beta strands \(51-63\), and two short loops \(355-360, 379-380\) \(**51**\)."
 
 Unfortunately, the range "51-63" was interpreted as a range of citations and '\(51\)' failed to convert, resulting in the following:
 
-". . . in a shallow surface groove formed by a short helix \(476-485\), two 422 beta strands \(**Johnson and Kollman, 2020**; **Farber and Lolley, 1974**; **Salceda et al., 1982**; **Duong-Ly et al., 2018b**; **Wang et al., 2017**; **Wisniewski et al., 2009**; **Perkins et al., 1999**; **López-Begines et al., 2018**; **Alonso-García et al., 2009**; **Thomas et al., 2012**; **Di Pierro et al., 1995**; **Fan et al., 2019**; **Hoyo et al., 2014**\), and two short loops \(355-360, 379-380\) \(51\)."
+> ". . . in a shallow surface groove formed by a short helix \(476-485\), two 422 beta strands \(**Johnson and Kollman, 2020**; **Farber and Lolley, 1974**; **Salceda et al., 1982**; **Duong-Ly et al., 2018b**; **Wang et al., 2017**; **Wisniewski et al., 2009**; **Perkins et al., 1999**; **López-Begines et al., 2018**; **Alonso-García et al., 2009**; **Thomas et al., 2012**; **Di Pierro et al., 1995**; **Fan et al., 2019**; **Hoyo et al., 2014**\), and two short loops \(355-360, 379-380\) \(51\)."
 
 The correct conversion should have been:
 
-". . . in a shallow surface groove formed by a short helix \(476-485\), two 422 beta strands \(51-63\), and two short loops \(355-360, 379-380\) \(**Johnson and Kollman, 2020**\)."
+> ". . . in a shallow surface groove formed by a short helix \(476-485\), two 422 beta strands \(51-63\), and two short loops \(355-360, 379-380\) \(**Johnson and Kollman, 2020**\)."
 
 There are currently no schematron tests to help in either of these scenarios, meaning that catching the errors is dependant on the user being able to identify them. This may be done by spotting references interrupting a sequence of numbers, as in the above example \(only numbers that correspond to an article's reference list will be converted in error\) or by tracing square brackets to find unconverted citations, as in the previous example. However, it is understood that this is a difficult thing to detect and that it may only be discovered by the authors during proofing.
 
@@ -220,8 +220,6 @@ XXXXXX in this message will be the current, incorrect citation text.
 **Error**: _citation is followed by '\);', which in turn is followed by another link. This must be incorrect \(the bracket should be removed\) - 'XXXXXX'._
 
 **Action**: This error will fire when a reference citation is followed by a closing parenthesis and then by a semi-colon and another citation, e.g. ". . . **Smith et al., 2010**\); **Jones et al., 2019**\) . . ." This should be corrected to remove the closing bracket after the first citation, leaving only the semi-colon as a separator: ". . . **Smith et al., 2010**; **Jones et al., 2019**\) . . ."
-
-
 
 XXXXXX in this message will indicate the text where this error is present.
 
