@@ -40,11 +40,11 @@ In this section only, references that would result in identical citation details
 
 Each dataset listed must be publicly available at the point of publication. This can be checked by accessing the provided URL. See [below](data-availability.md#data-that-is-not-yet-public) for actions in cases where data is not yet available.
 
-Under no circumstances should journal articles be listed as generated datasets - these should be given in the main reference list only.
+Under no circumstances should journal articles be listed as datasets - these should be given in the main reference list only.
 
 ### Previously published datasets
 
-The same rules apply as for generated datasets.
+The same rules apply as for generated datasets, though it is far less likely that the data will not be publicly available.
 
 ## Examples
 
