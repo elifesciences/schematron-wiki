@@ -187,7 +187,7 @@ In all other cases, please ask the author to arrange the release of the data:
 
 In some cases, the author may provide a review link for the data rather than the final link. This is to allow the reviewers to access the data before final public release. Such links can be identified by 'review' or 'reviewer' in the URL. For example, [https://dataview.ncbi.nlm.nih.gov/object/PRJNA475219?reviewer=f1ccdfce21ljl8v6q2v8mctid7](https://dataview.ncbi.nlm.nih.gov/object/PRJNA475219?reviewer=f1ccdfce21ljl8v6q2v8mctid7) is the review link for the dataset [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA475219](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA475219). Any link like this will need to be replaced with the final dataset URL before publication. If it is not possible to identify the final link based on the reviewer link or the given identifier, the author should be queried:
 
-* Please provide the final URL for this dataset.
+* Please provide the final URL for this dataset and arrange for it to be released.
 
 Note that reviewer links often work only for a limited period, so you may encounter messages such as the following. Helpfully, these will sometimes provide the final URL.
 
@@ -1094,7 +1094,7 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Action**: If a `<pub-id>` element does not contain a DOI, the dataset URL should appear as an attribute on this element. Check that a URL has been provided and ask the author for it if it is missing:
 
-* Please provide the final URL for this dataset.
+* Please provide the final URL for this dataset and arrange for it to be released.
 
 #### das-elem-citation-child-1
 
