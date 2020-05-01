@@ -790,7 +790,9 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Warning**: _Data reference with the title 'XXXXXX' has the database name XXXXXX, but no doi starting with '10.18112/openneuro' or 'openneuro.org/datasets' type link, which is incorrect._
 
-**Action**: 
+**Action**: This warning fires when a dataset has the database name OpenNeuro but it does not have either a DOI or a URL beginning with the expected string. See [above](data-availability.md#database-examples) for examples of DOIs/URLs for commonly encountered databases. Either a DOI or a URL with an accession number identifier is allowed an OpenNeuro dataset. Ensure that one or the other is entered in the correct field\(s\). If this information cannot be located, query the author to provide the missing details:
+
+* Please provide the final DOI for this dataset.
 
 #### data-openneuro-test-3
 
