@@ -118,17 +118,17 @@ Any references to tools or packages that were used for analysing data or generat
 
 **Warning**: _XXXXXX is a software ref with a host \(XXXXXX\) known to register dois starting with '10.5281/zenodo'. Should it have a link in the format 'http://doi.org/10.5281/zenodo...'?_
 
-**Action:** This warning will fire if a software reference has a source
+**Action:** If a software reference has a source containing 'Zenodo', there needs to be a link that contains '10.5281/zenodo'. Make sure the link is in the correct format. 
 
 **software-doi-test-2**
 
 **Warning**: _XXXXXX is a software ref with a host \(XXXXXX\)known to register dois starting with '10.6084/m9.figshare'. Should it have a link in the format 'http://doi.org/10.6084/m9.figshare...'?_
 
-**Action:**
+**Action:** If a software reference has a source containing 'Figshare', there needs to be a link that contains '10.6084/m9.figshare'. Make sure the link is in the correct format. 
 
 ### **XML structure warnings**
 
-**‌**These warnings relate to the XML structure of the funding section. For more information about what the XML should look like, see below.
+**‌**These warnings relate to the XML structure of software references. For examples of what the XML should look like, [see below](software-references.md#xml-structure).
 
 #### **err-elem-cit-software-2-1**
 
@@ -138,7 +138,7 @@ Any references to tools or packages that were used for analysing data or generat
 
 #### **err-elem-cit-software-2-2**
 
-**Error:** _Each &lt;element-citation&gt; of type 'software' must contain one &lt;person-group&gt; with the attribute person-group-type set to 'author'or 'curator'. Reference 'XXXXXX' has a &lt;person-group&gt; type of 'XXXXXX'._
+**Error:** _Each &lt;element-citation&gt; of type 'software' must contain one &lt;person-group&gt; with the attribute person-group-type set to 'author' or 'curator'. Reference 'XXXXXX' has a &lt;person-group&gt; type of 'XXXXXX'._
 
 **Action:**
 
