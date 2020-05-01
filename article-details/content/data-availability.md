@@ -1453,13 +1453,13 @@ The current data availability tagging was introduced at the beginning of June 20
 
 **Error**: _Every reference in the data availability section must have an @specific-use. The reference in position XX does not._
 
-**Action**: Each entry for a dataset in this section should be an `<element-citation>` with the `specific-use` attribute \(set to either `specific-use="isSupplementedBy"` for generated datasets or `specific-use="references"` for previously published datasets\). This warning fires if the `specific-use` attribute is missing. This attribute will need to be added in.
+**Action**: Each entry for a dataset in this section should be an `<element-citation>` with the `specific-use` attribute \(set to either `specific-use="isSupplementedBy"` for generated datasets or `specific-use="references"` for previously published datasets\). This warning fires if the `specific-use` attribute is missing, likely due to an XML generation error. This attribute will need to be added in. Technical support will be required to fix this issue.
 
 #### das-elem-cit-2
 
 **Error**: _The reference in position XX of the data availability section has a @specific-use value of XXXXXX, which is not allowed. It must be 'isSupplementedBy' or 'references'._
 
-**Action**: Each entry for a dataset in this section should be an `<element-citation>` with the `specific-use` attribute \(set to either `specific-use="isSupplementedBy"` for generated datasets or `specific-use="references"` for previously published datasets\). This warning will fire if the `specific-use` attribute has another value. The value of the attribute will need to be corrected to one of the allowed values.
+**Action**: Each entry for a dataset in this section should be an `<element-citation>` with the `specific-use` attribute \(set to either `specific-use="isSupplementedBy"` for generated datasets or `specific-use="references"` for previously published datasets\). This warning will fire if the `specific-use` attribute has another value. The value of the attribute will need to be corrected to one of the allowed values. Technical support will be required to fix this issue.
 
 #### das-pub-id-2
 
@@ -1473,7 +1473,7 @@ The current data availability tagging was introduced at the beginning of June 20
 
 **Error**: _Every year in a reference must have an @iso-8601-date attribute equal to the numbers in the year. Reference with id XX has a year 'XXXX' but an @iso-8601-date 'XXXX'._
 
-**Action**: For each `<year>` element, an attribute `iso-8601-date` must be present with a value equal to the contents of the year, e.g. `<year iso-8601-date="2013">2013</year>`. This error will occur if the value of the element and its attribute do not match. Try re-entering the year and contact support if this error persists.
+**Action**: For each `<year>` element, an attribute `iso-8601-date` must be present with a value equal to the contents of the year, e.g. `<year iso-8601-date="2013">2013</year>`. This error will occur if the value of the element and its attribute do not match. Try re-entering the year and contact technical support if this error persists.
 
 ## XML structure
 
