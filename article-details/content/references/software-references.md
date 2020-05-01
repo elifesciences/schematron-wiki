@@ -26,8 +26,6 @@ As a minimum, the following information needs to be added for software reference
 * Year 
 * Software title
 * Software name 
-* Software version
-* Website 
 
 To add a GitHub reference after [forking code](../../../toolkit/github/forking-git-based-repos.md) for example, in Kriya, click on 'Add reference' and select 'Software.' 
 
@@ -56,13 +54,13 @@ The default fields in Kriya will need to be altered to include the following inf
 
 **Error**: _Journal ref 'XXXXXX' has a source title 'XXXXXX' which must be incorrect. It should be a data or software type reference._
 
-**Action:**
+**Action:** This error will fire if a Zenodo link has been entered as a journal reference. The ‘XXXXXX’ in this message will refer to the reference in question and its title respectively. Make sure the reference is changed to a software instead of a journal reference. 
 
 #### **github-web-test**
 
 **Warning**: _web ref 'XXXXXX' has a link which contains 'github', therefore it should almost certainly be captured as a software ref \(unless it's a blog post by GitHub\)._
 
-**Action:**
+**Action:** This warning will fire if a website reference contains the word ‘github’. If the link is to a repository on GitHub, this reference needs to be changed from a website to a software reference. If the link is to a blog post by GitHub, it can be kept as a website reference.
 
 #### **R-test-1**
 
@@ -104,7 +102,7 @@ The default fields in Kriya will need to be altered to include the following inf
 
 **Error**: _software citation contains the replacement character '�' which is unallowed - XXXXXX_
 
-**Action:**
+**Action:** This error will fire if a software citation contains the character ‘�’. This usually indicates that processing has gone wrong, or it has been used to replace an unknown, unrecognized or unrepresentable character. Make sure the fields have all been entered correctly and update the citation. 
 
 **software-doi-test-1**
 
@@ -151,4 +149,60 @@ The default fields in Kriya will need to be altered to include the following inf
 **Error**: _An &lt;data-title&gt; element in a reference may contain characters and &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' does not meet this requirement._
 
 **Action:** The data title of a software reference can only have text that is italicised, superscript or subscript. This error will appear if the data title has text that is formatted differently to these. To address this, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks.
+
+## XML Structure
+
+Zenodo
+
+```markup
+<back>
+    . . .
+    <article-meta>
+        . . . 
+        <element-citation publication-type="software">
+        <person-group person-group-type="author">
+           <name>
+             <surname>Neymotin</surname> 
+             <given-names>SA</given-names>
+           </name>
+           <name>
+             <surname>Daniels</surname> 
+             <given-names>DS</given-names>
+           </name>
+           <name>
+             <surname>Peled</surname> 
+             <given-names>N</given-names>
+           </name>
+           <name>
+             <surname>McDougal</surname> 
+             <given-names>RA</given-names>
+           </name>
+           <name>
+             <surname>Carnevale</surname> 
+             <given-names>NT</given-names>
+           </name>
+           <name>
+             <surname>Moore</surname> 
+             <given-names>CI</given-names>
+           </name>
+           <name>
+             <surname>Dura-Bernal</surname> 
+             <given-names>S</given-names>
+           </name>
+           <name>
+             <surname>Hines</surname> 
+             <given-names>M</given-names>
+           </name>
+           <name>
+             <surname>Jones</surname> <given-names>S</given-names>
+           </name>
+ </person-group>
+ <year iso-8601-date="2018">2018</year>
+ <data-title>Human neocortical neurosolver</data-title>
+ <publisher-name>Zenodo</publisher-name>
+ <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.5281/zenodo.1446517">http://doi.org/10.5281/zenodo.1446517</ext-link>
+</element-citation>
+
+    <article-meta>
+```
 
