@@ -627,7 +627,7 @@ For example, in the following case, the data availability statement read:
 
 But an in-text statement mentioned additional data submitted to dbGAP:
 
-> The data for this study have been deposited in the database dbGAP. The sequenceing data can be found as GenBank GSE140919. Data can also be found in the included source file.
+> The data for this study have been deposited in the database dbGAP. The sequencing data can be found as GenBank GSE140919. Data can also be found in the included source file.
 
 Since the authors did not provide details for their dbGAP dataset, the authors were asked to provide the missing information but they responded that they had not, in fact, deposited data to dbGAP. The in-text statement was then deleted and the data availability statement was retained as originally provided.
 
@@ -639,7 +639,7 @@ while the in-text equivalent read
 
 > Representative segmented neurons for all presented neuron types will be available at Virtual Fly Brain \([https://www.virtualflybrain.org](https://www.virtualflybrain.org/)\).
 
-The following query was used to ask the auhtors for the finalised details:
+The following query was used to ask the authors for the finalised details:
 
 * Please provide the full details for the mentioned dataset\(s\) \(authors, year, title, database, identifier, direct URL\) and ensure that the data is publicly available.
 
