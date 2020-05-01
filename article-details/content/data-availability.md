@@ -216,9 +216,9 @@ If it is not clear how to update citations of figures and files to use their fin
 
 ### Database examples
 
-The following is a list of commonly encountered databases and the values for pub-id-type and assigning-authority that should be entered for their datasets. Datasets from databases not on this list should us 'other' as the assigning-authority and take whichever pub-id-type is appropriate to the identifier included \('doi' for a database with a URL starting 'https://doi.org', 'accession' otherwise\).
+The following is a list of commonly encountered databases and the values for pub-id-type and assigning-authority that should be entered for their datasets. Datasets from databases not on this list should use 'other' as the assigning-authority and take whichever pub-id-type is appropriate to the identifier included \('doi' for a database with a URL starting 'https://doi.org', 'accession' otherwise\).
 
-URL and DOI link examples are included for illustration purposes. In many cases, these can be modified using a different identifier to produce missing links. If a URL is provided for a databse where the pub-id-type should be 'doi', it should be corrected to the equivalent DOI link. This can usually be found on the dataset landing page e.g.
+URL and DOI link examples are included for illustration purposes. In many cases, these can be modified using a different identifier to produce missing links. If a URL is provided for a database where the pub-id-type should be 'doi', it should be corrected to the equivalent DOI link. This can usually be found on the dataset landing page e.g.
 
 ![](../../.gitbook/assets/screen-shot-2020-05-01-at-15.13.39.png)
 
@@ -549,9 +549,7 @@ Please note that there are a couple of databases for which both DOIs and URLs ar
       </td>
     </tr>
   </tbody>
-</table>
-
-## Schematron warnings
+</table>## Schematron warnings
 
 ### Content warnings
 

@@ -42,6 +42,10 @@ The default fields in Kriya will need to be altered to include the following inf
 
 ![Details required for a GitHub repository reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.11.15.png)
 
+## **When to add software references**
+
+Anything authors have mentioned in their main text or key resources table as a tool or package that was used for analysing data or generating figures should be cited as a software reference. 
+
 ## **Schematron warnings**
 
 ‌The following tests are run on software references. X or XXXXXX refers to quoted text which will change depending on the article.
@@ -152,6 +156,77 @@ The default fields in Kriya will need to be altered to include the following inf
 
 ## XML Structure
 
+Here are some examples of how the xml will look for various software references.
+
+R software
+
+```markup
+<back>
+    . . .
+    <article-meta>
+        . . . 
+      <element-citation publication-type="software">
+         <person-group person-group-type="author">
+           <collab>R Development Core Team</collab>
+         </person-group>
+         <year iso-8601-date="2014">2014</year>
+         <data-title>R: A Language and Environment for Statistical Computing</data-title>
+         <version designator="3.1.0">3.1.0</version>
+         <publisher-loc>Austria</publisher-loc>
+         <publisher-name>R Foundation for Statistical Computing</publisher-name>
+         <ext-link ext-link-type="uri" xlink:href="http://www.R-project.org">http://www.R-project.org</ext-link>
+      </element-citation>
+        . . .
+    <article-meta>
+```
+
+Github
+
+```markup
+<back>
+    . . .
+    <article-meta>
+        . . . 
+      <element-citation publication-type="software">
+         <person-group person-group-type="author">
+         <name>
+           <surname>Aguiar</surname> 
+           <given-names>P</given-names>
+         </name>
+       </person-group>
+       <year iso-8601-date="2020">2020</year>
+       <data-title>Calculate_APs_velocities_in_MEAs</data-title>
+       <version designator="d135ae9">d135ae9</version>
+       <publisher-name>Github</publisher-name>
+       <ext-link ext-link-type="uri" xlink:href="https://github.com/paulodecastroaguiar/Calculate_APs_velocities_in_MEAs">https://github.com/paulodecastroaguiar/Calculate_APs_velocities_in_MEAs</ext-link>
+      </element-citation>
+        . . .
+    <article-meta>
+```
+
+Figshare
+
+```markup
+<back>
+    . . .
+    <article-meta>
+        . . . 
+      <element-citation  publication-type="software">
+       <person-group person-group-type="author">
+         <name>
+           <surname>Zandbelt</surname> 
+           <given-names>B</given-names>
+         </name>
+       </person-group>
+       <year iso-8601-date="2017">2017</year>
+       <data-title>Slice display</data-title>
+       <publisher-name>Figshare</publisher-name>
+       <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.6084/m9.figshare.4742866.v1">http://doi.org/10.6084/m9.figshare.4742866.v1</ext-link>
+      </element-citation>
+        . . .
+    <article-meta>
+```
+
 Zenodo
 
 ```markup
@@ -159,7 +234,7 @@ Zenodo
     . . .
     <article-meta>
         . . . 
-        <element-citation publication-type="software">
+      <element-citation publication-type="software">
         <person-group person-group-type="author">
            <name>
              <surname>Neymotin</surname> 
@@ -194,14 +269,15 @@ Zenodo
              <given-names>M</given-names>
            </name>
            <name>
-             <surname>Jones</surname> <given-names>S</given-names>
+             <surname>Jones</surname> 
+             <given-names>S</given-names>
            </name>
- </person-group>
- <year iso-8601-date="2018">2018</year>
- <data-title>Human neocortical neurosolver</data-title>
- <publisher-name>Zenodo</publisher-name>
- <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.5281/zenodo.1446517">http://doi.org/10.5281/zenodo.1446517</ext-link>
-</element-citation>
+       </person-group>
+       <year iso-8601-date="2018">2018</year>
+       <data-title>Human neocortical neurosolver</data-title>
+       <publisher-name>Zenodo</publisher-name>
+       <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.5281/zenodo.1446517">http://doi.org/10.5281/zenodo.1446517</ext-link>
+     </element-citation>
 
     <article-meta>
 ```
