@@ -240,9 +240,9 @@ The following tests are run on impact statements.
 
 #### custom-meta-child-test-1
 
-**Error**: _&lt;xxx&gt; is not allowed in impact statement._
+**Error**: _&lt;XXX&gt; is not allowed in impact statement._
 
-**Action**: `<xxx>` will be a disallowed XML element\(s\) currently present in the impact statement. The only XML elements allowed within the impact statement are `<italic>`, `<sup>` or `<sub>`. To address this warning, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks. For example, if the warning reads "&lt;bold&gt; is not allowed in impact statement", bold formatting is present and should be removed; similarly, "&lt;ext-link&gt; is not allowed in impact statement" indicates a hyperlink.
+**Action**: `<XXX>` will be a disallowed XML element\(s\) currently present in the impact statement. The only XML elements allowed within the impact statement are `<italic>`, `<sup>` or `<sub>`. To address this warning, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks. For example, if the warning reads "&lt;bold&gt; is not allowed in impact statement", bold formatting is present and should be removed; similarly, "&lt;ext-link&gt; is not allowed in impact statement" indicates a hyperlink.
 
 #### insight-asbtract-impact-test-1
 
