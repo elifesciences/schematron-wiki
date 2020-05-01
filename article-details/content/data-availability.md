@@ -254,13 +254,19 @@ The following is a list of commonly encountered databases and the values for pub
 
 **Warning**: _Data Availability Statement contains the word Dryad, but there is no data citation in the dataset section with a dryad assigning authority. If there is a dryad dataset present, esnure the assigning authority is dryad, otherwise please query the authors for the reference details._
 
-**Action**: 
+**Action**: This warning indicates at the pre-author stage that Dryad is mentioned in the data availability statement but no dataset entries with the assigning authority set to 'Dryad' are present. If an entry for a Dryad dataset _is_ present, make sure that the assigning authority is corrected. If no Dryad dataset is present but the data availability statement mentions a Dryad DOI, the corresponding dataset should be added under the appropraite heading \(generated for data described as coming from the current work, previously published for data described as being used by the current work\). The details for the dataset will either be available by following DOI or, in the case of an unreleased generated dataset, will be the same author list as the current article, the current year and the article title preceded by 'Data from: ".
+
+If the data availability statement does not contain the DOI, please add the following author query:
+
+* Please provide the full details for the mentioned dataset\(s\) \(authors, year, title, database, identifier, direct URL\) and ensure that the data is publicly available.
 
 #### final-das-dryad-conformity
 
 **Error**: _Data Availability Statement contains the word Dryad, but there is no data citation in the dataset section with a dryad assigning authority._
 
-**Action**:
+**Action**: This error indicates at the post-author stage that Dryad is mentioned in the data availability statement but no dataset entries with the assigning authority set to 'Dryad' are present. If an entry for a Dryad dataset _is_ present, make sure that the assigning authority is corrected. If no Dryad dataset is present but the data availability statement mentions a Dryad DOI, the corresponding dataset should be added under the appropraite heading \(generated for data described as coming from the current work, previously published for data described as being used by the current work\). The details for the dataset will either be available by following DOI or, in the case of an unreleased generated dataset, will be the same author list as the current article, the current year and the article title preceded by 'Data from: ".
+
+If the data availability statement does not contain the DOI, the author will need to be asked to provide the missing details.
 
 #### das-supplemental-conformity
 
@@ -274,7 +280,9 @@ The following is a list of commonly encountered databases and the values for pub
 
 **Warning**: _Data Availability Statement contains the phrase 'request'. Does it state data is avaialble upon request, and if so, has this been approved by editorial?_
 
-**Action**: 
+**Action**: This warning indicates that a data availability statement contains the word 'request', which likely occurs in the context of 'data available on request'. This may be acceptable if it has been approved by the editors. Alternatively, further action may need to be taken. See [above](data-availability.md#data-available-on-request) for further guidance.
+
+Please note that if 'request' is used in a context other than data, it is likely OK. For example,  'materials available on request' is fine and this warning could be ignored.
 
 #### das-doi-conformity-1
 
@@ -1088,6 +1096,12 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the URL provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
+#### das-elem-citation-child-1
+
+**Error**: _Reference in the data availability section has a &lt;XXX&gt; element in a &lt;ZZZ&gt; element which is not allowed._
+
+**Action**: &lt;XXX&gt; will be a disallowed XML element\(s\) present in &lt;ZZZ&gt;, which will be either the title \(`<data-title>`\) or database name \(`<source>`\). The only XML elements allowed within these fields are &lt;italic&gt;, &lt;sup&gt; or &lt;sub&gt;. To address this warning, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks. For example, if the warning reads "&lt;bold&gt; element in a &lt;source&gt; element", bold formatting is present in the database name and should be removed; similarly, "&lt;ext-link&gt; element in a &lt;source&gt; element" indicates a hyperlink that needs to be removed.
+
 ### XML structure warnings
 
 #### back-test-3
@@ -1137,12 +1151,6 @@ The current data availability tagging was introduced at the beginning of June 20
 **Action**: If a `<pub-id>` element does not contain a DOI, the dataset URL should appear as an attribute on this element. Check that a URL has been provided and ask the author for it if it is missing:
 
 * Please provide the final URL for this dataset and arrange for it to be released.
-
-#### das-elem-citation-child-1
-
-**Error**: _Reference in the data availability section has a &lt;XXX&gt; element in a &lt;ZZZ&gt; element which is not allowed._
-
-**Action**: &lt;XXX&gt; will be a disallowed XML element\(s\) present in &lt;ZZZ&gt;, which will be either the title \(`<data-title>`\) or database name \(`<source>`\). The only XML elements allowed within these fields are &lt;italic&gt;, &lt;sup&gt; or &lt;sub&gt;. To address this warning, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks. For example, if the warning reads "&lt;bold&gt; element in a &lt;source&gt; element", bold formatting is present in the database name and should be removed; similarly, "&lt;ext-link&gt; element in a &lt;source&gt; element" indicates a hyperlink that needs to be removed.
 
 #### das-elem-citation-year-1
 
