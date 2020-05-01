@@ -113,7 +113,7 @@ In both these cases, 'on request' data is permitted with the approval of the edi
 
 The article cannot be published until this approval is granted, but proofing may proceed in the meantime.
 
-If approval for 'on request' data has not been indicated, the Production team should contact the Editorial team to establish whether they are working on this issue already and what action needs to be taken.
+If approval for 'on request' data has not been indicated, the Production team should contact the Editorial team to establish whether they are working on this issue already and what action needs to be taken. Every so often, this issue will be overlooked during earlier checks so it is important to make sure that this has been resolved before publication.
 
 ### Data available 'on acceptance'
 
@@ -631,7 +631,7 @@ But an in-text statement mentioned additional data submitted to dbGAP:
 
 > The data for this study have been deposited in the database dbGAP. The sequenceing data can be found as GenBank GSE140919. Data can also be found in the included source file.
 
-Since the authors did not provide details for their dbGAP dataset, the Production team first contacted Editorial to check if they were working on this already. The authors were then asked to provide the missing information but they responded that they had not, in fact, deposited data to dbGAP. The in-text statement was then deleted and the data availability statement was retained as originally provided.
+Since the authors did not provide details for their dbGAP dataset, the authors were asked to provide the missing information but they responded that they had not, in fact, deposited data to dbGAP. The in-text statement was then deleted and the data availability statement was retained as originally provided.
 
 In another instance, the data availability statement was
 
