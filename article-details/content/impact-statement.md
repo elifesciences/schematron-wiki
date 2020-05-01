@@ -172,11 +172,17 @@ The following tests are run on impact statements.
 
 * Please rephrase this impact statement so that it is no more than 30 words in length.
 
+#### pre-custom-meta-test-6
+
+**Warning**: _Impact statement must end with a full stop or question mark._
+
+**Action**: Add a full-stop to the end of the impact statement.
+
 #### final-custom-meta-test-6
 
 **Error**: _Impact statement must end with a full stop or question mark._
 
-**Action**: add a full-stop to the end of the impact statement.
+**Action**: Add a full-stop to the end of the impact statement.
 
 #### custom-meta-test-7
 
