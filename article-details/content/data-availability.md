@@ -173,7 +173,7 @@ If the authors do not mention the database within their text, they will need to 
 
 * This section is for individual datasets only. Whole databases should be cited in the main text rather than listed here. Please provide the details for any specific datasets used, or indicate where in the text this database should be mentioned.
 
-Once the authors have responded, the entry for the whole database can be replaced with one or more specific datasets, or removed entirely in favour of a citation or URL link in the main text.
+Once the authors have responded, the entry for the whole database can be replaced with one or more specific datasets, or removed entirely in favour of a URL link in the main text.
 
 ### Data that is not yet public
 
@@ -244,6 +244,44 @@ The following is a list of commonly encountered databases and the values for pub
 
 ### Content warnings
 
+#### das-sentence-conformity
+
+**Error**: _The Data Availability Statement must end with a full stop._
+
+**Action**: Add a full stop to the end of the data availability statement.
+
+#### pre-das-dryad-conformity
+
+**Warning**: _Data Availability Statement contains the word Dryad, but there is no data citation in the dataset section with a dryad assigning authority. If there is a dryad dataset present, esnure the assigning authority is dryad, otherwise please query the authors for the reference details._
+
+**Action**: 
+
+#### final-das-dryad-conformity
+
+**Error**: _Data Availability Statement contains the word Dryad, but there is no data citation in the dataset section with a dryad assigning authority._
+
+**Action**:
+
+#### das-supplemental-conformity
+
+**Warning**: _Data Availability Statement contains the phrase 'supplemental figure'. This will almost certainly need updating to account for eLife's figure labelling._
+
+**Action**: Any mentions of 'supplemental figures' will need to be [updated to use the final labels](data-availability.md#references-to-files-within-the-article) e.g. Figure 1—figure supplement 1. If it is not clear how to do this, add the following author query:
+
+* Please update your data availability statement to use the final labels for all figure supplements and supplementary files mentioned.
+
+#### das-request-conformity-1
+
+**Warning**: _Data Availability Statement contains the phrase 'request'. Does it state data is avaialble upon request, and if so, has this been approved by editorial?_
+
+**Action**: 
+
+#### das-doi-conformity-1
+
+**Error**: _Data Availability Statement contains a doi, but it does not contain 'https://doi.org/'. All dois should be updated to include a full 'https://doi.org/...' type link._
+
+**Action**: If a DOI is given in the data availability statement, it should be prefixed with https://doi.org/ so that it will be rendered as a hyperlink in the final publication. For example, '10.5061/dryad.8153g' should be changed to 'https://doi.org/10.5061/dryad.8153g'
+
 #### ext-link-child-test-5
 
 **Warning**: _ext-link looks like it points to a review dryad dataset - XXXXXX. Should it be updated?_
@@ -260,13 +298,13 @@ The following is a list of commonly encountered databases and the values for pub
 
 If the main-text data statement is identical to the one entered in the Data availability section and does not contain any reference citations, it should be deleted entirely. If it is identical and any references cited are also cited elsewhere in the main text, it should also be deleted.
 
-If the statement in the main text contains reference citations that are not cited elsewhere, it must be retained to preserve these citations \(live citations cannot currently be included in the Data availability statement\).
+If the statement in the main text contains reference citations that are not cited elsewhere, it must be retained to preserve these citations \(live citations cannot currently be included in the data availability statement\).
 
-In cases where the main-text data statement and the Data availability statement do not match, there are several possible options. If the Data availability statement contains information about datasets while the main-text statement says something like "data will be submitted on acceptance", the main-text statement can be deleted.
+In cases where the main-text data statement and the data availability statement do not match, there are several possible options. If the data availability statement contains information about datasets while the main-text statement says something like "data will be submitted on acceptance", the main-text statement can be deleted.
 
-However, if the main-text statement contains additional information not captured in the Data availability statement, it will be necessary for the Production team to contact the Editorial team \(who may already be working on this issue\) or query the authors in order to clarify what the final Data availability statement should read.
+However, if the main-text statement contains additional information not captured in the data availability statement, it will be necessary for the Production team to contact the Editorial team \(who may already be working on this issue\) or query the authors in order to clarify what the final data availability statement should read.
 
-For example, in the following case, the Data availability statement read:
+For example, in the following case, the data availability statement read:
 
 > Data have been deposited on GEO under the accession number GSE140919. A source data file has been provided.
 
@@ -1056,13 +1094,13 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Error**: _One and only one Data availability section \(sec\[@sec-type="data-availability"\]\) must be present \(as a child of back\) for 'XXXXXX'._
 
-**Action**: This error will fire for articles younger than 31 May 2018 that have no data availability section`<sec sec-type="data-availability">` present in the `<back>` element for research content, or if there is more than one section of this type present. The section will need to be added in, or the extra sections will need to be removed.
+**Action**: This error will fire for articles with a publication date after 31 May 2018 that have no data availability section`<sec sec-type="data-availability">` present in the `<back>` element for research content, or if there is more than one section of this type present. The section will need to be added in, or the extra sections will need to be removed.
 
 #### back-test-10
 
 **Warning**: _One and only one Data availability section \(sec\[@sec-type="data-availability"\]\) should be present \(as a child of back\) for 'XXXXXX'. Is this a new version which was published first without one? If not, then it certainly needs adding._
 
-**Action**: This warning will fire for articles older than 31 May 2018 that have no data availability section  `<sec sec-type="data-availability">` present in the `<back>` element for research content, or if there is more than one section of this type present. Extra sections will need to be removed but if this is a new version of a very old article, no data availability section is permitted.
+**Action**: This warning will fire for articles with a publication date before 1 June 2018 that have no data availability section  `<sec sec-type="data-availability">` present in the `<back>` element for research content, or if there is more than one section of this type present. Extra sections will need to be removed but if this is a new version of a very old article, no data availability section is permitted.
 
 #### data-p-presence
 
@@ -1106,7 +1144,7 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Error**: _Every year in a reference must have an @iso-8601-date attribute equal to the numbers in the year. Reference with id XX has a year 'XXXX' but an @iso-8601-date 'XXXX'._
 
-**Action**: For each `<year>` element, an attribute `iso-8601-date` must be present with a value equal to the contents of the year, e.g. `<year iso-8601-date="2013">2013</year>`. This error will occur if the value of the element and its attribute do not match. Try reentering the year and contact support if this error persists.
+**Action**: For each `<year>` element, an attribute `iso-8601-date` must be present with a value equal to the contents of the year, e.g. `<year iso-8601-date="2013">2013</year>`. This error will occur if the value of the element and its attribute do not match. Try re-entering the year and contact support if this error persists.
 
 ## XML structure
 
