@@ -1096,11 +1096,15 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Action**: This error will fire for articles with a publication date after 31 May 2018 that have no data availability section`<sec sec-type="data-availability">` present in the `<back>` element for research content, or if there is more than one section of this type present. The section will need to be added in, or the extra sections will need to be removed.
 
+The current data availability tagging was introduced at the beginning of June 2018.
+
 #### back-test-10
 
 **Warning**: _One and only one Data availability section \(sec\[@sec-type="data-availability"\]\) should be present \(as a child of back\) for 'XXXXXX'. Is this a new version which was published first without one? If not, then it certainly needs adding._
 
 **Action**: This warning will fire for articles with a publication date before 1 June 2018 that have no data availability section  `<sec sec-type="data-availability">` present in the `<back>` element for research content, or if there is more than one section of this type present. Extra sections will need to be removed but if this is a new version of a very old article, no data availability section is permitted.
+
+The current data availability tagging was introduced at the beginning of June 2018, so new versions of articles before this date will be tagged differently.
 
 #### data-p-presence
 
@@ -1136,9 +1140,9 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 #### das-elem-citation-child-1
 
-**Error**: _Reference in the data availability section has a XXXXXX element in a XXXXXX element which is not allowed._
+**Error**: _Reference in the data availability section has a &lt;XXX&gt; element in a &lt;ZZZ&gt; element which is not allowed._
 
-**Action**: The only child elements allowed for the title \(`<data-title>`\) or database name \(`<source>`\) are formatting tags for italics, superscript and subscript. Any other formatting should be removed and any hyperlinks in these fields should be changed to plain text. XXXXXX will be the child and parent elements, respectively.
+**Action**: &lt;XXX&gt; will be a disallowed XML element\(s\) present in &lt;ZZZ&gt;, which will be either the title \(`<data-title>`\) or database name \(`<source>`\). The only XML elements allowed within these fields are &lt;italic&gt;, &lt;sup&gt; or &lt;sub&gt;. To address this warning, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks. For example, if the warning reads "&lt;bold&gt; element in a &lt;source&gt; element", bold formatting is present in the database name and should be removed; similarly, "&lt;ext-link&gt; element in a &lt;source&gt; element" indicates a hyperlink that needs to be removed.
 
 #### das-elem-citation-year-1
 
