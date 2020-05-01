@@ -175,7 +175,7 @@ XXXXXX in this message will be the text where the citation runs on with the text
 
 **Action**: This error will fire in a reference citation does not contain any numbers, e.g. it is just '**Smith et al.,**' rather than '**Smith et al., 2010**'  \( `<xref ref-type="bibr" rid="bib16">Smith et al.,</xref>`\). Correct the citation text so that both name and year are present \( `<xref ref-type="bibr" rid="bib16">Smith et al., 2010</xref>`\).
 
-XXXXXX in this message will be the current, incorrect citation text.
+XXXXXX in this message will be the current, incorrect citation text. Note that this error will not occur if the citation is simply '**2010a**'. Regardless, [ref-xref-test-19](reference-citations.md#ref-xref-test-19) should identify this as incorrect.
 
 #### ref-xref-test-5
 
@@ -183,7 +183,7 @@ XXXXXX in this message will be the current, incorrect citation text.
 
 **Action**: This error will fire in a reference citation does not contain any letters, e.g. it is just '**2010**' rather than '**Smith et al., 2010**  \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\). Correct the citation text so that both name and year are present \( `<xref ref-type="bibr" rid="bib16">Smith et al., 2010</xref>`\). 
 
-XXXXXX in this message will be the current, incorrect citation text.
+XXXXXX in this message will be the current, incorrect citation text. Note that this error will not occur if the citation is simply '**2010a**'. Regardless, [ref-xref-test-19](reference-citations.md#ref-xref-test-19) should identify this as incorrect.
 
 #### ref-xref-test-11
 
