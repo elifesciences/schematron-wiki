@@ -27,6 +27,8 @@ As a minimum, the following information needs to be added for software reference
 * Software title
 * Software name 
 
+Where information is also available about the software version and website, this should also be added in.
+
 To add a GitHub reference after [forking code](../../../toolkit/github/forking-git-based-repos.md) for example, in Kriya, click on 'Add reference' and select 'Software.' 
 
 ![The default fields in Kriya for a Software reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.08.25.png)
@@ -42,9 +44,13 @@ The default fields in Kriya will need to be altered to include the following inf
 
 ![Details required for a GitHub repository reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.11.15.png)
 
+After adding a reference, make sure a citation is added whenever the software is mentioned in the text or in the key resources table. 
+
 ## **When to add software references**
 
-Anything authors have mentioned in their main text or key resources table as a tool or package that was used for analysing data or generating figures should be cited as a software reference. 
+Any references to tools or packages that were used for analysing data or generating figures should be cited as a software reference. This includes entries within the key resources table. 
+
+![All the software in this table should be added to the reference list and cited in-text](../../../.gitbook/assets/screenshot-2020-05-01-at-16.32.22.png)
 
 ## **Schematron warnings**
 
@@ -132,7 +138,7 @@ Anything authors have mentioned in their main text or key resources table as a t
 
 #### **err-elem-cit-software-2-2**
 
-**Error:** _\[err-elem-cit-software-2-2\] Each &lt;element-citation&gt; of type 'software' must contain one &lt;person-group&gt; with the attribute person-group-type set to 'author'or 'curator'. Reference 'XXXXXX' has a &lt;person-group&gt; type of 'XXXXXX'._
+**Error:** _Each &lt;element-citation&gt; of type 'software' must contain one &lt;person-group&gt; with the attribute person-group-type set to 'author'or 'curator'. Reference 'XXXXXX' has a &lt;person-group&gt; type of 'XXXXXX'._
 
 **Action:**
 
@@ -146,7 +152,7 @@ Anything authors have mentioned in their main text or key resources table as a t
 
 **Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="software" are: &lt;person-group&gt;, &lt;year&gt;, &lt;data-title&gt;, &lt;source&gt;, &lt;version&gt;, &lt;publisher-name&gt;, &lt;publisher-loc&gt;, and &lt;ext-link&gt; Reference 'XXXXXX' has other elements._
 
-**Action:** This error will fire if any of the named tags are present. It usually means a field in Kriya has been incorrectly selected for a software reference. Make sure
+**Action:** This error will fire if any of the named tags are present. It usually means a field in Kriya has been incorrectly selected for a software reference. Make sure the [correct fields](software-references.md#how-to-add-a-software-reference) are entered for a software reference. 
 
 #### **err-elem-cit-software-10-2**
 
