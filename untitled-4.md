@@ -14,6 +14,10 @@ Give specific examples of everything that needs to be checked/any common problem
 
 This section should also list any issues that can be spotted without the need to run Schematron tests such as low figure quality, broken paragraphs, badly formatted tables etc. Crosscheck against the protocol documents in [this folder](https://drive.google.com/drive/folders/0B2wDI5EMHiJ-UzctZnVBdWFwbzA).
 
+> Any quotes from articles should be formatted as quotes
+
+* Any Kriya queries should be formatted as a bullet point
+
 ## Schematron warnings
 
 ### Content warnings
@@ -22,7 +26,7 @@ List of errors and warnings that can occur, with guidance on how to solve each p
 
 These warnings relate to the content of XXXXXX.
 
-#### id-x
+#### id-x - make sure this is tagged as a level 3 header
 
 **Warning/Error:** content of message
 
@@ -40,7 +44,9 @@ These warnings relate to the XML structure of XXXXXX. For more information about
 
 ## XML structure
 
+```
 Include an example of the xml with variations if appropriate. 
+```
 
 ## Further reading
 
