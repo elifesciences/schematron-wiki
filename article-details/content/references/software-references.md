@@ -14,11 +14,15 @@ Within the reference list, software references provide information about any sof
 
 ![An example of a software citation](../../../.gitbook/assets/screenshot-2020-05-01-at-10.24.05.png)
 
-Often, authors will include url links to software they have used in their studies. These need to be added as software references so they can be cited properly. 
+## **When to add software references**
 
-![All the software here needs to be added as software references](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17.png)
+Any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference. Often, authors will include url links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they can be cited properly.
 
-## How to add a software reference
+![All the software here needs to be added as software references and cited properly](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17.png)
+
+![All the software in this table should be added to the reference list and cited in-text](../../../.gitbook/assets/screenshot-2020-05-01-at-16.32.22.png)
+
+## How to add software references
 
 As a minimum, the following information needs to be added for software references:
 
@@ -45,12 +49,6 @@ The default fields in Kriya will need to be altered to include the following inf
 ![Details required for a GitHub repository reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.11.15.png)
 
 After adding a reference, make sure a citation is added whenever the software is mentioned in the text or in the key resources table. 
-
-## **When to add software references**
-
-Any references to tools or packages that were used for analysing data or generating figures should be cited as a software reference. This includes entries within the key resources table. 
-
-![All the software in this table should be added to the reference list and cited in-text](../../../.gitbook/assets/screenshot-2020-05-01-at-16.32.22.png)
 
 ## **Schematron warnings**
 
@@ -134,13 +132,13 @@ Any references to tools or packages that were used for analysing data or generat
 
 **Error:** _Each &lt;element-citation&gt; of type 'software' must contain one &lt;person-group&gt; element \(either author or curator\) or one &lt;person-group&gt; with attribute person-group-type = author and one &lt;person-group&gt; with attribute person-group-type = curator. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements.‌_
 
-**Action:**
+**Action:** This error will appear if a software reference has more than one &lt;person-group&gt; element \(which usually contains either authors or collaborations\). It should be impossible for this error to occur - please contact the Production team if you see it. 
 
 #### **err-elem-cit-software-2-2**
 
 **Error:** _Each &lt;element-citation&gt; of type 'software' must contain one &lt;person-group&gt; with the attribute person-group-type set to 'author' or 'curator'. Reference 'XXXXXX' has a &lt;person-group&gt; type of 'XXXXXX'._
 
-**Action:**
+**Action:** This error will appear if a software reference has a &lt;person-group&gt; element with a person-group-type that isn't an author or curator \(e.g. an author has been tagged as an editor\). It should be impossible for this error to occur - please contact the Production team if you see it. 
 
 #### **err-elem-cit-software-10-1**
 
