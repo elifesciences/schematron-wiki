@@ -6,7 +6,7 @@ description: This is a page about entries for software in the reference list.
 
 ## What is a software reference?
 
-Within the reference list, software references provide information about any software that was used for the work presented in an article. 
+Within the reference list, software references provide information about any software that is mentioned in an article.
 
 ![](../../../.gitbook/assets/screenshot-2020-05-01-at-10.27.09.png)
 
@@ -16,7 +16,7 @@ Within the reference list, software references provide information about any sof
 
 ## **When to add software references**
 
-Any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference. Often, authors will include url links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they can be cited properly.
+Any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference. Often, authors will include url links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [FAIR principles](https://www.go-fair.org/fair-principles/). Please note, this only needs to be done if the software is not already in the reference list.
 
 ![All the software here needs to be added as software references and cited properly](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17.png)
 
@@ -48,27 +48,27 @@ The default fields in Kriya will need to be altered to include the following inf
 
 ![Details required for a GitHub repository reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.11.15.png)
 
-After adding a reference, make sure a citation is added whenever the software is mentioned in the text or in the key resources table. 
+Make sure a citation is added whenever the software is mentioned in the text or in the key resources table. 
 
-## **Schematron warnings**
+## **Schematron checks**
 
 ‌The following tests are run on software references. X or XXXXXX refers to quoted text which will change depending on the article.
 
-### **Content warnings**
+### **Content checks**
 
-‌These warnings relate to the content of a software reference.
+‌These checks relate to the content of a software reference.
 
 #### **zenodo-check**
 
 **Error**: _Journal ref 'XXXXXX' has a source title 'XXXXXX' which must be incorrect. It should be a data or software type reference._
 
-**Action:** This error will fire if a Zenodo link has been entered as a journal reference. The ‘XXXXXX’ in this message will refer to the reference in question and its title respectively. Make sure the reference is changed to a software instead of a journal reference. 
+**Action:** This error will fire if a Zenodo link has been entered as a journal reference. The ‘XXXXXX’ in this message will refer to the reference in question and its title respectively. Make sure the reference is changed to a software instead of a journal reference, and the fields are updated appropriately. 
 
 #### **github-web-test**
 
 **Warning**: _web ref 'XXXXXX' has a link which contains 'github', therefore it should almost certainly be captured as a software ref \(unless it's a blog post by GitHub\)._
 
-**Action:** This warning will fire if a website reference contains the word ‘github’. If the link is to a repository on GitHub, this reference needs to be changed from a website to a software reference. If the link is to a blog post by GitHub, it can be kept as a website reference.
+**Action:** This warning will fire if a website reference contains the word ‘github’. If the link is to a repository on GitHub, this reference needs to be changed from a website to a software reference and the fields should be updated appropriately. If the link is to a blog post by GitHub, it can be kept as a website reference.
 
 #### **R-test-1**
 
@@ -108,9 +108,9 @@ After adding a reference, make sure a citation is added whenever the software is
 
 **software-replacement-character-presence**
 
-**Error**: _software citation contains the replacement character '�' which is unallowed - XXXXXX_
+**Error**: _software reference contains the replacement character '�' which is unallowed - XXXXXX_
 
-**Action:** This error will fire if a software citation contains the character ‘�’. This usually indicates that processing has gone wrong, or it has been used to replace an unknown, unrecognized or unrepresentable character. Make sure the fields have all been entered correctly and update the citation. 
+**Action:** This error will fire if a software reference contains the character ‘�’. This usually indicates that processing has gone wrong, or it has been used to replace an unknown, unrecognized or unrepresentable character. Make sure the fields have all been entered correctly and update the citation. 
 
 **software-doi-test-1**
 
@@ -120,7 +120,7 @@ After adding a reference, make sure a citation is added whenever the software is
 
 **software-doi-test-2**
 
-**Warning**: _XXXXXX is a software ref with a host \(XXXXXX\)known to register dois starting with '10.6084/m9.figshare'. Should it have a link in the format 'http://doi.org/10.6084/m9.figshare...'?_
+**Warning**: _XXXXXX is a software ref with a host \(XXXXXX\) known to register dois starting with '10.6084/m9.figshare'. Should it have a link in the format 'http://doi.org/10.6084/m9.figshare...'?_
 
 **Action:** If a software reference has a source containing 'Figshare', there needs to be a link that contains '10.6084/m9.figshare'. Make sure the link is in the correct format. 
 
@@ -132,31 +132,31 @@ After adding a reference, make sure a citation is added whenever the software is
 
 **Error:** _Each &lt;element-citation&gt; of type 'software' must contain one &lt;person-group&gt; element \(either author or curator\) or one &lt;person-group&gt; with attribute person-group-type = author and one &lt;person-group&gt; with attribute person-group-type = curator. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements.‌_
 
-**Action:** This error will appear if a software reference has more than one &lt;person-group&gt; element \(which usually contains either authors or collaborations\). It should be impossible for this error to occur - please contact the Production team if you see it. 
+**Action:** This error will appear if a software reference has more than one &lt;person-group&gt; element \(which usually contains either authors or collaborations\). It should be impossible for this error to occur - please contact support team if you see it. 
 
 #### **err-elem-cit-software-2-2**
 
 **Error:** _Each &lt;element-citation&gt; of type 'software' must contain one &lt;person-group&gt; with the attribute person-group-type set to 'author' or 'curator'. Reference 'XXXXXX' has a &lt;person-group&gt; type of 'XXXXXX'._
 
-**Action:** This error will appear if a software reference has a &lt;person-group&gt; element with a person-group-type that isn't an author or curator \(e.g. an author has been tagged as an editor\). It should be impossible for this error to occur - please contact the Production team if you see it. 
+**Action:** This error will appear if a software reference has a &lt;person-group&gt; element with a person-group-type that isn't an author or curator \(e.g. an author has been tagged as an editor\). It should be impossible for this error to occur - please contact the support team if you see it. 
 
 #### **err-elem-cit-software-10-1**
 
 **Error**: _Each &lt;element-citation&gt; of type 'software' may contain one and only one &lt;data-title&gt; element. Reference 'XXXXXX' has XXXXXX &lt;data-title&gt; elements._
 
-**Action:** This error will appear if there are zero or more than one data title elements. Please remove the extra data title element or add one if there is none.
+**Action:** This error will appear if there is more than one data title element. Please remove the extra data title element.
 
 #### **err-elem-cit-software-16**
 
 **Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="software" are: &lt;person-group&gt;, &lt;year&gt;, &lt;data-title&gt;, &lt;source&gt;, &lt;version&gt;, &lt;publisher-name&gt;, &lt;publisher-loc&gt;, and &lt;ext-link&gt; Reference 'XXXXXX' has other elements._
 
-**Action:** This error will fire if any of the named tags are present. It usually means a field in Kriya has been incorrectly selected for a software reference. Make sure the [correct fields](software-references.md#how-to-add-a-software-reference) are entered for a software reference. 
+**Action:** This error will fire if anything other than the named tags are present. It usually means a field in Kriya has been incorrectly selected for a software reference. Make sure the [correct fields](software-references.md#how-to-add-a-software-reference) are entered for a software reference. 
 
 #### **err-elem-cit-software-10-2**
 
 **Error**: _An &lt;data-title&gt; element in a reference may contain characters and &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' does not meet this requirement._
 
-**Action:** The data title of a software reference can only have text that is italicised, superscript or subscript. This error will appear if the data title has text that is formatted differently to these. To address this, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks.
+**Action:** The data title of a software reference can only have text that is italicised, superscript or subscript. This error will appear if the data title has formatting elements other than these. To address this, remove any extra elements including formatting that is not italic, superscript or subscript, and remove any hyperlinks.
 
 ## XML Structure
 
