@@ -14,24 +14,30 @@ Within the reference list, software references provide information about any sof
 
 ![An example of a software citation](../../../.gitbook/assets/screenshot-2020-05-01-at-10.24.05.png)
 
-## **When to add software references**
-
-Any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference. Often, authors will include url links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [FAIR principles](https://www.go-fair.org/fair-principles/). Please note, this only needs to be done if the software is not already in the reference list.
-
-![All the software here needs to be added as software references and cited properly](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17.png)
-
-![All the software in this table should be added to the reference list and cited in-text](../../../.gitbook/assets/screenshot-2020-05-01-at-16.32.22.png)
-
 ## How to add software references
 
-As a minimum, the following information needs to be added for software references:
+The following information can be added for software references:
 
-* Author or collaboration 
-* Year 
-* Software title
-* Software name 
+| **Mandatory** | Optional |
+| :--- | :--- |
+| Author/collaboration | Software name |
+| Year | Software version |
+| Software title | Software host |
+|  | Website |
+|  | Publisher city |
+|  | Publisher country |
 
-Where information is also available about the software version and website, this should also be added in.
+Where the optional information is available, this should also be added in.
+
+* **Authors**: Enter each author name as a surname followed by initials. This information may be present if you follow the link to the software website. Need to agree on what to do if this info isn't available.
+* **Collaboration:** If the software was made by a team this should be entered as a collaboration instead of authors ****e.g. ****R Development Core Team.
+* **Year**: This should be the year that the software was released. 
+* **Software title**: The name of the software that was used?
+* **Software name**: The name of the company that created the software?
+* **Software host**: Need to agree on whether this is needed
+* **Software version:** The version of software that was used. This is often mentioned in the article text - if it is not, it does not need to be added in.
+* **Website**: Some software providers add DOIs for their software. These need to be added as a full DOI links instead of just the DOI.
+* **Publisher location:** The location of the publishers of the software. This is separated into city and country fields in Kriya.
 
 To add a GitHub reference after [forking code](../../../toolkit/github/forking-git-based-repos.md) for example, in Kriya, click on 'Add reference' and select 'Software.' 
 
@@ -48,7 +54,31 @@ The default fields in Kriya will need to be altered to include the following inf
 
 ![Details required for a GitHub repository reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.11.15.png)
 
+&lt;Will add another example of adding software ref for R software&gt;
+
 Make sure a citation is added whenever the software is mentioned in the text or in the key resources table. 
+
+## **When to add software references**
+
+Any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference. Often, authors will include url links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [FAIR principles](https://www.go-fair.org/fair-principles/). Please note, this only needs to be done if the software is not already in the reference list.
+
+![All the software here needs to be added as software references and cited properly](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17.png)
+
+![All the software in this table should be added to the reference list and cited in-text](../../../.gitbook/assets/screenshot-2020-05-01-at-16.32.22.png)
+
+## Kriya fields and XML element mapping
+
+This table shows what the fields in Kriya get converted to in the XML.
+
+| Kriya field | XML element |
+| :--- | :--- |
+| Author | `<person-group person-group-type="author"> <name>` |
+| Collaboration | `<person-group person-group-type="author"> <collab>` |
+| Year | `<year iso-8601-date="XXXXXX">` |
+| Software name | `<source>` |
+| Software title | `<data-title>` |
+| Publisher city | `<publisher-loc>` |
+| Publisher country | `<publisher-loc>` |
 
 ## **Schematron checks**
 
