@@ -82,7 +82,7 @@ This table shows what the fields in Kriya get converted to in the XML.
 
 ## **Schematron checks**
 
-‌The following tests are run on software references. X or XXXXXX refers to quoted text which will change depending on the article.
+The following tests are run on software references. X or XXXXXX refers to quoted text which will change depending on the article.
 
 ### **Content checks**
 
