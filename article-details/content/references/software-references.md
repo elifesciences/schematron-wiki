@@ -54,7 +54,7 @@ The default fields in Kriya will need to be altered to include the following inf
 * Author - for GitHub references, you can just enter the first author's name
 * Year - the year the repository was made 
 * Software title - for GitHub references, this is the name of the repository 
-* Software name - GitHub
+* Source - GitHub
 * Software version - for GitHub references, this is the latest commit number
 * Website - This should be a link to the original \(not the forked\) repository
 
