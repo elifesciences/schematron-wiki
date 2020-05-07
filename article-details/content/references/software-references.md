@@ -6,7 +6,7 @@ description: This is a page about entries for software in the reference list.
 
 ## What is a software reference?
 
-Within the reference list, software references provide information about any software that is mentioned in an article.
+A software reference gives bibliographic details for a piece of software or computer code.
 
 ![](../../../.gitbook/assets/screenshot-2020-05-01-at-10.27.09.png)
 
@@ -14,7 +14,7 @@ Within the reference list, software references provide information about any sof
 
 ![An example of a software citation](../../../.gitbook/assets/screenshot-2020-05-01-at-10.24.05.png)
 
-## How to add software references
+## What needs to be added?
 
 The following information can be added for software references:
 
@@ -27,7 +27,7 @@ The following information can be added for software references:
 |  | Publisher city |
 |  | Publisher country |
 
-Where the optional information is available, this should also be added in.
+Where the optional information is available, this should also be added in. 
 
 * **Authors**: Enter each author name as a surname followed by initials. This information may be present if you follow the link to the software website. Need to agree on what to do if this info isn't available.
 * **Collaboration:** If the software was made by a team this should be entered as a collaboration instead of authors ****e.g. ****R Development Core Team.
@@ -39,7 +39,11 @@ Where the optional information is available, this should also be added in.
 * **Website**: Some software providers add DOIs for their software. These need to be added as a full DOI links instead of just the DOI.
 * **Publisher location:** The location of the publishers of the software. This is separated into city and country fields in Kriya.
 
-To add a GitHub reference after [forking code](../../../toolkit/github/forking-git-based-repos.md) for example, in Kriya, click on 'Add reference' and select 'Software.' 
+For more information about what these fields translate to in XML, see [here](software-references.md#kriya-fields-and-xml-element-mapping).
+
+## How to add a software reference
+
+Make sure a citation is added whenever the software is mentioned in the text or in the key resources table. To add a GitHub reference after [forking code](../../../toolkit/github/forking-git-based-repos.md) for example, in Kriya, right-click where you want to add the citation and click on Add New &gt; Add New Reference and select Software under Reference Type. 
 
 ![The default fields in Kriya for a Software reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.08.25.png)
 
@@ -54,13 +58,17 @@ The default fields in Kriya will need to be altered to include the following inf
 
 ![Details required for a GitHub repository reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.11.15.png)
 
-&lt;Will add another example of adding software ref for R software&gt;
+Guidance on what information should be included in a software reference can sometimes be found on the software website. For example, for R references, the developers provide the [following information](https://cran.r-project.org/doc/FAQ/R-FAQ.html):
 
-Make sure a citation is added whenever the software is mentioned in the text or in the key resources table. 
+![](../../../.gitbook/assets/screenshot-2020-05-06-at-13.05.57.png)
+
+To add a reference for R software, add a new software reference as above. The information above needs needs to be entered into Kriya as below:
+
+![Details required for R software references](../../../.gitbook/assets/screenshot-2020-05-06-at-13.10.57.png)
 
 ## **When to add software references**
 
-Any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference. Often, authors will include url links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [FAIR principles](https://www.go-fair.org/fair-principles/). Please note, this only needs to be done if the software is not already in the reference list.
+Any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference. Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [FAIR principles](https://www.go-fair.org/fair-principles/). Please note, this only needs to be done if the software is not already in the reference list.
 
 ![All the software here needs to be added as software references and cited properly](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17.png)
 
@@ -74,11 +82,12 @@ This table shows what the fields in Kriya get converted to in the XML.
 | :--- | :--- |
 | Author | `<person-group person-group-type="author"> <name>` |
 | Collaboration | `<person-group person-group-type="author"> <collab>` |
-| Year | `<year iso-8601-date="XXXXXX">` |
-| Software name | `<source>` |
+| Year | `<year iso-8601-date="XXXXXX">` where XXXXXX is the year |
+| Software name \(will we remove this?\) | `<source>` |
 | Software title | `<data-title>` |
 | Publisher city | `<publisher-loc>` |
 | Publisher country | `<publisher-loc>` |
+| Website | `<ext-link ext-link-type="uri" xlink:href="XXXXXX">` where XXXXXX is the URL |
 
 ## **Schematron checks**
 
@@ -92,13 +101,23 @@ The following tests are run on software references. X or XXXXXX refers to quoted
 
 **Error**: _Journal ref 'XXXXXX' has a source title 'XXXXXX' which must be incorrect. It should be a data or software type reference._
 
-**Action:** This error will fire if a Zenodo link has been entered as a journal reference. The ‘XXXXXX’ in this message will refer to the reference in question and its title respectively. Make sure the reference is changed to a software instead of a journal reference, and the fields are updated appropriately. 
+**Action:** This error will fire if a Zenodo link has been entered as a journal reference. The ‘XXXXXX’ in this message will refer to the reference in question and its title respectively. Make sure the reference is changed to a software instead of a journal reference, and the fields are updated appropriately. &lt;add DOI to example/screenshot&gt;
+
+![A software on zenodo incorrectly entered as a journal reference](../../../.gitbook/assets/screenshot-2020-05-06-at-15.02.10.png)
+
+When this is changed to a software reference, there will be several untagged fields
+
+![](../../../.gitbook/assets/screenshot-2020-05-06-at-15.06.08.png)
+
+These will need to be updated:
+
+![Correctly entered fields for a Zenodo software reference](../../../.gitbook/assets/screenshot-2020-05-06-at-15.09.50.png)
 
 #### **github-web-test**
 
 **Warning**: _web ref 'XXXXXX' has a link which contains 'github', therefore it should almost certainly be captured as a software ref \(unless it's a blog post by GitHub\)._
 
-**Action:** This warning will fire if a website reference contains the word ‘github’. If the link is to a repository on GitHub, this reference needs to be changed from a website to a software reference and the fields should be updated appropriately. If the link is to a blog post by GitHub, it can be kept as a website reference.
+**Action:** This warning will fire if a website reference contains the word ‘github’. If the link is to a repository on GitHub, this reference needs to be changed from a website to a software reference and the fields should be updated appropriately \(see [above](software-references.md#how-to-add-a-software-reference)\). If the link is to a blog post by GitHub however, it can be kept as a website reference. &lt;add screenshot of this example too \(without a version number\)&gt;
 
 #### **R-test-1**
 
@@ -116,7 +135,7 @@ The following tests are run on software references. X or XXXXXX refers to quoted
 
 **Error**: _software ref 'XXXXXX' has a data-title - XXXXXX - but does not have a &lt;publisher-loc&gt;Vienna, Austria&lt;/publisher-loc&gt; element._
 
-**Action:** This error will appear if the data title of a software is ‘R: A Language and Environment for Statistical Computing’ and the publisher location is not entered correctly. It should be entered as ‘Vienna, Austria’.
+**Action:** This error will appear if the data title of a software is ‘R: A Language and Environment for Statistical Computing’ and the publisher location is not entered correctly. 'Vienna' should be entered in the Publisher city field and 'Austria' should be entered in the Publisher country field.
 
 **R-test-4**
 
@@ -144,15 +163,15 @@ The following tests are run on software references. X or XXXXXX refers to quoted
 
 **software-doi-test-1**
 
-**Warning**: _XXXXXX is a software ref with a host \(XXXXXX\) known to register dois starting with '10.5281/zenodo'. Should it have a link in the format 'http://doi.org/10.5281/zenodo...'?_
+**Warning**: _XXXXXX is a software ref with a host \(XXXXXX\) known to register dois starting with '10.5281/zenodo'. Should it have a link in the format 'https://doi.org/10.5281/zenodo...'?_
 
-**Action:** If a software reference has a source containing 'Zenodo', there needs to be a link that contains '10.5281/zenodo'. Make sure the link is in the correct format. 
+**Action:** If a software reference has a source containing 'Zenodo', there needs to be a URL that contains '10.5281/zenodo'. Make sure the DOI URL \(including https://\) is present in the website field in the reference. This is because Continuum does not currently allow DOIs for software references. &lt;add example of Zenodo landing page vs doi&gt;
 
 **software-doi-test-2**
 
-**Warning**: _XXXXXX is a software ref with a host \(XXXXXX\) known to register dois starting with '10.6084/m9.figshare'. Should it have a link in the format 'http://doi.org/10.6084/m9.figshare...'?_
+**Warning**: _XXXXXX is a software ref with a host \(XXXXXX\) known to register dois starting with '10.6084/m9.figshare'. Should it have a link in the format 'https://doi.org/10.6084/m9.figshare...'?_
 
-**Action:** If a software reference has a source containing 'Figshare', there needs to be a link that contains '10.6084/m9.figshare'. Make sure the link is in the correct format. 
+**Action:** If a software reference has a source containing 'Figshare', there needs to be a URL that contains '10.6084/m9.figshare'. This is because Continuum does not currently allow DOIs for software references. Make sure the DOI URL \(including https://\) is present in the website field in the reference.
 
 ### **XML structure warnings**
 
@@ -206,7 +225,7 @@ R software
          <year iso-8601-date="2014">2014</year>
          <data-title>R: A Language and Environment for Statistical Computing</data-title>
          <version designator="3.1.0">3.1.0</version>
-         <publisher-loc>Austria</publisher-loc>
+         <publisher-loc>Vienna, Austria</publisher-loc>
          <publisher-name>R Foundation for Statistical Computing</publisher-name>
          <ext-link ext-link-type="uri" xlink:href="http://www.R-project.org">http://www.R-project.org</ext-link>
       </element-citation>
