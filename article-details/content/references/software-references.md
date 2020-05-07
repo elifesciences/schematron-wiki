@@ -18,28 +18,30 @@ A software reference gives bibliographic details for a piece of software or comp
 
 The following information can be added for software references:
 
-| **Mandatory** | Optional |
-| :--- | :--- |
-| Author/collaboration | Software name |
-| Year | Software version |
-| Software title | Software host |
-|  | Website |
-|  | Publisher city |
-|  | Publisher country |
+| Kriya field | Mandatory? | XML element | Example |
+| :--- | :--- | :--- | :--- |
+| Author | Yes \(or a collaboration must be entered instead\) | &lt;person-group person-group-type="author"&gt; &lt;name&gt; | Bloggs J |
+| Collaboration | Yes \(or authors must be entered instead\) | &lt;person-group person-group-type="author"&gt; &lt;collab&gt; | R Development Core Team |
+| Year | Yes | &lt;year iso-8601-date="XXXXXX"&gt; where XXXXXX is the year | 2020 |
+| Software title | Yes | &lt;data-title&gt; | R: A Language and Environment for Statistical Computing |
+| Source | No | &lt;source&gt; | GitHub |
+| Software version | No | &lt;version designator="XXXXXX"&gt; where XXXXXX is the version | 3.1.0 |
+| Publisher city | No | &lt;publisher-loc&gt; | Vienna |
+| Publisher country | No | &lt;publisher-loc&gt; | Austria |
+| Publisher | No | &lt;publisher-name&gt; | Microsoft |
+| Website | No | &lt;ext-link ext-link-type="uri" xlink:href="XXXXXX"&gt; where XXXXXX is the URL | [http://doi.org/10.6084/m9.figshare.4742866.v1](http://doi.org/10.6084/m9.figshare.4742866.v1) |
 
 Where the optional information is available, this should also be added in. 
 
 * **Authors**: Enter each author name as a surname followed by initials. This information may be present if you follow the link to the software website. Need to agree on what to do if this info isn't available.
 * **Collaboration:** If the software was made by a team this should be entered as a collaboration instead of authors ****e.g. ****R Development Core Team.
-* **Year**: This should be the year that the software was released. 
-* **Software title**: The name of the software that was used?
-* **Software name**: The name of the company that created the software?
-* **Software host**: Need to agree on whether this is needed
+* **Year**: This should be the year that the software being cited was released. 
+* **Software title**: The name of the software.
+* **Source**: Where the software is hosted \(this does not necessarily mean they own the software\).
 * **Software version:** The version of software that was used. This is often mentioned in the article text - if it is not, it does not need to be added in.
-* **Website**: Some software providers add DOIs for their software. These need to be added as a full DOI links instead of just the DOI.
 * **Publisher location:** The location of the publishers of the software. This is separated into city and country fields in Kriya.
-
-For more information about what these fields translate to in XML, see [here](software-references.md#kriya-fields-and-xml-element-mapping).
+* **Publisher**: The company or organisation that created the software and has ownership rights over it.
+* **Website**: Some software providers add DOIs for their software. These need to be added as a full DOI links instead of just the DOI.
 
 ## How to add a software reference
 
@@ -62,9 +64,9 @@ Guidance on what information should be included in a software reference can some
 
 ![](../../../.gitbook/assets/screenshot-2020-05-06-at-13.05.57.png)
 
-To add a reference for R software, add a new software reference as above. The information above needs needs to be entered into Kriya as below:
+To add a reference for R software, add a new software reference as above. The information above needs to be entered into Kriya in the order shown below:
 
-![Details required for R software references](../../../.gitbook/assets/screenshot-2020-05-06-at-13.10.57.png)
+![Details required for R software reference ](../../../.gitbook/assets/screenshot-2020-05-07-at-16.26.58.png)
 
 ## **When to add software references**
 
@@ -73,21 +75,6 @@ Any mentions of tools or packages that were used for analysing data or generatin
 ![All the software here needs to be added as software references and cited properly](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17.png)
 
 ![All the software in this table should be added to the reference list and cited in-text](../../../.gitbook/assets/screenshot-2020-05-01-at-16.32.22.png)
-
-## Kriya fields and XML element mapping
-
-This table shows what the fields in Kriya get converted to in the XML.
-
-| Kriya field | XML element |
-| :--- | :--- |
-| Author | `<person-group person-group-type="author"> <name>` |
-| Collaboration | `<person-group person-group-type="author"> <collab>` |
-| Year | `<year iso-8601-date="XXXXXX">` where XXXXXX is the year |
-| Software name \(will we remove this?\) | `<source>` |
-| Software title | `<data-title>` |
-| Publisher city | `<publisher-loc>` |
-| Publisher country | `<publisher-loc>` |
-| Website | `<ext-link ext-link-type="uri" xlink:href="XXXXXX">` where XXXXXX is the URL |
 
 ## **Schematron checks**
 
@@ -155,6 +142,12 @@ These will need to be updated:
 
 **Action:** This error will appear if a software reference has a publisher name which contains the text ’R: A Language and Environment for Statistical Computing’. This should be entered as a data title instead.
 
+#### **R-test-7**
+
+**Error:** _software ref 'XXXXXX' with the title - XXXXXX - must have a publisher-name element \(Software host\) which contains 'R Foundation for Statistical Computing'._
+
+**Action:** The publisher of R software is the 'R Foundation for Statistical Computing'. This error will fire if this has not been entered in the 'Publisher' field. Make sure this is corrected and there are no typos.
+
 **software-replacement-character-presence**
 
 **Error**: _software reference contains the replacement character '�' which is unallowed - XXXXXX_
@@ -206,6 +199,30 @@ These will need to be updated:
 **Error**: _An &lt;data-title&gt; element in a reference may contain characters and &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' does not meet this requirement._
 
 **Action:** The data title of a software reference can only have text that is italicised, superscript or subscript. This error will appear if the data title has formatting elements other than these. To address this, remove any extra elements including formatting that is not italic, superscript or subscript, and remove any hyperlinks.
+
+#### **ref-software-test-1**
+
+**Error**: _software ref 'XXXXXX' has both a source \(Software name\) - XXXXXX - and a publisher-name \(Software host\) - XXXXXX - which is incorrect. It should have either one or the other._
+
+**Action:** Software references can only have a source or a publisher - not both. This error will appear if the Source and Publisher fields have both been filled out. Make sure this is fixed - for more information about what these fields should contain, see [here](software-references.md#what-needs-to-be-added). 
+
+#### **ref-software-test-2**
+
+**Error**: _software ref 'XXXXXX' with the title - XXXXXX - must contain either one source element \(Software name\) or one publisher-name element \(Software host\)._
+
+**Action:** Software references must have either a source or a publisher. This error will appear if the Source and Publisher fields have not been filled out. Make sure this is fixed - for more information about what these fields should contain, see [here](software-references.md#what-needs-to-be-added). 
+
+#### **ref-software-test-3**
+
+**Error**: _software ref 'XXXXXX' has a publisher-name \(Software host\) - XXXXXX. Since this is a software source, it should be captured in a source element. Please move into the Software name field \(rather than Software host\)._
+
+**Action:** This error will appear if the source of a software reference has incorrectly been entered as the publisher. XXXXXX in this case will be the reference id and whatever has been entered in the 'Publisher' field respectively. To fix this, move whatever has been entered in the Publisher field into the Source field, and delete the \(now empty\) Publisher field.
+
+#### **ref-software-test-4**
+
+**Error**: _software ref 'XXXXXX' has a source \(Software name\) - XXXXXX. Since this is a software publisher, it should be captured in a publisher-name element. Please move into the Software host field._
+
+**Action:** This error will appear if the publisher of a software reference has incorrectly been entered as the source. XXXXXX in this case will be the reference id and whatever has been entered in the 'Source' field respectively. To fix this, move whatever has been entered in the Source field into the Publisher field, and delete the \(now empty\) Source field.
 
 ## XML Structure
 
