@@ -121,7 +121,7 @@ Click on the pencil to edit the text
 
 Click on the text box and enter the following text: 
 
-> This code is associated with the paper from \[**Insert first author's surname**\] et al., "\[**Insert title of paper**\]". eLife, \[**Insert year**\]. http://dx.doi.org/10.7554/eLife.\[**Insert DOI**\]
+> This code is associated with the paper from \[**Insert first author's surname**\] et al., "\[**Insert title of paper**\]". eLife, \[**Insert year**\]. http://doi.org/10.7554/eLife.\[**Insert DOI**\]
 
 Please note, the year to enter is the year the article was first published \(this may have been as a POA\).
 
