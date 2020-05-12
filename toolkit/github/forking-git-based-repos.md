@@ -177,6 +177,14 @@ Comparing the forked repositories to the ones that are linked in the article sho
 
 If someone else’s code has been modified for an eLife paper, this code should not be forked. A [software reference](../../article-details/content/references/software-references.md#how-to-add-a-software-reference) to the original code should be added however.
 
+## How to delete accidentally forked repositories
+
+If a repository is forked in error \(because the code was not generated specifically for the manuscript - see examples [here](../../article-details/content/funding-information.md#examples-of-when-to-ignore-pay-attention-to-the-schematron-messages)\), it should be deleted. To do this,
+
+&lt;iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT0tIAm79w5LWpkcGGFnYfLwIWmor7GJUBimkaeTaCnnaOueg7dzZ0ozYYjPrS-DWOgvpkDKGH7kxMU/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"&gt;&lt;/iframe&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/\_HjToekoEMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
 ## When to fork code in Tools and Resources papers
 
 If the repository has the same name as the tool being described, this usually indicates that it should not be forked. However, if data is analysed in a Tools and Resources paper, as in the example below,  the linked repositories should be forked. 
