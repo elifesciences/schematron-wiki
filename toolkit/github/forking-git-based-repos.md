@@ -183,8 +183,6 @@ If a repository is forked in error \(because the code was not generated specific
 
 {% embed url="https://docs.google.com/presentation/d/e/2PACX-1vT0tIAm79w5LWpkcGGFnYfLwIWmor7GJUBimkaeTaCnnaOueg7dzZ0ozYYjPrS-DWOgvpkDKGH7kxMU/pub?start=false&loop=false&delayms=3000" %}
 
-
-
 ## When to fork code in Tools and Resources papers
 
 If the repository has the same name as the tool being described, this usually indicates that it should not be forked. However, if data is analysed in a Tools and Resources paper, as in the example below,  the linked repositories should be forked. 
