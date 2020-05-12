@@ -179,11 +179,9 @@ If someone else’s code has been modified for an eLife paper, this code should 
 
 ## How to delete accidentally forked repositories
 
-If a repository is forked in error \(because the code was not generated specifically for the manuscript - see examples [here](../../article-details/content/funding-information.md#examples-of-when-to-ignore-pay-attention-to-the-schematron-messages)\), it should be deleted. To do this,
+If a repository is forked in error \(because the code was not generated specifically for the manuscript - see examples [here](../../article-details/content/funding-information.md#examples-of-when-to-ignore-pay-attention-to-the-schematron-messages)\), it should be deleted. Click on the slides below for instructions on how to do this.
 
-&lt;iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT0tIAm79w5LWpkcGGFnYfLwIWmor7GJUBimkaeTaCnnaOueg7dzZ0ozYYjPrS-DWOgvpkDKGH7kxMU/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"&gt;&lt;/iframe&gt;
-
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/\_HjToekoEMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+{% embed url="https://docs.google.com/presentation/d/e/2PACX-1vT0tIAm79w5LWpkcGGFnYfLwIWmor7GJUBimkaeTaCnnaOueg7dzZ0ozYYjPrS-DWOgvpkDKGH7kxMU/pub?start=false&loop=false&delayms=3000" %}
 
 ## When to fork code in Tools and Resources papers
 
