@@ -107,11 +107,21 @@ Another reason for not making the data publicly available is when it contains id
 
 > As participants did not give consent for their functional MRI data to be released publicly within the General Data Protection Regulation 2016/679 of the EU, these data can be made available on request to the corresponding author.
 
-In both these cases, 'on request' data is permitted with the approval of the editors. If the editors gave their approval before the article was exported from the submission system, this will be indicated in the Production Comments. If they have yet to do this, this should also be indicated in these comments.
+In both these cases, 'on request' data is permitted with the approval of the editors.
+
+#### Approved 'on request' data
+
+If the editors gave their approval before the article was exported from the submission system, this will be indicated in the Production Comments. 
+
+#### Pending 'on request' data
+
+If they have yet to do this, this should also be indicated in these comments.
 
 ![](../../.gitbook/assets/screen-shot-2020-04-27-at-15.36.08.png)
 
-The article cannot be published until this approval is granted, but proofing may proceed in the meantime.
+The article cannot be published until this approval is granted, but proofing may proceed in the meantime. The article should be sent to the 'Publisher check' stage so that the Production team can contact the Editorial team.
+
+#### 'On request' data with no note
 
 If approval for 'on request' data has not been indicated, the Production team should contact the Editorial team to establish whether they are working on this issue already and what action needs to be taken. Every so often, this issue will be overlooked during earlier checks so it is important to make sure that this has been resolved before publication.
 
