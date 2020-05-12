@@ -126,7 +126,7 @@ In these cases, the article should be updated with the full dataset information 
 Please check the Production Comments for any notes from the Editorial team that indicate they are working on this issue already. If they are, the Production team will need to contact Editorial to see if the files/dataset information is now available. If there are no notes, please add one of the following queries depending on whether the statement refers to datasets or files:
 
 * Please provide the full details for the mentioned dataset\(s\) \(authors, year, title, database, identifier, direct URL\) and ensure that the data is publicly available.
-* Please provide the source data files mentioned here along with descriptive titles. Please indicate where they should be cited in the maint text if appropriate.
+* Please provide the source data files mentioned here along with descriptive titles. Please indicate where they should be cited in the main text if appropriate.
 
 Once the author has provided these details, the data availability section will most likely need to be updated with the final details for the datasets and/or source data files. In some cases, however, the data will have been incorporated into the main article and the mention of 'on acceptance' data can be deleted.
 
