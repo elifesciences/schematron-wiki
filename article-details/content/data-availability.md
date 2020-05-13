@@ -119,7 +119,7 @@ The status of the editors' approval of a data availability statement that says d
 
 If the editors gave their approval before the article was exported from the submission system, this will be indicated in the Production Comments. If such a note is present, no further action needs to be taken and any warnings about 'on request' in the data availability statement can be ignored.
 
-#### Pending 'on request' data
+#### Pending 'on request' data - no response
 
 If the editors have yet to approve the data availability statement, or the Editorial team are still corresponding with the authors about submitting their data, this will also be indicated in the notes.
 
