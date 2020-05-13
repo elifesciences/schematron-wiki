@@ -125,17 +125,17 @@ If the editors have yet to approve the data availability statement, or the Edito
 
 ![](../../.gitbook/assets/screen-shot-2020-05-13-at-13.13.32.png)
 
-The article cannot be published until any outstaning issues with the data availability have been resolved, but proofing may proceed in the meantime. The article should be sent to the 'Publisher check' stage so that the Production team can contact the Editorial team and discuss what action needs to be taken.
+An article cannot be published until any outstaning issues with the data availability have been resolved, but proofing may proceed in the meantime. The article should be sent to the 'Publisher check' stage and the Production team will then check for correspondence from Editorial \(via Slack or email\) regarding this issue.
 
-If the data issues have been resolved between the article being exported and arriving in Publisher check, the data availability section should be updated accordingly. 
+If the data issues have been resolved between the article being exported and arriving in Publisher check, Production should update the data availability section accordingly. Otherwise, Editorial should be contacted to find out how their communication with the authors or editors is progressing. If they are unlikely to hear back for a while, the article can be move along provided that a note is added to indicate it should not be published until the data issues are resolved.
 
 #### 'On request' data with no note
 
-If approval for 'on request' data has not been indicated, the following author query should be added:
+If approval or ongoing action for 'on request' data has not been indicated, the following author query should be added:
 
 * eLife strongly encourages authors to deposit their data in dedicated repositories to ensure that it is publicly available to all readers. Would you be willing to submit these files to such a repository? If no structured subject-specific repository exists for this kind of data, we recommend Dryad as an alternative and would be happy to assist you in submitting there. If you are already corresponding with the Editorial team about this issue, please let us know.
 
-This issue must be resolved before publication, so further action may need to be taken by the Production team at the post-author stage.
+This issue must be resolved before publication, so further action will need to be taken by the Production team at the post-author stage. If the authors have indicated that they have submitted the data to a repository, the data section should be updated with the details. If they have given a reason for the data not to be made publicly available, this should be passed on for Editorial approval. If they have requested help with submitting their data, this should be provided by email.
 
 ### Data available 'on acceptance'
 
