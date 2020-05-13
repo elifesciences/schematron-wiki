@@ -162,11 +162,11 @@ In these cases, the same author query is appropriate and the data availability s
 
 ### Journal articles entered as datasets
 
-Some authors misunderstand the instructions around datasets and include citations of journal articles in the data availability section:
+Some authors misunderstand the instructions around datasets and include citations of journal articles in the data availability section, thinking that they need to include mentions of previously published articles from which they have taken data:
 
 ![](../../.gitbook/assets/screen-shot-2020-04-28-at-14.47.58.png)
 
-These can usually be identified because the URL provided will be a journal link, journal DOI or a PubMed or PMC link \(e.g. https://www.nature.com/articles/nature19057, https://doi.org/10.1038/nature19057, https://www.ncbi.nlm.nih.gov/pubmed/16237209\).
+These can usually be because the URL provided will be a journal link, journal DOI or a PubMed or PMC link \(e.g. https://www.nature.com/articles/nature19057, https://doi.org/10.1038/nature19057, https://www.ncbi.nlm.nih.gov/pubmed/16237209\).
 
 ![](../../.gitbook/assets/screen-shot-2020-05-12-at-13.58.34.png)
 
