@@ -99,19 +99,25 @@ If it is not possible to derive the URL from the information provided \(e.g. the
 
 It is standard practice at many journals to allow authors to make their data available only 'on request', meaning that a reader must contact the corresponding author to receive the data underlying an article. To ensure openness, eLife instead encourages authors to deposit all their data in a dedicated subject-specific repository or a more general archive such as Dryad or figshare, where it will be available to anyone who wants it.
 
-If an article is submitted with a data availability statement that states generated data is available on request, the Editorial team will ask the authors to upload it to an appropriate repository. Usually there will be no problem with this and the data statement will be updated accordingly. On occasion, however, the authors may push back. This can be because of unfamiliarity with the available options and in these cases, the Editorial team will continue to work with the authors to find an appropriate solution. However, it can also be because the dataset is simply too large \(in the range of terabytes of data\) for any repository to accept, necessitating a custom solution such as a dedicated institutional server.
+If an article is submitted with a data availability statement saying that generated data is available on request, the Editorial team will ask the authors to upload it to an appropriate repository. Usually there will be no problem with this and the data statement will be updated with the details of where the data was submitted. On occasion, however, the authors may push back. This can be because of unfamiliarity with the available options and in these cases, the Editorial team will continue to work with the authors to find an appropriate solution. However, it can also be because the dataset is simply too large \(in the range of terabytes of data\) for any repository to accept, necessitating a custom solution such as a dedicated institutional server.
 
 > The raw data that support the findings of this study are several TBs in size and are therefore available on request. A source data file for the main figures has been provided.
 
-Another reason for not making the data publicly available is when it contains identifying information about patients or participants in human trials, or permission to share medical information was not granted.
+Another reason for not making the data publicly available is when it contains identifying information about patients or participants in human trials, or when permission to share medical information contained in the dataset was not granted.
 
 > As participants did not give consent for their functional MRI data to be released publicly within the General Data Protection Regulation 2016/679 of the EU, these data can be made available on request to the corresponding author.
 
 In both these cases, 'on request' data is permitted with the approval of the editors.
 
+The status of the editors' approval of a data availability statement that says data is available 'on request' should be indicated using a red sticky note in the submission system, which will be exported as a Production Comment. 
+
 #### Approved 'on request' data
 
-If the editors gave their approval before the article was exported from the submission system, this will be indicated in the Production Comments. 
+![Note in submission system](../../.gitbook/assets/screen-shot-2020-05-13-at-12.51.32.png)
+
+![Note in proofing system](../../.gitbook/assets/screen-shot-2020-05-13-at-12.52.37.png)
+
+If the editors gave their approval before the article was exported from the submission system, this will be indicated in the Production Comments. If such a note is present, no further action needs to be taken and any warnings about 'on request' in the data availability statement can be ignored.
 
 #### Pending 'on request' data
 
