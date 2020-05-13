@@ -131,7 +131,11 @@ If the data issues have been resolved between the article being exported and arr
 
 #### 'On request' data with no note
 
-If approval for 'on request' data has not been indicated, the Production team should contact the Editorial team to establish whether they are working on this issue already and what action needs to be taken. Every so often, this issue will be overlooked during earlier checks so it is important to make sure that this has been resolved before publication.
+If approval for 'on request' data has not been indicated, the following author query should be added:
+
+* eLife strongly encourages authors to deposit their data in dedicated repositories to ensure that it is publicly available to all readers. Would you be willing to submit these files to such a repository? If no structured subject-specific repository exists for this kind of data, we recommend Dryad as an alternative and would be happy to assist you in submitting there. If you are already corresponding with the Editorial team about this issue, please let us know.
+
+This issue must be resolved before publication, so further action may need to be taken by the Production team at the post-author stage.
 
 ### Data available 'on acceptance'
 
