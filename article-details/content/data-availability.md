@@ -133,7 +133,7 @@ If the data issues have been resolved between the article being exported and arr
 
 If approval or ongoing action for 'on request' data has not been indicated, the following author query should be added:
 
-* eLife strongly encourages authors to deposit their data in dedicated repositories to ensure that it is publicly available to all readers. Would you be willing to submit these files to such a repository? If no structured subject-specific repository exists for this kind of data, we recommend Dryad as an alternative and would be happy to assist you in submitting there. If you are already corresponding with the Editorial team about this issue, please let us know.
+* eLife strongly encourages authors to deposit their data in dedicated repositories to ensure that it is publicly available to all readers. Please could you submit these files to such a repository? If no structured subject-specific repository exists for this kind of data, we recommend Dryad as an alternative and would be happy to assist you in submitting there. If you are already corresponding with the Editorial team about this issue, please let us know.
 
 This issue must be resolved before publication, so further action will need to be taken by the Production team at the post-author stage. If the authors have indicated that they have submitted the data to a repository, the data section should be updated with the details. If they have given a reason for the data not to be made publicly available, this should be passed on for Editorial approval. If they have requested help with submitting their data, this should be provided by email.
 
