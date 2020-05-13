@@ -121,7 +121,7 @@ If the editors gave their approval before the article was exported from the subm
 
 #### Pending 'on request' data
 
-If they have yet to do this, this should also be indicated in these comments.
+If the editors have yet to approve the data availability statement, or the Editorial team are still corresponding with the authors about submitting their data, this will also be indicated in the notes
 
 ![](../../.gitbook/assets/screen-shot-2020-04-27-at-15.36.08.png)
 
