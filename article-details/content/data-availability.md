@@ -121,11 +121,13 @@ If the editors gave their approval before the article was exported from the subm
 
 #### Pending 'on request' data
 
-If the editors have yet to approve the data availability statement, or the Editorial team are still corresponding with the authors about submitting their data, this will also be indicated in the notes
+If the editors have yet to approve the data availability statement, or the Editorial team are still corresponding with the authors about submitting their data, this will also be indicated in the notes.
 
-![](../../.gitbook/assets/screen-shot-2020-04-27-at-15.36.08.png)
+![](../../.gitbook/assets/screen-shot-2020-05-13-at-13.13.32.png)
 
-The article cannot be published until this approval is granted, but proofing may proceed in the meantime. The article should be sent to the 'Publisher check' stage so that the Production team can contact the Editorial team.
+The article cannot be published until any outstaning issues with the data availability have been resolved, but proofing may proceed in the meantime. The article should be sent to the 'Publisher check' stage so that the Production team can contact the Editorial team and discuss what action needs to be taken.
+
+If the data issues have been resolved between the article being exported and arriving in Publisher check, the data availability section should be updated accordingly. 
 
 #### 'On request' data with no note
 
