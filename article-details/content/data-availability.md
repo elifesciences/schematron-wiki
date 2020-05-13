@@ -166,13 +166,13 @@ Some authors misunderstand the instructions around datasets and include citation
 
 ![](../../.gitbook/assets/screen-shot-2020-04-28-at-14.47.58.png)
 
-These can usually be identified because the URL provided will be a journal link, journal DOI or a PubMed link.
+These can usually be identified because the URL provided will be a journal link, journal DOI or a PubMed or PMC link \(e.g. https://www.nature.com/articles/nature19057, https://doi.org/10.1038/nature19057, https://www.ncbi.nlm.nih.gov/pubmed/16237209\).
 
 ![](../../.gitbook/assets/screen-shot-2020-05-12-at-13.58.34.png)
 
-### 
+If following this link leads to a journal website or a PubMed/PMC page, it is not appropraite for this entry to be left in the datasets section.
 
-Provided an article is also mentioned in the main reference list and cited in the text, the data entry should be removed. If the reference is not in the main reference list, the author should be asked to move it there with the following query:
+Provided the article is also mentioned in the main reference list and cited in the text, the data entry should be removed. If the reference is not in the main reference list, the author should be asked to move it there with the following query:
 
 * This section is for individual datasets deposited to dedicated repositories only. Citations of previous journal publications should be placed in the main reference list. Please indicate where in the article text this reference should be cited.
 
