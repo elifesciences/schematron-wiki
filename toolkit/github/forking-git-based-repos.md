@@ -193,7 +193,7 @@ The abstract of this paper states:
 
 > We present an experimental environment \(Reach Cage\) and a versatile visuo-haptic interaction system \(MaCaQuE\) for investigating goal-directed whole-body movements of unrestrained monkeys.
 
-As this paper describing the MaCaQuE system, this code does not need to be forked.
+As this paper describing the MaCaQuE system, and the code is for constructing this system, it does not need to be forked.
 
 However, if data was analysed in the paper as in the example below, the linked repositories should be forked. 
 
