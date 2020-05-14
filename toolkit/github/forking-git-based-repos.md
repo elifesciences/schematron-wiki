@@ -189,6 +189,28 @@ If the repository has the same name as the tool being described, this usually in
 
 ![](../../.gitbook/assets/screenshot-2020-04-24-at-11.18.10.png)
 
+## If no links or source code files are provided
+
+If authors refer to custom code but there is no link to this and no source code has been provided, please leave the following query:
+
+* We notice that you refer to custom but it seems this hasn't been provided. Please send source code files to production@elifesciences.org, or upload the code to a dedicated software repository \(such as GitHub, GitLab etc.\) and ensure it is licensed with an open source license \[https://opensource.org/licenses\]. Guidance on what license might better suit you can be found at https://choosealicense.com/ and instructions on how to add a license to a GitHub repository are available here https://help.github.com/articles/adding-a-license-to-a-repository/. Once your code has been licensed, we will fork it to our own GitHub repository for archiving purposes.
+
+## If code is hosted on an institutional website
+
+Sometimes authors will upload their code to an institutional or lab website. For example, in 54983:
+
+> A comprehensive and curated sequence library was prepared querying the Blastp web server and using a custom Python script \([http://dfns.u-shizuoka-ken.ac.jp/labs/proeng/librarycuration.html](http://dfns.u-shizuoka-ken.ac.jp/labs/proeng/librarycuration.html)\), which exhibited more than 30% sequence identity with E. coli BirA \(EU08004.1\).
+
+The link here is to an institutional website:
+
+![](../../.gitbook/assets/screenshot-2020-05-14-at-09.48.43.png)
+
+As it is not possible to fork this, the following query needs to be left:
+
+* We see that you have included a custom script hosted on a lab website. Where possible, we strongly prefer that software is uploaded to dedicated software repositories \(such as GitHub, GitLab etc.\) in the interests of transparency and reproducibility. Would you be willing to do so, and ensure that the software is licensed with an open source license \[https://opensource.org/licenses\]? We can provide guidance for you if required. Once your code has been licensed, we will fork it to our own GitHub repository for archiving purposes.
+
+If the link to the code is not to a GitHub/GitLab/SourceForge/Bitbucket repository, and instead to a lab/institution website \(which will usually have the lab's name in the title of the website or on the page\), the above query should be added.
+
 ## Schematron warnings
 
 The following tests relate to software that may need to be forked.
