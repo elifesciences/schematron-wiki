@@ -185,7 +185,17 @@ If a repository is forked in error \(because the code was not generated specific
 
 ## When to fork code in Tools and Resources papers
 
-If the repository has the same name as the tool being described, this usually indicates that it should not be forked. However, if data is analysed in a Tools and Resources paper, as in the example below,  the linked repositories should be forked. 
+If the repository has the same name as the tool being described in the paper, this usually indicates that it should not be forked. For example the data availability statement of 51322 states:
+
+> All data \(schematics, soft- and hardware documentation\) for constructing the MaCaQuE or equivalent systems is made available via GitHub: [https://github.com/sensorimotorgroupdpz/MaCaQuE](https://github.com/sensorimotorgroupdpz/MaCaQuE).
+
+The abstract of this paper states:
+
+> We present an experimental environment \(Reach Cage\) and a versatile visuo-haptic interaction system \(MaCaQuE\) for investigating goal-directed whole-body movements of unrestrained monkeys.
+
+As this paper describing the MaCaQuE system, this code does not need to be forked.
+
+However, if data was analysed in the paper as in the example below, the linked repositories should be forked. 
 
 ![](../../.gitbook/assets/screenshot-2020-04-24-at-11.18.10.png)
 
