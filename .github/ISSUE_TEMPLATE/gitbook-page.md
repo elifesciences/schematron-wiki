@@ -1,7 +1,7 @@
 ---
 name: GitBook page
 about: Create a new page
-title: [NAME] page
+title: Create [NAME] page
 labels: ''
 assignees: ''
 
