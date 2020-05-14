@@ -21,9 +21,10 @@ assignees: ''
 - [ ] James approved page
 - [ ] Naushin approved page
 - [ ] Share page with Exeter and invite feedback
+- [ ] Revise with Exeter's suggestions
 
 
 ### Definition of done
 - [ ] Page completed
 - [ ] Team reviewed and approved page?
-- [ ] '[Message change](https://github.com/elifesciences/eLife-JATS-schematron/issues/new/choose)' ticket created for Fred to update the Schematron
+- [ ] Assign Fred to update the Schematron
