@@ -109,7 +109,7 @@ Another reason for not making the data publicly available is when it contains id
 
 In both these cases, 'on request' data is permitted with the approval of the editors.
 
-The status of the editors' approval of a data availability statement that says data is available 'on request' should be indicated using a red sticky note in the submission system, which will be exported as a Production Comment. 
+The status of the editors' approval of a data availability statement that says data is available 'on request' should be indicated using a red sticky note in the submission system, which will be exported as a production comment. 
 
 #### Approved 'on request' data
 
@@ -119,13 +119,17 @@ The status of the editors' approval of a data availability statement that says d
 
 If the editors gave their approval before the article was exported from the submission system, this will be indicated in the Production Comments. If such a note is present, no further action needs to be taken and any warnings about 'on request' in the data availability statement can be ignored.
 
-#### Pending 'on request' data - no response
+#### Pending 'on request' data
 
 If the editors have yet to approve the data availability statement, or the Editorial team are still corresponding with the authors about submitting their data, this will also be indicated in the notes.
 
 ![](../../.gitbook/assets/screen-shot-2020-05-13-at-13.13.32.png)
 
-An article cannot be published until any outstaning issues with the data availability have been resolved, but proofing may proceed in the meantime. The article should be sent to the 'Publisher check' stage and the Production team will then check for correspondence from Editorial \(via Slack or email\) regarding this issue.
+An article cannot be published until any outstanding issues with the data availability have been resolved, but proofing may proceed in the meantime.
+
+If the Editorial team resolve this issue, they will inform the Production team how the data section needs to be updated via email or slack message. If the article is still at pre-editing at this point, the Production team should then add a note to the proofing system dashboard with instructions on what needs to be updated. The pre-editor should check these notes if the production comments indicate ongoing data issues and act accordingly.
+
+If ongoing data issues are indicated but there are no notes on the dashboard, the article should be sent to the 'Publisher check' stage and the Production team will then check for correspondence from Editorial.
 
 If the data issues have been resolved between the article being exported and arriving in Publisher check, Production should update the data availability section accordingly. Otherwise, Editorial should be contacted to find out how their communication with the authors or editors is progressing. If they are unlikely to hear back for a while, the article can be move along provided that a note is added to indicate it should not be published until the data issues are resolved.
 
@@ -145,7 +149,7 @@ Related to the above, sometimes when authors are submitting their article, they 
 
 In these cases, the article should be updated with the full dataset information and/or additional source data files. Ideally this will happen before export from the submission system \(e.g. when the revised submission is uploaded\). However, sometimes there will be a delay and an article will be exported before the data has been finalised.
 
-Please check the Production Comments for any notes from the Editorial team that indicate they are working on this issue already. If they are, the Production team will need to contact Editorial to see if the files/dataset information is now available. If there are no notes, please add one of the following queries depending on whether the statement refers to datasets or files:
+Please check the production comments for any notes from the Editorial team that indicate they are working on this issue already. If they are, the Production team will need to contact Editorial to see if the files/dataset information is now available. If there are no notes, please add one of the following queries depending on whether the statement refers to datasets or files:
 
 * Please provide the full details for the mentioned dataset\(s\) \(authors, year, title, database, identifier, direct URL\) and ensure that the data is publicly available.
 * Please provide the source data files mentioned here along with descriptive titles. Please indicate where they should be cited in the main text if appropriate.
