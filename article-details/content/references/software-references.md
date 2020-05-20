@@ -223,7 +223,26 @@ These will need to be updated:
 
 **Warning**: _XXXXXX is a software ref with a host \(XXXXXX\) known to register dois starting with '10.5281/zenodo'. Should it have a link in the format 'https://doi.org/10.5281/zenodo...'?_
 
-**Action:** If a software reference has a source containing 'Zenodo', there needs to be a URL that contains '10.5281/zenodo'. Make sure the DOI URL \(including https://\) is present in the website field in the reference. This is because Continuum does not currently allow DOIs for software references. &lt;add example of Zenodo landing page vs doi&gt;
+**Action:** If a software reference has a source containing 'Zenodo', there needs to be a URL that contains '10.5281/zenodo'. Make sure the DOI URL \(including https://\) is present in the website field in the reference. This is because Continuum does not currently allow DOIs for software references.
+
+In the example below, the WebSite link is incorrectly entered as the landing page for the software, instead of the DOI:
+
+| Fields | Values |
+| :--- | :--- |
+| Author | Winters S |
+| Year | 2019 |
+| Software title | sandrawinters/guenon\_occlusion: eLife |
+| Software name | _Zenodo_ |
+| Software version | 1.0 |
+| **WebSite** |  ****[**https://zenodo.org/record/3574512\#.XsVMhRNKiL8** ](https://zenodo.org/record/3574512#.XsVMhRNKiL8%20)\*\*\*\* |
+
+Clicking the link will send you to this page:
+
+![To get the DOI URL, click on the DOI \(outlined in red above\)](../../../.gitbook/assets/screenshot-2020-05-20-at-16.30.58%20%282%29.png)
+
+The DOI Badge will pop up:
+
+![Copy and paste the Target URL into the WebSite field in Kriya](../../../.gitbook/assets/screenshot-2020-05-20-at-16.31.07.png)
 
 **software-doi-test-2**
 

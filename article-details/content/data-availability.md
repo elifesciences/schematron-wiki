@@ -131,7 +131,7 @@ If the Editorial team resolve this issue, they will inform the Production team h
 
 If ongoing data issues are indicated but there are no notes on the dashboard, the article should be sent to the 'Publisher check' stage and the Production team will then check for correspondence from Editorial.
 
-If the data issues have been resolved between the article being exported and arriving in Publisher check, Production should update the data availability section accordingly. Otherwise, Editorial should be contacted to find out how their communication with the authors or editors is progressing. If they are unlikely to hear back for a while, the article can be move along provided that a note is added to indicate it should not be published until the data issues are resolved.
+If the data issues have been resolved between the article being exported and arriving in Publisher check, Production should update the data availability section accordingly. Otherwise, Editorial should be contacted to find out how their communication with the authors or editors is progressing. If they are unlikely to hear back for a while, the article can be moved along provided that a note is added to indicate it should not be published until the data issues are resolved.
 
 #### 'On request' data with no note
 
