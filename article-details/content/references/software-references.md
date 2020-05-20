@@ -90,6 +90,29 @@ To add a reference for R software, add a new software reference as above. The in
 | Software host | R Foundation for Statistical Computing |
 | Website | http://www.R-project.org |
 
+If authors refer to software packages, these will also need to be cited properly. For example:
+
+> Modelling was executed in the R environment \(R Development Core Team, 2019\) using the biomod2 package \(version 3.3-7.1\)
+
+Looking up [biomod2](https://cran.r-project.org/web/packages/biomod2/index.html) shows this is a package for R. The information from the CRAN website where this is hosted can be entered as below:
+
+| Fields | Values |
+| :--- | :--- |
+| Author | Thuiller W, Georges D, Engler R, Breiner F |
+| Year | 2020 |
+| Software title | biomod2: Ensemble Platform for Species Distribution Modeling |
+| Software name | CRAN |
+| Software version | 3.2-7.1 |
+| Website | https://CRAN.R-project.org/package=biomod2 |
+
+Note the CRAN website gives instructions for the correct link to include when citing software packages:
+
+![](../../../.gitbook/assets/screenshot-2020-05-20-at-16.04.42.png)
+
+The citation can then be updated as below, removing the version details:
+
+> Modelling was executed in the R environment \(R Development Core Team, 2019\) using the biomod2 package \(Thuiller et al., 2020\)
+
 ## **When to add software references**
 
 Any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference. Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [FAIR principles](https://www.go-fair.org/fair-principles/). Please note, this only needs to be done if the software is not already in the reference list.
@@ -110,17 +133,37 @@ The following tests are run on software references. X or XXXXXX refers to quoted
 
 **Error**: _Journal ref 'XXXXXX' has a source title 'XXXXXX' which must be incorrect. It should be a data or software type reference._
 
-**Action:** This error will fire if a Zenodo link has been entered as a journal reference. The ‘XXXXXX’ in this message will refer to the reference in question and its title respectively. Make sure the reference is changed to a software instead of a journal reference, and the fields are updated appropriately.
+**Action:** This error will fire if a Zenodo link has been entered as a journal reference, as in the example below. The ‘XXXXXX’ in this message will refer to the reference in question and its title respectively. Make sure the reference is changed to a software instead of a journal reference, and the fields are updated appropriately. 
 
-![Software on zenodo incorrectly entered as a journal reference](../../../.gitbook/assets/screenshot-2020-05-20-at-13.18.47.png)
+Zenodo link incorrectly entered as a journal reference:
+
+| Fields | Values |
+| :--- | :--- |
+| Author | Winters S |
+| Year | 2019 |
+| Article title | sandrawinters/guenon\_occlusion: eLife |
+| Journal title | _Zenodo_ |
+| DOI | 10.5281/zenodo.357451 |
 
 When this is changed to a software reference, there will be several untagged fields
 
-![](../../../.gitbook/assets/screenshot-2020-05-06-at-15.06.08.png)
+| Fields | Values |
+| :--- | :--- |
+| Author | Winters S |
+| Year | 2019 |
+| unTagged | sandrawinters/guenon\_occlusion: eLife |
+| unTagged | _Zenodo_ |
 
 These will need to be updated:
 
-![Correctly entered fields for a Zenodo software reference](../../../.gitbook/assets/screenshot-2020-05-06-at-15.09.50.png)
+| Fields | Values |
+| :--- | :--- |
+| Author | Winters S |
+| Year | 2019 |
+| Software title | sandrawinters/guenon\_occlusion: eLife |
+| Software name | _Zenodo_ |
+| Software version | 1.0 |
+| WebSite | https://doi.org/10.5281/zenodo.357451 |
 
 #### **github-web-test**
 
