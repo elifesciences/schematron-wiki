@@ -21,8 +21,6 @@ assignees: ''
 - [ ] James approved page
 - [ ] Naushin approved page
 - [ ] Share page with Exeter and invite feedback
-- [ ] Revise with Exeter's suggestions
-
 
 ### Definition of done
 - [ ] Page completed
