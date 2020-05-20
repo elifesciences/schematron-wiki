@@ -20,7 +20,7 @@
   * [Data availability](article-details/content/data-availability.md)
   * [Impact statement](article-details/content/impact-statement.md)
   * [Figures](article-details/content/untitled.md)
-  * [Funding Information](article-details/content/funding-information.md)
+  * [Funding](article-details/content/funding-information.md)
   * [Paragraphs](article-details/content/untitled-1.md)
   * [Reference citations](article-details/content/reference-citations.md)
   * [References](article-details/content/references/README.md)

@@ -2,20 +2,24 @@
 description: How to manage funding information for eLife's articles
 ---
 
-# Funding Information
+# Funding
 
 If you are looking for a list of schematron messages related to the funding section, please click [here](funding-information.md#schematron-warnings).
 
-### Funding section overview
+## What is the funding section?
 
-* All funding received by authors in the process of researching and publishing the article needs to be referenced in the funding table. 
+The funding section is where all funding received by authors in the process of researching and publishing the article is listed. The name of the funder, the reference number of the grant \(if appropriate\), the author\(s\) who received the funding, and a funding statement are included in the funding table.
+
 * Every funder must have at least one author associated with it.
 * Grant references are optional. 
   * [Only one grant number](funding-information.md#multiple-grant-references-in-one-entry) should be displayed per entry in the funding table. 
   * If two or more grants are present in one entry, they should be [split into multiple funding entries](funding-information.md#multiple-grant-references-in-one-entry). 
 * Whenever the funding section is edited, an author query must be added so the authors can approve the change.
+* The [funding statement](funding-information.md#funding-group-test-1) may differ depending on the article. 
 
-![An example of the funding table](../../.gitbook/assets/screenshot-2020-04-07-at-11.47.55.png)
+![An example of a funding table](../../.gitbook/assets/screenshot-2020-04-07-at-11.47.55.png)
+
+## What needs to be checked?
 
 ### Funder Registry
 
@@ -231,7 +235,7 @@ The following tests are run on the funding section. X or XXXXXX refers to quoted
 
 ### Content warnings
 
-These warnings relate to the content of a funding statement.
+These warnings relate to the content of the funding section.
 
 #### funding-group-test-3
 
