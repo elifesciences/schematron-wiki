@@ -1,2 +1,2 @@
-# Typesetting
+# Pre-editing/copyediting
 

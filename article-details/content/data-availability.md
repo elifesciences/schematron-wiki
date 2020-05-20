@@ -30,7 +30,7 @@ The contents of the statement should be reflected in the rest of the dataset sec
 
 Any statement that indicates data is available on request from the authors will need to be approved by Editorial prior to publication. Cases where this is acceptable include exceptionally large datasets that cannot be supported by existing repositories and patient data that cannot be anonymised.
 
-Data availability statements may also mention code that has been made publicly available by the authors. Instructions on how to deal with this can be found [here](../../toolkit/github/forking-git-based-repos.md#checklist-for-forking-repositories).
+Data availability statements may also mention code that has been made publicly available by the authors. Instructions on how to deal with this can be found [here](../../toolkit/forking-git-based-repos.md#checklist-for-forking-repositories).
 
 ### Generated datasets
 

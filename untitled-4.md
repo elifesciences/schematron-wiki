@@ -1,5 +1,7 @@
 ---
-description: Add a page description.
+description: >-
+  Add a page description. For pages with a changelog, include 'Updated
+  dd/mm/yyyy'
 ---
 
 # Template
@@ -52,3 +54,17 @@ Include an example of the xml with variations if appropriate.
 
 Where applicable, give links to related pages and external sites.
 
+## Changelog
+
+If relevant, list the changes made to the page in order from oldest to most recent.
+
+### dd/mm/yyyy
+
+#### Changed
+
+* 
+### dd/mm/yyyy
+
+#### Changed
+
+* 

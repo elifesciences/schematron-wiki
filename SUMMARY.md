@@ -7,8 +7,8 @@
 ## Checklists
 
 * [QA at submission](checklists/qa-at-submission.md)
-* [Typesetting](checklists/typesetting.md)
-* [Copyediting](checklists/copyediting.md)
+* [Pre-editing/copyediting](checklists/typesetting.md)
+* [Freelance copyediting](checklists/copyediting.md)
 * [Production check](checklists/production-check.md)
 * [Post-publication](checklists/post-publication.md)
 
@@ -37,8 +37,7 @@
 ## Toolkit
 
 * [Kriya](toolkit/kriya.md)
-* [Github](toolkit/github/README.md)
-  * [Forking Git-based repositories](toolkit/github/forking-git-based-repos.md)
+* [Forking Git-based repositories](toolkit/forking-git-based-repos.md)
 
 ## Interacting with authors
 

@@ -1,2 +1,2 @@
-# Copyediting
+# Freelance copyediting
 
