@@ -33,7 +33,7 @@ The following information can be added for software references:
 
 Where the optional information is available, this should also be added in. 
 
-* **Authors**: Enter each author name as a surname followed by initials. This information may be present if you follow the link to the software website. Need to agree on what to do if this info isn't available.
+* **Authors**: Enter each author name as a surname followed by initials. This information may be present if you follow the link to the software website. 
 * **Collaboration:** If the software was made by a team this should be entered as a collaboration instead of authors ****e.g. ****R Development Core Team.
 * **Year**: This should be the year that the software being cited was released. 
 * **Software title**: The name of the software.
@@ -42,6 +42,10 @@ Where the optional information is available, this should also be added in.
 * **Publisher location:** The location of the publishers of the software. This is separated into city and country fields in Kriya.
 * **Publisher**: The company or organisation that created the software and has ownership rights over it.
 * **Website**: Some software providers add DOIs for their software. These need to be added as a full DOI links instead of just the DOI.
+
+If any of the mandatory information for a reference cannot easily be found from what the authors have provided in text, please leave the following author query:
+
+* eLife's policy is to include full software reference details in accordance with FAIR principles. Please provide the \[insert missing information\] for this reference.
 
 ## How to add a software reference
 
@@ -58,7 +62,16 @@ The default fields in Kriya will need to be altered to include the following inf
 * Software version - for GitHub references, this is the latest commit number
 * Website - This should be a link to the original \(not the forked\) repository
 
-![Details required for a GitHub repository reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.11.15.png)
+An example of correctly entered fields for a GitHub repository reference is given below:
+
+| Fields | Values |
+| :--- | :--- |
+| Author | Deverett B |
+| Year | 2018 |
+| Software title | accumulating\_puffs |
+| Software name | GitHub |
+| Software version | 71 |
+| Website | https://www.github.com/wanglabprinceton/accumulating\_puffs |
 
 Guidance on what information should be included in a software reference can sometimes be found on the software website. For example, for R references, the developers provide the [following information](https://cran.r-project.org/doc/FAQ/R-FAQ.html):
 
@@ -66,7 +79,16 @@ Guidance on what information should be included in a software reference can some
 
 To add a reference for R software, add a new software reference as above. The information above needs to be entered into Kriya in the order shown below:
 
-![Details required for R software reference ](../../../.gitbook/assets/screenshot-2020-05-07-at-16.26.58.png)
+| Fields | Values |
+| :--- | :--- |
+| Collaboration | R Development Core Team |
+| Year | 2014 |
+| Software title | R: A Language and Environment for Statistical Computing |
+| Software version | 3.1.0 |
+| Publisher city | Vienna |
+| Publisher country | Austria |
+| Software host | R Foundation for Statistical Computing |
+| Website | http://www.R-project.org |
 
 ## **When to add software references**
 
@@ -88,9 +110,9 @@ The following tests are run on software references. X or XXXXXX refers to quoted
 
 **Error**: _Journal ref 'XXXXXX' has a source title 'XXXXXX' which must be incorrect. It should be a data or software type reference._
 
-**Action:** This error will fire if a Zenodo link has been entered as a journal reference. The ‘XXXXXX’ in this message will refer to the reference in question and its title respectively. Make sure the reference is changed to a software instead of a journal reference, and the fields are updated appropriately. &lt;add DOI to example/screenshot&gt;
+**Action:** This error will fire if a Zenodo link has been entered as a journal reference. The ‘XXXXXX’ in this message will refer to the reference in question and its title respectively. Make sure the reference is changed to a software instead of a journal reference, and the fields are updated appropriately.
 
-![A software on zenodo incorrectly entered as a journal reference](../../../.gitbook/assets/screenshot-2020-05-06-at-15.02.10.png)
+![Software on zenodo incorrectly entered as a journal reference](../../../.gitbook/assets/screenshot-2020-05-20-at-13.18.47.png)
 
 When this is changed to a software reference, there will be several untagged fields
 
@@ -116,7 +138,7 @@ These will need to be updated:
 
 **Error**: _software ref 'XXXXXX' has a data-title - XXXXXX - but it has XXXXXX collab element\(s\)._
 
-**Action:** This error will appear if the data title of a software is ‘R: A Language and Environment for Statistical Computing’ and there is no collaboration element present. Make sure the collaboration is entered as ‘R Development Core Team’.
+**Action:** If the data title of a software is ‘R: A Language and Environment for Statistical Computing’ there needs to be 1 collaboration element present. This error will fire if the data title is ‘R: A Language and Environment for Statistical Computing’ and the number of collaboration elements is anything other than 1 \(e.g. 0 or 7\). Make sure only one collaboration element is present \(and it is entered as ‘R Development Core Team’\).
 
 **R-test-3**
 
