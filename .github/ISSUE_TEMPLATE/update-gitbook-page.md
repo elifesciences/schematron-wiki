@@ -1,7 +1,7 @@
 ---
 name: Update GitBook page
 about: Update an existing page
-title: ''
+title: Update [NAME] page
 labels: pageupdate
 assignees: ''
 
