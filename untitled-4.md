@@ -6,9 +6,13 @@ description: >-
 
 # Template
 
-## Overview
+## What is the \[insert subject of page\]?
 
-Describe what the page is about and what needs to be checked. 
+Give a brief description of the subject being addressed in the page. 
+
+## What needs to be checked?
+
+Outline the main things that need to be checked.
 
 ## Examples
 
