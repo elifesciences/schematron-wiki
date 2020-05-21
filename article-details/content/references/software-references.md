@@ -55,7 +55,7 @@ Make sure a citation is added whenever the software is mentioned in the text or 
 
 The default fields in Kriya will need to be altered to include the following information in this order:
 
-* Author - for GitHub references, you can just enter the first author's name
+* Author - for GitHub references, you can just enter the first author's name. Sometimes the repository will include information about the authors.
 * Year - the year the repository was made 
 * Software title - for GitHub references, this is the name of the repository 
 * Source - GitHub
