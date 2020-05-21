@@ -37,7 +37,7 @@
 ## Toolkit
 
 * [Kriya](toolkit/kriya.md)
-* [Forking Git-based repositories](toolkit/forking-git-based-repos.md)
+* [When and how to fork repositories](toolkit/forking-git-based-repos.md)
 
 ## Interacting with authors
 

@@ -2,7 +2,7 @@
 description: How to fork code to eLife's GitHub repository - Updated 14/05/2020
 ---
 
-# Forking Git-based repositories
+# When and how to fork repositories
 
 ## Overview
 
