@@ -15,7 +15,7 @@
 ## Article details
 
 * [Content](article-details/content/README.md)
-  * [Tables](article-details/content/untitled-3.md)
+  * [Tables](article-details/content/tables.md)
   * [Country names](article-details/content/country-names.md)
   * [Data availability](article-details/content/data-availability.md)
   * [Impact statement](article-details/content/impact-statement.md)
