@@ -127,15 +127,15 @@ If the editors have yet to approve the data availability statement, or the Edito
 
 An article cannot be published until any outstanding issues with the data availability have been resolved, but proofing may proceed in the meantime.
 
-If the Editorial team resolve this issue, they will inform the Production team how the data section needs to be updated via email or slack message. If the article is still at pre-editing at this point, the Production team should then add a note to the proofing system dashboard with instructions on what needs to be updated. The pre-editor should check these notes if the production comments indicate ongoing data issues and act accordingly.
+If the Editorial team resolve this issue, they will inform the Production team how the data section needs to be updated via email or slack message. If the article is still at pre-editing at this point, the Production team should add a note to the proofing system dashboard stating what needs to be updated. The pre-editor should check these notes for instructions and act accordingly.
 
-If ongoing data issues are indicated but there are no notes on the dashboard, the article should be sent to the 'Publisher check' stage and the Production team will then check for correspondence from Editorial.
+If there is mention of 'on request' data and the production comments state that data issues are pending, but there are no notes on the dashboard, the following author query should be added to the data availability statement:
 
-If the data issues have been resolved between the article being exported and arriving in Publisher check, Production should update the data availability section accordingly. Otherwise, Editorial should be contacted to find out how their communication with the authors or editors is progressing. If they are unlikely to hear back for a while, the article can be moved along provided that a note is added to indicate it should not be published until the data issues are resolved.
+* eLife requires all datasets associated with an article to be made freely and widely available \(unless there are strong reasons to restrict access, for example in the case of human subjects data\), in the most useful formats, and according to the relevant reporting standards. Please confirm that the data currently available upon request are being deposited to a subject repository or a general repository, and update the data statement accordingly. If you are already corresponding with the editorial team about this issue, please let us know.
 
 #### 'On request' data with no note
 
-If approval or ongoing action for 'on request' data has not been indicated, the following author query should be added:
+If approval or ongoing action for 'on request' data has not been indicated, with production comments, the following author query should be added:
 
 * eLife requires all datasets associated with an article to be made freely and widely available \(unless there are strong reasons to restrict access, for example in the case of human subjects data\), in the most useful formats, and according to the relevant reporting standards. Please confirm that the data currently available upon request are being deposited to a subject repository or a general repository, and update the data statement accordingly. If you are already corresponding with the editorial team about this issue, please let us know.
 
@@ -149,12 +149,14 @@ Related to the above, sometimes when authors are submitting their article, they 
 
 In these cases, the article should be updated with the full dataset information and/or additional source data files. Ideally this will happen before export from the submission system \(e.g. when the revised submission is uploaded\). However, sometimes there will be a delay and an article will be exported before the data has been finalised.
 
-Please check the production comments for any notes from the Editorial team that indicate they are working on this issue already. If they are, the Production team will need to contact Editorial to see if the files/dataset information is now available. If there are no notes, please add one of the following queries depending on whether the statement refers to datasets or files:
+If the Editorial team are working on this issue, they may contact the Production team following article export to provide the final data information. In this case, the Production team should add a note to the proofing system dashboard stating what needs to be updated. The pre-editor should check these notes for instructions and act accordingly.
+
+If a data statement still indicates that data will be 'available upon acceptance' or similar, the following queries should be used depending on whether the statement refers to datasets or files:
 
 * Please provide the full details for the mentioned dataset\(s\) \(authors, year, title, database, identifier, direct URL\) and ensure that the data is publicly available.
 * Please provide the source data files mentioned here along with descriptive titles. Please indicate where they should be cited in the main text if appropriate.
 
-Once the author has provided these details, the data availability section will most likely need to be updated with the final details for the datasets and/or source data files. In some cases, however, the data will have been incorporated into the main article and the mention of 'on acceptance' data can be deleted.
+At the post-author stage, once the author has provided these details, the data availability section will most likely need to be updated with the final details for the datasets and/or source data files. In some cases, however, the data will have been incorporated into the main article and the mention of 'on acceptance' data can be deleted.
 
 ### Data mentioned in the statement but not listed as a citation
 
