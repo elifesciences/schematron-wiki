@@ -169,7 +169,7 @@ Trying to fork these repositories brought up these messages:
 
 ![](../.gitbook/assets/fork.jpg)
 
-Comparing the forked repositories to the ones that are linked in the article shows that the code has not been updated \(see below, note both repositories were last updated 2 years ago\). Therefore, the repository doesn't need to be forked again. Instead, [software references](../article-details/content/references/software-references.md#how-to-add-a-software-reference) were added. 
+Comparing the forked repositories to the ones that are linked in the article shows that the code has not been updated \(see below, note both repositories were last updated 2 years ago\). Therefore, the repository doesn't need to be forked again. Instead, [software references](../article-details/content/references/software-references.md#how-to-add-a-software-reference) should be added. 
 
 ![Repository linked in the article](../.gitbook/assets/screenshot-2020-04-24-at-13.02.03.png)
 
