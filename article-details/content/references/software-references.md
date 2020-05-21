@@ -115,7 +115,7 @@ The citation can then be updated as below, removing the version details:
 
 ## **When to add software references**
 
-Any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference. Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [FAIR principles](https://www.go-fair.org/fair-principles/). Please note, this only needs to be done if the software is not already in the reference list. If any of the mandatory information required for a software reference is missing however, please leave the following author query:
+Any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference. Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [FAIR principles](https://peerj.com/articles/cs-86/). Please note, this only needs to be done if the software is not already in the reference list. If any of the mandatory information required for a software reference is missing however, please leave the following author query:
 
 * eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list.
 
