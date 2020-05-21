@@ -146,5 +146,21 @@ Exeter will need to correct this issue if it fires.
 
 If the article is post-author, then the authors should be queried to check that this is correct \(if they haven't been already\).
 
+#### doi-link-test
 
+**Error**: td element containing - '_XXXXXX_' - looks like it contains a doi, but it contains no link with 'doi.org', which is incorrect.
+
+**Action**: This will fire if a table cell in a Key resources table contains a doi. All dois should be linked in the KR table, so action should be taken to ensure that the doi text has an embedded link \(https://doi.org/{doi}\).
+
+#### PMID-link-test
+
+**Error**: td element containing - 'XXXXXX' - looks like it contains a PMID, but it contains no link pointing to PubMed, which is incorrect.
+
+**Action**: This will fire if a table cell in a Key resources table contains a PMID. All PMIDs should be linked in the KR table, so action should be taken to ensure that the PMID text has an embedded link \(https://www.pubmed.ncbi.nlm.nih.gov/{PMID}\).
+
+#### PMCID-link-test
+
+**Error**: td element containing - 'XXXXXX' - looks like it contains a PMCID, but it contains no link pointing to PMC, which is incorrect.
+
+**Action**: This will fire if a table cell in a Key resources table contains a PMCID. All PMCIDs should be linked in the KR table, so action should be taken to ensure that the PMCID text has an embedded link \(https://www.ncbi.nlm.nih.gov/pmc/{PMCID}\).
 
