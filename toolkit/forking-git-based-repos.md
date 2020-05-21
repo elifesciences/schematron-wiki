@@ -237,5 +237,16 @@ The following tests relate to software that may need to be forked.
 
 **Action**: This error will appear if the phrase 'copy archived' is included in the hyperlink to the forked repository. 'XXXXXX' in this error message will be the text which has hyperlink formatting. When pasting in the forked repository link, make sure only the url is hyperlinked. 
 
+## Changelog
 
+### 14/05/2020
 
+#### Changed
+
+* Added sections: 'If no links or source code files are provided' and 'If no links or source code files are provided'
+
+### dd/mm/yyyy
+
+#### Changed
+
+* 
