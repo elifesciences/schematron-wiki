@@ -1,5 +1,5 @@
 ---
-description: How to fork code to eLife's GitHub repository
+description: How to fork code to eLife's GitHub repository - Last updated 14/05/2020
 ---
 
 # Forking Git-based repositories
@@ -239,14 +239,17 @@ The following tests relate to software that may need to be forked.
 
 ## Changelog
 
+### 13/05/2020
+
+#### Added
+
+* Section: 'How to delete accidentally forked repositories'
+
 ### 14/05/2020
 
-#### Changed
+#### Added
 
-* Added sections: 'If no links or source code files are provided' and 'If no links or source code files are provided'
+* Sections: 'If no links or source code files are provided' and 'If no links or source code files are provided'
 
-### dd/mm/yyyy
 
-#### Changed
 
-* 
