@@ -97,7 +97,7 @@ If it is not possible to derive the URL from the information provided \(e.g. the
 
 ### Data available 'on request'
 
-Many journals allow authors to make their data available only 'on request', meaning that a reader must contact the corresponding author to receive the data underlying an article. To ensure openness, eLife instead encourages authors to deposit all their data in a dedicated subject-specific repository or a more general archive such as Dryad or figshare, where it will be available to anyone who wants it.
+Many journals allow authors to make their data available only 'on request', meaning that a reader must contact the corresponding author to receive the data underlying an article. To ensure openness, eLife instead asks authors to deposit all their data in a dedicated subject-specific repository or a more general archive such as Dryad or figshare, where it will be available to anyone who wants it.
 
 If an article is submitted with a data availability statement saying that generated data is available on request, the Editorial team will ask the authors to upload it to an appropriate repository. Usually there will be no problem with this and the data statement will be updated with the details of where the data was submitted. On occasion, however, the authors may push back. This can be because of unfamiliarity with the available options and in these cases, the Editorial team will continue to work with the authors to find an appropriate solution. However, it can also be because the dataset is simply too large \(in the range of terabytes of data\) for any repository to accept, necessitating a custom solution such as a dedicated institutional server.
 
@@ -139,7 +139,7 @@ If approval or ongoing action for 'on request' data has not been indicated, the 
 
 * eLife requires all datasets associated with an article to be made freely and widely available \(unless there are strong reasons to restrict access, for example in the case of human subjects data\), in the most useful formats, and according to the relevant reporting standards. Please confirm that the data currently available upon request are being deposited to a subject repository or a general repository, and update the data statement accordingly. If you are already corresponding with the editorial team about this issue, please let us know.
 
-This issue must be resolved before publication, so further action will need to be taken by the Production team at the post-author stage. If the authors have indicated that they have submitted the data to a repository, the data section should be updated with the details. If they have given a reason for the data not to be made publicly available, this should be passed on for Editorial approval. If they have requested help with submitting their data, this should be provided by email.
+This issue must be resolved before publication, so further action will need to be taken by the Production team at the post-author stage. If the authors have indicated that they have submitted the data to a repository, the data section should be updated with the details. If they have given a reason for the data not to be made publicly available, this should be communicated to the Editorial team who may need to OK it with the editors. If the authors have requested further advice or help with submitting their data to Dryad, the Editorial team should be asked to provide this.
 
 ### Data available 'on acceptance'
 
