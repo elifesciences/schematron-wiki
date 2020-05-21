@@ -135,7 +135,7 @@ If there is mention of 'on request' data and the production comments state that 
 
 #### 'On request' data with no note
 
-If approval or ongoing action for 'on request' data has not been indicated, with production comments, the following author query should be added:
+If approval or ongoing action for 'on request' data has not been indicated with production comments, the following author query should be added:
 
 * eLife requires all datasets associated with an article to be made freely and widely available \(unless there are strong reasons to restrict access, for example in the case of human subjects data\), in the most useful formats, and according to the relevant reporting standards. Please confirm that the data currently available upon request are being deposited to a subject repository or a general repository, and update the data statement accordingly. If you are already corresponding with the editorial team about this issue, please let us know.
 
