@@ -45,7 +45,7 @@ Where the optional information is available, this should also be added in.
 
 If any of the mandatory information for a reference cannot easily be found from what the authors have provided in text, please leave the following author query:
 
-* eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) so that we can add it to the reference list.
+* eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list.
 
 ## How to add a software reference
 
@@ -115,7 +115,9 @@ The citation can then be updated as below, removing the version details:
 
 ## **When to add software references**
 
-Any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference. Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [FAIR principles](https://www.go-fair.org/fair-principles/). Please note, this only needs to be done if the software is not already in the reference list.
+Any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference. Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [FAIR principles](https://www.go-fair.org/fair-principles/). Please note, this only needs to be done if the software is not already in the reference list. If any of the mandatory information required for a software reference is missing however, please leave the following author query:
+
+* eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list.
 
 ![All the software here needs to be added as software references and cited properly](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17.png)
 
@@ -169,7 +171,23 @@ These will need to be updated:
 
 **Warning**: _web ref 'XXXXXX' has a link which contains 'github', therefore it should almost certainly be captured as a software ref \(unless it's a blog post by GitHub\)._
 
-**Action:** This warning will fire if a website reference contains the word ‘github’. If the link is to a repository on GitHub, this reference needs to be changed from a website to a software reference and the fields should be updated appropriately \(see [above](software-references.md#how-to-add-a-software-reference)\). If the link is to a blog post by GitHub however, it can be kept as a website reference. &lt;add screenshot of this example too \(without a version number\)&gt;
+**Action:** This warning will fire if a website reference contains the word ‘github’. If the link is to a repository on GitHub, this reference needs to be changed from a website to a software reference and the fields should be updated appropriately \(see [above](software-references.md#how-to-add-a-software-reference)\). In the example below, a repository is incorrectly captured as a website reference: 
+
+| Fields | Values |
+| :--- | :--- |
+| Author | Deverett B |
+| Year | 2018 |
+| Website | https://www.github.com/wanglabprinceton/accumulating\_puffs |
+| Accessed date |  |
+
+If the link is to a blog post by GitHub however, as the example below, it can be kept as a website reference.
+
+| Fields | Values |
+| :--- | :--- |
+| Author | Heisman L |
+| Year | 2020 |
+| Website | https://github.blog/2020-05-15-remote-work-how-finance-legal-and-it-made-the-shift/ |
+| Accessed date | May 21, 2020 |
 
 #### **R-test-1** 
 
