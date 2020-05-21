@@ -157,7 +157,7 @@ Enter the name of the repository \(in the example above, this would be 'Orbital-
 
 ## Examples of code that doesn't need to be forked
 
-Often, authors will include links or references to software they have used in their studies. These do not need to be forked if they were not generated specifically for the paper. In the example below, none of the GitHub repositories linked need to be forked, as they are references to software that is already available.
+Often, authors will include links or references to software they have used in their studies. These do not need to be forked if they were not generated specifically for the paper. In the example below, none of the GitHub repositories linked need to be forked, as they are references to software that is already available. They should be added as [software references](../article-details/content/references/software-references.md#how-to-add-a-software-reference) instead.
 
 ![](../.gitbook/assets/screenshot-2020-04-23-at-10.24.29.png)
 
