@@ -229,8 +229,9 @@ The following tests relate to software that may need to be forked.
 
 **Warning**: _Article possibly contains code that needs forking. Search - XXXXXX_
 
-**Action**: This warning will appear if the following words are present: github, gitlab, codeplex, sourceforge, bitbucket or assembla. 'XXXXXX' in this warning will be one of these words. If this warning fires, it may indicate there is code which needs to be forked or imported. [See above](forking-git-based-repos.md#examples-of-code-that-doesnt-need-to-be-forked) to determine whether this is necessary.
+**Action**: This warning will appear if the following words are present: github, gitlab, codeplex, sourceforge, bitbucket or assembla. 'XXXXXX' in this warning will be one of these words. If this warning fires, it may indicate there is code which needs to be forked or imported. [See above](forking-git-based-repos.md#examples-of-code-that-doesnt-need-to-be-forked) to determine whether this is necessary. If the code was specifically written as part of the work reported, it should be forked and a software reference should be added \(see above\). If it is previously published code please query the author to provide full citation details:
 
+* 
 #### ext-link-child-test-3
 
 **Error**: _ext-link - XXXXXX - contains the phrase 'copy archived', which is incorrect._

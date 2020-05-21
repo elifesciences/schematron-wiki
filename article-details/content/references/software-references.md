@@ -45,7 +45,7 @@ Where the optional information is available, this should also be added in.
 
 If any of the mandatory information for a reference cannot easily be found from what the authors have provided in text, please leave the following author query:
 
-* eLife's policy is to include full software reference details in accordance with FAIR principles. Please provide the \[insert missing information\] for this reference.
+* eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) so that we can add it to the reference list.
 
 ## How to add a software reference
 
@@ -171,27 +171,27 @@ These will need to be updated:
 
 **Action:** This warning will fire if a website reference contains the word ‘github’. If the link is to a repository on GitHub, this reference needs to be changed from a website to a software reference and the fields should be updated appropriately \(see [above](software-references.md#how-to-add-a-software-reference)\). If the link is to a blog post by GitHub however, it can be kept as a website reference. &lt;add screenshot of this example too \(without a version number\)&gt;
 
-#### **R-test-1**
+#### **R-test-1** 
 
-**Error**: _software ref 'XXXXXX' has a data-title - XXXXXX - but it does not have one collab element containing 'R Development Core Team'._
+**Error**: _software ref 'XXXXXX' has a data-title '_R: A Language and Environment for Statistical Computing' _- but it does not have one collab element containing 'R Development Core Team'._
 
-**Action:** This error will appear if the data title of a software is ‘R: A Language and Environment for Statistical Computing’ and there is no collaboration element present. Make sure the collaboration is entered as ‘R Development Core Team’.
+**Action:** During the conversion process, errors can occur. For example the collaboration 'R Development Core Team' can be mistakenly split over multiple collaboration fields or listed as an author. It may also be spelled incorrectly. If this error appears, make sure there is only one collaboration entered as ‘R Development Core Team’ for this reference and delete any other collaborations.
 
 #### **R-test-2**
 
-**Error**: _software ref 'XXXXXX' has a data-title - XXXXXX - but it has XXXXXX collab element\(s\)._
+**Error**: _software ref 'XXXXXX' has a data-title '_R: A Language and Environment for Statistical Computing' _- but it has XXXXXX collab element\(s\)._
 
-**Action:** If the data title of a software is ‘R: A Language and Environment for Statistical Computing’ there needs to be 1 collaboration element present. This error will fire if the data title is ‘R: A Language and Environment for Statistical Computing’ and the number of collaboration elements is anything other than 1 \(e.g. 0 or 7\). Make sure only one collaboration element is present \(and it is entered as ‘R Development Core Team’\).
+**Action:** During the conversion process, errors can occur. For example the collaboration 'R Development Core Team' can be mistakenly split over multiple collaboration fields or listed as an author. It may also be spelled incorrectly. If this error appears, make sure there is only one collaboration entered as ‘R Development Core Team’ for this reference and delete any other collaborations.
 
 **R-test-3**
 
-**Error**: _software ref 'XXXXXX' has a data-title - XXXXXX - but does not have a &lt;publisher-loc&gt;Vienna, Austria&lt;/publisher-loc&gt; element._
+**Error**: _software ref 'XXXXXX' has a data-title '_R: A Language and Environment for Statistical Computing' _- but does not have a &lt;publisher-loc&gt;Vienna, Austria&lt;/publisher-loc&gt; element._
 
 **Action:** This error will appear if the data title of a software is ‘R: A Language and Environment for Statistical Computing’ and the publisher location is not entered correctly. 'Vienna' should be entered in the Publisher city field and 'Austria' should be entered in the Publisher country field.
 
 **R-test-4**
 
-**Error**: _software ref 'XXXXXX' has a data-title - XXXXXX - but does not have a 'http://www.r-project.org' type link._
+**Error**: _software ref 'XXXXXX' has a data-title '_R: A Language and Environment for Statistical Computing' _- but does not have a 'http://www.r-project.org' type link._
 
 **Action:** This error will appear if the data title of a software is ‘R: A Language and Environment for Statistical Computing’ and the external link has not been entered correctly. Make sure the external link is added as a URI and entered as ‘http://www.r-project.org’.
 
