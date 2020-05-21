@@ -97,7 +97,7 @@ If it is not possible to derive the URL from the information provided \(e.g. the
 
 ### Data available 'on request'
 
-It is standard practice at many journals to allow authors to make their data available only 'on request', meaning that a reader must contact the corresponding author to receive the data underlying an article. To ensure openness, eLife instead encourages authors to deposit all their data in a dedicated subject-specific repository or a more general archive such as Dryad or figshare, where it will be available to anyone who wants it.
+Many journals allow authors to make their data available only 'on request', meaning that a reader must contact the corresponding author to receive the data underlying an article. To ensure openness, eLife instead encourages authors to deposit all their data in a dedicated subject-specific repository or a more general archive such as Dryad or figshare, where it will be available to anyone who wants it.
 
 If an article is submitted with a data availability statement saying that generated data is available on request, the Editorial team will ask the authors to upload it to an appropriate repository. Usually there will be no problem with this and the data statement will be updated with the details of where the data was submitted. On occasion, however, the authors may push back. This can be because of unfamiliarity with the available options and in these cases, the Editorial team will continue to work with the authors to find an appropriate solution. However, it can also be because the dataset is simply too large \(in the range of terabytes of data\) for any repository to accept, necessitating a custom solution such as a dedicated institutional server.
 
