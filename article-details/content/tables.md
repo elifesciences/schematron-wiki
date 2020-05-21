@@ -136,5 +136,15 @@ Exeter will need to correct this issue if it fires.
 * If the table citation is obviously a reference to a table from another article or piece of work \(e.g. Table 1 from Smith et al., 2020\), then this can be ignored.
 * If neither of the above two conditions is the case, then the text should be added as a citation instead.
 
+#### xref-column-test
+
+**Warning**: '_XXXXXX' citation is in a column in the Key Resources Table which usually does not include references. Is it correct?_
+
+**Action**: This will fire if a citation is present in the 1st, 2nd or 4th column in a Key resources table. If it's clear, based on the content of the rest of the table, that the citation should be moved in the 3rd \(headed 'Source/reference'\) or 5th \(headed 'Additional information'\) column, then ensure that it is moved to one of these columns. If it is not clear, and the article is at a pre-author stage, then the following query should be added:
+
+* Please confirm, is this citation in the correct column?
+
+If the article is post-author, then the authors should be queried to check that this is correct \(if they haven't been already\).
+
 
 
