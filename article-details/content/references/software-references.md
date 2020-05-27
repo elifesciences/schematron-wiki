@@ -43,9 +43,9 @@ Where the optional information is available, this should also be added in.
 * **Publisher**: The company or organisation that created the software and has ownership rights over it.
 * **Website**: Some software providers add DOIs for their software. These need to be added as a full DOI links instead of just the DOI.
 
-If any of the mandatory information for a reference cannot easily be found from what the authors have provided in text, please leave the following author query:
+If any of the mandatory information for a reference cannot easily be found from what the authors have provided in text, please leave the following author query, deleting as appropriate the information that has already been provided:
 
-* eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list.
+* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list.
 
 ## How to add a software reference
 
@@ -344,6 +344,24 @@ The DOI Badge will pop up:
 **Error**: _software ref 'XXXXXX' has a source \(Software name\) - XXXXXX. Since this is a software publisher, it should be captured in a publisher-name element. Please move into the Software host field._
 
 **Action:** This error will appear if the publisher of a software reference has incorrectly been entered as the source. XXXXXX in this case will be the reference id and whatever has been entered in the 'Source' field respectively. To fix this, move whatever has been entered in the Source field into the Publisher field, and delete the \(now empty\) Source field.
+
+#### **ref-software-test-5**
+
+**Warning**: _XXXXXX software ref \(with id 'XXXXXX'\) does not have a version number. Is this correct?_ 
+
+**Action:** This warning will appear if a software reference does not have a version number. If the version number is mentioned in the text, add this information to the reference in the 'Software version' field. If the version number is not included, please leave the following query.
+
+* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the version used for this software so that we can add it to the reference list.
+
+#### **ref-software-test-6**
+
+**Warning**: _XXXXXX software ref \(with id 'XXXXXX'\) does not have a URL which is incorrect._
+
+**Action:** This error will appear if a software reference does not have a website link. If the authors have provided a link to the website for the software, add this information to the reference in the 'Website' field. If there is no website link, please leave the following query.
+
+* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the URL for this software so that we can add it to the reference list.
+
+
 
 ## XML Structure
 

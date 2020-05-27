@@ -219,9 +219,11 @@ For cases like these, please leave the following query:
 
 * Please ensure that all scripts/data/code \(as necessary\) are added to this repository, and that it is publicly available. 
 
-If the repository also has no license, please also add the following query \(you can just leave one query with the text of the two merged\):
+If the repository also has no license, please also add the following query:
 
-* We would also like to ask you to license the contents of the repo \(we would recommend using an open source license \[https://opensource.org/licenses\]\). Guidance on what license might better suit you can be found at https://choosealicense.com/ and instructions on how to add a license to a GitHub repository are available here https://help.github.com/articles/adding-a-license-to-a-repository/. Once your code has been committed and licensed, we will fork it to our own GitHub repository for archiving purposes.
+* Please ensure that all scripts/data/code \(as necessary\) are added to this repository, and that it is publicly available. We would also like to ask you to license the contents of the repo \(we would recommend using an open source license \[https://opensource.org/licenses\]\). Guidance on what license might better suit you can be found at https://choosealicense.com/ and instructions on how to add a license to a GitHub repository are available here https://help.github.com/articles/adding-a-license-to-a-repository/. Once your code has been committed and licensed, we will fork it to our own GitHub repository for archiving purposes.
+
+For the example above, the second query was left as there is no code and no license.
 
 ## If code is hosted on an institutional website
 

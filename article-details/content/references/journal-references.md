@@ -6,20 +6,29 @@ This is a page about entries for journals in the [reference list](https://github
 
 A journal reference gives bibliographic details for articles published in academic journals.
 
+![Examples of journal references](../../../.gitbook/assets/screenshot-2020-05-27-at-11.52.20.png)
+
+![Examples of journal citations](../../../.gitbook/assets/screenshot-2020-05-27-at-11.54.38.png)
+
 ## What needs to be added?
 
-| Component | Contains | XML | Required? |
-| :--- | :--- | :--- | :---: |
-| Author list | The list of authors for the journal article. Can include individuals and group authors. | `<person-group person-group-type="author"> <name> <surname>Bloggs</surname> <given-names>J</given-names> </name> <collab>Some group</collab> </person-group>` | Yes |
-| Year | The year the article was published. Can include a letter suffix if required to distinguish citations. | `<year iso-8601-date="2006">2006</year>` | Yes |
-| Article title | The title of the article. Can contain italics, superscript and subscript as required. | `<article-title>TIP47 is a key effector for Rab9 localization</article-title>` | Yes |
-| Journal name | The name of the journal in which the article was published. | `<source>The Journal of Cell Biology</source>` | Yes |
-| Volume | The volume of the journal in which the article was published \(if applicable\). | `<volume>173</volume>` | No |
-| e-location ID | The e-location identifier for the article \(if applicable\). | `<elocation-id>e51381</elocation-id>` | No |
-| First page | The page number on which the article starts \(if applicable\). Some page numbers will be prefixed with letters. | `<fpage>917</fpage>` | No |
-| Last page | The page number on which the article ends \(if applicable\). Some page numbers will be prefixed with letters. | `<lpage>926</lpage>` | No |
-| DOI | The Digital Object Identifier for the article \(if applicable\). | `<pub-id pub-id-type="doi">10.1083/jcb.200510010</pub-id>` | No |
-| PMID | The PubMed for the article \(if applicable\) | `<pub-id pub-id-type="pmid">16769818</pub-id>` | No |
+The following information can be added for journal references:
+
+| Kriya field | Mandatory? | XML element | Example |
+| :--- | :--- | :--- | :--- |
+| Author | Yes \(or a collaboration must be entered instead\) | &lt;person-group person-group-type="author"&gt; &lt;name&gt; | Bloggs J |
+| Collaboration | Yes \(or authors must be entered instead\) | &lt;person-group person-group-type="author"&gt; &lt;collab&gt; | R Development Core Team |
+| Year | Yes | &lt;year iso-8601-date="XXXXXX"&gt; where XXXXXX is the year | 2020 |
+| Article title | Yes | &lt;article-title&gt;"XXXXXX" where XXXXXX is the article title | TIP47 is a key effector for Rab9 localization |
+| Journal name | Yes | &lt;source&gt; | The Journal of Cell Biology |
+| Volume | No | &lt;volume&gt; | 173 |
+| e-location ID | No | &lt;elocation-id&gt; | e51381 |
+| First page | No | &lt;fpage&gt; | 917 |
+| Last page | No | &lt;lpage&gt; | 926 |
+| DOI | No | &lt;pub-id pub-id-type="doi"&gt; | 10.1083/jcb.200510010 |
+| PMID | No | &lt;pub-id pub-id-type="pmid"&gt; | 16769818 |
+
+
 
 ## Examples
 
