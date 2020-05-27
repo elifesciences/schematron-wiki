@@ -1,6 +1,8 @@
-# Journal references
+---
+description: This is a page about entries for journals in the reference list.
+---
 
-This is a page about entries for journals in the [reference list](https://github.com/elifesciences/eLife-JATS-schematron/wiki/References).
+# Journal references
 
 ## What is a journal reference?
 
@@ -17,7 +19,7 @@ The following information can be added for journal references:
 | Kriya field | Mandatory? | XML element | Example |
 | :--- | :--- | :--- | :--- |
 | Author | Yes \(or a collaboration must be entered instead\) | &lt;person-group person-group-type="author"&gt; &lt;name&gt; | Bloggs J |
-| Collaboration | Yes \(or authors must be entered instead\) | &lt;person-group person-group-type="author"&gt; &lt;collab&gt; | R Development Core Team |
+| Collaboration | Yes \(or authors must be entered instead\) | &lt;person-group person-group-type="author"&gt; &lt;collab&gt; | Tulsa 1000 Investigators |
 | Year | Yes | &lt;year iso-8601-date="XXXXXX"&gt; where XXXXXX is the year | 2020 |
 | Article title | Yes | &lt;article-title&gt;"XXXXXX" where XXXXXX is the article title | TIP47 is a key effector for Rab9 localization |
 | Journal name | Yes | &lt;source&gt; | The Journal of Cell Biology |
@@ -28,7 +30,16 @@ The following information can be added for journal references:
 | DOI | No | &lt;pub-id pub-id-type="doi"&gt; | 10.1083/jcb.200510010 |
 | PMID | No | &lt;pub-id pub-id-type="pmid"&gt; | 16769818 |
 
-
+* **Authors**: Enter each author name as a surname followed by initials. 
+* **Collaboration:** Articles can have group or individual authors or a combination of both.  
+* **Year**: This should be the year the article was published. This field can include a letter suffix \(e.g. 2020a\) if needed to distinguish between citations \(see more [here](../reference-citations.md#what-is-a-reference-citation)\).
+* **Article title**: The title of the article. Can contain italics, superscript and subscript as required.
+* **Journal name**: The name of the journal in which the article was published.
+* **Volume:** The volume of the journal in which the article was published \(if applicable\).
+* **e-location ID:** The e-location identifier for the article \(if applicable\).
+* **First page/last page:** The page number on which the article starts and ends \(if applicable\). Some page numbers will be prefixed with letters.
+* **DOI:** The Digital Object Identifier for the article \(if applicable\).
+* **PMID:** The PubMed Identifier for the article \(if applicable\)
 
 ## Examples
 

@@ -225,6 +225,18 @@ If the repository also has no license, please also add the following query:
 
 For the example above, the second query was left as there is no code and no license.
 
+## If a link to a GitHub user is provided
+
+Sometimes authors provide a link to a GitHub user account instead of a specific repository, as in 52658 below:
+
+* All data have been uploaded to https://github.com/horwitzlab.
+
+![](../.gitbook/assets/screenshot-2020-05-27-at-14.19.33.png)
+
+As this does not link to a specific repository, the code cannot be forked. We need the authors to confirm which repository holds the code for the study. Please leave the following author query:
+
+* Please confirm which repositories contain the code for this paper. 
+
 ## If code is hosted on an institutional website
 
 Sometimes authors will upload their code to an institutional or lab website. For example, in 54983:
