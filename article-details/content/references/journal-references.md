@@ -12,6 +12,10 @@ A journal reference gives bibliographic details for articles published in academ
 
 ![Examples of journal citations](../../../.gitbook/assets/screenshot-2020-05-27-at-11.54.38.png)
 
+The way journal references are displayed depends on the referencing style. For eLife articles, each part of the reference is formatted specifically:
+
+![Formatting display for a journal reference in eLife articles](../../../.gitbook/assets/screenshot-2020-05-27-at-16.08.52.png)
+
 ## What needs to be added?
 
 The following information can be added for journal references:
@@ -30,8 +34,10 @@ The following information can be added for journal references:
 | DOI | No | &lt;pub-id pub-id-type="doi"&gt; | 10.1083/jcb.200510010 |
 | PMID | No | &lt;pub-id pub-id-type="pmid"&gt; | 16769818 |
 
+Where the optional information is available, this should also be added in. 
+
 * **Authors**: Enter each author name as a surname followed by initials. 
-* **Collaboration:** Articles can have group or individual authors or a combination of both.  
+* **Collaboration:** Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
 * **Year**: This should be the year the article was published. This field can include a letter suffix \(e.g. 2020a\) if needed to distinguish between citations \(see more [here](../reference-citations.md#what-is-a-reference-citation)\).
 * **Article title**: The title of the article. Can contain italics, superscript and subscript as required.
 * **Journal name**: The name of the journal in which the article was published.
@@ -41,81 +47,65 @@ The following information can be added for journal references:
 * **DOI:** The Digital Object Identifier for the article \(if applicable\).
 * **PMID:** The PubMed Identifier for the article \(if applicable\)
 
-## Examples
+If any of the mandatory information is not provided, please leave the following author query, replacing 'XXXXXX' with the missing information:
 
-### Journal reference with page range.
+* Please provide the XXXXXX for this reference.
 
-Display:
+## How to add a journal reference
 
-Aivazian D, Serrano RL, Pfeffer S. 2006. TIP47 is a key effector for Rab9 localization. _The Journal of Cell Biology_ **173**:917–926. DOI:[10.1083/jcb.200510010](https://doi.org/10.1083/jcb.200510010) PMID:[16769818](https://www.ncbi.nlm.nih.gov/pubmed/16769818)
+Right-click where you want to add the citation and click on Add New &gt; Add New Reference and select Journal under Reference Type.
 
-XML:
+![The default fields in Kriya for a journal reference](../../../.gitbook/assets/screenshot-2020-05-27-at-14.49.46.png)
 
-```markup
-    <ref id="bib1">
-        <element-citation publication-type="journal">
-            <person-group person-group-type="author">
-                <name><surname>Aivazian</surname><given-names>D</given-names></name>
-                <name><surname>Serrano</surname><given-names>RL</given-names></name>
-                <name><surname>Pfeffer</surname><given-names>S</given-names></name>
-            </person-group>
-            <year iso-8601-date="2006">2006</year>
-            <article-title>TIP47 is a key effector for Rab9 localization</article-title>
-            <source>The Journal of Cell Biology</source>
-            <volume>173</volume>
-            <fpage>917</fpage>
-            <lpage>926</lpage>
-            <pub-id pub-id-type="doi">10.1083/jcb.200510010</pub-id>
-            <pub-id pub-id-type="pmid">16769818</pub-id>
-        </element-citation>
-```
+The default fields in Kriya will need to be altered to include the following information in this order:
 
-#### Journal reference with eLocation ID.
+* Author 
+* Collaboration \(if appropriate\)
+* Year 
+* Article title
+* Journal name
+* Volume \(if available\)
+* e-location ID or first and last page \(if available\)
+* DOI \(if available\)
+* PMID \(if available\)
 
-Display:
+Once you have entered the information in the fields, click on 'Search CrossRef'. This will compare the information entered to the CrossRef database and give you a variety of articles to choose from.
 
-Llorca A, Ciceri G, Beattie R, Wong FK, Diana G, Serafeimidou-Pouliou E, Fernández-Otero M, Streicher C, Arnold SJ, Meyer M, Hippenmeyer S, Maravall M, Marin O. 2019. A stochastic framework of neurogenesis underlies the assembly of neocortical cytoarchitecture. _eLife_ **8**:e51381. DOI:[10.7554/eLife.51381](https://doi.org/10.7554/eLife.51381) PMID:[31736464](https://www.ncbi.nlm.nih.gov/pubmed/31736464)
+![](../../../.gitbook/assets/screenshot-2020-05-27-at-14.59.10.png)
 
-XML:
+Click the one with the correct authors, title and journal. This should automatically fill in the remaining fields if the information hasn't been added already.
 
-```markup
-    <ref id="bib5">
-        <element-citation publication-type="journal">
-            <person-group person-group-type="author">
-                <name><surname>Llorca</surname><given-names>A</given-names></name>
-                <name><surname>Ciceri</surname><given-names>G</given-names></name>
-                <name><surname>Beattie</surname><given-names>R</given-names></name>
-                <name><surname>Wong</surname><given-names>FK</given-names></name>
-                <name><surname>Diana</surname><given-names>G</given-names></name>
-                <name><surname>Serafeimidou-Pouliou</surname><given-names>E</given-names></name>
-                <name><surname>Fern&#x00E1;ndez-Otero</surname><given-names>M</given-names></name>
-                <name><surname>Streicher</surname><given-names>C</given-names></name>
-                <name><surname>Arnold</surname><given-names>SJ</given-names></name>
-                <name><surname>Meyer</surname><given-names>M</given-names></name>
-                <name><surname>Hippenmeyer</surname><given-names>S</given-names></name>
-                <name><surname>Maravall</surname><given-names>M</given-names></name>
-                <name><surname>Marin</surname><given-names>O</given-names></name>
-            </person-group>
-            <year iso-8601-date="2019">2019</year>
-            <article-title>A stochastic framework of neurogenesis underlies the assembly of neocortical
-               cytoarchitecture</article-title>
-            <source>eLife</source>
-            <volume>8</volume>
-            <elocation-id>e51381</elocation-id>
-            <pub-id pub-id-type="doi">10.7554/eLife.51381</pub-id>
-            <pub-id pub-id-type="pmid">31736464</pub-id>
-        </element-citation>
-    </ref>
-```
+![](../../../.gitbook/assets/screenshot-2020-05-27-at-15.01.01.png)
 
-## Troubleshooting
+Often you don't need to fill in all the details for a journal reference - filling in some of the fields and then clicking on the 'Search CrossRef' button will usually give you the correct article. The rest of the details will then be automatically filled in when you click on the article. 
 
-### General advice
+Watch out for unexpanded journal names when trying to validate them. Sometimes, the authors may have provided the contracted version of the journal name, e.g. 'Mol Biol Evo' for 'Molecular Biology and Evolution' \(they will likely take this from a source like PubMed which shows the contracted version by default\). If this is no expanded to the full version of the name, the validator may not be able to pick up the reference correctly to assign DOI/PMID.
 
-* Elements for a journal reference should be added in the order in which they will be displayed: Authors, Year, Article title, Journal name, Volume, eLocation ID OR First page, Last page, DOI.
-* Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J, . . .
-* Watch out for unexpanded journal names when trying to validate them. Sometimes, the authors may have provided the contracted version of the journal name, e.g. 'Mol Biol Evo' for 'Molecular Biology and Evolution' \(they will likely take this from a source like PubMed which shows the contracted version by default\). If this is no expanded to the full version of the name, the validator may not be able to pick up the reference correctly to assign DOI/PMID.
-* Watch out for journal names being run on to the end of article titles. This is often caught by the schematron rules but in some cases, it may not be.
+Look out for journal names that are incorrectly run on to the end of article titles. This is often caught by the schematron rules but in some cases, it may not be.
+
+## Finding reference details
+
+Journals are not standardised in the way they archive their articles. Many journals do not use volume numbers, page ranges or e-locations. If a journal reference doesn't have these when you have used the 'Search CrossRef' button, double-check by looking up the article title online. 
+
+For example after entering the reference details below and searching CrossRef, there doesn't appear to be any information about volume, page numbers, or e-location IDs:
+
+![](../../../.gitbook/assets/screenshot-2020-05-27-at-16.23.28%20%281%29.png)
+
+Searching for this reference online takes you to [this page](https://pubmed.ncbi.nlm.nih.gov/31971851/). As there is no information here about volume, e-location ID or page range here, these fields do not need to be filled out. However, the PMID is available, so you can add this to the reference.
+
+![](../../../.gitbook/assets/screenshot-2020-05-27-at-16.26.08.png)
+
+## Articles in press or under preparation
+
+* Please update this reference if this article is no longer In Press. If it is still unpublished, it will need to be removed from the reference list.
+
+
+
+
+
+## 
+
+## Schematron checks
 
 ### Schematron
 
@@ -331,4 +321,61 @@ Journal ref 'bibX' has a journal title containing a year - XXXX. Should it be a 
 
 * [https://www.ncbi.nlm.nih.gov/pubmed](https://www.ncbi.nlm.nih.gov/pubmed)
 * [https://search.crossref.org/?q=](https://search.crossref.org/?q=)
+
+## XML Structure
+
+Here are some examples of how the xml will look for various software references.
+
+Journal reference with page range.
+
+```markup
+    <ref id="bib1">
+        <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+                <name><surname>Aivazian</surname><given-names>D</given-names></name>
+                <name><surname>Serrano</surname><given-names>RL</given-names></name>
+                <name><surname>Pfeffer</surname><given-names>S</given-names></name>
+            </person-group>
+            <year iso-8601-date="2006">2006</year>
+            <article-title>TIP47 is a key effector for Rab9 localization</article-title>
+            <source>The Journal of Cell Biology</source>
+            <volume>173</volume>
+            <fpage>917</fpage>
+            <lpage>926</lpage>
+            <pub-id pub-id-type="doi">10.1083/jcb.200510010</pub-id>
+            <pub-id pub-id-type="pmid">16769818</pub-id>
+        </element-citation>
+```
+
+Journal reference with eLocation ID.
+
+```markup
+    <ref id="bib5">
+        <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+                <name><surname>Llorca</surname><given-names>A</given-names></name>
+                <name><surname>Ciceri</surname><given-names>G</given-names></name>
+                <name><surname>Beattie</surname><given-names>R</given-names></name>
+                <name><surname>Wong</surname><given-names>FK</given-names></name>
+                <name><surname>Diana</surname><given-names>G</given-names></name>
+                <name><surname>Serafeimidou-Pouliou</surname><given-names>E</given-names></name>
+                <name><surname>Fern&#x00E1;ndez-Otero</surname><given-names>M</given-names></name>
+                <name><surname>Streicher</surname><given-names>C</given-names></name>
+                <name><surname>Arnold</surname><given-names>SJ</given-names></name>
+                <name><surname>Meyer</surname><given-names>M</given-names></name>
+                <name><surname>Hippenmeyer</surname><given-names>S</given-names></name>
+                <name><surname>Maravall</surname><given-names>M</given-names></name>
+                <name><surname>Marin</surname><given-names>O</given-names></name>
+            </person-group>
+            <year iso-8601-date="2019">2019</year>
+            <article-title>A stochastic framework of neurogenesis underlies the assembly of neocortical
+               cytoarchitecture</article-title>
+            <source>eLife</source>
+            <volume>8</volume>
+            <elocation-id>e51381</elocation-id>
+            <pub-id pub-id-type="doi">10.7554/eLife.51381</pub-id>
+            <pub-id pub-id-type="pmid">31736464</pub-id>
+        </element-citation>
+    </ref>
+```
 

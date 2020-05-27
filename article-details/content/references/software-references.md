@@ -51,7 +51,7 @@ If any of the mandatory information for a reference cannot easily be found from 
 
 Make sure a citation is added whenever the software is mentioned in the text or in the key resources table. To add a GitHub reference after [forking code](../../../toolkit/forking-git-based-repos.md) for example, in Kriya, right-click where you want to add the citation and click on Add New &gt; Add New Reference and select Software under Reference Type. 
 
-![The default fields in Kriya for a Software reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.08.25.png)
+![The default fields in Kriya for a software reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.08.25.png)
 
 The default fields in Kriya will need to be altered to include the following information in this order:
 
