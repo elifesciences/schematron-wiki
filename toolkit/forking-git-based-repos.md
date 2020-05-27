@@ -270,5 +270,11 @@ The following tests relate to software that may need to be forked.
 
 * Sections: 'If no links or source code files are provided' and 'If no links or source code files are provided'
 
+### 27/05/2020
+
+#### Added
+
+* Section: 'If a repository is empty'
+
 
 
