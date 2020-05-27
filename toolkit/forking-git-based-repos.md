@@ -205,6 +205,24 @@ If authors refer to custom code but there is no link to this and no source code 
 
 * We notice that you refer to custom but it seems this hasn't been provided. Please send source code files to production@elifesciences.org, or upload the code to a dedicated software repository \(such as GitHub, GitLab etc.\) and ensure it is licensed with an open source license \[https://opensource.org/licenses\]. Guidance on what license might better suit you can be found at https://choosealicense.com/ and instructions on how to add a license to a GitHub repository are available here https://help.github.com/articles/adding-a-license-to-a-repository/. Once your code has been licensed, we will fork it to our own GitHub repository for archiving purposes.
 
+## If a repository is empty
+
+Sometimes authors will provide a link to a repository where they plan to upload the code for their paper, but haven't done so yet. For example, in 53798 at pre-editing, the data availability stated:
+
+> Custom scripts and data to reproduce figures will be deposited to GitHub \(https://github.com/mikearcaro/NoHeadResponseMaps\).
+
+Clicking this link led to an empty repository:
+
+![An empty repository](../.gitbook/assets/screen-shot-2020-05-26-at-11.31.16.png)
+
+For cases like these, please leave the following query:
+
+* Please ensure that all scripts/data/code \(as necessary\) are added to this repository, and that it is publicly available. 
+
+If the repository also has no license, please also add the following query \(you can just leave one query with the text of the two merged\):
+
+* We would also like to ask you to license the contents of the repo \(we would recommend using an open source license \[https://opensource.org/licenses\]\). Guidance on what license might better suit you can be found at https://choosealicense.com/ and instructions on how to add a license to a GitHub repository are available here https://help.github.com/articles/adding-a-license-to-a-repository/. Once your code has been committed and licensed, we will fork it to our own GitHub repository for archiving purposes.
+
 ## If code is hosted on an institutional website
 
 Sometimes authors will upload their code to an institutional or lab website. For example, in 54983:
