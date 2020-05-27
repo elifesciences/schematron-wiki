@@ -1,5 +1,5 @@
 ---
-description: How to fork code to eLife's GitHub repository - Updated 14/05/2020
+description: How to fork code to eLife's GitHub repository - Updated 27/05/2020
 ---
 
 # When and how to fork repositories
