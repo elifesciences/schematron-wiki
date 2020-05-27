@@ -173,14 +173,33 @@ These will need to be updated:
 
 **Action:** This warning will fire if a website reference contains the word ‘github’. If the link is to a repository on GitHub, this reference needs to be changed from a website to a software reference and the fields should be updated appropriately \(see [above](software-references.md#how-to-add-a-software-reference)\). In the example below, a repository is incorrectly captured as a website reference: 
 
+![A software reference incorrectly captured as a website reference](../../../.gitbook/assets/screenshot-2020-05-27-at-11.37.44.png)
+
+The fields are as below:
+
 | Fields | Values |
 | :--- | :--- |
-| Author | Deverett B |
-| Year | 2018 |
-| Website | https://www.github.com/wanglabprinceton/accumulating\_puffs |
-| Accessed date |  |
+| Author |  ÁN OT |
+| Author | JT M AR |
+| Year | 2020 |
+| Website | https://github.com/hCoV-2019/pangolin |
+| Accessed date | April 27, 2020 |
 
-If the link is to a blog post by GitHub however, as the example below, it can be kept as a website reference.
+This reference needs to be changed to a software reference, and the fields should be updated as below. The authors should also be asked to provide the rest of the reference details, using the following query:
+
+* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list.
+
+| Fields | Values |
+| :--- | :--- |
+| Author | ÁN OT |
+| Author | JT M AR |
+| Year | 2020 |
+| Software title | pangolin |
+| Software name | GitHub |
+| Software version |  |
+| Website | https://github.com/hCoV-2019/pangolin |
+
+If the link in the reference is to a blog post by GitHub however, as the example below, it can be kept as a website reference.
 
 | Fields | Values |
 | :--- | :--- |

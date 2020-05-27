@@ -2,11 +2,11 @@
 
 This is a page about entries for journals in the [reference list](https://github.com/elifesciences/eLife-JATS-schematron/wiki/References).
 
-## Description
+## What is a journal reference?
 
-Within the reference list, Journal references capture articles published in academic journals, usually consisting of an author list, a year of publication, an article title, a journal name, a volume and a page-range or eLocation ID.
+A journal reference gives bibliographic details for articles published in academic journals.
 
-## Structure
+## What needs to be added?
 
 | Component | Contains | XML | Required? |
 | :--- | :--- | :--- | :---: |
