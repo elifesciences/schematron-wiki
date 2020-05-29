@@ -45,7 +45,7 @@ The text in table headers is rendered with bold formatting. On the eLife site, h
 
 ![](../../.gitbook/assets/screen-shot-2020-05-29-at-15.08.59.png)
 
-Every table header cell can contain the following content:
+Every table cell in the header can contain the following content:
 
 * Text \(with various different kinds of formatting\)
 * Hyperlinks
@@ -55,9 +55,25 @@ Every table header cell can contain the following content:
 
 See also [th-child-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#th-child-test) below.
 
+Cells can be merged with cells in rows above and below it, and can be merged with cells in the columns left and right of it.
+
 ### Table body
 
+The table body is any row and cells which are not in the header. They are usually marked up as normal cells meaning that they display with no shading on the eLife site, and the text only carried the formatting which has been applied to it \(by default roman\).
 
+Cells can be merged with cells in rows above and below it, and can be merged with cells in the columns left and right of it.
+
+Every table cell in the body can contain the following content:
+
+* Text \(with various different kinds of formatting\)
+* Hyperlinks
+* Inline images
+* Code blocks
+* Inline formulae
+
+See also [td-child-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#td-child-test) below.
+
+If a cell in the table body is entirely bold formatted, it may be appropriate to format it as a header instead of as a normal table cell. This should be clear based on what content is inside the cell and the content in the rest of the table.
 
 ### Table footers
 
@@ -65,13 +81,23 @@ See also [th-child-test](https://app.gitbook.com/@elifesciences/s/productionhowt
 
 ## Tables with multiple headers
 
-What actually determines the formatting of the cells is whether each cell is formatted as a heading cell or as a normal table cell \(in the XML these are `<th>` and `<td>` elements, respectively\). The table header and table body can contain either of these. It's very unusual, but possible, a header might need to contain normal, rather than header table cells. It is however relatively common for a table body to contains header cells. 
+What actually determines the formatting of the cells is whether each cell is formatted as a heading cell or as a normal table cell \(in the XML these are `<th>` and `<td>` elements, respectively\). The table header and table body can contain either of these. It's very unusual, but possible, that a header might need to contain normal, rather than header table cells. It is however relatively common for a table body to contains header cells.
 
 If a table has multiple headings throughout, then the cells in the table body should be captured as header cells \(`<th>`\). This has to be done by Exeter \(it currently cannot be done by eLife staff in Kriya\).
 
 Typically an entire row should be captured as a header, although there are exceptions. See the action for [tr-test-3](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tr-test-3) for some examples.
 
 If a table has multiple headers, spans numerous pages in the PDF, and each header is of equal importance \(or those in the body are more important than the top one\), then there should be **no** table header. This is because \(as stated in [the Table Header section](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#table-header)\), the PDF will display the top heading at the top of each subsequent page, and this would be inappropriate.
+
+[Here is an example](https://elifesciences.org/articles/50661#table1). This is a semi-complex table with multiple headers throughout it. Since the first 'Data collection statistics' has been captured as a header, this text displays at the top of each page in the PDF, despite the fact that on the second and third page it is no longer relevant. Instead, the header should be captured as the first row of the table body and the cell in that row given table header formatting.
+
+![](../../.gitbook/assets/screen-shot-2020-05-29-at-17.29.34.png)
+
+![](../../.gitbook/assets/screen-shot-2020-05-29-at-17.29.45.png)
+
+![](../../.gitbook/assets/screen-shot-2020-05-29-at-17.29.53.png)
+
+
 
 ## Key resources tables
 
@@ -393,7 +419,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 #### tr-test-3
 
-**Warning**: table row in body contains a td element \(table data\), which is unusual. Please check that this is correct.
+**Warning**: table row in header contains a td element \(table data\), which is unusual. Please check that this is correct.
 
 **Action**: This will fire for table cells which are not styled as headers, but are in the header of the table. This is highly unusual, and would usually indicate that either the table should not have a header at all, or that the cell should be given heading formatting.
 
