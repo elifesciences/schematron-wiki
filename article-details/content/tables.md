@@ -77,7 +77,11 @@ If a cell in the table body is entirely bold formatted, it may be appropriate to
 
 ### Table footers
 
+Table footers appear at the bottom of a table. They are intended to only contain extra relevant information, and will not contain tabulated content. eLife use the footer to contain footnotes to the table. All footnotes that have indicators should follow this sequence , †, ‡, §, ¶, , ††, ‡‡, §§, ¶¶, , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. Footnotes with numbers or letters as their indicators are not allowed.
 
+In the future we would like to be able to link footnote indicators in table cells to their respective footnotes, but currently this is not done and, merely the symbol is included as \(usually superscripted\) text in both places. 
+
+Table footers can also contain more general footnotes that are not specifically referred to from cells within the table, such as a list of abbreviations or more general notes on the table. This is also fine.
 
 ## Tables with multiple headers
 
@@ -147,7 +151,7 @@ Depending on the case, the table will either need to be moved into its appropria
 
 **Action**: This will fire when a table in an appendix has a label which does not start with the title of the appendix that it sties in, for example 'Appendix 1—table 1.' in 'Appendix 2'.
 
-Footnote indicators should be in the follow this sequence _,_ †, ‡, §, ¶, **, ††, ‡‡, §§, ¶¶,** , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. If this warning fires, it is because a footnote does not start with one of these indicators.
+Footnote indicators should be in the following sequence _,_ †, ‡, §, ¶, **, ††, ‡‡, §§, ¶¶,** , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. If this warning fires, it is because a footnote does not start with one of these indicators.
 
 #### distinct-label-conformance
 
