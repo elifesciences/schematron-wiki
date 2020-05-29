@@ -77,7 +77,7 @@ If a cell in the table body is entirely bold formatted, it may be appropriate to
 
 ### Table footers
 
-Table footers appear at the bottom of a table. They are intended to only contain extra relevant information, and will not contain tabulated content. eLife use the footer to contain footnotes to the table. All footnotes that have indicators should follow this sequence , †, ‡, §, ¶, , ††, ‡‡, §§, ¶¶, , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. Footnotes with numbers or letters as their indicators are not allowed.
+Table footers appear at the bottom of a table. They are intended to only contain extra relevant information \(such as footnotes or attributions\), and will not contain tabulated content. eLife use the footer to contain footnotes to the table. All footnotes that have indicators should follow this sequence , †, ‡, §, ¶, , ††, ‡‡, §§, ¶¶, , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. Footnotes with numbers or letters as their indicators are not allowed.
 
 In the future we would like to be able to link footnote indicators in table cells to their respective footnotes, but currently this is not done and, merely the symbol is included as \(usually superscripted\) text in both places. 
 
