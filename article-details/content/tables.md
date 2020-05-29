@@ -85,7 +85,7 @@ Table footers can also contain more general footnotes that are not specifically 
 
 ## Tables with multiple headers
 
-What actually determines the formatting of the cells is whether each cell is formatted as a heading cell or as a normal table cell \(in the XML these are `<th>` and `<td>` elements, respectively\). The table header and table body can contain either of these. It's very unusual, but possible, that a header might need to contain normal, rather than header table cells. It is however relatively common for a table body to contains header cells.
+What actually determines the formatting of the cells is whether each cell is formatted as a heading cell or as a normal table cell \(in the XML these are `<th>` and `<td>` elements, respectively\). The table header and table body can contain either of these. It's very unusual, but possible, that a header might need to contain normal, rather than header table cells. It is however relatively common for a table body to contain header cells.
 
 If a table has multiple headings throughout, then the cells in the table body should be captured as header cells \(`<th>`\). This has to be done by Exeter \(it currently cannot be done by eLife staff in Kriya\).
 
