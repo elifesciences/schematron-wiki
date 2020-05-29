@@ -14,7 +14,7 @@ Those in Decision letters and Author responses only display in the HTML.
 
 ## What can tables contain?
 
-Tables can be with our without labels \(tables without labels are referred to as inline tables\). Those with labels outside of Decision Letters and Author responses _must_ have a title. They can also have a caption. 
+Tables can be with or without labels \(tables without labels are referred to as inline tables\). Those with labels outside of Decision Letters and Author responses _must_ have a title. They can also have a caption. 
 
 The content of a table can be broken down into three sections:
 
@@ -106,6 +106,8 @@ Similarly, the Schematron check [tr-test-3](https://app.gitbook.com/@elifescienc
 ## Key resources tables
 
 
+
+**NOTE TO SELF** - add error at Post for table headers in tbody in KR tables?
 
 ## Table citations
 
