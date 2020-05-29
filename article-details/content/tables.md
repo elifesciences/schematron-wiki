@@ -90,42 +90,6 @@ If there is an in-text citation, but the citations are out of sequence \(i.e. Ap
 
 **Action**: This will fire when a table is placed out of sequence in an appendix \(such as Appendix 1—table 1 being placed after Appendix 1—table 2\). If this error fires, Production will need to contact the authors in order to determine how they would like their tables to be labelled/presented.
 
-#### app-table-wrap-id-test-1
-
-**Error**: _table-wrap @id in appendix must be in the format 'app0table0'. XXXXXX does not conform to this._
-
-**Action**: This will fire when the value if the `id` attribute for a table \(with a label\) in the appendix is not in the format `app0table0`. If this fires, it either means that the Table is in the incorrect appendix, or the id needs to be corrected.
-
-#### app-table-wrap-id-test-2
-
-**Error**: _table-wrap @id must start with XXXXXX._
-
-**Action**: This will fire when the value if the `id` attribute for a table \(with a label\) in the appendix does not start with `app` and the appendix number. For example, the ids for any tables in Appendix 1 should start with `app1`. If this fires, it either means that the Table is in the incorrect appendix, or the id needs to be corrected.
-
-#### resp-table-wrap-id-test
-
-**Warning**: _table-wrap @id in author reply must be in the format 'resptable0' or 'sa0table0' if it has a label, or in the format 'respinlinetable0' or 'sa0inlinetable0' if it does not._
-
-**Action**: This will fire when the value if the `id` attribute for a table in the decision letter or author response is not in any of the below formats:
-
-With a label:
-
-* resptable0
-* sa0table0
-
-Without a label:
-
-* respinlinetable0
-* sa0inlinetable0
-
-Exeter will need to correct this issue if it fires.
-
-#### table-wrap-id-test
-
-**Error**: _table-wrap @id must be in the format 'table0', unless it doesn't have a label, in which case it must be 'inlinetable0' or it is the key resource table which must be 'keyresource'._
-
-**Action**: This will fire when the value if the `id` attribute for a table in the body of an article \(i.e. not in appendices or decision letters or author responses\) is incorrect. If it is a Key resources table, the id must be `keyresource`_._ If the table has a label, it must be in the format `table0`. It it does not have a label, it needs to be in the format `inlinetable0`.
-
 #### unlinked-object-cite
 
 **Warning**: _XXXXXX has possible unlinked citations in the text._
@@ -187,18 +151,6 @@ In the case where it is a colour that is not supported \(brown for example\), th
 **Error**: element containing 'XXXXXX' has an @style with an unallowed value - 'XXXXXX'. The only allowed values are 'author-callout-style-b1', 'author-callout-style-b2', 'author-callout-style-b3', 'author-callout-style-b4', 'author-callout-style-b5', 'author-callout-style-b6', 'author-callout-style-b7', 'author-callout-style-b8' for blue, green orange, yellow, purple, red, pink and grey respectively.
 
 **Action**: This will fire at a post-author stage if a table cell in a table has a style attribute with an unallowed value. Usually this will be because the colour formatting is not a supported colour. If it _is_ one of the supported colours and this message fires this is a problem - it means that the content has not been typeset correctly. If it is not a supported colour, ensure to check the author's response to the query which should have been added pre-author. If the response isn't clear about how to proceed \(or the query was mistakenly not left\), then Production will need to contact the author to ask how they would like to proceed.
-
-#### table-wrap-test-1
-
-**Error**: table-wrap must have one table.
-
-**Action**: This will fire if a &lt;table-wrap&gt; element does not have a child &lt;table&gt; element. If this fires, it has been typeset incorrectly and steps should be taken to correct it.
-
-#### table-wrap-test-2
-
-**Warning**: table-wrap has more than one table - Is this correct?
-
-**Action**: This will fire if a &lt;table-wrap&gt; element more than one a child &lt;table&gt; element. If the table has two or more sections in it with differing numbers of columns, but it has the same label \(and title\), then this warning can be ignored. If it does not, the table should be collated so that there is only one table element.
 
 #### table-wrap-test-3
 
@@ -323,4 +275,140 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 **Action**: This will fire at all stages if the fifth header in a KR table is not 'Additional information'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see above **LINK TO SECTION**\), then please add the following author query:
 
 * This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+
+#### table-test-2
+
+**Warning**: table doesn't have a header \(thead\). Is this correct?
+
+**Action**: This will fire if a table does not have a header \(the &lt;table&gt; element does not have a child &lt;thead&gt; element\). This could either mean that the table has been incorrectly typeset without headers, or there could be a good reason that it does not have a header \(see **LINK TO SECTION ABOVE**\). If it is an error then this should be fixed by Exeter, otherwise the message can be ignored.
+
+#### tbody-test-1
+
+**Error**: tbody must have at least one row \(tr\).
+
+**Action**: This will fire if the body of a table does not have a row. This is unlikely to occur and if it does, would indicate that the table has been typeset incorrectly, which will need to be fixed by Exeter.
+
+#### thead-test-1
+
+**Error**: thead must have at least one row \(tr\).
+
+**Action**: This will fire if the header of a table does not have a row. This is unlikely to occur and if it does, would indicate that the table has been typeset incorrectly, which will need to be fixed by Exeter.
+
+#### tr-test-1
+
+**Error**: row \(tr\) must contain at least one heading cell \(th\) or data cell \(td\).
+
+**Action**: This will fire if the a row does not have any table cells. This is unlikely to occur and if it does, would indicate that the table has been typeset incorrectly, which will need to be fixed by Exeter.
+
+#### tr-test-2
+
+**Warning**: table row in body contains a th element \(a header\), which is unusual. Please check that this is correct.
+
+**Action**: This will fire for table cells which are styled as headers, but are in the table body. The table has numerous headers throughout it \(and is supposed to\), then this can be ignored. Otherwise Exeter will have to change this to a normal table cell.
+
+#### tr-test-3
+
+**Warning**: table row in body contains a td element \(table data\), which is unusual. Please check that this is correct.
+
+**Action**: This will fire for table cells which are not styled as headers, but are in the header of the table. This is highly unusual, and would usually indicate that either the table should not have a header at all, or that the cell should be given heading formatting.
+
+#### tr-test-3
+
+**Warning**: Table header cell containing 'XXXXXX' has table data \(not header\) cells next to it on the same row. Is this correct? Should the whole row be header cells, or should this cell extend across the whole row?
+
+**Action**: This will fire if a table row contains a mixture of table header cells and normal table cells. This is unusual, although there are a small number of cases where this would be appropriate. Checking the table in the original manuscript will give some indication of how the headings in a table should look like, and if any changes are required these will need to be implemented by Exeter. 
+
+In a case like [this](https://elifesciences.org/articles/53403#table2) 
+
+![](../../.gitbook/assets/screen-shot-2020-05-29-at-12.57.13.png)
+
+all the table cells next to 'Organ' \(in the same row\) should be given table header formatting.
+
+In a case like [this](https://elifesciences.org/articles/52505#table1) 
+
+![](../../.gitbook/assets/screen-shot-2020-05-29-at-12.58.10.png)
+
+'Map resolution' should be made into one cell spanning across its entire row \(formatted as a header\).
+
+In a case like [this](https://elifesciences.org/articles/53498#table1)
+
+![](../../.gitbook/assets/screen-shot-2020-05-29-at-12.54.58.png)
+
+the warning can be ignored, as all the cells in the first column serve as another header.
+
+#### 
+
+### **XML structure warnings**
+
+#### app-table-wrap-id-test-1
+
+**Error**: _table-wrap @id in appendix must be in the format 'app0table0'. XXXXXX does not conform to this._
+
+**Action**: This will fire when the value if the `id` attribute for a table \(with a label\) in the appendix is not in the format `app0table0`. If this fires, it either means that the Table is in the incorrect appendix, or the id needs to be corrected.
+
+#### app-table-wrap-id-test-2
+
+**Error**: _table-wrap @id must start with XXXXXX._
+
+**Action**: This will fire when the value if the `id` attribute for a table \(with a label\) in the appendix does not start with `app` and the appendix number. For example, the ids for any tables in Appendix 1 should start with `app1`. If this fires, it either means that the Table is in the incorrect appendix, or the id needs to be corrected.
+
+#### resp-table-wrap-id-test
+
+**Warning**: _table-wrap @id in author reply must be in the format 'resptable0' or 'sa0table0' if it has a label, or in the format 'respinlinetable0' or 'sa0inlinetable0' if it does not._
+
+**Action**: This will fire when the value if the `id` attribute for a table in the decision letter or author response is not in any of the below formats:
+
+With a label:
+
+* resptable0
+* sa0table0
+
+Without a label:
+
+* respinlinetable0
+* sa0inlinetable0
+
+Exeter will need to correct this issue if it fires.
+
+#### table-wrap-id-test
+
+**Error**: _table-wrap @id must be in the format 'table0', unless it doesn't have a label, in which case it must be 'inlinetable0' or it is the key resource table which must be 'keyresource'._
+
+**Action**: This will fire when the value if the `id` attribute for a table in the body of an article \(i.e. not in appendices or decision letters or author responses\) is incorrect. If it is a Key resources table, the id must be `keyresource`_._ If the table has a label, it must be in the format `table0`. It it does not have a label, it needs to be in the format `inlinetable0`.
+
+#### table-wrap-test-1
+
+**Error**: table-wrap must have one table.
+
+**Action**: This will fire if a &lt;table-wrap&gt; element does not have a child &lt;table&gt; element. If this fires, it has been typeset incorrectly and steps should be taken to correct it.
+
+#### table-wrap-test-2
+
+**Warning**: table-wrap has more than one table - Is this correct?
+
+**Action**: This will fire if a &lt;table-wrap&gt; element more than one a child &lt;table&gt; element. If the table has two or more sections in it with differing numbers of columns, but it has the same label \(and title\), then this warning can be ignored. If it does not, the table should be collated so that there is only one table element.
+
+#### table-test-1
+
+**Error**: table must have at least one body \(tbody\).
+
+**Action**: This will fire if a &lt;table&gt; element does not have a child &lt;tbody&gt; element. This means that something has gone wrong with the typesetting and the table will need to be corrected.
+
+#### td-child-test
+
+**Error**: td cannot contain XXXXXX. Only the following elements are allowed - 'bold', 'italic', 'sup', 'sub', 'sc', 'ext-link', 'break', 'named-content', 'monospace', and 'xref'.
+
+**Action**: The list of allowed elements correspond to the following types of content respectively - bold, italics, superscript, subscript, small caps, hyperlinks, line breaks, colour formatting, monospace and citations. This will fire if a table data cell contains any other type of content, and will likely need to be corrected by Exeter.
+
+#### th-child-test
+
+**Error**: td cannot contain XXXXXX. Only the following elements are allowed - 'bold', 'italic', 'sup', 'sub', 'sc', 'ext-link', 'break', 'named-content', 'monospace', and 'xref'.
+
+**Action**: The list of allowed elements correspond to the following types of content respectively - bold, italics, superscript, subscript, small caps, hyperlinks, line breaks, colour formatting, monospace and citations. This will fire if a table header cell contains any other type of content, and will likely need to be corrected by Exeter.
+
+#### th-child-test-2
+
+**Warning**: th contains bold. Is this correct?
+
+**Action**: If this fires in live content, then the bold formatting should be removed. Header formatting is always in bold so the bold formatting is superfluous. The only reason this can be ignored is if this fires in an article which is being published as a new version.
 
