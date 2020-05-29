@@ -164,3 +164,163 @@ If the article is post-author, then the authors should be queried to check that 
 
 **Action**: This will fire if a table cell in a Key resources table contains a PMCID. All PMCIDs should be linked in the KR table, so action should be taken to ensure that the PMCID text has an embedded link \(https://www.ncbi.nlm.nih.gov/pmc/{PMCID}\).
 
+#### colour-check-table
+
+**Warning**: XXXXXX element has colour background. Is this correct? It contains XXXXXX.
+
+**Action**: This will fire if a table cell in a table has colour formatting \(a style attribute beginning with 'author-callout'\). eLife only allow the following colours in table cells -  blue, green orange, yellow, purple, red, pink and grey. When this fires an author query should be added to the table \(only 1 per table\):
+
+* Where possible, we prefer that colours are not used in tables in the interests of accessibility. Would it be possible to capture the same meaning in this table with more common forms of emphasis \(such as bold, italic or underline\)? If so please stipulate below how the table should be revised. Please note that this is a suggestion and supported colours in tables can be published.
+
+#### pre-colour-check-table-2
+
+**Warning**: element containing 'XXXXXX' has an @style with an unallowed value - 'XXXXXX'. The only allowed values are 'author-callout-style-b1', 'author-callout-style-b2', 'author-callout-style-b3', 'author-callout-style-b4', 'author-callout-style-b5', 'author-callout-style-b6', 'author-callout-style-b7', 'author-callout-style-b8' for blue, green orange, yellow, purple, red, pink and grey respectively. Please ensure one of these is used. If it is clear that colours are supposed to be used, but you are not sure which ones, then please query the authors - 'eLife only supports the following colours for table cells - blue, green orange, yellow, purple, red, pink and grey. Please confirm how you would like the colour\(s\) here captured given this information.'.
+
+**Action**: This will fire at a pre-author stage if a table cell in a table has a style attribute with an unallowed value. Usually this will be because the colour formatting is not a supported colour. If it _is_ one of the supported colours and this message fires this is a problem - it means that the content has not been typeset correctly.
+
+In the case where it is a colour that is not supported \(brown for example\), then as the message suggests the following author query should be added:
+
+* eLife only supports the following colours for table cells - blue, green orange, yellow, purple, red, pink and grey. Please confirm how you would like the colour\(s\) here captured given this information.
+
+#### final-colour-check-table-2
+
+**Error**: element containing 'XXXXXX' has an @style with an unallowed value - 'XXXXXX'. The only allowed values are 'author-callout-style-b1', 'author-callout-style-b2', 'author-callout-style-b3', 'author-callout-style-b4', 'author-callout-style-b5', 'author-callout-style-b6', 'author-callout-style-b7', 'author-callout-style-b8' for blue, green orange, yellow, purple, red, pink and grey respectively.
+
+**Action**: This will fire at a post-author stage if a table cell in a table has a style attribute with an unallowed value. Usually this will be because the colour formatting is not a supported colour. If it _is_ one of the supported colours and this message fires this is a problem - it means that the content has not been typeset correctly. If it is not a supported colour, ensure to check the author's response to the query which should have been added pre-author. If the response isn't clear about how to proceed \(or the query was mistakenly not left\), then Production will need to contact the author to ask how they would like to proceed.
+
+#### table-wrap-test-1
+
+**Error**: table-wrap must have one table.
+
+**Action**: This will fire if a &lt;table-wrap&gt; element does not have a child &lt;table&gt; element. If this fires, it has been typeset incorrectly and steps should be taken to correct it.
+
+#### table-wrap-test-2
+
+**Warning**: table-wrap has more than one table - Is this correct?
+
+**Action**: This will fire if a &lt;table-wrap&gt; element more than one a child &lt;table&gt; element. If the table has two or more sections in it with differing numbers of columns, but it has the same label \(and title\), then this warning can be ignored. If it does not, the table should be collated so that there is only one table element.
+
+#### table-wrap-test-3
+
+**Error**: table-wrap has an inline id XXXXX but it has a label - XXXXX, which is not correct.
+
+**Example message**: table-wrap has an inline id inline-table1 but it has a label - Table 1., which is not correct.  
+
+**Action**: This will fire if a table has the incorrect id. A table with a label must have an id in the format `table1`. Either the label needs removing or the table id needs correcting. The original manuscript should be checked to determine which action needs to be taken.
+
+#### table-wrap-test-4
+
+**Error**: table-wrap with id XXXXX has no label which is not correct.
+
+**Action**: This is the inverse of table-wrap-test-3. It will fire if a table without a label has a label which in the format `table1`. Either the label needs adding or the table id needs correcting. The original manuscript should be checked to determine which action needs to be taken.
+
+#### kr-table-wrap-test-1
+
+**Error**: table-wrap has an id XXXXXX but its label is not 'Key resources table', which is incorrect.
+
+**Action**: Key resources tables must have the label 'Key resources table', and an id `keyresource`. This will fire is a table has that id, but it does not have a label, or the label is not exactly as specified above. Action should be taken to ensure both of these conditions are met.
+
+#### pre-table-wrap-cite-1
+
+**Warning**: There is no citation to XXXXXX. Ensure to query the author asking for a citation.
+
+**Action**: This will fire at pre-author stages for tables \(which are not Key resources tables\) with labels, in articles which are not corrections or retractions. If this fires \(and there are no issues with labelling or the table id\), then the following author query should be added:
+
+* Please provide an in-text citation for this table.
+
+The only exception to this is where the article contains an appendix and there is no appropriate place to cite the tables in the appendix \(for example if it is _only_ made up of tables\). In such cases, adding a query is not necessary.
+
+#### final-table-wrap-cite-1
+
+**Warning**: There is no citation to XXXXXX. Ensure this is added.
+
+**Action**: This will fire at post-author stages for tables \(which are not Key resources tables\) with labels, in articles which are not corrections or retractions. If this fires \(and there are no issues with labelling or the table id\), and the authors have not indicated in response to a query where the citation should be, then eLife production should contact the authors to get an appropriate citation.
+
+The only exception to this is where the article contains an appendix and there is no appropriate place to cite the tables in the appendix \(for example if it is _only_ made up of tables\).
+
+#### feat-table-wrap-cite-1
+
+**Warning**: There is no citation to XXXXXX. Is this correct?
+
+**Action**: This will fire at all stages for tables \(which are not Key resources tables\) with labels, in feature content \(insights or feature articles\). 
+
+If this fires at a **pre-author stage** \(and there are no issues with labelling or the table id\), then the following author query should be added:
+
+* Please provide an in-text citation for this table.
+
+If this fires at a **post-author stage**, this should be **ignored** by Exeter and eLife production should check with Features as to whether there should be a citation \(if it isn't already clear\).
+
+#### kr-table-not-tagged
+
+**Error**: XXXXXX has headings that are for the Key resources table, but it does not have an @id='keyresource'.
+
+**Action**: This will at all stages fire if a table has all the KR table headings but does not have an  id `keyresource`. If this fires, ensure that the Table is captured as a Key resources table \(with the correct id, label and no title or caption\).
+
+#### kr-table-not-tagged-2
+
+**Warning**: XXXXXX has the title XXXXXX but it is not tagged as a key resources table. Is this correct?
+
+**Action**: This will fire at all stages if a table has a title containing the text 'Key resource'. If it _is_ a key resources table, then this should be captured as a Key resources table \(with the correct id, label and no title or caption\). If it is not \(i.e. just a normal table, without the standard KR table headings, which happens to have the text 'Key resource' in it's title\), then this message can be ignored.
+
+#### kr-table-header-1
+
+**Warning**: Key resources tables should have 5 column headings \(th elements\) but this one has X. Either it is incorrectly typeset or the author will need to be queried in order to provide the table in the correct format.
+
+**Action**: This will fire at all stages if a KR table does not have the correct number of headings. All KR tables should have 5 headings/columns. If the table is typeset correctly \(**please check this carefully**\), as the author provided it, then the following author query should be added:
+
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+
+#### kr-table-header-2
+
+**Warning**: Key resources table has more than 1 row in its header, which is incorrect.
+
+**Action**: This will fire at all stages if a KR table has more than one row in it's header. It is **very** likely that this means the table has been incorrectly typeset. If this is the case please correct. If this has been checked very carefully and the table is as the author provided it, then the following author query should be added:
+
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+
+#### kr-table-header-3
+
+**Warning**: Key resources table has no rows in its header, which is incorrect.
+
+**Action**: This will fire at all stages if a KR table has no rows in it's header. It is **very** likely that this means the table has been incorrectly typeset \(this will almost never occur\). 
+
+#### kr-table-header-4
+
+**Warning**: The first column header in a Key resources table is usually 'Reagent type \(species\) or resource' but this one has 'XXXXXX'.
+
+**Action**: This will fire at all stages if the first header in a KR table is not 'Reagent type \(species\) or resource'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see above **LINK TO SECTION**\), then please add the following author query:
+
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+
+#### kr-table-header-5
+
+**Warning**: The second column header in a Key resources table is usually 'Designation' but this one has 'XXXXXX'.
+
+**Action**: This will fire at all stages if the second header in a KR table is not 'Designation'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see above **LINK TO SECTION**\), then please add the following author query:
+
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+
+#### kr-table-header-6
+
+**Warning**: The third column header in a Key resources table is usually 'Source or reference' but this one has 'XXXXXX'.
+
+**Action**: This will fire at all stages if the third header in a KR table is not 'Source or reference'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see above **LINK TO SECTION**\), then please add the following author query:
+
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+
+#### kr-table-header-7
+
+**Warning**: The fourth column header in a Key resources table is usually 'Identifiers' but this one has 'XXXXXX'.
+
+**Action**: This will fire at all stages if the fourth header in a KR table is not 'Identifiers'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see above **LINK TO SECTION**\), then please add the following author query:
+
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+
+#### kr-table-header-8
+
+**Warning**: The fifth column header in a Key resources table is usually 'Additional information' but this one has 'XXXXXX'.
+
+**Action**: This will fire at all stages if the fifth header in a KR table is not 'Additional information'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see above **LINK TO SECTION**\), then please add the following author query:
+
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+
