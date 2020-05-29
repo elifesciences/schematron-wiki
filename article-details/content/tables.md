@@ -458,6 +458,86 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 **Action**: This will fire at all stages if a table cell contains two plus or minus signs separated by a space and a forward slash \(such as '+ /-'\). It almost certainly a mistake and the extra space can be removed.
 
+#### supplementalfigure-presence
+
+**Warning**: 'XXXXXXX' element contains the phrase ' Supplemental figure ' which almost certainly needs updating. XXXXXX starts with - XXXXXX.
+
+**Action**: This will fire at all stages if a table cell contains ' Supplemental figure '. If it is clear which figure supplement this refers to then it should be updated accordingly \(such as Figure 1-figure supplement 1\). If it is not, then the following author query:
+
+* Supplemental figure X is cited in the text but has not been provided. Please either correct the citation, provide the figure file and a title and legend, or confirm that this citation refers to another article.
+
+#### supplementalfile-presence
+
+**Warning**: 'XXXXXXX' element contains the phrase ' Supplemental file ' which almost certainly needs updating. XXXXXX starts with - XXXXXX.
+
+**Action**: This will fire at all stages if a table cell contains ' Supplemental file '. If it is clear which Supplementary file this refers to then it should be updated accordingly \(such as Supplementary file 1\). If it is not, then the following author query:
+
+* Supplemental file X is cited in the text but has not been provided. Please either correct the citation, provide the figure file and a title and legend, or confirm that this citation refers to another article.
+
+#### ref-presence
+
+**Warning**: 'XXXXXXX'  element contains 'Ref.' which is either incorrect or unnecessary.
+
+**Action**: This will fire at all stages if a table cell contains the text 'Ref.'. If the text is referring to a citation, i.e. `Ref. 2` in the original manuscript converted to `Ref. Smith et al., 2020`, then the text 'Ref.' should be deleted. If the text is not referring to a citation, then the full stop should be removed.
+
+#### refs-presence
+
+**Warning**: 'XXXXXXX'  element contains 'Refs.' which is either incorrect or unnecessary.
+
+**Action**: This will fire at all stages if a table cell contains the text 'Refs.'. If the text is referring to a citation, i.e. `Refs. 2-3` in the original manuscript converted to `Ref. Smith et al., 2020; Smith et al., 2019`, then the text 'Refs.' should be deleted. If the text is not referring to a citation, then the full stop should be removed.
+
+#### replacement-character-presence
+
+**Error**: 'XXXXXXX' element contains the replacement character '�' which is not allowed.
+
+**Action**: This will fire at all stages if a table cell contains the replacement character '�'. The original manuscript should be checked to ensure that the intended character was not incorrectly converted. Otherwise the character should be removed.
+
+#### junk-character-presence
+
+**Error**: 'XXXXXXX' element contains a junk character '' which should be replaced.
+
+**Action**: This will fire at all stages if a table cell contains a junk character ''. The original manuscript should be checked to ensure that the intended character was not incorrectly converted. Otherwise the character should be removed.
+
+#### inverterted-question-presence
+
+**Warning**: 'XXXXXXX' element contains an inverted question mark '¿' which should very likely be replaced/removed.
+
+**Action**: This will fire at all stages if a table cell contains an inverted question mark '¿'. The original manuscript should be checked to ensure that the intended character was not incorrectly converted. Otherwise the character should be removed.
+
+#### empty-parentheses-presence
+
+**Warning**: 'XXXXXXX' element contains empty parentheses \('\[\]', or '\(\)'\). Is there a missing citation within the parentheses? Or perhaps this is a piece of code that needs formatting?
+
+**Action**: This will fire at all stages if a table cell contains empty parentheses \('\[\]', or '\(\)'\). The original manuscript should be checked to ensure that the content was not incorrectly converted. If it has been correctly converted, then if it is code \(such as `regex()`\), then the code text should be given monospace formatting. If it is not code, the the following author query should be added:
+
+* Please add in the missing text here or remove the brackets, as necessary.
+
+#### broken-unicode-presence
+
+**Warning**: 'XXXXXXX' element contains what looks like a broken unicode - XXXXXX.
+
+**Action**: This will fire at all stages if a table cell contains what looks like broken unicode characters, such as `&amp;#x21;`. The original manuscript should be checked to see what the intended character should be. If it is still not clear, then do a web search for that text \(followed by unicode\). If it's then clear what symbol it should be, then this should be added. Finally if it is still not clear, then add the following author query:
+
+* Please confirm what this symbol should be here or delete the text, as necessary.
+
+#### extra-full-stop-presence
+
+**Warning**: 'XXXXXXX' element contains what looks two full stops right next to each other \(..\) - Is that correct? - XXXXXX.
+
+**Action**: This will fire at all stages if a table cell contains two full stops right next to each other \(..\). If it is clearly a typo, the extra full stop should be removed. If it is not clear, then this warning can be ignored.
+
+#### extra-space-presence
+
+**Warning**: 'XXXXXXX' element contains two or more spaces right next to each other - it is very likely that only 1 space is necessary - XXXXXX.
+
+**Action**: This will fire at all stages if a table cell contains two or more spaces right next to each other. It is very likely that the extra space should be removed.
+
+#### operating-system-command-presence
+
+**Error**: 'XXXXXXX' element contains a operating system command character '' which should very likely be replaced/removed. - XXXXXX.
+
+**Action**: This will fire at all stages if a table cell contains a specific character, the operating system command character \(unicode `&#x9d;`\). If this fires, the character _must_ be removed, because otherwise the article will fail PMC ingestion.
+
 ### **XML structure warnings**
 
 #### app-table-wrap-id-test-1
