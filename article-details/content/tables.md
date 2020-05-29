@@ -16,6 +16,8 @@ Those in Decision letters and Author responses only display in the HTML.
 
 Tables can be with or without labels \(tables without labels are referred to as inline tables\). Those with labels outside of Decision Letters and Author responses _must_ have a title. In Decision letter and Author responses the title is optional. They can also have an optional caption. 
 
+Note that an object labelled as one table \(with one label and optional title/caption\), can actually be made up of multiple tables. This is avoided, where possible in eLife content.
+
 The content of a table can be broken down into three sections:
 
 * Table header
