@@ -374,6 +374,50 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 **Action**: This will fire at all stages if a table cell or paragraph contains text which is preceded by two hyphens, such as `--render`. In a table cell this should be given monospace formatting. \(In paragraphs it might be necessary to include it as a code block - more on this in that page\).
 
+#### cell-spacing-test
+
+**Warning**: 'XXXXXXX' element contains an equal sign with content directly next to one side, but a space on the other, is this correct? - XXXXXX.
+
+**Action**: This will fire at all stages if a table cell or paragraph contains an equal sign which has a space on one side, but not the other, for example `p= 6`. The spacing should be made to be consistent either `p=6` or `p = 6`. Check how this has been done elsewhere in the article \(with spaces or without spaces\), and update the text so that it is consistent in the article.
+
+#### equal-spacing-test
+
+**Warning**: 'XXXXXXX' element contains the text '+cells' or '±cells' which is very likely to be incorrect spacing - XXXXXX.
+
+**Action**: This will fire at all stages if a table cell or paragraph contains the text `+cell` or `±cell`. If this fires, it's almost certain that a space needs adding between the plus sign and the word cell. It may also be necessary to remove the space \(if there is one\) before the plus sign depending on the content. For example `Ly6G +cells` should be changed to `Ly6G+ cells`.
+
+#### ring-diacritic-symbol-test
+
+**Warning**: 'XXXXXXX' element contains the ring above symbol, '∘'. Should this be a \(non-superscript\) degree symbol - ° - instead?
+
+**Action**: This will fire at all stages if a table cell or paragraph contains this symbol - ∘. Sometimes this symbol is included \(and given superscript formatting\) instead of a degree symbol. If it's clear that the authors have intended to use the degree symbol, then this should be replaced with °.
+
+#### diabetes-1-test
+
+**Error**: element contains the phrase 'Type one diabetes'. The number should not be spelled out, this should be 'Type 1 diabetes'.
+
+**Action**: This will fire at all stages if a table cell or paragraph contains the text 'Type one diabetes'. As the message suggests this should always be changed to 'Type 1 diabetes'.
+
+#### diabetes-2-test
+
+**Error**: element contains the phrase 'Type two diabetes'. The number should not be spelled out, this should be 'Type 2 diabetes'.
+
+**Action**: This will fire at all stages if a table cell or paragraph contains the text 'Type two diabetes'. As the message suggests this should always be changed to 'Type 2 diabetes'.
+
+#### unlinked-url
+
+**Warning**: 'XXXXXXX' element contains possible unlinked urls. Check - XXXXXX.
+
+**Action**: This will fire at all stages if a table cell or paragraph \(which is not in a decision letter or author response or the ethics information\) includes what is likely a URL. If it is a URL, then it should always be formatted as a link rather than plain text.
+
+#### year-style-test
+
+**Warning**: 'XXXXXXX' element contains the following string\(s\) - XXXXXX. If this refers to years, then the space should be removed after the number, i.e XXXXXXX. If the text is referring to a unit then this is fine.
+
+**Action**: This will fire at all stages if a table cell or paragraph contains text like `1990 s`. If the authors intended to refer to decades then the space between the s.and number should be removed - `1990s`. If it a number an unit \(as in 1990 seconds\) then the space should be retained and the message ignored.
+
+
+
 ### **XML structure warnings**
 
 #### app-table-wrap-id-test-1
