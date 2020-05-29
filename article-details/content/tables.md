@@ -113,7 +113,7 @@ Similarly, the Schematron check [tr-test-3](https://app.gitbook.com/@elifescienc
 
 ## Table citations
 
-
+Tables within the main text of an article _must_ have a citation. Citations are optional for tables placed anywhere else in an article \(appendices, boxes, and Decision letters/Author responses\). 
 
 ## Schematron checks
 
