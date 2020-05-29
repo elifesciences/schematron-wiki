@@ -354,7 +354,7 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 * Please confirm whether this citation is in the correct column in the Key resources table.
 
-#### xref-column-test
+#### rrid-test
 
 **Warning**: 'XXXXXXX' element contains what looks like XX unlinked RRID\(s\). These should always be linked using 'https://scicrunch.org/resolver/'. Element begins with XXXXXXX.
 
