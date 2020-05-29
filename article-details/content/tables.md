@@ -22,11 +22,11 @@ The content of a table can be broken down into three sections:
 * Table body
 * Table footer
 
-Tables can also have source data and/or source code files.
+Tables can also have accompanying source data and/or source code files.
 
 ### Permitted table labels
 
-Tables should have an appropriate label based on their placement. The following label formats are permitted for tables in eLife content:
+Tables should have an appropriate label based on their placement in the content. The following label formats are permitted for tables at eLife:
 
 * Table 1
 * Key resources table
