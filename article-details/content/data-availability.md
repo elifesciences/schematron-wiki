@@ -583,7 +583,9 @@ Please note that there are a couple of databases for which both DOIs and URLs ar
       </td>
     </tr>
   </tbody>
-</table>## Schematron warnings
+</table>
+
+## Schematron warnings
 
 ### Content warnings
 

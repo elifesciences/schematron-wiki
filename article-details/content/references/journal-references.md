@@ -34,6 +34,18 @@ The following information can be added for journal references:
 | DOI | No | &lt;pub-id pub-id-type="doi"&gt; | 10.1083/jcb.200510010 |
 | PMID | No | &lt;pub-id pub-id-type="pmid"&gt; | 16769818 |
 
+* **Authors**: Enter each author name as a surname followed by initials.
+* **Collaboration:**
+* **Year**: 
+* **Article title:**
+* Journal name: 
+* Volume:
+* e-location ID
+* First page
+* Last page
+* DOI
+* PMID
+
 Where the optional information is available, this should also be added in. 
 
 * **Authors**: Enter each author name as a surname followed by initials. 
