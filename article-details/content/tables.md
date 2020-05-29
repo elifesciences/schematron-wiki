@@ -27,15 +27,15 @@ Tables can also have source data and/or source code files.
 Tables should have an appropriate label based on their placement. The following label formats are permitted for tables in eLife content:
 
 * Table 1
+* Key resources table
 * Appendix 1—table 1
 * Box 1—table 1
-* Key resources table
 * Author response table 1
 * Decision letter table 1
 
 ### Table header
 
-A table can technically only have one table header \(in the XML this is the `<thead>` element\). The header is the top row\(s\) of a table and serves as an indication of the content in the rows below it. If a table splits across multiple pages in the PDF, then this header is also displayed at the top of each subsequent page that is is split across.
+A table can technically only have one table header \(in the XML this is the `<thead>` element\). The header is the top row\(s\) of a table and serves as an indication of the content in the rows below it. If a table splits across multiple pages in the PDF, then this header is also displayed at the top of each subsequent page that is is split across \(this is important for tables that have multiple headers. More on this below\).
 
 If a table has multiple headings throughout it, then, if necessary these can be tagged within the table body \(and depending on the table it may also be appropriate to remove the header; more on this [below](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)\).
 
