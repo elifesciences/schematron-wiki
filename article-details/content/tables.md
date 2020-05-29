@@ -14,7 +14,7 @@ Those in Decision letters and Author responses only display in the HTML.
 
 ## What can tables contain?
 
-Tables can be with or without labels \(tables without labels are referred to as inline tables\). Those with labels outside of Decision Letters and Author responses _must_ have a title. They can also have a caption. 
+Tables can be with or without labels \(tables without labels are referred to as inline tables\). Those with labels outside of Decision Letters and Author responses _must_ have a title. In Decision letter and Author responses the title is optional. They can also have an optional caption. 
 
 The content of a table can be broken down into three sections:
 
