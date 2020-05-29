@@ -8,7 +8,9 @@ description: Tabulated content in an article
 
 Tables can be placed in the body of an article, in appendices, in Decision Letters and in Author responses.
 
-They display in both the HTML and in the PDF. 
+Those outside of Decision letters and Author responses display in both the HTML and in the PDF. 
+
+Those in Decision letters and Author responses only display in the HTML.
 
 ## What can tables contain?
 
