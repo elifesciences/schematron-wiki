@@ -35,19 +35,23 @@ Tables should have an appropriate label based on their placement. The following 
 
 ### Table header
 
-A table can technically only have one table header \(in the XML this is the `<thead>` element\). The header is the top row\(s\) of a table and serves as an indication of the content in the rows below it. If a table splits across multiple pages in the PDF, then this header is also displayed at the top of each subsequent page that is is split across \(this is important for tables that have multiple headers. More on this below\).
+A table can technically only have one table header \(in the XML this is the `<thead>` element\). The header is the top row\(s\) of a table and serves as an indication of the content in the rows below it. If a table splits across multiple pages in the PDF, then this header is also displayed at the top of each subsequent page that is is split across.
 
 If a table has multiple headings throughout it, then, if necessary these can be tagged within the table body \(and depending on the table it may also be appropriate to remove the header; more on this [below](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)\).
 
-The text in table headers are rendered with bold formatting. On the eLife site, they are also given a grey shading:
+The text in table headers is rendered with bold formatting. On the eLife site, headers are also given a grey shading:
 
 ![](../../.gitbook/assets/screen-shot-2020-05-29-at-15.08.59.png)
 
 Every table header cell can contain the following content:
 
-* Text \(with various different kinds of formatting - see [th-child-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#th-child-test) below\)
+* Text \(with various different kinds of formatting\)
 * Hyperlinks
 * Inline images
+* Code blocks
+* Inline formulae
+
+See also [th-child-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#th-child-test) below.
 
 ### Table body
 
@@ -439,9 +443,9 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 #### code-test
 
-**Warning**: 'XXXXXXX' element contains what looks like unformatted code - 'XXXXXX' - does this need tagging with &lt;monospace/&gt; or &lt;code/&gt;?.
+**Warning**: 'XXXXXXX' element contains what looks like unformatted code - 'XXXXXX' - does this need tagging with &lt;monospace/&gt; or &lt;code/&gt;?
 
-**Action**: This will fire at all stages if a table cell or paragraph contains text which is preceded by two hyphens, such as `--render`. In a table cell this should be given monospace formatting. \(In paragraphs it might be necessary to include it as a code block - more on this in that page\).
+**Action**: This will fire at all stages if a table cell or paragraph contains text which is preceded by two hyphens, such as `--render`. In a table cell this should be given monospace formatting if it is just a snippet of code. If it is a full block of code going over multiple lines, then this should be captured as a code block.
 
 #### cell-spacing-test
 
