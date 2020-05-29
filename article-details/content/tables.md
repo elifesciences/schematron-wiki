@@ -8,9 +8,9 @@ description: Tabulated content in an article
 
 Tables can be placed in the body of an article, in appendices, in Decision Letters and in Author responses.
 
-They display in the HTML and in the PDF. 
+They display in both the HTML and in the PDF. 
 
-## Where can tables contain?
+## What can tables contain?
 
 Tables can be with our without labels \(tables without labels are referred to as inline tables\). Those with labels outside of Decision Letters and Author responses _must_ have a title. They can also have a caption. 
 
@@ -20,21 +20,43 @@ The content of a table can be broken down into three sections:
 * Table body
 * Table footer
 
+Tables can also have source data and/or source code files.
+
 ### Table header
 
 A table can technically only have one table header \(in the XML this is the `<thead>` element\). The header is the top row\(s\) of a table and serves as an indication of the content in the rows below it. If a table splits across multiple pages in the PDF, then this header is also displayed at the top of each subsequent page that is is split across.
 
-If a table has multiple headings, then these can be tagged within the table body \(and depending on the table it may also be appropriate to remove the header; more on this [below](https://app.gitbook.com/@elifesciences/s/productionhowto/~/drafts/-M8ViWEZHq-H9NfFjlmF/article-details/content/tables#tables-with-mulitple-headers)\).
+If a table has multiple headings throughout it, then, if necessary these can be tagged within the table body \(and depending on the table it may also be appropriate to remove the header; more on this [below](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)\).
 
 The text in table headers are rendered with bold formatting. On the eLife site, they are also given a grey shading:
 
 ![](../../.gitbook/assets/screen-shot-2020-05-29-at-15.08.59.png)
 
+Every table header cell can contain the following content:
+
+* Text \(with various different kinds of formatting - see [th-child-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#th-child-test) below\)
+* Hyperlinks
+* Inline images
+
+### Table body
+
+
+
+### Table footers
+
+
+
 ## Tables with multiple headers
 
-What actually determines the formatting of the cells is whether each cell is formatted as a heading cell or as a normal table cell.
+What actually determines the formatting of the cells is whether each cell is formatted as a heading cell or as a normal table cell \(in the XML these are `<th>` and `<td>` elements, respectively\). The table header and table body can contain either of these. It's very unusual, but possible, a header might need to contain normal, rather than header table cells. It is however relatively common for a table body to contains header cells. 
 
+If a table has multiple headings throughout, then the cells in the table body should be captured as header cells \(`<th>`\). This has to be done by Exeter \(it currently cannot be done by eLife staff in Kriya\).
 
+Typically an entire row should be captured as a header, although there are exceptions. See the action for [tr-test-3](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tr-test-3) for some examples.
+
+If a table has multiple headers, spans numerous pages in the PDF, and each header is of equal importance \(or those in the body are more important than the top one\), then there should be **no** table header. This is because \(as stated in [the Table Header section](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#table-header)\), the PDF will display the top heading at the top of each subsequent page, and this would be inappropriate.
+
+## Table citations
 
 
 
@@ -634,7 +656,7 @@ Exeter will need to correct this issue if it fires.
 
 #### th-child-test
 
-**Error**: td cannot contain XXXXXX. Only the following elements are allowed - 'bold', 'italic', 'sup', 'sub', 'sc', 'ext-link', 'break', 'named-content', 'monospace', and 'xref'.
+**Error**: th cannot contain XXXXXX. Only the following elements are allowed - 'bold', 'italic', 'sup', 'sub', 'sc', 'ext-link', 'break', 'named-content', 'monospace', and 'xref'.
 
 **Action**: The list of allowed elements correspond to the following types of content respectively - bold, italics, superscript, subscript, small caps, hyperlinks, line breaks, colour formatting, monospace and citations. This will fire if a table header cell contains any other type of content, and will likely need to be corrected by Exeter.
 
