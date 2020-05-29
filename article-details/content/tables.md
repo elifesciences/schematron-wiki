@@ -318,11 +318,11 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Action**: This will fire if a table row contains a mixture of table header cells and normal table cells. This is unusual, although there are a small number of cases where this would be appropriate. Checking the table in the original manuscript will give some indication of how the headings in a table should look like, and if any changes are required these will need to be implemented by Exeter. 
 
-In a case like [this](https://elifesciences.org/articles/53403#table2) 
+In a case like [this ](https://elifesciences.org/articles/53910#table1)
 
-![](../../.gitbook/assets/screen-shot-2020-05-29-at-12.57.13.png)
+![](../../.gitbook/assets/screen-shot-2020-05-29-at-13.02.24.png)
 
-all the table cells next to 'Organ' \(in the same row\) should be given table header formatting.
+all the table cells next to 'Refinement \(Phenix\)' and 'Validation' \(in their rows\) should be given table header formatting.
 
 In a case like [this](https://elifesciences.org/articles/52505#table1) 
 
