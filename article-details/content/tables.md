@@ -416,7 +416,47 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 **Action**: This will fire at all stages if a table cell or paragraph contains text like `1990 s`. If the authors intended to refer to decades then the space between the s.and number should be removed - `1990s`. If it a number an unit \(as in 1990 seconds\) then the space should be retained and the message ignored.
 
+#### copyright-symbol
 
+**Error**: 'XXXXXXX' element contains the copyright symbol, '©', which is not allowed.
+
+**Action**: This will fire at all stages if a table cell contains the copyright symbol, '©'. This is not allowed in eLife content and should be removed.
+
+#### trademark-symbol
+
+**Error**: 'XXXXXXX' element contains the trademark symbol, '™', which is not allowed.
+
+**Action**: This will fire at all stages if a table cell contains the trademark symbol, '™'. This is not allowed in eLife content and should be removed.
+
+#### reg-trademark-symbol
+
+**Error**: 'XXXXXXX' element contains the registered trademark symbol, '®', which is not allowed.
+
+**Action**: This will fire at all stages if a table cell contains the registered trademark symbol, '®'. This is not allowed in eLife content and should be removed.
+
+#### Inc-presence
+
+**Warning**: 'XXXXXXX' element contains 'Inc.' with a full stop. Remove the full stop.
+
+**Action**: This will fire at all stages if a table cell contains the text 'Inc' or 'inc' followed by a full stop. If it is a shorthand for incorporated, and not at the end of a sentence, such a `McDonalds Inc. sell 'food'`, then the full stop should be removed `McDonalds Inc sell 'food'`. If it is at the end of a sentence \(`'Food' is sold by McDonalds Inc.`\) or not a shorthand for incorporated, then the full stop can be left.
+
+#### andand-presence
+
+**Warning**: 'XXXXXXX' element contains ' and and ' which is very likely to be incorrect.
+
+**Action**: This will fire at all stages if a table cell contains the text ' and and ' \(or similar capitalised variations\). It almost certainly a mistake, so the extra 'and' can be removed.
+
+#### figurefigure-presence
+
+**Warning**: 'XXXXXXX' element contains ' figure figure ' which is very likely to be incorrect.
+
+**Action**: This will fire at all stages if a table cell contains the text ' and and ' \(or similar capitalised variations\). It almost certainly a mistake and the extra 'figure' can be removed.
+
+#### plus-minus-presence
+
+**Warning**: 'XXXXXXX' element contains two plus or minus signs separate by a space and a forward slash \(such as '+ /-'\). Should the space be removed? - XXXXXX.
+
+**Action**: This will fire at all stages if a table cell contains two plus or minus signs separated by a space and a forward slash \(such as '+ /-'\). It almost certainly a mistake and the extra space can be removed.
 
 ### **XML structure warnings**
 
