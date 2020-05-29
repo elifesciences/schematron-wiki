@@ -90,7 +90,7 @@ If there is an in-text citation, but the citations are out of sequence \(i.e. Ap
 
 **Action**: This will fire when a table is placed out of sequence in an appendix \(such as Appendix 1—table 1 being placed after Appendix 1—table 2\). If this error fires, Production will need to contact the authors in order to determine how they would like their tables to be labelled/presented.
 
-#### unlinked-object-cite
+#### text-v-object-cite-test
 
 **Warning**: _XXXXXX has possible unlinked citations in the text._
 
@@ -99,6 +99,16 @@ If there is an in-text citation, but the citations are out of sequence \(i.e. Ap
 * If the table citation is deliberately left unlinked due to citations which are out of sequence, this warning can be ignored.
 * If the table citation is obviously a reference to a table from another article or piece of work \(e.g. Table 1 from Smith et al., 2020\), then this can be ignored.
 * If neither of the above two conditions is the case, then the text should be added as a citation instead.
+
+#### missing-ref-in-text-test
+
+**Warning**: _XXXXXX element contains possible citation which is unlinked or a missing reference - search - XXXXXXX._
+
+**Action**: This will fire if a table cell contains a possible unlinked citation such as Smith et al., 2020. If there is no corresponding reference in the reference list, then the following author query should be added:
+
+* This cited reference does not appear in the reference list. Please provide the full bibliographic details.
+
+Otherwise the text should be captured as a proper citation.
 
 #### xref-column-test
 
@@ -336,7 +346,33 @@ In a case like [this](https://elifesciences.org/articles/53498#table1)
 
 the warning can be ignored, as all the cells in the first column serve as another header.
 
-#### 
+#### xref-column-test
+
+**Warning**: 'XXXXXXX' citation is in a column in the Key Resources Table which usually does not include references. Is it correct?
+
+**Action**: This will fire at all stages if a citation in a KR table is not in the third or fifth row \(the commonly used ones for citations\). If it is clear that this needs to moved to a different column or is a mistake \(for example a superscript number converted to a citation which should have been left as a number\), then it should be corrected. If not clear, and at a pre-author stage please add this author query:
+
+* Please confirm whether this citation is in the correct column in the Key resources table.
+
+#### xref-column-test
+
+**Warning**: 'XXXXXXX' element contains what looks like XX unlinked RRID\(s\). These should always be linked using 'https://scicrunch.org/resolver/'. Element begins with XXXXXXX.
+
+**Action**: This will fire at all stages if a table cell or paragraph contains more instances of the text `RRID:` than there are links containing https://scicrunch.org/resolver/, meaning that there are unlinked RRIDs. All RRIDs should linked by adding the RRID to the end of https://scicrunch.org/resolver/. For example for the text `RRID:CVCL_0063`, `CVCL_0063` should have an embedded link - https://scicrunch.org/resolver/CVCL\_0063. If the author has not actually provided the RRID, i.e. the cell contains just `RRID:`, then the following author query should be added:
+
+* Please provide the RRID here.
+
+#### org-test
+
+**Warning**: 'XXXXXXX' element contains an organism - XXXXXX - but there is no italic element with that correct capitalisation or spacing. Is this correct? XXXXX element begins with XXXXXX.
+
+**Action**: This will fire at all stages if a table cell or paragraph contains the name of an organism which should be italicised, but there is not one italic element containing that text. For example, if the cell contains E. Coli then it should be italicised to _E. Coli_. Similarly if it contains _e.Coli_, then the text should be changed to _E. Coli_.
+
+#### code-test
+
+**Warning**: 'XXXXXXX' element contains what looks like unformatted code - 'XXXXXX' - does this need tagging with &lt;monospace/&gt; or &lt;code/&gt;?.
+
+**Action**: This will fire at all stages if a table cell or paragraph contains text which is preceded by two hyphens, such as `--render`. In a table cell this should be given monospace formatting. \(In paragraphs it might be necessary to include it as a code block - more on this in that page\).
 
 ### **XML structure warnings**
 
