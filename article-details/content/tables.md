@@ -4,7 +4,39 @@ description: Tabulated content in an article
 
 # Tables
 
-Test test 
+## Where are tables allowed?
+
+Tables can be placed in the body of an article, in appendices, in Decision Letters and in Author responses.
+
+They display in the HTML and in the PDF. 
+
+## Where can tables contain?
+
+Tables can be with our without labels \(tables without labels are referred to as inline tables\). Those with labels outside of Decision Letters and Author responses _must_ have a title. They can also have a caption. 
+
+The content of a table can be broken down into three sections:
+
+* Table header
+* Table body
+* Table footer
+
+### Table header
+
+A table can technically only have one table header \(in the XML this is the `<thead>` element\). The header is the top row\(s\) of a table and serves as an indication of the content in the rows below it. If a table splits across multiple pages in the PDF, then this header is also displayed at the top of each subsequent page that is is split across.
+
+If a table has multiple headings, then these can be tagged within the table body \(and depending on the table it may also be appropriate to remove the header; more on this [below](https://app.gitbook.com/@elifesciences/s/productionhowto/~/drafts/-M8ViWEZHq-H9NfFjlmF/article-details/content/tables#tables-with-mulitple-headers)\).
+
+The text in table headers are rendered with bold formatting. On the eLife site, they are also given a grey shading:
+
+![](../../.gitbook/assets/screen-shot-2020-05-29-at-15.08.59.png)
+
+## Tables with multiple headers
+
+What actually determines the formatting of the cells is whether each cell is formatted as a heading cell or as a normal table cell.
+
+
+
+
 
 ## Schematron checks
 
