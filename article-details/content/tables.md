@@ -101,7 +101,7 @@ If a table has multiple headers, spans numerous pages in the PDF, and each heade
 
 ![](../../.gitbook/assets/screen-shot-2020-05-29-at-17.29.53.png)
 
-
+Similarly, the Schematron check [tr-test-3](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tr-test-3) will fire if a table header cell is accompanied by normal table cells in the same row. See the [action](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tr-test-3) for examples of what to do when this fires.
 
 ## Key resources tables
 
@@ -417,7 +417,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 #### tr-test-2
 
-**Warning**: table row in body contains a th element \(a header\), which is unusual. Please check that this is correct.
+**Warning**: table row in body contains a th element \(a header\). Please check that this is correct.
 
 **Action**: This will fire for table cells which are styled as headers, but are in the table body. The table has numerous headers throughout it \(and is supposed to\), then this can be ignored. Otherwise Exeter will have to change this to a normal table cell.
 
