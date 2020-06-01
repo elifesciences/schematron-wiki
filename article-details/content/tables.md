@@ -667,6 +667,30 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 **Action**: This will fire at all stages if a table cell contains a specific character, the operating system command character \(unicode `&#x9d;`\). If this fires, the character _must_ be removed, because otherwise the article will fail PMC ingestion.
 
+#### table-xref-conformity-1
+
+**Warning**: _'XXXXXXX' - citation points to table, but does not include the string 'Table', which is very unusual._
+
+**Action**: This will fire at all stages if a main text table citation does not contain the word 'Table'. In cases where this fires for text like 'See **Tables 1** and **2**', the test will fire for the **2** and can be ignored. If this fires for any other reason it likely indicated that the citation directs to the incorrect location.
+
+#### table-xref-conformity-2
+
+**Warning**: _'XXXXXXX' - citation points to an Appendix table, but does not include the string 'table', which is very unusual._
+
+**Action**: This will fire at all stages if an Appendix text table citation does not contain the word 'table'. In cases where this fires for text like 'See **Appendix 1–tables 1** and **2**', the test will fire for the **2** and can be ignored. If this fires for any other reason it likely indicated that the citation directs to the incorrect location.
+
+#### table-xref-conformity-3
+
+**Warning**: _'XXXXXXX' - Citation content does not match what it directs to._
+
+**Action**: This will fire at all stages if the text in a main text table citation does not contain the number of the label that the table directs to. For example if **Table 2**, links to Table 3. 
+
+#### table-xref-conformity-4
+
+**Warning**: _'XXXXXXX' - Citation content does not match what it directs to._
+
+**Action**: This will fire at all stages if the text in an appendix table citation does not contain the number of the label that the table directs to. For example if **Appendix 1–table 1**, links to Appendix 1–table 2. 
+
 ### **XML structure warnings**
 
 #### app-table-wrap-id-test-1
