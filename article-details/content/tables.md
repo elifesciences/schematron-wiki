@@ -799,3 +799,7 @@ Exeter will need to correct this issue if it fires.
 
 **Action**: If this fires in live content, then the bold formatting should be removed. Header formatting is always in bold so the bold formatting is superfluous. The only reason this can be ignored is if this fires in an article which is being published as a new version.
 
+## XML structure
+
+Each Table is wrapped in a `<table-wrap>` element.
+
