@@ -149,7 +149,7 @@ Inline tables \(that is tables with no label, title or caption\) cannot have cit
 
 The following should be checked for Tables:
 
-* Appropriate capture of heading\(s\) \(see \).
+* Appropriate capture of heading\(s\) \(see [Tables with multiple headers](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)\).
 * The presence of colours \(should be flagged by Schematron; see [colour-check-table](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#colour-check-table)\).
 * Missing links for RRIDs, DOIs, PMIDs and PMCIDs.
 * That links for RRIDs, DOIs, PMIDs and PMCIDs resolve.
