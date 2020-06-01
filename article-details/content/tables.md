@@ -85,7 +85,9 @@ If a cell in the table body is entirely bold formatted, it may be appropriate to
 
 ### Table footers
 
-Table footers appear at the bottom of a table. They are intended to only contain extra relevant information \(such as footnotes or attributions\), and will not contain tabulated content. eLife use the footer to contain footnotes to the table. All footnotes that have indicators should follow this sequence , †, ‡, §, ¶, , ††, ‡‡, §§, ¶¶, , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. in accordance with house style. Footnotes with numbers or letters as their indicators are not allowed.
+Table footers appear at the bottom of a table. They are intended to only contain extra relevant information \(such as footnotes or attributions\), and will not contain tabulated content. eLife use the footer to contain footnotes to the table. Often these are simple paragraphs which apply to the whole table. They can however be referred to from specific cells in the table, and this is done by including an indicator at the specific place in the cell/text and at the start of the footnote in the footer.
+
+All footnotes that have indicators should follow this sequence , †, ‡, §, ¶, , ††, ‡‡, §§, ¶¶, , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. in accordance with house style. Footnotes with numbers or letters as their indicators are not allowed.
 
 In the future we would like to be able to link footnote indicators in table cells to their respective footnotes, but currently this is not done, merely the symbol is included as \(usually superscripted\) text in both places. 
 
@@ -98,6 +100,27 @@ Like figures, tables can have associated source data and source code files. Thes
 As with figure level source data, the label and title should be displayed underneath the table in the PDF. [Here is an example](https://elifesciences.org/articles/46883/figures#table1sdata1) from published content:
 
 ![](../../.gitbook/assets/screen-shot-2020-06-01-at-14.25.51.png)
+
+### Allowed colours in tables
+
+eLife allow the following colours as background shading for Table cells:
+
+* Blue
+* Green 
+* Orange
+* Yellow
+* Purple
+* Red
+* Pink
+* Grey
+
+eLife allow the following colours for text \(in this case text inside table cells\):
+
+* Blue
+* Purple
+* Red
+
+![](../../.gitbook/assets/screen-shot-2020-06-01-at-17.21.42.png)
 
 ## Tables with multiple headers
 
@@ -206,13 +229,13 @@ Footnote indicators should be in the following sequence _,_ †, ‡, §, ¶, **
 
 **Error**: _Duplicated labels - XXXXXX is present more than once in the text._
 
-**Action**: This will fire when a Table label occurs twice in the same article. Table labels must be distinct. If this fires, action should be taken to ensure that this label is not used more than once.
+**Action**: This will fire when a Table label occurs twice in the same article for example there is a Table 1 and a Table 1. Table labels must be distinct. If this fires, action should be taken to ensure that this label is not used more than once.
 
 #### pre-body-table-report
 
 **Warning**: _XXXXXX_ _does not appear in sequence. Relative to the other numbered tables it is placed in position XX._
 
-**Action**: This will fire when a table is placed out of sequence in the body of an article \(such as Table 1 being placed after Table 2\). If this warning fires, and there is no citation for that table, please add the following author query:
+**Action**: This will fire at pre-author stages when a table is placed out of sequence in the body of an article \(such as Table 1 being placed after Table 2\). If this warning fires, and there is no citation for that table, please add the following author query:
 
 * Please provide an in-text citation for this table.
 
@@ -224,13 +247,13 @@ If there is an in-text citation, but the citations are out of sequence \(i.e. Ta
 
 **Error**: _XXXXXX_ _does not appear in sequence which is incorrect. Relative to the other numbered tables it is placed in position XX._
 
-**Action**: This will fire when a table is placed out of sequence in the body of an article \(such as Table 1 being placed after Table 2\). If this error fires, Production will need to contact the authors in order to determine how they would like their tables to be labelled/presented.
+**Action**: This will fire at post-author stages when a table is placed out of sequence in the body of an article \(such as Table 1 being placed after Table 2\). If this error fires, Production will need to contact the authors in order to determine how they would like their tables to be labelled/presented.
 
 #### pre-app-table-report
 
 **Warning**: _XXXXXX_ _does not appear in sequence. Relative to the other numbered tables it is placed in position XX._
 
-**Action**: This will fire when a table is placed out of sequence in an appendix \(such as Appendix 1—table 1 being placed after Appendix 1—table 2\). If this warning fires, and there is no citation for that table, please add the following author query:
+**Action**: This will fire at pre-author stages when a table is placed out of sequence in an appendix \(such as Appendix 1—table 1 being placed after Appendix 1—table 2\). If this warning fires, and there is no citation for that table, please add the following author query:
 
 * Please provide an in-text citation for this table.
 
@@ -242,7 +265,7 @@ If there is an in-text citation, but the citations are out of sequence \(i.e. Ap
 
 **Error**: _XXXXXX_ _does not appear in sequence which is incorrect. Relative to the other numbered tables it is placed in position XX._
 
-**Action**: This will fire when a table is placed out of sequence in an appendix \(such as Appendix 1—table 1 being placed after Appendix 1—table 2\). If this error fires, Production will need to contact the authors in order to determine how they would like their tables to be labelled/presented.
+**Action**: This will fire at post-author stages when a table is placed out of sequence in an appendix \(such as Appendix 1—table 1 being placed after Appendix 1—table 2\). If this error fires, Production will need to contact the authors in order to determine how they would like their tables to be labelled/presented.
 
 #### text-v-object-cite-test
 
@@ -252,7 +275,7 @@ If there is an in-text citation, but the citations are out of sequence \(i.e. Ap
 
 * If the table citation is deliberately left unlinked due to citations which are out of sequence, this warning can be ignored.
 * If the table citation is obviously a reference to a table from another article or piece of work \(e.g. Table 1 from Smith et al., 2020\), then this can be ignored.
-* If neither of the above two conditions is the case, then the text should be added as a citation instead.
+* If neither of the above two conditions is the case, then the text should be changed to a linked citation.
 
 #### missing-ref-in-text-test
 
@@ -268,7 +291,7 @@ Otherwise the text should be captured as a proper citation.
 
 **Warning**: '_XXXXXX' citation is in a column in the Key Resources Table which usually does not include references. Is it correct?_
 
-**Action**: This will fire if a citation is present in the 1st, 2nd or 4th column in a Key resources table. If it's clear, based on the content of the rest of the table, that the citation should be moved in the 3rd \(headed 'Source/reference'\) or 5th \(headed 'Additional information'\) column, then ensure that it is moved to one of these columns. If it is not clear, and the article is at a pre-author stage, then the following query should be added:
+**Action**: This will fire if a citation is present in the 1st, 2nd or 4th column in a Key resources table \(these are headed 'Reagent type \(species\) or resource', 'Designation', and 'Identifiers', respectively\). If it's clear, based on the content of the rest of the table, that the citation should be moved in the 3rd \(headed 'Source/reference'\) or 5th \(headed 'Additional information'\) column, then ensure that it is moved to one of these columns. If it is not clear, and the article is at a pre-author stage, then the following query should be added:
 
 * Please confirm, is this citation in the correct column?
 
@@ -278,7 +301,7 @@ If the article is post-author, then the authors should be queried to check that 
 
 **Error**: _td element containing - 'XXXXXX' - looks like it contains a doi, but it contains no link with 'doi.org', which is incorrect._
 
-**Action**: This will fire if a table cell in a Key resources table contains a doi. All dois should be linked in the KR table, so action should be taken to ensure that the doi text has an embedded link \(https://doi.org/{doi}\).
+**Action**: This will fire if a table cell in a Key resources table contains an unlinked doi. All dois should be linked in the KR table, so action should be taken to ensure that the doi text has an embedded link \(https://doi.org/{doi}\).
 
 #### PMID-link-test
 
