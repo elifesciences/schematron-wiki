@@ -39,7 +39,7 @@ Tables should have an appropriate label based on their placement in the content.
 
 ### Table header
 
-A table can technically only have one table header \(in the XML this is the `<thead>` element, of which evert `<table>` element is only allowed 1\). The header is the top row\(s\) of a table and serves as an indication of the content in the rows below it. If a table splits across multiple pages in the PDF, then this header is also displayed at the top of each subsequent page that is is split across.
+A table can technically only have one table header \(in the XML this is the `<thead>` element, of which every `<table>` element is only allowed 1\). The header is the top row\(s\) of a table and serves as an indication of the content in the rows below it. If a table splits across multiple pages in the PDF, then this header is also displayed at the top of each subsequent page that is is split across.
 
 If a table has multiple headings throughout it, then, if necessary these can be tagged within the table body \(and depending on the table it may also be appropriate to remove the header; more on this [below](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)\).
 
@@ -60,6 +60,8 @@ See also [th-child-test](https://app.gitbook.com/@elifesciences/s/productionhowt
 
 Cells can be merged with cells in rows above and below it, and can be merged with cells in the columns left and right of it.
 
+Cells can be horizontally and vertically aligned.
+
 ### Table body
 
 The table body is any row and cells which are not in the header. They are usually marked up as normal cells meaning that they display with no shading on the eLife site, and the text only carried the formatting which has been applied to it \(by default roman\).
@@ -76,6 +78,8 @@ Every table cell in the body can contain the following content:
 * Line breaks
 
 See also [td-child-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#td-child-test) below.
+
+Cells can be horizontally and vertically aligned.
 
 If a cell in the table body is entirely bold formatted, it may be appropriate to format it as a header instead of as a normal table cell. This should be clear based on what content is inside the cell and the content in the rest of the table.
 
