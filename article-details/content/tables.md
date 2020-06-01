@@ -95,7 +95,7 @@ Table footers can also contain more general footnotes that are not specifically 
 
 ### Associated source data/code files
 
-Like figures, tables can have associated source data and source code files. These should be labelled in the format `[Table label]—source data 1.` and `[Table label]—source code 1`, for example `Table 1—source data 1.`
+Like figures, tables can have associated source data and source code files. These should be labelled in the format **\[Table label\]—source data 1.** and **\[Table label\]—source code 1**, for example **Table 1—source data 1.**
 
 As with figure level source data, the label and title should be displayed underneath the table in the PDF. [Here is an example](https://elifesciences.org/articles/46883/figures#table1sdata1) from published content:
 
