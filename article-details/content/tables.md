@@ -16,7 +16,7 @@ Those in Decision letters and Author responses only display in the HTML.
 
 Tables can be with or without labels \(tables without labels are referred to as inline tables\). Those with labels outside of Decision Letters and Author responses _must_ have a title. In Decision letter and Author responses the title is optional. They can also have an optional caption. 
 
-Note that an object labelled as one table \(with one label and optional title/caption\), can actually be made up of multiple tables. This is avoided, where possible in eLife content.
+Note that an object labelled as one table \(with one label and optional title/caption\), can actually be made up of multiple tables. This is avoided, where possible in eLife content \(see also [XML structure](https://app.gitbook.com/@elifesciences/s/productionhowto/~/drafts/-M8jeJDGPJr4ZbU7UoIo/article-details/content/tables#xml-structure)\).
 
 The content of a table can be broken down into three sections:
 
@@ -802,4 +802,551 @@ Exeter will need to correct this issue if it fires.
 ## XML structure
 
 Each Table is wrapped in a `<table-wrap>` element.
+
+The table itself is captured in a `<table>` element. A `<table-wrap>` can contain numerous `<table>` elements, so a table with one label, can in fact be made up of numerous tables. More than one `<table>` in a `<table-wrap>` should be avoided where possible. The only case it should be used is where a single table has multiple sections each with different numbers of columns, or where the authors have explicitly labelled a table with multiple parts, e.g. Table 1a, table 1b etc.
+
+Each table header is captured in a `<thead>` element, as a child of &lt;table&gt;.
+
+The body of a table is wrapped in a `<tbody>` element.
+
+Table footers should be captured using the `<table-wrap-foot>` element, which is captured as a child of `<table-wrap>`.
+
+Each table row is captured in a `<tr>` element, which can contain either table data cells \(`<td>`\) or table header cells \(`<th>`\).
+
+An empty `<break/>` element should be used to break text between two lines in a table cell.
+
+### Example of [a simple table](https://elifesciences.org/articles/56451#table1):
+
+```markup
+<table-wrap id="table1" position="float">
+    <label>Table 1.</label>
+    <caption>
+        <title>Kinetics of the transitions between IF and OF conformations</title>
+    </caption>
+    <table frame="hsides" rules="groups">
+        <thead>
+            <tr>
+                <th valign="top">Condition</th>
+                <th valign="top"><italic>t</italic><sub>IF</sub> (s)</th>
+                <th valign="top"><italic>t</italic><sub>OF</sub> (s)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td valign="top">WT, 5 mM ATP</td>
+                <td valign="top">16.1 ± 2.2</td>
+                <td valign="top">28.8 ± 4.8</td>
+            </tr>
+            <tr>
+                <td valign="top">WT, 5 mM ATP + 10 µM LTC<sub>4</sub></td>
+                <td valign="top">4.7 ± 0.8</td>
+                <td valign="top">30.8 ± 5.2</td>
+            </tr>
+            <tr>
+                <td valign="top">E1454Q, 5 mM ATP + 10 µM LTC<sub>4</sub></td>
+                <td valign="top">7.7 ± 1.5</td>
+                <td valign="top">31.7 ± 5.5</td>
+            </tr>
+        </tbody>
+    </table>
+    <table-wrap-foot>
+        <fn>
+            <p>Shown are the average lifetimes (mean ± SEM) of the composite IF state and the OF
+                state for WT and E1454Q MRP1 with indicated ATP and substrate concentrations. The
+                effect of dye photobleaching on the apparent IF/OF lifetime has been corrected
+                for.</p>
+        </fn>
+    </table-wrap-foot>
+</table-wrap>
+```
+
+### Example of a [table with multiple `<table>` elements](https://elifesciences.org/articles/49679#table1):
+
+```markup
+<table-wrap id="table1" position="float">
+    <label>Table 1.</label>
+    <caption>
+        <title>Genes up- and down-regulated in injured trigeminal neurons.</title>
+        <p>Genes that are affected by IOT were identified by comparing expression in the two injured
+            neuron classes relative to other classes. (a) Selected up-regulated genes, their
+            proposed functional role and previous assignment as injury-related transcripts (<xref
+                ref-type="bibr" rid="bib7">Cobos et al., 2018</xref>; <xref ref-type="bibr"
+                rid="bib13">Guan et al., 2016</xref>; <xref ref-type="bibr" rid="bib25">Shin et al.,
+                2019</xref>; <xref ref-type="bibr" rid="bib32">Wlaschin et al., 2018</xref>) and/or
+            as genes involved in neural regeneration (<xref ref-type="bibr" rid="bib21">Mahar and
+                Cavalli, 2018</xref>). (b) Selected down-regulated genes, their functional
+            classification and previous assignment as injury-related transcripts (<xref
+                ref-type="bibr" rid="bib25">Shin et al., 2019</xref>). See <xref
+                ref-type="supplementary-material" rid="supp2">Supplementary file 2</xref>; <xref
+                ref-type="supplementary-material" rid="supp3">Supplementary file 3</xref>; <xref
+                ref-type="supplementary-material" rid="supp4">Supplementary file 4</xref> for more
+            information about genes expression changes in injured neurons including magnitude of
+            changes and probability that expression is altered and <xref ref-type="fig" rid="fig2s3"
+                >Figure 2—figure supplement 3</xref> for GO-analysis.</p>
+    </caption>
+    <table frame="hsides" rules="groups">
+        <thead>
+            <tr>
+                <th colspan="3" valign="top">Table 1a</th>
+            </tr>
+            <tr>
+                <th valign="top">Gene</th>
+                <th valign="top">Reported functional roles</th>
+                <th valign="top">Reported previously<sup>1, 2</sup></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td valign="top">
+                    <italic>Atf3</italic>
+                </td>
+                <td valign="top">Transcriptional regulation: (up and downregulation) ATF/CREB family
+                    of transcription factors</td>
+                <td valign="top">a, b, c, D</td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Sema6a</italic>
+                </td>
+                <td valign="top">Semaphorin: receptor for Plxna2 role in cell-cell signaling and
+                    appropriate neural projection</td>
+                <td valign="top">a, b, c</td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Sox11</italic>
+                </td>
+                <td valign="top">Transcription factor: regulates survival and axonal growth in
+                    embryonic sensory neurons</td>
+                <td valign="top">a, b, D</td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Gal</italic>
+                </td>
+                <td valign="top">Neuropeptide: modulation and inhibition of action potentials</td>
+                <td valign="top">a, b, c</td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Npy</italic>
+                </td>
+                <td valign="top">Neuropeptide: neuropeptide with multiple roles including reducing
+                    pain perception</td>
+                <td valign="top">a, b, c</td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Nts</italic>
+                </td>
+                <td valign="top">Neuropeptide: multiple roles in neurotransmission/modulation</td>
+                <td valign="top">a, b, c</td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Mmp16</italic>
+                </td>
+                <td valign="top">Metallopeptidase: extracellular matrix degradation</td>
+                <td valign="top">a, b, c</td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Itgb6</italic>
+                </td>
+                <td valign="top">Integrin subunit: cell-cell interactions</td>
+                <td valign="top"/>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Itga7</italic>
+                </td>
+                <td valign="top">Integrin subunit: cell-cell interactions</td>
+                <td valign="top">a, c</td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Myo10</italic>
+                </td>
+                <td valign="top">Headless myosin: roles in development and cell migration</td>
+                <td valign="top">a, c</td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Gfra1</italic>
+                </td>
+                <td valign="top">Receptor for GDNF: promotes neural survival and differentiation of
+                    neurons</td>
+                <td valign="top">a</td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Lmo7</italic>
+                </td>
+                <td valign="top">Signaling: negative feedback regulator of transforming growth
+                    factor</td>
+                <td valign="top">a, b</td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Pou2f1</italic>
+                </td>
+                <td valign="top">Transcription factor: prominent in development</td>
+                <td valign="top">a, c</td>
+            </tr>
+        </tbody>
+    </table>
+    <table frame="hsides" rules="groups">
+        <thead>
+            <tr>
+                <th colspan="3" valign="top">Table 1b</th>
+            </tr>
+            <tr>
+                <th valign="top">Gene</th>
+                <th valign="top">Reported functional roles</th>
+                <th valign="top">Reported previously<sup>3</sup></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td valign="top">
+                    <italic>Grik1</italic>
+                </td>
+                <td valign="top">Ligand-gated ion channel subunit: kainate receptor type 1</td>
+                <td valign="top">a</td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Prkca</italic>
+                </td>
+                <td valign="top">Signal transduction: protein kinase c alpha</td>
+                <td valign="top"/>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Trpc3</italic>
+                </td>
+                <td valign="top">Ion channel: Trpc3 linked to mechanosensory transduction</td>
+                <td valign="top"/>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Scn10a</italic>
+                </td>
+                <td valign="top">Sodium ion channel subunit: Nav1.8 linked to pain sensation in
+                    humans and mice</td>
+                <td valign="top">a</td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Scn9a</italic>
+                </td>
+                <td valign="top">Sodium ion channel subunit: Nav1.7 linked to pain sensation in
+                    humans and mice</td>
+                <td valign="top"/>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Scn1a</italic>
+                </td>
+                <td valign="top">Sodium ion channel subunit: Nav1.1 linked to pain sensation in
+                    humans and mice</td>
+                <td valign="top">a</td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Calca</italic>
+                </td>
+                <td valign="top">Neuropeptide: CGRP, role in neuroinflammation and pain</td>
+                <td valign="top"/>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Tac1</italic>
+                </td>
+                <td valign="top">Neuropeptide: substance P, acts as a neurotransmitter/modulator,
+                    role in pain</td>
+                <td valign="top">a</td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Kcnb2</italic>
+                </td>
+                <td valign="top">Potassium channel subunit</td>
+                <td valign="top">a</td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Cacnb4</italic>
+                </td>
+                <td valign="top">Calcium channel subunit</td>
+                <td valign="top"/>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Trpm3</italic>
+                </td>
+                <td valign="top">Ion channel: Trpm3 linked to pain signaling in mice</td>
+                <td valign="top"/>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Oprm1</italic>
+                </td>
+                <td valign="top">G protein coupled receptor: mu-opioid receptor</td>
+                <td valign="top"/>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <italic>Snap25</italic>
+                </td>
+                <td valign="top">Synaptosome associated protein: role in neurotransmitter
+                    release</td>
+                <td valign="top">a</td>
+            </tr>
+        </tbody>
+    </table>
+    <table-wrap-foot>
+        <fn>
+            <p><sup>1</sup>Upregulated after SNI (a) <xref ref-type="bibr" rid="bib25">Shin et al.
+                    (2019)</xref>, (b) <xref ref-type="bibr" rid="bib32">Wlaschin et al.
+                    (2018)</xref>, (c) <xref ref-type="bibr" rid="bib7">Cobos et al.
+                (2018)</xref>.</p>
+            <p><sup>2</sup>Role in neural regeneration (D) <xref ref-type="bibr" rid="bib21">Mahar
+                    and Cavalli (2018)</xref>.</p>
+        </fn>
+        <fn>
+            <p><sup>3</sup>Downregulated after SNI (a) <xref ref-type="bibr" rid="bib25">Shin et al.
+                    (2019)</xref>.</p>
+        </fn>
+    </table-wrap-foot>
+</table-wrap>
+```
+
+### Example of an ['inline' table containing inline images and inline formula](https://elifesciences.org/articles/45413#s8-6):
+
+```markup
+<table-wrap id="inlinetable7" position="anchor">
+    <table frame="hsides" rules="groups">
+        <thead>
+            <tr>
+                <th valign="top">#</th>
+                <th valign="top">Name</th>
+                <th valign="top">Units</th>
+                <th valign="top">Description</th>
+                <th valign="top">Mathematical formula</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td valign="top">1</td>
+                <td valign="top">Interface Contour <break/><inline-graphic mime-subtype="tiff"
+                        mimetype="image" xlink:href="elife-45413-inf1-v2.tif"/></td>
+                <td valign="top">[pixels]</td>
+                <td valign="top">Distance between two corners of the defined cell edge</td>
+                <td valign="top"><break/><inline-formula><mml:math id="inf1"><mml:mstyle
+                                displaystyle="true" scriptlevel="0"
+                                            ><mml:mrow><mml:msub><mml:mi>L</mml:mi><mml:mrow><mml:mi>E</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:munderover><mml:mo
+                                            movablelimits="false"
+                                                >∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msqrt><mml:mo
+                                                stretchy="false"
+                                                  >(</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msup><mml:mo
+                                                  stretchy="false"
+                                                  >)</mml:mo><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:mo
+                                                stretchy="false"
+                                                  >(</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msup><mml:mo
+                                                  stretchy="false"
+                                                  >)</mml:mo><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:msqrt></mml:mrow></mml:mrow></mml:mstyle></mml:math></inline-formula>
+                    <break/>Where L<sub>E</sub> is the interface contour length,
+                        <break/>p(x<sub>i</sub>,y<sub>i</sub>) is an edge pixel from an ordered list
+                    of edge pixels with cornerpixel1(x<sub>1</sub>,y<sub>1</sub>) and
+                        cornerpixel2(x<sub>n+1</sub>,y<sub>n+1</sub>)</td>
+            </tr>
+            <tr>
+                <td valign="top">2</td>
+                <td valign="top">Straight-line Interface Length <break/><inline-graphic
+                        mime-subtype="tiff" mimetype="image" xlink:href="elife-45413-inf2-v2.tif"
+                    /></td>
+                <td valign="top">[pixels]</td>
+                <td valign="top">Straight line distance between two corner points</td>
+                <td valign="top"><break/><inline-formula><mml:math id="inf2"><mml:mstyle
+                                displaystyle="true" scriptlevel="0"
+                                            ><mml:mrow><mml:msub><mml:mi>L</mml:mi><mml:mrow><mml:mi>S</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msqrt><mml:mo
+                                            stretchy="false"
+                                                  >(</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msup><mml:mo
+                                                stretchy="false"
+                                                  >)</mml:mo><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:mo
+                                            stretchy="false"
+                                                  >(</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msup><mml:mo
+                                                stretchy="false"
+                                                  >)</mml:mo><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:msqrt></mml:mrow></mml:mstyle></mml:math></inline-formula>
+                    <break/>L<sub>s</sub> is the straight-line interface length where
+                        p(x<sub>1</sub>,y<sub>1</sub>) is the first corner pixel on the cell edge
+                        p(x<sub>2</sub>,y<sub>2</sub>) is the last corner pixel on the cell
+                    edge</td>
+            </tr>
+            <tr>
+                <td valign="top">3</td>
+                <td valign="top">Fragmented Junction Contour <break/><inline-graphic
+                        mime-subtype="tiff" mimetype="image" xlink:href="elife-45413-inf3-v2.tif"
+                    /></td>
+                <td valign="top">[pixels]</td>
+                <td valign="top">Sum of stained fragments along the single pixel edge</td>
+                <td valign="top"><break/><inline-formula><mml:math id="inf3"><mml:mstyle
+                                displaystyle="true" scriptlevel="0"
+                                            ><mml:mrow><mml:msub><mml:mi>L</mml:mi><mml:mrow><mml:mi>F</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:munderover><mml:mo
+                                            movablelimits="false"
+                                                >∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msqrt><mml:mo
+                                                stretchy="false"
+                                                  >(</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msup><mml:mo
+                                                  stretchy="false"
+                                                  >)</mml:mo><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:mo
+                                                stretchy="false"
+                                                  >(</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msup><mml:mo
+                                                  stretchy="false"
+                                                  >)</mml:mo><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:msqrt></mml:mrow></mml:mrow></mml:mstyle></mml:math></inline-formula>
+                    <break/>Where L<sub>F</sub> is the fragmented junction contour length as the sum
+                    of the contour length of each junction fragment, p(x<sub>j</sub>,y<sub>j</sub>)
+                    is an edge pixel from an ordered list of edge pixels with
+                        p(x<sub>1</sub>,y<sub>1</sub>) being the first pixel on the cell edge
+                    fulfilling I(p(x<sub>j</sub>,y<sub>j</sub>)) &gt; Θ<sub>I</sub> AND
+                        p(x<sub>n+1</sub>,y<sub>n+1</sub>) being the last pixel on the cell edge
+                    fulfilling I(p(x<sub>j</sub>,y<sub>j</sub>)) &gt; Θ<sub>I</sub>, where
+                        <break/>Θ<sub>I</sub> is the a priori defined intensity threshold, and
+                        <break/>I(p(x<sub>j</sub>,y<sub>j</sub>)) being the intensity of a given
+                    pixel <break/>Fragments must be at least two pixels</td>
+            </tr>
+            <tr>
+                <td valign="top">4</td>
+                <td valign="top">Dilation Cycles</td>
+                <td valign="top">[unitless]</td>
+                <td valign="top">Number of cycles used to dilate the defined edge</td>
+                <td valign="top">Number of times the binary image dilate algorithm is used to expand
+                    the defined edge. Essentially one dilation cycle changes a line of pixel width
+                    one to a line of pixel width 3. Two dilation cycles make the line five
+                    pixels-wide, etc.</td>
+            </tr>
+            <tr>
+                <td valign="top">5</td>
+                <td valign="top">Interface Area <break/><inline-graphic mime-subtype="tiff"
+                        mimetype="image" xlink:href="elife-45413-inf4-v2.tif"/></td>
+                <td valign="top">[pixels<sup>2</sup>]</td>
+                <td valign="top">Area in pixels of the dilated edge area between two corners</td>
+                <td valign="top"><inline-formula><mml:math id="inf4"><mml:mstyle displaystyle="true"
+                                scriptlevel="0"
+                                                ><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>E</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:munderover><mml:mo
+                                            movablelimits="false"
+                                                >∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>o</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:mo
+                                            stretchy="false"
+                                                  >(</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>p</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mo
+                                                stretchy="false"
+                                                  >)</mml:mo><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:mstyle></mml:math></inline-formula>
+                    <break/>Where A<sub>E</sub> is the interface area as the sum of pixel area
+                        A<sub>p</sub> of all pixels in the dilated edge area and where
+                        <break/>A<sub>p</sub> is the pixel area with
+                        A<sub>p</sub> = 1px*1px = 1px<sup>2</sup> and <break/>o is the number of
+                    pixels in the interface area</td>
+            </tr>
+            <tr>
+                <td valign="top">6</td>
+                <td valign="top">Junction marker 1 Area <break/><inline-graphic mime-subtype="tiff"
+                        mimetype="image" xlink:href="elife-45413-inf5-v2.tif"/></td>
+                <td valign="top">[pixels<sup>2</sup>]</td>
+                <td valign="top">Area covered by junction marker staining within the interface
+                    area</td>
+                <td valign="top"><inline-formula><mml:math id="inf5"><mml:mstyle displaystyle="true"
+                                scriptlevel="0"
+                                                ><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:munderover><mml:mo
+                                            movablelimits="false"
+                                                >∑</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:mo
+                                            stretchy="false"
+                                                  >(</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>p</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mo
+                                                stretchy="false"
+                                                  >)</mml:mo><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:mstyle></mml:math></inline-formula>
+                    <break/>Where A<sub>FT</sub> is the junction marker area as the sum of pixel
+                    area A<sub>P</sub> of all pixels fulfilling the conditions
+                        <break/>p(x<sub>k</sub>,y<sub>k</sub>) Є A<sub>E</sub>, AND
+                        <break/>I(p(x<sub>k</sub>,y<sub>k</sub>)) &gt; Θ<sub>I</sub> and where
+                        <break/>A<sub>P</sub> is the pixel area with
+                        A<sub>P</sub> = 1px*1px = 1px<sup>2</sup> and <break/>m is the number of
+                    pixels in the fragmented interface area A<sub>FT</sub></td>
+            </tr>
+            <tr>
+                <td valign="top">7</td>
+                <td valign="top">Junction marker 1 Intensity <break/><inline-graphic
+                        mime-subtype="tiff" mimetype="image" xlink:href="elife-45413-inf6-v2.tif"
+                    /></td>
+                <td valign="top">[A.U.]</td>
+                <td valign="top">Sum of cadherin (junctional protein) Intensity within the interface
+                    area.</td>
+                <td valign="top">
+                    <break/><break/><inline-formula><mml:math id="inf6"><mml:mstyle
+                                displaystyle="true" scriptlevel="0"
+                                            ><mml:mrow><mml:msub><mml:mi>I</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:munderover><mml:mo
+                                            movablelimits="false"
+                                                >∑</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msub><mml:mi>I</mml:mi><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:mstyle></mml:math></inline-formula>
+                    <break/>Where, I<sub>FT</sub> is the junction marker intensity as the sum of
+                    intensities I<sub>k</sub> of all pixels fulfilling the conditions <break/>1)
+                        p(x<sub>k</sub>,y<sub>k</sub>) Є A<sub>E</sub>, AND <break/>2)
+                        I(p(x<sub>k</sub>,y<sub>k</sub>)) &gt; Θ<sub>I</sub> with m being the number
+                    of pixels in the fragmented interface area A<sub>FT</sub></td>
+            </tr>
+            <tr>
+                <td valign="top">8</td>
+                <td valign="top">Junction Contour <break/><inline-graphic mime-subtype="tiff"
+                        mimetype="image" xlink:href="elife-45413-inf7-v2.tif"/></td>
+                <td valign="top">[pixels]</td>
+                <td valign="top">Sum of pixel distances between the first and last junction marker
+                    pixels along the interface contour</td>
+                <td valign="top"><break/><inline-formula><mml:math id="inf7"><mml:mstyle
+                                displaystyle="true" scriptlevel="0"
+                                            ><mml:mrow><mml:msub><mml:mi>L</mml:mi><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:munderover><mml:mo
+                                            movablelimits="false"
+                                                >∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msqrt><mml:mo
+                                                stretchy="false"
+                                                  >(</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msup><mml:mo
+                                                  stretchy="false"
+                                                  >)</mml:mo><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:mo
+                                                stretchy="false"
+                                                  >(</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msup><mml:mo
+                                                  stretchy="false"
+                                                  >)</mml:mo><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:msqrt></mml:mrow></mml:mrow></mml:mstyle></mml:math></inline-formula>
+                    <break/>Where L<sub>J</sub> is the junction contour length and
+                        p(x<sub>j</sub>,y<sub>j</sub>) is an edge pixel from an ordered list of edge
+                    pixels with p(x<sub>1</sub>,y<sub>1</sub>) being the first pixel on the cell
+                    edge fulfilling I(p(x<sub>k</sub>,y<sub>k</sub>)) &gt; Θ<sub>I</sub> AND
+                        p(x<sub>n+1</sub>,y<sub>n+1</sub>) being the last pixel on the cell edge
+                    fulfilling I(p(x<sub>k</sub>,y<sub>k</sub>)) &gt; Θ<sub>I</sub></td>
+            </tr>
+            <tr>
+                <td valign="top">9</td>
+                <td valign="top">Straight-line Junction Length <break/><inline-graphic
+                        mime-subtype="tiff" mimetype="image" xlink:href="elife-45413-inf8-v2.tif"
+                    /></td>
+                <td valign="top">[pixels]</td>
+                <td valign="top">Euclidian distance from first to the last pixel of junction marker
+                    one on the interface contour</td>
+                <td valign="top"><inline-formula><mml:math id="inf8"><mml:mstyle displaystyle="true"
+                                scriptlevel="0"
+                                                ><mml:mrow><mml:msub><mml:mi>L</mml:mi><mml:mrow><mml:mi>J</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msqrt><mml:mo
+                                            stretchy="false"
+                                                  >(</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msup><mml:mo
+                                                stretchy="false"
+                                                  >)</mml:mo><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:mo
+                                            stretchy="false"
+                                                  >(</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msup><mml:mo
+                                                stretchy="false"
+                                                  >)</mml:mo><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:msqrt></mml:mrow></mml:mstyle></mml:math></inline-formula>
+                    <break/><break/>L<sub>JS</sub> is the straight-line junction length where
+                        p(x<sub>1</sub>,y<sub>1</sub>) is the first pixel on the edge fulfilling
+                        I(p(x<sub>1</sub>,y<sub>1</sub>)) &gt; Θ<sub>I</sub> and
+                        p(x<sub>2</sub>,y<sub>2</sub>) is the last pixel on the edge fulfilling
+                        I(p(x<sub>2</sub>,y<sub>2</sub>) &gt; Θ<sub>I</sub>
+                    <break/>Θ<sub>I</sub> is the a priori defined intensity threshold, and
+                        <break/>I(p(x<sub>j</sub>,y<sub>j</sub>)) being the intensity of a given
+                    pixel</td>
+            </tr>
+        </tbody>
+    </table>
+</table-wrap>
+```
 
