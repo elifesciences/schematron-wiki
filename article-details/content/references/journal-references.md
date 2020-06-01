@@ -123,45 +123,45 @@ Searching for this reference online takes you to [this page](https://pubmed.ncbi
 
 The following rules apply to Journal references:
 
-#### \[err-elem-cit-journal-2-1\]
+#### err-elem-cit-journal-2-1
 
-**Rule:** Each `<element-citation>` of type 'journal' must contain one and only one `<person-group>` element. Reference 'bib\_' has `<person-group>` elements.
+**Error:** _Each &lt;element-citation&gt; of type 'journal' must contain one and only one &lt;person-group&gt; element. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements._
 
 **Action:** If there is no author list present, one will need to be added to the reference. Look the article up online if possible; otherwise raise an author query on the proof for the missing information. In cases where no author is given, 'Anon' will most likely need to be added as a `<collab>`. Alternatively, if the article is considered an editorial piece, use the name of the journal as the `<collab>`.
 
-#### \[err-elem-cit-journal-2-2\]
+#### err-elem-cit-journal-2-2
 
-**Rule:** Each `<element-citation>` of type 'journal' must contain one  with the attribute person-group-type 'author'. Reference 'bib_' has a `<person-group>` type of '\_\__'.
+**Error:** _Each &lt;element-citation&gt; of type 'journal' must contain one &lt;person-group&gt; with the attribute person-group-type 'author'. Reference 'XXXXXX' has a &lt;person-group&gt; type of 'XXXXXX'._
 
 **Action:** Remove the extra non-author `<person-group>`. Editors are never listed for journal references.
 
-#### \[err-elem-cit-journal-3-1\]
+#### err-elem-cit-journal-3-1
 
-**Rule:** Each `<element-citation>` of type 'journal' must contain one and only one `<article-title>` element. Reference 'bib_' has_   elements.
+**Error:** _Each &lt;element-citation&gt; of type 'journal' must contain one and only one &lt;article-title&gt; element. Reference 'XXXXXX' has XXXXXX &lt;article-title&gt; elements._
 
 **Action:** Identify and add in the article title. If the authors have not provided this information but have given other bibliographic details \(e.g. journal, volume, page range or elocation ID\) it may be possible to search for the article online. This is especially easy if they have given the DOI! If there are not enough details to find the article, raise an author query to ask for the missing title.
 
-#### \[err-elem-cit-journal-4-1\]
+#### err-elem-cit-journal-4-1
 
-**Rule:** Each `<element-citation>` of type 'journal' must contain one and only one  element. Reference 'bib_' has_  `<source>` elements.
+**Error:** _Each &lt;element-citation&gt; of type 'journal' must contain one and only one &lt;source&gt; element. Reference 'XXXXXX' has XXXXXX &lt;source&gt; elements._
 
 **Action:** Identify and add in the journal name. Check that the journal name has not been accidentally captured as part of the article title. If the authors have not provided this information but have given other bibliographic details \(e.g. article title, volume, page range or elocation ID\) it may be possible to search for the article online. This is especially easy if they have given the DOI! If there are not enough details to find the article, raise an author query to ask for the missing journal name.
 
-#### \[err-elem-cit-journal-4-2-2\]
+#### err-elem-cit-journal-4-2-2
 
-**Rule:** A `<source>` element within a  of type 'journal' may not contain child elements. Reference 'bib\_' has disallowed child elements.
+**Error:** _A &lt;source&gt; element within a &lt;element-citation&gt; of type 'journal' may not contain child elements. Reference 'XXXXXX' has disallowed child elements._
 
 **Action:** Check that formatting elements have not been introduced into the journal name \(e.g. bold formatting\). Delete the current contents of this field and past in an unformatted version of the journal name.
 
-#### \[err-elem-cit-journal-5-1-3\]
+#### err-elem-cit-journal-5-1-3
 
-**Rule:** There may be no more than one  element within a `<element-citation>` of type 'journal'. Reference 'bib_' has_  `<volume>` elements.
+**Error:** _There may be no more than one &lt;volume&gt; element within a &lt;element-citation&gt; of type 'journal'. Reference 'XXXXXX' has XXXXXX &lt;volume&gt; elements._
 
 **Action:** Remove the extra volume number\(s\). Make sure that a page number/eloction ID has not been tagged as a volume by mistake.
 
-#### \[err-elem-cit-journal-12\]
+#### err-elem-cit-journal-12
 
-**Rule:** The only elements allowed as children of `<element-citation>` with the publication-type="journal" are: `<person-group>`, `<year>`, `<article-title>`, `<source>`, `<volume>`, `<fpage>`, `<lpage>`, `<elocation-id>`, `<comment>`, and `<pub-id>`. Reference 'bibX' has other elements.
+**Error:** _The only elements allowed as children of &lt;element-citation&gt; with the publication-type="journal" are: &lt;person-group&gt;, &lt;year&gt;, &lt;article-title&gt;, &lt;source&gt;, &lt;volume&gt;, &lt;fpage&gt;, &lt;lpage&gt;, &lt;elocation-id&gt;, &lt;comment&gt;, and &lt;pub-id&gt;. Reference 'XXXXXX' has other elements._
 
 **Action:** Check the XML and remove the extra elements.
 
