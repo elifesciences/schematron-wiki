@@ -119,6 +119,8 @@ If a table has multiple headers, spans numerous pages in the PDF, and each heade
 
 Similarly, the Schematron check [tr-test-3](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tr-test-3) will fire if a table header cell is accompanied by normal table cells in the same row. See the [action](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tr-test-3) for examples of what to do when this fires.
 
+A single labelled table containing multiple tables \(multiple `<table>` elements in a `<table-wrap>`\) should be avoided where possible. The only case it should be used is where a single table has multiple sections each with different numbers of columns, or where the authors have explicitly labelled a table with multiple parts, e.g. Table 1a, table 1b etc.
+
 ## Key resources tables
 
 Key resources tables contain a list of resources \(such as Genes, Strains, Antibodies, Reagents, Chemical compounds, Software etc.\) that were used in generating the research communicated in an article. 
