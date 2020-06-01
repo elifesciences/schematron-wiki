@@ -128,7 +128,7 @@ What actually determines the formatting of the cells is whether each cell is for
 
 If a table has multiple headings throughout, then the cells in the table body should be captured as header cells \(`<th>`\). This has to be done by Exeter \(it currently cannot be done by eLife staff in Kriya\).
 
-Typically an entire row should be captured as a header, although there are exceptions. See the action for [tr-test-3](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tr-test-3) for some examples.
+Typically an entire row should be captured as a header, although there are exceptions. See the action for [th-row-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#th-row-test) for some examples.
 
 If a table has multiple headers, spans numerous pages in the PDF, and each header is of equal importance \(or those in the body are more important than the top one\), then there should be **no** table header. This is because \(as stated in [the Table Header section](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#table-header)\), the PDF will display the top heading at the top of each subsequent page, and this would be inappropriate.
 
