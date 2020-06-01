@@ -66,7 +66,7 @@ Cells can be horizontally and vertically aligned.
 
 The table body is any row and cells which are not in the header. They are usually marked up as normal cells meaning that they display with no shading on the eLife site, and the text only carries the formatting which has been applied to it \(by default roman\).
 
-Cells can be merged with cells in rows above and below it, and can be merged with cells in the columns left and right of it.
+A cell can be merged with cells in rows above and below it, and can be merged with cells in the columns left and right of it.
 
 Every table cell in the body can contain the following content:
 
