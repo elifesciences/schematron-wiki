@@ -107,9 +107,19 @@ Similarly, the Schematron check [tr-test-3](https://app.gitbook.com/@elifescienc
 
 ## Key resources tables
 
+Key resources tables contain a list of resources \(such as Genes, Strains, Antibodies, Primers, Plasmids etc.\) that were used in generating the research communicated in an article. 
 
+They are always placed at the start of the Materials and methods \(or similar sections, such as Model and materials\).
 
-**NOTE TO SELF** - add error at Post for table headers in tbody in KR tables?
+They have the label 'Key resources table', and no title or caption.
+
+They have a specific structure which must be followed - there will always be 5 columns, each with a header. When creating these tables, authors should use [this template](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). If the structure is not adhered to, then this has to be fixed during proofing. There are Schematron tests which will flag KR tables with the incorrect headers or number of columns.
+
+In some articles, Key resources tables will be captured in a supplementary file instead. This is currently acceptable and no action needs to be taken \(although in the future we will likely not allow this\).
+
+[Key resources table example](https://elifesciences.org/articles/57578#keyresource):
+
+![](../../.gitbook/assets/screen-shot-2020-06-01-at-11.52.50.png)
 
 ## Table citations
 
