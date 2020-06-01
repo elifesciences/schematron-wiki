@@ -190,7 +190,7 @@ Please ensure that there are no typos, missing or extra spaces, that the capital
 
 **Error**: _XXXXXX - Table label does not begin with the title of the appendix it sits in. Either the table is in the incorrect appendix or the table has been labelled incorrectly._
 
-**Action**: This will fire when a table in an appendix has a label which does not start with the title of the appendix that it sties in, for example 'Appendix 1—table 1.' in 'Appendix 2'.
+**Action**: This will fire when a table in an appendix has a label which does not start with the title of the appendix that it sits in, for example 'Appendix 1—table 1.' in 'Appendix 2'.
 
 Depending on the case, the table will either need to be moved into its appropriate appendix, or it will need to be re-labelled.
 
@@ -198,7 +198,7 @@ Depending on the case, the table will either need to be moved into its appropria
 
 **Warning**: _Footnote starts with label which is not in line with house style - XXXXXX. Footnote symbols should be in the order: \*, †, ‡, §, ¶, \*\*, ††, ‡‡, §§, ¶¶, etc._
 
-**Action**: This will fire when a table in an appendix has a label which does not start with the title of the appendix that it sties in, for example 'Appendix 1—table 1.' in 'Appendix 2'.
+**Action**: This will fire when a table in an appendix has a label which does not start with the title of the appendix that it sits in, for example 'Appendix 1—table 1.' in 'Appendix 2'.
 
 Footnote indicators should be in the following sequence _,_ †, ‡, §, ¶, **, ††, ‡‡, §§, ¶¶,** , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. If this warning fires, it is because a footnote does not start with one of these indicators.
 
