@@ -289,29 +289,65 @@ The following rules apply to Journal references:
 
 #### ampersand-check
 
-**Warning:** ref 'XXXXXX' appears to contain the text 'amp', is this a broken ampersand?
+**Warning:** _ref 'XXXXXX' appears to contain the text 'amp', is this a broken ampersand?_
 
-#### ref 'bib\_' has a source title '' which must be incorrect.
+#### Research-gate-check
 
-Journal ref 'bib\_' has a source title '' which must be incorrect. It should be a data or software type reference.
+**Error:** _ref 'XXXXXX' has a source title 'XXXXXX' which must be incorrect._
 
-XXX element contains the replacement character '�' which is unallowed -
+**Action:** This error will appear if a journal title has been entered as 'Research Gate' \(or 'research gate' or any other capitalisation alternatives\). Check what the correct journal title should be by looking up the article title or doi and enter that instead. 
 
-ref 'bibX' has a source title which contains the text 'official journal' - ''. Is this necessary?
+#### zenodo-check 
 
-ref 'bibX' has an article-title with a full stop. Is this correct, or has the journal/source title been included? Or perhaps the full stop should be a colon ':'?
-
-ref 'bibX' has an article-title which ends with a full stop, which cannot be correct -
-
-ref 'bibX' has an article-title which ends with some full stops - is this correct? -
-
-ref 'bibX' has an article-title which begins with 'Correction', 'Retraction' or 'Erratum'. Is this a reference to the notice or the original article?
-
-ref 'bibX' has an article-title which contains the text ' journal '. Is a journal title \(source\) erroneously included in the title? - ''
-
-ref 'bibX' has an article-title with one child element, and no text. This is almost certainly incorrect. -
+**Error:** Journal ref 'bib\_' has a source title '' which must be incorrect. It should be a data or software type reference.
 
 #### journal-replacement-character-presence
+
+**Error:** _element contains the replacement character '�' which is unallowed - XXXXXX_
+
+#### journal-off-presence
+
+**Warning:** _ref 'XXXXXX' has a source title which contains the text 'official journal' - 'XXXXXX'. Is this necessary?_
+
+**Action:** 
+
+**handbook-presence**
+
+**Error:** _Journal ref 'XXXXXX' has a journal title 'XXXXXX'. Should it be captured as a book type reference instead?_
+
+**Action:** 
+
+#### article-title-fullstop-check-1
+
+**Info**: _ref 'XXXXXX' has an article-title with a full stop. Is this correct, or has the journal/source title been included? Or perhaps the full stop should be a colon ':'?_
+
+**Action:**
+
+#### article-title-fullstop-check-2
+
+**Error:** ref 'XXXXXX' has an article-title which ends with a full stop, which cannot be correct - XXXXXX
+
+#### **article-title-fullstop-check-3**
+
+**Warning:** _ref 'XXXXXX' has an article-title which ends with some full stops - is this correct? - XXXXXX_
+
+**Action:** 
+
+#### **article-title-correction-check**
+
+**Warning:** _ref 'XXXXXX' has an article-title which begins with 'Correction', 'Retraction' or 'Erratum'. Is this a reference to the notice or the original article?_
+
+**Action:**
+
+**article-title-journal-check**
+
+**Warning:** _ref 'XXXXXX' has an article-title which contains the text ' journal '. Is a journal title \(source\) erroneously included in the title? - 'XXXXXX'_
+
+**Action:**
+
+ref 'bibX' has an article-title with one child element, and no text. This is almost certainly incorrect. 
+
+#### a-title-replacement-character-presence
 
 **Error:** element contains the replacement character '�' which is unallowed - XXXXXX
 
