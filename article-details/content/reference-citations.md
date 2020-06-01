@@ -197,6 +197,12 @@ XXXXXX in this message will be the current, incorrect citation text. Note that t
 
 **Action**: This warning will indicate instances such as "\(**Shin et al., 2014**\) also found that . . .", where it might not be appropriate to have the citation in parentheses. If the citation is part of the flow of the sentence, the parentheses should be removed. Please note that this message may appear even when the current text is fine \(e.g. ". . . which were then treated as follows \(**Karagöz et al., 2017**\):"\). See [above](reference-citations.md#citations-that-do-not-require-brackets) for more on when removing brackets is appropriate. XXXXXX in this message will be the text that needs checking.
 
+#### ref-xref-test-13
+
+**Warning**: _citation is preceded by '\(\['. Is the square bracket unnecessary? - XXXXXX_
+
+**Action**: This will indicate possible unnecessary square brackets for example \(\[Smith et al., 2020\]; Smith et al. 2019\). It is very likely that the square brackets will need to be removed if this warning fires.
+
 #### ref-xref-test-14
 
 **Warning**: _citation is preceded by text containing much of the citation text which is possibly unnecessary - XXXXXX_
@@ -208,6 +214,30 @@ XXXXXX in this message will be the current, incorrect citation text. Note that t
 **Warning**: _citation is followed by text containing much of the citation text. Is this correct? - 'XXXXXX'_
 
 **Action**: This will fire if the author of a reference is mentioned in close proximity to the citation of that reference. It might indicate that the citation needs to take the place of the author name\(s\). See [above](reference-citations.md#citations-close-to-mentions-of-author-names) for examples of how to deal with this. This warning can be ignored if it is no appropriate to make a change. XXXXXX in this message will be the text that needs checking.
+
+#### ref-xref-test-16
+
+**Error**: _citation is followed by '\)\)'. Either one of the brackets is unnecessary or the reference needs to be placed in square brackets - 'XXXXXX'_
+
+**Action**: This will fire if the a citation is directly followed by two brackets. It is most likely that the appropriate action would be to remove the extra brackets, but it is possible that the citation should be placed in square brackets.
+
+#### ref-xref-test-17
+
+**Warning**: _citation is preceded by '\(\('. Either one of the brackets is unnecessary or the reference needs to be placed in square brackets - 'XXXXXX'_
+
+**Action**: This will fire if the a citation is directly preceded by two brackets. It is most likely that the appropriate action would be to remove the extra brackets, but it is possible that the citation should be placed in square brackets.
+
+#### ref-xref-test-18
+
+**Warning**: _citation is preceded by '\(', and followed by '\);'. Should the brackets be removed? - 'XXXXXX'_
+
+**Action**: This will indicate text such as ' ... \(Smith et al., 2020\); ... '. In cases where the citation is already in a sentence in parentheses such as:
+
+\(**Smith et al., 2019**; see \(**Smith et al., 2020**\); **Figure 1**\)
+
+the brackets in the quoted text in the message can be removed. In cases where it is not, then it's likely that the brackets should be retained. For example:
+
+> Neutrophils release NETs via various mechanisms, which in most cases lead to neutrophil death \(Kenny et al., 2017\); thus, NETs are an extreme form of antimicrobial defense ...
 
 #### ref-xref-test-19
 
