@@ -14,7 +14,7 @@ Those in Decision letters and Author responses only display in the HTML.
 
 ## What can tables contain?
 
-Tables can be with or without labels \(tables without labels are referred to as inline tables\). Those with labels outside of Decision Letters and Author responses _must_ have a title. In Decision letter and Author responses the title is optional. They can also have an optional caption. 
+Tables can be with or without labels \(tables without labels are referred to as inline tables\). Those with labels outside of Decision Letters and Author responses _must_ have a title. In Decision Letter and Author responses the title is optional. They can also have an optional caption. 
 
 Note that an object labelled as one table \(with one label and optional title/caption\), can actually be made up of multiple tables. This is avoided, where possible in eLife content \(see also [XML structure](https://app.gitbook.com/@elifesciences/s/productionhowto/~/drafts/-M8jeJDGPJr4ZbU7UoIo/article-details/content/tables#xml-structure)\).
 
@@ -85,6 +85,14 @@ In the future we would like to be able to link footnote indicators in table cell
 
 Table footers can also contain more general footnotes that are not specifically referred to from cells within the table, such as a list of abbreviations or more general notes on the table. This is also fine.
 
+### Associated source data/code files
+
+Like Figures, Tables can have associated source data and source code files. These should be labelled in the format `[Table label]—source data 1.` and `[Table label]—source code 1`, for example `Table 1—source data 1.`
+
+As with Figure level source data, the label and title should be displayed underneath the table in the PDF. [Here is an example](https://elifesciences.org/articles/46883/figures#table1sdata1) from published content:
+
+![](../../.gitbook/assets/screen-shot-2020-06-01-at-14.25.51.png)
+
 ## Tables with multiple headers
 
 What actually determines the formatting of the cells is whether each cell is formatted as a heading cell or as a normal table cell \(in the XML these are `<th>` and `<td>` elements, respectively\). The table header and table body can contain either of these. It's very unusual, but possible, that a header might need to contain normal, rather than header table cells. It is however relatively common for a table body to contain header cells.
@@ -131,9 +139,21 @@ In the PDF, tables should be placed as close to their first citation as appropri
 
 Inline tables \(that is tables with no label, title or caption\) cannot have citations and so do not require any.
 
+## Checklist
+
+The following should be checked for Tables:
+
+* Appropriate capture of heading\(s\) \(see \).
+* The presence of colours \(should be flagged by Schematron; see [colour-check-table](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#colour-check-table)\).
+* Missing links for RRIDs, DOIs, PMIDs and PMCIDs.
+* That links for RRIDs, DOIs, PMIDs and PMCIDs resolve.
+* References to software that requires forking or adding a citation \(see [When and how to fork repositories](https://app.gitbook.com/@elifesciences/s/productionhowto/toolkit/forking-git-based-repos) and [Software references](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/references/software-references)\).
+* A corresponding citation in the text \(note this is not necessary for Key resources tables, tables in Decision letters or Author responses, and for certain Appendix tables\).
+* That a title is present \(note this is not necessary for Key resources tables, tables in Decision letters or Author responses\).
+
 ## Schematron checks
 
-The following tests are run on Tables.
+The following tests are run on tables.
 
 ### Content warnings
 
@@ -146,6 +166,7 @@ The following tests are run on Tables.
 * Table 1.
 * Key resources table.
 * Author response table 1.
+* Decision letter 1.
 
 Please ensure that the table label is either in one of these formats or \(in the case where it _should not_ have a label\), the label is removed.
 
