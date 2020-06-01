@@ -34,8 +34,8 @@ Tables should have an appropriate label based on their placement in the content.
 * Key resources table
 * Appendix 1—table 1
 * Box 1—table 1
-* Author response table 1
 * Decision letter table 1
+* Author response table 1
 
 ### Table header
 
