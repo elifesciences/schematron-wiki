@@ -503,7 +503,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Action**: This will fire for table cells which are not styled as headers, but are in the header of the table. This is highly unusual, and would usually indicate that either the table should not have a header at all, or that the cell should be given heading formatting.
 
-#### tr-test-3
+#### th-row-test
 
 **Warning**: _Table header cell containing 'XXXXXX' has table data \(not header\) cells next to it on the same row. Is this correct? Should the whole row be header cells, or should this cell extend across the whole row?_
 
