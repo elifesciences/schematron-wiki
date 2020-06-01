@@ -123,11 +123,13 @@ In some articles, Key resources tables will be captured in a supplementary file 
 
 ## Table citations
 
-Tables, which are not Key resources tables, within the main text of an article _must_ have a citation. Citations are optional for tables placed anywhere else in an article \(appendices, boxes, and Decision letters/Author responses\). 
+Labelled tables, which are not Key resources tables, within the main text of an article _must_ have a citation. Citations are optional for tables placed anywhere else in an article \(appendices, boxes, and Decision letters/Author responses\). 
 
 In the XML/HTML, tables should be placed directly after their first citation in the text.
 
 In the PDF, tables should be placed as close to their first citation as appropriately possible unless otherwise specified by authors.
+
+Inline tables \(that is tables with no label, title or caption\) cannot have citations and so do not require any.
 
 ## Schematron checks
 
