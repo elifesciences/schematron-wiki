@@ -81,17 +81,17 @@ If a cell in the table body is entirely bold formatted, it may be appropriate to
 
 ### Table footers
 
-Table footers appear at the bottom of a table. They are intended to only contain extra relevant information \(such as footnotes or attributions\), and will not contain tabulated content. eLife use the footer to contain footnotes to the table. All footnotes that have indicators should follow this sequence , †, ‡, §, ¶, , ††, ‡‡, §§, ¶¶, , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. Footnotes with numbers or letters as their indicators are not allowed.
+Table footers appear at the bottom of a table. They are intended to only contain extra relevant information \(such as footnotes or attributions\), and will not contain tabulated content. eLife use the footer to contain footnotes to the table. All footnotes that have indicators should follow this sequence , †, ‡, §, ¶, , ††, ‡‡, §§, ¶¶, , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. in accordance with house style. Footnotes with numbers or letters as their indicators are not allowed.
 
-In the future we would like to be able to link footnote indicators in table cells to their respective footnotes, but currently this is not done and, merely the symbol is included as \(usually superscripted\) text in both places. 
+In the future we would like to be able to link footnote indicators in table cells to their respective footnotes, but currently this is not done, merely the symbol is included as \(usually superscripted\) text in both places. 
 
 Table footers can also contain more general footnotes that are not specifically referred to from cells within the table, such as a list of abbreviations or more general notes on the table. This is also fine.
 
 ### Associated source data/code files
 
-Like Figures, Tables can have associated source data and source code files. These should be labelled in the format `[Table label]—source data 1.` and `[Table label]—source code 1`, for example `Table 1—source data 1.`
+Like figures, tables can have associated source data and source code files. These should be labelled in the format `[Table label]—source data 1.` and `[Table label]—source code 1`, for example `Table 1—source data 1.`
 
-As with Figure level source data, the label and title should be displayed underneath the table in the PDF. [Here is an example](https://elifesciences.org/articles/46883/figures#table1sdata1) from published content:
+As with figure level source data, the label and title should be displayed underneath the table in the PDF. [Here is an example](https://elifesciences.org/articles/46883/figures#table1sdata1) from published content:
 
 ![](../../.gitbook/assets/screen-shot-2020-06-01-at-14.25.51.png)
 
@@ -117,7 +117,7 @@ Similarly, the Schematron check [tr-test-3](https://app.gitbook.com/@elifescienc
 
 ## Key resources tables
 
-Key resources tables contain a list of resources \(such as Genes, Strains, Antibodies, Primers, Plasmids etc.\) that were used in generating the research communicated in an article. 
+Key resources tables contain a list of resources \(such as Genes, Strains, Antibodies, Reagents, Chemical compounds, Software etc.\) that were used in generating the research communicated in an article. 
 
 They are always placed at the start of the Materials and methods \(or similar sections, such as Model and materials\).
 
