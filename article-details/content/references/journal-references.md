@@ -165,75 +165,75 @@ The following rules apply to Journal references:
 
 **Action:** Check the XML and remove the extra elements.
 
-#### \[err-elem-cit-journal-3-2\]
+#### err-elem-cit-journal-3-2
 
-**Rule:** An `<article-title>` element in a reference may contain characters and `<italic>`, `<sub>`, and `<sup>`. No other elements are allowed. Reference 'bib\_' does not meet this requirement.
+**Error:** _An &lt;article-title&gt; element in a reference may contain characters and &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' does not meet this requirement._
 
 **Action:** Remove disallowed formatting \(e.g. bold\) from the article title.
 
-#### \[err-elem-cit-journal-5-1-2\]
+#### err-elem-cit-journal-5-1-2
 
-**Rule:** A `<volume>` element within a `<element-citation>` of type 'journal' must contain at least one character and may not contain child elements. Reference 'bib\_' has too few characters and/or child elements.
+**Error:** _A &lt;volume&gt; element within a &lt;element-citation&gt; of type 'journal' must contain at least one character and may not contain child elements. Reference 'XXXXXX' has too few characters and/or child elements._
 
 **Action:** Check that the volume field has something in it and make sure that it does not contain any formatting \(bold, italic, subscript etc\).
 
-#### \[err-elem-cit-journal-6-2\]
+#### err-elem-cit-journal-6-2
 
-**Rule:** If `<fpage>` is present, neither `<elocation-id>` nor `<comment>In press</comment>` may be present. Reference 'bib_' has_  `<fpage>` and one of those elements.
+**Error:** _If &lt;fpage&gt; is present, neither &lt;elocation-id&gt; nor &lt;comment&gt;In press&lt;/comment&gt; may be present. Reference 'XXXXXX' has &lt;fpage&gt; and one of those elements._
 
 **Action:** Look the article up online and make sure that the page range is correct. If the article in fact has an elocation ID rather than a page range, remove any first or last pages and retain only this ID. If the article is published, any in press tag should be removed. If the article has not been published, raise an author query to ascertain when it will be released. If this will be more than a few days after publication of the eLife article, remove the page range and retain only 'in press'.
 
-#### \[err-elem-cit-journal-6-3\]
+#### err-elem-cit-journal-6-3
 
-**Rule:** If `<elocation-id>` is present, neither `<fpage>` nor `<comment>In press</comment>` may be present. Reference 'bib_' has \__ `<elocation-id>` and one of those elements.
+**Error:** _If &lt;elocation-id&gt; is present, neither &lt;fpage&gt; nor &lt;comment&gt;In press&lt;/comment&gt; may be present. Reference 'XXXXXX' has &lt;elocation-id&gt; and one of those elements._
 
 **Action:** Look the article up online and make sure that the elocation ID is correct. If the article has a page range instead, remove the elocation ID and retain only first and last page. If the article is published, any in press tag should be removed. If the article has not been published, raise an author query to ascertain when it will be released. If this will be more than a few days after publication of the eLife article, remove the elocation ID and retain only 'in press'.
 
-#### \[err-elem-cit-journal-6-4\]
+#### err-elem-cit-journal-6-4
 
-**Rule:** If `<comment>In press</comment>` is present, neither `<fpage>` nor `<elocation-id>` may be present. Reference 'bib\_' has one of those elements.
+**Error:** _If &lt;comment&gt;In press&lt;/comment&gt; is present, neither &lt;fpage&gt; nor &lt;elocation-id&gt; may be present. Reference 'XXXXXX' has one of those elements._
 
 **Action:** Look the article up online and confirm that it is still unpublished. If it has been published, remove the in press tag and confirm that volume, page range/elocation ID are correct. If the article has not been published, raise an author query to ascertain when it will be released. If this will be more than a few days after publication of the eLife article, remove the page range/elocation ID and retain only 'in press'.
 
-#### \[err-elem-cit-journal-6-5-1\]
+#### err-elem-cit-journal-6-5-1
 
-**Rule:** `<lpage>` is only allowed if `<fpage>` is present. Reference 'bib_' has_  `<lpage>` but no `<fpage>`.
+**Error:** _&lt;lpage&gt; is only allowed if &lt;fpage&gt; is present. Reference 'XXXXXX' has &lt;lpage&gt; but no &lt;fpage&gt;._
 
 **Action:** Look up the article online to identify the appropriate page range information and correct the reference. Check whether the last page present is supposed to be a single first page or an elocation ID.
 
-#### \[err-elem-cit-journal-6-5-2\]
+#### err-elem-cit-journal-6-5-2
 
-**Rule:** `<lpage>` must be larger than `<fpage>`, if present. Reference 'bib_' has first page `<fpage>` =_  but last page `<lpage>` = \_.
+**Error:** _&lt;lpage&gt; must be larger than &lt;fpage&gt;, if present. Reference 'XXXXXX' has first page &lt;fpage&gt; = 'XXXXXX' but last page &lt;lpage&gt; = 'XXXXXX'._
 
 **Action:** Look up the article online to identify the appropriate page range information and correct the reference.
 
-#### \[err-elem-cit-journal-6-7\]
+#### err-elem-cit-journal-6-7
 
-**Rule:** The following elements may not occur more than once in an : , , `<elocation-id>`, and `<comment>In press</comment>`. Reference 'bib_' has_  `<fpage>`,  _`<lpage>`,_  `<elocation-id>`, and \_ `<comment>` elements.
+**Error:** _The following elements may not occur more than once in an &lt;element-citation&gt;: &lt;fpage&gt;, &lt;lpage&gt;, &lt;elocation-id&gt;, and &lt;comment&gt;In press&lt;/comment&gt;. Reference 'XXXXXX' has XXXXXX &lt;fpage&gt;, XXXXXX &lt;lpage&gt;, XXXXXX &lt;elocation-id&gt;, and XXXXXX &lt;comment&gt; elements._
 
 **Action:** Remove the extra instances of these elements. Ensure that the beginning and end of a page range have been tagged as first page and last page respectively, and not both tagged as first/last pages.
 
-#### \[err-elem-cit-journal-6-6\]
+#### err-elem-cit-journal-6-6
 
-**Rule:** If the content of `<fpage>` begins with a letter, then the content of `<lpage>` must begin with the same letter. Reference 'bib\_' does not.
+**Error:** _If the content of &lt;fpage&gt; begins with a letter, then the content of &lt;lpage&gt; must begin with the same letter. Reference 'XXXXXX' does not._
 
 **Action:** Update the last page to start with the same letter\(s\) as the first page.
 
-#### \[err-elem-cit-journal-13\]
+#### err-elem-cit-journal-13
 
-**Rule:** Comment elements with content other than 'In press' are not allowed. Reference 'bibX' has such a `<comment>` element.
+**Error:** _Comment elements with content other than 'In press' are not allowed. Reference 'XXXXXX' has such a &lt;comment&gt; element._
 
 **Action:** If the comment element contains relevant bibliographic information \(article title, journal name, volume etc\) move this to the correct elements and remove the comment. If the comment contains a variant on in press \('in production', 'forthcoming' etc\), correct this to in press and raise an author query to confirm this. If the comment contains pre-acceptance text \('in preparation', 'under review' etc\), raise an author query to ask whether the article is now in press. If so, update the reference to use the correct in press tag. If not, the reference will need to be removed from the reference list and mention in the text as e.g. 'Smith et al., in preparation'.
 
-#### \[err-elem-cit-journal-10\]
+#### err-elem-cit-journal-10
 
-**Rule:** If `<pub-id pub-id-type="pmid">` is present, the content must be all numeric. The content of `<pub-id pub-id-type="pmid">` in Reference 'bib_' is \__.
+**Error:** _If &lt;pub-id pub-id-type="pmid"&gt; is present, the content must be all numeric. The content of &lt;pub-id pub-id-type="pmid"&gt; in Reference 'XXXXXX' is XXXXXX._
 
 **Action:** PubMed IDs should only contain numbers. If there are letters as well, it means the ID has been captured incorrectly.
 
-#### \[err-elem-cit-journal-9-1\]
+#### err-elem-cit-journal-9-1
 
-**Rule:** Each `<pub-id>`, if present in a journal reference, must have a @pub-id-type of either "doi" or "pmid". The pub-id-type attribute on `<pub-id>` in Reference 'bib_' is \__.
+**Error:** _Each &lt;pub-id&gt;, if present in a journal reference, must have a @pub-id-type of either "doi" or "pmid". The pub-id-type attribute on &lt;pub-id&gt; in Reference 'XXXXXX' is XXXXXX._
 
 **Action:** Remove any pub-ids that are not a DOI or a PubMed ID.
 
@@ -245,7 +245,7 @@ The following rules apply to Journal references:
 
 #### PLOS-1
 
-**Rule:** ref 'bib_' contains **\_**_. 'PLOS' should be upper-case.
+**Error:** _ref 'XXXXXX' contains XXXXXX. 'PLOS' should be upper-case._
 
 **Action:** Apply the correct capitalisation.
 
@@ -253,7 +253,7 @@ The following rules apply to Journal references:
 
 #### PLOS-2
 
-**Rule:** ref 'bib\_' contains . 'PLOS ONE' should be upper-case.
+**Error:** _ref 'XXXXXX' contains XXXXXX. 'PLOS ONE' should be upper-case._
 
 **Action:** Apply the correct capitalisation.
 
@@ -261,7 +261,7 @@ The following rules apply to Journal references:
 
 #### PNAS
 
-**Rule:** ref 'bib_' has the doi for 'PNAS' but the title is \_\__, which is incorrect.
+**Error:** _ref 'XXXXXX' has the doi for 'PNAS' but the title is XXXXXX, which is incorrect._
 
 **Action:** Make sure that the article title corresponds to that found by following the DOI. Change the journal name to PNAS.
 
@@ -269,17 +269,19 @@ The following rules apply to Journal references:
 
 #### RNA
 
-**Rule:** ref 'bib\_' contains . 'RNA' should be upper-case.
+**Error:** _ref 'XXXXXX' contains XXXXXX. 'RNA' should be upper-case._
 
 **Action:** Ensure RNA is capitalised.
 
-#### ref 'bib\_' contains . 'BMJ' should be upper-case.
+#### bmj
+
+**Error:** _ref 'XXXXXX' contains XXXXXX. 'BMJ' should be upper-case._
 
 **Action:** Ensure BMJ is capitalised.
 
 #### G3
 
-**Rule:** ref 'bib_' has the doi for 'G3' but the title is \__ - it should be either 'G3: Genes\|Genomes\|Genetics' or 'G3: Genes, Genomes, Genetics'.
+**Error:** _ref 'XXXXXX' has the doi for 'G3' but the title is XXXXXX - it should be either 'G3: Genes\|Genomes\|Genetics' or 'G3: Genes, Genomes, Genetics'._
 
 **Action:** Due to an issue with how G3 supplies its data to PubMed/Crossref, the title will sometimes have the unicode character replacing the ':'. This will need to be corrected to the proper character.
 
@@ -287,7 +289,7 @@ The following rules apply to Journal references:
 
 #### ampersand-check
 
-**Rule:** ref 'bib\_' appears to contain the text 'amp', is this a broken ampersand?
+**Warning:** ref 'XXXXXX' appears to contain the text 'amp', is this a broken ampersand?
 
 #### ref 'bib\_' has a source title '' which must be incorrect.
 
@@ -309,25 +311,53 @@ ref 'bibX' has an article-title which contains the text ' journal '. Is a journa
 
 ref 'bibX' has an article-title with one child element, and no text. This is almost certainly incorrect. -
 
-element contains the replacement character '�' which is unallowed -
+#### journal-replacement-character-presence
 
-ref 'bibX' is a journal, but it doesn't have a page range or e-location. Is this right?
+**Error:** element contains the replacement character '�' which is unallowed - XXXXXX
 
-ref 'bibX' has a source , but it is captured as a journal not a preprint.
+**Action:** 
 
-ref 'bibX' is an article, but it has no doi in the format 10.7554/eLife.00000, which must be incorrect.
+#### eloc-page-assert
 
-Journal ref 'bibX' has the journal title . Should it be a conference type reference instead?
+**Error:** _ref 'XXXXXX' is a journal, but it doesn't have a page range or e-location. Is this right?_
 
-Journal ref 'bibX' has a journal title containing a year - XXXX. Should it be a conference type reference instead? Or should the year be removed from the journal title?
+**Action:**
 
-#### bibX is a article, but has a page number, which is incorrect.
+#### journal-preprint-check
 
-#### bibX is a journal ref without a doi. Should it have one?
+**Error:** _ref 'XXXXXX' has a source XXXXXX, but it is captured as a journal not a preprint._
+
+**Action:** 
+
+#### elife-ref-check
+
+**Error:** ref 'XXXXXX' is an XXXXXX article, but it has no doi in the format 10.7554/eLife.00000, which must be incorrect.
+
+**Action:** s
+
+#### journal-conference-ref-check-1
+
+**Warning:** _Journal ref 'XXXXXX' has the journal title XXXXXX. Should it be a conference type reference instead?_
+
+**Action:** s
+
+#### journal-conference-ref-check-2
+
+**Warning:** _Journal ref 'XXXXXX' has a journal title containing a year - XXXXXX. Should it be a conference type reference instead? Or should the year be removed from the journal title?_
+
+**Action:** s
+
+#### online-journal-w-page
+
+**Error:** _XXXXXX is a XXXXXX article, but has a page number, which is incorrect._ 
+
+**Action:** bibX is an online journal article, but has a page number, which is incorrect.
+
+#### journal-doi-test-1
+
+**Warning:** _XXXXXX is a journal ref without a doi. Should it have one?_
 
 **Action:** If the article has a PubMed ID but no DOI, the reference will not have a DOI and can be left as it is. If there is no PMID, the first step is to revalidate the reference to ensure it's not just a system glitch. If this reveals nothing, look the article up online \(Google search, PubMed, Crossref\) to see if it has been assigned a DOI. Some articles will not have DOIs. This is particularly common with older articles e.g. those published before ~1990. While doing this check, keep an eye out for differing article information. If the author names or the title are slightly different from the published details or what is recorded in PubMed, the validator will not identify the reference.
-
-**Example:**
 
 ### Further reading and links
 
