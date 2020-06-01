@@ -754,6 +754,22 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 **Action**: This will fire at all stages if a table citation is preceded by the text 'cf.'. Shorthand for confer is unnecessary and, as the message text suggests, the 'cf.' should be removed.
 
+#### table-data-test-2
+
+**Warning**: _XXXXXX ends with X, but it is placed XXX. Either it is misnumbered or it should be moved to a different position._
+
+**Example:** _'Table 2—source data 2.' ends with 2, but it is placed 1st. Either it is misnumbered or it should be moved to a different position._
+
+**Action**: This will fire at all stages if source data for a table is not placed in the correct sequence based upon its label, for example Table 2—source data 2 is placed before Table 2—source data 1. If this fires, the action should be to re-order the source data files based on their labels.
+
+#### table-code-test-2
+
+**Warning**: _XXXXXX ends with X, but it is placed XXX. Either it is misnumbered or it should be moved to a different position._
+
+**Example:** _'Table 2—source code 2.' ends with 2, but it is placed 1st. Either it is misnumbered or it should be moved to a different position._
+
+**Action**: This will fire at all stages if source code for a table is not placed in the correct sequence based upon its label, for example Table 2—source code 2 is placed before Table 2—source code 1. If this fires, the action should be to re-order the source data files based on their labels.
+
 ### **XML structure warnings**
 
 #### app-table-wrap-id-test-1
