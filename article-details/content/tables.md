@@ -119,7 +119,7 @@ Similarly, the Schematron check [tr-test-3](https://app.gitbook.com/@elifescienc
 
 Key resources tables contain a list of resources \(such as Genes, Strains, Antibodies, Reagents, Chemical compounds, Software etc.\) that were used in generating the research communicated in an article. 
 
-They are always placed at the start of the Materials and methods \(or similar sections, such as Model and materials\).
+They are always placed at the start of the Materials and methods \(or equivalent sections, such as Model and materials\).
 
 They have the label 'Key resources table', and no title or caption.
 
