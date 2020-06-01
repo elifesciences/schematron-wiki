@@ -353,7 +353,7 @@ In the case where it is a colour that is not supported \(brown for example\), th
 
 #### kr-table-wrap-test-1
 
-**Error**: _table-wrap has an id XXXXXX but its label is not 'Key resources table', which is incorrect._
+**Error**: _table-wrap has an id 'keyresource' but its label is not 'Key resources table', which is incorrect._
 
 **Action**: Key resources tables must have the label 'Key resources table', and an id `keyresource`. This will fire is a table has that id, but it does not have a label, or the label is not exactly as specified above. Action should be taken to ensure both of these conditions are met.
 
