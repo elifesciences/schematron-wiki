@@ -221,7 +221,7 @@ Depending on the case, the table will either need to be moved into its appropria
 
 **Warning**: _Footnote starts with label which is not in line with house style - XXXXXX. Footnote symbols should be in the order: \*, †, ‡, §, ¶, \*\*, ††, ‡‡, §§, ¶¶, etc._
 
-**Action**: Footnote indicators should be in the following sequence _,_ †, ‡, §, ¶, **, ††, ‡‡, §§, ¶¶,** , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. If this warning fires, it is because a footnote does not start with one of these indicators.
+**Action**: Footnote indicators should be in the following sequence _,_ †, ‡, §, ¶, **, ††, ‡‡, §§, ¶¶,** , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. If this warning fires, it is because a footnote has an indicator and it one of the allowed symbols.
 
 #### distinct-label-conformance
 
