@@ -133,7 +133,7 @@ In some articles, Key resources tables will be captured in a supplementary file 
 
 ## Table citations
 
-Labelled tables, which are not Key resources tables, within the main text of an article _must_ have a citation. Citations are optional for tables placed anywhere else in an article \(appendices, boxes, and Decision letters/Author responses\). 
+Labelled tables, which are not Key resources tables, within the main text of an article _must_ have a citation. Citations are optional for tables placed anywhere else in an article \(appendices, boxes, and Decision letters/Author responses\), but citations for tables in appendices should also be sought after where appropriate. 
 
 In the XML/HTML, tables should be placed directly after their first citation in the text.
 
