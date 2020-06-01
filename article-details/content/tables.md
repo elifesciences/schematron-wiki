@@ -375,7 +375,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Warning**: _The first column header in a Key resources table is usually 'Reagent type \(species\) or resource' but this one has 'XXXXXX'._
 
-**Action**: This will fire at all stages if the first header in a KR table is not 'Reagent type \(species\) or resource'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see above **LINK TO SECTION**\), then please add the following author query:
+**Action**: This will fire at all stages if the first header in a KR table is not 'Reagent type \(species\) or resource'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
 
 * This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
@@ -383,7 +383,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Warning**: _The second column header in a Key resources table is usually 'Designation' but this one has 'XXXXXX'._
 
-**Action**: This will fire at all stages if the second header in a KR table is not 'Designation'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see above **LINK TO SECTION**\), then please add the following author query:
+**Action**: This will fire at all stages if the second header in a KR table is not 'Designation'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
 
 * This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
@@ -391,7 +391,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Warning**: _The third column header in a Key resources table is usually 'Source or reference' but this one has 'XXXXXX'._
 
-**Action**: This will fire at all stages if the third header in a KR table is not 'Source or reference'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see above **LINK TO SECTION**\), then please add the following author query:
+**Action**: This will fire at all stages if the third header in a KR table is not 'Source or reference'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
 
 * This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
@@ -399,7 +399,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Warning**: _The fourth column header in a Key resources table is usually 'Identifiers' but this one has 'XXXXXX'._
 
-**Action**: This will fire at all stages if the fourth header in a KR table is not 'Identifiers'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see above **LINK TO SECTION**\), then please add the following author query:
+**Action**: This will fire at all stages if the fourth header in a KR table is not 'Identifiers'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
 
 * This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
@@ -407,7 +407,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Warning**: _The fifth column header in a Key resources table is usually 'Additional information' but this one has 'XXXXXX'._
 
-**Action**: This will fire at all stages if the fifth header in a KR table is not 'Additional information'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see above **LINK TO SECTION**\), then please add the following author query:
+**Action**: This will fire at all stages if the fifth header in a KR table is not 'Additional information'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
 
 * This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
@@ -421,7 +421,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Warning**: _table doesn't have a header \(thead\). Is this correct?_
 
-**Action**: This will fire if a table does not have a header \(the &lt;table&gt; element does not have a child &lt;thead&gt; element\). This could either mean that the table has been incorrectly typeset without headers, or there could be a good reason that it does not have a header \(see **LINK TO SECTION ABOVE**\). If it is an error then this should be fixed by Exeter, otherwise the message can be ignored.
+**Action**: This will fire if a table does not have a header \(the &lt;table&gt; element does not have a child &lt;thead&gt; element\). This could either mean that the table has been incorrectly typeset without headers, or there could be a good reason that it does not have a header \(see [Tables with multiple headers](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)\). If it is an error then this should be fixed by Exeter, otherwise the message can be ignored.
 
 #### tbody-test-1
 
