@@ -58,7 +58,7 @@ Every table cell in the header can contain the following content:
 
 See also [th-child-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#th-child-test) below.
 
-Cells can be merged with cells in rows above and below it, and can be merged with cells in the columns left and right of it.
+A cell can be merged with cells in rows above and below it, and can be merged with cells in the columns left and right of it.
 
 Cells can be horizontally and vertically aligned.
 
