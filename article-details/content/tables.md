@@ -54,6 +54,7 @@ Every table cell in the header can contain the following content:
 * Inline images
 * Code blocks
 * Inline formulae
+* Line breaks
 
 See also [th-child-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#th-child-test) below.
 
@@ -72,6 +73,7 @@ Every table cell in the body can contain the following content:
 * Inline images
 * Code blocks
 * Inline formulae
+* Line breaks
 
 See also [td-child-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#td-child-test) below.
 
@@ -826,7 +828,7 @@ Each Table is wrapped in a `<table-wrap>` element.
 
 The table itself is captured in a `<table>` element. A `<table-wrap>` can contain numerous `<table>` elements, so a table with one label, can in fact be made up of numerous tables. More than one `<table>` in a `<table-wrap>` should be avoided where possible. The only case it should be used is where a single table has multiple sections each with different numbers of columns, or where the authors have explicitly labelled a table with multiple parts, e.g. Table 1a, table 1b etc.
 
-Each table header is captured in a `<thead>` element, as a child of &lt;table&gt;.
+Each table header is captured in a `<thead>` element, as a child of `<table>`.
 
 The body of a table is wrapped in a `<tbody>` element.
 
