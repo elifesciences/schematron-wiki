@@ -16,7 +16,7 @@ Those in Decision letters and Author responses only display in the HTML.
 
 Tables can be with or without labels \(tables without labels are referred to as inline tables\). Those with labels outside of Decision Letters and Author responses _must_ have a title. In Decision letters and Author responses the title is optional. All tables can also have an optional caption \(provided there is a title\). 
 
-Note that an object labelled as one table \(with one label and optional title/caption\), can actually be made up of multiple tables. This is avoided, where possible in eLife content \(see also [XML structure](https://app.gitbook.com/@elifesciences/s/productionhowto/~/drafts/-M8jeJDGPJr4ZbU7UoIo/article-details/content/tables#xml-structure)\).
+Note that an object labelled as one table \(with one label and optional title/caption\), can actually be made up of multiple tables. This is avoided, where possible in eLife content \(see also [XML structure](tables.md#xml-structure)\).
 
 The content of a table can be broken down into three sections:
 
@@ -56,7 +56,7 @@ Every table cell in the header can contain the following content:
 * Inline formulae
 * Line breaks
 
-See also [th-child-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#th-child-test) below.
+See also [th-child-test](tables.md#th-child-test) below.
 
 A cell can be merged with cells in rows above and below it, and can be merged with cells in the columns left and right of it.
 
@@ -77,7 +77,7 @@ Every table cell in the body can contain the following content:
 * Inline formulae
 * Line breaks
 
-See also [td-child-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#td-child-test) below.
+See also [td-child-test](tables.md#td-child-test) below.
 
 Cells can be horizontally and vertically aligned.
 
@@ -128,9 +128,9 @@ What actually determines the formatting of the cells is whether each cell is for
 
 If a table has multiple headings throughout, then the cells in the table body should be captured as header cells \(`<th>`\). This has to be done by Exeter \(it currently cannot be done by eLife staff in Kriya\).
 
-Typically an entire row should be captured as a header, although there are exceptions. See the action for [th-row-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#th-row-test) for some examples.
+Typically an entire row should be captured as a header, although there are exceptions. See the action for [th-row-test](tables.md#th-row-test) for some examples.
 
-If a table has multiple headers, spans numerous pages in the PDF, and each header is of equal importance \(or those in the body are more important than the top one\), it _might_ be appropriate to include **no** table header. This is because \(as stated in [the Table Header section](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#table-header)\), the PDF will display the top heading at the top of each subsequent page, and this would be inappropriate.
+If a table has multiple headers, spans numerous pages in the PDF, and each header is of equal importance \(or those in the body are more important than the top one\), it _might_ be appropriate to include **no** table header. This is because \(as stated in [the Table Header section](tables.md#table-header)\), the PDF will display the top heading at the top of each subsequent page, and this would be inappropriate.
 
 [Here is an example](https://elifesciences.org/articles/50661#table1). This is a semi-complex table with multiple headers throughout it. Since the first 'Data collection statistics' has been captured as a header, this text displays at the top of each page in the PDF, despite the fact that on the second and third page it is no longer relevant. Instead, the header should be captured as the first row of the table body and the cell in that row given table header formatting.
 
@@ -146,7 +146,7 @@ Similarly though, there are cases where it might be appropriate for there to be 
 
 ![](../../.gitbook/assets/screen-shot-2020-06-02-at-09.35.54.png)
 
-The Schematron check [th-row-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#th-row-test) will fire if a table header cell is accompanied by normal table cells in the same row. See the [action](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tr-test-3) for examples of what to do when this fires.
+The Schematron check [th-row-test](tables.md#th-row-test) will fire if a table header cell is accompanied by normal table cells in the same row. See the action for examples of what to do when this fires.
 
 A single labelled table containing multiple tables \(multiple `<table>` elements in a `<table-wrap>`\) should be avoided where possible. The only case it should be used is where a single table has multiple sections each with different numbers of columns and this cannot be represented in a single table, or where the authors have explicitly labelled a table with multiple parts, e.g. Table 1a, table 1b etc.
 
@@ -180,11 +180,11 @@ Inline tables \(that is tables with no label, title or caption\) cannot have cit
 
 The following should be checked for Tables:
 
-* Appropriate capture of heading\(s\) \(see [Tables with multiple headers](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)\).
-* The presence of colours \(should be flagged by Schematron; see [colour-check-table](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#colour-check-table)\).
+* Appropriate capture of heading\(s\) \(see [Tables with multiple headers](tables.md#tables-with-multiple-headers)\).
+* The presence of colours \(should be flagged by Schematron; see [colour-check-table](tables.md#colour-check-table)\).
 * Missing links for RRIDs, DOIs, PMIDs and PMCIDs.
 * That links for RRIDs, DOIs, PMIDs and PMCIDs resolve.
-* References to software that requires forking or adding a citation \(see [When and how to fork repositories](https://app.gitbook.com/@elifesciences/s/productionhowto/toolkit/forking-git-based-repos) and [Software references](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/references/software-references)\).
+* References to software that requires forking or adding a citation \(see [When and how to fork repositories](../../toolkit/forking-git-based-repos.md) and [Software references](references/software-references.md)\).
 * A corresponding citation in the text \(note this is not necessary for Key resources tables, tables in Decision letters or Author responses, and for certain Appendix tables\).
 * That a title is present \(note this is not necessary for Key resources tables, tables in Decision letters or Author responses\).
 
@@ -337,11 +337,15 @@ In the case where it is a colour that is not supported \(brown for example\), th
 
 * eLife only supports the following colours for table cells - blue, green orange, yellow, purple, red, pink and grey. Please confirm how you would like the colour\(s\) here captured given this information.
 
+See also [Allowed colours in table cells](tables.md#allowed-colours-in-tables).
+
 #### final-colour-check-table-2
 
 **Error**: _element containing 'XXXXXX' has an @style with an unallowed value - 'XXXXXX'. The only allowed values are 'author-callout-style-b1', 'author-callout-style-b2', 'author-callout-style-b3', 'author-callout-style-b4', 'author-callout-style-b5', 'author-callout-style-b6', 'author-callout-style-b7', 'author-callout-style-b8' for blue, green orange, yellow, purple, red, pink and grey respectively._
 
 **Action**: This will fire at a post-author stage if a table cell in a table has a style attribute with an unallowed value. Usually this will be because the colour formatting is not a supported colour. If it _is_ one of the supported colours and this message fires this is a problem - it means that the content has not been typeset correctly. If it is not a supported colour, ensure to check the author's response to the query which should have been added pre-author. If the response isn't clear about how to proceed \(or the query was mistakenly not left\), then Production will need to contact the author to ask how they would like to proceed.
+
+See also [Allowed colours in table cells](tables.md#allowed-colours-in-tables).
 
 #### table-wrap-test-3
 
@@ -431,7 +435,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Warning**: _The first column header in a Key resources table is usually 'Reagent type \(species\) or resource' but this one has 'XXXXXX'._
 
-**Action**: This will fire at all stages if the first header in a KR table is not 'Reagent type \(species\) or resource'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
+**Action**: This will fire at all stages if the first header in a KR table is not 'Reagent type \(species\) or resource'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](tables.md#key-resources-tables)\), then please add the following author query:
 
 * This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
