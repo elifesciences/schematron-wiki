@@ -143,9 +143,13 @@ This issue must be resolved before publication, so further action will need to b
 
 ### Data available 'on acceptance'
 
-Related to the above, sometimes when authors are submitting their article, they will hold back data in order to keep it confidential until the article has passed peer review
+Related to the above, sometimes when authors are submitting their article, they will hold back data in order to keep it confidential until the article has passed peer review.
 
 > All data generated or analysed during this study are included in the manuscript and supporting files. Source data files will be made available upon acceptance
+
+They may also state that the data will only be made publicl on publication of the article.
+
+> Sequencing data have been deposited in GEO, accession codes will be made public upon publication.
 
 In these cases, the article should be updated with the full dataset information and/or additional source data files. Ideally this will happen before export from the submission system \(e.g. when the revised submission is uploaded\). However, sometimes there will be a delay and an article will be exported before the data has been finalised.
 
