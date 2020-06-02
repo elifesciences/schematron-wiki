@@ -26,9 +26,9 @@ Scientific Correspondence articles and Feature Templates 1, 2, 3 and 4 do not re
 
 The data availability statement should be a single paragraph consisting of complete sentences, ending in a full stop. Spelling and grammar errors should be corrected in the same manner as the main text.
 
-The contents of the statement should be reflected in the rest of the dataset section. If specific generated or previously published datasets are mentioned in the statement, they should be entered under the appropriate headings below. If the authors mention using an entire database, however, it will not be appropriate to add a citation entry.
+The contents of the statement should be reflected in the rest of the dataset section. If specific generated or previously published datasets are mentioned in the statement, they should be [entered](data-availability.md#adding-datasets) under the appropriate headings below. If the authors mention using an [entire database](data-availability.md#whole-databases-entered-as-datasets), however, it will not be appropriate to add a citation entry.
 
-Any statement that indicates data is available on request from the authors will need to be approved by Editorial prior to publication. Cases where this is acceptable include exceptionally large datasets that cannot be supported by existing repositories and patient data that cannot be anonymised.
+Any statement that indicates data is [available on request](data-availability.md#approved-on-request-data) from the authors will need to be approved by Editorial prior to publication. Cases where this is acceptable include exceptionally large datasets that cannot be supported by existing repositories and patient data that cannot be anonymised.
 
 Data availability statements may also mention code that has been made publicly available by the authors. Instructions on how to deal with this can be found [here](../../toolkit/forking-git-based-repos.md#checklist-for-forking-repositories).
 
