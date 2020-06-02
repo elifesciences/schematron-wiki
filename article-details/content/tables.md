@@ -573,7 +573,7 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 **Warning**: _'XXXXXXX' - Citation is in the caption of the Table that it links to. Is it correct or necessary?_
 
-**Action**: This will fire at all stages if a table citation is in the caption of the table that it links to. This would indicate either an unnecessary link, or that the citation is incorrect and needs to be updated. This should be queries with the authors:
+**Action**: This will fire at all stages if a table citation is in the caption of the table that it links to. This would indicate either an unnecessary link, or that the citation is incorrect and needs to be updated. This should be queried with the authors:
 
 * XXXXX - Please confirm whether this citation is correct and if not, what it should be updated to.
 
