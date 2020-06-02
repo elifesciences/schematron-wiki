@@ -205,7 +205,7 @@ The following tests are run on tables.
 * Author response table 1.
 * Decision letter 1.
 
-Please ensure that the table label is either in one of these formats or \(in the case where it _should not_ have a label\), the label is removed.
+Please ensure that the table label is either in one of these formats or \(in the case where it _should not_ have a label\), the label is removed. Please also check for [no-break spaces](https://www.fileformat.info/info/unicode/char/00a0/index.htm) in the table label text. This error will fire if any are present, and they should always be replaced with normal spacing.
 
 #### app-table-label-test-1
 
