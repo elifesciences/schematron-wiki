@@ -311,13 +311,13 @@ If the article is post-author, then the authors should be queried to check that 
 
 **Error**: _td element containing - 'XXXXXX' - looks like it contains a PMID, but it contains no link pointing to PubMed, which is incorrect._
 
-**Action**: This will fire if a table cell in a Key resources table contains a PMID. All PMIDs should be linked in the KR table, so action should be taken to ensure that the PMID text has an embedded link \(https://www.pubmed.ncbi.nlm.nih.gov/{PMID}\).
+**Action**: This will fire if a table cell in a Key resources table contains an unlinked PMID. All PMIDs should be linked in the KR table, so action should be taken to ensure that the PMID text has an embedded link \(https://www.pubmed.ncbi.nlm.nih.gov/{PMID}\).
 
 #### PMCID-link-test
 
 **Error**: _td element containing - 'XXXXXX' - looks like it contains a PMCID, but it contains no link pointing to PMC, which is incorrect._
 
-**Action**: This will fire if a table cell in a Key resources table contains a PMCID. All PMCIDs should be linked in the KR table, so action should be taken to ensure that the PMCID text has an embedded link \(https://www.ncbi.nlm.nih.gov/pmc/{PMCID}\).
+**Action**: This will fire if a table cell in a Key resources table contains an unlinked PMCID. All PMCIDs should be linked in the KR table, so action should be taken to ensure that the PMCID text has an embedded link \(https://www.ncbi.nlm.nih.gov/pmc/{PMCID}\).
 
 #### colour-check-table
 
@@ -359,7 +359,7 @@ See also [Allowed colours in table cells](tables.md#allowed-colours-in-tables).
 
 **Error**: _table-wrap with id XXXXX has no label which is not correct._
 
-**Action**: This is the inverse of table-wrap-test-3. It will fire if a table without a label has a label which in the format `table1`. Either the label needs adding or the table id needs correcting. The original manuscript should be checked to determine which action needs to be taken.
+**Action**: This is the inverse of table-wrap-test-3. It will fire if a table without a label has a label which is in the format `table1`. Either the label needs adding or the table id needs correcting. The original manuscript should be checked to determine which action needs to be taken.
 
 #### kr-table-wrap-test-1
 
@@ -505,7 +505,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Warning**: _table row in body contains a th element \(a header\). Please check that this is correct._
 
-**Action**: This will fire for table cells which are styled as headers, but are in the table body. The table has numerous headers throughout it \(and is supposed to\), then this can be ignored. Otherwise Exeter will have to change this to a normal table cell.
+**Action**: This will fire for table cells which are styled as headers, but are in the table body. If the table has numerous headers throughout it \(and is supposed to\), then this can be ignored. Otherwise Exeter will have to change this to a normal table cell.
 
 #### tr-test-3
 
@@ -549,13 +549,13 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 **Warning**: _'XXXXXXX' - citation points to table, but does not include the string 'Table', which is very unusual._
 
-**Action**: This will fire at all stages if a main text table citation does not contain the word 'Table'. In cases where this fires for text like 'See **Tables 1** and **2**', the test will fire for the **2** and can be ignored. If this fires for any other reason it likely indicated that the citation directs to the incorrect location.
+**Action**: This will fire at all stages if a main text table citation does not contain the word 'Table'. In cases where this fires for text like 'See **Tables 1** and **2**', the test will fire for the **2** and can be ignored. If this fires for any other reason it likely indicates that the citation directs to the incorrect location.
 
 #### table-xref-conformity-2
 
 **Warning**: _'XXXXXXX' - citation points to an Appendix table, but does not include the string 'table', which is very unusual._
 
-**Action**: This will fire at all stages if an Appendix text table citation does not contain the word 'table'. In cases where this fires for text like 'See **Appendix 1–tables 1** and **2**', the test will fire for the **2** and can be ignored. If this fires for any other reason it likely indicated that the citation directs to the incorrect location.
+**Action**: This will fire at all stages if an Appendix text table citation does not contain the word 'table'. In cases where this fires for text like 'See **Appendix 1–tables 1** and **2**', the test will fire for the **2** and can be ignored. If this fires for any other reason it likely indicates that the citation directs to the incorrect location.
 
 #### table-xref-conformity-3
 
