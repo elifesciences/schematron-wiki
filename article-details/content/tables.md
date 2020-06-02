@@ -227,7 +227,7 @@ Depending on the case, the table will either need to be moved into its appropria
 
 **Warning**: _Footnote starts with label which is not in line with house style - XXXXXX. Footnote symbols should be in the order: \*, †, ‡, §, ¶, \*\*, ††, ‡‡, §§, ¶¶, etc._
 
-**Action**: Footnote indicators should be in the following sequence _,_ †, ‡, §, ¶, **, ††, ‡‡, §§, ¶¶,** , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. If this warning fires, it is because a footnote has an indicator and it one of the allowed symbols.
+**Action**: Footnote indicators should be in the following sequence _,_ †, ‡, §, ¶, **, ††, ‡‡, §§, ¶¶,** , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. If this warning fires, it is because a footnote has an indicator and it isn't one of the allowed symbols. The indicators should be changed in line with the sequence above.
 
 #### distinct-label-conformance
 
@@ -429,7 +429,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Warning**: _Key resources table has no rows in its header, which is incorrect._
 
-**Action**: This will fire at all stages if a KR table has no rows in it's header. It is **very** likely that this means the table has been incorrectly typeset \(this will almost never occur\). 
+**Action**: This will fire at all stages if a KR table has no rows in it's header. It is **very** likely that this means the table has been incorrectly typeset \(this will almost never occur\). Action should be taken to include the required headings for Key resources tables \(see [Key resources tables](tables.md#key-resources-tables)\).
 
 #### kr-table-header-4
 
@@ -529,7 +529,7 @@ In a case like [this](https://elifesciences.org/articles/52505#table1)
 
 ![](../../.gitbook/assets/screen-shot-2020-05-29-at-12.58.10.png)
 
-'Map resolution' should be made into one cell spanning across its entire row \(formatted as a header\).
+'Map resolution' should be made into one cell spanning across its entire row \(formatted as a header\). This change should be made to achieve consistency with all of the other headings in this table.
 
 In a case like [this](https://elifesciences.org/articles/53498#table1)
 
