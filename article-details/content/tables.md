@@ -130,7 +130,7 @@ If a table has multiple headings throughout, then the cells in the table body sh
 
 Typically an entire row should be captured as a header, although there are exceptions. See the action for [th-row-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#th-row-test) for some examples.
 
-If a table has multiple headers, spans numerous pages in the PDF, and each header is of equal importance \(or those in the body are more important than the top one\), then there should be **no** table header. This is because \(as stated in [the Table Header section](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#table-header)\), the PDF will display the top heading at the top of each subsequent page, and this would be inappropriate.
+If a table has multiple headers, spans numerous pages in the PDF, and each header is of equal importance \(or those in the body are more important than the top one\), it _might_ be appropriate to include **no** table header. This is because \(as stated in [the Table Header section](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#table-header)\), the PDF will display the top heading at the top of each subsequent page, and this would be inappropriate.
 
 [Here is an example](https://elifesciences.org/articles/50661#table1). This is a semi-complex table with multiple headers throughout it. Since the first 'Data collection statistics' has been captured as a header, this text displays at the top of each page in the PDF, despite the fact that on the second and third page it is no longer relevant. Instead, the header should be captured as the first row of the table body and the cell in that row given table header formatting.
 
@@ -140,7 +140,13 @@ If a table has multiple headers, spans numerous pages in the PDF, and each heade
 
 ![](../../.gitbook/assets/screen-shot-2020-05-29-at-17.29.53.png)
 
-Similarly, the Schematron check [th-row-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#th-row-test) will fire if a table header cell is accompanied by normal table cells in the same row. See the [action](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tr-test-3) for examples of what to do when this fires.
+Similarly though, there are cases where it might be appropriate for there to be an overall header, despite there being multiple headers in the table. [Here for example](https://elifesciences.org/articles/51662#table1):
+
+![](../../.gitbook/assets/screen-shot-2020-06-02-at-09.35.39.png)
+
+![](../../.gitbook/assets/screen-shot-2020-06-02-at-09.35.54.png)
+
+The Schematron check [th-row-test](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#th-row-test) will fire if a table header cell is accompanied by normal table cells in the same row. See the [action](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tr-test-3) for examples of what to do when this fires.
 
 A single labelled table containing multiple tables \(multiple `<table>` elements in a `<table-wrap>`\) should be avoided where possible. The only case it should be used is where a single table has multiple sections each with different numbers of columns and this cannot be represented in a single table, or where the authors have explicitly labelled a table with multiple parts, e.g. Table 1a, table 1b etc.
 
@@ -405,7 +411,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Action**: This will fire at all stages if a KR table does not have the correct number of headings. All KR tables should have 5 headings/columns. If the table is typeset correctly \(**please check this carefully**\), as the author provided it, then the following author query should be added:
 
-* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+* This Key resource table is not in the correct format. Please provide a revised table as a Word or Excel file in response to the proofing email. A template for the table can be found at https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
 #### kr-table-header-2
 
@@ -471,7 +477,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Warning**: _table doesn't have a header \(thead\). Is this correct?_
 
-**Action**: This will fire if a table does not have a header \(the &lt;table&gt; element does not have a child &lt;thead&gt; element\). This could either mean that the table has been incorrectly typeset without headers, or there could be a good reason that it does not have a header \(see [Tables with multiple headers](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)\). If it is an error then this should be fixed by Exeter, otherwise the message can be ignored.
+**Action**: This will fire if a table does not have a header \(the `<table>` element does not have a child `<thead>` element\). This could either mean that the table has been incorrectly typeset without headers, or there could be a good reason that it does not have a header \(see [Tables with multiple headers](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)\). Checking against the original manuscript should give an indication of how this table should be captured. If it is an error then this should be fixed by Exeter, otherwise the message can be ignored.
 
 #### tbody-test-1
 
@@ -507,7 +513,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Warning**: _Table header cell containing 'XXXXXX' has table data \(not header\) cells next to it on the same row. Is this correct? Should the whole row be header cells, or should this cell extend across the whole row?_
 
-**Action**: This will fire if a table row contains a mixture of table header cells and normal table cells. This is unusual, although there are a small number of cases where this would be appropriate. Checking the table in the original manuscript will give some indication of how the headings in a table should look like, and if any changes are required these will need to be implemented by Exeter. 
+**Action**: This will fire if a table row contains a mixture of table header cells and normal table cells. This is relatively unusual, although there are a some cases where this would be appropriate. Checking the table in the original manuscript will give some indication of how the headings in a table should look like, and if any changes are required these will need to be implemented by Exeter. 
 
 In a case like [this ](https://elifesciences.org/articles/53910#table1)
 
