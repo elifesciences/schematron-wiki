@@ -34,18 +34,6 @@ The following information can be added for journal references:
 | DOI | No | &lt;pub-id pub-id-type="doi"&gt; | 10.1083/jcb.200510010 |
 | PMID | No | &lt;pub-id pub-id-type="pmid"&gt; | 16769818 |
 
-* **Authors**: Enter each author name as a surname followed by initials.
-* **Collaboration:**
-* **Year**: 
-* **Article title:**
-* Journal name: 
-* Volume:
-* e-location ID
-* First page
-* Last page
-* DOI
-* PMID
-
 Where the optional information is available, this should also be added in. 
 
 * **Authors**: Enter each author name as a surname followed by initials. 
@@ -107,16 +95,6 @@ Searching for this reference online takes you to [this page](https://pubmed.ncbi
 
 ![](../../../.gitbook/assets/screenshot-2020-05-27-at-16.26.08.png)
 
-## Articles in press or under preparation
-
-* Please update this reference if this article is no longer In Press. If it is still unpublished, it will need to be removed from the reference list.
-
-
-
-
-
-## 
-
 ## Schematron checks
 
 ### Schematron
@@ -127,109 +105,135 @@ The following rules apply to Journal references:
 
 **Error:** _Each &lt;element-citation&gt; of type 'journal' must contain one and only one &lt;person-group&gt; element. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements._
 
-**Action:** If there is no author list present, one will need to be added to the reference. Look the article up online if possible; otherwise raise an author query on the proof for the missing information. In cases where no author is given, 'Anon' will most likely need to be added as a `<collab>`. Alternatively, if the article is considered an editorial piece, use the name of the journal as the `<collab>`.
+**Action:** If there is no author list present, one will need to be added to the reference. Look the article up online if possible; otherwise raise an author query on the proof for the missing information. In cases where no author is given, 'Anon' will most likely need to be added in the 'Collaboration' field \(&lt;collab&gt;\). Alternatively, if the article is an [editorial piece](https://www.nature.com/articles/d41586-020-01620-1), use the name of the journal in the 'Collaboration' field.
 
 #### err-elem-cit-journal-2-2
 
 **Error:** _Each &lt;element-citation&gt; of type 'journal' must contain one &lt;person-group&gt; with the attribute person-group-type 'author'. Reference 'XXXXXX' has a &lt;person-group&gt; type of 'XXXXXX'._
 
-**Action:** Remove the extra non-author `<person-group>`. Editors are never listed for journal references.
+**Action:** This error will appear if there is no author list, or if authors have been tagged as other kinds of contributors \(e.g. editors or curators\). If there is no author list, make sure this is added by searching for the article details online. If there are contributors other than authors or collaborations, these should be removed.
 
 #### err-elem-cit-journal-3-1
 
 **Error:** _Each &lt;element-citation&gt; of type 'journal' must contain one and only one &lt;article-title&gt; element. Reference 'XXXXXX' has XXXXXX &lt;article-title&gt; elements._
 
-**Action:** Identify and add in the article title. If the authors have not provided this information but have given other bibliographic details \(e.g. journal, volume, page range or elocation ID\) it may be possible to search for the article online. This is especially easy if they have given the DOI! If there are not enough details to find the article, raise an author query to ask for the missing title.
+**Action:** This error will appear if a journal reference has more than one or no article titles. If the authors have not provided the article title but have given other bibliographic details \(e.g. journal, volume, page range or elocation ID\) it may be possible to search for the article online. If there are not enough details to find the article title, add the following author query:
+
+* Please provide the title for this reference.
 
 #### err-elem-cit-journal-4-1
 
 **Error:** _Each &lt;element-citation&gt; of type 'journal' must contain one and only one &lt;source&gt; element. Reference 'XXXXXX' has XXXXXX &lt;source&gt; elements._
 
-**Action:** Identify and add in the journal name. Check that the journal name has not been accidentally captured as part of the article title. If the authors have not provided this information but have given other bibliographic details \(e.g. article title, volume, page range or elocation ID\) it may be possible to search for the article online. This is especially easy if they have given the DOI! If there are not enough details to find the article, raise an author query to ask for the missing journal name.
+**Action:** This error will appear if a journal reference has more than one or no journal name. Check that the journal name has not been accidentally captured as part of the article title. If the authors have not provided the journal name but have given other bibliographic details \(e.g. article title, volume, page range or elocation ID\) it may be possible to search for the article online. If there are not enough details to find the article, add the following author query:
+
+* Please provide the journal name for this reference.
 
 #### err-elem-cit-journal-4-2-2
 
 **Error:** _A &lt;source&gt; element within a &lt;element-citation&gt; of type 'journal' may not contain child elements. Reference 'XXXXXX' has disallowed child elements._
 
-**Action:** Check that formatting elements have not been introduced into the journal name \(e.g. bold formatting\). Delete the current contents of this field and past in an unformatted version of the journal name.
+**Action:** This error will appear if there are formatting elements in the journal name \(e.g. bold, underline\). Delete the current contents of this field and paste in an unformatted version of the journal name.
 
 #### err-elem-cit-journal-5-1-3
 
 **Error:** _There may be no more than one &lt;volume&gt; element within a &lt;element-citation&gt; of type 'journal'. Reference 'XXXXXX' has XXXXXX &lt;volume&gt; elements._
 
-**Action:** Remove the extra volume number\(s\). Make sure that a page number/eloction ID has not been tagged as a volume by mistake.
+**Action:** This error will appear if a journal reference has more than one volume number. Remove the extra volume number\(s\) and make sure that a page number/e-location ID has not been tagged as a volume by mistake.
 
 #### err-elem-cit-journal-12
 
 **Error:** _The only elements allowed as children of &lt;element-citation&gt; with the publication-type="journal" are: &lt;person-group&gt;, &lt;year&gt;, &lt;article-title&gt;, &lt;source&gt;, &lt;volume&gt;, &lt;fpage&gt;, &lt;lpage&gt;, &lt;elocation-id&gt;, &lt;comment&gt;, and &lt;pub-id&gt;. Reference 'XXXXXX' has other elements._
 
-**Action:** Check the XML and remove the extra elements.
+**Action:** This error will appear if a journal reference has any xml elements other than the ones in the message \(e.g. string date\). Check the XML and remove the extra elements from the reference.
 
 #### err-elem-cit-journal-3-2
 
 **Error:** _An &lt;article-title&gt; element in a reference may contain characters and &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' does not meet this requirement._
 
-**Action:** Remove disallowed formatting \(e.g. bold\) from the article title.
+**Action:** This error will appear if there are formatting elements in the article title other than italics, superscripts and subscripts \(e.g. bold, underline\). Make sure any disallowed formatting elements are removed from the article title.
 
 #### err-elem-cit-journal-5-1-2
 
 **Error:** _A &lt;volume&gt; element within a &lt;element-citation&gt; of type 'journal' must contain at least one character and may not contain child elements. Reference 'XXXXXX' has too few characters and/or child elements._
 
-**Action:** Check that the volume field has something in it and make sure that it does not contain any formatting \(bold, italic, subscript etc\).
+**Action:** This error will appear if the volume field in a journal reference is empty, or if there are formatting elements present \(e.g. bold, underline\). Make sure the correct volume number is entered if appropriate by looking up the article details online, and make sure the contents do not contain any formatting.
 
 #### err-elem-cit-journal-6-2
 
 **Error:** _If &lt;fpage&gt; is present, neither &lt;elocation-id&gt; nor &lt;comment&gt;In press&lt;/comment&gt; may be present. Reference 'XXXXXX' has &lt;fpage&gt; and one of those elements._
 
-**Action:** Look the article up online and make sure that the page range is correct. If the article in fact has an elocation ID rather than a page range, remove any first or last pages and retain only this ID. If the article is published, any in press tag should be removed. If the article has not been published, raise an author query to ascertain when it will be released. If this will be more than a few days after publication of the eLife article, remove the page range and retain only 'in press'.
+**Action:** This error will appear if a journal reference has a first page and an e-location ID or 'Inpress' comment. Look the article up online and make sure that the page range is correct. If the article in fact has an e-location ID rather than a page range, remove any first or last pages and enter the ID in the e-location ID field. If the article is published, any 'In press' tag/comment should be removed. If the article has not been published, leave the following author query:
+
+* Please check whether this In press reference has now been published and, if so, please provide the full citation details.
+
+If the authors do not have a publication date or if the publication date will be more than a few days after the publication of the eLife article, remove the page range and keep the 'In press' comment.
 
 #### err-elem-cit-journal-6-3
 
 **Error:** _If &lt;elocation-id&gt; is present, neither &lt;fpage&gt; nor &lt;comment&gt;In press&lt;/comment&gt; may be present. Reference 'XXXXXX' has &lt;elocation-id&gt; and one of those elements._
 
-**Action:** Look the article up online and make sure that the elocation ID is correct. If the article has a page range instead, remove the elocation ID and retain only first and last page. If the article is published, any in press tag should be removed. If the article has not been published, raise an author query to ascertain when it will be released. If this will be more than a few days after publication of the eLife article, remove the elocation ID and retain only 'in press'.
+**Action:** This error will appear if a journal reference has an e-location ID and a first page or 'In press' comment. Look the article up online and make sure that the e-location ID is correct. If the article has a page range instead, remove the e-location ID field and enter the details for the first and last page. If the article is published,  any 'In press' tag/comment should be removed. 
+
+* Please check whether this In press reference has now been published and, if so, please provide the full citation details.
+
+If the article has not been published, leave the following author query:
+
+If the authors do not have a publication date or if the publication date will be more than a few days after the publication of the eLife article, remove the e-location ID and keep the 'In press' comment.
 
 #### err-elem-cit-journal-6-4
 
 **Error:** _If &lt;comment&gt;In press&lt;/comment&gt; is present, neither &lt;fpage&gt; nor &lt;elocation-id&gt; may be present. Reference 'XXXXXX' has one of those elements._
 
-**Action:** Look the article up online and confirm that it is still unpublished. If it has been published, remove the in press tag and confirm that volume, page range/elocation ID are correct. If the article has not been published, raise an author query to ascertain when it will be released. If this will be more than a few days after publication of the eLife article, remove the page range/elocation ID and retain only 'in press'.
+**Action:** This error will appear if a journal reference has an 'In press' comment and e-location ID and a first page. Look the article up online to check whether it is still unpublished. If the article is published, remove the 'In press' comment and confirm that the volume and page range/elocation ID are correct. If the article has not been published, leave the following author query.
+
+* Please check whether this In press reference has now been published and, if so, please provide the full citation details.
+
+If the authors do not have a publication date or if the publication date will be more than a few days after the publication of the eLife article, remove the e-location ID and keep the 'In press' comment.
 
 #### err-elem-cit-journal-6-5-1
 
 **Error:** _&lt;lpage&gt; is only allowed if &lt;fpage&gt; is present. Reference 'XXXXXX' has &lt;lpage&gt; but no &lt;fpage&gt;._
 
-**Action:** Look up the article online to identify the appropriate page range information and correct the reference. Check whether the last page present is supposed to be a single first page or an elocation ID.
+**Action:** This error will appear if a journal reference has a last page but no first page. Look up the article online to identify the appropriate page range information and correct the reference. If the article in fact has an e-location ID rather than a page range, remove any first or last pages and enter the ID in the e-location ID field.
 
 #### err-elem-cit-journal-6-5-2
 
 **Error:** _&lt;lpage&gt; must be larger than &lt;fpage&gt;, if present. Reference 'XXXXXX' has first page &lt;fpage&gt; = 'XXXXXX' but last page &lt;lpage&gt; = 'XXXXXX'._
 
-**Action:** Look up the article online to identify the appropriate page range information and correct the reference.
-
-#### err-elem-cit-journal-6-7
-
-**Error:** _The following elements may not occur more than once in an &lt;element-citation&gt;: &lt;fpage&gt;, &lt;lpage&gt;, &lt;elocation-id&gt;, and &lt;comment&gt;In press&lt;/comment&gt;. Reference 'XXXXXX' has XXXXXX &lt;fpage&gt;, XXXXXX &lt;lpage&gt;, XXXXXX &lt;elocation-id&gt;, and XXXXXX &lt;comment&gt; elements._
-
-**Action:** Remove the extra instances of these elements. Ensure that the beginning and end of a page range have been tagged as first page and last page respectively, and not both tagged as first/last pages.
+**Action:** This error will appear if a journal reference has a first page value larger than the last page value \(e.g. first page: 27, last page: 20\). Look up the article online to identify the appropriate page range information and correct the reference. If the article in fact has an e-location ID rather than a page range, remove any first or last pages and enter the ID in the e-location ID field.
 
 #### err-elem-cit-journal-6-6
 
 **Error:** _If the content of &lt;fpage&gt; begins with a letter, then the content of &lt;lpage&gt; must begin with the same letter. Reference 'XXXXXX' does not._
 
-**Action:** Update the last page to start with the same letter\(s\) as the first page.
+**Action:** This error will appear if a journal reference has a first page value beginning with a letter, but a last page value that does not \(e.g. first page: e45, last page: 60\) Update the last page to start with the same letter\(s\) as the first page.
+
+#### err-elem-cit-journal-6-7
+
+**Error:** _The following elements may not occur more than once in an &lt;element-citation&gt;: &lt;fpage&gt;, &lt;lpage&gt;, &lt;elocation-id&gt;, and &lt;comment&gt;In press&lt;/comment&gt;. Reference 'XXXXXX' has XXXXXX &lt;fpage&gt;, XXXXXX &lt;lpage&gt;, XXXXXX &lt;elocation-id&gt;, and XXXXXX &lt;comment&gt; elements._
+
+**Action:** This error will appear if a journal reference has more than one of any of the elements in the message \(e.g. multiple first pages\). Ensure that the beginning and end of a page range have been tagged as first page and last page respectively, and remove the extra instances of any duplicate elements. 
 
 #### err-elem-cit-journal-13
 
 **Error:** _Comment elements with content other than 'In press' are not allowed. Reference 'XXXXXX' has such a &lt;comment&gt; element._
 
-**Action:** If the comment element contains relevant bibliographic information \(article title, journal name, volume etc\) move this to the correct elements and remove the comment. If the comment contains a variant on in press \('in production', 'forthcoming' etc\), correct this to in press and raise an author query to confirm this. If the comment contains pre-acceptance text \('in preparation', 'under review' etc\), raise an author query to ask whether the article is now in press. If so, update the reference to use the correct in press tag. If not, the reference will need to be removed from the reference list and mention in the text as e.g. 'Smith et al., in preparation'.
+**Action:** This error will appear if the 'Comment' field in Kriya has anything other than 'In press'. If the comment element contains relevant bibliographic information \(article title, journal name, volume, etc\) move this information to the correct fields and delete the comment element. If the comment contains a variant on 'in press' \(e.g. 'in production', 'forthcoming' etc\), correct this to 'In press' and leave the following author query:
+
+* Please check whether this In press reference has now been published and, if so, please provide the full citation details.
+
+If the comment contains text that indicates the article is pre-acceptance \(e.g. 'manuscript in preparation' 'in preparation', 'under review' etc\), leave the following author query.
+
+* Please update this reference if this article is now in press. If it is still in preparation, it will need to be removed from the reference list
+
+If the authors respond to say the article is now in press, update the 'Comment' field in Kriya with the text 'In press'. If the authors respond to say the article is still in preparation, the reference will need to be removed from the reference list and cited in the text as, for example 'Smith et al., in preparation'.
 
 #### err-elem-cit-journal-10
 
 **Error:** _If &lt;pub-id pub-id-type="pmid"&gt; is present, the content must be all numeric. The content of &lt;pub-id pub-id-type="pmid"&gt; in Reference 'XXXXXX' is XXXXXX._
 
-**Action:** PubMed IDs should only contain numbers. If there are letters as well, it means the ID has been captured incorrectly.
+**Action:** This error will appear if a PubMed ID has any letters. PMIDs should only contain numbers - look up the article online to get the correct ID and enter this.
 
 #### err-elem-cit-journal-9-1
 
@@ -237,83 +241,77 @@ The following rules apply to Journal references:
 
 **Action:** Remove any pub-ids that are not a DOI or a PubMed ID.
 
-#### ref bib _references an organism - '**\_\_**_' - but there is no italic element with that correct capitalisation or spacing.
+#### ref-article-title-check
 
-**Action:** In research content, messages about the italicisation of species names in references do not need to be acted upon unless the author has specifically requested that this be updated. In feature content, the indicated species names should be italicised.
+**Info:** _XXXXXX_ _contains an organism - 'XXXXXX - but there is no italic element with that correct capitalisation or spacing._
 
-#### XXX contains an organism - 'X. laevis' - but there is no italic element with that correct capitalisation or spacing.
+**Example:** bib1 contains an organism - 'X. laevis' - but there is no italic element with that correct capitalisation or spacing.
+
+**Action:** This message will appear if an article title contains a species name \(or multiple\) which should usually be italicised. In research content however, these messages do not need to be acted upon unless the author has specifically asked for these to be corrected. In feature content, the indicated species names should be italicised.
 
 #### PLOS-1
 
 **Error:** _ref 'XXXXXX' contains XXXXXX. 'PLOS' should be upper-case._
 
-**Action:** Apply the correct capitalisation.
-
-**Example:** "Plos; PLoS; Plos Biology, PLoS Medicine" change to "PLOS, PLOS, PLOS Biology, PLOS Medicine"
+**Action:** This error will appear if a journal reference has a 'journal name' field that includes 'PLOS' capitalised incorrectly. Make sure this is corrected to 'PLOS' in all cases. For example, 'Plos; PLoS; Plos Biology, PLoS Medicine' should be changed to 'PLOS, PLOS, PLOS Biology, PLOS Medicine'. 
 
 #### PLOS-2
 
 **Error:** _ref 'XXXXXX' contains XXXXXX. 'PLOS ONE' should be upper-case._
 
-**Action:** Apply the correct capitalisation.
-
-\*\*Example: "Plos one; PLoS One; PLOS One" change all to "PLOS ONE"
+**Action:** This error will appear if a journal reference has a 'journal name' field that includes 'PLOS ONE' capitalised incorrectly. For example 'Plos one; PLoS One; PLOS One' should all be changed to 'PLOS ONE'. 
 
 #### PNAS
 
-**Error:** _ref 'XXXXXX' has the doi for 'PNAS' but the title is XXXXXX, which is incorrect._
+**Error:** _ref 'XXXXXX' has the doi for 'PNAS' but the journal name is XXXXXX, which is incorrect._
 
-**Action:** Make sure that the article title corresponds to that found by following the DOI. Change the journal name to PNAS.
-
-**Example:** "Proceedings of the National Academy of Sciences, Proceedings of the National Academy of Sciences of the United States of America" should be changed to "PNAS"
+**Action:** This error will appear if a journal reference has the doi for PNAS but the journal name has been entered as something other than 'PNAS'. Firstly, make sure that following the DOI leads to the same article as the reference in Kriya. When you have confirmed this, apply the correct capitalisation for the journal name. For example, 'Proceedings of the National Academy of Sciences, Proceedings of the National Academy of Sciences of the United States of America' should all be changed to 'PNAS'.
 
 #### RNA
 
 **Error:** _ref 'XXXXXX' contains XXXXXX. 'RNA' should be upper-case._
 
-**Action:** Ensure RNA is capitalised.
+**Action:** This error will appear if a journal reference has an article title including 'RNA' with incorrect capitalisation \(e.g. Rna, rna\). Make sure this is corrected to 'RNA'.
 
 #### bmj
 
 **Error:** _ref 'XXXXXX' contains XXXXXX. 'BMJ' should be upper-case._
 
-**Action:** Ensure BMJ is capitalised.
+**Action:** This error will appear if a journal reference has a journal name 'BMJ' with the incorrect capitalisation \(e.g. bmj, Bmj\). Make sure this is corrected to 'BMJ'. 
 
 #### G3
 
-**Error:** _ref 'XXXXXX' has the doi for 'G3' but the title is XXXXXX - it should be either 'G3: Genes\|Genomes\|Genetics' or 'G3: Genes, Genomes, Genetics'._
+**Error:** _ref 'XXXXXX' has the doi for 'G3' but the journal name is XXXXXX - it should be either 'G3: Genes\|Genomes\|Genetics' or 'G3: Genes, Genomes, Genetics'._
 
-**Action:** Due to an issue with how G3 supplies its data to PubMed/Crossref, the title will sometimes have the unicode character replacing the ':'. This will need to be corrected to the proper character.
-
-**Example:** "" should be changed to "G3: Genes\|Genomes\|Genetics, G3: Genes, Genomes, Genetics".
+**Action:** This error will appear if a journal reference has the journal name 'G3' formatted incorrectly. Due to an issue with how G3 supplies its data to PubMed/Crossref, the journal name will sometimes have the unicode character replacing the ':'. Change the journal name to 'G3: Genes\|Genomes\|Genetics' or 'G3: Genes, Genomes, Genetics'.
 
 #### ampersand-check
 
 **Warning:** _ref 'XXXXXX' appears to contain the text 'amp', is this a broken ampersand?_
 
+**Action:** This error will appear if a journal reference contains the text 'amp'. Look up the article online to check whether this is a broken ampersand and fix if so. 
+
 #### Research-gate-check
 
 **Error:** _ref 'XXXXXX' has a source title 'XXXXXX' which must be incorrect._
 
-**Action:** This error will appear if a journal title has been entered as 'Research Gate' \(or 'research gate' or any other capitalisation alternatives\). Check what the correct journal title should be by looking up the article title or doi and enter that instead. 
-
-#### zenodo-check 
-
-**Error:** Journal ref 'bib\_' has a source title '' which must be incorrect. It should be a data or software type reference.
+**Action:** This error will appear if a journal name has been entered as 'Research Gate' \(or 'research gate' or any other capitalisation alternatives\). Check what the correct journal name should be by looking up the article online and enter that instead. 
 
 #### journal-replacement-character-presence
 
 **Error:** _element contains the replacement character '�' which is unallowed - XXXXXX_
 
+**Action:** This error will appear if a journal name contains the character ‘�’. This usually indicates that processing has gone wrong, or it has been used to replace an unknown, unrecognized or unrepresentable character. Look up the article online and make sure the fields have all been entered correctly.
+
 #### journal-off-presence
 
 **Warning:** _ref 'XXXXXX' has a source title which contains the text 'official journal' - 'XXXXXX'. Is this necessary?_
 
-**Action:** 
+**Action:** This warning will appear if a journal name includes the text 'official journal'.
 
 **handbook-presence**
 
-**Error:** _Journal ref 'XXXXXX' has a journal title 'XXXXXX'. Should it be captured as a book type reference instead?_
+**Error:** _Journal ref 'XXXXXX' has a journal name 'XXXXXX'. Should it be captured as a book type reference instead?_
 
 **Action:** 
 
@@ -321,17 +319,19 @@ The following rules apply to Journal references:
 
 **Info**: _ref 'XXXXXX' has an article-title with a full stop. Is this correct, or has the journal/source title been included? Or perhaps the full stop should be a colon ':'?_
 
-**Action:**
+**Action:** This message will appear if a journal reference has a title including a full stop. Look up the article online to work out whether this should be kept or replaced with a colon. 
 
 #### article-title-fullstop-check-2
 
 **Error:** ref 'XXXXXX' has an article-title which ends with a full stop, which cannot be correct - XXXXXX
 
+**Action:** This error will appear if a journal reference has an article title which ends with a full stop. The full stop should be removed as this will make the journal reference incorrectly formatted. 
+
 #### **article-title-fullstop-check-3**
 
 **Warning:** _ref 'XXXXXX' has an article-title which ends with some full stops - is this correct? - XXXXXX_
 
-**Action:** 
+**Action:** This error will appear if a journal reference has an article title which ends with multiple full stops. The full stops should be removed as this will make the journal reference incorrectly formatted. 
 
 #### **article-title-correction-check**
 
@@ -341,68 +341,75 @@ The following rules apply to Journal references:
 
 **article-title-journal-check**
 
-**Warning:** _ref 'XXXXXX' has an article-title which contains the text ' journal '. Is a journal title \(source\) erroneously included in the title? - 'XXXXXX'_
+**Warning:** _ref 'XXXXXX' has an article-title which contains the text ' journal '. Is a journal name \(source\) erroneously included in the title? - 'XXXXXX'_
 
-**Action:**
+**Action:** This warning will appear if a journal reference has an article title which includes the text 'journal'. This may need to be removed if, for example it reads 'Journal: PNAS'. However, if the word 'journal' is part of the journal name, then it needs to be kept \(e.g. Journal of Neuroscience\). 
 
-ref 'bibX' has an article-title with one child element, and no text. This is almost certainly incorrect. 
+#### article-title-child-1
+
+**Warning:** _ref 'XXXXXX' has an article-title with one child XXXXXX element, and no text. This is almost certainly incorrect. - XXXXXX_
+
+**Action:** This warning will appear if a journal reference has an article title which is empty, but has formatting applied \(e.g. bold, italics\). Look up the reference online if possible and enter the correct information. If the reference cannot be searched online, leave the following author query:
+
+* Please provide the full bibliographic details for this reference.
 
 #### a-title-replacement-character-presence
 
-**Error:** element contains the replacement character '�' which is unallowed - XXXXXX
+**Error:** _element contains the replacement character '�' which is unallowed - XXXXXX_
 
-**Action:** 
+**Action:** This error will appear if a journal reference has an article title with the character ‘�’. This usually indicates that processing has gone wrong, or it has been used to replace an unknown, unrecognized or unrepresentable character. Look up the article online and make sure the fields have all been entered correctly.
 
 #### eloc-page-assert
 
-**Error:** _ref 'XXXXXX' is a journal, but it doesn't have a page range or e-location. Is this right?_
+**Warning:** _ref 'XXXXXX' is a journal, but it doesn't have a page range or e-location. Is this right?_
 
-**Action:**
+**Action:** This warning will appear if a journal reference does not have a page range or e-location ID. Look up the article online to check whether these are available. Some journals do not use page ranges or e-location IDs to catalogue their articles, so if you cannot find these, you can ignore this warning.
+
+#### **volume-assert**
+
+**Warning:** _ref 'XXXXXX' is a journal, but it doesn't have a volume. Is this right?_
+
+**Action:** This warning will appear if a journal reference does not have a volume. Look up the article online to check whether this is available. Some journals do not use volumes to catalogue their articles, so if you cannot find this information, you can ignore this warning.
 
 #### journal-preprint-check
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, but it is captured as a journal not a preprint._
 
-**Action:** 
+**Action:** This error will appear if a journal reference has a journal name 'biorXiv' or 'arXiv' 
 
 #### elife-ref-check
 
 **Error:** ref 'XXXXXX' is an XXXXXX article, but it has no doi in the format 10.7554/eLife.00000, which must be incorrect.
 
-**Action:** s
+**Action:** This error will appear if a journal reference has the journal name 'eLife' but the doi is incorrectly formatted. eLife articles have dois in the format: 10.7554/eLife.XXXXX. Look up the article online to check what the doi should be.
 
 #### journal-conference-ref-check-1
 
-**Warning:** _Journal ref 'XXXXXX' has the journal title XXXXXX. Should it be a conference type reference instead?_
+**Warning:** _Journal ref 'XXXXXX' has the journal name XXXXXX. Should it be a conference type reference instead?_
 
-**Action:** s
+**Action:** This warning will appear if a journal reference has a journal name including the text '
 
 #### journal-conference-ref-check-2
 
-**Warning:** _Journal ref 'XXXXXX' has a journal title containing a year - XXXXXX. Should it be a conference type reference instead? Or should the year be removed from the journal title?_
+**Warning:** _Journal ref 'XXXXXX' has a journal name containing a year - XXXXXX. Should it be a conference type reference instead? Or should the year be removed from the journal name?_
 
-**Action:** s
+**Action:** This warning will appear if a journal reference has a journal name including a year. Look up the article online to 
 
 #### online-journal-w-page
 
 **Error:** _XXXXXX is a XXXXXX article, but has a page number, which is incorrect._ 
 
-**Action:** bibX is an online journal article, but has a page number, which is incorrect.
+**Action:** This error will appear if a journal reference is an online journal article, but has a page number, which is incorrect.
 
 #### journal-doi-test-1
 
 **Warning:** _XXXXXX is a journal ref without a doi. Should it have one?_
 
-**Action:** If the article has a PubMed ID but no DOI, the reference will not have a DOI and can be left as it is. If there is no PMID, the first step is to revalidate the reference to ensure it's not just a system glitch. If this reveals nothing, look the article up online \(Google search, PubMed, Crossref\) to see if it has been assigned a DOI. Some articles will not have DOIs. This is particularly common with older articles e.g. those published before ~1990. While doing this check, keep an eye out for differing article information. If the author names or the title are slightly different from the published details or what is recorded in PubMed, the validator will not identify the reference.
-
-### Further reading and links
-
-* [https://www.ncbi.nlm.nih.gov/pubmed](https://www.ncbi.nlm.nih.gov/pubmed)
-* [https://search.crossref.org/?q=](https://search.crossref.org/?q=)
+**Action:** This warning will appear if a journal reference does not have a DOI. Revalidate the reference first, to ensure it is not just a system glitch. Then, look up the article online and check [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and [Crossref](https://search.crossref.org/?q=) as well, to see whether this information can be found. If the article has a PubMed ID but no DOI, the reference can be left as it is. Some articles will not have DOIs. This is particularly common with older articles e.g. those published before ~1990, but some journals also do not assign DOIs to their articles \(e.g. Development\). While doing this check, keep an eye out for differing article information. If the author names or the title are slightly different from the published details or what is recorded in PubMed, the validator will not identify the reference.
 
 ## XML Structure
 
-Here are some examples of how the xml will look for various software references.
+Here are some examples of how the xml will look for various journal references.
 
 Journal reference with page range.
 
