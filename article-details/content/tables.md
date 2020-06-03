@@ -8,13 +8,13 @@ description: Tabulated content in an article
 
 Tables can be placed in the body of an article, in appendices, in Decision Letters and in Author responses.
 
-Those outside of Decision letters and Author responses display in both the HTML and in the PDF. 
-
-Those in Decision letters and Author responses only display in the HTML.
+Tables display in both the HTML and in the PDF. Decision letters and Author responses are not included in the PDF, so their tables only appear in the HTML version of the article.
 
 ## What can tables contain?
 
 Tables can be with or without labels \(tables without labels are referred to as inline tables\). Those with labels outside of Decision Letters and Author responses _must_ have a title. In Decision letters and Author responses the title is optional. All tables can also have an optional caption, however if there is a caption there _must_ be a title \(this is also true of tables in Decision Letter and Author responses\).
+
+Any abbreviations should be included in a single footnote in the table - they should _not_ be included in the caption or title. See [Table footers](tables.md#table-footers).
 
 Note that an object labelled as one table \(with one label and optional title/caption\), can actually be made up of multiple tables. This is avoided, where possible in eLife content \(see also [XML structure](tables.md#xml-structure)\).
 
@@ -64,7 +64,7 @@ Cells can be horizontally and vertically aligned.
 
 ### Table body
 
-The table body is any row and cells which are not in the header. They are usually marked up as normal cells meaning that they display with no shading on the eLife site, and the text only carries the formatting which has been applied to it \(by default roman\).
+The table body is any row and cells which are not in the header. They are usually marked up as normal cells meaning that they display with no shading on the eLife site, and the text only carries the formatting which has been applied to it \(by default, roman formatting\).
 
 A cell can be merged with cells in rows above and below it, and can be merged with cells in the columns left and right of it.
 
@@ -89,13 +89,24 @@ Table footers appear at the bottom of a table. They are intended to only contain
 
 All footnotes that have indicators should follow this sequence , †, ‡, §, ¶, , ††, ‡‡, §§, ¶¶, , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. in accordance with house style. Footnotes with numbers or letters as their indicators are not allowed.
 
+For example a footnote labelled with 1, followed by 2, followed by 3 should be relabelled using †, ‡,  and § respectively.
+
+Footnotes should be placed in the order:
+
+1. Footnotes with labels \(if present\).
+2. p value footnotes \( e.g. \*p&lt;0.05; \*\*p&lt;0.01; \*\*\*p&lt;0.001\) \(if present\).
+3. Undesignated footnotes \(e.g. general notes\) \(if present\). 
+4. Abbreviations \(if present\).
+
 In the future we would like to be able to link footnote indicators in table cells to their respective footnotes, but currently this is not done, merely the symbol is included as \(usually superscripted\) text in both places. 
 
 Table footers can also contain more general footnotes that are not specifically referred to from cells within the table, such as a list of abbreviations or more general notes on the table. This is also fine.
 
-### Associated source data/code files
+Abbreviations should be included in a single footnote. If the authors originally included abbreviations in the table title or caption, these should _always_ be moved into a footnote.
 
-Like figures, tables can have associated source data and source code files. These should be labelled in the format **\[Table label\]—source data 1.** and **\[Table label\]—source code 1**, for example **Table 1—source data 1.**
+### Supporting source data/code files
+
+Like figures, tables can have supporting source data and source code files. These should be labelled in the format **\[Table label\]—source data 1.** and **\[Table label\]—source code 1**, for example **Table 1—source data 1.**
 
 As with figure level source data, the label and title should be displayed underneath the table in the PDF. [Here is an example](https://elifesciences.org/articles/46883/figures#table1sdata1) from published content:
 
@@ -205,7 +216,7 @@ The following tests are run on tables.
 * Author response table 1.
 * Decision letter 1.
 
-Please ensure that the table label is either in one of these formats or \(in the case where it _should not_ have a label\), the label is removed. Please also check for [no-break spaces](https://www.fileformat.info/info/unicode/char/00a0/index.htm) in the table label text. This error will fire if any are present, and they should always be replaced with normal spacing.
+Please ensure that the table label is either in one of these formats or \(in the case where it _should not_ have a label\), the label is removed. Please note that the label _must_ end with a full stop. Please also check for [no-break spaces](https://www.fileformat.info/info/unicode/char/00a0/index.htm) in the table label text. This error will fire if any are present, and they should always be replaced with normal spacing.
 
 #### app-table-label-test-1
 
@@ -213,7 +224,7 @@ Please ensure that the table label is either in one of these formats or \(in the
 
 **Action**: This will fire when a table in an appendix has a label which is not in the format 'Appendix 1—table 1.' 
 
-Please ensure that there are no typos, missing or extra spaces, that the capitalisation is correct, and that the character between 'Appendix X' and 'table X' is an [em dash](https://www.fileformat.info/info/unicode/char/2014/index.htm).
+Please ensure that there are no typos, missing or extra spaces, that the capitalisation is correct, that the character between 'Appendix X' and 'table X' is an [em dash](https://www.fileformat.info/info/unicode/char/2014/index.htm), and that the label ends with a full stop. Please also check for no-break spaces in the table label text. This error will fire if any are present, and they should always be replaced with normal spacing.
 
 #### app-table-label-test-2
 
@@ -233,7 +244,7 @@ Depending on the case, the table will either need to be moved into its appropria
 
 **Error**: _Duplicated labels - XXXXXX is present more than once in the text._
 
-**Action**: This will fire when a Table label occurs twice in the same article for example there is a Table 1 and a Table 1. Table labels must be distinct. If this fires, action should be taken to ensure that this label is not used more than once.
+**Action**: This will fire when a Table label occurs twice in the same article for example there are two 'Table 1.'s. Table labels must be distinct. If this fires, action should be taken to ensure that this label is not used more than once.
 
 #### pre-body-table-report
 
@@ -277,8 +288,8 @@ If there is an in-text citation, but the citations are out of sequence \(i.e. Ap
 
 **Action**: This will fire if a table's label text is found elsewhere in the article without citation formatting \(for example the text 'Table 1' is present in paragraph in the Introduction\). The following actions should be taken:
 
-* If the table citation is deliberately left unlinked due to citations which are out of sequence, this warning can be ignored.
-* If the table citation is obviously a reference to a table from another article or piece of work \(e.g. Table 1 from Smith et al., 2020\), then this can be ignored.
+* If the table citation is deliberately left unlinked due to citations which are out of sequence, this warning can be ignored, since the text has been deliberately left unlinked.
+* If the table citation is obviously a reference to a table from another article or piece of work \(e.g. Table 1 from Smith et al., 2020\), then this should be ignored.
 * If neither of the above two conditions is the case, then the text should be changed to a linked citation.
 
 #### missing-ref-in-text-test
@@ -331,7 +342,7 @@ If the article is post-author, then the authors should be queried to check that 
 
 **Warning**: _element containing 'XXXXXX' has an @style with an unallowed value - 'XXXXXX'. The only allowed values are 'author-callout-style-b1', 'author-callout-style-b2', 'author-callout-style-b3', 'author-callout-style-b4', 'author-callout-style-b5', 'author-callout-style-b6', 'author-callout-style-b7', 'author-callout-style-b8' for blue, green orange, yellow, purple, red, pink and grey respectively. Please ensure one of these is used. If it is clear that colours are supposed to be used, but you are not sure which ones, then please query the authors - 'eLife only supports the following colours for table cells - blue, green orange, yellow, purple, red, pink and grey. Please confirm how you would like the colour\(s\) here captured given this information.'._
 
-**Action**: This will fire at a pre-author stage if a table cell in a table has a style attribute with an unallowed value. Usually this will be because the colour formatting is not a supported colour. If it _is_ one of the supported colours and this message fires this is a problem - it means that the content has not been typeset correctly.
+**Action**: This will fire at a pre-author stage if a table cell in a table has a style attribute with an unallowed value. Usually this will be because the colour formatting is not a supported colour. If it _is_ one of the supported colours and this message fires this is a problem - it means that the content has not been tagged correctly.
 
 In the case where it is a colour that is not supported \(brown for example\), then as the message suggests the following author query should be added:
 
@@ -343,7 +354,7 @@ See also [Allowed colours in table cells](tables.md#allowed-colours-in-tables).
 
 **Error**: _element containing 'XXXXXX' has an @style with an unallowed value - 'XXXXXX'. The only allowed values are 'author-callout-style-b1', 'author-callout-style-b2', 'author-callout-style-b3', 'author-callout-style-b4', 'author-callout-style-b5', 'author-callout-style-b6', 'author-callout-style-b7', 'author-callout-style-b8' for blue, green orange, yellow, purple, red, pink and grey respectively._
 
-**Action**: This will fire at a post-author stage if a table cell in a table has a style attribute with an unallowed value. Usually this will be because the colour formatting is not a supported colour. If it _is_ one of the supported colours and this message fires this is a problem - it means that the content has not been typeset correctly. If it is not a supported colour, ensure to check the author's response to the query which should have been added pre-author. If the response isn't clear about how to proceed \(or the query was mistakenly not left\), then Production will need to contact the author to ask how they would like to proceed.
+**Action**: This will fire at a post-author stage if a table cell in a table has a style attribute with an unallowed value. Usually this will be because the colour formatting is not a supported colour. If it _is_ one of the supported colours and this message fires this is a problem - it means that the content has not been tagged correctly. If it is not a supported colour, ensure to check the author's response to the query which should have been added pre-author. If the response isn't clear about how to proceed \(or the query was mistakenly not left\), then Production will need to contact the author to ask how they would like to proceed.
 
 See also [Allowed colours in table cells](tables.md#allowed-colours-in-tables).
 
@@ -353,13 +364,27 @@ See also [Allowed colours in table cells](tables.md#allowed-colours-in-tables).
 
 **Example message**: table-wrap has an inline id inline-table1 but it has a label - Table 1., which is not correct.  
 
-**Action**: This will fire if a table has the incorrect id. A table with a label must have an id in the format `table1`. Either the label needs removing or the table id needs correcting. The original manuscript should be checked to determine which action needs to be taken.
+**Action**: This will fire if a table has an id which is not correct based on its label. There are two scenarios here:
+
+1. A labelled table \(e.g. Table 1\) with the incorrect id.
+2. An inline \(un-labelled\) table with the correct id, but an unnecessary label.
+
+Check against the original manuscript in order to determine whether the table should be labelled or not. This can be determined if the author has included a label or if they have included a title and/or caption. If \(after having checked the manuscript\) it should be a labelled table, then Exeter will have to correct the id. A table with a label must have an id in the format `table1`.  
+
+If the second scenario is the case, the erroneous label should be removed, and the id left as it is.
 
 #### table-wrap-test-4
 
 **Error**: _table-wrap with id XXXXX has no label which is not correct._
 
-**Action**: This is the inverse of table-wrap-test-3. It will fire if a table without a label has a label which is in the format `table1`. Either the label needs adding or the table id needs correcting. The original manuscript should be checked to determine which action needs to be taken.
+**Action**: This is the inverse of [table-wrap-test-3](tables.md#table-wrap-test-3). It will fire if a table without a label has a label which is in the format `table1`. There are two scenarios here:
+
+1. A table with he correct id which is missing it's label.
+2. An inline \(un-labelled\) table with the incorrect id.
+
+Check against the original manuscript in order to determine whether the table should be labelled or not. This can be determined if the author has included a label, or if they have included a title and/or caption. If \(after having checked the manuscript\) it should be a labelled table, then ensure the correct label is added \(Exeter will have to do this\). A table with id in the format `table1`, must have a label in the format 'Table 1.' 
+
+If the second scenario is the case, the id will need to be corrected so that it is in the format `inlinetable1`. 
 
 #### kr-table-wrap-test-1
 
