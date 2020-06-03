@@ -364,12 +364,12 @@ See also [Allowed colours in table cells](tables.md#allowed-colours-in-tables).
 
 **Example message**: table-wrap has an inline id inline-table1 but it has a label - Table 1., which is not correct.  
 
-**Action**: This will fire if a table has an id which is not correct based on its label. There are two scenarios here:
+**Action**: This will fire if a table has an id which is not correct based on its label. There are two possible scenarios here:
 
 1. A labelled table \(e.g. Table 1\) with the incorrect id.
 2. An inline \(un-labelled\) table with the correct id, but an unnecessary label.
 
-Check against the original manuscript in order to determine whether the table should be labelled or not. This can be determined if the author has included a label or if they have included a title and/or caption. If \(after having checked the manuscript\) it should be a labelled table, then Exeter will have to correct the id. A table with a label must have an id in the format `table1`.  
+Check against the original manuscript in order to determine whether the table should be labelled or not. This can be determined if the author has included a label or if they have included a title and/or caption \(if they have included a title and/or caption but no label in the originl manuscript then one will have to provided\). If \(after having checked the manuscript\) it should be a labelled table, then Exeter will have to correct the id. A table with a label must have an id in the format `table1`.  
 
 If the second scenario is the case, the erroneous label should be removed, and the id left as it is.
 
@@ -379,7 +379,7 @@ If the second scenario is the case, the erroneous label should be removed, and t
 
 **Action**: This is the inverse of [table-wrap-test-3](tables.md#table-wrap-test-3). It will fire if a table without a label has a label which is in the format `table1`. There are two scenarios here:
 
-1. A table with he correct id which is missing it's label.
+1. A table with the correct id which is missing its label.
 2. An inline \(un-labelled\) table with the incorrect id.
 
 Check against the original manuscript in order to determine whether the table should be labelled or not. This can be determined if the author has included a label, or if they have included a title and/or caption. If \(after having checked the manuscript\) it should be a labelled table, then ensure the correct label is added \(Exeter will have to do this\). A table with id in the format `table1`, must have a label in the format 'Table 1.' 
