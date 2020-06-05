@@ -225,7 +225,7 @@ Inline tables can never have a title or caption. If authors have provided a tabl
 
 ## Tables in corrections and retractions
 
-Correction notices and retractions may possibly contain tables. In these, it is not necessary for the tables to be cited, and they can be placed out of sequence, since it may refer to tables in a separate article.
+Correction and retraction notices may possibly contain tables. In these, it is not necessary for the tables to be cited, and they can be placed out of sequence, since it may refer to tables in a separate article, or reproducing those tables for the purposes of explaining why a separate article has been corrected or retracted.
 
 ## Table citations
 
