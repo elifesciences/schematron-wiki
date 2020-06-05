@@ -18,7 +18,7 @@ The following should be checked for Tables:
 
 ## Where are tables allowed?
 
-Tables can be placed in the body of an article, in appendices, in Decision Letters and in Author responses.
+Tables can be placed in the article main text, in boxes, in appendices, in Decision Letters and in Author responses.
 
 Tables display in both the HTML and in the PDF. Decision letters and Author responses are not included in the PDF, so their tables only appear in the HTML version of the article.
 
