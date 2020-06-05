@@ -163,6 +163,8 @@ eLife allow the following colours for text \(in this case text inside table cell
 
 ![](../../.gitbook/assets/screen-shot-2020-06-01-at-17.21.42.png)
 
+These colours have been selected with accessibility in mind. The eLife site will not support other colours.
+
 ## Key resources tables
 
 Key resources tables contain a list of resources \(such as Genes, Strains, Antibodies, Reagents, Chemical compounds, Software etc.\) that were used in generating the research communicated in an article. 
@@ -336,7 +338,7 @@ If the article is post-author, then the authors should be queried to check that 
 
 **Warning**: _XXXXXX element has colour background. Is this correct? It contains XXXXXX._
 
-**Action**: This will fire if a table cell in a table has colour formatting \(a style attribute beginning with 'author-callout'\). eLife only allow the following colours in table cells -  blue, green orange, yellow, purple, red, pink and grey. When this fires an author query should be added to the table \(only 1 per table\):
+**Action**: This will fire if a table cell in a table has colour formatting \(a style attribute beginning with 'author-callout'\). eLife only allow the following colours in table cells -  blue, green orange, yellow, purple, red, pink and grey. When this fires \(and [pre-colour-check-table-2](tables.md#pre-colour-check-table-2) does not fire\) an author query should be added to the table \(only 1 per table\):
 
 * Where possible, we prefer that colours are not used in tables in the interests of accessibility. Would it be possible to capture the same meaning in this table with more common forms of emphasis \(such as bold, italic or underline\)? If so please stipulate below how the table should be revised. Please note that this is a suggestion and supported colours in tables can be published.
 
@@ -348,7 +350,7 @@ If the article is post-author, then the authors should be queried to check that 
 
 In the case where it is a colour that is not supported \(brown for example\), then as the message suggests the following author query should be added:
 
-* eLife only supports the following colours for table cells - blue, green orange, yellow, purple, red, pink and grey. Please confirm how you would like the colour\(s\) here captured given this information.
+* Where possible, we prefer that colours are not used in tables in the interests of accessibility. However, eLife does support the following colours for table cells - blue, green orange, yellow, purple, red, pink and grey. Please confirm how you would like the colour\(s\) captured here given this information, and note that our preference would be to use more common forms of emphasis \(such as bold, italic or underline\) if possible to still convey the same meaning.
 
 See also [Allowed colours in table cells](tables.md#allowed-colours-in-tables).
 
