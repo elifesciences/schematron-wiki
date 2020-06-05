@@ -269,7 +269,7 @@ Labelled tables, which are not Key resources tables, within the main text of an 
 
 In the XML/HTML, tables should be placed directly after their first citation in the text.
 
-In the PDF, tables should be placed as close to their first citation as appropriately possible unless otherwise specified by authors.
+In the PDF, tables should be placed as close to their first citation as appropriately possible, unless otherwise specified by authors.
 
 Inline tables \(that is tables with no label, title or caption\) cannot have citations and so do not require any.
 
@@ -279,7 +279,7 @@ If tables are cited out of sequence, i.e. Table 2 is cited in the text before Ta
 
 * This citation is out of sequence with the other table citations and has therefore been left unlinked \(table placement is determined by first live citation\). Please confirm this is acceptable.
 
-If the citation are out of sequence and there are no other in sequence citations, then at pre-author stages the following query should be added:
+If the citations are out of sequence and there are no other in sequence citations, then, at pre-author stages, the following query should be added:
 
 * Table X is cited out of sequence. Would it be appropriate to relabel the citation based on their first citation? If not, please provide a citation for this table elsewhere in text, in sequence with the current labelling.
 
