@@ -622,9 +622,9 @@ For example, the header may be present as a row in the body of the table, rather
 
 #### tr-test-3
 
-**Warning**: _table row in header contains a td element \(table data\), which is unusual. Please check that this is correct._
+**Error**: _table row in header contains a td element \(table data\), which is not allowed. Only th elements \(table heading cells\) are allowed in a row in the table header._
 
-**Action**: This will fire for table cells which are not styled as headers, but are in the header of the table. This is highly unusual, and would usually indicate that either the table should not have a header at all, or that the cell should be given heading formatting.
+**Action**: This will fire for table cells which are not styled as headers, but are in the header of the table. The cell should be given heading formatting.
 
 #### th-row-test
 
