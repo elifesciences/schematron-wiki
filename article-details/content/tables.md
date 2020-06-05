@@ -119,7 +119,7 @@ If an author has labelled different sections of their table, then multiple table
 
 ![](../../.gitbook/assets/screen-shot-2020-06-05-at-15.41.44.png)
 
-In this case, in the original manuscript, the author has captured this as two separate tables, which, along with the two separate labels is a good indication that it should be captured using two tables:
+In this case, in the original manuscript, the author has captured this as two separate tables, and cited the individual sections in the text, which, along with the two separate labels is a good indication that it should be captured using two tables:
 
 ![](../../.gitbook/assets/screen-shot-2020-06-05-at-15.45.40.png)
 
@@ -142,7 +142,7 @@ Every table cell in the body can contain the following content:
 
 See also [td-child-test](tables.md#td-child-test) below.
 
-Cells can be horizontally and vertically aligned.
+Cells can be horizontally and vertically aligned \(see [**Table cell alignment**](tables.md#table-cell-alignment)\).
 
 If a cell in the table body is entirely bold formatted, it may be appropriate to format it as a header instead of as a normal table cell. This should be clear based on what content is inside the cell and the content in the rest of the table.
 
