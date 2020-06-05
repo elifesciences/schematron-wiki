@@ -27,7 +27,7 @@ Tables display in both the HTML and in the PDF. Decision letters and Author resp
 
 Tables can be with or without labels \(tables without labels are referred to as inline tables\). Those with labels outside of Decision Letters and Author responses _must_ have a title. In Decision letters and Author responses the title is optional. All tables can also have an optional caption, however if there is a caption there _must_ be a title \(this is also true of tables in Decision Letter and Author responses\).
 
-Tables should never be provided as an images \(or images\).
+Tables should never be provided as an image \(or images\).
 
 Any abbreviations should be included in a single footnote in the table - they should _not_ be included in the caption or title. See [**Table footers**](tables.md#table-footers).
 
@@ -106,6 +106,22 @@ Similarly though, there are cases where it might be appropriate for there to be 
 The Schematron check [**th-row-test**](tables.md#th-row-test) will fire if a table header cell is accompanied by normal table cells in the same row. See the action for examples of what to do when this fires.
 
 A single labelled table containing multiple tables \(multiple `<table>` elements in a `<table-wrap>`\) should be avoided where possible. The only case it should be used is where a single table has multiple sections each with different numbers of columns and this cannot be represented in a single table, or where the authors have explicitly labelled a table with multiple parts, e.g. Table 1a, Table 1b etc.
+
+#### Multiple tables within a single labelled table
+
+As stated above, it is possible for there to actually be numerous tables in and object with a single label. This is usually unnecessary and should be avoided where possible however there are cases where this might be appropriate.
+
+If an author has labelled different sections of their table, then multiple tables can be used \(numerous `<table>` elements within one `<table-wrap>`\).
+
+\*\*\*\*[**Here**](https://elifesciences.org/articles/49679#table1) the author has explicitly labelled their table as table 1a and table 1b. Since we only allow Table 1, Table 2 and so on as, as table labels, and this shares a single title/caption, it is necessary to use two tables to capture the separate labelling:
+
+![](../../.gitbook/assets/screen-shot-2020-06-05-at-15.41.44.png)
+
+In this case, in the original manuscript, the author has captured this as two separate tables, which, along with the two separate labels is a good indication that it should be captured using two tables:
+
+![](../../.gitbook/assets/screen-shot-2020-06-05-at-15.45.40.png)
+
+Similarly, if it is simply not possible to represent the content in one table \(i.e. because there are varying different numbers of columns, alignment, etc.\) then, provided that it is a table with multiple headers, it would be acceptable to capture it using multiple tables.
 
 ### Table body
 
@@ -201,22 +217,6 @@ As a result colours should be avoided where possible. There are two author queri
 * Where possible, we prefer that colours are not used in tables in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). However, eLife does support the following colours for table cells - blue, green orange, yellow, purple, red, pink and grey. Please confirm how you would like the colour\(s\) captured here given this information, and note that our preference would be to use more common forms of emphasis \(such as bold, italic or underline\) if possible to still convey the same meaning.
 
 But ultimately, the decision about whether to include \(supported\) colours is made by the authors.
-
-### Multiple tables within a single labelled table
-
-As stated above, it is possible for there to actually be numerous tables in and object with a single label. This is usually unnecessary and should be avoided where possible however there are cases where this might be appropriate.
-
-If an author has labelled different sections of their table, then multiple tables can be used \(numerous `<table>` elements within one `<table-wrap>`\).
-
-\*\*\*\*[**Here**](https://elifesciences.org/articles/49679#table1) the author has explicitly labelled their table as table 1a and table 1b. Since we only allow Table 1, Table 2 and so on as, as table labels, and this shares a single title/caption, it is necessary to use two tables to capture the separate labelling:
-
-![](../../.gitbook/assets/screen-shot-2020-06-05-at-15.41.44.png)
-
-In this case, in the original manuscript, the author has captured this as two separate tables, which, along with the two separate labels is a good indication that it should be captured using two tables:
-
-![](../../.gitbook/assets/screen-shot-2020-06-05-at-15.45.40.png)
-
-Similarly, if it is simply not possible to represent the content in one table \(i.e. because there are varying different numbers of columns, alignment, etc.\) then, provided that it is a table with multiple headers, it would be acceptable to capture it using multiple tables.
 
 ## Key resources tables
 
