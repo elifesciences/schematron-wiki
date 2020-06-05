@@ -209,6 +209,24 @@ In some articles, Key resources tables will be captured in a supplementary file 
 
 ![](../../.gitbook/assets/screen-shot-2020-06-01-at-11.52.50.png)
 
+## Inline tables
+
+These are tables without labels. This means that they are not cited from elsewhere in the text, and should be placed in the flow of text that they have been in the original manuscript. Aside from a label, title and caption, they can contain the same content as any other table.
+
+\*\*\*\*[**Here**](https://elifesciences.org/articles/55246#s4-24) ****is an example of two inline tables:
+
+![](../../.gitbook/assets/screen-shot-2020-06-05-at-12.53.03.png)
+
+![](../../.gitbook/assets/screen-shot-2020-06-05-at-12.53.17.png)
+
+![](../../.gitbook/assets/screen-shot-2020-06-05-at-12.53.38.png)
+
+Inline tables can never have a title or caption. If authors have provided a table in their original manuscript with a title and caption, then this should be given a label.
+
+## Tables in corrections and retractions
+
+Correction notices and retractions may possibly contain tables. In these, it is not necessary for the tables to be cited, and they can be placed out of sequence, since it may refer to tables in a separate article.
+
 ## Table citations
 
 Labelled tables, which are not Key resources tables, within the main text of an article _must_ have a citation. Citations are optional for tables placed anywhere else in an article \(appendices, boxes, and Decision letters/Author responses\), but citations for tables in appendices should also be sought after where appropriate. 
