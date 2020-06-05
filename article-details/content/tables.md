@@ -249,11 +249,11 @@ These are tables without labels. This means that they are not cited from elsewhe
 
 ![](../../.gitbook/assets/screen-shot-2020-06-05-at-12.53.38.png)
 
-Inline tables can never have a title or caption. If authors have provided a table in their original manuscript with a title and caption, then this should be given a label.
+Inline tables can never have a title or caption. If authors have provided a table in their original manuscript with a title and caption, then the table should be given a label.
 
 ## Tables in feature content
 
-Feature content can contain either inline or labelled tables. All of the same rules apply in feature content as do in normal research content, with the exception that it is not _necessary_ for a labelled table to have a citation. A citation for each table should still be pursued where possible, as good practice, but it is not needed in order to publish.
+Feature content can contain both inline and labelled tables. All of the same rules apply in feature content as do in normal research content, with the exception that it is not _necessary_ for a labelled table to have a citation. A citation for each table should still be pursued where possible, as good practice, but it is not needed in order to publish.
 
 Insights do not contain tables.
 
