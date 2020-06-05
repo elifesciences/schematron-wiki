@@ -243,7 +243,7 @@ Correction and retraction notices may possibly contain tables. In these, it is n
 
 ## Table citations
 
-Labelled tables, which are not Key resources tables, within the main text of an article _must_ have a citation. Citations are optional for tables placed anywhere else in an article \(appendices, boxes, and Decision letters/Author responses\), but citations for tables in appendices should also be sought after where appropriate. 
+Labelled tables, which are not Key resources tables, within the main text of an article _must_ have a citation \(there are exceptions to this is for tables in [corrections or retractions](tables.md#tables-in-corrections-and-retractions) and [feature content](tables.md#tables-in-feature-content)\). Citations are optional for tables placed anywhere else in an article \(appendices, boxes, and Decision letters/Author responses\), but citations for tables in appendices should also be sought after where appropriate. 
 
 In the XML/HTML, tables should be placed directly after their first citation in the text.
 
