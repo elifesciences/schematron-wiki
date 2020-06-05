@@ -133,6 +133,10 @@ All footnotes that have indicators should follow this sequence \*, †, ‡, §,
 
 For example a footnote labelled with 1, followed by 2, followed by 3 should be relabelled using †, ‡,  and § respectively.
 
+\*\*\*\*[**Here is an example**](https://elifesciences.org/articles/53886/figures#table2):
+
+![Footnotes following the sequence set out above](../../.gitbook/assets/screen-shot-2020-06-05-at-12.40.40.png)
+
 Footnotes should be placed in the following order:
 
 1. Footnotes with labels \(if present\).
@@ -254,7 +258,7 @@ Depending on the case, the table will either need to be moved into its appropria
 
 **Warning**: _Footnote starts with label which is not in line with house style - XXXXXX. Footnote symbols should be in the order: \*, †, ‡, §, ¶, \*\*, ††, ‡‡, §§, ¶¶, etc._
 
-**Action**: Footnote indicators should be in the following sequence _,_ †, ‡, §, ¶, **, ††, ‡‡, §§, ¶¶,** , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. If this warning fires, it is because a footnote has an indicator and it isn't one of the allowed symbols. The indicators should be changed in line with the sequence above.
+**Action**: Footnote indicators should be in the following sequence \*_,_ †, ‡, §, ¶, \*\***, ††, ‡‡, §§, ¶¶, \*\*\***, †††, ‡‡‡, §§§, ¶¶¶, \*\*\*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. If this warning fires, it is because a footnote has an indicator and it isn't one of the allowed symbols. The indicators should be changed in line with the sequence above.
 
 #### distinct-label-conformance
 
@@ -372,7 +376,7 @@ See also [**Allowed colours in table cells**](tables.md#allowed-colours-in-table
 
 **Action**: This will fire at a post-author stage if a table cell in a table has a style attribute with an unallowed value. Usually this will be because the colour formatting is not a supported colour. If it _is_ one of the supported colours and this message fires this is a problem - it means that the content has not been tagged correctly. If it is not a supported colour, ensure to check the author's response to the query which should have been added pre-author. If the response isn't clear about how to proceed \(or the query was mistakenly not left\), then Production will need to contact the author to ask how they would like to proceed.
 
-See also [Allowed colours in table cells](tables.md#allowed-colours-in-tables).
+See also [**Allowed colours in table cells**](tables.md#allowed-colours-in-tables).
 
 #### table-wrap-test-3
 
@@ -472,7 +476,9 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Action**: This will fire at all stages if a Key resources table has no rows in it's header. It is **very** likely that this means the table has been incorrectly typeset. Action should be taken to include the required headings for Key resources tables \(see [Key resources tables](tables.md#key-resources-tables)\).
 
-For example, the header may be present as a row in the body of the table, rather than capture possibly as a .
+For example, the header may be present as a row in the body of the table, rather than captured as a proper header.
+
+![](../../.gitbook/assets/screen-shot-2020-06-05-at-11.55.48.png)
 
 #### kr-table-header-4
 
