@@ -9,7 +9,8 @@ description: Tabulated content in an article
 The following should be checked for Tables:
 
 * Appropriate capture of heading\(s\) \(see [**Tables with multiple headers**](tables.md#tables-with-multiple-headers)\).
-* The presence of colours \(should be flagged by Schematron; see [**colour-check-table**](tables.md#colour-check-table)\).
+* Appropriate alignment and line breaks in cells.
+* The presence of colours \(should be flagged by Schematron; see [**colour-check-table**](tables.md#colour-check-table) and [**Allowed colours in tables**](tables.md#allowed-colours-in-tables)\).
 * Missing links for RRIDs, DOIs, PMIDs and PMCIDs.
 * That links for RRIDs, DOIs, PMIDs and PMCIDs resolve.
 * References to software that requires forking or adding a citation \(see [**When and how to fork repositories**](../../toolkit/forking-git-based-repos.md) and [**Software references**](references/software-references.md)\).
@@ -201,7 +202,7 @@ As a result colours should be avoided where possible. There are two author queri
 
 But ultimately, the decision about whether to include \(supported\) colours is made by the authors.
 
-### Multiple tables in a one labelled table
+### Multiple tables within a single labelled table
 
 As stated above, it is possible for there to actually be numerous tables in and object with a single label. This is usually unnecessary and should be avoided where possible however there are cases where this might be appropriate.
 
