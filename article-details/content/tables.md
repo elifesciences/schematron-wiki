@@ -45,18 +45,20 @@ Tables can also have accompanying source data and/or source code files.
 
 Tables should have an appropriate label based on their placement in the content. The following label formats are permitted for tables at eLife:
 
-* Table 1
-* Key resources table
-* Appendix 1—table 1
-* Box 1—table 1
-* Decision letter table 1
-* Author response table 1
+* Table 1.
+* Key resources table.
+* Appendix 1—table 1.
+* Box 1—table 1.
+* Decision letter table 1.
+* Author response table 1.
+
+\(Note that the full stop at the end _has_ to be within the label\)
 
 ### Table header
 
 A table can technically only have one table header \(in the XML this is the `<thead>` element, of which every `<table>` element is only allowed 1\). The header is the top row\(s\) of a table and serves as an indication of the content in the rows below it. If a table splits across multiple pages in the PDF, then this header is also displayed at the top of each subsequent page that is is split across.
 
-If a table has multiple headings throughout it, then, if necessary these can be tagged within the table body \(and depending on the table it may also be appropriate to remove the header; more on this [**below**](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)\).
+If a table has multiple headings throughout it, then, if necessary these can be tagged within the table body \(and depending on the table it may also be appropriate to move the header down into the body; more on this [**below**](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)\).
 
 The text in table headers is rendered with bold formatting. On the eLife site, headers are also given a grey shading:
 
@@ -75,11 +77,11 @@ See also [**th-child-test**](tables.md#th-child-test) below.
 
 A cell can be merged with cells in rows above and below it, and can be merged with cells in the columns left and right of it.
 
-Cells can be horizontally and vertically aligned.
+Cells can be horizontally and vertically aligned \(see [**Table cell alignment**](tables.md#table-cell-alignment)\).
 
 ### Tables with multiple headers
 
-What actually determines the formatting of the cells is whether each cell is formatted as a heading cell or as a normal table cell \(in the XML these are `<th>` and `<td>` elements, respectively\). The table header and table body can contain either of these. It's very unusual, but possible, that a header might need to contain normal, rather than header table cells. It is however relatively common for a table body to contain header cells.
+What actually determines the formatting of the cells is whether each cell is formatted as a heading cell or as a normal table cell \(in the XML these are `<th>` and `<td>` elements, respectively\). The table header must contain table header cells, but the table body can contain either \(table header and normal table cells\). It is relatively common for a table body to contain header cells.
 
 If a table has multiple headings throughout, then the cells in the table body should be captured as header cells \(`<th>`\). This has to be done by Exeter \(it currently cannot be done by eLife staff in Kriya\).
 
