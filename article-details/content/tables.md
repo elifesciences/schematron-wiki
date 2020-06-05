@@ -152,7 +152,7 @@ Abbreviations should be included in a single footnote. If the authors originally
 
 ### Table cell alignment
 
-Table cells can be vertically aligned top, bottom and centre. They can also be horizontally aligned left right and centre. By default cells should be left horizontally aligned and centrally vertically aligned.
+Table cells can be vertically aligned to the top, bottom or centre. They can also be horizontally aligned to the left, right, or centre. By default cells should be left horizontally aligned and centrally vertically aligned.
 
 If a header spans more than one column, it is likely that central horizontal alignment will be appropriate, however this will depend on the content of the table. Checking against the table in the original manuscript will give an indication of how the authors intended cells to be aligned.
 
