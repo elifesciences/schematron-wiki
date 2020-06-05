@@ -30,6 +30,7 @@
     * [Journal references](article-details/content/references/journal-references.md)
     * [Pre-print references](article-details/content/references/pre-print-references.md)
     * [Software references](article-details/content/references/software-references.md)
+    * [Book references](article-details/content/references/book-references.md)
 * [People](article-details/people.md)
 * [Peer review](article-details/peer-review.md)
 * [Relationships](article-details/relationships.md)

@@ -12,7 +12,7 @@ Give a brief description of the subject being addressed in the page.
 
 ## What needs to be checked?
 
-Outline the main things that need to be checked.
+Outline the main things that need to be checked. Include a checklist if possible.
 
 ## Examples
 
@@ -23,6 +23,8 @@ This section should also list any issues that can be spotted without the need to
 > Any quotes from articles should be formatted as quotes
 
 * Any Kriya queries should be formatted as a bullet point
+
+Any [**hyperlinks**](untitled-4.md) to other pages or websites should be bolded to make sure they are more visible. 
 
 ## Schematron warnings
 

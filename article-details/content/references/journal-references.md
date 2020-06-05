@@ -175,9 +175,9 @@ If the authors do not have a publication date or if the publication date will be
 
 **Action:** This error will appear if a journal reference has an e-location ID and a first page or 'In press' comment. Look the article up online and make sure that the e-location ID is correct. If the article has a page range instead, remove the e-location ID field and enter the details for the first and last page. If the article is published,  any 'In press' tag/comment should be removed. 
 
-* Please check whether this In press reference has now been published and, if so, please provide the full citation details.
-
 If the article has not been published, leave the following author query:
+
+* Please check whether this In press reference has now been published and, if so, please provide the full citation details.
 
 If the authors do not have a publication date or if the publication date will be more than a few days after the publication of the eLife article, remove the e-location ID and keep the 'In press' comment.
 
@@ -307,13 +307,13 @@ If the authors respond to say the article is now in press, update the 'Comment' 
 
 **Warning:** _ref 'XXXXXX' has a source title which contains the text 'official journal' - 'XXXXXX'. Is this necessary?_
 
-**Action:** This warning will appear if a journal name includes the text 'official journal'.
+**Action:** This warning will appear if a journal name includes the text 'official journal'. Delete this text from the journal name. 
 
 **handbook-presence**
 
 **Error:** _Journal ref 'XXXXXX' has a journal name 'XXXXXX'. Should it be captured as a book type reference instead?_
 
-**Action:** 
+**Action:** This error will appear if a journal reference has a journal name that includes the word 'handbook'. This indicates that the reference should actually be a book reference instead of a journal reference. Change the reference to a book reference \(hyperlink to be added\) and update the fields accordingly.
 
 #### article-title-fullstop-check-1
 
@@ -337,7 +337,9 @@ If the authors respond to say the article is now in press, update the 'Comment' 
 
 **Warning:** _ref 'XXXXXX' has an article-title which begins with 'Correction', 'Retraction' or 'Erratum'. Is this a reference to the notice or the original article?_
 
-**Action:**
+**Action:** This warning will appear if a journal reference has an article title beginning with 'Correction', 'Retraction' or 'Erratum'. Read the context surrounding the citation of this reference to work out what to do. If the authors refer to both the corrected/retracted article and the original article, or if they mention the citation is to a corrected/retracted article in the context, you can leave this reference in. Otherwise, check the original submitted manuscript to make sure the wrong details have not been entered for this reference. If the original submitted manuscript cites the corrected/retracted paper, you can leave this reference in, but leave the following author query:
+
+* This reference is to a correction/retraction/erratum. Please confirm whether this is correct.
 
 **article-title-journal-check**
 
@@ -349,7 +351,7 @@ If the authors respond to say the article is now in press, update the 'Comment' 
 
 **Warning:** _ref 'XXXXXX' has an article-title with one child XXXXXX element, and no text. This is almost certainly incorrect. - XXXXXX_
 
-**Action:** This warning will appear if a journal reference has an article title which is empty, but has formatting applied \(e.g. bold, italics\). Look up the reference online if possible and enter the correct information. If the reference cannot be searched online, leave the following author query:
+**Action:** This warning will appear if a journal reference has an article title with formatting applied to the whole content \(e.g. if the title is entirely in italics or bold formatting\). Look up the reference online to see how it should be formatted and update accordingly. If you can't find the reference online, leave the following query:
 
 * Please provide the full bibliographic details for this reference.
 
@@ -375,7 +377,7 @@ If the authors respond to say the article is now in press, update the 'Comment' 
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, but it is captured as a journal not a preprint._
 
-**Action:** This error will appear if a journal reference has a journal name 'biorXiv' or 'arXiv' 
+**Action:** This error will appear if a journal reference has one of the following entered in the journal name field: biorxiv, arxiv, chemrxiv, peerj preprints, psyarxiv, paleorxiv, preprints. These are all preprint servers, so the reference should be changed to a preprint reference \(hyperlink to be added\) and the fields should be updated accordingly.
 
 #### elife-ref-check
 
@@ -387,19 +389,19 @@ If the authors respond to say the article is now in press, update the 'Comment' 
 
 **Warning:** _Journal ref 'XXXXXX' has the journal name XXXXXX. Should it be a conference type reference instead?_
 
-**Action:** This warning will appear if a journal reference has a journal name including the text '
+**Action:** This warning will appear if a journal reference has a journal name including any of the following: conference, symposium, symposia, neural information processing, nips, computer vision and pattern recognition, scipy, workshop, meeting, spie, congress, \[number\]st, \[number\]nd, \[number\]rd, \[number\]th. This test is intended to identify journal references that are actually conference references. Look up the article online to check whether it has been published in a journal, or whether it is a paper from a conference. If the conference publishes its papers in a journal, keep this as a journal reference, otherwise change it to a conference reference \(hyperlink to be added\).
 
 #### journal-conference-ref-check-2
 
 **Warning:** _Journal ref 'XXXXXX' has a journal name containing a year - XXXXXX. Should it be a conference type reference instead? Or should the year be removed from the journal name?_
 
-**Action:** This warning will appear if a journal reference has a journal name including a year. Look up the article online to 
+**Action:** This warning will appear if a journal reference has a journal name including a year. Look up the article online to check whether it has been published in a journal, or whether it is a paper from a conference. If the conference publishes its papers in a journal, keep this as a journal reference, otherwise change it to a conference reference \(hyperlink to be added\).
 
 #### online-journal-w-page
 
 **Error:** _XXXXXX is a XXXXXX article, but has a page number, which is incorrect._ 
 
-**Action:** This error will appear if a journal reference is an online journal article, but has a page number, which is incorrect.
+**Action:** This error will appear if a journal reference has the journal name PLOS, eLife or mBio and a page number. These journals never use page numbers for their articles, so any page number fields should be removed.
 
 #### journal-doi-test-1
 

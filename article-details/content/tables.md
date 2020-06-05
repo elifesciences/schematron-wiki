@@ -14,9 +14,11 @@ Tables display in both the HTML and in the PDF. Decision letters and Author resp
 
 Tables can be with or without labels \(tables without labels are referred to as inline tables\). Those with labels outside of Decision Letters and Author responses _must_ have a title. In Decision letters and Author responses the title is optional. All tables can also have an optional caption, however if there is a caption there _must_ be a title \(this is also true of tables in Decision Letter and Author responses\).
 
+Tables should never be provided as an images \(or images\).
+
 Any abbreviations should be included in a single footnote in the table - they should _not_ be included in the caption or title. See [Table footers](tables.md#table-footers).
 
-Note that an object labelled as one table \(with one label and optional title/caption\), can actually be made up of multiple tables. This is avoided, where possible in eLife content \(see also [XML structure](tables.md#xml-structure)\).
+Note that an object labelled as one table \(with one label and optional title/caption\), can actually be made up of multiple tables. This is avoided, where possible in eLife content \(see also [Tables with multiple headers](tables.md#tables-with-multiple-headers) and [XML structure](tables.md#xml-structure)\).
 
 The content of a table can be broken down into three sections:
 
@@ -62,78 +64,7 @@ A cell can be merged with cells in rows above and below it, and can be merged wi
 
 Cells can be horizontally and vertically aligned.
 
-### Table body
-
-The table body is any row and cells which are not in the header. They are usually marked up as normal cells meaning that they display with no shading on the eLife site, and the text only carries the formatting which has been applied to it \(by default, roman formatting\).
-
-A cell can be merged with cells in rows above and below it, and can be merged with cells in the columns left and right of it.
-
-Every table cell in the body can contain the following content:
-
-* Text \(with various different kinds of formatting\)
-* Hyperlinks
-* Inline images
-* Code blocks
-* Inline formulae
-* Line breaks
-
-See also [td-child-test](tables.md#td-child-test) below.
-
-Cells can be horizontally and vertically aligned.
-
-If a cell in the table body is entirely bold formatted, it may be appropriate to format it as a header instead of as a normal table cell. This should be clear based on what content is inside the cell and the content in the rest of the table.
-
-### Table footers
-
-Table footers appear at the bottom of a table. They are intended to only contain extra relevant information \(such as footnotes or attributions\), and will not contain tabulated content. eLife use the footer to contain footnotes to the table. Often these are simple paragraphs which apply to the whole table. They can however be referred to from specific cells in the table, and this is done by including an indicator at the specific place in the cell/text and at the start of the footnote in the footer.
-
-All footnotes that have indicators should follow this sequence , †, ‡, §, ¶, , ††, ‡‡, §§, ¶¶, , †††, ‡‡‡, §§§, ¶¶¶, \*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. in accordance with house style. Footnotes with numbers or letters as their indicators are not allowed.
-
-For example a footnote labelled with 1, followed by 2, followed by 3 should be relabelled using †, ‡,  and § respectively.
-
-Footnotes should be placed in the order:
-
-1. Footnotes with labels \(if present\).
-2. p value footnotes \( e.g. \*p&lt;0.05; \*\*p&lt;0.01; \*\*\*p&lt;0.001\) \(if present\).
-3. Undesignated footnotes \(e.g. general notes\) \(if present\). 
-4. Abbreviations \(if present\).
-
-In the future we would like to be able to link footnote indicators in table cells to their respective footnotes, but currently this is not done, merely the symbol is included as \(usually superscripted\) text in both places. 
-
-Table footers can also contain more general footnotes that are not specifically referred to from cells within the table, such as a list of abbreviations or more general notes on the table. This is also fine.
-
-Abbreviations should be included in a single footnote. If the authors originally included abbreviations in the table title or caption, these should _always_ be moved into a footnote.
-
-### Supporting source data/code files
-
-Like figures, tables can have supporting source data and source code files. These should be labelled in the format **\[Table label\]—source data 1.** and **\[Table label\]—source code 1**, for example **Table 1—source data 1.**
-
-As with figure level source data, the label and title should be displayed underneath the table in the PDF. [Here is an example](https://elifesciences.org/articles/46883/figures#table1sdata1) from published content:
-
-![](../../.gitbook/assets/screen-shot-2020-06-01-at-14.25.51.png)
-
-### Allowed colours in tables
-
-eLife allow the following colours as background shading for Table cells:
-
-* Blue
-* Green 
-* Orange
-* Yellow
-* Purple
-* Red
-* Pink
-* Grey
-
-eLife allow the following colours for text \(in this case text inside table cells\):
-
-* Blue
-* Purple
-* Red
-
-![](../../.gitbook/assets/screen-shot-2020-06-01-at-17.21.42.png)
-
-## Tables with multiple headers
+### Tables with multiple headers
 
 What actually determines the formatting of the cells is whether each cell is formatted as a heading cell or as a normal table cell \(in the XML these are `<th>` and `<td>` elements, respectively\). The table header and table body can contain either of these. It's very unusual, but possible, that a header might need to contain normal, rather than header table cells. It is however relatively common for a table body to contain header cells.
 
@@ -159,7 +90,78 @@ Similarly though, there are cases where it might be appropriate for there to be 
 
 The Schematron check [th-row-test](tables.md#th-row-test) will fire if a table header cell is accompanied by normal table cells in the same row. See the action for examples of what to do when this fires.
 
-A single labelled table containing multiple tables \(multiple `<table>` elements in a `<table-wrap>`\) should be avoided where possible. The only case it should be used is where a single table has multiple sections each with different numbers of columns and this cannot be represented in a single table, or where the authors have explicitly labelled a table with multiple parts, e.g. Table 1a, table 1b etc.
+A single labelled table containing multiple tables \(multiple `<table>` elements in a `<table-wrap>`\) should be avoided where possible. The only case it should be used is where a single table has multiple sections each with different numbers of columns and this cannot be represented in a single table, or where the authors have explicitly labelled a table with multiple parts, e.g. Table 1a, Table 1b etc.
+
+### Table body
+
+The table body is any row and cells which are not in the header. They are usually marked up as normal cells meaning that they display with no shading on the eLife site, and the text only carries the formatting which has been applied to it \(by default, roman formatting\).
+
+A cell can be merged with cells in rows above and below it, and can be merged with cells in the columns left and right of it.
+
+Every table cell in the body can contain the following content:
+
+* Text \(with various different kinds of formatting\)
+* Hyperlinks
+* Inline images
+* Code blocks
+* Inline formulae
+* Line breaks
+
+See also [td-child-test](tables.md#td-child-test) below.
+
+Cells can be horizontally and vertically aligned.
+
+If a cell in the table body is entirely bold formatted, it may be appropriate to format it as a header instead of as a normal table cell. This should be clear based on what content is inside the cell and the content in the rest of the table.
+
+### Table footers
+
+Table footers appear at the bottom of a table. They are intended to only contain extra relevant information \(such as footnotes or attributions\), and will not contain tabulated content. eLife use the footer to contain footnotes to the table. Often these are simple paragraphs which apply to the whole table. They can however be referred to from specific cells in the table, and this is done by including an indicator at the specific place in the cell/text and at the start of the footnote in the footer.
+
+All footnotes that have indicators should follow this sequence \*, †, ‡, §, ¶, \*\***, ††, ‡‡, §§, ¶¶,** \*\*\*, †††, ‡‡‡, §§§, ¶¶¶, \*\*\*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. in accordance with house style. Footnotes with numbers or letters as their indicators are not allowed.
+
+For example a footnote labelled with 1, followed by 2, followed by 3 should be relabelled using †, ‡,  and § respectively.
+
+Footnotes should be placed in the following order:
+
+1. Footnotes with labels \(if present\).
+2. p value footnotes \(e.g. \*p&lt;0.05; \*\*p&lt;0.01; \*\*\*p&lt;0.001\) \(if present\).
+3. Undesignated footnotes \(e.g. general notes\) \(if present\). 
+4. Abbreviations \(if present\).
+
+In the future we would like to be able to link footnote indicators in table cells to their respective footnotes, but currently this is not done, merely the symbol is included as \(usually superscripted\) text in both places. 
+
+Table footers can also contain more general footnotes that are not specifically referred to from cells within the table, such as a list of abbreviations or more general notes on the table. This is also fine.
+
+Abbreviations should be included in a single footnote. If the authors originally included abbreviations in the table title or caption, these should _always_ be moved into a footnote.
+
+### Supporting source data/code files
+
+Like figures, tables can have supporting source data and source code files. These should be labelled in the format **\[Table label\]—source data 1.** and **\[Table label\]—source code 1**, for example **Table 1—source data 1.**
+
+As with figure level source data, the label and title should be displayed underneath the table in the PDF. [**Here is an example**](https://elifesciences.org/articles/46883/figures#table1sdata1) from published content:
+
+![](../../.gitbook/assets/screen-shot-2020-06-01-at-14.25.51.png)
+
+### Allowed colours in tables
+
+eLife allow the following colours as background shading for Table cells:
+
+* Blue
+* Green 
+* Orange
+* Yellow
+* Purple
+* Red
+* Pink
+* Grey
+
+eLife allow the following colours for text \(in this case text inside table cells\):
+
+* Blue
+* Purple
+* Red
+
+![](../../.gitbook/assets/screen-shot-2020-06-01-at-17.21.42.png)
 
 ## Key resources tables
 
@@ -187,7 +189,7 @@ In the PDF, tables should be placed as close to their first citation as appropri
 
 Inline tables \(that is tables with no label, title or caption\) cannot have citations and so do not require any.
 
-## Checklist
+## What needs to be checked?
 
 The following should be checked for Tables:
 
@@ -369,7 +371,7 @@ See also [Allowed colours in table cells](tables.md#allowed-colours-in-tables).
 1. A labelled table \(e.g. Table 1\) with the incorrect id.
 2. An inline \(un-labelled\) table with the correct id, but an unnecessary label.
 
-Check against the original manuscript in order to determine whether the table should be labelled or not. This can be determined if the author has included a label or if they have included a title and/or caption \(if they have included a title and/or caption but no label in the originl manuscript then one will have to provided\). If \(after having checked the manuscript\) it should be a labelled table, then Exeter will have to correct the id. A table with a label must have an id in the format `table1`.  
+Check against the original manuscript in order to determine whether the table should be labelled or not. This can be determined if the author has included a label or if they have included a title and/or caption \(if they have included a title and/or caption but no label in the original manuscript then one will have to provided\). If \(after having checked the manuscript\) it should be a labelled table, then Exeter will have to correct the id. A table with a label must have an id in the format `table1`.  
 
 If the second scenario is the case, the erroneous label should be removed, and the id left as it is.
 
@@ -396,7 +398,7 @@ If the second scenario is the case, the id will need to be corrected so that it 
 
 **Warning**: _There is no citation to XXXXXX. Ensure to query the author asking for a citation._
 
-**Action**: This will fire at pre-author stages for tables \(which are not Key resources tables\) with labels, in articles which are not corrections or retractions. If this fires \(and there are no issues with labelling or the table id\), then the following author query should be added:
+**Action**: This will fire at pre-author stages for tables \(which are not Key resources tables\) with labels. If this fires \(and there are no issues with labelling or the table id\), then the following author query should be added:
 
 * Please provide an in-text citation for this table.
 
@@ -454,7 +456,9 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Warning**: _Key resources table has no rows in its header, which is incorrect._
 
-**Action**: This will fire at all stages if a KR table has no rows in it's header. It is **very** likely that this means the table has been incorrectly typeset \(this will almost never occur\). Action should be taken to include the required headings for Key resources tables \(see [Key resources tables](tables.md#key-resources-tables)\).
+**Action**: This will fire at all stages if a KR table has no rows in it's header. It is **very** likely that this means the table has been incorrectly typeset. Action should be taken to include the required headings for Key resources tables \(see [Key resources tables](tables.md#key-resources-tables)\).
+
+For example, the header may be present as a row in the body of the table, rather than capture possibly as a .
 
 #### kr-table-header-4
 
@@ -542,9 +546,9 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Warning**: _Table header cell containing 'XXXXXX' has table data \(not header\) cells next to it on the same row. Is this correct? Should the whole row be header cells, or should this cell extend across the whole row?_
 
-**Action**: This will fire if a table row contains a mixture of table header cells and normal table cells. This is relatively unusual, although there are a some cases where this would be appropriate. Checking the table in the original manuscript will give some indication of how the headings in a table should look like, and if any changes are required these will need to be implemented by Exeter. 
+**Action**: This will fire if a table row contains a mixture of table header cells and normal table cells. This is relatively unusual, although there are a some cases where this would be appropriate. Checking the table in the original manuscript will give some indication of how the headings in a table should look like, and if any changes are required these will need to be implemented by Exeter.
 
-In a case like [this ](https://elifesciences.org/articles/53910#table1)
+In a case like [this](https://elifesciences.org/articles/53910#table1)
 
 ![](../../.gitbook/assets/screen-shot-2020-05-29-at-13.02.24.png)
 
@@ -686,19 +690,19 @@ Exeter will need to correct this issue if it fires.
 
 **Error**: _table-wrap must have one table._
 
-**Action**: This will fire if a &lt;table-wrap&gt; element does not have a child &lt;table&gt; element. If this fires, it has been typeset incorrectly and steps should be taken to correct it.
+**Action**: This will fire if a `<table-wrap>` element does not have a child `<table>` element, meaning that no table is actually present. If this fires, it has been typeset incorrectly and steps should be taken to correct it.
 
 #### table-wrap-test-2
 
 **Warning**: _table-wrap has more than one table - Is this correct?_
 
-**Action**: This will fire if a &lt;table-wrap&gt; element more than one a child &lt;table&gt; element. If the table has two or more sections in it with differing numbers of columns, but it has the same label \(and title\), then this warning can be ignored. If it does not, the table should be collated so that there is only one table element.
+**Action**: This will fire if a `<table-wrap>` element more than one a child `<table>` element. If the table has two or more sections in it with differing numbers of columns, but it has the same label \(and title\), then this warning can be ignored. If it does not, the table should be collated so that there is only one table element - only Exeter are able to do this.
 
 #### table-test-1
 
 **Error**: _table must have at least one body \(tbody\)._
 
-**Action**: This will fire if a &lt;table&gt; element does not have a child &lt;tbody&gt; element. This means that something has gone wrong with the typesetting and the table will need to be corrected.
+**Action**: This will fire if a `<table>` element does not have a child `<tbody>` element. This means that something has gone wrong with the typesetting and the table will need to be corrected.
 
 #### td-child-test
 
