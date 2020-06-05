@@ -150,6 +150,12 @@ Table footers can also contain more general footnotes that are not specifically 
 
 Abbreviations should be included in a single footnote. If the authors originally included abbreviations in the table title or caption, these should _always_ be moved into a footnote.
 
+### Table cell alignment
+
+Table cells can be vertically aligned top, bottom and centre. They can also be horizontally aligned left right and centre. By default cells should be left horizontally aligned and centrally vertically aligned.
+
+If a header spans more than one column, it is likely that central horizontal alignment will be appropriate, however this will depend on the content of the table. Checking against the table in the original manuscript will give an indication of how the authors intended cells to be aligned.
+
 ### Supporting source data/code files
 
 Like figures, tables can have supporting source data and source code files. These should be labelled in the format **\[Table label\]—source data 1.** and **\[Table label\]—source code 1**, for example **Table 1—source data 1.**
@@ -740,7 +746,7 @@ Exeter will need to correct this issue if it fires.
 
 **Error**: _table must have at least one body \(tbody\)._
 
-**Action**: This will fire if a `<table>` element does not have a child `<tbody>` element. This means that something has gone wrong with the typesetting and the table will need to be corrected.
+**Action**: This will fire if a `<table>` element does not have a child `<tbody>` element. This means that something has gone wrong with the typesetting - there may just be a header, or there may be no content at all. The table will need to be corrected.
 
 #### td-child-test
 
@@ -775,6 +781,10 @@ Table footers should be captured using the `<table-wrap-foot>` element, which is
 Each table row is captured in a `<tr>` element, which can contain either table data cells \(`<td>`\) or table header cells \(`<th>`\).
 
 An empty `<break/>` element should be used to break text between two lines in a table cell.
+
+Horizontal cell alignment is defined using the `align` attribute.
+
+Vertical cell alignment is defined using the `valign` attribute.
 
 ### Example of [a simple table](https://elifesciences.org/articles/56451#table1):
 
