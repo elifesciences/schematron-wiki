@@ -229,6 +229,14 @@ These are tables without labels. This means that they are not cited from elsewhe
 
 Inline tables can never have a title or caption. If authors have provided a table in their original manuscript with a title and caption, then this should be given a label.
 
+## Tables in feature content
+
+Feature content can contain either inline or labelled tables. All of the same rules apply in feature content as do in normal research content, with the exception that it is not _necessary_ for a labelled table to have a citation. A citation for each table should still be pursued where possible, as good practice, but it is not needed in order to publish.
+
+Insights do not contain tables.
+
+Feature articles may or may not contain tables.
+
 ## Tables in corrections and retractions
 
 Correction and retraction notices may possibly contain tables. In these, it is not necessary for the tables to be cited, and they can be placed out of sequence, since it may refer to tables in a separate article, or reproducing those tables for the purposes of explaining why a separate article has been corrected or retracted.
