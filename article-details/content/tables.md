@@ -16,6 +16,7 @@ The following should be checked for Tables:
 * References to software that requires forking or adding a citation \(see [**When and how to fork repositories**](../../toolkit/forking-git-based-repos.md) and [**Software references**](references/software-references.md)\).
 * A corresponding citation in the text \(note this is not necessary for Key resources tables, tables in Decision letters or Author responses, and for certain Appendix tables\).
 * That a title is present \(note this is not necessary for Key resources tables, tables in Decision letters or Author responses\).
+* Footnotes use the correct indicators, and follow the correct sequence.
 
 ## Where are tables allowed?
 
@@ -158,18 +159,18 @@ For example a footnote labelled with 1, followed by 2, followed by 3 should be r
 
 ![Footnotes following the sequence set out above](../../.gitbook/assets/screen-shot-2020-06-05-at-12.40.40.png)
 
-Footnotes should be placed in the following order:
-
-1. Footnotes with labels \(if present\).
-2. p value footnotes \(e.g. \*p&lt;0.05; \*\*p&lt;0.01; \*\*\*p&lt;0.001\) \(if present\).
-3. Undesignated footnotes \(e.g. general notes\) \(if present\). 
-4. Abbreviations \(if present\).
-
 In the future we would like to be able to link footnote indicators in table cells to their respective footnotes, but currently this is not done, merely the symbol is included as \(usually superscripted\) text in both places. 
 
 Table footers can also contain more general footnotes that are not specifically referred to from cells within the table, such as a list of abbreviations or more general notes on the table. This is also fine.
 
 Abbreviations should be included in a single footnote. If the authors originally included abbreviations in the table title or caption, these should _always_ be moved into a footnote.
+
+Footnotes should be placed in the following order:
+
+1. Footnotes with labels \(if present; see above\).
+2. p value footnotes \(e.g. \*p&lt;0.05; \*\*p&lt;0.01; \*\*\*p&lt;0.001\) \(if present\).
+3. Undesignated footnotes \(e.g. general notes\) \(if present\). 
+4. Abbreviations \(if present\).
 
 ### Table cell alignment
 
