@@ -4,6 +4,18 @@ description: Tabulated content in an article
 
 # Tables
 
+## What needs to be checked?
+
+The following should be checked for Tables:
+
+* Appropriate capture of heading\(s\) \(see [**Tables with multiple headers**](tables.md#tables-with-multiple-headers)\).
+* The presence of colours \(should be flagged by Schematron; see [**colour-check-table**](tables.md#colour-check-table)\).
+* Missing links for RRIDs, DOIs, PMIDs and PMCIDs.
+* That links for RRIDs, DOIs, PMIDs and PMCIDs resolve.
+* References to software that requires forking or adding a citation \(see [**When and how to fork repositories**](../../toolkit/forking-git-based-repos.md) and [**Software references**](references/software-references.md)\).
+* A corresponding citation in the text \(note this is not necessary for Key resources tables, tables in Decision letters or Author responses, and for certain Appendix tables\).
+* That a title is present \(note this is not necessary for Key resources tables, tables in Decision letters or Author responses\).
+
 ## Where are tables allowed?
 
 Tables can be placed in the body of an article, in appendices, in Decision Letters and in Author responses.
@@ -16,9 +28,9 @@ Tables can be with or without labels \(tables without labels are referred to as 
 
 Tables should never be provided as an images \(or images\).
 
-Any abbreviations should be included in a single footnote in the table - they should _not_ be included in the caption or title. See [Table footers](tables.md#table-footers).
+Any abbreviations should be included in a single footnote in the table - they should _not_ be included in the caption or title. See [**Table footers**](tables.md#table-footers).
 
-Note that an object labelled as one table \(with one label and optional title/caption\), can actually be made up of multiple tables. This is avoided, where possible in eLife content \(see also [Tables with multiple headers](tables.md#tables-with-multiple-headers) and [XML structure](tables.md#xml-structure)\).
+Note that an object labelled as one table \(with one label and optional title/caption\), can actually be made up of multiple tables. This is avoided, where possible in eLife content \(see also [**Tables with multiple headers**](tables.md#tables-with-multiple-headers) and [**XML structure**](tables.md#xml-structure)\).
 
 The content of a table can be broken down into three sections:
 
@@ -43,7 +55,7 @@ Tables should have an appropriate label based on their placement in the content.
 
 A table can technically only have one table header \(in the XML this is the `<thead>` element, of which every `<table>` element is only allowed 1\). The header is the top row\(s\) of a table and serves as an indication of the content in the rows below it. If a table splits across multiple pages in the PDF, then this header is also displayed at the top of each subsequent page that is is split across.
 
-If a table has multiple headings throughout it, then, if necessary these can be tagged within the table body \(and depending on the table it may also be appropriate to remove the header; more on this [below](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)\).
+If a table has multiple headings throughout it, then, if necessary these can be tagged within the table body \(and depending on the table it may also be appropriate to remove the header; more on this [**below**](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)\).
 
 The text in table headers is rendered with bold formatting. On the eLife site, headers are also given a grey shading:
 
@@ -58,7 +70,7 @@ Every table cell in the header can contain the following content:
 * Inline formulae
 * Line breaks
 
-See also [th-child-test](tables.md#th-child-test) below.
+See also [**th-child-test**](tables.md#th-child-test) below.
 
 A cell can be merged with cells in rows above and below it, and can be merged with cells in the columns left and right of it.
 
@@ -70,11 +82,11 @@ What actually determines the formatting of the cells is whether each cell is for
 
 If a table has multiple headings throughout, then the cells in the table body should be captured as header cells \(`<th>`\). This has to be done by Exeter \(it currently cannot be done by eLife staff in Kriya\).
 
-Typically an entire row should be captured as a header, although there are exceptions. See the action for [th-row-test](tables.md#th-row-test) for some examples.
+Typically an entire row should be captured as a header, although there are exceptions. See the action for [**th-row-test**](tables.md#th-row-test) for some examples.
 
 If a table has multiple headers, spans numerous pages in the PDF, and each header is of equal importance \(or those in the body are more important than the top one\), it _might_ be appropriate to include **no** table header. This is because \(as stated in [the Table Header section](tables.md#table-header)\), the PDF will display the top heading at the top of each subsequent page, and this would be inappropriate.
 
-[Here is an example](https://elifesciences.org/articles/50661#table1). This is a semi-complex table with multiple headers throughout it. Since the first 'Data collection statistics' has been captured as a header, this text displays at the top of each page in the PDF, despite the fact that on the second and third page it is no longer relevant. Instead, the header should be captured as the first row of the table body and the cell in that row given table header formatting.
+[**Here is an example**](https://elifesciences.org/articles/50661#table1). This is a semi-complex table with multiple headers throughout it. Since the first 'Data collection statistics' has been captured as a header, this text displays at the top of each page in the PDF, despite the fact that on the second and third page it is no longer relevant. Instead, the header should be captured as the first row of the table body and the cell in that row given table header formatting.
 
 ![](../../.gitbook/assets/screen-shot-2020-05-29-at-17.29.34.png)
 
@@ -82,13 +94,13 @@ If a table has multiple headers, spans numerous pages in the PDF, and each heade
 
 ![](../../.gitbook/assets/screen-shot-2020-05-29-at-17.29.53.png)
 
-Similarly though, there are cases where it might be appropriate for there to be an overall header, despite there being multiple headers in the table. [Here for example](https://elifesciences.org/articles/51662#table1):
+Similarly though, there are cases where it might be appropriate for there to be an overall header, despite there being multiple headers in the table. [**Here for example**](https://elifesciences.org/articles/51662#table1):
 
 ![](../../.gitbook/assets/screen-shot-2020-06-02-at-09.35.39.png)
 
 ![](../../.gitbook/assets/screen-shot-2020-06-02-at-09.35.54.png)
 
-The Schematron check [th-row-test](tables.md#th-row-test) will fire if a table header cell is accompanied by normal table cells in the same row. See the action for examples of what to do when this fires.
+The Schematron check [**th-row-test**](tables.md#th-row-test) will fire if a table header cell is accompanied by normal table cells in the same row. See the action for examples of what to do when this fires.
 
 A single labelled table containing multiple tables \(multiple `<table>` elements in a `<table-wrap>`\) should be avoided where possible. The only case it should be used is where a single table has multiple sections each with different numbers of columns and this cannot be represented in a single table, or where the authors have explicitly labelled a table with multiple parts, e.g. Table 1a, Table 1b etc.
 
@@ -165,6 +177,18 @@ eLife allow the following colours for text \(in this case text inside table cell
 
 These colours have been selected with accessibility in mind. The eLife site will not support other colours.
 
+Colours will not display downstream \(in places other than the eLife website where the content will display - for example PMC\).
+
+As a result colours should be avoided where possible. There are two author queries relating to this, which should be added if the tests [**colour-check-table**](tables.md#colour-check-table) and [**pre-colour-check-table-2**](tables.md#pre-colour-check-table-2) fire respectively:
+
+* Where possible, we prefer that colours are not used in tables in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). Would it be possible to capture the same meaning in this table with more common forms of emphasis \(such as bold, italic or underline\)? If so please stipulate below how the table should be revised. Please note that this is a suggestion and supported colours in tables can be published.
+
+
+
+* Where possible, we prefer that colours are not used in tables in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). However, eLife does support the following colours for table cells - blue, green orange, yellow, purple, red, pink and grey. Please confirm how you would like the colour\(s\) captured here given this information, and note that our preference would be to use more common forms of emphasis \(such as bold, italic or underline\) if possible to still convey the same meaning.
+
+But ultimately, the decision about whether to include \(supported\) colours is made by the authors.
+
 ## Key resources tables
 
 Key resources tables contain a list of resources \(such as Genes, Strains, Antibodies, Reagents, Chemical compounds, Software etc.\) that were used in generating the research communicated in an article. 
@@ -173,11 +197,11 @@ They are always placed at the start of the Materials and methods \(or equivalent
 
 They have the label 'Key resources table', and no title or caption.
 
-They have a specific structure which must be followed - there will always be 5 columns, each with a header. When creating these tables, authors should use [this template](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). If the structure is not adhered to, then this has to be fixed during proofing. There are Schematron tests which will flag KR tables with the incorrect headers or number of columns.
+They have a specific structure which must be followed - there will always be 5 columns, each with a header. When creating these tables, authors should use [**this template**](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). If the structure is not adhered to, then this has to be fixed during proofing. There are Schematron tests which will flag Key resources tables with the incorrect headers or number of columns.
 
 In some articles, Key resources tables will be captured in a supplementary file instead. This is currently acceptable and no action needs to be taken \(although in the future we will likely not allow this\).
 
-[Key resources table example](https://elifesciences.org/articles/57578#keyresource):
+[**Key resources table example**](https://elifesciences.org/articles/57578#keyresource):
 
 ![](../../.gitbook/assets/screen-shot-2020-06-01-at-11.52.50.png)
 
@@ -190,18 +214,6 @@ In the XML/HTML, tables should be placed directly after their first citation in 
 In the PDF, tables should be placed as close to their first citation as appropriately possible unless otherwise specified by authors.
 
 Inline tables \(that is tables with no label, title or caption\) cannot have citations and so do not require any.
-
-## What needs to be checked?
-
-The following should be checked for Tables:
-
-* Appropriate capture of heading\(s\) \(see [Tables with multiple headers](tables.md#tables-with-multiple-headers)\).
-* The presence of colours \(should be flagged by Schematron; see [colour-check-table](tables.md#colour-check-table)\).
-* Missing links for RRIDs, DOIs, PMIDs and PMCIDs.
-* That links for RRIDs, DOIs, PMIDs and PMCIDs resolve.
-* References to software that requires forking or adding a citation \(see [When and how to fork repositories](../../toolkit/forking-git-based-repos.md) and [Software references](references/software-references.md)\).
-* A corresponding citation in the text \(note this is not necessary for Key resources tables, tables in Decision letters or Author responses, and for certain Appendix tables\).
-* That a title is present \(note this is not necessary for Key resources tables, tables in Decision letters or Author responses\).
 
 ## Schematron checks
 
@@ -320,27 +332,27 @@ If the article is post-author, then the authors should be queried to check that 
 
 **Error**: _td element containing - 'XXXXXX' - looks like it contains a doi, but it contains no link with 'doi.org', which is incorrect._
 
-**Action**: This will fire if a table cell in a Key resources table contains an unlinked doi. All dois should be linked in the KR table, so action should be taken to ensure that the doi text has an embedded link \(https://doi.org/{doi}\).
+**Action**: This will fire if a table cell in a Key resources table contains an unlinked doi. All dois should be linked in the Key resources table, so action should be taken to ensure that the doi text has an embedded link \(https://doi.org/{doi}\).
 
 #### PMID-link-test
 
 **Error**: _td element containing - 'XXXXXX' - looks like it contains a PMID, but it contains no link pointing to PubMed, which is incorrect._
 
-**Action**: This will fire if a table cell in a Key resources table contains an unlinked PMID. All PMIDs should be linked in the KR table, so action should be taken to ensure that the PMID text has an embedded link \(https://www.pubmed.ncbi.nlm.nih.gov/{PMID}\).
+**Action**: This will fire if a table cell in a Key resources table contains an unlinked PMID. All PMIDs should be linked in the Key resources table, so action should be taken to ensure that the PMID text has an embedded link \(https://www.pubmed.ncbi.nlm.nih.gov/{PMID}\).
 
 #### PMCID-link-test
 
 **Error**: _td element containing - 'XXXXXX' - looks like it contains a PMCID, but it contains no link pointing to PMC, which is incorrect._
 
-**Action**: This will fire if a table cell in a Key resources table contains an unlinked PMCID. All PMCIDs should be linked in the KR table, so action should be taken to ensure that the PMCID text has an embedded link \(https://www.ncbi.nlm.nih.gov/pmc/{PMCID}\).
+**Action**: This will fire if a table cell in a Key resources table contains an unlinked PMCID. All PMCIDs should be linked in the Key resources table, so action should be taken to ensure that the PMCID text has an embedded link \(https://www.ncbi.nlm.nih.gov/pmc/{PMCID}\).
 
 #### colour-check-table
 
 **Warning**: _XXXXXX element has colour background. Is this correct? It contains XXXXXX._
 
-**Action**: This will fire if a table cell in a table has colour formatting \(a style attribute beginning with 'author-callout'\). eLife only allow the following colours in table cells -  blue, green orange, yellow, purple, red, pink and grey. When this fires \(and [pre-colour-check-table-2](tables.md#pre-colour-check-table-2) does not fire\) an author query should be added to the table \(only 1 per table\):
+**Action**: This will fire if a table cell in a table has colour formatting \(a style attribute beginning with 'author-callout'\). eLife only allow the following colours in table cells -  blue, green orange, yellow, purple, red, pink and grey. When this fires \(and [**pre-colour-check-table-2**](tables.md#pre-colour-check-table-2) does not fire\) an author query should be added to the table \(only 1 per table\):
 
-* Where possible, we prefer that colours are not used in tables in the interests of accessibility. Would it be possible to capture the same meaning in this table with more common forms of emphasis \(such as bold, italic or underline\)? If so please stipulate below how the table should be revised. Please note that this is a suggestion and supported colours in tables can be published.
+* Where possible, we prefer that colours are not used in tables in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). Would it be possible to capture the same meaning in this table with more common forms of emphasis \(such as bold, italic or underline\)? If so please stipulate below how the table should be revised. Please note that this is a suggestion and supported colours in tables can be published.
 
 #### pre-colour-check-table-2
 
@@ -350,9 +362,9 @@ If the article is post-author, then the authors should be queried to check that 
 
 In the case where it is a colour that is not supported \(brown for example\), then as the message suggests the following author query should be added:
 
-* Where possible, we prefer that colours are not used in tables in the interests of accessibility. However, eLife does support the following colours for table cells - blue, green orange, yellow, purple, red, pink and grey. Please confirm how you would like the colour\(s\) captured here given this information, and note that our preference would be to use more common forms of emphasis \(such as bold, italic or underline\) if possible to still convey the same meaning.
+* Where possible, we prefer that colours are not used in tables in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). However, eLife does support the following colours for table cells - blue, green orange, yellow, purple, red, pink and grey. Please confirm how you would like the colour\(s\) captured here given this information, and note that our preference would be to use more common forms of emphasis \(such as bold, italic or underline\) if possible to still convey the same meaning.
 
-See also [Allowed colours in table cells](tables.md#allowed-colours-in-tables).
+See also [**Allowed colours in table cells**](tables.md#allowed-colours-in-tables).
 
 #### final-colour-check-table-2
 
@@ -430,19 +442,19 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Error**: _XXXXXX has headings that are for the Key resources table, but it does not have an @id='keyresource'._
 
-**Action**: This will at all stages fire if a table has all the KR table headings but does not have an  id `keyresource`. If this fires, ensure that the Table is captured as a Key resources table \(with the correct id, label and no title or caption\).
+**Action**: This will at all stages fire if a table has all the Key resources table headings but does not have an  id `keyresource`. If this fires, ensure that the Table is captured as a Key resources table \(with the correct id, label and no title or caption\).
 
 #### kr-table-not-tagged-2
 
 **Warning**: _XXXXXX has the title XXXXXX but it is not tagged as a key resources table. Is this correct?_
 
-**Action**: This will fire at all stages if a table has a title containing the text 'Key resource'. If it _is_ a key resources table, then this should be captured as a Key resources table \(with the correct id, label and no title or caption\). If it is not \(i.e. just a normal table, without the standard KR table headings, which happens to have the text 'Key resource' in it's title\), then this message can be ignored.
+**Action**: This will fire at all stages if a table has a title containing the text 'Key resource'. If it _is_ a key resources table, then this should be captured as a Key resources table \(with the correct id, label and no title or caption\). If it is not \(i.e. just a normal table, without the standard Key resources table headings, which happens to have the text 'Key resource' in it's title\), then this message can be ignored.
 
 #### kr-table-header-1
 
 **Warning**: _Key resources tables should have 5 column headings \(th elements\) but this one has X. Either it is incorrectly typeset or the author will need to be queried in order to provide the table in the correct format._
 
-**Action**: This will fire at all stages if a KR table does not have the correct number of headings. All KR tables should have 5 headings/columns. If the table is typeset correctly \(**please check this carefully**\), as the author provided it, then the following author query should be added:
+**Action**: This will fire at all stages if a Key resources table does not have the correct number of headings. All Key resources tables should have 5 headings/columns. If the table is typeset correctly \(**please check this carefully**\), as the author provided it, then the following author query should be added:
 
 * This Key resource table is not in the correct format. Please provide a revised table as a Word or Excel file in response to the proofing email. A template for the table can be found at https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
@@ -450,7 +462,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Warning**: _Key resources table has more than 1 row in its header, which is incorrect._
 
-**Action**: This will fire at all stages if a KR table has more than one row in it's header. It is **very** likely that this means the table has been incorrectly typeset. If this is the case please correct. If this has been checked very carefully and the table is as the author provided it, then the following author query should be added:
+**Action**: This will fire at all stages if a Key resources table has more than one row in it's header. It is **very** likely that this means the table has been incorrectly typeset. If this is the case please correct. If this has been checked very carefully and the table is as the author provided it, then the following author query should be added:
 
 * This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
@@ -458,7 +470,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Warning**: _Key resources table has no rows in its header, which is incorrect._
 
-**Action**: This will fire at all stages if a KR table has no rows in it's header. It is **very** likely that this means the table has been incorrectly typeset. Action should be taken to include the required headings for Key resources tables \(see [Key resources tables](tables.md#key-resources-tables)\).
+**Action**: This will fire at all stages if a Key resources table has no rows in it's header. It is **very** likely that this means the table has been incorrectly typeset. Action should be taken to include the required headings for Key resources tables \(see [Key resources tables](tables.md#key-resources-tables)\).
 
 For example, the header may be present as a row in the body of the table, rather than capture possibly as a .
 
@@ -466,7 +478,7 @@ For example, the header may be present as a row in the body of the table, rather
 
 **Warning**: _The first column header in a Key resources table is usually 'Reagent type \(species\) or resource' but this one has 'XXXXXX'._
 
-**Action**: This will fire at all stages if the first header in a KR table is not 'Reagent type \(species\) or resource'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](tables.md#key-resources-tables)\), then please add the following author query:
+**Action**: This will fire at all stages if the first header in a Key resources table is not 'Reagent type \(species\) or resource'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](tables.md#key-resources-tables)\), then please add the following author query:
 
 * This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
@@ -474,7 +486,7 @@ For example, the header may be present as a row in the body of the table, rather
 
 **Warning**: _The second column header in a Key resources table is usually 'Designation' but this one has 'XXXXXX'._
 
-**Action**: This will fire at all stages if the second header in a KR table is not 'Designation'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
+**Action**: This will fire at all stages if the second header in a Key resources table is not 'Designation'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
 
 * This Key resource table is not in the correct format. Please provide a revised table as a Word or Excel file in response to the proofing email. A template for the table can be found at https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
@@ -482,7 +494,7 @@ For example, the header may be present as a row in the body of the table, rather
 
 **Warning**: _The third column header in a Key resources table is usually 'Source or reference' but this one has 'XXXXXX'._
 
-**Action**: This will fire at all stages if the third header in a KR table is not 'Source or reference'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
+**Action**: This will fire at all stages if the third header in a Key resources table is not 'Source or reference'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
 
 * This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
@@ -490,7 +502,7 @@ For example, the header may be present as a row in the body of the table, rather
 
 **Warning**: _The fourth column header in a Key resources table is usually 'Identifiers' but this one has 'XXXXXX'._
 
-**Action**: This will fire at all stages if the fourth header in a KR table is not 'Identifiers'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
+**Action**: This will fire at all stages if the fourth header in a Key resources table is not 'Identifiers'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
 
 * This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
@@ -498,13 +510,13 @@ For example, the header may be present as a row in the body of the table, rather
 
 **Warning**: _The fifth column header in a Key resources table is usually 'Additional information' but this one has 'XXXXXX'._
 
-**Action**: This will fire at all stages if the fifth header in a KR table is not 'Additional information'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
+**Action**: This will fire at all stages if the fifth header in a Key resources table is not 'Additional information'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
 
 * This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
 #### kr-table-body-1
 
-**Error**: _Table cell in KR table containing 'XXXXXX' is captured as a table header cell \(th\), which is not allowed. Ensure that this is changed to a normal table cell \(td\)._
+**Error**: _Table cell in_ Key resources _table containing 'XXXXXX' is captured as a table header cell \(th\), which is not allowed. Ensure that this is changed to a normal table cell \(td\)._
 
 **Action**: This will fire for any table cell in the body of a Key Resources table which is captured with heading formatting \(as a `<th>` element\). This should always be changed to a normal table cell \(`<td>` element\).
 
@@ -572,7 +584,7 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 **Warning**: _'XXXXXXX' citation is in a column in the Key Resources Table which usually does not include references. Is it correct?_
 
-**Action**: This will fire at all stages if a citation in a KR table is not in the third or fifth row \(the commonly used ones for citations\). If it is clear that this needs to moved to a different column or is a mistake \(for example a superscript number converted to a citation which should have been left as a number\), then it should be corrected. If not clear, and at a pre-author stage please add this author query:
+**Action**: This will fire at all stages if a citation in a Key resources table is not in the third or fifth row \(the commonly used ones for citations\). If it is clear that this needs to moved to a different column or is a mistake \(for example a superscript number converted to a citation which should have been left as a number\), then it should be corrected. If not clear, and at a pre-author stage please add this author query:
 
 * Please confirm whether this citation is in the correct column in the Key resources table.
 
