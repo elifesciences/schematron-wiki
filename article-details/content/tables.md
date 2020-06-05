@@ -86,13 +86,15 @@ Typically an entire row should be captured as a header, although there are excep
 
 If a table has multiple headers, spans numerous pages in the PDF, and each header is of equal importance \(or those in the body are more important than the top one\), it _might_ be appropriate to include **no** table header. This is because \(as stated in [the Table Header section](tables.md#table-header)\), the PDF will display the top heading at the top of each subsequent page, and this would be inappropriate.
 
-[**Here is an example**](https://elifesciences.org/articles/50661#table1). This is a semi-complex table with multiple headers throughout it. Since the first 'Data collection statistics' has been captured as a header, this text displays at the top of each page in the PDF, despite the fact that on the second and third page it is no longer relevant. Instead, the header should be captured as the first row of the table body and the cell in that row given table header formatting.
+\*\*\*\*[**Here is an example**](https://elifesciences.org/articles/54090#table1). 
 
-![](../../.gitbook/assets/screen-shot-2020-05-29-at-17.29.34.png)
+![](../../.gitbook/assets/screen-shot-2020-06-05-at-15.27.58.png)
 
-![](../../.gitbook/assets/screen-shot-2020-05-29-at-17.29.45.png)
+![](../../.gitbook/assets/screen-shot-2020-06-05-at-15.28.10.png)
 
-![](../../.gitbook/assets/screen-shot-2020-05-29-at-17.29.53.png)
+This is a relatively simple table with two headers. In the screenshots above it has been captured correctly. However, if the first heading 'Induced \(278 genes\)' was captured in the table header, then it would display at the top of the 2nd page in the PDF, which would not be appropriate, since the header for that section should instead be 'Repressed \(195 genes\)':
+
+![&apos;Induced \(278 genes\)&apos; appears at the top of the page](../../.gitbook/assets/screen-shot-2020-05-27-at-09.47.41%20%281%29.png)
 
 Similarly though, there are cases where it might be appropriate for there to be an overall header, despite there being multiple headers in the table. [**Here for example**](https://elifesciences.org/articles/51662#table1):
 
@@ -199,6 +201,22 @@ As a result colours should be avoided where possible. There are two author queri
 
 But ultimately, the decision about whether to include \(supported\) colours is made by the authors.
 
+### Multiple tables in a one labelled table
+
+As stated above, it is possible for there to actually be numerous tables in and object with a single label. This is usually unnecessary and should be avoided where possible however there are cases where this might be appropriate.
+
+If an author has labelled different sections of their table, then multiple tables can be used \(numerous `<table>` elements within one `<table-wrap>`\).
+
+\*\*\*\*[**Here**](https://elifesciences.org/articles/49679#table1) the author has explicitly labelled their table as table 1a and table 1b. Since we only allow Table 1, Table 2 and so on as, as table labels, and this shares a single title/caption, it is necessary to use two tables to capture the separate labelling:
+
+![](../../.gitbook/assets/screen-shot-2020-06-05-at-15.41.44.png)
+
+In this case, in the original manuscript, the author has captured this as two separate tables, which, along with the two separate labels is a good indication that it should be captured using two tables:
+
+![](../../.gitbook/assets/screen-shot-2020-06-05-at-15.45.40.png)
+
+Similarly, if it is simply not possible to represent the content in one table \(i.e. because there are varying different numbers of columns, alignment, etc.\) then, provided that it is a table with multiple headers, it would be acceptable to capture it using multiple tables.
+
 ## Key resources tables
 
 Key resources tables contain a list of resources \(such as Genes, Strains, Antibodies, Reagents, Chemical compounds, Software etc.\) that were used in generating the research communicated in an article. 
@@ -250,6 +268,16 @@ In the XML/HTML, tables should be placed directly after their first citation in 
 In the PDF, tables should be placed as close to their first citation as appropriately possible unless otherwise specified by authors.
 
 Inline tables \(that is tables with no label, title or caption\) cannot have citations and so do not require any.
+
+### Tables cited out of sequence
+
+If tables are cited out of sequence, i.e. Table 2 is cited in the text before Table 1, and there is still a citation for each \(and these citation _are_ in sequence\), then at pre-author stages the tables should be set and placed in the order according to their label, and the out of sequence citation\(s\) left as plain text. The following query should be added on the plain text citation:
+
+* This citation is out of sequence with the other table citations and has therefore been left unlinked \(table placement is determined by first live citation\). Please confirm this is acceptable.
+
+If the citation are out of sequence and there are no other in sequence citations, then at pre-author stages the following query should be added:
+
+* Table X is cited out of sequence. Would it be appropriate to relabel the citation based on their first citation? If not, please provide a citation for this table elsewhere in text, in sequence with the current labelling.
 
 ## Schematron checks
 
