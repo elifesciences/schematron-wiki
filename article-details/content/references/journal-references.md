@@ -79,7 +79,7 @@ Click the one with the correct authors, title and journal. This should automatic
 
 Often you don't need to fill in all the details for a journal reference - filling in some of the fields and then clicking on the 'Search CrossRef' button will usually give you the correct article. The rest of the details will then be automatically filled in when you click on the article. 
 
-Watch out for unexpanded journal names when trying to validate them. Sometimes, the authors may have provided the contracted version of the journal name, e.g. 'Mol Biol Evo' for 'Molecular Biology and Evolution' \(they will likely take this from a source like PubMed which shows the contracted version by default\). If this is no expanded to the full version of the name, the validator may not be able to pick up the reference correctly to assign DOI/PMID.
+Watch out for unexpanded journal names when trying to validate them. Sometimes, the authors may have provided the contracted version of the journal name, e.g. 'Mol Biol Evo' for 'Molecular Biology and Evolution' \(they will likely take this from a source like PubMed which shows the contracted version by default\). If this is not expanded to the full version of the name, the validator may not be able to pick up the reference correctly to assign DOI/PMID.
 
 Look out for journal names that are incorrectly run on to the end of article titles. This is often caught by the schematron rules but in some cases, it may not be.
 
