@@ -219,7 +219,7 @@ For cases like these, please leave the following query:
 
 * Please ensure that all scripts/data/code \(as necessary\) are added to this repository, and that it is publicly available. 
 
-If the repository also has no license, please also add the following query:
+If the repository also has no license, please add the following query:
 
 * Please ensure that all scripts/data/code \(as necessary\) are added to this repository, and that it is publicly available. We would also like to ask you to license the contents of the repo \(we would recommend using an open source license \[https://opensource.org/licenses\]\). Guidance on what license might better suit you can be found at https://choosealicense.com/ and instructions on how to add a license to a GitHub repository are available here https://help.github.com/articles/adding-a-license-to-a-repository/. Once your code has been committed and licensed, we will fork it to our own GitHub repository for archiving purposes.
 
@@ -261,9 +261,10 @@ The following tests relate to software that may need to be forked.
 
 **Warning**: _Article possibly contains code that needs forking. Search - XXXXXX_
 
-**Action**: This warning will appear if the following words are present: github, gitlab, codeplex, sourceforge, bitbucket or assembla. 'XXXXXX' in this warning will be one of these words. If this warning fires, it may indicate there is code which needs to be forked or imported. [See above](forking-git-based-repos.md#examples-of-code-that-doesnt-need-to-be-forked) to determine whether this is necessary. If the code was specifically written as part of the work reported, it should be forked and a software reference should be added \(see above\). If it is previously published code please query the author to provide full citation details:
+**Action**: This warning will appear if the following words are present: github, gitlab, codeplex, sourceforge, bitbucket or assembla. 'XXXXXX' in this warning will be one of these words. If this warning fires, it may indicate there is code which needs to be forked or imported. [See above](forking-git-based-repos.md#examples-of-code-that-doesnt-need-to-be-forked) to determine whether this is necessary. If the code was specifically written as part of the work reported, it should be forked and a software reference should be added \([see above](forking-git-based-repos.md#checklist-for-forking-repositories)\). If it is previously published code please query the author to provide full citation details:
 
-* 
+* eLife follows the FAIR principles for software and data citation. Please provide the full bibliographic details \(author\(s\), year, full title, publisher, version, URL\) for this software so that it can be added to the reference list. 
+
 #### ext-link-child-test-3
 
 **Error**: _ext-link - XXXXXX - contains the phrase 'copy archived', which is incorrect._
