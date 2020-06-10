@@ -285,9 +285,11 @@ If the citations are out of sequence and there are no other in sequence citation
 
 ## Schematron checks
 
-The following tests are run on tables.
+The following tests are run on tables. 
 
-### Content warnings
+### Content checks
+
+These checks relate to the content of tables. X or XXXXXX refers to quoted text which will change depending on the article.
 
 #### body-table-label-test-1
 
@@ -732,7 +734,9 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 **Action**: This will fire at all stages if source code for a table is not placed in the correct sequence based upon its label, for example Table 2—source code 2 is placed before Table 2—source code 1. If this fires, the action should be to re-order the source data files based on their labels.
 
-### **XML structure warnings**
+### **XML structure checks**
+
+These checks relate to the XML structure of tables. For more information about what the XML should look like, see [**below**](tables.md#xml-structure).
 
 #### app-table-wrap-id-test-1
 
