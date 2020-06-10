@@ -42,7 +42,7 @@ These checks relate to the content of \[insert name of page\]. X or XXXXXX refer
 
 ### XML structure checks
 
-These checks relate to the XML structure of \[insert name of page\]. For more information about what the XML should look like, see below \(include link to XML structure\).
+These checks relate to the XML structure of \[insert name of page\]. ‌X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see below \(include link to XML structure\).
 
 #### id-x - make sure this is tagged as a level 3 header
 

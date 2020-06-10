@@ -125,11 +125,9 @@ Any mentions of tools or packages that were used for analysing data or generatin
 
 ## **Schematron checks**
 
-The following tests are run on software references. X or XXXXXX refers to quoted text which will change depending on the article.
-
 ### **Content checks**
 
-‌These checks relate to the content of a software reference.
+‌These checks relate to the content of software references. X or XXXXXX refers to quoted text which will change depending on the article.
 
 #### **zenodo-check**
 
@@ -289,7 +287,7 @@ The DOI Badge will pop up:
 
 ### **XML structure checks**
 
-**‌**These warnings relate to the XML structure of software references. For examples of what the XML should look like, [see below](software-references.md#xml-structure).
+**‌**‌These checks relate to the XML structure of software references. X or XXXXXX refers to quoted text which will change depending on the article. For examples of what the XML should look like, [**see below**](software-references.md#xml-structure).
 
 #### **err-elem-cit-software-2-1**
 

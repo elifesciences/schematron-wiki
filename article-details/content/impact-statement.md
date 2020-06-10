@@ -160,9 +160,9 @@ In this case, simply removing 'identified here' was sufficient to provide a corr
 
 ## Schematron checks
 
-The following tests are run on impact statements.
-
 ### Content checks
+
+These checks relate to the content of impact statements. X or XXXXXX refers to quoted text which will change depending on the article.
 
 #### custom-meta-test-5
 
@@ -264,7 +264,7 @@ The following tests are run on impact statements.
 
 ### XML structure checks
 
-These tests check the underlying structure of the [XML](impact-statement.md#xml-structure) for impact statements. Resolving these may require the intervention of technical support.
+These checks relate to the XML structure of impact statements. X or XXXXXX refers to quoted text which will change depending on the article.For more information about what the XML should look like, [**see below**](impact-statement.md#xml-structure).
 
 #### custom-meta-test-1
 

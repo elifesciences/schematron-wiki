@@ -736,7 +736,7 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 ### **XML structure checks**
 
-These checks relate to the XML structure of tables. For more information about what the XML should look like, see [**below**](tables.md#xml-structure).
+These checks relate to the XML structure of tables. X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see [**below**](tables.md#xml-structure).
 
 #### app-table-wrap-id-test-1
 
