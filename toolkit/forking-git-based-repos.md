@@ -253,7 +253,7 @@ As it is not possible to fork this, the following query needs to be left:
 
 If the link to the code is not to a GitHub/GitLab/SourceForge/Bitbucket repository, and instead to a lab/institution website \(which will usually have the lab's name in the title of the website or on the page\), the above query should be added.
 
-## Schematron warnings
+## Schematron checks
 
 The following tests relate to software that may need to be forked.
 

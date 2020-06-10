@@ -287,7 +287,7 @@ The DOI Badge will pop up:
 
 **Action:** If a software reference has a source containing 'Figshare', there needs to be a URL that contains '10.6084/m9.figshare'. This is because Continuum does not currently allow DOIs for software references. Make sure the DOI URL \(including https://\) is present in the website field in the reference.
 
-### **XML structure warnings**
+### **XML structure checks**
 
 **‌**These warnings relate to the XML structure of software references. For examples of what the XML should look like, [see below](software-references.md#xml-structure).
 

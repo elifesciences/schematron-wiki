@@ -26,27 +26,27 @@ This section should also list any issues that can be spotted without the need to
 
 Any [**hyperlinks**](untitled-4.md) to other pages or websites should be bolded to make sure they are more visible. 
 
-## Schematron warnings
+## Schematron checks
 
-### Content warnings
+### Content checks
 
 List of errors and warnings that can occur, with guidance on how to solve each problem or on when it is OK to let the warning go by and not change anything.
 
-These warnings relate to the content of XXXXXX.
+These checks relate to the content of \[insert name of page\]. X or XXXXXX refers to quoted text which will change depending on the article.
 
 #### id-x - make sure this is tagged as a level 3 header
 
-**Warning/Error:** content of message
+**Warning/Error/Info:** content of message
 
 **Action:** What to do if this message fires
 
-### XML structure warnings
+### XML structure checks
 
-These warnings relate to the XML structure of XXXXXX. For more information about what the XML should look like, see below \(include link to XML structure\).
+These checks relate to the XML structure of \[insert name of page\]. For more information about what the XML should look like, see below \(include link to XML structure\).
 
-#### id-x
+#### id-x - make sure this is tagged as a level 3 header
 
-**Warning/Error:** content of message
+**Warning/Error/Info:** content of message
 
 **Action:** What to do if this message fires
 

@@ -158,11 +158,11 @@ In this case, simply removing 'identified here' was sufficient to provide a corr
 
 > "Novel drug-binding sites of TRPC6 could potentially facilitate future design of drugs to treat TRPC6-mediated diseases."
 
-## Schematron warnings
+## Schematron checks
 
 The following tests are run on impact statements.
 
-### Content warnings
+### Content checks
 
 #### custom-meta-test-5
 
@@ -262,7 +262,7 @@ The following tests are run on impact statements.
 
 **Action**: The impact statements in an Insight article should match exactly to the abstract. This warning will fire if there are different numbers of child elements in the abstract and impact statement, indicating that there may be different formatting in the two places. Update the text so that the formatting is consistent - species names should be placed in italics, bold formatting should be removed. The eLife Features team should be queried if it is unclear which style is correct.
 
-### XML structure warnings
+### XML structure checks
 
 These tests check the underlying structure of the [XML](impact-statement.md#xml-structure) for impact statements. Resolving these may require the intervention of technical support.
 

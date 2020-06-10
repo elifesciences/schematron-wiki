@@ -589,9 +589,9 @@ Please note that there are a couple of databases for which both DOIs and URLs ar
   </tbody>
 </table>
 
-## Schematron warnings
+## Schematron checks
 
-### Content warnings
+### Content checks
 
 #### das-sentence-conformity
 
@@ -1457,7 +1457,7 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Action**: &lt;XXX&gt; will be a disallowed XML element\(s\) present in &lt;ZZZ&gt;, which will be either the title \(`<data-title>`\) or database name \(`<source>`\). The only XML elements allowed within these fields are &lt;italic&gt;, &lt;sup&gt; or &lt;sub&gt;. To address this warning, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks. For example, if the warning reads "&lt;bold&gt; element in a &lt;source&gt; element", bold formatting is present in the database name and should be removed; similarly, "&lt;ext-link&gt; element in a &lt;source&gt; element" indicates a hyperlink that needs to be removed.
 
-### XML structure warnings
+### XML structure checks
 
 #### back-test-3
 

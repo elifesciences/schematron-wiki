@@ -229,11 +229,11 @@ In rare cases, a study will not have any funders associated with it - in which c
 
 * Please confirm whether any funding was received for this work.
 
-## Schematron warnings
+## Schematron checks
 
 The following tests are run on the funding section. X or XXXXXX refers to quoted text which will change depending on the article. 
 
-### Content warnings
+### Content checks
 
 These warnings relate to the content of the funding section.
 
@@ -311,7 +311,7 @@ The University of Cambridge should not be listed in the funding table because it
 
 * Please confirm which author received this funding.
 
-### XML structure warnings
+### XML structure checks
 
 These warnings relate to the XML structure of the funding section. For more information about what the XML should look like, see [below](funding-information.md#xml-structure). 
 
