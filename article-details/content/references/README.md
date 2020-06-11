@@ -4,6 +4,8 @@
 
 The following rules apply to all references.
 
+Add info about years \(a, b\) if two references are the same
+
 ### Content warnings
 
 List of errors and warnings that can occur, with guidance on how to solve each problem or on when it is OK to let the warning go by and not change anything.

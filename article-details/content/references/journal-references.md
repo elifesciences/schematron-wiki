@@ -20,20 +20,20 @@ The following information can be added for journal references:
 
 | Kriya field | Mandatory? | XML element | Example |
 | :--- | :--- | :--- | :--- |
-| Author\(s\) | At least one author or collaboration is required; both can be present | &lt;person-group person-group-type="author"&gt; &lt;name&gt; | Bloggs J |
-| Collaboration\(s\) | At least one author or collaboration is required; both can be present | &lt;person-group person-group-type="author"&gt; &lt;collab&gt; | Tulsa 1000 Investigators |
-| Year | Yes | &lt;year iso-8601-date="year"&gt; | 2008 |
+| Author\(s\) | At least one author or collaboration is required; both can be present | &lt;person-group person-group-type="author"&gt;&lt;name&gt;&lt;surname&gt;Bloggs&lt;/surname&gt;&lt;given-names&gt;J&lt;/given-names&gt;&lt;/name&gt;&lt;/person-group&gt; | Bloggs J |
+| Collaboration\(s\) | At least one author or collaboration is required; both can be present | &lt;person-group person-group-type="author"&gt;&lt;collab&gt;Tulsa 1000 Investigators&lt;/collab&gt;&lt;/person-group&gt; | Tulsa 1000 Investigators |
+| Year | Yes | &lt;year iso-8601-date="2008"&gt;2008&lt;/year&gt; | 2008 |
 | Article title | Yes | &lt;article-title&gt;"TIP47 is a key effector for Rab9 localization"&lt;/article-title&gt; | TIP47 is a key effector for Rab9 localization |
 | Journal name | Yes | &lt;source&gt;The Journal of Cell Biology&lt;/source&gt; | The Journal of Cell Biology |
 | Volume | No | &lt;volume&gt;173&lt;/volume&gt; | 173 |
-| e-location ID | Desirable \(if first/last pages are present, there can be no e-location ID\) | &lt;elocation-id&gt;e51381&lt;/elocation-id&gt; | e51381 |
-| First page | Desirable \(if an e-location ID is present, there can be no first/last pages\) | &lt;fpage&gt;917&lt;/fpage&gt; | 917 |
+| e-location ID | No \(if first/last pages are present, there can be no e-location ID\) | &lt;elocation-id&gt;e51381&lt;/elocation-id&gt; | e51381 |
+| First page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;fpage&gt;917&lt;/fpage&gt; | 917 |
 | Last page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;lpage&gt;926&lt;/lpage&gt; | 926 |
-| DOI | No | &lt;pub-id pub-id-type="doi"&gt; | 10.1083/jcb.200510010 |
-| PMID | No | &lt;pub-id pub-id-type="pmid"&gt; | 16769818 |
+| DOI | Yes \(if there is one\) | &lt;pub-id pub-id-type="doi"&gt; | 10.1083/jcb.200510010 |
+| PMID | Yes \(if there is one\) | &lt;pub-id pub-id-type="pmid"&gt; | 16769818 |
 | InPress | No | &lt;comment&gt;In press&lt;/comment&gt; | In press |
 
-Non-mandatory fields are required if they exist. Validation of references via PubMed or Crossref API tools should pull them in if the author did not provide them. Schematron warnings may also pick them up and should be checked at source.
+**Non-mandatory fields are required if they exist**. Validation of references via PubMed or Crossref API tools should pull them in if the author did not provide them. Schematron warnings may also pick them up and should be checked at source.
 
 * **Authors**: Enter each author name as a surname\(s\) followed by initials. 
 * **Collaboration:** Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
@@ -71,17 +71,17 @@ The default fields in Kriya will need to be altered to include the following inf
 * PMID \(if available\)
 * InPress \(if applicable\)
 
-Once you have entered the information in the fields, click on 'Search CrossRef'. This will compare the information entered to the CrossRef database and give you a variety of articles to choose from.
+Once you have entered the information in the fields, click on 'Search PubMed'. This will compare the information entered to the PubMed database and ensures that a PubMed ID and a DOI is added \(if there is one - not all journals use DOIs\). If this does not generate results, click on 'Search CrossRef'. Most journal DOIs are registered with CrossRef \(including non-life sciences articles\).
 
 ![](../../../.gitbook/assets/screenshot-2020-05-27-at-14.59.10.png)
 
-Click the one with the correct authors, title and journal. This should automatically fill in the remaining fields if the information hasn't been added already.
+Click the article with the correct authors, title and journal. This should automatically fill in the remaining fields if the information hasn't been added already.
 
 ![](../../../.gitbook/assets/screenshot-2020-05-27-at-15.01.01.png)
 
 Often you don't need to fill in all the details for a journal reference - filling in some of the fields and then clicking on the 'Search CrossRef' button will usually give you the correct article. The rest of the details will then be automatically filled in when you click on the article. Then, click on 'Insert Reference' to add the reference to the article.
 
-Some journal references will not appear when searching the CrossRef and PubMed databases. If you have entered the article details correctly and verified that it is the same in the original submitted version, you can just click on 'Insert Reference' to add the reference to the article.
+Some journal references will not appear when searching the PubMed and CrossRef databases. If you have entered the article details correctly and verified that it is the same in the original submitted version, you can just click on 'Insert Reference' to add the reference to the article.
 
 Watch out for unexpanded journal names when trying to validate them. Sometimes, the authors may have provided the contracted version of the journal name, e.g. 'Mol Biol Evo' for 'Molecular Biology and Evolution' \(they will likely take this from a source like PubMed which shows the contracted version by default\). If this is not expanded to the full version of the name, the validator may not be able to pick up the reference correctly to assign DOI/PMID.
 
@@ -105,7 +105,7 @@ This is the only way to add an 'In press' comment, as at the moment, it is not p
 
 ## Finding reference details
 
-Journals are not standardised in the way they archive their articles. Some journals do not use volume numbers, page ranges, e-locations, or DOIs, so these details will not be present for all journal references. Many journals publish articles online 'ahead of print' so the full details will be unavailable until the print or full version is issued. If a journal reference doesn't have all the required details when you have used the 'Search CrossRef' button, double-check by looking up the article title online. 
+Journals are not standardised in the way they archive their articles. Some journals do not use volume numbers, page ranges, e-locations, or DOIs, so these details will not be present for all journal references. Many journals publish articles online 'ahead of print' \(eLife calls this 'Publish on Acceptance', or 'PoA'\) so the full details may be unavailable until the print or full version is issued.  
 
 For example after entering the reference details below and searching CrossRef, there doesn't appear to be any information about volume, page numbers, e-location IDs:
 
@@ -193,9 +193,9 @@ If the authors respond to say the article is now in press, add the 'In press' fi
 
 #### G3
 
-**Error:** _ref 'XXXXXX' has the doi for 'G3' but the journal name is XXXXXX - it should be either 'G3: Genes\|Genomes\|Genetics' or 'G3: Genes, Genomes, Genetics'._
+**Error:** _ref 'XXXXXX' has the doi for 'G3' but the journal name is XXXXXX - it should be 'G3: Genes, Genomes, Genetics'._
 
-**Action:** This error will appear if a journal reference has the journal name 'G3' formatted incorrectly. Due to an issue with how G3 supplies its data to PubMed/Crossref, the journal name will sometimes have the unicode character replacing the ':'. Change the journal name to 'G3: Genes\|Genomes\|Genetics' or 'G3: Genes, Genomes, Genetics'.
+**Action:** This error will appear if a journal reference has the journal name 'G3' formatted incorrectly. Due to an issue with how G3 supplies its data to PubMed/Crossref, the journal name will sometimes have the unicode character replacing the ':'. Change the journal name to 'G3: Genes, Genomes, Genetics'.
 
 #### ampersand-check
 
@@ -207,13 +207,13 @@ If the authors respond to say the article is now in press, add the 'In press' fi
 
 **Error:** _ref 'XXXXXX' has a source title 'XXXXXX' which must be incorrect._
 
-**Action:** This error will appear if a journal name has been entered as 'Research Gate' \(or 'research gate', 'researchgate' or any other capitalisation alternatives\). Research Gate is a platform for scientists to collaborate and share articles - it is not a journal. Check what the correct journal name should be by looking up the article online and enter that instead. If the article can only be found on Research Gate, and  the journal name is not clear, leave the following author query:
+**Action:** This error will appear if a journal name has been entered as 'Research Gate' \(or 'research gate', 'researchgate' or any other capitalisation alternatives\). Research Gate is a platform for scientists to collaborate and share articles - it is not a journal. Check what the correct journal name should be by looking up the article online and enter that instead. If the article can only be found on Research Gate, and the journal name is not clear, leave the following author query:
 
 * Please provide the journal name for this reference.
 
 #### journal-replacement-character-presence
 
-**Error:** _element contains the replacement character '�' which is unallowed - XXXXXX_
+**Error:** _source_ _element contains the replacement character '�' which is unallowed - XXXXXX_
 
 **Action:** This error will appear if a journal name contains the character ‘�’. This usually indicates a conversion error has occurred and an unknown, unrecognized or unrepresentable character has been replaced with ‘�’. Look up the article online and update with the correct character.
 
@@ -255,13 +255,13 @@ Look up the article title online to check whether 'official journal' is actually
 
 #### **article-title-correction-check**
 
-**Warning:** _ref 'XXXXXX' has an article-title which begins with 'Correction', 'Retraction' or 'Erratum'. Is this a reference to the notice or the original article?_
+**Warning:** _ref 'XXXXXX' has an article-title which begins with 'Correction', 'Retraction' or contains 'Erratum'. Is this a reference to the notice or the original article?_
 
-**Action:** This warning will appear if a journal reference has an article title beginning with 'Correction', 'Retraction' or 'Erratum'. Read the context surrounding the citation of this reference to work out what to do. If the reference list includes both the corrected/retracted article and the original article, or if the authors mention that the citation is to a corrected/retracted article in the context, you can leave this reference in. Otherwise, check the original submitted manuscript to make sure the wrong details have not been entered for this reference. If the original submitted manuscript cites the corrected/retracted paper, leave this reference in, but leave the following author query at the pre-editing stage:
+**Action:** This warning will appear if a journal reference has an article title beginning with 'Correction', 'Retraction' or contains 'Erratum'. Read the context surrounding the citation of this reference to work out what to do. If the reference list includes both the corrected/retracted article and the original article, or if the authors mention that the citation is to a corrected/retracted article in the context, you can leave this reference in. Otherwise, check the original submitted manuscript to make sure the wrong details have not been entered for this reference. If the original submitted manuscript cites the corrected/retracted paper, leave this reference in, but leave the following author query at the pre-editing stage:
 
 * This reference is to a correction/retraction/erratum. Please confirm whether this is correct.
 
-If this warning appears at the post-editing stage, the authors will need to be asked about this via email.
+If this warning appears at the post-editing stage, the authors may need to be asked about this via email.
 
 **article-title-journal-check**
 
@@ -273,13 +273,11 @@ If this warning appears at the post-editing stage, the authors will need to be a
 
 **Warning:** _ref 'XXXXXX' has an article-title with one child XXXXXX element, and no text. This is almost certainly incorrect. - XXXXXX_
 
-**Action:** This warning will appear if a journal reference has an article title with formatting applied to the whole content \(e.g. if the title is entirely in italics or bold formatting\). Look up the reference online to see how it should be formatted and update accordingly. If you can't find the reference online, leave the following query:
-
-* Please provide the full bibliographic details for this reference.
+**Action:** This warning will appear if a journal reference has an article title with formatting applied to the whole content \(e.g. if the title is entirely in italics or bold formatting\). Look up the reference online to see how it should be formatted and update accordingly. If you can't find the reference online, remove all formatting from the title.
 
 #### a-title-replacement-character-presence
 
-**Error:** _element contains the replacement character '�' which is unallowed - XXXXXX_
+**Error:** _article-title_ ****_element contains the replacement character '�' which is unallowed - XXXXXX_
 
 **Action:** This error will appear if an article title contains the character ‘�’. This usually indicates a conversion error has occurred and an unknown, unrecognized or unrepresentable character has been replaced with ‘�’. Look up the article online and update with the correct character.
 
@@ -293,13 +291,13 @@ If this warning appears at the post-editing stage, the authors will need to be a
 
 **Error:** ref 'XXXXXX' is an XXXXXX article, but it has no doi in the format 10.7554/eLife.00000, which must be incorrect.
 
-**Action:** This error will appear if a journal reference has the journal name 'eLife' but the doi is incorrectly formatted. eLife articles have dois in the format: 10.7554/eLife.XXXXX. Look up the article online to check what the doi should be. 
+**Action:** This error will appear if a journal reference has the journal name 'eLife' but the doi is incorrectly formatted. eLife articles have dois in the format: 10.7554/eLife.XXXXX. Look up the article online to check what the doi should be. If the article hasn't been published yet, check to see whether it is in the production process, and add the manuscript number in place of 'XXXXX'. If you don't know the manuscript number, check with the Production team, who will look up the article title in eJP. 
 
 #### journal-conference-ref-check-1
 
 **Warning:** _Journal ref 'XXXXXX' has the journal name XXXXXX. Should it be a conference type reference instead?_
 
-**Action:** This warning will appear if a journal reference has a journal name including any of the following: conference, symposium, symposia, neural information processing, nips, computer vision and pattern recognition, scipy, workshop, meeting, spie, congress, \[number\]st, \[number\]nd, \[number\]rd, \[number\]th. This test is intended to identify journal references that are actually conference references. Look up the article online to check whether it has been published in a journal, or whether it is a paper from a conference. Check if the conference proceedings have been published in a journal \(e.g. if it is indexed on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or has a DOI\). If so, this can be kept as a journal reference, otherwise change it to a conference reference \(hyperlink to be added\).
+**Action:** This warning will appear if a journal reference has a journal name including any of the following: conference, symposium, symposia, neural information processing, nips, computer vision and pattern recognition, scipy, workshop, meeting, spie, congress, \[number\]st, \[number\]nd, \[number\]rd, \[number\]th. This test is intended to identify journal references that are actually conference references. Look up the article online to check whether it has been published in a journal, or whether it is a paper from a conference. Check if the conference proceedings have been published in a journal \(i.e. if it is indexed on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/)\). If so, this can be kept as a journal reference, otherwise change it to a conference reference \(hyperlink to be added\).
 
 ![An example of conference proceedings published in a journal](../../../.gitbook/assets/screenshot-2020-06-09-at-15.38.31.png)
 
@@ -307,7 +305,7 @@ If this warning appears at the post-editing stage, the authors will need to be a
 
 **Warning:** _Journal ref 'XXXXXX' has a journal name containing a year - XXXXXX. Should it be a conference type reference instead? Or should the year be removed from the journal name?_
 
-**Action:** This warning will appear if a journal reference has a journal name including a year. Look up the article online to check whether it has been published in a journal, or whether it is a paper from a conference. Check if the conference proceedings have been published in a journal \(e.g. if it is indexed on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or has a DOI\). If so, this can be kept as a journal reference, otherwise change it to a conference reference \(hyperlink to be added\).
+**Action:** This warning will appear if a journal reference has a journal name including a year. Look up the article online to check whether it has been published in a journal, or whether it is a paper from a conference. Check if the conference proceedings have been published in a journal \(i.e. if it is indexed on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/)\). If so, this can be kept as a journal reference, otherwise change it to a conference reference \(hyperlink to be added\).
 
 ![An example of conference proceedings published in a journal](../../../.gitbook/assets/screenshot-2020-06-09-at-15.38.31%20%281%29.png)
 
@@ -319,13 +317,13 @@ These checks relate to the XML structure of journal references. For more informa
 
 **Error:** _Each &lt;element-citation&gt; of type 'journal' must contain one and only one &lt;person-group&gt; element. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements._
 
-**Action:** If there is no author list present, one will need to be added to the reference. Look the article up online if possible; otherwise raise an author query on the proof for the missing information. In cases where no author is given, 'Anon' will most likely need to be added in the 'Collaboration' field \(&lt;collab&gt;\). Alternatively, if the article is an [editorial piece](https://www.nature.com/articles/d41586-020-01620-1), use the name of the journal in the 'Collaboration' field.
+**Action:** If there is no author list present, one will need to be added to the reference. Look the article up online if possible; otherwise raise an author query on the proof for the missing information. In cases where no author is given, 'Anon' will most likely need to be added in the 'Collaboration' field \(&lt;collab&gt;\). Alternatively, if the article is an [editorial piece](https://www.nature.com/articles/d41586-020-01620-1), use the name of the journal in the 'Collaboration' field. If there are multiple person-group elements, this means there has been an error in processing - Exeter will need to fix this.
 
 #### err-elem-cit-journal-2-2
 
 **Error:** _Each &lt;element-citation&gt; of type 'journal' must contain one &lt;person-group&gt; with the attribute person-group-type 'author'. Reference 'XXXXXX' has a &lt;person-group&gt; type of 'XXXXXX'._
 
-**Action:** This error will appear if there is no author list, or if authors have been tagged as other kinds of contributors \(e.g. editors or curators\). If there is no author list, make sure this is added by searching for the article details online. If there are contributors other than authors or collaborations, these should be removed.
+**Action:** This error will appear if there is no author list, or if authors have been tagged as other kinds of contributors \(e.g. editors or curators\). If there is no author list, make sure this is added by searching for the article details online. If there are contributors other than authors or collaborations, this means there has been an error in processing - Exeter will need to fix this.
 
 #### err-elem-cit-journal-3-1
 
@@ -379,11 +377,11 @@ If the reference has more than one article title, compare the details with the o
 
 **Error:** _If &lt;fpage&gt; is present, neither &lt;elocation-id&gt; nor &lt;comment&gt;In press&lt;/comment&gt; may be present. Reference 'XXXXXX' has &lt;fpage&gt; and one of those elements._
 
-**Action:** This error will appear if a journal reference has a first page and an e-location ID and/or 'In press' comment. It can only have one of these. Look up the article online and update the reference. If the article has not been published, leave the following author query: 
+**Action:** This error will appear if a journal reference has a first page and an e-location ID and/or 'In press' comment. It can only have one of these. This error may occur if a last page has been incorrectly captured as an e-location ID. Look up the article online and update the reference. If the article has not been published, and the article is at the pre-author stage, leave the following author query: 
 
 * Please check whether this In press reference has now been published and, if so, please provide the full citation details.
 
-If the authors do not have a publication date or if the publication date will be more than a few days after the publication of the eLife article, remove the page range and keep the 'In press' comment.
+If the authors do not have a publication date, or this message appears at post-author stages, keep the 'In press' comment, and delete the first page field.
 
 #### err-elem-cit-journal-6-3
 
@@ -441,7 +439,7 @@ If the authors do not have a publication date or if the publication date will be
 
 **Error:** _XXXXXX is a XXXXXX article, but has a page number, which is incorrect._ 
 
-**Action:** This error will appear if a journal reference has the journal name PLOS, eLife or mBio and a page number. These journals never use page numbers for their articles, but instead use e-location IDs. Look up the article online to find the e-location ID, add this, and delete any page number fields.
+**Action:** This error will appear if a journal reference has the journal name PLOS, eLife or mBio and a page number. These are the journals eLife knows never use page numbers for their articles, but instead use e-location IDs. Look up the article online to find the e-location ID, add this, and delete any page number fields.
 
 #### journal-doi-test-1
 
