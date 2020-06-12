@@ -794,6 +794,18 @@ Exeter will need to correct this issue if it fires.
 
 **Action**: If this fires in live content, then the bold formatting should be removed. Header formatting is always in bold so the bold formatting is superfluous. The only reason this can be ignored is if this fires in an article which is being published as a new version.
 
+#### pre-pmid-spacing-table
+
+**Error**: _PMID link should be preceding by 'PMID:' with no space but instead it is preceded by 'XXXXXX'_
+
+**Action**: This will fire if a link which points to [PubMed](https://pubmed.ncbi.nlm.nih.gov/) is preceded by 'PMID:' or 'PMID' followed by a space. As the message suggest the space between PMID: and the link should be removed.
+
+#### final-pmid-spacing-table
+
+**Warning**: _PMID link should be preceding by 'PMID:' with no space but instead it is preceded by 'XXXXXX'_
+
+**Action**: This will fire if a link which points to [PubMed](https://pubmed.ncbi.nlm.nih.gov/) is preceded by 'PMID:' or 'PMID' followed by a space. As the message suggest the space between PMID: and the link should be removed. This is warning, because of a possible edge case, where an author would want to include some content which is not a PMID, but points to PubMed and requires a space before it.
+
 ## XML structure
 
 Each Table is wrapped in a `<table-wrap>` element.
