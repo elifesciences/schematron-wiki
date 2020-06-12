@@ -48,7 +48,7 @@ The following information can be added for journal references:
 * **PMID:** The PubMed Identifier for the article \(if applicable\). This will not be supplied by the author but is added during pre-editing via the PubMed API tool.
 * **InPress**: If a paper has been accepted for publication but the final publication details are not yet known, this field should have the text 'In press'. 
 
-If any of the mandatory information is not provided, and can't be found after looking up the article online please leave the following author query, replacing 'XXXXXX' with the missing information:
+If any of the mandatory information is not provided, look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
 
 * Please provide the XXXXXX for this reference.
 
@@ -125,7 +125,7 @@ These checks relate to the content of journal references. X or XXXXXX refers to 
 
 **Error:** _&lt;lpage&gt; must be larger than &lt;fpage&gt;, if present. Reference 'XXXXXX' has first page &lt;fpage&gt; = 'XXXXXX' but last page &lt;lpage&gt; = 'XXXXXX'._
 
-**Action:** This error will appear if a journal reference has a first page value larger than the last page value \(this can happen if the authors truncate the last page, e.g. 123-34\). Look up the article online to identify the appropriate page range information and correct the reference. If the article in fact has an e-location ID rather than a page range, remove any first or last pages and enter the ID in the e-location ID field.
+**Action:** This error will appear if a journal reference has a first page value larger than the last page value \(this can happen if the authors truncate the last page, e.g. 123-34\). Look up the article on PubMed or the journal website to identify the appropriate page range information and correct the reference. If the article in fact has an e-location ID rather than a page range, remove any first or last pages and enter the ID in the e-location ID field.
 
 #### err-elem-cit-journal-6-6
 
@@ -215,7 +215,7 @@ If the authors respond to say the article is now in press, add the 'In press' fi
 
 **Error:** _source_ _element contains the replacement character '�' which is unallowed - XXXXXX_
 
-**Action:** This error will appear if a journal name contains the character ‘�’. This usually indicates a conversion error has occurred and an unknown, unrecognized or unrepresentable character has been replaced with ‘�’. Look up the article online and update with the correct character.
+**Action:** This error will appear if a journal name contains the character ‘�’. This usually indicates a conversion error has occurred and an unknown, unrecognized or unrepresentable character has been replaced with ‘�’. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website and update with the correct character.
 
 #### journal-off-presence
 
@@ -225,7 +225,7 @@ If the authors respond to say the article is now in press, add the 'In press' fi
 
 ![](../../../.gitbook/assets/screenshot-2020-06-10-at-10.25.26.png)
 
-Look up the article title online to check whether 'official journal' is actually part of the journal's name. For example, on the journal website for the above article, you can see that the name of the journal is just 'Journal of Neuroscience'. The journal name should be updated accordingly.
+Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website to check whether 'official journal' is actually part of the journal's name. For example, on the journal website for the above article, you can see that the name of the journal is just 'Journal of Neuroscience'. The journal name should be updated accordingly.
 
 ![](../../../.gitbook/assets/screenshot-2020-06-10-at-10.27.56.png)
 
@@ -239,7 +239,7 @@ Look up the article title online to check whether 'official journal' is actually
 
 **Info**: _ref 'XXXXXX' has an article-title with a full stop. Is this correct, or has the journal/source title been included? Or perhaps the full stop should be a colon ':'?_
 
-**Action:** This message will appear if a journal reference has a title including a full stop. The journal name may also have been pulled into the title e.g. 'Reversal of prolonged obesity-associated cerebrovascular dysfunction by inhibiting microglial Tak1. _Nature'. Neuroscience._ Look up the article online to work out whether the full stop should be kept or replaced with a colon, or check whether the journal name has been incorrectly pulled into the article title.
+**Action:** This message will appear if a journal reference has a title including a full stop. The journal name may also have been pulled into the title e.g. 'Reversal of prolonged obesity-associated cerebrovascular dysfunction by inhibiting microglial Tak1. _Nature'. Neuroscience._ Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website to work out whether the full stop should be kept or replaced with a colon, or check whether the journal name has been incorrectly pulled into the article title.
 
 #### article-title-fullstop-check-2
 
@@ -273,13 +273,13 @@ If this warning appears at the post-editing stage, the authors may need to be as
 
 **Warning:** _ref 'XXXXXX' has an article-title with one child XXXXXX element, and no text. This is almost certainly incorrect. - XXXXXX_
 
-**Action:** This warning will appear if a journal reference has an article title with formatting applied to the whole content \(e.g. if the title is entirely in italics or bold formatting\). Look up the reference online to see how it should be formatted and update accordingly. If you can't find the reference online, remove all formatting from the title.
+**Action:** This warning will appear if a journal reference has an article title with formatting applied to the whole content \(e.g. if the title is entirely in italics or bold formatting\). Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website to see how it should be formatted and update accordingly. If you can't find the reference online, remove all formatting from the title.
 
 #### a-title-replacement-character-presence
 
 **Error:** _article-title_ ****_element contains the replacement character '�' which is unallowed - XXXXXX_
 
-**Action:** This error will appear if an article title contains the character ‘�’. This usually indicates a conversion error has occurred and an unknown, unrecognized or unrepresentable character has been replaced with ‘�’. Look up the article online and update with the correct character.
+**Action:** This error will appear if an article title contains the character ‘�’. This usually indicates a conversion error has occurred and an unknown, unrecognized or unrepresentable character has been replaced with ‘�’. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website and update with the correct character.
 
 #### journal-preprint-check
 
@@ -291,13 +291,13 @@ If this warning appears at the post-editing stage, the authors may need to be as
 
 **Error:** ref 'XXXXXX' is an XXXXXX article, but it has no doi in the format 10.7554/eLife.00000, which must be incorrect.
 
-**Action:** This error will appear if a journal reference has the journal name 'eLife' but the doi is incorrectly formatted. eLife articles have dois in the format: 10.7554/eLife.XXXXX. Look up the article online to check what the doi should be. If the article hasn't been published yet, check to see whether it is in the production process, and add the manuscript number in place of 'XXXXX'. If you don't know the manuscript number, check with the Production team, who will look up the article title in eJP. 
+**Action:** This error will appear if a journal reference has the journal name 'eLife' but the doi is incorrectly formatted. eLife articles have dois in the format: 10.7554/eLife.XXXXX. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website to check what the doi should be. If the article hasn't been published yet, check to see whether it is in the production process, and add the manuscript number in place of 'XXXXX'. If you don't know the manuscript number, check with the Production team, who will look up the article title in eJP. 
 
 #### journal-conference-ref-check-1
 
 **Warning:** _Journal ref 'XXXXXX' has the journal name XXXXXX. Should it be a conference type reference instead?_
 
-**Action:** This warning will appear if a journal reference has a journal name including any of the following: conference, symposium, symposia, neural information processing, nips, computer vision and pattern recognition, scipy, workshop, meeting, spie, congress, \[number\]st, \[number\]nd, \[number\]rd, \[number\]th. This test is intended to identify journal references that are actually conference references. Look up the article online to check whether it has been published in a journal, or whether it is a paper from a conference. Check if the conference proceedings have been published in a journal \(i.e. if it is indexed on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/)\). If so, this can be kept as a journal reference, otherwise change it to a conference reference \(hyperlink to be added\).
+**Action:** This warning will appear if a journal reference has a journal name including any of the following: conference, symposium, symposia, neural information processing, nips, computer vision and pattern recognition, scipy, workshop, meeting, spie, congress, \[number\]st, \[number\]nd, \[number\]rd, \[number\]th. This test is intended to identify journal references that are actually conference references. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) to check whether it has been published in a journal, or whether it is a paper from a conference. If the conference proceedings have been published in a journal \(i.e. if it is indexed on PubMed\), this can be kept as a journal reference, otherwise change it to a conference reference \(hyperlink to be added\).
 
 ![An example of conference proceedings published in a journal](../../../.gitbook/assets/screenshot-2020-06-09-at-15.38.31.png)
 
@@ -305,7 +305,7 @@ If this warning appears at the post-editing stage, the authors may need to be as
 
 **Warning:** _Journal ref 'XXXXXX' has a journal name containing a year - XXXXXX. Should it be a conference type reference instead? Or should the year be removed from the journal name?_
 
-**Action:** This warning will appear if a journal reference has a journal name including a year. Look up the article online to check whether it has been published in a journal, or whether it is a paper from a conference. Check if the conference proceedings have been published in a journal \(i.e. if it is indexed on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/)\). If so, this can be kept as a journal reference, otherwise change it to a conference reference \(hyperlink to be added\).
+**Action:** This warning will appear if a journal reference has a journal name including a year. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website to check whether it has been published in a journal, or whether it is a paper from a conference. If the conference proceedings have been published in a journal \(i.e. if it is indexed on PubMed\), this can be kept as a journal reference, otherwise change it to a conference reference \(hyperlink to be added\).
 
 ![An example of conference proceedings published in a journal](../../../.gitbook/assets/screenshot-2020-06-09-at-15.38.31%20%281%29.png)
 
@@ -377,7 +377,7 @@ If the reference has more than one article title, compare the details with the o
 
 **Error:** _If &lt;fpage&gt; is present, neither &lt;elocation-id&gt; nor &lt;comment&gt;In press&lt;/comment&gt; may be present. Reference 'XXXXXX' has &lt;fpage&gt; and one of those elements._
 
-**Action:** This error will appear if a journal reference has a first page and an e-location ID and/or 'In press' comment. It can only have one of these. This error may occur if a last page has been incorrectly captured as an e-location ID. Look up the article online and update the reference. If the article has not been published, and the article is at the pre-author stage, leave the following author query: 
+**Action:** This error will appear if a journal reference has a first page and an e-location ID and/or 'In press' comment. It can only have one of these. This error may occur if a last page has been incorrectly captured as an e-location ID. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website and update the reference. If there is a first page and an 'In press' comment, check if the article has been published yet. If it hasn't, and the article is at the pre-author stage, leave the following author query: 
 
 * Please check whether this In press reference has now been published and, if so, please provide the full citation details.
 
@@ -387,13 +387,13 @@ If the authors do not have a publication date, or this message appears at post-a
 
 **Error:** _If &lt;elocation-id&gt; is present, neither &lt;fpage&gt; nor &lt;comment&gt;In press&lt;/comment&gt; may be present. Reference 'XXXXXX' has &lt;elocation-id&gt; and one of those elements._
 
-**Action:** This error will appear if a journal reference has an e-location ID and a first page and/or 'In press' comment. It can only have one of these. Look up the article online and update the reference. If the article has not been published, leave the following author query: 
+**Action:** This error will appear if a journal reference has an e-location ID and a first page and/or 'In press' comment. It can only have one of these. This error may occur if a last page has been incorrectly captured as an e-location ID. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website and update the reference.  If there is an e-location ID and an 'In press' comment, check if the article has been published yet. If the article has not been published, leave the following author query: 
 
 If the article has not been published, leave the following author query:
 
 * Please check whether this In press reference has now been published and, if so, please provide the full citation details.
 
-If the authors do not have a publication date or if the publication date will be more than a few days after the publication of the eLife article, remove the e-location ID and keep the 'In press' comment.
+If the authors do not have a publication date, or this message appears at post-author stages, remove the e-location ID and keep the 'In press' comment.
 
 #### err-elem-cit-journal-6-4
 
@@ -409,7 +409,7 @@ If the authors do not have a publication date or if the publication date will be
 
 **Error:** _&lt;lpage&gt; is only allowed if &lt;fpage&gt; is present. Reference 'XXXXXX' has &lt;lpage&gt; but no &lt;fpage&gt;._
 
-**Action:** This error will appear if a journal reference has a last page but no first page. Look up the article online to identify the appropriate page range information and correct the reference. If the article in fact has an e-location ID rather than a page range, remove any first or last pages and enter the ID in the e-location ID field.
+**Action:** This error will appear if a journal reference has a last page but no first page. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website to identify the appropriate page range information and correct the reference. If the article in fact has an e-location ID rather than a page range, remove any first or last pages and enter the ID in the e-location ID field.
 
 #### err-elem-cit-journal-6-7
 
@@ -427,26 +427,26 @@ If the authors do not have a publication date or if the publication date will be
 
 **Warning:** _ref 'XXXXXX' is a journal, but it doesn't have a page range or e-location. Is this right?_
 
-**Action:** This warning will appear if a journal reference does not have a page range or e-location ID. Look up the article online to check whether these are available. These may be unavailable because the article has been published online before a print version \(and so doesn't have those details yet\). Some journals also do not use page ranges or e-location IDs to catalogue their articles. If you cannot find this information online, you can ignore this warning.
+**Action:** This warning will appear if a journal reference does not have a page range or e-location ID. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website to check whether these are available. These may be unavailable because the article has been published online before a print version \(and so doesn't have those details yet\). Some journals also do not use page ranges or e-location IDs to catalogue their articles. If you cannot find this information online, you can ignore this warning.
 
 #### **volume-assert**
 
 **Warning:** _ref 'XXXXXX' is a journal, but it doesn't have a volume. Is this right?_
 
-**Action:** This warning will appear if a journal reference does not have a volume. Look up the article online to check whether this is available. These may be unavailable because the article has been published online before a print version \(and so doesn't have a volume number yet\). Some journals also do not use volumes to catalogue their articles. If you cannot find this information online, you can ignore this warning.
+**Action:** This warning will appear if a journal reference does not have a volume. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website to check whether this is available. These may be unavailable because the article has been published online before a print version \(and so doesn't have a volume number yet\). Some journals also do not use volumes to catalogue their articles. If you cannot find this information online, you can ignore this warning.
 
 #### online-journal-w-page
 
 **Error:** _XXXXXX is a XXXXXX article, but has a page number, which is incorrect._ 
 
-**Action:** This error will appear if a journal reference has the journal name PLOS, eLife or mBio and a page number. These are the journals eLife knows never use page numbers for their articles, but instead use e-location IDs. Look up the article online to find the e-location ID, add this, and delete any page number fields.
+**Action:** This error will appear if a journal reference has the journal name PLOS, eLife or mBio and a page number. These are the journals eLife knows never use page numbers for their articles, but instead use e-location IDs. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website to find the e-location ID, add this, and delete any page number fields.
 
 #### journal-doi-test-1
 
 **Warning:** _XXXXXX is a journal ref without a doi. Should it have one?_
 
-**Action:** This warning will appear if a journal reference does not have a DOI. Revalidate the reference first, to ensure it is not just a system glitch. If it is still not added, look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/). If the article is listed on PubMed and no DOI is present, the reference can be left as it is. If it is not on PubMed look up the journal source online, or use [**Crossref**](https://search.crossref.org/) to check whether there should be a DOI.  
-Some articles will not have DOIs. This is particularly common with older articles e.g. those published before ~1990, but some journals still do not assign DOIs to their content now \(e.g. _Development_\). The eLife Schematron attempts to filter out false positives so please inform Production staff of this message on content that does not have DOIs \(for example _Development_ references do not fire this warning\).  
+**Action:** This warning will appear if a journal reference does not have a DOI. Revalidate the reference first, to ensure it is not just a system glitch. If it is still not added, look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/). If the article is listed on PubMed and no DOI is present, the reference can be left as it is. If it is not on PubMed, check the journal website, or use [**Crossref**](https://search.crossref.org/) to see whether there should be a DOI.  
+Some articles will not have DOIs. This is particularly common with older articles e.g. those published before ~1990, but some journals still do not assign DOIs to their content now \(e.g. _Development_\). The eLife schematron attempts to filter out false positives so please inform Production staff of this message on content that does not have DOIs \(for example _Development_ references do not fire this warning\).  
 While doing this check, look out for differing article information. If the author names or the title are slightly different from the published details or what is recorded in PubMed, the validator will not identify the reference.
 
 ## XML Structure

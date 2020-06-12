@@ -36,7 +36,7 @@ These checks relate to the content of \[insert name of page\]. X or XXXXXX refer
 
 #### id-x - make sure this is tagged as a level 3 header
 
-**Warning/Error/Info:** content of message
+**Warning/Error/Info:** _content of message_
 
 **Action:** What to do if this message fires
 
@@ -46,7 +46,7 @@ These checks relate to the XML structure of \[insert name of page\]. ‌X or XXX
 
 #### id-x - make sure this is tagged as a level 3 header
 
-**Warning/Error/Info:** content of message
+**Warning/Error/Info:** _content of message_
 
 **Action:** What to do if this message fires
 
