@@ -372,16 +372,6 @@ If there is an in-text citation, but the citations are out of sequence \(i.e. Ap
 
 **Action**: This will fire at post-author stages when a table is placed out of sequence in an appendix \(such as Appendix 1—table 1 being placed after Appendix 1—table 2\). If this error fires, Production will need to contact the authors in order to determine how they would like their tables to be labelled/presented.
 
-#### text-v-object-cite-test
-
-**Warning**: _XXXXXX has possible unlinked citations in the text._
-
-**Action**: This will fire if a table's label text is found elsewhere in the article without citation formatting \(for example the text 'Table 1' is present in paragraph in the Introduction\). The following actions should be taken:
-
-* If the table citation is deliberately left unlinked due to citations which are out of sequence, this warning can be ignored, since the text has been deliberately left unlinked.
-* If the table citation is obviously a reference to a table from another article or piece of work \(e.g. Table 1 from Smith et al., 2020\), then this should be ignored.
-* If neither of the above two conditions is the case, then the text should be changed to a linked citation.
-
 #### missing-ref-in-text-test
 
 **Warning**: _XXXXXX element contains possible citation which is unlinked or a missing reference - search - XXXXXXX._

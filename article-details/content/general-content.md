@@ -196,3 +196,13 @@ The following tests are run on general content.
 
 **Action**: This will fire when a Table label occurs twice in the same article for example there are two 'Table 1.'s. Table labels must be distinct. If this fires, action should be taken to ensure that this label is not used more than once.
 
+#### text-v-object-cite-test
+
+**Warning**: _XXXXXX has possible unlinked citations in the text._
+
+**Action**: This will fire if a table's label text is found elsewhere in the article without citation formatting \(for example the text 'Table 1' is present in paragraph in the Introduction\). The following actions should be taken:
+
+* If the table citation is deliberately left unlinked due to citations which are out of sequence, this warning can be ignored, since the text has been deliberately left unlinked.
+* If the table citation is obviously a reference to a table from another article or piece of work \(e.g. Table 1 from Smith et al., 2020\), then this should be ignored.
+* If neither of the above two conditions is the case, then the text should be changed to a linked citation.
+
