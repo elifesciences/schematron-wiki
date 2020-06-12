@@ -1,72 +1,102 @@
 # Paragraphs
 
-This is a page about XXXXXX. If you want to know about XXXXX instead, please go [here]().
+## What is the \[insert subject of page\]?
 
-## Description
+Give a brief description of the subject being addressed in the page. 
 
-Briefly describe the thing this page is about
+## What needs to be checked?
 
-## Structure
-
-What is allowed for each part/element in this item. Crosscheck against the protocol documents in [this folder](https://drive.google.com/drive/folders/0B2wDI5EMHiJ-UzctZnVBdWFwbzA).
-
-| Component | Contains | XML | Required? |
-| :--- | :--- | :--- | :---: |
-| What is it? | What goes in it? | `<xml-tagging>` | Yes/No |
+Outline the main things that need to be checked. Include a checklist if possible.
 
 ## Examples
 
-### Variant 1
+Give specific examples of everything that needs to be checked/any common problems. Add sub-sections where needed, but be as succinct as possible. Include screenshots as required.
 
-Display:
+This section should also list any issues that can be spotted without the need to run Schematron tests such as low figure quality, broken paragraphs, badly formatted tables etc. Crosscheck against the protocol documents in [this folder](https://drive.google.com/drive/folders/0B2wDI5EMHiJ-UzctZnVBdWFwbzA).
 
-Show what it reads as.
+> Any quotes from articles should be formatted as quotes
 
-XML:
+* Any Kriya queries should be formatted as a bullet point
 
-```text
-<show>tagging</show>
-```
+Any [**hyperlinks**](../../untitled-4.md) to other pages or websites should be bolded to make sure they are more visible. 
 
-### Variant 2 \(if applicable\)
+## Schematron checks
 
-Display:
-
-Show alternative case.
-
-XML:
-
-```text
-<show>tagging</show>
-```
-
-## Guidance
-
-This section should highlight anything that a user needs to be aware of when working with this item. Add sub-sections where needed, but be a succinct as possible.
-
-### General troubleshooting
-
-This section should list any general issues that can be spotted without the need to run Schematron tests such as low figure quality, broken paragraphs, badly formatted tables etc.
-
-### Schematron
+### Content checks
 
 List of errors and warnings that can occur, with guidance on how to solve each problem or on when it is OK to let the warning go by and not change anything.
 
+These checks relate to the content of \[insert name of page\]. X or XXXXXX refers to quoted text which will change depending on the article.
+
+#### p-test-2
+
+**Error:** _p element must not have any attributes._
+
+**Action:** What to do if this message fires
+
+#### p-test-3
+
+**Error:** _p element contains XXXXXX - The spacing is incorrect._
+
+**Action:** What to do if this message fires
+
+#### p-test-5
+
+**Warning:** _p element starts with bolded text - XXXXXX - Should it be a header?_
+
+**Action:** What to do if this message fires
+
+#### p-test-6
+
+**Warning:** _Should this be captured as a list-item in a list? p element is less than 100 characters long, and is preceded by another p element less than 100 characters long._
+
+**Action:** What to do if this message fires
+
+#### p-test-7
+
+**Warning:** _p element starts with a bullet point. It is very likely that this should instead be captured as a list-item in a list\[@list-type='bullet'\]. - XXXXXX_
+
+**Action:** What to do if this message fires
+
+#### allowed-p-test
+
+**Error:** _p element cannot contain XXXXXX. only contain the following elements are allowed - bold, sup, sub, sc, italic, xref, inline-formula, disp-formula, supplementary-material, code, ext-link, named-content, inline-graphic, monospace, related-object._
+
+**Action:** What to do if this message fires
+
+#### allowed-p-test
+
+**Error:** _p element cannot contain XXXXXX. only contain the following elements are allowed - bold, sup, sub, sc, italic, xref, inline-formula, disp-formula, supplementary-material, code, ext-link, named-content, inline-graphic, monospace, related-object._
+
+**Action:** What to do if this message fires
+
 #### p-punctuation-test
 
-**Rule:** paragraph doesn't end with punctuation - Is this correct?
+**Warning:** _paragraph doesn't end with punctuation - Is this correct?_
 
-**Action:** This will fire whenever a paragraph element doesn't end in punctuation. It can be ignored if it refers to lists, but otherwise, make sure every paragraph ends in punctuation.
+**Action:** What to do if this message fires
 
-**Example:** Example change, if appropriate.
+#### p-bracket-test
 
-#### ID2
+**Warning:** _paragraph doesn't end with a full stop, colon, question or exclamation mark - Is this correct?_
 
-**Rule:**
+**Action:** What to do if this message fires
 
-**Action:** What you should do if this rule fires.
+### XML structure checks
 
-## Further reading and links
+These checks relate to the XML structure of \[insert name of page\]. ‌X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see below \(include link to XML structure\).
 
-Where applicable, give links to related pages and external sites.
+#### id-x - make sure this is tagged as a level 3 header
+
+**Warning/Error/Info:** _content of message_
+
+**Action:** What to do if this message fires
+
+## XML structure
+
+```
+Include an example of the xml with variations if appropriate. 
+```
+
+
 
