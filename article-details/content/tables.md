@@ -336,12 +336,6 @@ Depending on the case, the table will either need to be moved into its appropria
 
 **Action**: Footnote indicators should be in the following sequence \*_,_ †, ‡, §, ¶, \*\***, ††, ‡‡, §§, ¶¶, \*\*\***, †††, ‡‡‡, §§§, ¶¶¶, \*\*\*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. If this warning fires, it is because a footnote has an indicator and it isn't one of the allowed symbols. The indicators should be changed in line with the sequence above.
 
-#### distinct-label-conformance
-
-**Error**: _Duplicated labels - XXXXXX is present more than once in the text._
-
-**Action**: This will fire when a Table label occurs twice in the same article for example there are two 'Table 1.'s. Table labels must be distinct. If this fires, action should be taken to ensure that this label is not used more than once.
-
 #### pre-body-table-report
 
 **Warning**: _XXXXXX_ _does not appear in sequence. Relative to the other numbered tables it is placed in position XX._

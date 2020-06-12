@@ -190,3 +190,9 @@ The following tests are run on general content.
 
 **Action**: This will fire at all stages if a table cell contains a specific character, the operating system command character \(unicode `&#x9d;`\). If this fires, the character _must_ be removed, because otherwise the article will fail PMC ingestion.
 
+#### distinct-label-conformance
+
+**Error**: _Duplicated labels - XXXXXX is present more than once in the text._
+
+**Action**: This will fire when a Table label occurs twice in the same article for example there are two 'Table 1.'s. Table labels must be distinct. If this fires, action should be taken to ensure that this label is not used more than once.
+
