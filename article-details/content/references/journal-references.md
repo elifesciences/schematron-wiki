@@ -121,6 +121,32 @@ Searching for this reference online, one of the results is the page below. This 
 
 These checks relate to the content of journal references. X or XXXXXX refers to quoted text which will change depending on the article.
 
+#### eloc-page-assert
+
+**Warning:** _ref 'XXXXXX' is a journal, but it doesn't have a page range or e-location. Is this right?_
+
+**Action:** This warning will appear if a journal reference does not have a page range or e-location ID. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website to check whether these are available. These may be unavailable because the article has been published online before a print version \(and so doesn't have those details yet\). Some journals also do not use page ranges or e-location IDs to catalogue their articles. If you cannot find this information online, you can ignore this warning.
+
+#### **volume-assert**
+
+**Warning:** _ref 'XXXXXX' is a journal, but it doesn't have a volume. Is this right?_
+
+**Action:** This warning will appear if a journal reference does not have a volume. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website to check whether this is available. These may be unavailable because the article has been published online before a print version \(and so doesn't have a volume number yet\). Some journals also do not use volumes to catalogue their articles. If you cannot find this information online, you can ignore this warning.
+
+#### online-journal-w-page
+
+**Error:** _XXXXXX is a XXXXXX article, but has a page number, which is incorrect._ 
+
+**Action:** This error will appear if a journal reference has the journal name PLOS, eLife or mBio and a page number. These are the journals eLife knows never use page numbers for their articles, but instead use e-location IDs. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website to find the e-location ID, add this, and delete any page number fields.
+
+#### journal-doi-test-1
+
+**Warning:** _XXXXXX is a journal ref without a doi. Should it have one?_
+
+**Action:** This warning will appear if a journal reference does not have a DOI. Revalidate the reference first, to ensure it is not just a system glitch. If it is still not added, look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/). If the article is listed on PubMed and no DOI is present, the reference can be left as it is. If it is not on PubMed, check the journal website, or use [**Crossref**](https://search.crossref.org/) to see whether there should be a DOI.  
+Some articles will not have DOIs. This is particularly common with older articles e.g. those published before ~1990, but some journals still do not assign DOIs to their content now \(e.g. _Development_\). The eLife schematron attempts to filter out false positives so please inform Production staff of this message on content that does not have DOIs \(for example _Development_ references do not fire this warning\).  
+While doing this check, look out for differing article information. If the author names or the title are slightly different from the published details or what is recorded in PubMed, the validator will not identify the reference.
+
 #### err-elem-cit-journal-6-5-2
 
 **Error:** _&lt;lpage&gt; must be larger than &lt;fpage&gt;, if present. Reference 'XXXXXX' has first page &lt;fpage&gt; = 'XXXXXX' but last page &lt;lpage&gt; = 'XXXXXX'._
@@ -422,32 +448,6 @@ If the authors do not have a publication date or if the publication date will be
 **Error:** _Each &lt;pub-id&gt;, if present in a journal reference, must have a @pub-id-type of either "doi" or "pmid". The pub-id-type attribute on &lt;pub-id&gt; in Reference 'XXXXXX' is XXXXXX._
 
 **Action:** Remove any pub-ids that are not a DOI or a PubMed ID.
-
-#### eloc-page-assert
-
-**Warning:** _ref 'XXXXXX' is a journal, but it doesn't have a page range or e-location. Is this right?_
-
-**Action:** This warning will appear if a journal reference does not have a page range or e-location ID. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website to check whether these are available. These may be unavailable because the article has been published online before a print version \(and so doesn't have those details yet\). Some journals also do not use page ranges or e-location IDs to catalogue their articles. If you cannot find this information online, you can ignore this warning.
-
-#### **volume-assert**
-
-**Warning:** _ref 'XXXXXX' is a journal, but it doesn't have a volume. Is this right?_
-
-**Action:** This warning will appear if a journal reference does not have a volume. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website to check whether this is available. These may be unavailable because the article has been published online before a print version \(and so doesn't have a volume number yet\). Some journals also do not use volumes to catalogue their articles. If you cannot find this information online, you can ignore this warning.
-
-#### online-journal-w-page
-
-**Error:** _XXXXXX is a XXXXXX article, but has a page number, which is incorrect._ 
-
-**Action:** This error will appear if a journal reference has the journal name PLOS, eLife or mBio and a page number. These are the journals eLife knows never use page numbers for their articles, but instead use e-location IDs. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website to find the e-location ID, add this, and delete any page number fields.
-
-#### journal-doi-test-1
-
-**Warning:** _XXXXXX is a journal ref without a doi. Should it have one?_
-
-**Action:** This warning will appear if a journal reference does not have a DOI. Revalidate the reference first, to ensure it is not just a system glitch. If it is still not added, look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/). If the article is listed on PubMed and no DOI is present, the reference can be left as it is. If it is not on PubMed, check the journal website, or use [**Crossref**](https://search.crossref.org/) to see whether there should be a DOI.  
-Some articles will not have DOIs. This is particularly common with older articles e.g. those published before ~1990, but some journals still do not assign DOIs to their content now \(e.g. _Development_\). The eLife schematron attempts to filter out false positives so please inform Production staff of this message on content that does not have DOIs \(for example _Development_ references do not fire this warning\).  
-While doing this check, look out for differing article information. If the author names or the title are slightly different from the published details or what is recorded in PubMed, the validator will not identify the reference.
 
 ## XML Structure
 
