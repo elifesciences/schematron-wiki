@@ -206,3 +206,13 @@ The following tests are run on general content.
 * If the table citation is obviously a reference to a table from another article or piece of work \(e.g. Table 1 from Smith et al., 2020\), then this should be ignored.
 * If neither of the above two conditions is the case, then the text should be changed to a linked citation.
 
+#### missing-ref-in-text-test
+
+**Warning**: _XXXXXX element contains possible citation which is unlinked or a missing reference - search - XXXXXXX._
+
+**Action**: This will fire if a table cell contains a possible unlinked citation such as Smith et al., 2020. If there is no corresponding reference in the reference list, then the following author query should be added:
+
+* This cited reference does not appear in the reference list. Please provide the full bibliographic details.
+
+Otherwise the text should be captured as a proper citation.
+
