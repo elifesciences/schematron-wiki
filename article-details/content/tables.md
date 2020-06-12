@@ -55,6 +55,16 @@ Tables should have an appropriate label based on their placement in the content.
 
 \(Note that the full stop at the end _has_ to be within the label\)
 
+#### What to do when an author has not used one of the preferred labels
+
+If an author's manuscript contains tables with labels that are not in one of the formats above \(or very similar\), then Exeter should query the eLife production team to determine hoe they would like this captured.
+
+Where possible, the eLife production team should determine what the labels should be based on its placement in the text \(for example a table in a box has to be in the format Box X—table X, and a table in an appendix must be in the format Appendix X—table X\). It may be that the authors intended to capture the content as a supplementary file as well. If it is still not clear how this should be captured, then eLife production should contact the authors with the ways in which tables can be captured, and ask their preference.
+
+Any major changes to labelling which have not been queried to the authors, should be followed up with an author query in the proofs:
+
+* We do not allow the label \[insert original table label\] in eLife content. Therefore, we have captured this as \[insert updated label\]. Please confirm whether you are happy with this capture.
+
 ### Table header
 
 A table can technically only have one table header \(in the XML this is the `<thead>` element, of which every `<table>` element is only allowed 1\). The header is the top row\(s\) of a table and serves as an indication of the content in the rows below it. If a table splits across multiple pages in the PDF, then this header is also displayed at the top of each subsequent page that is is split across.
