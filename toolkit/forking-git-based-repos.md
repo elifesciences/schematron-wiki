@@ -249,7 +249,7 @@ The link here is to an institutional website:
 
 As it is not possible to fork this, the following query needs to be left:
 
-* We see that you have included a custom script hosted on a lab website. Where possible, we strongly prefer that software is uploaded to dedicated software repositories \(such as GitHub, GitLab etc.\) in the interests of transparency and reproducibility. Would you be willing to do so, and ensure that the software is licensed with an open source license \[https://opensource.org/licenses\]? We can provide guidance for you if required. Once your code has been licensed, we will fork it to our own GitHub repository for archiving purposes.
+* We see that you have included a custom script hosted on a lab website. In the interests of transparency and reproducibility, please upload this to a dedicated software repository \(such as GitHub, GitLab etc.\) and ensure that the software is licensed with an open source license \[https://opensource.org/licenses\]. We can provide guidance for you if required. Once your code has been licensed, we will fork it to our own GitHub repository for archiving purposes.
 
 If the link to the code is not to a GitHub/GitLab/SourceForge/Bitbucket repository, and instead to a lab/institution website \(which will usually have the lab's name in the title of the website or on the page\), the above query should be added.
 
