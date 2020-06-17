@@ -44,4 +44,5 @@
 ## Non-article tasks
 
 * [Managing the production inbox](emails.md)
+* [Publish on accept protocols](publish-on-accept-protocols.md)
 

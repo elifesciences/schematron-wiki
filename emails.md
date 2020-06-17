@@ -80,7 +80,7 @@ There are many types of email that we receive on a regular basis. Lots of these 
 
 We are cc’ed into these emails that authors receive when their proof is ready for them to review. These can just be closed. Often the authors will respond to this email with any issues they have, at which point the ‘Author correspondence’ tag would be added, and a response would be required.
 
-![](.gitbook/assets/10.png)
+![](.gitbook/assets/10%20%281%29.png)
 
 ### **Proofing chasers**
 
@@ -100,11 +100,11 @@ Authors will often email us with their ‘Striking images’ to be uploaded. Str
 
 Every time an article with videos is sent to Continuum, we receive a processing report from Glencoe, our video hosting site. If all videos are listed underneath the ‘succeeded’ heading, this email can be closed. If any are listed under ‘failed’ then action is needed.
 
-![](.gitbook/assets/13.png)
+![](.gitbook/assets/13%20%281%29.png)
 
 ### **XML notification emails**
 
-![](.gitbook/assets/14.png)
+![](.gitbook/assets/14%20%281%29.png)
 
 This email notifies us that articles have been exported. If they have an ‘0’ on the end, they relate to articles being exported for POA. These can be closed. If they don’t, they relate to articles being loaded into Kriya. We need to check that it has loaded correctly before closing.
 
@@ -156,7 +156,7 @@ Similarly, we receive emails when a digest is uploaded to an article.
 
 ![](.gitbook/assets/screenshot-2020-06-17-at-12.13.45.png)
 
-The digest is then automatically loaded to Kriya via an automated workflow, for which we receive another email. Just as before, these also need to be checked on Kriya before closing.
+Just as before, these also need to be checked on Kriya before closing.
 
 ![An article with digest \(and decision letter\) loaded](.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%281%29.png)
 
@@ -164,35 +164,17 @@ The digest is then automatically loaded to Kriya via an automated workflow, for 
 
 Our Features team regularly send us a list of the latest articles that are not getting digests. They will have already marked them as ‘no-digest’ articles in Kriya, however we need to check all of them to ensure that the labels have stuck.
 
-![](.gitbook/assets/24.png)
+![](.gitbook/assets/24%20%281%29.png)
 
 ### **Press emails**
 
 Our Press Officer Emily will sometimes email us to ask about publication dates. Often she will cc in Editorial and Features, if the article’s progress is dependent upon post-acceptance checks or a digest. Emily will also cc us in if she asks Sue at Editorial Office to put any recently accepted papers on hold, whilst she looks into potential press for them. There is no action needed for these emails, except to read them and check that there aren’t any issues.
 
-**Github**
-
-All software created by Authors must be forked to our eLife Sciences Github repository. This is in case the authors make any further changes to their software, the forked version will always be the version that they used in their research. Maria from our Editorial department will liaise with the authors on this, and update the paper. However if the article has already been exported to Kriya, she will email us the updated Github information to be changed at our end. These changes must be entered into Kriya, see [Generated Software](https://docs.google.com/document/d/1nx9ljuxR2dc0Ur4ZkVm3-bkr5UbelOVFtReus3RlLes/edit#bookmark=id.3c1qaufv8bwd), and Maria responded to. If the article is not currently with us, the changes can be entered into the Notes to do when it is back with us.
-
-![](.gitbook/assets/25.png)
-
 ### **POA package emails - success and failure**
 
-We receive success or failure notifications for all the articles that are Published as POAs by the bot. These should be left for the Production staff member who handles POA. If there is a failure, it will need action. See [Publish on Accept protocols.](https://docs.google.com/document/d/11kUz3lbava40Jnye2HJtoGgwSzUkPfP2BM4-Hz8Ef_I/edit)
+We receive success or failure notifications for all the articles that are Published as POAs by the bot. Every day, a member of the production team will handle these emails. The editorial office will let us know if any articles need to be reloaded or if the published dates need to be updated. If there is a failure, it will need action. See [Publish on Accept protocols](publish-on-accept-protocols.md).
 
 ![](.gitbook/assets/26.png)
-
-### **PMC emails**
-
-We receive emails from PMC when an article has been updated, and we need to let them know about the change. See [PMC and Pubmed](https://docs.google.com/document/d/1nngNI8tmRMgzOBqgO_s-w3dmCEjmwo6iTYjZr1HM5VQ/edit)
-
-Each time a change is made, we receive an automated email with the subject heading’ You need to email PMC: article xxxxx!!’.
-
-![](.gitbook/assets/27.png)
-
-This email must be forwarded to Tori, our PMC contact. Paste the deposit string \(underlined in the screenshot\) in the subject box of your email, and in the email, explain briefly to Tori what the change was. Note that this must be done by 10AM on the same day that the email is received.
-
-![](.gitbook/assets/28.png)
 
 ### **PMC failures**
 
