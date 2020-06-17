@@ -40,6 +40,7 @@
 
 * [Toggl](toolkit/kriya.md)
 * [When and how to fork repositories](toolkit/forking-git-based-repos.md)
+* [Kriya](toolkit/kriya-1.md)
 
 ## Non-article tasks
 
