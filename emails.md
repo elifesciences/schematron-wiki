@@ -14,7 +14,7 @@ Assign an email by navigating to the Hiver toolbox on the right-hand side of the
 
 ![](.gitbook/assets/screenshot-2020-06-17-at-09.57.18.png)
 
-The email will then be tagged with that user’s name
+The email will then be tagged with that user’s name and moved to their inbox.
 
 ![](.gitbook/assets/screenshot-2020-06-17-at-09.58.13.png)
 
@@ -24,7 +24,7 @@ If no action is required, or the email is resolved, it can be closed by selectin
 
 ![](.gitbook/assets/screenshot-2020-06-17-at-09.58.45.png)
 
-‘Pending’ status can be used for emails that you want to come back to later, or to keep an eye on.
+‘Pending’ status can be used for emails that you want to come back to later, or to keep an eye on. Marking an email as 'pending' moves it to a separate section of the inbox.
 
 You can view an email’s history, and any notes that have been added to it \(as well as adding your own\) in the activity bar beneath this:
 
@@ -94,7 +94,7 @@ If the proof is still not submitted, we will receive an email asking us to chase
 
 ### **Striking images**
 
-Authors will often email us with their ‘Striking images’ to be uploaded. Striking images are images that may be used for the eLife homepage or social media channels. 
+Authors will often email us with their ‘Striking images’ to be uploaded. Striking images are images that may be used for the eLife homepage or social media channels. [See here](striking-images.md) for how to add striking images to articles.
 
 ### **Manuscript processing**
 

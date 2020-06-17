@@ -44,5 +44,7 @@
 ## Non-article tasks
 
 * [Managing the production inbox](emails.md)
+* [Interacting with authors](interacting-with-authors.md)
 * [Publish on accept protocols](publish-on-accept-protocols.md)
+* [Striking images](striking-images.md)
 
