@@ -68,5 +68,9 @@ The striking image will then be exported with the article in the next export cyc
 
 ## Uploading striking images to the bucket
 
-If an article already has a striking image but the authors would like to add another option, and it has already been exported to Kriya, the image will need to be uploaded straight to the striking image bucket. 
+If an article already has a striking image but the authors would like to add another, and it has already been exported to Kriya, the image will need to be uploaded straight to the striking image bucket. To do this, open the elife-striking-images bucket in Cyberduck \(or similar program\) and search for the manuscript number. 
+
+![](.gitbook/assets/screenshot-2020-06-17-at-15.17.00.png)
+
+Open this folder and drag and drop the new striking image in to upload it. Make sure the striking image is titled appropriately - e.g. '56754-b\_striking\_image' if there is already a '56754-a\_striking\_image'. If the authors have provided a title, caption, or attribution information, enter this into a .txt file and save with the same title \(i.e. '56754-b\_striking\_image'\). If they have not provided this information, enter 'metacontent' in the .txt file and save with the same title. Drag this into the folder as well to upload it.
 
