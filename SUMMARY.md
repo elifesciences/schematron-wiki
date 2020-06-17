@@ -38,10 +38,10 @@
 
 ## Toolkit
 
-* [Kriya](toolkit/kriya.md)
+* [Toggl](toolkit/kriya.md)
 * [When and how to fork repositories](toolkit/forking-git-based-repos.md)
 
-## Interacting with authors
+## Non-article tasks
 
-* [Emails](interacting-with-authors/emails.md)
+* [Managing the production inbox](emails.md)
 

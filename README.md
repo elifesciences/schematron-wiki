@@ -29,7 +29,7 @@ description: >-
 
 ## Interacting with authors
 
-* [Emails](interacting-with-authors/emails.md)
+* [Emails](emails.md)
 
 
 
