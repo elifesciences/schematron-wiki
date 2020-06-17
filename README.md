@@ -29,7 +29,7 @@ description: >-
 
 ## Interacting with authors
 
-* [Emails](toolkit/emails.md)
+* [Emails](toolkit/managing-the-production-inbox.md)
 
 
 

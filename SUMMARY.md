@@ -41,7 +41,7 @@
 * [Toggl](toolkit/kriya.md)
 * [When and how to fork repositories](toolkit/forking-git-based-repos.md)
 * [Kriya](toolkit/kriya-1.md)
-* [Managing the production inbox](toolkit/emails.md)
+* [Managing the production inbox](toolkit/managing-the-production-inbox.md)
 * [Interacting with authors](toolkit/interacting-with-authors.md)
 * [Publish on accept protocols](toolkit/publish-on-accept-protocols.md)
 * [Striking images](toolkit/striking-images.md)
