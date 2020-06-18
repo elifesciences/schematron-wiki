@@ -27,7 +27,7 @@ Most of the emails we get from authors fall into the following categories:
 
 ## Striking images
 
-Often authors will send striking images by email instead of including these in the initial submission. For guidance on what to do with these, [see here](striking-images.md). Once you have uploaded striking images, make sure to let the author know you have done this \(there is a template email for this\). 
+Often authors will send striking images by email instead of including these in the initial submission. For guidance on what to do with these, [**see here**](striking-images.md). Once you have uploaded striking images, make sure to let the author know you have done this \(there is a template email for this\). 
 
 ## Updated figures or files
 
