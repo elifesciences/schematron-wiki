@@ -56,7 +56,7 @@ Our tags:
 * Failure - for any CrossRef/PMC/POA failures
 * Features - for all correspondence regarding feature content
 * Press - for any press-related emails
-* TNQ Correction - for any emails about articles requiring a TNQ correction \(correction for any articles published before November 2016\)
+* TNQ Correction - for any emails about articles requiring a TNQ correction \(correction for any articles published before November 2015\)
 
 Some of these correspond to the subject prefixes which we add for emails sent to Exeter to help them categorise and filter them at their end:
 
