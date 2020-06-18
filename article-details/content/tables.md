@@ -702,6 +702,14 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 **Action**: This will fire at all stages if a table citation is preceded by the text 'cf.'. Shorthand for confer is unnecessary and, as the message text suggests, the 'cf.' should be removed.
 
+#### table-xref-test-6
+
+**Warning**: _Table citation - 'XXXXXX' - is preceded by the text 'XXXXXX - should it be a Supplementary file citation instead?_
+
+**Action**: This will fire at all stages if a table citation is preceded by text such as 'Supplementary' or 'supplemental'. Often when authors have referred to supplementary tables in their original manuscript, what they actually mean is a file which will now have been labelled as a Supplementary file. If it can be determined that the original intention was to refer to a supplementary file \(this can sometimes be determined by using that supplementary file's title/caption and looking at how the authors have referred to the file in the text\), then the text and citation should be updated with a Supplementary file citation. If you are unable to determine this, then the following author query should be added:
+
+* XXXXXXX is cited in the text but has not been provided. Please either correct the citation, provide the file and a title and legend, or confirm that this citation refers to another article.
+
 #### table-data-test-2
 
 **Warning**: _XXXXXX ends with X, but it is placed XXX. Either it is misnumbered or it should be moved to a different position._
@@ -717,6 +725,14 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 **Example:** _'Table 2—source code 2.' ends with 2, but it is placed 1st. Either it is misnumbered or it should be moved to a different position._
 
 **Action**: This will fire at all stages if source code for a table is not placed in the correct sequence based upon its label, for example Table 2—source code 2 is placed before Table 2—source code 1. If this fires, the action should be to re-order the source data files based on their labels.
+
+#### table-cell-1
+
+**Warning**: _Table cell in XXXXXX contains 'XXXXXX'. Are the brackets around the citation\(s\) unnecessary?_
+
+**Example:** _'Table cell in Key resources table contains ' \(Monk et al., 2012\) '. Are the brackets around the citation\(s\) unnecessary?_
+
+**Action**: This will fire at all stages is a table cell contains a reference citation or reference citations and the text other than the citation\(s\) does not contain letters or numbers. In a case where, the content of the cell is just citations, then the brackets around them should be removed. If there is other text, which makes the brackets necessary, then they can be left. 
 
 ### **XML structure checks**
 
