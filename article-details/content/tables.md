@@ -1151,6 +1151,8 @@ Vertical cell alignment is defined using the `valign` attribute.
 
 ### Example of an ['inline' table containing inline images and inline formula](https://elifesciences.org/articles/45413#s8-6):
 
+
+
 ```markup
 <table-wrap id="inlinetable7" position="anchor">
     <table frame="hsides" rules="groups">
@@ -1376,4 +1378,8 @@ Vertical cell alignment is defined using the `valign` attribute.
     </table>
 </table-wrap>
 ```
+
+## Change log
+
+* Updated 2020-06-18 to include table-cell-1 and table-xref-test-6.
 
