@@ -4,7 +4,7 @@ description: Responding to common author queries
 
 # Interacting with authors
 
-Most of our interaction with the authors of eLife articles happens via email. It is important to ensure that queries from authors are responded to in a timely manner, so authors are kept informed about the stage of their article. There are many email templates saved in the production collaboration tool \(Hiver\) which can be used when drafting responses to authors. 
+Most of our interaction with the authors of eLife articles happens via email. It is important to ensure that queries from authors are responded to the day they are received, unless after 4pm, in which case they should be replied to the following morning. If we do not have an answer to the queries yet, the authors should be made aware that we are looking into it. There are many email templates saved in the production collaboration tool \(Hiver\) which are useful for drafting responses - but these should be tailored to cover the nuances in each author query. 
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-16.28.43.png)
 
@@ -27,13 +27,13 @@ Most of the emails we get from authors fall into the following categories:
 
 ## Striking images
 
-Often authors will send striking images by email instead of including these in the initial submission. For guidance on what to do with these, [**see here**](striking-images.md). Once you have uploaded striking images, make sure to let the author know you have done this \(there is a template email for this\). 
+Striking images are requested in the acceptance email that is sent to authors. However, the article may be exported to Kriya before they respond, so authors will often send the striking images directly to production. For guidance on what to do with these, [**see here**](striking-images.md). Once you have uploaded striking images, make sure to let the author know you have done this \(there is a template email for this\). 
 
 ## Updated figures or files
 
 Often authors will respond to the proofing email they get to let us know any issues they face with the system, or to send us updated figures and supplementary files that we have asked for. Download these files and compress them in a zip folder. You can then attach this in the note for the corresponding article on the Kriya dashboard, and ask Exeter to update the files. [**See here**](kriya-1.md#adding-notes) for instructions on adding notes to articles. 
 
-After doing this, let the authors know that the files will be updated in the final version of their article. If the proofs are still signed out with them, let them know that they will need to submit the proofs before the files can be replaced \(there is a template for this\). 
+After doing this, let the authors know that the files will be updated in the final version of their article. If the authors have not submitted the proofs back to Production let them know that they will need to do this before the files can be replaced \(there is a template for this\). 
 
 ## Problems editing proofs
 
@@ -49,11 +49,11 @@ If authors have problems accessing their proofs, make sure they are using Google
 
 ## Extensions to proofing deadline
 
-If authors email to ask for extra time to proof their article, we need to let them know that they may still receive automatic reminder emails. There is a template email for this. Once you have sent this, make sure to leave a comment in the note for the article in Kriya so staff know that the article will be delayed. 
+The initial email authors receive when their proofs are ready to review asks for them to return these proofs within two working days. A reminder email will then be sent after 2, and then 4 days. However, authors can extend their proofing time if needed. If authors email to ask for extra time to proof their article, we need to let them know that they may still receive the automatic reminder emails. There is a template email for this. Once you have sent this, make sure to leave a comment in the note for the article in Kriya so staff know that the article will be delayed. 
 
 ## Adding ORCIDs
 
-Often authors will ask for ORCIDs to be added to manuscripts on behalf of other authors. Unfortunately, due to ORCIDs stipulations, we cannot do this. The only way for an ORCID to be linked to a manuscript is for the author to access the proofs using the link we send them. There is an email template to let authors know this. 
+Often authors will ask for ORCIDs to be added to manuscripts on behalf of other authors. Unfortunately, due to ORCIDs stipulations, we cannot do this. The only way for an ORCID to be linked to a manuscript is for the author in question to access the proofs using the link we send them. There is an email template to let authors know this. 
 
 ## Proof/publication date estimation
 
@@ -65,7 +65,7 @@ If authors want to know when they will receive their proofs, or when their artic
 
 ## Corrections and new versions
 
-Some emails will be from authors who have noticed a mistake or problem in their published article. If the error affects the scientific conclusions of the article, a correction will need to be prepared. If there are errors in non-scientific content \(e.g.  affiliations, spelling of author names, author contributions\), a new version can be issued. Check the article to see what the problem is and if the error is due to eLife mistakes, make sure to apologise, and let the author know this will be updated as soon as possible. Once a new version has been published, let the author know.
+Some emails will be from authors who have noticed a mistake or problem in their published article. If the error affects the scientific conclusions of the article, a correction will need to be prepared \(this needs to be checked with the editorial team first\). If there are errors in non-scientific content \(e.g.  affiliations, spelling of author names, author contributions\), a new version can be issued. Check the article to see what the problem is and if the error is due to eLife mistakes, make sure to apologise, and let the author know this will be updated as soon as possible. Once a new version has been published, let the author know.
 
 ## Press
 
