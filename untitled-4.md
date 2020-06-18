@@ -66,11 +66,11 @@ After Exeter have fed back on the page and it has been updated, any further chan
 
 ### dd/mm/yyyy
 
-#### Changed
+#### Changes
 
 * 
 ### dd/mm/yyyy
 
-#### Changed
+#### Changes
 
 * 

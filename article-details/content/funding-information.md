@@ -12,10 +12,10 @@ The funding section is where all funding received by authors in the process of r
 
 * Every funder must have at least one author associated with it.
 * Grant references are optional. 
-  * [Only one grant number](funding-information.md#multiple-grant-references-in-one-entry) should be displayed per entry in the funding table. 
-  * If two or more grants are present in one entry, they should be [split into multiple funding entries](funding-information.md#multiple-grant-references-in-one-entry). 
+  * [**Only one grant number**](funding-information.md#multiple-grant-references-in-one-entry) should be displayed per entry in the funding table. 
+  * If two or more grants are present in one entry, they should be [**split into multiple funding entries**](funding-information.md#multiple-grant-references-in-one-entry). 
 * Whenever the funding section is edited, an author query must be added so the authors can approve the change.
-* The [funding statement](funding-information.md#funding-group-test-1) may differ depending on the article. 
+* The [**funding statement**](funding-information.md#funding-group-test-1) may differ depending on the article. 
 
 ![An example of a funding table](../../.gitbook/assets/screenshot-2020-04-07-at-11.47.55.png)
 
@@ -26,9 +26,9 @@ The funding section is where all funding received by authors in the process of r
 The details of each funding reference need to be checked individually. Ideally, every funder should be validated against the Funder Registry.
 
 Validated funders are indicated by a green tick at the end of the funder name.   
-If a funder is not validated, check whether it is on the[ Funder Registry](https://gitlab.com/crossref/open_funder_registry) list \(note: this list is updated sporadically so please re-download it every time you need to check it\).   
+If a funder is not validated, check whether it is on the[ **Funder Registry**](https://gitlab.com/crossref/open_funder_registry) list \(note: this list is updated sporadically so please re-download it every time you need to check it\).   
 Try re-typing the funder name if it is in the registry, this can make it "stick".    
-If the funder is not in the registry, conduct an online search. Sometimes the name may need correcting slightly, or what the author has listed as the funder is funded by another organisation that is in the Funder Registry \(see [here](funding-information.md#splitting-out-parent-and-sub-funders) for examples of how to capture this information\).
+If the funder is not in the registry, conduct an online search. Sometimes the name may need correcting slightly, or what the author has listed as the funder is funded by another organisation that is in the Funder Registry \(see [**here**](funding-information.md#splitting-out-parent-and-sub-funders) for examples of how to capture this information\).
 
 The Funder Registry contains variants of funder names. For example, the following all refer to the same [funder](http://data.crossref.org/fundingdata/funder/10.13039/501100004792):
 
@@ -45,14 +45,14 @@ Please check the acknowledgements section of the article for additional funders 
 
 ## Examples
 
-* [Funder details in acknowledgements section but not in funding section](funding-information.md#funder-details-in-acknowledgements-section-but-not-in-funding-section)
-* [Multiple grant references in one entry](funding-information.md#multiple-grant-references-in-one-entry)
-* [Third-party funding vs funding to authors](funding-information.md#third-party-funding-vs-funding-to-authors)
-* [Splitting out parent and sub-funders](funding-information.md#splitting-out-parent-and-sub-funders)
-* [Funders that are in Funder Registry but hard to track down - non-English funder names that require translation](funding-information.md#funders-that-are-in-funder-registry-but-hard-to-track-down-non-english-funder-names-that-require-translation)
-* [Funders not in the Funder Registry](funding-information.md#funders-not-in-the-funder-registry)
-* [Examples of when to ignore/pay attention to the schematron message](funding-information.md#examples-of-when-to-ignore-pay-attention-to-the-schematron-messages)
-* [No funding information given](funding-information.md#no-funding-information-given)
+* \*\*\*\*[**Funder details in acknowledgements section but not in funding section**](funding-information.md#funder-details-in-acknowledgements-section-but-not-in-funding-section)\*\*\*\*
+* \*\*\*\*[**Multiple grant references in one entry**](funding-information.md#multiple-grant-references-in-one-entry)\*\*\*\*
+* \*\*\*\*[**Third-party funding vs funding to authors**](funding-information.md#third-party-funding-vs-funding-to-authors)\*\*\*\*
+* \*\*\*\*[**Splitting out parent and sub-funders**](funding-information.md#splitting-out-parent-and-sub-funders)\*\*\*\*
+* \*\*\*\*[**Funders that are in Funder Registry but hard to track down - non-English funder names that require translation**](funding-information.md#funders-that-are-in-funder-registry-but-hard-to-track-down-non-english-funder-names-that-require-translation)\*\*\*\*
+* \*\*\*\*[**Funders not in the Funder Registry**](funding-information.md#funders-not-in-the-funder-registry)\*\*\*\*
+* \*\*\*\*[**Examples of when to ignore/pay attention to the schematron message**](funding-information.md#examples-of-when-to-ignore-pay-attention-to-the-schematron-messages)\*\*\*\*
+* \*\*\*\*[**No funding information given**](funding-information.md#no-funding-information-given)\*\*\*\*
 
 ### Funder details in acknowledgements section but not in funding section
 
@@ -81,7 +81,7 @@ When this article came out of pre-editing, the information for the Latham Vision
 
 #### For the Alcon Research Institute
 
-1. Search for ‘Alcon Young Investigator Award’ online - which brings up [this page](https://www.alcon.com/alcon-research-institute), suggesting the funder is called Alcon Research Institute, and the award itself is the Alcon Young Investigator Award
+1. Search for ‘Alcon Young Investigator Award’ online - which brings up [**this page**](https://www.alcon.com/alcon-research-institute), suggesting the funder is called Alcon Research Institute, and the award itself is the Alcon Young Investigator Award
 2. Enter this information in the funding table and assign the correct author \(in this case, it would be ‘MBM’ i.e. Michael B Manookin\)
 
 ![](../../.gitbook/assets/3.png)
@@ -120,6 +120,10 @@ Looking up the COBRE Neuroscience Award online takes you to [this](http://www.me
 Note that this is a complicated example, and the authors should be asked to confirm whether this change is correct using the following author query.
 
 * Please check that the edited funding details are still correct.
+
+### Joint funders
+
+Some funding is provided through multiple funding agencies. For example, the [**SFI-HRB-Wellcome Research Partnership**](https://wellcome.ac.uk/funding/sfi-hrb-wellcome-research-partnership) ****is funded jointly by the Science Foundation Ireland, Health Research Board and the Wellcome Trust. Usually it is possible to tell  joint funders because the names are separated by a hyphen. If funders entered in this form do not validate, try entering each institution separately \(i.e. Science Foundation Ireland, Health Research Board and Wellcome should be separate entries\) with the same grant reference if one has been provided. If the authors have given information about who received this funding, make sure this is the same for all the entries. 
 
 ### Multiple grant references in one entry
 
@@ -177,7 +181,7 @@ Another example of this is the Horizon 2020 funding given out by the European Co
 
 The parent funder here is Horizon 2020, which is listed in the Funder Registry. However, to be as specific as possible, H2020 Marie Skłodowska-Curie Actions should be entered, as this is also in the Funder Registry.
 
-Sometimes, authors will enter programs as main funders. If the authors have entered a details for specific program as a funder \(e.g. 'Lois Pope LIFE Fellows Program'\), check whether this is an award issued by a funding body which is in the registry \(in this case, that would be the [University of Miami](http://biomed.med.miami.edu/graduate-programs/neuroscience/events/lois-pope-life-fellowship-awards)\). The program name should then be moved to the grant reference column and the funding body's name entered in its place:
+Sometimes, authors will enter programs as main funders. If the authors have entered a details for specific program as a funder \(e.g. 'Lois Pope LIFE Fellows Program'\), check whether this is an award issued by a funding body which is in the registry \(in this case, that would be the [**University of Miami**](http://biomed.med.miami.edu/graduate-programs/neuroscience/events/lois-pope-life-fellowship-awards)\). The program name should then be moved to the grant reference column and the funding body's name entered in its place:
 
 ![](../../.gitbook/assets/screenshot-2020-04-07-at-12.21.02.png)
 
@@ -285,13 +289,13 @@ The character / is appearing as broken unicode. Doing an online search for &\#x2
 
 **Warning:** _Whenever possible, a funder should have a doi - please check whether there is an appropriate doi in the open funder registry. \(institution-id\[@institution-id-type="FundRef"\] is not present in institution-wrap\)._
 
-**Action:** This warning will fire if a funder does not have a Funder Registry DOI associated with it. In these cases, first check that the funder name has been entered correctly by looking it up in the [Funder Registry](https://gitlab.com/crossref/open_funder_registry). Try searching for partial matches to the provided text. If no matches are returned, search for the entered funder online.
+**Action:** This warning will fire if a funder does not have a Funder Registry DOI associated with it. In these cases, first check that the funder name has been entered correctly by looking it up in the [**Funder Registry**](https://gitlab.com/crossref/open_funder_registry). Try searching for partial matches to the provided text. If no matches are returned, search for the entered funder online.
 
-If an online search shows that the funder is legitimate \(e.g. returns a website for the mentioned organisation\) but it is not on the Funder Registry and has no parent funding body, this warning can be ignored \(see [above](funding-information.md#funders-not-in-the-funder-registry)\).
+If an online search shows that the funder is legitimate \(e.g. returns a website for the mentioned organisation\) but it is not on the Funder Registry and has no parent funding body, this warning can be ignored \(see [**above**](funding-information.md#funders-not-in-the-funder-registry)\).
 
-If the authors have entered a details for specific program \(e.g. 'Lois Pope LIFE Fellows Program'\), check whether this is an award issued by a funding body which is in the registry \(in this case, that would be the [University of Miami](http://biomed.med.miami.edu/graduate-programs/neuroscience/events/lois-pope-life-fellowship-awards)\). The program name should then be moved to the grant reference column and the funding body's name entered in its place. See also how to [split parent and sub-funders](funding-information.md#splitting-out-parent-and-sub-funders).
+If the authors have entered a details for specific program \(e.g. 'Lois Pope LIFE Fellows Program'\), check whether this is an award issued by a funding body which is in the registry \(in this case, that would be the [**University of Miami**](http://biomed.med.miami.edu/graduate-programs/neuroscience/events/lois-pope-life-fellowship-awards)\). The program name should then be moved to the grant reference column and the funding body's name entered in its place. See also how to [**split parent and sub-funders**](funding-information.md#splitting-out-parent-and-sub-funders).
 
-For more information on the Funder Registry, see [here](funding-information.md#funder-registry).
+For more information on the Funder Registry, see [**here**](funding-information.md#funder-registry).
 
 #### fundref-test-1
 
@@ -301,7 +305,7 @@ For more information on the Funder Registry, see [here](funding-information.md#f
 
 > The authors thank \[...\] Dr. Evan Reid \(University of Cambridge\) \[...\] The Leica SP8 microscope used in this study was purchased by the University of Manchester Strategic Fund.
 
-The University of Cambridge should not be listed in the funding table because it is not mentioned as a funder but as the institution of one of the authors. The University of Manchester should also not be listed in the funding table because it is listed here as a third-party funder - i.e. it did not provide funding to the authors. For more guidance on adding funders into the table, see examples [here](funding-information.md#examples).
+The University of Cambridge should not be listed in the funding table because it is not mentioned as a funder but as the institution of one of the authors. The University of Manchester should also not be listed in the funding table because it is listed here as a third-party funder - i.e. it did not provide funding to the authors. For more guidance on adding funders into the table, see examples [**here**](funding-information.md#examples).
 
 #### award-group-test-7
 
@@ -373,7 +377,7 @@ If the authors confirm no funding was received, make sure the funding statement 
 
 **Error:** _funding-source must contain an institution-wrap._
 
-**Action:** Make sure the institution-wrap element \(containing the funder doi and funder name\) is present in the xml \(see [below](funding-information.md#xml-structure) for XML structure\). It should be impossible for this error to occur - please contact the Production team if you see it. 
+**Action:** Make sure the institution-wrap element \(containing the funder doi and funder name\) is present in the xml \(see [**below**](funding-information.md#xml-structure) for XML structure\). It should be impossible for this error to occur - please contact the Production team if you see it. 
 
 #### award-group-test-6
 
@@ -386,8 +390,6 @@ If the authors confirm no funding was received, make sure the funding statement 
 **Error:** _Every piece of funding must only have 1 institution. &lt;award-group id="XXXXXX"&gt; has XXXXXX - XXXXXX_
 
 **Action:** Make sure there is only institution element in the xml per award group \(see [below](funding-information.md#xml-structure) for XML structure\). It should be impossible for this error to occur - please contact the Production team if you see it. 
-
-\_\_
 
 ## XML structure
 
@@ -431,4 +433,12 @@ Article with no funding
     <article-meta>
 <front>
 ```
+
+## Changelog
+
+### 18/06/2020
+
+#### Changes
+
+* Added 'Joint funders' section
 

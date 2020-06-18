@@ -275,21 +275,21 @@ The following tests relate to software that may need to be forked.
 
 ### 13/05/2020
 
-#### Added
+#### Changes
 
-* Section: 'How to delete accidentally forked repositories'
+* Added 'How to delete accidentally forked repositories'
 
 ### 14/05/2020
 
-#### Added
+#### Changes
 
-* Sections: 'If no links or source code files are provided' and 'If no links or source code files are provided'
+* Added 'If no links or source code files are provided' and 'If no links or source code files are provided'
 
 ### 27/05/2020
 
-#### Added
+#### Changes
 
-* Section: 'If a repository is empty'
+* Added 'If a repository is empty'
 
 
 
