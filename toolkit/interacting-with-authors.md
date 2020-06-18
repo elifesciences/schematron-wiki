@@ -18,6 +18,7 @@ Most of the emails we get from authors fall into the following categories:
 * \*\*\*\*[**Updated figures or files**](interacting-with-authors.md#updated-figures-or-files)\*\*\*\*
 * \*\*\*\*[**Problems editing proofs**](interacting-with-authors.md#problems-editing-proofs)\*\*\*\*
 * \*\*\*\*[**Problems accessing proofs**](interacting-with-authors.md#problems-accessing-proofs)\*\*\*\*
+* \*\*\*\*[**Revised proof requests**](interacting-with-authors.md#revised-proof-requests)
 * \*\*\*\*[**Extensions to proofing deadline**](interacting-with-authors.md#extensions-to-proofing-deadline)\*\*\*\*
 * \*\*\*\*[**Adding ORCIDs**](interacting-with-authors.md#adding-orcids)\*\*\*\*
 * \*\*\*\*[**Proof/publication date estimation**](interacting-with-authors.md#proof-publication-date-estimation)\*\*\*\*
@@ -37,6 +38,10 @@ After doing this, let the authors know that the files will be updated in the fin
 ## Problems editing proofs
 
 Often authors will email because they are unable to make changes to their proofs. This may be because they are using the wrong browser or there is a bug in the system. If possible, try to instruct the authors on how they can make the changes themselves, with screenshots if appropriate \(e.g. how to respond to queries so they can progress to the next tab in the proofs\). If the changes are few and straightforward enough \(e.g. fixing a typo or adding a figure citation\), you can jump in and fix these for the author \(select the 'publisher check' option on the Kriya dashboard and access the proofs this way - but make sure the author is not logged in when you do this\). Otherwise, you can list the changes in the notes of the article for Exeter or eLife to address once the authors return the proofs. If the changes are extensive, the email should be forwarded on to Exeter with the subject prefix 'Author correspondence: XXXXX' \(where XXXXX is the article number\) so they can make the changes at the post-author validation stage \(see more about tagging and prefixing emails [**here**](managing-the-production-inbox.md#tags-and-prefixes)\). Make sure the author knows which course of action you are taking \(there are various email templates for this\). 
+
+## Revised proof requests
+
+Often authors will ask to see their proofs again once any issues they noticed have been fixed. Unless the authors have had serious problems with using the Kriya interface, proofs should be sent back to the authors in the system instead of sending revised PDFs. This just gives us more complete data about the time each article spends at each stage.
 
 ## Problems accessing proofs
 
