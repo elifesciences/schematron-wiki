@@ -45,4 +45,6 @@
 * [Interacting with authors](toolkit/interacting-with-authors.md)
 * [Publish on accept protocols](toolkit/publish-on-accept-protocols.md)
 * [Striking images](toolkit/striking-images.md)
+* [XML Glossary](toolkit/xml-glossary.md)
+* [eLife Glossary](toolkit/elife-glossary.md)
 
