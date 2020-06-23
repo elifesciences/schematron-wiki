@@ -49,11 +49,31 @@ Feature content includes the following items not found in research content:
 
 * **Key info box** - in Insights specifically, the details of the article\(s\) being commented upon are given in a box on the first page of the PDF. This content is not currently displayed online.
 
-![](../../.gitbook/assets/screen-shot-2020-06-23-at-16.03.20.png)
+![Example of a key info box](../../.gitbook/assets/screen-shot-2020-06-23-at-16.03.20.png)
+
+
+
+## Submission and export of Feature content
 
 
 
 
+
+## Production process for Feature content
+
+### Pre-editing
+
+
+
+### Pre-author check
+
+
+
+### Author proofing
+
+
+
+### Feature review
 
 
 
