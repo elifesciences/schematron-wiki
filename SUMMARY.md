@@ -15,11 +15,12 @@
 ## Article details
 
 * [Content](article-details/content/README.md)
+  * [Feature content](article-details/content/feature-content.md)
   * [Country names](article-details/content/country-names.md)
   * [Data availability](article-details/content/data-availability.md)
   * [Figures](article-details/content/untitled.md)
   * [Funding](article-details/content/funding-information.md)
-  * [General Content](article-details/content/general-content.md)
+  * [General content](article-details/content/general-content.md)
   * [Impact statement](article-details/content/impact-statement.md)
   * [Paragraphs](article-details/content/untitled-1.md)
   * [Reference citations](article-details/content/reference-citations.md)

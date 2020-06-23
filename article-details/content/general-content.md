@@ -1,4 +1,4 @@
-# General Content
+# General content
 
 ## Schematron checks
 
