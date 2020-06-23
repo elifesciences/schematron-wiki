@@ -120,7 +120,7 @@ Scroll to the last 6 lines of the report. If there is anything in the ‘warning
 
 \(See ‘[Crossref/Dryad failure protocol’](https://docs.google.com/document/d/1TW71S4AIILFIknkXYz1Gxlxw5OJg8ycuivyVYkgyknE/edit) for instructions on resolving one of the common failures we get.\)
 
-### **Pubmed loader report**
+### **PubMed loader report**
 
 This is another automated email we receive when articles are loaded to Pubmed \(see [Pubmed and PMC protcols](https://docs.google.com/document/d/1nngNI8tmRMgzOBqgO_s-w3dmCEjmwo6iTYjZr1HM5VQ/edit)\). These email can be closed.
 
