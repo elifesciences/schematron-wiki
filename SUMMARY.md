@@ -15,13 +15,12 @@
 ## Article details
 
 * [Content](article-details/content/README.md)
-  * [Tables](article-details/content/tables.md)
-  * [General Content](article-details/content/general-content.md)
   * [Country names](article-details/content/country-names.md)
   * [Data availability](article-details/content/data-availability.md)
-  * [Impact statement](article-details/content/impact-statement.md)
   * [Figures](article-details/content/untitled.md)
   * [Funding](article-details/content/funding-information.md)
+  * [General Content](article-details/content/general-content.md)
+  * [Impact statement](article-details/content/impact-statement.md)
   * [Paragraphs](article-details/content/untitled-1.md)
   * [Reference citations](article-details/content/reference-citations.md)
   * [References](article-details/content/references/README.md)
@@ -31,6 +30,7 @@
     * [Pre-print references](article-details/content/references/pre-print-references.md)
     * [Software references](article-details/content/references/software-references.md)
     * [Book references](article-details/content/references/book-references.md)
+  * [Tables](article-details/content/tables.md)
 * [People](article-details/people.md)
 * [Peer review](article-details/peer-review.md)
 * [Relationships](article-details/relationships.md)
