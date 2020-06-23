@@ -19,7 +19,7 @@ In addition to this, however, there are four categories of Feature article that 
 
 ### Feature templates
 
-There are five Feature templates that map to the above article types as follows:
+There are five Feature templates that map to the above article types. Aside from differences in the content of the articles, these reflect different PDF layouts.
 
 
 
