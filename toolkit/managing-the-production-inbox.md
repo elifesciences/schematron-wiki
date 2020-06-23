@@ -122,11 +122,11 @@ Scroll to the last 6 lines of the report. If there is anything in the ‘warning
 
 ### **PubMed loader report**
 
-This is another automated email we receive when articles are loaded to Pubmed \(see [Pubmed and PMC protcols](https://docs.google.com/document/d/1nngNI8tmRMgzOBqgO_s-w3dmCEjmwo6iTYjZr1HM5VQ/edit)\). These email can be closed.
+This is another automated email we receive when articles are loaded to PubMed \(see [Pubmed and PMC protcols](https://docs.google.com/document/d/1nngNI8tmRMgzOBqgO_s-w3dmCEjmwo6iTYjZr1HM5VQ/edit)\). These email can be closed.
 
 ![](../.gitbook/assets/16.png)
 
-Occasionally we also receive failures in this report. This is normally because Pubmed do not accept post-publication changes, so any articles that are corrected will fail. These emails can be closed.
+Occasionally we also receive failures in this report. This is normally because PubMed do not accept post-publication changes, so any articles that are corrected will fail. These emails can be closed.
 
 ![](../.gitbook/assets/17.png)
 
