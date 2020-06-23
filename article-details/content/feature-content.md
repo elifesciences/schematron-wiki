@@ -25,3 +25,25 @@ There are five Feature templates that map to the above article types. Aside from
 
 
 
+
+
+## Schematron checks
+
+
+
+feat-custom-meta-test-1	article-meta/custom-meta-group/custom-meta\[meta-name='Template'\]/meta-value	\*Error\*: \_XXXXXX is not allowed in a Template type meta-value.\_
+
+feat-custom-meta-test-2	article-meta/custom-meta-group/custom-meta\[meta-name='Template'\]/meta-value	\*Error\*: \_Template type meta-value must one of '1','2','3','4', or '5'.\_
+
+feat-custom-meta-test-info	article-meta/custom-meta-group/custom-meta\[meta-name='Template'\]/meta-value	\*Info\*: \_Template XXXXXX.\_
+
+feat-custom-meta-test-3	article-meta/custom-meta-group/custom-meta\[meta-name='Template'\]/meta-value	\*Error\*: \_XXXXXX must be a template 1. Currently it is a template XXXXXX.\_
+
+feat-custom-meta-test-4	article-meta/custom-meta-group/custom-meta\[meta-name='Template'\]/meta-value	\*Error\*: \_XXXXXX must be a template 2. Currently it is a template XXXXXX.\_
+
+feat-custom-meta-test-5	article-meta/custom-meta-group/custom-meta\[meta-name='Template'\]/meta-value	\*Error\*: \_XXXXXX must be a template 3, 4, or 5. Currently it is a template XXXXXX.\_
+
+
+
+
+
