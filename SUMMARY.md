@@ -48,4 +48,6 @@
 * [Striking images](toolkit/striking-images.md)
 * [XML Glossary](toolkit/xml-glossary.md)
 * [eLife Glossary](toolkit/elife-glossary.md)
+* [XML Glossary](toolkit/xml-glossary-1.md)
+* [eLife Glossary](toolkit/elife-glossary-1.md)
 

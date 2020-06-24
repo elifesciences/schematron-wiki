@@ -1,18 +1,6 @@
 ---
-description: Description of common terms used at eLife
+description: Definitions of common terms used by eLife
 ---
 
 # eLife Glossary
-
-#### PoA
-
-#### Digest 
-
-#### bot
-
-#### PMC
-
-#### PubMed
-
-#### CrossRef
 
