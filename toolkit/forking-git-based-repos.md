@@ -291,5 +291,11 @@ The following tests relate to software that may need to be forked.
 
 * Added 'If a repository is empty'
 
+### 24/06/2020
+
+#### Changes
+
+* Updated screenshot of repository license with new Github website style
+
 
 
