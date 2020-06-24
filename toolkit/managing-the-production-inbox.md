@@ -87,7 +87,7 @@ You can see in the screenshots below how emails have both the subject prefix \(f
 
 ## **Email types**
 
-There are many types of email that we receive on a regular basis. Many of these are automated and require a particular action each time.
+There are many types of email that we receive on a regular basis. Many of these are automated and require a particular action each time. For more information about how to reply to common author emails, see [**here**](interacting-with-authors.md).
 
 ### **Crossref emails**
 
@@ -99,7 +99,7 @@ Scroll to the last 6 lines of the report. If there is anything in the ‘warning
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-11.50.01.png)
 
-\(See ‘[Crossref/Dryad failure protocol’](https://docs.google.com/document/d/1TW71S4AIILFIknkXYz1Gxlxw5OJg8ycuivyVYkgyknE/edit) for instructions on resolving one of the common failures we get.\)
+\(See ‘[**Crossref/Dryad failure protocol**’](https://docs.google.com/document/d/1TW71S4AIILFIknkXYz1Gxlxw5OJg8ycuivyVYkgyknE/edit) for instructions on resolving one of the common failures we get.\)
 
 ### **Decision letter loading**
 
@@ -141,7 +141,7 @@ They will have already marked them as ‘no-digest’ articles in Kriya, however
 
 ![A no-digest article](../.gitbook/assets/24%20%281%29.png)
 
-If the article is still waiting for its decision letter to be loaded, the [decision letter tracking spreadsheet](https://docs.google.com/spreadsheets/d/1oy8TIwsedSYdy6n3_SFuqUcJ4Ljeg7tXnTS6q2CsNI8/edit?ts=57fe457c#gid=0) will need to be updated so the Editorial team knows which decision letters should be prioritised. Search for the manuscript number and in the 'Notes' column, add the text 'No digest, please prioritise'. 
+If the article is still waiting for its decision letter to be loaded, the [**decision letter tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1oy8TIwsedSYdy6n3_SFuqUcJ4Ljeg7tXnTS6q2CsNI8/edit?ts=57fe457c#gid=0) will need to be updated so the Editorial team knows which decision letters should be prioritised. Search for the manuscript number and in the 'Notes' column, add the text 'No digest, please prioritise'. 
 
 ![](../.gitbook/assets/screenshot-2020-06-24-at-15.14.36.png)
 
@@ -191,7 +191,7 @@ If the status of any of the packages indicates a failure, this will need to be i
 
 ![](../.gitbook/assets/screenshot-2020-06-24-at-15.25.41.png)
 
-Throughout the day we will also receive automated emails when articles are loaded to PubMed \(see [Pubmed and PMC protcols](https://docs.google.com/document/d/1nngNI8tmRMgzOBqgO_s-w3dmCEjmwo6iTYjZr1HM5VQ/edit)\). These emails can be closed.
+Throughout the day we will also receive automated emails when articles are loaded to PubMed \(see [**Pubmed and PMC protcols**](https://docs.google.com/document/d/1nngNI8tmRMgzOBqgO_s-w3dmCEjmwo6iTYjZr1HM5VQ/edit)\). These emails can be closed.
 
 ![](../.gitbook/assets/16.png)
 
@@ -201,7 +201,7 @@ We may also receive emails about articles that have been rejected from PubMed. T
 
 ### **Striking images**
 
-Authors will often email us with their ‘Striking images’ to be uploaded. Striking images are images that may be used for the eLife homepage or social media channels. [See here](../pages-in-progress/striking-images.md) for how to add striking images to articles. Authors may also refer to these as 'promotional images' or 'graphical abstracts'.
+Authors will often email us with their ‘Striking images’ to be uploaded. Striking images are images that may be used for the eLife homepage or social media channels. [**See here**](../pages-in-progress/striking-images.md) for how to add striking images to articles. Authors may also refer to these as 'promotional images' or 'graphical abstracts'.
 
 ### **XML notification emails**
 

@@ -8,8 +8,6 @@ Most of our interaction with the authors of eLife articles happens via email. It
 
 ![](../.gitbook/assets/captured-1-.gif)
 
-
-
 ## Common queries 
 
 Most of the emails we get from authors fall into the following categories:
