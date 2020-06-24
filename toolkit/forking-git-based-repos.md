@@ -29,9 +29,9 @@ It is usually possible to work out whether a repository needs to be forked based
 
 ## Make sure the repository has an open source license
 
-Only software with an open-source license can be forked. For GitHub repositories, the licensing information, if available, can be seen in the toolbar \(see below\). If this icon is not present, double-check the repository for a file with 'LICENSE' in the name or check the 'README' file which may include licensing information.
+Only software with an open-source license can be forked. For GitHub repositories, the licensing information, if available, can be seen in the 'About section' \(see below\). If this icon is not present, double-check the repository for a file with 'LICENSE' in the name or check the 'README' file which may include licensing information.
 
-![](../.gitbook/assets/screenshot-2020-04-21-at-12.36.20.png)
+![](../.gitbook/assets/screenshot-2020-06-24-at-11.15.54.png)
 
 You can check whether a license is open-source by clicking on it. In the above example, clicking on the MIT license brings up this information: 
 
