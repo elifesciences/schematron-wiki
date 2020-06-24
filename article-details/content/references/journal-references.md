@@ -75,11 +75,14 @@ Once you have entered the information in the fields, click on 'Search PubMed'. T
 
 ![](../../../.gitbook/assets/screenshot-2020-05-27-at-14.59.10.png)
 
-Click the article with the correct authors, title and journal. This should automatically fill in the remaining fields if the information hasn't been added already.
+Click the article with the correct authors, title and journal. This will automatically fill in the remaining fields if the information hasn't been added already.
 
-![](../../../.gitbook/assets/screenshot-2020-05-27-at-15.01.01.png)
+The minimum fields that need to be populated for the PubMed and CrossRef validators to find an article are:
 
-Often you don't need to fill in all the details for a journal reference - filling in some of the fields and then clicking on the 'Search CrossRef' button will usually give you the correct article. The rest of the details will then be automatically filled in when you click on the article. Then, click on 'Insert Reference' to add the reference to the article.
+* First author name
+* Year
+* Article title
+* Journal title
 
 Some journal references will not appear when searching the PubMed and CrossRef databases. If you have entered the article details correctly and verified that it is the same in the original submitted version, you can just click on 'Insert Reference' to add the reference to the article.
 
