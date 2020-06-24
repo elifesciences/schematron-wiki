@@ -20,7 +20,7 @@ To assign an email from the inbox, select it and click on the![](../.gitbook/ass
 
 You can also assign an email by opening the email and going to the Hiver toolbox on the right-hand side of the email. If this is not visible, click on the Hiver icon on the top-right Click on the 'Assigned to' drop-down menu.
 
-![](../.gitbook/assets/captured-1-.gif)
+![](../.gitbook/assets/captured-1-%20%282%29.gif)
 
 The email will then be tagged with that user’s name and moved to their inbox. The rest of the team can still search for and access the email, however they will not be notified of any correspondence in that thread until it is unassigned and moved back to the general inbox.
 
@@ -113,7 +113,7 @@ Check the decision letter has loaded on the Kriya dashboard.
 
 ![An article with decision letter \(and digest\) loaded](../.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%281%29.png)
 
-If the decision letter has loaded, this email can be closed. If the article is not yet in Kriya, this email should be left open until it is, and the decision letter will then need to be re-loaded at that point. 
+If the decision letter has loaded, this email can be closed. If the article is not yet in Kriya, this email should be left open until it is, and the decision letter will then need to be re-loaded at that point. For more information about the decision letter loading process, see [**here**](../pages-in-progress/decision-and-digest-loading.md).
 
 ### **Digest loading**
 
@@ -151,7 +151,7 @@ Occasionally our contact at PMC will email us to let us know that one of our art
 
 ### **PoA package emails - success and failure**
 
-We receive success or failure notifications for all articles that are scheduled for publication as PoAs by the bot. Every day, a member of the production team will handle these emails. The editorial office will let us know if any articles need to be reloaded or if the published dates need to be updated. If there is a failure, it will need action. We will also receive a 'PublishFinalPOA Success!' email when the PoAs have been published. This email can be closed. See [**Publish on Accept protocols**](publish-on-accept-protocols.md) for more information about the PoA process.
+We receive success or failure notifications for all articles that are scheduled for publication as PoAs by the bot. Every day, a member of the production team will handle these emails. The editorial office will let us know if any articles need to be reloaded or if the published dates need to be updated. If there is a failure, it will need action. We will also receive a 'PublishFinalPOA Success!' email when the PoAs have been published. This email can be closed. See [**Publish on Accept protocols**](../pages-in-progress/publish-on-accept-protocols.md) for more information about the PoA process.
 
 ![](../.gitbook/assets/26.png)
 
@@ -201,7 +201,7 @@ We may also receive emails about articles that have been rejected from PubMed. T
 
 ### **Striking images**
 
-Authors will often email us with their ‘Striking images’ to be uploaded. Striking images are images that may be used for the eLife homepage or social media channels. [See here](striking-images.md) for how to add striking images to articles. Authors may also refer to these as 'promotional images' or 'graphical abstracts'.
+Authors will often email us with their ‘Striking images’ to be uploaded. Striking images are images that may be used for the eLife homepage or social media channels. [See here](../pages-in-progress/striking-images.md) for how to add striking images to articles. Authors may also refer to these as 'promotional images' or 'graphical abstracts'.
 
 ### **XML notification emails**
 

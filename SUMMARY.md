@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Article structure](article-structure.md)
 * [Template](untitled-4.md)
 
 ## Checklists
@@ -41,11 +40,15 @@
 
 * [When and how to fork repositories](toolkit/forking-git-based-repos.md)
 * [Toggl](toolkit/kriya.md)
-* [Kriya](toolkit/kriya-1.md)
 * [Managing the production inbox](toolkit/managing-the-production-inbox.md)
 * [Interacting with authors](toolkit/interacting-with-authors.md)
-* [Publish on accept protocols](toolkit/publish-on-accept-protocols.md)
-* [Striking images](toolkit/striking-images.md)
 * [XML Glossary](toolkit/xml-glossary.md)
 * [eLife Glossary](toolkit/elife-glossary.md)
+
+## Pages in progress
+
+* [Kriya](pages-in-progress/kriya-1.md)
+* [Publish on accept protocols](pages-in-progress/publish-on-accept-protocols.md)
+* [Decision and digest loading](pages-in-progress/decision-and-digest-loading.md)
+* [Striking images](pages-in-progress/striking-images.md)
 
