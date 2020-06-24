@@ -123,7 +123,19 @@ Note that this is a complicated example, and the authors should be asked to conf
 
 ### Joint funders
 
-Some funding is provided through multiple funding agencies. For example, the [**SFI-HRB-Wellcome Research Partnership**](https://wellcome.ac.uk/funding/sfi-hrb-wellcome-research-partnership) ****is funded jointly by the Science Foundation Ireland, Health Research Board and the Wellcome Trust. Usually it is possible to tell  joint funders because the names are separated by a hyphen. If funders entered in this form do not validate, try entering each institution separately \(i.e. Science Foundation Ireland, Health Research Board and Wellcome should be separate entries\) with the same grant reference if one has been provided. If the authors have given information about who received this funding, make sure this is the same for all the entries. 
+Some funding is provided through multiple funding agencies. For example, the [**SFI-HRB-Wellcome Research Partnership**](https://wellcome.ac.uk/funding/sfi-hrb-wellcome-research-partnership) ****is funded jointly by the Science Foundation Ireland, Health Research Board and the Wellcome Trust. The acknowledgements section of 58925 stated:
+
+> CJR’s work on this study was funded by the HRB/SFI/Wellcome Trust partnership \(grant number 103049/Z/13/Z\)
+
+This was added to the funding table as below:
+
+![](../../.gitbook/assets/screenshot-2020-06-24-at-14.44.33.png)
+
+Usually it is possible to tell  joint funders because the names are separated by a hyphen. If funders entered in this form do not validate, try entering each institution separately \(i.e. Science Foundation Ireland, Health Research Board and Wellcome should be separate entries\) with the same grant reference if one has been provided. If the authors have given information about who received this funding, make sure this is the same for all the entries. Add the following query once you have added joint funders:
+
+* Please check that the edited funding details are still correct.
+
+If the article is at pub review, these entries can be left as-is.
 
 ### Multiple grant references in one entry
 
@@ -441,4 +453,10 @@ Article with no funding
 #### Changes
 
 * Added 'Joint funders' section
+
+### 24/06/2020
+
+#### Changes
+
+* Updated 'Joint funders' section
 
