@@ -27,7 +27,7 @@
     * [Conference references](article-details/content/references/conference-references.md)
     * [Dataset references](article-details/content/references/dataset-references.md)
     * [Journal references](article-details/content/references/journal-references.md)
-    * [Preprint references](article-details/content/references/pre-print-references.md)
+    * [Preprint references](article-details/content/references/preprint-references.md)
     * [Software references](article-details/content/references/software-references.md)
     * [Book references](article-details/content/references/book-references.md)
   * [Tables](article-details/content/tables.md)

@@ -224,7 +224,7 @@ These are the known preprint servers that are commonly cited in eLife articles. 
 
 ### XML Structure checks
 
-These checks relate to the XML structure of preprint references. For more information about what the XML should look like, [**see below**](pre-print-references.md#xml-structure).
+These checks relate to the XML structure of preprint references. For more information about what the XML should look like, [**see below**](preprint-references.md#xml-structure).
 
 #### err-elem-cit-preprint-2-1
 
