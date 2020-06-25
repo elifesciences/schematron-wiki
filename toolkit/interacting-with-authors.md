@@ -92,7 +92,7 @@ This can be used when an article is ready to publish but it has an Insight which
 
 #### LaTex Package request
 
-
+This template is used when authors have used LaTex packages that are not amongst those on Exeter's system, and these packages have not been provided as supporting files on the submission system. This means that the article file cannot be properly processed. When this happens, a list of the missing packages will be provided and this should be passed on to the author using this email. Once the missing packagaes/supporting files have been provided, these should be passed on to Exeter.
 
 #### ORCID addition
 
