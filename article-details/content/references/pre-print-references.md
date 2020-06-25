@@ -286,7 +286,7 @@ If the reference has more than one title, compare the details with the original 
 
 **Action**: This will fire if the title in a preprint reference contains fewer than 2 characters. Search for the preprint online. If there are not enough details to find the full title, add the following author query at pre-author stages:
 
-* Please provide the journal name for this reference.
+* Please provide the title for this reference.
 
 And contact the authors at post-authors stages in order to get this information.
 
