@@ -47,13 +47,14 @@ Tables can also have accompanying source data and/or source code files.
 Tables should have an appropriate label based on their placement in the content. The following label formats are permitted for tables at eLife:
 
 * Table 1.
-* Key resources table.
+* Key resources table
+* Appendix 1—key resources table
 * Appendix 1—table 1.
 * Box 1—table 1.
 * Decision letter table 1.
 * Author response table 1.
 
-\(Note that the full stop at the end _has_ to be within the label\)
+\(Note that those with full stops at the end must have these within the label\)
 
 #### What to do when an author has not used one of the preferred labels
 
@@ -235,13 +236,13 @@ But ultimately, the decision about whether to include \(supported\) colours is m
 
 Key resources tables contain a list of resources \(such as Genes, Strains, Antibodies, Reagents, Chemical compounds, Software etc.\) that were used in generating the research communicated in an article. 
 
-They are always placed at the start of the Materials and methods \(or equivalent sections, such as Model and materials\).
+They are always placed at the start of the Materials and methods \(or equivalent sections, such as Model and materials\), except for those placed in an appendices.
 
-They have the label 'Key resources table', and no title or caption.
+They have a label in the format 'Key resources table' or 'Appendix 1—key resources table', and no title or caption.
 
 They have a specific structure which must be followed - there will always be 5 columns, each with a header. When creating these tables, authors should use [**this template**](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). If the structure is not adhered to, then this has to be fixed during proofing. There are Schematron tests which will flag Key resources tables with the incorrect headers or number of columns.
 
-In some articles, Key resources tables will be captured in a supplementary file instead. This is currently acceptable and no action needs to be taken \(although in the future we will likely not allow this\).
+In some articles, Key resources tables will be captured in a supplementary file instead. This is currently acceptable and no action needs to be taken \(although in the future we will likely not allow this, and will instead mandate that these are captured in appendices\).
 
 [**Key resources table example**](https://elifesciences.org/articles/57578#keyresource):
 
@@ -462,6 +463,12 @@ If the second scenario is the case, the id will need to be corrected so that it 
 
 **Action**: Key resources tables must have the label 'Key resources table', and an id `keyresource`. This will fire is a table has that id, but it does not have a label, or the label is not exactly as specified above. Action should be taken to ensure both of these conditions are met.
 
+#### kr-table-wrap-test-2
+
+**Error**: _table-wrap has an id 'XXXXXX' but its label is not in the format 'Appendix 0—key resources table', which is incorrect._
+
+**Action**: Key resources tables in Appendices must have a label in the format 'Appendix 0_—k_ey resources table', and an id in the format `app0keyresource`. This will fire is a table has that id, but it does not have a label, or the label is not exactly as specified above. Action should be taken to ensure both of these conditions are met.
+
 #### pre-table-wrap-cite-1
 
 **Warning**: _There is no citation to XXXXXX. Ensure to query the author asking for a citation._
@@ -494,9 +501,9 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 #### kr-table-not-tagged
 
-**Error**: _XXXXXX has headings that are for the Key resources table, but it does not have an @id='keyresource'._
+**Error**: _XXXXXX has headings that are for a Key resources table, but it does not have an @id the format 'keyresource' or 'app0keyresource'._
 
-**Action**: This will at all stages fire if a table has all the Key resources table headings but does not have an  id `keyresource`. If this fires, ensure that the Table is captured as a Key resources table \(with the correct id, label and no title or caption\).
+**Action**: This will at all stages fire if a table has all the Key resources table headings but does not have an id in the format `keyresource` or _`app0keyresource`._ If this fires, ensure that the Table is captured as a Key resources table \(with the correct id and label depending on where it is placed and no title or caption\).
 
 #### kr-table-not-tagged-2
 
@@ -740,9 +747,9 @@ These checks relate to the XML structure of tables. X or XXXXXX refers to quoted
 
 #### app-table-wrap-id-test-1
 
-**Error**: _table-wrap @id in appendix must be in the format 'app0table0'. XXXXXX does not conform to this._
+**Error**: _table-wrap @id in 'app0table0' for normal tables, or 'app0keyresource' for key resources tables in appendices. XXXXXX does not conform to this._
 
-**Action**: This will fire when the value if the `id` attribute for a table \(with a label\) in the appendix is not in the format `app0table0`. If this fires, it either means that the Table is in the incorrect appendix, or the id needs to be corrected.
+**Action**: This will fire when the value if the `id` attribute for a table \(with a label\) in the appendix is not in the format `app0table0` or `app0keyresource`. If this fires, it either means that the Table is in the incorrect appendix, or the id needs to be corrected.
 
 #### app-table-wrap-id-test-2
 
@@ -1382,4 +1389,5 @@ Vertical cell alignment is defined using the `valign` attribute.
 ## Change log
 
 * Updated 2020-06-18 to include table-cell-1 and table-xref-test-6.
+* Updated 2020-06-24 to account for Key resources tables in appendices.
 
