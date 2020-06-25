@@ -52,8 +52,9 @@ The following information can be added for preprint references:
     <tr>
       <td style="text-align:left">Year</td>
       <td style="text-align:left">Yes</td>
-      <td style="text-align:left">&lt;year iso-8601-date=&quot;2020&quot;&gt;2020&lt;/year&gt;</td>
-      <td style="text-align:left">2020</td>
+      <td style="text-align:left">&lt;year iso-8601-date=&quot;2020&quot;&gt;2020a&lt;/year&gt;</td>
+      <td
+      style="text-align:left">2020</td>
     </tr>
     <tr>
       <td style="text-align:left">Title</td>
