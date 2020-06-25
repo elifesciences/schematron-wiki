@@ -144,7 +144,7 @@ Some preprint references will not appear when searching the CrossRef database \(
 
 ## Updating a preprint reference to a journal reference
 
-If a preprint has been published while an eLife article is in the production process, it may be necessary to update it to a journal reference \(see [Journal references](journal-references.md)\). This should only be done on the instruction of the author\(s\) of the eLife article, in other words, there is no need to check every preprint reference in order to determine whether it has been published as a journal - this is also because there are perfectly valid reasons why a preprint might be cited, but not the journal article that it became.
+If a preprint has been published while an eLife article is in the production process, it may be necessary to update it to a journal reference \(see [Journal references](journal-references.md)\). This should only be done on the instruction of the author\(s\) of the eLife article, in other words, there is no need to check every preprint reference in order to determine whether it has been published as a journal.
 
 ## Schematron checks 
 
