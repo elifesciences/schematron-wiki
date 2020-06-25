@@ -119,6 +119,10 @@ Wait five minutes or so and then check the decision letter has loaded on the Kri
 
 If the decision letter has loaded, this email can be closed. If the article is not yet in Kriya, this email should be left open until it is \(add a note to the email using Hiver\).
 
+We may get error emails if decision letters fail to load:
+
+![](../.gitbook/assets/screenshot-2020-06-25-at-14.31.31.png)
+
 A decision letter may fail to load for the following reasons:
 
 * Kriya is down \(we should still receive a success email\).
