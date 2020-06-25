@@ -6,7 +6,7 @@ description: This is a page about entries for preprints in the reference list.
 
 ## What is a preprint?
 
-A preprint is an article which has been published online, but has not gone through any form of peer review. Preprints may undergo peer review subsequent to their initial publication, and may potentially then be published in an academic journal. Popular preprint servers include \(but are not limited to\) bioRxiv, arXiv, chemRxiv, medRxiv and so on.
+A preprint is a manuscript which has been published online, but has not gone through any form of peer review. Preprints may undergo peer review subsequent to their initial publication, and may potentially then be published in an academic journal. Popular preprint servers include \(but are not limited to\) bioRxiv, arXiv, chemRxiv, medRxiv and so on.
 
 ## What is a preprint reference?
 
