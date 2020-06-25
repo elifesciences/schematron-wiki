@@ -152,6 +152,66 @@ If a preprint has been published while an eLife article is in the production pro
 
 These checks relate to the content of journal references. X or XXXXXX refers to quoted text which will change depending on the article.
 
+#### not-rxiv-test
+
+**Warning**: _ref 'XXXXXX' is tagged as a preprint, but has a source XXXXXX, which doesn't look like a preprint. Is it correct?_
+
+**Action**_:_
+
+#### biorxiv-test
+
+**Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'bioRxiv'._
+
+**Action**_:_
+
+#### arxiv-test
+
+**Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'arXiv'._
+
+**Action**_:_
+
+#### chemrxiv-test
+
+**Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'ChemRxiv'._
+
+**Action**_:_
+
+#### medrxiv-test
+
+**Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'medRxiv'._
+
+**Action**_:_
+
+#### peerjpreprints-test
+
+**Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'PeerJ Preprints'._
+
+**Action**_:_
+
+#### psyarxiv-test
+
+**Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'PsyArXiv'._
+
+**Action**_:_
+
+#### paleorxiv-test
+
+**Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'PaleorXiv'._
+
+**Action**_:_
+
+#### preprint-replacement-character-presence
+
+**Error:** _element contains the replacement character '�' which is unallowed - XXXXXX_
+
+**Action**_:_
+
+#### preprint-handbook-presence
+
+**Error:** _Preprint ref 'XXXXXX' has a source 'XXXXXX'. Should it be captured as a book type reference instead?_
+
+**Action**_:_
+
 ### XML Structure checks
 
 These checks relate to the XML structure of journal references. For more information about what the XML should look like, [**see below**](pre-print-references.md#xml-structure).
