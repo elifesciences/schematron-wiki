@@ -122,7 +122,7 @@ The default fields in Kriya will need to be altered to include the following inf
 * Website \(if applicable\)
 * DOI \(if applicable\)
 
-Once you have entered the information in the fields, click on 'Search Crossref' \(preprints are not currently deposited to PubMed so searching PubMed will return no results, this is likely to change in the future though\). This will compare the information entered to the Crossref database and ensures that a DOI is added \(if there is one - not all journals use DOIs\).
+Once you have entered the information in the fields, click on 'Search Crossref' \(preprints are not currently deposited to PubMed so searching PubMed will return no results, this is likely to change in the future though\). This will compare the information entered to the Crossref database and ensures that a DOI is added \(if there is one - not all preprints have DOIs\).
 
 ![](../../../.gitbook/assets/screen-shot-2020-06-25-at-15.49.16.png)
 
