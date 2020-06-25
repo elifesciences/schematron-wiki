@@ -67,7 +67,7 @@ Our tags:
 * Features - for all correspondence regarding feature content
 * Press - for any press-related emails
 * New versions - for any published articles that need to be corrected \(PoA and VoR\)
-* TNQ Correction - for any emails about articles requiring a TNQ correction \(correction for any articles published before November 2015\)
+* TNQ Correction - for any emails about articles requiring a TNQ correction \(correction for any articles published before November 2015 with our previous typesetters\)
 
 ### Exeter prefixes
 
@@ -101,19 +101,36 @@ Scroll to the last 6 lines of the report. If there is anything in the ‘warning
 
 \(See ‘[**Crossref/Dryad failure protocol**’](https://docs.google.com/document/d/1TW71S4AIILFIknkXYz1Gxlxw5OJg8ycuivyVYkgyknE/edit) for instructions on resolving one of the common failures we get.\)
 
+Every now and then we also get emails from Crossref to let us know about scheduled maintenance. These can just be closed. If they email to let us know their server is down, this email can be kept open for the duration of the outage so everyone on the team is aware of this.
+
+![](../.gitbook/assets/screenshot-2020-06-25-at-12.29.40%20%281%29.png)
+
 ### **Decision letter loading**
 
 When the Editorial team uploads a decision letter via the decision letter API, we receive an email. 
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-11.53.32.png)
 
-Check the decision letter has loaded on the Kriya dashboard.
+Wait five minutes or so and then check the decision letter has loaded on the Kriya dashboard.
 
 ![An article with no decision letter or digest](../.gitbook/assets/screenshot-2020-06-17-at-11.59.06.png)
 
 ![An article with decision letter \(and digest\) loaded](../.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%281%29.png)
 
-If the decision letter has loaded, this email can be closed. If the article is not yet in Kriya, this email should be left open until it is, and the decision letter will then need to be re-loaded at that point. For more information about the decision letter loading process, see [**here**](../pages-in-progress/decision-and-digest-loading.md).
+If the decision letter has loaded, this email can be closed. If the article is not yet in Kriya, this email should be left open until it is \(add a note to the email using Hiver\).
+
+A decision letter may fail to load for the following reasons:
+
+* Kriya is down \(we should still receive a success email\).
+* The article has not yet been sent to Kriya \(we will receive a success email for this - not a failure one\). The decision letter should be reloaded once the article has been loaded to Kriya - this can be done by downloading and then re-uploading the zip on the AWS bucket.
+* An article is currently in the 'Content loading' stage in Kriya. This will result in a failure email. Leave this email open and once the article has loaded to Kriya, re-upload the decision letter to the AWS bucket as above.
+* Editorial have zipped up the files incorrectly. The failure message might say something like:
+
+> \[No articles to check\]
+
+Check that the files have been included as direct children of the zip, i.e. that a folder hasn't been included in the zip. If all the files are zipped correctly, then a GitHub issue should be raised in the eLife issues repository, and assigned to Graham to investigate.
+
+* Other. If a failure message comes through and you are unsure what it means, it's possible that the content hasn't been parsed correctly by the parser. A GitHub issue should be raised in the eLife issues repository, and assigned to Graham to investigate.
 
 ### **Digest loading**
 
@@ -121,15 +138,17 @@ Similarly, we receive emails when a digest is uploaded to an article.
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-12.13.45.png)
 
-Just as before, these also need to be checked on Kriya before closing.
+Just as before, these also need to be checked on Kriya five minutes after we receive the email before closing.
 
 ![An article with digest \(and decision letter\) loaded](../.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%281%29.png)
 
-### **Video processing**
+If a digest hasn't loaded, this is usually because Kriya is down \(or the article hasn't yet been loaded, but this is much less likely\). When Kriya is running again, or when the article has loaded, the digest will need to be re-uploaded to the AWS bucket. Digests may also not load because there is a problem with the files or parser - in this case, we'll need to raise a GitHub issue for Graham to investigate.
 
-Every time an article with videos is sent to Continuum, we receive a processing report from Glencoe, our video hosting site. If all videos are listed underneath the ‘succeeded’ heading, this email can be closed. If any are listed under ‘failed’ this will need to be investigated with Exeter and/or Glencoe.
+### GitHub/GitLab emails
 
-![](../.gitbook/assets/13%20%281%29.png)
+The production team uses GitHub and GitLab to collaborate with other teams. When issues we are assigned to receive replies or when we are mentioned in issues, we receive emails to notify us. You can reply to these in GitHub or GitLab \(depending on which platform was used\). If you are unsure of what to do in response to the email, raise this in the daily Huddle meeting.
+
+![](../.gitbook/assets/screenshot-2020-06-25-at-12.40.37.png)
 
 ### **No-digest emails**
 
@@ -137,7 +156,7 @@ Every week \(usually on Wednesday or Thursday\), the Features team send us a lis
 
 ![](../.gitbook/assets/screenshot-2020-06-24-at-15.06.27.png)
 
-They will have already marked them as ‘no-digest’ articles in Kriya, however we need to check all of them to ensure that the labels have stuck. If an article has been sent to the 'Waiting for assets' queue and has had its decision letter loaded, marking it as 'no-digest' will send it straight to the authors for proofing.
+They will have already marked them as ‘no-digest’ articles in Kriya, however we need to check all of them to ensure that the labels have stuck because Kriya 1 can be unstable. Add the 'No digest' status to any that haven't had the label stick. If an article has been sent to the 'Waiting for assets' queue and has had its decision letter loaded, marking it as 'no-digest' will send it straight to the authors for proofing.
 
 ![A no-digest article](../.gitbook/assets/24%20%281%29.png)
 
@@ -145,9 +164,23 @@ If the article is still waiting for its decision letter to be loaded, the [**dec
 
 ![](../.gitbook/assets/screenshot-2020-06-24-at-15.14.36.png)
 
+If the article is not yet in Kriya, add it to the [**Production actions sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) under the 'CONFIRMED NO DIGEST BUT NOT YET IN KRIYA' heading and update the 'last checked' date. This section of the sheet should be checked every day and once the article has loaded to Kriya, it should be marked as 'No digest'. 
+
+![](../.gitbook/assets/screenshot-2020-06-25-at-12.36.21.png)
+
+### **Out of office responses**
+
+We may receive 'out of office' response to the automatic proofing emails that are sent to authors. If the author is only out of office for a few days, these emails can be closed. If the author is on sabbatical, forward the proofing email to the other corresponding authors if there are any, or to the first author and cc in the author on sabbatical to check whether they will be able to review the proofs. If they will not, we may need to ask Exeter to manually move the proofs in house once the other authors have finished reviewing the proofs.
+
 ### **PMC failures**
 
-Occasionally our contact at PMC will email us to let us know that one of our articles has failed on PMC. This is nearly always an XML error. It should be investigated, and if necessary, resupplied and sent to Exeter for silent correction to fix the error in the XML.
+Occasionally our contact at PMC will email us to let us know that one of our articles has failed on PMC. This is nearly always an XML error. It should be investigated, and if necessary, resupplied and sent to Exeter for silent correction to fix the error in the XML. We can usually pick up on these failures before we are contacted by PMC, as we receive a daily report of articles that have been loaded to them in the last 24 hours. If the status of each package is 'Passed-Sent to QA', this email can be closed.
+
+![](../.gitbook/assets/screenshot-2020-06-24-at-15.20.50.png)
+
+If the status of any of the packages indicates a failure, this will need to be investigated &lt;info to be added&gt;.
+
+![](../.gitbook/assets/screenshot-2020-06-24-at-15.25.41.png)
 
 ### **PoA package emails - success and failure**
 
@@ -177,31 +210,29 @@ Similarly, authors receive another email when their proof is overdue, one at 2 d
 
 ![](../.gitbook/assets/11.png)
 
-If the proof is still not submitted, we will receive an email asking us to chase the authors manually. Always check that the author has not been in touch before chasing them. If someone is already corresponding with them, then the email can be closed. If the authors do not reply within 2 working days, other corresponding authors and/or first authors should be copied into follow-up chaser emails.
+If the proof is still not submitted, we will receive an email asking us to chase the authors manually. Always check that the author has not been in touch before chasing them. If someone is already corresponding with them, then the email can be closed. If not, send a manual chaser email \(there is a [**Hiver template**](interacting-with-authors.md#chaser) for this as well as one for use [**specifically during COVID**](interacting-with-authors.md#covid-chaser)\) and copy in all corresponding authors. If the authors do not reply within 2 working days, first authors should be copied into follow-up chaser emails.
 
 ![](../.gitbook/assets/12.png)
 
-### **PubMed loader report and daily summaries**
-
-Every day, we receive a report of articles that have been loaded to PubMed. If the status of each package is 'Passed-Sent to QA', this email can be closed.
-
-![](../.gitbook/assets/screenshot-2020-06-24-at-15.20.50.png)
-
-If the status of any of the packages indicates a failure, this will need to be investigated &lt;link to be added&gt;.
-
-![](../.gitbook/assets/screenshot-2020-06-24-at-15.25.41.png)
+### **PubMed loader report**
 
 Throughout the day we will also receive automated emails when articles are loaded to PubMed \(see [**Pubmed and PMC protcols**](https://docs.google.com/document/d/1nngNI8tmRMgzOBqgO_s-w3dmCEjmwo6iTYjZr1HM5VQ/edit)\). These emails can be closed.
 
 ![](../.gitbook/assets/16.png)
 
-We may also receive emails about articles that have been rejected from PubMed. This is normally because PubMed do not accept post-publication changes, so any articles that are corrected will fail. These emails can be closed.
+We may also receive emails about articles that have been rejected from PubMed. This will need to be investigated further so raise this in the daily Huddle meeting. 
 
 ![](../.gitbook/assets/17.png)
 
 ### **Striking images**
 
 Authors will often email us with their ‘Striking images’ to be uploaded. Striking images are images that may be used for the eLife homepage or social media channels. [**See here**](../pages-in-progress/striking-images.md) for how to add striking images to articles. Authors may also refer to these as 'promotional images' or 'graphical abstracts'.
+
+### **Video processing**
+
+Every time an article with videos is sent to Continuum, we receive a processing report from Glencoe, our video hosting site. If all videos are listed underneath the ‘succeeded’ heading, this email can be closed. If any are listed under ‘failed’ this will need to be investigated with Exeter and/or Glencoe.
+
+![](../.gitbook/assets/13%20%281%29.png)
 
 ### **XML notification emails**
 

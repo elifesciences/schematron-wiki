@@ -133,7 +133,7 @@ This was added to the funding table as below:
 
 Usually it is possible to tell  joint funders because the names are separated by a hyphen. If funders entered in this form do not validate, try entering each institution separately \(i.e. Science Foundation Ireland, Health Research Board and Wellcome should be separate entries\) with the same grant reference if one has been provided. If the authors have given information about who received this funding, make sure this is the same for all the entries. Add the following query once you have added joint funders:
 
-* Please check that the edited funding details are still correct.
+* To ensure all funders are entered in Please check that the edited funding details are still correct.
 
 If the article is at pub review, these entries can be left as-is.
 

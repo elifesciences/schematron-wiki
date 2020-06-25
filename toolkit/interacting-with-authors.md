@@ -4,7 +4,7 @@ description: Responding to common author queries
 
 # Interacting with authors
 
-Most of our interaction with the authors of eLife articles happens via email. It is important to ensure that queries from authors are responded to the day they are received, unless after 4pm, in which case they should be replied to the following morning. If we do not have an answer to the queries yet, the authors should be made aware that we are looking into it. There are many email templates saved in the production collaboration tool \(Hiver\) which are useful for drafting responses - but these should be tailored to cover the nuances in each author query. To access the Hiver templates, open an email and click to reply to it, then click on the 'Email templates' button. Select the appropriate template and tailor it to the email.
+Most of our interaction with the authors of eLife articles happens via email. It is important to ensure that queries from authors are responded to the day they are received, unless after 4pm, in which case they can be replied to the following morning. If we do not have an answer to the queries yet, the authors should be made aware that we are looking into it. There are many email templates saved in the production collaboration tool \(Hiver\) which are useful for drafting responses - but these should be tailored to cover the nuances in each author query. To access the Hiver templates, open an email and click to reply to it, then click on the 'Email templates' button. Select the appropriate template and tailor it to the email.
 
 ![](../.gitbook/assets/captured-1-.gif)
 
@@ -26,7 +26,11 @@ The initial email authors receive when their proofs are ready to review asks for
 
 ### Problems editing proofs
 
-Often authors will email because they are unable to make changes to their proofs. This may be because they are using the wrong browser or there is a bug in the system. If possible, try to instruct the authors on how they can make the changes themselves, with screenshots if appropriate \(e.g. how to respond to queries so they can progress to the next tab in the proofs\). If the changes are few and straightforward enough \(e.g. fixing a typo or adding a figure citation\), you can jump in and fix these for the author \(select the 'publisher check' option on the Kriya dashboard and access the proofs this way - but make sure the author is not logged in when you do this\). Otherwise, you can list the changes in the notes of the article for Exeter or eLife to address once the authors return the proofs. If the changes are extensive, the authors should be encouraged to make the edits in the system where possible \(e.g. changes to the text\). If the authors are still unwilling to do this \(but the system is working fine\), we will need to make the changes for them. If the authors cannot make the changes because of problems with the system, the email should be forwarded on to Exeter with the subject prefix 'Author correspondence: XXXXX' \(where XXXXX is the article number\) so they can make the changes at the post-author validation stage \(see more about tagging and prefixing emails [**here**](managing-the-production-inbox.md#tags-and-prefixes)\). Make sure the author knows which course of action you are taking.
+Often authors will email because they are unable to make changes to their proofs. This may be because they are using the wrong browser or there is a bug in the system. If possible, try to instruct the authors on how they can make the changes themselves, with screenshots if appropriate \(e.g. how to respond to queries so they can progress to the next tab in the proofs\). 
+
+If the changes are few and straightforward enough \(e.g. fixing a typo or adding a figure citation\), you can jump in and fix these for the author. Select the 'publisher check' option on the Kriya dashboard and access the proofs this way. If the authors are logged in, you will need to ask them to log out. Otherwise, you can list the changes in the notes of the article for Exeter or eLife to address once the authors return the proofs. 
+
+If the changes are extensive, the authors should be encouraged to make the edits in the system where possible \(e.g. changes to the text\). If the authors are still unwilling to do this \(but the system is working fine\), we will need to make the changes for them. If the authors cannot make the changes because of problems with the system, the email should be forwarded on to Exeter with the subject prefix 'Author correspondence: XXXXX' \(where XXXXX is the article number\) so they can make the changes at the post-author validation stage \(see more about tagging and prefixing emails [**here**](managing-the-production-inbox.md#tags-and-prefixes)\). Make sure the author knows which course of action you are taking.
 
 ### Problems accessing proofs
 
@@ -40,7 +44,7 @@ Authors may email to let us know their institutions are preparing a press releas
 
 If authors want to know when they will receive their proofs, or when their article will be published, we need to first check what stage the article is at. 
 
-* If an article has recently been added to Kriya and the decision letter has yet to be added, it will usually take up to two weeks before this is ready to go to the authors. 
+* If an article has recently been added to Kriya and it is only waiting for its decision letter, it will usually take around a week before this is ready to go to the authors. 
 * If an article is waiting for a digest, check the [**digest status list**](https://docs.google.com/spreadsheets/d/17Llag-aEnbuARu5ORDJFki4K73xzy1fz2B2XG_QHQPI/edit#gid=1376331906) to see when this will be ready. The proofs will automatically be sent to the authors once this is uploaded by the Features team. Usually decision letters will be added before the digests are ready.
 * Once an article has arrived at publisher review, it should be ready to publish on the same day, unless there are issues to correct or the authors want to see revised proofs \(or the article is getting press coverage, in which case it should be scheduled for a pre-agreed press date\).
 
@@ -88,7 +92,7 @@ This can be used when an article is ready to publish but it has an Insight which
 
 #### LaTex Package request
 
-#### Missing copy-edit level
+
 
 #### ORCID addition
 

@@ -16,6 +16,8 @@ Requirements for striking images:
 * Images should have strong visual impact and not be composed of more than one or two panels
 * Images should be landscape and a minimum size of 1800 x 900 pixels
 
+This information is provided to authors, and it is up to them to ensure the images they provide adhere to these guidelines. We do not check them; we upload whatever is provided to Kriya. 
+
 ## Uploading striking images in Kriya
 
 To attach a striking image to an article, download the image provided by the author, go to the article in the Kriya dashboard and click on 'Striking image'. 
