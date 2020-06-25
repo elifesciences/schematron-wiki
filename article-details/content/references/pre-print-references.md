@@ -142,69 +142,97 @@ The minimum fields that need to be populated for the PubMed and CrossRef validat
 
 Some preprint references will not appear when searching the CrossRef database \(not all of them have DOIs\). If you have entered the article details correctly and verified that it is the same in the original submitted version, you can just click on 'Insert Reference' to add the reference to the article.
 
-## Examples
+## Updating a preprint reference to a journal reference
 
-XML for standard references of this style \(several variants\) and the corresponding display
+If a preprint has been published while an eLife article is in the production process, it may be necessary to update it to a journal reference \(see [Journal references](journal-references.md)\). This should only be done on the instruction of the author, in other words, there is no need to check every preprint reference in order to determine whether it has been published as a journal - this is also because there are perfectly valid reasons why a preprint might be cited, but not the journal article that it became.
 
-```text
-    <ref id="bib3">
-        <element-citation publication-type="preprint">
-            <person-group person-group-type="author">
-                <name>
-                    <surname>Bloss</surname>
-                    <given-names>CS</given-names>
-                </name>
-                <name>
-                    <surname>Wineinger</surname>
-                    <given-names>NE</given-names>
-                </name>
-                <name>
-                    <surname>Peters</surname>
-                    <given-names>M</given-names>
-                </name>
-                <name>
-                    <surname>Boeldt</surname>
-                    <given-names>DL</given-names>
-                </name>
-                <name>
-                    <surname>Ariniello</surname>
-                    <given-names>L</given-names>
-                </name>
-                <name>
-                    <surname>Kim</surname>
-                    <given-names>JL</given-names>
-                </name>
-                <name>
-                    <surname>Judy Sheard</surname>
-                    <given-names>J</given-names>
-                </name>
-                <name>
-                    <surname>Komatireddy</surname>
-                    <given-names>R</given-names>
-                </name>
-                <name>
-                    <surname>Barrett</surname>
-                    <given-names>P</given-names>
-                </name>
-                <name>
-                    <surname>Topol</surname>
-                    <given-names>EJ</given-names>
-                </name>
-            </person-group>
-            <year iso-8601-date="2016">2016</year>
-            <article-title>A prospective randomized trial examining health care utilization in individuals using multiple 
-                smartphone-enabled biosensors</article-title>
-            <source>bioRxiv</source>
-            <pub-id pub-id-type="doi">10.1101/029983</pub-id>
-        </element-citation>
-    </ref>
+## Schematron checks 
+
+### Content checks
+
+These checks relate to the content of journal references. X or XXXXXX refers to quoted text which will change depending on the article.
+
+### XML Structure checks
+
+These checks relate to the XML structure of journal references. For more information about what the XML should look like, [**see below**](pre-print-references.md#xml-structure).
+
+## XML structure
+
+Here are some examples of how the XML will look for various preprint references.
+
+Preprint reference with a doi.
+
+```markup
+<ref id="bib6">
+    <element-citation publication-type="preprint">
+        <person-group person-group-type="author">
+            <name>
+                <surname>Davies</surname>
+                <given-names>NG</given-names>
+            </name>
+            <name>
+                <surname>Klepac</surname>
+                <given-names>P</given-names>
+            </name>
+            <name>
+                <surname>Liu</surname>
+                <given-names>Y</given-names>
+            </name>
+            <name>
+                <surname>Prem</surname>
+                <given-names>K</given-names>
+            </name>
+        </person-group>
+        <year iso-8601-date="2020">2020</year>
+        <article-title>Age-dependent effects in the transmission and control of COVID-19
+            epidemics</article-title>
+        <source>medRxiv</source>
+        <pub-id pub-id-type="doi">10.1101/2020.03.24.20043018</pub-id>
+    </element-citation>
+</ref>
 ```
 
-## Troubleshooting
+Preprint reference with a URL.
 
-List of errors and warnings that can occur, with guidance on how to solve each problem or on when it is OK to let the warning go by and not change anything. Plus cases like spotting title and source running together, problems with group authors etc.
-
-## Further reading
-
-Links to related pages that might be useful \(internal wiki pages and external resources e.g. bioRxiv, pubmed etc.\)
+```markup
+<ref id="bib28">
+    <element-citation publication-type="preprint">
+        <person-group person-group-type="author">
+            <name>
+                <surname>Neto</surname>
+                <given-names>EC</given-names>
+            </name>
+            <name>
+                <surname>Hoff</surname>
+                <given-names>BR</given-names>
+            </name>
+            <name>
+                <surname>Bare</surname>
+                <given-names>C</given-names>
+            </name>
+            <name>
+                <surname>Bot</surname>
+                <given-names>BM</given-names>
+            </name>
+            <name>
+                <surname>Yu</surname>
+                <given-names>T</given-names>
+            </name>
+            <name>
+                <surname>Magravite</surname>
+                <given-names>L</given-names>
+            </name>
+            <name>
+                <surname>Stolovitzky</surname>
+                <given-names>G</given-names>
+            </name>
+        </person-group>
+        <year iso-8601-date="2016">2016</year>
+        <article-title>Reducing overfitting in challenge-based competitions</article-title>
+        <source>arXiv</source>
+        <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/1607.00091"
+            >http://arxiv.org/abs/1607.00091</ext-link>
+    </element-citation>
+</ref>
+```
 
