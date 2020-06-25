@@ -149,7 +149,7 @@ If a cited preprint has been published while an eLife article is in the producti
 
 ### Content checks
 
-These checks relate to the content of journal references. X or XXXXXX refers to quoted text which will change depending on the article.
+These checks relate to the content of preprint references. X or XXXXXX refers to quoted text which will change depending on the article.
 
 #### not-rxiv-test
 
@@ -166,7 +166,7 @@ These checks relate to the content of journal references. X or XXXXXX refers to 
 * paleorxiv
 * preprints
 
-These are the known preprint servers that are commonly cited in eLife articles. If this fires, check that the reference is actually a preprint. If it is, then this can be ignored \(it is also worth notifying the production-schematron slack channel that this test needs updating to account for that reference\). If it not a preprint reference \(such as a journal article for example\), then it should be captured as an appropriate reference type.
+These are the known preprint servers that are commonly cited in eLife articles. If this fires, check that the reference is actually a preprint. If it is, then this can be ignored \(it is also worth notifying the production-schematron slack channel that this test needs updating to account for that reference\). If it's not a preprint reference \(such as a journal article for example\), then it should be captured as an appropriate reference type.
 
 #### biorxiv-test
 
@@ -224,13 +224,13 @@ These are the known preprint servers that are commonly cited in eLife articles. 
 
 ### XML Structure checks
 
-These checks relate to the XML structure of journal references. For more information about what the XML should look like, [**see below**](pre-print-references.md#xml-structure).
+These checks relate to the XML structure of preprint references. For more information about what the XML should look like, [**see below**](pre-print-references.md#xml-structure).
 
 #### err-elem-cit-preprint-2-1
 
 **Error:**_There must be one and only one person-group. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements._
 
-**Action**: If there is no author list present, one will need to be added to the reference. Look the article up online if possible; otherwise raise an author query on the proof for the missing information. In cases where no author is given, 'Anon' will most likely need to be added in the 'Collaboration' field \(`<collab>`\). Alternatively, if the article is an editorial piece, use the name of the journal in the 'Collaboration' field. If there are multiple person-group elements, this means there has been an error in processing - Exeter will need to fix this.
+**Action**: If there is no author list present, one will need to be added to the reference. Look the article up online if possible; otherwise raise an author query on the proof for the missing information. In cases where no author is given \(which is very unlikely for preprints\), 'Anon' will most likely need to be added in the 'Collaboration' field \(`<collab>`\). If there are multiple person-group elements, this means there has been an error in processing - Exeter will need to fix this.
 
 #### err-elem-cit-preprint-8-1
 
@@ -248,7 +248,7 @@ If the reference has more than one title, compare the details with the original 
 
 **Action**: This error will appear if a preprint reference has more than one or no preprint server name. Check that the preprint server name has not been accidentally captured as part of the title \(which will result in no source, i.e. Journal\) or that the preprint server name or title has not been split out over multiple source entries. If the authors have not provided the preprint server name but have given other bibliographic details \(e.g. title, DOI\) it may be possible to search for the preprint online. If there are not enough details to find it, add the following author query:
 
-* Please provide the journal name for this reference.
+* Please provide the preprint server for this reference.
 
 #### err-elem-cit-preprint-10-1
 
