@@ -465,4 +465,5 @@ Article with no funding
 #### Changes
 
 * Updated 'Joint funders' section
+* award-group-test-3 split out into pre and final versions.
 
