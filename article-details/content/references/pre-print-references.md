@@ -144,7 +144,7 @@ Some preprint references will not appear when searching the CrossRef database \(
 
 ## Updating a preprint reference to a journal reference
 
-If a preprint has been published while an eLife article is in the production process, it may be necessary to update it to a journal reference \(see [Journal references](journal-references.md)\). This should only be done on the instruction of the author\(s\) of the eLife article, in other words, there is no need to check every preprint reference in order to determine whether it has been published as a journal.
+If a cited preprint has been published while an eLife article is in the production process, it may be necessary to update it in the eLife article to a journal reference \(see [Journal references](journal-references.md)\). This should only be done on the instruction of the author\(s\) of the eLife article, in other words, there is no need to check every preprint reference in order to determine whether it has been published as a journal.
 
 ## Schematron checks 
 
@@ -213,7 +213,7 @@ These are the known preprint servers that are commonly cited in eLife articles. 
 
 #### preprint-replacement-character-presence
 
-**Error:** _element contains the replacement character '�' which is unallowed - XXXXXX_
+**Error:** _source element contains the replacement character '�' which is unallowed - XXXXXX_
 
 **Action**: This error will appear if the preprint server \(Journal field in Kriya, source element in the XML\) contains the character ‘�’. This usually indicates a conversion error has occurred and an unknown, unrecognized or unrepresentable character has been replaced with ‘�’. Search the preprint on the web and update with the correct character.
 
@@ -229,69 +229,79 @@ These checks relate to the XML structure of journal references. For more informa
 
 #### err-elem-cit-preprint-2-1
 
+**Error:**_There must be one and only one person-group. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements._
 
-
-**Action**: 
+**Action**: If there is no author list present, one will need to be added to the reference. Look the article up online if possible; otherwise raise an author query on the proof for the missing information. In cases where no author is given, 'Anon' will most likely need to be added in the 'Collaboration' field \(`<collab>`\). Alternatively, if the article is an editorial piece, use the name of the journal in the 'Collaboration' field. If there are multiple person-group elements, this means there has been an error in processing - Exeter will need to fix this.
 
 #### err-elem-cit-preprint-8-1
 
+**Error:** _Each &lt;element-citation&gt; of type 'preprint' must contain one and only one &lt;article-title&gt; element. Reference 'XXXXXX' has XXXXXX  elements._
 
+**Action**: This error will appear if a preprint reference has more than one or no  titles. If the authors have not provided the title but have given other bibliographic details \(e.g. preprint server, DOI\) it may be possible to search for the preprint online. If there are not enough details to find the title, add the following author query:
 
-**Action**: 
+* Please provide the title for this reference.
+
+If the reference has more than one title, compare the details with the original submission to work out which is the correct title and enter that. 
 
 #### err-elem-cit-preprint-9-1
 
+**Error:** _Each &lt;element-citation&gt; of type 'preprint' must contain one and only one &lt;source&gt; element. Reference 'XXXXXX' has XXXXXX  elements._
 
+**Action**: This error will appear if a preprint reference has more than one or no preprint server name. Check that the preprint server name has not been accidentally captured as part of the title \(which will result in no source, i.e. Journal\) or that the preprint server name or title has not been split out over multiple source entries. If the authors have not provided the preprint server name but have given other bibliographic details \(e.g. title, DOI\) it may be possible to search for the preprint online. If there are not enough details to find it, add the following author query:
 
-**Action**: 
+* Please provide the journal name for this reference.
 
 #### err-elem-cit-preprint-10-1
 
+**Error:** _One &lt;pub-id&gt; element is allowed. Reference 'XXXXXX' has XXXXXX  &lt;pub-id&gt; elements._
 
-
-**Action**: 
+**Action**: This will fire if a preprint reference contains more than one doi. Compare the details with the original submission, or search online to work out which is the correct doi and enter that. If that doesn't work, then this will have to corrected by Exeter.
 
 #### err-elem-cit-preprint-10-3
 
+**Error:** _Either one &lt;pub-id&gt; or one &lt;ext-link&gt; element is required in a preprint reference. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements._
 
-
-**Action**: 
+**Action**: This will fire if a preprint reference contains both a DOI and a url \(or numerous version for each\). If the preprint has a DOI, then this should always be used, so the URL should be removed \(provided that it is correct\). If the URL is correct and DOI needs removing, this will have to be done by Exeter.
 
 #### err-elem-cit-preprint-13
 
+**Error:** _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="preprint" are: &lt;person-group&gt;, &lt;article-title&gt;, &lt;source&gt;, &lt;year&gt;, &lt;pub-id&gt;, and &lt;ext-link&gt;. Reference 'XXXXXX' has other elements._
 
-
-**Action**: 
+**Action**: This error will appear if a preprint reference has any xml elements other than the ones in the message \(e.g. string date\). Check the XML and remove the extra elements from the reference in Kriya.
 
 #### err-elem-cit-preprint-2-2
 
+**Error:** _The &lt;person-group&gt; element must contain @person-group-type='author'. The &lt;person-group&gt; element in Reference 'XXXXXX' contains @person-group-type='XXXXXX'._
 
-
-**Action**: 
+**Action**: This error will appear if there is no author list, or if authors have been tagged as other kinds of contributors \(e.g. editors or curators\). If there is no author list, make sure this is added by searching for the article details online. If there are contributors other than authors or collaborations, this means there has been an error in processing - Exeter will need to fix this.
 
 #### err-elem-cit-preprint-10-2
 
+**Error:** _If present, the &lt;pub-id&gt; element must contain @pub-id-type='doi'. The &lt;pub-id&gt; element in Reference 'XXXXXX' contains @pub-id-type='XXXXXX'._
 
-
-**Action**: 
+**Action**: This will fire if there is a `<pub-id>` element without the attribute `pub-id-type='doi'`. This will need to be corrected by Exeter.
 
 #### err-elem-cit-preprint-8-2-1
 
+**Error:** _A &lt;article-title&gt; element within a &lt;element-citation&gt; of type 'preprint' must contain at least two characters. Reference 'XXXXXX' has too few characters._
 
+**Action**: This will fire if the title in a preprint reference contains fewer than 2 characters. Search for the preprint online. If there are not enough details to find the full title, add the following author query at pre-author stages:
 
-**Action**: 
+* Please provide the journal name for this reference.
+
+And contact the authors at post-authors stages in order to get this information.
 
 #### err-elem-cit-preprint-8-2-2
 
+**Error:** _A &lt;article-title&gt; element within a &lt;element-citation&gt; of type 'preprint' may only contain the child elements &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' has disallowed child elements._
 
-
-**Action**: 
+**Action**: This error will appear if there are formatting elements in the preprint title other than italics, superscripts and subscripts \(e.g. bold, underline\). Make sure any disallowed formatting elements are removed from the title.
 
 #### err-elem-cit-preprint-9-2-2
 
+**Error:** _A &lt;source&gt; element within a &lt;element-citation&gt; of type 'preprint' may only contain the child elements &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' has disallowed child elements._
 
-
-**Action**: 
+**Action**: This error will appear if there are formatting elements in the preprint server name other than italics, superscripts and subscripts \(e.g. bold, underline\). Make sure any disallowed formatting elements are removed from the title.
 
 ## XML structure
 
