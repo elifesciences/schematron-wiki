@@ -4,6 +4,8 @@ description: How to manage funding information for eLife's articles
 
 # Funding
 
+> To ensure all funders are credited in the Open Funder Registry, we have added one entry per funder for this joint grant. Please check that the edited funding details are still correct.
+
 If you are looking for a list of schematron messages related to the funding section, please click [here](funding-information.md#schematron-warnings).
 
 ## What is the funding section?
@@ -133,7 +135,7 @@ This was added to the funding table as below:
 
 Usually it is possible to tell  joint funders because the names are separated by a hyphen. If funders entered in this form do not validate, try entering each institution separately \(i.e. Science Foundation Ireland, Health Research Board and Wellcome should be separate entries\) with the same grant reference if one has been provided. If the authors have given information about who received this funding, make sure this is the same for all the entries. Add the following query once you have added joint funders:
 
-* To ensure all funders are credited in the FundRef registry, eLife splits out joint-funders into separate entries in the funding table. Please check that the edited funding details are still correct.
+* To ensure all funders are credited in the Open Funder Registry, we have added one entry per funder for this joint grant. Please check that the edited funding details are still correct.
 
 If the article is at pub review, these entries can be left as-is.
 
