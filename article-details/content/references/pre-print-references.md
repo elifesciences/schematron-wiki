@@ -306,7 +306,7 @@ And contact the authors at post-authors stages in order to get this information.
 
 Here are some examples of how the XML will look for various preprint references.
 
-Preprint reference with a doi.
+Preprint reference with a DOI.
 
 ```markup
 <ref id="bib6">
