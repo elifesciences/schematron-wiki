@@ -174,13 +174,17 @@ We may receive 'out of office' response to the automatic proofing emails that ar
 
 ### **PMC failures**
 
-Occasionally our contact at PMC will email us to let us know that one of our articles has failed on PMC. This is nearly always an XML error. It should be investigated, and if necessary, resupplied and sent to Exeter for silent correction to fix the error in the XML. We can usually pick up on these failures before we are contacted by PMC, as we receive a daily report of articles that have been loaded to them in the last 24 hours. If the status of each package is 'Passed-Sent to QA', this email can be closed.
+Occasionally our contact at PMC will email us to let us know that one of our articles has failed on PMC. It should be investigated, and if necessary, resupplied and sent to Exeter for silent correction to fix the error in the XML. We can usually pick up on these failures before we are contacted by PMC, as we receive a daily report of articles that have been loaded to them in the last 24 hours. If the status of each package is 'Passed-Sent to QA', this email can be closed.
 
 ![](../.gitbook/assets/screenshot-2020-06-24-at-15.20.50.png)
 
-If the status of any of the packages indicates a failure, this will need to be investigated &lt;info to be added&gt;.
+If the status of any of the packages indicates a failure, this will need to be investigated**:**
 
 ![](../.gitbook/assets/screenshot-2020-06-24-at-15.25.41.png)
+
+The error message \(on the right in the email screenshot above\) will provide information on what kind of problem has caused the failure. The most common failure is that PMC's system often tries to parse gif \(animation\) files as XML files. You will be able to determine that this is cause if the error message refers to a gif file \(or files\) and refers to the fact that they do not contain a doctype declaration \(or similar\). If this is the case, then you should reply to the email asking for PMC to look into the problem \(as it is a problem on their end\). If the error message suggests that the article XML file is DTD invalid, then you can check this by downloading the XML file \(from the appropriate AWS bucket, e.g. elife-production-final\) and validating it against the DTD. If it fails DTD validation, then this will need to fixed by Exeter as a silent correction. If you are unsure about the cause of the failure then it should be brought up in the daily huddle.
+
+In the example above, only a partial or corrupted zip package was delivered to the PMC FTP, due to some downtime in the bot processes. The appropriate action would have been to raise a GitHub ticket so that an eLife developer can ensure that the zip package is delivered in full to PMC.
 
 ### **PoA package emails - success and failure**
 
