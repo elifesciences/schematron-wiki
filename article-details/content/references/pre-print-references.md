@@ -156,65 +156,142 @@ These checks relate to the content of journal references. X or XXXXXX refers to 
 
 **Warning**: _ref 'XXXXXX' is tagged as a preprint, but has a source XXXXXX, which doesn't look like a preprint. Is it correct?_
 
-**Action**_:_
+**Action**: This will fire if the Journal field in Kriya \(which is the source element in the XML\) has a value which is not one of the following \(ignoring capitalisation\):
+
+* biorxiv
+* arxiv
+* chemrxiv
+* medrxiv
+* peerj preprints
+* psyarxiv
+* paleorxiv
+* preprints
+
+These are the known preprint servers that are commonly cited in eLife articles. If this fires, check that the reference is actually a preprint. If it is, then this can be ignored \(it is also worth notifying the production-schematron slack channel that this test needs updating to account for that reference\). If it not a preprint reference \(such as a journal article for example\), then it should be captured as an appropriate reference type.
 
 #### biorxiv-test
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'bioRxiv'._
 
-**Action**_:_
+**Action**: This will fire if the preprint server \(Journal field in Kriya, source element in the XML\) contains the text biorxiv without the correct capitalisation, for example 'Biorxiv' or 'BiOrXiV'. Ensure that bioRxiv is added with the correct capitalisation. 
 
 #### arxiv-test
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'arXiv'._
 
-**Action**_:_
+**Action**: This will fire if the preprint server \(Journal field in Kriya, source element in the XML\) contains the text arxiv without the correct capitalisation, for example 'Arxiv' or 'ArXiV'. Ensure that arXiv is added with the correct capitalisation. 
 
 #### chemrxiv-test
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'ChemRxiv'._
 
-**Action**_:_
+**Action**: This will fire if the preprint server \(Journal field in Kriya, source element in the XML\) contains the text ChemRxiv without the correct capitalisation, for example 'Chemrxiv' or 'ChEmRxIv'. Ensure that ChemRxiv is added with the correct capitalisation. 
 
 #### medrxiv-test
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'medRxiv'._
 
-**Action**_:_
+**Action**: This will fire if the preprint server \(Journal field in Kriya, source element in the XML\) contains the text medRxiv without the correct capitalisation, for example 'Medrxiv' or 'MeDRxiv'. Ensure that medRxiv is added with the correct capitalisation. 
 
 #### peerjpreprints-test
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'PeerJ Preprints'._
 
-**Action**_:_
+**Action**: This will fire if the preprint server \(Journal field in Kriya, source element in the XML\) contains the text PeerJ Preprints without the correct capitalisation, for example 'Peerj Preprints' or 'PEerJ PrePrints'. Ensure that PeerJ Preprints is added with the correct capitalisation. 
 
 #### psyarxiv-test
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'PsyArXiv'._
 
-**Action**_:_
+**Action**: This will fire if the preprint server \(Journal field in Kriya, source element in the XML\) contains the text PsyArXiv without the correct capitalisation, for example 'Psyarxiv' or 'PSyArXiv'. Ensure that PsyArXiv is added with the correct capitalisation. 
 
 #### paleorxiv-test
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'PaleorXiv'._
 
-**Action**_:_
+**Action**: This will fire if the preprint server \(Journal field in Kriya, source element in the XML\) contains the text PaleorXiv without the correct capitalisation, for example 'Paleorxiv' or 'PaLeOrXiV'. Ensure that PaleorXiv is added with the correct capitalisation.
 
 #### preprint-replacement-character-presence
 
 **Error:** _element contains the replacement character '�' which is unallowed - XXXXXX_
 
-**Action**_:_
+**Action**: This error will appear if the preprint server \(Journal field in Kriya, source element in the XML\) contains the character ‘�’. This usually indicates a conversion error has occurred and an unknown, unrecognized or unrepresentable character has been replaced with ‘�’. Search the preprint on the web and update with the correct character.
 
 #### preprint-handbook-presence
 
 **Error:** _Preprint ref 'XXXXXX' has a source 'XXXXXX'. Should it be captured as a book type reference instead?_
 
-**Action**_:_
+**Action**: This error will appear if a preprint reference has a preprint server \(Journal field in Kriya, source element in the XML\) that includes the word 'handbook'. This indicates that the reference should actually be a book reference instead of a preprint reference. Change the reference to a book reference \(hyperlink to be added\) and update the fields accordingly.
 
 ### XML Structure checks
 
 These checks relate to the XML structure of journal references. For more information about what the XML should look like, [**see below**](pre-print-references.md#xml-structure).
+
+#### err-elem-cit-preprint-2-1
+
+
+
+**Action**: 
+
+#### err-elem-cit-preprint-8-1
+
+
+
+**Action**: 
+
+#### err-elem-cit-preprint-9-1
+
+
+
+**Action**: 
+
+#### err-elem-cit-preprint-10-1
+
+
+
+**Action**: 
+
+#### err-elem-cit-preprint-10-3
+
+
+
+**Action**: 
+
+#### err-elem-cit-preprint-13
+
+
+
+**Action**: 
+
+#### err-elem-cit-preprint-2-2
+
+
+
+**Action**: 
+
+#### err-elem-cit-preprint-10-2
+
+
+
+**Action**: 
+
+#### err-elem-cit-preprint-8-2-1
+
+
+
+**Action**: 
+
+#### err-elem-cit-preprint-8-2-2
+
+
+
+**Action**: 
+
+#### err-elem-cit-preprint-9-2-2
+
+
+
+**Action**: 
 
 ## XML structure
 
