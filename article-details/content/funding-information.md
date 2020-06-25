@@ -323,7 +323,7 @@ The University of Cambridge should not be listed in the funding table because it
 
 **Warning:** _There is no author associated with the funding for 'XXXXXX', which is incorrect. \(There is no xref from a contrib pointing to this &lt;award-group id="fundX"&gt;\). If you are unable to determine which author\(s\) are associated with this funding, please add an author query._
 
-**Action:** Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, please leave the following author query: 
+**Action:** This will fire at pre-author stages. Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, please leave the following author query: 
 
 * Please confirm which author received this funding.
 
@@ -331,9 +331,7 @@ The University of Cambridge should not be listed in the funding table because it
 
 **Error:** _There is no author associated with the funding for 'XXXXXX', which is incorrect. \(There is no xref from a contrib pointing to this &lt;award-group id="fundX"&gt;\)_
 
-**Action:** Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, please leave the following author query: 
-
-* Please confirm which author received this funding.
+**Action:** This will fire at post-author stages. Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, the eLife team will have to contact the authors in order to determine who the funding should be attributed to.
 
 ### XML structure checks
 
