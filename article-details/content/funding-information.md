@@ -371,13 +371,19 @@ If the authors confirm no funding was received, make sure the funding statement 
 
 **Action:** Make sure a funder name is present in the award group element \(see [below](funding-information.md#xml-structure) for XML structure\). It should be impossible for this error to occur - please contact the Production team if you see it. 
 
-#### award-group-test-3
+#### pre-award-group-test-3
+
+**Warning:** _award-group must contain a principal-award-recipient. If it is not clear which author\(s\) are associated with this funding, please add an author query._
+
+**Action:** This will fire at pre-author stages. Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, please leave the following author query: 
+
+* Please confirm which author received this funding.
+
+#### final-award-group-test-3
 
 **Error:** _award-group must contain a principal-award-recipient._
 
-**Action:** Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, please leave the following author query: 
-
-* Please confirm which author received this funding.
+**Action:** This will fire at post-author stages. Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, then the eLife team will have to contact the authors in order to determine who is should be attributed to. 
 
 #### award-group-test-4
 
