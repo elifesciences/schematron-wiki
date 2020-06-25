@@ -319,7 +319,15 @@ For more information on the Funder Registry, see [**here**](funding-information.
 
 The University of Cambridge should not be listed in the funding table because it is not mentioned as a funder but as the institution of one of the authors. The University of Manchester should also not be listed in the funding table because it is listed here as a third-party funder - i.e. it did not provide funding to the authors. For more guidance on adding funders into the table, see examples [**here**](funding-information.md#examples).
 
-#### award-group-test-7
+#### pre-award-group-test-7
+
+**Warning:** _There is no author associated with the funding for 'XXXXXX', which is incorrect. \(There is no xref from a contrib pointing to this &lt;award-group id="fundX"&gt;\). If you are unable to determine which author\(s\) are associated with this funding, please add an author query._
+
+**Action:** Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, please leave the following author query: 
+
+* Please confirm which author received this funding.
+
+**final-award-group-test-7**
 
 **Error:** _There is no author associated with the funding for 'XXXXXX', which is incorrect. \(There is no xref from a contrib pointing to this &lt;award-group id="fundX"&gt;\)_
 
@@ -465,5 +473,5 @@ Article with no funding
 #### Changes
 
 * Updated 'Joint funders' section
-* award-group-test-3 split out into pre and final versions.
+* award-group-test-3 and award-group-test-7 split out into pre and final versions.
 
