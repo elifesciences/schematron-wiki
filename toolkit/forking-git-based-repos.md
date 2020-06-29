@@ -21,7 +21,7 @@ It is usually possible to work out whether a repository needs to be forked based
 
 1. [Make sure the repository has an open-source license](forking-git-based-repos.md#checking-licenses)
 2. [Fork the code to elife-sciences-publications \(import code if needed\)](forking-git-based-repos.md#fork-the-code-to-elife-sciences-publications)
-3. [Add the new URL to the article text to indicate where the copy is archived](forking-git-based-repos.md#adding-the-new-url-to-the-article)
+3. [Add the new URL to the article text to indicate where the copy is archived](forking-git-based-repos.md#add-the-new-url-to-the-article-text-to-indicate-where-the-copy-is-archived)
 4. [Add a software reference for the repository](../article-details/content/references/software-references.md#how-to-add-a-software-reference)
 5. [Add an author query to indicate the repo has been forked and text has been added](forking-git-based-repos.md#add-an-author-query-to-indicate-the-repo-has-been-forked)
 6. [Add the eLife paper reference to the README of the forked repository](forking-git-based-repos.md#add-the-elife-paper-reference-to-the-readme-of-the-forked-repository)
