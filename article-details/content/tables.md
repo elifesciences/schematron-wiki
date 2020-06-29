@@ -40,6 +40,8 @@ The content of a table can be broken down into three sections:
 * Table body
 * Table footer
 
+Of these three sections, the only mandatory one is the table body; it is possible and sometimes appropriate for tables to have no header or footer section. 
+
 Tables can also have accompanying source data and/or source code files.
 
 ### Permitted table labels
