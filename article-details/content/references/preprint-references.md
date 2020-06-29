@@ -82,15 +82,15 @@ The following information can be added for preprint references:
       <td style="text-align:left">At least one DOI or URL is required, and they are mutually exclusive</td>
       <td
       style="text-align:left">
-        <p>&lt;ext-link ext-link-type=&quot;uri&quot; xlink:href=&quot;https://www.medrxiv.org/content/10.1101/2020.03.24.20043018v2&quot;&gt;</p>
-        <p>https://www.medrxiv.org/content/10.1101/2020.03.24.20043018v2&lt;/ext-link&gt;</p>
+        <p>&lt;ext-link ext-link-type=&quot;uri&quot; xlink:href=&quot;https://arxiv.org/abs/2006.15084&quot;&gt;</p>
+        <p>https://arxiv.org/abs/2006.15084&lt;/ext-link&gt;</p>
         </td>
-        <td style="text-align:left">https://www.medrxiv.org/content/10.1101/2020.03.24.20043018v2</td>
+        <td style="text-align:left">https://arxiv.org/abs/2006.15084</td>
     </tr>
   </tbody>
 </table>
 
-Validation of references via the Crossref API tool should pull in the information \(preprints are not currently available on PubMed but they may be in the near-ish future\) if the author did not provide them. Schematron warnings may also pick them up and should be checked at source.
+Validation of references via the Crossref API tool should pull in the information for preprints with a Crossref DOI \(currently only preprints from bioRxiv that are funded by NIH are indexed on PubMed so it is not a comprehensive list\). Please note some preprint servers may use DataCite for their DOIs and so will not be listed in the Crossref API. Schematron warnings may also pick them up and should be checked at source.
 
 * **Authors**: Enter each author name as a surname\(s\) followed by initials. 
 * **Collaboration:** Preprints can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
@@ -122,7 +122,7 @@ The default fields in Kriya will need to be altered to include the following inf
 * Website \(if applicable\)
 * DOI \(if applicable\)
 
-Once you have entered the information in the fields, click on 'Search Crossref' \(preprints are not currently deposited to PubMed so searching PubMed will return no results, this is likely to change in the future though\). This will compare the information entered to the Crossref database and ensures that a DOI is added \(if there is one - not all preprints have DOIs\).
+Once you have entered the information in the fields, click on 'Search Crossref' \(only some preprints are indexed on PubMed but those that are have a Crossref DOI anyway so better to use Crossref\). This will compare the information entered to the Crossref database and ensures that a DOI is added \(some DOIs may be registered via DataCite and these will not appear in the Crossref API and some preprints do not have DOIs\).
 
 ![](../../../.gitbook/assets/screen-shot-2020-06-25-at-15.49.16.png)
 
@@ -139,7 +139,7 @@ The minimum fields that need to be populated for the PubMed and CrossRef validat
 * Title
 * Journal
 
-Some preprint references will not appear when searching the CrossRef database \(not all of them have DOIs\). If you have entered the article details correctly and verified that it is the same in the original submitted version, you can just click on 'Insert Reference' to add the reference to the article.
+Some preprint references will not appear when searching the CrossRef database \(not all of them have DOIs or are DataCite DOIs\). If you have entered the article details correctly and verified that it is the same in the original submitted version, you can just click on 'Insert Reference' to add the reference to the article.
 
 ## Updating a preprint reference to a journal reference
 
@@ -166,19 +166,19 @@ These checks relate to the content of preprint references. X or XXXXXX refers to
 * paleorxiv
 * preprints
 
-These are the known preprint servers that are commonly cited in eLife articles. If this fires, check that the reference is actually a preprint. If it is, then this can be ignored \(it is also worth notifying the production-schematron slack channel that this test needs updating to account for that reference\). If it's not a preprint reference \(such as a journal article for example\), then it should be captured as an appropriate reference type.
+These are the known preprint servers that are commonly cited in eLife articles. If this fires, check that the reference is actually a preprint. If it is, then this can be ignored \(it is also worth notifying the production-schematron slack channel that this test needs updating to account for that preprint server\). If it's not a preprint reference \(such as a journal article for example\), then it should be captured as an appropriate reference type.
 
 #### biorxiv-test
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'bioRxiv'._
 
-**Action**: This will fire if the preprint server \(Journal field in Kriya, source element in the XML\) contains the text biorxiv without the correct capitalisation, for example 'Biorxiv' or 'BiOrXiV'. Ensure that bioRxiv is added with the correct capitalisation. 
+**Action**: This will fire if the preprint server \(Journal field in Kriya, source element in the XML\) contains the text bioRxiv without the correct capitalisation, for example 'Biorxiv' or 'BiOrXiV'. Ensure that bioRxiv is added with the correct capitalisation. 
 
 #### arxiv-test
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'arXiv'._
 
-**Action**: This will fire if the preprint server \(Journal field in Kriya, source element in the XML\) contains the text arxiv without the correct capitalisation, for example 'Arxiv' or 'ArXiV'. Ensure that arXiv is added with the correct capitalisation. 
+**Action**: This will fire if the preprint server \(Journal field in Kriya, source element in the XML\) contains the text arXiv without the correct capitalisation, for example 'Arxiv' or 'ArXiV'. Ensure that arXiv is added with the correct capitalisation. 
 
 #### chemrxiv-test
 
@@ -240,7 +240,7 @@ These checks relate to the XML structure of preprint references. For more inform
 
 * Please provide the title for this reference.
 
-If the reference has more than one title, compare the details with the original submission to work out which is the correct title and enter that. 
+If the reference has more than one title, compare the details with the original submission to work out which is the correct title and enter that, delete the extra title. 
 
 #### err-elem-cit-preprint-9-1
 
@@ -272,7 +272,7 @@ If the reference has more than one title, compare the details with the original 
 
 **Error:** _The &lt;person-group&gt; element must contain @person-group-type='author'. The &lt;person-group&gt; element in Reference 'XXXXXX' contains @person-group-type='XXXXXX'._
 
-**Action**: This error will appear if there is no author list, or if authors have been tagged as other kinds of contributors \(e.g. editors or curators\). If there is no author list, make sure this is added by searching for the article details online. If there are contributors other than authors or collaborations, this means there has been an error in processing - Exeter will need to fix this.
+**Action**: This error will appear if there is no author list, or if authors have been tagged as other kinds of contributors \(e.g. editors or curators\). If there is no author list, make sure this is added by searching for the article details online. If there are contributors other than authors or collaborations in the reference in Kriya, this means there has been an error in processing - Exeter will need to fix this.
 
 #### err-elem-cit-preprint-10-2
 
