@@ -278,7 +278,7 @@ If the reference has more than one title, compare the details with the original 
 
 **Error:** _If present, the &lt;pub-id&gt; element must contain @pub-id-type='doi'. The &lt;pub-id&gt; element in Reference 'XXXXXX' contains @pub-id-type='XXXXXX'._
 
-**Action**: This will fire if there is a `<pub-id>` element without the attribute `pub-id-type='doi'`. This will need to be corrected by Exeter.
+**Action**: This will fire if there is a `<pub-id>` element without the attribute `pub-id-type='doi'`. The only pub-id value allowed is `'doi'`. Please delete the pub-id and add a DOI or URL.
 
 #### err-elem-cit-preprint-8-2-1
 
