@@ -55,7 +55,7 @@ Feature content includes the following items not found in research content:
 
 Feature content is submitted to eLife via two paths: articles submitted via the the normal submission process and articles commissioned or invited by the Feature team. When articles are submitted via the normal process, they will go through peer review, usually overseen by the Features Editors, and likely have decision and response sections. Commissioned articles are not reviewed and so will have no editors or review materials associated with them.
 
-
+In both cases, the Features team will carry out checks and editing tasks before the articles are exported for production. Part of this involves formatting the article files using 'psuedo tagging' to designate the various parts of the content for processing.
 
 ## Production process for Feature content
 
