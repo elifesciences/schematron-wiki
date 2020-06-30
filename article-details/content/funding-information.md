@@ -6,7 +6,7 @@ description: How to manage funding information for eLife's articles
 
 > To ensure all funders are credited in the Open Funder Registry, we have added one entry per funder for this joint grant. Please check that the edited funding details are still correct.
 
-If you are looking for a list of schematron messages related to the funding section, please click [here](funding-information.md#schematron-warnings).
+If you are looking for a list of schematron messages related to the funding section, please click [**here**](funding-information.md#schematron-warnings).
 
 ## What is the funding section?
 
