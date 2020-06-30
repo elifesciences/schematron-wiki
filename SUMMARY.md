@@ -6,7 +6,7 @@
 ## Checklists
 
 * [QA at submission](checklists/qa-at-submission.md)
-* [Content processing](checklists/typesetting.md)
+* [Content processing](checklists/processing.md)
 * [Freelance copyediting](checklists/copyediting.md)
 * [Production check](checklists/production-check.md)
 * [Post-publication](checklists/post-publication.md)
