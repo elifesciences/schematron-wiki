@@ -236,7 +236,7 @@ These checks relate to the XML structure of preprint references. For more inform
 
 **Error:** _Each &lt;element-citation&gt; of type 'preprint' must contain one and only one &lt;article-title&gt; element. Reference 'XXXXXX' has XXXXXX  elements._
 
-**Action**: This error will appear if a preprint reference has more than one or no  titles. If the authors have not provided the title but have given other bibliographic details \(e.g. preprint server, DOI\) it may be possible to search for the preprint online. If there are not enough details to find the title, add the following author query:
+**Action**: This error will appear if a preprint reference has more than one or no titles. If the authors have not provided the title but have given other bibliographic details \(e.g. preprint server, DOI\) it may be possible to search for the preprint online. If there are not enough details to find the title, add the following author query:
 
 * Please provide the title for this reference.
 
