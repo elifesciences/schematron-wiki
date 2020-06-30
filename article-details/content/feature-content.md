@@ -53,7 +53,7 @@ Feature content includes the following items not found in research content:
 
 ## Submission and export of Feature content
 
-Feature content is submitted to eLife 
+Feature content is submitted to eLife via two paths: articles submitted via the the normal submission process and articles commissioned or invited by the Feature team.
 
 
 
