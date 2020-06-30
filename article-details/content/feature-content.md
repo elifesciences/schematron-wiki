@@ -65,7 +65,19 @@ Feature content is submitted to eLife
 
 ### Pre-author check
 
+#### Title prefix
 
+The title prefix is displayed as the 'sub display channel' in the article details page.
+
+![](../../.gitbook/assets/screen-shot-2020-06-30-at-15.47.36.png)
+
+#### Author bio
+
+The author bio displays under the author name and can be edited in the author details panel.
+
+![Author bio display](../../.gitbook/assets/screen-shot-2020-06-30-at-15.47.55.png)
+
+Each author should be assigned the same affiliations that are described in the bio. Note that these do not have to be exactly the same. For example, an affiliation may be described as "" but would be entered as two affiliations, "" and "".
 
 ### Author proofing
 
