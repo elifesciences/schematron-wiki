@@ -53,7 +53,7 @@ Feature content includes the following items not found in research content:
 
 ## Submission and export of Feature content
 
-Feature content is submitted to eLife via two paths: articles submitted via the the normal submission process and articles commissioned or invited by the Feature team.
+Feature content is submitted to eLife via two paths: articles submitted via the the normal submission process and articles commissioned or invited by the Feature team. When articles are submitted via the normal process, they will go through peer review, usually overseen by the Features Editors, and likely have decision and response sections. Commissioned articles are not reviewed and so will have no editors or review materials associated with them.
 
 
 
