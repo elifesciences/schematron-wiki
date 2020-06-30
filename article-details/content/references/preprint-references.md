@@ -260,7 +260,7 @@ If the reference has more than one title, compare the details with the original 
 
 **Error:** _Either one &lt;pub-id&gt; or one &lt;ext-link&gt; element is required in a preprint reference. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements._
 
-**Action**: This will fire if a preprint reference contains both a DOI and a url \(or numerous version for each\). If the preprint has a DOI, then this should always be used, so the URL should be removed \(provided that it is correct\). If the URL is correct and DOI needs removing, this will have to be done by Exeter.
+**Action**: This will fire if a preprint reference contains both a DOI and a URL \(or numerous version for each\). If the preprint has a DOI, then this should always be used, so the URL should be removed \(provided that it is correct\). If the URL is correct and DOI needs removing, this will have to be done by Exeter.
 
 #### err-elem-cit-preprint-13
 
