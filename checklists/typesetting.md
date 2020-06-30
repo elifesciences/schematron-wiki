@@ -4,7 +4,7 @@ description: Procedure for checking articles during content processing
 
 # Content processing
 
-The following checklists cover the intial stages following the export of articles to the content processing system and copy-editing carried out by the content processer's copy-editing team.
+The following checklists cover the initial stages following the export of articles to the content processing system and copy-editing carried out by the content processor's copy-editing team.
 
 ## Article details page
 
