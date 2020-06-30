@@ -51,11 +51,9 @@ Feature content includes the following items not found in research content:
 
 ![Example of a key info box](../../.gitbook/assets/screen-shot-2020-06-23-at-16.03.20.png)
 
-
-
 ## Submission and export of Feature content
 
-
+Feature content is submitted to eLife 
 
 
 
