@@ -55,4 +55,6 @@ The following checklists cover the initial stages following the export of articl
 9. Multiline equation should be framed correctly with the same operator alignment as in the original Manuscript file.
 10. Mathop, atop, sidelimits, top and bottom limits should be checked as per the Manuscript
 11. Bracket usage needs to be fine tuned by means of \left \right \big \bigg \Big \Big commands
-12. 
+
+
+
