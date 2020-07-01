@@ -58,3 +58,11 @@ _Proposal_: Not sure whether we can add it as we were accepted by Medline a year
 
 **Crossref -** an agency that registers DOIs for articles
 
+### eLife journal teams
+
+Editorial
+
+Production
+
+Features
+
