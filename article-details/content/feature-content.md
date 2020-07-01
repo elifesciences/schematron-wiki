@@ -57,6 +57,8 @@ Feature content is submitted to eLife via two paths: articles submitted via the 
 
 In both cases, the Features team will carry out checks and editing tasks before the articles are exported for production. Part of this involves formatting the article files using 'pseudo tagging' to designate the various parts of the content for processing.
 
+![Example of &apos;pseudo tagging&apos; in the article file for an Editorial](../../.gitbook/assets/screen-shot-2020-07-01-at-17.47.09.png)
+
 
 
 
