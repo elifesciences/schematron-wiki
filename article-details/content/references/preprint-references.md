@@ -88,7 +88,7 @@ The following information can be added for preprint references:
   </tbody>
 </table>
 
-Validation of references via the Crossref API tool should pull in the information for preprints with a Crossref DOI \(currently only preprints from bioRxiv that are funded by NIH are indexed on PubMed so it is not a comprehensive list\). Please note some preprint servers may use DataCite for their DOIs and so will not be listed in the Crossref API. Schematron warnings may also pick them up and should be checked at source.
+Validation of references via the Crossref API tool should pull in the information for preprints with a Crossref DOI \(currently only preprints from bioRxiv that are funded by NIH are indexed on PubMed so it is not a comprehensive list\). Please note some preprint servers may use DataCite for their DOIs and so will not be listed in the Crossref API. Schematron warnings may also pick up incomplete references, and these should be checked at the source of the reference.
 
 * **Authors**: Enter each author name as a surname\(s\) followed by initials. 
 * **Collaboration:** Preprints can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
