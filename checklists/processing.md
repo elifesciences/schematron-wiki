@@ -19,14 +19,14 @@ The following checklists cover the initial stages following the export of articl
 9. Raise an author query if complete information is not provided - author names or grant number
 10. Check the Data availability statement for dataset and code information \(see [Data availability](../article-details/content/data-availability.md#data-availability-statement) for more information\).
 11. Check and separate the database and identifier if required.
-12. Look for the data URL, assigning authority and Pub-id type on the [Data availability](../article-details/content/data-availability.md#database-examples) page.
+12. Check for the dataset URL, assigning authority and Pub-id type on the [Data availability](../article-details/content/data-availability.md#database-examples) page.
 13. Use the identifier in the URL provided on the [Data availability](../article-details/content/data-availability.md#database-examples) page.
 14. Check if the dataset URL is valid and resolves to a public webpage \(see [Data availability](../article-details/content/data-availability.md#data-that-is-not-yet-public) for more information\).
 
 ## Content page
 
 1. All videos should play.
-2. Supplementary file and video link should work
+2. Check that the supplementary file and video download links work correctly.
 3. Every reference should have DOI \(if not Google for confirmation\)
 4. For Insight articles, related articles reference should have eLocation ID.
 5. RRIDs and PMIDs mentioned in the text should be linked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
@@ -37,7 +37,7 @@ The following checklists cover the initial stages following the export of articl
 1. Check if competing interests \(funder\) link from page 1 goes to the correct page.
 2. Check that the eLife digest section is included \(for articles that have a digest\).
 3. Double check the tables and raise a query if the colours given in the table are against the eLife style.
-4. Check if all Greek characters are present.
+4. Check for any 'no entity' character errors \(on Greek letters, accented characters, maths terms etc\).
 5. Check superscript/subscript terms and the spacing for words are correct.
 6. Check the figures PDF to ensure no figures are going off from the page and that all figures and figure supplements are present. There should be no blank pages in this document.
 7. Check that the Key Resources Table is appearing correctly in the PDF.
