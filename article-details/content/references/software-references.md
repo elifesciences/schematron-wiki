@@ -43,9 +43,9 @@ Where the optional information is available, this should also be added in.
 * **Publisher**: The company or organisation that created the software and has ownership rights over it.
 * **Website**: Some software providers add DOIs for their software. These need to be added as a full DOI links instead of just the DOI.
 
-If any of the mandatory information for a reference cannot easily be found from what the authors have provided in text, please leave the following author query, deleting as appropriate the information that has already been provided:
+If the authors have provided the RRID for a software, this does not need to be added as a software reference. Otherwise, if any of the mandatory information for a reference cannot easily be found from what the authors have provided in text, please leave the following author query, deleting as appropriate the information that has already been provided:
 
-* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list.
+* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list. Alternatively, please provide the RRID for this software.
 
 ## How to add a software reference
 
@@ -115,13 +115,13 @@ The citation can then be updated as below, removing the version details:
 
 ## **When to add software references**
 
-Any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference. Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [FAIR principles](https://peerj.com/articles/cs-86/). Please note, this only needs to be done if the software is not already in the reference list. If any of the mandatory information required for a software reference is missing however, please leave the following author query:
+Any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference \(unless the authors have already included RRIDs\). Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [**FAIR principles**](https://peerj.com/articles/cs-86/). Please note, this only needs to be done if the software is not already in the reference list. If any of the mandatory information required for a software reference is missing, please leave the following author query:
 
-* eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list.
+* eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list. Alternatively, please provide the RRID for this software.
 
 ![All the software here needs to be added as software references and cited properly](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17.png)
 
-![All the software in this table should be added to the reference list and cited in-text](../../../.gitbook/assets/screenshot-2020-05-01-at-16.32.22.png)
+![The software here do not need software references as they already have RRIDs](../../../.gitbook/assets/screenshot-2020-05-01-at-16.32.22.png)
 
 ## **Schematron checks**
 
@@ -349,7 +349,7 @@ The DOI Badge will pop up:
 
 **Action:** This warning will appear if a software reference does not have a version number. If the version number is mentioned in the text, add this information to the reference in the 'Software version' field. If the version number is not included, please leave the following query.
 
-* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the version used for this software so that we can add it to the reference list.
+* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the version used for this software so that we can add it to the reference list. Alternatively, please provide the RRID for this software.
 
 #### **ref-software-test-6**
 
@@ -357,7 +357,7 @@ The DOI Badge will pop up:
 
 **Action:** This error will appear if a software reference does not have a website link. If the authors have provided a link to the website for the software, add this information to the reference in the 'Website' field. If there is no website link, please leave the following query.
 
-* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the URL for this software so that we can add it to the reference list.
+* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the URL for this software so that we can add it to the reference list. Alternatively, please provide the RRID for this software.
 
 
 
@@ -488,4 +488,14 @@ Zenodo
 
     <article-meta>
 ```
+
+## Changelog
+
+### 01/07/2020
+
+#### Changes
+
+* Updated guidance on when to add software references \(if the authors have provided the RRID for a software, this does not need to be added as a software reference\).
+
+
 
