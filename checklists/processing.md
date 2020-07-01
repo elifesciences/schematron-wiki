@@ -34,11 +34,11 @@ The following checklists cover the initial stages following the export of articl
 
 ## PDF
 
-1. Check if competing interests \(funder\) link from page 1 goes to the correct page.
+1. Check that the competing interests \(if present\) and funder links from page 1 go to the correct page.
 2. Check that the eLife digest section is included \(for articles that have a digest\).
 3. Double check the tables and raise a query if the colours given in the table are against the eLife style.
 4. Check for any 'no entity' character errors \(on Greek letters, accented characters, maths terms etc\).
-5. Check superscript/subscript terms and the spacing for words are correct.
+5. Check superscript/subscript terms at the ends of lines to make sure the word spacing is correct.
 6. Check the figures PDF to ensure no figures are going off from the page and that all figures and figure supplements are present. There should be no blank pages in this document.
 7. Check that the Key Resources Table is appearing correctly in the PDF.
 
