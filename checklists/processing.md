@@ -47,14 +47,14 @@ The following checklists cover the initial stages following the export of articl
 1. For LaTex articles, the equation query is mandatory.
 2. All the equations format should be same as in the exported merged PDF file.
 3. Check equation like numbers and make sure that this is in plain text
-4. Accent characters \(e.g., \dot, \bar, \tilde, \”\) should be cross verified against the merged PDF file.
-5. \overset and \underset usage to be checked, and should not be used to apply accent characters \(e.g. \dot should be used, not \overset{•}\).
+4. Accent characters \(e.g., `\dot`, `\bar`, `\tilde`, `\”`\) should be cross verified against the merged PDF file.
+5. Check for usage of `\overset` and \`underset`, and make sure it is not being used to apply accent characters \(e.g. `\dot` should be used, not `\overset{•}`\).
 6. Equation ID is must in the display equation
-7. sin, tan, cos, log and cos should be in roman font and should be entered as functions rather than text \(e.g. \sin, \tan, \cos, \log\).
+7. sin, tan, cos, log and cos should be in roman font and should be entered as functions rather than text \(e.g. `\sin`, `\tan`, `\cos`, `\log`\).
 8. Special fonts like script, calligraphy, fracture characters should be identified and checked against the merged PDF file. Make sure they display in both the Content view and in the PDF.
 9. Multiline equation should be framed correctly with the same operator alignment as in the original Manuscript file.
 10. Mathop, atop, sidelimits, top and bottom limits should be checked as per the Manuscript
-11. Bracket usage needs to be fine tuned by means of \left \right \big \bigg \Big \Big commands
+11. Check whether bracket usage needs to be fine tuned by means of the `\left`, `\right`, `\big`, `\bigg`, `\Big` or `\Big` commands.
 
 
 
