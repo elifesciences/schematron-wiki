@@ -57,9 +57,18 @@ Feature content is submitted to eLife via two paths: articles submitted via the 
 
 In both cases, the Features team will carry out checks and editing tasks before the articles are exported for production. Part of this involves formatting the article files using 'pseudo tagging' to designate the various parts of the content for processing.
 
-![Example of &apos;pseudo tagging&apos; in the article file for an Editorial](../../.gitbook/assets/screen-shot-2020-07-01-at-17.47.09.png)
+![Example of pseudo tagging in the article file for an Editorial](../../.gitbook/assets/screen-shot-2020-07-01-at-17.47.09.png)
 
+The Features team will rename the article file to indicate which template should be used and will also name any figure files to indicate what width they should be placed at. Since Feature content uses a two-column PDF template, there are more options for figure placement than in Research content. These are described using the following classes:
 
+* **Class A** = 1 column wide
+* **Class B** = 1 column plus the margin wide
+* **Class C** = 2 columns wide
+* **Class D** = 2 columns plus the margin wide \(e.g. full page\)
+
+The class chosen for each figure will be incorporated into the file name.
+
+![Examples of updated file names for Feature content in the submission system](../../.gitbook/assets/screen-shot-2020-07-01-at-18.16.03.png)
 
 
 
