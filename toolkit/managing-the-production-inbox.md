@@ -14,7 +14,9 @@ The Hiver inbox can be seen on the left sidebar in Gmail. In the drop-down menu,
 
 ### **Assigning emails**
 
-To assign an email from the inbox, select it and click on the![](../.gitbook/assets/screenshot-2020-06-24-at-12.16.44.png)icon. Then click on 'Select a user' and choose a name from the drop-down menu. 
+General queries in the inbox can be replied to without assigning the email to yourself. However, if you are corresponding with an author about an article you are working on, it is useful to assign the email to yourself. 
+
+To do this from the inbox, select the email and click on the![](../.gitbook/assets/screenshot-2020-06-24-at-12.16.44.png)icon. Then click on 'Select a user' and choose a name from the drop-down menu. 
 
 ![](../.gitbook/assets/captured%20%282%29.gif)
 
@@ -32,9 +34,15 @@ Similar to assigning emails, you can change the status of an email by selecting 
 
 ![](../.gitbook/assets/captured-2-.gif)
 
-If an email requires no response or has been resolved it should be closed. You can also change the status of an email when replying to it. Click on the 'Send & Close' button to close the email after the reply has been sent, or choose one of the other options from this button. ‘Pending’ status should be used for emails that are waiting on further action from others, or need to be watched. You should still reply to authors if needed to keep them in the loop, even if only to let them know that we are looking into an issue. Marking an email as 'pending' moves it to the pending section of the inbox. This section should be reviewed weekly and emails here should followed up on as appropriate. Use the 'Send & Close & Unassign' if you want to close an email that was assigned to you, and need any subsequent replies to go into the main inbox.
+If an email requires no response or has been resolved it should be closed. You can also change the status of an email when replying to it. Click on the 'Send & Close' button to close the email after the reply has been sent, or choose one of the other options from this button. Use the 'Send & Close & Unassign' if you want to close an email that was assigned to you, and need any subsequent replies to go into the main inbox.
 
 ![](../.gitbook/assets/captured-5-.gif)
+
+'Pending' status should be used for emails that are waiting on further action from others, or need to be watched. For example, if editorial have CCd us into a request for data or code, these emails can be marked as pending.
+
+![](../.gitbook/assets/screenshot-2020-07-01-at-12.53.04.png)
+
+If the authors have contacted production directly, you should still reply to authors to keep them in the loop, even if only to let them know that we are looking into an issue. Marking an email as 'pending' moves it to the pending section of the inbox. This section should be reviewed weekly and emails here should followed up on as appropriate. If we receive replies to 'pending' emails, these emails will automatically be re-opened and be available in the main inbox \(or if the email was assigned to a team member, it will be available in their inbox\).
 
 ### Adding notes to emails
 
@@ -132,9 +140,9 @@ A decision letter may fail to load for the following reasons:
 
 > \[No articles to check\]
 
-Check that the files have been included as direct children of the zip, i.e. that a folder hasn't been included in the zip. If all the files are zipped correctly, then a GitHub issue should be raised in the eLife issues repository, and assigned to Graham to investigate.
+Check that the files have been included as direct children of the zip, i.e. that a folder hasn't been included in the zip. If all the files are zipped correctly, then a GitHub issue should be raised in the [**eLife issues repository**](https://github.com/elifesciences/issues), and assigned to Graham to investigate.
 
-* Other. If a failure message comes through and you are unsure what it means, it's possible that the content hasn't been parsed correctly by the parser. A GitHub issue should be raised in the eLife issues repository, and assigned to Graham to investigate.
+* Other. If a failure message comes through and you are unsure what it means, it's possible that the content hasn't been parsed correctly by the parser. A GitHub issue should be raised in the [**eLife issues repository**](https://github.com/elifesciences/issues), and assigned to Graham to investigate.
 
 ### **Digest loading**
 
