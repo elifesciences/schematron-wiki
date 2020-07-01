@@ -16,8 +16,6 @@ A preprint reference provides the bibliographic details for a preprint in the re
 
 ![The same preprint reference on the eLife website](../../../.gitbook/assets/screen-shot-2020-06-25-at-15.24.15.png)
 
-
-
 ## What needs to be added?
 
 The following information can be added for preprint references:
@@ -122,7 +120,7 @@ The default fields in Kriya will need to be altered to include the following inf
 * Website \(if applicable\)
 * DOI \(if applicable\)
 
-Once you have entered the information in the fields, click on 'Search Crossref' \(only some preprints are indexed on PubMed but those that are have a Crossref DOI anyway so better to use Crossref\). This will compare the information entered to the Crossref database and ensures that a DOI is added \(some DOIs may be registered via DataCite and these will not appear in the Crossref API and some preprints do not have DOIs\).
+Once you have entered the information in the fields, click on 'Search Crossref' \(only some preprints are indexed on PubMed but those that are have a Crossref DOI anyway so it is better to use Crossref\). This will compare the information entered to the Crossref database and ensures that a DOI is added \(some DOIs may be registered via DataCite and these will not appear in the Crossref API and some preprints do not have DOIs\).
 
 ![](../../../.gitbook/assets/screen-shot-2020-06-25-at-15.49.16.png)
 
