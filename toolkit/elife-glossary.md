@@ -56,5 +56,5 @@ _Proposal_: Not sure whether we can add it as we were accepted by Medline a year
 
 **bucket -** eLife uses Amazon S3 buckets \(a public cloud storage resource\) to store objects consisting of data and its descriptive metadata
 
-**Crossref -** 
+**Crossref -** an agency that registers DOIs for articles
 
