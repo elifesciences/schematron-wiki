@@ -14,7 +14,7 @@ When handling emails, you should always use the ‘Emails’ project unless they
 
 ![](../.gitbook/assets/0%20%283%29.png)
 
-If you are just looking at/closing standard emails \(such as CrossRef emails, Exeter delivery updates etc\), you can track this under the ‘Emails’ project and leave the description blank or type ‘Emails’ into this.
+If you are just looking at/closing standard emails \(such as Crossref emails, Exeter delivery updates etc\), you can track this under the ‘Emails’ project and leave the description blank or type ‘Emails’ into this.
 
 We like to track how long emails take for particular articles so if you are replying to the authors, please add the manuscript number to the description field e.g. 58556.
 

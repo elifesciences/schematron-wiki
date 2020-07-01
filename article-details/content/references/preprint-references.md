@@ -130,14 +130,14 @@ Click the article with the correct authors, title and journal. This will automat
 
 ![The details are added to the reference](../../../.gitbook/assets/screen-shot-2020-06-25-at-15.49.29.png)
 
-The minimum fields that need to be populated for the PubMed and CrossRef validators to find an article are:
+The minimum fields that need to be populated for the PubMed and Crossref validators to find an article are:
 
 * First author name
 * Year
 * Title
 * Journal
 
-Some preprint references will not appear when searching the CrossRef database \(not all of them have DOIs or are DataCite DOIs\). If you have entered the article details correctly and verified that it is the same in the original submitted version, you can just click on 'Insert Reference' to add the reference to the article.
+Some preprint references will not appear when searching the Crossref database \(not all of them have DOIs or are DataCite DOIs\). If you have entered the article details correctly and verified that it is the same in the original submitted version, you can just click on 'Insert Reference' to add the reference to the article.
 
 ## Updating a preprint reference to a journal reference
 

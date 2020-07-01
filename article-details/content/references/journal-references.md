@@ -71,20 +71,20 @@ The default fields in Kriya will need to be altered to include the following inf
 * PMID \(if available\)
 * InPress \(if applicable\)
 
-Once you have entered the information in the fields, click on 'Search PubMed'. This will compare the information entered to the PubMed database and ensures that a PubMed ID and a DOI is added \(if there is one - not all journals use DOIs\). If this does not generate results, click on 'Search CrossRef'. Most journal DOIs are registered with CrossRef \(including non-life sciences articles\).
+Once you have entered the information in the fields, click on 'Search PubMed'. This will compare the information entered to the PubMed database and ensures that a PubMed ID and a DOI is added \(if there is one - not all journals use DOIs\). If this does not generate results, click on 'Search Crossref'. Most journal DOIs are registered with Crossref \(including non-life sciences articles\).
 
 ![](../../../.gitbook/assets/screenshot-2020-05-27-at-14.59.10.png)
 
 Click the article with the correct authors, title and journal. This will automatically fill in the remaining fields if the information hasn't been added already.
 
-The minimum fields that need to be populated for the PubMed and CrossRef validators to find an article are:
+The minimum fields that need to be populated for the PubMed and Crossref validators to find an article are:
 
 * First author name
 * Year
 * Article title
 * Journal title
 
-Some journal references will not appear when searching the PubMed and CrossRef databases. If you have entered the article details correctly and verified that it is the same in the original submitted version, you can just click on 'Insert Reference' to add the reference to the article.
+Some journal references will not appear when searching the PubMed and Crossref databases. If you have entered the article details correctly and verified that it is the same in the original submitted version, you can just click on 'Insert Reference' to add the reference to the article.
 
 Watch out for unexpanded journal names when trying to validate them. Sometimes, the authors may have provided the contracted version of the journal name, e.g. 'Mol Biol Evo' for 'Molecular Biology and Evolution' \(they will likely take this from a source like PubMed which shows the contracted version by default\). If this is not expanded to the full version of the name, the validator may not be able to pick up the reference correctly to assign DOI/PMID.
 
@@ -110,7 +110,7 @@ This is the only way to add an 'In press' comment, as at the moment, it is not p
 
 Journals are not standardised in the way they archive their articles. Some journals do not use volume numbers, page ranges, e-locations, or DOIs, so these details will not be present for all journal references. Many journals publish articles online 'ahead of print' \(eLife calls this 'Publish on Acceptance', or 'PoA'\) so the full details may be unavailable until the print or full version is issued.  
 
-For example after entering the reference details below and searching CrossRef, there doesn't appear to be any information about volume, page numbers, e-location IDs:
+For example after entering the reference details below and searching Crossref, there doesn't appear to be any information about volume, page numbers, e-location IDs:
 
 ![](../../../.gitbook/assets/screenshot-2020-05-27-at-16.23.28%20%281%29.png)
 

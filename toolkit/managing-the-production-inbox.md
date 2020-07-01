@@ -63,7 +63,7 @@ Our tags:
 * Exeter Delivery - for the delivery note we receive from Exeter every morning
 * Exeter Problem - for any problem emails we send to Exeter
 * Exeter Question - for any questions/requests we ask of Exeter
-* Failure - for any CrossRef/PMC/POA failures
+* Failure - for any Crossref/PMC/POA failures
 * Features - for all correspondence regarding feature content
 * Press - for any press-related emails
 * New versions - for any published articles that need to be corrected \(PoA and VoR\)
