@@ -20,7 +20,7 @@ The following checklists cover the initial stages following the export of articl
 10. Check the Data availability statement for dataset and code information \(see [Data availability](../article-details/content/data-availability.md#data-availability-statement) for more information\).
 11. Check and separate the database and identifier if required.
 12. Check for the dataset URL, assigning authority and Pub-id type on the [Data availability](../article-details/content/data-availability.md#database-examples) page.
-13. Use the identifier in the URL provided on the [Data availability](../article-details/content/data-availability.md#database-examples) page.
+13. If a URL is not present, add the identifier to the URL provided on the [Data availability](../article-details/content/data-availability.md#database-examples) page \(or query the author if the database is not in the reference table\).
 14. Check if the dataset URL is valid and resolves to a public webpage \(see [Data availability](../article-details/content/data-availability.md#data-that-is-not-yet-public) for more information\).
 
 ## Content page
