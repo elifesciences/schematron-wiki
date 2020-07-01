@@ -1,44 +1,65 @@
-# Figures
+---
+description: How to check figures and figure supplements
+---
 
-## Description
+# Figures and figure supplements
 
-This page is about figures associated with articles. Most articles will have figures and most figures also have \[figure supplements\]. Figures may also also have \[video supplements\] and/or \[source data\] and/or \[source code\]. Figure supplements can also have these assets too. For a list of allowed assets, see \[Body assets - to include allowed assets list\]
+Most scientific articles include figures and figure supplements to present data. eLife figures can also have [**various assets**](allowed-assets.md) ****related to them. All figures and figure supplements must have titles, and usually also have captions \(although this is not mandatory\). 
 
-## Structure
+## What needs to be checked?
 
-| Component | Contains | XML | Required? |
-| :--- | :--- | :--- | :---: |
-| What is it? | What goes in it? | `<xml-tagging>` | Yes/No |
+* Resolution of figures
+* Presence of tables in figures
+* Part labels 
+* Permissions information if required
 
-## Guidance
+## Figure files
 
-### Image files
+### Resolution of figures
 
-Add link to [https://github.com/elifesciences/XML-mapping/blob/master/elife\_file\_naming\_2016\_08\_25.md](https://github.com/elifesciences/XML-mapping/blob/master/elife_file_naming_2016_08_25.md)
+Figures and figure supplements should be checked to ensure they are of good quality. If an image has especially poor resolution or the text is illegible, the author should be asked to provide a higher resolution version with the following query:
 
-Each figure and figure supplement should be checked to ensure that they are of good quality. If an image has especially poor resolution or the text is illegible, the author should be asked to provide a higher resolution version.
+* The image for this figure appears to be of low quality. Please provide a higher resolution version.
 
-We strongly discourage authors from providing tables represented as figures or figure supplements because figures are flat images and the contents of them cannot be mined or re-used without the need to rekey the content. The preference would be to ask the author to provide this information as a table in Word or Excel format and for this to them be added to the article. If the author has not cited this "figure" in the text \(for instance because it is a figure supplement\) please ask them to cite the new table in the main text.
+### Tables in figures
 
-However, the author may also be given the option to convert it to source data. If it is a figure supplement this would become figure x - source data x; if it is a main figure this would become source data attached to the document as a whole.
+We strongly discourage authors from providing tables represented as figures or figure supplements because figures are flat images and the contents of them cannot be mined or re-used without the need to rekey the content. If the authors have provided a table as a figure, the production team will need to be queried to ask the authors to provide this information as a table in Word or Excel format. If the author has not cited this "figure" in the text \(for instance because it is a figure supplement\) they will also need to add a citation to the new table in the main text.
 
-\[add examples of figures that should be changed to tables, and figures that can be left as is\]
+For example, in 55692, Figure 1 - figure supplement 3 was originally provided as an image:
 
-If an author provides a PDF of an image over multiple pages we cannot process that as a single figure. Use your judgment - if each "page" contains a small image that could be a part of a complete composite figure query the author to supply the image as a single page with part labels. If the images on each page are a full figure and combining the images into one figure would render them unreadable ask the author to split the individual pages up into separate figures or figure supplements. If the authors have included unlabeled images in their article file that do not correspond to the main figures, a query should be raised with eLife Production to determine how to treat these images. In most cases, these images will need to be treated as chemical structures or schema.
+![](../../.gitbook/assets/screenshot-2020-07-01-at-16.06.10.png)
 
-\[add examples of schema/chemical structures\]
+The authors were asked to provide this as an editable file and it was changed to a table in the final version: 
+
+![](../../.gitbook/assets/screenshot-2020-07-01-at-16.06.46.png)
+
+The author may also be given the option to convert the table in the figure to source data instead depending on the content of the table. If it is a figure supplement this would become Figure x - Source data x; if it is a main figure this would become source data attached to the document as a whole.
+
+If one of the panels in a figure is a table, this can be left as-is:
+
+![](../../.gitbook/assets/screenshot-2020-07-01-at-16.11.54.png)
+
+If an author provides a PDF of an image over multiple pages we cannot process this as a single figure. Production will need to be queried to ask the authors to provide single-page figures. If each "page" contains a small image that could be a part of a complete composite figure the author should be asked to supply the image as a single page with part labels. If the images on each page are a full figure and combining the images into one figure would render them unreadable the author should be asked to split the individual pages up into separate figures or figure supplements. 
+
+If the authors have included unlabeled images in their article file that do not correspond to the main figures, a query should be raised with eLife Production to determine how to treat these images. In most cases, these images will need to be treated as chemical structures or schemes.
 
 ### PDF version
 
-For research content \(Features content templates have separate rules, see XXX\):
+The following applies to research content \([**Feature content**](feature-content.md) templates have separate rules\). Figures can be either:
 
-1. Full page width, across the text column and the gutter
-2. Column width, across just the width of the text column
-3. Half-column width, occupying the left 50% of the width of the text column, with the text flowing around the image block on the right
+1. Full-page width, across the text column and the gutter \(140mm\)
+2. Column width, across just the width of the text column \(100mm\)
+3. Half-column width, occupying the left 50% of the width of the text column, with the text flowing around the image block on the right \(50mm\)
 
-\[add screenshots of these\]
+![An example of a full-page width figure](../../.gitbook/assets/screenshot-2020-07-01-at-16.35.48.png)
 
-In each case, the legend should be the same width as the image block and the figure should occupy as much as the available space as possible, left aligned but preferably with little to no whitespace on the right. If the image is particularly tall, it is understood that this might result in there being more whitespace on the right. The appropriate width of the figure block should be determined by the resolution and aspect ratio of the supplied image.
+![An example of a column-width figure](../../.gitbook/assets/screenshot-2020-07-01-at-16.34.30.png)
+
+![An example of a half-column width figure](../../.gitbook/assets/screenshot-2020-07-01-at-16.27.02.png)
+
+In each case, the legend should be the same width as the image block and the figure should occupy as much of the available space as possible, left aligned but preferably with little to no whitespace on the right. If the image is particularly tall, this may result in there being more whitespace on the right. The appropriate width of the figure block should be determined by the resolution and aspect ratio of the supplied image. For smaller figures, these can be left the size they are:
+
+![](../../.gitbook/assets/screenshot-2020-07-01-at-16.38.50.png)
 
 ### Accompanying text
 
