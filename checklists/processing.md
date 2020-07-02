@@ -6,7 +6,7 @@ description: Procedure for checking articles during content processing
 
 The following checklists cover the initial stages following the export of articles to the content processing system and copy-editing carried out by the content processor's copy-editing team.
 
-## Pr-editing
+## Pre-editing
 
 ### Article details page
 
@@ -64,3 +64,5 @@ The following checklists cover the initial stages following the export of articl
 
 1. Check that the impact statement is a single, complete, grammatically correct sentence of no more than 30 words in length \(see the [Impact statement](../article-details/content/impact-statement.md) page for more details\).
 2. 
+### Content page
+
