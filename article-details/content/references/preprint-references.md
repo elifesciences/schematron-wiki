@@ -145,13 +145,13 @@ If a cited preprint has been published while an eLife article is in the producti
 
 This can be done in Kriya by Changing the Reference type from 'Preprint' to 'Journal':
 
-The fields which are common to both types of reference should remain the same. Those filed that are in a preprint reference but are not in a journal reference will change to 'unTagged'. These will need changing to the appropriate respective fields for journal references. 
+The fields which are common to both types of reference should remain the same. Fields which are in a preprint reference but not in a journal reference will change to 'unTagged'. These will need changing to the appropriate respective fields for journal references. 
 
 ![](../../../.gitbook/assets/screen-shot-2020-07-02-at-11.20.26%20%281%29.png)
 
 For example, 'Title' and 'Journal' now are 'unTagged' fields, and will need changing to 'Article title' and 'Journal title' respectively.
 
-Edit the text and fields, as appropriate, to ensure that as much information as possible is captured \(if an article is In press for example, information such as pages/elocation-ids, doi and pmid may not be available at this stage; see also [**Journal references**](journal-references.md)\). Note that if the preprint had a validated DOI and the Journal reference does not have one, then there is no mechanism for simply removing a DOI and this will likely have to be done by Exeter.
+Edit the text and fields, as appropriate, to ensure that as much information as possible is captured \(if an article is In press for example, information such as pages/elocation-ids, doi and pmid may not be available at this stage; see also [**Journal references**](journal-references.md)\). Note that, if the preprint had a validated DOI and/or PMID and the Journal reference does not have one, then there is no mechanism available to eLife production for simply removing a DOI/PMID, and this will likely have to be done by Exeter.
 
 ## Schematron checks 
 
