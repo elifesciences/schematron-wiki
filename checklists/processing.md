@@ -6,7 +6,9 @@ description: Procedure for checking articles during content processing
 
 The following checklists cover the initial stages following the export of articles to the content processing system and copy-editing carried out by the content processor's copy-editing team.
 
-## Article details page
+## Pr-editing
+
+### Article details page
 
 1. The article title should follow sentence case.
 2. If there is a mismatch between the author names in the export XML and the Manuscript file,  the Manuscript should be followed.
@@ -23,7 +25,7 @@ The following checklists cover the initial stages following the export of articl
 13. If a URL is not present, add the identifier to the URL provided on the [Data availability](../article-details/content/data-availability.md#database-examples) page \(or query the author if the database is not in the reference table\).
 14. Check if the dataset URL is valid and resolves to a public webpage \(see [Data availability](../article-details/content/data-availability.md#data-that-is-not-yet-public) for more information\).
 
-## Content page
+### Content page
 
 1. All videos should play.
 2. Check that the supplementary file and video download links work correctly.
@@ -32,7 +34,7 @@ The following checklists cover the initial stages following the export of articl
 5. RRIDs and PMIDs mentioned in the text should be linked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
 6. Check the Acknowledgements \(`<ack>`\) section for funder information that is not already listed in the funding section. Ignore [third party funders](../article-details/content/funding-information.md#third-party-funding-vs-funding-to-authors).
 
-## PDF
+### PDF
 
 1. Check that the competing interests \(if present\) and funder links from page 1 go to the correct page.
 2. Check that the eLife digest section is included \(for articles that have a digest\).
@@ -42,7 +44,7 @@ The following checklists cover the initial stages following the export of articl
 6. Check the figures PDF to ensure no figures are going off from the page and that all figures and figure supplements are present. There should be no blank pages in this document.
 7. Check that the Key Resources Table is appearing correctly in the PDF.
 
-## LaTex checklist
+### LaTex checklist
 
 1. For LaTex articles, the equation query is mandatory.
 2. All the equations format should be same as in the exported merged PDF file.
@@ -56,5 +58,9 @@ The following checklists cover the initial stages following the export of articl
 10. Mathop, atop, sidelimits, top and bottom limits should be checked as per the Manuscript
 11. Check whether bracket usage needs to be fine tuned by means of the `\left`, `\right`, `\big`, `\bigg`, `\Big` or `\Big` commands.
 
+## Copy-editing
 
+### Article details page
 
+1. Check that the impact statement is a single, complete, grammatically correct sentence of no more than 30 words in length \(see the [Impact statement](../article-details/content/impact-statement.md) page for more details\).
+2. 
