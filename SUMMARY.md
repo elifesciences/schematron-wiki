@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Template](untitled-4.md)
+* [Template](untitled-4/README.md)
+  * [Striking images](untitled-4/striking-images.md)
 
 ## Checklists
 
