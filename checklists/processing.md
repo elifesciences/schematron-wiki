@@ -47,14 +47,14 @@ The following checklists cover the initial stages following the export of articl
 ### LaTex checklist
 
 1. For LaTex articles, the equation query \("Please check and confirm that we have processed your LaTex correctly, especially with regards to the layout of any equations in the text."\) is mandatory.
-2. All the equations format should be same as in the exported merged PDF file.
-3. Check equation like numbers and make sure that this is in plain text
-4. Accent characters \(e.g., `\dot`, `\bar`, `\tilde`, `\”`\) should be cross verified against the merged PDF file.
+2. All the equations should be formatted the same as in the exported merged PDF file.
+3. Check equation-like numbers \(e.g. value with units such as '10 mg'\) and make sure these are in plain text rather than tagged as maths.
+4. Accent characters \(e.g., `\dot`, `\bar`, `\tilde`, `\”`\) should be cross-verified against the merged PDF file.
 5. Check for usage of `\overset` and \`underset`, and make sure it is not being used to apply accent characters \(e.g. `\dot` should be used, not `\overset{•}`\).
-6. Equation ID is must in the display equation
+6. Make sure that each display equation as an equation ID.
 7. sin, tan, cos, log and cos should be in roman font and should be entered as functions rather than text \(e.g. `\sin`, `\tan`, `\cos`, `\log`\).
 8. Special fonts like script, calligraphy, fracture characters should be identified and checked against the merged PDF file. Make sure they display in both the Content view and in the PDF.
-9. Multiline equation should be framed correctly with the same operator alignment as in the original Manuscript file.
+9. Multiline equations should be framed correctly with the same operator alignment as in the original Manuscript file.
 10. Mathop, atop, sidelimits, top and bottom limits should be checked as per the Manuscript
 11. Check whether bracket usage needs to be fine tuned by means of the `\left`, `\right`, `\big`, `\bigg`, `\Big` or `\Big` commands.
 
@@ -63,6 +63,6 @@ The following checklists cover the initial stages following the export of articl
 ### Article details page
 
 1. Check that the impact statement is a single, complete, grammatically correct sentence of no more than 30 words in length \(see the [Impact statement](../article-details/content/impact-statement.md) page for more details\).
-2. 
+
 ### Content page
 
