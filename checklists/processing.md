@@ -46,7 +46,7 @@ The following checklists cover the initial stages following the export of articl
 
 ### LaTex checklist
 
-1. For LaTex articles, the equation query is mandatory.
+1. For LaTex articles, the equation query \("Please check and confirm that we have processed your LaTex correctly, especially with regards to the layout of any equations in the text."\) is mandatory.
 2. All the equations format should be same as in the exported merged PDF file.
 3. Check equation like numbers and make sure that this is in plain text
 4. Accent characters \(e.g., `\dot`, `\bar`, `\tilde`, `\”`\) should be cross verified against the merged PDF file.
