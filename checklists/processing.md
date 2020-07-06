@@ -13,11 +13,11 @@ The following checklists cover the initial stages following the export of articl
 1. The article title should follow sentence case.
 2. If there is a mismatch between the author names in the export XML and the Manuscript file,  the Manuscript should be followed.
 3. Affiliation details should be split into the correct fields \(Institution, City and Country\). The Department field is present for legacy content but should not be used for current articles.
-4. Research organisms should be in italics as appropriate and should be separate terms
-5. Key terms in keyword section should be separate
-6. Keywords should be in lower case unless they are proper nouns
-7. Check and separate multiple grant numbers for the same funder in the funding table
-8. Check if the funder gets validated against the [Open Funder Registry](https://www.crossref.org/services/funder-registry/), if not do a cursory check online to identify a correct funder name \(see [Funding](../article-details/content/funding-information.md#what-needs-to-be-checked) for more information\)
+4. Research organisms should be in italics as appropriate and should be entered separately, not grouped together.
+5. Each keyword in keyword section should be entered separatly, not grouped together.
+6. Keywords should be in lower case unless they are proper nouns.
+7. Check and separate multiple grant numbers for the same funder in the funding table.
+8. Check if the funder gets validated against the [Open Funder Registry](https://www.crossref.org/services/funder-registry/), if not do a cursory check online to identify a correct funder name \(see [Funding](../article-details/content/funding-information.md#what-needs-to-be-checked) for more information\).
 9. Raise an author query if complete information is not provided - author names or grant number
 10. Check the Data availability statement for dataset and code information \(see [Data availability](../article-details/content/data-availability.md#data-availability-statement) for more information\).
 11. Check and separate the database and identifier if required.
@@ -29,7 +29,7 @@ The following checklists cover the initial stages following the export of articl
 
 1. All videos should play.
 2. Check that the supplementary file and video download links work correctly.
-3. Every reference should have DOI \(if not Google for confirmation\)
+3. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see Journal references for more details\).
 4. For Insight articles, related articles reference should have eLocation ID.
 5. RRIDs and PMIDs mentioned in the text should be linked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
 6. Check the Acknowledgements \(`<ack>`\) section for funder information that is not already listed in the funding section. Ignore [third party funders](../article-details/content/funding-information.md#third-party-funding-vs-funding-to-authors).
