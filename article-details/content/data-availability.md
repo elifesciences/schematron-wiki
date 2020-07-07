@@ -62,7 +62,7 @@ Each of these fields will need to be completed for the dataset to pass schematro
 * **Dataset URL**: A direct link to the dataset. This should not be a link to a database home page \(e.g. https://www.rcsb.org/\) but should instead take the reader straight to the data. 
 * **Database**: The name of the repository in which the data has been deposited.
 * **Identifier**: A unique string that can be used to identify the dataset. This may be a DOI, an accession number or simply an ID unique to the database in which the data has been stored.
-* **pub-id-type**: The type of identifier present. Chose from: accession, archive, doi. This cannot be left as 'other'. Guidance on which databases take which value for this field can be found [here](data-availability.md#database-examples).
+* **pub-id-type**: The type of identifier present. Chose from: accession, doi. This cannot be left as 'other'. Guidance on which databases take which value for this field can be found [here](data-availability.md#database-examples).
 * **assigning-authority**: The organisation that assigned the identifier. Often the organisation that hosts/maintains the database. This can be set to 'other' if multiple organisations are involved or the authority is not on the list of allowed values. The values for common databases can be found [here](data-availability.md#database-examples).
 
 Once all the fields are completed, the dataset can be saved and it will appear in the relevant section. The form is the same for generated and previously published datasets.
@@ -485,7 +485,7 @@ Please note that there are a couple of databases for which both DOIs and URLs ar
         <br />
       </td>
       <td style="text-align:left">NDA</td>
-      <td style="text-align:left">archive</td>
+      <td style="text-align:left">accession</td>
       <td style="text-align:left">NIMH</td>
       <td style="text-align:left"><a href="https://nda.nih.gov/edit_collection.html?id=2890">https://nda.nih.gov/edit_collection.html?id=2890</a>
       </td>
@@ -529,7 +529,7 @@ Please note that there are a couple of databases for which both DOIs and URLs ar
     <tr>
       <td style="text-align:left">Open Science Framework</td>
       <td style="text-align:left">OSF</td>
-      <td style="text-align:left">archive/doi</td>
+      <td style="text-align:left">accession/doi</td>
       <td style="text-align:left">Open Science Framework</td>
       <td style="text-align:left">
         <p><a href="https://osf.io/6hmrz/">https://osf.io/6hmrz/</a>
@@ -541,7 +541,7 @@ Please note that there are a couple of databases for which both DOIs and URLs ar
     <tr>
       <td style="text-align:left">Oxford University Research Archive</td>
       <td style="text-align:left">ORA</td>
-      <td style="text-align:left">archive</td>
+      <td style="text-align:left">accession</td>
       <td style="text-align:left">Oxford University</td>
       <td style="text-align:left"><a href="https://ora.ox.ac.uk/objects/uuid:09bef38c-999f-4fb7-aa46-14eda3123571">https://ora.ox.ac.uk/objects/uuid:09bef38c-999f-4fb7-aa46-14eda3123571</a>
       </td>
@@ -549,7 +549,7 @@ Please note that there are a couple of databases for which both DOIs and URLs ar
     <tr>
       <td style="text-align:left">PeptideAtlas</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">archive</td>
+      <td style="text-align:left">accession</td>
       <td style="text-align:left">PeptideAtlas</td>
       <td style="text-align:left"><a href="https://db.systemsbiology.net/sbeams/cgi/PeptideAtlas/PASS_View?identifier=PASS01443">https://db.systemsbiology.net/sbeams/cgi/PeptideAtlas/PASS_View?identifier=PASS01443</a>
       </td>
@@ -569,7 +569,7 @@ Please note that there are a couple of databases for which both DOIs and URLs ar
     <tr>
       <td style="text-align:left">webKnossos</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">archive</td>
+      <td style="text-align:left">accession</td>
       <td style="text-align:left">webKnossos</td>
       <td style="text-align:left"><a href="https://wklink.org/8732">https://wklink.org/8732</a>
       </td>
@@ -825,9 +825,9 @@ For example, if the identifiers for two datasets are both GSE135351, but the URL
 
 #### das-pub-id-1
 
-**Error**: _Each pub-id element must have an @pub-id-type with one of these types: accession, archive, or doi._
+**Error**: _Each pub-id element must have an @pub-id-type which is either accession or doi._
 
-**Action**: This error indicates that a pub-id-type has not been set for a dataset \(it has been left as 'other'\). Set the pub-id-type to the appropriate value. The values for this attribute for datasets in commonly encountered databases can be found [above](data-availability.md#database-examples).
+**Action**: This error indicates that a pub-id-type has not been set for a dataset \(it has been left as 'other'\). Set the pub-id-type to the appropriate value, either accession or doi. The values for this attribute for datasets in commonly encountered databases can be found [above](data-availability.md#database-examples).
 
 #### data-ref-given-names-test-1
 
@@ -1073,7 +1073,7 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 #### data-osf-test-3
 
-**Warning**: _Data reference with the title 'XXXXXX' has an OSF 'https://osf.io' type link, but is not marked as an archive type link._
+**Warning**: _Data reference with the title 'XXXXXX' has an OSF 'https://osf.io' type link, but is not marked as an accession type link._
 
 **Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the URL provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
@@ -1343,7 +1343,7 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 #### data-neurovault-test-3
 
-**Warning**: _Data reference with the title 'XXXXXX' has a NeuroVault 'neurovault.org/collections' type link, but is not marked as an archive type link._
+**Warning**: _Data reference with the title 'XXXXXX' has a NeuroVault 'neurovault.org/collections' type link, but is not marked as an accession type link._
 
 **Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the URL provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
@@ -1429,7 +1429,7 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 #### data-encode-test-3
 
-**Warning**: _Data reference with the title 'XXXXXX' has an ENCODE 'www.encodeproject.org' type link, but is not marked as an archive type link._
+**Warning**: _Data reference with the title 'XXXXXX' has an ENCODE 'www.encodeproject.org' type link, but is not marked as an accession type link._
 
 **Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the URL provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
@@ -1570,9 +1570,13 @@ The current data availability tagging was introduced at the beginning of June 20
              <year iso-8601-date="2018">2018</year>
              <data-title>Shear Manuscript</data-title>
              <source>Open Science Framework</source>
-             <pub-id assigning-authority="Open Science Framework" pub-id-type="archive" xlink:href="https://osf.io/kvu5j/">kvu5j</pub-id>
+             <pub-id assigning-authority="Open Science Framework" pub-id-type="accession" xlink:href="https://osf.io/kvu5j/">kvu5j</pub-id>
          </element-citation>
      </p>
 </sec>
 ```
+
+#### Change log
+
+* Updated 2020-07-07 to purge mention of archive type pub-ids. Only accession or doi now allowed.
 
