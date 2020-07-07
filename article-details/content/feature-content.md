@@ -70,7 +70,7 @@ The class chosen for each figure will be indicated in the file name.
 
 ![Examples of updated file names for Feature content in the submission system](../../.gitbook/assets/screen-shot-2020-07-01-at-18.16.03.png)
 
-Once the files have been edited, the article will be exported.
+Once the files have been edited, the article will be exported. At this point, the Features team may contact the Production team by email to advise them whether a decision/response will be included, or any unusual elements such as complex boxes, or to give a specific deadline for getting the proof to the authors.
 
 ## Production process for Feature content
 
@@ -83,6 +83,8 @@ No copy-editing should be required for Feature content as this will already have
 Once a feature article has been processed, it will be moved to the pre-author check stage to allow the Production team to check the content prior to author proofing.
 
 ### Pre-author check
+
+The Production team will check Feature content before it goes out to the author to ensure that it has been processed correctly, and to make sure any special requirements have been fulfilled. In order to do this, it will be necessary to open the article in the submission system to compare against the processed version.
 
 #### Title prefix
 
