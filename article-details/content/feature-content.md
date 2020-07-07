@@ -110,11 +110,19 @@ The author's name should be given in bold and the bio should not end in a full-s
 
 In Insight articles, a key info box will be displayed at the start of the Content page, just below the Abstract. It should contain the details of the related research article\(s\), with the DOI hyperlinked to the correct page. 
 
-![Key info box](../../.gitbook/assets/screen-shot-2020-07-07-at-15.40.35.png)
+![Key info box in the proofing system](../../.gitbook/assets/screen-shot-2020-07-07-at-15.40.35.png)
 
-#### Pull-quote placement
+#### Pull-quotes
 
+Pull-quotes should be placed after the same paragraphs indicated in the article file.
 
+![Pseudo-tagging for a pull-quote in an article file](../../.gitbook/assets/screen-shot-2020-07-07-at-15.50.26.png)
+
+![Pull-quote in proofing system](../../.gitbook/assets/screen-shot-2020-07-07-at-15.56.01.png)
+
+#### PDF display
+
+Figures in the PDF should display at the correct width corresponding to the class given in the file name \(see [above](feature-content.md#submission-and-export-of-feature-content)\).
 
 ### Author proofing
 
