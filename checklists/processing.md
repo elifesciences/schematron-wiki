@@ -71,14 +71,15 @@ The following checklists cover the initial stages following the export of articl
 1. The following sections should not be copy-edited: **eLife digest**, **Decision letter**, **Author response**.
 2. Each article should be consistently in UK or US English. Update the text to match whichever style is most common in the article.
 3. Headers and titles for figures, tables, source data etc. should be in sentence case.
-4. Abbreviations should be spelled out the first time they are used, following immediately by the abbreviation in brackets. Thereafter, the abbreviated form should be used. Exceptions:
+4. Latin terms such as in vivo, in vitro, bona fide and so on should not be italicised.
+5. Abbreviations should be spelled out the first time they are used, following immediately by the abbreviation in brackets. Thereafter, the abbreviated form should be used. Exceptions:
    * The abstract, figures and tables should be treated as separate entities and abbreviations should be redefined within them.
    * Terms on the AMA style guide list of common abbreviations do not need to be spelled out.
    * Gene/protein names can be kept in abbreviated form throughout the article
-5. Single quotation marks should be used for emphasis. Double quotation marks should be used for direct quotes.
-6. Where multiple sets of brackets are nested, square brackets should be used within parenthesis, e.g. \(some text \[reference\] some text\).
-7. All trademark ™, registered ® and copyright © symbols should be deleted.
-8. Numbers with five or more digits should have a comma separator e.g. 42,980. Numbers with four or less digits should not, e.g. 2400.
-
+6. Single quotation marks should be used for emphasis. Double quotation marks should be used for direct quotes.
+7. Where multiple sets of brackets are nested, square brackets should be used within parenthesis, e.g. \(some text \[reference\] some text\).
+8. All trademark ™, registered ® and copyright © symbols should be deleted.
+9. Numbers with five or more digits should have a comma separator e.g. 42,980. Numbers with four or less digits should not, e.g. 2400.
+10. 
 
 
