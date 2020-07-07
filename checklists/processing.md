@@ -34,6 +34,7 @@ The following checklists cover the initial stages following the export of articl
 5. RRIDs and PMIDs mentioned in the text should be linked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
 6. The capitalisation of figure labels \(a, b, c, . . . or A, B, C, . . .\) should match the capitalisation of the labels in the figure image.
 7. Check the Acknowledgements \(`<ack>`\) section for funder information that is not already listed in the funding section. Ignore [third party funders](../article-details/content/funding-information.md#third-party-funding-vs-funding-to-authors).
+8. Footnotes to the main text are not allowed. Any such footnotes should be incorporated as a bracketed statement at the point where they are cited in the text. An author query should be added to confirm this is acceptable.
 
 ### PDF
 
