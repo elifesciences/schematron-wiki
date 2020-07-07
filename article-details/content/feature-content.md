@@ -76,7 +76,11 @@ Once the files have been edited, the article will be exported.
 
 ### Pre-editing
 
+Feature content should be processed as soon as possible after export \(within 24 hours for Insights, Editorials and Template 3/4 content, within 48 hours for Template 5 content\). If more time is required, the content processors should let the Production team know as soon as possible.
 
+No copy-editing should be required for Feature content as this will already have been carried out by the Feature team prior to export. In very rare cases where external copy-editing is required, the Features team will advise the Production team who will request that the article is moved into the external copy-editing workflow.
+
+Once a feature article has been processed, it will be moved to the pre-author check stage to allow the Production team to check the content prior to author proofing.
 
 ### Pre-author check
 
