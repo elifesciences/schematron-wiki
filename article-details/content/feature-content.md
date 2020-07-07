@@ -53,24 +53,24 @@ Feature content includes the following items not found in research content:
 
 ## Submission and export of Feature content
 
-Feature content is submitted to eLife via two paths: articles submitted via the the normal submission process and articles commissioned or invited by the Feature team. When articles are submitted via the normal process, they will go through peer review, usually overseen by the Features Editors, and likely have decision and response sections. Commissioned articles are not reviewed and so will have no editors or review materials associated with them.
+Feature content is submitted to eLife via two paths: articles submitted via the the normal submission process and articles commissioned or invited by the Feature team. When articles are submitted via the normal process, they will go through peer review, usually overseen by the Features Editors, and likely have decision and response sections. Commissioned articles are not reviewed and so will have no editors or review materials associated with them. These will be uploaded to the submissions system by the Features team, who will use the 'auto-accept' option to bypass the reviewing process.
 
-In both cases, the Features team will carry out checks and editing tasks before the articles are exported for production. Part of this involves formatting the article files using 'pseudo tagging' to designate the various parts of the content for processing.
+In both cases, the Features team will carry out checks and editing tasks before the articles are exported for production. Part of this involves formatting the article files using 'pseudo-tagging' to designate the various parts of the content for processing. If the article needs to be published as an accepted manuscript \(PoA\), then this will need to be done before these changes are made to ensure a clean accepted manuscript is published. When the PoA process has been carried out, the article should be held in the export queue until the pseudo-tagging has been added.
 
 ![Example of pseudo tagging in the article file for an Editorial](../../.gitbook/assets/screen-shot-2020-07-01-at-17.47.09.png)
 
-The Features team will rename the article file to indicate which template should be used and will also name any figure files to indicate what width they should be placed at. Since Feature content uses a two-column PDF template, there are more options for figure placement than in Research content. These are described using the following classes:
+The article file will also be renamed to indicate which template should be used and will rename any figure files to indicate the width at which they should be placed in the PDF. Since Feature content uses a two-column PDF template, there are more options for figure placement than in Research content. These are described using the following classes:
 
 * **Class A** = 1 column wide
 * **Class B** = 1 column plus the margin wide
 * **Class C** = 2 columns wide
-* **Class D** = 2 columns plus the margin wide \(e.g. full page\)
+* **Class D** = 2 columns plus the margin wide \(i.e. full page\)
 
 The class chosen for each figure will be indicated in the file name.
 
 ![Examples of updated file names for Feature content in the submission system](../../.gitbook/assets/screen-shot-2020-07-01-at-18.16.03.png)
 
-
+Once the files have been edited, the article will be exported.
 
 ## Production process for Feature content
 
