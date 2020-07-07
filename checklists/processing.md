@@ -73,7 +73,7 @@ The following checklists cover the initial stages following the export of articl
 
 1. The following sections should not be copy-edited: **eLife digest**, **Decision letter**, **Author response**.
 2. Each article should be consistently in UK or US English. Update the text to match whichever style is most common in the article.
-3. Headers and titles for figures, tables, source data etc. should be in sentence case.
+3. Section headings and titles for figures, tables, source data etc. should be in sentence case.
 4. Latin terms such as in vivo, in vitro, bona fide and so on should not be italicised.
 5. Species names should be placed in italics \(e.g. _Mus musculus_, _H. sapiens_\), except where they are part of an institution name \(e.g. Caenorhabditis Genetics Center, FlyBase:Drosophila Network Resources\).
 6. For other terms, the authors' use of italics should be followed as far as is reasonable.
