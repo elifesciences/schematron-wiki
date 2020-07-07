@@ -288,5 +288,11 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 **Action**: Only one title prefix \(sub-display-channel\) is allowed per article. This error indicates that two `<subject>` elements have been included in  `<subj-group subj-group-type="sub-display-channel">`. Remove any extra title prefixes/`<subject>` elements to correct this.
 
+#### features-custom-meta-presence
+
+**Error**: _2 custom-meta\[@specific-use='meta-only'\] must be present in custom-meta-group for XXXXXX._
+
+**Action**:
+
 
 
