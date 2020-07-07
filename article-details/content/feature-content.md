@@ -280,13 +280,13 @@ Action:
 
 **Error**: _article categories for XXXXXX must contain one and only one subj-group\[@subj-group-type='sub-display-channel'._
 
-**Action**: Only one title prefix \(sub-display-channel\) is allowed per article. Remove any extra title prefixes. If no title prefix is present in the article file, the Features team must be contacted to provide one. XXXXXX will be the article type.
+**Action**: Only one title prefix \(sub-display-channel\) is allowed per article. This is captured in the XML as the element  &lt;subj-group subj-group-type="sub-display-channel"&gt;. This error indicates that zero or more than one elements of this type are present. Remove any extra title prefixes. If no title prefix is present in the article file, the Features team must be contacted to provide one. XXXXXX will be the article type.
 
 #### feature-subj-test-4
 
 **Error**: _There is more than one sub-display-channel subjects. This is incorrect._
 
-**Action**: Only one title prefix \(sub-display-channel\) is allowed per article. Remove the extra title prefix.
+**Action**: Only one title prefix \(sub-display-channel\) is allowed per article. This error indicates that two `<subject>` elements have been included in  `<subj-group subj-group-type="sub-display-channel">`. Remove any extra title prefixes/`<subject>` elements to correct this.
 
 
 
