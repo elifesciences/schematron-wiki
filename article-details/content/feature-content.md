@@ -168,9 +168,9 @@ Once they have completed their checks, they will sign the article off to Post Au
 
 #### feature-article-category-test-1
 
-**Error**: _article categories for \[insert article type\] must contain one subj-group\[@subj-group-type='sub-display-channel'\]._
+**Error**: _article categories for XXXXXX must contain one subj-group\[@subj-group-type='sub-display-channel'._
 
-**Action**: Only one title prefix \(sub-display-channel\) is allowed per article. Remove any extra title prefixes. If no title prefix is present in the article file, the Features team must be contacted to provide one.
+**Action**: Only one title prefix \(sub-display-channel\) is allowed per article. Remove any extra title prefixes. If no title prefix is present in the article file, the Features team must be contacted to provide one. XXXXXX will be the article type.
 
 #### feature-author-test-1
 
