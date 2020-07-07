@@ -335,9 +335,9 @@ Depending on the case, the table will either need to be moved into its appropria
 
 #### table-fn-label-test-1
 
-**Warning**: _Footnote starts with label which is not in line with house style - XXXXXX. Footnote symbols should be in the order: \*, †, ‡, §, ¶, \*\*, ††, ‡‡, §§, ¶¶, etc._
+**Warning**: _Footnote starts with what might be a label which is not in line with house style - XXXXXX. If it is a label, then it should changed to one of the allowed symbols, so that the order of labels in the footnotes follows this sequence \*, †, ‡, §, ¶, \*\*, ††, ‡‡, §§, ¶¶, etc._
 
-**Action**: Footnote indicators should be in the following sequence \*_,_ †, ‡, §, ¶, \*\***, ††, ‡‡, §§, ¶¶, \*\*\***, †††, ‡‡‡, §§§, ¶¶¶, \*\*\*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. If this warning fires, it is because a footnote has an indicator and it isn't one of the allowed symbols. The indicators should be changed in line with the sequence above.
+**Action**: Footnote indicators should be in the following sequence \*_,_ †, ‡, §, ¶, \*\***, ††, ‡‡, §§, ¶¶, \*\*\***, †††, ‡‡‡, §§§, ¶¶¶, \*\*\*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. If this warning fires, it is because a footnote starts with what looks like a label which isn't one of the allowed symbols. If it is a label for the footnote, then it should be changed in line with the sequence above. If it is not a label, then the message should be ignored.
 
 #### pre-body-table-report
 
@@ -1392,4 +1392,5 @@ Vertical cell alignment is defined using the `valign` attribute.
 
 * Updated 2020-06-18 to include table-cell-1 and table-xref-test-6.
 * Updated 2020-06-24 to account for Key resources tables in appendices.
+* Updated 2020-07-07 with change for table-fn-label-test-1.
 
