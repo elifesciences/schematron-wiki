@@ -14,7 +14,7 @@ The following checklists cover the initial stages following the export of articl
 2. If there is a mismatch between the author names in the export XML and the Manuscript file,  the Manuscript should be followed.
 3. Affiliation details should be split into the correct fields \(Institution, City and Country\). The Department field is present for legacy content but should not be used for current articles.
 4. Research organisms should be in italics as appropriate and should be entered separately, not grouped together.
-5. Each keyword in keyword section should be entered separatly, not grouped together.
+5. Each keyword in keyword section should be entered separately, not grouped together.
 6. Keywords should be in lower case unless they are proper nouns.
 7. Check and separate multiple grant numbers for the same funder in the funding table.
 8. Check if the funder gets validated against the [Open Funder Registry](https://www.crossref.org/services/funder-registry/), if not do a cursory check online to identify a correct funder name \(see [Funding](../article-details/content/funding-information.md#what-needs-to-be-checked) for more information\).
@@ -30,7 +30,7 @@ The following checklists cover the initial stages following the export of articl
 1. All videos should play.
 2. Check that the supplementary file and video download links work correctly.
 3. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [Journal references](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
-4. For Insight articles, related articles reference should have eLocation ID.
+4. For Insight articles, related article\(s\) reference should have eLocation ID and DOI.
 5. RRIDs and PMIDs mentioned in the text should be linked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
 6. The capitalisation of figure labels \(a, b, c, . . . or A, B, C, . . .\) should match the capitalisation of the labels in the figure image.
 7. Check for any missing panel labels in the figure legends or images. If the image has panel labels but the legend does not, the authors should be asked to add panel labels to the legend. If the legend has panel labels but the image does not, the authors should be asked to provide a new image file. See the [Figures and figure supplements](../article-details/content/untitled.md#part-labels) page for more information.
