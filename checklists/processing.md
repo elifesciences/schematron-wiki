@@ -78,6 +78,7 @@ The following checklists cover the initial stages following the export of articl
 5. Single quotation marks should be used for emphasis. Double quotation marks should be used for direct quotes.
 6. Where multiple sets of brackets are nested, square brackets should be used within parenthesis, e.g. \(some text \[reference\] some text\).
 7. All trademark ™, registered ® and copyright © symbols should be deleted.
+8. Numbers with five or more digits should have a comma separator e.g. 42,980.
 
 
 
