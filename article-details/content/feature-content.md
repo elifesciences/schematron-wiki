@@ -66,7 +66,7 @@ The Features team will rename the article file to indicate which template should
 * **Class C** = 2 columns wide
 * **Class D** = 2 columns plus the margin wide \(e.g. full page\)
 
-The class chosen for each figure will be incorporated into the file name.
+The class chosen for each figure will be indicated in the file name.
 
 ![Examples of updated file names for Feature content in the submission system](../../.gitbook/assets/screen-shot-2020-07-01-at-18.16.03.png)
 
