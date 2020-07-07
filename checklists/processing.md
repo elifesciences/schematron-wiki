@@ -43,7 +43,8 @@ The following checklists cover the initial stages following the export of articl
 4. Check for any 'no entity' character errors \(on Greek letters, accented characters, maths terms etc\).
 5. Check superscript/subscript terms at the ends of lines to make sure the word spacing is correct.
 6. Check the figures PDF to ensure no figures are going off from the page and that all figures and figure supplements are present. There should be no blank pages in this document.
-7. Check that the Key Resources Table is appearing correctly in the PDF.
+7. Check that the figures are legible in the PDFs. If they are not, the author should be queried to provide higher resolution images.
+8. Check that the Key Resources Table is appearing correctly in the PDF.
 
 ### LaTex checklist
 
@@ -67,5 +68,16 @@ The following checklists cover the initial stages following the export of articl
 
 ### Content page
 
-1. The following sections do not need to be copy-edited: eLife digest, Decision letter, Author response
-2. 
+1. The following sections should not be copy-edited: **eLife digest**, **Decision letter**, **Author response**.
+2. Each article should be consistently in UK or US English. Update the text to match whichever style is most common in the article.
+3. Headers and titles for figures, tables, source data etc. should be in sentence case.
+4. Abbreviations should be spelled out the first time they are used, following immediately by the abbreviation in brackets. Thereafter, the abbreviated form should be used. Exceptions:
+   * The abstract, figures and tables should be treated as separate entities and abbreviations should be redefined within them.
+   * Terms on the AMA style guide list of common abbreviations do not need to be spelled out.
+   * Gene/protein names can be kept in abbreviated form throughout the article
+5. Single quotation marks should be used for emphasis. Double quotation marks should be used for direct quotes.
+6. Where multiple sets of brackets are nested, square brackets should be used within parenthesis, e.g. \(some text \[reference\] some text\).
+7. All trademark ™, registered ® and copyright © symbols should be deleted.
+
+
+
