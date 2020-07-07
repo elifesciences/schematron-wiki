@@ -51,6 +51,10 @@ Feature content includes the following items not found in research content:
 
 ![Example of a key info box](../../.gitbook/assets/screen-shot-2020-06-23-at-16.03.20.png)
 
+* **Pull-quotes** - in Templates 2-4, pull-quotes can be used to highlight key points in the text.
+
+![Example of a pull-quote](../../.gitbook/assets/screen-shot-2020-07-07-at-15.47.06.png)
+
 ## Submission and export of Feature content
 
 Feature content is submitted to eLife via two paths: articles submitted via the the normal submission process and articles commissioned or invited by the Feature team. When articles are submitted via the normal process, they will go through peer review, usually overseen by the Features Editors, and likely have decision and response sections. Commissioned articles are not reviewed and so will have no editors or review materials associated with them. These will be uploaded to the submissions system by the Features team, who will use the 'auto-accept' option to bypass the reviewing process.
@@ -88,7 +92,7 @@ The Production team will check Feature content before it goes out to the author 
 
 #### Title prefix
 
-The title prefix is displayed as the 'sub display channel' in the article details page.
+The title prefix is displayed as the 'sub display channel' in the article details page. This should be in title case \(as opposed to the sentence case used for all other eLife headings\).
 
 ![](../../.gitbook/assets/screen-shot-2020-06-30-at-15.47.36.png)
 
@@ -99,6 +103,18 @@ The author bio displays under the author name and can be edited in the author de
 ![Author bio display](../../.gitbook/assets/screen-shot-2020-06-30-at-15.47.55.png)
 
 Each author should be assigned the same affiliations that are described in the bio. Note that these do not have to be exactly the same. For example, an affiliation may be described as "" but would be entered as two affiliations, "" and "".
+
+The author's name should be given in bold and the bio should not end in a full-stop.
+
+#### Key info box
+
+In Insight articles, a key info box will be displayed at the start of the Content page, just below the Abstract. It should contain the details of the related research article\(s\), with the DOI hyperlinked to the correct page. 
+
+![Key info box](../../.gitbook/assets/screen-shot-2020-07-07-at-15.40.35.png)
+
+#### Pull-quote placement
+
+
 
 ### Author proofing
 
