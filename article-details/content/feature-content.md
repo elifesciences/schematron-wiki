@@ -218,13 +218,13 @@ Once they have completed their checks, they will sign the article off to Post Au
 
 **Warning**: _XXXXXX is a template XXXXXX but it does not \(currently\) have a decision letter. Is that OK?_
 
-**Action**:
+**Action**: This warning will fire if a Template 5 article does not have a decision letter section. Check the article notes - if no decision/response was expected for the current article, this should have been recorded. If there are no notes, the Production team should contact the Feature team to check the status of the decision/response for the article.
 
 #### feature-template-test-4
 
 **Warning**: _XXXXXX is a template XXXXXX but it does not \(currently\) have an author response. Is that OK?_
 
-Action:
+Action: This warning will fire if a Template 5 article does not have an author response section. Check the article notes - if no decision/response was expected for the current article, this should have been recorded. If there are no notes, the Production team should contact the Feature team to check the status of the decision/response for the article.
 
 #### feature-templates-no-bre
 
