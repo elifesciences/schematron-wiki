@@ -160,18 +160,6 @@ Once they have completed their checks, they will sign the article off to Post Au
 
 **Action**: Delete the colon from the end of the title prefix \(sub-display-channel\).
 
-#### feature-subj-test-4
-
-**Error**: _There is more than one sub-display-channel subjects. This is incorrect._
-
-**Action**: Only one title prefix \(sub-display-channel\) is allowed per article. Remove the extra title prefix.
-
-#### feature-article-category-test-1
-
-**Error**: _article categories for XXXXXX must contain one subj-group\[@subj-group-type='sub-display-channel'._
-
-**Action**: Only one title prefix \(sub-display-channel\) is allowed per article. Remove any extra title prefixes. If no title prefix is present in the article file, the Features team must be contacted to provide one. XXXXXX will be the article type.
-
 #### feature-author-test-1
 
 **Error**: _Author must contain child bio in feature content._
@@ -287,6 +275,18 @@ Action:
 **Error**: _XXXXXX must be a template 3, 4, or 5. Currently it is a template XXXXXX._
 
 **Action**:
+
+#### feature-article-category-test-1
+
+**Error**: _article categories for XXXXXX must contain one and only one subj-group\[@subj-group-type='sub-display-channel'._
+
+**Action**: Only one title prefix \(sub-display-channel\) is allowed per article. Remove any extra title prefixes. If no title prefix is present in the article file, the Features team must be contacted to provide one. XXXXXX will be the article type.
+
+#### feature-subj-test-4
+
+**Error**: _There is more than one sub-display-channel subjects. This is incorrect._
+
+**Action**: Only one title prefix \(sub-display-channel\) is allowed per article. Remove the extra title prefix.
 
 
 
