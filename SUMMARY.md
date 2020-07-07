@@ -15,10 +15,10 @@
 ## Article details
 
 * [Content](article-details/content/README.md)
-  * [Allowed assets](article-details/content/allowed-assets.md)
   * [Country names](article-details/content/country-names.md)
   * [Data availability](article-details/content/data-availability.md)
   * [Feature content](article-details/content/feature-content.md)
+  * [Allowed assets](article-details/content/allowed-assets.md)
   * [Figures and figure supplements](article-details/content/untitled.md)
   * [Chemical structures/schemes](article-details/content/chemical-structures-schemes.md)
   * [Funding](article-details/content/funding-information.md)
