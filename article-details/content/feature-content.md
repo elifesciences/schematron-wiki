@@ -140,7 +140,7 @@ Once they have completed their checks, they will sign the article off to Post Au
 
 ## Schematron checks
 
-
+### Content
 
 #### feature-title-test-1
 
@@ -232,17 +232,37 @@ Once they have completed their checks, they will sign the article off to Post Au
 
 **Action**: Only Template 5 feature articles should have decision letter and author response sections.
 
-feature-template-test-2	article\[descendant::article-meta/article-categories/subj-group\[@subj-group-type='display-channel'\]/subject = $features-subj\]	\*Error\*: \_XXXXXX is a template XXXXXX so the article element must have a @article-type="research-article". Instead the @article-type="XXXXXX".\_
+#### feature-template-test-2
 
-feature-template-test-3	article\[descendant::article-meta/article-categories/subj-group\[@subj-group-type='display-channel'\]/subject = $features-subj\]	\*Warning\*: \_XXXXXX is a template XXXXXX but it does not \(currently\) have a decision letter. Is that OK?\_
+**Error**: _XXXXXX is a template XXXXXX so the article element must have a @article-type="research-article". Instead the @article-type="XXXXXX"._
 
-feature-template-test-4	article\[descendant::article-meta/article-categories/subj-group\[@subj-group-type='display-channel'\]/subject = $features-subj\]	\*Warning\*: \_XXXXXX is a template XXXXXX but it does not \(currently\) have an author response. Is that OK?\_
+**Action**: Template 5 feature articles must have an attribute of `@article-type="research-article"` on the &lt;article&gt; element. If this error fires, it indicates that the article-type attribute has another value and this needs to be corrected to "research-article". 
 
-feature-templates-no-bre	article\[descendant::article-meta/article-categories/subj-group\[@subj-group-type='display-channel'\]/subject = $features-subj\]	\*Error\*: \_XXXXXX is a template XXXXXX, which means that it should not have any BREs. This XXXXXX has XXXXXX. Please remove any senior/reviewing editors.\_
+#### feature-template-test-3
 
-feature-templates-author-cont	article\[descendant::article-meta/article-categories/subj-group\[@subj-group-type='display-channel'\]/subject = $features-subj\]	\*Warning\*: \_XXXXXX is a template XXXXXX, which means that it should very likely not have any Author contributions. This XXXXXX has XXXXXX. Please check with eLife production whether author contributions should be present.\_
+**Warning**: _XXXXXX is a template XXXXXX but it does not \(currently\) have a decision letter. Is that OK?_
 
+**Action**:
 
+#### feature-template-test-4
+
+**Warning**: _XXXXXX is a template XXXXXX but it does not \(currently\) have an author response. Is that OK?_
+
+Action:
+
+#### feature-templates-no-bre
+
+**Error**: _XXXXXX is a template XXXXXX, which means that it should not have any BREs. This XXXXXX has XXXXXX. Please remove any senior/reviewing editors._
+
+**Action**: Template 1–4 articles should not have 
+
+#### feature-templates-author-cont
+
+**Warning**: _XXXXXX is a template XXXXXX, which means that it should very likely not have any Author contributions. This XXXXXX has XXXXXX. Please check with eLife production whether author contributions should be present._
+
+**Action**: This warning indicates that the authors of a Template 1, 2, 3 or 4 article have author contirbutions. This is highly unusual as articles using these templates do not typically include contributions. eLife has, however, published Editorials \(Template 2\) articles with contributions, so they are allowed in unusual cases. Check for any notes indicating that contributions are required for the current article.
+
+### Structure
 
 #### feat-custom-meta-test-1
 
