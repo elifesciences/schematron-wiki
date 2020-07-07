@@ -65,6 +65,7 @@ The following checklists cover the initial stages following the export of articl
 ### Article details page
 
 1. Check that the impact statement is a single, complete, grammatically correct sentence of no more than 30 words in length \(see the [Impact statement](../article-details/content/impact-statement.md) page for more details\).
+2. Check that the data availability statement is grammatically correct.
 
 ### Content page
 
