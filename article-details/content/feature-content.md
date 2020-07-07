@@ -142,6 +142,108 @@ Once they have completed their checks, they will sign the article off to Post Au
 
 
 
+#### feature-title-test-1
+
+**Error**: _title starts with the sub-display-channel. This is certainly incorrect._
+
+**Action**: This error indicates that the title prefix \(sub-display-channel\) has been included at the start of the article title as well as in the correct field. Remove the repeated text from the article title.
+
+#### feature-subj-test-1
+
+**Error**: _Feature content must contain subj-group\[@subj-group-type='sub-display-channel'\]._
+
+**Action**: This error indicates that the title prefix \(sub-display-channel\) is missing from the article. Ensure that this is added in, based on the content in the exported article file. If no title prefix is present in the article file, the Features team must be contacted to provide one.
+
+#### feature-subj-test-2
+
+**Error**: _The content of the sub-display-channel should be in title case - XXXXXX_
+
+**Action**: Correct the title prefix \(sub-display-channel\) so that it is in title case rather than, for example, in sentence case. XXXXXX will be the text of the title prefix.
+
+#### feature-subj-test-3
+
+**Error**: _sub-display-channel ends with a colon. This is incorrect._
+
+**Action**: Delete the colon from the end of the title prefix \(sub-display-channel\).
+
+#### feature-subj-test-4
+
+**Error**: _There is more than one sub-display-channel subjects. This is incorrect._
+
+**Action**: Only one title prefix \(sub-display-channel\) is allowed per article. Remove the extra title prefix.
+
+#### feature-article-category-test-1
+
+**Error**: _article categories contains more than one subj-group\[@subj-group-type='sub-display-channel'\], which must be incorrect._
+
+**Action**: Only one title prefix \(sub-display-channel\) is allowed per article. Remove the extra title prefix.
+
+#### feature-article-category-test-2
+
+**Warning**: _article categories doesn't contain a subj-group\[@subj-group-type='sub-display-channel'\]. This is almost certainly not right._
+
+**Action**: This warning indicates that the title prefix \(sub-display-channel\) is missing from the article. Ensure that this is added in, based on the content in the exported article file. If no title prefix is present in the article file, the Features team must be contacted to provide one.
+
+#### feature-author-test-1
+
+**Error**: _Author must contain child bio in feature content._
+
+**Action**: Every author in a feature article should have a bio element. The text for this should be given in the exported article file. Ensure that this is added to the author indicated.
+
+#### feature-bio-test-1
+
+**Error**: _bio must contain a bold element which contains the name of the author - XXXXXX._
+
+**Action**: The author's name in the bio should be in bold. Check that this has been done and that the bold formatting does not spill over into the rest of the text. XXXXXX will be the affected author.
+
+#### feature-bio-test-2
+
+**Warning**: _bio does not contain the institution text as it appears in their affiliation \('XXXXXX'\). Is this correct?_
+
+**Action**: 
+
+#### feature-bio-test-6
+
+**Warning**: _Some of the text from XXXXXX's affiliations does not appear in their bio - XXXXXX. Is this correct?_
+
+**Action**: 
+
+#### feature-bio-test-3
+
+**Error**: _bio cannot end with a full stop - 'XXXXXX'._
+
+**Action**: remove the full-stop from the end of the author bio. XXXXXX will be the text of the affected bio.
+
+#### feature-bio-test-4
+
+**Error**: _One and only 1 &lt;p&gt; is allowed as a child of bio. XXXXXX_
+
+**Action**: 
+
+#### feature-bio-test-5
+
+**Error**: _XXXXXX is not allowed as a child of &lt;bio&gt;. - XXXXXX_
+
+**Action**: 
+
+#### feature-template-test-1
+
+**Error**: _XXXXXX is a template XXXXXX but it has a decision letter or author response, which cannot be correct, as only template 5s are allowed these._
+
+**Action**: Only Template 5 feature articles should have decision letter and author response sections.
+
+feature-template-test-2	article\[descendant::article-meta/article-categories/subj-group\[@subj-group-type='display-channel'\]/subject = $features-subj\]	\*Error\*: \_XXXXXX is a template XXXXXX so the article element must have a @article-type="research-article". Instead the @article-type="XXXXXX".\_
+
+feature-template-test-3	article\[descendant::article-meta/article-categories/subj-group\[@subj-group-type='display-channel'\]/subject = $features-subj\]	\*Warning\*: \_XXXXXX is a template XXXXXX but it does not \(currently\) have a decision letter. Is that OK?\_
+
+feature-template-test-4	article\[descendant::article-meta/article-categories/subj-group\[@subj-group-type='display-channel'\]/subject = $features-subj\]	\*Warning\*: \_XXXXXX is a template XXXXXX but it does not \(currently\) have an author response. Is that OK?\_
+
+feature-templates-no-bre	article\[descendant::article-meta/article-categories/subj-group\[@subj-group-type='display-channel'\]/subject = $features-subj\]	\*Error\*: \_XXXXXX is a template XXXXXX, which means that it should not have any BREs. This XXXXXX has XXXXXX. Please remove any senior/reviewing editors.\_
+
+feature-templates-author-cont	article\[descendant::article-meta/article-categories/subj-group\[@subj-group-type='display-channel'\]/subject = $features-subj\]	\*Warning\*: \_XXXXXX is a template XXXXXX, which means that it should very likely not have any Author contributions. This XXXXXX has XXXXXX. Please check with eLife production whether author contributions should be present.\_
+
+
+
 #### feat-custom-meta-test-1
 
 **Error**: _XXXXXX is not allowed in a Template type meta-value._
