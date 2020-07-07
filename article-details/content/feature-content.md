@@ -148,12 +148,6 @@ Once they have completed their checks, they will sign the article off to Post Au
 
 **Action**: This error indicates that the title prefix \(sub-display-channel\) has been included at the start of the article title as well as in the correct field. Remove the repeated text from the article title.
 
-#### feature-subj-test-1
-
-**Error**: _Feature content must contain subj-group\[@subj-group-type='sub-display-channel'\]._
-
-**Action**: This error indicates that the title prefix \(sub-display-channel\) is missing from the article. Ensure that this is added in, based on the content in the exported article file. If no title prefix is present in the article file, the Features team must be contacted to provide one.
-
 #### feature-subj-test-2
 
 **Error**: _The content of the sub-display-channel should be in title case - XXXXXX_
@@ -174,15 +168,9 @@ Once they have completed their checks, they will sign the article off to Post Au
 
 #### feature-article-category-test-1
 
-**Error**: _article categories contains more than one subj-group\[@subj-group-type='sub-display-channel'\], which must be incorrect._
+**Error**: _article categories for \[insert article type\] must contain one subj-group\[@subj-group-type='sub-display-channel'\]._
 
-**Action**: Only one title prefix \(sub-display-channel\) is allowed per article. Remove the extra title prefix.
-
-#### feature-article-category-test-2
-
-**Warning**: _article categories doesn't contain a subj-group\[@subj-group-type='sub-display-channel'\]. This is almost certainly not right._
-
-**Action**: This warning indicates that the title prefix \(sub-display-channel\) is missing from the article. Ensure that this is added in, based on the content in the exported article file. If no title prefix is present in the article file, the Features team must be contacted to provide one.
+**Action**: Only one title prefix \(sub-display-channel\) is allowed per article. Remove any extra title prefixes. If no title prefix is present in the article file, the Features team must be contacted to provide one.
 
 #### feature-author-test-1
 
