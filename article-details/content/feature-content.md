@@ -266,21 +266,21 @@ Action:
 
 #### feat-custom-meta-test-info	
 
-**Info**: _Template XXXXXX._
+**Info**: _Template X._
 
-**Action**: No action required, this is just an information message stating the template used for the article.
+**Action**: No action required, this is just an information message stating the template used for the article. X will be the number of the template being used \(1, 2, 3, 4 ,5\).
 
 #### feat-custom-meta-test-3	
 
 **Error**: _XXXXXX must be a template 1. Currently it is a template XXXXXX._
 
-**Action**:
+**Action**: An article with the article type 'Insight' must use Template 1. Please change the article to this template.
 
 #### feat-custom-meta-test-4	
 
 **Error**: _XXXXXX must be a template 2. Currently it is a template XXXXXX._
 
-**Action**: 
+**Action**: An article with the article type 'Editorial' must use Template 2. Please change the article to this template.
 
 #### feat-custom-meta-test-5
 
