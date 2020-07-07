@@ -250,7 +250,7 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 **Error**: _Template type meta-value must one of '1','2','3','4', or '5'._
 
-**Action**: 
+**Action**: Correct the template type to the one indicated by the name of the article file in the export package \(e.g. \). If the template number given is a value other than 1, 2, 3, 4 or 5, the Production team should be alerted so that they can check which value the Feature team intended for the article.
 
 #### feat-custom-meta-test-info	
 
