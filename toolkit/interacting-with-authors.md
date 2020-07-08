@@ -74,6 +74,10 @@ This can be used when authors provide updated figures to replace in their proofs
 
 This can be used to check in with authors who still haven't returned their proofs after receiving the 4-day reminder email.
 
+#### Cover image response
+
+This can be used to reply to authors who are unclear about the difference between eLife's cover images and striking images. Often the expectation is that the striking image they provided will be used to generate the cover poster they can download when their article is published but the cover images we use are specific to each major subject area and at present cannot be personalised to each article. 
+
 #### COVID Chaser
 
 As above, but this is being used during the COVID pandemic.
@@ -85,6 +89,10 @@ This is a template email for sending the features update email to the features t
 #### Figure size requirements
 
 This template includes information about eLife's figure size requirements
+
+#### Happy author reply
+
+This can be used in response to authors who thank us once their article is published. 
 
 #### Hold for Insight
 
