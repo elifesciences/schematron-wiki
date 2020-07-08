@@ -39,9 +39,9 @@ If one of the panels in a figure is a table, this can be left as-is:
 
 ![](../../.gitbook/assets/screenshot-2020-07-01-at-16.11.54.png)
 
-If an author provides a PDF of an image over multiple pages we cannot process this as a single figure. Production will need to be queried to ask the authors to provide single-page figures. If each "page" contains a small image that could be a part of a complete composite figure the author should be asked to supply the image as a single page with part labels. If the images on each page are a full figure and combining the images into one figure would render them unreadable the author should be asked to split the individual pages up into separate figures or figure supplements. 
+If an author provides a PDF file over multiple pages we cannot process this as a single figure. Production will need to be queried to ask the authors to provide single-page figures. If each "page" contains a small image that could be a part of a complete composite figure the author should be asked to supply the image as a single page with part labels. If the images on each page are a full figure and combining the images into one figure would render them unreadable the author should be asked to split the individual pages up into separate figures or figure supplements. 
 
-If the authors have included unlabeled images in their article file that do not correspond to the main figures, a query should be raised with eLife Production to determine how to treat these images. In most cases, these images will need to be treated as chemical structures or schemes.
+If the authors have included unlabelled images in their article file that do not correspond to the main figures, a query should be raised with eLife Production to determine how to treat these images. In most cases, these images will need to be treated as chemical structures or schemes.
 
 ### PDF version
 
@@ -49,7 +49,7 @@ The following applies to research content \([**Feature content**](feature-conten
 
 1. Full-page width, across the text column and the gutter \(140mm\)
 2. Column width, across just the width of the text column \(100mm\)
-3. Half-column width, occupying the left 50% of the width of the text column, with the text flowing around the image block on the right \(50mm\)
+3. Half-column width, occupying the left 50% of the width of the text column, with the text flowing around the image block on the right \(50mm\) 
 
 ![An example of a full-page width figure](../../.gitbook/assets/screenshot-2020-07-01-at-16.35.48.png)
 
@@ -63,51 +63,72 @@ In each case, the legend should be the same width as the image block and the fig
 
 ### Accompanying text
 
-All figures, figure supplements and videos should have titles. Legends are not required but will usually be provided. If titles are not present, an author query will need to be added to ask the author to provide these. If the author has only provided a legend that commences with a description of panel A \(e.g. “\(a\) The high-resolution MS/MS spectrum of the H4K31ac peptide generated from . . .”\), they will also need to be queried to provide an overall title.
+All figures and figure supplements should have titles. Legends are not required but will usually be provided. If titles are not present, the following author query will need to be added to ask the author to provide these:
 
-All main figures and videos must be cited in the article text. There is no requirement for figure supplements and figure videos to be cited in the text though it is preferable that they are.
+* Please provide the title for this figure.
 
-If a figure, figure supplement, video or file is cited in the text but the corresponding file has not been provided, the author must be queried to provide the missing file.
-
-Each set of files - figures, videos, supplementary files and source data files - should be cited in numerical order in the text. If citations are out of order the author should be contacted, offering them the choice of renumbering the assets or changing the out-of-order citation\(s\) to plain text instead of live links.
-
-It is not essential that figure supplements are cited in numerical order though, again, this is preferable. Check that appropriate titles \(and legends\) source data, source code files and supplementary files have been provided. These do not require citations in the main text, but DO need titles/legends.
-
-Check the text for citations such as Supplementary table 1, Supplementary figure 1, Table S1 etc. It may be the case that these refer to files uploaded as Supplementary file 1 etc on the system. This can be checked by opening the file and examining any titles given within. If they do correspond, update the article text accordingly.
-
-We do not allow ‘Supplementary file 1A, Supplementary file 1B, Supplementary file 1C etc’ as separate files. They will either need to be combined into a single Supplementary file 1 or renumbered as Supplementary file 1, Supplementary file 2, Supplementary file 3 etc. Do not under any circumstances split up a supplementary file if the individual parts within it have been given separate legends in the article file. The LEGENDS must be merged together, not the file split apart.
-
-Source data is often associated with figures, tables or figure supplements but it is possible that source data for the whole article can be included.
-
-If articles include an unusually large number of Supplementary/Source data files, please contact Production to see if they can be combined.
-
-NOTE: please be aware that sometimes authors may cite another article’s \(for example\) Figure 1 and this should not be changed into a live citation to Figure 1 in the current article. Citations of figures in other articles should be left as plain text. They can be identified by the context of the citation - for instance, “Figure 1 in Smith et al., 1990” refers to Figure 1 in Smith et al., 1990 and not to Figure 1 of the current article. Similarly, “\(see Jones et al., 2000 \[their Figure 2\]\)” references Figure 2 in Jones et al., 2000 and should stay as plain text.
+If the author has only provided a legend that begins with a description of panel A \(e.g. “\(a\) The high-resolution MS/MS spectrum of the H4K31ac peptide generated from . . .”\), the same query as above will need to be left to ask the authors to add an overall title.
 
 ### Part labels
 
-Part labels should be captured as such in Kriya. Please match the figure file when adding part labels - if a figure contains labels A-G, check these have all been referred to in the legend. If they haven't, please add one of these two author queries depending on which is missing:
+Part labels should be captured as such in Kriya. Please match the figure file when adding part labels - if a figure contains labels A-G, check these have all been referred to in the legend. If they haven't, leave the following author query:
 
-* The legend for Figure X refers to panel label "Y", but this has not been provided in the figure file. Please provide an updated figure file containing label "Y", or remove this label from the legend.
 * The image file for Figure X contains panel label "Y", but this has not been provided in the figure legend. Please add a reference to this panel to the figure legend, or provide an updated figure file with this label removed.
 
-Or, if more than one panel label is missing:
+If the legend refers to figure panels that are not in the figure file, the following author query should be left:
 
-* The legend for Figure X refers to panel labels "Y–Z", but these has not been provided in the figure file. Please provide an updated figure file containing labels "Y–Z", or remove these labels from the legend.
-* The image file for Figure X contains panel labels "Y–Z", but these have not been provided in the figure legend. Please add references to these panels to the figure legend, or provide an updated figure file with these labels removed.
+* The legend for Figure X refers to panel label "Y", but this has not been provided in the figure file. Please provide an updated figure file containing label "Y", or remove this label from the legend.
 
-If there are sub-parts that refer to figure panels \(e.g. A', A'', or A\(I\), \(II\)\) and the author has cited these in the text \(I.e. 'Figure 2Ai'\) make sure these are also captured consistently as part labels. Labels in figures that don't refer to panels \(or haven't been cited in the text\) don't need to be captured as part labels. The main thing is to be consistent within an article.
+{% hint style="info" %}
+Make sure 'X' and 'Y' are replaced with the appropriate figure number and panel letters. Make sure if there are multiple missing panels/panel references that the text is adapted to use plurals, for example:
+
+* The image file for Figure X contains panel label**s** "**Y–Z**", but **these have** not been provided in the figure legend \[...\]
+* The legend for Figure X refers to panel label**s** "**Y–Z**", but **these have** not been provided in the figure file \[...\]
+{% endhint %}
+
+If there are sub-parts that refer to figure panels \(e.g. A', A'', or A\(I\), \(II\)\) and the author has cited these in the text \(I.e. 'Figure 2Ai'\) make sure these are also captured consistently as part labels. Figure sub-parts that haven't been cited in the text don't need to be captured as part labels. The main thing is to be consistent within an article.
+
+Make sure part labels are not automatically added to every letter/number in a figure caption. For example in Figure 8 of 56236, some of the graphs included the text 'P19' and 'P24':
+
+![](../../.gitbook/assets/screenshot-2020-07-08-at-12.34.06.png)
+
+These were incorrectly captured as part labels in the title:
+
+![](../../.gitbook/assets/screenshot-2020-06-25-at-10.13.39%20%281%29.png)
+
+As these do not refer to figure panels, they were changed to plain text in the final article.
+
+### In-text citations
+
+All main figures must be cited in the article text. If these have not been cited, the following query should be left:
+
+* Please provide an in-text citation for this figure.
+
+Figure supplements do not have to be cited in the text though it is preferable that they are. If a figure or figure supplement is cited in the text but the corresponding file has not been provided, the author must be queried to provide the missing file with one of the queries below. 
+
+* Please provide the image file for this figure \(do we need to add this in AQ list?\)
+* Please provide the image file for this figure supplement.
+* Figure X is cited in the text but has not been provided. Please either correct the citation, provide the figure file and a title and legend, or confirm that this citation refers to another article.
+
+Please be aware that sometimes authors may cite a figure from another article. Citations of figures in other articles should be left as plain text. They can be identified by the context of the citation - for instance, “Figure 1 in Smith et al., 1990” refers to Figure 1 in Smith et al., 1990 and not to Figure 1 of the current article. Similarly, “\(see Jones et al., 2000 \[their Figure 2\]\)” references Figure 2 in Jones et al., 2000 and should stay as plain text. If the context is unclear, leave the following query:
+
+* Figure X is cited in the text but has not been provided. Please either correct the citation, provide the figure file and a title and legend, or confirm that this citation refers to another article.
+
+### Source code/data
+
+Source data is often associated with figures and figure supplements. Each source data or source code file should be linked with the appropriate figure or figure supplement. For example, if a source data \(or code\) file is labelled Figure 1 - source data 1 but the title makes it clear that the data refers to a figure supplement, it should be relabelled as Figure 1 - Figure supplement X - source data 1 \(or source code as appropriate\). 
 
 ### Reproduced images
 
 If the legend for a figure or figure supplement states that the image is ‘reprinted from’ or ‘reproduced from’, we may need to add licensing information for the reproduced elements. This will usually apply to panels within images, not whole images.
 
-If the previously published content was published under a CCBY or CC0 license, the work must be properly attributed and credited \(provide full citation details and license\). If this matches the license of this article it does not need to be tagged differently in the underlying XML because it is following the license of the article. However, if the article you are working on is CC0, but the reproduced figure is CCBY, this needs to be indicated in the underlying XML and so requires specific tagging.
+If the previously published content was published under a [**CCBY**](https://creativecommons.org/licenses/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, the work must be properly attributed and credited \(provide full citation details and license\). If this matches the license of this article, it does not need to be tagged differently in the underlying XML because it is following the license of the article. However, if the article you are working on is CC0, but the reproduced figure is CCBY, this needs to be indicated in the underlying XML and so requires specific tagging.
 
-Equally if it is usually not a problem for them to ‘adapt’ previously published content. This usually means that they are not reproducing anything directly but are instead redrawing a figure or simply using the same data to create new content. Again, as long as they provide a suitable citation and state clearly, for example, that “Panel A in Figure 2 has been adapted from Smith and Jones, 2015.”
+Figures and figure supplements \(or panels within these\) may be 'adapted' from previously published content. This usually means that the authors are not reproducing anything directly but are instead redrawing a figure or simply using the same data to create new content. As long as the authors provide a suitable citation and state clearly, for example, that “Panel A in Figure 2 has been adapted from Smith and Jones, 2015”, no further action is required.
 
-However, if the authors chose to exactly reproduce a figure or section from a previously published, non-open access/CC BY article in part or in whole, it will need to be published under a separate license. This is because the original publication will have been published under a license that retains copyright. An article published in Nature, for example, will be copyright to the Nature Publishing Group, and articles published in Science will be copyright to the American Association for the Advancement of Science and so on. If eLife is to reproduce the contents of these articles, it must make it clear that the publisher retains copyright on that content, and that it is therefore not covered by the CCBY or CC0 license that covers the rest of the eLife article. The same issue applies when authors incorporate images from other copyrighted media into their figures \(e.g. if they use film stills or artwork\).
+However, if the authors chose to exactly reproduce a figure or section from a previously published, non-open access/non-CCBY article in part or in whole, it will need to be published under a separate license. This is because the original publication will have been published under a license that retains copyright. An article published in Nature, for example, will be copyright to the Nature Publishing Group, and articles published in Science will be copyright to the American Association for the Advancement of Science and so on. If eLife is to reproduce the contents of these articles, it must make it clear that the publisher retains copyright on that content, and that it is therefore not covered by the CCBY or CC0 license that covers the rest of the eLife article. The same issue applies when authors incorporate images from other copyrighted media into their figures \(e.g. if they use film stills or artwork\).
 
-If the authors chose to reproduce copyrighted images in their figures, they must state what has been reproduced in the legend. In addition to this, a permissions statement must be appended to the figure in the XML giving the license details for the reproduced image. For example, [Figure 1 in eLife article 50974](https://elifesciences.org/articles/50974/figures) contains an image reproduced from another article.
+If the authors chose to reproduce copyrighted images in their figures, they must state what has been reproduced in the legend. In addition to this, a permissions statement must be appended to the figure in the XML giving the license details for the reproduced image. For example, [**Figure 1 in eLife article 50974**](https://elifesciences.org/articles/50974/figures) contains an image reproduced from another article.
 
 The license statement added by eLife Production is:
 
@@ -144,21 +165,22 @@ with permission. It is not covered by the CC-BY 4.0 licence and further reproduc
 </fig>
 ```
 
-### Schematron
+## Schematron checks
 
-The following rules apply to figures:
+### Content checks
+
+These checks relate to the content of figures and figure supplements. X or XXXXXX refers to quoted text which will change depending on the article.
 
 #### fig-xref-test-4
 
-**Rule:** Figure X - Figure citation is in the caption of the figure that it links to. Is it correct or necessary?
+**Warning:** _XXXXXX - Figure citation is in the caption of the figure that it links to. Is it correct or necessary?_
 
-**Action:** If the figure citation refers to a figure from another paper, this needs to be changed to plain text. If it is simply referring to a panel, it can be changed to a part label.
+**Action:** If the figure citation refers to a figure from another paper, this needs to be changed to plain text. If it is simply referring to a panel in the same figure, it can be changed to a part label. 
 
-**Example:** If the following text is in the caption of Figure 2:
+For example, if the following text is in the caption of Figure 2:
 
-"See Figure 2A \(Smith et al., 2020\)." The 'Figure 2A' in this example should be changed to plain text.
-
-"\(B\) Further analysis of samples in Figure 2A." The 'Figure 2A' in this example should be changed to '\(A\)' as it is referring to a part label in the same figure.
+* "See Figure 2A \(Smith et al., 2020\)." The citation 'Figure 2A' should be changed to plain text as it refers to a figure from another article.
+* "\(B\) Further analysis of samples in Figure 2A." The 'Figure 2A' in this example should be changed to '\(A\)' as it is referring to a part label in the same figure.
 
 If the citation doesn't refer to a part label, again check if it refers to a figure from another paper - if so, change it to plain text. If not then the citation can be removed entirely.
 
