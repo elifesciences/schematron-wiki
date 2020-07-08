@@ -30,14 +30,15 @@ The following checklists cover the initial stages following the export of articl
 
 1. All videos should play.
 2. Check that the supplementary file and video download links work correctly.
-3. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [Journal references](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
-4. For Insight articles, related article reference\(s\) must have both an eLocation ID and a DOI.
-5. RRIDs and PMIDs mentioned in the text should be linked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
-6. The capitalisation of figure labels \(a, b, c, . . . or A, B, C, . . .\) should match the capitalisation of the labels in the figure image.
-7. Check for any missing panel labels in the figure legends or images. If the image has panel labels but the legend does not, the authors should be asked to add panel labels to the legend. If the legend has panel labels but the image does not, the authors should be asked to provide a new image file. See the [Figures and figure supplements](../article-details/content/untitled.md#part-labels) page for more information.
-8. Check the Acknowledgements \(`<ack>`\) section for funder information that is not already listed in the funding section. Ignore [third party funders](../article-details/content/funding-information.md#third-party-funding-vs-funding-to-authors).
-9. Footnotes to the main text are not allowed. Any such footnotes should be incorporated as a bracketed statement at the point where they are cited in the text. An author query should be added to confirm this is acceptable:
-   * "As eLife does not support footnotes to the main text, we have integrated this note into the text at the point it was cited. Please confirm this is acceptable."
+3. Source code files should be zipped and re-uploaded \(if they are not zipped already\) to retain the original file name exported from the submission system.
+4. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [Journal references](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
+5. For Insight articles, related article reference\(s\) must have both an eLocation ID and a DOI.
+6. RRIDs and PMIDs mentioned in the text should be linked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
+7. The capitalisation of figure labels \(a, b, c, . . . or A, B, C, . . .\) should match the capitalisation of the labels in the figure image.
+8. Check for any missing panel labels in the figure legends or images. If the image has panel labels but the legend does not, the authors should be asked to add panel labels to the legend. If the legend has panel labels but the image does not, the authors should be asked to provide a new image file. See the [Figures and figure supplements](../article-details/content/untitled.md#part-labels) page for more information.
+9. Check the Acknowledgements \(`<ack>`\) section for funder information that is not already listed in the funding section. Ignore [third party funders](../article-details/content/funding-information.md#third-party-funding-vs-funding-to-authors).
+10. Footnotes to the main text are not allowed. Any such footnotes should be incorporated as a bracketed statement at the point where they are cited in the text. An author query should be added to confirm this is acceptable:
+    * "As eLife does not support footnotes to the main text, we have integrated this note into the text at the point it was cited. Please confirm this is acceptable."
 
 ### PDF
 
@@ -95,4 +96,6 @@ The following checklists cover the initial stages following the export of articl
 13. For values of millions and above, digits and the word for the order of magnitude should be used, e.g. 6 million, 10 billion etc.
 14. All decimal values should have leading zero, e.g. .001 should be changed to 0.001.
 15. For whole numbers, twofold, fourfold, tenfold etc. are allowed. For fractions, the number in digits followed by '-fold' should be used e.g. 2.5-fold, 0.5-fold etc.
+
+
 
