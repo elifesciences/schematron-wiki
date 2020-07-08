@@ -216,3 +216,27 @@ The following tests are run on general content.
 
 Otherwise the text should be captured as a proper citation.
 
+#### graphic-test-1
+
+**Error:** _has tif mime-subtype but filename does not end with '.tif' or '.tiff'. This cannot be correct._
+
+#### graphic-test-2
+
+**Error:** _has postscript mime-subtype but filename does not end with '.eps'. This cannot be correct._
+
+#### graphic-test-3
+
+**Error:** _has jpeg mime-subtype but filename does not end with '.jpg' or '.jpeg'. This cannot be correct._
+
+#### graphic-test-4
+
+**Error:** _must have a @mimetype='image'._
+
+#### graphic-test-5
+
+**Error:** _must have an @xlink:href which contains a file reference._
+
+#### graphic-test-6
+
+**Error:** _Image file for XXXXXX \(XXXXXX\) is the same as the one used for XXXXXX._
+
