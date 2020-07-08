@@ -194,7 +194,7 @@ Once they have completed their checks, they will sign the article off to Post Au
 
 **Error**: _One and only 1 &lt;p&gt; is allowed as a child of bio. XXXXXX_
 
-**Action**: 
+**Action**: Only a single paragraph should be present in the author bio. If more than one paragraph is present, the text should be reformatted into a single paragraph.
 
 #### feature-bio-test-5
 
@@ -230,7 +230,7 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 **Error**: _XXXXXX is a template XXXXXX, which means that it should not have any BREs. This XXXXXX has XXXXXX. Please remove any senior/reviewing editors._
 
-**Action**: Template 1–4 articles should not have 
+**Action**: Template 1–4 articles should not have any editor or reveiewer information. Remove this information from the article to clear this error.
 
 #### feature-templates-author-cont
 
