@@ -45,6 +45,7 @@
 * [Toggl](toolkit/kriya.md)
 * [Managing the production inbox](toolkit/managing-the-production-inbox.md)
 * [Interacting with authors](toolkit/interacting-with-authors.md)
+* [Striking images](toolkit/striking-images-1.md)
 * [XML Glossary](toolkit/xml-glossary.md)
 * [eLife Glossary](toolkit/elife-glossary.md)
 
@@ -52,5 +53,4 @@
 
 * [Kriya](pages-in-progress/kriya-1.md)
 * [Publish on accept protocols](pages-in-progress/publish-on-accept-protocols.md)
-* [Striking images](pages-in-progress/striking-images-1.md)
 
