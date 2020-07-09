@@ -55,9 +55,19 @@ Depending on the status of the article, you can upload this striking image throu
 
 ### **Uploading via eJP** 
 
-To upload this via eJP, you should bring up the accepted version of the article. Ensure this article has not already been exported from eJP to Kriya. To check, you can look to see if under  'More Manuscript Info and Tools' on the right hand side of the page, and see if the 'Export to Exeter' option is not displaying but instead says 'resent to Exeter'. Alternatively, you can look in the Production inbox for the XML notification.  
+To upload this via eJP, you should bring up the accepted version of the article. 
 
- Once you are sure that the article has not yet been exported, click 'Modify Manuscript Files' under the 'More Manuscript Info and Tools' menu. This will bring up the file list as shown below.  
+![](../../.gitbook/assets/screenshot-2020-06-17-at-14.44.57%20%281%29.png)
+
+![](../../.gitbook/assets/screenshot-2020-06-17-at-14.45.46%20%281%29.png)
+
+Ensure this article has not already been exported from eJP to Kriya. To check, you can look to see if under  'More Manuscript Info and Tools' on the right hand side of the page, and see if the 'Export to Exeter' option is not displaying but instead says 'Resend/Export to Exeter Premedia'. Alternatively, you can look in the Production inbox for the XML notification.  
+
+![](../../.gitbook/assets/screen-shot-2020-07-09-at-13.28.45.png)
+
+ Once you are sure that the article has not yet been exported, click 'Modify Manuscript Files' under the 'More Manuscript Info and Tools' menu. 
+
+This will bring up the file list as shown below.  
 
 ![](../../.gitbook/assets/screen-shot-2020-07-02-at-13.58.59.png)
 
@@ -69,7 +79,9 @@ Once this has been uploaded, you will be presented with a drop down menu to sele
 
 ![](../../.gitbook/assets/screen-shot-2020-07-02-at-14.02.01.png)
 
+Once you have done this, click 'Save and Exit'
 
+![](../../.gitbook/assets/screenshot-2020-06-17-at-14.44.12%20%282%29.png)
 
 ### Uploading via Kriya 
 
@@ -77,11 +89,23 @@ To attach a striking image to an article, download the image provided by the aut
 
 ![](../../.gitbook/assets/screenshot-2020-06-17-at-12.03.26%20%283%29.png)
 
-When the uploader appears, select the file and then click on 'Update'. Leave the 'metacontent' as is, unless the authors have provided a caption or attribution information in which case these should be entered instead. It is worth noting that you are unable to select multiple images to upload and each image will need to be selected separately \(but within the same uploading session\). This is because with each image upload, it will overwrite what is previously in the AWS bucket. 
+When the uploader appears, select the file and then click on 'Update'. Leave the 'metacontent' as is, unless the authors have provided a caption or attribution information in which case these should be entered instead. 
+
+![](../../.gitbook/assets/screenshot-2020-06-17-at-14.27.24%20%281%29.png)
+
+It is worth noting that you are unable to select multiple images to upload through the 'Select file' icon and each image will need to be selected separately \(but within the same uploading session\). This is because with each image upload, it will overwrite what is previously in the striking images AWS bucket. To add additional images to an article has already has an image, please see 
+
+After clicking on 'Update' the uploader will not automatically close. You will need to refresh the page. Double-check the article in the dashboard to make sure the 'Striking image' button is now green. Alternatively, you can bring up the striking images AWS bucket at the same time and after you have clicked update, you can refresh the bucket to ensure this has been uploaded. 
 
 ![](../../.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%283%29.png)
 
+### Uploading via the striking images AWS bucket 
 
+If an article already has a striking image but the authors would like to add another, and it has already been exported to Kriya, the image will need to be uploaded straight to the striking image bucket. To do this, open the elife-striking-images bucket in Cyberduck \(or similar program\) and search for the manuscript number. 
 
+![](../../.gitbook/assets/screenshot-2020-06-17-at-15.17.00%20%281%29.png)
 
+Open this folder and drag and drop the new striking image in to upload it. Make sure the striking image is titled appropriately - e.g. '56754-b\_striking\_image' if there is already a '56754-a\_striking\_image'. If the authors have provided a title, caption, or attribution information, enter this into a .txt file and save with the same title \(i.e. '56754-b\_striking\_image'\). If they have not provided this information, you do not need to include a .txt file. 
+
+![](../../.gitbook/assets/screenshot-2020-06-17-at-15.21.44%20%281%29.png)
 
