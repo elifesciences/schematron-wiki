@@ -53,7 +53,7 @@ They may only include the title of the article without the article number but yo
 
 Depending on the status of the article, you can upload this striking image through eJP or the Kriya dashboard. 
 
-## **Uploading via eJP** 
+### **Uploading via eJP** 
 
 To upload this via eJP, you should bring up the accepted version of the article. Ensure this article has not already been exported from eJP to Kriya. To check, you can look to see if under  'More Manuscript Info and Tools' on the right hand side of the page, and see if the 'Export to Exeter' option is not displaying but instead says 'resent to Exeter'. Alternatively, you can look in the Production inbox for the XML notification.  
 
@@ -71,11 +71,15 @@ Once this has been uploaded, you will be presented with a drop down menu to sele
 
 
 
-## Uploading via Kriya 
+### Uploading via Kriya 
 
+To attach a striking image to an article, download the image provided by the author, go to the article in the Kriya dashboard and click on 'Striking image'. 
 
+![](../../.gitbook/assets/screenshot-2020-06-17-at-12.03.26%20%283%29.png)
 
+When the uploader appears, select the file and then click on 'Update'. Leave the 'metacontent' as is, unless the authors have provided a caption or attribution information in which case these should be entered instead. It is worth noting that you are unable to select multiple images to upload and each image will need to be selected separately \(but within the same uploading session\). This is because with each image upload, it will overwrite what is previously in the AWS bucket. 
 
+![](../../.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%283%29.png)
 
 
 
