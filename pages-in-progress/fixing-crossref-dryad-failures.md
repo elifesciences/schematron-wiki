@@ -16,75 +16,45 @@ At eLife, when an article is PoAed, the DOI is submitted automatically to Crossr
 
 Production receive Crossref emails for both PoA and VOR articles that are sent for publication on Continuum. 
 
- 
+These typically look like this: 
 
-![A successful crossref email](../.gitbook/assets/screen-shot-2020-07-09-at-15.15.44.png)
+![](../.gitbook/assets/screen-shot-2020-07-09-at-15.24.59.png)
+
+Each email needs to be checked to ensure there have been no failures. At the bottom of the email, you should look at the following section: 
+
+![Success! ](../.gitbook/assets/screen-shot-2020-07-09-at-15.27.17.png)
+
+![Oh dear, we have a failure. ](../.gitbook/assets/screen-shot-2020-07-09-at-15.29.43.png)
+
+If any failures are counted, you will need to check the email which will outline where the failure has occurred. 
+
+![](../.gitbook/assets/screen-shot-2020-07-09-at-15.30.41.png)
+
+In the case above, the DOI for the Dryad dataset was not live which has caused the failure. This is one of our most common failures.
 
 ## What to do when a failure occurs 
 
+To correct the failure, you will need to follow these steps. 
+
+* Go to the Crossref admin page: [**https://doi.crossref.org/servlet/useragent?func=showHome**](https://doi.crossref.org/servlet/useragent?func=showHome)\*\*\*\*
+* Select ‘Submission administration’.
+* Search with no restrictions, which will bring up the list of submissions processed by Crossref. Recent errors will be highlighted with a red ‘E’ symbol:
+
+![](../.gitbook/assets/screen-shot-2020-07-09-at-15.39.22.png)
+
+* Locate the article that has failed.
+* Copy the file name.
+* Right/ctrl click on the file icon to the right of the ID \(blue text\) and click ‘Save link as’.
+* **Important note:** To prevent further failures, both the doi\_batch\_id elements and timestamp need to be edited as Crossref will reject any file that has the same batch id and timestamp as a previously submitted file. So to avoid this, you should edit the time on the doi\_batch\_id to reflect the updated time you will change in the XML. In this instance, the doi\_batch\_id was changed to 'elife-crossref-57093-20200709160008.xml'.
+* Now open the XML file.
 
 
 
 
-Outline the main things that need to be checked. Include a checklist if possible.
-
-Examples
-
-Give specific examples of everything that needs to be checked/any common problems. Add sub-sections where needed, but be as succinct as possible. Include screenshots as required.
-
-This section should also list any issues that can be spotted without the need to run Schematron tests such as low figure quality, broken paragraphs, badly formatted tables etc. Crosscheck against the protocol documents in this folder.
-
-Any quotes from articles should be formatted as quotes
-
-Any Kriya queries should be formatted as a bullet point
-
-Any hyperlinks to other pages or websites should be bolded to make sure they are more visible. 
-
-Schematron checks
-
-Content checks
-
-List of errors and warnings that can occur, with guidance on how to solve each problem or on when it is OK to let the warning go by and not change anything.
-
-These checks relate to the content of \[insert name of page\]. X or XXXXXX refers to quoted text which will change depending on the article.
-
-id-x - make sure this is tagged as a level 3 header
-
-Warning/Error/Info: content of message
-
-Action: What to do if this message fires
-
-XML structure checks
-
-These checks relate to the XML structure of \[insert name of page\]. ‌X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see below \(include link to XML structure\).
-
-id-x - make sure this is tagged as a level 3 header
-
-Warning/Error/Info: content of message
-
-Action: What to do if this message fires
-
-XML structure
-
-Include an example of the xml with variations if appropriate. 
-
-Further reading
-
-Where applicable, give links to related pages and external sites.
-
-Changelog
-
-After Exeter have fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent.
-
-dd/mm/yyyy
-
-Changes
 
 
 
-dd/mm/yyyy
 
-Changes
 
 
 
