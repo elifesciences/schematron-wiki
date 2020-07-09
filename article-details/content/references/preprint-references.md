@@ -182,6 +182,18 @@ These are the known preprint servers that are commonly cited in eLife articles. 
 
 **Action**: This will fire if the preprint server \(Journal field in Kriya, source element in the XML\) contains the text bioRxiv without the correct capitalisation, for example 'Biorxiv' or 'BiOrXiV'. Ensure that bioRxiv is added with the correct capitalisation. 
 
+#### biorxiv-test-2
+
+This test has two possible messages:
+
+**Error:** _ref 'XXXXXX' is captured as a bioRxiv preprint, but it does not have a doi starting with the bioRxiv prefix, '10.1101/'. The doi is missing._
+
+**Error:** _ref 'XXXXXX' is captured as a bioRxiv preprint, but it does not have a doi starting with the bioRxiv prefix, '10.1101/'. The doi does not point to bioRxiv - https://doi.org/XXXXXX._
+
+**Action**: This will fire if a preprint reference has bioRxiv as it's server name, but it does not have a doi, or the doi that is has does not start with '10.1101/'_._ Search the preprint name in [**bioRxiv**](https://www.biorxiv.org/). If you can find the preprint and correct doi, add it in and validate the reference. If you cannot find a bioRxiv preprint or doi, then check against the original article manuscript in order to determine if this was a processing error for this particular reference. If it was not a processing error, then add the following author query:
+
+* This bioRxiv preprint does not have a doi. Please provide the doi or, in the event that the current details are incorrect, provide the correct details for this reference.
+
 #### arxiv-test
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'arXiv'._
@@ -389,4 +401,8 @@ Preprint reference with a URL.
     </element-citation>
 </ref>
 ```
+
+## Change log
+
+* Updated 2020-07-09 to include biorxiv-test-2.
 
