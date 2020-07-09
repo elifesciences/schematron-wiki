@@ -24,7 +24,7 @@ This section should also list any issues that can be spotted without the need to
 
 * Any Kriya queries should be formatted as a bullet point
 
-Any [**hyperlinks**](./) to other pages or websites should be bolded to make sure they are more visible. 
+Any [**hyperlinks**](untitled-4.md) to other pages or websites should be bolded to make sure they are more visible. 
 
 ## Schematron checks
 

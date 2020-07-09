@@ -6,14 +6,20 @@ To maximise the impact of an article upon its release, it is beneficial to accom
 
 It is important to know that when authors send these images to us, they may refer to them in other ways. Other journals include promotional images and use them in different ways, such as: 
 
-* Cover images - These are used as front cover images on the article's journal issue. 
-* Graphical abstracts - A single, visual summative which explains the key findings of the study. Authors can use a relevant figure for this from the article or create a new image.  Please see below for an example. 
+* **Cover images** - These are used as front cover images on the article's journal issue. 
+* **Graphical abstracts** - A single, visual summative which explains the key findings of the study. Authors can use a relevant figure for this from the article or create a new image.  Please see below for an example. 
 
-![This was submitted for 44937, though at eLife we do not typically include or host these on our website.](../.gitbook/assets/bialowieza_graphical_abstract_proceso4-editado2.jpg)
+![This was submitted for 44937, though at eLife we do not typically include or host these on our website.](../../.gitbook/assets/bialowieza_graphical_abstract_proceso4-editado2.jpg)
 
 ### **Uses for striking images**
 
-Striking images can be used as a homepage image \[see [**here**](https://elifesciences.org/archive/2020) for the homepage archive\], within the eLife digest \[see [**here**](https://elifesciences.org/digests) for the digest channel\] and to promote the article via social media channels \[see [**here**](https://twitter.com/eLife/status/1278358999386259457) for an example on Twitter\]. The authors are also free to use these images for their own social media and press releases and do not need to ask permission for this. 
+Striking images can be used as 
+
+* a homepage image \[see [**here**](https://elifesciences.org/archive/2020) for the homepage archive\]
+* within the eLife digest \[see [**here**](https://elifesciences.org/digests) for the digest channel\] 
+* to promote the article via social media channels \[see [**here**](https://twitter.com/eLife/status/1278358999386259457) for an example on Twitter\]
+
+The authors are also free to use these images for their own social media and press releases and do not need to ask permission for this. 
 
 ### **Requirements** 
 
@@ -23,17 +29,17 @@ These images should preferably be in colour, in a landscape format and we at lea
 
  
 
-![46415](../.gitbook/assets/46415-a_striking_image.png)
+![46415](../../.gitbook/assets/46415-a_striking_image.png)
 
  
 
-![47732](../.gitbook/assets/47732-a_striking_image.jpg)
+![47732](../../.gitbook/assets/47732-a_striking_image.jpg)
 
 ### Uploading a striking image 
 
 Authors can email Production with a striking image via email as indicated in the acceptance email from Editorial and will have been provided with the guidance shown below.
 
-![](../.gitbook/assets/screen-shot-2020-07-02-at-13.49.22.png)
+![](../../.gitbook/assets/screen-shot-2020-07-02-at-13.49.22.png)
 
 They may only include the title of the article without the article number but you can often find this by searching in eJP using the article title or email address of the author. If you are unable to do so, the author will need to be asked for this so that we can ensure the striking image is uploaded correctly. 
 
@@ -45,15 +51,15 @@ To upload this via eJP, you should bring up the accepted version of the article.
 
  Once you are sure that the article has not yet been exported, click 'Modify Manuscript Files' under the 'More Manuscript Info and Tools' menu. This will bring up the file list as shown below.  
 
-![](../.gitbook/assets/screen-shot-2020-07-02-at-13.58.59.png)
+![](../../.gitbook/assets/screen-shot-2020-07-02-at-13.58.59.png)
 
 You can drag and drop the striking image into this field and it will automatically load to the bottom of the list. You should scroll down and click 'Upload files'.
 
-![](../.gitbook/assets/screen-shot-2020-07-02-at-14.00.51.png)
+![](../../.gitbook/assets/screen-shot-2020-07-02-at-14.00.51.png)
 
 Once this has been uploaded, you will be presented with a drop down menu to select the file type. Please select 'Potential Striking Image'. This will then bring up a title and legend box that can be filled in. The authors may not provide a title so you can leave this as 'Potential Striking Image' but if any caption or image credit has been included in the email, ensure this is added to the legend and click save. 
 
-![](../.gitbook/assets/screen-shot-2020-07-02-at-14.02.01.png)
+![](../../.gitbook/assets/screen-shot-2020-07-02-at-14.02.01.png)
 
 
 

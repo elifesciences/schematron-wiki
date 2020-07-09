@@ -1,8 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Template](untitled-4/README.md)
-  * [Striking images](untitled-4/striking-images.md)
+* [Template](untitled-4.md)
 
 ## Checklists
 
@@ -53,5 +52,6 @@
 
 * [Kriya](pages-in-progress/kriya-1.md)
 * [Publish on accept protocols](pages-in-progress/publish-on-accept-protocols.md)
-* [Striking images](pages-in-progress/striking-images.md)
+* [Striking images](pages-in-progress/striking-images/README.md)
+  * [Striking images](pages-in-progress/striking-images/striking-images.md)
 
