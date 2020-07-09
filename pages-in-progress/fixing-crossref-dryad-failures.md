@@ -45,7 +45,7 @@ To correct the failure, you will need to follow these steps.
 * Locate the article that has failed.
 * Copy the file name.
 * Right/ctrl click on the file icon to the right of the ID \(blue text\) and click ‘Save link as’.
-* **Important note:** To prevent further failures, both the doi\_batch\_id elements and timestamp need to be edited as Crossref will reject any file that has the same batch id and timestamp as a previously submitted file. So to avoid this, you should edit the time on the doi\_batch\_id to reflect the updated time you will change in the XML. In this instance, the doi\_batch\_id was changed to 'elife-crossref-57093-20200709160008.xml'.
+* **Important note:** To prevent further failures, both the doi\_batch\_id elements and timestamp need to be edited as Crossref will reject any file that has the same batch id and timestamp as a previously submitted file. So to avoid this, you should edit the time on the doi\_batch\_id you will use as the file name to reflect the updated time you will change in the XML. In this instance, the doi\_batch\_id was changed to 'elife-crossref-57093-20200709160008.xml'.
 * Now open the XML file using your XML editor for example, Oxygen.
 * As mentioned above, the timestamp and doi\_batch\_id elements need to be updated so do this first. These will appear at the top of the XML. Change these to a future time, best practice up to an hour, so here we changed both to 'elife-crossref-57093-20200709160008'. 
 
