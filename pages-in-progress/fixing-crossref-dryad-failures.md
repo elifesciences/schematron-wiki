@@ -46,9 +46,35 @@ To correct the failure, you will need to follow these steps.
 * Copy the file name.
 * Right/ctrl click on the file icon to the right of the ID \(blue text\) and click ‘Save link as’.
 * **Important note:** To prevent further failures, both the doi\_batch\_id elements and timestamp need to be edited as Crossref will reject any file that has the same batch id and timestamp as a previously submitted file. So to avoid this, you should edit the time on the doi\_batch\_id to reflect the updated time you will change in the XML. In this instance, the doi\_batch\_id was changed to 'elife-crossref-57093-20200709160008.xml'.
-* Now open the XML file.
+* Now open the XML file using your XML editor for example, Oxygen.
+* As mentioned above, the timestamp and doi\_batch\_id elements need to be updated so do this first. These will appear at the top of the XML. Change these to a future time, best practice up to an hour, so here we changed both to 'elife-crossref-57093-20200709160008'. 
 
+![](../.gitbook/assets/screen-shot-2020-07-09-at-15.48.31.png)
 
+* Once you have updated the timestamps, find the Dryad DOI that is causing the failure. This will be within a &lt;rel:related\_item&gt; element within a &lt;rel:program&gt; element:
+
+![](../.gitbook/assets/screen-shot-2020-07-09-at-15.49.33.png)
+
+* If there is only one &lt;rel:related\_item&gt;, you will need to select the entire &lt;rel:program&gt; element \(&lt;rel:program&gt; . . . &lt;/rel:program&gt;\) and delete it. You can often double click the &lt;rel:related\_item&gt; to highlight the entire string as above. 
+* Alternatively, if there is more than one &lt;rel:related\_item&gt;, only delete the one that contains the problematic DOI \(&lt;rel:related\_item&gt; . . . &lt;/rel:related\_item&gt;\). You should check the original Crossref failure email for this information. 
+* Now save the file.
+* Pause for breath, you are doing well 🕺. 
+
+Now go back to Crossref to complete the following: 
+
+* Return to the admin page and select the 'Upload' tab.
+* Select the edited XML file and click the 'upload' icon. 
+
+![](../.gitbook/assets/screen-shot-2020-07-09-at-15.50.10.png)
+
+* Go back to the admin page and search without restriction to bring up the whole queue again, it should now be at the top. Be aware that the old failure will still remain.
+* Look out for the successful crossref email to come through. 
+
+![](../.gitbook/assets/screen-shot-2020-07-09-at-15.51.13.png)
+
+![](../.gitbook/assets/screen-shot-2020-07-09-at-15.51.23.png)
+
+This has now been resolved. Unfortunately, this does mean that we will lose the Dryad information but at the moment, there is nothing we can do about this. 
 
 
 
