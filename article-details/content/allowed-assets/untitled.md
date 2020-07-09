@@ -4,7 +4,7 @@ description: How to check figures and figure supplements
 
 # Figures and figure supplements
 
-Most scientific articles include figures and figure supplements to present data. eLife figures can also have [**various assets**](allowed-assets.md) ****related to them. All figures and figure supplements must have titles, and usually also have captions \(although this is not mandatory\).
+Most scientific articles include figures and figure supplements to present data. eLife figures can also have [**various assets**](./) ****related to them. All figures and figure supplements must have titles, and usually also have captions \(although this is not mandatory\).
 
 ## What needs to be checked?
 
@@ -27,17 +27,17 @@ We strongly discourage authors from providing tables represented as figures or f
 
 For example, in 55692, Figure 1 - figure supplement 3 was originally provided as an image:
 
-![](../../.gitbook/assets/screenshot-2020-07-01-at-16.06.10.png)
+![](../../../.gitbook/assets/screenshot-2020-07-01-at-16.06.10.png)
 
 The authors were asked to provide this as an editable file and it was changed to a table in the final version: 
 
-![](../../.gitbook/assets/screenshot-2020-07-01-at-16.06.46.png)
+![](../../../.gitbook/assets/screenshot-2020-07-01-at-16.06.46.png)
 
 The author may also be given the option to convert the table in the figure to source data instead depending on the content of the table. If it is a figure supplement this would become Figure x - Source data x; if it is a main figure this would become source data attached to the document as a whole.
 
 If one of the panels in a figure is a table, this can be left as-is:
 
-![](../../.gitbook/assets/screenshot-2020-07-01-at-16.11.54.png)
+![](../../../.gitbook/assets/screenshot-2020-07-01-at-16.11.54.png)
 
 If an author provides a PDF file over multiple pages we cannot process this as a single figure. Production will need to be queried to ask the authors to provide single-page figures. If each "page" contains a small image that could be a part of a complete composite figure the author should be asked to supply the image as a single page with part labels. If the images on each page are a full figure and combining the images into one figure would render them unreadable the author should be asked to split the individual pages up into separate figures or figure supplements. 
 
@@ -45,21 +45,21 @@ If the authors have included unlabelled images in their article file that do not
 
 ### PDF version
 
-The following applies to research content \([**Feature content**](feature-content.md) templates have separate rules\). Figures can be either:
+The following applies to research content \([**Feature content**](../feature-content.md) templates have separate rules\). Figures can be either:
 
 1. Full-page width, across the text column and the gutter \(140mm\)
 2. Column width, across just the width of the text column \(100mm\)
 3. Half-column width, occupying the left 50% of the width of the text column, with the text flowing around the image block on the right \(50mm\) 
 
-![An example of a full-page width figure](../../.gitbook/assets/screenshot-2020-07-01-at-16.35.48.png)
+![An example of a full-page width figure](../../../.gitbook/assets/screenshot-2020-07-01-at-16.35.48.png)
 
-![An example of a column-width figure](../../.gitbook/assets/screenshot-2020-07-01-at-16.34.30.png)
+![An example of a column-width figure](../../../.gitbook/assets/screenshot-2020-07-01-at-16.34.30.png)
 
-![An example of a half-column width figure](../../.gitbook/assets/screenshot-2020-07-01-at-16.27.02.png)
+![An example of a half-column width figure](../../../.gitbook/assets/screenshot-2020-07-01-at-16.27.02.png)
 
 In each case, the legend should be the same width as the image block and the figure should occupy as much of the available space as possible, left aligned but preferably with little to no whitespace on the right. If the image is particularly tall, this may result in there being more whitespace on the right. The appropriate width of the figure block should be determined by the resolution and aspect ratio of the supplied image. For smaller figures, these can be left the size they are:
 
-![](../../.gitbook/assets/screenshot-2020-07-01-at-16.38.50.png)
+![](../../../.gitbook/assets/screenshot-2020-07-01-at-16.38.50.png)
 
 ### Accompanying text
 
@@ -90,11 +90,11 @@ If there are sub-parts that refer to figure panels \(e.g. A', A'', or A\(I\), \(
 
 Make sure part labels are not automatically added to every letter/number in a figure caption. For example in Figure 8 of 56236, some of the graphs included the text 'P19' and 'P24':
 
-![](../../.gitbook/assets/screenshot-2020-07-08-at-12.34.06.png)
+![](../../../.gitbook/assets/screenshot-2020-07-08-at-12.34.06.png)
 
 These were incorrectly captured as part labels in the title:
 
-![](../../.gitbook/assets/screenshot-2020-06-25-at-10.13.39%20%281%29.png)
+![](../../../.gitbook/assets/screenshot-2020-06-25-at-10.13.39%20%281%29.png)
 
 As these do not refer to figure panels, they were changed to plain text in the final article.
 
@@ -169,7 +169,7 @@ with permission. It is not covered by the CC-BY 4.0 licence and further reproduc
 
 If an image has no copyright but the authors would like to credit the person who provided it, an attribution tag can be added to the figure. For example, Figure 5 in 49979 includes the following in the caption:
 
-![](../../.gitbook/assets/screenshot-2020-07-08-at-14.11.14.png)
+![](../../../.gitbook/assets/screenshot-2020-07-08-at-14.11.14.png)
 
 This has been added as an &lt;attrib&gt; element in the xml.
 
@@ -250,7 +250,7 @@ _D1_
 
 **Action:** This will appear in Feature content if a figure does not have the label 'Figure X'. Check the original submitted document to see whether there should be a label. If so, this will need to be added by Exeter. If the original version does not have a label, this is ok to leave. For example, in 58965:
 
-![An example of a figure with no label in Feature content](../../.gitbook/assets/screenshot-2020-07-08-at-16.12.34.png)
+![An example of a figure with no label in Feature content](../../../.gitbook/assets/screenshot-2020-07-08-at-16.12.34.png)
 
 #### pre-fig-test-4
 
