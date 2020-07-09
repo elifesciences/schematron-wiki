@@ -20,7 +20,7 @@ The following checklists cover the initial stages following the export of articl
 8. Check that each funder validates against the [**Open Funder Registry**](https://www.crossref.org/services/funder-registry/). If one does not, do cursory check online to make sure the funder name is correct \(see [**Funding**](../article-details/content/funding-information.md#what-needs-to-be-checked) for more information\).
 9. Add any funding for the authors mentioned in the acknowledgements but not in the funding section to the funding table \(see [**Funding**](../article-details/content/funding-information.md#acknowledgements-section) for more information\).
 10. Raise an author query if the funding information is not complete \(e.g. missing author names\).
-11. Check the Data availability statement for dataset and code information \(see [**Data availability**](../article-details/content/data-availability.md#data-availability-statement) for more information\).
+11. Check the Data availability statement for dataset and code information \(see [**Data availability**](../article-details/content/data-availability.md#data-availability-statement) for more information\), and for data [**available on request**](../article-details/content/data-availability.md#data-available-on-request).
 12. Check and separate the database and identifier if required.
 13. Check for the dataset URL, assigning authority and Pub-id type on the [**Data availability**](../article-details/content/data-availability.md#database-examples) page.
 14. If a URL is not present, add the identifier to the URL provided on the [**Data availability**](../article-details/content/data-availability.md#database-examples) page \(or query the author if the database is not in the reference table\).
