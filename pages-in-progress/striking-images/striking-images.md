@@ -1,6 +1,10 @@
+---
+description: Information about eLife's striking images
+---
+
 # Striking images
 
-### **What are striking images?** 
+## **What is a striking image?** 
 
 To maximise the impact of an article upon its release, it is beneficial to accompany an article with an eye catching image that highlights the research article. At eLife, when an acceptance letter is sent out, we encourage authors to submit a promotional image which we call a 'striking image' to the Production team and during their submission to eJP.
 
