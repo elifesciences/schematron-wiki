@@ -53,5 +53,4 @@
 * [Kriya](pages-in-progress/kriya-1.md)
 * [Publish on accept protocols](pages-in-progress/publish-on-accept-protocols.md)
 * [Striking images](pages-in-progress/striking-images-1.md)
-* [Striking images](pages-in-progress/striking-images.md)
 

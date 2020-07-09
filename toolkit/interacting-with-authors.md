@@ -60,7 +60,7 @@ After doing this, let the authors know that the files will be updated in the fin
 
 ### Striking images
 
-Striking images are requested in the acceptance email that is sent to authors. However, the article may be exported to Kriya before they respond, so authors will often send the striking images directly to production. For guidance on what to do with these, [**see here**](../pages-in-progress/striking-images.md). Once you have uploaded striking images, make sure to let the author know you have done this \(there is an [**email template**](interacting-with-authors.md#striking-image-response) for this\). 
+Striking images are requested in the acceptance email that is sent to authors. However, the article may be exported to Kriya before they respond, so authors will often send the striking images directly to production. For guidance on what to do with these, [**see here**](). Once you have uploaded striking images, make sure to let the author know you have done this \(there is an [**email template**](interacting-with-authors.md#striking-image-response) for this\). 
 
 ## Hiver templates
 

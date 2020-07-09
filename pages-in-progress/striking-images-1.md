@@ -8,14 +8,14 @@ description: Information about eLife's striking images
 
 To maximise the impact of an article upon its release, it is beneficial to accompany an article with an eye catching image that highlights the research article. 
 
-At eLife, when an acceptance letter is sent out, we encourage authors to submit a promotional image which we call a 'striking image' to the Production team and during their submission to eJP.
+At eLife, when an acceptance letter is sent out, we encourage authors to submit a promotional image which we call a 'striking image', which can be emailed to the Production team and/or uploaded during their submission to eJP.
 
-It is important to know that when authors send these images to us, they may refer to them in other ways. Other journals include promotional images and use them in different ways, such as: 
+It is important to know that when authors send these images to us, they may refer to them in other ways. Other journals use promotional images for such things as: 
 
 * **Cover images** - These are used as front cover images on the article's journal issue. 
 * **Graphical abstracts** - A single, visual summative which explains the key findings of the study. Authors can use a relevant figure for this from the article or create a new image.  Please see below for an example. 
 
-![This was submitted for 44937, though at eLife we do not typically include or host these on our website.](../.gitbook/assets/bialowieza_graphical_abstract_proceso4-editado2.jpg)
+![Submission 44937. At eLife we do not typically include or host these on our website](../.gitbook/assets/bialowieza_graphical_abstract_proceso4-editado2.jpg)
 
 ## **Uses for striking images**
 
@@ -29,7 +29,7 @@ The authors are also free to use these images for their own social media and pre
 
 ## **Requirements** 
 
-These images should preferably be in colour, in a landscape format and we at least 1800 x 900 pixels. Photographs, microscopy images and illustrations work best. PNG, TIFF, or JPEG formats are preferred, and we must be able to use the image under the terms of the CC-BY license. 
+These images should preferably be in colour, in a landscape format and be at least 1800 x 900 pixels. Photographs, microscopy images and illustrations work best. PNG, TIFF, or JPEG formats are preferred, and we must be able to use the image under the terms of the CC-BY license. 
 
 This information is provided to authors, and it is up to them to ensure the images they provide adhere to these guidelines. We do not check them and we upload whatever is provided to Kriya. 
 
@@ -65,13 +65,13 @@ Ensure this article has not already been exported from eJP to Kriya. To check, y
 
 ![](../.gitbook/assets/screen-shot-2020-07-09-at-13.28.45.png)
 
- Once you are sure that the article has not yet been exported, click 'Modify Manuscript Files' under the 'More Manuscript Info and Tools' menu. 
+Once you are sure that the article has not yet been exported, click 'Modify Manuscript Files' under the 'More Manuscript Info and Tools' menu. 
 
 This will bring up the file list as shown below.  
 
 ![](../.gitbook/assets/screen-shot-2020-07-02-at-13.58.59.png)
 
-You can drag and drop the striking image into this field and it will automatically load to the bottom of the list. You should scroll down and click 'Upload files'.
+You can drag and drop the striking image into this field and it will automatically be added to the bottom of the list. You should scroll down and click 'Upload files'.
 
 ![](../.gitbook/assets/screen-shot-2020-07-02-at-14.00.51.png)
 
