@@ -6,8 +6,6 @@ description: >-
 
 # Allowed assets
 
-See [**here**](https://github.com/elifesciences/XML-mapping/blob/master/elife_file_naming_2016_08_25.md) for eLife file naming and asset ID information.
-
 ## Main text assets
 
 * Figure 1
