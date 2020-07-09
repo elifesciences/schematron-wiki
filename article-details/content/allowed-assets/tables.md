@@ -13,7 +13,7 @@ The following should be checked for Tables:
 * The presence of colours \(should be flagged by Schematron; see [**colour-check-table**](tables.md#colour-check-table) and [**Allowed colours in tables**](tables.md#allowed-colours-in-tables)\).
 * Missing links for RRIDs, DOIs, PMIDs and PMCIDs.
 * That links for RRIDs, DOIs, PMIDs and PMCIDs resolve.
-* References to software that requires forking or adding a citation \(see [**When and how to fork repositories**](../../toolkit/forking-git-based-repos.md) and [**Software references**](references/software-references.md)\).
+* References to software that requires forking or adding a citation \(see [**When and how to fork repositories**](../../../toolkit/forking-git-based-repos.md) and [**Software references**](../references/software-references.md)\).
 * A corresponding citation in the text \(note this is not necessary for Key resources tables, tables in Decision letters or Author responses, and for certain Appendix tables\).
 * That a title is present \(note this is not necessary for Key resources tables, tables in Decision letters or Author responses\).
 * Footnotes use the correct indicators, and follow the correct sequence.
@@ -76,7 +76,7 @@ If a table has multiple headings throughout it, then, if necessary these can be 
 
 The text in table headers is rendered with bold formatting. On the eLife site, headers are also given a grey shading:
 
-![](../../.gitbook/assets/screen-shot-2020-05-29-at-15.08.59.png)
+![](../../../.gitbook/assets/screen-shot-2020-05-29-at-15.08.59.png)
 
 Every table cell in the header can contain the following content:
 
@@ -105,19 +105,19 @@ If a table has multiple headers, spans numerous pages in the PDF, and each heade
 
 \*\*\*\*[**Here is an example**](https://elifesciences.org/articles/54090#table1). 
 
-![](../../.gitbook/assets/screen-shot-2020-06-05-at-15.27.58.png)
+![](../../../.gitbook/assets/screen-shot-2020-06-05-at-15.27.58.png)
 
-![](../../.gitbook/assets/screen-shot-2020-06-05-at-15.28.10.png)
+![](../../../.gitbook/assets/screen-shot-2020-06-05-at-15.28.10.png)
 
 This is a relatively simple table with two headers. In the screenshots above it has been captured correctly. However, if the first heading 'Induced \(278 genes\)' was captured in the table header, then it would display at the top of the 2nd page in the PDF, which would not be appropriate, since the header for that section should instead be 'Repressed \(195 genes\)':
 
-![&apos;Induced \(278 genes\)&apos; appears at the top of the page](../../.gitbook/assets/screen-shot-2020-05-27-at-09.47.41%20%281%29.png)
+![&apos;Induced \(278 genes\)&apos; appears at the top of the page](../../../.gitbook/assets/screen-shot-2020-05-27-at-09.47.41%20%281%29.png)
 
 Similarly though, there are cases where it might be appropriate for there to be an overall header, despite there being multiple headers in the table. [**Here for example**](https://elifesciences.org/articles/51662#table1):
 
-![](../../.gitbook/assets/screen-shot-2020-06-02-at-09.35.39.png)
+![](../../../.gitbook/assets/screen-shot-2020-06-02-at-09.35.39.png)
 
-![](../../.gitbook/assets/screen-shot-2020-06-02-at-09.35.54.png)
+![](../../../.gitbook/assets/screen-shot-2020-06-02-at-09.35.54.png)
 
 The Schematron check [**th-row-test**](tables.md#th-row-test) will fire if a table header cell is accompanied by normal table cells in the same row. See the action for examples of what to do when this fires.
 
@@ -131,11 +131,11 @@ If an author has labelled different sections of their table, then multiple table
 
 \*\*\*\*[**Here**](https://elifesciences.org/articles/49679#table1) the author has explicitly labelled their table as table 1a and table 1b. Since we only allow Table 1, Table 2 and so on as, as table labels, and this shares a single title/caption, it is necessary to use two tables to capture the separate labelling:
 
-![](../../.gitbook/assets/screen-shot-2020-06-05-at-15.41.44.png)
+![](../../../.gitbook/assets/screen-shot-2020-06-05-at-15.41.44.png)
 
 In this case, in the original manuscript, the author has captured this as two separate tables, and cited the individual sections in the text, which, along with the two separate labels is a good indication that it should be captured using two tables:
 
-![](../../.gitbook/assets/screen-shot-2020-06-05-at-15.45.40.png)
+![](../../../.gitbook/assets/screen-shot-2020-06-05-at-15.45.40.png)
 
 Similarly, if it is simply not possible to represent the content in one table \(i.e. because there are varying different numbers of columns, alignment, etc.\) then, provided that it is a table with multiple headers, it would be acceptable to capture it using multiple tables.
 
@@ -170,7 +170,7 @@ For example a footnote labelled with 1, followed by 2, followed by 3 should be r
 
 \*\*\*\*[**Here is an example**](https://elifesciences.org/articles/53886/figures#table2):
 
-![Footnotes following the sequence set out above](../../.gitbook/assets/screen-shot-2020-06-05-at-12.40.40.png)
+![Footnotes following the sequence set out above](../../../.gitbook/assets/screen-shot-2020-06-05-at-12.40.40.png)
 
 In the future we would like to be able to link footnote indicators in table cells to their respective footnotes, but currently this is not done, merely the symbol is included as \(usually superscripted\) text in both places. 
 
@@ -197,7 +197,7 @@ Like figures, tables can have supporting source data and source code files. Thes
 
 As with figure level source data, the label and title should be displayed underneath the table in the PDF. [**Here is an example**](https://elifesciences.org/articles/46883/figures#table1sdata1) from published content:
 
-![](../../.gitbook/assets/screen-shot-2020-06-01-at-14.25.51.png)
+![](../../../.gitbook/assets/screen-shot-2020-06-01-at-14.25.51.png)
 
 ### Allowed colours in tables
 
@@ -218,7 +218,7 @@ eLife allow the following colours for text \(in this case text inside table cell
 * Purple
 * Red
 
-![](../../.gitbook/assets/screen-shot-2020-06-01-at-17.21.42.png)
+![](../../../.gitbook/assets/screen-shot-2020-06-01-at-17.21.42.png)
 
 These colours have been selected with accessibility in mind. The eLife site will not support other colours.
 
@@ -248,7 +248,7 @@ In some articles, Key resources tables will be captured in a supplementary file 
 
 [**Key resources table example**](https://elifesciences.org/articles/57578#keyresource):
 
-![](../../.gitbook/assets/screen-shot-2020-06-01-at-11.52.50.png)
+![](../../../.gitbook/assets/screen-shot-2020-06-01-at-11.52.50.png)
 
 ## Inline tables
 
@@ -256,11 +256,11 @@ These are tables without labels. This means that they are not cited from elsewhe
 
 \*\*\*\*[**Here**](https://elifesciences.org/articles/55246#s4-24) ****is an example of two inline tables:
 
-![](../../.gitbook/assets/screen-shot-2020-06-05-at-12.53.03.png)
+![](../../../.gitbook/assets/screen-shot-2020-06-05-at-12.53.03.png)
 
-![](../../.gitbook/assets/screen-shot-2020-06-05-at-12.53.17.png)
+![](../../../.gitbook/assets/screen-shot-2020-06-05-at-12.53.17.png)
 
-![](../../.gitbook/assets/screen-shot-2020-06-05-at-12.53.38.png)
+![](../../../.gitbook/assets/screen-shot-2020-06-05-at-12.53.38.png)
 
 Inline tables can never have a title or caption. If authors have provided a table in their original manuscript with a title and caption, then the table should be given a label.
 
@@ -537,7 +537,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 For example, the header may be present as a row in the body of the table, rather than captured as a proper header.
 
-![](../../.gitbook/assets/screen-shot-2020-06-05-at-11.55.48.png)
+![](../../../.gitbook/assets/screen-shot-2020-06-05-at-11.55.48.png)
 
 #### kr-table-header-4
 
@@ -629,19 +629,19 @@ For example, the header may be present as a row in the body of the table, rather
 
 In a case like [this](https://elifesciences.org/articles/53910#table1)
 
-![](../../.gitbook/assets/screen-shot-2020-05-29-at-13.02.24.png)
+![](../../../.gitbook/assets/screen-shot-2020-05-29-at-13.02.24.png)
 
 all the table cells next to 'Refinement \(Phenix\)' and 'Validation' \(in their rows\) should be given table header formatting.
 
 In a case like [this](https://elifesciences.org/articles/52505#table1) 
 
-![](../../.gitbook/assets/screen-shot-2020-05-29-at-12.58.10.png)
+![](../../../.gitbook/assets/screen-shot-2020-05-29-at-12.58.10.png)
 
 'Map resolution' should be made into one cell spanning across its entire row \(formatted as a header\). This change should be made to achieve consistency with all of the other headings in this table.
 
 In a case like [this](https://elifesciences.org/articles/53498#table1)
 
-![](../../.gitbook/assets/screen-shot-2020-05-29-at-12.54.58.png)
+![](../../../.gitbook/assets/screen-shot-2020-05-29-at-12.54.58.png)
 
 the warning can be ignored, as all the cells in the first column serve as another header.
 
