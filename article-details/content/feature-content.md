@@ -238,6 +238,10 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 **Action**: This warning indicates that the authors of a Template 1, 2, 3 or 4 article have author contirbutions. This is highly unusual as articles using these templates do not typically include contributions. eLife has, however, published Editorials \(Template 2\) articles with contributions, so they are allowed in unusual cases. Check for any notes indicating that contributions are required for the current article.
 
+insight-box-test-1	article\[@article-type='article-commentary'\]//article-meta/related-article	\*Warning\*: \_A citation for related article XXXXXX is not included in the related-article box text in the body of the article. 'XXXXXX' is not present \(or is different to the relevant passage\) in 'XXXXXX'\_
+
+insight-related-article-test-1	article\[@article-type='article-commentary'\]//article-meta/related-article	\*Error\*: \_Insight related article links must have the related-article-type 'commentary-article'. The link for XXXXXX has 'XXXXXX'.\_
+
 ### Structure
 
 #### feat-custom-meta-test-1

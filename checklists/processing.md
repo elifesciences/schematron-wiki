@@ -11,7 +11,7 @@ The following checklists cover the initial stages following the export of articl
 ### Article details page
 
 1. The article title should follow sentence case.
-2. If there is a mismatch between the author names in the export XML and the Manuscript file,  the Manuscript should be followed.
+2. If there is a mismatch between the author names in the export XML and the Manuscript file,  the Manuscript should be followed. The affiliation, corresponding author and equal-contribution details should be taken from the Manuscript file.
 3. Affiliation details should be split into the correct fields \(Institution, City and Country\). The Department field is present for legacy content but should not be used for current articles.
 4. Research organisms should be in italics as appropriate and should be entered separately, not grouped together.
 5. Each keyword in keyword section should be entered separately, not grouped together.
@@ -40,7 +40,7 @@ The following checklists cover the initial stages following the export of articl
 10. Footnotes to the main text are not allowed. Any such footnotes should be incorporated as a bracketed statement at the point where they are cited in the text. An author query should be added to confirm this is acceptable:
     * "As eLife does not support footnotes to the main text, we have integrated this note into the text at the point it was cited. Please confirm this is acceptable."
 
-### PDF
+### PDFs
 
 1. Check that the competing interests \(if present\) and funder links from page 1 go to the correct page.
 2. Check that the eLife digest section is included \(for articles that have a digest\).
