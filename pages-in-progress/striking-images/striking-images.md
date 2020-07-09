@@ -93,7 +93,7 @@ When the uploader appears, select the file and then click on 'Update'. Leave the
 
 ![](../../.gitbook/assets/screenshot-2020-06-17-at-14.27.24%20%281%29.png)
 
-It is worth noting that you are unable to select multiple images to upload through the 'Select file' icon and each image will need to be selected separately \(but within the same uploading session\). This is because with each image upload, it will overwrite what is previously in the striking images AWS bucket. To add additional images to an article has already has an image, please see 
+It is worth noting that you are unable to select multiple images to upload through the 'Select file' icon and each image will need to be selected separately \(but within the same uploading session\). This is because with each image upload, it will overwrite what is previously in the striking images AWS bucket. To add additional images to an article has already has an image, please see [**below**](striking-images.md#uploading-via-the-striking-images-aws-bucket).
 
 After clicking on 'Update' the uploader will not automatically close. You will need to refresh the page. Double-check the article in the dashboard to make sure the 'Striking image' button is now green. Alternatively, you can bring up the striking images AWS bucket at the same time and after you have clicked update, you can refresh the bucket to ensure this has been uploaded. 
 
