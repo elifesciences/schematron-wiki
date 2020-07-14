@@ -75,6 +75,8 @@ The following checks should be carried out in addition to acting on any warnings
 
 ## Copy-editing
 
+The following checks should be carried out during the copy-editing of an article. These are in addition to the schematron tests that should be completed during pre-editing, but may cover the same content.
+
 ### Article details page
 
 1. The article title should follow sentence case, with no capitalisation except for proper nouns.
