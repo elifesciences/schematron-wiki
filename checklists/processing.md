@@ -98,13 +98,14 @@ The following points should be addressed during copy-editing:
    * For other terms, the authors' use of italics should be followed as far as is reasonable.
 6. Number use:
    * Numbers with five or more digits should have a comma separator e.g. 42,980. Numbers with four or less digits should not, e.g. 2400.
-   * Numbers less than 10 should be spelled out unless they are a quantity with a unit, in which case digits should be retained. Numbers greater than 9 should be given in digits. Exceptions:
+   * Numbers less than 10 should be spelled out unless they are a quantity with a unit, in which case digits should be retained. Numbers greater than 9 should be given in digits. However, please note the following exceptions:
      * The number begins a sentence, in which case the sentence should be restructured or the number should be spelled out.
      * There is a mixture of numbers greater than 9 and less than 10, in which case use digits, e.g. "In our study, 5 of 11 patients underwent treatment."
      * There are consecutive numerical expressions where a mix of spelled-out numbers and digits is required for clarity, e.g. "twenty eight 30-year-old patients."
    * For values of millions and above, digits and the word for the order of magnitude should be used, e.g. 6 million, 10 billion etc.
    * All decimal values should have leading zero, e.g. .001 should be changed to 0.001.
    * For whole numbers, twofold, fourfold, tenfold etc. are allowed. For fractions, the number in digits followed by '-fold' should be used e.g. 2.5-fold, 0.5-fold etc.
+   * For ordinals, first through ninth should be spelled out, thereafter use 10th . . . 21st, 22nd, 23rd . . . etc. An exception to this is if there is a mixture of ordinals greater than ninth and less than 10th, in which case use digit-ordinals e.g. "The 1st through 20th experiments were analysed."
 7. Single quotation marks should be used for emphasis \('some text'\) . Double quotation marks should be used for direct quotes \("a quote from another article"\).
 8. Where multiple sets of brackets are nested, square brackets should be used within parenthesis, e.g. "some text \(some more text \[reference\] text\)".
 9. All trademark ™, registered ® and copyright © symbols should be deleted.
