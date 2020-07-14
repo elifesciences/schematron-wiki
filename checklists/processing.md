@@ -76,28 +76,34 @@ The following checklists cover the initial stages following the export of articl
 
 ### Content page
 
-1. The following sections should not be copy-edited: **eLife digest**, **Decision letter**, **Author response**.
-2. Each article should be consistently in UK or US English. Update the text to match whichever style is most common in the article.
-3. Section headings and titles for figures, tables, source data etc. should be in sentence case.
-4. Latin terms such as in vivo, in vitro, bona fide etc. should not be italicised.
-5. Species names should be placed in italics \(e.g. _Mus musculus_, _H. sapiens_\), except where they are part of an institution name \(e.g. Caenorhabditis Genetics Center, FlyBase:Drosophila Network Resources\).
-6. For other terms, the authors' use of italics should be followed as far as is reasonable.
-7. Abbreviations should be spelled out the first time they are used, following immediately by the abbreviation in brackets. Thereafter, the abbreviated form should be used. Exceptions:
+Please read the content for sense. The following sections should not be copy-edited: **eLife digest**, **Decision letter**, **Author response**.
+
+1. Each article should be consistently in UK or US English. Update the text to match whichever style is most common in the article.
+2. Section headings and titles for figures, tables, source data etc. should be in sentence case.
+3. Latin terms such as in vivo, in vitro, bona fide etc. should not be italicised.
+4. Species names should be placed in italics \(e.g. _Mus musculus_, _H. sapiens_\), except where they are part of an institution name \(e.g. Caenorhabditis Genetics Center, FlyBase:Drosophila Network Resources\).
+5. For other terms, the authors' use of italics should be followed as far as is reasonable.
+6. Abbreviations should be spelled out the first time they are used, following immediately by the abbreviation in brackets. Thereafter, the abbreviated form should be used. Exceptions:
    * The abstract, figures and tables should be treated as separate entities and abbreviations should be redefined within them.
    * Terms on the AMA style guide list of common abbreviations do not need to be spelled out.
    * Gene/protein names can be kept in abbreviated form throughout the article \(the authors may spell them out on the first use, but this does not need to be added in if missing\).
-8. Single quotation marks should be used for emphasis. Double quotation marks should be used for direct quotes.
-9. Where multiple sets of brackets are nested, square brackets should be used within parenthesis, e.g. \(some text \[reference\] some text\).
-10. All trademark ™, registered ® and copyright © symbols should be deleted.
-11. Numbers with five or more digits should have a comma separator e.g. 42,980. Numbers with four or less digits should not, e.g. 2400.
-12. Numbers less than 10 should be spelled out unless they are a quantity with a unit, in which case digits should be retained. Numbers greater than 9 should be given in digits. Exceptions:
+7. Single quotation marks should be used for emphasis. Double quotation marks should be used for direct quotes.
+8. Where multiple sets of brackets are nested, square brackets should be used within parenthesis, e.g. \(some text \[reference\] some text\).
+9. All trademark ™, registered ® and copyright © symbols should be deleted.
+10. Numbers with five or more digits should have a comma separator e.g. 42,980. Numbers with four or less digits should not, e.g. 2400.
+11. Numbers less than 10 should be spelled out unless they are a quantity with a unit, in which case digits should be retained. Numbers greater than 9 should be given in digits. Exceptions:
     * The number begins a sentence, in which case the sentence should be restructured or spelled out.
     * There is a mixture of numbers greater than 9 and less than 10, in which case use digits, e.g. "In our study, 5 of 11 patients underwent treatment."
     * There are consecutive numerical expressions where a mix of spelled-out numbers and digits is required for clarity, e.g. "twenty eight 30-year-old patients."
-13. For values of millions and above, digits and the word for the order of magnitude should be used, e.g. 6 million, 10 billion etc.
-14. All decimal values should have leading zero, e.g. .001 should be changed to 0.001.
-15. For whole numbers, twofold, fourfold, tenfold etc. are allowed. For fractions, the number in digits followed by '-fold' should be used e.g. 2.5-fold, 0.5-fold etc.
-16. Ensure the Oxford comma is used in text and lists.
+12. For values of millions and above, digits and the word for the order of magnitude should be used, e.g. 6 million, 10 billion etc.
+13. All decimal values should have leading zero, e.g. .001 should be changed to 0.001.
+14. For whole numbers, twofold, fourfold, tenfold etc. are allowed. For fractions, the number in digits followed by '-fold' should be used e.g. 2.5-fold, 0.5-fold etc.
+15. Ensure the Oxford comma is used in text and lists.
 
+The following items can be left as the author provides:
+
+* List nesting
+* Plural or singular use of 'data'
+* 
 
 
