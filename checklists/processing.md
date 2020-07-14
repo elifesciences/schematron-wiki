@@ -81,29 +81,34 @@ Please sense-check the content and ensure that spelling and grammar are correct.
 
 The following points should be addressed during copy-editing:
 
-1. Each article should be consistently in UK or US English. Update the text to match whichever style is most common in the article.
-2. Citations are only allowed in the abstract for Research Advances, where a plain-text citation of the related article\(s\) is permitted. In all other cases, authors should be queried to remove any citations and reword the abstract if necessary.
+1. Each article should be consistently in UK or US English. Update the text to match whichever style is most common in the article. Please note:
+   * The Oxford comma should be used in text and lists regardless of which spelling style is used.
+   * The date format should match whichever style is being used e.g.:
+     * 19 August 1995 for UK spelling
+     * August 19, 1995 for US spelling
+2. Citations are only allowed in the abstract for Research Advances, where plain-text citations of the related article\(s\) are permitted. In all other cases, authors should be asked to remove any citations and reword the abstract if necessary.
 3. Section headings and titles for figures, tables, source data etc. should be in sentence case.
-4. Latin terms such as in vivo, in vitro, bona fide etc. should not be italicised.
-5. Species names should be in italics \(e.g. _Mus musculus_, _H. sapiens_\), except where they are part of an institution name \(e.g. Caenorhabditis Genetics Center, FlyBase:Drosophila Network Resources\).
-6. For other terms, the authors' use of italics should be followed as far as is reasonable.
-7. Abbreviations should be spelled out the first time they are used, following immediately by the abbreviation in brackets. Thereafter, the abbreviated form should be used. Exceptions:
+4. Abbreviations should be spelled out the first time they are used, following immediately by the abbreviation in brackets. Thereafter, the abbreviated form should be used. However, please note the following exceptions:
    * The abstract, figures and tables should be treated as separate entities and abbreviations should be redefined within them.
    * Terms on the AMA style guide list of common abbreviations do not need to be spelled out.
    * Gene/protein names can be kept in abbreviated form throughout the article \(the authors may spell them out on the first use, but this does not need to be added in if missing\).
-8. Single quotation marks should be used for emphasis. Double quotation marks should be used for direct quotes.
-9. Where multiple sets of brackets are nested, square brackets should be used within parenthesis, e.g. \(some text \[reference\] some text\).
-10. All trademark ™, registered ® and copyright © symbols should be deleted.
-11. Numbers with five or more digits should have a comma separator e.g. 42,980. Numbers with four or less digits should not, e.g. 2400.
-12. Numbers less than 10 should be spelled out unless they are a quantity with a unit, in which case digits should be retained. Numbers greater than 9 should be given in digits. Exceptions:
-    * The number begins a sentence, in which case the sentence should be restructured or spelled out.
-    * There is a mixture of numbers greater than 9 and less than 10, in which case use digits, e.g. "In our study, 5 of 11 patients underwent treatment."
-    * There are consecutive numerical expressions where a mix of spelled-out numbers and digits is required for clarity, e.g. "twenty eight 30-year-old patients."
-13. For values of millions and above, digits and the word for the order of magnitude should be used, e.g. 6 million, 10 billion etc.
-14. All decimal values should have leading zero, e.g. .001 should be changed to 0.001.
-15. For whole numbers, twofold, fourfold, tenfold etc. are allowed. For fractions, the number in digits followed by '-fold' should be used e.g. 2.5-fold, 0.5-fold etc.
-16. Ensure the Oxford comma is used in text and lists.
-17. '&' should be changed to 'and' if used as part of a sentence. '&' should be left if used as part of a name e.g. 'R&D' or 'Texas A&M University'.
+5. Use of italics:
+   * Latin terms such as in vivo, in vitro, bona fide etc. should not be italicised.
+   * Species names should be in italics \(e.g. _Mus musculus_, _H. sapiens_\), except where they are part of an institution name \(e.g. Caenorhabditis Genetics Center, FlyBase:Drosophila Network Resources\).
+   * For other terms, the authors' use of italics should be followed as far as is reasonable.
+6. Number use:
+   * Numbers with five or more digits should have a comma separator e.g. 42,980. Numbers with four or less digits should not, e.g. 2400.
+   * Numbers less than 10 should be spelled out unless they are a quantity with a unit, in which case digits should be retained. Numbers greater than 9 should be given in digits. Exceptions:
+     * The number begins a sentence, in which case the sentence should be restructured or the number should be spelled out.
+     * There is a mixture of numbers greater than 9 and less than 10, in which case use digits, e.g. "In our study, 5 of 11 patients underwent treatment."
+     * There are consecutive numerical expressions where a mix of spelled-out numbers and digits is required for clarity, e.g. "twenty eight 30-year-old patients."
+   * For values of millions and above, digits and the word for the order of magnitude should be used, e.g. 6 million, 10 billion etc.
+   * All decimal values should have leading zero, e.g. .001 should be changed to 0.001.
+   * For whole numbers, twofold, fourfold, tenfold etc. are allowed. For fractions, the number in digits followed by '-fold' should be used e.g. 2.5-fold, 0.5-fold etc.
+7. Single quotation marks should be used for emphasis \('some text'\) . Double quotation marks should be used for direct quotes \("a quote from another article"\).
+8. Where multiple sets of brackets are nested, square brackets should be used within parenthesis, e.g. "some text \(some more text \[reference\] text\)".
+9. All trademark ™, registered ® and copyright © symbols should be deleted.
+10. '&' should be changed to 'and' if used as part of a sentence. '&' should be left if used as part of a name e.g. 'R&D' or 'Texas A&M University'.
 
 The following items can be left as the author provides:
 
