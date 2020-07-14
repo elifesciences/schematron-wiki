@@ -10,7 +10,7 @@ The following checklists cover the initial stages following the export of articl
 
 ### Article details page
 
-1. If there is a mismatch between the author names in the export XML and the Manuscript file,  the Manuscript should be followed. The affiliation, corresponding author and equal-contribution details should be taken from the Manuscript file.
+1. If there is a mismatch between the author names in the export XML and the manuscript file,  the manuscript should be followed. The affiliation, corresponding author and equal-contribution details should be taken from the manuscript file.
 2. Affiliation details should be split into the correct fields \(Institution, City and Country\). The Department field is present for legacy content but should not be used for current articles.
 3. Each research organism in the research organisms section should be entered separately, not groupd together.
 4. Each keyword in the keyword section should be entered separately, not grouped together.
@@ -68,7 +68,7 @@ The following checklists cover the initial stages following the export of articl
 7. sin, tan, cos, log and cos should be in roman font and should be entered as functions rather than text \(e.g. `\sin`, `\tan`, `\cos`, `\log`\).
 8. Special fonts like script, calligraphy, fracture characters should be identified and checked against the merged PDF file. Make sure they display in both the Content view and in the PDF.
 9. Multiline equations should be framed correctly with the same operator alignment as in the merged PDF file.
-10. Mathop, atop, sidelimits, top and bottom limits should be checked as per the Manuscript file.
+10. Mathop, atop, sidelimits, top and bottom limits should be checked as per the manuscript file.
 11. Check whether bracket usage needs to be fine tuned by means of the `\left`, `\right`, `\big`, `\bigg`, `\Big` or `\Big` commands to match the merged PDF file.
 
 ## Copy-editing
@@ -144,7 +144,7 @@ The following points should be addressed during copy-editing:
 10. '&' should be changed to 'and' if used as part of a sentence. '&' should be left if used as part of a name such as R&D' or 'Texas A&M University'.
 11. For figures, tables and supplementary files:
     * Ensure each new sentence starts with a capital letter, unless the part label is being used as part of the sentence. That is, "\(**A**\) shows the results of . . ." is fine but "\(**A**\) results of . . . " should be corrected to "\(**A**\) Results of . . ."
-    * 
+    * Statements at the end of the legend such as "The following supplements are available for Figure 2:" should be removed - usually these will make sense in context of the author's original manuscript file, but are unnecessary in the typeset article.
 
 The following items can be left as the author provides:
 
