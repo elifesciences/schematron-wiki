@@ -8,7 +8,7 @@ description: Information about eLife's striking images
 
 To maximise the impact of an article upon its release, it is beneficial to accompany an article with an eye catching image that highlights the research article. 
 
-At eLife, when an acceptance letter is sent out, we encourage authors to submit a promotional image which we call a 'striking image', which can be emailed to the Production team and/or uploaded during their submission to eJP.
+At eLife, when an acceptance letter is sent out, we encourage authors to submit a promotional image, which we call a 'striking image', which can be emailed to the Production team and/or uploaded during their submission to eJP.
 
 It is important to know that when authors send these images to us, they may refer to them in other ways. Other journals use promotional images for such things as: 
 
