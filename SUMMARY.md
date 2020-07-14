@@ -41,11 +41,11 @@
 
 ## Toolkit
 
-* [When and how to fork repositories](toolkit/forking-git-based-repos.md)
-* [Toggl](toolkit/kriya.md)
-* [Managing the production inbox](toolkit/managing-the-production-inbox.md)
 * [Interacting with authors](toolkit/interacting-with-authors.md)
+* [Managing the production inbox](toolkit/managing-the-production-inbox.md)
 * [Striking images](toolkit/striking-images-1.md)
+* [Toggl](toolkit/kriya.md)
+* [When and how to fork repositories](toolkit/forking-git-based-repos.md)
 * [XML Glossary](toolkit/xml-glossary.md)
 * [eLife Glossary](toolkit/elife-glossary.md)
 
