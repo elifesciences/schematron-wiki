@@ -30,7 +30,10 @@ The following checklists cover the initial stages following the export of articl
 2. Check that the supplementary file and video download links work correctly.
 3. Source code files should be zipped and re-uploaded if they are not zipped already, so that the original file name exported from the submission system is retained.
 4. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [**Journal references**](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
-5. For Insight articles, references to the related eLife article\(s\) must have both an eLocation ID and a DOI.
+5. For Insight articles:
+   * The details in the key information box should match those of the related article\(s\).
+   * The DOI for the related article\(s\) in the key information box should be correct.
+   * References to the related eLife article\(s\) must have both an eLocation ID and a DOI.
 6. RRIDs and PMIDs mentioned in the text should be hyperlinked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
 7. The capitalisation of figure labels \(a, b, c, . . . or A, B, C, . . .\) should match the capitalisation of the labels in the figure image.
 8. Check for any missing panel labels in the figure legends or images. If the image has panel labels but the legend does not, the authors should be asked to add panel labels to the legend. If the legend has panel labels but the image does not, the authors should be asked to provide a new image file. See the [**Figures and figure supplements**](../article-details/content/allowed-assets/untitled.md#part-labels) page for more information.
@@ -42,12 +45,14 @@ The following checklists cover the initial stages following the export of articl
 
 1. Ensure there are no blank pages in either the article PDF or the figures PDF.
 2. Double check the tables and raise a query if the colours given in the table are against the eLife style.
-3. Check for any 'no entity' character errors \(on Greek letters, accented characters, maths terms etc\).
+3. Check for any 'no entity' character errors \(on Greek letters, accented characters, maths terms etc\) in either PDF.
 4. Check superscript/subscript terms at the ends of lines to make sure the word spacing is correct.
-5. Check the figures PDF to ensure no figures are going off from the page and that all figures and figure supplements are present.
-6. Check that the figures are legible in the PDFs. If they are not, the author should be queried to provide higher resolution images.
-7. Check that the Key Resources Table is appearing correctly in the PDF.
-8. Check that the blue background and border in appendices is consistent. Any white gaps in this background, for example around tables, should be corrected.
+5. Check that the Key Resources Table is appearing correctly in the PDF.
+6. Check that the blue background and border in appendices is consistent. Any white gaps in this background, for example around tables, should be corrected.
+7. Check for any unnecessary page breaks within figure legends or tables. If only one sentence of the figure legend is being pushed down to the next page, for example, the figure should be shrunk slightly so that the legend is fully on the same page as the image. 
+8. Check the figures PDF to ensure no figures are going off from the page and that all figures and figure supplements are present.
+9. Check that the figures are legible in the PDFs. If they are not, the author should be queried to provide higher resolution images.
+10. For feature articles, ensure that the figures are sized at the correct widths, as indicated in the exported files names.
 
 ### LaTex checklist
 
@@ -109,7 +114,7 @@ The following points should be addressed during copy-editing:
 7. Single quotation marks should be used for emphasis \('some text'\) . Double quotation marks should be used for direct quotes \("a quote from another article"\).
 8. Where multiple sets of brackets are nested, square brackets should be used within parenthesis, e.g. "some text \(some more text \[reference\] text\)".
 9. All trademark ™, registered ® and copyright © symbols should be deleted.
-10. '&' should be changed to 'and' if used as part of a sentence. '&' should be left if used as part of a name e.g. 'R&D' or 'Texas A&M University'.
+10. '&' should be changed to 'and' if used as part of a sentence. '&' should be left if used as part of a name such as R&D' or 'Texas A&M University'.
 
 The following items can be left as the author provides:
 
