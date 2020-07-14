@@ -13,12 +13,12 @@ The following checklists cover the initial stages following the export of articl
 1. The article title should follow sentence case.
 2. If there is a mismatch between the author names in the export XML and the Manuscript file,  the Manuscript should be followed. The affiliation, corresponding author and equal-contribution details should be taken from the Manuscript file.
 3. Affiliation details should be split into the correct fields \(Institution, City and Country\). The Department field is present for legacy content but should not be used for current articles.
-4. Research organisms should be in italics as appropriate and should be entered separately, not grouped together.
+4. Research organisms should be in italics where appropriate and should be entered separately, not grouped together.
 5. Each keyword in keyword section should be entered separately, not grouped together.
 6. Keywords should be in lower case unless they are proper nouns.
 7. If [**multiple grant numbers**](../article-details/content/funding-information.md#multiple-grant-references-in-one-entry) are present in an entry in the funding table, they should be separated into multiple entries.
-8. Check that each funder validates against the [**Open Funder Registry**](https://www.crossref.org/services/funder-registry/). If one does not, do cursory check online to make sure the funder name is correct \(see [**Funding**](../article-details/content/funding-information.md#what-needs-to-be-checked) for more information\).
-9. Add any funding for the authors mentioned in the acknowledgements but not in the funding section to the funding table \(see [**Funding**](../article-details/content/funding-information.md#acknowledgements-section) for more information\).
+8. Check that each funder validates against the [**Open Funder Registry**](https://www.crossref.org/services/funder-registry/). If one does not, make a cursory check online to ensure the funder name is correct \(see [**Funding**](../article-details/content/funding-information.md#what-needs-to-be-checked) for more information\).
+9. Add any funding for the authors that is mentioned in the acknowledgements but not in the funding section to the funding table \(see [**Funding**](../article-details/content/funding-information.md#acknowledgements-section) for more information\).
 10. Raise an author query if the funding information is not complete \(e.g. missing author names\).
 11. Check the Data availability statement for dataset and code information \(see [**Data availability**](../article-details/content/data-availability.md#data-availability-statement) for more information\), and for data [**available on request**](../article-details/content/data-availability.md#data-available-on-request).
 12. Check and separate the database and identifier if required.
