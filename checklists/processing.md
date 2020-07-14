@@ -41,13 +41,14 @@ The following checklists cover the initial stages following the export of articl
 
 ### PDFs
 
-1. Double check the tables and raise a query if the colours given in the table are against the eLife style.
-2. Check for any 'no entity' character errors \(on Greek letters, accented characters, maths terms etc\).
-3. Check superscript/subscript terms at the ends of lines to make sure the word spacing is correct.
-4. Check the figures PDF to ensure no figures are going off from the page and that all figures and figure supplements are present. There should be no blank pages in this document.
-5. Check that the figures are legible in the PDFs. If they are not, the author should be queried to provide higher resolution images.
-6. Check that the Key Resources Table is appearing correctly in the PDF.
-7. Check that the blue background and border in appendices is consistent. Any white gaps in this background, for example around tables, should be corrected.
+1. Ensure there are no blank pages in either the article PDF or the Figures PDF.
+2. Double check the tables and raise a query if the colours given in the table are against the eLife style.
+3. Check for any 'no entity' character errors \(on Greek letters, accented characters, maths terms etc\).
+4. Check superscript/subscript terms at the ends of lines to make sure the word spacing is correct.
+5. Check the figures PDF to ensure no figures are going off from the page and that all figures and figure supplements are present.
+6. Check that the figures are legible in the PDFs. If they are not, the author should be queried to provide higher resolution images.
+7. Check that the Key Resources Table is appearing correctly in the PDF.
+8. Check that the blue background and border in appendices is consistent. Any white gaps in this background, for example around tables, should be corrected.
 
 ### LaTex checklist
 
