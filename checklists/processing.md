@@ -18,25 +18,24 @@ The following checklists cover the initial stages following the export of articl
 6. Keywords should be in lower case unless they are proper nouns.
 7. If [**multiple grant numbers**](../article-details/content/funding-information.md#multiple-grant-references-in-one-entry) are present in an entry in the funding table, they should be separated into multiple entries.
 8. Check that each funder validates against the [**Open Funder Registry**](https://www.crossref.org/services/funder-registry/). If one does not, make a cursory check online to ensure the funder name is correct \(see [**Funding**](../article-details/content/funding-information.md#what-needs-to-be-checked) for more information\).
-9. Add any funding for the authors that is mentioned in the acknowledgements but not in the funding section to the funding table \(see [**Funding**](../article-details/content/funding-information.md#acknowledgements-section) for more information\).
-10. Raise an author query if the funding information is not complete \(e.g. missing author names\).
-11. Check the Data availability statement for dataset and code information \(see [**Data availability**](../article-details/content/data-availability.md#data-availability-statement) for more information\), and for data [**available on request**](../article-details/content/data-availability.md#data-available-on-request).
-12. Check and separate the database and identifier if required.
-13. Check for the dataset URL, assigning authority and Pub-id type on the [**Data availability**](../article-details/content/data-availability.md#database-examples) page.
-14. If a URL is not present, add the identifier to the URL provided on the [**Data availability**](../article-details/content/data-availability.md#database-examples) page \(or query the author if the database is not in the reference table\).
-15. Check if the dataset URL is valid and resolves to a public webpage \(see [**Data availability**](../article-details/content/data-availability.md#data-that-is-not-yet-public) for more information\).
+9. Raise an author query if the funding information is not complete \(e.g. missing author names\).
+10. Check the Data availability statement for dataset and code information \(see [**Data availability**](../article-details/content/data-availability.md#data-availability-statement) for more information\), and for data [**available on request**](../article-details/content/data-availability.md#data-available-on-request).
+11. Check and separate the database and identifier if required.
+12. Check for the dataset URL, assigning authority and Pub-id type on the [**Data availability**](../article-details/content/data-availability.md#database-examples) page.
+13. If a URL is not present, add the identifier to the URL provided on the [**Data availability**](../article-details/content/data-availability.md#database-examples) page \(or query the author if the database is not in the reference table\).
+14. Check if the dataset URL is valid and resolves to a public webpage \(see [**Data availability**](../article-details/content/data-availability.md#data-that-is-not-yet-public) for more information\).
 
 ### Content page
 
 1. All videos should play.
 2. Check that the supplementary file and video download links work correctly.
-3. Source code files should be zipped and re-uploaded \(if they are not zipped already\) to retain the original file name exported from the submission system.
-4. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [Journal references](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
-5. For Insight articles, related article reference\(s\) must have both an eLocation ID and a DOI.
+3. Source code files should be zipped and re-uploaded if they are not zipped already, so that the original file name exported from the submission system can be retained.
+4. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [**Journal references**](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
+5. For Insight articles, references to the related eLife article\(s\) must have both an eLocation ID and a DOI.
 6. RRIDs and PMIDs mentioned in the text should be linked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
 7. The capitalisation of figure labels \(a, b, c, . . . or A, B, C, . . .\) should match the capitalisation of the labels in the figure image.
-8. Check for any missing panel labels in the figure legends or images. If the image has panel labels but the legend does not, the authors should be asked to add panel labels to the legend. If the legend has panel labels but the image does not, the authors should be asked to provide a new image file. See the [Figures and figure supplements](../article-details/content/allowed-assets/untitled.md#part-labels) page for more information.
-9. Check the Acknowledgements \(`<ack>`\) section for funder information that is not already listed in the funding section. Ignore [third party funders](../article-details/content/funding-information.md#third-party-funding-vs-funding-to-authors).
+8. Check for any missing panel labels in the figure legends or images. If the image has panel labels but the legend does not, the authors should be asked to add panel labels to the legend. If the legend has panel labels but the image does not, the authors should be asked to provide a new image file. See the [**Figures and figure supplements**](../article-details/content/allowed-assets/untitled.md#part-labels) page for more information.
+9. Check the Acknowledgements \(`<ack>`\) section for author funding that is not already listed in the funding section. Ignore [**third party funders**](../article-details/content/funding-information.md#third-party-funding-vs-funding-to-authors). Any funding information not already in the funding section should be added to the funding table \(see [**Funding**](../article-details/content/funding-information.md#acknowledgements-section) for more information\).
 10. Footnotes to the main text are not allowed. Any such footnotes should be incorporated as a bracketed statement at the point where they are cited in the text. An author query should be added to confirm this is acceptable:
     * "As eLife does not support footnotes to the main text, we have integrated this note into the text at the point it was cited. Please confirm this is acceptable."
 
