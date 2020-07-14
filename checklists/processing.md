@@ -29,32 +29,32 @@ The following checklists cover the initial stages following the export of articl
 1. Check that all videos play.
 2. Check that the supplementary file and video download links work correctly.
 3. Source code files should be zipped and re-uploaded if they are not zipped already, so that the original file name exported from the submission system is retained.
-4. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [**Journal references**](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
-5. For Insight articles:
+4. Double check the tables and raise a query if the colours given in the table are against the eLife style.
+5. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [**Journal references**](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
+6. For Insight articles:
    * The details in the key information box should match those of the related article\(s\).
    * The DOI for the related article\(s\) in the key information box should be correct.
-   * References to the related eLife article\(s\) must have both an eLocation ID and a DOI.
-6. RRIDs and PMIDs mentioned in the text should be hyperlinked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
-7. The capitalisation of figure labels \(a, b, c, . . . or A, B, C, . . .\) should match the capitalisation of the labels in the figure image.
-8. Check for any missing panel labels in the figure legends or images. If the image has panel labels but the legend does not, the authors should be asked to add panel labels to the legend. If the legend has panel labels but the image does not, the authors should be asked to provide a new image file. See the [**Figures and figure supplements**](../article-details/content/allowed-assets/untitled.md#part-labels) page for more information.
-9. Check the Acknowledgements \(`<ack>`\) section for author funding that is not already listed in the funding section. Ignore [**third party funders**](../article-details/content/funding-information.md#third-party-funding-vs-funding-to-authors). Any funding information not already in the funding section should be added to the funding table \(see [**Funding**](../article-details/content/funding-information.md#acknowledgements-section) for more information\).
-10. Footnotes to the main text are not allowed. Any such footnotes should be incorporated as a bracketed statement at the point where they are cited in the text. An author query should be added to confirm this is acceptable:
+   * References to the related eLife article\(s\) must have both an e-location ID and a DOI.
+7. RRIDs and PMIDs mentioned in the text should be hyperlinked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
+8. The capitalisation of figure labels \(a, b, c, . . . or A, B, C, . . .\) should match the capitalisation of the labels in the figure image.
+9. Check for any missing panel labels in the figure legends or images. If the image has panel labels but the legend does not, the authors should be asked to add panel labels to the legend. If the legend has panel labels but the image does not, the authors should be asked to provide a new image file. See the [**Figures and figure supplements**](../article-details/content/allowed-assets/untitled.md#part-labels) page for more information.
+10. Check the Acknowledgements \(`<ack>`\) section for author funding that is not already listed in the funding section. Ignore [**third party funders**](../article-details/content/funding-information.md#third-party-funding-vs-funding-to-authors). Any funding information not already in the funding section should be added to the funding table \(see [**Funding**](../article-details/content/funding-information.md#acknowledgements-section) for more information\).
+11. Footnotes to the main text are not allowed. Any such footnotes should be incorporated as a bracketed statement at the point where they are cited in the text. An author query should be added to confirm this is acceptable:
     * "As eLife does not support footnotes to the main text, we have integrated this note into the text at the point it was cited. Please confirm this is acceptable."
 
 ### PDFs
 
 1. Ensure there are no blank pages in either the article PDF or the figures PDF.
-2. Double check the tables and raise a query if the colours given in the table are against the eLife style.
-3. Check for any 'no entity' character errors \(on Greek letters, accented characters, maths terms etc\) in either PDF.
-4. Check superscript/subscript terms at the ends of lines to make sure the word spacing is correct.
-5. Check that the Key Resources Table is appearing correctly in the PDF.
-6. Check that the blue background and border in appendices is consistent. Any white gaps in this background, for example around tables, should be corrected.
-7. Check for orphaned or widowed lines and move these up/down to avoid having, say, one line of text between two figures.
-8. Check for any unnecessary page breaks, especially in figure legends or tables. If only one sentence of the figure legend is being pushed down to the next page, for example, the figure should be shrunk slightly so that the legend is fully on the same page as the image. 
-9. Check that figures, tables and videos appear in numerical order and are placed as close as possible to their first citations in the text.
-10. Check the figures PDF to ensure no figures are going off from the page and that all figures and figure supplements are present.
-11. Check that the figures are legible in the PDFs. If they are not, the author should be queried to provide higher resolution images.
-12. For feature articles, ensure that the figures are sized at the correct widths, as indicated in the exported files names.
+2. Check for any 'no entity' character errors \(on Greek letters, accented characters, maths terms etc\) in either PDF.
+3. Check superscript/subscript terms at the ends of lines to make sure the word spacing is correct.
+4. Check that the Key Resources Table is appearing correctly in the PDF.
+5. Check that the blue background and border in appendices is consistent. Any white gaps in this background, for example around tables, should be corrected.
+6. Check for orphaned or widowed lines and move these up/down to avoid having, say, one line of text between two figures.
+7. Check for any unnecessary page breaks, especially in figure legends or tables. If only one sentence of the figure legend is being pushed down to the next page, for example, the figure should be shrunk slightly so that the legend is fully on the same page as the image. 
+8. Check that figures, tables and videos appear in numerical order and are placed as close as possible to their first citations in the text.
+9. Check the figures PDF to ensure no figures are going off from the page and that all figures and figure supplements are present.
+10. Check that the figures are legible in the PDFs. If they are not, the author should be queried to provide higher resolution images.
+11. For feature articles, ensure that the figures are sized at the correct widths, as indicated in the exported files names.
 
 ### LaTex checklist
 
