@@ -49,10 +49,12 @@ The following checklists cover the initial stages following the export of articl
 4. Check superscript/subscript terms at the ends of lines to make sure the word spacing is correct.
 5. Check that the Key Resources Table is appearing correctly in the PDF.
 6. Check that the blue background and border in appendices is consistent. Any white gaps in this background, for example around tables, should be corrected.
-7. Check for any unnecessary page breaks within figure legends or tables. If only one sentence of the figure legend is being pushed down to the next page, for example, the figure should be shrunk slightly so that the legend is fully on the same page as the image. 
-8. Check the figures PDF to ensure no figures are going off from the page and that all figures and figure supplements are present.
-9. Check that the figures are legible in the PDFs. If they are not, the author should be queried to provide higher resolution images.
-10. For feature articles, ensure that the figures are sized at the correct widths, as indicated in the exported files names.
+7. Check for orphaned or widowed lines and move these up/down to avoid having, say, one line of text between two figures.
+8. Check for any unnecessary page breaks, especially in figure legends or tables. If only one sentence of the figure legend is being pushed down to the next page, for example, the figure should be shrunk slightly so that the legend is fully on the same page as the image. 
+9. Check that figures, tables and videos appear in numerical order and are placed as close as possible to their first citations in the text.
+10. Check the figures PDF to ensure no figures are going off from the page and that all figures and figure supplements are present.
+11. Check that the figures are legible in the PDFs. If they are not, the author should be queried to provide higher resolution images.
+12. For feature articles, ensure that the figures are sized at the correct widths, as indicated in the exported files names.
 
 ### LaTex checklist
 
@@ -115,6 +117,9 @@ The following points should be addressed during copy-editing:
 8. Where multiple sets of brackets are nested, square brackets should be used within parenthesis, e.g. "some text \(some more text \[reference\] text\)".
 9. All trademark ™, registered ® and copyright © symbols should be deleted.
 10. '&' should be changed to 'and' if used as part of a sentence. '&' should be left if used as part of a name such as R&D' or 'Texas A&M University'.
+11. For figures, tables and supplementary files:
+    * Ensure each new sentence starts with a capital letter, unless the part label is being used as part of the sentence. That is, "\(**A**\) shows the results of . . ." is fine but "\(**A**\) results of . . . " should be corrected to "\(**A**\) Results of . . ."
+    * 
 
 The following items can be left as the author provides:
 
