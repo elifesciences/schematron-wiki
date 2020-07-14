@@ -8,6 +8,8 @@ The following checklists cover the initial stages following the export of articl
 
 ## Pre-editing
 
+The following checks should be carried out in addition to acting on any warnings or errors from the schematron tests.
+
 ### Article details page
 
 1. If there is a mismatch between the author names in the export XML and the manuscript file,  the manuscript should be followed. The affiliation, corresponding author and equal-contribution details should be taken from the manuscript file.
@@ -145,6 +147,7 @@ The following points should be addressed during copy-editing:
 11. For figures, tables and supplementary files:
     * Ensure each new sentence starts with a capital letter, unless the part label is being used as part of the sentence. That is, "\(**A**\) shows the results of . . ." is fine but "\(**A**\) results of . . . " should be corrected to "\(**A**\) Results of . . ."
     * Statements at the end of the legend such as "The following supplements are available for Figure 2:" should be removed - usually these will make sense in context of the author's original manuscript file, but are unnecessary in the typeset article.
+    * Check for spelling errors in figure images. If there are any, an author query should be added asking for a new figure file and indicating what needs to be corrected.
 
 The following items can be left as the author provides:
 
