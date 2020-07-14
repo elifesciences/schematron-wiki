@@ -78,9 +78,34 @@ The following checklists cover the initial stages following the export of articl
 1. The article title should follow sentence case, with no capitalisation except for proper nouns.
 2. Colons and semi-colons are not allowed in the article title except within scientific terms. If one is present, please check the production notes and if no instructions are provided on this matter, a query should be raised with the eLife Production team.
 3. Check that the impact statement is a single, complete, grammatically correct sentence of no more than 30 words in length \(see the [Impact statement](../article-details/content/impact-statement.md) page for more details\).
-4. Research organisms should be in italics where appropriate.
-5. Keywords should be in lower case except for proper nouns, or gene or protein names, and any species names should be in italics where appropriate.
-6. Check that the data availability statement is grammatically correct.
+4. The author contributions should be a comma-separated list with each item capitalised, e.g. "Formal analysis, Supervision, Investigation, Writing - review and editing". There should not be a full stop at the end. Usually the contributions will be taken from the following list:
+
+   * Conceptualization
+   * Resources
+   * Data curation
+   * Software
+   * Formal analysis
+   * Supervision
+   * Funding acquisition
+   * Validation
+   * Investigation
+   * Visualization
+   * Methodology
+   * Writing - original draft
+   * Writing - review and editing
+   * Project administration
+
+   Sometimes, however, authors will include free text contributions in addition or instead of these. In these cases, please check the following:
+
+   * Free-text phrases should start with a capital letter. For example, "wrote computer code scripts for the experiments" should be changed to "Wrote computer code scripts for the experiments".
+   * The name or the initials of the current author should be removed, if present. For example, "Investigation, John Smith assisted with a subset of the mouse perfusions and brain sectioning for Figure 6" should be changed to "Investigation, Assisted with a subset of the mouse perfusions and brain sectioning for Figure 6"
+   * Contributions for other authors should not be included in an author's contributions. For example, contribution for John Smith "Investigation, Dr. John Smith and Dr. Jo Bloggs performed flow cytometry experiments." should be changed to "Investigation, Performed flow cytometry experiments". Make sure that the  contributions for the other author\(s\) mentioned reflect the shared contribution \(in this example, author Jo Bloggs' contributions should include "Performed flow cytometry experiments".
+   * Related to the previous point, please note that it is acceptable for authors to refer to other authors using initials in their contributions where they are referencing specific input on the tasks they performed. For example, the following is acceptable: "Conceptualization, Investigation, Methodology, Writing - review and editing, Initiated and performed the cryo-EM analysis \(with help from JPO at later stages\) and contributed to the building and interpretation of models". Initials should follow eLife style \(no full-stops\). If a full name is used, change it to the initials.
+   * Statements of equal contribution or shared corresponding author status should be removed. For instance, in the following example, "Conceptualization, Writing - original draft, Writing - review and editing, Contributed equally with CJEM", the text "Contributed equally with CJEM" should be removed. Please make sure that the status is reflected using the tagging options - in this example, CJEM and the current author should be marked as equal contributors.
+
+5. Research organisms should be in italics where appropriate.
+6. Keywords should be in lower case except for proper nouns, or gene or protein names, and any species names should be in italics where appropriate.
+7. Check that the data availability statement is grammatically correct.
 
 ### Content page
 
