@@ -21,9 +21,9 @@ It is important to know that when authors send these images to us, they may refe
 
 Striking images can be used in the following ways 
 
-* a homepage image \[see [**here**](https://elifesciences.org/archive/2020) for the homepage archive\]
-* within the eLife digest \[see [**here**](https://elifesciences.org/digests) for the digest channel\] 
-* to promote the article via social media channels \[see [**here**](https://twitter.com/eLife/status/1278358999386259457) for an example on Twitter\]
+* a homepage image \(see [**here**](https://elifesciences.org/archive/2020) for the homepage archive\)
+* within the eLife digest \(see [**here**](https://elifesciences.org/digests) for the digest channel\)
+* to promote the article via social media channels \(see [**here**](https://twitter.com/eLife/status/1278358999386259457) for an example on Twitter\)
 
 The authors are also free to use these images for their own social media and press releases and do not need to ask permission for this. 
 
