@@ -154,7 +154,6 @@ The following points should be addressed during copy-editing:
 9. All trademark ™, registered ® and copyright © symbols should be deleted.
 10. '&' should be changed to 'and' if used as part of a sentence. '&' should be left if used as part of a name such as R&D' or 'Texas A&M University'.
 11. For figures, tables and supplementary files:
-
     * Check that the legends make sense and that any sub-legends for specific parts of the asset are incorporated in a grammatically correct fashion \(e.g. if the author provided each sub-legend on a separate line, make sure they are punctuated correctly when placed in a single paragraph\).
     * Ensure each new sentence starts with a capital letter, unless the part label is being used as part of the sentence. That is, "\(**A**\) shows the results of . . ." is fine but "\(**A**\) results of . . . " should be corrected to "\(**A**\) Results of . . ."
     * Statements at the end of the legend such as "The following supplements are available for Figure 2:" should be removed - usually these will make sense in context of the author's original manuscript file, but are unnecessary in the typeset article.
@@ -163,7 +162,8 @@ The following points should be addressed during copy-editing:
     * Check for any missing panel labels in the figure legends or images. See the [**Figures and figure supplements**](../article-details/content/allowed-assets/untitled.md#part-labels) page for more information:
       * If the image has panel labels but the legend does not, the authors should be asked to add panel labels to the legend.
       * If the legend has panel labels but the image does not, the authors should be asked to provide a new image file.
-    * Where footnotes have been incorporated into the main text as parenthetical statements during pre-editing, check that the resulting text makes sense.
+    * Make sure that asset citations are formatted correctly, with any sub-part labels incorporated into the linked text \(e.g. Figure 1A, Figure 2Bii\).
+12. Where footnotes have been incorporated into the main text as parenthetical statements during pre-editing, check that the resulting text makes sense.
 
 The following items can be left as the author provides:
 
