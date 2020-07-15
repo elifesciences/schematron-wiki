@@ -14,7 +14,7 @@ The following checks should be carried out in addition to acting on any warnings
 
 1. If there is a mismatch between the author names in the export XML and the manuscript file,  the manuscript should be followed. The affiliation, corresponding author and equal-contribution details should be taken from the manuscript file.
 2. Affiliation details should be split into the correct fields \(Institution, City and Country\). The Department field is present for legacy content but should not be used for current articles.
-3. Each research organism in the research organisms section should be entered separately, not groupd together.
+3. Each research organism in the research organisms section should be entered separately, not grouped together.
 4. Each keyword in the keyword section should be entered separately, not grouped together.
 5. Keywords should be in lower case unless they are proper nouns, or species, gene or protein names.
 6. If [**multiple grant numbers**](../article-details/content/funding-information.md#multiple-grant-references-in-one-entry) are present in an entry in the funding table, they should be separated into multiple entries.
@@ -32,17 +32,19 @@ The following checks should be carried out in addition to acting on any warnings
 2. Check that the supplementary file and video download links work correctly.
 3. Source code files should be zipped and re-uploaded if they are not zipped already, so that the original file name exported from the submission system is retained.
 4. Double check the tables and raise a query if the colours given in the table are against the eLife style.
-5. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [**Journal references**](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
-6. For Insight articles:
+5. If a figure file consists of more than one page, the author must be asked to provide a single-page version, or to split it into multiple figures. Please use the following query:
+   * 
+6. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [**Journal references**](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
+7. For Insight articles:
    * The details in the key information box should match those of the related article\(s\).
    * The DOI for the related article\(s\) in the key information box should be correct.
    * References to the related eLife article\(s\) must have both an e-location ID and a DOI.
-7. RRIDs and PMIDs mentioned in the text should be hyperlinked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
-8. The capitalisation of figure labels \(a, b, c, . . . or A, B, C, . . .\) should match the capitalisation of the labels in the figure image.
-9. Check for any missing panel labels in the figure legends or images. If the image has panel labels but the legend does not, the authors should be asked to add panel labels to the legend. If the legend has panel labels but the image does not, the authors should be asked to provide a new image file. See the [**Figures and figure supplements**](../article-details/content/allowed-assets/untitled.md#part-labels) page for more information.
-10. Check the Acknowledgements \(`<ack>`\) section for author funding that is not already listed in the funding section. Ignore [**third party funders**](../article-details/content/funding-information.md#third-party-funding-vs-funding-to-authors). Any funding information not already in the funding section should be added to the funding table \(see [**Funding**](../article-details/content/funding-information.md#acknowledgements-section) for more information\).
-11. Footnotes to the main text are not allowed. Any such footnotes should be incorporated as a bracketed statement at the point where they are cited in the text. An author query should be added to confirm this is acceptable:
+8. RRIDs and PMIDs mentioned in the text should be hyperlinked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
+9. Check the Acknowledgements \(`<ack>`\) section for author funding that is not already listed in the funding section. Ignore [**third party funders**](../article-details/content/funding-information.md#third-party-funding-vs-funding-to-authors). Any funding information not already in the funding section should be added to the funding table \(see [**Funding**](../article-details/content/funding-information.md#acknowledgements-section) for more information\).
+10. Footnotes to the main text are not allowed. Any such footnotes should be incorporated as a bracketed statement at the point where they are cited in the text. An author query should be added to confirm this is acceptable:
     * "As eLife does not support footnotes to the main text, we have integrated this note into the text at the point it was cited. Please confirm this is acceptable."
+
+
 
 ### PDFs
 
@@ -150,6 +152,8 @@ The following points should be addressed during copy-editing:
     * Ensure each new sentence starts with a capital letter, unless the part label is being used as part of the sentence. That is, "\(**A**\) shows the results of . . ." is fine but "\(**A**\) results of . . . " should be corrected to "\(**A**\) Results of . . ."
     * Statements at the end of the legend such as "The following supplements are available for Figure 2:" should be removed - usually these will make sense in context of the author's original manuscript file, but are unnecessary in the typeset article.
     * Check for spelling errors in figure images. If there are any, an author query should be added asking for a new figure file and indicating what needs to be corrected.
+    * The capitalisation of figure labels \(a, b, c, . . . or A, B, C, . . .\) should match the capitalisation of the labels in the figure image or table.
+    * Check for any missing panel labels in the figure legends or images. If the image has panel labels but the legend does not, the authors should be asked to add panel labels to the legend. If the legend has panel labels but the image does not, the authors should be asked to provide a new image file. See the [**Figures and figure supplements**](../article-details/content/allowed-assets/untitled.md#part-labels) page for more information.
 
 The following items can be left as the author provides:
 
