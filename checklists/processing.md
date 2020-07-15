@@ -155,6 +155,7 @@ The following points should be addressed during copy-editing:
 10. '&' should be changed to 'and' if used as part of a sentence. '&' should be left if used as part of a name such as R&D' or 'Texas A&M University'.
 11. For figures, tables and supplementary files:
 
+    * Check that the legends make sense and that any sub-legends for specific parts of the asset are incorporated in a grammatically correct fashion \(e.g. if the author provided each sub-legend on a separate line, make sure they are punctuated correctly when placed in a single paragraph\).
     * Ensure each new sentence starts with a capital letter, unless the part label is being used as part of the sentence. That is, "\(**A**\) shows the results of . . ." is fine but "\(**A**\) results of . . . " should be corrected to "\(**A**\) Results of . . ."
     * Statements at the end of the legend such as "The following supplements are available for Figure 2:" should be removed - usually these will make sense in context of the author's original manuscript file, but are unnecessary in the typeset article.
     * Check for spelling errors in figure images. If there are any, an author query should be added asking for a new figure file and indicating what needs to be corrected.
