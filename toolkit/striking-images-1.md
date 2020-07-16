@@ -65,9 +65,15 @@ To attach a striking image to an article, download the image provided by the aut
 
 When the uploader appears, select the file and then click on 'Update'. Do not add text to the 'metacontent' field unless the authors have provided a caption or attribution information, in which case enter the provided text here. 
 
-![](../.gitbook/assets/screenshot-2020-06-17-at-14.27.24%20%281%29.png)
+![](../.gitbook/assets/screen-shot-2020-07-16-at-15.59.05.png)
 
-It is worth noting that you are unable to select multiple images to upload through the 'Select file' icon. If an author has provided more than one image, upload them successively within the **same** session. Successive upload sessions overwrite what was previously uploaded. Authors who provide more than one image are giving us more choice of images to use
+It is worth noting that you are unable to select multiple images to upload through the 'Select file' icon. If an author has provided more than one image, upload them successively within the **same** session. Successive upload sessions overwrite what was previously uploaded. Authors who provide more than one image are giving us more choice of images to use. 
+
+![You cannot select multiple images like this. You need to select them individually within the same session. ](../.gitbook/assets/screen-shot-2020-07-16-at-16.00.33.png)
+
+![](../.gitbook/assets/screen-shot-2020-07-16-at-15.59.48.png)
+
+The screenshot above shows multiple images selected within the same session. You can see that the images start showing off the box, but this is normal. You can still edit the metacontent field if needed. 
 
 Due to a dashboard bug, after clicking on 'Update' the uploader will not automatically close. You will need to refresh the page. Double-check the article in the dashboard to make sure the 'Striking image' button is now green. Alternatively, you can bring up the striking images AWS bucket at the same time and after you have clicked update, you can refresh the bucket to ensure this has been uploaded. 
 
