@@ -164,6 +164,7 @@ The following points should be addressed during copy-editing:
       * If the legend has panel labels but the image does not, the authors should be asked to provide a new image file.
     * Make sure that asset citations are formatted correctly, with any sub-part labels incorporated into the linked text \(e.g. Figure 1A, Figure 2Bii\).
 12. Where footnotes have been incorporated into the main text as parenthetical statements during pre-editing, check that the resulting text makes sense.
+13. Check for any issues in the reference list that have not been picked up during pre-editing.
 
 The following items can be left as the author provides:
 
