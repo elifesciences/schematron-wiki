@@ -51,6 +51,8 @@ Authors can email Production with a striking image as indicated in the acceptanc
 
 The authors may only include the title of the article within the email or email title, without including the manuscript tracking number. In these cases, you can often find the article in eJP using the article title or email address of the author. If you are unable to determine which article the striking image relates to, the author will need to be asked what their manuscript tracking number is, so we can ensure the striking image is associated with the correct article.
 
+The striking images are held in the elife-striking-images AWS bucket and you can upload the images in three ways: straight to the bucket, via eJP, and the Kriya dashboard. 
+
 If the article has been exported from eJP and is in Kriya, upload the image via the Kriya dashboard. If the article is still within eJP and not yet exported, upload it to eJP. It is important **not** to load it to eJP if the article is already in the production system because the systems do not transfer further information with each other after export has occurred.
 
 ### Uploading via Kriya 
@@ -65,11 +67,25 @@ When the uploader appears, select the file and then click on 'Update'. Leave the
 
 It is worth noting that you are unable to select multiple images to upload through the 'Select file' icon and each image will need to be selected separately \(but within the same uploading session\). This is because with each image upload, it will overwrite what is previously in the striking images AWS bucket. To add additional images to an article has already has an image, please see [**below**](striking-images-1.md#uploading-via-the-striking-images-aws-bucket).
 
-After clicking on 'Update' the uploader will not automatically close. You will need to refresh the page. Double-check the article in the dashboard to make sure the 'Striking image' button is now green. Alternatively, you can bring up the striking images AWS bucket at the same time and after you have clicked update, you can refresh the bucket to ensure this has been uploaded. 
+Due to a dashboard bug, after clicking on 'Update' the uploader will not automatically close. You will need to refresh the page. Double-check the article in the dashboard to make sure the 'Striking image' button is now green. Alternatively, you can bring up the striking images AWS bucket at the same time and after you have clicked update, you can refresh the bucket to ensure this has been uploaded. 
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%283%29.png)
 
 ### Uploading via the striking images AWS bucket 
+
+The AWS \(Amazon Web Services\) bucket is a remote file storage system. If you require access to this, please speak to a member of Production. You can use cloud storage browsers such as Cyberduck or Transit to view the bucket. 
+
+Once you have access to this, you will start at the overview of all of the main folders the AWS bucket stores. You need to search for the 'elife-striking-images' folder, click this to open it. 
+
+![](../.gitbook/assets/screen-shot-2020-07-16-at-13.51.09.png)
+
+You will now see all of the striking images that have been uploaded, organised in their own separate folders. For ease, you can search if an article has a striking image the 'Search' bar and typing in the MS number. 
+
+![](../.gitbook/assets/screen-shot-2020-07-16-at-13.51.28.png)
+
+There are times when you may need to access the striking images bucket directly, for example, if an image is too large to upload via Kriya, Kriya is down, or a striking image has already been uploaded. 
+
+#### There is an existing striking image uploaded 
 
 If an article already has a striking image but the authors would like to add another, and it has already been exported to Kriya, the image will need to be uploaded straight to the striking image bucket. To do this, open the elife-striking-images bucket in Cyberduck \(or similar program\) and search for the manuscript number. 
 
@@ -78,6 +94,8 @@ If an article already has a striking image but the authors would like to add ano
 Open this folder and drag and drop the new striking image in to upload it. Make sure the striking image is titled appropriately - e.g. '56754-b\_striking\_image' if there is already a '56754-a\_striking\_image'. If the authors have provided a title, caption, or attribution information, enter this into a .txt file and save with the same title \(i.e. '56754-b\_striking\_image'\). If they have not provided this information, you do not need to include a .txt file. 
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-15.21.44%20%281%29.png)
+
+If you have multiple images to upload with captions, you may prefer to upload these all together through the Kriya dashboard. To do this, you should download any existing images and .txt files \(if these contain any captions\) from the bucket and upload these along with the new images as shown in the previous section.  
 
 ### **Uploading via eJP** 
 
