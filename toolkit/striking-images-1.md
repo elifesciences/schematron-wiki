@@ -53,7 +53,7 @@ The authors may only include the title of the article within the email or email 
 
 The striking images are held in the elife-striking-images AWS bucket and you can upload the images in three ways: straight to the bucket, via eJP, and the Kriya dashboard. 
 
-If the article has been exported from eJP and is in Kriya, upload the image via the Kriya dashboard. If the article is still within eJP and not yet exported, upload it to eJP. It is important **not** to load it to eJP if the article is already in the production system because the systems do not transfer further information with each other after export has occurred.
+If the article has been exported from eJP and is in Kriya, upload the image via the Kriya dashboard. If the article is still within eJP and not yet exported, upload it to eJP. It is important **not** to load it to eJP if the article is already in the production system because the systems do not transfer further information with each other after export has occurred.The most efficient way to do this is to search the Production inbox for the XML notification, which informs production an article has been exported from eJP.
 
 ### Uploading via Kriya 
 
@@ -61,11 +61,11 @@ To attach a striking image to an article, download the image provided by the aut
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-12.03.26%20%283%29.png)
 
-When the uploader appears, select the file and then click on 'Update'. Leave the 'metacontent' as is, unless the authors have provided a caption or attribution information in which case these should be entered instead. 
+When the uploader appears, select the file and then click on 'Update'. Do not add text to the 'metacontent' field unless the authors have provided a caption or attribution information, in which case enter the provided text here. 
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-14.27.24%20%281%29.png)
 
-It is worth noting that you are unable to select multiple images to upload through the 'Select file' icon and each image will need to be selected separately \(but within the same uploading session\). This is because with each image upload, it will overwrite what is previously in the striking images AWS bucket. To add additional images to an article has already has an image, please see [**below**](striking-images-1.md#uploading-via-the-striking-images-aws-bucket).
+It is worth noting that you are unable to select multiple images to upload through the 'Select file' icon. If an author has provided more than one image, upload them successively within the **same** session. Successive upload sessions overwrite what was previously uploaded. Authors who provide more than one image are giving us more choice of images to use
 
 Due to a dashboard bug, after clicking on 'Update' the uploader will not automatically close. You will need to refresh the page. Double-check the article in the dashboard to make sure the 'Striking image' button is now green. Alternatively, you can bring up the striking images AWS bucket at the same time and after you have clicked update, you can refresh the bucket to ensure this has been uploaded. 
 
@@ -129,7 +129,9 @@ To upload the image to eJP, search eJP using the MS number.
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-14.45.46%20%281%29.png)
 
-Ensure this article has not already been exported from eJP to Kriya. To check, you can look to see if under  'More Manuscript Info and Tools' on the right hand side of the page, and see if the 'Export to Exeter' option is not displaying but instead says 'Resend/Export to Exeter Premedia'. Alternatively, search the manuscript number in the Production Inbox, and check if there's an XML notification email which indicates that the article has been sent to Kriya \(see [**here**](https://app.gitbook.com/@elifesciences/s/productionhowto/toolkit/managing-the-production-inbox#xml-notification-emails)\).  
+Ensure this article has not already been exported from eJP to Kriya. The most efficient way to do this is to search the Production inbox for the XML notification, which informs production an article has been exported from eJP \(see [**here**](https://app.gitbook.com/@elifesciences/s/productionhowto/toolkit/managing-the-production-inbox#xml-notification-emails)\).
+
+However, if you are in eJP look at 'More Manuscript Info and Tools' on the right-hand side of the page. If the 'Export to Exeter' option is not displaying but instead says 'Resend/Export to Exeter Premedia' this means the article has already been exported.   
 
 ![](../.gitbook/assets/screen-shot-2020-07-09-at-13.28.45.png)
 
