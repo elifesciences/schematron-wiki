@@ -22,10 +22,10 @@ It is important to know that when authors send these images to us, they may refe
 Striking images can be used in the following ways 
 
 * a homepage image \(see [**here**](https://elifesciences.org/archive/2020) for the homepage archive\)
-* within the eLife digest \(see [**here**](https://elifesciences.org/digests) for the digest channel\)
+* to accompany the Digest in the eLife digest channel \(note: this cannot accompany the Digest on the journal article HTML view or in the PDF\) \(see [**here**](https://elifesciences.org/digests) for the digest channel\)
 * to promote the article via social media channels \(see [**here**](https://twitter.com/eLife/status/1278358999386259457) for an example on Twitter\)
 
-The authors are also free to use these images for their own social media and press releases and do not need to ask permission for this. 
+The authors are also free to use these images for their own social media and press releases and do not need to ask permission for this because they fall under the CCBY license along with the rest of the content.
 
 ## **Requirements** 
 
@@ -47,11 +47,27 @@ This information is provided to authors, and it is up to them to ensure the imag
 
 Authors can email Production with a striking image via email as indicated in the acceptance email from Editorial and will have been provided with the guidance shown below.
 
-![](../.gitbook/assets/screen-shot-2020-07-02-at-13.49.22.png)
+![](../.gitbook/assets/screen-shot-2020-07-16-at-09.20.59.png)
 
-They may only include the title of the article without the article number but you can often find this by searching in eJP using the article title or email address of the author. If you are unable to do so, the author will need to be asked for this so that we can ensure the striking image is uploaded correctly. 
+The authors may only include the title of the article within the email or email title, without including the article number. In these cases, you can often find the article in eJP using the article title or email address of the author. If you are unable to determine which article the striking image relates to, the author will need to be asked what their manuscript tracking number is, so that the striking image can be uploaded correctly.
 
-Depending on the status of the article, you can upload this striking image through eJP or the Kriya dashboard. 
+If the article has been exported to Kriya, you can upload it through the dashboard. If not, you will need to upload the striking image to eJP. 
+
+### Uploading via Kriya 
+
+To attach a striking image to an article, download the image provided by the author, go to the article in the Kriya dashboard and click on 'Striking image'. 
+
+![](../.gitbook/assets/screenshot-2020-06-17-at-12.03.26%20%283%29.png)
+
+When the uploader appears, select the file and then click on 'Update'. Leave the 'metacontent' as is, unless the authors have provided a caption or attribution information in which case these should be entered instead. 
+
+![](../.gitbook/assets/screenshot-2020-06-17-at-14.27.24%20%281%29.png)
+
+It is worth noting that you are unable to select multiple images to upload through the 'Select file' icon and each image will need to be selected separately \(but within the same uploading session\). This is because with each image upload, it will overwrite what is previously in the striking images AWS bucket. To add additional images to an article has already has an image, please see [**below**](striking-images-1.md#uploading-via-the-striking-images-aws-bucket).
+
+After clicking on 'Update' the uploader will not automatically close. You will need to refresh the page. Double-check the article in the dashboard to make sure the 'Striking image' button is now green. Alternatively, you can bring up the striking images AWS bucket at the same time and after you have clicked update, you can refresh the bucket to ensure this has been uploaded. 
+
+![](../.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%283%29.png)
 
 ### **Uploading via eJP** 
 
@@ -61,7 +77,7 @@ To upload this via eJP, you should bring up the accepted version of the article.
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-14.45.46%20%281%29.png)
 
-Ensure this article has not already been exported from eJP to Kriya. To check, you can look to see if under  'More Manuscript Info and Tools' on the right hand side of the page, and see if the 'Export to Exeter' option is not displaying but instead says 'Resend/Export to Exeter Premedia'. Alternatively, you can look in the Production inbox for the XML notification.  
+Ensure this article has not already been exported from eJP to Kriya. To check, you can look to see if under  'More Manuscript Info and Tools' on the right hand side of the page, and see if the 'Export to Exeter' option is not displaying but instead says 'Resend/Export to Exeter Premedia'. Alternatively, search the manuscript number in the Production Inbox, and check if there's an XML notification email which indicates that the article has been sent to Kriya \(see [**here**](https://app.gitbook.com/@elifesciences/s/productionhowto/toolkit/managing-the-production-inbox#xml-notification-emails)\).  
 
 ![](../.gitbook/assets/screen-shot-2020-07-09-at-13.28.45.png)
 
@@ -82,22 +98,6 @@ Once this has been uploaded, you will be presented with a drop down menu to sele
 Once you have done this, click 'Save and Exit'
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-14.44.12%20%282%29.png)
-
-### Uploading via Kriya 
-
-To attach a striking image to an article, download the image provided by the author, go to the article in the Kriya dashboard and click on 'Striking image'. 
-
-![](../.gitbook/assets/screenshot-2020-06-17-at-12.03.26%20%283%29.png)
-
-When the uploader appears, select the file and then click on 'Update'. Leave the 'metacontent' as is, unless the authors have provided a caption or attribution information in which case these should be entered instead. 
-
-![](../.gitbook/assets/screenshot-2020-06-17-at-14.27.24%20%281%29.png)
-
-It is worth noting that you are unable to select multiple images to upload through the 'Select file' icon and each image will need to be selected separately \(but within the same uploading session\). This is because with each image upload, it will overwrite what is previously in the striking images AWS bucket. To add additional images to an article has already has an image, please see [**below**](striking-images-1.md#uploading-via-the-striking-images-aws-bucket).
-
-After clicking on 'Update' the uploader will not automatically close. You will need to refresh the page. Double-check the article in the dashboard to make sure the 'Striking image' button is now green. Alternatively, you can bring up the striking images AWS bucket at the same time and after you have clicked update, you can refresh the bucket to ensure this has been uploaded. 
-
-![](../.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%283%29.png)
 
 ### Uploading via the striking images AWS bucket 
 
