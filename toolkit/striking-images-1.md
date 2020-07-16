@@ -27,6 +27,8 @@ Striking images can be used in the following ways
 
 The authors are also free to use these images for their own social media and press releases and do not need to ask permission for this because they fall under the CCBY license along with the rest of the content.
 
+Some authors can be confused about the intended use of their striking image. As mentioned in the previous section, other journals might include these as covers. Occasionally, eLife authors contact us expecting to see their striking image on the personalised poster which they can download from their 'The full version of your eLife article is now available' email which they receive once the article has been published. If you should need to reply to an author about this, you can find further information about the Hiver template 'Cover image response' [**here**](interacting-with-authors.md#hiver-templates). 
+
 ## **Requirements** 
 
 These images should preferably be in colour, in a landscape format, and be at least 1800 x 900 pixels. Photographs, microscopy images, and illustrations work best. PNG, TIFF, or JPEG formats are preferred, and we must be able to use the image under the terms of the CC-BY license. 
