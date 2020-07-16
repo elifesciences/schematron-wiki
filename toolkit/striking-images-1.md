@@ -22,7 +22,7 @@ It is important to know that when authors send these images to us, they may refe
 Striking images can be used in the following ways 
 
 * a homepage image \(see [**here**](https://elifesciences.org/archive/2020) for the homepage archive\)
-* to accompany the Digest in the eLife digest channel \(note: this cannot accompany the Digest on the journal article HTML view or in the PDF\) \(see [**here**](https://elifesciences.org/digests) for the digest channel\)
+* to accompany the Digest in the eLife Digest channel \(note: this cannot accompany the Digest on the journal article HTML view or in the PDF\) \(see [**here**](https://elifesciences.org/digests) for the Digest channel\)
 * to promote the article via social media channels \(see [**here**](https://twitter.com/eLife/status/1278358999386259457) for an example on Twitter\)
 
 The authors are also free to use these images for their own social media and press releases and do not need to ask permission for this because they fall under the CCBY license along with the rest of the content.
@@ -85,9 +85,33 @@ You will now see all of the striking images that have been uploaded, organised i
 
 There are times when you may need to access the striking images bucket directly, for example, if an image is too large to upload via Kriya, Kriya is down, or a striking image has already been uploaded. 
 
+#### Creating a new folder 
+
+It is typically easier, if you can, to use the Kriya dashboard as it sets up the initial folder and creates the .txt files automatically. In certain situations, mentioned above, you can manually create folders for an article's striking image. 
+
+To do this, you need to go to the 'elife-striking-images' bucket and create a new folder. You can either do this through the 'File' menu at the top left hand corner of your screen or right click to bring up this option on the 'elife-striking-images' bucket overview. Click 'New Folder...'.
+
+![](../.gitbook/assets/screen-shot-2020-07-16-at-14.41.20.png)
+
+Now type or paste the MS number into the folder name field and click 'Create'. 
+
+![](../.gitbook/assets/screen-shot-2020-07-16-at-14.44.47.png)
+
+This will now appear in the folder list and should be highlighted for your convenience. 
+
+![](../.gitbook/assets/screen-shot-2020-07-16-at-14.45.20.png)
+
+You should open your newly created folder and you will be presented with a blank folder. Drag your image into the folder and it will start to upload. 
+
+![](../.gitbook/assets/screen-shot-2020-07-16-at-14.46.00.png)
+
+Once it has finished uploading, you will need to right click on the file to rename it. Make sure the striking image is titled appropriately - e.g. '58066-a\_striking\_image', '58066-b\_striking\_image', etc. File names created with the -a suffix and each additional image will work its way along the alphabet. If the authors have provided a title, caption, or attribution information, enter this into a .txt file and upload this into the bucket with the same title as the image \(i.e. '58066-a\_striking\_image'\). If they have not provided this information, you do not need to include a .txt file. 
+
+![](../.gitbook/assets/screen-shot-2020-07-16-at-14.47.48.png)
+
 #### There is an existing striking image uploaded 
 
-If an article already has a striking image but the authors would like to add another, and it has already been exported to Kriya, the image will need to be uploaded straight to the striking image bucket. To do this, open the elife-striking-images bucket in Cyberduck \(or similar program\) and search for the manuscript number. 
+If an article already has a striking image but the authors would like to add another, and it has already been exported to Kriya, the image will need to be uploaded straight to the striking image bucket. To do this, open the 'elife-striking-images' bucket in Cyberduck \(or similar program\) and search for the MS number. 
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-15.17.00%20%281%29.png)
 
