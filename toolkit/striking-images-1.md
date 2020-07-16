@@ -153,3 +153,11 @@ Once you have done this, click 'Save and Exit'
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-14.44.12%20%282%29.png)
 
+## Striking images from the Features team
+
+The Features team work with authors to write Digests and often, during this correspondence the authors will send them striking images. Features will then forward on these emails to us. 
+
+![](../.gitbook/assets/screen-shot-2020-07-16-at-15.34.17.png)
+
+These images and any captions highlighted to us will need to be uploaded to the AWS bucket. Often the articles are already in Kriya so you can search the MS number on the dashboard and upload as usual. Occasionally, the author will have already sent us the striking image or uploaded it via eJP so you should download what is in the AWS bucket so that you can check the images and captions have been uploaded correctly. 
+
