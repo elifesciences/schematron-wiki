@@ -21,6 +21,7 @@
   * [Article structure](article-details/content/article-structure.md)
   * [Country names](article-details/content/country-names.md)
   * [Data availability](article-details/content/data-availability.md)
+  * [Decision letters and Author responses](article-details/content/decision-letters-and-author-responses.md)
   * [Feature content](article-details/content/feature-content.md)
   * [Funding](article-details/content/funding-information.md)
   * [General content](article-details/content/general-content.md)
