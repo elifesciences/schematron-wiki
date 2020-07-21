@@ -157,6 +157,96 @@ There are no preset rules for Level 1 headings in feature content. The article s
 
 ## Schematron checks
 
+
+
+### Content checks
+
+#### sec-title-list-check
+
+**Warning**: _Section title might start with a list indicator - 'XXXXXX'. Is this correct?_
+
+**Action**: This warning will fire if a section title starts with 1\), 2\), 3\) etc., or with a\), b\), c\) etc. Check to make sure that this is not actually intended as an entry in a list.
+
+#### sec-title-appendix-check
+
+**Warning**: Section title contains the word appendix - 'XXXXXX'. Should it be captured as an appendix?
+
+**Action**: This warning indicates that a section title contains the word 'appendix'. This may be OK if it is a reference to an existing appendix in the article \(e.g. "Results of experiment \(detailed in Appendix 1\)"\). However if the title is just 'Appendix 1', 'Appendix A', 'Appendix: Supplementary methods', this section and its contents should be tagged correctly as a proper appendix.
+
+#### sec-title-appendix-check-2
+
+**Warning**: _Should the section titled 'XXXXXX' be captured as an appendix?_
+
+**Action**: This warning indicates that a section title contains the word 'Supplementary' or 'Supplemental'. If this occurs in the context of, for example, 'Supplemental methods' or 'Supplemental results', it likely indicates content that the authors do not want to include in their main Materials and methods or Results sections. Such sections should be tagged as appendices in the back of the article, with the section title used as the title for each appendix.
+
+#### sec-title-abbr-check
+
+**Warning**: _Section title contains the word abbreviation - 'XXXXXX'. Is it an abbreviation section? eLife house style is to define abbreviations in the text when they are first mentioned._
+
+**Action**: 
+
+#### sec-title-content-mandate
+
+**Error**: _Section title must not be empty._
+
+**Action**: 
+
+#### sec-title-full-stop
+
+**Warning**: _Section title ends with full stop, which is very likely to be incorrect - XXXXXX_
+
+**Action**: 
+
+#### sec-title-bold	
+
+**Error**: _All section title content is captured in bold. This is incorrect - XXXXXX_
+
+**Action**: 
+
+#### sec-title-underline
+
+**Error**: _All section title content is captured in underline. This is incorrect - XXXXXX_
+
+**Action**: 
+
+#### sec-title-italic
+
+**Warning**: _All section title content is captured in italics. Is this incorrect? If it is just a species name, then this is likely to be fine - XXXXXX_
+
+**Action**: 
+
+#### sec-title-dna	
+
+**Warning**: _Section title contains the phrase DNA, but it is not in all caps - XXXXXX_
+
+**Action**:
+
+#### sec-title-rna
+
+**Warning**: _Section title contains the phrase RNA, but it is not in all caps - XXXXXX_
+
+**Action**:
+
+#### sec-title-dimension
+
+**Warning**: _Section title contains lowercase abbreviation for dimension, when this should always be uppercase 'D' - XXXXXX_
+
+**Action**: 
+
+#### sec-title-hiv	
+
+**Warning**: _Section title contains the word HIV, but it is not in all caps - XXXXXX_
+
+**Action**: 
+
+#### section-title-test-1
+
+**Warning**: t_ext begins a paragraph - XXXXXX - Should it be marked up as a section title \(Heading level XXXXXX\)?_
+
+**Action**:
+
+### XML checks
+
 #### ra-sec-test-1
 
 **Error**: _At least one sec should be present in body for research-article content._
@@ -239,91 +329,7 @@ Correct the title to match the `@sec-type` value.
 
 **Error**: sec appears to contain no content. This cannot be correct.
 
-**Action**: Each section should contain a title and then either one or more paragraphs, or one or more sub-sections.
+**Action**: Each section should contain a title and either one or more paragraphs, or one or more sub-sections.
 
-#### sec-title-list-check
-
-**Warning**: _Section title might start with a list indicator - 'XXXXXX'. Is this correct?_
-
-**Action**: This warning will fire if a section title starts with 1\), 2\), 3\) etc., or with a\), b\), c\) etc. Check to make sure that this was 
-
-#### sec-title-appendix-check
-
-**Warning**: Section title contains the word appendix - 'XXXXXX'. Should it be captured as an appendix?
-
-**Action**: 
-
-sec-title-appendix-check-2
-
-**Warning**: _Should the section titled 'XXXXXX' be captured as an appendix?_
-
-**Action**: 
-
-#### sec-title-abbr-check
-
-**Warning**: _Section title contains the word abbreviation - 'XXXXXX'. Is it an abbreviation section? eLife house style is to define abbreviations in the text when they are first mentioned._
-
-**Action**: 
-
-#### sec-title-content-mandate
-
-**Error**: _Section title must not be empty._
-
-**Action**: 
-
-#### sec-title-full-stop
-
-**Warning**: _Section title ends with full stop, which is very likely to be incorrect - XXXXXX_
-
-**Action**: 
-
-#### sec-title-bold	
-
-**Error**: _All section title content is captured in bold. This is incorrect - XXXXXX_
-
-**Action**: 
-
-#### sec-title-underline
-
-**Error**: _All section title content is captured in underline. This is incorrect - XXXXXX_
-
-**Action**: 
-
-#### sec-title-italic
-
-**Warning**: _All section title content is captured in italics. Is this incorrect? If it is just a species name, then this is likely to be fine - XXXXXX_
-
-**Action**: 
-
-#### sec-title-dna	
-
-**Warning**: _Section title contains the phrase DNA, but it is not in all caps - XXXXXX_
-
-**Action**:
-
-#### sec-title-rna
-
-**Warning**: _Section title contains the phrase RNA, but it is not in all caps - XXXXXX_
-
-**Action**:
-
-#### sec-title-dimension
-
-**Warning**: _Section title contains lowercase abbreviation for dimension, when this should always be uppercase 'D' - XXXXXX_
-
-**Action**: 
-
-#### sec-title-hiv	
-
-**Warning**: _Section title contains the word HIV, but it is not in all caps - XXXXXX_
-
-**Action**: 
-
-#### section-title-test-1
-
-**Warning**: t_ext begins a paragraph - XXXXXX - Should it be marked up as a section title \(Heading level XXXXXX\)?_
-
-**Action**:
-
-
+## XML
 
