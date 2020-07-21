@@ -333,3 +333,31 @@ Correct the title to match the `@sec-type` value.
 
 ## XML structure
 
+```markup
+<sec sec-type="intro" id="s1">
+    <title>Introduction (Level 1 heading)</title>
+    <p>Some text, in a paragraph.</p>   
+    <sec id="s1-1"> 
+        <title>A level 2 heading</title>
+        <p>Some reference citation (<xref ref-type="bibr" rid="bib6">Brettar
+        et al., 2004b</xref>).</p>
+        <sec id="s1-1-1"> 
+            <title>A level 3 heading</title> 
+            <p>More text.</p>
+            <p>More text.</p>
+        </sec>      
+        <sec id="s1-1-2"> 
+            <title>Another level 3 heading</title>
+            <p>Yet more text.</p>
+            <p>Yet more text.</p>
+            <sec id="s1-1-2-1">
+                <title>A level 4 heading</title> 
+                <p>More text.</p>
+                <p>More text.</p>
+            </sec>
+        </sec>
+    </sec>
+</sec>
+        
+```
+
