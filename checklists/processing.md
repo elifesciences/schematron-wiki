@@ -186,7 +186,3 @@ The following points should be addressed during copy-editing:
 13. Where footnotes have been incorporated into the main text as parenthetical statements during pre-editing, check that the resulting text makes sense.
 14. Check for any issues in the references that have not been picked up during pre-editing, such as duplicated references, collaborations tagged as names \(e.g. 'Team RDC' being a miss-tagging of R Development Core Team'\), or reference citations in the text where brackets have been added or removed in error.
 
-
-
-
-
