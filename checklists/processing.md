@@ -16,15 +16,16 @@ The following checks should be carried out in addition to acting on any warnings
 2. Affiliation details should be split into the correct fields \(Institution, City and Country\). The Department field is present for legacy content but should not be used for current articles.
 3. Each research organism in the research organisms section should be entered separately, not grouped together \(sometimes multiple terms will be pulled into one entry\).
 4. Each keyword in the keyword section should be entered separately, not grouped together.
-5. Keywords should be in lower case unless they are proper nouns, or species, gene or protein names.
-6. If [**multiple grant numbers**](../article-details/content/funding-information.md#multiple-grant-references-in-one-entry) are present in an entry in the funding table, they should be separated into multiple entries.
-7. Check that each funder validates against the [**Open Funder Registry**](https://www.crossref.org/services/funder-registry/). If one does not, make a cursory check online to ensure the funder name is correct \(see [**Funding**](../article-details/content/funding-information.md#what-needs-to-be-checked) for more information\).
-8. Raise an author query if the funding information is not complete \(e.g. missing author names\).
-9. Check the Data availability statement for dataset and code information \(see [**Data availability**](../article-details/content/data-availability.md#data-availability-statement) for more information\), and for data [**available on request**](../article-details/content/data-availability.md#data-available-on-request).
-10. Check and separate the database and identifier if required.
-11. If they are missing or incomplete, check for the dataset URL, assigning authority and Pub-id type on the [**Data availability**](../article-details/content/data-availability.md#database-examples) page.
-12. If a URL is not present, add the identifier to the URL provided on the [**Data availability**](../article-details/content/data-availability.md#database-examples) page \(or query the author if the database is not in the reference table\).
-13. Check if the dataset URL is valid and resolves to a public webpage \(see [**Data availability**](../article-details/content/data-availability.md#data-that-is-not-yet-public) for more information\). Query the author to request the dataset\(s\) be made publicly available if necessary.
+5. If [**multiple grant numbers**](../article-details/content/funding-information.md#multiple-grant-references-in-one-entry) are present in an entry in the funding table, they should be separated into multiple entries.
+6. Check that each funder validates against the [**Open Funder Registry**](https://www.crossref.org/services/funder-registry/). If one does not, make a cursory check online to ensure the funder name is correct \(see [**Funding**](../article-details/content/funding-information.md#what-needs-to-be-checked) for more information\).
+7. Raise an author query if the funding information is not complete \(e.g. missing author names\).
+8. Check the Data availability statement for dataset and code information \(see [**Data availability**](../article-details/content/data-availability.md#data-availability-statement) for more information\), and for data [**available on request**](../article-details/content/data-availability.md#data-available-on-request).
+9. Check and separate the database and identifier if required.
+10. If they are missing or incomplete, check for the dataset URL, assigning-authority and pub-id type on the [**Data availability**](../article-details/content/data-availability.md#database-examples) page. If the assigning-authority is not on this page, set it to 'other'.
+11. If a URL is not present, add the identifier to the URL provided on the [**Data availability**](../article-details/content/data-availability.md#database-examples) page \(or query the author if the database is not in the reference table\).
+12. Check if the dataset URL is valid and resolves to a public webpage \(see [**Data availability**](../article-details/content/data-availability.md#data-that-is-not-yet-public) for more information\). Query the author to request the dataset\(s\) be made publicly available if necessary.
+
+
 
 ### Content page
 
