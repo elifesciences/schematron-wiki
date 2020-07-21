@@ -67,8 +67,8 @@ The following checks should be carried out in addition to acting on any warnings
 4. Accent characters \(e.g., `\dot`, `\bar`, `\tilde`, `\”`\) should be cross-verified against the merged PDF file.
 5. Check for usage of `\overset` and \`underset`, and make sure it is not being used to apply accent characters \(e.g. `\dot` should be used instead of `\overset{•}`\).
 6. Make sure that each display equation has an equation ID.
-7. sin, tan, cos, log and cos should be in roman font and should be entered as functions rather than text \(e.g. `\sin`, `\tan`, `\cos`, `\log`\).
-8. Special fonts like script, calligraphy, fracture characters should be identified and checked against the merged PDF file. Make sure they display in both the Content view and in the PDF.
+7. sin, tan, cos, log and cos should be entered as functions rather than text \(e.g. `\sin`, `\tan`, `\cos`, `\log`\).
+8. Special fonts like script, calligraphy, and fracture characters should be identified and checked against the merged PDF file. Make sure they display in both the Content view and in the PDF.
 9. Multiline equations should be framed correctly with the same operator alignment as in the merged PDF file.
 10. Mathop, atop, sidelimits, top and bottom limits should be checked as per the manuscript file.
 11. Check whether bracket usage needs to be fine tuned by means of the `\left`, `\right`, `\big`, `\bigg`, `\Big` or `\Big` commands to match the merged PDF file.
@@ -81,10 +81,10 @@ The following checks should be carried out during the copy-editing of an article
 
 1. The article title should follow sentence case, with no capitalisation except for proper nouns.
 2. Colons and semi-colons are not allowed in the article title except within scientific terms. If one is present, please check the production notes and if no instructions are provided on this matter, a query should be raised with the eLife Production team.
-3. Check that the impact statement is a single, complete, grammatically correct sentence of no more than 30 words in length \(see the [Impact statement](../article-details/content/impact-statement.md) page for more details\).
+3. Check that the impact statement is a single, complete, grammatically correct sentence of no more than 30 words in length \(see the [**Impact statement**](../article-details/content/impact-statement.md) page for more details\).
 4. Make sure that any special characters, accents or diacritics in author names have transferred correctly from the manuscript file.
-5. Check that allowed suffixes \(Snr, Jnr, I, II, III, IV etc.\) have been retained and that preffixes have not been included.
-6. The author contributions should be a comma-separated list with each item capitalised, e.g. "Formal analysis, Supervision, Investigation, Writing - review and editing". There should not be a full stop at the end. Usually the contributions will be taken from the following list:
+5. Check that allowed suffixes \(Snr, Jnr, I, II, III, IV etc.\) have been retained and that prefixes have not been included.
+6. The author contributions should be a comma-separated list with each item capitalised, e.g. "Formal analysis, Supervision, Investigation, Writing - review and editing". There should not be a full stop at the end. Usually the contributions will be taken from the following preset options:
 
    * Conceptualization
    * Resources
