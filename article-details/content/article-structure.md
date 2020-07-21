@@ -219,9 +219,9 @@ Correct the title to match the `@sec-type` value.
 
 #### body-top-level-sec-id-test
 
-**Error**: This sec id must be a concatenation of 's' and this element's position relative to it's siblings. It must be XXXXXX.
+**Error**: _This sec id must be a concatenation of 's' and this element's position relative to it's siblings. It must be XXXXXX._
 
-**Action**: 
+**Action**: The `@id` attribute on a section should reflect its position within higher-level sections. So, for example, Level 2 sections, within a Level 1 section with the id s4, would have the ids s4-1, s4-2, s4-3 and so on. A Level 3 section within the third of these would have the ids s4-3-1, s4-3-2, s4-3-3 and so on. Correct the id value to match the one recommended by the error message \(XXXXXX\).
 
 #### back-top-level-sec-id-test
 
