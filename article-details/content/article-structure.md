@@ -6,9 +6,11 @@ description: The article structure for different article types.
 
 ## What is article structure?
 
-Article structure refers to the way in which the content of an article is organised. 
+Article structure refers to the way in which the body of an article is organised. The main text will usually be split into multiple sections, each with a different title. Those sections may then contain sub-sections, those sub-sections, their own sub-sections, and so on.
 
+These sections are usually discussed in terms of the heirarchy of their titles, referred to as 'headings'.
 
+![Example of article structure displayed in the proofing system, showing Level 1 and Level 2 headings](../../.gitbook/assets/screen-shot-2020-07-21-at-16.16.57.png)
 
 eLife currently allows four levels of headings:
 
@@ -203,7 +205,15 @@ Warning: \_main body in XXXXXX content doesn't have either a child sec\[@sec-typ
 
 **Action**: The title of a section should correspond to the value of the `@sec-type`, if present. The full list of these values and the corresponding title text is as follows:
 
-
+| Title | @sec-type |
+| :--- | :--- |
+| Introduction | intro |
+| Results | results |
+| Results and discussion | results\|discussion |
+| Discussion | discussion |
+| Materials and methods | materials\|methods |
+| Methods | methods |
+| Model | model |
 
 Correct the title to match the `@sec-type` value.
 
@@ -219,17 +229,35 @@ Correct the title to match the `@sec-type` value.
 
 **Action**:
 
+#### low-level-sec-id-test
 
+**Error**: sec id must be a concatenation of it's parent sec id and this element's position relative to it's sibling secs. It must be XXXXXX.
 
-low-level-sec-id-test	article/body/sec//sec\|article/back/sec//sec	\*Error\*: \_sec id must be a concatenation of it's parent sec id and this element's position relative to it's sibling secs. It must be XXXXXX.\_
+**Action:**
 
-sec-test-1	sec	\*Error\*: \_sec must have a title\_
+#### sec-test-1
 
-sec-test-2	sec	\*Error\*: \_sec appears to contain no content. This cannot be correct.\_
+**Error**: sec must have a title
 
-sec-title-list-check	sec/title	\*Warning\*: \_Section title might start with a list indicator - 'XXXXXX'. Is this correct?\_
+**Action**: 
 
-sec-title-appendix-check	sec/title	\*Warning\*: \_Section title contains the word appendix - 'XXXXXX'. Should it be captured as an appendix?\_
+#### sec-test-2
+
+**Error**: sec appears to contain no content. This cannot be correct.
+
+**Action**: 
+
+#### sec-title-list-check
+
+**Warning**: Section title might start with a list indicator - 'XXXXXX'. Is this correct?
+
+**Action:**
+
+sec-title-appendix-check
+
+**Warning**: Section title contains the word appendix - 'XXXXXX'. Should it be captured as an appendix?
+
+**Action**: 
 
 sec-title-appendix-check-2	sec/title	\*Warning\*: \_Shoudld the section titled 'XXXXXX' be captured as an appendix?\_
 
