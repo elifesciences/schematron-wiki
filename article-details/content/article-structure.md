@@ -34,7 +34,7 @@ Any number of Level 2, 3 or 4 headings may appear within their parent sections. 
 
 ## Allowed article structures
 
-The following are the allowed top-level structures for various different article types. These lists cover Level 1 headings only. There are no rules concerning heading levels for sub-sections within these Level 1 sections.
+The following are the allowed top-level structures for various different article types. These lists cover Level 1 headings only. There are no rules concerning heading levels 2–4 within these Level 1 sections.
 
 ### Research article
 
@@ -84,7 +84,7 @@ Research advances share the same structure rules as research articles.
 
 ### Short report
 
-Short reports may following the standard research article structure:
+Short reports may follow the standard research article structure:
 
 * Main text
   * **Introduction**
@@ -117,5 +117,35 @@ However, since this article type can be used to describe models, the following s
   * **Results**
   * **Discussion**
 
+### Registered report
 
+Registered reports will have the following article structure:
+
+* Main text
+  * **Introduction**
+  * **Materials and methods**
+
+### Replication study
+
+Replication studies share the same structure rules as research articles.
+
+### Scientific correspondence
+
+Scientific correspondence articles may follow the standard research article structure:
+
+* Main text
+  * **Introduction**
+  * **Results**
+  * **Discussion**
+  * **Materials and methods**
+
+ However, this is not mandated and other Level 1 headings are permitted. The article structure should follow that indicated in the exported article file.
+
+### Review article
+
+There are no preset rules for Level 1 headings in review articles. The article structure should follow that indicated in the exported article file.
+
+### Feature content
+
+There are no preset rules for Level 1 headings in feature content. The article structure should follow that indicated in the exported article file.
 
