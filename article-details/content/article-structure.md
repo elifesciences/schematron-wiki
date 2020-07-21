@@ -331,5 +331,5 @@ Correct the title to match the `@sec-type` value.
 
 **Action**: Each section should contain a title and either one or more paragraphs, or one or more sub-sections.
 
-## XML
+## XML structure
 
