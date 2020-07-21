@@ -132,16 +132,17 @@ The following points should be addressed during copy-editing:
    * Product information \(company, country\)
    * Use of dashes
 3. Citations are only allowed in the abstract for Research Advances, where plain-text citations of the related article\(s\) are permitted. In all other cases, authors should be asked to remove any citations and reword the abstract if necessary.
-4. Section headings and titles for figures, tables, source data etc. should be in sentence case.
-5. Abbreviations should be spelled out the first time they are used, followed immediately by the abbreviation in brackets. Thereafter, the abbreviated form should be used. However, please note the following exceptions:
+4. Check that the article structure looks correct. If required sections are missing, this should be queried with the author. See the [**Article structure**](../article-details/content/article-structure.md#allowed-article-structures) page for more details.
+5. Section headings and titles for figures, tables, source data etc. should be in sentence case.
+6. Abbreviations should be spelled out the first time they are used, followed immediately by the abbreviation in brackets. Thereafter, the abbreviated form should be used. However, please note the following exceptions:
    * The abstract, figures and tables should be treated as separate entities and abbreviations should be redefined within them.
    * Terms on the AMA style guide list of common abbreviations do not need to be spelled out.
    * Gene/protein names can be kept in abbreviated form throughout the article \(the authors may spell them out on the first use, but this does not need to be added in if missing\).
-6. Use of italics:
+7. Use of italics:
    * Latin terms such as et al., in vivo, in vitro, bona fide etc. should not be italicised.
    * Species names should be in italics \(e.g. _Mus musculus_, _H. sapiens_\), except where they are part of an institution name \(e.g. Caenorhabditis Genetics Center, FlyBase:Drosophila Network Resources\).
    * For other terms, the authors' use of italics should be followed as far as is reasonable.
-7. Number use:
+8. Number use:
    * Numbers with five or more digits should have a comma separator e.g. 42,980. Numbers with four or less digits should not, e.g. 2400.
    * Numbers less than 10 should be spelled out unless they are a quantity with a unit, in which case digits should be retained. Numbers greater than 9 should be given in digits. However, please note the following exceptions:
      * The number begins a sentence, in which case the sentence should be restructured or the number should be spelled out.
@@ -151,7 +152,7 @@ The following points should be addressed during copy-editing:
    * All decimal values should have leading zero, e.g. .001 should be changed to 0.001.
    * For whole numbers, twofold, fourfold, tenfold etc. are allowed. For fractions, the number in digits followed by '-fold' should be used e.g. 2.5-fold, 0.5-fold etc.
    * For ordinals, first through ninth should be spelled out, thereafter use 10th . . . 21st, 22nd, 23rd . . . etc. An exception to this is if there is a mixture of ordinals greater than ninth and less than 10th, in which case use digit-ordinals e.g. "The 1st through 20th experiments were analysed."
-8. Units:
+9. Units:
    * SI and non-SI units should be left as the author provides
    * Time: use abbreviations for units \(seconds \[s\], minutes \[min\], hour \[hr\]\) but spell out day, week, month or year, and spell out months in full \(e.g. 'February', not 'Feb'\)
    * Temperature: degrees centigrade should be indicated by °C, closed up with the value e.g. 8°C
@@ -161,15 +162,15 @@ The following points should be addressed during copy-editing:
    * Weight: wt
    * Repetition of units: this should be left as the author provides, excepting use of % and °C which should only be retained for the final number, e.g. 80–100%, 5–10°C
    * Ranges: use en-dash to indicate a range of values
-9. Statistics:
-   * Probability: lowercase roman p, with leading zero, e.g. p=0.01
-10. Punctuation:
+10. Statistics:
+    * Probability: lowercase roman p, with leading zero, e.g. p=0.01
+11. Punctuation:
     * Single quotation marks should be used for emphasis \('some text'\) . Double quotation marks should be used for direct quotes \("a quote from another article"\).
     * Where multiple sets of brackets are nested, square brackets should be used within parenthesis, e.g. "some text \(some more text \[reference\] text\)".
-11. Special characters:
+12. Special characters:
     * All trademark ™, registered ® and copyright © symbols should be deleted.
     * '&' should be changed to 'and' if used as part of a sentence. '&' should be left if used as part of a name such as R&D' or 'Texas A&M University'.
-12. For figures, tables and supplementary files:
+13. For figures, tables and supplementary files:
     * Check that the legends make sense and that any sub-legends for specific parts of the asset are incorporated in a grammatically correct fashion \(e.g. if the author provided each sub-legend on a separate line, make sure they are punctuated correctly when placed in a single paragraph\).
     * Ensure each new sentence starts with a capital letter, unless the part label is being used as part of the sentence. That is, "\(**A**\) shows the results of . . ." is fine but "\(**A**\) results of . . . " should be corrected to "\(**A**\) Results of . . ."
     * Statements at the end of the legend such as "The following supplements are available for Figure 2:" should be removed - usually these will make sense in context of the author's original manuscript file, but are unnecessary in the typeset article.
@@ -179,6 +180,6 @@ The following points should be addressed during copy-editing:
       * If the image has panel labels but the legend does not, the authors should be asked to add panel labels to the legend.
       * If the legend has panel labels but the image does not, the authors should be asked to provide a new image file.
     * Make sure that asset citations are formatted correctly, with any sub-part labels incorporated into the linked text \(e.g. Figure 1A, Figure 2Bii\).
-13. Where footnotes have been incorporated into the main text as parenthetical statements during pre-editing, check that the resulting text makes sense.
-14. Check for any issues in the references that have not been picked up during pre-editing, such as duplicated references, collaborations tagged as names \(e.g. 'Team RDC' being a miss-tagging of R Development Core Team'\), or reference citations in the text where brackets have been added or removed in error.
+14. Where footnotes have been incorporated into the main text as parenthetical statements during pre-editing, check that the resulting text makes sense.
+15. Check for any issues in the references that have not been picked up during pre-editing, such as duplicated references, collaborations tagged as names \(e.g. 'Team RDC' being a miss-tagging of R Development Core Team'\), or reference citations in the text where brackets have been added or removed in error.
 
