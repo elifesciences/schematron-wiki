@@ -6,7 +6,11 @@ description: The article structure for different article types.
 
 ## What is article structure?
 
-Article structure refers to the headings and sections into which the main text is organised. eLife currently allows four levels of headings:
+Article structure refers to the way in which the content of an article is organised. 
+
+
+
+eLife currently allows four levels of headings:
 
 * **Level 1** - top level heading that will appear within the jump-to menu on the published HTML view:
 
@@ -205,11 +209,17 @@ Correct the title to match the `@sec-type` value.
 
 #### body-top-level-sec-id-test
 
-Error: This sec id must be a concatenation of 's' and this element's position relative to it's siblings. It must be XXXXXX.
+**Error**: This sec id must be a concatenation of 's' and this element's position relative to it's siblings. It must be XXXXXX.
 
-Action:
+**Action**: 
 
-back-top-level-sec-id-test	article/back/sec	\*Error\*: \_This sec id must be a concatenation of 's' and this element's position relative to other top level secs. It must be XXXXXX.\_
+#### back-top-level-sec-id-test
+
+**Error**: _This sec id must be a concatenation of 's' and this element's position relative to other top level secs. It must be XXXXXX._
+
+**Action**:
+
+
 
 low-level-sec-id-test	article/body/sec//sec\|article/back/sec//sec	\*Error\*: \_sec id must be a concatenation of it's parent sec id and this element's position relative to it's sibling secs. It must be XXXXXX.\_
 
