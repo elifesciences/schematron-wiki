@@ -231,11 +231,11 @@ XXXXXX in this message will be the current, incorrect citation text. Note that t
 
 **Warning**: _citation is preceded by '\(', and followed by '\);'. Should the brackets be removed? - 'XXXXXX'_
 
-**Action**: This will indicate text such as ' ... \(Smith et al., 2020\); ... '. In cases where the citation is already in a sentence in parentheses such as:
+**Action**: This will indicate text such as ' ... \(Smith et al., 2020\); ... '. In cases where the citation is already in a in parentheses such as:
 
 \(**Smith et al., 2019**; see \(**Smith et al., 2020**\); **Figure 1**\)
 
-the brackets in the quoted text in the message can be removed. In cases where it is not, then it's likely that the brackets should be retained. For example:
+the brackets in the quoted text in the message can be removed. In most other cases, the brackets should be retained. For example, this should be left as it is:
 
 > Neutrophils release NETs via various mechanisms, which in most cases lead to neutrophil death \(Kenny et al., 2017\); thus, NETs are an extreme form of antimicrobial defense ...
 
