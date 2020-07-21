@@ -64,9 +64,157 @@ The following tests are run on Decision Letters and Author responses.
 
 ### Content checks
 
+#### dec-letter-title-test
 
+**Error**: _title-group must contain article-title which contains 'Decision letter'. Currently it is XXXXXX._
+
+**Action**: 
+
+#### reply-title-test
+
+**Error**: _title-group must contain article-title which contains 'Author response'. Currently it is XXXXXX._
+
+**Action**: 
+
+#### dec-letter-reply-test-1
+
+**Error**: _1st sub-article must be the decision letter. 2nd sub-article must be the author response._
+
+**Action**: 
+
+#### dec-letter-reply-test-5
+
+**Error**: _XXXXXX paragraph contains what looks like pseudo-code - XXXXXX._
+
+**Action**: 
+
+#### dec-letter-reply-test-6
+
+**Warning**: _XXXXXX paragraph contains what might be pseudo-code or tags which should likely be removed - XXXXXX._
+
+**Action**: 
+
+#### dec-letter-front-test-1
+
+**Error**: _sub-article front-stub must contain article-id\[@pub-id-type='doi'\]._
+
+**Action**: 
+
+#### dec-letter-front-test-4
+
+**Warning**: _decision letter front-stub has only 1 contrib-group element. Is this correct? i.e. were all of the reviewers \(aside from the reviewing editor\) anonymous? The text 'The reviewers have opted to remain anonymous' or 'The reviewer has opted to remain anonymous' is not present and there is no link to Review commons in the decision letter._
+
+**Action**: 
+
+#### dec-letter-editor-test-1
+
+**Warning**: _First contrib-group in decision letter must contain 1 and only 1 editor \(contrib\[@contrib-type='editor'\]\)._
+
+**Action**: 
+
+#### dec-letter-editor-test-2
+
+**Warning**: _First contrib-group in decision letter contains a contrib which is not marked up as an editor \(contrib\[@contrib-type='editor'\]\)._
+
+**Action**:
+
+#### dec-letter-editor-test-3
+
+**Error**: _Editor in decision letter front-stub must have the role 'Reviewing Editor' or 'Senior and Reviewing Editor'. XXXXXX has 'XXXXXX'._
+
+**Action**: 
+
+#### dec-letter-editor-test-6
+
+**Error**: _Senior Editor in decision letter front-stub must have the role 'Senior Editor' or 'Senior and Reviewing Editor'. XXXXXX has 'XXXXXX'._
+
+**Action**: 
+
+#### dec-letter-reviewer-test-1
+
+**Error**: _Second contrib-group in decision letter must contain a reviewer \(contrib\[@contrib-type='reviewer'\]\)._
+
+**Action**: 
+
+#### dec-letter-reviewer-test-2
+
+**Error**: _Second contrib-group in decision letter contains a contrib which is not marked up as a reviewer \(contrib\[@contrib-type='reviewer'\]\)._
+
+**Action**: 
+
+#### dec-letter-reviewer-test-3
+
+**Error**: _Reviewer in decision letter front-stub must have the role 'Reviewer'. XXXXXX has 'XXXXXX'._
+
+**Action**: 
+
+#### dec-letter-reviewer-test-6
+
+**Warning**: _Second contrib-group in decision letter contains more than three reviewers. Is this correct? Exeter: Please check with eLife. eLife: check eJP to ensure this is correct._
+
+**Action**: 
+
+#### dec-letter-body-test-1
+
+**Error**: _First child element in decision letter is not boxed-text. This is certainly incorrect._
+
+**Action**: 
+
+#### dec-letter-body-test-2
+
+**Error**: _The text 'Review Commons' in 'XXXXXX' must contain an embedded link pointing to https://www.reviewcommons.org/._
+
+**Action**: 
+
+#### reply-front-test-1
+
+**Error**: _sub-article front-stub must contain article-id\[@pub-id-type='doi'\]._
+
+**Action**: 
+
+#### reply-body-test-1
+
+**Error**: _author response doesn't contain a disp-quote. This has to be incorrect._
+
+**Action**: 
+
+#### reply-body-test-2
+
+**Error**: _author response doesn't contain a p. This has to be incorrect._
+
+**Action**: 
 
 ### **XML structure checks**
+
+#### dec-letter-reply-test-2
+
+**Error**: _sub-article id must be in the format 'sa0', where '0' is it's position \(1 or 2\)._
+
+**Action**: 
+
+#### dec-letter-reply-test-3
+
+**Error**: _sub-article contain one and only one front-stub._
+
+**Action**: 
+
+#### dec-letter-reply-test-4
+
+**Error**: _sub-article contain one and only one body._
+
+**Action**: 
+
+#### dec-letter-front-test-2
+
+**Error**: _decision letter front-stub must contain at least 1 contrib-group element._
+
+**Action**: 
+
+#### dec-letter-front-test-3
+
+**Error**: _decision letter front-stub contains more than 2 contrib-group elements._
+
+**Action**: 
 
 ## XML structure
 
