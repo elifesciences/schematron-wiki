@@ -87,7 +87,7 @@ The following checks should be carried out during the copy-editing of an article
 2. Colons and semi-colons are not allowed in the article title except within scientific terms. If one is present, please check the production notes and if no instructions are provided on this matter, a query should be raised with the eLife Production team.
 3. Check that the impact statement is a single, complete, grammatically correct sentence of no more than 30 words in length \(see the [Impact statement](../article-details/content/impact-statement.md) page for more details\).
 4. Make sure that any special characters, accents or diacritics in author names have transferred correctly from the manuscript file.
-5. Check that allowed suffixes \(Snr, Jnr, I, II, III, IV etc.\) have been retained.
+5. Check that allowed suffixes \(Snr, Jnr, I, II, III, IV etc.\) have been retained and that preffixes have not been included.
 6. The author contributions should be a comma-separated list with each item capitalised, e.g. "Formal analysis, Supervision, Investigation, Writing - review and editing". There should not be a full stop at the end. Usually the contributions will be taken from the following list:
 
    * Conceptualization
