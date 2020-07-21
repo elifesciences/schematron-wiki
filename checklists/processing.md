@@ -25,15 +25,13 @@ The following checks should be carried out in addition to acting on any warnings
 11. If a URL is not present, add the identifier to the URL provided on the [**Data availability**](../article-details/content/data-availability.md#database-examples) page \(or query the author if the database is not in the reference table\).
 12. Check if the dataset URL is valid and resolves to a public webpage \(see [**Data availability**](../article-details/content/data-availability.md#data-that-is-not-yet-public) for more information\). Query the author to request the dataset\(s\) be made publicly available if necessary.
 
-
-
 ### Content page
 
 1. Check that all videos play.
 2. Check that the supplementary file and video download links work correctly.
 3. Source code files should be zipped and re-uploaded if they are not zipped already, so that the original file name exported from the submission system is retained.
 4. Double check the tables and raise a query if the colours given in the table are against the eLife style.
-5. If a figure file consists of [**more than one page**](../article-details/content/allowed-assets/untitled.md#figure-files)**,** the author must be asked to provide a single-page version, or to split it into multiple figures. Please contact the eLife Production team who will email the authors to ask how they would like to proceed.
+5. If a figure file consists of more than one page**,** the author must be asked to provide a single-page version, or to split it into multiple figures. Please contact the eLife Production team who will email the authors to ask how they would like to proceed.
 6. If the file for an asset is missing, please query the author for the missing file.
 7. Make sure that all files in the export package have been typeset, even if a title/legend is missing. Query the author for any missing titles.
 8. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [**Journal references**](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
@@ -46,8 +44,6 @@ The following checks should be carried out in addition to acting on any warnings
 12. Footnotes to the main text are not allowed. Any such footnotes should be incorporated as a bracketed statement at the point where they are cited in the text. An author query should be added to confirm this is acceptable:
     * "As eLife does not support footnotes to the main text, we have integrated this note into the text at the point it was cited. Please confirm this is acceptable."
 
-
-
 ### PDFs
 
 1. Ensure there are no blank pages in either the article PDF or the figures PDF.
@@ -59,12 +55,12 @@ The following checks should be carried out in addition to acting on any warnings
 7. Check for any unnecessary page breaks, especially in figure legends or tables. If only one sentence of the figure legend is being pushed down to the next page, for example, the figure should be shrunk slightly so that the legend is fully on the same page as the image. 
 8. Check that figures, tables and videos appear in numerical order and are placed as close as possible to their first citations in the text.
 9. Check the figures PDF to ensure no figures are going off from the page and that all figures and figure supplements are present.
-10. Check that the figures are legible in the PDFs. If they are not, the author should be queried to provide higher resolution images.
+10. Check that the figures are legible in the PDFs. If they are not, the author should be queried to provide [**higher resolution images**](../article-details/content/allowed-assets/untitled.md#resolution-of-figures).
 11. For feature articles, ensure that the figures are sized at the correct widths, as indicated in the exported files names.
 
 ### LaTex checklist
 
-1. For LaTex articles, the equation query is mandatory:
+1. For LaTex articles, this query is mandatory:
    * "Please check and confirm that we have processed your LaTex correctly, especially with regards to the layout of any equations in the text."
 2. Cross-check all equations to make sure that they are formatted the same as in the exported merged PDF file. Make sure no errors have been introduced during conversion and that formatting, layout and spacing is preserved.
 3. Check equation-like numbers \(e.g. value with units such as '10 mg'\) and make sure these are in plain text rather than tagged as maths.
