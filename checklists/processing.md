@@ -14,7 +14,7 @@ The following checks should be carried out in addition to acting on any warnings
 
 1. If there is a mismatch between the author names in the export XML and the manuscript file,  the manuscript should be followed. The affiliation, corresponding author and equal-contribution details should be taken from the manuscript file.
 2. Affiliation details should be split into the correct fields \(Institution, City and Country\). The Department field is present for legacy content but should not be used for current articles.
-3. Each research organism in the research organisms section should be entered separately, not grouped together.
+3. Each research organism in the research organisms section should be entered separately, not grouped together \(sometimes multiple terms will be pulled into one entry\).
 4. Each keyword in the keyword section should be entered separately, not grouped together.
 5. Keywords should be in lower case unless they are proper nouns, or species, gene or protein names.
 6. If [**multiple grant numbers**](../article-details/content/funding-information.md#multiple-grant-references-in-one-entry) are present in an entry in the funding table, they should be separated into multiple entries.
