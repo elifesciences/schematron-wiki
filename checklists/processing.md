@@ -33,8 +33,7 @@ The following checks should be carried out in addition to acting on any warnings
 2. Check that the supplementary file and video download links work correctly.
 3. Source code files should be zipped and re-uploaded if they are not zipped already, so that the original file name exported from the submission system is retained.
 4. Double check the tables and raise a query if the colours given in the table are against the eLife style.
-5. If a figure file consists of more than one page, the author must be asked to provide a single-page version, or to split it into multiple figures. Please use the following query:
-   * 
+5. If a figure file consists of more than one page, the author must be asked to provide a single-page version, or to split it into multiple figures. Please contact the eLife Production team who will email the authors to ask how they would like to proceed.
 6. If the file for an asset is missing, please query the author for the missing file.
 7. Make sure that all files in the export package have been typeset, even if a title/legend is missing. Query the author for any missing titles.
 8. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [**Journal references**](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
