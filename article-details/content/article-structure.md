@@ -233,47 +233,97 @@ Correct the title to match the `@sec-type` value.
 
 **Error**: sec must have a title
 
-**Action**: Each section should have a title. 
+**Action**: Each section should have a title. Check that the text for the title has not been captured as part of the first paragraph.
 
 #### sec-test-2
 
 **Error**: sec appears to contain no content. This cannot be correct.
 
-**Action**: 
+**Action**: Each section should contain a title and then either one or more paragraphs, or one or more sub-sections.
 
 #### sec-title-list-check
 
-**Warning**: Section title might start with a list indicator - 'XXXXXX'. Is this correct?
+**Warning**: _Section title might start with a list indicator - 'XXXXXX'. Is this correct?_
 
-**Action:**
+**Action**: This warning will fire if a section title starts with 1\), 2\), 3\) etc., or with a\), b\), c\) etc. Check to make sure that this was 
 
-sec-title-appendix-check
+#### sec-title-appendix-check
 
 **Warning**: Section title contains the word appendix - 'XXXXXX'. Should it be captured as an appendix?
 
 **Action**: 
 
-sec-title-appendix-check-2	sec/title	\*Warning\*: \_Shoudld the section titled 'XXXXXX' be captured as an appendix?\_
+sec-title-appendix-check-2
 
-sec-title-abbr-check	sec/title	\*Warning\*: \_Section title contains the word abbreviation - 'XXXXXX'. Is it an abbreviation section? eLife house style is to define abbreviations in the text when they are first mentioned.\_
+**Warning**: _Should the section titled 'XXXXXX' be captured as an appendix?_
 
-sec-title-content-mandate	sec/title	\*Error\*: \_Section title must not be empty.\_
+**Action**: 
 
-sec-title-full-stop	sec/title	\*Warning\*: \_Section title ends with full stop, which is very likely to be incorrect - XXXXXX\_
+#### sec-title-abbr-check
 
-sec-title-bold	sec/title	\*Error\*: \_All section title content is captured in bold. This is incorrect - XXXXXX\_
+**Warning**: _Section title contains the word abbreviation - 'XXXXXX'. Is it an abbreviation section? eLife house style is to define abbreviations in the text when they are first mentioned._
 
-sec-title-underline	sec/title	\*Error\*: \_All section title content is captured in underline. This is incorrect - XXXXXX\_
+**Action**: 
 
-sec-title-italic	sec/title	\*Warning\*: \_All section title content is captured in italics. Is this incorrect? If it is just a species name, then this is likely to be fine - XXXXXX\_
+#### sec-title-content-mandate
 
-sec-title-dna	sec/title	\*Warning\*: \_Section title contains the phrase DNA, but it is not in all caps - XXXXXX\_
+**Error**: _Section title must not be empty._
 
-sec-title-rna	sec/title	\*Warning\*: \_Section title contains the phrase RNA, but it is not in all caps - XXXXXX\_
+**Action**: 
 
-sec-title-dimension	sec/title	\*Warning\*: \_Section title contains lowercase abbreviation for dimension, when this should always be uppercase 'D' - XXXXXX\_
+#### sec-title-full-stop
 
-sec-title-hiv	sec/title	\*Warning\*: \_Section title contains the word HIV, but it is not in all caps - XXXXXX\_
+**Warning**: _Section title ends with full stop, which is very likely to be incorrect - XXXXXX_
 
-section-title-test-1	sec/p/\*\[1\]\[not\(preceding-sibling::text\(\)\) or \(normalize-space\(preceding-sibling::text\(\)\)=''\)\]	\*Warning\*: \_text begins a paragraph - XXXXXX - Should it be marked up as a section title \(Heading level XXXXXX\)?\_
+**Action**: 
+
+#### sec-title-bold	
+
+**Error**: _All section title content is captured in bold. This is incorrect - XXXXXX_
+
+**Action**: 
+
+#### sec-title-underline
+
+**Error**: _All section title content is captured in underline. This is incorrect - XXXXXX_
+
+**Action**: 
+
+#### sec-title-italic
+
+**Warning**: _All section title content is captured in italics. Is this incorrect? If it is just a species name, then this is likely to be fine - XXXXXX_
+
+**Action**: 
+
+#### sec-title-dna	
+
+**Warning**: _Section title contains the phrase DNA, but it is not in all caps - XXXXXX_
+
+**Action**:
+
+#### sec-title-rna
+
+**Warning**: _Section title contains the phrase RNA, but it is not in all caps - XXXXXX_
+
+**Action**:
+
+#### sec-title-dimension
+
+**Warning**: _Section title contains lowercase abbreviation for dimension, when this should always be uppercase 'D' - XXXXXX_
+
+**Action**: 
+
+#### sec-title-hiv	
+
+**Warning**: _Section title contains the word HIV, but it is not in all caps - XXXXXX_
+
+**Action**: 
+
+#### section-title-test-1
+
+**Warning**: t_ext begins a paragraph - XXXXXX - Should it be marked up as a section title \(Heading level XXXXXX\)?_
+
+**Action**:
+
+
 
