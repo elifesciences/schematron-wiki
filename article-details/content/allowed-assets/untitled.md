@@ -39,7 +39,11 @@ If one of the panels in a figure is a table, this can be left as-is:
 
 ![](../../../.gitbook/assets/screenshot-2020-07-01-at-16.11.54.png)
 
+### Multi-page files
+
 If an author provides a PDF file over multiple pages we cannot process this as a single figure. Production will need to be queried to ask the authors to provide single-page figures. If each "page" contains a small image that could be a part of a complete composite figure the author should be asked to supply the image as a single page with part labels. If the images on each page are a full figure and combining the images into one figure would render them unreadable the author should be asked to split the individual pages up into separate figures or figure supplements. 
+
+### Labelling issues
 
 If the authors have included unlabelled images in their article file that do not correspond to the main figures, a query should be raised with eLife Production to determine how to treat these images. In most cases, these images will need to be treated as chemical structures or schemes.
 
