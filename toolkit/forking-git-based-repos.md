@@ -71,19 +71,11 @@ The forking process will then begin. When it is complete, you will be taken to t
 
 Sometimes, authors will upload their code to repositories other than GitHub \(e.g. GitLab or Bitbucket\). In these cases, the code will need to be imported to eLife's repository. 
 
-From the [eLife repository](https://github.com/elifesciences-publications), follow these steps: 
+![An example of code on Bitbucket](../.gitbook/assets/screenshot-2020-07-22-at-10.21.58.png)
 
-* Create a new repository by clicking the 'New' button on the right.
-* Give the repository a name. Either use the name the authors have given or use the article number if this is not available.
-* At the bottom, click 'Create repository', ignoring all other fields including 'description'.
-* On the next page, click the very last option 'Import code from another repository' \(see below\).
+From the [**eLife repository**](https://github.com/elifesciences-publications), follow these steps: 
 
-![](https://lh5.googleusercontent.com/70YnC8aMYgV1A95jOyX3QCku1DVWFxHvOndsN2EouBIWOoWK_NheXQK77mLZwBAqqN3csgI2_-yYeRUY66RowTNQVOzmqiMrE-E8E5F2SP6IoQz9lyE-n_JnRZW-5sfqABsTnm27)
-
-* Enter the url of the repository you want to clone into the 'Your old repository's clone URL'.
-* Click on 'Begin Import'. The rest will be done for you. If there are any errors at this stage, please alert the Production team who will contact the development team.
-
-![](https://lh3.googleusercontent.com/rhpesbtno3yubnX-XcieocQmMWgdTMl2fUHPKtM2yK8oFp1cWKlq6rTZOA7PIWcGHGxxAR7haClAjdkNHbc5LEi-yoZB-tKE-BktI9Jj6aLZfpBQOB2OEDghKi0RBHg2Yc56wB3W)
+{% embed url="https://docs.google.com/presentation/d/1SDLfuFQXXvDSswYJADQXsX6K2O8Q1saKF69Rd1CZAr4/edit?usp=sharing" %}
 
 ## Add the new URL to the article text to indicate where the copy is archived
 
