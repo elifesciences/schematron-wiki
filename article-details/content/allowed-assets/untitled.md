@@ -5,7 +5,7 @@ description: How to check figures and figure supplements
 # Figures and figure supplements
 
 {% hint style="info" %}
-For changelog, click [here](untitled.md#changelog).
+For changelog, click [**here**](untitled.md#changelog).
 {% endhint %}
 
 Most scientific articles include figures and figure supplements to present data. eLife figures can also have [**various assets**](./) ****related to them. All figures and figure supplements must have titles, and usually also have captions \(although this is not mandatory\).
@@ -351,7 +351,7 @@ If multiple figures are out of sequence, leave the following query for the autho
 
 #### fig-specific-test-3
 
-**Warning:** _XXXXXX does not appear directly after a paragraph citing it. Is that correct?_
+**Warning:** _XXXXXX is cited, but does not appear directly after the paragraph citing it. Is that correct?_
 
 **Action:** Figures should always be placed in the XML directly after the paragraph in which they are first cited, unless the paragraph is immediately followed by a display formula, in which case the figure should be placed at the first appropriate place. This check doesn't take into account 'Figure 1-3' type links, so if the warning is linked to this type of figure citation, it can be ignored. Otherwise, make sure the figure is moved directly after its first citation.
 
@@ -389,19 +389,31 @@ If multiple figures are out of sequence, leave the following query for the autho
 
 **Warning:** _XXXXXX is immediately followed by a display formula, and preceded by a paragraph which does not end with punctuation. Should it should be moved after the display formula or after the para following the display formula?_
 
-**Action:** As figures are automatically placed after their first citation, this can sometimes result in figures being placed in the middle of equations, which breaks the flow of the text. Check whether this is the case - if so, the figure will need to be moved to after the display formula, or after the next paragraph. See fig-specific-test-5 for a similar case.
+**Action:** As figures are automatically placed after their first citation, this can sometimes result in figures being placed in the middle of equations, which breaks the flow of the text. Check whether this is the case - if so, the figure will need to be moved to after the display formula, or after the next paragraph. See [**fig-specific-test-5**](untitled.md#fig-specific-test-5) for a similar case. 
 
 #### fig-sup-test-2
 
 **Error:** _fig in the body of the article which has a @specific-use='child-fig' must have a label in the format 'Figure X—figure supplement X.' \(where X is one or more digits\)._
 
+**Action:** __All figure supplements in research content should have the label 'Figure X—figure supplement X.' This error will appear if a figure supplement does not have this label. Exeter will need to fix this. 
+
 #### fig-sup-test-3
 
 **Error:** _XXXXXX does not start with the main figure number it is associated with - XXXXXX._
 
+**Action:** __All figure supplements in research content should have the label 'Figure X—figure supplement X.' This error will appear if a figure supplement has a label which doesn't begin with the figure number it is associated with. Exeter will need to fix this. 
+
 #### fig-sup-test-4
 
 **Error:** _XXXXXX does not appear in sequence which is incorrect. Relative to the other figures it is placed in position XXXXXX._
+
+**Action:** Figures are automatically placed directly after their first citation. ****This warning usually appears if the authors have cited figures out of order. For example, if they refer to Figure 3 — Figure supplement 2 before Figure 3 — figure supplement 1, this results in Figure 3 — Figure supplement 2 being placed before Figure 3 — figure supplement 1. Unlink the citation that is out of order and leave the following query for the author:
+
+* This citation is out of sequence with the other figure citations and has therefore been left unlinked \(figure placement is determined by first live citation\). Please confirm this is acceptable.
+
+If multiple figures are out of sequence, leave the following query for the author instead:
+
+* Our system numbers figures based on when they are first cited. Please conform these figures can be renumbered or provide in-sequence citations for these.
 
 #### fig-sup-test-5
 
