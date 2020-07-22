@@ -33,7 +33,7 @@ The authors were asked to provide this as an editable file and it was changed to
 
 ![](../../../.gitbook/assets/screenshot-2020-07-01-at-16.06.46.png)
 
-The author may also be given the option to convert the table in the figure to source data instead depending on the content of the table. If it is a figure supplement this would become Figure x - Source data x; if it is a main figure this would become source data attached to the document as a whole.
+The author may also be given the option to convert the table to source data instead depending on the content. If the table was provided as a figure supplement this would become Figure x - Source data x; if it was provided as a main figure this would become source data attached to the document as a whole.
 
 If one of the panels in a figure is a table, this can be left as-is:
 
@@ -41,11 +41,13 @@ If one of the panels in a figure is a table, this can be left as-is:
 
 ### Multi-page files
 
-If an author provides a PDF file over multiple pages we cannot process this as a single figure. Production will need to be queried to ask the authors to provide single-page figures. If each "page" contains a small image that could be a part of a complete composite figure the author should be asked to supply the image as a single page with part labels. If the images on each page are a full figure and combining the images into one figure would render them unreadable the author should be asked to split the individual pages up into separate figures or figure supplements. 
+![An example of a multi-page figure](../../../.gitbook/assets/captured%20%283%29.gif)
+
+If an author provides a PDF file over multiple pages we cannot process this as a single figure. The production team will need to be queried to ask the authors for single-page figures. If each "page" contains a small image that could be a part of a complete composite figure the author should be asked to supply the image as a single page with part labels. If the images on each page are a full figure and combining the images into one figure would render them unreadable the author should be asked to split the individual pages up into separate figures or figure supplements. 
 
 ### Labelling issues
 
-If the authors have included unlabelled images in their article file that do not correspond to the main figures, a query should be raised with eLife Production to determine how to treat these images. In most cases, these images will need to be treated as chemical structures or schemes.
+If the authors have included unlabelled images in their article file that do not correspond to the main figures, the production team should be queried to determine how to treat these images. In most cases, these images will need to be treated as chemical structures or schemes.
 
 ### PDF version
 
@@ -75,7 +77,7 @@ If the author has only provided a legend that begins with a description of panel
 
 ### Part labels
 
-Part labels should be captured as such in Kriya. Please match the figure file when adding part labels - if a figure contains labels A-G, check these have all been referred to in the legend. If they haven't, leave the following author query:
+Part labels should be captured as such in Kriya \(by right-clicking and selecting 'part label'\). Please match the figure file when adding part labels in terms of upper/lowercase. If a figure contains labels A-G, check these have all been referred to in the legend. If they haven't, leave the following author query:
 
 * The image file for Figure X contains panel label "Y", but this has not been provided in the figure legend. Please add a reference to this panel to the figure legend, or provide an updated figure file with this label removed.
 
@@ -128,46 +130,40 @@ Figures and figure supplements \(or panels within these\) may be 'adapted' from 
 
 If the legend for a figure or figure supplement states that the image is ‘reprinted from’ or ‘reproduced from’, we may need to add licensing information for the reproduced elements. This will usually apply to panels within images, not whole images.
 
-If the previously published content was published under a [**CCBY**](https://creativecommons.org/licenses/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, the work must be properly attributed and credited \(provide full citation details and license\). If this matches the license of this article \(check the permissions-info message in the xml\), it does not need to be tagged differently in the underlying XML because it is following the license of the article. However, if the article you are working on is CC0, but the reproduced figure is CCBY, this needs to be indicated in the underlying XML and so requires specific tagging.
+If the previously published content was published under a [**CCBY**](https://creativecommons.org/licenses/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, the work must be properly attributed and credited \(provide full citation details and license\). If this matches the license of the article \(check the permissions-info message in the xml\), it does not need to be tagged differently in the underlying XML because it is following the license of the article. However, if the article you are working on is CC0, but the reproduced figure is CCBY, this needs to be indicated in the underlying XML and so requires specific tagging.  
 
 If the authors chose to exactly reproduce a figure or section from a previously published, non-open access/non-CCBY article in part or in whole, it will need to be published under a separate license. This is because the original publication will have been published under a license that retains copyright. An article published in Nature, for example, will be copyright to the Nature Publishing Group, and articles published in Science will be copyright to the American Association for the Advancement of Science and so on. If eLife is to reproduce the contents of these articles, it must make it clear that the publisher retains copyright on that content, and that it is therefore not covered by the CCBY or CC0 license that covers the rest of the eLife article. The same issue applies when authors incorporate images from other copyrighted media into their figures \(e.g. if they use film stills or artwork\).
 
-If the authors chose to reproduce copyrighted images in their figures, they must state what has been reproduced in the legend. In addition to this, a permissions statement must be added to the figure in the XML giving the license details for the reproduced image. For example, [**Figure 1 in eLife article 50974**](https://elifesciences.org/articles/50974/figures) contains an image reproduced from another article.
+If the authors chose to reproduce copyrighted images in their figures, they must state what has been reproduced in the legend. In addition to this, a permissions statement must be added to the figure in the XML giving the license details for the reproduced image. The permissions text may have been provided already as part of the figure or figure supplement legend. If so, it should be removed and moved into the permissions tagging.
 
-The license statement added by eLife Production is:
+The editorial team check figure permissions as part of submission quality checks. They will leave a note for Exeter if permissions information needs to be added to the XML, for example:
 
-> © 1997, National Academy of Sciences, USA. All rights reserved. Figure 1B is reproduced from Coppin et al. \(2002\) with permission. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.
+> FAO Exeter: Figure Permissions
+>
+> copyright-year: 2009  
+> copyright-holder: Elsevier  
+> permissions: Figure 1A is reprinted from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.
 
-In the underlying XML, this would appear as:
+This information would then need to be added in the XML:
 
 ```markup
-<fig id="fig1" position="float">
-<label>Figure 1.</label>
-<caption>
-<title>
-Force gliding assay to study multiple kinesins transporting a cargo.
-</title>
-<p> . . . . 
-. . . . </p>
-</caption>
-<graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-50974-fig1-v2.tif"/>
 <permissions>
-<copyright-statement>
-© 1997, National Academy of Sciences, USA. All rights reserved 
-</copyright-statement>
-<copyright-year>1997</copyright-year>
-<copyright-holder>National Academy of Sciences, USA.</copyright-holder>
+<copyright-statement>© 2009 Elsevier</copyright-statement>
+<copyright-year>2009</copyright-year>
+<copyright-holder>Elsevier</copyright-holder>
 <license>
 <license-p>
-<xref ref-type="fig" rid="fig1">Figure 1B</xref>
-is reproduced from
-<xref ref-type="bibr" rid="bib12">Coppin et al. (2002)</xref>
-with permission. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.
+Panel A is reprinted from
+<xref ref-type="bibr" rid="bib40">Simonetta et al., 2009</xref>
+, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.
 </license-p>
 </license>
 </permissions>
-</fig>
 ```
+
+![Figure permissions display in the PDF](../../../.gitbook/assets/screenshot-2020-07-22-at-12.59.21.png)
+
+![Figure permissions display on the eLife website](../../../.gitbook/assets/screenshot-2020-07-22-at-13.00.02.png)
 
 ### Attributions
 
@@ -189,6 +185,10 @@ This has been added as an &lt;attrib&gt; element in the xml.
 ```
 
 ## **Author response figures**
+
+After a paper has been peer reviewed, the Reviewing Editor collates the reviewers’ comments into a single letter to the corresponding author, outlining the consolidated list of recommendations in the decision letter. Corresponding authors then have the opportunity to respond to the comments in the author response letter. Authors may include figures and videos in this letter. These have the same requirements as main figures in terms of resolution, tables, and attribution information. It is preferred, but not necessary for these to have titles. If these are missing at pre-author stages, the following query should be added:
+
+* Please provide the title for this X \(figure/video/table\).
 
 ## Schematron checks
 
@@ -602,6 +602,14 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 **Warning:** _Figure citation - 'XXXXXX' - is preceded by the text 'XXXXXX' - should it be a figure supplement citation instead?_
 
+#### fig-xref-test-17
+
+**Warning:** _Figure citation - 'XXXXXX' - is followed by the text 'XXXXXX' - should this text be included in the link text too \(i.e. 'XXXXXX'\)?_
+
+#### fig-xref-test-18
+
+**Warning**: _Figure citation - 'XXXXXX' - is followed by the text 'XXXXXX' - should some or all of that text be included in the citation text?_
+
 #### ar-fig-title-test-1
 
 **Warning:** _Please query author for a XXXXXX title, and/or remove placeholder title text - XXXXXX._
@@ -700,7 +708,19 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 ## XML structure
 
-## Further reading and links
 
-[Information about creative commons](https://creativecommons.org/)
 
+## Changelog
+
+After Exeter have fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent.
+
+### dd/mm/yyyy
+
+#### Changes
+
+* 
+### dd/mm/yyyy
+
+#### Changes
+
+* 
