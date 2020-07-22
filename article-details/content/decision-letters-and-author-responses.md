@@ -38,13 +38,13 @@ Any figures are automatically included in the article in Kriya \(due to them bei
 
 ## DL workflow
 
-eLife production will be made aware of any Decision Letters being loaded by an automated email appearing in the Production Inbox. Certain actions may be required depending on whether this email indicates that the DL was posted successfully or not \(see also [**Decision letter loading**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading) for more information on how to handle this email\). 
+eLife production will be made aware of any Decision Letters being loaded by an automated email appearing in the Production Inbox. Certain actions may be required depending on whether the email indicates that the DL was posted successfully or not \(see also [**Decision letter loading**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading) for more information on how to handle this email\). In the event that a Decision Letter contains Author response videos, Editorial will inform Production prior to uploading, see [**below**](decision-letters-and-author-responses.md#dl-with-author-response-videos) on what to do when this occurs workflow. 
 
 ### The DL was posted successfully
 
-The state of the article in Kriya will determine what stage it should proceed to, or not as the case may be. See the below workflow diagram for successful Decision Letter emails.
+The state of the article in Kriya will determine what stage it should proceed to, or not as the case may be. See the below workflow diagram for successful Decision Letter emails. \[Note that [**a separate workflow**](decision-letters-and-author-responses.md#dl-with-author-response-videos) is required if a Decision Letter contains Author response videos.\]
 
-![](../../.gitbook/assets/dl-workflow.svg)
+![](../../.gitbook/assets/dl-workflow%20%281%29.svg)
 
 **`For Review`** - edit the above image [**here**](https://docs.google.com/drawings/d/16Q4mvzujVITy10nbAjmZTdH6CHO-4E4k5QBKrXolXyI/edit).
 
@@ -54,7 +54,7 @@ The email in the Production Inbox will look something like the following:
 
 ![An example of a Decision Letter failure email](../../.gitbook/assets/screenshot-2020-07-20-at-17.26.28.png)
 
-There are numerous reasons why a Decision Letter might fail 
+There are numerous reasons why a Decision Letter might fail.
 
 ### DL with Author response videos
 
