@@ -59,21 +59,32 @@ The default fields in Kriya will need to be altered to include the following inf
 * Year - the year of the latest commit when the repository is forked.
 * Software title - for GitHub references, this is the name of the repository 
 * Source - GitHub
-* Software version - for GitHub references, this is the latest commit number
+* Software version - for GitHub references, this is the ID of the latest commit number
 * Website - This should be a link to the original \(not the forked\) repository
+
+![The software version for GitHub references is the unique ID for the latest commit number](../../../.gitbook/assets/screenshot-2020-07-21-at-10.13.42%20%281%29.png)
 
 An example of correctly entered fields for a GitHub repository reference is given below:
 
 | Fields | Values |
 | :--- | :--- |
-| Author | Deverett B |
-| Year | 2018 |
-| Software title | accumulating\_puffs |
+| Author | Tindale LC |
+| Author | Stockdale JE |
+| Author | Coombe M |
+| Author | Garlock E |
+| Author | Lau WYV |
+| Author | Saraswat M |
+| Author | Zhang L |
+| Author | Chen D |
+| Author | Wallinga J |
+| Author | Colijn CC |
+| Year | 2020 |
+| Software title | Analysis of novel Coronavirus Disease \(COVID-19\) Singapore and Tianjin outbreak clusters |
 | Software name | GitHub |
-| Software version | 71 |
-| Website | https://www.github.com/wanglabprinceton/accumulating\_puffs |
+| Software version | 9e78826 |
+| Website | https://github.com/carolinecolijn/ClustersCOVID19 |
 
-Guidance on what information should be included in a software reference can sometimes be found on the software website. For example, for R references, the developers provide the [following information](https://cran.r-project.org/doc/FAQ/R-FAQ.html):
+Guidance on what information should be included in a software reference can sometimes be found on the software website. For example, for R references, the developers provide the [**following information**](https://cran.r-project.org/doc/FAQ/R-FAQ.html):
 
 ![](../../../.gitbook/assets/screenshot-2020-05-06-at-13.05.57.png)
 
@@ -497,5 +508,9 @@ Zenodo
 
 * Updated guidance on when to add software references \(if the authors have provided the RRID for a software, this does not need to be added as a software reference\).
 
+### 22/07/2020
 
+#### Changes
+
+* Updated guidance on what to use as version number for GitHub references.
 
