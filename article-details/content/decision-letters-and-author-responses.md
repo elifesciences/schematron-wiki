@@ -56,7 +56,7 @@ The email in the Production Inbox will look something like the following:
 
 There are numerous reasons why a Decision Letter might fail 
 
-
+### DL with Author response videos
 
 ## Schematron checks
 
@@ -104,7 +104,7 @@ The following tests are run on Decision Letters and Author responses.
 * The text 'The reviewers have opted to remain anonymous' or 'The reviewer has opted to remain anonymous' is not present in the decision letter
 * There is no link to Review commons \([https://www.reviewcommons.org/](https://www.reviewcommons.org/)\).
 
-Every Decision letter should have at least 1 reviewer, unless the reviewers opted to be anonymous, or if the paper was reviewed via Review commons. If this warning fires, Exeter should inform eLife Production. eLife Production should query the eLife Editorial team, asking whether Reviewers need to be included and if so, what their details are \(name and optional affiliation\). If this information has been provided by Editorial, then these details will need to be added by Exeter.
+Every Decision letter should have at least 1 reviewer, unless the reviewers opted to be anonymous, or if the paper was reviewed via Review commons. If this warning fires, Exeter should inform eLife Production. eLife Production should query the eLife Editorial team, asking whether Reviewers need to be included and if so, what their details are \(name and optional affiliation\). If this information has been provided by Editorial, then these details will need to be added in Kriya.
 
 #### dec-letter-editor-test-1
 
@@ -112,17 +112,11 @@ Every Decision letter should have at least 1 reviewer, unless the reviewers opte
 
 **Action**: If this warning fires, it means that there is no Reviewing Editor in the details for the Decision letter. Exeter should checking the eJP output and if this information was not included there, then inform the eLife Production team. The eLife production team should check the article in eJP \(it might be that the editor details were added subsequent to the article being exported to Kriya\). If the information is not available in eJP, then this should be queried with the eLife Editorial team in order to get the details for the the Reviewing Editor \(name and affiliation - both are mandatory\). Note that this test is a warning \(instead of an error\) for the purposes of dealing with old eLife content - if it fires in live content, it should _**always**_ be resolved prior to publication.
 
-#### dec-letter-editor-test-2
-
-**Warning**: _First contrib-group in decision letter contains a contrib which is not marked up as an editor \(contrib\[@contrib-type='editor'\]\)._
-
-**Action**:
-
 #### dec-letter-editor-test-3
 
 **Error**: _Editor in decision letter front-stub must have the role 'Reviewing Editor' or 'Senior and Reviewing Editor'. XXXXXX has 'XXXXXX'._
 
-**Action**: 
+**Action**: If this warning fires, it means that
 
 #### dec-letter-editor-test-6
 
@@ -771,6 +765,12 @@ Every Decision letter should have at least 1 reviewer, unless the reviewers opte
 #### dec-letter-reply-test-4
 
 **Error**: _sub-article contain one and only one body._
+
+**Action**: 
+
+#### dec-letter-editor-test-2
+
+**Warning**: _First contrib-group in decision letter contains a contrib which is not marked up as an editor \(contrib\[@contrib-type='editor'\]\)._
 
 **Action**: 
 
