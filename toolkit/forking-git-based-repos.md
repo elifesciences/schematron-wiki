@@ -289,5 +289,11 @@ The following tests relate to software that may need to be forked.
 
 * Updated screenshot of repository license with new Github website style
 
+### 22/07/2020
+
+#### Changes
+
+* Updated guidance on importing code from other repositories
+
 
 
