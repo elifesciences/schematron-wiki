@@ -45,7 +45,7 @@ Where the optional information is available, this should also be added in.
 
 If the authors have provided the RRID for a software, this does not need to be added as a software reference. Otherwise, if any of the mandatory information for a reference cannot easily be found from what the authors have provided in text, please leave the following author query, deleting as appropriate the information that has already been provided:
 
-* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list. Alternatively, please provide the RRID for this software.
+* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list. Alternatively, please provide the RRID and version number for this software.
 
 ## How to add a software reference
 
@@ -128,7 +128,7 @@ The citation can then be updated as below, removing the version details:
 
 Any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference \(unless the authors have already included RRIDs\). Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [**FAIR principles**](https://peerj.com/articles/cs-86/). Please note, this only needs to be done if the software is not already in the reference list. If any of the mandatory information required for a software reference is missing, please leave the following author query:
 
-* eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list. Alternatively, please provide the RRID for this software.
+* eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list. Alternatively, please provide the RRID and version number for this software.
 
 ![All the software here needs to be added as software references and cited properly](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17.png)
 
