@@ -44,7 +44,7 @@ eLife production will be made aware of any Decision Letters being loaded by an a
 
 The state of the article in Kriya will determine what stage it should proceed to, or not as the case may be. See the below workflow diagram for successful Decision Letter emails. \[Note that [**a separate workflow**](decision-letters-and-author-responses.md#dl-with-author-response-videos) is required if a Decision Letter contains Author response videos.\]
 
-![](../../.gitbook/assets/dl-workflow%20%281%29.svg)
+![https://docs.google.com/drawings/d/16Q4mvzujVITy10nbAjmZTdH6CHO-4E4k5QBKrXolXyI/edit](../../.gitbook/assets/dl-workflow%20%281%29.svg)
 
 **`For Review`** - edit the above image [**here**](https://docs.google.com/drawings/d/16Q4mvzujVITy10nbAjmZTdH6CHO-4E4k5QBKrXolXyI/edit).
 
@@ -57,6 +57,8 @@ The email in the Production Inbox will look something like the following:
 There are numerous reasons why a Decision Letter might fail.
 
 ### DL with Author response videos
+
+Videos need to manually uploaded by Exeter to the Glencoe FTP in order for them to display in the proofing system, and on the website when published. This means that the normal workflow cannot be followed, as it requires a manual action on Exeter's part.
 
 ## Schematron checks
 
@@ -116,13 +118,13 @@ Every Decision letter should have at least 1 reviewer, unless the reviewers opte
 
 **Error**: _Editor in decision letter front-stub must have the role 'Reviewing Editor' or 'Senior and Reviewing Editor'. XXXXXX has 'XXXXXX'._
 
-**Action**: If this warning fires, it means that
+**Action**: If this warning fires, it means that the Editor details are incorrect in the Decision letter. An Editor must have a role which is either Reviewing Editor' or 'Senior and Reviewing Editor'. Exeter will have to correct this.
 
-#### dec-letter-editor-test-6
+#### ~~dec-letter-editor-test-6~~
 
-**Error**: _Senior Editor in decision letter front-stub must have the role 'Senior Editor' or 'Senior and Reviewing Editor'. XXXXXX has 'XXXXXX'._
+~~**Error**: _Senior Editor in decision letter front-stub must have the role 'Senior Editor' or 'Senior and Reviewing Editor'. XXXXXX has 'XXXXXX'._~~
 
-**Action**: 
+~~**Action**:~~ 
 
 #### dec-letter-reviewer-test-1
 
