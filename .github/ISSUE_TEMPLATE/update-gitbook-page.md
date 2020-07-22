@@ -28,4 +28,5 @@ assignees: ''
 ### Definition of done
 - [ ] Updates completed
 - [ ] Team reviewed and approved page?
+- [ ] Add changelog to page
 - [ ] Assign Fred to update the Schematron
