@@ -10,22 +10,22 @@ Any code that has been specifically written as part of the work reported in an e
 
 It is usually possible to work out whether a repository needs to be forked based on the context:
 
-* Code mentioned in the Data Availability Statement \(e.g. “All analysis code has been made available on GitHub \([https://github.com/learning-memory-and-decision-lab/NassarBrucknerFrank\_eLife\_2019](https://github.com/learning-memory-and-decision-lab/NassarBrucknerFrank_eLife_2019)\).”\) should usually be forked.
+* Code mentioned in the Data Availability Statement \(e.g. “All analysis code has been made available on GitHub \([**https://github.com/learning-memory-and-decision-lab/NassarBrucknerFrank\_eLife\_2019**](https://github.com/learning-memory-and-decision-lab/NassarBrucknerFrank_eLife_2019)\).”\) should usually be forked.
 * If one of the authors of the paper also authored the code, this usually indicates that it was generated for the work and should be forked.
-* Code that is mentioned in the text only and referred to as being a ‘package’ is unlikely to have been created for this specific work and therefore doesn’t need to be forked \(unless it is a custom package\). Adding a [software reference](../article-details/content/references/software-references.md#how-to-add-a-software-reference) would be more appropriate in these cases. See [below](forking-git-based-repos.md#examples-of-code-that-doesnt-need-to-be-forked) for examples of this.
+* Code that is mentioned in the text only and referred to as being a ‘package’ is unlikely to have been created for this specific work and therefore doesn’t need to be forked \(unless it is a custom package\). Adding a [**software reference**](../article-details/content/references/software-references.md#how-to-add-a-software-reference) would be more appropriate in these cases. See [**below**](forking-git-based-repos.md#examples-of-code-that-doesnt-need-to-be-forked) for examples of this.
 * Any references to custom code or software usually indicates it needs to be forked. 
 * If the repository is years old, this usually indicates that the code should not be forked as it probably was not created specifically for the paper.
-* Code described in Tools and Resources articles usually does not need to be forked as there will be no results to replicate using it. However, there are some cases where this will be required \([see below](forking-git-based-repos.md#when-to-fork-code-in-tools-and-resources-papers)\). 
+* Code described in Tools and Resources articles usually does not need to be forked as there will be no results to replicate using it. However, there are some cases where this will be required \([**see below**](forking-git-based-repos.md#when-to-fork-code-in-tools-and-resources-papers)\). 
 
 ## Checklist for forking repositories
 
-1. [Make sure the repository has an open-source license](forking-git-based-repos.md#checking-licenses)
-2. [Fork the code to elife-sciences-publications \(import code if needed\)](forking-git-based-repos.md#fork-the-code-to-elife-sciences-publications)
-3. [Add the new URL to the article text to indicate where the copy is archived](forking-git-based-repos.md#add-the-new-url-to-the-article-text-to-indicate-where-the-copy-is-archived)
-4. [Add a software reference for the repository](../article-details/content/references/software-references.md#how-to-add-a-software-reference)
-5. [Add an author query to indicate the repo has been forked and text has been added](forking-git-based-repos.md#add-an-author-query-to-indicate-the-repo-has-been-forked)
-6. [Add the eLife paper reference to the README of the forked repository](forking-git-based-repos.md#add-the-elife-paper-reference-to-the-readme-of-the-forked-repository)
-7. [Archive the forked repository](forking-git-based-repos.md#archiving-the-forked-repository)
+1. [**Make sure the repository has an open-source license**](forking-git-based-repos.md#checking-licenses)\*\*\*\*
+2. \*\*\*\*[**Fork the code to elife-sciences-publications \(import code if needed\)**](forking-git-based-repos.md#fork-the-code-to-elife-sciences-publications)\*\*\*\*
+3. \*\*\*\*[**Add the new URL to the article text to indicate where the copy is archived**](forking-git-based-repos.md#add-the-new-url-to-the-article-text-to-indicate-where-the-copy-is-archived)\*\*\*\*
+4. \*\*\*\*[**Add a software reference for the repository**](../article-details/content/references/software-references.md#how-to-add-a-software-reference)\*\*\*\*
+5. \*\*\*\*[**Add an author query to indicate the repo has been forked and text has been added**](forking-git-based-repos.md#add-an-author-query-to-indicate-the-repo-has-been-forked)\*\*\*\*
+6. \*\*\*\*[**Add the eLife paper reference to the README of the forked repository**](forking-git-based-repos.md#add-the-elife-paper-reference-to-the-readme-of-the-forked-repository)\*\*\*\*
+7. \*\*\*\*[**Archive the forked repository**](forking-git-based-repos.md#archiving-the-forked-repository)\*\*\*\*
 
 ## Make sure the repository has an open source license
 
@@ -41,15 +41,15 @@ If the license allows free use, modifications and distribution, it is an open-so
 
 The following are all commonly used open-source licenses:
 
-* [Apache License 2.0](https://opensource.org/licenses/Apache-2.0)
-* [BSD 3-Clause "New" or "Revised" license](https://opensource.org/licenses/BSD-3-Clause)
-* [BSD 2-Clause "Simplified" or "FreeBSD" license](https://opensource.org/licenses/BSD-2-Clause)
-* [GNU General Public License \(GPL\)](https://opensource.org/licenses/gpl-license)
-* [GNU Library or "Lesser" General Public License \(LGPL\)](https://opensource.org/licenses/lgpl-license)
-* [MIT license](https://opensource.org/licenses/MIT)
-* [Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)
-* [Common Development and Distribution License](https://opensource.org/licenses/CDDL-1.0)
-* [Eclipse Public License version 2.0](https://opensource.org/licenses/EPL-2.0)
+* \*\*\*\*[**Apache License 2.0**](https://opensource.org/licenses/Apache-2.0)\*\*\*\*
+* \*\*\*\*[**BSD 3-Clause "New" or "Revised" license**](https://opensource.org/licenses/BSD-3-Clause)\*\*\*\*
+* \*\*\*\*[**BSD 2-Clause "Simplified" or "FreeBSD" license**](https://opensource.org/licenses/BSD-2-Clause)\*\*\*\*
+* \*\*\*\*[**GNU General Public License \(GPL\)**](https://opensource.org/licenses/gpl-license)\*\*\*\*
+* \*\*\*\*[**GNU Library or "Lesser" General Public License \(LGPL\)**](https://opensource.org/licenses/lgpl-license)\*\*\*\*
+* \*\*\*\*[**MIT license**](https://opensource.org/licenses/MIT)\*\*\*\*
+* \*\*\*\*[**Mozilla Public License 2.0**](https://opensource.org/licenses/MPL-2.0)\*\*\*\*
+* \*\*\*\*[**Common Development and Distribution License**](https://opensource.org/licenses/CDDL-1.0)\*\*\*\*
+* \*\*\*\*[**Eclipse Public License version 2.0**](https://opensource.org/licenses/EPL-2.0)\*\*\*\*
 
 If there is no license, please add the following author query \(if the code is not on GitHub, please remove the text "...and instructions on how to add a license to GitHub…"\):
 
@@ -171,7 +171,7 @@ If someone else’s code has been modified for an eLife paper, this code should 
 
 ## How to delete accidentally forked repositories
 
-If a repository is forked in error \(because the code was not generated specifically for the manuscript - see examples [here](../article-details/content/funding-information.md#examples-of-when-to-ignore-pay-attention-to-the-schematron-messages)\), it should be deleted. Click on the slides below for instructions on how to do this.
+If a repository is forked in error \(because the code was not generated specifically for the manuscript - see examples [**here**](../article-details/content/funding-information.md#examples-of-when-to-ignore-pay-attention-to-the-schematron-messages)\), it should be deleted. Click on the slides below for instructions on how to do this.
 
 {% embed url="https://docs.google.com/presentation/d/e/2PACX-1vT0tIAm79w5LWpkcGGFnYfLwIWmor7GJUBimkaeTaCnnaOueg7dzZ0ozYYjPrS-DWOgvpkDKGH7kxMU/pub?start=false&loop=false&delayms=3000" %}
 
@@ -253,7 +253,7 @@ The following tests relate to software that may need to be forked.
 
 **Warning**: _Article possibly contains code that needs forking. Search - XXXXXX_
 
-**Action**: This warning will appear if the following words are present: github, gitlab, codeplex, sourceforge, bitbucket or assembla. 'XXXXXX' in this warning will be one of these words. If this warning fires, it may indicate there is code which needs to be forked or imported. [See above](forking-git-based-repos.md#examples-of-code-that-doesnt-need-to-be-forked) to determine whether this is necessary. If the code was specifically written as part of the work reported, it should be forked and a software reference should be added \([see above](forking-git-based-repos.md#checklist-for-forking-repositories)\). If it is previously published code please query the author to provide full citation details:
+**Action**: This warning will appear if the following words are present: github, gitlab, codeplex, sourceforge, bitbucket or assembla. 'XXXXXX' in this warning will be one of these words. If this warning fires, it may indicate there is code which needs to be forked or imported. [See above](forking-git-based-repos.md#examples-of-code-that-doesnt-need-to-be-forked) to determine whether this is necessary. If the code was specifically written as part of the work reported, it should be forked and a software reference should be added \([**see above**](forking-git-based-repos.md#checklist-for-forking-repositories)\). If it is previously published code please query the author to provide full citation details:
 
 * eLife follows the FAIR principles for software and data citation. Please provide the full bibliographic details \(author\(s\), year, full title, publisher, version, URL\) for this software so that it can be added to the reference list. 
 
