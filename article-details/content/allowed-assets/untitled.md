@@ -4,6 +4,10 @@ description: How to check figures and figure supplements
 
 # Figures and figure supplements
 
+{% hint style="info" %}
+For changelog, click [here](untitled.md#changelog).
+{% endhint %}
+
 Most scientific articles include figures and figure supplements to present data. eLife figures can also have [**various assets**](./) ****related to them. All figures and figure supplements must have titles, and usually also have captions \(although this is not mandatory\).
 
 ## What needs to be checked?
@@ -228,7 +232,7 @@ _D1_
 
 #### fig-group-child-test-1
 
-**Error:** _is not allowed as a child of fig-group._
+**Error:** _XXXXXX_ _is not allowed as a child of fig-group._
 
 #### fig-group-child-test-2
 
@@ -240,7 +244,11 @@ _D1_
 
 **Error:** _fig must have a @position._
 
-**Action:** This error will appear if a figure or figure supplement does not have a position in the XML. 
+**Action:** This error will appear if a figure or figure supplement does not have a position in the XML. This may be because the figure has not been cited in the text. Check the article for any unlinked citations of the figure and link these \(unless the citations are to figures from another paper - see [**here**](untitled.md#in-text-citations) for more information\). If the figure has not been cited in the text at all, please leave the following query: 
+
+* Please provide an in-text citation for this figure.
+
+If the figure has been cited in the text and this error still appears, Exeter will need to fix this.
 
 #### fig-test-3
 
@@ -278,15 +286,21 @@ If the caption element is missing in the XML, compare with the original submitte
 
 **Warning:** _XXXXXX does not have a title._
 
-\_\_
+**Action:** This warning will appear at the pre-author stages if a figure has no title. Double-check the submitted manuscript for the figure title. If this has not been provided, the following author query should be left:
+
+* Please provide the title for this figure.
 
 #### final-fig-test-5
 
 **Error:** _fig caption must have a title._
 
+**Action:** This warning will appear at the post-author stages if a figure has no title. Double-check the submitted manuscript for the figure title. If this has not been provided, the authors will need to be asked for this.
+
 #### fig-test-6
 
 **Warning:** _Figure does not have a legend, which is very unorthadox. Is this correct?_
+
+**Action:** This warning will appear if a figure has no caption. Double-check the submitted manuscript for the caption and add it in if it is missing. If no caption was provided in the manuscript, this is ok to leave. 
 
 #### pre-fig-test-7
 
@@ -303,26 +317,6 @@ If the caption element is missing in the XML, compare with the original submitte
 
 **Action:** This warning will appear at the post-author stages if no file has been provided for a figure or figure supplement. The authors will need to be asked for the file. 
 
-#### ar-fig-test-2
-
-**Error:** _Author Response fig must have a label._
-
-#### pre-ar-fig-test-3
-
-**Warning:** _Author Response fig does not have graphic. Ensure author query is added asking for file._
-
-#### final-ar-fig-test-3
-
-**Error:** _Author Response fig must have a graphic._
-
-#### pre-ar-fig-position-test
-
-**Warning:** _XXXXXX does not appear in sequence which is likely incorrect. Relative to the other AR images it is placed in position XXXXXX._
-
-#### final-ar-fig-position-test
-
-**Error:** _XXXXXX does not appear in sequence which is incorrect. Relative to the other AR images it is placed in position XXXXXX._
-
 #### label-fig-group-conformance-1
 
 **Error:** _XXXXXX is not placed in a &lt;fig-group&gt; element, which is incorrect. Either the label needs updating, or it needs moving into the &lt;fig-group&gt;._
@@ -335,13 +329,25 @@ If the caption element is missing in the XML, compare with the original submitte
 
 **Error:** _Duplicated labels - XXXXXX is present more than once in the text._
 
+**Action:** This error will appear if multiple figures have the same label. All figures and figure supplements in research content should have distinct labels which are numbered in the order they are first cited in the text. Check the manuscript to see what the correct labels should be - Exeter will need to fix this.
+
 #### pre-fig-specific-test-2
 
 **Warning:** _XXXXXX does not appear in sequence. Relative to the other figures it is placed in position XXXXXX. Please query this with the author._
 
+**Action:** Figures are automatically placed directly after their first citation. ****This warning usually appears if the authors have cited figures out of order. For example, if they refer to Figure 3 before Figure 2, this results in Figure 3 being placed before Figure 2. Unlink the citation that is out of order and leave the following query for the author:
+
+* This citation is out of sequence with the other figure citations and has therefore been left unlinked \(figure placement is determined by first live citation\). Please confirm this is acceptable.
+
+If multiple figures are out of sequence, leave the following query for the author instead:
+
+* Our system numbers figures based on when they are first cited. Please conform these figures can be renumbered or provide in-sequence citations for these.
+
 #### final-fig-specific-test-2
 
 **Error:** _XXXXXX does not appear in sequence which is incorrect. Relative to the other figures it is placed in position XXXXXX._
+
+**Action:** Figures are automatically placed directly after their first citation. ****This error usually appears if the authors have cited figures out of order. For example, if they refer to Figure 3 before Figure 2, this results in Figure 3 being placed before Figure 2. The authors will need to be asked to provide in-sequence citations or confirm the figures can be renumbered. If the citations are not out of order, Exeter will need to fix this.
 
 #### fig-specific-test-3
 
@@ -369,17 +375,21 @@ If the caption element is missing in the XML, compare with the original submitte
 
 **Action:** This will appear in feature content if a main figure has no in-text citations. Check the submitted manuscript to see if this should be the case. If the original version had an in-text citation for the figure, double-check with Features whether they meant to remove this. If so, this warning can be ignored - otherwise add the in-text citation. If the original version didn't have an in-text citation for the figure, this warning can be ignored.
 
-#### fig-specific-test-4
-
-**Warning:** _XXXXXX is immediately followed by a display formula, and preceded by a paragraph which does not end with punctuation. Should it should be moved after the display formula or after the para following the display formula?_
-
 #### fig-specific-test-5
 
 **Warning:** _XXXXXX is immediately followed by a display formula, and preceded by a paragraph which does not end with punctuation. Should it should be moved after the display formula or after the para following the display formula?_
 
-#### fig-label-test-1
+**Action:** As figures are automatically placed after their first citation, this can sometimes result in figures being placed in the middle of equations, which breaks the flow of the text. Check whether this is the case - if so, the figure will need to be moved to after the display formula, or after the next paragraph. For example, in 55217, equation 12 should appear after the paragraph below. Instead, Figure 12 has been placed here, which breaks the flow of the text. Figure 12 should appear after equation 12.
 
-**Error:** _fig label must be in the format 'Figure 0.', 'Chemical structure 0.', or 'Scheme 0'._
+![](../../../.gitbook/assets/screenshot-2020-07-22-at-16.22.03.png)
+
+![](../../../.gitbook/assets/screenshot-2020-07-22-at-16.22.15.png)
+
+#### fig-specific-test-6
+
+**Warning:** _XXXXXX is immediately followed by a display formula, and preceded by a paragraph which does not end with punctuation. Should it should be moved after the display formula or after the para following the display formula?_
+
+**Action:** As figures are automatically placed after their first citation, this can sometimes result in figures being placed in the middle of equations, which breaks the flow of the text. Check whether this is the case - if so, the figure will need to be moved to after the display formula, or after the next paragraph. See fig-specific-test-5 for a similar case.
 
 #### fig-sup-test-2
 
@@ -400,6 +410,34 @@ If the caption element is missing in the XML, compare with the original submitte
 #### fig-sup-test-6
 
 **Error:** _XXXXXX label ends with XXXXXX, but the id \(XXXXXX\) ends with XXXXXX, so one must be incorrect._
+
+#### ar-fig-test-2
+
+**Error:** _Author Response fig must have a label._
+
+**Action:** Author response images must have the label 'Author response image X'. This error will appear if an author response image does not have a label and will need to be corrected by Exeter.
+
+#### pre-ar-fig-test-3
+
+**Warning:** _Author Response fig does not have graphic. Ensure author query is added asking for file._
+
+**Action:** This warning will appear at the pre-author stages if no file has been provided for an author response image. Production will need to be queried to check the AWS bucket to see if this was provided in the decision letter, and will send the image to Exeter if so. If it wasn't, please leave the following query.
+
+* Please provide the image file for this figure. \(need to add this query?\)
+
+#### final-ar-fig-test-3
+
+**Error:** _Author Response fig must have a graphic._
+
+**Action:** This error will appear at the post-author stages if no file has been provided for an author response image. Check the AWS bucket to see if this was provided in the decision letter and send the image to Exeter to replace if so. If it wasn't, editorial will need to be asked for this.
+
+#### pre-ar-fig-position-test
+
+**Warning:** _XXXXXX does not appear in sequence which is likely incorrect. Relative to the other AR images it is placed in position XXXXXX._
+
+#### final-ar-fig-position-test
+
+**Error:** _XXXXXX does not appear in sequence which is incorrect. Relative to the other AR images it is placed in position XXXXXX._
 
 #### resp-fig-test-2
 
@@ -504,6 +542,12 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 #### fig-specific-test-1
 
 **Error:** _fig label contains 'supplement', but it does not have a @specific-use='child-fig'. If it is a figure supplement it needs the attribute, if it isn't then it cannot contain 'supplement' in the label._
+
+#### fig-label-test-1
+
+**Error:** _fig label must be in the format 'Figure 0.', 'Chemical structure 0.', or 'Scheme 0'._
+
+**Action:** This error will fire if a figure has a label other than Figure X, Chemical structure X or Scheme X. Exeter will need to fix this.
 
 #### fig-sup-test-1
 
