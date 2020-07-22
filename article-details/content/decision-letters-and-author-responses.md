@@ -68,49 +68,49 @@ The following tests are run on Decision Letters and Author responses.
 
 **Error**: _title-group must contain article-title which contains 'Decision letter'. Currently it is XXXXXX._
 
-**Action**: 
+**Action**: This error will fire if the Decision letter does not have a title which is 'Decision letter'. It means something has gone wrong in the processing of the Decision letter, and will have to be fixed by Exeter.
 
 #### reply-title-test
 
 **Error**: _title-group must contain article-title which contains 'Author response'. Currently it is XXXXXX._
 
-**Action**: 
-
-#### dec-letter-reply-test-1
-
-**Error**: _1st sub-article must be the decision letter. 2nd sub-article must be the author response._
-
-**Action**: 
+**Action**: This error will fire if the Author response does not have a title which is 'Author response'. It means something has gone wrong in the processing of the Author response, and will have to be fixed by Exeter.
 
 #### dec-letter-reply-test-5
 
 **Error**: _XXXXXX paragraph contains what looks like pseudo-code - XXXXXX._
 
-**Action**: 
+**Action**: This will fire is a paragraph in a Decision letter or Author response contains the text `</author response` or similar. This type of pseudo-code is included in the original Word document by the eLife editorial team as flags for the decision-letter-parser to correctly recognise what a certain object in the document should be captured as. If this text is in the JATS, however, that means that the content has not been correctly recognised by the parser. Exeter should flag this error with the eLife production team. The eLife production team should check the original word file, in order to determine how this should have been captured, and act accordingly \(it may be that you just have to remove the superfluous text, or it may be the case that an author response image or table needs to be added, in which case Exeter will have to make this change\). It is also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reply-test-6
 
 **Warning**: _XXXXXX paragraph contains what might be pseudo-code or tags which should likely be removed - XXXXXX._
 
-**Action**: 
+**Action**: This will fire is a paragraph in a Decision letter or Author response contains text such as `<italic>` or `</author response image title>` or  similar. This type of pseudo-code is included in the original Word document by the eLife editorial team as flags for the decision-letter-parser to correctly recognise what a certain object in the document should be captured as. If this text is in the JATS, however, that means that the content has not been correctly recognised by the parser. Exeter should flag this error with the eLife production team. The eLife production team should check the original word file, in order to determine how this should have been captured, and act accordingly \(it may be that you just have to remove the superfluous text, or it may be the case that an author response image or table needs to be added, in which case Exeter will have to make this change\). It is also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-front-test-1
 
 **Error**: _sub-article front-stub must contain article-id\[@pub-id-type='doi'\]._
 
-**Action**: 
+**Action**: This will fire if a Decision letter or Author response does not contain a doi. Exeter will need to correct this problem when it arises. 
 
 #### dec-letter-front-test-4
 
 **Warning**: _decision letter front-stub has only 1 contrib-group element. Is this correct? i.e. were all of the reviewers \(aside from the reviewing editor\) anonymous? The text 'The reviewers have opted to remain anonymous' or 'The reviewer has opted to remain anonymous' is not present and there is no link to Review commons in the decision letter._
 
-**Action**: 
+**Action**: This will fire if all of the following conditions are met:
+
+* There are no reviewers in the information for the Decision letter.
+* The text 'The reviewers have opted to remain anonymous' or 'The reviewer has opted to remain anonymous' is not present in the decision letter
+* There is no link to Review commons \([https://www.reviewcommons.org/](https://www.reviewcommons.org/)\).
+
+Every Decision letter should have at least 1 reviewer, unless the reviewers opted to be anonymous, or if the paper was reviewed via Review commons. If this warning fires, Exeter should inform eLife Production. eLife Production should query the eLife Editorial team, asking whether Reviewers need to be included and if so, what their details are \(name and optional affiliation\). If this information has been provided by Editorial, then these details will need to be added by Exeter.
 
 #### dec-letter-editor-test-1
 
 **Warning**: _First contrib-group in decision letter must contain 1 and only 1 editor \(contrib\[@contrib-type='editor'\]\)._
 
-**Action**: 
+**Action**: If this warning fires, it means that there is no Reviewing Editor in the details for the Decision letter. Exeter should checking the eJP output and if this information was not included there, then inform the eLife Production team. The eLife production team should check the article in eJP \(it might be that the editor details were added subsequent to the article being exported to Kriya\). If the information is not available in eJP, then this should be queried with the eLife Editorial team in order to get the details for the the Reviewing Editor \(name and affiliation - both are mandatory\). Note that this test is a warning \(instead of an error\) for the purposes of dealing with old eLife content - if it fires in live content, it should _**always**_ be resolved prior to publication.
 
 #### dec-letter-editor-test-2
 
@@ -749,6 +749,12 @@ The following tests are run on Decision Letters and Author responses.
 **Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¿' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ÿ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
 
 ### **XML structure checks**
+
+#### dec-letter-reply-test-1
+
+**Error**: _1st sub-article must be the decision letter. 2nd sub-article must be the author response._
+
+**Action**: 
 
 #### dec-letter-reply-test-2
 
