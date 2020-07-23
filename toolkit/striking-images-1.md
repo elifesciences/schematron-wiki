@@ -59,7 +59,7 @@ If the article has been exported from eJP and is in Kriya, upload the image via 
 
 ### Uploading via Kriya 
 
-To attach a striking image to an article, download the image provided by the author, go to the article in the Kriya dashboard and click on 'Striking image'. 
+To upload a striking image to an article, download the image provided by the author, go to the article in the Kriya dashboard and click on 'Striking image'. 
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-12.03.26%20%283%29.png)
 
@@ -69,7 +69,7 @@ When the uploader appears, select the file and then click on 'Update'. Do not ad
 
 It is worth noting that you are unable to select multiple images to upload through the 'Select file' icon. If an author has provided more than one image, upload them successively within the **same** session. Successive upload sessions overwrite what was previously uploaded. Authors who provide more than one image are giving us more choice of images to use. 
 
-![You cannot select multiple images like this. You need to select them individually within the same session. ](../.gitbook/assets/screen-shot-2020-07-16-at-16.00.33.png)
+![You cannot select multiple images like this. ](../.gitbook/assets/screen-shot-2020-07-16-at-16.00.33.png)
 
 ![](../.gitbook/assets/screen-shot-2020-07-16-at-15.59.48.png)
 
@@ -87,7 +87,7 @@ Once you have access to this, you will start at the overview of all of the main 
 
 ![](../.gitbook/assets/screen-shot-2020-07-16-at-13.51.09.png)
 
-You will now see all of the striking images that have been uploaded, organised in their own separate folders. For ease, you can search if an article has a striking image the 'Search' bar and typing in the MS number. 
+You will now see all of the striking images that have been uploaded, organised in their own separate folders. For ease, you can search if an article has a striking image using the 'Search' bar and typing in the MS number. 
 
 ![](../.gitbook/assets/screen-shot-2020-07-16-at-13.51.28.png)
 
@@ -95,7 +95,7 @@ There are times when you may need to access the striking images bucket directly,
 
 #### Creating a new folder 
 
-It is typically easier, if you can, to use the Kriya dashboard as it sets up the initial folder and creates the .txt files automatically. In certain situations, mentioned above, you can manually create folders for an article's striking image. 
+It is typically easier, if you can, to use the Kriya dashboard as it sets up the initial folder and creates the .txt files automatically. In certain situations, mentioned above, you may need to manually create a folder for an article's striking image. 
 
 To do this, you need to go to the 'elife-striking-images' bucket and create a new folder. You can either do this through the 'File' menu at the top left hand corner of your screen or right click to bring up this option on the 'elife-striking-images' bucket overview. Click 'New Folder...'.
 
@@ -113,13 +113,13 @@ You should open your newly created folder and you will be presented with a blank
 
 ![](../.gitbook/assets/screen-shot-2020-07-16-at-14.46.00.png)
 
-Once it has finished uploading, you will need to right click on the file to rename it. Make sure the striking image is titled appropriately - e.g. '58066-a\_striking\_image', '58066-b\_striking\_image', etc. File names created with the -a suffix and each additional image will work its way along the alphabet. If the authors have provided a title, caption, or attribution information, enter this into a .txt file and upload this into the bucket with the same title as the image \(i.e. '58066-a\_striking\_image'\). If they have not provided this information, you do not need to include a .txt file. 
+Once it has finished uploading, you will need to right click on the file to rename it. Make sure the striking image is titled following this format - '58066-a\_striking\_image', '58066-b\_striking\_image', etc. File names are created with the -a suffix and each additional image will work its way along the alphabet. If the authors have provided a title, caption, or attribution information, enter this into a .txt file and upload this into the bucket with the same title as the image \(i.e. '58066-a\_striking\_image'\). If they have not provided this information, you do not need to include a .txt file. 
 
 ![](../.gitbook/assets/screen-shot-2020-07-16-at-14.47.48.png)
 
-#### There is an existing striking image uploaded 
+#### Existing striking images
 
-If an article already has a striking image but the authors would like to add another, and it has already been exported to Kriya, the image will need to be uploaded straight to the striking image bucket. To do this, open the 'elife-striking-images' bucket in Cyberduck \(or similar program\) and search for the MS number. 
+If an article already has a striking image and it has already been exported to Kriya, but the authors would like to add another, the image will need to be uploaded straight to the striking image bucket. To do this, open the 'elife-striking-images' bucket in Cyberduck \(or similar program\) and search for the MS number. 
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-15.17.00%20%281%29.png)
 
