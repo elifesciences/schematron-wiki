@@ -44,6 +44,7 @@
 
 * [Interacting with authors](toolkit/interacting-with-authors.md)
 * [Managing the production inbox](toolkit/managing-the-production-inbox.md)
+* [Fixing Crossref/Dryad failures](toolkit/fixing-crossref-dryad-failures.md)
 * [Striking images](toolkit/striking-images-1.md)
 * [Toggl](toolkit/kriya.md)
 * [When and how to fork repositories](toolkit/forking-git-based-repos.md)
@@ -54,5 +55,4 @@
 
 * [Kriya](pages-in-progress/kriya-1.md)
 * [Publish on accept protocols](pages-in-progress/publish-on-accept-protocols.md)
-* [Fixing Crossref/Dryad failures](pages-in-progress/fixing-crossref-dryad-failures.md)
 
