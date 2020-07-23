@@ -27,13 +27,13 @@ Striking images can be used in the following ways
 
 The authors are also free to use these images for their own social media and press releases and do not need to ask permission for this because they fall under the CCBY license along with the rest of the content.
 
-Some authors can be confused about the intended use of their striking image. As mentioned in the previous section, other journals might include these as covers. Occasionally, eLife authors contact us expecting to see their striking image on the personalised poster which they can download from their 'The full version of your eLife article is now available' email which they receive once the article has been published. If you should need to reply to an author about this, you can find further information about the Hiver template 'Cover image response' [**here**](interacting-with-authors.md#hiver-templates). 
+Some authors can be confused about the intended use of their striking image. As mentioned in the previous section, other journals might include these as covers. Occasionally, eLife authors contact us expecting to see their striking image on the personalised poster which they can download from their 'The full version of your eLife article is now available' email they receive upon publication. If you should need to reply to an author about this, you can find further information about the Hiver template 'Cover image response' [**here**](interacting-with-authors.md#hiver-templates). 
 
 ## **Requirements** 
 
 These images should preferably be in colour, in a landscape format, and be at least 1800 x 900 pixels. Photographs, microscopy images, and illustrations work best. PNG, TIFF, or JPEG formats are preferred, and we must be able to use the image under the terms of the CC-BY license. 
 
-We assume the images provided are licensed under CC-BY and do not check this information. If there is a caption or attribution information provided with the image this should be added to the 'metacontent' when uploading via Kriya \(see [**below**](striking-images-1.md#uploading-via-kriya)\).
+We assume the images provided are licensed under CC-BY and do not check this information. If there is a caption or attribution information provided with the image this should be added to the 'metacontent' when uploading via Kriya \(see [**below**](striking-images-1.md#uploading-via-kriya)\) or in the legend field when uploading via eJP \(see [**below**](striking-images-1.md#uploading-via-ejp)\).
 
 ## Examples of suitable striking images
 
@@ -168,4 +168,20 @@ The Features team work with authors to write Digests and often, during this corr
 ![](../.gitbook/assets/screen-shot-2020-07-16-at-15.34.17.png)
 
 These images and any captions highlighted to us will need to be uploaded to the AWS bucket. Often the articles are already in Kriya so you can search the MS number on the dashboard and upload as usual. Occasionally, the author will have already sent us the striking image or uploaded it via eJP so you should download what is in the AWS bucket so that you can check the images and captions have been uploaded correctly. 
+
+
+
+## Changelog
+
+After Exeter have fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent.
+
+**dd/mm/yyyy**
+
+_Changes_
+
+**dd/mm/yyyy**
+
+_Changes_
+
+
 
