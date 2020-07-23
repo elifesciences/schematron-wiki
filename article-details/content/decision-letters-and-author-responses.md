@@ -126,29 +126,22 @@ Every Decision letter should have at least 1 reviewer, unless the reviewers opte
 
 ~~**Action**:~~ 
 
-#### dec-letter-reviewer-test-1
-
-**Error**: _Second contrib-group in decision letter must contain a reviewer \(contrib\[@contrib-type='reviewer'\]\)._
-
-**Action**: 
-
-#### dec-letter-reviewer-test-2
-
-**Error**: _Second contrib-group in decision letter contains a contrib which is not marked up as a reviewer \(contrib\[@contrib-type='reviewer'\]\)._
-
-**Action**: 
-
 #### dec-letter-reviewer-test-3
 
 **Error**: _Reviewer in decision letter front-stub must have the role 'Reviewer'. XXXXXX has 'XXXXXX'._
 
-**Action**: 
+**Action**: If this error fires, it means the content of the `<role>` element for a reviewer in the Decision letter is not 'Reviewer'. There are two possibilities:
+
+1. A reviewer simply has the wrong role provided, which needs correcting to 'Reviewer' by Exeter.
+2. A 'Reviewing Editor' or 'Senior and Reviewing Editor' has been incorrectly captured as a Reviewer \(`contrib[@contrib-type='reviewer']`\).
+
+In order to determine which of these is the case, Exeter should check the output from eJP, and eLife should check eJP itself. If it is still unclear from these details, the eLife production team should contact the editorial team in order to verify what role that contributor played, and update their details accordingly. 
 
 #### dec-letter-reviewer-test-6
 
 **Warning**: _Second contrib-group in decision letter contains more than three reviewers. Is this correct? Exeter: Please check with eLife. eLife: check eJP to ensure this is correct._
 
-**Action**: 
+**Action**: The vast majority of eLife articles will have been reviewed by three reviewers or fewer. However, occasionally, more than 3 reviewers were required for peer review \(for example, when specialists are required\). This warning will fire if there are more than 3 reviewers in the Decision letter details, and as the message suggests, Exeter should flag this with eLife Production, who should check eJP to ensure that this is correct and not a mistake. If it is unclear from eJP, then eLife Production should query the Editorial team.
 
 #### dec-letter-body-test-1
 
@@ -785,6 +778,18 @@ Every Decision letter should have at least 1 reviewer, unless the reviewers opte
 #### dec-letter-front-test-3
 
 **Error**: _decision letter front-stub contains more than 2 contrib-group elements._
+
+**Action**: 
+
+#### dec-letter-reviewer-test-1
+
+**Error**: _Second contrib-group in decision letter must contain a reviewer \(contrib\[@contrib-type='reviewer'\]\)._
+
+**Action**: If this fires, it means that there is a second `<contrib-group>` in the Decision letter `<front-stub>` element, which does not contain any reviewers. Either the second `<contrib-group>` should be removed or the reviewer information needs to be added. If the text 'The reviewers have opted to remain anonymous' or 'The reviewer has opted to remain anonymous' is present in the decision letter, or there is a link to Review commons \(https://www.reviewcommons.org/\), then the second `<contrib-group>` should be removed by Exeter. Otherwise eLife production will have to check with the Editorial team in order to determine whether this article should have reviewers or not, and add this information in Kriya or remove the second `<contrib-group>` as necessary.
+
+#### dec-letter-reviewer-test-2
+
+**Error**: _Second contrib-group in decision letter contains a contrib which is not marked up as a reviewer \(contrib\[@contrib-type='reviewer'\]\)._
 
 **Action**: 
 
