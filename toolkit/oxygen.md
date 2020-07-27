@@ -8,11 +8,11 @@ description: XML editor
 
 1. First, ensure that you have cloned a version of the [**elife Schematron**](https://github.com/elifesciences/eLife-JATS-schematron) to you local machine, in a suitable location, such as in your Documents folder.
 2. Open any XML file in Oxygen.
-3. In the toolbar, click 'Configure Validation Scenario\(s\)'
+3. In the toolbar, click 'Configure Validation Scenario\(s\)'.
 
 ![](../.gitbook/assets/screenshot-2020-07-24-at-10.21.54.png)
 
-      4. In the pop-up, click 'New'
+      4. In the pop-up, click 'New'.
 
 ![](../.gitbook/assets/screenshot-2020-07-27-at-13.50.23.png)
 
