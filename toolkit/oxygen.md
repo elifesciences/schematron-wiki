@@ -20,8 +20,6 @@ description: XML editor
 
 ![](../.gitbook/assets/screenshot-2020-07-27-at-13.51.44.png)
 
-
-
        6. For storage, tick 'Global options':
 
 ![](../.gitbook/assets/screenshot-2020-07-27-at-13.51.44%20%283%29.png)
