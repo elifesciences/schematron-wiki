@@ -68,17 +68,15 @@ You have now created a validation scenario. You can then run this scenario on nu
 
 ![](https://user-images.githubusercontent.com/43879983/87420024-6cf1af00-c5cc-11ea-9246-19d44cc67d4e.png)
 
-6. Click the folder for XSL URL, and navigate to where your local version of crossref.xsl was placed.
+6. Click the folder for XSL URL, and navigate to where your local version of `crossref.xsl` was placed.
 
 ![](https://user-images.githubusercontent.com/43879983/87420073-84c93300-c5cc-11ea-9711-0c97e54e6d63.png)
 
 7. Ensure that one of the following is selected for the 'Transformer':
 
-* Saxon-PE
+* Saxon-PE \(the most preferable option if available\)
 * Saxon-HE
 * Saxon-EE
-
-\(Saxon-PE is preferable if it is an option\)
 
 ![](https://user-images.githubusercontent.com/43879983/88308997-a9788580-cd05-11ea-9671-7df32e3ccb7c.png)
 
@@ -90,5 +88,5 @@ You have now created a validation scenario. You can then run this scenario on nu
 
 ![](https://user-images.githubusercontent.com/43879983/87420335-01f4a800-c5cd-11ea-82ca-326b09e52b8d.png)
 
-10. Click 'OK', and then click 'Save and close'
+10. Click 'OK', and then click 'Save and close'.
 
