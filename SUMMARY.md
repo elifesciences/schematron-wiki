@@ -43,6 +43,7 @@
 ## Toolkit
 
 * [Interacting with authors](toolkit/interacting-with-authors.md)
+* [Oxygen](toolkit/oxygen.md)
 * [Managing the production inbox](toolkit/managing-the-production-inbox.md)
 * [Fixing Crossref/Dryad failures](toolkit/fixing-crossref-dryad-failures.md)
 * [Striking images](toolkit/striking-images-1.md)
