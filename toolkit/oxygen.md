@@ -54,9 +54,9 @@ You have now created a validation scenario. You can then run this scenario on nu
 
 {% file src="../.gitbook/assets/crossref.xsl.zip" %}
 
-2. Open any XML file in oXygen.
+2. Open any XML file in Oxygen.
 
-3. In oXygen's top toolbar, click 'Configure Transformation Scenarios' \(or press cmd + shift + t\).
+3. In Oxygen's top toolbar, click 'Configure Transformation Scenarios' \(or press cmd + shift + t\).
 
 ![&apos;Configure Transformation Scenarios&apos; icon](https://user-images.githubusercontent.com/43879983/87419802-0cfb0880-c5cc-11ea-932f-b98f4a85af29.png)
 
