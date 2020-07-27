@@ -48,5 +48,47 @@ description: XML editor
 
 You have now created a validation scenario. You can then run this scenario on numerous different XML files by opening the 'Configure Validation Scenario\(s\)' pop-up, ticking the scenario with the name which you just created, and then clicking 'Apply associated \(1\)'.
 
+## How to set up the Crossref transformation scenario
 
+1. Download the zip below, unzip it \(inside should be a file called `crossref.xsl`\) and place it somewhere on your local machine such as your desktop.
+
+{% file src="../.gitbook/assets/crossref.xsl.zip" %}
+
+2. Open any XML file in oXygen.
+
+3. In oXygen's top toolbar, click 'Configure Transformation Scenarios' \(or press cmd + shift + t\).
+
+![&apos;Configure Transformation Scenarios&apos; icon](https://user-images.githubusercontent.com/43879983/87419802-0cfb0880-c5cc-11ea-932f-b98f4a85af29.png)
+
+4. Click 'New' -&gt; XML transformation with XSLT.
+
+![Screenshot 2020-07-14 at 12 18 54](https://user-images.githubusercontent.com/43879983/87419913-3e73d400-c5cc-11ea-90e8-03c68832ead5.png)
+
+5. Rename the scenario something appropriate, like crossref.
+
+![](https://user-images.githubusercontent.com/43879983/87420024-6cf1af00-c5cc-11ea-9246-19d44cc67d4e.png)
+
+6. Click the folder for XSL URL, and navigate to where your local version of crossref.xsl was placed.
+
+![](https://user-images.githubusercontent.com/43879983/87420073-84c93300-c5cc-11ea-9711-0c97e54e6d63.png)
+
+7. Ensure that one of the following is selected for the 'Transformer':
+
+* Saxon-PE
+* Saxon-HE
+* Saxon-EE
+
+\(Saxon-PE is preferable if it is an option\)
+
+![](https://user-images.githubusercontent.com/43879983/88308997-a9788580-cd05-11ea-9671-7df32e3ccb7c.png)
+
+8. Click 'Output'.
+
+![](https://user-images.githubusercontent.com/43879983/87420218-cd80ec00-c5cc-11ea-9de9-db9fcbb796e7.png)
+
+9. Click 'Save as', and in the field next to it paste the following: `elife-crossref-${xpath_eval(substring-after(doc('${rootMapURL}')//publisher_item/item_number[@item_number_type="article_number"]/text(),'e'))}-${xpath_eval(format-dateTime(current-dateTime() + xs:dayTimeDuration('PT30M'), '[Y0001][M01][D01][H01][m01][s01]'))}.xml`
+
+![](https://user-images.githubusercontent.com/43879983/87420335-01f4a800-c5cd-11ea-82ca-326b09e52b8d.png)
+
+10. Click 'OK', and then click 'Save and close'
 
