@@ -8,7 +8,7 @@ description: The article structure for different article types.
 
 Article structure refers to the way in which the body of an article is organised. The main text will usually be split into multiple sections, each with a different title. Those sections may then contain sub-sections, those sub-sections, their own sub-sections, and so on.
 
-These sections are usually discussed in terms of the heirarchy of their titles, referred to as 'headings'.
+These sections are usually discussed in terms of the hierarchy of their titles, referred to as 'headings'.
 
 ![Example of article structure displayed in the proofing system, showing Level 1 and Level 2 headings](../../.gitbook/assets/screen-shot-2020-07-21-at-16.16.57.png)
 
@@ -34,7 +34,9 @@ eLife currently allows four levels of headings:
 
 * **Level 4** - sub-section heading under a Level 3 heading.
 
+![Level 4 heading &apos;Survival and water-electrolyte balance&apos; in online view](../../.gitbook/assets/screen-shot-2020-07-28-at-15.58.34.png)
 
+![Level 4 heading &apos;Survival and water-electrolyte balance&apos; in PDF](../../.gitbook/assets/screen-shot-2020-07-28-at-15.59.05.png)
 
 Any number of Level 2, 3 or 4 headings may appear within their parent sections. However, eLife limits the number of Level 1 headings in research content to between one and four in most cases.
 
@@ -76,7 +78,7 @@ In other cases, if an article is more methodological rather than experimental, '
 
     **Discussion**
 
-Finally, for modelling articles, the following structure is allowed. This should be more commonly used in tools and resources articles.
+Finally, for modelling articles, the following structure is allowed. This will be more commonly used in tools and resources articles.
 
 * Main text
   * **Introduction**
@@ -165,67 +167,67 @@ There are no preset rules for Level 1 headings in feature content. The article s
 
 **Warning**: _Section title might start with a list indicator - 'XXXXXX'. Is this correct?_
 
-**Action**: This warning will fire if a section title starts with 1\), 2\), 3\) etc., or with a\), b\), c\) etc. Check to make sure that this is not actually intended as an entry in a list.
+**Action**: This warning will fire if a section title starts with 1\), 2\), 3\) etc., or with a\), b\), c\) etc. Check to make sure that this content is not actually intended as an entry in a list \(this may require checking the exported article file\). XXXXXX will be the title in question.
 
 #### sec-title-appendix-check
 
 **Warning**: Section title contains the word appendix - 'XXXXXX'. Should it be captured as an appendix?
 
-**Action**: This warning indicates that a section title contains the word 'appendix'. This may be OK if it is a reference to an existing appendix in the article \(e.g. "Results of experiment \(detailed in Appendix 1\)"\). However if the title is just 'Appendix 1', 'Appendix A', 'Appendix: Supplementary methods', this section and its contents should be tagged correctly as a proper appendix.
+**Action**: This warning indicates that a section title contains the word 'appendix'. This may be OK if it is a reference to an existing appendix in the article \(e.g. "Results of experiment \(detailed in Appendix 1\)"\). However if the title is just 'Appendix 1', 'Appendix A', 'Appendix: Supplementary methods', this section and its contents should be tagged correctly as a proper appendix. XXXXXX will be the title in question.
 
 #### sec-title-appendix-check-2
 
 **Warning**: _Should the section titled 'XXXXXX' be captured as an appendix?_
 
-**Action**: This warning indicates that a section title contains the word 'Supplementary' or 'Supplemental'. If this occurs in the context of, for example, 'Supplemental methods' or 'Supplemental results', it likely indicates content that the authors do not want to include in their main Materials and methods or Results sections. Such sections should be tagged as appendices in the back of the article, with the section title used as the title for each appendix.
+**Action**: This warning indicates that a section title contains the word 'Supplementary' or 'Supplemental'. If this occurs in the context of, for example, 'Supplemental methods' or 'Supplemental results', it likely indicates content that the authors do not want to include in their main Materials and methods or Results sections. Such sections should be tagged as appendices in the back of the article, with the section title used as the title for each appendix. XXXXXX will be the title in question.
 
 #### sec-title-abbr-check
 
 **Warning**: _Section title contains the word abbreviation - 'XXXXXX'. Is it an abbreviation section? eLife house style is to define abbreviations in the text when they are first mentioned._
 
-**Action**: 
+**Action**: This warning will fire if a section title contains the text 'abbreviation', for example 'Abbreviations' or 'Abbreviation list'. Some authors will include a section like this, giving the definitions of every abbreviation used in their article. As the message states, eLife's house style is to define abbreviations within the text, at the first point they are used and at the end of figure/table/file legends. Ensure that all the abbreviations mentioned in the indicated section \(XXXXXX will be the title in question\) are defined at the first point they are used in the text, then delete the indicated section.
 
 #### sec-title-content-mandate
 
 **Error**: _Section title must not be empty._
 
-**Action**: 
+**Action**: This error indicates that a section title exists without any text in it. This likely means that the text was deleted incompletely. If this fires pre-author, check that the content has been processed into the proofing system correctly. If this fires post-author, check the author's edits. If it is clear that they intended to delete the indicated section entirely \(either by removing the text or merging it into the preceding section\), delete the empty title. If this is not clear, contact the author to confirm their intentions.
 
 #### sec-title-full-stop
 
 **Warning**: _Section title ends with full stop, which is very likely to be incorrect - XXXXXX_
 
-**Action**: 
+**Action**: Section titles must not end in full stops. Remove the full stop from the indicated section title.
 
 #### sec-title-bold	
 
 **Error**: _All section title content is captured in bold. This is incorrect - XXXXXX_
 
-**Action**: 
+**Action**: Section titles do not need to be placed in bold font to be styled correctly. Scientific terms can be placed in bold for consistency, but if the entire title is in bold, this formatting should be removed. XXXXXX indicates the affected tittle.
 
 #### sec-title-underline
 
 **Error**: _All section title content is captured in underline. This is incorrect - XXXXXX_
 
-**Action**: 
+**Action**: Section titles should not be underlined. Individual terms can be underlined for consistency with the main text, but if the entire title is underlined, this formatting should be removed. XXXXXX indicates the affected tittle.
 
 #### sec-title-italic
 
 **Warning**: _All section title content is captured in italics. Is this incorrect? If it is just a species name, then this is likely to be fine - XXXXXX_
 
-**Action**: 
+**Action**: Section titles should not be entirely in italics unless they only consist of a species name such as _C. elegans_. Terms such as specieis names should be put in italics for consistency with the main text, but if the entire title is in italics, this formatting should be removed. XXXXXX indicates the affected tittle.
 
 #### sec-title-dna	
 
 **Warning**: _Section title contains the phrase DNA, but it is not in all caps - XXXXXX_
 
-**Action**:
+**Action**: This warning indicates the presence of 'dna', 'dNA', 'dNa' or other variation of 'DNA' not in all caps. Correct this text to 'DNA'.
 
 #### sec-title-rna
 
 **Warning**: _Section title contains the phrase RNA, but it is not in all caps - XXXXXX_
 
-**Action**:
+**Action**: This warning indicates the presence of 'rna', 'rNA', 'rNa' or other variation of 'RNA' not in all caps. Correct this text to 'RNA'.
 
 #### sec-title-dimension
 
@@ -237,13 +239,13 @@ There are no preset rules for Level 1 headings in feature content. The article s
 
 **Warning**: _Section title contains the word HIV, but it is not in all caps - XXXXXX_
 
-**Action**: 
+**Action**: This warning indicates the presence of 'hiv', 'hIV', 'hIv' or other variation of 'HIV' not in all caps. Correct this text to 'HIV'.
 
 #### section-title-test-1
 
-**Warning**: t_ext begins a paragraph - XXXXXX - Should it be marked up as a section title \(Heading level XXXXXX\)?_
+**Warning**: _text begins a paragraph - XXXXXX - Should it be marked up as a section title \(Heading level XXXXXX\)?_
 
-**Action**:
+**Action**: This warning will fire if the entire first sentence of a paragraph is in bold font, italics or underlined.
 
 ### XML checks
 
@@ -251,7 +253,7 @@ There are no preset rules for Level 1 headings in feature content. The article s
 
 **Error**: _At least one sec should be present in body for research-article content._
 
-Action: This error indicates that there are no section elements &lt;sec&gt; within an article using the research content template.
+**Action**: This error indicates that there are no section elements &lt;sec&gt; within an article using the research content template.
 
 #### ra-sec-test-2
 
