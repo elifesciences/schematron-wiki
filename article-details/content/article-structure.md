@@ -245,7 +245,9 @@ There are no preset rules for Level 1 headings in feature content. The article s
 
 **Warning**: _text begins a paragraph - XXXXXX - Should it be marked up as a section title \(Heading level XXXXXX\)?_
 
-**Action**: This warning will fire if the entire first sentence of a paragraph is in bold font, italics or underlined.
+**Action**: This warning will fire if the entire first sentence of a paragraph is in bold font, italics or underlined. This may mean the authors intended this to be a section title. If this warning appears pre-author, the indicated text should be made into a section title. This should start a sub-section of whichever section originally contained this paragraph. The only exception to this rule is if this would involve making a sub-section of a Level 4 section, which is not allowed. In this case, the text should be left as it is.
+
+If this warning appears post-author, check whether the author has reverted the above kind of change and if so, that this makes sense \(they may prefer the text to appear as bold for highlighting purposes, but do not want it as a heading\).
 
 ### XML checks
 
