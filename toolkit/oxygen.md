@@ -95,8 +95,8 @@ You have now created a validation scenario. You can then run this scenario on nu
 * Use cmd + shift + y to wrap text into one screen \(no horizontal scrolling is then needed\), this adds no whitespace.
 * Use cmd + shift + w to check if an XML file is well formed.
 * Use cmd + shift + v to run any associated validation scenarios.
-* Use cmd + shift = t to run any associated transformation scenarios.
-* Use cmd + shift = p to format and indent \(note that this also includes whitespaces and should not be done prior to validation since many of the tests rely on the whitespace being correct\).
+* Use cmd + shift + t to run any associated transformation scenarios.
+* Use cmd + shift + p to format and indent \(note that this also includes whitespaces and should not be done prior to validation since many of the tests rely on the whitespace being correct\).
 
 ### Miscellaneous Tips
 
