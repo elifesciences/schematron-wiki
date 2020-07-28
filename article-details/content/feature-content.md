@@ -24,11 +24,11 @@ There are five content templates that map to the above article types. Aside from
 | :--- | :--- | :--- | :--- |
 | Template 1 | Insight | Two column, with key information box on first page; one-sentence abstract displayed as stand-first | Labelled figures, no digest, no decision/response, no editors/reviewers, no funding, no data availability |
 | Template 2 | Editorial | Two column, one-sentence abstract displayed as stand-first | Illustrations and pull-quotes, no digest, no decision/response, no editors/reviewers, no funding, no data availability |
-| Template 3 | Feature contribution | Two column, one-sentence abstract displayed as stand-first | Illustrations and pull-quotes, no digest, no decision/response, no editors/reviewers, no funding, no data availability |
-| Template 4 | Feature contribution | Two column, full abstract | Labelled figures, tables, boxes, no digest, pull-quotes, no decision/response, no editors/reviewers, no funding, no data availability |
-| Template 5 | Feature research | Two column, full abstract | Labelled figures, tables, boxes, no digest, possible decision/response, editors/reviewers, funding information, data availability section |
+| Template 3 | Feature article | Two column, one-sentence abstract displayed as stand-first | Illustrations and pull-quotes, no digest, no decision/response, no editors/reviewers, no funding, no data availability |
+| Template 4 | Feature article | Two column, full abstract | Labelled figures, tables, boxes, no digest, pull-quotes, no decision/response, no editors/reviewers, no funding, no data availability |
+| Template 5 | Feature article | Two column, full abstract | Labelled figures, tables, boxes, no digest, possible decision/response, editors/reviewers, funding information, data availability section |
 
-The template for each Feature article will be indicated using the article file name in the exported files, for example "elife50543\_template3.docx" or "elife46563\_template4.docx".
+The required template will be indicated using the article file name in the exported files, for example "elife50543\_template3.docx" or "elife46563\_template4.docx".
 
 ### Unique features of feature content
 
@@ -101,7 +101,7 @@ The author bio displays under the author name and can be edited in the author de
 
 ![Author bio display](../../.gitbook/assets/screen-shot-2020-06-30-at-15.47.55.png)
 
-The author bio and the affiliations for each author should be consistent, but they do not need to be identical. For example, the author bio might say that "Louise Smith is in the Department of Genetics and the Institute of Neuroscience, University of Bristol, Bristol, United Kingdom", whereas the affiliations will be given separately as "Department of Genetics, University of Bristol, Bristol, United Kingdom" and "Institute of Neuroscience, University of Bristol, Bristol, United Kingdom".
+The author bio and the affiliations for each author should be consistent, but they do not need to be identical. For example, the author bio might say that "**Louise Smith** is in the Department of Genetics and the Institute of Neuroscience, University of Bristol, Bristol, United Kingdom", whereas the affiliations will be given separately as "Department of Genetics, University of Bristol, Bristol, United Kingdom" and "Institute of Neuroscience, University of Bristol, Bristol, United Kingdom".
 
 The author's name should be given in bold and the bio should not end in a full-stop.
 
@@ -175,7 +175,15 @@ Once they have completed their checks, they will sign the article off to Post Au
 
 **Warning**: _bio does not contain the institution text as it appears in their affiliation \('XXXXXX'\). Is this correct?_
 
-**Action**: 
+**Action**: This warning indicates that an author's bio does not contain the affiliation text as it appears in the affiliation associated with that author. This may indicate that there is an error in one or the other, such as a misspelling in the affiliation text. Check and correct this if necessary. However, it might also be the case that the bio text combines two departments in one mention. For example, the following bio and affiliations will not contain the exact same text, but this is acceptable:
+
+> **Louise Smith** is in the Department of Genetics and the Institute of Neuroscience, University of Bristol, Bristol, United Kingdom
+>
+> > Affiliation 1: "Department of Genetics, University of Bristol, Bristol, United Kingdom"
+> >
+> > Affiliation 2: "Institute of Neuroscience, University of Bristol, Bristol, United Kingdom".
+
+
 
 #### feature-bio-test-6
 
@@ -247,7 +255,7 @@ insight-related-article-test-1	article\[@article-type='article-commentary'\]//ar
 
 **Error**: _XXXXXX is not allowed in a Template type meta-value._
 
-**Action**: 
+**Action**: In the template type `<custom-meta specific-use="meta-only">` element \(that is, one with the `<meta-name>Template</meta-name>`\), the value \(provided in a `<meta-value>` element\) should be a single digit with no other elements. This error will fire if additional elements are present within `<meta-value>`. This elements \(e.g. formatting, bold, italics\) should be removed.
 
 #### feat-custom-meta-test-2	
 
@@ -277,7 +285,7 @@ insight-related-article-test-1	article\[@article-type='article-commentary'\]//ar
 
 **Error**: _XXXXXX must be a template 3, 4, or 5. Currently it is a template XXXXXX._
 
-**Action**:
+**Action**: Any feature article that is not an Insight or an Editorial must use Template 3, 4 or 5. This error indicates that a feature article has been assigned Template 1 or 2. Check the exported article package to confirm which template should have been used. If this also indicates an incorrect template, the Features team will need to be asked to provide the correct template.
 
 #### feature-article-category-test-1
 
@@ -295,7 +303,22 @@ insight-related-article-test-1	article\[@article-type='article-commentary'\]//ar
 
 **Error**: _2 custom-meta\[@specific-use='meta-only'\] must be present in custom-meta-group for XXXXXX._
 
-**Action**:
+**Action**: Two and only two `<custom-meta>` elements with the attribute `specific-use='meta-only'` should be present in the `<custom-meta-group>` element \(the impact statement and the template value\). This warning will fire if there are different numbers of &lt;custom-meta&gt; elements in this group. Remove any extra elements and add in any that are missing. The correct XML will look like:
+
+```markup
+<custom-meta-group>
+    <custom-meta specific-use="meta-only">
+        <meta-name>Author impact statement</meta-name>
+        <meta-value>The linguistic characteristics of peer review reports are not 
+        influenced by research area, type of review or reviewer gender, which is
+        evidence for the robustness of peer review.</meta-value>
+    </custom-meta>
+    <custom-meta specific-use="meta-only">
+        <meta-name>Template</meta-name>
+        <meta-value>5</meta-value>
+    </custom-meta>
+</custom-meta-group>
+```
 
 
 
