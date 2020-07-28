@@ -183,13 +183,17 @@ Once they have completed their checks, they will sign the article off to Post Au
 > >
 > > Affiliation 2: "Institute of Neuroscience, University of Bristol, Bristol, United Kingdom".
 
-
-
 #### feature-bio-test-6
 
 **Warning**: _Some of the text from XXXXXX's affiliations does not appear in their bio - XXXXXX. Is this correct?_
 
-**Action**: 
+**Action**: This warning indicates that an author's bio does not contain the affiliation text as it appears in the affiliation associated with that author. This may indicate that there is an error in one or the other, such as a misspelling in the affiliation text. Check and correct this if necessary. However, it might also be the case that the bio text combines two departments in one mention. For example, the following bio and affiliations will not contain the exact same text, but this is acceptable:
+
+> **Louise Smith** is in the Department of Genetics and the Institute of Neuroscience, University of Bristol, Bristol, United Kingdom
+>
+> > Affiliation 1: "Department of Genetics, University of Bristol, Bristol, United Kingdom"
+> >
+> > Affiliation 2: "Institute of Neuroscience, University of Bristol, Bristol, United Kingdom".
 
 #### feature-bio-test-3
 
@@ -245,9 +249,17 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 **Action**: This warning indicates that the authors of a Template 1, 2, 3 or 4 article have author contirbutions. This is highly unusual as articles using these templates do not typically include contributions. eLife has, however, published Editorials \(Template 2\) articles with contributions, so they are allowed in unusual cases. Check for any notes indicating that contributions are required for the current article.
 
-insight-box-test-1	article\[@article-type='article-commentary'\]//article-meta/related-article	\*Warning\*: \_A citation for related article XXXXXX is not included in the related-article box text in the body of the article. 'XXXXXX' is not present \(or is different to the relevant passage\) in 'XXXXXX'\_
+#### insight-box-test-1
 
-insight-related-article-test-1	article\[@article-type='article-commentary'\]//article-meta/related-article	\*Error\*: \_Insight related article links must have the related-article-type 'commentary-article'. The link for XXXXXX has 'XXXXXX'.\_
+**Warning**: A citation for related article XXXXXX is not included in the related-article box text in the body of the article. 'XXXXXX' is not present \(or is different to the relevant passage\) in 'XXXXXX'
+
+**Action**: 
+
+#### insight-related-article-test-1
+
+**Error**: Insight related article links must have the related-article-type 'commentary-article'. The link for XXXXXX has 'XXXXXX'.
+
+**Action**: The link from an Insight article to the related research article have the type 'commentary-article'.
 
 ### Structure
 
