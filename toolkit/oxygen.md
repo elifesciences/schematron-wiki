@@ -88,3 +88,17 @@ You have now created a validation scenario. You can then run this scenario on nu
 
 10. Click 'OK', and then click 'Save and close'.
 
+## Useful keyboard shortcuts and tips
+
+### Keyboard shortcuts
+
+* Use cmd + shift + y to wrap text into one screen \(no horizontal scrolling is then needed\).
+* Use cmd + shift + w to check if an XML file is well formed.
+* Use cmd + shift + v to run any associated validation scenarios.
+* Use cmd + shift = t to run any associated transformation scenarios.
+
+### Miscellaneous Tips
+
+* Use 'Outline' to navigate the XML tree without having to 'prettify' the XML.
+* XPaths can be run in the top left.
+
