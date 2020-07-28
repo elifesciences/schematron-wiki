@@ -60,7 +60,7 @@ The following checks should be carried out in addition to acting on any warnings
 
 ### LaTex checklist
 
-1. For LaTex articles, this query is mandatory:
+1. For LaTex articles, this author query is mandatory:
    * "Please check and confirm that we have processed your LaTex correctly, especially with regards to the layout of any equations in the text."
 2. Cross-check all equations to make sure that they are formatted the same as in the exported merged PDF file. Make sure no errors have been introduced during conversion and that formatting, layout and spacing is preserved.
 3. Check equation-like numbers \(e.g. value with units such as '10 mg'\) and make sure these are in plain text rather than tagged as maths.
@@ -165,12 +165,12 @@ The following points should be addressed during copy-editing:
 10. Statistics:
     * Probability: lowercase roman p, with leading zero, e.g. p=0.01
 11. Punctuation:
-    * Single quotation marks should be used for emphasis \('some text'\) . Double quotation marks should be used for direct quotes \("a quote from another article"\).
+    * Single quotation marks should be used for emphasis \('some text'\). Double quotation marks should be used for direct quotes \("a quote from another article"\).
     * Where multiple sets of brackets are nested, square brackets should be used within parenthesis, e.g. "some text \(some more text \[reference\] text\)".
 12. Special characters:
-    * All trademark ™, registered ® and copyright © symbols should be deleted.
-    * '&' should be changed to 'and' if used as part of a sentence. '&' should be left if used as part of a name such as R&D' or 'Texas A&M University'.
-13. For figures, tables and supplementary files:
+    * All trademark ™, registered ®, and copyright © symbols should be deleted.
+    * '&' should be changed to 'and' if used as part of a sentence. '&' should be left if used as part of a name such as 'R&D' or 'Texas A&M University'.
+13. For figures, tables, and supplementary files:
     * Check that the legends make sense and that any sub-legends for specific parts of the asset are incorporated in a grammatically correct fashion \(e.g. if the author provided each sub-legend on a separate line, make sure they are punctuated correctly when placed in a single paragraph\).
     * Ensure each new sentence starts with a capital letter, unless the part label is being used as part of the sentence. That is, "\(**A**\) shows the results of . . ." is fine but "\(**A**\) results of . . . " should be corrected to "\(**A**\) Results of . . ."
     * Statements at the end of the legend such as "The following supplements are available for Figure 2:" should be removed - usually these will make sense in context of the author's original manuscript file, but are unnecessary in the typeset article.
