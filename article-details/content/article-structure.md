@@ -233,7 +233,7 @@ There are no preset rules for Level 1 headings in feature content. The article s
 
 **Warning**: _Section title contains lowercase abbreviation for dimension, when this should always be uppercase 'D' - XXXXXX_
 
-**Action**: 
+**Action**: This warning indicates that the abbreviation for dimension in, say, 2D, 3D, 4D etc, is a lowercase 'd'. Correct 2d, 3d, 4d etc to 2D, 3D, 4D etc.
 
 #### sec-title-hiv	
 
@@ -319,19 +319,19 @@ Correct the title to match the `@sec-type` value.
 
 #### low-level-sec-id-test
 
-**Error**: sec id must be a concatenation of it's parent sec id and this element's position relative to it's sibling secs. It must be XXXXXX.
+**Error**: _sec id must be a concatenation of it's parent sec id and this element's position relative to it's sibling secs. It must be XXXXXX._
 
 **Action:** The `@id` attribute on a section should reflect its position within higher-level sections. So, for example, Level 2 sections, within a Level 1 section with the id s4, would have the ids s4-1, s4-2, s4-3 and so on. A Level 3 section within the third of these would have the ids s4-3-1, s4-3-2, s4-3-3 and so on. Correct the id value to match the one recommended by the error message \(XXXXXX\).
 
 #### sec-test-1
 
-**Error**: sec must have a title
+**Error**: _sec must have a title_
 
 **Action**: Each section should have a title. Check that the text for the title has not been captured as part of the first paragraph.
 
 #### sec-test-2
 
-**Error**: sec appears to contain no content. This cannot be correct.
+**Error**: _sec appears to contain no content. This cannot be correct._
 
 **Action**: Each section should contain a title and either one or more paragraphs, or one or more sub-sections.
 
