@@ -37,7 +37,7 @@ We assume the images provided are licensed under CC-BY and do not check this inf
 
 ## Examples of suitable striking images
 
- 
+
 
 ![46415](../.gitbook/assets/46415-a_striking_image.png)
 
