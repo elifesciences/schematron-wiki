@@ -100,6 +100,8 @@ You have now created a validation scenario. You can then run this scenario on nu
 
 ### Miscellaneous Tips
 
+* Do not format and indent before running validation.
+* Do not format and indent if the XML needs to be uploaded anywhere, this should _only_ be used for ease of reading the XML, as and when needed.
 * Use 'Outline' to navigate the XML tree without having to 'prettify' the XML.
 * XPaths can be run in the top left.
 
