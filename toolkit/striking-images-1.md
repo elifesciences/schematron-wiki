@@ -31,7 +31,7 @@ Some authors can be confused about the intended use of their striking image. As 
 
 ## **Requirements** 
 
-These images should preferably be in colour, in a landscape format, and be at least 1800 x 900 pixels. Photographs, microscopy images, and illustrations work best. PNG, TIFF, or JPEG formats are preferred, and we must be able to use the image under the terms of the CC-BY license. 
+These images should preferably be in colour, in a landscape format, and be at least 1800 x 900 pixels in size. Photographs, microscopy images, and illustrations work best. PNG, TIFF, or JPEG formats are preferred, and we must be able to use the image under the terms of the CC-BY license. 
 
 We assume the images provided are licensed under CC-BY and do not check this information. If there is a caption or attribution information provided with the image this should be added to the 'metacontent' when uploading via Kriya \(see [**below**](striking-images-1.md#uploading-via-kriya)\) or in the legend field when uploading via eJP \(see [**below**](striking-images-1.md#uploading-via-ejp)\).
 
