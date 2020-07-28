@@ -14,18 +14,17 @@ In addition to this, however, there are four categories of Feature article that 
 
 * **Insight** - a commentary article accompanying one or more research articles, usually written by the editors or reviewers who worked on the article, providing context for a broader audience and discussing the importance of the findings being reported.
 * **Editorial** - an editorial piece written by one or more of eLife's deputy or senior editors, or the editor-in-chief, usually addressing a specific issue or development in the scientific community and/or eLife in particular.
-* **Feature contribution** - an article that is not reporting any scientific findings but instead offers a perspective or comment on events, issues or developments in the scientific community.
-* **Feature research** - an article that reports the results of meta-research; that is, studies carried out on the research community and its practices - research on how research is done. 
+* **Feature article** - feature articles cover a variety of content, ranging from short essays and opinion articles \(which will not have decision/response sections, supporting files etc.\) to substantial meta-research articles containing multiple figures, figure supplements, source data, decision/response sections etc.
 
-### Feature templates
+### Magazine templates
 
-There are five Feature templates that map to the above article types. Aside from differences in the content of the articles, these reflect different PDF layouts.
+There are five content templates that map to the above article types. Aside from differences in the content of the articles, these reflect different PDF layouts.
 
 | Template number | Article type | PDF format | Possible content |
 | :--- | :--- | :--- | :--- |
 | Template 1 | Insight | Two column, with key information box on first page; one-sentence abstract displayed as stand-first | Labelled figures, no digest, no decision/response, no editors/reviewers, no funding, no data availability |
-| Template 2 | Editorial | Two column, one-sentence abstract displayed as stand-first | Illustrations, no digest, pull-quotes, no decision/response, no editors/reviewers, no funding, no data availability |
-| Template 3 | Feature contribution | Two column, one-sentence abstract displayed as stand-first | Illustrations, no digest, pull-quotes, no decision/response, no editors/reviewers, no funding, no data availability |
+| Template 2 | Editorial | Two column, one-sentence abstract displayed as stand-first | Illustrations and pull-quotes, no digest, no decision/response, no editors/reviewers, no funding, no data availability |
+| Template 3 | Feature contribution | Two column, one-sentence abstract displayed as stand-first | Illustrations and pull-quotes, no digest, no decision/response, no editors/reviewers, no funding, no data availability |
 | Template 4 | Feature contribution | Two column, full abstract | Labelled figures, tables, boxes, no digest, pull-quotes, no decision/response, no editors/reviewers, no funding, no data availability |
 | Template 5 | Feature research | Two column, full abstract | Labelled figures, tables, boxes, no digest, possible decision/response, editors/reviewers, funding information, data availability section |
 
@@ -102,7 +101,7 @@ The author bio displays under the author name and can be edited in the author de
 
 ![Author bio display](../../.gitbook/assets/screen-shot-2020-06-30-at-15.47.55.png)
 
-Each author should be assigned the same affiliations that are described in the bio. Note that these do not have to be exactly the same. For example, an affiliation may be described as "" but would be entered as two affiliations, "" and "".
+The author bio and the affiliations for each author should be consistent, but they do not need to be identical. For example, the author bio might say that "Louise Smith is in the Department of Genetics and the Institute of Neuroscience, University of Bristol, Bristol, United Kingdom", whereas the affiliations will be given separately as "Department of Genetics, University of Bristol, Bristol, United Kingdom" and "Institute of Neuroscience, University of Bristol, Bristol, United Kingdom".
 
 The author's name should be given in bold and the bio should not end in a full-stop.
 
