@@ -696,19 +696,25 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 **Warning:** _figure citation stands alone, contains the text XXXXXX, and links to a figure supplement, but it does not contain the string 'supplement'. Is it correct? Preceding text - 'XXXXXX'_
 
-**Action:** This error will appear if the text of a figure citation includes 'supplement' but links to a main figure e.g. if Figure 1 - figure supplement 1 links to Figure 1. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
+**Action:** This warning will appear if a figure citation links to a figure supplement but the citation text doesn't include the word 'supplement'. This is ok to leave if, for example the citation text says 'Figure 1 - figure supplements 2, 3' and links correctly to both Figure 1 - figure supplement 2 and Figure 1 - figure supplement 3. However, if the citation text says 'Figure 1' but links to Figure 1 - figure supplement 1, this will need to be corrected. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
 
 #### fig-xref-conformity-6
 
 **Error:** _figure citation contains the text XXXXXX but links to a figure supplement with the id XXXXXX which cannot be correct._
 
+**Action:** This error will appear if a figure citation links to the wrong figure supplement e.g. if the citation 'Figure 1 - figure supplement 1' links to Figure 1 - figure supplement 2. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
+
 #### fig-xref-test-2
 
 **Warning:** _There is no space between citation and the preceding text - XXXXXX - Is this correct?_
 
+**Action:** This error will appear if there is no space between a figure citation and the text before it, for example 'SeeFigure 2.' Add a space between the citation and the preceding text. However, if the text is 'See Figures 2,3' this is ok to leave.
+
 #### fig-xref-test-3
 
 **Warning:** _There is no space between citation and the following text - XXXXXX - Is this correct?_
+
+**Action:** This error will appear if there is no space between a figure citation and the text after it, for example 'See Figure 2for.' Add a space between the citation and the following text. However, if the text is 'See Figures 2,3' this is ok to leave.
 
 #### fig-xref-test-4
 
@@ -727,61 +733,93 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 **Error:** _XXXXXX - Figure citation is in a reference to a figure from a different paper, and therefore must be unlinked._
 
+**Action:** This error will appear if a figure citation appears before a reference e.g. 'See Figure 1 from Smith et al., 1992'. This figure citation needs to be changed to plain text. 
+
 #### fig-xref-test-6
 
 **Warning:** _citation is preceded by a letter or number immediately followed by '\('. Is there a space missing before the '\('? - 'XXXXXX'._
+
+**Action:** This warning will appear if a figure citation appears after a letter or number immediately followed by '\('. If there is a missing space, this should be added in, for example in 'DNA\(Figure 2\).' 
 
 #### fig-xref-test-7
 
 **Warning:** _citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'? - 'XXXXXX'._
 
+**Action:** This warning will appear if a figure citation is followed by a '\)' and a letter or number immediately after. If there is a missing space, this should be added in, for example in '\(Figure 2\)DNA.' 
+
 #### fig-xref-test-8
 
 **Warning:** _Figure citation is preceded by 'their'. Does this refer to a figure in other content \(and as such should be captured as plain text\)? - 'XXXXXX'._
+
+**Action:** This warning will appear if a figure citation is preceded by the word _'_their', for example 'Smith et al., 1992, their Figure 2.' As this is referring to Figure 2 in a different paper, this citation should be unlinked. If it isn't possible to tell from the context whether the authors are referring to a figure in a different paper, a query should be left - see more [**here**](untitled.md#in-text-citations). 
 
 #### fig-xref-test-9
 
 **Warning:** _Is this figure citation a reference to a figure from other content \(and as such should be captured instead as plain text\)? - XXXXXX'._
 
+**Action:** This warning will appear if a figure citation is followed by the word _'_of', for example 'Figure 2 of Smith et al., 1992.' As this is referring to Figure 2 in a different paper, this citation should be unlinked. If it isn't possible to tell from the context whether the authors are referring to a figure in a different paper, a query should be left - see more [**here**](untitled.md#in-text-citations). 
+
 #### fig-xref-test-10
 
 **Warning:** _Incomplete citation. Figure citation is followed by text which suggests it should instead be a link to a Figure supplement - XXXXXX'._
+
+**Action:** This warning will appear if a figure citation is __followed by text which suggests it should be a link to a figure supplement - for example, if the linked citation text is 'Figure 1' but it is followed by '—figure supplement 1' in plain text. In this example, a citation to Figure 1—figure supplement 1 should replace the citation for Figure 1.
 
 #### fig-xref-test-11
 
 **Warning:** _Incomplete citation. Figure citation is followed by text which suggests it should instead be a link to a video supplement - XXXXXX'._
 
+**Action:** This warning will appear if a figure citation is __followed by text which suggests it should be a link to a figure video - for example, if the linked citation text is 'Figure 1' but it is followed by '—video 1' in plain text. In this example, a citation to Figure 1—video 1 should replace the citation for Figure 1.
+
 #### fig-xref-test-12
 
 **Warning:** _Incomplete citation. Figure citation is followed by text which suggests it should instead be a link to source data or code - XXXXXX'._
+
+**Action:** This warning will appear if a figure citation is __followed by text which suggests it should be a link to a source data or code supplement - for example, if the linked citation text is 'Figure 1' but it is followed by '—source code 1' or '—source data 1' in plain text. In this example, a citation to Figure 1—source code 1 or Figure 1—source data 1 should replace the citation for Figure 1.
 
 #### fig-xref-test-13
 
 **Warning:** _Figure citation is followed by text which suggests it could be an incomplete citation - XXXXXX'. Is this OK?_
 
+**Action:** This warning will appear if a figure citation is __followed by text which suggests the citation is incomplete, for example if it is followed by the word 'supplement', 'video', or 'source'. Check the context to see whether the citation should be updated to a figure supplement, figure video or source data or code. 
+
 #### fig-xref-test-14
 
 **Warning:** _citation is preceded by 'XXXXXX'. The 'cf.' is unnecessary and should be removed._
+
+**Action:** This warning will appear if a figure citation is preceded by 'cf.'  The 'cf.' can be deleted.
 
 #### fig-xref-test-15
 
 **Error:** _Link - 'XXXXXX' - is incomplete. It should have 'figure' or 'Figure' spelt out._
 
+**Action:** This error will appear if a figure citation uses an abbreviation e.g. 'Appendix Fig. 1'. Make sure this is spelled out in full and formatted correctly - in this case, the citation would be corrected to 'Appendix-figure 1'.
+
 #### fig-xref-test-16
 
 **Warning:** _Figure citation - 'XXXXXX' - is preceded by the text 'XXXXXX' - should it be a figure supplement citation instead?_
+
+**Action:** This warning will appear if a figure citation is preceded by the text 'supp', 'suppl', 'supplemental\(s\)' or 'supplementary', suggesting the citation should link to a figure supplement. Check the context and update the citation as necessary. 
 
 #### fig-xref-test-17
 
 **Warning:** _Figure citation - 'XXXXXX' - is followed by the text 'XXXXXX' - should this text be included in the link text too \(i.e. 'XXXXXX'\)?_
 
+**Action:** This warning will appear if a figure citation includes part labels and is __followed by a letter, for example if the citation text 'Figure 1A-F' is followed by 'and H' in plain text. In this case, 'and H' should also be included in the link text. Check the context and update the citation as necessary. 
+
 #### fig-xref-test-18
 
 **Warning**: _Figure citation - 'XXXXXX' - is followed by the text 'XXXXXX' - should some or all of that text be included in the citation text?_
 
+**Action:** ???
+
 #### ar-fig-title-test-1
 
 **Warning:** _Please query author for a XXXXXX title, and/or remove placeholder title text - XXXXXX._
+
+**Action:** This warning will appear if an author response image has the title 'Placeholder text.' Leave the following query for the author:
+
+* Please provide the title for this figure.
 
 #### fig-permissions-test-1 
 
@@ -805,75 +843,103 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 **Error:** _permissions for XXXXXX must contain a license-p element._
 
-**Action**: This will appear if the permissions statement doesn't have a &lt;license-p&gt; element. 
+**Action**: This will appear if the permissions statement doesn't have a &lt;license-p&gt; element. Exeter will need to add this.
 
 #### fig-permissions-test-5
 
 **Error:** _permissions for XXXXXX has XXXXXX &lt;copyright-statement&gt; elements, when there can only be 0 or 1._
 
-**Action**: This will appear if a permissions statement has more than 1 &lt;copyright-statement&gt; element. Double-check which the correct statement should be by comparing the instructions given by the Production team.
+**Action**: This will appear if a permissions statement has more than 1 &lt;copyright-statement&gt; element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct statement should be by comparing with the instructions given by the Production team.
 
 #### fig-permissions-test-6
 
 **Error:** _permissions for XXXXXX has XXXXXX &lt;copyright-holder&gt; elements, when there can only be 0 or 1._
 
-**Action**: This will appear if a permissions statement has more than 1 &lt;copyright-holder&gt; element. 
+**Action**: This will appear if a permissions statement has more than 1 &lt;copyright-holder&gt; element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct copyright holder should be by comparing with the instructions given by the Production team.
 
 #### fig-permissions-test-7
 
 **Error:** _permissions for XXXXXX has XXXXXX &lt;copyright-year&gt; elements, when there can only be 0 or 1._
 
-**Action**: This will appear if a permissions statement has more than 1 &lt;copyright-year&gt; element.
+**Action**: This will appear if a permissions statement has more than 1 &lt;copyright-year&gt; element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct copyright year should be by comparing with the instructions given by the Production team.
 
 #### fig-permissions-test-8
 
-**Error:** _permissions for XXXXXX has XXXXXX  elements, when there can only be 0 or 1._ 
+**Error:** _permissions for XXXXXX has XXXXXX &lt;license&gt; elements, when there can only be 0 or 1._ 
 
-#### fig-permissions-test-9: Rule: permissions for X has a `<license>` element, but not `<license-p>` element, which is incorrect.
+**Action**: This error will appear if a permissions statement has more than 1 &lt;license&gt; element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct license should be by comparing with the instructions given by the Production team.
 
-#### fig-permissions-test-10: Rule: permissions for X has `<license-p>` elements, when there can only be 0 or 1.
+#### fig-permissions-test-9
 
-#### fig-permissions-test-11: Rule: figure level permissions must either have a `<copyright-statement>` or a `<license>` element, but those for X have neither.
+**Error**: _permissions for XXXXXX has a &lt;license&gt; element, but not &lt;license-p&gt; element, which is incorrect._
 
-**Action**: All these messages refer to either missing or extra elements. When permissions information is required, make sure each of these elements is present. See [here](Figures#reproduced-images) for an xml example of permissions information.
+**Action**: This error will appear if a permissions statement has a &lt;license&gt; element but no &lt;license-p&gt; element. Double-check the instructions given by the Production team to see what this should be. 
 
-#### fig-permissions-test-12: Rule: permissions - the `<license-p>` for all rights reserved type permissions should usually end with 'further reproduction of this panel/figure would need permission from the copyright holder.', but X's doesn't. Is this correct? \(There is no '[https://creativecommons.org/](https://creativecommons.org/)' type link so presumed ARR.\)
+#### fig-permissions-test-10
 
-**Action**: If the `<copyright-statement>` for a figure includes 'All rights reserved', the permissions statement should end with 'further reproduction of this panel/figure would need permission from the copyright holder' - you just need to add it in if this is missing. If there is no '[https://creativecommons.org/](https://creativecommons.org/)' type link, the schematron will automatically assume the figure permission is 'All rights reserved'. See [here](Figures#reproduced-images) for an xml example of permissions information.
+**Error**: _permissions for XXXXXX has XXXXXX &lt;license-p&gt; elements, when there can only be 0 or 1._
+
+**Action**: This error will appear if a permissions statement has more than 1 &lt;license-p&gt; element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct &lt;license-p&gt; text should be by comparing with the instructions given by the Production team.
+
+#### fig-permissions-test-11
+
+**Error**: _figure level permissions must either have a &lt;copyright-statement&gt; or a  &lt;license&gt; element, but those for XXXXXX have neither._
+
+**Action**: This error will appear if a permissions statement has no &lt;copyright-statement&gt; or &lt;license&gt; elements. Query the Production team if these were not provided in the permissions instructions. 
+
+#### fig-permissions-test-12
+
+**Warning**: _XXXXXX permissions - the  for all rights reserved type permissions should usually end with 'further reproduction of this panel/figure would need permission from the copyright holder.', but XXXXXX's doesn't. Is this correct? \(There is no '_[_https://creativecommons.org/_](https://creativecommons.org/)_' type link so presumed ARR.\)_
+
+**Action**: If the copyright statement for a figure includes 'All rights reserved', the permissions statement should end with 'further reproduction of this panel/figure would need permission from the copyright holder' - you just need to add it in if this is missing. If there is no '[https://creativecommons.org/](https://creativecommons.org/)' type link, the schematron will automatically assume the figure permission is 'All rights reserved' - query the Production team to check this is correct. 
 
 #### reproduce-test-1
 
 **Warning:** _The caption for XXXXXX contains the text 'reproduced from', but has no permissions. Is this correct?_
 
+**Action**: This warning will appear if a figure caption includes the text 'reproduced from' but there is no permissions information in the XML. If no notes have been left about permissions information to add, query the Production team who will check this with the Editorial team. See more about this [**here**](untitled.md#adapted-and-reproduced-images).
+
 #### reproduce-test-2
 
 **Warning:** _The caption for XXXXXX contains the text 'reproduced with permission', but has no permissions. Is this correct?_
+
+**Action**: This warning will appear if a figure caption includes the text 'reproduced with permission' but there is no permissions information in the XML. If no notes have been left about permissions information to add, query the Production team who will check this with the Editorial team. See more about this [**here**](untitled.md#adapted-and-reproduced-images).
 
 #### reproduce-test-3
 
 **Warning:** _The caption for XXXXXX contains the text 'adapted from ...', but has no permissions. Is this correct?_
 
+**Action**: This warning will appear if a figure caption includes the text 'adapted from' but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](untitled.md#adapted-and-reproduced-images).
+
 #### reproduce-test-4
 
 **Warning:** _The caption for XXXXXX contains the text 'reprinted from', but has no permissions. Is this correct?_
+
+**Action**: This warning will appear if a figure caption includes the text 'reprinted from' but there is no permissions information in the XML. If no notes have been left about permissions information to add, query the Production team who will check this with the Editorial team. See more about this [**here**](untitled.md#adapted-and-reproduced-images).
 
 #### reproduce-test-5
 
 **Warning:** _The caption for XXXXXX contains the text 'reprinted from', but has no permissions. Is this correct?_
 
-**Action:** If the caption mentions a figure or part of a figure is reproduced/reprinted from another paper \(there should be a citation to the paper\), we may need to [add permissions](Figures#reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'reprinted with permission from' but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](untitled.md#adapted-and-reproduced-images).
 
 #### reproduce-test-6
 
 **Warning:** _The caption for XXXXXX contains the text 'modified from', but has no permissions. Is this correct?_
 
+**Action**: This warning will appear if a figure caption includes the text 'modified from' but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](untitled.md#adapted-and-reproduced-images).
+
 #### reproduce-test-7
 
 **Warning:** _The caption for XXXXXX contains the text 'modified with', but has no permissions. Is this correct?_
 
+**Action**: This warning will appear if a figure caption includes the text 'modified with_'_ but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](untitled.md#adapted-and-reproduced-images).
+
 #### reproduce-test-8
 
 **Warning:** _The caption for XXXXXX contains the text 'used with permission', but has no permissions. Is this correct?_
+
+**Action**: This warning will appear if a figure caption includes the text 'used with permission_'_ but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](untitled.md#adapted-and-reproduced-images).
 
 #### label-fig-group-conformance-1
 
@@ -934,7 +1000,48 @@ An example of a figure video correctly placed in the fig-group element:
 
 ## XML structure
 
+Figure with no figure supplements:
 
+```markup
+<fig id="fig1" position="float">
+    <label>Figure 1.</label>
+    <caption>
+    ...
+    </caption>
+    <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-53080-fig1-v2.tif"/>
+</fig>
+```
+
+Figure with figure supplement:
+
+```markup
+<fig-group>
+    <fig id="fig7" position="float">
+        <label>Figure 7.</label>
+        <caption>
+        ...
+        </caption>
+        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-53080-fig7-v2.tif"/>
+    </fig>
+    <fig id="fig7s1" position="float" specific-use="child-fig">
+        <label>Figure 7—figure supplement 1.</label>
+        <caption>
+        ...
+        </caption>
+        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-53080-fig7-figsupp1-v2.tif"/>
+    </fig>
+</fig-group>
+```
+
+Figure with linked video:
+
+Figure with source data:
+
+Figure with source code:
+
+Figure with permissions:
+
+Figure with attributions:
 
 ## Changelog
 
