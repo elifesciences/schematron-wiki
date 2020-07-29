@@ -148,7 +148,7 @@ The editorial team check figure permissions as part of submission quality checks
 > copyright-holder: Elsevier  
 > permissions: Figure 1A is reprinted from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.
 
-This information would then need to be added in the XML:
+This information should be added in the XML:
 
 ```markup
 <permissions>
@@ -204,19 +204,22 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 **Error:** _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
 
-_D1_
+**Action:** ???
 
 #### fig-caption-test-1
 
 **Warning**: _Caption for XXXXXX contains what looks like a lower case letter at the start of a sentence - XXXXXX._
 
-**Action:** In some cases, a sentence will begin with a lower case letter. This is fine to leave if the word is a recognised scientific term - you can check against the rest of the article to see if it is used elsewhere. Otherwise, please make sure every sentence begins with a capital letter. If this warning fires because a sentence in the caption begins '\(A\) and \(B\)' this is fine to ignore.
+**Action:** In some cases, a sentence will begin with a lower case letter. This is fine to leave if the word is a recognised scientific term - you can check against the rest of the article to see if it is used elsewhere. Otherwise, make sure every sentence begins with a capital letter_,_ unless the part label is being used as part of the sentence. For example:
+
+* '\(**A**\) results of . . . ' should be corrected to '\(**A**\) Results of . . .'
+* but '\(**A**\) shows the results of . . . is fine to leave as is.
 
 #### fig-caption-test-2
 
 **Warning:** _Caption for XXXXXX contains what looks like an image credit. It's quite likely that this should be captured in an &lt;attrib&gt; element instead - XXXXXX_
 
-**Action:** If the caption for a figure or figure supplement includes 'image credit', this message will appear. This information should be added in an &lt;attrib&gt; element \(see here\).
+**Action:** If the caption for a figure or figure supplement includes 'image credit', this message will appear. This information should be added in an &lt;attrib&gt; element \(see [**here**](untitled.md#attributions)\).
 
 #### fig-group-test-1
 
@@ -234,11 +237,13 @@ _D1_
 
 **Error:** _XXXXXX_ _is not allowed as a child of fig-group._
 
+**Action:** ???
+
 #### fig-group-child-test-2
 
 **Error:** _which is a child of fig-group, must have an @mimetype='video' - i.e. only video type media is allowed as a child of fig-group._
 
-_D1_
+**Action:** ???
 
 #### fig-test-2
 
@@ -316,14 +321,6 @@ If the caption element is missing in the XML, compare with the original submitte
 **Error:** _fig must have a graphic._
 
 **Action:** This warning will appear at the post-author stages if no file has been provided for a figure or figure supplement. The authors will need to be asked for the file. 
-
-#### label-fig-group-conformance-1
-
-**Error:** _XXXXXX is not placed in a &lt;fig-group&gt; element, which is incorrect. Either the label needs updating, or it needs moving into the &lt;fig-group&gt;._
-
-#### label-fig-group-conformance-2
-
-**Error:** _XXXXXX contains the string 'Figure' but it's not placed in a &lt;fig-group&gt; element, which is incorrect. Either the label needs updating, or it needs moving into the &lt;fig-group&gt;._
 
 #### distinct-label-conformance
 
@@ -415,6 +412,8 @@ If multiple figures are out of sequence, leave the following query for the autho
 
 * Our system numbers figures based on when they are first cited. Please conform these figures can be renumbered or provide in-sequence citations for these.
 
+If this appears at post-author stages, the author will need to be asked whether we can unlink the citation that is out of order, or renumber the figures.
+
 #### fig-sup-test-5
 
 **Error:** _XXXXXX is in position XXXXXX, which means either the label or the placement incorrect._
@@ -422,6 +421,21 @@ If multiple figures are out of sequence, leave the following query for the autho
 #### fig-sup-test-6
 
 **Error:** _XXXXXX label ends with XXXXXX, but the id \(XXXXXX\) ends with XXXXXX, so one must be incorrect._
+
+**Action:** This error will appear if a figure's id and its label do not match. For example in the XML below, the figure ID is fig6s1 but the label is Figure 6 - figure supplement 6. If this appears at pre-editing, check whether the figure ID or label is correct by comparing against the submission from eJP - Exeter will need to correct the XML. If this is at post-author stages, compare against the submission from eJP, and check for any correspondence with the authors in case they have asked for figures to be relabelled. Exeter will need to correct the XML.
+
+```markup
+<fig-group>
+        <fig id="fig6" position="float">
+          <label>Figure 6.</label>
+          ...
+        </fig>
+        <fig id="fig6s1" position="float" specific-use="child-fig">
+          <label>Figure 6—figure supplement 6.</label>
+          ...
+        </fig>
+</fig-group>
+```
 
 #### ar-fig-test-2
 
@@ -761,6 +775,63 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 #### reproduce-test-8
 
 **Warning:** _The caption for XXXXXX contains the text 'used with permission', but has no permissions. Is this correct?_
+
+#### label-fig-group-conformance-1
+
+**Error:** _XXXXXX is not placed in a &lt;fig-group&gt; element, which is incorrect. Either the label needs updating, or it needs moving into the &lt;fig-group&gt;._
+
+**Action:** In the xml, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a figure has a figure supplement label \(e.g. Figure 1 - Figure supplement 1\) but it is not placed in the fig-group element. This should be corrected by Exeter.
+
+XML of a figure with a figure supplement wrapped in the fig-group element.
+
+```markup
+<fig-group>
+    <fig id="fig7" position="float">
+        <label>Figure 7.</label>
+        <caption>
+        ...
+        </caption>
+        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-53080-fig7-v2.tif"/>
+    </fig>
+    <fig id="fig7s1" position="float" specific-use="child-fig">
+        <label>Figure 7—figure supplement 1.</label>
+        <caption>
+        ...
+        </caption>
+        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-53080-fig7-figsupp1-v2.tif"/>
+    </fig>
+</fig-group>
+```
+
+XML of a figure with no figure supplements \(and therefore, no fig-group wrapper\):
+
+```markup
+<fig id="fig1" position="float">
+    <label>Figure 1.</label>
+    <caption>
+    ...
+    </caption>
+    <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-53080-fig1-v2.tif"/>
+</fig>
+```
+
+#### label-fig-group-conformance-2
+
+**Error:** _XXXXXX contains the string 'Figure' but it's not placed in a &lt;fig-group&gt; element, which is incorrect. Either the label needs updating, or it needs moving into the &lt;fig-group&gt;._
+
+**Action:** In the xml, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a video is linked to a figure but not included in the fig-group element in the XML. This should be corrected by Exeter. 
+
+An example of a figure video correctly placed in the fig-group element:
+
+```markup
+<fig-group>
+      ...
+      <media id="app8fig1video1" xlink:href="elife-0000-app8-fig1-video1.mp4" mimetype="video" mime-subtype="mp4">
+        <label>Appendix 8—figure 1—video 1.</label>
+        ...
+      </media>
+</fig-group>
+```
 
 ## XML structure
 
