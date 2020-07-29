@@ -137,7 +137,7 @@ To upload the image to eJP, search eJP using the MS number.
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-14.45.46%20%281%29.png)
 
-Ensure this article has not already been exported from eJP to Kriya. The most efficient way to do this is to search the Production inbox for the XML notification, which informs production an article has been exported from eJP \(see [**here**](https://app.gitbook.com/@elifesciences/s/productionhowto/toolkit/managing-the-production-inbox#xml-notification-emails)\).
+Ensure this article has not already been exported from eJP to Kriya. The most efficient way to do this is to search the Production inbox for the XML notification, which informs production an article has been exported from eJP \(see [**here**](managing-the-production-inbox.md#xml-notification-emails)\).
 
 However, if you are in eJP look at 'More Manuscript Info and Tools' on the right-hand side of the page. If the 'Export to Exeter' option is not displaying but instead says 'Resend/Export to Exeter Premedia' this means the article has already been exported.   
 
