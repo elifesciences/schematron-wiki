@@ -422,7 +422,7 @@ If this appears at post-author stages, the author will need to be asked whether 
 
 **Error:** _XXXXXX label ends with XXXXXX, but the id \(XXXXXX\) ends with XXXXXX, so one must be incorrect._
 
-**Action:** This error will appear if a figure's id and its label do not match. For example in the XML below, the figure ID is fig6s1 but the label is Figure 6 - figure supplement 6. If this appears at pre-editing, check whether the figure ID or label is correct by comparing against the submission from eJP - Exeter will need to correct the XML. If this is at post-author stages, compare against the submission from eJP, and check for any correspondence with the authors in case they have asked for figures to be relabelled. Exeter will need to correct the XML.
+**Action:** This error will appear if a figure's ID and its label do not match. For example in the XML below, the figure ID is fig6s1 but the label is Figure 6 - figure supplement 6. If this appears at pre-editing, check whether the figure ID or label is correct by comparing against the submission from eJP - Exeter will need to correct the XML. If this is at post-author stages, compare against the submission from eJP, and check for any correspondence with the authors in case they have asked for figures to be relabelled. Exeter will need to correct the XML.
 
 ```markup
 <fig-group>
@@ -461,69 +461,136 @@ If this appears at post-author stages, the author will need to be asked whether 
 
 **Warning:** _XXXXXX does not appear in sequence which is likely incorrect. Relative to the other AR images it is placed in position XXXXXX._
 
+**Action:** This warning will appear if the author response images in the author response letter are placed out of sequence. This may happen if the authors have cited the figures out of order. For example, if they refer to Author response image 3 before before Author response image 2 this results in Author response image 3 being placed before Author response image 2.  Unlink the citation that is out of order and leave the following query for the author:
+
+* This citation is out of sequence with the other figure citations and has therefore been left unlinked \(figure placement is determined by first live citation\). Please confirm this is acceptable.
+
+If multiple figures are out of sequence, leave the following query for the author instead:
+
+* Our system numbers figures based on when they are first cited. Please conform these figures can be renumbered or provide in-sequence citations for these.
+
 #### final-ar-fig-position-test
 
 **Error:** _XXXXXX does not appear in sequence which is incorrect. Relative to the other AR images it is placed in position XXXXXX._
+
+**Action:** This error will appear if the author response images in the author response letter are placed out of sequence. This may happen if the authors have cited the figures out of order. For example, if they refer to Author response image 3 before before Author response image 2 this results in Author response image 3 being placed before Author response image 2. The author will need to be asked whether we can unlink the citation that is out of order, or renumber the figures. 
 
 #### resp-fig-test-2
 
 **Error:** _fig must have a label._
 
+**Action:** This error will appear __if an author response image has no label. Figures in the author response letter should have a label in the format 'Author response image X.' or 'Chemical Structure X.' or 'Scheme X.' Check what the correct label should be by comparing with the decision letter/author response document from the AWS bucket. This will need to be corrected by Exeter.
+
 #### reply-fig-test-2
 
 **Error:** _fig label in author response must be in the format 'Author response image 1.', or 'Chemical Structure 1.', or 'Scheme 1.'._
+
+**Action:** This error will appear __if an author response image has a label other than 'Author response image X.' or 'Chemical Structure X.' or 'Scheme X.' Correct any typos and if needed, check what the correct label should be by comparing with the decision letter/author response document from the AWS bucket. This will need to be corrected by Exeter.
 
 #### dec-fig-test-1
 
 **Error:** _fig must have a label._
 
+**Action:** This error will appear __if a figure in the decision letter has no label. Figures in the decision letter should have a label in the format 'Decision letter image X.' This will need to be corrected by Exeter.
+
 #### dec-fig-test-2
 
 **Error:** _fig label in author response must be in the format 'Decision letter image 1.'._
+
+**Action:** This error will appear __if a figure in the decision letter has a label other than 'Decision letter image X.' This will need to be corrected by Exeter.
 
 #### box-fig-test-1
 
 **Error:** _label for fig inside boxed-text must be in the format 'Box 1—figure 1.', or 'Chemical structure 1.', or 'Scheme 1'._
 
+**Action:** This error will appear __if a figure in a box has a label other than 'Box X—figure X.', 'Chemical structure X.' or 'Scheme X.'.This will need to be corrected by Exeter.
+
 #### app-fig-test-1
 
 **Error:** _label for fig inside appendix must be in the format 'Appendix 1—figure 1.', 'Appendix A—figure 1.', or 'Appendix 1—chemical structure 1.', or 'Appendix A—scheme 1'._
+
+**Action:** This error will appear __if a figure in an appendix has an ID appXfigX \(where X is a number\) and a label other than 'Appendix 1—figure 1.', 'Appendix A—figure 1.', or 'Appendix 1—chemical structure 1.', or 'Appendix A—scheme 1'. This will need to be corrected by Exeter.
 
 #### app-fig-test-2
 
 **Error:** _label for XXXXXX does not start with the correct appendix prefix. Either the figure is placed in the incorrect appendix or the label is incorrect._
 
+**Action:** This error will appear __if a figure in an appendix doesn't match the appendix it is in - for example, if Appendix 1—figure 1 is placed in Appendix 9. Check the original submission to see whether the figure needs to be moved to another appendix or the label needs to be changed. Exeter will need to make this change. 
+
+If this error appears at post-author stages, check whether the authors asked for the figure to be moved or relabelled before asking Exeter to fix this.
+
 #### app-fig-sup-test-1
 
 **Error:** _label for fig inside appendix must be in the format 'Appendix 1—figure 1—figure supplement 1.'._
+
+**Action:** This error will appear __if a figure supplement in an appendix has a label other than 'Appendix X—figure X—figure supplement X.' \(following this capitalisation exactly i.e. 'Appendix X—Figure X—Figure Supplement X.' is incorrect\). This will need to be corrected by Exeter.
 
 #### app-fig-sup-test-2
 
 **Error:** _label for XXXXXX does not start with the correct appendix prefix. Either the figure is placed in the incorrect appendix or the label is incorrect._
 
+**Action:** This error will appear __if a figure __supplement in an appendix doesn't match the appendix it is in - for example, if Appendix 1—figure 1—figure supplement 1 is placed in Appendix 9. Check the original submission to see whether the figure needs to be moved to another appendix or the label needs to be changed. Exeter will need to make this change. 
+
+If this error appears at post-author stages, check whether the authors asked for the figure to be moved or relabelled before asking Exeter to fix this.
+
 #### fig-title-test-1
 
 **Warning:** _'XXXXXX' appears to have a title which is the begining of a caption. Is this correct?_
+
+**Action:** This warning will appear __if a figure has a title with a part label in it e.g.  '\(**a**\) Daily hospitalized cases and cumulative hospitalized and discharged cases.' Compare with the submission to see whether this should actually be in the caption and move the text there if so. Additionally, if no title has been provided for the figure in the submission, leave the following query: 
+
+* Please provide the title for this figure.
+
+If this warning appears at post-author stages, the author will need to be asked for this via email.
+
+If the title has part labels within a sentence, e.g. 'COVID-19 incubation period Kaplan-Meier curves for \(a\) Singapore and \(b\) Tianjin.' ****this warning can be ignored.
 
 #### fig-title-test-2
 
 **Error:** _title for XXXXXX must end with a full stop._
 
+**Action:** This error will appear __if a figure has a title that does not end with a full stop. Make sure this is added.
+
 #### fig-title-test-3
 
 **Warning:** _title for XXXXXX ends with 'vs.', which indicates that the title sentence may be split across title and caption._
+
+**Action:** This error will appear __if a figure has a title ending with 'vs.' which suggests it has been split between the title and the caption. For example:
+
+```markup
+        <fig id="fig1">
+            <label>Figure 1.</label>
+            <caption>
+                <title>Wild type vs.</title>
+                <p>mutant mice.</p>
+            </caption>
+            <graphic/>
+        </fig>
+```
+
+Check against the original submission to see what the title should be and correct accordingly.
 
 #### fig-title-test-4
 
 **Error:** _title for XXXXXX begins with a space, which is not allowed._
 
+**Action:** This error will appear if a title begins with a space. Make sure the space is deleted \(Exeter may have to do this if the space is not apparent in Kriya\). 
+
 #### fig-title-test-5
 
 **Warning:** _title for XXXXXX begins with punctuation. Is this correct? - XXXXXX_
 
+**Action:** This error will appear if a title begins with punctuation \(e.g. ';Gonadectomy alters energy balance and fuel source utilization.'\). This is usually a typo and should be deleted - check against the original submission if unsure.
+
 #### fig-title-test-6
 
 **Warning:** _title for XXXXXX begins with 'XXXXXX' - XXXXXX. It is very likely that this requires an overall title instead._
+
+**Action:** This warning will appear if a title begins with 'Panel' e.g. 'Panel \(**A**\) shows a scatter plot of primate ECV and body mass data.' Compare with the submission to see whether this should actually be in the caption and move the text there if so. Additionally, if no title has been provided for the figure in the submission, leave the following query: 
+
+* Please provide the title for this figure.
+
+If this warning appears at post-author stages, the author will need to be asked for this via email.
 
 ### XML structure checks
 
@@ -533,41 +600,61 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 **Error:** _fig must have an @id in the format fig0 \(or C0 for chemical structures, or S0 for Schemes\). XXXXXX does not conform to this._
 
+**Action:** This error will appear __if a figure __has an ID in a format other than figX, CX or SX \(where X is a number\). Exeter will need to fix this.
+
 #### fig-id-test-2
 
 **Error:** _fig must have an @id in the format fig0. XXXXXX does not conform to this._
+
+**Action:** This error will appear __if a figure __has a label 'Figure X' and an ID in a format other than figX \(where X is a number\)_._ Exeter will need to fix this.
 
 #### fig-sup-id-test
 
 **Error:** _figure supplement must have an @id in the format fig0s0. XXXXXX does not conform to this._
 
+**Action:** This error will appear __if a figure __supplement __has an ID in a format other than figXsX \(where X is a number\). Exeter will need to fix this.
+
 #### box-fig-id-1
 
 **Error:** _fig must have @id in the format box0fig0. XXXXXX does not conform to this._
+
+**Action:** This error will appear __if a figure __in a box __has an ID in a format other than boxXfigX \(where X is a number\). Exeter will need to fix this.
 
 #### box-fig-id-2
 
 **Error:** _fig id \(XXXXXX\) does not contain its ancestor boxed-text id. Please ensure the first part of the id contains 'XXXXXX'._
 
+**Action:** This error will appear __if the ID of a figure __in a box doesn't contain the correct box number - for example if Box 1 has a figure with the ID box2fig1. Check the original submission to ensure the figure is in the correct box - if not, Exeter will need to move this. If the figure is in the correct box, Exeter will need to fix the figure ID.
+
 #### app-fig-id-test-1
 
 **Error:** _figures in appendices must have an @id in the format app0fig0. XXXXXX does not conform to this._
+
+**Action:** This error will appear __if an appendix figure has an ID in a format other than appXfigX \(where X is a number\). Exeter will need to fix this.
 
 #### app-fig-sup-id-test
 
 **Error:** _figure supplements in appendices must have an @id in the format app0fig0s0. XXXXXX does not conform to this._
 
+**Action:** This error will appear __if an appendix figure supplement __has an ID in a format other than appXfigXsX \(where X is a number\). Exeter will need to fix this.
+
 #### resp-fig-id-test
 
 **Error:** _fig in decision letter/author reponse must have @id in the format respfig0, or sa0fig0. XXXXXX does not conform to this._
+
+**Action:** This error will appear __if a figure in the decision letter or author response section has an ID in a format other than respfigX or saXfigX \(where X is a number\). Exeter will need to fix this.
 
 #### resp-fig-sup-id-test
 
 **Error:** _figure supplement in decision letter/author reponse must have @id in the format respfig0s0 or sa0fig0s0. XXXXXX does not conform to this._
 
+**Action:** This error will appear __if a figure __supplement in the decision letter or author response section has an ID in a format other than respfigXsX or saXfigXsX  \(where X is a number\). Exeter will need to fix this.
+
 #### fig-specific-test-1
 
 **Error:** _fig label contains 'supplement', but it does not have a @specific-use='child-fig'. If it is a figure supplement it needs the attribute, if it isn't then it cannot contain 'supplement' in the label._
+
+**Action:** This error will appear __if a figure label contains the word 'supplement' but doesn't have the attribute 'child-fig'. Check whether the figure should be a figure supplement - if so Exeter need to add the attribute. If it shouldn't be a supplement, the label will need to be updated.
 
 #### fig-label-test-1
 
@@ -579,25 +666,37 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 **Error:** _fig supplement is not a child of fig-group. This cannot be correct._
 
+**Action:** In the xml, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a figure __supplement is not wrapped within a fig-group element. This should be corrected by Exeter.
+
 #### fig-xref-conformity-1
 
 **Error:** _XXXXXX - figure citation does not contain any numbers which must be incorrect._
+
+**Action:** This error will appear if a figure citation does not include any numbers e.g. 'Figure A'. Compare with the original submission to see what the correct citation should be. Exeter may need to fix this.
 
 #### fig-xref-conformity-2
 
 **Error:** _XXXXXX - figure citation does not appear to link to the same place as the content of the citation suggests it should._
 
+**Action:** This error will appear if a figure citation links to a different figure from the citation text e.g. if Figure 2 links to Figure 3. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
+
 #### fig-xref-conformity-3
 
 **Warning:** _XXXXXX - figure citation does not appear to link to the same place as the content of the citation suggests it should._
+
+**Action:** This error will appear if a figure citation links to a different figure from the citation text e.g. if Figure 2 links to Figure 3. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
 
 #### fig-xref-conformity-4
 
 **Error:** _XXXXXX - figure citation links to a figure, but it contains the string 'supplement'. It cannot be correct._
 
+**Action:** This error will appear if the text of a figure citation includes 'supplement' but links to a main figure e.g. if Figure 1 - figure supplement 1 links to Figure 1. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
+
 #### fig-xref-conformity-5
 
 **Warning:** _figure citation stands alone, contains the text XXXXXX, and links to a figure supplement, but it does not contain the string 'supplement'. Is it correct? Preceding text - 'XXXXXX'_
+
+**Action:** This error will appear if the text of a figure citation includes 'supplement' but links to a main figure e.g. if Figure 1 - figure supplement 1 links to Figure 1. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
 
 #### fig-xref-conformity-6
 
