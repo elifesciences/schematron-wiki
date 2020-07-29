@@ -62,7 +62,7 @@ Where applicable, give links to related pages and external sites.
 
 ## Changelog
 
-After Exeter have fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent.
+After Exeter has fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent.
 
 ### dd/mm/yyyy
 
