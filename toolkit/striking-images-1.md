@@ -173,15 +173,17 @@ These images and any captions highlighted to us will need to be uploaded to the 
 
 ## Changelog
 
-After Exeter have fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent.
+After Exeter has fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent.
 
-**dd/mm/yyyy**
+### dd/mm/yyyy
 
-_Changes_
+#### Changes
 
-**dd/mm/yyyy**
+* 
+### dd/mm/yyyy
 
-_Changes_
+#### Changes
 
+* 
 
 
