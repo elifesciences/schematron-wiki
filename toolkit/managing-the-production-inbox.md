@@ -252,7 +252,7 @@ Every time an article with videos is sent to Continuum, we receive a processing 
 
 ### **XML notification emails**
 
-This email notifies us that articles have been exported. If they have an ‘0’ on the end, they relate to articles being exported for PoA. These can be closed. If they don’t, they relate to articles being loaded into Kriya. We need to check that it has loaded correctly before closing.
+This email notifies us that articles have been exported from eJP. If they have an ‘0’ on the end, they relate to articles being exported for PoA. These can be closed. If they don’t, they relate to articles being loaded into Kriya. We need to check that it has loaded correctly before closing.
 
 ![XML notification for articles exported for PoA](../.gitbook/assets/screenshot-2020-06-24-at-15.01.41.png)
 
