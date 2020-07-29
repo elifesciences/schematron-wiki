@@ -221,30 +221,6 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 **Action:** If the caption for a figure or figure supplement includes 'image credit', this message will appear. This information should be added in an &lt;attrib&gt; element \(see [**here**](untitled.md#attributions)\).
 
-#### fig-group-test-1
-
-**Error:** _fig-group must have one and only one main figure._
-
-**Action:** In the xml, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a fig-group element has more than one or no main figures. Double check which main figure should be present in this fig-group and correct accordingly \(Exeter will need to fix this\).
-
-#### fig-group-test-2
-
-**Error:** _fig-group does not contain a figure supplement or a figure-level video, which must be incorrect._
-
-**Action:** In the xml, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a fig-group element has no figure supplements or figure-level videos. Double check whether the figure does indeed have no linked figure supplements or videos - if so this element should be removed by Exeter. If the figure should have figure supplements or videos, Exeter will need to add these to the fig-group.
-
-#### fig-group-child-test-1
-
-**Error:** _XXXXXX_ _is not allowed as a child of fig-group._
-
-**Action:** ???
-
-#### fig-group-child-test-2
-
-**Error:** _which is a child of fig-group, must have an @mimetype='video' - i.e. only video type media is allowed as a child of fig-group._
-
-**Action:** ???
-
 #### fig-test-2
 
 **Error:** _fig must have a @position._
@@ -595,6 +571,30 @@ If this warning appears at post-author stages, the author will need to be asked 
 ### XML structure checks
 
 These checks relate to the XML structure of figures and figure supplements. ‌X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see [**below**](untitled.md#xml-structure).
+
+#### fig-group-test-1
+
+**Error:** _fig-group must have one and only one main figure._
+
+**Action:** In the xml, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a fig-group element has more than one or no main figures. Double check which main figure should be present in this fig-group and correct accordingly \(Exeter will need to fix this\).
+
+#### fig-group-test-2
+
+**Error:** _fig-group does not contain a figure supplement or a figure-level video, which must be incorrect._
+
+**Action:** In the xml, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a fig-group element has no figure supplements or figure-level videos. Double check whether the figure does indeed have no linked figure supplements or videos - if so this element should be removed by Exeter. If the figure should have figure supplements or videos, Exeter will need to add these to the fig-group.
+
+#### fig-group-child-test-1
+
+**Error:** _XXXXXX_ _is not allowed as a child of fig-group._
+
+**Action:** ???
+
+#### fig-group-child-test-2
+
+**Error:** _which is a child of fig-group, must have an @mimetype='video' - i.e. only video type media is allowed as a child of fig-group._
+
+**Action:** ???
 
 #### fig-id-test-1
 
