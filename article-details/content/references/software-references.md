@@ -24,11 +24,11 @@ The following information can be added for software references:
 | Collaboration | Yes \(or authors must be entered instead\) | &lt;person-group person-group-type="author"&gt; &lt;collab&gt; | R Development Core Team |
 | Year | Yes | &lt;year iso-8601-date="XXXXXX"&gt; where XXXXXX is the year | 2020 |
 | Software title | Yes | &lt;data-title&gt; | R: A Language and Environment for Statistical Computing |
-| Source | No | &lt;source&gt; | GitHub |
+| Source | Yes \(or Publisher must be entered instead\) | &lt;source&gt; | GitHub |
 | Software version | No | &lt;version designator="XXXXXX"&gt; where XXXXXX is the version | 3.1.0 |
 | Publisher city | No | &lt;publisher-loc&gt; | Vienna |
 | Publisher country | No | &lt;publisher-loc&gt; | Austria |
-| Publisher | No | &lt;publisher-name&gt; | Microsoft |
+| Publisher | Yes \(or Source must be entered instead\) | &lt;publisher-name&gt; | Microsoft |
 | Website | No | &lt;ext-link ext-link-type="uri" xlink:href="XXXXXX"&gt; where XXXXXX is the URL | [http://doi.org/10.6084/m9.figshare.4742866.v1](http://doi.org/10.6084/m9.figshare.4742866.v1) |
 
 Where the optional information is available, this should also be added in. 
@@ -37,10 +37,10 @@ Where the optional information is available, this should also be added in.
 * **Collaboration:** If the software was made by a team this should be entered as a collaboration instead of authors ****e.g. ****R Development Core Team.
 * **Year**: This should be the year that the software being cited was released. 
 * **Software title**: The name of the software.
-* **Source**: Where the software is hosted \(this does not necessarily mean they own the software\).
+* **Source**: Where the software is hosted \(this does not necessarily mean they own the software\), if applicable.
 * **Software version:** The version of software that was used. This is often mentioned in the article text - if it is not, it does not need to be added in.
 * **Publisher location:** The location of the publishers of the software. This is separated into city and country fields in Kriya.
-* **Publisher**: The company or organisation that created the software and has ownership rights over it.
+* **Publisher**: The company or organisation that created the software and has ownership rights over it, if applicable.
 * **Website**: Some software providers add DOIs for their software. These need to be added as a full DOI links instead of just the DOI.
 
 If the authors have provided the RRID for a software, this does not need to be added as a software reference. Otherwise, if any of the mandatory information for a reference cannot easily be found from what the authors have provided in text, please leave the following author query, deleting as appropriate the information that has already been provided:
@@ -105,7 +105,7 @@ If authors refer to software packages, these will also need to be cited properly
 
 > Modelling was executed in the R environment \(R Development Core Team, 2019\) using the biomod2 package \(version 3.3-7.1\)
 
-Looking up [biomod2](https://cran.r-project.org/web/packages/biomod2/index.html) shows this is a package for R. The information from the CRAN website where this is hosted can be entered as below:
+Looking up [**biomod2**](https://cran.r-project.org/web/packages/biomod2/index.html) shows this is a package for R. The information from the CRAN website where this is hosted can be entered as below:
 
 | Fields | Values |
 | :--- | :--- |
@@ -130,7 +130,7 @@ Any mentions of tools or packages that were used for analysing data or generatin
 
 * eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list. Alternatively, please provide the RRID and version number for this software.
 
-![All the software here needs to be added as software references and cited properly](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17.png)
+![All software here should be added as software references and cited properly](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17%20%281%29.png)
 
 ![The software here do not need software references as they already have RRIDs](../../../.gitbook/assets/screenshot-2020-05-01-at-16.32.22.png)
 
@@ -180,7 +180,7 @@ These will need to be updated:
 
 **Warning**: _web ref 'XXXXXX' has a link which contains 'github', therefore it should almost certainly be captured as a software ref \(unless it's a blog post by GitHub\)._
 
-**Action:** This warning will fire if a website reference contains the word ‘github’. If the link is to a repository on GitHub, this reference needs to be changed from a website to a software reference and the fields should be updated appropriately \(see [above](software-references.md#how-to-add-a-software-reference)\). In the example below, a repository is incorrectly captured as a website reference: 
+**Action:** This warning will fire if a website reference contains the word ‘github’. If the link is to a repository on GitHub, this reference needs to be changed from a website to a software reference and the fields should be updated appropriately \(see [**above**](software-references.md#how-to-add-a-software-reference)\). In the example below, a repository is incorrectly captured as a website reference: 
 
 ![A software reference incorrectly captured as a website reference](../../../.gitbook/assets/screenshot-2020-05-27-at-11.37.44.png)
 
