@@ -27,21 +27,22 @@ The following checks should be carried out in addition to acting on any warnings
 
 ### Content page
 
-1. Check that all videos play.
-2. Check that the supplementary file and video download links work correctly.
-3. Source code files should be zipped and re-uploaded if they are not zipped already, so that the original file name exported from the submission system is retained.
-4. Double check the tables and raise a query if the colours given in the table are against the eLife style.
-5. If a figure file consists of [**more than one page**](../article-details/content/allowed-assets/untitled.md#multi-page-files)**,** the author must be asked to provide a single-page version, or to split it into multiple figures. Please contact the eLife Production team who will email the authors to ask how they would like to proceed.
-6. If the file for an asset is missing, please query the author for the missing file.
-7. Make sure that all files in the export package have been typeset, even if a title/legend is missing. Query the author for any missing titles.
-8. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [**Journal references**](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
-9. For Insight articles:
-   * The details in the key information box should match those of the related article\(s\).
-   * The DOI for the related article\(s\) in the key information box should be correct.
-   * References to the related eLife article\(s\) must have both an e-location ID and a DOI.
-10. RRIDs and PMIDs mentioned in the text should be hyperlinked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
-11. Check the Acknowledgements \(`<ack>`\) section for author funding that is not already listed in the funding section. Ignore [**third party funders**](../article-details/content/funding-information.md#third-party-funding-vs-funding-to-authors). Any funding information not already in the funding section should be added to the funding table \(see [**Funding**](../article-details/content/funding-information.md#acknowledgements-section) for more information\).
-12. Footnotes to the main text are not allowed. Any such footnotes should be incorporated as a bracketed statement at the point where they are cited in the text. An author query should be added to confirm this is acceptable:
+1. Check for any production notes that have been sent through from the submission system. Act on any instructions provided.
+2. Check that all videos play.
+3. Check that the supplementary file and video download links work correctly.
+4. Source code files should be zipped and re-uploaded if they are not zipped already, so that the original file name exported from the submission system is retained.
+5. Double check the tables and raise a query if the colours given in the table are against the eLife style.
+6. If a figure file consists of [**more than one page**](../article-details/content/allowed-assets/untitled.md#multi-page-files)**,** the author must be asked to provide a single-page version, or to split it into multiple figures. Please contact the eLife Production team who will email the authors to ask how they would like to proceed.
+7. If the file for an asset is missing, please query the author for the missing file.
+8. Make sure that all files in the export package have been typeset, even if a title/legend is missing. Query the author for any missing titles.
+9. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [**Journal references**](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
+10. For Insight articles:
+    * The details in the key information box should match those of the related article\(s\).
+    * The DOI for the related article\(s\) in the key information box should be correct.
+    * References to the related eLife article\(s\) must have both an e-location ID and a DOI.
+11. RRIDs and PMIDs mentioned in the text should be hyperlinked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
+12. Check the Acknowledgements \(`<ack>`\) section for author funding that is not already listed in the funding section. Ignore [**third party funders**](../article-details/content/funding-information.md#third-party-funding-vs-funding-to-authors). Any funding information not already in the funding section should be added to the funding table \(see [**Funding**](../article-details/content/funding-information.md#acknowledgements-section) for more information\).
+13. Footnotes to the main text are not allowed. Any such footnotes should be incorporated as a bracketed statement at the point where they are cited in the text. An author query should be added to confirm this is acceptable:
     * "As eLife does not support footnotes to the main text, we have integrated this note into the text at the point it was cited. Please confirm this is acceptable."
 
 ### PDFs
