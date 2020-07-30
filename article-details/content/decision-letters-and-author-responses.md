@@ -20,11 +20,11 @@ For the purposes of the production workflow, they are typically quite simple pie
 
 An Author Response is a formal response to the Decision Letter by the authors of a paper. As with Decision Letters, they can contain various types of information including, for example, rebuttals to criticism or requests, clarifications on the choice of method\(s\) or terminology, and thanks for pointing out omissions, oversights, inaccuracies etc.
 
-Typically they are relatively simple, although often more complex than the Decision Letter. They will always contain quotes taken from the Decision Letter, commonly contain figures, and in rare instances may contain tables and/or videos.
+Typically they are relatively simple, although often more complex than the Decision Letter. They will always contain quotes taken from the Decision Letter, will commonly contain figures, and in rare instances may contain tables and/or videos.
 
 ## How are DLs and ARs created?
 
-DLs and ARs are collated from the peer review correspondence as indicated above. The eLife Editorial team \(Ed Office\) collate this content into one Word file. Each Word file contains both the Decision Letter and Author Response \(provided there are both, which is typical for any research article\).
+DLs and ARs are collated from the peer review correspondence as indicated above. The eLife Editorial team \(Ed Office\) collate this content \(which may have originally been taken from various sources, e.g. emails, PDFs etc.\) into one Word file. Each Word file contains both the Decision Letter and Author Response \(provided there _are_ both, which is typical for any research article\).
 
 A Macro is run on the content which normalises the content \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This is then QC'd by Ed Office, before then being QC'd by the eLife Editorial team.
 
