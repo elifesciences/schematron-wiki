@@ -40,6 +40,8 @@ Any figures are automatically included in the article in Kriya \(due to them bei
 
 ## DL Word markup for JATS parsing
 
+\[To be filled out once the Kitchen Sink word file has been created.\]
+
 ## DL workflow
 
 eLife production will be made aware of any Decision Letters being loaded by an automated email appearing in the Production Inbox. Certain actions may be required depending on whether the email indicates that the DL was posted successfully or not \(see also [**Decision letter loading**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading) for more information on how to handle this email\). In the event that a Decision Letter contains Author response videos, Editorial will inform Production prior to uploading, see [**below**](decision-letters-and-author-responses.md#dl-with-author-response-videos) on what to do when this occurs workflow. 
