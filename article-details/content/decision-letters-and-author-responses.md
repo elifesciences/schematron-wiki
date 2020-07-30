@@ -785,7 +785,7 @@ In order to determine which of these is the case, Exeter should check the output
 
 **Error**: _Second contrib-group in decision letter contains a contrib which is not marked up as a reviewer \(contrib\[@contrib-type='reviewer'\]\)._
 
-**Action**: 
+**Action**: The second `<contrib-group>` element in a decision letter should contain the details for Reviewers only. Reviewers are captured as `<contrib contrib-type='reviewer'>` elements. This error indicates that there is another kind of contributor in the second `<contrib-group>`. Either a Reviewer has been incorrectly captured, or a Reviewing Editor has been included in the incorrect location in the XML. Check the details in eJP to determine which is the case. Exeter should then correct this in the XML.
 
 #### reply-disp-quote-test-1
 
