@@ -737,25 +737,25 @@ In order to determine which of these is the case, Exeter should check the output
 
 **Error**: _1st sub-article must be the decision letter. 2nd sub-article must be the author response._
 
-**Action**: This test will fire if the first `<sub-article>` does not have the attribute `article-type='decision-letter'` or if any subsequent `<sub-article>` does not have the attribute `article-type='reply'`. It indicates that something has gone wrong with the processing of the Decision Letter/Author Response. It will likely need correcting by Exeter, and possibly raising with the developer responsible for the decision-letter-parser.
+**Action**: This test will fire if the first `<sub-article>` does not have the attribute `article-type='decision-letter'` or if any subsequent `<sub-article>` does not have the attribute `article-type='reply'`. It indicates that something has gone wrong with the processing of the Decision Letter/Author Response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reply-test-2
 
 **Error**: _sub-article id must be in the format 'sa0', where '0' is it's position \(1 or 2\)._
 
-**Action**: This test will fire if the id for a `<sub-article>` is not in the format `sa1` __or __`sa2` , and indicates that something has gone wrong with the processing of the Decision Letter/Author Response. It will likely need correcting by Exeter, and possibly raising with the developer responsible for the decision-letter-parser.
+**Action**: This test will fire if the id for a `<sub-article>` is not in the format `sa1` __or __`sa2` , and indicates that something has gone wrong with the processing of the Decision Letter/Author Response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reply-test-3
 
 **Error**: _sub-article contain one and only one front-stub._
 
-**Action**: This test will fire if a `<sub-article>` has none or more than one `<front-stub>` element, and indicates that something has gone wrong with the processing of the Decision Letter/Author Response. It will likely need correcting by Exeter, and possibly raising with the developer responsible for the decision-letter-parser.
+**Action**: This test will fire if a `<sub-article>` has none or more than one `<front-stub>` element, and indicates that something has gone wrong with the processing of the Decision Letter/Author Response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reply-test-4
 
 **Error**: _sub-article contain one and only one body._
 
-**Action**: This test will fire if a `<sub-article>` has none or more than one `<body>` element, and indicates that something has gone wrong with the processing of the Decision Letter/Author Response. It will likely need correcting by Exeter, and possibly raising with the developer responsible for the decision-letter-parser.
+**Action**: This test will fire if a `<sub-article>` has none or more than one `<body>` element, and indicates that something has gone wrong with the processing of the Decision Letter/Author Response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-editor-test-2
 
@@ -767,13 +767,13 @@ In order to determine which of these is the case, Exeter should check the output
 
 **Error**: _decision letter front-stub must contain at least 1 contrib-group element._
 
-**Action**: This test will fire if the `<front-stub>` in  a `<sub-article>` does not contain a `<contrib-group>` element \(the container for reviewing editors and reviewers\), and indicates that either this information is entirely missing or that something has gone wrong with the processing of the Decision Letter/Author Response. eLife Production should check the details for this article in eJP. If there is information for these contributors then they can be added in by Exeter, and the problem may possibly need raising with the developer responsible for the decision-letter-parser. If there is no information, then the eLife Editorial team should be queried in order to find it out.
+**Action**: This test will fire if the `<front-stub>` in  a `<sub-article>` does not contain a `<contrib-group>` element \(the container for reviewing editors and reviewers\), and indicates that either this information is entirely missing or that something has gone wrong with the processing of the Decision Letter/Author Response. eLife Production should check the details for this article in eJP. If there is information for these contributors then they can be added in by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser. If there is no information, then the eLife Editorial team should be queried in order to find it out.
 
 #### dec-letter-front-test-3
 
 **Error**: _decision letter front-stub contains more than 2 contrib-group elements._
 
-**Action**: This test will fire if the `<front-stub>` in  a `<sub-article>` has more than two `<contrib-group>` elements \(the container for reviewing editors and reviewers\), and indicates that something has gone wrong with the processing of the Decision Letter/Author Response. It will likely need correcting by Exeter, and possibly raising with the developer responsible for the decision-letter-parser.
+**Action**: This test will fire if the `<front-stub>` in  a `<sub-article>` has more than two `<contrib-group>` elements \(the container for reviewing editors and reviewers\), and indicates that something has gone wrong with the processing of the Decision Letter/Author Response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reviewer-test-1
 
