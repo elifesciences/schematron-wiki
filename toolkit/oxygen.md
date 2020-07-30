@@ -32,7 +32,7 @@ description: XML editor
 
 ![](../.gitbook/assets/screenshot-2020-07-27-at-13.57.00.png)
 
-        9. Click the folder symbol next to the URL field, navigate to and select the Schematron file which you would like to set up the validation scenario for \(either `pre-JATS-schematron.sch` or `final-JATS-schematron.sch`\):
+        9. Click the folder symbol next to the URL field, navigate to and select the Schematron file which you would like to set up the validation scenario for \(either `pre-JATS-schematron.sch` or `final-JATS-schematron.sch`; you will find these files in the folder where you cloned the GitHub repo\):
 
 ![](../.gitbook/assets/screenshot-2020-07-27-at-14.03.30.png)
 
@@ -90,7 +90,7 @@ You have now created a validation scenario. You can then run this scenario on nu
 
 ## Useful keyboard shortcuts and tips
 
-### Keyboard shortcuts
+### \(Mac\) Keyboard shortcuts
 
 * Use cmd + shift + y to wrap text into one screen \(no horizontal scrolling is then needed\), this adds no whitespace.
 * Use cmd + shift + w to check if an XML file is well formed.
