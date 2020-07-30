@@ -165,31 +165,25 @@ In order to determine which of these is the case, Exeter should check the output
 
 **Error**: _author response doesn't contain a disp-quote. This has to be incorrect._
 
-**Action**: 
+**Action**: disp-quote is the element which holds quotations. In the Author Response, these will be quotations from the Decision Letter. Every Author Response will have some kind of quotation from the Decision Letter, so if this fires, it means that there is 1 or more quotations in the Author Response which are missing this tagging. In the original document, quotations are supplied in italics, so scan the Author Response for any paragraph\(s\) entirely in italics, un-italicise them and mark them as display quotes in Kriya.
 
 #### reply-body-test-2
 
 **Error**: _author response doesn't contain a p. This has to be incorrect._
 
-**Action**: 
-
-#### reply-disp-quote-test-1
-
-**Warning**: _disp-quote in author reply does not have @content-type='editor-comment'. This is almost certainly incorrect._
-
-**Action**: 
+**Action**: This warning indicates that there is either no content in the Author Response, or that the content has been captured incorrectly. If the content is missing, eLife Production should check the original word document to see if it's also missing from there \(if it is, query with Editorial\). If there is content in the original, add this content into Kriya. If there is content present in Kriya, this means that something has gone wrong with the XML generation and Exeter will have to fix this.
 
 #### reply-missing-disp-quote-test-1
 
 **Warning**: _para in author response is entirely in italics, but not in a display quote. Is this a quote which has been processed incorrectly?_
 
-**Action**: 
+**Action**: In the original word document \(which the XML is generated from\) quotations in the Author response are captured entirely in italics \(as an indicator that they are quotations\). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision Letter quote since the content, in part or in its entirety, will also be present in the Decision Letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya.
 
 #### reply-missing-disp-quote-test-2
 
 **Warning**: _A long piece of text is in italics in an Author response paragraph. Should it be captured as a display quote in a separate paragraph? 'XXXXXX' in 'XXXXXX'_
 
-**Action**: 
+**Action**: In the original word document \(which the XML is generated from\) quotations in the Author response are captured entirely in italics \(as an indicator that they are quotations\). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision Letter quote since the content, in part or in its entirety, will also be present in the Decision Letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya.
 
 **unicode-test-1**
 
@@ -792,6 +786,12 @@ In order to determine which of these is the case, Exeter should check the output
 **Error**: _Second contrib-group in decision letter contains a contrib which is not marked up as a reviewer \(contrib\[@contrib-type='reviewer'\]\)._
 
 **Action**: 
+
+#### reply-disp-quote-test-1
+
+**Warning**: _disp-quote in author reply does not have @content-type='editor-comment'. This is almost certainly incorrect._
+
+**Action**: Every disp-quote element in the Author Response which is quoting the Decision Letter must have the attribute _@content-type='editor-comment'_. It is very rare for other types of quotes to be present and marked up. If it is a quotation from the Decision Letter, then Exeter will need to fix this issue.
 
 ## XML structure
 
