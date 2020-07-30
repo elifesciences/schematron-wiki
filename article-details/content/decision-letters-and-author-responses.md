@@ -8,15 +8,19 @@ description: eLife's published peer review material
 
 * Both a Decision Letter and Author response are present prior to publication \(an Author response may not be included in very rare cases, but this is not the norm\).
 * All Figures, Tables, and Videos display as expected.
-* There are no Schematron message relating to the incorrect capture of content in the DL or AR.
+* There are no unaddressed Schematron messages relating to the incorrect capture of content in the DL or AR.
 
 ## What is a Decision letter?
 
+The Decision Letter is a collation of the Peer Review correspondence sent to the authors of a paper that has been accepted for publication by eLife. As such they could contain various information, including but not limited to, mandatory and non-mandatory requests for revisions, request\(s\) for further experimentation or analysis, conformance to house style, and general comments of the importance, novelty etc. of the research which is communicated in an article.
 
+For the purposes of the production workflow, they are typically quite simple pieces of content, made up of just paragraphs of text, however in rare instances, they can contain more complex items such as Figures, tables and videos.
 
 ## What is an Author Response?
 
+An Author Response is a formal response to the Decision Letter by the authors of a paper. As with Decision Letters, they can contain various types of information including, for example, rebuttals to criticism or requests, clarifications on the choice of method\(s\) or terminology, and thanks for pointing out omissions, oversights, inaccuracies etc.
 
+Typically they are relatively simple, although often more complex than the Decision Letter. They will always contain quotes taken from the Decision Letter, commonly contain figures, and in rare instances may contain tables and/or videos.
 
 ## How are DLs and ARs created?
 
