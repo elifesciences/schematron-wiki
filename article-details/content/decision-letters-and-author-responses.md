@@ -94,7 +94,7 @@ The following tests are run on Decision Letters and Author responses.
 
 **Error**: _sub-article front-stub must contain article-id\[@pub-id-type='doi'\]._
 
-**Action**: This will fire if a Decision letter or Author response does not contain a doi. Exeter will need to correct this problem when it arises. 
+**Action**: This will fire if a Decision letter does not contain a doi. Exeter will need to correct this problem when it arises. For legacy content \(new versions\), the pre-existing doi should be used. For new content these are always in the format 10.7554/eLife.{article-number}.sa1.
 
 #### dec-letter-front-test-4
 
@@ -147,19 +147,19 @@ In order to determine which of these is the case, Exeter should check the output
 
 **Error**: _First child element in decision letter is not boxed-text. This is certainly incorrect._
 
-**Action**: 
+**Action**: The first piece of text in a decision letter is an explanation of what it is, for example 'In the interests of transparency, eLife publishes the most substantive revision requests and the accompanying author responses.'. These need to be placed in a boxed-text element. If this error fires, it means that either that content is entirely missing, or that it is not placed in boxed-text. In the former case, the eLife production team should contact the eLife Editorial team to get the correct wording. In the latter, Exeter will need to correct the capture of the text.
 
 #### dec-letter-body-test-2
 
 **Error**: _The text 'Review Commons' in 'XXXXXX' must contain an embedded link pointing to https://www.reviewcommons.org/._
 
-**Action**: 
+**Action**: If a paper was reviewed by Review Commons then there will be a statement to this effect in the decision letter \(it will essentially be the only content in the decision letter\). As the message suggests, the link should be embedded in the text 'Review Commons'.
 
 #### reply-front-test-1
 
 **Error**: _sub-article front-stub must contain article-id\[@pub-id-type='doi'\]._
 
-**Action**: 
+**Action**: This will fire if an Author Response does not contain a doi. Exeter will need to correct this problem when it arises. For legacy content \(new versions\), the pre-existing doi should be used. For new content these are always in the format 10.7554/eLife.{article-number}.sa2.
 
 #### reply-body-test-1
 
