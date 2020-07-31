@@ -70,9 +70,11 @@ Videos need to manually uploaded by Exeter to the Glencoe FTP in order for them 
 
 See below for the workflow:
 
-![https://docs.google.com/drawings/d/1mN7lHDMwa2CWaMSoR8q1xHiuvDzY3y3iOGdG9UKUVTc/edit](../../.gitbook/assets/video-dl-workflow%20%281%29.jpg)
+![https://docs.google.com/drawings/d/1mN7lHDMwa2CWaMSoR8q1xHiuvDzY3y3iOGdG9UKUVTc/edit](../../.gitbook/assets/video-dl-workflow.jpg)
 
 \[**`For review`** - edit the above image [**here**](https://docs.google.com/drawings/d/1mN7lHDMwa2CWaMSoR8q1xHiuvDzY3y3iOGdG9UKUVTc/edit?usp=sharing)\]
+
+
 
 ## Schematron checks
 
