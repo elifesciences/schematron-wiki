@@ -62,9 +62,17 @@ The email in the Production Inbox will look something like the following:
 
 There are numerous reasons why a Decision letter might fail.
 
-### DL with Author response videos
+\[Question for review - where should these be outlined? They are already explained in detail [**here**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading). Should they be here instead? In Both places? Or should we just link to [**here**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading)?\]
+
+### Decision letters/Author responses with videos
 
 Videos need to manually uploaded by Exeter to the Glencoe FTP in order for them to display in the proofing system, and on the website when published. This means that the normal workflow cannot be followed, as it requires a manual action on Exeter's part.
+
+See below for the workflow:
+
+![https://docs.google.com/drawings/d/1mN7lHDMwa2CWaMSoR8q1xHiuvDzY3y3iOGdG9UKUVTc/edit](../../.gitbook/assets/video-dl-workflow%20%281%29.jpg)
+
+\[**`For review`** - edit the above image [**here**](https://docs.google.com/drawings/d/1mN7lHDMwa2CWaMSoR8q1xHiuvDzY3y3iOGdG9UKUVTc/edit?usp=sharing)\]
 
 ## Schematron checks
 
