@@ -26,15 +26,15 @@ Typically they are relatively simple, although often more complex than the Decis
 
 Decision letters and Author responses are collated from the peer review correspondence as indicated above. The eLife Editorial team \(Ed Office\) collate this content \(which may have originally been taken from various sources, e.g. emails, PDFs etc.\) into one Word file. Each Word file contains both the Decision letter and Author response \(provided there _are_ both, which is typical for any research article\).
 
-A Macro is run on the content which normalises the it \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This is then QC'd by Ed Office, before then being QC'd by the eLife Editorial team.
+A Macro is run on the content which normalises the it \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This resultant word document is then QC'd by Ed Office, before then being QC'd by the eLife Editorial team.
 
 ## How are Decision letters and Author responses loaded?
 
-The word document containing both the Decision letter and AR, and any accompanying assets are zipped up, and placed in the `elife/decision-letter-input` AWS bucket by the eLife Editorial team.
+The word document containing both the Decision letter and Author response, and any accompanying assets are zipped up, and placed in the `elife/decision-letter-input` AWS bucket by the eLife Editorial team.
 
 At this point the eLife bot will notice the zip and process the content in order to send it to Kriya.
 
-Any assets are placed on an FTP for Exeter to download when processing the Decision letter. The Word document is parsed as JATS \(using the [decision-letter-parser](https://github.com/elifesciences/decision-letter-parser)\), and posted via API to Kriya, where it is ingested in the accompanying article.
+Any assets \(such as figures, and videos\) are placed on an FTP for Exeter to download when processing the Decision letter. The Word document is parsed as JATS \(using the [decision-letter-parser](https://github.com/elifesciences/decision-letter-parser)\), and posted via API to Kriya, where it is ingested in the accompanying article.
 
 Any figures are automatically included in the article in Kriya \(due to them being placed on the FTP\). However, any videos will need to be processed manually, since they require uploading to the Glencoe FTP, along with accompanying requisite metadata.
 
