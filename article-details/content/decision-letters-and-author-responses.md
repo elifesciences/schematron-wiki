@@ -6,35 +6,35 @@ description: eLife's published peer review material
 
 ## What needs to be checked?
 
-* Both a Decision Letter and Author response are present prior to publication \(an Author response may not be included in very rare cases, but this is not the norm\).
+* Both a Decision letter and Author response are present prior to publication \(an Author response may not be included in very rare cases, but this is not the norm\).
 * All Figures, Tables, and Videos display as expected.
-* There are no unaddressed Schematron messages relating to the incorrect capture of content in the DL or AR.
+* There are no unaddressed Schematron messages relating to the incorrect capture of content in the Decision letter or AR.
 
-## What is a Decision Letter?
+## What is a Decision letter?
 
-The Decision Letter is a collation of the Peer Review correspondence sent to the authors of a paper that has been accepted for publication by eLife. As such they could contain various information, including but not limited to, mandatory and non-mandatory requests for revisions, request\(s\) for further experimentation or analysis, conformance to house style, and general comments of the importance, novelty etc. of the research which is communicated in an article.
+The Decision letter is a collation of the Peer Review correspondence sent to the authors of a paper that has been accepted for publication by eLife. As such they could contain various information, including but not limited to, mandatory and non-mandatory requests for revisions, request\(s\) for further experimentation or analysis, conformance to house style, and general comments of the importance, novelty etc. of the research which is communicated in an article.
 
 For the purposes of the production workflow, they are typically quite simple pieces of content, made up of just paragraphs of text, however in rare instances, they can contain more complex items such as figures, tables and videos.
 
-## What is an Author Response?
+## What is an Author response?
 
-An Author Response is a formal response to the Decision Letter by the authors of a paper. As with Decision Letters, they can contain various types of information including, for example, rebuttals to criticism or requests, clarifications on the choice of method\(s\) or terminology, and thanks for pointing out omissions, oversights, inaccuracies etc.
+An Author response is a formal response to the Decision letter by the authors of a paper. As with Decision letter, they can contain various types of information including, for example, rebuttals to criticism or requests, clarifications on the choice of method\(s\) or terminology, and thanks for pointing out omissions, oversights, inaccuracies etc.
 
-Typically they are relatively simple, although often more complex than the Decision Letter. They will always contain quotes taken from the Decision Letter, will commonly contain figures, and in rare instances may contain tables and/or videos.
+Typically they are relatively simple, although often more complex than the Decision letter. They will always contain quotes taken from the Decision letter, will commonly contain figures, and in rare instances may contain tables and/or videos.
 
-## How are DLs and ARs created?
+## How are Decision letters and Author responses created?
 
-DLs and ARs are collated from the peer review correspondence as indicated above. The eLife Editorial team \(Ed Office\) collate this content \(which may have originally been taken from various sources, e.g. emails, PDFs etc.\) into one Word file. Each Word file contains both the Decision Letter and Author Response \(provided there _are_ both, which is typical for any research article\).
+Decision letters and Author responses are collated from the peer review correspondence as indicated above. The eLife Editorial team \(Ed Office\) collate this content \(which may have originally been taken from various sources, e.g. emails, PDFs etc.\) into one Word file. Each Word file contains both the Decision letter and Author response \(provided there _are_ both, which is typical for any research article\).
 
 A Macro is run on the content which normalises the it \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This is then QC'd by Ed Office, before then being QC'd by the eLife Editorial team.
 
-## How are DLs and ARs loaded?
+## How are Decision letters and Author responses loaded?
 
-The word document containing both the DL and AR, and any accompanying assets are zipped up, and placed in the `elife/decision-letter-input` AWS bucket by the eLife Editorial team.
+The word document containing both the Decision letter and AR, and any accompanying assets are zipped up, and placed in the `elife/decision-letter-input` AWS bucket by the eLife Editorial team.
 
 At this point the eLife bot will notice the zip and process the content in order to send it to Kriya.
 
-Any assets are placed on an FTP for Exeter to download when processing the DL. The Word document is parsed as JATS \(using the [decision-letter-parser](https://github.com/elifesciences/decision-letter-parser)\), and posted via API to Kriya, where it is ingested in the accompanying article.
+Any assets are placed on an FTP for Exeter to download when processing the Decision letter. The Word document is parsed as JATS \(using the [decision-letter-parser](https://github.com/elifesciences/decision-letter-parser)\), and posted via API to Kriya, where it is ingested in the accompanying article.
 
 Any figures are automatically included in the article in Kriya \(due to them being placed on the FTP\). However, any videos will need to be processed manually, since they require uploading to the Glencoe FTP, along with accompanying requisite metadata.
 
@@ -44,23 +44,23 @@ Any figures are automatically included in the article in Kriya \(due to them bei
 
 ## DL workflow
 
-eLife production will be made aware of any Decision Letters being loaded by an automated email appearing in the Production Inbox. Certain actions may be required depending on whether the email indicates that the DL was posted successfully or not \(see also [**Decision letter loading**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading) for more information on how to handle this email\). In the event that a Decision Letter contains Author response videos, Editorial will inform Production prior to uploading, see [**below**](decision-letters-and-author-responses.md#dl-with-author-response-videos) on what to do when this occurs workflow. 
+eLife production will be made aware of any Decision letters being loaded by an automated email appearing in the Production Inbox. Certain actions may be required depending on whether the email indicates that the Decision Letter was posted successfully or not \(see also [**Decision letter loading**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading) for more information on how to handle this email\). In the event that a Decision letter contains Author response videos, Editorial will inform Production prior to uploading, see [**below**](decision-letters-and-author-responses.md#dl-with-author-response-videos) on what to do when this occurs workflow. 
 
-### The DL was posted successfully
+### The Decision letter was posted successfully
 
-The state of the article in Kriya will determine what stage it should proceed to, or not, as the case may be. See the below workflow diagram for successful Decision Letter emails. \[Note that [**a separate workflow**](decision-letters-and-author-responses.md#dl-with-author-response-videos) is required if a Decision Letter contains Author response videos.\]
+The state of the article in Kriya will determine what stage it should proceed to, or not, as the case may be. See the below workflow diagram for successful Decision letter emails. \[Note that [**a separate workflow**](decision-letters-and-author-responses.md#dl-with-author-response-videos) is required if a Decision letter contains Author response videos.\]
 
 ![https://docs.google.com/drawings/d/16Q4mvzujVITy10nbAjmZTdH6CHO-4E4k5QBKrXolXyI/edit](../../.gitbook/assets/dl-workflow%20%281%29.svg)
 
 \[**`For Review`** - edit the above image [**here**](https://docs.google.com/drawings/d/16Q4mvzujVITy10nbAjmZTdH6CHO-4E4k5QBKrXolXyI/edit).\]
 
-### The DL was not posted successfully
+### The Decision letter was not posted successfully
 
 The email in the Production Inbox will look something like the following:
 
-![An example of a Decision Letter failure email](../../.gitbook/assets/screenshot-2020-07-20-at-17.26.28.png)
+![An example of a Decision letter failure email](../../.gitbook/assets/screenshot-2020-07-20-at-17.26.28.png)
 
-There are numerous reasons why a Decision Letter might fail.
+There are numerous reasons why a Decision letter might fail.
 
 ### DL with Author response videos
 
@@ -165,31 +165,31 @@ In order to determine which of these is the case, Exeter should check the output
 
 **Error**: _sub-article front-stub must contain article-id\[@pub-id-type='doi'\]._
 
-**Action**: This will fire if an Author Response does not contain a doi. Exeter will need to correct this problem when it arises. For legacy content \(new versions\), the pre-existing doi should be used. For new content these are always in the format 10.7554/eLife.{article-number}.sa2.
+**Action**: This will fire if an Author response does not contain a doi. Exeter will need to correct this problem when it arises. For legacy content \(new versions\), the pre-existing doi should be used. For new content these are always in the format 10.7554/eLife.{article-number}.sa2.
 
 #### reply-body-test-1
 
 **Error**: _author response doesn't contain a disp-quote. This has to be incorrect._
 
-**Action**: disp-quote is the element which holds quotations. In the Author Response, these will be quotations from the Decision Letter. Every Author Response will have some kind of quotation from the Decision Letter, so if this fires, it means that there is 1 or more quotations in the Author Response which are missing this tagging. In the original document, quotations are supplied in italics, so scan the Author Response for any paragraph\(s\) entirely in italics, un-italicise them and mark them as display quotes in Kriya.
+**Action**: disp-quote is the element which holds quotations. In the Author response, these will be quotations from the Decision letter. Every Author response will have some kind of quotation from the Decision letter, so if this fires, it means that there is 1 or more quotations in the Author response which are missing this tagging. In the original document, quotations are supplied in italics, so scan the Author response for any paragraph\(s\) entirely in italics, un-italicise them and mark them as display quotes in Kriya.
 
 #### reply-body-test-2
 
 **Error**: _author response doesn't contain a p. This has to be incorrect._
 
-**Action**: This warning indicates that there is either no content in the Author Response, or that the content has been captured incorrectly. If the content is missing, eLife Production should check the original word document to see if it's also missing from there \(if it is, query with Editorial\). If there is content in the original, add this content into Kriya. If there is content present in Kriya, this means that something has gone wrong with the XML generation and Exeter will have to fix this.
+**Action**: This warning indicates that there is either no content in the Author response, or that the content has been captured incorrectly. If the content is missing, eLife Production should check the original word document to see if it's also missing from there \(if it is, query with Editorial\). If there is content in the original, add this content into Kriya. If there is content present in Kriya, this means that something has gone wrong with the XML generation and Exeter will have to fix this.
 
 #### reply-missing-disp-quote-test-1
 
 **Warning**: _para in author response is entirely in italics, but not in a display quote. Is this a quote which has been processed incorrectly?_
 
-**Action**: In the original word document \(which the XML is generated from\) quotations in the Author response are captured entirely in italics \(as an indicator that they are quotations\). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision Letter quote since the content, in part or in its entirety, will also be present in the Decision Letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya.
+**Action**: In the original word document \(which the XML is generated from\) quotations in the Author response are captured entirely in italics \(as an indicator that they are quotations\). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision letter quote since the content, in part or in its entirety, will also be present in the Decision letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya.
 
 #### reply-missing-disp-quote-test-2
 
 **Warning**: _A long piece of text is in italics in an Author response paragraph. Should it be captured as a display quote in a separate paragraph? 'XXXXXX' in 'XXXXXX'_
 
-**Action**: In the original word document \(which the XML is generated from\) quotations in the Author response are captured entirely in italics \(as an indicator that they are quotations\). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision Letter quote since the content, in part or in its entirety, will also be present in the Decision Letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya.
+**Action**: In the original word document \(which the XML is generated from\) quotations in the Author response are captured entirely in italics \(as an indicator that they are quotations\). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision letter quote since the content, in part or in its entirety, will also be present in the Decision letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya.
 
 **unicode-test-1**
 
@@ -743,25 +743,25 @@ In order to determine which of these is the case, Exeter should check the output
 
 **Error**: _1st sub-article must be the decision letter. 2nd sub-article must be the author response._
 
-**Action**: This test will fire if the first `<sub-article>` does not have the attribute `article-type='decision-letter'` or if any subsequent `<sub-article>` does not have the attribute `article-type='reply'`. It indicates that something has gone wrong with the processing of the Decision Letter/Author Response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
+**Action**: This test will fire if the first `<sub-article>` does not have the attribute `article-type='decision-letter'` or if any subsequent `<sub-article>` does not have the attribute `article-type='reply'`. It indicates that something has gone wrong with the processing of the Decision letter/Author response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reply-test-2
 
 **Error**: _sub-article id must be in the format 'sa0', where '0' is it's position \(1 or 2\)._
 
-**Action**: This test will fire if the id for a `<sub-article>` is not in the format `sa1` __or __`sa2` , and indicates that something has gone wrong with the processing of the Decision Letter/Author Response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
+**Action**: This test will fire if the id for a `<sub-article>` is not in the format `sa1` __or __`sa2` , and indicates that something has gone wrong with the processing of the Decision letter/Author response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reply-test-3
 
 **Error**: _sub-article contain one and only one front-stub._
 
-**Action**: This test will fire if a `<sub-article>` has none or more than one `<front-stub>` element, and indicates that something has gone wrong with the processing of the Decision Letter/Author Response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
+**Action**: This test will fire if a `<sub-article>` has none or more than one `<front-stub>` element, and indicates that something has gone wrong with the processing of the Decision letter/Author response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reply-test-4
 
 **Error**: _sub-article contain one and only one body._
 
-**Action**: This test will fire if a `<sub-article>` has none or more than one `<body>` element, and indicates that something has gone wrong with the processing of the Decision Letter/Author Response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
+**Action**: This test will fire if a `<sub-article>` has none or more than one `<body>` element, and indicates that something has gone wrong with the processing of the Decision letter/Author response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-editor-test-2
 
@@ -773,13 +773,13 @@ In order to determine which of these is the case, Exeter should check the output
 
 **Error**: _decision letter front-stub must contain at least 1 contrib-group element._
 
-**Action**: This test will fire if the `<front-stub>` in  a `<sub-article>` does not contain a `<contrib-group>` element \(the container for reviewing editors and reviewers\), and indicates that either this information is entirely missing or that something has gone wrong with the processing of the Decision Letter/Author Response. eLife Production should check the details for this article in eJP. If there is information for these contributors then they can be added in by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser. If there is no information, then the eLife Editorial team should be queried in order to find it out.
+**Action**: This test will fire if the `<front-stub>` in  a `<sub-article>` does not contain a `<contrib-group>` element \(the container for reviewing editors and reviewers\), and indicates that either this information is entirely missing or that something has gone wrong with the processing of the Decision letter/Author response. eLife Production should check the details for this article in eJP. If there is information for these contributors then they can be added in by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser. If there is no information, then the eLife Editorial team should be queried in order to find it out.
 
 #### dec-letter-front-test-3
 
 **Error**: _decision letter front-stub contains more than 2 contrib-group elements._
 
-**Action**: This test will fire if the `<front-stub>` in  a `<sub-article>` has more than two `<contrib-group>` elements \(the container for reviewing editors and reviewers\), and indicates that something has gone wrong with the processing of the Decision Letter/Author Response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
+**Action**: This test will fire if the `<front-stub>` in  a `<sub-article>` has more than two `<contrib-group>` elements \(the container for reviewing editors and reviewers\), and indicates that something has gone wrong with the processing of the Decision letter/Author response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reviewer-test-1
 
@@ -797,13 +797,11 @@ In order to determine which of these is the case, Exeter should check the output
 
 **Warning**: _disp-quote in author reply does not have @content-type='editor-comment'. This is almost certainly incorrect._
 
-**Action**: Every disp-quote element in the Author Response which is quoting the Decision Letter must have the attribute _@content-type='editor-comment'_. It is very rare for other types of quotes to be present and marked up. If it is a quotation from the Decision Letter, then Exeter will need to fix this issue.
+**Action**: Every disp-quote element in the Author response which is quoting the Decision letter must have the attribute _@content-type='editor-comment'_. It is very rare for other types of quotes to be present and marked up. If it is a quotation from the Decision Letter, then Exeter will need to fix this issue.
 
 ## XML structure
 
-An example of a typical Decision Letter:
-
-
+An example of a typical Decision letter:
 
 ```markup
 <sub-article article-type="decision-letter" id="sa1">
@@ -853,7 +851,7 @@ An example of a typical Decision Letter:
 </sub-article>
 ```
 
-An example of a \(short\) Author Response:
+An example of a \(short\) Author response:
 
 ```markup
 <sub-article article-type="reply" id="sa2">
@@ -897,7 +895,7 @@ An example of a \(short\) Author Response:
 </sub-article>
 ```
 
-An example of a Decision Letter with figures:
+An example of a Decision letter with figures:
 
 ```markup
 <sub-article article-type="decision-letter" id="sa1">
