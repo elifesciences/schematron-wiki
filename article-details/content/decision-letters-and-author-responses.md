@@ -68,6 +68,8 @@ There are numerous reasons why a Decision letter might fail.
 
 Videos need to manually uploaded by Exeter to the Glencoe FTP in order for them to display in the proofing system, and on the website when published. This means that the normal workflow cannot be followed, as it requires a manual action on Exeter's part.
 
+eLife Editorial will inform eLife Production prior to uploading a Decision letter with videos, so that, depending on the state of the corresponding article, Production can act accordingly.
+
 See below for the workflow:
 
 ![https://docs.google.com/drawings/d/1mN7lHDMwa2CWaMSoR8q1xHiuvDzY3y3iOGdG9UKUVTc/edit](../../.gitbook/assets/video-dl-workflow.jpg)
