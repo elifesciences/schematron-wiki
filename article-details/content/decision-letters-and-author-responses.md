@@ -72,7 +72,7 @@ eLife Editorial will inform eLife Production prior to uploading a Decision lette
 
 See below for the workflow:
 
-![https://docs.google.com/drawings/d/1mN7lHDMwa2CWaMSoR8q1xHiuvDzY3y3iOGdG9UKUVTc/edit](../../.gitbook/assets/video-dl-workflow.jpg)
+![](../../.gitbook/assets/video-dl-workflow.jpg)
 
 \[**`For review`** - edit the above image [**here**](https://docs.google.com/drawings/d/1mN7lHDMwa2CWaMSoR8q1xHiuvDzY3y3iOGdG9UKUVTc/edit?usp=sharing)\]
 
