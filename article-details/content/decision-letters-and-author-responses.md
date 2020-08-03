@@ -38,11 +38,11 @@ Any assets \(such as figures, and videos\) are placed on an FTP for Exeter to do
 
 Any figures are automatically included in the article in Kriya \(due to them being placed on the FTP\). However, any videos will need to be processed manually, since they require uploading to the Glencoe FTP, along with accompanying requisite metadata.
 
-## DL Word markup for JATS parsing
+## Decision letter Word markup for JATS parsing
 
 \[To be filled out once the Kitchen Sink word file has been created.\]
 
-## DL workflow
+## Decision letter workflow
 
 eLife production will be made aware of any Decision letters being loaded by an automated email appearing in the Production Inbox. Certain actions may be required depending on whether the email indicates that the Decision Letter was posted successfully or not \(see also [**Decision letter loading**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading) for more information on how to handle this email\). In the event that a Decision letter/Author response contains videos, Editorial will inform Production prior to uploading, see [**below**](decision-letters-and-author-responses.md#dl-with-author-response-videos) on what to do when this occurs workflow. 
 
