@@ -58,7 +58,7 @@ Note that you can organise the messages by clicking the column headings:
 
 ![](../.gitbook/assets/screenshot-2020-08-03-at-09.33.07%20%281%29.png)
 
-For example clicking the left most column heading \(which usually has not text\), above the blue, yellow and red icons organises the messages by type \(info, warning and error respectively\).
+For example clicking the left most column heading \(which usually has no text\), above the blue, yellow and red icons organises the messages by type \(info, warning and error respectively\).
 
 If you cannot see the full message, you can hover over it, or right-click and click 'Show message' to see it in full.
 
@@ -122,4 +122,5 @@ Some messages will contain GitBook links at the end of them. These are messages 
 * Do not format and indent if the XML needs to be uploaded anywhere, this should _only_ be used for ease of reading the XML, as and when needed.
 * Use 'Outline' to navigate the XML tree without having to 'prettify' the XML.
 * XPaths can be run in the top left.
+* The find and replace tool in Oxygen is really useful. You can refine searches using XPath\(s\), and use search case specifically or using Regular expressions.
 
