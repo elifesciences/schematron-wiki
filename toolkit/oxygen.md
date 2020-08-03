@@ -4,7 +4,7 @@ description: XML editor
 
 # Oxygen
 
-The Production team use Oxygen to view, edit, validate, and transform XML files. Note that it is proprietary, and while you can register for a free trial [**here**](https://www.oxygenxml.com/xml_editor/register.html), in order to use it long-term a license will have to be purchased, or transferred to you by eLife.
+The Production team use Oxygen to view, edit, validate, and transform XML files. Note that it is not open source, and while you can register for a free trial [**here**](https://www.oxygenxml.com/xml_editor/register.html), in order to use it long-term a license will have to be purchased, or transferred to you by eLife.
 
 ## How to setup a validation scenario \(for Schematron\)
 
