@@ -4,6 +4,8 @@ description: XML editor
 
 # Oxygen
 
+The Production team use Oxygen to view, edit, validate and transform XML files. Note that it is proprietary, and while you can register for a free trial [**here**](https://www.oxygenxml.com/xml_editor/register.html), in order to use it long-term a license will have to be purchased, or transferred to you by eLife.
+
 ## How to setup a validation scenario \(for Schematron\)
 
 1. First, ensure that you have cloned a version of the [**elife Schematron**](https://github.com/elifesciences/eLife-JATS-schematron) to you local machine, in a suitable location, such as in your Documents folder.
