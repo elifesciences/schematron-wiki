@@ -591,6 +591,20 @@ For example, the header may be present as a row in the body of the table, rather
 
 **Action**: This will fire if a table does not have a header \(the `<table>` element does not have a child `<thead>` element\). This could either mean that the table has been incorrectly typeset without headers, or there could be a good reason that it does not have a header \(see [Tables with multiple headers](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)\). Checking against the original manuscript should give an indication of how this table should be captured. If it is an error then this should be fixed by Exeter, otherwise the message can be ignored.
 
+#### table-test-3
+
+**Warning**: _XXXXXX has a main header \(thead\), but it also has a header or headers in the body and contains 45 or more rows. The main \(first\) header will as a result appear at the start of any new pages in the PDF. Is this correct? Or should the main header be moved down into the body \(but still captured with &lt;th&gt; instead of &lt;td&gt;\) so that this header does not appear on the subsequent pages?_
+
+**Action**: This will fire if a table has multiple headers \(one of which is captured in a `<thead>` element\) and is long enough to span multiple pages. As described above, headers captured in a `<thead>` element will appear at the top of any subsequent page the Table spans onto. Depending on the content of the table this may or may not be suitable. If the headings in the body of the table are intended to supersede the preceding heading\(s\), then the first heading will need to be moved from `<thead>` into `<tbody>`. Here are two examples where it would be appropriate to make this change:
+
+{% file src="../../../.gitbook/assets/57381.pdf" caption="Tables 1 and 2 with heading issues" %}
+
+{% file src="../../../.gitbook/assets/56816.pdf" caption="Table 17 with heading issues" %}
+
+And here is an example where it is fine to ignore the warning:
+
+{% file src="../../../.gitbook/assets/44656.pdf" caption="Table 1 headings are fine" %}
+
 #### tbody-test-1
 
 **Error**: _tbody must have at least one row \(tr\)._
