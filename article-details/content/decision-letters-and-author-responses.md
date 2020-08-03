@@ -70,11 +70,9 @@ Videos need to manually uploaded by Exeter to the Glencoe FTP in order for them 
 
 eLife Editorial will inform eLife Production prior to uploading a Decision letter with videos, so that, depending on the state of the corresponding article, Production can act accordingly.
 
-See below for the workflow:
+See below for the workflow
 
-![https://docs.google.com/drawings/d/1mN7lHDMwa2CWaMSoR8q1xHiuvDzY3y3iOGdG9UKUVTc/edit](../../.gitbook/assets/video-dl-workflow.jpg)
-
-\[**`For review`** - edit the above image [**here**](https://docs.google.com/drawings/d/1mN7lHDMwa2CWaMSoR8q1xHiuvDzY3y3iOGdG9UKUVTc/edit?usp=sharing)\]
+[https://docs.google.com/drawings/d/1mN7lHDMwa2CWaMSoR8q1xHiuvDzY3y3iOGdG9UKUVTc/edit](https://docs.google.com/drawings/d/1mN7lHDMwa2CWaMSoR8q1xHiuvDzY3y3iOGdG9UKUVTc/edit)
 
 ## Schematron checks
 
