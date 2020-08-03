@@ -28,8 +28,6 @@
   * [Impact statement](article-details/content/impact-statement.md)
   * [Reference citations](article-details/content/reference-citations.md)
   * [References](article-details/content/references/README.md)
-    * [Conference references](article-details/content/references/conference-references.md)
-    * [Dataset references](article-details/content/references/dataset-references.md)
     * [Journal references](article-details/content/references/journal-references.md)
     * [Preprint references](article-details/content/references/preprint-references.md)
     * [Software references](article-details/content/references/software-references.md)
