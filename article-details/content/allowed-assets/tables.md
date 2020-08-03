@@ -1407,4 +1407,5 @@ Vertical cell alignment is defined using the `valign` attribute.
 * Updated 2020-06-18 to include table-cell-1 and table-xref-test-6.
 * Updated 2020-06-24 to account for Key resources tables in appendices.
 * Updated 2020-07-07 with change for table-fn-label-test-1.
+* Updated 2020-08-03 to include table-test-3.
 
