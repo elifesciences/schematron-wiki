@@ -8,7 +8,7 @@ description: eLife's published peer review material
 
 * Both a Decision letter and Author response are present prior to publication \(an Author response may not be included in very rare cases, but this is not the norm\).
 * All Figures, Tables, and Videos display as expected.
-* There are no unaddressed Schematron messages relating to the incorrect capture of content in the Decision letter or AR.
+* There are no unaddressed Schematron messages relating to the incorrect capture of content in the Decision letter or Author response.
 
 ## What is a Decision letter?
 
