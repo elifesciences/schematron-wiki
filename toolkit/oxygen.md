@@ -114,7 +114,7 @@ Some messages will contain GitBook links at the end of them. These are messages 
 * Use cmd + shift + w to check if an XML file is well formed.
 * Use cmd + shift + v to run any associated validation scenarios.
 * Use cmd + shift + t to run any associated transformation scenarios.
-* Use cmd + shift + p to format and indent \(note that this also includes whitespaces and should not be done prior to validation since many of the tests rely on the whitespace being correct\).
+* Use cmd + shift + p to format and indent \(note that this also includes adding whitespace and should not be done prior to validation since many of the tests rely on the whitespace being correct\). Similarly if you are editing the XML in any way for upload to Crossref or eLife buckets, ensure that this XML is not formatted and indented.
 
 ### Miscellaneous Tips
 
