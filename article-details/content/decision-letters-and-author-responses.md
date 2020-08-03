@@ -50,7 +50,7 @@ eLife production will be made aware of any Decision letters being loaded by an a
 
 The state of the article in Kriya will determine what stage it should proceed to, or not, as the case may be. See the below workflow diagram for successful Decision letter emails. \[Note that [**a separate workflow**](decision-letters-and-author-responses.md#dl-with-author-response-videos) is required if a Decision letter contains Author response videos.\]
 
-![https://docs.google.com/drawings/d/16Q4mvzujVITy10nbAjmZTdH6CHO-4E4k5QBKrXolXyI/edit](../../.gitbook/assets/dl-workflow%20%281%29.svg)
+![https://docs.google.com/drawings/d/16Q4mvzujVITy10nbAjmZTdH6CHO-4E4k5QBKrXolXyI/edit](../../.gitbook/assets/dl-workflow%20%282%29.svg)
 
 \[**`For Review`** - edit the above image [**here**](https://docs.google.com/drawings/d/16Q4mvzujVITy10nbAjmZTdH6CHO-4E4k5QBKrXolXyI/edit).\]
 
