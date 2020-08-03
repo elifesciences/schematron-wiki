@@ -78,7 +78,7 @@ Some messages will contain GitBook links at the end of them. These are messages 
 
 4. Click 'New' -&gt; XML transformation with XSLT.
 
-![Screenshot 2020-07-14 at 12 18 54](https://user-images.githubusercontent.com/43879983/87419913-3e73d400-c5cc-11ea-90e8-03c68832ead5.png)
+![](https://user-images.githubusercontent.com/43879983/87419913-3e73d400-c5cc-11ea-90e8-03c68832ead5.png)
 
 5. Rename the scenario something appropriate, like Crossref.
 
