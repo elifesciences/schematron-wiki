@@ -46,6 +46,22 @@ description: XML editor
 
 You have now created a validation scenario. You can then run this scenario on numerous different XML files by opening the 'Configure Validation Scenario\(s\)' pop-up, ticking the scenario with the name which you just created, and then clicking 'Apply associated \(1\)'.
 
+### Validation output example
+
+Schematron validation in Oxygen will display like this:
+
+![An example of Oxygen Schematron validation output](../.gitbook/assets/screenshot-2020-08-03-at-09.33.07.png)
+
+Note that you can organise the messages by clicking the column headings:
+
+![](../.gitbook/assets/screenshot-2020-08-03-at-09.33.07%20%281%29.png)
+
+For example clicking the left most column heading \(which usually has not text\), above the blue, yellow and red icons organises the messages by type \(info, warning and error respectively\).
+
+If you cannot see the full message, you can hover over it, or right-click and click 'Show message' to see it in full.
+
+Some messages will contain GitBook links at the end of them. These are messages which have been covered in this GitBook, and you can follow the link to be taken to the accompanying page and description/action for that message.
+
 ## How to set up the Crossref transformation scenario
 
 1. Download the zip below, unzip it \(inside should be a file called `crossref.xsl`\) and place it somewhere on your local machine such as your desktop.
