@@ -6,7 +6,7 @@ description: The article structure for different article types.
 
 ## What is article structure?
 
-Article structure refers to the way in which the body of an article is organised. The main text will usually be split into multiple sections, each with a different title. Those sections may then contain sub-sections, those sub-sections, their own sub-sections, and so on.
+Article structure refers to the way in which the body of an article is organised. The main text will usually be split into multiple sections, each with a different title. Those sections may then contain sub-sections, those sub-sections may have their own sub-sections, and so on.
 
 These sections are usually discussed in terms of the hierarchy of their titles, referred to as 'headings'.
 
@@ -14,7 +14,7 @@ These sections are usually discussed in terms of the hierarchy of their titles, 
 
 eLife currently allows four levels of headings:
 
-* **Level 1** - top level heading that will appear within the jump-to menu on the published HTML view:
+* **Level 1** - top level heading that will appear in the jump-to menu on the published HTML view:
 
 ![Level 1 &apos;Introduction&apos; heading in online view](../../.gitbook/assets/screen-shot-2020-07-14-at-16.45.13.png)
 
@@ -42,7 +42,7 @@ Any number of Level 2, 3 or 4 headings may appear within their parent sections. 
 
 ## Allowed article structures
 
-The following are the allowed top-level structures for various different article types. These lists cover Level 1 headings only. There are no rules concerning heading levels 2–4 within these Level 1 sections.
+The following are the allowed top-level headings for various different article types. These lists cover Level 1 headings only. There are no rules concerning heading levels 2–4 within these Level 1 sections.
 
 ### Research article
 
@@ -54,14 +54,14 @@ The usual structure for a research article is:
   * **Discussion**
   * **Materials and methods**
 
-A common variant of this is a combined results and discussion section:
+A common variant of this combines the 'Results' and 'Discussion' sections:
 
 * Main text
   * **Introduction**
   * **Results and discussion**
   * **Materials and methods**
 
-Occasionally, the editors will allow the authors to place their materials and methods before the results, where this is appropriate \(this is a common structure in life sciences articles\):
+Occasionally, the editors will permit the authors to place their 'Materials and methods' before the 'Results' \(this is a common structure in life sciences articles\):
 
 * Main text
   * **Introduction**
@@ -100,12 +100,12 @@ Short reports may follow the standard research article structure:
   * **Discussion**
   * **Materials and methods**
 
-However, they are not required to do so. The bulk of the text can be placed in an untitled section at the start of the article, with a materials and methods section at the end.
+However, they are not required to do so. The bulk of the text can be placed in an untitled section at the start of the article, with a 'Materials and methods 'section at the end.
 
 * Main text
   * **Materials and methods**
 
-Materials and methods is the only mandatory top-level section for short reports.
+'Materials and methods' is the only mandatory top-level section for short reports.
 
 ### Tools and resources
 
@@ -151,15 +151,13 @@ Scientific correspondence articles may follow the standard research article stru
 
 ### Review article
 
-There are no preset rules for Level 1 headings in review articles. The article structure should follow that indicated in the exported article file.
+There are no rules for Level 1 headings in review articles. The article structure should follow that indicated in the exported article file.
 
 ### Feature content
 
-There are no preset rules for Level 1 headings in feature content. The article structure should follow that indicated in the exported article file.
+There are no rules for Level 1 headings in feature content. The article structure should follow that indicated in the exported article file.
 
 ## Schematron checks
-
-
 
 ### Content checks
 
@@ -173,7 +171,7 @@ There are no preset rules for Level 1 headings in feature content. The article s
 
 **Warning**: Section title contains the word appendix - 'XXXXXX'. Should it be captured as an appendix?
 
-**Action**: This warning indicates that a section title contains the word 'appendix'. This may be OK if it is a reference to an existing appendix in the article \(e.g. "Results of experiment \(detailed in Appendix 1\)"\). However if the title is just 'Appendix 1', 'Appendix A', 'Appendix: Supplementary methods', this section and its contents should be tagged correctly as a proper appendix. XXXXXX will be the title in question.
+**Action**: This warning indicates that a section title contains the word 'appendix'. This may be OK if it is a citation of an existing appendix in the article \(e.g. "Results of experiment \(detailed in Appendix 1\)"\). However if the title is just 'Appendix 1', 'Appendix A', 'Appendix: Supplementary methods', this section and its contents should be moved into an appendix at the end of the article. XXXXXX will be the title in question.
 
 #### sec-title-appendix-check-2
 
@@ -185,7 +183,7 @@ There are no preset rules for Level 1 headings in feature content. The article s
 
 **Warning**: _Section title contains the word abbreviation - 'XXXXXX'. Is it an abbreviation section? eLife house style is to define abbreviations in the text when they are first mentioned._
 
-**Action**: This warning will fire if a section title contains the text 'abbreviation', for example 'Abbreviations' or 'Abbreviation list'. Some authors will include a section like this, giving the definitions of every abbreviation used in their article. As the message states, eLife's house style is to define abbreviations within the text, at the first point they are used and at the end of figure/table/file legends. Ensure that all the abbreviations mentioned in the indicated section \(XXXXXX will be the title in question\) are defined at the first point they are used in the text, then delete the indicated section.
+**Action**: This warning will fire if a section title contains the text 'abbreviation', for example 'Abbreviations' or 'Abbreviation list'. Some authors will include a section like this, containing the definitions of every abbreviation used in their article. As the message states, eLife's house style is to define abbreviations within the text, at the first point they are used and at the end of figure/table/file legends. Ensure that all the abbreviations mentioned in the indicated section \(XXXXXX will be the title in question\) are defined at the first point they are used in the text, then delete the indicated section.
 
 #### sec-title-content-mandate
 
@@ -215,31 +213,31 @@ There are no preset rules for Level 1 headings in feature content. The article s
 
 **Warning**: _All section title content is captured in italics. Is this incorrect? If it is just a species name, then this is likely to be fine - XXXXXX_
 
-**Action**: Section titles should not be entirely in italics unless they only consist of a species name such as _C. elegans_. Terms such as specieis names should be put in italics for consistency with the main text, but if the entire title is in italics, this formatting should be removed. XXXXXX indicates the affected tittle.
+**Action**: Section titles should not be entirely in italics unless they only consist of a species name such as _C. elegans_. Scientific terms such as species names should be put in italics for consistency with the main text, but italics should be removed from any accompanying text. XXXXXX indicates the affected tittle.
 
 #### sec-title-dna	
 
 **Warning**: _Section title contains the phrase DNA, but it is not in all caps - XXXXXX_
 
-**Action**: This warning indicates the presence of 'dna', 'dNA', 'dNa' or other variation of 'DNA' not in all caps. Correct this text to 'DNA'.
+**Action**: This warning indicates the presence of 'dna', 'dNA', 'dNa' or other variation of 'DNA' not in all caps. Correct this text to 'DNA'. XXXXXX indicates the affected title.
 
 #### sec-title-rna
 
 **Warning**: _Section title contains the phrase RNA, but it is not in all caps - XXXXXX_
 
-**Action**: This warning indicates the presence of 'rna', 'rNA', 'rNa' or other variation of 'RNA' not in all caps. Correct this text to 'RNA'.
+**Action**: This warning indicates the presence of 'rna', 'rNA', 'rNa' or other variation of 'RNA' not in all caps. Correct this text to 'RNA'. XXXXXX indicates the affected title.
 
 #### sec-title-dimension
 
 **Warning**: _Section title contains lowercase abbreviation for dimension, when this should always be uppercase 'D' - XXXXXX_
 
-**Action**: This warning indicates that the abbreviation for dimension in, say, 2D, 3D, 4D etc, is a lowercase 'd'. Correct 2d, 3d, 4d etc to 2D, 3D, 4D etc.
+**Action**: This warning indicates that the abbreviation for dimension in, say, 2D, 3D, 4D etc, is a lowercase 'd'. Correct 2d, 3d, 4d etc to 2D, 3D, 4D etc. XXXXXX indicates the affected title.
 
 #### sec-title-hiv	
 
 **Warning**: _Section title contains the word HIV, but it is not in all caps - XXXXXX_
 
-**Action**: This warning indicates the presence of 'hiv', 'hIV', 'hIv' or other variation of 'HIV' not in all caps. Correct this text to 'HIV'.
+**Action**: This warning indicates the presence of 'hiv', 'hIV', 'hIv' or other variation of 'HIV' not in all caps. Correct this text to 'HIV'. XXXXXX indicates the affected title.
 
 #### section-title-test-1
 
