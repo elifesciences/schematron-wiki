@@ -34,7 +34,7 @@ The word document containing both the Decision letter and Author response, and a
 
 At this point the eLife bot will notice the zip and process the content in order to send it to Kriya.
 
-Any assets \(such as figures, and videos\) are placed on an FTP for Exeter to download when processing the Decision letter. The Word document is parsed as JATS \(using the [decision-letter-parser](https://github.com/elifesciences/decision-letter-parser)\), and posted via API to Kriya, where it is ingested in the accompanying article.
+Any assets \(such as figures, and videos\) are placed on an FTP for Exeter to download when processing the Decision letter. The Word document is parsed as JATS \(using the [**decision-letter-parser**](https://github.com/elifesciences/decision-letter-parser)\), and posted via API to Kriya, where it is ingested in the accompanying article.
 
 Any figures are automatically included in the article in Kriya \(due to them being placed on the FTP\). However, any videos will need to be processed manually, since they require uploading to the Glencoe FTP, along with accompanying requisite metadata.
 
@@ -96,13 +96,17 @@ The following tests are run on Decision Letters and Author responses.
 
 **Error**: _XXXXXX paragraph contains what looks like pseudo-code - XXXXXX._
 
-**Action**: This will fire is a paragraph in a Decision letter or Author response contains the text `</author response` or similar. This type of pseudo-code is included in the original Word document by the eLife editorial team as flags for the decision-letter-parser to correctly recognise what a certain object in the document should be captured as. If this text is in the JATS, however, that means that the content has not been correctly recognised by the parser. Exeter should flag this error with the eLife production team. The eLife production team should check the original word file, in order to determine how this should have been captured, and act accordingly \(it may be that you just have to remove the superfluous text, or it may be the case that an author response image or table needs to be added, in which case Exeter will have to make this change\). It is also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
+**Action**: This will fire is a paragraph in a Decision letter or Author response contains the text `</author response` or similar. This type of pseudo-code is included in the original Word document by the eLife editorial team as flags for the decision-letter-parser to correctly recognise what a certain object in the document should be captured as. If this text is in the JATS, however, that means that the content has not been correctly recognised by the parser. Exeter should flag this error with the eLife production team.
+
+The eLife production team should check the original word file, in order to determine how this should have been captured, and act accordingly \(it may be that you just have to remove the superfluous text, or it may be the case that an author response image or table needs to be added, in which case Exeter will have to make this change\). It is also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reply-test-6
 
 **Warning**: _XXXXXX paragraph contains what might be pseudo-code or tags which should likely be removed - XXXXXX._
 
-**Action**: This will fire is a paragraph in a Decision letter or Author response contains text such as `<italic>` or `</author response image title>` or  similar. This type of pseudo-code is included in the original Word document by the eLife editorial team as flags for the decision-letter-parser to correctly recognise what a certain object in the document should be captured as. If this text is in the JATS, however, that means that the content has not been correctly recognised by the parser. Exeter should flag this error with the eLife production team. The eLife production team should check the original word file, in order to determine how this should have been captured, and act accordingly \(it may be that you just have to remove the superfluous text, or it may be the case that an author response image or table needs to be added, in which case Exeter will have to make this change\). It is also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
+**Action**: This will fire is a paragraph in a Decision letter or Author response contains text such as `<italic>` or `</author response image title>` or  similar. This type of pseudo-code is included in the original Word document by the eLife editorial team as flags for the decision-letter-parser to correctly recognise what a certain object in the document should be captured as. If this text is in the JATS, however, that means that the content has not been correctly recognised by the parser. Exeter should flag this error with the eLife production team.
+
+The eLife production team should check the original word file, in order to determine how this should have been captured, and act accordingly \(it may be that you just have to remove the superfluous text, or it may be the case that an author response image or table needs to be added, in which case Exeter will have to make this change\). It is also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-front-test-1
 
@@ -126,13 +130,15 @@ Every Decision letter should have at least 1 reviewer, unless the reviewers opte
 
 **Warning**: _First contrib-group in decision letter must contain 1 and only 1 editor \(contrib\[@contrib-type='editor'\]\)._
 
-**Action**: If this warning fires, it means that there is no Reviewing Editor in the details for the Decision letter. Exeter should checking the eJP output and if this information was not included there, then inform the eLife Production team. The eLife production team should check the article in eJP \(it might be that the editor details were added subsequent to the article being exported to Kriya\). If the information is not available in eJP, then this should be queried with the eLife Editorial team in order to get the details for the the Reviewing Editor \(name and affiliation - both are mandatory\). Note that this test is a warning \(instead of an error\) for the purposes of dealing with old eLife content - if it fires in live content, it should _**always**_ be resolved prior to publication.
+**Action**: If this warning fires, it means that there is no Reviewing Editor in the details for the Decision letter. Exeter should checking the eJP output and if this information was not included there, then inform the eLife Production team.
+
+The eLife production team should check the article in eJP \(it might be that the editor details were added subsequent to the article being exported to Kriya\). If the information is not available in eJP, then this should be queried with the eLife Editorial team in order to get the details for the the Reviewing Editor \(name and affiliation - both are mandatory\). Note that this test is a warning \(instead of an error\) for the purposes of dealing with old eLife content - if it fires in live content, it should _**always**_ be resolved prior to publication.
 
 #### dec-letter-editor-test-3
 
 **Error**: _Editor in decision letter front-stub must have the role 'Reviewing Editor' or 'Senior and Reviewing Editor'. XXXXXX has 'XXXXXX'._
 
-**Action**: If this warning fires, it means that the Editor details are incorrect in the Decision letter. An Editor must have a role which is either Reviewing Editor' or 'Senior and Reviewing Editor'. Exeter will have to correct this.
+**Action**: If this warning fires, it means that the Editor details are incorrect in the Decision letter. An Editor must have a role that is either 'Reviewing Editor' or 'Senior and Reviewing Editor'. Exeter will have to correct this.
 
 #### ~~dec-letter-editor-test-6~~
 
@@ -161,7 +167,7 @@ In order to determine which of these is the case, Exeter should check the output
 
 **Error**: _First child element in decision letter is not boxed-text. This is certainly incorrect._
 
-**Action**: The first piece of text in a decision letter is an explanation of what it is, for example 'In the interests of transparency, eLife publishes the most substantive revision requests and the accompanying author responses.'. These need to be placed in a boxed-text element. If this error fires, it means that either that content is entirely missing, or that it is not placed in boxed-text. In the former case, the eLife production team should contact the eLife Editorial team to get the correct wording. In the latter, Exeter will need to correct the capture of the text.
+**Action**: The first piece of text in a decision letter is an explanation of what it is, for example 'In the interests of transparency, eLife publishes the most substantive revision requests and the accompanying author responses.' This need to be placed in a boxed-text element. If this error fires, it means that either that content is entirely missing, or that it is not placed in boxed-text. In the former case, the eLife production team should contact the eLife Editorial team to get the correct wording. In the latter, Exeter will need to correct the capture of the text.
 
 #### dec-letter-body-test-2
 
@@ -179,7 +185,7 @@ In order to determine which of these is the case, Exeter should check the output
 
 **Error**: _author response doesn't contain a disp-quote. This has to be incorrect._
 
-**Action**: disp-quote is the element which holds quotations. In the Author response, these will be quotations from the Decision letter. Every Author response will have some kind of quotation from the Decision letter, so if this fires, it means that there is 1 or more quotations in the Author response which are missing this tagging. In the original document, quotations are supplied in italics, so scan the Author response for any paragraph\(s\) entirely in italics, un-italicise them and mark them as display quotes in Kriya.
+**Action**: disp-quote is the element which holds quotations. In the Author response, these will be quotations from the Decision letter. Every Author response will have some kind of quotation from the Decision letter, so if this fires, it means that there is 1 or more quotations in the Author response missing this tagging. In the original document, quotations are supplied in italics, so scan the Author response for any paragraph\(s\) entirely in italics, un-italicise them and mark them as display quotes in Kriya.
 
 #### reply-body-test-2
 
