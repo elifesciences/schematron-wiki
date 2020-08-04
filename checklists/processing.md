@@ -34,7 +34,7 @@ The following checks should be carried out in addition to acting on any warnings
 5. Double check the tables and raise a query if the colours given in the table are against the eLife style.
 6. If a figure file consists of [**more than one page**](../article-details/content/allowed-assets/untitled.md#multi-page-files)**,** the author must be asked to provide a single-page version, or to split it into multiple figures. Please contact the eLife Production team who will email the authors to ask how they would like to proceed.
 7. If the file for an asset is missing, please query the author for the missing file.
-8. Make sure that all files in the export package have been typeset, even if a title/legend is missing. Query the author for any missing titles.
+8. Make sure that all files \(figures, figure supplements, source data, source code, supplementary files, reporting standards, transparent reporting form, additional article files\) in the export package have been typeset, even if a title/legend is missing. Query the author for any missing titles.
 9. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [**Journal references**](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
 10. For Insight articles:
     * The details in the key information box should match those of the related article\(s\).
