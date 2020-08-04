@@ -781,7 +781,7 @@ In order to determine which of these is the case, Exeter should check the output
 
 **Warning**: _First contrib-group in decision letter contains a contrib which is not marked up as an editor \(contrib\[@contrib-type='editor'\]\)._
 
-**Action**: This test will fire if the first `<contrib-group>` in  `<front-stub>` in  the Decision letter `<sub-article>` contains a contributo which is not tagged as an editor \(`<contrib contrib-type='editor'>`\). This will need to be corrected by Exeter.
+**Action**: This test will fire if the first `<contrib-group>` in  `<front-stub>` in  the Decision letter `<sub-article>` contains a contributor who is not tagged as an editor \(`<contrib contrib-type='editor'>`\). This will need to be corrected by Exeter.
 
 #### dec-letter-front-test-2
 
