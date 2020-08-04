@@ -39,6 +39,7 @@
 
 ## Toolkit
 
+* [BaseX](toolkit/basex.md)
 * [Interacting with authors](toolkit/interacting-with-authors.md)
 * [Oxygen](toolkit/oxygen.md)
 * [Managing the production inbox](toolkit/managing-the-production-inbox.md)
