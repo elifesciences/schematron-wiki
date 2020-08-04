@@ -945,7 +945,7 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 **Error:** _XXXXXX is not placed in a &lt;fig-group&gt; element, which is incorrect. Either the label needs updating, or it needs moving into the &lt;fig-group&gt;._
 
-**Action:** In the xml, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a figure has a figure supplement label \(e.g. Figure 1 - Figure supplement 1\) but it is not placed in the fig-group element. This should be corrected by Exeter.
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a figure has a figure supplement label \(e.g. Figure 1 - Figure supplement 1\) but it is not placed in the fig-group element. This should be corrected by Exeter.
 
 XML of a figure with a figure supplement wrapped in the fig-group element.
 
@@ -984,7 +984,7 @@ XML of a figure with no figure supplements \(and therefore, no fig-group wrapper
 
 **Error:** _XXXXXX contains the string 'Figure' but it's not placed in a &lt;fig-group&gt; element, which is incorrect. Either the label needs updating, or it needs moving into the &lt;fig-group&gt;._
 
-**Action:** In the xml, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a video is linked to a figure but not included in the fig-group element in the XML. This should be corrected by Exeter. 
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a video is linked to a figure but not included in the fig-group element in the XML. This should be corrected by Exeter. 
 
 An example of a figure video correctly placed in the fig-group element:
 
