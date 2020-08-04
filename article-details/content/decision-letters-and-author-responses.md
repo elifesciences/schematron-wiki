@@ -14,7 +14,7 @@ description: eLife's published peer review material
 
 The Decision letter is a collation of the Peer Review correspondence sent to the authors of a paper that has been accepted for publication by eLife. As such they could contain various information, including but not limited to, mandatory and non-mandatory requests for revisions, request\(s\) for further experimentation or analysis, conformance to house style, and general comments of the importance, novelty etc. of the research which is communicated in an article.
 
-For the purposes of the production workflow, they are typically quite simple pieces of content, made up of just paragraphs of text, however in rare instances, they can contain more complex items such as figures, tables and videos.
+For the purposes of the production workflow, they are typically quite simple pieces of content, made up of just paragraphs of text; however in rare instances, they can contain more complex items such as figures, tables and videos.
 
 ## What is an Author response?
 
