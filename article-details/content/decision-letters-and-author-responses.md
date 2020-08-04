@@ -203,7 +203,7 @@ In order to determine which of these is the case, Exeter should check the output
 
 **Warning**: _A long piece of text is in italics in an Author response paragraph. Should it be captured as a display quote in a separate paragraph? 'XXXXXX' in 'XXXXXX'_
 
-**Action**: In the original word document \(which the XML is generated from\) quotations in the Author response are captured entirely in italics \(as an indicator that they are quotations\). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision letter quote since the content, in part or in its entirety, will also be present in the Decision letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya.
+**Action**: In the original word document \(which the XML is generated from\) quotations in the Author response are captured entirely in italics \(as an indicator that they are quotations\). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision letter quote since the content, in part or in its entirety, will also be present in the Decision letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya. If it is not a quote from the Decision letter, and the text was italic in the original word document, then the text should be left as italics \(a relatively common use-case is quoting from the article itself, rather than from the Decision letter\).
 
 **unicode-test-1**
 
