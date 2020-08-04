@@ -8,7 +8,7 @@ The Production team use Oxygen to view, edit, validate, and transform XML files.
 
 ## How to setup a validation scenario \(for Schematron\)
 
-1. First, ensure that you have cloned a version of the [**elife Schematron**](https://github.com/elifesciences/eLife-JATS-schematron) to you local machine, in a suitable location, such as in your Documents folder.
+1. First, ensure that you have cloned a version of the [**eLife Schematron**](https://github.com/elifesciences/eLife-JATS-schematron) to your local machine, in a suitable location, such as in your Documents folder.
 2. Open any XML file in Oxygen.
 3. In the toolbar, click 'Configure Validation Scenario\(s\)'.
 
@@ -18,7 +18,7 @@ The Production team use Oxygen to view, edit, validate, and transform XML files.
 
 ![](../.gitbook/assets/screenshot-2020-07-27-at-13.50.23.png)
 
-      5. In that Pop-up, rename the scenario to something appropriate, for example if setting up a scenario for the pre-author version of the eLife Schematron, you could name it 'eLife Pre'.
+      5. In that pop-up, rename the scenario to something appropriate, for example if setting up a scenario for the pre-author version of the eLife Schematron, you could name it 'eLife Pre'.
 
 ![](../.gitbook/assets/screenshot-2020-07-27-at-13.51.44.png)
 
