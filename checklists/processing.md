@@ -31,7 +31,7 @@ The following checks should be carried out in addition to acting on any warnings
 2. Check that all videos play.
 3. Check that the supplementary file and video download links work correctly.
 4. Source code files should be zipped and re-uploaded if they are not zipped already, so that the original file name exported from the submission system is retained.
-5. Double check the tables and raise a query if the colours given in the table are against the eLife style.
+5. Double check the tables and raise a query if the [**colours**](../article-details/content/allowed-assets/tables.md#allowed-colours-in-tables) given in the table are against the eLife style.
 6. If a figure file consists of [**more than one page**](../article-details/content/allowed-assets/untitled.md#multi-page-files)**,** the author must be asked to provide a single-page version, or to split it into multiple figures. Please contact the eLife Production team who will email the authors to ask how they would like to proceed.
 7. If the file for an asset is missing, please query the author for the missing file.
 8. Make sure that all files \(figures, figure supplements, source data, source code, supplementary files, reporting standards, transparent reporting form, additional article files\) in the export package have been typeset, even if a title/legend is missing. Query the author for any missing titles.
