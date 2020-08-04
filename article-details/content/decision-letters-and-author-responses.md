@@ -132,7 +132,7 @@ Every Decision letter should have at least 1 reviewer, unless the reviewers opte
 
 **Action**: If this warning fires, it means that there is no Reviewing Editor in the details for the Decision letter. Exeter should checking the eJP output and if this information was not included there, then inform the eLife Production team.
 
-The eLife production team should check the article in eJP \(it might be that the editor details were added subsequent to the article being exported to Kriya\). If the information is not available in eJP, then this should be queried with the eLife Editorial team in order to get the details for the the Reviewing Editor \(name and affiliation - both are mandatory\). Note that this test is a warning \(instead of an error\) for the purposes of dealing with old eLife content - if it fires in live content, it should _**always**_ be resolved prior to publication.
+The eLife production team should check the article in eJP \(it might be that the editor details were added subsequent to the article being exported to Kriya\). If the information is not available in eJP, then this should be queried with the eLife Editorial team in order to get the details for the the Reviewing Editor \(name and affiliation - both are mandatory\). Note that this test is a warning \(instead of an error\) for the purposes of dealing with old eLife content - if it fires in current content \(i.e. not new versions\), it should _**always**_ be resolved prior to publication.
 
 #### dec-letter-editor-test-3
 
