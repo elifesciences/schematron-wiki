@@ -126,6 +126,8 @@ The eLife production team should check the original word file, in order to deter
 
 Every Decision letter should have at least 1 reviewer, unless the reviewers opted to be anonymous, or if the paper was reviewed via Review commons. If this warning fires, Exeter should inform eLife Production. eLife Production should query the eLife Editorial team, asking whether Reviewers need to be included and if so, what their details are \(name and optional affiliation\). If this information has been provided by Editorial, then these details will need to be added in Kriya.
 
+One common cause/case for this may be that the reviewers opted to be anonymous on the first round of review yet chose to have their name revealed in a subsequent round of review. This could mean that Editorial include their name in the letter \(rather than 'choosing to remain anonymous'\), but they aren't listed in the XML because eJP only outputs non-anonymous reviewers from the full submission.
+
 #### dec-letter-editor-test-1
 
 **Warning**: _First contrib-group in decision letter must contain 1 and only 1 editor \(contrib\[@contrib-type='editor'\]\)._
