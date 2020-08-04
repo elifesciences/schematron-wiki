@@ -169,6 +169,7 @@ The following points should be addressed during copy-editing:
 11. Punctuation:
     * Single quotation marks should be used for emphasis \('some text'\). Double quotation marks should be used for direct quotes \("a quote from another article"\).
     * Where multiple sets of brackets are nested, square brackets should be used within parenthesis, e.g. "some text \(some more text \[reference\] text\)".
+    * Fullstops are no required after 'inc', 'corp' etc, except where they occur at the end of a sentence.
 12. Special characters:
     * All trademark ™, registered ®, and copyright © symbols should be deleted.
     * '&' should be changed to 'and' if used as part of a sentence. '&' should be left if used as part of a name such as 'R&D' or 'Texas A&M University'.
