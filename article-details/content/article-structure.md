@@ -241,11 +241,13 @@ There are no rules for Level 1 headings in feature content. The article structur
 
 #### section-title-test-1
 
-**Warning**: _text begins a paragraph - XXXXXX - Should it be marked up as a section title \(Heading level XXXXXX\)?_
+**Warning**: _text begins a paragraph - XXXXXX - Should it be marked up as a section title \(Heading level X\)?_
 
 **Action**: This warning will fire if the entire first sentence of a paragraph is in bold font, italics or underlined. This may mean the authors intended this to be a section title. If this warning appears pre-author, the indicated text should be made into a section title. This should start a sub-section of whichever section originally contained this paragraph. The only exception to this rule is if this would involve making a sub-section of a Level 4 section, which is not allowed. In this case, the text should be left as it is.
 
 If this warning appears post-author, check whether the author has reverted the above kind of change and if so, that this makes sense \(they may prefer the text to appear as bold for highlighting purposes, but do not want it as a heading\).
+
+XXXXXX will indicate the styled content at the start of a paragraph, X will be the suggested heading level respective to the heading level of the section in which the styled content appears.
 
 ### XML checks
 
@@ -253,25 +255,25 @@ If this warning appears post-author, check whether the author has reverted the a
 
 **Error**: _At least one sec should be present in body for research-article content._
 
-**Action**: This error indicates that there are no section elements &lt;sec&gt; within an article using the research content template.
+**Action**: This error indicates that there are no section elements `<sec>` within an article using the research content template.
 
 #### ra-sec-test-2
 
 **Warning**: XXXXXX doesn't have child sec\[@sec-type='intro'\] in the main body. Is this correct?
 
-**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'intro'. If an Introduction section is present in an article, it must have the `@sec-type` with a value of 'intro'. An Introduction section should be present for all research content except for short reports, which may have one but do not need to.
+**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'intro'. If an 'Introduction' section is present in an article, it must have the `@sec-type` with a value of 'intro'. An 'Introduction' section should be present for all research content except for short reports, which may have one but do not need to.
 
 #### ra-sec-test-3
 
 **Warning**: _main body in XXXXXX content doesn't have a child sec with @sec-type whose value is either 'materials\|methods', 'methods' or 'model'. Is this correct?_
 
-**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'materials\|methods', 'methods' or 'model'. If a Materials and methods, Methods, or Model section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content.
+**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'materials\|methods', 'methods' or 'model'. If a 'Materials and methods', 'Methods', or 'Model' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content.
 
 #### ra-sec-test-4
 
 Warning: \_main body in XXXXXX content doesn't have either a child sec\[@sec-type='results\|discussion'\] or a sec\[@sec-type='results'\] and a sec\[@sec-type='discussion'\]. Is this correct?
 
-**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'results\|discussion', 'results' or 'discussion'. If a Results and discussion, Results, or Discussion section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content.
+**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'results\|discussion', 'results' or 'discussion'. If a 'Results and discussion', 'Results', or 'Discussion' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content except a short report.
 
 #### top-sec-id
 
