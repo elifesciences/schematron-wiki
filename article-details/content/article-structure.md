@@ -249,6 +249,12 @@ If this warning appears post-author, check whether the author has reverted the a
 
 XXXXXX will indicate the styled content at the start of a paragraph, X will be the suggested heading level respective to the heading level of the section in which the styled content appears.
 
+#### sec-conformity
+
+**Warning**: _top level sec with title - XXXXXX - is not a usual title for XXXXXX content. Should this be captured as a sub-level of XXXXXX?_
+
+**Action**: 
+
 ### XML checks
 
 #### ra-sec-test-1
@@ -280,12 +286,6 @@ Warning: \_main body in XXXXXX content doesn't have either a child sec\[@sec-typ
 **Error**: _top-level must have @id in the format 's0', where 0 relates to the position of the sec. It should be XXXXXX._
 
 **Action**: The Level 1 section elements `<sec>` in an article should each have an `@id` attribute, the value of which is determined by the order of the sections. The first Level 1 section should the id 's1', the second and id of 's2' and so on.
-
-#### sec-conformity
-
-**Warning**: _top level sec with title - XXXXXX - is not a usual title for XXXXXX content. Should this be captured as a sub-level of XXXXXX?_
-
-**Action**: 
 
 #### lower-sec-test-1
 
