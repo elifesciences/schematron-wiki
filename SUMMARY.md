@@ -14,7 +14,7 @@
 ## Article details
 
 * [Content](article-details/content/README.md)
-  * [Allowed assets](article-details/content/allowed-assets/README.md)
+  * [Article assets](article-details/content/allowed-assets/README.md)
     * [Chemical structures/schemes](article-details/content/allowed-assets/chemical-structures-schemes.md)
     * [Figures and figure supplements](article-details/content/allowed-assets/untitled.md)
     * [Tables](article-details/content/allowed-assets/tables.md)
