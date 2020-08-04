@@ -80,3 +80,10 @@ The following assets appear within the main text of an article. Most of these sh
 
 ### Sub-article assets
 
+* Decision letter image 1
+* Author response image 1
+* Author response table 1
+* Author response video 1
+
+## Asset naming convention
+
