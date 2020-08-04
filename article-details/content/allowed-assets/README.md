@@ -6,6 +6,12 @@ description: >-
 
 # Allowed assets
 
+## What is an asset?
+
+The term 'asset' refers to a figure, video, table or file associated with an article. These items are used to enhance the text of the article, providing illustration, raw data or the means to replicate the research being described.
+
+eLife allows a large amount of variation in how items like this can be included within the article. Figures, for example, may be supplemented with source data, additional 'figure supplements' or videos.
+
 ## Main text assets
 
 * Figure 1
