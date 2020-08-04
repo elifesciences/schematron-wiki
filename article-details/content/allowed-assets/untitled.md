@@ -380,7 +380,7 @@ If multiple figures are out of sequence, leave the following query for the autho
 
 **Error:** _XXXXXX does not appear in sequence which is incorrect. Relative to the other figures it is placed in position XXXXXX._
 
-**Action:** Figures are automatically placed directly after their first citation. ****This warning usually appears if the authors have cited figures out of order. For example, if they refer to Figure 3 — Figure supplement 2 before Figure 3 — figure supplement 1, this results in Figure 3 — Figure supplement 2 being placed before Figure 3 — figure supplement 1. Unlink the citation that is out of order and leave the following query for the author:
+**Action:** Figures are automatically placed directly after their first citation. ****This warning usually appears if the authors have cited figures out of order. For example, if they refer to Figure 3—figure supplement 2 before Figure 3—figure supplement 1, this results in Figure 3—figure supplement 2 being placed before Figure 3—figure supplement 1. Unlink the citation that is out of order and leave the following query for the author:
 
 * This citation is out of sequence with the other figure citations and has therefore been left unlinked \(figure placement is determined by first live citation\). Please confirm this is acceptable.
 
@@ -576,13 +576,13 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 **Error:** _fig-group must have one and only one main figure._
 
-**Action:** In the xml, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a fig-group element has more than one or no main figures. Double check which main figure should be present in this fig-group and correct accordingly \(Exeter will need to fix this\).
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a fig-group element has more than one or no main figures. Double check which main figure should be present in this fig-group and correct accordingly \(Exeter will need to fix this\).
 
 #### fig-group-test-2
 
 **Error:** _fig-group does not contain a figure supplement or a figure-level video, which must be incorrect._
 
-**Action:** In the xml, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a fig-group element has no figure supplements or figure-level videos. Double check whether the figure does indeed have no linked figure supplements or videos - if so this element should be removed by Exeter. If the figure should have figure supplements or videos, Exeter will need to add these to the fig-group.
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a fig-group element has no figure supplements or figure-level videos. Double check whether the figure does indeed have no linked figure supplements or videos - if so this element should be removed by Exeter. If the figure should have figure supplements or videos, Exeter will need to add these to the fig-group.
 
 #### fig-group-child-test-1
 
@@ -666,7 +666,7 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 **Error:** _fig supplement is not a child of fig-group. This cannot be correct._
 
-**Action:** In the xml, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a figure __supplement is not wrapped within a fig-group element. This should be corrected by Exeter.
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a figure __supplement is not wrapped within a fig-group element. This should be corrected by Exeter.
 
 #### fig-xref-conformity-1
 
