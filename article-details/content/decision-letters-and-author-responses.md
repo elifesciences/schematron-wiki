@@ -6,7 +6,7 @@ description: eLife's published peer review material
 
 ## What needs to be checked?
 
-* Both a Decision letter and Author response are present prior to publication \(an Author response may not be included in very rare cases, but this is not the norm\).
+* Both a Decision letter and Author response are present prior to publication \(an Author response may not be included in cases where the review was carried out by Review Commons, or in other very rare cases, but having both is the norm\).
 * All Figures, Tables, and Videos display as expected.
 * There are no unaddressed Schematron messages relating to the incorrect capture of content in the Decision letter or Author response.
 
