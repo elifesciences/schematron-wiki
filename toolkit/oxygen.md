@@ -116,10 +116,13 @@ Some messages will contain GitBook links at the end of them. These are messages 
 * Use cmd + shift + t to run any associated transformation scenarios.
 * Use cmd + shift + p to format and indent \(note that this also includes adding whitespace and should not be done prior to validation since many of the tests rely on the whitespace being correct\).
 
+{% hint style="danger" %}
+Do not format and indent if the XML needs to be uploaded anywhere, this should _only_ be used for ease of reading the XML, as and when needed.
+{% endhint %}
+
 ### Miscellaneous Tips
 
 * Do not format and indent before running validation.
-* Do not format and indent if the XML needs to be uploaded anywhere, this should _only_ be used for ease of reading the XML, as and when needed.
 * Use 'Outline' to navigate the XML tree without having to 'prettify' the XML.
 * XPaths can be run in the top left.
 * The find and replace tool in Oxygen is really useful. You can refine searches using XPath\(s\), and use search case specifically or using Regular expressions.
