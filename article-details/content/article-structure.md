@@ -157,6 +157,10 @@ There are no rules for Level 1 headings in review articles. The article structur
 
 There are no rules for Level 1 headings in feature content. The article structure should follow that indicated in the exported article file.
 
+### Corrections and retractions
+
+Corrections and retractions will not usually contain any section headings. Where they do, the article structure should follow that indicated in the exported article file.
+
 ## Schematron checks
 
 ### Content checks
@@ -253,7 +257,7 @@ XXXXXX will indicate the styled content at the start of a paragraph, X will be t
 
 **Warning**: _top level sec with title - XXXXXX - is not a usual title for XXXXXX content. Should this be captured as a sub-level of XXXXXX?_
 
-**Action**: 
+**Action**: This warning indicates that a Level 1 heading is present that does not match the allowed top-level headings for the current article type. Check whether this heading should be tagged as Level 2, within the preceding Level 1 heading. This may require a check against the exported article file. If this unusual Level 1 heading was approved by Editorial, this should be indicated in the production notes.
 
 ### XML checks
 
@@ -285,13 +289,13 @@ Warning: \_main body in XXXXXX content doesn't have either a child sec\[@sec-typ
 
 **Error**: _top-level must have @id in the format 's0', where 0 relates to the position of the sec. It should be XXXXXX._
 
-**Action**: The Level 1 section elements `<sec>` in an article should each have an `@id` attribute, the value of which is determined by the order of the sections. The first Level 1 section should the id 's1', the second and id of 's2' and so on.
+**Action**: The Level 1 section elements `<sec>` in an article should each have an `@id` attribute, the value of which is determined by the order of the sections. The first Level 1 section should the id 's1', the second and id of 's2' and so on \(see [**XML structure**](article-structure.md#xml-structure)\). Correct the section id to the indicated value.
 
 #### lower-sec-test-1
 
 **Error**: This sec @id must be a concatenation of the parent sec @id, '-', and the position of this sec relative to other sibling secs - XXXXXX.
 
-**Action**: Each sub-section element &lt;sec&gt; should have 
+**Action**: Each sub-section element `<sec>` in an article should each have an `@id` attribute, the value of which is determined by the order of the sections. The ids for Level 2 sections within a Level 1 section should the id 's1-1', 's1-2', 's1-3' and so on. The ids for Level 3 sections within the first of these Level 2 sections should be 's1-1-1', 's1-1-2', 's1-1-3' and so on \(see [**XML structure**](article-structure.md#xml-structure)\). Correct the section id to the indicated value.
 
 #### sec-type-title-test
 
@@ -327,13 +331,13 @@ Correct the title to match the `@sec-type` value.
 
 **Error**: _sec must have a title_
 
-**Action**: Each section should have a title. Check that the text for the title has not been captured as part of the first paragraph.
+**Action**: Each section should have a title. Check whether the text for the title has been captured as part of the first paragraph and, if so, correct the tagging.
 
 #### sec-test-2
 
 **Error**: _sec appears to contain no content. This cannot be correct._
 
-**Action**: Each section should contain a title and either one or more paragraphs, or one or more sub-sections.
+**Action**: Each section should contain a title and either one or more paragraphs, or one or more sub-sections. This error possibly indicates that the content of a section was deleted or moved but the section was retained. In this case, the empty section should be removed.
 
 ## XML structure
 
