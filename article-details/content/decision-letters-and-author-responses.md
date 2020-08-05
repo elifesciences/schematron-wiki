@@ -50,6 +50,10 @@ eLife production will be made aware of any Decision letters being loaded by an a
 
 The state of the article in Kriya will determine what stage it should proceed to, or not, as the case may be. See the below workflow diagram for successful Decision letter emails. 
 
+{% hint style="info" %}
+Verifying whether a Decision letter has loaded in Kriya is as simple as refreshing the dashboard and checking whether the 'Upload sub-article' orange button has changed to a green 'Reupload sub-article'. Green indicates a Decision letter has been loaded, orange indicates it has not.
+{% endhint %}
+
 {% hint style="warning" %}
 Note that [**a separate workflow**](decision-letters-and-author-responses.md#dl-with-author-response-videos) is required if a Decision letter contains  videos.
 {% endhint %}
