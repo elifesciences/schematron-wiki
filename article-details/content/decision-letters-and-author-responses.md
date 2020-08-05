@@ -230,547 +230,547 @@ In order to determine which of these is the case, Exeter should check the output
 
 **Warning**: _XXXXXX element contains 'â‚¬' - this should instead be the character '€'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â‚¬' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '€'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â‚¬' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '€'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-2**
 
 **Warning**: _XXXXXX element contains 'Ã€' - this should instead be the character 'À'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã€' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'À'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã€' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'À'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-3**
 
 **Warning**: _XXXXXX element contains 'Ã' - this should instead be the character 'Á'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Á'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Á'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-4**
 
 **Warning**: _XXXXXX element contains 'â€š' - this should instead be the character '‚'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€š' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‚'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€š' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‚'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-5**
 
 **Warning**: _XXXXXX element contains 'Ã‚' - this should instead be the character 'Â'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã‚' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Â'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã‚' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Â'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-6**
 
 **Warning**: _XXXXXX element contains 'Æ’' - this should instead be the character 'ƒ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Æ’' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ƒ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Æ’' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ƒ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-7**
 
 **Warning**: _XXXXXX element contains 'Ãƒ' - this should instead be the character 'Ã'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãƒ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ã'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãƒ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ã'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-8**
 
 **Warning**: _XXXXXX element contains 'â€ž' - this should instead be the character '„'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€ž' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '„'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€ž' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '„'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-9**
 
 **Warning**: _XXXXXX element contains 'Ã„' - this should instead be the character 'Ä'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã„' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ä'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã„' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ä'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-10**
 
 **Warning**: _XXXXXX element contains 'â€¦' - this should instead be the character '…'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€¦' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '…'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€¦' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '…'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-11**
 
 **Warning**: _XXXXXX element contains 'Ã…' - this should instead be the character 'Å'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã…' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Å'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã…' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Å'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-13**
 
 **Warning**: _XXXXXX element contains 'Ã†' - this should instead be the character 'Æ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã†' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Æ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã†' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Æ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-14**
 
 **Warning**: _XXXXXX element contains 'â€¡' - this should instead be the character '‡'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€¡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‡'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€¡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‡'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-15**
 
 **Warning**: _XXXXXX element contains 'Ã‡' - this should instead be the character 'Ç'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã‡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ç'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã‡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ç'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-16**
 
 **Warning**: _XXXXXX element contains 'Ë†' - this should instead be the character 'ˆ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ë†' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ˆ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ë†' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ˆ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-17**
 
 **Warning**: _XXXXXX element contains 'Ãˆ' - this should instead be the character 'È'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãˆ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'È'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãˆ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'È'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-18**
 
 **Warning**: _XXXXXX element contains 'â€°' - this should instead be the character '‰'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€°' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‰'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€°' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‰'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-19**
 
 **Warning**: _XXXXXX element contains 'Ã‰' - this should instead be the character 'É'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã‰' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'É'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã‰' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'É'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-21**
 
 **Warning**: _XXXXXX element contains 'ÃŠ' - this should instead be the character 'Ê'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'ÃŠ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ê'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'ÃŠ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ê'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-22**
 
 **Warning**: _XXXXXX element contains 'â€¹' - this should instead be the character '‹'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€¹' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‹'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€¹' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‹'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-23**
 
 **Warning**: _XXXXXX element contains 'Ã‹' - this should instead be the character 'Ë'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã‹' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ë'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã‹' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ë'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-24**
 
 **Warning**: _XXXXXX element contains 'Å’' - should this instead be the character 'Œ'? - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å’' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Œ'? The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å’' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Œ'? The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-25**
 
 **Warning**: _XXXXXX element contains 'ÃŒ' - this should instead be the character 'Ì'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'ÃŒ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ì'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'ÃŒ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ì'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-26**
 
 **Warning**: _XXXXXX element contains 'Ã' - this should instead be the character 'Í'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Í'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Í'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-27**
 
 **Warning**: _XXXXXX element contains 'Å½' - this should instead be the character 'Ž'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å½' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ž'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å½' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ž'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-28**
 
 **Warning**: _XXXXXX element contains 'ÃŽ' - this should instead be the character 'Î'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'ÃŽ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Î'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'ÃŽ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Î'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-29**
 
 **Warning**: _XXXXXX element contains 'Ã' - this should instead be the character 'Ï'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ï'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ï'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-30**
 
 **Warning**: _XXXXXX element contains 'Ã' - this should instead be the character 'Ð'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ð'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ð'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-31**
 
 **Warning**: _XXXXXX element contains 'â€˜' - this should instead be the character '‘'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€˜' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‘'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€˜' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‘'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-32**
 
 **Warning**: _XXXXXX element contains 'Ã‘' - this should instead be the character 'Ñ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã‘' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ñ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã‘' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ñ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-33**
 
 **Warning**: _XXXXXX element contains 'â€™' - this should instead be the character '’'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€™' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '’'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€™' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '’'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-34**
 
 **Warning**: _XXXXXX element contains 'Ã’' - this should instead be the character 'Ò'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã’' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ò'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã’' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ò'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-35**
 
 **Warning**: _XXXXXX element contains 'â€œ' - this should instead be the character '“'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€œ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '“'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€œ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '“'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-36**
 
 **Warning**: _XXXXXX element contains 'Ã“' - this should instead be the character 'Ó'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã“' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ó'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã“' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ó'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-37**
 
 **Warning**: _XXXXXX element contains 'â€' - this should instead be the character '”'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '”'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '”'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-38**
 
 **Warning**: _XXXXXX element contains 'Ã”' - this should instead be the character 'Ô'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã”' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ô'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã”' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ô'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-39**
 
 **Warning**: _XXXXXX element contains 'Ã•' - this should instead be the character 'Õ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã•' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Õ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã•' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Õ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-40**
 
 **Warning**: _XXXXXX element contains 'â€“' - this should instead be the character '–'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€“' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '–'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€“' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '–'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-41**
 
 **Warning**: _XXXXXX element contains 'Ã–' - this should instead be the character 'Ö'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã–' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ö'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã–' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ö'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-42**
 
 **Warning**: _XXXXXX element contains 'â€”' - this should instead be the character '—'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€”' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '—'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€”' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '—'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-43**
 
 **Warning**: _XXXXXX element contains 'Ã—' - this should instead be the character '×'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã—' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '×'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã—' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '×'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-44**
 
 **Warning**: _XXXXXX element contains 'Ëœ' - this should instead be the character '˜'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ëœ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '˜'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ëœ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '˜'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-45**
 
 **Warning**: _XXXXXX element contains 'Ã˜' - this should instead be the character 'Ø'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã˜' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ø'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã˜' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ø'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-46**
 
 **Warning**: _XXXXXX element contains 'Ã™' - this should instead be the character 'Ù'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã™' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ù'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã™' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ù'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-47**
 
 **Warning**: _XXXXXX element contains 'Å¡' - this should instead be the character 'š'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å¡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'š'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å¡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'š'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-48**
 
 **Warning**: _XXXXXX element contains 'Ãš' - this should instead be the character 'Ú'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãš' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ú'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãš' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ú'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-49**
 
 **Warning**: _XXXXXX element contains 'â€º' - this should instead be the character '›'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€º' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '›'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€º' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '›'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-50**
 
 **Warning**: _XXXXXX element contains 'Ã›' - this should instead be the character 'Û'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã›' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Û'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã›' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Û'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-51**
 
 **Warning**: _XXXXXX element contains 'Å“' - this should instead be the character 'œ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å“' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'œ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å“' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'œ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-52**
 
 **Warning**: _XXXXXX element contains 'Ãœ' - this should instead be the character 'Ü'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãœ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ü'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãœ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ü'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-53**
 
 **Warning**: _XXXXXX element contains 'Ã' - this should instead be the character 'Ý'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ý'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ý'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-54**
 
 **Warning**: _XXXXXX element contains 'Å¾' - this should instead be the character 'ž'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å¾' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ž'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å¾' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ž'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-55**
 
 **Warning**: _XXXXXX element contains 'Ãž' - this should instead be the character 'Þ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãž' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Þ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãž' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Þ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-56**
 
 **Warning**: _XXXXXX element contains 'Å¸' - this should instead be the character 'Ÿ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å¸' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ÿ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å¸' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ÿ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-57**
 
 **Warning**: _XXXXXX element contains 'ÃŸ' - this should instead be the character 'ß'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'ÃŸ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ß'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'ÃŸ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ß'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-58**
 
 **Warning**: _XXXXXX element contains 'Â¡' - this should instead be the character '¡'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¡'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¡'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-59**
 
 **Warning**: _XXXXXX element contains 'Ã¡' - this should instead be the character 'á'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'á'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'á'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-60**
 
 **Warning**: _XXXXXX element contains 'Â¢' - this should instead be the character '¢'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¢' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¢'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¢' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¢'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-61**
 
 **Warning**: _XXXXXX element contains 'Ã¢' - this should instead be the character 'â'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¢' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'â'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¢' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'â'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-62**
 
 **Warning**: _XXXXXX element contains 'Â£' - this should instead be the character '£'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â£' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '£'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â£' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '£'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-63**
 
 **Warning**: _XXXXXX element contains 'Ã£' - this should instead be the character 'ã'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã£' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ã'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã£' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ã'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-64**
 
 **Warning**: _XXXXXX element contains 'Â¤' - this should instead be the character '¤'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¤' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¤'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¤' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¤'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-65**
 
 **Warning**: _XXXXXX element contains 'Ã¤' - this should instead be the character 'ä'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¤' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ä'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¤' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ä'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-66**
 
 **Warning**: _XXXXXX element contains 'Ã¥' - this should instead be the character 'å'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¥' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'å'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¥' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'å'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-67**
 
 **Warning**: _XXXXXX element contains 'Â¨' - this should instead be the character '¨'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¨' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¨'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¨' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¨'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-68**
 
 **Warning**: _XXXXXX element contains 'Ã¨' - this should instead be the character 'è'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¨' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'è'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¨' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'è'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-69**
 
 **Warning**: _XXXXXX element contains 'Âª' - this should instead be the character 'ª'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Âª' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ª'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Âª' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ª'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-70**
 
 **Warning**: _XXXXXX element contains 'Ãª' - this should instead be the character 'ê'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãª' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ê'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãª' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ê'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-71**
 
 **Warning**: _XXXXXX element contains 'Â­' - this should instead be the character '­'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â­' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '­'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â­' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '­'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-72**
 
 **Warning**: _XXXXXX element contains 'Ã­' - this should instead be the character 'í'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã­' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'í'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã­' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'í'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-73**
 
 **Warning**: _XXXXXX element contains 'Â¯' - this should instead be the character '¯'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¯' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¯'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¯' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¯'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-74**
 
 **Warning**: _XXXXXX element contains 'Ã¯' - this should instead be the character 'ï'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¯' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ï'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¯' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ï'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-75**
 
 **Warning**: _XXXXXX element contains 'Â°' - this should instead be the character '°'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â°' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '°'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â°' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '°'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-76**
 
 **Warning**: _XXXXXX element contains 'Ã°' - this should instead be the character 'ð'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã°' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ð'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã°' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ð'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-77**
 
 **Warning**: _XXXXXX element contains 'Â±' - this should instead be the character '±'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â±' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '±'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â±' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '±'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-78**
 
 **Warning**: _XXXXXX element contains 'Ã±' - this should instead be the character 'ñ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã±' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ñ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã±' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ñ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-79**
 
 **Warning**: _XXXXXX element contains 'Â´' - this should instead be the character '´'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â´' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '´'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â´' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '´'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-80**
 
 **Warning**: _XXXXXX element contains 'Ã´' - this should instead be the character 'ô'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã´' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ô'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã´' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ô'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-81**
 
 **Warning**: _XXXXXX element contains 'Âµ' - this should instead be the character 'µ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Âµ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'µ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Âµ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'µ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-82**
 
 **Warning**: _XXXXXX element contains 'Ãµ' - this should instead be the character 'õ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãµ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'õ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãµ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'õ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-83**
 
 **Warning**: _XXXXXX element contains 'Â¶' - this should instead be the character '¶'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¶' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¶'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¶' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¶'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-84**
 
 **Warning**: _XXXXXX element contains 'Ã¶' - this should instead be the character 'ö'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¶' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ö'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¶' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ö'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-85**
 
 **Warning**: _XXXXXX element contains 'Â·' - this should instead be the character '·'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â·' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '·'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â·' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '·'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-86**
 
 **Warning**: _XXXXXX element contains 'Ã·' - this should instead be the character '÷'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã·' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '÷'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã·' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '÷'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-87**
 
 **Warning**: _XXXXXX element contains 'Â¸' - this should instead be the character '¸'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¸' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¸'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¸' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¸'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-88**
 
 **Warning**: _XXXXXX element contains 'Ã¸' - this should instead be the character 'ø'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¸' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ø'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¸' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ø'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-89**
 
 **Warning**: _XXXXXX element contains 'Ã¹' - this should instead be the character 'ù'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¹' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ù'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¹' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ù'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-90**
 
 **Warning**: _XXXXXX element contains 'Âº' - this should instead be the character 'º'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Âº' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'º'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Âº' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'º'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-91**
 
 **Warning**: _XXXXXX element contains 'Ãº' - this should instead be the character 'ú'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãº' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ú'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãº' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ú'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-92**
 
 **Warning**: _XXXXXX element contains 'Â¿' - this should instead be the character '¿'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¿' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¿'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¿' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¿'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 **unicode-test-93**
 
 **Warning**: _XXXXXX element contains 'Ã¿' - this should instead be the character 'ÿ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¿' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ÿ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¿' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ÿ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
 ### **XML structure checks**
 
