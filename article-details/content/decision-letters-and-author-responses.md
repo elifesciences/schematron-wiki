@@ -75,7 +75,7 @@ A decision letter may fail to load for the following reasons:
 
 Check that the files have been included as direct children of the zip, i.e. that a folder hasn't been included in the zip. If all the files are zipped correctly, then contact Fred in the Production team who will investigate further \(if Fred is not available, raise a GitHub issue in the [**eLife issues repository**](https://github.com/elifesciences/issues), and assign to Graham to investigate\).
 
-* Other. If a failure message comes through and you are unsure what it means, it's possible that the content hasn't been parsed correctly by the parser. A GitHub issue should be raised in the [**eLife issues repository**](https://github.com/elifesciences/issues), and assigned to Graham to investigate.
+* Other. If a failure message comes through and you are unsure what it means, it's possible that the content hasn't been parsed correctly by the parser. Contact Fred in the Production team who will investigate further \(if Fred is not available, raise a GitHub issue in the [**eLife issues repository**](https://github.com/elifesciences/issues), and assign to Graham to investigate\).
 
 \[Question for review - where should these be outlined? They are already explained in detail [**here**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading). Should they be here instead? In Both places? Or should we just link to [**here**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading)?\]
 
