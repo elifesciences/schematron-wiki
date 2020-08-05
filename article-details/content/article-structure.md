@@ -289,7 +289,7 @@ Warning: \_main body in XXXXXX content doesn't have either a child sec\[@sec-typ
 
 **Error**: _top-level must have @id in the format 's0', where 0 relates to the position of the sec. It should be XXXXXX._
 
-**Action**: The Level 1 section elements `<sec>` in an article should each have an `@id` attribute, the value of which is determined by the order of the sections. The first Level 1 section should the id 's1', the second and id of 's2' and so on \(see [**XML structure**](article-structure.md#xml-structure)\). Correct the section id to the indicated value.
+**Action**: The Level 1 section elements `<sec>` in an article should each have an `@id` attribute, the value of which is determined by the order of the sections. The first Level 1 section should have the id 's1', the second an id of 's2' and so on \(see [**XML structure**](article-structure.md#xml-structure)\). Correct the section id to the indicated value.
 
 #### lower-sec-test-1
 
