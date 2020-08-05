@@ -33,7 +33,7 @@ The following checks should be carried out in addition to acting on any warnings
 3. Check that the supplementary file and video download links work correctly.
 4. Source code files should be zipped and re-uploaded if they are not zipped already, so that the original file name exported from the submission system is retained.
 5. Double check the tables and raise a query if the [**colours**](../article-details/content/allowed-assets/tables.md#allowed-colours-in-tables) given in the table are against the eLife style.
-6. If a figure file consists of [**more than one page**](../article-details/content/allowed-assets/untitled.md#multi-page-files)**,** the author must be asked to provide a single-page version, or to split it into multiple figures. Please contact the eLife Production team who will email the authors to ask how they would like to proceed.
+6. If a figure file consists of [**more than one page**](../article-details/content/allowed-assets/figures.md#multi-page-files)**,** the author must be asked to provide a single-page version, or to split it into multiple figures. Please contact the eLife Production team who will email the authors to ask how they would like to proceed.
 7. If the file for an asset is missing, please query the author for the missing file.
 8. Make sure that all files \(figures, figure supplements, source data, source code, supplementary files, reporting standards, transparent reporting form, additional article files\) in the export package have been typeset, even if a title/legend is missing. Query the author for any missing titles.
 9. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [**Journal references**](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
@@ -57,7 +57,7 @@ The following checks should be carried out in addition to acting on any warnings
 7. Check for any unnecessary page breaks, especially in figure legends or tables. If only one sentence of the figure legend is being pushed down to the next page, for example, the figure should be shrunk slightly so that the legend is fully on the same page as the image. 
 8. Check that figures, tables and videos appear in numerical order and are placed as close as possible to their first citations in the text.
 9. Check the figures PDF to ensure no figures are going off from the page and that all figures and figure supplements are present.
-10. Check that the figures are legible in the PDFs. If they are not, the author should be queried to provide [**higher resolution images**](../article-details/content/allowed-assets/untitled.md#resolution-of-figures).
+10. Check that the figures are legible in the PDFs. If they are not, the author should be queried to provide [**higher resolution images**](../article-details/content/allowed-assets/figures.md#resolution-of-figures).
 11. For feature articles, ensure that the figures are sized at the correct widths, as indicated in the exported files names.
 
 ### LaTex checklist
@@ -179,7 +179,7 @@ The following points should be addressed during copy-editing:
     * Statements at the end of the legend such as "The following supplements are available for Figure 2:" should be removed - usually these will make sense in context of the author's original manuscript file, but are unnecessary in the typeset article.
     * Check for spelling errors in figure images. If there are any, an author query should be added asking for a new figure file and indicating what needs to be corrected.
     * The capitalisation of part labels in legends and citations \(a, b, c, . . . or A, B, C, . . .\) should match the capitalisation of the labels in the figure image or table.
-    * Check for any missing panel labels in the figure legends or images. See the [**Figures and figure supplements**](../article-details/content/allowed-assets/untitled.md#part-labels) page for more information:
+    * Check for any missing panel labels in the figure legends or images. See the [**Figures and figure supplements**](../article-details/content/allowed-assets/figures.md#part-labels) page for more information:
       * If the image has panel labels but the legend does not, the authors should be asked to add panel labels to the legend.
       * If the legend has panel labels but the image does not, the authors should be asked to provide a new image file.
     * Make sure that asset citations are formatted correctly, with any sub-part labels incorporated into the linked text \(e.g. Figure 1A, Figure 2Bii\).

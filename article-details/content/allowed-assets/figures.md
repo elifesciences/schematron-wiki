@@ -5,10 +5,10 @@ description: How to check figures and figure supplements
 # Figures and figure supplements
 
 {% hint style="info" %}
-For changelog, click [**here**](untitled.md#changelog).
+For changelog, click [**here**](figures.md#changelog).
 {% endhint %}
 
-Most scientific articles include figures and figure supplements to present data. eLife figures can also have [**various assets**](./) ****related to them. All figures and figure supplements must have titles, and usually also have captions \(although this is not mandatory\).
+Most scientific articles include figures. eLife figures can also have figure supplements \(‘child’ figures less central to the narrative of the paper but which provide, for example, additional examples of analyses or data shown in a primary figure\) to present data and can have various other [**assets**](./#allowed-assets) related to them \(such as source data and code. All figures and figure supplements must have titles, and usually also have captions \(although this is not mandatory\). All main figures must be cited in the text, but figure supplement citations are optional.
 
 ## What needs to be checked?
 
@@ -27,7 +27,11 @@ Figures and figure supplements should be checked to ensure they are of good qual
 
 ### Tables in figures
 
-We strongly discourage authors from providing tables represented as figures or figure supplements because figures are flat images and the contents of them cannot be mined or re-used without the need to rekey the content. If the authors have provided a table as a figure, the production team will need to be queried to ask the authors to provide this information as a table in Word or Excel format. If the author has not cited this "figure" in the text \(for instance because it is a figure supplement\) they will also need to add a citation to the new table in the main text.
+We strongly discourage authors from providing tables represented as figures or figure supplements because figures are flat images and the contents of them cannot be mined or re-used without the need to rekey the content. If the authors have provided a table as a figure, the authors should be asked to provide this information as a table in Word or Excel format with the following author query:
+
+* Please provide this figure as an editable table.
+
+If the author has not cited this "figure" in the text \(for instance because it is a figure supplement\) they will also need to add a citation to the new table in the main text.
 
 For example, in 55692, Figure 1 - figure supplement 3 was originally provided as an image:
 
@@ -47,13 +51,15 @@ If one of the panels in a figure is a table, this can be left as-is:
 
 ![An example of a multi-page figure](../../../.gitbook/assets/captured%20%283%29.gif)
 
-If an author provides a PDF file over multiple pages we cannot process this as a single figure. The production team will need to be queried to ask the authors for single-page figures. If each "page" contains a small image that could be a part of a complete composite figure the author should be asked to supply the image as a single page with part labels. If the images on each page are a full figure and combining the images into one figure would render them unreadable the author should be asked to split the individual pages up into separate figures or figure supplements. 
+If an author provides a PDF file over multiple pages we cannot process this as a single figure. The authors will need to be asked for single-page figures. If each "page" contains a small image that could be a part of a complete composite figure the author should be asked to supply the image as a single page with part labels. If the images on each page are a full figure and combining the images into one figure would render them unreadable the author should be asked to split the individual pages up into separate figures or figure supplements. Leave the following author query:
+
+* Please provide this figure in a single-page format. If this would render the figure unreadable, please provide this as separate figures or figure supplements.
 
 ### Labelling issues
 
 If the authors have included unlabelled images in their article file that do not correspond to the main figures, the production team should be queried to determine how to treat these images. In most cases, these images will need to be treated as chemical structures or schemes.
 
-### PDF version
+### Article PDF
 
 The following applies to research content \([**Feature content**](../feature-content.md) templates have separate rules\). Figures can be either:
 
@@ -67,7 +73,7 @@ The following applies to research content \([**Feature content**](../feature-con
 
 ![An example of a half-column width figure](../../../.gitbook/assets/screenshot-2020-07-01-at-16.27.02.png)
 
-In each case, the legend should be the same width as the image block and the figure should occupy as much of the available space as possible, left aligned but preferably with little to no whitespace on the right. If the image is particularly tall, this may result in there being more whitespace on the right. The appropriate width of the figure block should be determined by the resolution and aspect ratio of the supplied image. For smaller figures, these can be left the size they are:
+In each case, the legend should be the same width as the image block and the figure should occupy as much of the available space as possible, left aligned but preferably with little to no whitespace on the right. If the image is particularly tall, this may result in there being more whitespace on the right because to increase the size of the image would make it too big for a PDF proof page. The appropriate width of the figure block should be determined by the resolution and aspect ratio of the supplied image. For smaller figures, these can be left the size they are:
 
 ![](../../../.gitbook/assets/screenshot-2020-07-01-at-16.38.50.png)
 
@@ -77,7 +83,7 @@ All figures and figure supplements should have titles. Legends are not required 
 
 * Please provide the title for this figure.
 
-If the author has only provided a legend that begins with a description of panel A \(e.g. “\(a\) The high-resolution MS/MS spectrum of the H4K31ac peptide generated from . . .”\), the same query as above will need to be left to ask the authors to add an overall title.
+If the author has only provided a legend that begins with a description of panel a \(e.g. “\(a\) The high-resolution MS/MS spectrum of the H4K31ac peptide generated from . . .”\), the same query as above will need to be left to ask the authors to add an overall title.
 
 ### Part labels
 
@@ -200,12 +206,6 @@ After a paper has been peer reviewed, the Reviewing Editor collates the reviewer
 
 These checks relate to the content of figures and figure supplements. X or XXXXXX refers to quoted text which will change depending on the article.
 
-#### fig-xref-target-test
-
-**Error:** _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
-
-**Action:** ???
-
 #### fig-caption-test-1
 
 **Warning**: _Caption for XXXXXX contains what looks like a lower case letter at the start of a sentence - XXXXXX._
@@ -219,13 +219,13 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 **Warning:** _Caption for XXXXXX contains what looks like an image credit. It's quite likely that this should be captured in an &lt;attrib&gt; element instead - XXXXXX_
 
-**Action:** If the caption for a figure or figure supplement includes 'image credit', this message will appear. This information should be added in an &lt;attrib&gt; element \(see [**here**](untitled.md#attributions)\).
+**Action:** If the caption for a figure or figure supplement includes 'image credit', this message will appear. This information should be added in an &lt;attrib&gt; element \(see [**here**](figures.md#attributions)\).
 
 #### fig-test-2
 
 **Error:** _fig must have a @position._
 
-**Action:** This error will appear if a figure or figure supplement does not have a position in the XML. This may be because the figure has not been cited in the text. Check the article for any unlinked citations of the figure and link these \(unless the citations are to figures from another paper - see [**here**](untitled.md#in-text-citations) for more information\). If the figure has not been cited in the text at all, please leave the following query: 
+**Action:** This error will appear if a figure or figure supplement does not have a position in the XML. This may be because the figure has not been cited in the text. Check the article for any unlinked citations of the figure and link these \(unless the citations are to figures from another paper - see [**here**](figures.md#in-text-citations) for more information\). If the figure has not been cited in the text at all, please leave the following query: 
 
 * Please provide an in-text citation for this figure.
 
@@ -298,12 +298,6 @@ If the caption element is missing in the XML, compare with the original submitte
 
 **Action:** This warning will appear at the post-author stages if no file has been provided for a figure or figure supplement. The authors will need to be asked for the file. 
 
-#### distinct-label-conformance
-
-**Error:** _Duplicated labels - XXXXXX is present more than once in the text._
-
-**Action:** This error will appear if multiple figures have the same label. All figures and figure supplements in research content should have distinct labels which are numbered in the order they are first cited in the text. Check the manuscript to see what the correct labels should be - Exeter will need to fix this.
-
 #### pre-fig-specific-test-2
 
 **Warning:** _XXXXXX does not appear in sequence. Relative to the other figures it is placed in position XXXXXX. Please query this with the author._
@@ -314,7 +308,7 @@ If the caption element is missing in the XML, compare with the original submitte
 
 If multiple figures are out of sequence, leave the following query for the author instead:
 
-* Our system numbers figures based on when they are first cited. Please conform these figures can be renumbered or provide in-sequence citations for these.
+* Our system numbers figures based on when they are first cited. Please confirm these figures can be renumbered or provide in-sequence citations for these.
 
 #### final-fig-specific-test-2
 
@@ -362,7 +356,7 @@ If multiple figures are out of sequence, leave the following query for the autho
 
 **Warning:** _XXXXXX is immediately followed by a display formula, and preceded by a paragraph which does not end with punctuation. Should it should be moved after the display formula or after the para following the display formula?_
 
-**Action:** As figures are automatically placed after their first citation, this can sometimes result in figures being placed in the middle of equations, which breaks the flow of the text. Check whether this is the case - if so, the figure will need to be moved to after the display formula, or after the next paragraph. See [**fig-specific-test-5**](untitled.md#fig-specific-test-5) for a similar case. 
+**Action:** As figures are automatically placed after their first citation, this can sometimes result in figures being placed in the middle of equations, which breaks the flow of the text. Check whether this is the case - if so, the figure will need to be moved to after the display formula, or after the next paragraph. See [**fig-specific-test-5**](figures.md#fig-specific-test-5) for a similar case. 
 
 #### fig-sup-test-2
 
@@ -386,13 +380,23 @@ If multiple figures are out of sequence, leave the following query for the autho
 
 If multiple figures are out of sequence, leave the following query for the author instead:
 
-* Our system numbers figures based on when they are first cited. Please conform these figures can be renumbered or provide in-sequence citations for these.
+* Our system numbers figures based on when they are first cited. Please confirm these figures can be renumbered or provide in-sequence citations for these.
 
 If this appears at post-author stages, the author will need to be asked whether we can unlink the citation that is out of order, or renumber the figures.
 
 #### fig-sup-test-5
 
 **Error:** _XXXXXX is in position XXXXXX, which means either the label or the placement incorrect._
+
+**Action:** Figures are automatically placed directly after their first citation. ****This warning usually appears if the authors have cited figures out of order. For example, if they refer to Figure 3—figure supplement 2 before Figure 3—figure supplement 1, this results in Figure 3—figure supplement 2 being placed before Figure 3—figure supplement 1. Unlink the citation that is out of order and leave the following query for the author:
+
+* This citation is out of sequence with the other figure citations and has therefore been left unlinked \(figure placement is determined by first live citation\). Please confirm this is acceptable.
+
+If multiple figures are out of sequence, leave the following query for the author instead:
+
+* Our system numbers figures based on when they are first cited. Please confirm these figures can be renumbered or provide in-sequence citations for these.
+
+If this appears at post-author stages, the author will need to be asked whether we can unlink the citation that is out of order, or renumber the figures.
 
 #### fig-sup-test-6
 
@@ -437,13 +441,13 @@ If this appears at post-author stages, the author will need to be asked whether 
 
 **Warning:** _XXXXXX does not appear in sequence which is likely incorrect. Relative to the other AR images it is placed in position XXXXXX._
 
-**Action:** This warning will appear if the author response images in the author response letter are placed out of sequence. This may happen if the authors have cited the figures out of order. For example, if they refer to Author response image 3 before before Author response image 2 this results in Author response image 3 being placed before Author response image 2.  Unlink the citation that is out of order and leave the following query for the author:
+**Action:** This warning will appear if the author response images in the author response letter are placed out of sequence. This may happen if the authors have cited the figures out of order. For example, if they refer to Author response image 3 before before Author response image 2 this results in Author response image 3 being placed before Author response image 2. However it may also be an error during processing - check the `elife/decision-letter-input` AWS bucket to see what the correct order of figures should be and correct accordingly. Otherwise, unlink the citation that is out of order and leave the following query for the author:
 
 * This citation is out of sequence with the other figure citations and has therefore been left unlinked \(figure placement is determined by first live citation\). Please confirm this is acceptable.
 
 If multiple figures are out of sequence, leave the following query for the author instead:
 
-* Our system numbers figures based on when they are first cited. Please conform these figures can be renumbered or provide in-sequence citations for these.
+* Our system numbers figures based on when they are first cited. Please confirm these figures can be renumbered or provide in-sequence citations for these.
 
 #### final-ar-fig-position-test
 
@@ -461,7 +465,7 @@ If multiple figures are out of sequence, leave the following query for the autho
 
 **Error:** _fig label in author response must be in the format 'Author response image 1.', or 'Chemical Structure 1.', or 'Scheme 1.'._
 
-**Action:** This error will appear __if an author response image has a label other than 'Author response image X.' or 'Chemical Structure X.' or 'Scheme X.' Correct any typos and if needed, check what the correct label should be by comparing with the decision letter/author response document from the AWS bucket. This will need to be corrected by Exeter.
+**Action:** This error will appear __if an author response image has a label other than 'Author response image 0.' or 'Chemical Structure 0.' or 'Scheme 0.' Correct any typos and if needed, check what the correct label should be by comparing with the decision letter/author response document from the AWS bucket. This will need to be corrected by Exeter.
 
 #### dec-fig-test-1
 
@@ -479,13 +483,13 @@ If multiple figures are out of sequence, leave the following query for the autho
 
 **Error:** _label for fig inside boxed-text must be in the format 'Box 1—figure 1.', or 'Chemical structure 1.', or 'Scheme 1'._
 
-**Action:** This error will appear __if a figure in a box has a label other than 'Box X—figure X.', 'Chemical structure X.' or 'Scheme X.'.This will need to be corrected by Exeter.
+**Action:** This error will appear __if a figure in a box has a label other than 'Box 0—figure 0.', 'Chemical structure 0.' or 'Scheme 0.'.This will need to be corrected by Exeter.
 
 #### app-fig-test-1
 
 **Error:** _label for fig inside appendix must be in the format 'Appendix 1—figure 1.', 'Appendix A—figure 1.', or 'Appendix 1—chemical structure 1.', or 'Appendix A—scheme 1'._
 
-**Action:** This error will appear __if a figure in an appendix has an ID appXfigX \(where X is a number\) and a label other than 'Appendix 1—figure 1.', 'Appendix A—figure 1.', or 'Appendix 1—chemical structure 1.', or 'Appendix A—scheme 1'. This will need to be corrected by Exeter.
+**Action:** This error will appear __if a figure in an appendix has an ID app0fig0 \(where 0 is a number\) and a label other than 'Appendix 1—figure 1.', 'Appendix A—figure 1.', or 'Appendix 1—chemical structure 1.', or 'Appendix A—scheme 1'. This will need to be corrected by Exeter.
 
 #### app-fig-test-2
 
@@ -511,7 +515,7 @@ If this error appears at post-author stages, check whether the authors asked for
 
 #### fig-title-test-1
 
-**Warning:** _'XXXXXX' appears to have a title which is the begining of a caption. Is this correct?_
+**Warning:** _'XXXXXX' appears to have a title which is the beginning of a caption. Is this correct?_
 
 **Action:** This warning will appear __if a figure has a title with a part label in it e.g.  '\(**a**\) Daily hospitalized cases and cumulative hospitalized and discharged cases.' Compare with the submission to see whether this should actually be in the caption and move the text there if so. Additionally, if no title has been provided for the figure in the submission, leave the following query: 
 
@@ -570,7 +574,13 @@ If this warning appears at post-author stages, the author will need to be asked 
 
 ### XML structure checks
 
-These checks relate to the XML structure of figures and figure supplements. ‌X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see [**below**](untitled.md#xml-structure).
+These checks relate to the XML structure of figures and figure supplements. ‌X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see [**below**](figures.md#xml-structure).
+
+#### fig-xref-target-test
+
+**Error:** _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
+
+**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a figure, then the `ref-type` attribute value must be 'fig'. If the link it meant to point to something else, which is not a figure, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
 
 #### fig-group-test-1
 
@@ -588,37 +598,37 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 **Error:** _XXXXXX_ _is not allowed as a child of fig-group._
 
-**Action:** ???
+**Action:** The only elements allowed as a child of `<fig-group>` are `<fig>` or `<media>`. This test will fire at all stages for an element which is not one of those in a `<fig-group>`. The XXXXXX will be the name of the offending element. This likely means that either this element is placed incorrectly in the XML, or there is an unnecessary element in the XML. Exeter will need to correct this.
 
 #### fig-group-child-test-2
 
-**Error:** _which is a child of fig-group, must have an @mimetype='video' - i.e. only video type media is allowed as a child of fig-group._
+**Error:** _XXXXXX which is a child of fig-group, must have an @mimetype='video' - i.e. only video type media is allowed as a child of fig-group._
 
-**Action:** ???
+**Action:** This will fire for any `<media>` element, which is a child of `<fig-group>`, that does not have a `mimetype="video"` attribute, meaning that it is a _not_ a video. If it is a video, then the `mimetype="video"` attribute needs to be added by Exeter. If it is not a video, then it is likely that this is placed incorrectly in the XML, and this will need to be fixed by Exeter.
 
 #### fig-id-test-1
 
 **Error:** _fig must have an @id in the format fig0 \(or C0 for chemical structures, or S0 for Schemes\). XXXXXX does not conform to this._
 
-**Action:** This error will appear __if a figure __has an ID in a format other than figX, CX or SX \(where X is a number\). Exeter will need to fix this.
+**Action:** This error will appear __if a figure __has an ID in a format other than fig0, C0 or S0 \(where 0 is a number\). Exeter will need to fix this.
 
 #### fig-id-test-2
 
 **Error:** _fig must have an @id in the format fig0. XXXXXX does not conform to this._
 
-**Action:** This error will appear __if a figure __has a label 'Figure X' and an ID in a format other than figX \(where X is a number\)_._ Exeter will need to fix this.
+**Action:** This error will appear __if a figure __has a label 'Figure 0' and an ID in a format other than fig0 \(where 0 is a number\)_._ Exeter will need to fix this.
 
 #### fig-sup-id-test
 
 **Error:** _figure supplement must have an @id in the format fig0s0. XXXXXX does not conform to this._
 
-**Action:** This error will appear __if a figure __supplement __has an ID in a format other than figXsX \(where X is a number\). Exeter will need to fix this.
+**Action:** This error will appear __if a figure __supplement __has an ID in a format other than fig0s0 \(where 0 is a number\). Exeter will need to fix this.
 
 #### box-fig-id-1
 
 **Error:** _fig must have @id in the format box0fig0. XXXXXX does not conform to this._
 
-**Action:** This error will appear __if a figure __in a box __has an ID in a format other than boxXfigX \(where X is a number\). Exeter will need to fix this.
+**Action:** This error will appear __if a figure __in a box __has an ID in a format other than box0fig0 \(where 0 is a number\). Exeter will need to fix this.
 
 #### box-fig-id-2
 
@@ -630,25 +640,25 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 **Error:** _figures in appendices must have an @id in the format app0fig0. XXXXXX does not conform to this._
 
-**Action:** This error will appear __if an appendix figure has an ID in a format other than appXfigX \(where X is a number\). Exeter will need to fix this.
+**Action:** This error will appear __if an appendix figure has an ID in a format other than app0fig0 \(where 0 is a number\). Exeter will need to fix this.
 
 #### app-fig-sup-id-test
 
 **Error:** _figure supplements in appendices must have an @id in the format app0fig0s0. XXXXXX does not conform to this._
 
-**Action:** This error will appear __if an appendix figure supplement __has an ID in a format other than appXfigXsX \(where X is a number\). Exeter will need to fix this.
+**Action:** This error will appear __if an appendix figure supplement __has an ID in a format other than app0fig0s0 \(where 0 is a number\). Exeter will need to fix this.
 
 #### resp-fig-id-test
 
-**Error:** _fig in decision letter/author reponse must have @id in the format respfig0, or sa0fig0. XXXXXX does not conform to this._
+**Error:** _fig in decision letter/author response must have @id in the format respfig0, or sa0fig0. XXXXXX does not conform to this._
 
-**Action:** This error will appear __if a figure in the decision letter or author response section has an ID in a format other than respfigX or saXfigX \(where X is a number\). Exeter will need to fix this.
+**Action:** This error will appear __if a figure in the decision letter or author response section has an ID in a format other than respfig0 or sa0fig0 \(where 0 is a number\). Exeter will need to fix this.
 
 #### resp-fig-sup-id-test
 
-**Error:** _figure supplement in decision letter/author reponse must have @id in the format respfig0s0 or sa0fig0s0. XXXXXX does not conform to this._
+**Error:** _figure supplement in decision letter/author response must have @id in the format respfig0s0 or sa0fig0s0. XXXXXX does not conform to this._
 
-**Action:** This error will appear __if a figure __supplement in the decision letter or author response section has an ID in a format other than respfigXsX or saXfigXsX  \(where X is a number\). Exeter will need to fix this.
+**Action:** This error will appear __if a figure __supplement in the decision letter or author response section has an ID in a format other than respfig0s0 or sa0fig0s0  \(where 0 is a number\). Exeter will need to fix this.
 
 #### fig-specific-test-1
 
@@ -660,7 +670,7 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 **Error:** _fig label must be in the format 'Figure 0.', 'Chemical structure 0.', or 'Scheme 0'._
 
-**Action:** This error will fire if a figure has a label other than Figure X, Chemical structure X or Scheme X. Exeter will need to fix this.
+**Action:** This error will fire if a figure has a label other than Figure 0, Chemical structure 0 or Scheme 0. Exeter will need to fix this.
 
 #### fig-sup-test-1
 
@@ -751,13 +761,13 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 **Warning:** _Figure citation is preceded by 'their'. Does this refer to a figure in other content \(and as such should be captured as plain text\)? - 'XXXXXX'._
 
-**Action:** This warning will appear if a figure citation is preceded by the word _'_their', for example 'Smith et al., 1992, their Figure 2.' As this is referring to Figure 2 in a different paper, this citation should be unlinked. If it isn't possible to tell from the context whether the authors are referring to a figure in a different paper, a query should be left - see more [**here**](untitled.md#in-text-citations). 
+**Action:** This warning will appear if a figure citation is preceded by the word _'_their', for example 'Smith et al., 1992, their Figure 2.' As this is referring to Figure 2 in a different paper, this citation should be unlinked. If it isn't possible to tell from the context whether the authors are referring to a figure in a different paper, a query should be left - see more [**here**](figures.md#in-text-citations). 
 
 #### fig-xref-test-9
 
 **Warning:** _Is this figure citation a reference to a figure from other content \(and as such should be captured instead as plain text\)? - XXXXXX'._
 
-**Action:** This warning will appear if a figure citation is followed by the word _'_of', for example 'Figure 2 of Smith et al., 1992.' As this is referring to Figure 2 in a different paper, this citation should be unlinked. If it isn't possible to tell from the context whether the authors are referring to a figure in a different paper, a query should be left - see more [**here**](untitled.md#in-text-citations). 
+**Action:** This warning will appear if a figure citation is followed by the word _'_of', for example 'Figure 2 of Smith et al., 1992.' As this is referring to Figure 2 in a different paper, this citation should be unlinked. If it isn't possible to tell from the context whether the authors are referring to a figure in a different paper, a query should be left - see more [**here**](figures.md#in-text-citations). 
 
 #### fig-xref-test-10
 
@@ -811,7 +821,7 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 **Warning**: _Figure citation - 'XXXXXX' - is followed by the text 'XXXXXX' - should some or all of that text be included in the citation text?_
 
-**Action:** ???
+**Action:** This will fire at all stages for any figure citation which is immediately followed by a hyphen \(or variant such as en dash or em dash\), and a letter or number. For example in this case **Figure 1a**-ai, where the bolded text \(in this example\) is linked. If this fires, check whether the text following the link should instead be included in the link text. This can be done, for example, by checking the panel indicators in the image being linked to.
 
 #### ar-fig-title-test-1
 
@@ -897,49 +907,49 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 **Warning:** _The caption for XXXXXX contains the text 'reproduced from', but has no permissions. Is this correct?_
 
-**Action**: This warning will appear if a figure caption includes the text 'reproduced from' but there is no permissions information in the XML. If no notes have been left about permissions information to add, query the Production team who will check this with the Editorial team. See more about this [**here**](untitled.md#adapted-and-reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'reproduced from' but there is no permissions information in the XML. If no notes have been left about permissions information to add, query the Production team who will check this with the Editorial team. See more about this [**here**](figures.md#adapted-and-reproduced-images).
 
 #### reproduce-test-2
 
 **Warning:** _The caption for XXXXXX contains the text 'reproduced with permission', but has no permissions. Is this correct?_
 
-**Action**: This warning will appear if a figure caption includes the text 'reproduced with permission' but there is no permissions information in the XML. If no notes have been left about permissions information to add, query the Production team who will check this with the Editorial team. See more about this [**here**](untitled.md#adapted-and-reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'reproduced with permission' but there is no permissions information in the XML. If no notes have been left about permissions information to add, query the Production team who will check this with the Editorial team. See more about this [**here**](figures.md#adapted-and-reproduced-images).
 
 #### reproduce-test-3
 
 **Warning:** _The caption for XXXXXX contains the text 'adapted from ...', but has no permissions. Is this correct?_
 
-**Action**: This warning will appear if a figure caption includes the text 'adapted from' but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](untitled.md#adapted-and-reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'adapted from' but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](figures.md#adapted-and-reproduced-images).
 
 #### reproduce-test-4
 
 **Warning:** _The caption for XXXXXX contains the text 'reprinted from', but has no permissions. Is this correct?_
 
-**Action**: This warning will appear if a figure caption includes the text 'reprinted from' but there is no permissions information in the XML. If no notes have been left about permissions information to add, query the Production team who will check this with the Editorial team. See more about this [**here**](untitled.md#adapted-and-reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'reprinted from' but there is no permissions information in the XML. If no notes have been left about permissions information to add, query the Production team who will check this with the Editorial team. See more about this [**here**](figures.md#adapted-and-reproduced-images).
 
 #### reproduce-test-5
 
-**Warning:** _The caption for XXXXXX contains the text 'reprinted from', but has no permissions. Is this correct?_
+**Warning:** _The caption for XXXXXX contains the text 'reprinted with permission', but has no permissions. Is this correct?_
 
-**Action**: This warning will appear if a figure caption includes the text 'reprinted with permission from' but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](untitled.md#adapted-and-reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'reprinted with permission' but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](figures.md#adapted-and-reproduced-images).
 
 #### reproduce-test-6
 
 **Warning:** _The caption for XXXXXX contains the text 'modified from', but has no permissions. Is this correct?_
 
-**Action**: This warning will appear if a figure caption includes the text 'modified from' but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](untitled.md#adapted-and-reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'modified from' but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](figures.md#adapted-and-reproduced-images).
 
 #### reproduce-test-7
 
 **Warning:** _The caption for XXXXXX contains the text 'modified with', but has no permissions. Is this correct?_
 
-**Action**: This warning will appear if a figure caption includes the text 'modified with_'_ but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](untitled.md#adapted-and-reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'modified with_'_ but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](figures.md#adapted-and-reproduced-images).
 
 #### reproduce-test-8
 
 **Warning:** _The caption for XXXXXX contains the text 'used with permission', but has no permissions. Is this correct?_
 
-**Action**: This warning will appear if a figure caption includes the text 'used with permission_'_ but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](untitled.md#adapted-and-reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'used with permission_'_ but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](figures.md#adapted-and-reproduced-images).
 
 #### label-fig-group-conformance-1
 
@@ -978,24 +988,6 @@ XML of a figure with no figure supplements \(and therefore, no fig-group wrapper
     </caption>
     <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-53080-fig1-v2.tif"/>
 </fig>
-```
-
-#### label-fig-group-conformance-2
-
-**Error:** _XXXXXX contains the string 'Figure' but it's not placed in a &lt;fig-group&gt; element, which is incorrect. Either the label needs updating, or it needs moving into the &lt;fig-group&gt;._
-
-**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a video is linked to a figure but not included in the fig-group element in the XML. This should be corrected by Exeter. 
-
-An example of a figure video correctly placed in the fig-group element:
-
-```markup
-<fig-group>
-      ...
-      <media id="app8fig1video1" xlink:href="elife-0000-app8-fig1-video1.mp4" mimetype="video" mime-subtype="mp4">
-        <label>Appendix 8—figure 1—video 1.</label>
-        ...
-      </media>
-</fig-group>
 ```
 
 ## XML structure

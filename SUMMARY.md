@@ -16,7 +16,7 @@
 * [Content](article-details/content/README.md)
   * [Article assets](article-details/content/allowed-assets/README.md)
     * [Chemical structures/schemes](article-details/content/allowed-assets/chemical-structures-schemes.md)
-    * [Figures and figure supplements](article-details/content/allowed-assets/untitled.md)
+    * [Figures and figure supplements](article-details/content/allowed-assets/figures.md)
     * [Tables](article-details/content/allowed-assets/tables.md)
   * [Article structure](article-details/content/article-structure.md)
   * [Country names](article-details/content/country-names.md)

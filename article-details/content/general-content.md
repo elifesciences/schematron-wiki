@@ -240,3 +240,35 @@ Otherwise the text should be captured as a proper citation.
 
 **Error:** _Image file for XXXXXX \(XXXXXX\) is the same as the one used for XXXXXX._
 
+#### figurefigure-presence
+
+**Warning**: _XXXXXX element contains ' figure figure ' which is very likely to be incorrect._
+
+#### supplementalfigure-presence
+
+**Warning**: _XXXXXX element contains the phrase ' Supplemental figure ' which almost certainly needs updating. XXXXXX starts with - XXXXXX_
+
+#### label-fig-group-conformance-2
+
+**Error:** _XXXXXX contains the string 'Figure' but it's not placed in a &lt;fig-group&gt; element, which is incorrect. Either the label needs updating, or it needs moving into the &lt;fig-group&gt;._
+
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a video is linked to a figure but not included in the fig-group element in the XML. This should be corrected by Exeter. 
+
+An example of a figure video correctly placed in the fig-group element:
+
+```markup
+<fig-group>
+      ...
+      <media id="app8fig1video1" xlink:href="elife-0000-app8-fig1-video1.mp4" mimetype="video" mime-subtype="mp4">
+        <label>Appendix 8—figure 1—video 1.</label>
+        ...
+      </media>
+</fig-group>
+```
+
+#### distinct-label-conformance
+
+**Error:** _Duplicated labels - XXXXXX is present more than once in the text._
+
+**Action:** This error will appear if multiple assets have the same label. All assets should have distinct labels which are numbered in the order they are first cited in the text. Check the manuscript to see what the correct labels should be - Exeter will need to fix this.
+
