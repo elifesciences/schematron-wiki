@@ -782,19 +782,19 @@ In order to determine which of these is the case, Exeter should check the output
 
 #### dec-letter-reply-test-2
 
-**Error**: _sub-article id must be in the format 'sa0', where '0' is it's position \(1 or 2\)._
+**Error**: _sub-article id must be in the format 'sa0', where '0' is its position \(1 or 2\)._
 
 **Action**: This test will fire if the id for a `<sub-article>` is not in the format `sa1` __or __`sa2` , and indicates that something has gone wrong with the processing of the Decision letter/Author response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reply-test-3
 
-**Error**: _sub-article contain one and only one front-stub._
+**Error**: _sub-article must contain one and only one front-stub._
 
 **Action**: This test will fire if a `<sub-article>` has none or more than one `<front-stub>` element, and indicates that something has gone wrong with the processing of the Decision letter/Author response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reply-test-4
 
-**Error**: _sub-article contain one and only one body._
+**Error**: _sub-article must contain one and only one body._
 
 **Action**: This test will fire if a `<sub-article>` has none or more than one `<body>` element, and indicates that something has gone wrong with the processing of the Decision letter/Author response. It will likely need correcting by Exeter, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
