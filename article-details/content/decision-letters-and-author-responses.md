@@ -12,13 +12,13 @@ description: eLife's published peer review material
 
 ## What is a Decision letter?
 
-The Decision letter is a collation of the Peer Review correspondence sent to the authors of a paper that has been accepted for publication by eLife. As such they could contain various information, including but not limited to, mandatory and non-mandatory requests for revisions, request\(s\) for further experimentation or analysis, conformance to house style, and general comments of the importance, novelty etc. of the research which is communicated in an article.
+The Decision letter is a collation of the Peer Review correspondence sent to the authors of a paper that has been accepted for publication by eLife. As such they can contain various information, including but not limited to, mandatory and non-mandatory requests for revisions, request\(s\) for further experimentation or analysis, conformance to house style, and general comments of the importance, novelty etc. of the research which is communicated in an article.
 
 For the purposes of the production workflow, they are typically quite simple pieces of content, made up of just paragraphs of text; however in rare instances, they can contain more complex items such as figures, tables and videos.
 
 ## What is an Author response?
 
-An Author response is a formal response to the Decision letter by the authors of a paper. As with Decision letter, they can contain various types of information including, for example, rebuttals to criticism or requests, clarifications on the choice of method\(s\) or terminology, and thanks for pointing out omissions, oversights, inaccuracies etc.
+An Author response is a formal response to the Decision letter by the authors of a paper. As with Decision letters, they can contain various types of information including, for example, rebuttals to criticism or requests, clarifications on the choice of method\(s\) or terminology, and thanks for pointing out omissions, oversights, inaccuracies etc.
 
 Typically they are relatively simple, although often more complex than the Decision letter. They will always contain quotes taken from the Decision letter, will commonly contain figures, and in rare instances may contain tables and/or videos.
 
@@ -26,7 +26,7 @@ Typically they are relatively simple, although often more complex than the Decis
 
 Decision letters and Author responses are collated from the peer review correspondence as indicated above. The eLife Editorial team \(Ed Office\) collate this content \(which may have originally been taken from various sources, e.g. emails, PDFs etc.\) into one Word file. Each Word file contains both the Decision letter and Author response \(provided there _are_ both, which is typical for any research article\).
 
-A Macro is run on the content which normalises the it \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This resultant word document is then QC'd by Ed Office, before then being QC'd by the eLife Editorial team.
+A Macro is run on the content which normalises it \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This resultant word document is then QC'd by Ed Office, before then being QC'd by the eLife Editorial team.
 
 ## How are Decision letters and Author responses loaded?
 

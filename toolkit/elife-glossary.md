@@ -106,6 +106,16 @@ eLife uses Amazon S3 buckets \(a public cloud storage resource\) to store object
 
 An agency that registers DOIs for articles
 
+#### FTP
+
+#### AWS bucket
+
+#### JATS
+
+#### Parse
+
+#### API
+
 ### eLife journal teams
 
 Editorial
