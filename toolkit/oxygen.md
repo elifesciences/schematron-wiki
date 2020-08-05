@@ -120,6 +120,10 @@ In order to fix this do the following:
 * In the pop-up click on the folder next to the XSL URL field. Navigate to the updated file location and click Open, then click OK.
 * Click save and close to save the edited Scenario.
 
+{% hint style="info" %}
+A very similar process can be followed in the same case but for a validation scenario.
+{% endhint %}
+
 ## Useful keyboard shortcuts and tips
 
 ### \(Mac\) Keyboard shortcuts
