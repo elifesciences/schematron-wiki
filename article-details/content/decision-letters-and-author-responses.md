@@ -191,7 +191,7 @@ In order to determine which of these is the case, Exeter should check the output
 
 **Error**: _author response doesn't contain a disp-quote. This has to be incorrect._
 
-**Action**: disp-quote is the element which holds quotations. In the Author response, these will be quotations from the Decision letter. Every Author response will have some kind of quotation from the Decision letter, so if this fires, it means that there is 1 or more quotations in the Author response missing this tagging. In the original document, quotations are supplied in italics, so scan the Author response for any paragraph\(s\) entirely in italics, un-italicise them and mark them as display quotes in Kriya.
+**Action**: disp-quote is the element which holds quotations. In the Author response, these will be quotations from the Decision letter. Every Author response will have some kind of quotation from the Decision letter, so if this fires, it means that there is 1 or more quotation in the Author response missing this tagging. In the original document, quotations are supplied in italics, so scan the Author response for any paragraph\(s\) entirely in italics, un-italicise them and mark them as display quotes in Kriya.
 
 #### reply-body-test-2
 
