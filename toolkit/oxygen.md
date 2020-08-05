@@ -106,6 +106,20 @@ Some messages will contain GitBook links at the end of them. These are messages 
 
 10. Click 'OK', and then click 'Save and close'.
 
+## Editing a saved transformation scenario
+
+If you need to edit a transformation scenario then this can be done by clicking 'Configure Transformation Scenarios', clicking the scenario in question, and then clicking 'Edit'.
+
+### Working example
+
+You have just deleted or moved the XSLT file that a scenario relied upon and therefore it no longer works.
+
+In order to fix this do the following:
+
+* Click 'Configure Transformation Scenarios', click the scenario in question, and then click 'Edit'.
+* In the pop-up click on the folder next to the XSL URL field. Navigate to the updated file location and click Open, then click OK.
+* Click save and close to save the edited Scenario.
+
 ## Useful keyboard shortcuts and tips
 
 ### \(Mac\) Keyboard shortcuts
