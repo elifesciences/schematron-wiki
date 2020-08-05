@@ -8,7 +8,7 @@ description: eLife's published peer review material
 
 * Both a Decision letter and Author response are present prior to publication \(an Author response may not be included in cases where the review was carried out by Review Commons, or in other very rare cases, but having both is the norm\).
 * All Figures, Tables, and Videos display as expected.
-* There are no unaddressed Schematron messages relating to the incorrect capture of content in the Decision letter or Author response.
+* There are no unaddressed Schematron messages which require action.
 
 ## What is a Decision letter?
 
@@ -60,11 +60,22 @@ Note that [**a separate workflow**](decision-letters-and-author-responses.md#dl-
 
 ### The Decision letter was not posted successfully
 
-The email in the Production Inbox will look something like the following:
+There are two cases here either a success email was received, but the Decision letter was not successfully loaded to Kriya, or a failure email will be sent to the Production Inbox, which will look something like the following:
 
 ![An example of a Decision letter failure email](../../.gitbook/assets/screenshot-2020-07-20-at-17.26.28.png)
 
-There are numerous reasons why a Decision letter might fail.
+A decision letter may fail to load for the following reasons:
+
+* Kriya is down \(we should still receive a success email\).
+* The article has not yet been sent to Kriya \(we will receive a success email for this - not a failure one\). The decision letter should be reloaded once the article has been loaded to Kriya - this can be done by downloading and then re-uploading the zip on the AWS bucket \(`decision-letter-input`\).
+* An article is currently in the 'Content loading' stage in Kriya. This will result in a failure email. Leave this email open and once the article has loaded to Kriya, re-upload the decision letter to the AWS bucket as above.
+* Editorial have zipped up the files incorrectly. The failure message might say something like:
+
+> \[No articles to check\]
+
+Check that the files have been included as direct children of the zip, i.e. that a folder hasn't been included in the zip. If all the files are zipped correctly, then contact Fred in the Production team who will investigate further \(if Fred is not available, raise a GitHub issue in the [**eLife issues repository**](https://github.com/elifesciences/issues), and assign to Graham to investigate\).
+
+* Other. If a failure message comes through and you are unsure what it means, it's possible that the content hasn't been parsed correctly by the parser. A GitHub issue should be raised in the [**eLife issues repository**](https://github.com/elifesciences/issues), and assigned to Graham to investigate.
 
 \[Question for review - where should these be outlined? They are already explained in detail [**here**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading). Should they be here instead? In Both places? Or should we just link to [**here**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading)?\]
 
