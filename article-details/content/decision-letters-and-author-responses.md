@@ -58,9 +58,7 @@ Verifying whether a Decision letter has loaded in Kriya is as simple as refreshi
 Note that [**a separate workflow**](decision-letters-and-author-responses.md#dl-with-author-response-videos) is required if a Decision letter contains  videos.
 {% endhint %}
 
-![https://docs.google.com/drawings/d/16Q4mvzujVITy10nbAjmZTdH6CHO-4E4k5QBKrXolXyI/edit](../../.gitbook/assets/dl-workflow%20%282%29.svg)
-
-\[**`For Review`** - edit the above image [**here**](https://docs.google.com/drawings/d/16Q4mvzujVITy10nbAjmZTdH6CHO-4E4k5QBKrXolXyI/edit).\]
+![https://docs.google.com/drawings/d/16Q4mvzujVITy10nbAjmZTdH6CHO-4E4k5QBKrXolXyI/edit](../../.gitbook/assets/dlworkflow.png)
 
 ### The Decision letter was not posted successfully
 
