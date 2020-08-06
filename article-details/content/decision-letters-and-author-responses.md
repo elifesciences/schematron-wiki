@@ -30,7 +30,7 @@ A Macro is run on the content which normalises it \(italicises certain words and
 
 ## How are Decision letters and Author responses loaded?
 
-The Word document containing both the Decision letter and Author response, and any accompanying assets are zipped up, and placed in the `elife/decision-letter-input` AWS bucket by the eLife Editorial team.
+The Word document containing both the Decision letter and Author response, and any accompanying assets, are zipped up, and placed in the `elife/decision-letter-input` AWS bucket by the eLife Editorial team.
 
 At this point the eLife bot will notice the zip and process the content in order to send it to Kriya.
 
