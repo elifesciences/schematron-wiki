@@ -175,7 +175,7 @@ Corrections and retractions will not usually contain any section headings. Where
 
 **Warning**: Section title contains the word appendix - 'XXXXXX'. Should it be captured as an appendix?
 
-**Action**: This warning indicates that a section title contains the word 'appendix'. This may be OK if it is a citation of an existing appendix in the article \(e.g. "Results of experiment \(detailed in Appendix 1\)"\). However if the title is just 'Appendix 1', 'Appendix A', 'Appendix: Supplementary methods', this section and its contents should be moved into an appendix at the end of the article. XXXXXX will be the title in question.
+**Action**: This warning indicates that a section title starts with the word 'appendix' \(e.g. 'Appendix 1', 'Appendix A', 'Appendix: Supplementary methods'\). This section and its contents should be moved into an appendix at the end of the article. XXXXXX will be the title in question.
 
 #### sec-title-appendix-check-2
 
@@ -271,19 +271,19 @@ XXXXXX will indicate the styled content at the start of a paragraph, X will be t
 
 **Warning**: XXXXXX doesn't have child sec\[@sec-type='intro'\] in the main body. Is this correct?
 
-**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'intro'. If an 'Introduction' section is present in an article, it must have the `@sec-type` with a value of 'intro'. An 'Introduction' section should be present for all research content except for short reports, which may have one but do not need to.
+**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'intro'. If an 'Introduction' section is present in an article, it must have the `@sec-type` with a value of 'intro'. An 'Introduction' section is mandatory for all research content \(except for short reports and research communication articles; this warning will not fire for these article types\).
 
 #### ra-sec-test-3
 
 **Warning**: _main body in XXXXXX content doesn't have a child sec with @sec-type whose value is either 'materials\|methods', 'methods' or 'model'. Is this correct?_
 
-**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'materials\|methods', 'methods' or 'model'. If a 'Materials and methods', 'Methods', or 'Model' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content.
+**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'materials\|methods', 'methods' or 'model'. If a 'Materials and methods', 'Methods', or 'Model' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content \(except for research communication articles; this warning will not fire for that article type\).
 
 #### ra-sec-test-4
 
-Warning: \_main body in XXXXXX content doesn't have either a child sec\[@sec-type='results\|discussion'\] or a sec\[@sec-type='results'\] and a sec\[@sec-type='discussion'\]. Is this correct?
+**Warning**: _main body in XXXXXX content doesn't have either a child sec\[@sec-type='results\|discussion'\] or a sec\[@sec-type='results'\] and a sec\[@sec-type='discussion'\]. Is this correct?_
 
-**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'results\|discussion', 'results' or 'discussion'. If a 'Results and discussion', 'Results', or 'Discussion' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content except a short report.
+**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'results\|discussion', 'results' or 'discussion'. If a 'Results and discussion', 'Results', or 'Discussion' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content \(except for short reports and research communication articles; this warning will not fire for these article types\).
 
 #### top-sec-id
 
