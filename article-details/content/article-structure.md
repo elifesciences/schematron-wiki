@@ -38,7 +38,7 @@ eLife currently allows four levels of headings:
 
 ![Level 4 heading &apos;Survival and water-electrolyte balance&apos; in PDF](../../.gitbook/assets/screen-shot-2020-07-28-at-15.59.05.png)
 
-Any number of Level 2, 3 or 4 headings may appear within their parent sections. However, eLife limits the number of Level 1 headings in research content to between one and four in most cases.
+Any number of Level 2, 3 or 4 headings may appear within their parent sections. However, eLife limits the number of Level 1 headings in research content to between one and four in most cases. Please note that levels cannot be skipped – for example, a Level 2 heading cannot be followed by a Level 4 heading. 
 
 ## Allowed article structures
 
@@ -147,15 +147,15 @@ Scientific correspondence articles may follow the standard research article stru
   * **Discussion**
   * **Materials and methods**
 
- However, this is not mandated and other Level 1 headings are permitted. The article structure should follow that indicated in the exported article file.
+However, this is not mandated and other Level 1 headings are permitted. The article structure should follow that indicated in the exported article file.
 
 ### Review article
 
-There are no rules for Level 1 headings in review articles. The article structure should follow that indicated in the exported article file.
+There are no rules for headings in review articles. The article structure should follow that indicated in the exported article file.
 
 ### Feature content
 
-There are no rules for Level 1 headings in feature content. The article structure should follow that indicated in the exported article file.
+There are no rules for headings in feature content. The article structure should follow that indicated in the exported article file.
 
 ### Corrections and retractions
 
@@ -205,19 +205,19 @@ Corrections and retractions will not usually contain any section headings. Where
 
 **Error**: _All section title content is captured in bold. This is incorrect - XXXXXX_
 
-**Action**: Section titles do not need to be placed in bold font to be styled correctly. Scientific terms can be placed in bold for consistency, but if the entire title is in bold, this formatting should be removed. XXXXXX indicates the affected tittle.
+**Action**: Section titles do not need to be placed in bold font to be styled correctly. This formatting should be removed. XXXXXX indicates the affected tittle.
 
 #### sec-title-underline
 
 **Error**: _All section title content is captured in underline. This is incorrect - XXXXXX_
 
-**Action**: Section titles should not be underlined. Individual terms can be underlined for consistency with the main text, but if the entire title is underlined, this formatting should be removed. XXXXXX indicates the affected tittle.
+**Action**: Section titles should not be underlined. Individual terms can be underlined for consistency with how those terms are presented in the main text, but if the entire title is underlined, this formatting should be removed. XXXXXX indicates the affected tittle.
 
 #### sec-title-italic
 
 **Warning**: _All section title content is captured in italics. Is this incorrect? If it is just a species name, then this is likely to be fine - XXXXXX_
 
-**Action**: Section titles should not be entirely in italics unless they only consist of a species name such as _C. elegans_. Scientific terms such as species names should be put in italics for consistency with the main text, but italics should be removed from any accompanying text. XXXXXX indicates the affected tittle.
+**Action**: Section titles should not be entirely in italics unless they only consist of a species name such as _C. elegans_. Scientific terms such as species names should be put in italics, but italics should be removed from any accompanying text. XXXXXX indicates the affected tittle.
 
 #### sec-title-dna	
 
@@ -247,9 +247,9 @@ Corrections and retractions will not usually contain any section headings. Where
 
 **Warning**: _text begins a paragraph - XXXXXX - Should it be marked up as a section title \(Heading level X\)?_
 
-**Action**: This warning will fire if the entire first sentence of a paragraph is in bold font, italics or underlined. This may mean the authors intended this to be a section title. If this warning appears pre-author, the indicated text should be made into a section title. This should start a sub-section of whichever section originally contained this paragraph. The only exception to this rule is if this would involve making a sub-section of a Level 4 section, which is not allowed. In this case, the text should be left as it is.
+**Action**: This warning will fire if the entire first sentence of a paragraph is in bold font, italics or underlined. This may mean the authors intended this to be a section title. If this warning appears pre-author, the indicated text should be made into a section title. This should start a sub-section of whichever section originally contained this paragraph. The only exception to this rule is if this would involve making a sub-section under a Level 4 section, which is not allowed. In this case, the text should be left as it is.
 
-If this warning appears post-author, check whether the author has reverted the above kind of change and if so, that this makes sense \(they may prefer the text to appear as bold for highlighting purposes, but do not want it as a heading\).
+If this warning appears post-author, check whether the author has reverted the above kind of change and, if so, that this makes sense \(they may prefer the text to appear as bold for highlighting purposes, but do not want it as a heading\).
 
 XXXXXX will indicate the styled content at the start of a paragraph, X will be the suggested heading level respective to the heading level of the section in which the styled content appears.
 
@@ -323,7 +323,7 @@ Correct the title to match the `@sec-type` value.
 
 #### low-level-sec-id-test
 
-**Error**: _sec id must be a concatenation of it's parent sec id and this element's position relative to it's sibling secs. It must be XXXXXX._
+**Error**: _sec id must be a concatenation of its parent sec id and this element's position relative to it's sibling secs. It must be XXXXXX._
 
 **Action:** The `@id` attribute on a section should reflect its position within higher-level sections. So, for example, Level 2 sections, within a Level 1 section with the id s4, would have the ids s4-1, s4-2, s4-3 and so on. A Level 3 section within the third of these would have the ids s4-3-1, s4-3-2, s4-3-3 and so on. Correct the id value to match the one recommended by the error message \(XXXXXX\).
 
@@ -331,7 +331,7 @@ Correct the title to match the `@sec-type` value.
 
 **Error**: _sec must have a title_
 
-**Action**: Each section should have a title. Check whether the text for the title has been captured as part of the first paragraph and, if so, correct the tagging.
+**Action**: Each section should have a title. Check whether the text for the title has been captured as part of the first paragraph of this section and, if so, correct the tagging.
 
 #### sec-test-2
 
