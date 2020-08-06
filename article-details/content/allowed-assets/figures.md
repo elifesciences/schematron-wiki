@@ -33,7 +33,7 @@ We strongly discourage authors from providing tables represented as figures or f
 
 If the author has not cited this "figure" in the text \(for instance because it is a figure supplement\) they will also need to add a citation to the new table in the main text.
 
-For example, in 55692, Figure 1 - figure supplement 3 was originally provided as an image:
+For example, in 55692, Figure 1_—_ figure supplement 3 was originally provided as an image:
 
 ![](../../../.gitbook/assets/screenshot-2020-07-01-at-16.06.10.png)
 
@@ -41,7 +41,7 @@ The authors were asked to provide this as an editable file and it was changed to
 
 ![](../../../.gitbook/assets/screenshot-2020-07-01-at-16.06.46.png)
 
-The author may also be given the option to convert the table to source data instead depending on the content. If the table was provided as a figure supplement this would become Figure 0 - Source data 0 \(where 0 is one or more digits\); if it was provided as a main figure this would become source data attached to the document as a whole.
+The author may also be given the option to convert the table to source data instead depending on the content. If the table was provided as a figure supplement this would become Figure 0_—_Source data 0 \(where 0 is one or more digits\); if it was provided as a main figure this would become source data attached to the document as a whole.
 
 If one of the panels in a figure is a table, this can be left as-is:
 
@@ -130,9 +130,19 @@ Please be aware that sometimes authors may cite a figure from another article. C
 
 * Figure X is cited in the text but has not been provided. Please either correct the citation, provide the figure file and a title and legend, or confirm that this citation refers to another article.
 
+### Figure placement
+
+Figures are automatically placed directly after their first citation in the text \(although citations in captions should not be used to determine figure placement\). This can sometimes result in figures being placed in the middle of display formulae, which breaks the flow of the text.
+
+For example, in 55217, equation 12 should appear after the paragraph below. Instead, Figure 12 has been placed here, which breaks the flow of the text. Figure 12 should appear after equation 12 to improve readability.
+
+![](../../../.gitbook/assets/screenshot-2020-07-22-at-16.22.03.png)
+
+![](../../../.gitbook/assets/screenshot-2020-07-22-at-16.22.15.png)
+
 ### Source code/data
 
-Source data is often associated with figures and figure supplements. Each source data or source code file should be linked with the appropriate figure or figure supplement. For example, if a source data \(or code\) file is labelled Figure 1 - source data 1 but the title makes it clear that the data is linked to a figure supplement, it should be relabelled as Figure 1 - Figure supplement X - source data 1 \(or source code as appropriate\). If the source data or code is linked to multiple figures and figure supplements however, no further action is required. See more about source data and source code \(links to be added\).
+Source data is often associated with figures and figure supplements. Each source data or source code file should be linked with the appropriate figure or figure supplement. For example, if a source data \(or code\) file is labelled Figure 1_—_source data 1 but the title makes it clear that the data is linked to a figure supplement, it should be relabelled as Figure 1_—_Figure supplement X_—_source data 1 \(or source code as appropriate\). If the source data or code is linked to multiple figures and figure supplements however, no further action is required. See more about source data and source code \(links to be added\).
 
 ### Adapted and reproduced images
 
@@ -402,7 +412,7 @@ If this appears at post-author stages, the author will need to be asked whether 
 
 **Error:** _XXXXXX label ends with XXXXXX, but the id \(XXXXXX\) ends with XXXXXX, so one must be incorrect._
 
-**Action:** This error will appear if a figure's ID and its label do not match. For example in the XML below, the figure ID is fig6s1 but the label is Figure 6 - figure supplement 6. If this appears at pre-editing, check whether the figure ID or label is correct by comparing against the submission from eJP - Exeter will need to correct the XML. If this is at post-author stages, compare against the submission from eJP, and check for any correspondence with the authors in case they have asked for figures to be relabelled. Exeter will need to correct the XML.
+**Action:** This error will appear if a figure's ID and its label do not match. For example in the XML below, the figure ID is fig6s1 but the label is Figure 6_—_figure supplement 6. If this appears at pre-editing, check whether the figure ID or label is correct by comparing against the submission from eJP - Exeter will need to correct the XML. If this is at post-author stages, compare against the submission from eJP, and check for any correspondence with the authors in case they have asked for figures to be relabelled. Exeter will need to correct the XML.
 
 ```markup
 <fig-group>
@@ -700,19 +710,19 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 **Error:** _XXXXXX - figure citation links to a figure, but it contains the string 'supplement'. It cannot be correct._
 
-**Action:** This error will appear if the text of a figure citation includes 'supplement' but links to a main figure e.g. if Figure 1 - figure supplement 1 links to Figure 1. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
+**Action:** This error will appear if the text of a figure citation includes 'supplement' but links to a main figure e.g. if Figure 1_—_figure supplement 1 links to Figure 1. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
 
 #### fig-xref-conformity-5
 
 **Warning:** _figure citation stands alone, contains the text XXXXXX, and links to a figure supplement, but it does not contain the string 'supplement'. Is it correct? Preceding text - 'XXXXXX'_
 
-**Action:** This warning will appear if a figure citation links to a figure supplement but the citation text doesn't include the word 'supplement'. This is ok to leave if, for example the citation text says 'Figure 1 - figure supplements 2, 3' and links correctly to both Figure 1 - figure supplement 2 and Figure 1 - figure supplement 3. However, if the citation text says 'Figure 1' but links to Figure 1 - figure supplement 1, this will need to be corrected. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
+**Action:** This warning will appear if a figure citation links to a figure supplement but the citation text doesn't include the word 'supplement'. This is ok to leave if, for example the citation text says 'Figure 1_—_figure supplements 2, 3' and links correctly to both Figure 1_—_figure supplement 2 and Figure 1_—_figure supplement 3. However, if the citation text says 'Figure 1' but links to Figure 1_—_figure supplement 1, this will need to be corrected. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
 
 #### fig-xref-conformity-6
 
 **Error:** _figure citation contains the text XXXXXX but links to a figure supplement with the id XXXXXX which cannot be correct._
 
-**Action:** This error will appear if a figure citation links to the wrong figure supplement e.g. if the citation 'Figure 1 - figure supplement 1' links to Figure 1 - figure supplement 2. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
+**Action:** This error will appear if a figure citation links to the wrong figure supplement e.g. if the citation 'Figure 1_—_figure supplement 1' links to Figure 1_—_figure supplement 2. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
 
 #### fig-xref-test-2
 
@@ -803,7 +813,7 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 **Error:** _Link - 'XXXXXX' - is incomplete. It should have 'figure' or 'Figure' spelt out._
 
-**Action:** This error will appear if a figure citation uses an abbreviation e.g. 'Appendix Fig. 1'. Make sure this is spelled out in full and formatted correctly - in this case, the citation would be corrected to 'Appendix-figure 1'.
+**Action:** This error will appear if a figure citation uses an abbreviation e.g. 'Appendix 1 Fig. 1'. Make sure this is spelled out in full and formatted correctly - in this case, the citation would be corrected to 'Appendix 1_—_figure 1'.
 
 #### fig-xref-test-16
 
@@ -901,7 +911,7 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 **Warning**: _XXXXXX permissions - the  for all rights reserved type permissions should usually end with 'further reproduction of this panel/figure would need permission from the copyright holder.', but XXXXXX's doesn't. Is this correct? \(There is no '_[_https://creativecommons.org/_](https://creativecommons.org/)_' type link so presumed ARR.\)_
 
-**Action**: If the copyright statement for a figure includes 'All rights reserved', the permissions statement should end with 'further reproduction of this panel/figure would need permission from the copyright holder' - you just need to add it in if this is missing. If there is no '[https://creativecommons.org/](https://creativecommons.org/)' type link, the schematron will automatically assume the figure permission is 'All rights reserved' - query the Production team to check this is correct. 
+**Action**: If the copyright statement for a figure includes 'All rights reserved', the permissions statement should end with 'further reproduction of this panel/figure would need permission from the copyright holder' - you just need to add it in if this is missing. If there is no '[**https://creativecommons.org/**](https://creativecommons.org/)' type link, the schematron will automatically assume the figure permission is 'All rights reserved' - query the Production team to check this is correct. 
 
 #### reproduce-test-1
 
@@ -955,7 +965,7 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 **Error:** _XXXXXX is not placed in a &lt;fig-group&gt; element, which is incorrect. Either the label needs updating, or it needs moving into the &lt;fig-group&gt;._
 
-**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a figure has a figure supplement label \(e.g. Figure 1 - Figure supplement 1\) but it is not placed in the fig-group element. This should be corrected by Exeter.
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a figure has a figure supplement label \(e.g. Figure 1_—_Figure supplement 1\) but it is not placed in the fig-group element. This should be corrected by Exeter.
 
 XML of a figure with a figure supplement wrapped in the fig-group element.
 
