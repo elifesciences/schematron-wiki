@@ -257,7 +257,7 @@ XXXXXX will indicate the styled content at the start of a paragraph, X will be t
 
 **Warning**: _top level sec with title - XXXXXX - is not a usual title for XXXXXX content. Should this be captured as a sub-level of XXXXXX?_
 
-**Action**: This warning indicates that a Level 1 heading is present that does not match the allowed top-level headings for the current article type. Check whether this heading should be tagged as Level 2, within the preceding Level 1 heading. This may require a check against the exported article file. If this unusual Level 1 heading was approved by Editorial, this should be indicated in the production notes.
+**Action**: This warning indicates that a Level 1 heading is present that does not match the allowed top-level headings. Check whether this heading should be tagged as Level 2, within the preceding Level 1 heading. This may require a check against the exported article file. If this unusual Level 1 heading was approved by Editorial, this should be indicated in the production notes.
 
 ### XML checks
 
