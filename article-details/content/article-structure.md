@@ -295,7 +295,7 @@ XXXXXX will indicate the styled content at the start of a paragraph, X will be t
 
 **Error**: This sec @id must be a concatenation of the parent sec @id, '-', and the position of this sec relative to other sibling secs - XXXXXX.
 
-**Action**: Each sub-section element `<sec>` in an article should each have an `@id` attribute, the value of which is determined by the order of the sections. The ids for Level 2 sections within a Level 1 section should the id 's1-1', 's1-2', 's1-3' and so on. The ids for Level 3 sections within the first of these Level 2 sections should be 's1-1-1', 's1-1-2', 's1-1-3' and so on \(see [**XML structure**](article-structure.md#xml-structure)\). Correct the section id to the indicated value.
+**Action**: Each sub-section element `<sec>` in an article should each have an `@id` attribute, the value of which is determined by the order of the sections. The ids for Level 2 sections within a Level 1 section should be id 's1-1', 's1-2', 's1-3' and so on. The ids for Level 3 sections within the first of these Level 2 sections should be 's1-1-1', 's1-1-2', 's1-1-3' and so on \(see [**XML structure**](article-structure.md#xml-structure)\). Correct the section id to the indicated value.
 
 #### sec-type-title-test
 
