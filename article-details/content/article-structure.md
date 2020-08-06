@@ -135,7 +135,7 @@ Registered reports will have the following article structure:
 
 ### Replication study
 
-Replication studies share the same structure rules as research articles.
+Replication studies share the same structure rules as [**research articles**](article-structure.md#research-article).
 
 ### Scientific correspondence
 
