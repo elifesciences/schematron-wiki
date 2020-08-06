@@ -27,7 +27,7 @@ Striking images can be used in the following ways
 
 The authors are also free to use these images for their own social media and press releases and do not need to ask permission for this because they fall under the CC-BY license along with the rest of the content.
 
-Some authors can be confused about the intended use of their striking image. As mentioned in the previous section, other journals might include these as covers. Occasionally, eLife authors contact us expecting to see their striking image on the personalised poster which they can download from their 'The full version of your eLife article is now available' email they receive upon publication. If you should need to reply to an author about this, you can find further information about the Hiver template 'Cover image response' [**here**](interacting-with-authors.md#hiver-templates). 
+Some authors can be confused about the intended use of their striking image. As mentioned in the previous section, other journals might include these as covers. Occasionally, eLife authors contact us expecting to see their striking image on the personalised poster which they can download from the publication notification email \('The full version of your eLife article is now available'\). If you should need to reply to an author about this, you can find further information about the Hiver template 'Cover image response' [**here**](interacting-with-authors.md#hiver-templates). 
 
 ## **Requirements** 
 
@@ -55,11 +55,17 @@ The authors may only include the title of the article within the email or email 
 
 The striking images are held in the elife-striking-images AWS bucket and you can upload the images in three ways: straight to the bucket, via eJP, and the Kriya dashboard. 
 
-If the article has been exported from eJP and is in Kriya, upload the image via the Kriya dashboard. If the article is still within eJP and not yet exported, upload it to eJP. It is important **not** to load it to eJP if the article is already in the production system because the systems do not transfer further information with each other after export has occurred.The most efficient way to do this is to search the Production inbox for the XML notification, which informs production an article has been exported from eJP.
+If the article has been exported from eJP and is in Kriya, upload the image via the Kriya dashboard. If the article is still within eJP and not yet exported, upload it to eJP. It is important **not** to load it to eJP if the article is already in the production system because after export has occurred there is no further push of information from eJP to Kriya. The most efficient way to do this is to search the Production inbox for the XML notification, which informs production an article has been exported from eJP \(see [**here**](managing-the-production-inbox.md#xml-notification-emails)\). 
+
+If the article has been exported from eJP and has not yet reached the Kriya dashboard, you can add a note to the email containing the striking image, and change the email to 'pending' \(see [**here**](managing-the-production-inbox.md#changing-the-status-of-an-email) and [**here**](managing-the-production-inbox.md#adding-notes-to-emails)\). Ensure you check the dashboard regularly so the image can be uploaded and not be forgotten.  
+
+Once an article is on the Kriya dashboard and you wish to upload a striking image, it is important to check if a striking image is already present for an article. If any further images are uploaded via the dashboard, it will overwrite any previous images in the AWS bucket. 
 
 ### Uploading via Kriya 
 
-To upload a striking image to an article, download the image provided by the author, go to the article in the Kriya dashboard and click on 'Striking image'. 
+It is typically easier, if you can, to use the Kriya dashboard as it sets up the initial folder and creates the .txt files automatically.
+
+To upload a striking image to an article, download the image provided by the author, go to the article in the Kriya dashboard. Click on 'Striking image'. 
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-12.03.26%20%283%29.png)
 
@@ -81,13 +87,13 @@ Due to a dashboard bug, after clicking on 'Update' the uploader will not automat
 
 ### Uploading via the striking images AWS bucket 
 
-The AWS \(Amazon Web Services\) bucket is a remote file storage system. If you require access to this, please speak to a member of Production. You can use cloud storage browsers such as Cyberduck or Transit to view the bucket. 
+The AWS \(Amazon Web Services\) bucket is a remote file storage system. If you require access to this, please speak to a member of Production. You can use cloud storage browsers such as Cyberduck or Transmit to view the bucket. 
 
 Once you have access to this, you will start at the overview of all of the main folders the AWS bucket stores. You need to search for the 'elife-striking-images' folder, click this to open it. 
 
 ![](../.gitbook/assets/screen-shot-2020-07-16-at-13.51.09.png)
 
-You will now see all of the striking images that have been uploaded, organised in their own separate folders. For ease, you can search if an article has a striking image using the 'Search' bar and typing in the MS number. 
+You will now see all of the striking images that have been uploaded, organised in their own separate folders. To find whether an article has a striking image using the 'Search' bar and typing in the MS number. 
 
 ![](../.gitbook/assets/screen-shot-2020-07-16-at-13.51.28.png)
 
@@ -95,9 +101,9 @@ There are times when you may need to access the striking images bucket directly,
 
 #### Creating a new folder 
 
-It is typically easier, if you can, to use the Kriya dashboard as it sets up the initial folder and creates the .txt files automatically. In certain situations, mentioned above, you may need to manually create a folder for an article's striking image. 
+In certain situations, as mentioned above, you may need to manually create a folder for an article's striking image. 
 
-To do this, you need to go to the 'elife-striking-images' bucket and create a new folder. You can either do this through the 'File' menu at the top left hand corner of your screen or right click to bring up this option on the 'elife-striking-images' bucket overview. Click 'New Folder...'.
+To do this, you need to go to the 'elife-striking-images' bucket and create a new folder. You can either do this through the 'File' menu at the top left-hand corner of your screen or right-click to bring up this option on the 'elife-striking-images' bucket overview. Click 'New Folder...'.
 
 ![](../.gitbook/assets/screen-shot-2020-07-16-at-14.41.20.png)
 
@@ -119,15 +125,17 @@ Once it has finished uploading, you will need to right click on the file to rena
 
 #### Existing striking images
 
-If an article already has a striking image and it has already been exported to Kriya, but the authors would like to add another, the image will need to be uploaded straight to the striking image bucket. To do this, open the 'elife-striking-images' bucket in Cyberduck \(or similar program\) and search for the MS number. 
+If an article already has a striking image and it has already been exported to Kriya, but the authors would like to add another, the image will need to be uploaded straight to the striking image bucket. This is because if you upload additional images via the Kriya dashboard, it will overwrite any existing images in the bucket. 
+
+To do this, open the 'elife-striking-images' bucket in Cyberduck \(or similar program\) and search for the MS number. 
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-15.17.00%20%281%29.png)
 
-Open this folder and drag and drop the new striking image in to upload it. Make sure the striking image is titled appropriately - e.g. '56754-b\_striking\_image' if there is already a '56754-a\_striking\_image'. If the authors have provided a title, caption, or attribution information, enter this into a .txt file and save with the same title \(i.e. '56754-b\_striking\_image'\). If they have not provided this information, you do not need to include a .txt file. 
+Open this folder and drag and drop the new striking image in to upload it. Make sure the striking image is titled appropriately - e.g. '56754-b\_striking\_image' because there is already a '56754-a\_striking\_image'. If the authors have provided a title, caption, or attribution information, enter this into a .txt file and save with the same title \(i.e. '56754-b\_striking\_image'\). If they have not provided this information, you do not need to include a .txt file. 
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-15.21.44%20%281%29.png)
 
-If you have multiple images to upload with captions, you may prefer to upload these all together through the Kriya dashboard. To do this, you should download any existing images and .txt files \(if these contain any captions\) from the bucket and upload these along with the new images as shown in the previous section.  
+If you have multiple images with captions to add to existing images provided by the author, you may prefer to use the Kriya dashboard. You will need to re-upload the old images at the same time as the new images to prevent overwriting. To do this, you should download any existing images and .txt files \(if these contain any captions\) from the bucket and upload these along with the new images as shown in the previous section.
 
 ### **Uploading via eJP** 
 
@@ -139,7 +147,7 @@ To upload the image to eJP, search eJP using the MS number.
 
 Ensure this article has not already been exported from eJP to Kriya. The most efficient way to do this is to search the Production inbox for the XML notification, which informs production an article has been exported from eJP \(see [**here**](managing-the-production-inbox.md#xml-notification-emails)\).
 
-However, if you are in eJP look at 'More Manuscript Info and Tools' on the right-hand side of the page. If the 'Export to Exeter' option is not displaying but instead says 'Resend/Export to Exeter Premedia' this means the article has already been exported.
+However, if you are already in eJP look at 'More Manuscript Info and Tools' on the right-hand side of the page. If the 'Export to Exeter' option is not displaying but instead says 'Resend/Export to Exeter Premedia' this means the article has already been exported.
 
 ![](../.gitbook/assets/screen-shot-2020-07-09-at-13.28.45.png)
 
@@ -163,7 +171,7 @@ Once you have done this, click 'Save and Exit'
 
 ## Striking images from the Features team
 
-The Features team work with authors to write Digests and often, during this correspondence the authors will send them striking images. Features will then forward on these emails to us. 
+The Features team works with authors to write Digests and often, during this correspondence, the authors will send them striking images. Features will then forward on these emails to us. 
 
 ![](../.gitbook/assets/screen-shot-2020-07-16-at-15.34.17.png)
 
@@ -172,8 +180,6 @@ These images and any captions highlighted to us will need to be uploaded to the 
 
 
 ## Changelog
-
-After Exeter has fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent.
 
 ### dd/mm/yyyy
 
