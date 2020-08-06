@@ -41,7 +41,7 @@ The authors were asked to provide this as an editable file and it was changed to
 
 ![](../../../.gitbook/assets/screenshot-2020-07-01-at-16.06.46.png)
 
-The author may also be given the option to convert the table to source data instead depending on the content. If the table was provided as a figure supplement this would become Figure x - Source data x; if it was provided as a main figure this would become source data attached to the document as a whole.
+The author may also be given the option to convert the table to source data instead depending on the content. If the table was provided as a figure supplement this would become Figure 0 - Source data 0 \(where 0 is one or more digits\); if it was provided as a main figure this would become source data attached to the document as a whole.
 
 If one of the panels in a figure is a table, this can be left as-is:
 
@@ -235,13 +235,13 @@ If the figure has been cited in the text and this error still appears, Exeter wi
 
 **Error:** _fig must have a label._
 
-**Action:** All figures and figure supplements in research content should have the label 'Figure X' or 'Figure supplement X'. This error will appear if a figure does not have a label and will need to be corrected by Exeter.
+**Action:** All figures and figure supplements in research content should have the label 'Figure 0' or 'Figure supplement 0' \(where 0 is one or more digits\). This error will appear if a figure does not have a label and will need to be corrected by Exeter.
 
 #### feat-fig-test-3
 
 **Warning:** _fig doesn't have a label. Is this correct?_
 
-**Action:** This will appear in Feature content if a figure does not have the label 'Figure X'. Check the original submitted document to see whether there should be a label. If so, this will need to be added by Exeter. If the original version does not have a label, this is ok to leave. For example, in 58965:
+**Action:** This will appear in Feature content if a figure does not have the label 'Figure 0' \(where 0 is one or more digits\). Check the original submitted document to see whether there should be a label. If so, this will need to be added by Exeter. If the original version does not have a label, this is ok to leave. For example, in 58965:
 
 ![An example of a figure with no label in Feature content](../../../.gitbook/assets/screenshot-2020-07-08-at-16.12.34.png)
 
@@ -360,15 +360,15 @@ If multiple figures are out of sequence, leave the following query for the autho
 
 #### fig-sup-test-2
 
-**Error:** _fig in the body of the article which has a @specific-use='child-fig' must have a label in the format 'Figure X—figure supplement X.' \(where X is one or more digits\)._
+**Error:** _fig in the body of the article which has a @specific-use='child-fig' must have a label in the format 'Figure 0—figure supplement 0.' \(where 0 is one or more digits\)._
 
-**Action:** __All figure supplements in research content should have the label 'Figure X—figure supplement X.' This error will appear if a figure supplement does not have this label. Exeter will need to fix this. 
+**Action:** __All figure supplements in research content should have the label 'Figure 0—figure supplement 0.' This error will appear if a figure supplement does not have this label. Exeter will need to fix this. 
 
 #### fig-sup-test-3
 
 **Error:** _XXXXXX does not start with the main figure number it is associated with - XXXXXX._
 
-**Action:** __All figure supplements in research content should have the label 'Figure X—figure supplement X.' This error will appear if a figure supplement has a label which doesn't begin with the figure number it is associated with. Exeter will need to fix this. 
+**Action:** __All figure supplements in research content should have the label 'Figure 0—figure supplement 0.' This error will appear if a figure supplement has a label which doesn't begin with the figure number it is associated with. Exeter will need to fix this. 
 
 #### fig-sup-test-4
 
@@ -503,7 +503,7 @@ If this error appears at post-author stages, check whether the authors asked for
 
 **Error:** _label for fig inside appendix must be in the format 'Appendix 1—figure 1—figure supplement 1.'._
 
-**Action:** This error will appear __if a figure supplement in an appendix has a label other than 'Appendix X—figure X—figure supplement X.' \(following this capitalisation exactly i.e. 'Appendix X—Figure X—Figure Supplement X.' is incorrect\). This will need to be corrected by Exeter.
+**Action:** This error will appear __if a figure supplement in an appendix has a label other than 'Appendix 0—figure 0—figure supplement 0.' \(following this capitalisation exactly i.e. 'Appendix 0—Figure 0—Figure Supplement 0.' is incorrect\). This will need to be corrected by Exeter.
 
 #### app-fig-sup-test-2
 
@@ -622,13 +622,13 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 **Error:** _figure supplement must have an @id in the format fig0s0. XXXXXX does not conform to this._
 
-**Action:** This error will appear __if a figure __supplement __has an ID in a format other than fig0s0 \(where 0 is a number\). Exeter will need to fix this.
+**Action:** This error will appear __if a figure __supplement __has an ID in a format other than fig0s0 \(where 0 is one or more digits\). Exeter will need to fix this.
 
 #### box-fig-id-1
 
 **Error:** _fig must have @id in the format box0fig0. XXXXXX does not conform to this._
 
-**Action:** This error will appear __if a figure __in a box __has an ID in a format other than box0fig0 \(where 0 is a number\). Exeter will need to fix this.
+**Action:** This error will appear __if a figure __in a box __has an ID in a format other than box0fig0 \(where 0 is one or more digits\). Exeter will need to fix this.
 
 #### box-fig-id-2
 
@@ -640,25 +640,25 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 **Error:** _figures in appendices must have an @id in the format app0fig0. XXXXXX does not conform to this._
 
-**Action:** This error will appear __if an appendix figure has an ID in a format other than app0fig0 \(where 0 is a number\). Exeter will need to fix this.
+**Action:** This error will appear __if an appendix figure has an ID in a format other than app0fig0 \(where 0 is one or more digits\). Exeter will need to fix this.
 
 #### app-fig-sup-id-test
 
 **Error:** _figure supplements in appendices must have an @id in the format app0fig0s0. XXXXXX does not conform to this._
 
-**Action:** This error will appear __if an appendix figure supplement __has an ID in a format other than app0fig0s0 \(where 0 is a number\). Exeter will need to fix this.
+**Action:** This error will appear __if an appendix figure supplement __has an ID in a format other than app0fig0s0 \(where 0 is one or more digits\). Exeter will need to fix this.
 
 #### resp-fig-id-test
 
 **Error:** _fig in decision letter/author response must have @id in the format respfig0, or sa0fig0. XXXXXX does not conform to this._
 
-**Action:** This error will appear __if a figure in the decision letter or author response section has an ID in a format other than respfig0 or sa0fig0 \(where 0 is a number\). Exeter will need to fix this.
+**Action:** This error will appear __if a figure in the decision letter or author response section has an ID in a format other than respfig0 or sa0fig0 \(where 0 is one or more digits\). Exeter will need to fix this.
 
 #### resp-fig-sup-id-test
 
 **Error:** _figure supplement in decision letter/author response must have @id in the format respfig0s0 or sa0fig0s0. XXXXXX does not conform to this._
 
-**Action:** This error will appear __if a figure __supplement in the decision letter or author response section has an ID in a format other than respfig0s0 or sa0fig0s0  \(where 0 is a number\). Exeter will need to fix this.
+**Action:** This error will appear __if a figure __supplement in the decision letter or author response section has an ID in a format other than respfig0s0 or sa0fig0s0  \(where 0 is one or more digits\). Exeter will need to fix this.
 
 #### fig-specific-test-1
 
