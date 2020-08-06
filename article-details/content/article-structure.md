@@ -205,19 +205,19 @@ Corrections and retractions will not usually contain any section headings. Where
 
 **Error**: _All section title content is captured in bold. This is incorrect - XXXXXX_
 
-**Action**: Section titles do not need to be placed in bold font to be styled correctly. This formatting should be removed. XXXXXX indicates the affected tittle.
+**Action**: Section titles do not need to be placed in bold font to be styled correctly. This formatting should be removed. XXXXXX indicates the affected title.
 
 #### sec-title-underline
 
 **Error**: _All section title content is captured in underline. This is incorrect - XXXXXX_
 
-**Action**: Section titles should not be underlined. Individual terms can be underlined for consistency with how those terms are presented in the main text, but if the entire title is underlined, this formatting should be removed. XXXXXX indicates the affected tittle.
+**Action**: Section titles should not be underlined. Individual terms can be underlined for consistency with how those terms are presented in the main text, but if the entire title is underlined, this formatting should be removed. XXXXXX indicates the affected title.
 
 #### sec-title-italic
 
 **Warning**: _All section title content is captured in italics. Is this incorrect? If it is just a species name, then this is likely to be fine - XXXXXX_
 
-**Action**: Section titles should not be entirely in italics unless they only consist of a species name such as _C. elegans_. Scientific terms such as species names should be put in italics, but italics should be removed from any accompanying text. XXXXXX indicates the affected tittle.
+**Action**: Section titles should not be entirely in italics unless they only consist of a species name such as _C. elegans_. Scientific terms such as species names should be put in italics, but italics should be removed from any accompanying text. XXXXXX will be the title that has caused this warning to fire.
 
 #### sec-title-dna	
 
