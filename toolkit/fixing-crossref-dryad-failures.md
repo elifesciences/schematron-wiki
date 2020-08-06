@@ -14,21 +14,35 @@ DOIs are deposited at the point the article is loaded to Continuum if the public
 
 Production receives Crossref emails for both PoA and VOR articles that are sent for publication on Continuum. 
 
-These typically look like this: 
+There are two types of Crossref email - those for registering the DOI and reference list for an article, and those for registering the peer review materials \(decision/response Crossref submission\).
+
+The Crossref submission emails for registering the DOI and reference list typically look like this: 
 
 ![](../.gitbook/assets/captured%20%284%29.gif)
+
+Whereas the submission emails for the peer review materials typically look like this:
+
+![](../.gitbook/assets/screen-shot-2020-08-06-at-13.44.04.png)
+
+
 
 Each email needs to be checked to ensure there have been no failures. At the bottom of the email, you should look at the following section: 
 
 ![Success! ](../.gitbook/assets/screen-shot-2020-07-09-at-15.27.17.png)
 
+Great! There is no action needed when you see the above. 
+
+![Warning.](../.gitbook/assets/screen-shot-2020-08-06-at-13.46.25.png)
+
+Occasionally, we can receive a warning email. The most common case is where a funder name contains numerials or the name is too long which Crossref flags as unusual. If it relates to a funder name, it is safe to assume this has already been checked by the time you are publishing the article, so this can be ignored.  
+
 ![Oh dear, we have a failure. ](../.gitbook/assets/screen-shot-2020-07-09-at-15.29.43.png)
 
-If any failures are listed, you will need to check the rest of the content of the email \(above\), which will outline where the failure has occurred.
+If any failures are listed, you will need to check the rest of the content of the email \(shown below\), which will outline where the failure has occurred.
 
-![](../.gitbook/assets/screen-shot-2020-07-09-at-15.30.41.png)
+![Typical Dryad DOI failure.](../.gitbook/assets/screen-shot-2020-07-09-at-15.30.41.png)
 
-When sending VoR content metadata to Crossref we list all citations within the article. In the case above, the DOI for the Dryad dataset that was referenced in the article was not live yet when we sent the metadata to Crossref. As the Dryad DOIs are minted by Crossref too, their system automatically checks whether the cited DOI exists in their system and if it does not, fails our submission. This is one of our most common failures. It is a Catch-22, Dryad do not release datasets to view and hence register their DOIs until the article which they are about is published. We submit Crossref metadata just before publication. If the article has been PoA'd we have not sent the citation details to Crossref so Dryad can know the article their dataset is linked to is published.
+When sending content metadata to Crossref we list all citations within the article. In the case above, the DOI for the Dryad dataset that was referenced in the article was not live yet when we sent the metadata to Crossref. As the Dryad DOIs are minted by Crossref too, their system automatically checks whether the cited DOI exists in their system and if it does not, fails our submission. This is one of our most common failures. It is a Catch-22, Dryad do not release datasets to view and hence register their DOIs until the article which they are about is published. We submit Crossref metadata just before publication. If the article has been PoA'd and there is a failure for the VOR article, check in case we have not sent the citation details to Crossref, so Dryad can know the article their dataset is linked to is published. Sometimes even if we have sent the notification that the article has been accepted, Dryad might not have released the data by the time of VoR. There can be a lag in their system, which can vary. 
 
 ## What to do when a failure occurs 
 
