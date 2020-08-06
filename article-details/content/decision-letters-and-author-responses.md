@@ -159,12 +159,6 @@ The eLife production team should check the article in eJP \(it might be that the
 
 **Action**: If this warning fires, it means that the Editor details are incorrect in the Decision letter. An Editor must have a role that is either 'Reviewing Editor' or 'Senior and Reviewing Editor'. Exeter will have to correct this.
 
-#### ~~dec-letter-editor-test-6~~
-
-~~**Error**: _Senior Editor in decision letter front-stub must have the role 'Senior Editor' or 'Senior and Reviewing Editor'. XXXXXX has 'XXXXXX'._~~
-
-~~**Action**:~~ 
-
 #### dec-letter-reviewer-test-3
 
 **Error**: _Reviewer in decision letter front-stub must have the role 'Reviewer'. XXXXXX has 'XXXXXX'._
@@ -178,9 +172,9 @@ In order to determine which of these is the case, Exeter should check the output
 
 #### dec-letter-reviewer-test-6
 
-**Warning**: _Second contrib-group in decision letter contains more than six reviewers. Is this correct? Exeter: Please check with eLife. eLife: check eJP to ensure this is correct._
+**Warning**: _Second contrib-group in decision letter contains more than five reviewers. Is this correct? Exeter: Please check with eLife. eLife: check eJP to ensure this is correct._
 
-**Action**: The vast majority of eLife articles will have been reviewed by three reviewers or fewer. However, occasionally, more than 3 reviewers were required for peer review \(for example, when specialists are required\). This warning will fire if there are more than 6 reviewers in the Decision letter details \(which would be extremely unusual, and possibly incorrect\), and as the message suggests, Exeter should flag this with eLife Production, who should check eJP to ensure that this is correct and not a mistake. If it is unclear from eJP, then eLife Production should query the Editorial team.
+**Action**: The vast majority of eLife articles will have been reviewed by three reviewers or fewer. However, occasionally, more than 3 reviewers were required for peer review \(for example, when specialists are required\). This warning will fire if there are more than 5 reviewers in the Decision letter details \(which would be extremely unusual, and possibly incorrect\), and as the message suggests, Exeter should flag this with eLife Production, who should check eJP to ensure that this is correct and not a mistake. If it is unclear from eJP, then eLife Production should query the Editorial team.
 
 #### dec-letter-body-test-1
 
