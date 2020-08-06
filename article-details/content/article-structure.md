@@ -311,7 +311,6 @@ XXXXXX will indicate the styled content at the start of a paragraph, X will be t
 | Discussion | discussion |
 | Materials and methods | materials\|methods |
 | Methods | methods |
-| Model | model |
 
 Correct the title to match the `@sec-type` value.
 
