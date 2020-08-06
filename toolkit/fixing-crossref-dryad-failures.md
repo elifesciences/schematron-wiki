@@ -34,7 +34,7 @@ Great! There is no action needed when you see the above.
 
 ![Warning.](../.gitbook/assets/screen-shot-2020-08-06-at-13.46.25.png)
 
-Occasionally, we can receive a warning email. The most common case is where a funder name contains numerials or the name is too long which Crossref flags as unusual. If it relates to a funder name, it is safe to assume this has already been checked by the time you are publishing the article, so this can be ignored.  
+Occasionally, we may receive a warning email. The most common reason for this is where a funder name contains numerals or the name is too long, which Crossref flags as unusual. If the warning relates to a funder name, it is safe to assume this has already been checked by the time you are publishing the article, so this can be ignored.  
 
 ![Oh dear, we have a failure. ](../.gitbook/assets/screen-shot-2020-07-09-at-15.29.43.png)
 
@@ -42,7 +42,7 @@ If any failures are listed, you will need to check the rest of the content of th
 
 ![Typical Dryad DOI failure.](../.gitbook/assets/screen-shot-2020-07-09-at-15.30.41.png)
 
-When sending content metadata to Crossref we list all citations within the article. In the case above, the DOI for the Dryad dataset that was referenced in the article was not live yet when we sent the metadata to Crossref. As the Dryad DOIs are minted by Crossref too, their system automatically checks whether the cited DOI exists in their system and if it does not, fails our submission. This is one of our most common failures. It is a Catch-22, Dryad do not release datasets to view and hence register their DOIs until the article which they are about is published. We submit Crossref metadata just before publication. If the article has been PoA'd and there is a failure for the VOR article, check in case we have not sent the citation details to Crossref, so Dryad can know the article their dataset is linked to is published. Sometimes even if we have sent the notification that the article has been accepted, Dryad might not have released the data by the time of VoR. There can be a lag in their system, which can vary. 
+When sending content metadata to Crossref we list all citations within the article. In the case above, the DOI for the Dryad dataset that was referenced in the article was not live yet when we sent the metadata to Crossref. As the Dryad DOIs are minted by Crossref too, their system automatically checks whether the cited DOI exists in their system and if it does not, fails our submission. This is one of our most common failures. It is a Catch-22, Dryad do not release datasets to view and hence register their DOIs until the article which they are about is published. We submit Crossref metadata just before publication. If the article has been PoA'd and there is a failure for the VOR article, check in case we have not sent the citation details to Crossref, so Dryad can know the article their dataset is linked to is published. Sometimes even if we have sent the notification that the article has been accepted, Dryad might not have released the data by the time of VOR. There can be a lag in their system, which can vary. 
 
 ## What to do when a failure occurs 
 
