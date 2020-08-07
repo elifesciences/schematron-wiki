@@ -38,6 +38,10 @@ Any assets \(such as figures, and videos\) are placed on an FTP for Exeter to do
 
 Any figures are automatically included in the article in Kriya \(due to them being placed on the FTP\). However, any videos will need to be processed manually, since they require uploading to the Glencoe FTP, along with accompanying requisite metadata.
 
+{% hint style="info" %}
+Reloading a Decision letter is as simple as downloading the zip file from the `elife/decision-letter-input` aws bucket and then re-uploading it \(which will overwrite the file\).
+{% endhint %}
+
 ## Decision letter Word markup for JATS parsing
 
 \[To be filled out once the Kitchen Sink word file has been created.\]
