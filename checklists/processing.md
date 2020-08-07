@@ -60,6 +60,8 @@ The following checks should be carried out in addition to acting on any warnings
 10. Check that the figures are legible in the PDFs. If they are not, the author should be queried to provide [**higher resolution images**](../article-details/content/allowed-assets/figures.md#resolution-of-figures).
 11. For feature articles, ensure that the figures are sized at the correct widths, as indicated in the exported files names.
 
+![Examples of &apos;no entity&apos; characters in a PDF](../.gitbook/assets/screen-shot-2020-08-07-at-12.36.43.png)
+
 ### LaTex checklist
 
 1. For LaTex articles, this author query is mandatory:
