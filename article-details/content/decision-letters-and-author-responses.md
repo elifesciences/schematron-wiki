@@ -22,7 +22,7 @@ An Author response is a formal response to the Decision letter by the authors of
 
 Typically they are relatively simple, although often more complex than the Decision letter. They will always contain quotes taken from the Decision letter, will commonly contain figures, and in rare instances may contain tables and/or videos.
 
-## Which article types have Decision letter and Author responses
+## Which article types have Decision letters and Author responses
 
 The following article types typically contain both a Decision letter and an Author response \(although the Author response is still optional, and article reviewed via Review commons will likely not have an author response\).
 
