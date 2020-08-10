@@ -231,7 +231,7 @@ We may also receive emails about articles that have been rejected from PubMed. T
 
 ### **Striking images**
 
-Authors will often email us with their ‘Striking images’ to be uploaded. Striking images are images that may be used for the eLife homepage or social media channels. [**See here**](striking-images-1.md#uploading-a-striking-image) for how to add striking images to articles. Authors may also refer to these as 'promotional images' or 'graphical abstracts'.
+Authors will often email us with their ‘Striking images’ to be uploaded. Striking images are images that may be used for the eLife homepage or social media channels. [**See here**](striking-images-1/#uploading-a-striking-image) for how to add striking images to articles. Authors may also refer to these as 'promotional images' or 'graphical abstracts'.
 
 ### **Video processing**
 
