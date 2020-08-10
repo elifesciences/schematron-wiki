@@ -45,8 +45,6 @@ The following articles will never have a Decision letter or Author response:
 * Correction
 * Retraction
 
-
-
 ## How are Decision letters and Author responses created?
 
 Decision letters and Author responses are collated from the peer review correspondence as indicated above. The eLife Editorial team \(Ed Office\) collate this content \(which may have originally been taken from various sources, e.g. emails, PDFs etc.\) into one Word file. Each Word file contains both the Decision letter and Author response \(provided there _are_ both, which is typical for any research article\).
