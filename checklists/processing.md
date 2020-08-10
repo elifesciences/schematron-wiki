@@ -34,16 +34,20 @@ The following checks should be carried out in addition to acting on any warnings
 4. Source code files should be zipped and re-uploaded if they are not zipped already, so that the original file name exported from the submission system is retained.
 5. Double check the tables and raise a query if the [**colours**](../article-details/content/allowed-assets/tables.md#allowed-colours-in-tables) given in the table are against the eLife style.
 6. If a figure file consists of [**more than one page**](../article-details/content/allowed-assets/figures.md#multi-page-files)**,** the author must be asked to provide a single-page version, or to split it into multiple figures. Please contact the eLife Production team who will email the authors to ask how they would like to proceed.
-7. If the file for an asset is missing, please query the author for the missing file.
-8. Make sure that all files \(figures, figure supplements, source data, source code, supplementary files, reporting standards, transparent reporting form, additional article files\) in the export package have been typeset, even if a title/legend is missing. Query the author for any missing titles.
-9. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [**Journal references**](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
-10. For Insight articles:
+7. If a figure consists of ONLY a table \(e.g. no additional graphs, graphics, images or colour gradients\), the author should be queried to ask if this can be made into a typeset table:
+   * We noticed that this figure only contains a table. Would it be acceptable to typeset this as a main table in the article text, rather than as a flat image? If so, please provide this table as an editable Word or Excel file.
+8. If a figure supplement consists of ONLY a table \(e.g. no additional graphs, graphics, images or colour gradients\), the author should be queried to ask if this can be made into a typeset table:
+   * We noticed that this figure supplement only contains a table. Would it be acceptable to typeset this as a source data file for the related figure, rather than as a flat image? If so, please provide this table as a Word, Excel or PDF file.
+9. If the file for an asset is missing, please query the author for the missing file.
+10. Make sure that all files \(figures, figure supplements, source data, source code, supplementary files, reporting standards, transparent reporting form, additional article files\) in the export package have been typeset, even if a title/legend is missing. Query the author for any missing titles.
+11. Check for any journal reference missing a DOI and quickly Google to check if one exists \(see [**Journal references**](../article-details/content/references/journal-references.md#finding-reference-details) for more details\).
+12. For Insight articles:
     * The details in the key information box should match those of the related article\(s\).
     * The DOI for the related article\(s\) in the key information box should be correct.
     * References to the related eLife article\(s\) must have both an e-location ID and a DOI.
-11. RRIDs and PMIDs mentioned in the text should be hyperlinked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
-12. Check the Acknowledgements \(`<ack>`\) section for author funding that is not already listed in the funding section. Ignore [**third party funders**](../article-details/content/funding-information.md#third-party-funding-vs-funding-to-authors). Any funding information not already in the funding section should be added to the funding table \(see [**Funding**](../article-details/content/funding-information.md#acknowledgements-section) for more information\).
-13. Footnotes to the main text are not allowed. Any such footnotes should be incorporated as a bracketed statement at the point where they are cited in the text. An author query should be added to confirm this is acceptable:
+13. RRIDs and PMIDs mentioned in the text should be hyperlinked, using the URL prefixes https://scicrunch.org/resolver/ and https://www.ncbi.nlm.nih.gov/pubmed/, respectively.
+14. Check the Acknowledgements \(`<ack>`\) section for author funding that is not already listed in the funding section. Ignore [**third party funders**](../article-details/content/funding-information.md#third-party-funding-vs-funding-to-authors). Any funding information not already in the funding section should be added to the funding table \(see [**Funding**](../article-details/content/funding-information.md#acknowledgements-section) for more information\).
+15. Footnotes to the main text are not allowed. Any such footnotes should be incorporated as a bracketed statement at the point where they are cited in the text. An author query should be added to confirm this is acceptable:
     * "As eLife does not support footnotes to the main text, we have integrated this note into the text at the point it was cited. Please confirm this is acceptable."
 
 ### PDFs
@@ -58,6 +62,7 @@ The following checks should be carried out in addition to acting on any warnings
 8. Check that figures, tables and videos appear in numerical order and are placed as close as possible to their first citations in the text.
 9. Check the figures PDF to ensure no figures are going off from the page and that all figures and figure supplements are present.
 10. Check that the figures are legible in the PDFs. If they are not, the author should be queried to provide [**higher resolution images**](../article-details/content/allowed-assets/figures.md#resolution-of-figures).
+    * The image for this figure appears to be of low quality. Please provide a higher resolution version.
 11. For feature articles, ensure that the figures are sized at the correct widths, as indicated in the exported files names.
 
 ![Examples of &apos;no entity&apos; characters in a PDF](../.gitbook/assets/screen-shot-2020-08-07-at-12.36.43.png)
@@ -84,11 +89,14 @@ The following checks should be carried out during the copy-editing of an article
 ### Article details page
 
 1. The article title should follow sentence case, with no capitalisation except for proper nouns.
-2. Colons and semi-colons are not allowed in the article title except within scientific terms. If one is present, please check the production notes and if no instructions are provided on this matter, a query should be raised with the eLife Production team.
-3. Check that the impact statement is a single, complete, grammatically correct sentence of no more than 30 words in length \(see the [**Impact statement**](../article-details/content/impact-statement.md) page for more details\).
-4. Make sure that any special characters, accents or diacritics in author names have transferred correctly from the manuscript file.
-5. Check that allowed suffixes \(Snr, Jnr, I, II, III, IV etc.\) have been retained and that prefixes have not been included.
-6. The author contributions should be a comma-separated list with each item capitalised, e.g. "Formal analysis, Supervision, Investigation, Writing - review and editing". There should not be a full stop at the end. Usually the contributions will be taken from the following preset options:
+2. Words following em-dashes, en-dashes and hyphens should be in lower case unless there are proper nouns.
+3. Acronyms and abbreviations can be left in the title as the author provides them.
+4. Colons and semi-colons are not allowed in the article title except within scientific terms. If one is present, please check the production notes and if no instructions are provided on this matter, a query should be raised with the eLife Production team.
+5. Check that the impact statement is a single, complete, grammatically correct sentence of no more than 30 words in length \(see the [**Impact statement**](../article-details/content/impact-statement.md) page for more details\).
+6. Check that the spelling of author names matches the exported manuscript file.
+7. Make sure that any special characters, accents or diacritics in author names have transferred correctly compared to the manuscript file.
+8. Check that allowed suffixes \(Snr, Jnr, I, II, III, IV etc.\) have been retained and that prefixes have not been included.
+9. The author contributions should be a comma-separated list with each item capitalised, e.g. "Formal analysis, Supervision, Investigation, Writing - review and editing". There should not be a full stop at the end. Usually the contributions will be taken from the following preset options:
 
    * Conceptualization
    * Resources
@@ -113,11 +121,11 @@ The following checks should be carried out during the copy-editing of an article
    * Related to the previous point, please note that it is acceptable for authors to refer to other authors using initials in their contributions where they are referencing specific input on the tasks they performed. For example, the following is acceptable: "Conceptualization, Investigation, Methodology, Writing - review and editing, Initiated and performed the cryo-EM analysis \(with help from JPO at later stages\) and contributed to the building and interpretation of models". Initials should follow eLife style \(no full-stops\). If a full name is used, change it to the initials.
    * Statements of equal contribution or shared corresponding author status should be removed. For instance, in the following example, "Conceptualization, Writing - original draft, Writing - review and editing, Contributed equally with CJEM", the text "Contributed equally with CJEM" should be removed. Please make sure that the status is reflected using the tagging options - in this example, CJEM and the current author should be marked as equal contributors.
 
-7. Check that affiliations have been captured correctly, with Institution, City and Country fields completed, and remove any postal address details \(building and street names, post- or zip-codes\).
-8. Check that the ethics statement is grammatically correct.
-9. Research organisms should be in italics where appropriate.
-10. Keywords should be in lower case except for proper nouns, or gene or protein names, and any species names should be in italics where appropriate.
-11. Check that the data availability statement is grammatically correct.
+10. Check that affiliations have been captured correctly, with Institution, City and Country fields completed, and remove any postal address details \(building and street names, post- or zip-codes\).
+11. Check that the ethics statement is grammatically correct.
+12. Research organisms should be in italics where appropriate.
+13. Keywords should be in lower case except for proper nouns, or gene or protein names, and any species names should be in italics where appropriate.
+14. Check that the data availability statement is grammatically correct.
 
 ### Content page
 
@@ -145,6 +153,7 @@ The following points should be addressed during copy-editing:
 7. Use of italics:
    * Latin terms such as et al., in vivo, in vitro, bona fide etc. should not be italicised.
    * Species names should be in italics \(e.g. _Mus musculus_, _H. sapiens_\), except where they are part of an institution name \(e.g. Caenorhabditis Genetics Center, FlyBase:Drosophila Network Resources\).
+   * If only a genus is provided, rather than a specific species, it should not be in italics.
    * For other terms, the authors' use of italics should be followed as far as is reasonable.
 8. Number use:
    * Numbers with five or more digits should have a comma separator e.g. 42,980. Numbers with four or less digits should not, e.g. 2400.
