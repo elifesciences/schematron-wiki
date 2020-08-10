@@ -6,15 +6,25 @@ description: Information about the homepage images that feature on eLife's websi
 
 ## What are homepage images?
 
-On eLife's [**homepage**](https://elifesciences.org/), we feature three striking images on an image carousel. 
+On eLife's [**homepage**](https://elifesciences.org/), we feature three [**striking images**](./) on an image carousel. Each image will stay on the carousel for three weeks, which is great promotion for the article. 
 
 ![](../../.gitbook/assets/captured-4-%20%281%29.gif)
 
-## What needs to be checked?
 
-Outline the main things that need to be checked. Include a checklist if possible.
 
-## Examples
+## What makes a good homepage image?
+
+## Selecting a homepage image
+
+The homepage image is selected by a nominated member of the Production team on a Monday morning and this image will be sent to Peter \(on the Features team\) to provide the overlaying text. This text is a short description of the article which you can see on the carousel above.
+
+To ensure this is not forgotten, a reminder email is sent to the Production inbox. 
+
+![](../../.gitbook/assets/screen-shot-2020-08-10-at-12.25.52.png)
+
+There will be a homepage image email thread for the month, typically in the format 'Homepages for August'. 
+
+Examples
 
 Give specific examples of everything that needs to be checked/any common problems. Add sub-sections where needed, but be as succinct as possible. Include screenshots as required.
 
