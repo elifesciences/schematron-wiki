@@ -8,6 +8,8 @@ description: Information about the homepage images that feature on eLife's websi
 
 On eLife's [**homepage**](https://elifesciences.org/), we feature three striking images on an image carousel. 
 
+![](../../.gitbook/assets/captured-4-%20%281%29.gif)
+
 ## What needs to be checked?
 
 Outline the main things that need to be checked. Include a checklist if possible.
