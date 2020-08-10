@@ -62,12 +62,6 @@ These checks relate to the XML structure of \[insert name of page\]. ‌X or XXX
 
 **Action:** What to do if this message fires
 
-## XML structure
-
-```
-Include an example of the xml with variations if appropriate. 
-```
-
 ## Further reading
 
 Where applicable, give links to related pages and external sites.
