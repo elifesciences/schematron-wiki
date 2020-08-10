@@ -22,6 +22,31 @@ An Author response is a formal response to the Decision letter by the authors of
 
 Typically they are relatively simple, although often more complex than the Decision letter. They will always contain quotes taken from the Decision letter, will commonly contain figures, and in rare instances may contain tables and/or videos.
 
+## Which article types have Decision letter and Author responses
+
+The following article types typically contain both a Decision letter and an Author response \(although the Author response is still optional, and article reviewed via Review commons will likely not have an author response\).
+
+* Research Article
+* Short Report
+* Tools and Resources
+* Research Advance
+* Registered Report
+* Replication Study
+* Research Communication
+* Scientific Correspondence
+* Feature Article \(Template 5 only\)
+
+The following articles will never have a Decision letter or Author response:
+
+* Review article
+* Insight
+* Feature contribution \(Templates 3-4\)
+* Editorial
+* Correction
+* Retraction
+
+
+
 ## How are Decision letters and Author responses created?
 
 Decision letters and Author responses are collated from the peer review correspondence as indicated above. The eLife Editorial team \(Ed Office\) collate this content \(which may have originally been taken from various sources, e.g. emails, PDFs etc.\) into one Word file. Each Word file contains both the Decision letter and Author response \(provided there _are_ both, which is typical for any research article\).
