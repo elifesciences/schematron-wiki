@@ -167,9 +167,13 @@ Corrections and retractions will not usually contain any section headings. Where
 
 ## Section numbering
 
-In most eLife articles, sections will not be numbered and Level 1 headings should in geneeral not be numbered at all. However, numbered sub-sections are permitted within top-level sections and in appendicies. The authors may use this to provide structure to their appendices or their Materials and methods section, allowing them to refer to, for example, Appendix 1.1, 1.2 etc without having to write out the full sub-section title.
+In most eLife articles, sections will not be numbered and Level 1 headings should in general not be numbered at all. However, numbered sub-sections are permitted within top-level sections and in appendices. The authors may use this to provide structure to their appendices or their Materials and methods section, allowing them to refer to, for example, Appendix 1.1, 1.2 etc without having to write out the full sub-section title.
 
-On rare occasions, a review article may contain numbering at all levels. This will be flagged to the Editorial team during submission and they should leave a production note indicating if the numbering should be retained for publication.
+On rare occasions, a review article may contain numbering at all levels. This will be flagged to the Editorial team during submission and a production note should indicate whether the numbering needs to be retained for publication.
+
+The correct style for a numbered heading in an eLife articles is '1.1 Cube density and coverage', '1.2 Percolation threshold of cube mazes' etc.
+
+![Example of numbered sub-sections in an appendix](../../.gitbook/assets/screen-shot-2020-08-11-at-16.02.57.png)
 
 ## Schematron checks
 
