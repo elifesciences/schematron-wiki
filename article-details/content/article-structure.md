@@ -271,31 +271,33 @@ XXXXXX will indicate the styled content at the start of a paragraph, X will be t
 
 **Warning**: XXXXXX doesn't have child sec\[@sec-type='intro'\] in the main body. Is this correct?
 
-**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'intro'. If an 'Introduction' section is present in an article, it must have the `@sec-type` with a value of 'intro'. An 'Introduction' section is mandatory for all research content \(except for short reports and research communication articles; this warning will not fire for these article types\).
+**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'intro'. An 'Introduction' section is mandatory for all research content \(except for short reports and scientific correspondence articles; this warning will not fire for these article types\). If an 'Introduction' section is present in an article, it must have the `@sec-type` with a value of 'intro'. Ensure the title is tagged as a Level 1 heading and if this error persists, the Exeter support team will need to correct the attribute on the corresponding `<sec>` element. If no 'Introduction' heading is present, one should be added at the very start of the article text.
 
 #### ra-sec-test-3
 
 **Warning**: _main body in XXXXXX content doesn't have a child sec with @sec-type whose value is either 'materials\|methods', 'methods' or 'model'. Is this correct?_
 
-**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'materials\|methods', 'methods' or 'model'. If a 'Materials and methods', 'Methods', or 'Model' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content \(except for research communication articles; this warning will not fire for that article type\).
+**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'materials\|methods', 'methods' or 'model'. If a 'Materials and methods', 'Methods', or 'Model' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content \(except for scientific correspondence articles; this warning will not fire for that article type\).
 
 #### ra-sec-test-4
 
 **Warning**: _main body in XXXXXX content doesn't have either a child sec\[@sec-type='results\|discussion'\] or a sec\[@sec-type='results'\] and a sec\[@sec-type='discussion'\]. Is this correct?_
 
-**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'results\|discussion', 'results' or 'discussion'. If a 'Results and discussion', 'Results', or 'Discussion' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content \(except for short reports and research communication articles; this warning will not fire for these article types\).
+**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'results\|discussion', 'results' or 'discussion'. If a 'Results and discussion', 'Results', or 'Discussion' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content \(except for short reports and scientific correspondence articles; this warning will not fire for these article types\). If one of these section titles is present, ensure that it is tagged as a Level 1 heading and if this error persists, the Exeter support team will need to correct the attribute on the corresponding `<sec>` element. If no 'Results and discussion', 'Results', or 'Discussion' sections are present, the following author query should be added:
+
+
 
 #### top-sec-id
 
 **Error**: _top-level must have @id in the format 's0', where 0 relates to the position of the sec. It should be XXXXXX._
 
-**Action**: The Level 1 section elements `<sec>` in an article should each have an `@id` attribute, the value of which is determined by the order of the sections. The first Level 1 section should have the id 's1', the second an id of 's2' and so on \(see [**XML structure**](article-structure.md#xml-structure)\). Correct the section id to the indicated value.
+**Action**: The Level 1 section elements `<sec>` in an article should each have an `@id` attribute, the value of which is determined by the order of the sections. The first Level 1 section should have the id 's1', the second an id of 's2' and so on \(see [**XML structure**](article-structure.md#xml-structure)\). The Exeter support team will need to correct the id value to match the one recommended by the error message \(XXXXXX\).
 
 #### lower-sec-test-1
 
 **Error**: This sec @id must be a concatenation of the parent sec @id, '-', and the position of this sec relative to other sibling secs - XXXXXX.
 
-**Action**: Each sub-section element `<sec>` in an article should each have an `@id` attribute, the value of which is determined by the order of the sections. The ids for Level 2 sections within a Level 1 section should be id 's1-1', 's1-2', 's1-3' and so on. The ids for Level 3 sections within the first of these Level 2 sections should be 's1-1-1', 's1-1-2', 's1-1-3' and so on \(see [**XML structure**](article-structure.md#xml-structure)\). Correct the section id to the indicated value.
+**Action**: Each sub-section element `<sec>` in an article should each have an `@id` attribute, the value of which is determined by the order of the sections. The ids for Level 2 sections within a Level 1 section should be id 's1-1', 's1-2', 's1-3' and so on. The ids for Level 3 sections within the first of these Level 2 sections should be 's1-1-1', 's1-1-2', 's1-1-3' and so on \(see [**XML structure**](article-structure.md#xml-structure)\). The Exeter support team will need to correct the id value to match the one recommended by the error message \(XXXXXX\).
 
 #### sec-type-title-test
 
@@ -312,19 +314,19 @@ XXXXXX will indicate the styled content at the start of a paragraph, X will be t
 | Materials and methods | materials\|methods |
 | Methods | methods |
 
-Correct the title to match the `@sec-type` value.
+Correct the title to match the `@sec-type` value. 
 
 #### body-top-level-sec-id-test
 
 **Error**: _This sec id must be a concatenation of 's' and this element's position relative to its siblings. It must be XXXXXX._
 
-**Action**: The `@id` attribute on a section should reflect its position within higher-level sections. So, for example, Level 2 sections, within a Level 1 section with the id s4, would have the ids s4-1, s4-2, s4-3 and so on. A Level 3 section within the third of these would have the ids s4-3-1, s4-3-2, s4-3-3 and so on. Correct the id value to match the one recommended by the error message \(XXXXXX\).
+**Action**: The `@id` attribute on a section should reflect its position within higher-level sections. So, for example, Level 2 sections, within a Level 1 section with the id s4, would have the ids s4-1, s4-2, s4-3 and so on. A Level 3 section within the third of these would have the ids s4-3-1, s4-3-2, s4-3-3 and so on. The Exeter support team will need to correct the id value to match the one recommended by the error message \(XXXXXX\).
 
 #### low-level-sec-id-test
 
 **Error**: _sec id must be a concatenation of its parent sec id and this element's position relative to its sibling secs. It must be XXXXXX._
 
-**Action:** The `@id` attribute on a section should reflect its position within higher-level sections. So, for example, Level 2 sections, within a Level 1 section with the id s4, would have the ids s4-1, s4-2, s4-3 and so on. A Level 3 section within the third of these would have the ids s4-3-1, s4-3-2, s4-3-3 and so on. Correct the id value to match the one recommended by the error message \(XXXXXX\).
+**Action:** The `@id` attribute on a section should reflect its position within higher-level sections. So, for example, Level 2 sections, within a Level 1 section with the id s4, would have the ids s4-1, s4-2, s4-3 and so on. A Level 3 section within the third of these would have the ids s4-3-1, s4-3-2, s4-3-3 and so on. The Exeter support team will need to correct the id value to match the one recommended by the error message \(XXXXXX\).
 
 #### sec-test-1
 
@@ -336,7 +338,7 @@ Correct the title to match the `@sec-type` value.
 
 **Error**: _sec appears to contain no content. This cannot be correct._
 
-**Action**: Each section should contain a title and either one or more paragraphs, or one or more sub-sections. This error possibly indicates that the content of a section was deleted or moved but the section was retained. In this case, the empty section should be removed.
+**Action**: Each section should contain a title and either one or more paragraphs, or one or more sub-sections. This error possibly indicates that the content of a section was deleted or moved but the section was retained. In this case, the empty section should be removed. The Exeter support team may need to resolve this.
 
 ## XML structure
 
