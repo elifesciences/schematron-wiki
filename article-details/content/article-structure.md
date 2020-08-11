@@ -90,6 +90,8 @@ Finally, for modelling articles, the following structure is allowed. This will b
   * **Results**
   * **Discussion**
 
+![Example of production note indicated approval for non-standard article structure](../../.gitbook/assets/screen-shot-2020-08-11-at-16.58.27.png)
+
 ### Research advance
 
 Research advances share the same structure rules as research articles.
