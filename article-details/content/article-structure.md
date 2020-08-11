@@ -4,6 +4,10 @@ description: The article structure for different article types.
 
 # Article structure
 
+{% hint style="info" %}
+
+{% endhint %}
+
 ## What is article structure?
 
 Article structure refers to the way in which the body of an article is organised. The main text will usually be split into multiple sections, each with a different title. Those sections may then contain sub-sections, those sub-sections may have their own sub-sections, and so on.
