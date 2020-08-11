@@ -169,25 +169,25 @@ Corrections and retractions will not usually contain any section headings. Where
 
 **Warning**: _Section title might start with a list indicator - 'XXXXXX'. Is this correct?_
 
-**Action**: This warning will fire if a section title starts with 1\), 2\), 3\) etc., or with a\), b\), c\) etc. Check to make sure that this content is not actually intended as an entry in a list \(this may require checking the exported article file\). XXXXXX will be the title in question.
+**Action**: This warning will fire if a section title starts with 1\), 2\), 3\) etc., or with a\), b\), c\) etc. Check to make sure that this content is not actually intended as an entry in a list \(this may require checking the exported article file\).
 
 #### sec-title-appendix-check
 
 **Warning**: Section title contains the word appendix - 'XXXXXX'. Should it be captured as an appendix?
 
-**Action**: This warning indicates that a section title starts with the word 'appendix' \(e.g. 'Appendix 1', 'Appendix A', 'Appendix: Supplementary methods'\). This section and its contents should be moved into an appendix at the end of the article. XXXXXX will be the title in question.
+**Action**: This warning indicates that a section title starts with the word 'appendix' \(e.g. 'Appendix 1', 'Appendix A', 'Appendix: Supplementary methods'\). This section and its contents should be moved into an appendix at the end of the article.
 
 #### sec-title-appendix-check-2
 
 **Warning**: _Should the section titled 'XXXXXX' be captured as an appendix?_
 
-**Action**: This warning indicates that a section title contains the word 'Supplementary' or 'Supplemental'. If this occurs in the context of, for example, 'Supplemental methods' or 'Supplemental results', it likely indicates content that the authors do not want to include in their main Materials and methods or Results sections. Such sections should be tagged as appendices in the back of the article, with the section title used as the title for each appendix. XXXXXX will be the title in question.
+**Action**: This warning indicates that a section title contains the word 'Supplementary' or 'Supplemental'. If this occurs in the context of, for example, 'Supplemental methods' or 'Supplemental results', it likely indicates content that the authors do not want to include in their main Materials and methods or Results sections. Such sections should be tagged as appendices in the back of the article, with the section title used as the title for each appendix.
 
 #### sec-title-abbr-check
 
 **Warning**: _Section title contains the word abbreviation - 'XXXXXX'. Is it an abbreviation section? eLife house style is to define abbreviations in the text when they are first mentioned._
 
-**Action**: This warning will fire if a section title contains the text 'abbreviation', for example 'Abbreviations' or 'Abbreviation list'. Some authors will include a section like this, containing the definitions of every abbreviation used in their article. As the message states, eLife's house style is to define abbreviations within the text, at the first point they are used and at the end of figure/table/file legends. Ensure that all the abbreviations mentioned in the indicated section \(XXXXXX will be the title in question\) are defined at the first point they are used in the text, then delete the indicated section.
+**Action**: This warning will fire if a section title contains the text 'abbreviation', for example 'Abbreviations' or 'Abbreviation list'. Some authors will include a section like this, containing the definitions of every abbreviation used in their article. As the message states, eLife's house style is to define abbreviations within the text, at the first point they are used and at the end of figure/table/file legends. Ensure that all the abbreviations mentioned in the indicated section are defined at the first point they are used in the text, then delete the indicated section.
 
 #### sec-title-content-mandate
 
@@ -205,43 +205,43 @@ Corrections and retractions will not usually contain any section headings. Where
 
 **Error**: _All section title content is captured in bold. This is incorrect - XXXXXX_
 
-**Action**: Section titles do not need to be placed in bold font to be styled correctly. This formatting should be removed. XXXXXX indicates the affected title.
+**Action**: Section titles do not need to be placed in bold font to be styled correctly. This formatting should be removed.
 
 #### sec-title-underline
 
 **Error**: _All section title content is captured in underline. This is incorrect - XXXXXX_
 
-**Action**: Section titles should not be underlined. Individual terms can be underlined for consistency with how those terms are presented in the main text, but if the entire title is underlined, this formatting should be removed. XXXXXX indicates the affected title.
+**Action**: Section titles should not be underlined. Individual terms can be underlined for consistency with how those terms are presented in the main text, but if the entire title is underlined, this formatting should be removed.
 
 #### sec-title-italic
 
 **Warning**: _All section title content is captured in italics. Is this incorrect? If it is just a species name, then this is likely to be fine - XXXXXX_
 
-**Action**: Section titles should not be entirely in italics unless they only consist of a species name such as _C. elegans_. Scientific terms such as species names should be put in italics, but italics should be removed from any accompanying text. XXXXXX will be the title that has caused this warning to fire.
+**Action**: Section titles should not be entirely in italics unless they only consist of a species name such as _C. elegans_. Scientific terms such as species names should be put in italics, but italics should be removed from any accompanying text.
 
 #### sec-title-dna	
 
 **Warning**: _Section title contains the phrase DNA, but it is not in all caps - XXXXXX_
 
-**Action**: This warning indicates the presence of 'dna', 'dNA', 'dNa' or other variation of 'DNA' not in all caps. Correct this text to 'DNA'. XXXXXX indicates the affected title.
+**Action**: This warning indicates the presence of 'dna', 'dNA', 'dNa' or other variation of 'DNA' not in all caps. Correct this text to 'DNA'.
 
 #### sec-title-rna
 
 **Warning**: _Section title contains the phrase RNA, but it is not in all caps - XXXXXX_
 
-**Action**: This warning indicates the presence of 'rna', 'rNA', 'rNa' or other variation of 'RNA' not in all caps. Correct this text to 'RNA'. XXXXXX indicates the affected title.
+**Action**: This warning indicates the presence of 'rna', 'rNA', 'rNa' or other variation of 'RNA' not in all caps. Correct this text to 'RNA'.
 
 #### sec-title-dimension
 
 **Warning**: _Section title contains lowercase abbreviation for dimension, when this should always be uppercase 'D' - XXXXXX_
 
-**Action**: This warning indicates that the abbreviation for dimension in, say, 2D, 3D, 4D etc, is a lowercase 'd'. Correct 2d, 3d, 4d etc to 2D, 3D, 4D etc. XXXXXX indicates the affected title.
+**Action**: This warning indicates that the abbreviation for dimension in, say, 2D, 3D, 4D etc, is a lowercase 'd'. Correct 2d, 3d, 4d etc to 2D, 3D, 4D etc.
 
 #### sec-title-hiv	
 
 **Warning**: _Section title contains the word HIV, but it is not in all caps - XXXXXX_
 
-**Action**: This warning indicates the presence of 'hiv', 'hIV', 'hIv' or other variation of 'HIV' not in all caps. Correct this text to 'HIV'. XXXXXX indicates the affected title.
+**Action**: This warning indicates the presence of 'hiv', 'hIV', 'hIv' or other variation of 'HIV' not in all caps. Correct this text to 'HIV'.
 
 #### section-title-test-1
 
@@ -271,7 +271,7 @@ XXXXXX will indicate the styled content at the start of a paragraph, X will be t
 
 **Warning**: XXXXXX doesn't have child sec\[@sec-type='intro'\] in the main body. Is this correct?
 
-**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'intro'. An 'Introduction' section is mandatory for all research content \(except for short reports and scientific correspondence articles; this warning will not fire for these article types\). If an 'Introduction' section is present in an article, it must have the `@sec-type` with a value of 'intro'. Ensure the title is tagged as a Level 1 heading and if this error persists, the Exeter support team will need to correct the attribute on the corresponding `<sec>` element. If no 'Introduction' heading is present, one should be added at the very start of the article text.
+**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'intro'. An 'Introduction' section is mandatory for all research content \(except for short reports and scientific correspondence articles; this warning will not fire for these article types\). If an 'Introduction' section is present in an article, it must have the `@sec-type` with a value of 'intro'. Ensure the title is correctly tagged as a Level 1 heading and if this error persists, the Exeter support team will need to correct the attribute on the corresponding `<sec>` element. If no 'Introduction' heading is present, one should be added at the very start of the article text.
 
 #### ra-sec-test-3
 
@@ -285,13 +285,12 @@ XXXXXX will indicate the styled content at the start of a paragraph, X will be t
 
 **Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'results\|discussion', 'results' or 'discussion'. If a 'Results and discussion', 'Results', or 'Discussion' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content \(except for short reports and scientific correspondence articles; this warning will not fire for these article types\). If one of these section titles is present, ensure that it is tagged as a Level 1 heading and if this error persists, the Exeter support team will need to correct the attribute on the corresponding `<sec>` element.
 
-If no 'Results' or 'Results and discussion' section is present, please add the following author query:
+If the headings 'Results' and 'Discussion' or 'Results and discussion' are not present in the original file, please add the following author query:
 
-* eLife's standard article structure requires a 'Results' section to be present, on its own or combined 
+* eLife articles should contain the following main headings: 'Introduction', 'Results', 'Discussion' \[or a combined 'Results and discussion' heading\], 'Materials and Methods'. We have noticed that one or more of these headings is missing from your article structure. Please add the missing heading\(s\) at the appropriate point in the text.
 
-If no 'Discussion' or 'Results and discussion' section is present, please add the following author query:
 
-* 
+
 #### top-sec-id
 
 **Error**: _top-level must have @id in the format 's0', where 0 relates to the position of the sec. It should be XXXXXX._
