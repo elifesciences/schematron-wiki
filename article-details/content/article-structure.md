@@ -165,6 +165,12 @@ There are no rules for headings in feature content. The article structure should
 
 Corrections and retractions will not usually contain any section headings. Where they do, the article structure should follow that indicated in the exported article file.
 
+## Section numbering
+
+In most eLife articles, sections will not be numbered and Level 1 headings should in geneeral not be numbered at all. However, numbered sub-sections are permitted within top-level sections and in appendicies. The authors may use this to provide structure to their appendices or their Materials and methods section, allowing them to refer to, for example, Appendix 1.1, 1.2 etc without having to write out the full sub-section title.
+
+On rare occasions, a review article may contain numbering at all levels. This will be flagged to the Editorial team during submission and they should leave a production note indicating if the numbering should be retained for publication.
+
 ## Schematron checks
 
 ### Content checks
@@ -173,19 +179,19 @@ Corrections and retractions will not usually contain any section headings. Where
 
 **Warning**: _Section title might start with a list indicator - 'XXXXXX'. Is this correct?_
 
-**Action**: This warning will fire if a section title \(XXXXXX\) starts with 1\), 2\), 3\) etc., or with a\), b\), c\) etc. Check to make sure that this content is not actually intended as an entry in a list \(this may require checking the exported article file\).
+**Action**: This warning will fire if a section title \(XXXXXX\) starts with 1\), 2\), 3\) etc., or with a\), b\), c\) etc. Check to make sure that this content is not actually intended as an entry in a list \(this may require checking the exported article file\). If it is, the heading styling should be removed and the content set correctly as a list.
 
 #### sec-title-appendix-check
 
 **Warning**: Section title contains the word appendix - 'XXXXXX'. Should it be captured as an appendix?
 
-**Action**: This warning indicates that a section title \(XXXXXX\) starts with the word 'appendix' \(e.g. 'Appendix 1', 'Appendix A', 'Appendix: Supplementary methods'\). This section and its contents should be moved into an appendix at the end of the article.
+**Action**: This warning indicates that a section title \(XXXXXX\) starts with the word 'appendix' \(e.g. 'Appendix 1', 'Appendix A', 'Appendix: Supplementary methods'\). This section and its contents should be moved into an appendix.
 
 #### sec-title-appendix-check-2
 
 **Warning**: _Should the section titled 'XXXXXX' be captured as an appendix?_
 
-**Action**: This warning indicates that a section title \(XXXXXX\) contains the word 'Supplementary' or 'Supplemental'. If this occurs in the context of, for example, 'Supplemental methods' or 'Supplemental results', it likely indicates content that the authors do not want to include in their main Materials and methods or Results sections. Such sections should be tagged as appendices in the back of the article, with the section title used as the title for each appendix.
+**Action**: This warning indicates that a section title \(XXXXXX\) contains the word 'Supplementary' or 'Supplemental'. If this occurs in the context of, for example, 'Supplemental methods' or 'Supplemental results', it likely indicates content that the authors do not want to include in their main Materials and methods or Results sections. Such sections should be tagged as appendices, with the section title used as the title for each appendix.
 
 #### sec-title-abbr-check
 
@@ -193,11 +199,17 @@ Corrections and retractions will not usually contain any section headings. Where
 
 **Action**: This warning will fire if a section title \(XXXXXX\) contains the text 'abbreviation', for example 'Abbreviations' or 'Abbreviation list'. Some authors will include a section like this, containing the definitions of every abbreviation used in their article. As the message states, eLife's house style is to define abbreviations within the text, at the first point they are used and at the end of figure/table/file legends. Ensure that all the abbreviations mentioned in the indicated section are defined at the first point they are used in the text, then delete the indicated section.
 
+In rare cases, the authors may be permitted to retain an abbreviation list. If this warning fires post-author, check to see whether the atuhro has requested the abbreviation list be restored.
+
 #### sec-title-content-mandate
 
 **Error**: _Section title must not be empty._
 
-**Action**: This error indicates that a section title exists without any text in it. This likely means that the text was deleted incompletely. If this fires pre-author, check that the content has been processed into the proofing system correctly. If this fires post-author, check the author's edits. If it is clear that they intended to delete the indicated section entirely \(either by removing the text or merging it into the preceding section\), delete the empty title. If this is not clear, contact the author to confirm their intentions.
+**Action**: This error indicates that a section title exists without any text in it. This likely means that the text was deleted incompletely.
+
+If this fires pre-author, check that the content has been processed into the proofing system correctly.
+
+If this fires post-author, check the author's edits. If it is clear that they intended to delete the indicated section entirely \(either by removing the text or merging it into the preceding section\), delete the empty title. If this is not clear, contact the author to confirm their intentions.
 
 #### sec-title-full-stop
 
@@ -251,11 +263,11 @@ Corrections and retractions will not usually contain any section headings. Where
 
 **Warning**: _text begins a paragraph - XXXXXX - Should it be marked up as a section title \(Heading level X\)?_
 
-**Action**: This warning will fire if the entire first sentence of a paragraph is in bold font, italics or underlined. This may mean the authors intended this to be a section title. If this warning appears pre-author, the indicated text should be made into a section title. This should start a sub-section of whichever section originally contained this paragraph. The only exception to this rule is if this would involve making a sub-section under a Level 4 section, which is not allowed. In this case, the text should be left as it is.
+**Action**: This warning will fire if the entire first sentence of a paragraph is in bold font, italics or underlined. This may mean the authors intended this to be a section title. If this warning appears pre-author, the indicated text should be made into a section title. This should start a sub-section within whichever section originally contained this paragraph. The only exception to this rule is if this would involve making a sub-section under a Level 4 section, which is not permitted. In this case, the text should be left as it is.
 
 If this warning appears post-author, check whether the author has reverted the above kind of change and, if so, that this makes sense \(they may prefer the text to appear as bold for highlighting purposes, but do not want it as a heading\).
 
-XXXXXX will indicate the styled content at the start of a paragraph, X will be the suggested heading level respective to the heading level of the section in which the styled content appears.
+XXXXXX will indicate the styled content at the start of a paragraph; X will be the suggested heading level respective to the heading level of the section in which the styled content appears.
 
 #### sec-conformity
 
@@ -279,7 +291,9 @@ In cases where the authors have included a top-level heading that is similar to 
 
 **Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'intro'. If an 'Introduction' section is present in an article, it must have the `@sec-type` with a value of 'intro'. An 'Introduction' section is mandatory for all research content \(except for short reports and scientific correspondence articles; this warning will not fire for these article types\).
 
-Ensure the title is correctly tagged as a Level 1 heading and if this error persists, the Exeter support team will need to correct the attribute on the corresponding `<sec>` element. If no 'Introduction' heading is present, one should be added at the very start of the article text.
+Ensure the title is correctly tagged as a Level 1 heading and if this error persists, the Exeter support team will need to correct the attribute on the corresponding `<sec>` element.
+
+If no 'Introduction' heading is present, one should be added at the very start of the article text.
 
 #### ra-sec-test-3
 
@@ -305,18 +319,6 @@ If the headings 'Results' and 'Discussion' or 'Results and discussion' are not p
 
 * eLife articles should contain the following main headings: 'Introduction', 'Results', 'Discussion' \[or a combined 'Results and discussion' heading\], 'Materials and Methods'. We have noticed that one or more of these headings is missing from your article structure. Please add the missing heading\(s\) at the appropriate point in the text.
 
-#### top-sec-id
-
-**Error**: _top-level must have @id in the format 's0', where 0 relates to the position of the sec. It should be XXXXXX._
-
-**Action**: The Level 1 section elements `<sec>` in an article should each have an `@id` attribute, the value of which is determined by the order of the sections. The first Level 1 section should have the id 's1', the second an id of 's2' and so on \(see [**XML structure**](article-structure.md#xml-structure)\). The Exeter support team will need to correct the id value to match the one recommended by the error message \(XXXXXX\).
-
-#### lower-sec-test-1
-
-**Error**: This sec @id must be a concatenation of the parent sec @id, '-', and the position of this sec relative to other sibling secs - XXXXXX.
-
-**Action**: Each sub-section element `<sec>` in an article should each have an `@id` attribute, the value of which is determined by the order of the sections. The ids for Level 2 sections within a Level 1 section should be id 's1-1', 's1-2', 's1-3' and so on. The ids for Level 3 sections within the first of these Level 2 sections should be 's1-1-1', 's1-1-2', 's1-1-3' and so on \(see [**XML structure**](article-structure.md#xml-structure)\). The Exeter support team will need to correct the id value to match the one recommended by the error message \(XXXXXX\).
-
 #### sec-type-title-test
 
 **Warning**: title of a sec with an @sec-type='XXXXXX' should usually be 'XXXXXX'.
@@ -338,13 +340,13 @@ Correct the title to match the `@sec-type` value.
 
 **Error**: _This sec id must be a concatenation of 's' and this element's position relative to its siblings. It must be XXXXXX._
 
-**Action**: The `@id` attribute on a section should reflect its position within higher-level sections. So, for example, Level 2 sections, within a Level 1 section with the id s4, would have the ids s4-1, s4-2, s4-3 and so on. A Level 3 section within the third of these would have the ids s4-3-1, s4-3-2, s4-3-3 and so on. The Exeter support team will need to correct the id value to match the one recommended by the error message \(XXXXXX\).
+**Action**: The `@id` attribute on a section element `<sec>` should reflect its position. For example, the first Level 1 heading should have the id s1, the second should have the id s2, the third, s3 and so on. The Exeter support team will need to correct the id value to match the one recommended by the error message \(XXXXXX\).
 
 #### low-level-sec-id-test
 
 **Error**: _sec id must be a concatenation of its parent sec id and this element's position relative to its sibling secs. It must be XXXXXX._
 
-**Action:** The `@id` attribute on a section should reflect its position within higher-level sections. So, for example, Level 2 sections, within a Level 1 section with the id s4, would have the ids s4-1, s4-2, s4-3 and so on. A Level 3 section within the third of these would have the ids s4-3-1, s4-3-2, s4-3-3 and so on. The Exeter support team will need to correct the id value to match the one recommended by the error message \(XXXXXX\).
+**Action:** The `@id` attribute on a section element `<sec>` should reflect its position within higher-level sections. So, for example, Level 2 sections, within a Level 1 section with the id s4, would have the ids s4-1, s4-2, s4-3 and so on. A Level 3 section within the third of these would have the ids s4-3-1, s4-3-2, s4-3-3 and so on. The Exeter support team will need to correct the id value to match the one recommended by the error message \(XXXXXX\).
 
 #### sec-test-1
 
