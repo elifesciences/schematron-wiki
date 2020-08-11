@@ -169,25 +169,25 @@ Corrections and retractions will not usually contain any section headings. Where
 
 **Warning**: _Section title might start with a list indicator - 'XXXXXX'. Is this correct?_
 
-**Action**: This warning will fire if a section title starts with 1\), 2\), 3\) etc., or with a\), b\), c\) etc. Check to make sure that this content is not actually intended as an entry in a list \(this may require checking the exported article file\).
+**Action**: This warning will fire if a section title \(XXXXXX\) starts with 1\), 2\), 3\) etc., or with a\), b\), c\) etc. Check to make sure that this content is not actually intended as an entry in a list \(this may require checking the exported article file\).
 
 #### sec-title-appendix-check
 
 **Warning**: Section title contains the word appendix - 'XXXXXX'. Should it be captured as an appendix?
 
-**Action**: This warning indicates that a section title starts with the word 'appendix' \(e.g. 'Appendix 1', 'Appendix A', 'Appendix: Supplementary methods'\). This section and its contents should be moved into an appendix at the end of the article.
+**Action**: This warning indicates that a section title \(XXXXXX\) starts with the word 'appendix' \(e.g. 'Appendix 1', 'Appendix A', 'Appendix: Supplementary methods'\). This section and its contents should be moved into an appendix at the end of the article.
 
 #### sec-title-appendix-check-2
 
 **Warning**: _Should the section titled 'XXXXXX' be captured as an appendix?_
 
-**Action**: This warning indicates that a section title contains the word 'Supplementary' or 'Supplemental'. If this occurs in the context of, for example, 'Supplemental methods' or 'Supplemental results', it likely indicates content that the authors do not want to include in their main Materials and methods or Results sections. Such sections should be tagged as appendices in the back of the article, with the section title used as the title for each appendix.
+**Action**: This warning indicates that a section title \(XXXXXX\) contains the word 'Supplementary' or 'Supplemental'. If this occurs in the context of, for example, 'Supplemental methods' or 'Supplemental results', it likely indicates content that the authors do not want to include in their main Materials and methods or Results sections. Such sections should be tagged as appendices in the back of the article, with the section title used as the title for each appendix.
 
 #### sec-title-abbr-check
 
 **Warning**: _Section title contains the word abbreviation - 'XXXXXX'. Is it an abbreviation section? eLife house style is to define abbreviations in the text when they are first mentioned._
 
-**Action**: This warning will fire if a section title contains the text 'abbreviation', for example 'Abbreviations' or 'Abbreviation list'. Some authors will include a section like this, containing the definitions of every abbreviation used in their article. As the message states, eLife's house style is to define abbreviations within the text, at the first point they are used and at the end of figure/table/file legends. Ensure that all the abbreviations mentioned in the indicated section are defined at the first point they are used in the text, then delete the indicated section.
+**Action**: This warning will fire if a section title \(XXXXXX\) contains the text 'abbreviation', for example 'Abbreviations' or 'Abbreviation list'. Some authors will include a section like this, containing the definitions of every abbreviation used in their article. As the message states, eLife's house style is to define abbreviations within the text, at the first point they are used and at the end of figure/table/file legends. Ensure that all the abbreviations mentioned in the indicated section are defined at the first point they are used in the text, then delete the indicated section.
 
 #### sec-title-content-mandate
 
@@ -205,7 +205,7 @@ Corrections and retractions will not usually contain any section headings. Where
 
 **Error**: _All section title content is captured in bold. This is incorrect - XXXXXX_
 
-**Action**: Section titles do not need to be placed in bold font to be styled correctly. This formatting should be removed.
+**Action**: Section titles do not need to be placed in bold font to be styled correctly. This formatting should be removed from the indicated section title.
 
 #### sec-title-underline
 
@@ -259,6 +259,8 @@ XXXXXX will indicate the styled content at the start of a paragraph, X will be t
 
 **Action**: This warning indicates that a Level 1 heading is present that does not match the allowed top-level headings. Check whether this heading should be tagged as Level 2, within the preceding Level 1 heading. This may require a check against the exported article file. If an unusual article structure has been approved by Editorial, this should be indicated in the production notes.
 
+In cases where the authors have included a top-level heading that is similar to a permitted Level 1 heading \(e.g. 'Experimental results' or 'Discussion and conclusions'\) this should be corrected to match eLife style \('Results' and 'Discussion' in this case\).
+
 ### XML checks
 
 #### ra-sec-test-1
@@ -271,13 +273,17 @@ XXXXXX will indicate the styled content at the start of a paragraph, X will be t
 
 **Warning**: XXXXXX doesn't have child sec\[@sec-type='intro'\] in the main body. Is this correct?
 
-**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'intro'. An 'Introduction' section is mandatory for all research content \(except for short reports and scientific correspondence articles; this warning will not fire for these article types\). If an 'Introduction' section is present in an article, it must have the `@sec-type` with a value of 'intro'. Ensure the title is correctly tagged as a Level 1 heading and if this error persists, the Exeter support team will need to correct the attribute on the corresponding `<sec>` element. If no 'Introduction' heading is present, one should be added at the very start of the article text.
+**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'intro'. If an 'Introduction' section is present in an article, it must have the `@sec-type` with a value of 'intro'. An 'Introduction' section is mandatory for all research content \(except for short reports and scientific correspondence articles; this warning will not fire for these article types\).
+
+Ensure the title is correctly tagged as a Level 1 heading and if this error persists, the Exeter support team will need to correct the attribute on the corresponding `<sec>` element. If no 'Introduction' heading is present, one should be added at the very start of the article text.
 
 #### ra-sec-test-3
 
 **Warning**: _main body in XXXXXX content doesn't have a child sec with @sec-type whose value is either 'materials\|methods', 'methods' or 'model'. Is this correct?_
 
 **Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'materials\|methods', 'methods' or 'model'. If a 'Materials and methods', 'Methods', or 'Model' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content \(except for scientific correspondence articles; this warning will not fire for that article type\).
+
+Ensure that the titles mentioned here are tagged as Level 1 headings and if this error persists, the Exeter support team will need to correct the attribute on the corresponding `<sec>` element. If no 'Materials and methods', 'Methods', or 'Model' section is present in the article text
 
 #### ra-sec-test-4
 
