@@ -352,13 +352,13 @@ Correct the title to match the `@sec-type` value.
 
 **Error**: _sec must have a title_
 
-**Action**: Each section should have a title. Check whether the text for the title has been captured as part of the first paragraph of this section and, if so, correct the tagging.
+**Action**: Each section should have a title. Check whether the text for the title has been captured as part of the first paragraph of this section and, if so, style it as a section heading. If the content looks correct, this error is likely an issue in the XML and the Exeter support team should be contacted in order to fix the issue.
 
 #### sec-test-2
 
 **Error**: _sec appears to contain no content. This cannot be correct._
 
-**Action**: Each section should contain a title and either one or more paragraphs, or one or more sub-sections. This error possibly indicates that the content of a section was deleted or moved but the section was retained. In this case, the empty section should be removed. The Exeter support team may need to resolve this.
+**Action**: Each section should contain a title and either one or more paragraphs, or one or more sub-sections. This error possibly indicates that the content of a section was deleted or moved but the section was retained. In this case, the empty section should be removed. The Exeter support team may need to resolve this if it cannot be corrected through the proofing interface.
 
 ## XML structure
 
