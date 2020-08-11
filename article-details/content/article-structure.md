@@ -5,7 +5,7 @@ description: The article structure for different article types.
 # Article structure
 
 {% hint style="info" %}
-
+For the changelog, click [**here**](article-structure.md#changelog).
 {% endhint %}
 
 ## What is article structure?
@@ -393,4 +393,6 @@ Correct the title to match the `@sec-type` value.
 </sec>
         
 ```
+
+## Changelog
 
