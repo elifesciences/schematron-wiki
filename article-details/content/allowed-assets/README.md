@@ -20,34 +20,34 @@ This page will document the current allowed assets for eLife articles and the fi
 
 The following assets appear within the main text of an article. Most of these should be placed after the paragraph in which their first citation in the text appears \(unless there is a specific layout reason not to do this e.g. it would disrupt the flow of a mathematical derivation\). Anything marked 'inline', however, should appear at the point it is placed in the authors' submitted article file.
 
-* Figure 1
-  * Figure 1—source code 1
-  * Figure 1—source data 1
-  * Figure 1—video 1
-  * Figure 1—animation 1
-  * Figure 1—figure supplement 1
-  * Figure 1—figure supplement 1—source code 1
-  * Figure 1—figure supplement 1—source data 1
-* Chemical structure 1 \[inline\]
-* Scheme 1 \[inline
-* Table 1
-  * Table 1—source code 1
-  * Table 1—source data 1
+* **Figure 1** \| fig1 \| elife-12345-fig1
+  * **Figure 1—source code 1** \| fig1code1 \| elife-12345-fig1-code1
+  * **Figure 1—source data 1** \| fig1data1 \| elife-12345-fig1-data1
+  * **Figure 1—video 1** \| fig1video1 \| elife-12345-fig1-video1
+  * **Figure 1—animation 1** \| fig1video1 \| elife-12345-fig1video1
+  * **Figure 1—figure supplement 1** \| fig1s1 \| elife-12345-fig1-figsupp1
+  * **Figure 1—figure supplement 1—source code 1** \| fig1s1code1 \| elife-12345-fig1-figsupp1-code1
+  * **Figure 1—figure supplement 1—source data 1** \| fig1s1data1 \| elife-12345-fig1-figsupp1-data1
+* **Chemical structure 1** \[inline\]
+* **Scheme 1** \[inline\]
+* **Table 1** \| table1
+  * **Table 1—source code 1** \| table1code1 \| elife-12345-table1-code1
+  * **Table 1—source data 1** \| table1data1 \| elife-12345-table1-data1
 * _Unlabelled table_ \[inline\]
-* Video 1
-  * Video 1—source code 1
-  * Video 1—source data 1
-* Animation 1 \[video with mime-subtype=”gif” to trigger continuous play on eLife website\]
-  * Animation 1—source code 1
-  * Animation 1—source data 1
+* **Video 1** \| video1 \| elife-12345-video1
+  * **Video 1—source code 1** \| video1code1 \| elife-12345-video1-code1
+  * **Video 1—source data 1** \| video1data1 \| elife-12345-video1-data1
+* **Animation 1** \| video1 \| elife-12345-video1
+  * **Animation 1—source code 1** \| video1code1 \| elife-12345-video1-code1
+  * **Animation 1—source data 1** \| video1data1 \| elife-12345-video1-data1
 
 ### Additional information assets
 
-* Supplementary file 1
-* Source code 1 \[for whole article, not related to another asset\]
-* Source data 1 \[for whole article, not related to another asset\]
-* Reporting standard 1
-* Transparent reporting file
+* **Supplementary file 1** \| supp1 \| elife-12345-supp1
+* **Source code 1** \[for whole article, not related to another asset\] \| elife-12345-code1
+* **Source data 1** \[for whole article, not related to another asset\] \| elife-12345-data1
+* **Reporting standard 1**
+* **Transparent reporting file** \| transrepform \| elife-12345-transrepform
 
 ### Appendix assets
 
