@@ -185,7 +185,7 @@ The correct style for a numbered heading in an eLife articles is '1.1 Cube densi
 
 **Warning**: _Section title might start with a list indicator - 'XXXXXX'. Is this correct?_
 
-**Action**: This warning will fire if a section title \(XXXXXX\) starts with 1\), 2\), 3\) etc., or with a\), b\), c\) etc. Check to make sure that this content is not actually intended as an entry in a list \(this may require checking the exported article file\). If it is, the heading styling should be removed and the content set correctly as a list.
+**Action**: This warning will fire if a section title \(XXXXXX\) starts with a\), b\), c\) etc, or A\), B\), C\) etc. Check to make sure that this content is not actually intended as an entry in a list \(this may require checking the exported article file\). If it is, the heading styling should be removed and the content set correctly as a list.
 
 #### sec-title-appendix-check
 
