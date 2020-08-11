@@ -287,19 +287,23 @@ Ensure the title is correctly tagged as a Level 1 heading and if this error pers
 
 **Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'materials\|methods', 'methods' or 'model'. If a 'Materials and methods', 'Methods', or 'Model' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content \(except for scientific correspondence articles; this warning will not fire for that article type\).
 
-Ensure that the titles mentioned here are tagged as Level 1 headings and if this error persists, the Exeter support team will need to correct the attribute on the corresponding `<sec>` element. If no 'Materials and methods', 'Methods', or 'Model' section is present in the article text
+Ensure that the titles mentioned here are tagged as Level 1 headings and if this error persists, the Exeter support team will need to correct the attribute on the corresponding `<sec>` element.
+
+If no 'Materials and methods', 'Methods', or 'Model' section is present, please add the following author query:
+
+* eLife articles should contain the following main headings: 'Introduction', 'Results', 'Discussion' \[or a combined 'Results and discussion' heading\], 'Materials and Methods'. We have noticed that one or more of these headings is missing from your article structure. Please add the missing heading\(s\) at the appropriate point in the text.
 
 #### ra-sec-test-4
 
 **Warning**: _main body in XXXXXX content doesn't have either a child sec\[@sec-type='results\|discussion'\] or a sec\[@sec-type='results'\] and a sec\[@sec-type='discussion'\]. Is this correct?_
 
-**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'results\|discussion', 'results' or 'discussion'. If a 'Results and discussion', 'Results', or 'Discussion' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content \(except for short reports and scientific correspondence articles; this warning will not fire for these article types\). If one of these section titles is present, ensure that it is tagged as a Level 1 heading and if this error persists, the Exeter support team will need to correct the attribute on the corresponding `<sec>` element.
+**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'results\|discussion', 'results' or 'discussion'. If a 'Results and discussion', 'Results', or 'Discussion' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content \(except for short reports and scientific correspondence articles; this warning will not fire for these article types\).
 
-If the headings 'Results' and 'Discussion' or 'Results and discussion' are not present in the original file, please add the following author query:
+If one of these section titles is present, ensure that it is tagged as a Level 1 heading and if this error persists, the Exeter support team will need to correct the attribute on the corresponding `<sec>` element.
+
+If the headings 'Results' and 'Discussion' or 'Results and discussion' are not present, please add the following author query:
 
 * eLife articles should contain the following main headings: 'Introduction', 'Results', 'Discussion' \[or a combined 'Results and discussion' heading\], 'Materials and Methods'. We have noticed that one or more of these headings is missing from your article structure. Please add the missing heading\(s\) at the appropriate point in the text.
-
-
 
 #### top-sec-id
 
