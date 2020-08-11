@@ -257,7 +257,7 @@ XXXXXX will indicate the styled content at the start of a paragraph, X will be t
 
 **Warning**: _top level sec with title - XXXXXX - is not a usual title for XXXXXX content. Should this be captured as a sub-level of XXXXXX?_
 
-**Action**: This warning indicates that a Level 1 heading is present that does not match the allowed top-level headings. Check whether this heading should be tagged as Level 2, within the preceding Level 1 heading. This may require a check against the exported article file. If this unusual Level 1 heading was approved by Editorial, this should be indicated in the production notes.
+**Action**: This warning indicates that a Level 1 heading is present that does not match the allowed top-level headings. Check whether this heading should be tagged as Level 2, within the preceding Level 1 heading. This may require a check against the exported article file. If an unusual article structure has been approved by Editorial, this should be indicated in the production notes.
 
 ### XML checks
 
@@ -265,7 +265,7 @@ XXXXXX will indicate the styled content at the start of a paragraph, X will be t
 
 **Error**: _At least one sec should be present in body for research-article content._
 
-**Action**: This error indicates that there are no section elements `<sec>` within an article using the research content template.
+**Action**: This error indicates that there are no section elements `<sec>` within an article using the research content template. This most likely means that any headings in the original manuscript file have been left as plain text. Check against the export file and tag the headings as appropriate.
 
 #### ra-sec-test-2
 
@@ -283,10 +283,15 @@ XXXXXX will indicate the styled content at the start of a paragraph, X will be t
 
 **Warning**: _main body in XXXXXX content doesn't have either a child sec\[@sec-type='results\|discussion'\] or a sec\[@sec-type='results'\] and a sec\[@sec-type='discussion'\]. Is this correct?_
 
-**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'results\|discussion', 'results' or 'discussion'. If a 'Results and discussion', 'Results', or 'Discussion' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content \(except for short reports and scientific correspondence articles; this warning will not fire for these article types\). If one of these section titles is present, ensure that it is tagged as a Level 1 heading and if this error persists, the Exeter support team will need to correct the attribute on the corresponding `<sec>` element. If no 'Results and discussion', 'Results', or 'Discussion' sections are present, the following author query should be added:
+**Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'results\|discussion', 'results' or 'discussion'. If a 'Results and discussion', 'Results', or 'Discussion' section is present in an article, it must have the `@sec-type` with a corresponding value. One of these sections should be present in all research content \(except for short reports and scientific correspondence articles; this warning will not fire for these article types\). If one of these section titles is present, ensure that it is tagged as a Level 1 heading and if this error persists, the Exeter support team will need to correct the attribute on the corresponding `<sec>` element.
 
+If no 'Results' or 'Results and discussion' section is present, please add the following author query:
 
+* eLife's standard article structure requires a 'Results' section to be present, on its own or combined 
 
+If no 'Discussion' or 'Results and discussion' section is present, please add the following author query:
+
+* 
 #### top-sec-id
 
 **Error**: _top-level must have @id in the format 's0', where 0 relates to the position of the sec. It should be XXXXXX._
