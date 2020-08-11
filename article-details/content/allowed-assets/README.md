@@ -10,15 +10,15 @@ description: >-
 
 The term 'asset' refers to a figure, video, table or file associated with an article. These items are used to enhance the text of the article, providing illustration, raw data or the means to replicate the research being described.
 
-eLife is relatively unique in allowing multiple supplements to 'top level' assets in order to provide more information to a reader. For example, a figure may be supplemented with additional sub-figures \(figure supplements\), source data files and videos.
+eLife is relatively unique in allowing multiple supplements to 'top level' assets in order to provide more information to a reader. For example, a figure may be supplemented with additional sub-figures \(figure supplements\), source data files and/or videos.
 
-This page will document the current allowed assets for eLife articles and the accompanying file naming conventions.
+This page will document the current allowed assets for eLife articles and the file naming conventions for each type.
 
 ## Allowed assets
 
 ### Main text assets
 
-The following assets appear within the main text of an article. Most of these should be placed after the paragraph in which their first citation in the text appears \(unless there is a specific layout reason not to do this e.g. it would disrupt the flow of a mathematical derrivation\). Anything marked 'inline', however, should appear at the point it is placed in the authors' submitted article file.
+The following assets appear within the main text of an article. Most of these should be placed after the paragraph in which their first citation in the text appears \(unless there is a specific layout reason not to do this e.g. it would disrupt the flow of a mathematical derivation\). Anything marked 'inline', however, should appear at the point it is placed in the authors' submitted article file.
 
 * Figure 1
   * Figure 1—source code 1
