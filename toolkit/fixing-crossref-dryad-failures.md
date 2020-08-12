@@ -46,9 +46,9 @@ When sending content metadata to Crossref we list all citations within the artic
 
 ## What to do when a failure occurs 
 
-To correct these failures, you must first set up the transformation scenario \(this only needs to be done once\) in Oxygen \(an XML editor\). To do this, please visit [**here**](oxygen.md) for guidance. 
+To correct Dryad failures, you must first set up the transformation scenario \(this only needs to be done once\) in Oxygen \(an XML editor\). To do this, please visit [**here**](oxygen.md) for guidance. 
 
-Once this has been set up, you can correct failures in the blink of an eye. When a failure occurs, you need to download the XML and carry out the procedure below.  
+Once this has been set up, you can correct failures in the blink of an eye. When a failure occurs, you need to download the XML and carry out the procedure below. Note, the transformation scenario will only work for Dryad failures. 
 
 ## Replacing the XML at Crossref
 
