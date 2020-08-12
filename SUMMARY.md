@@ -15,10 +15,10 @@
 
 * [Content](article-details/content/README.md)
   * [Article assets](article-details/content/allowed-assets/README.md)
-    * [Chemical structures/schemes](article-details/content/allowed-assets/chemical-structures-schemes.md)
     * [Figures and figure supplements](article-details/content/allowed-assets/figures.md)
     * [Tables](article-details/content/allowed-assets/tables.md)
   * [Article structure](article-details/content/article-structure.md)
+  * [Licensing and copyright](article-details/content/licensing-and-copyright.md)
   * [Country names](article-details/content/country-names.md)
   * [Data availability](article-details/content/data-availability.md)
   * [Decision letters and Author responses](article-details/content/decision-letters-and-author-responses.md)
