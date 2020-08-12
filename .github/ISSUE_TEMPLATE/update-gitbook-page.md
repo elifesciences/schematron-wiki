@@ -16,17 +16,16 @@ assignees: ''
 
 ---
 
-- [ ] Revise page from feedback rounds 
+- [ ] Add updates to page
 - [ ] Becky approved page
 - [ ] Melissa approved page
 - [ ] Fred approved page
 - [ ] James approved page
 - [ ] Naushin approved page
-- [ ] Share page with Exeter
+- [ ] Share page with Exeter if relevant
 
 
 ### Definition of done
-- [ ] Updates completed
 - [ ] Team reviewed and approved page?
 - [ ] Add changelog to page
-- [ ] Assign Fred to update the Schematron
+- [ ] Assign Fred to update the Schematron if relevant
