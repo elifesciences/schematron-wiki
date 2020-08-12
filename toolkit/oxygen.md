@@ -68,7 +68,7 @@ Some messages will contain GitBook links at the end of them. These are messages 
 
 1. Download the zip below, unzip it \(inside should be a file called `crossref.xsl`\) and place it somewhere on your local machine such as your desktop.
 
-{% file src="../.gitbook/assets/crossref.xsl.zip" %}
+{% file src="../.gitbook/assets/crossref.xsl \(1\).zip" %}
 
 2. Open any XML file in Oxygen.
 
