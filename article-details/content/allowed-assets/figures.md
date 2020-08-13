@@ -417,7 +417,7 @@ If multiple figures are out of sequence, leave the following query for the autho
 
 **Error:** _XXXXXX does not start with the main figure number it is associated with - XXXXXX._
 
-**Action:** __All figure supplements in research content should have the label 'Figure 0—figure supplement 0.' This error will fire if a figure supplement has a label which doesn't begin with the figure number it is associated with. Exeter will need to fix this. 
+**Action:** __All figure supplements in research content should have the label 'Figure 0—figure supplement 0.' This error will fire if a figure supplement has a label which doesn't begin with the figure number it is associated with \(for example if Figure 2—figure supplement 1 is associated with Figure 1\). Exeter will need to check the original submission to see which figure the supplement should be associated and fix accordingly. 
 
 #### fig-sup-test-4
 
