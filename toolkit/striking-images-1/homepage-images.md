@@ -14,7 +14,7 @@ On eLife's [**homepage**](https://elifesciences.org/), we feature three [**strik
 
 ## What makes a great homepage image?
 
-When looking through the possible striking images, it is important to keep in mind that the image will be in landscape orientation with white text overlaying the image. The image should have a strong visual impact and ideally not contain more than one panel. As mentioned in the striking image [**guidance**](./#requirements), there should be no graphs, text, or summary figures. The best choices are colour photographs, microscopy images and illustrations. It is also good practise to look at the other two images on the carousel and try to vary the images if you can. 
+When looking through the possible striking images, it is important to keep in mind that the image will be in landscape orientation with white text overlaying the image. The image should have a strong visual impact and ideally not contain more than one panel. As mentioned in the striking image [**guidance**](./#requirements), there should be no graphs, text, or summary figures. The best choices are colour photographs, microscopy images and illustrations. It is also good practise to look at the other two images on the carousel and try to vary the theme of the images if you can. 
 
 ## Selecting a homepage image
 
