@@ -4,8 +4,6 @@ description: Executable Research Articles
 
 # ERA
 
-
-
 {% hint style="info" %}
 For change log, click [**here**](../article-details/content/allowed-assets/figures.md#changelog).
 {% endhint %}
