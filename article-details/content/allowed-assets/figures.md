@@ -665,7 +665,7 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 **Error:** _fig must have an @id in the format fig0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if a figure __has a label 'Figure 0' and an ID in a format other than fig0 \(where 0 is a number\)_._ Exeter will need to fix this.
+**Action:** This error will fire __if a figure __has a label 'Figure 0' and an ID in a format other than fig0 \(where 0 is a number\) - for example if a figure has the label 'Figure 1' but the ID 'S1'_._ Exeter will need to fix this.
 
 #### fig-sup-id-test
 
@@ -846,7 +846,7 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 **Warning:** _citation is preceded by 'XXXXXX'. The 'cf.' is unnecessary and should be removed._
 
-**Action:** This warning will fire if a figure citation is preceded by 'cf.'  The 'cf.' can be deleted.
+**Action:** This warning will fire if a figure citation is preceded by 'cf.', which means 'compare' and is sometimes used to refer the reader to other material for comparison. The 'cf.' can be deleted as it is not eLife's house style to use this. 
 
 #### fig-xref-test-15
 
