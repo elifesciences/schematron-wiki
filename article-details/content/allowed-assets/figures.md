@@ -10,7 +10,7 @@ For changelog, click [**here**](figures.md#changelog).
 
 ## What is a figure?
 
-Most scientific articles include figures, which are used to display findings or explain concepts. As well as main figures, eLife also allows authors to include figure supplements \('child' figures appended to main figures\) to present additional results and analyses, and to associate source data or source code directly with their figures. All figures and figure supplements must have titles, and usually also have legends \(although this is not mandatory\). All main figures must be cited in the text, but figure supplement citations are optional.
+Most scientific articles include figures, which are used to display findings or explain concepts. As well as main figures, eLife also allows authors to include figure supplements \('child' figures linked to main figures\) to present additional results and analyses, and to associate source data or source code directly with their figures. All figures and figure supplements must have titles, and usually also have legends \(although this is not mandatory\). All main figures must be cited in the text, but figure supplement citations are optional.
 
 Figures are made up of:
 
@@ -38,6 +38,16 @@ Figure files should be:
 * no wider than 14,000 pixels or no more than 178,956,970 pixels square in size 
 * no more than 500dpi in resolution
 * in portrait, not landscape orientation. We can accommodate figures of different aspect ratios \(e.g. wide, tall etc\) but they will always be presented in portrait orientation in the PDF.
+
+## Figure labels
+
+The following labels are allowed for figures in eLife articles:
+
+* Figure 1
+* Figure 1_—_figure supplement 1
+* Appendix 1_—_figure 1
+* Scheme 1
+* Chemical structure 1
 
 ## Resolution of figures
 
