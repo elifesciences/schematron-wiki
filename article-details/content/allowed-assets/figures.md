@@ -16,7 +16,7 @@ Figures are made up of:
 
 1. The image \(which may be made up of multiple panels\)
 2. A label \(e.g. Figure 3\)
-3. A single-sentence title which summarises the figure \(e.g. '. Identification of BisR as a new intermediary regulator for PalpA activation.'\)
+3. A single-sentence title which summarises the figure \(e.g. 'Identification of BisR as a new intermediary regulator for PalpA activation.'\) The title may include part labels \(e.g. 'Results from experiment 1 \(**A**\) and experiment 2 \(**B**\).'
 4. A legend which describes the figure. Legends can include lists and equations. 
 
 ![Components of a figure](../../../.gitbook/assets/screenshot-2020-08-12-at-14.56.41.png)
@@ -246,6 +246,12 @@ This has been added as an &lt;attrib&gt; element in the xml.
 After a paper has been peer reviewed, the Reviewing Editor collates the reviewers’ comments into a single letter to the corresponding author, outlining the consolidated list of recommendations in the decision letter. Corresponding authors then have the opportunity to respond to the comments in the author response letter. Authors may include figures and videos in this letter. These have the same requirements as main figures in terms of resolution, tables, and attribution information. It is preferred, but not necessary for these to have titles if they have legends. If these are missing at pre-author stages, the following query should be added:
 
 * Please provide the title for this X \(figure/video/table\).
+
+## Decision letter figures
+
+In rare cases, the editors may include figures in the decision letter. As with author response images, it is preferred, but not necessary for these to have titles if they have legends. If these are missing, the Editorial team will need to be consulted to see if there should be titles.
+
+![](../../../.gitbook/assets/screenshot-2020-08-13-at-10.22.21.png)
 
 ## Schematron checks
 
