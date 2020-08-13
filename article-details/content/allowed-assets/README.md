@@ -30,6 +30,7 @@ The following assets appear within the main text of an article. Most of these sh
   * **Figure 1—figure supplement 1—source data 1** \| fig1s1data1 \| elife-12345-fig1-figsupp1-data1
 * **Chemical structure 1** \[inline\]
 * **Scheme 1** \[inline\]
+* \[Illustration, unlabelled\] \| fig1 \| elife-12345-fig1
 * **Table 1** \| table1
   * **Table 1—source code 1** \| table1code1 \| elife-12345-table1-code1
   * **Table 1—source data 1** \| table1data1 \| elife-12345-table1-data1
