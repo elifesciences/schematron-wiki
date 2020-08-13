@@ -130,15 +130,14 @@ Visit the snapshot of the ERA you need to publish \(see [**above**](era.md#obtai
 
 \(Note that there will be two articles in the YAML file \(30274 and 52258\) with display links in the un-allowed format - **do not** follow the format of these links, as they were exceptions for the launch of ERA. Your display link should always be versioned, pointing to a snapshot specific URL - [**see above**](era.md#article-url).\)
 
-5. Publish your new branch with these changes, and create a Pull request with the master branch.
+### Creating a pull request and merging the code
 
-Depending on the permissions set up for your GitHub account and for this repo, you may need to request a review from a dev, who will also need to merge the PR.
+1. Publish your new branch with these changes, and create a Pull request with the master branch. Depending on the permissions set up for your GitHub account and for this repo, you may need to request a review from a dev, who will also need to merge the PR.
+2. Once the branch has been merged with the master branch, your branch can be deleted from your local clone.
 
-6. Once the branch has been merged with the master branch, your branch can be deleted from your local clone.
+### Running the Jenkins pipeline
 
-7. Visit [**https://alfred.elifesciences.org/job/process/job/process-rds-publishing/**](https://alfred.elifesciences.org/job/process/job/process-rds-publishing/) and click ‘Build Now’. This will run the Jenkins pipeline, which will publish the article.
-
-
+Visit [**https://alfred.elifesciences.org/job/process/job/process-rds-publishing/**](https://alfred.elifesciences.org/job/process/job/process-rds-publishing/) and click ‘Build Now’. This will run the Jenkins pipeline, which will publish the article on the site at the date and time specified in the YAML file.
 
 ## Change log
 
