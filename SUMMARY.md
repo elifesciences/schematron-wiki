@@ -55,8 +55,5 @@
 
 * [Kriya](pages-in-progress/kriya-1.md)
 * [Publish on accept protocols](pages-in-progress/publish-on-accept-protocols.md)
-
----
-
-* [ERA](era.md)
+* [ERA](pages-in-progress/era.md)
 
