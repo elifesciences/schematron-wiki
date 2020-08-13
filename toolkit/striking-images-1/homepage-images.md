@@ -16,9 +16,19 @@ On eLife's [**homepage**](https://elifesciences.org/), we feature three [**strik
 
 When looking through the possible striking images, it is important to keep in mind that the image will be in landscape orientation with white text overlaying the image. The image should have a strong visual impact and ideally not contain more than one panel. As mentioned in the striking image [**guidance**](./#requirements), there should be no graphs, text, or summary figures. The best choices are colour photographs, microscopy images and illustrations. It is also good practise to look at the other two images on the carousel and try to vary the theme of the images if you can. 
 
-## Selecting a homepage image
+## Examples
 
-The homepage image is selected by a nominated member of the Production team on a Monday morning and this image will be sent to Peter \(on the Features team\) to provide the overlaying text. This text is a short description of the article which you can see on the carousel above.
+Below are some of the images that have featured on the homepage. 
+
+![Striking image for 55164](../../.gitbook/assets/screen-shot-2020-08-13-at-08.58.15.png)
+
+![Striking image for 43186](../../.gitbook/assets/screen-shot-2020-08-13-at-09.00.22.png)
+
+![Striking image for 38432](../../.gitbook/assets/screen-shot-2020-08-13-at-09.01.43.png)
+
+## The homepage image process 
+
+The homepage image is selected by a nominated member of the Production team on a Monday morning and this image will be emailed to Peter \(on the Features team\) to provide the wording which overlays the image. This text is a short description of the article which you can see on the carousel at the top of this page.
 
 To ensure this is not forgotten, a reminder email is sent to the Production inbox. 
 
@@ -26,41 +36,9 @@ To ensure this is not forgotten, a reminder email is sent to the Production inbo
 
 There will be a homepage image email thread for the month, typically in the format 'Homepages for August'. 
 
-Examples
+![The typical email format.](../../.gitbook/assets/captured-5-%20%281%29.gif)
 
-Give specific examples of everything that needs to be checked/any common problems. Add sub-sections where needed, but be as succinct as possible. Include screenshots as required.
 
-This section should also list any issues that can be spotted without the need to run Schematron tests such as low figure quality, broken paragraphs, badly formatted tables etc. Crosscheck against the protocol documents in [this folder](https://drive.google.com/drive/folders/0B2wDI5EMHiJ-UzctZnVBdWFwbzA).
-
-> Any quotes from articles should be formatted as quotes
-
-* Any Kriya queries should be formatted as a bullet point
-
-Any [**hyperlinks**](../../untitled-4.md) to other pages or websites should be bolded to make sure they are more visible. 
-
-## Schematron checks
-
-### Content checks
-
-List of errors and warnings that can occur, with guidance on how to solve each problem or on when it is OK to let the warning go by and not change anything.
-
-These checks relate to the content of \[insert name of page\]. X or XXXXXX refers to quoted text which will change depending on the article.
-
-#### id-x - make sure this is tagged as a level 3 header
-
-**Warning/Error/Info:** _content of message_
-
-**Action:** What to do if this message fires
-
-### XML structure checks
-
-These checks relate to the XML structure of \[insert name of page\]. ‌X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see below \(include link to XML structure\).
-
-#### id-x - make sure this is tagged as a level 3 header
-
-**Warning/Error/Info:** _content of message_
-
-**Action:** What to do if this message fires
 
 ## Further reading
 
