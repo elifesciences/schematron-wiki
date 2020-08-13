@@ -18,7 +18,7 @@ More information \(more eloquently put\) in [**this blog post**](https://elifesc
 
 **\[update blog post and demo links after ERA launch\]**
 
-Note that ERAs used to be called RDSs.  
+Note that ERAs used to be called RDSs. While the two terms are necessarily interchangeable, unless specified, if someone refers to RDS, they very likely mean ERA.
 
 ## **ERA workflow**
 
