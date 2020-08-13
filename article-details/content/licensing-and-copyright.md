@@ -10,49 +10,49 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 **Warning:** _The caption for XXXXXX contains the text 'reproduced from', but has no permissions. Is this correct?_
 
-**Action**: This warning will appear if a figure caption includes the text 'reproduced from' but there is no permissions information in the XML. If no notes have been left about permissions information to add, query the Production team who will check this with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'reproduced from' but there is no permissions information in the XML. If no notes have been left about permissions information to add, query the Production team who will discuss it with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
 
 #### reproduce-test-2
 
 **Warning:** _The caption for XXXXXX contains the text 'reproduced with permission', but has no permissions. Is this correct?_
 
-**Action**: This warning will appear if a figure caption includes the text 'reproduced with permission' but there is no permissions information in the XML. If no notes have been left about permissions information to add, query the Production team who will check this with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'reproduced with permission' but there is no permissions information in the XML. If no notes have been left about permissions information to add, query the Production team who will discuss it with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
 
 #### reproduce-test-3
 
 **Warning:** _The caption for XXXXXX contains the text 'adapted from ...', but has no permissions. Is this correct?_
 
-**Action**: This warning will appear if a figure caption includes the text 'adapted from' but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'adapted from' but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will discuss it with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
 
 #### reproduce-test-4
 
 **Warning:** _The caption for XXXXXX contains the text 'reprinted from', but has no permissions. Is this correct?_
 
-**Action**: This warning will appear if a figure caption includes the text 'reprinted from' but there is no permissions information in the XML. If no notes have been left about permissions information to add, query the Production team who will check this with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'reprinted from' but there is no permissions information in the XML. If no notes have been left about permissions information to add, query the Production team who will discuss it with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
 
 #### reproduce-test-5
 
 **Warning:** _The caption for XXXXXX contains the text 'reprinted with permission', but has no permissions. Is this correct?_
 
-**Action**: This warning will appear if a figure caption includes the text 'reprinted with permission' but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'reprinted with permission' but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will discuss it with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
 
 #### reproduce-test-6
 
 **Warning:** _The caption for XXXXXX contains the text 'modified from', but has no permissions. Is this correct?_
 
-**Action**: This warning will appear if a figure caption includes the text 'modified from' but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'modified from' but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will discuss it with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
 
 #### reproduce-test-7
 
 **Warning:** _The caption for XXXXXX contains the text 'modified with', but has no permissions. Is this correct?_
 
-**Action**: This warning will appear if a figure caption includes the text 'modified with_'_ but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'modified with_'_ but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will discuss it with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
 
 #### reproduce-test-8
 
 **Warning:** _The caption for XXXXXX contains the text 'used with permission', but has no permissions. Is this correct?_
 
-**Action**: This warning will appear if a figure caption includes the text 'used with permission_'_ but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will check this with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
+**Action**: This warning will appear if a figure caption includes the text 'used with permission_'_ but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will discuss it with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
 
 #### fig-permissions-test-1 
 
