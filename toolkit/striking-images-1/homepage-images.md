@@ -22,7 +22,7 @@ The requirements for Journal CMS \(the website used to change the homepage image
 * Image size larger than 1800x900 pixels
 *  Accepted formats are png, jpg, and jpeg.
 
-## Examples
+### Examples
 
 Below are some of the images that have featured on the homepage. 
 
@@ -31,6 +31,12 @@ Below are some of the images that have featured on the homepage.
 ![Striking image for 43186](../../.gitbook/assets/screen-shot-2020-08-13-at-09.00.22.png)
 
 ![Striking image for 38432](../../.gitbook/assets/screen-shot-2020-08-13-at-09.01.43.png)
+
+## Selecting a homepage image
+
+The new homepage image is selected from the striking images of VOR articles that have been published from Wednesday, of the previous week, to the following Tuesday. The words are requested on the Monday morning so, if you were to pick a VOR article in advance, it is best to only use press papers that are already scheduled for that Tuesday. 
+
+You can use the Production team action sheet for articles that have been scheduled, and/or use the eLife's website to find VOR articles that have been published in the previous week. As you bring up each article, you will need to search the striking image bucket to see if it has a suitable image. Once you have found an image, you will then need to send this to Peter as outlined below. On the rare occasions, you do not find a suitable image, you should email Peter to let him know and either send an image later in the day when more article's have been published or at the very latest, Tuesday morning. 
 
 ## Homepage image wording
 
