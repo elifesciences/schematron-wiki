@@ -16,6 +16,12 @@ On eLife's [**homepage**](https://elifesciences.org/), we feature three [**strik
 
 When looking through the possible striking images, it is important to keep in mind that the image will be in landscape orientation with white text overlaying the image. The image should have a strong visual impact and ideally not contain more than one panel. As mentioned in the striking image [**guidance**](./#requirements), there should be no graphs, text, or summary figures. The best choices are colour photographs, microscopy images and illustrations. It is also good practise to look at the other two images on the carousel and try to vary the theme of the images if you can. 
 
+The requirements for Journal CMS \(the website used to change the homepage image\) is as follows: 
+
+* Maximum of 32MB, 
+* Image size larger than 1800x900 pixels
+*  Accepted formats are png, jpg, and jpeg.
+
 ## Examples
 
 Below are some of the images that have featured on the homepage. 
