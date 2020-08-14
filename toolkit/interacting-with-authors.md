@@ -66,9 +66,13 @@ Striking images are requested in the acceptance email that is sent to authors. H
 
 The following templates are saved in Hiver:
 
+#### Author delay response
+
+This can be used to reply to authors who indicate they will be delayed in returning their proofs. 
+
 #### Author to sign off before changes can be made
 
-This can be used when authors provide updated figures to replace in their proofs and the proofs are still with them
+This can be used when authors provide updated figures to replace in their proofs and the proofs are still with them.
 
 #### Chaser
 
