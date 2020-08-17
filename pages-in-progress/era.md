@@ -12,11 +12,9 @@ For change log, click [**here**](../article-details/content/allowed-assets/figur
 
 An Executable Research Article is an article in which the code and data have been included as executable assets. A reader can make edits to this information, and execute the code in the browser to regenerate/manipulate figures, tables, and code blocks.  
 
-See [**the Demo**](https://repro.elifesciences.org/example.html#) for an example.
+See [**here**](https://elifesciences.org/articles/30274/executable) and [**here**](https://elifesciences.org/articles/52258/executable) for an examples.
 
-More information \(more eloquently put\) in [**this blog post**](https://elifesciences.org/labs/b521cf4d/reproducible-document-stack-towards-a-scalable-solution-for-reproducible-articles).
-
-**\[update blog post and demo links after ERA launch\]**
+More information \(more eloquently put\) in [**this blog post**](https://elifesciences.org/labs/dc5acbde).
 
 Note that ERAs used to be called RDSs \(which stood for Reproducible Document Stack\). While the two terms aren't necessarily interchangeable, unless specified, if someone refers to RDS they very likely mean ERA.
 
