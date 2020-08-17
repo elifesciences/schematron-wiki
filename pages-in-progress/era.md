@@ -45,7 +45,7 @@ Production carry out three roles in the ERA process:
 
 ## List of known supported and unsupported content
 
-When an article is ERA'd, eLife JATS XML is converted to [**Schema.org**](https://schema.org/) using [**Encoda**](https://github.com/stencila/encoda). It is then converted into the authors selected format \(again, using Encoda\). This decoding and encoding process is lossy, meaning that some content may only be partially retained or may not be retained at all.
+When an article is ERA'd, eLife JATS XML is converted to [**Schema.org**](https://schema.org/) using [**Encoda**](https://github.com/stencila/encoda). It is then converted into the authors selected format \(again, using Encoda\). This decoding and encoding process means that some content may only be partially retained or may not be retained at all.
 
 Note, however, that during the 'building' process \(the process by which authors make their article executable\) it may be possible for this content to be added back in manually.
 
