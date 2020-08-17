@@ -128,11 +128,13 @@ Visit the snapshot of the ERA you need to publish \(see [**above**](era.md#obtai
 4. Add the details of the new ERA into the `pillar/rds-articles.yaml` file, in the format:
 
 ```yaml
-'{id of article}':
+'{5 digit id of article}':
     date: '{date-time of publication in the following format 2020-01-01T00:00:00Z}'
     display: {link to Snapshot Stencila Hub Article HTML}
     download: {link for Stencila project snapshot download}
 ```
+
+Date format is `YYYY-MM-DDTHH-mm-ssZ`, where `Y` is a digit for the year, `M` is a digit for the month, `D` is a digit for the day, `H` is a digit for the hour \(24 hour clock, for example 13 for 1pm\), `m` is a digit for the minute, and `s` a digit for the second. `T` and `Z` stay the same.
 
 \(Note that there will be two articles in the YAML file \(30274 and 52258\) with display links in the un-allowed format - **do not** follow the format of these links, as they were exceptions for the launch of ERA. Your display link should always be versioned, pointing to a snapshot specific URL - [**see above**](era.md#article-url).\)
 
