@@ -807,7 +807,19 @@ Alternatively, if the URL and title provided for this dataset indicate that the 
 
 **Action**: At the post-author stage, this error indicates a dataset without a year. The author should be asked by email to provide the missing details if they cannot be found using the other dataset information. This error fires if the `<year>` element is empty.
 
-#### das-elem-cit-3
+#### pre-das-elem-cit-3
+
+**Warning**: _The reference in position XX of the data availability section has a link \(XXXXXX\) which is the same as another dataset reference in that section. Dataset reference links should be distinct._
+
+**Action**: This error indicates that a dataset's URL matches that of another dataset in this section. Check to find out which datasets are duplicates and see if the rest of the details match as well. If they do, all but one of the identical datasets should be deleted. If the title or identifier do not match when the URLs do, check to see if the URL should be updated to match the identifier.
+
+For example, if the URLs for two datasets are both [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351), but the identifiers are GSE135351 and GSE143881, the dataset for the second identifier should have the URL [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881).
+
+If you are unable to do the above, or it is unclear what the URLs should be, then please add the following author query:
+
+* Please enter a direct URL for this dataset, not just the homepage for the database as a whole.
+
+#### final-das-elem-cit-3
 
 **Error**: _The reference in position XX of the data availability section has a link \(XXXXXX\) which is the same as another dataset reference in that section. Dataset reference links should be distinct._
 
@@ -1579,4 +1591,5 @@ The current data availability tagging was introduced at the beginning of June 20
 #### Change log
 
 * Updated 2020-07-07 to purge mention of archive type pub-ids. Only accession or doi now allowed.
+* Updated 2020-08-17 to account for split of das-elem-cit-3 into pre and final versions.
 
