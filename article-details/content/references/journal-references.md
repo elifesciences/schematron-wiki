@@ -4,6 +4,10 @@ description: This is a page about entries for journals in the reference list.
 
 # Journal references
 
+{% hint style="info" %}
+For change log, click [**here**](journal-references.md#change-log).
+{% endhint %}
+
 ## What is a journal reference?
 
 A journal reference gives bibliographic details for articles published in academic journals.
@@ -239,6 +243,12 @@ If the authors respond to say the article is now in press, add the 'In press' fi
 **Action:** This error will appear if a journal name has been entered as 'Research Gate' \(or 'research gate', 'researchgate' or any other capitalisation alternatives\). Research Gate is a platform for scientists to collaborate and share articles - it is not a journal. Check what the correct journal name should be by looking up the article online and enter that instead. If the article can only be found on Research Gate, and the journal name is not clear, leave the following author query:
 
 * Please provide the journal name for this reference.
+
+#### elife-check
+
+**Error:** _Journal ref 'XXXXXX' has an eLife doi XXXXXX, but the journal name is 'XXXXXX', when it should be 'eLife'. Either the journal name needs updating to eLife, or the doi is incorrect._
+
+**Action:** This error will appear if a journal reference has an eLife doi, but the journal name is not 'eLife'. Either the journal name is incorrect or the doi is incorrect. Check against the original manuscript to determine what the author\(s\) had intended to cite. If it clearly an eLife article, then update the journal name to eLife. If it is not, then either remove the doi \(Exeter have to do this\) or update the doi with the correct one, and update any other details as required.
 
 #### journal-replacement-character-presence
 
@@ -594,4 +604,8 @@ Journal reference with eLocation ID.
   <pub-id pub-id-type="doi">10.1016/j.apsb.2020.02.008</pub-id>
 </element-citation>
 ```
+
+## Change log
+
+* Update 2020-08-17 with `elife-check`.
 
