@@ -39,7 +39,10 @@ Production carry out three roles in the ERA process:
 
 ## ERA QC
 
-\[To be filled out\]
+* Check that each of the executable items runs without failures \(by clicking the play button. You could also try editing the code to make sure \[changing colours etc.\]\).
+* If any figures are drastically different from the original, then check these with the authors. There may however be perfectly acceptable reason why they are different 
+
+\[To be fleshed out\]
 
 ## List of known supported and unsupported content
 
