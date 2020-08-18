@@ -22,7 +22,7 @@ The following assets appear within the main text of an article. Most of these sh
 
 
 
-| Asset | XML ID | File name |
+| Asset label | XML ID | File name |
 | :--- | :--- | :--- |
 | **Figure 1** | fig1 | elife-12345-fig1 |
 | **Figure 1—source code 1** | fig1code1 | elife-12345-fig1-code1 |
@@ -49,11 +49,15 @@ The following assets appear within the main text of an article. Most of these sh
 
 ### Additional information assets
 
-* **Supplementary file 1** \| supp1 \| elife-12345-supp1
-* **Source code 1** \[for whole article, not related to another asset\] \| elife-12345-code1
-* **Source data 1** \[for whole article, not related to another asset\] \| elife-12345-data1
-* **Reporting standard 1**
-* **Transparent reporting file** \| transrepform \| elife-12345-transrepform
+The follow assets appear in the 'Additional information' section at the back of an article \(within the `<back>` element\). These are broadly referred to as 'supplementary files', though only one of them has this label.
+
+| Asset label | XML ID | File name |
+| :--- | :--- | :--- |
+| Supplementary file 1 | supp1 | elife-12345-supp1 |
+| Source code 1 | scode1 | elife-12345-code1 |
+| Source data 1 | sdata1 | elife-12345-data1 |
+| Reporting standard 1 | repstand1 | elife-12345-repstand1 |
+| Transparent reporting file | transrepform | elife-12345-transrepform |
 
 ### Appendix assets
 
