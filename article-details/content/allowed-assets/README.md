@@ -20,24 +20,38 @@ This page will document the current allowed assets for eLife articles and the fi
 
 The following assets appear within the main text of an article. Most of these should be placed after the paragraph in which their first citation in the text appears \(unless there is a specific layout reason not to do this e.g. it would disrupt the flow of a mathematical derivation\). Anything marked 'inline', however, should appear at the point it is placed in the authors' submitted article file.
 
-* **Figure 1** \| fig1 \| elife-12345-fig1
-  * **Figure 1—source code 1** \| fig1code1 \| elife-12345-fig1-code1
-  * **Figure 1—source data 1** \| fig1data1 \| elife-12345-fig1-data1
-  * **Figure 1—video 1** \| fig1video1 \| elife-12345-fig1-video1
-  * **Figure 1—animation 1** \| fig1video1 \| elife-12345-fig1video1
-  * **Figure 1—figure supplement 1** \| fig1s1 \| elife-12345-fig1-figsupp1
-  * **Figure 1—figure supplement 1—source code 1** \| fig1s1code1 \| elife-12345-fig1-figsupp1-code1
-  * **Figure 1—figure supplement 1—source data 1** \| fig1s1data1 \| elife-12345-fig1-figsupp1-data1
-* **Chemical structure 1** \[inline\] \| C1 \| elife-12345-fig1
-* **Scheme 1** \[inline\] \| S1 \| elife-12345-fig1
-* \[Illustration, unlabelled\] \| fig1 \| elife-12345-fig1
-* **Table 1** \| table1
-  * **Table 1—source code 1** \| table1code1 \| elife-12345-table1-code1
-  * **Table 1—source data 1** \| table1data1 \| elife-12345-table1-data1
-* _Unlabelled table_ \[inline\]
-* **Video 1** \| video1 \| elife-12345-video1
-  * **Video 1—source code 1** \| video1code1 \| elife-12345-video1-code1
-  * **Video 1—source data 1** \| video1data1 \| elife-12345-video1-data1
+
+
+| Asset | XML ID | File name |
+| :--- | :--- | :--- |
+| Figure 1 | fig1 | elife-12345-fig1 |
+| Figure 1—source code 1 | fig1code1 | elife-12345-fig1-code1 |
+| Figure 1—source data 1 | fig1data1 | elife-12345-fig1-data1 |
+| Figure 1—video 1 | fig1video1 | elife-12345-fig1-video1 |
+| Figure 1—animation 1 | fig1video1 | elife-12345-fig1video1 |
+| Figure 1—figure supplement 1 | fig1s1 | elife-12345-fig1-figsupp1 |
+| Figure 1—figure supplement 1—source code 1 | fig1s1code1 | elife-12345-fig1-figsupp1-code1 |
+| Figure 1—figure supplement 1—source data 1 | fig1s1data1 | elife-12345-fig1-figsupp1-data1 |
+| Chemical structure 1 \[inline\] | c1 | elife-12345-chem1 |
+| Scheme 1 \[inline\] | s1 | elife-12345-scheme1 |
+| \[Illustration, unlabelled\] | fig1 | elife-12345-fig1 |
+| Table 1 | table1 |  |
+| Table 1—source code 1 | table1code1 | elife-12345-table1-code1 |
+| Table 1—source data 1 | table1data1 | elife-12345-table1-data1 |
+| Key resources table \[inline\] | keyresource |  |
+| Unlabelled table \[inline\] | inlinetable1 |  |
+| Video 1 | video1 | elife-12345-video1 |
+| Video 1—source code 1 | video1code1 | elife-12345-video1-code1 |
+| Video 1—source data 1 | video1data1 | elife-12345-video1-data1 |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+
+
+* \*\*\*\*
+* *  \|  \| 
+  *  \|  \| 
 * **Animation 1** \| video1 \| elife-12345-video1
   * **Animation 1—source code 1** \| video1code1 \| elife-12345-video1-code1
   * **Animation 1—source data 1** \| video1data1 \| elife-12345-video1-data1
