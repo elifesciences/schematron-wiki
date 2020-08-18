@@ -24,28 +24,28 @@ The following assets appear within the main text of an article. Most of these sh
 
 | Asset | XML ID | File name |
 | :--- | :--- | :--- |
-| Figure 1 | fig1 | elife-12345-fig1 |
-| Figure 1—source code 1 | fig1code1 | elife-12345-fig1-code1 |
-| Figure 1—source data 1 | fig1data1 | elife-12345-fig1-data1 |
-| Figure 1—video 1 | fig1video1 | elife-12345-fig1-video1 |
-| Figure 1—animation 1 | fig1video1 | elife-12345-fig1video1 |
-| Figure 1—figure supplement 1 | fig1s1 | elife-12345-fig1-figsupp1 |
-| Figure 1—figure supplement 1—source code 1 | fig1s1code1 | elife-12345-fig1-figsupp1-code1 |
-| Figure 1—figure supplement 1—source data 1 | fig1s1data1 | elife-12345-fig1-figsupp1-data1 |
-| Chemical structure 1 \[inline\] | c1 | elife-12345-chem1 |
-| Scheme 1 \[inline\] | s1 | elife-12345-scheme1 |
+| **Figure 1** | fig1 | elife-12345-fig1 |
+| **Figure 1—source code 1** | fig1code1 | elife-12345-fig1-code1 |
+| **Figure 1—source data 1** | fig1data1 | elife-12345-fig1-data1 |
+| **Figure 1—video 1** | fig1video1 | elife-12345-fig1-video1 |
+| **Figure 1—animation 1** | fig1video1 | elife-12345-fig1video1 |
+| **Figure 1—figure supplement 1** | fig1s1 | elife-12345-fig1-figsupp1 |
+| **Figure 1—figure supplement 1—source code 1** | fig1s1code1 | elife-12345-fig1-figsupp1-code1 |
+| **Figure 1—figure supplement 1—source data 1** | fig1s1data1 | elife-12345-fig1-figsupp1-data1 |
+| **Chemical structure 1** \[inline\] | c1 | elife-12345-chem1 |
+| **Scheme 1** \[inline\] | s1 | elife-12345-scheme1 |
 | \[Illustration, unlabelled\] | fig1 | elife-12345-fig1 |
-| Table 1 | table1 |  |
-| Table 1—source code 1 | table1code1 | elife-12345-table1-code1 |
-| Table 1—source data 1 | table1data1 | elife-12345-table1-data1 |
-| Key resources table \[inline\] | keyresource |  |
+| **Table 1** | table1 |  |
+| **Table 1—source code 1** | table1code1 | elife-12345-table1-code1 |
+| **Table 1—source data 1** | table1data1 | elife-12345-table1-data1 |
+| **Key resources table** \[inline\] | keyresource |  |
 | Unlabelled table \[inline\] | inlinetable1 |  |
-| Video 1 | video1 | elife-12345-video1 |
-| Video 1—source code 1 | video1code1 | elife-12345-video1-code1 |
-| Video 1—source data 1 | video1data1 | elife-12345-video1-data1 |
-| Animation 1 | video1 | elife-12345-video1 |
-| Animation 1—source code 1 | video1code1 | elife-12345-video1-code1 |
-| Animation 1—source data 1 | video1data1 | elife-12345-video1-data1 |
+| **Video 1** | video1 | elife-12345-video1 |
+| **Video 1—source code 1** | video1code1 | elife-12345-video1-code1 |
+| **Video 1—source data 1** | video1data1 | elife-12345-video1-data1 |
+| **Animation 1** | video1 | elife-12345-video1 |
+| **Animation 1—source code 1** | video1code1 | elife-12345-video1-code1 |
+| **Animation 1—source data 1** | video1data1 | elife-12345-video1-data1 |
 
 ### Additional information assets
 
