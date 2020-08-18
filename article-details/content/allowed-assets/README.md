@@ -43,18 +43,9 @@ The following assets appear within the main text of an article. Most of these sh
 | Video 1 | video1 | elife-12345-video1 |
 | Video 1—source code 1 | video1code1 | elife-12345-video1-code1 |
 | Video 1—source data 1 | video1data1 | elife-12345-video1-data1 |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-
-
-
-* \*\*\*\*
-* *  \|  \| 
-  *  \|  \| 
-* **Animation 1** \| video1 \| elife-12345-video1
-  * **Animation 1—source code 1** \| video1code1 \| elife-12345-video1-code1
-  * **Animation 1—source data 1** \| video1data1 \| elife-12345-video1-data1
+| Animation 1 | video1 | elife-12345-video1 |
+| Animation 1—source code 1 | video1code1 | elife-12345-video1-code1 |
+| Animation 1—source data 1 | video1data1 | elife-12345-video1-data1 |
 
 ### Additional information assets
 
