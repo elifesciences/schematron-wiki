@@ -82,20 +82,32 @@ The following assets appear in appendices. They follow the same pattern as main-
 
 ### Box assets
 
-* Box 1—figure 1 \[inline main figure\]
-  * Box 1—figure 1—source code 1
-  * Box 1—figure 1—source data 1
-* Box 1—table 1
-  * Box 1—table 1—source code 1
-  * Box 1—table 1—source data 1
-* Box 1—video 1
-  * Box 1—video 1—source code 1
+The following assets are allowed with boxes.
+
+| Asset label | XML ID | File name |
+| :--- | :--- | :--- |
+| Box 1—figure 1 \[inline\] |  |  |
+| Box 1—figure 1—source code 1 |  |  |
+| Box 1—figure 1—source data 1 |  |  |
+| Box 1—table 1 \[inline\] |  |  |
+| Box 1—table 1—source code 1 |  |  |
+| Box 1—table 1—source data 1 |  |  |
+| Box 1—video 1 \[inline\] |  |  |
+| Box 1—video 1—source code 1 |  |  |
+| Box 1—video 1—source data 1 |  |  |
 
 ### Sub-article assets
 
 * Decision letter image 1
+* Decision letter table 1
+* Unlabelled table \[inline\]
+* Decision letter video 1
+
+
+
 * Author response image 1
 * Author response table 1
+* Unlabelled table \[inline\]
 * Author response video 1
 
 ## Asset naming convention
