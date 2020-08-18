@@ -1,2 +1,2 @@
-# Conference reference
+# Conference references
 
