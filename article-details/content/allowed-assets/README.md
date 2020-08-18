@@ -8,7 +8,7 @@ description: >-
 
 ## What is an asset?
 
-The term 'asset' refers to a figure, video, table or file associated with an article. These items are used to enhance the text of the article, providing illustration, raw data or the means to replicate the research being described.
+The term 'asset' refers to a figure, video, table or file associated with an article. These items are used to enhance the text of the article, providing illustration, raw data or the means to replicate the research.
 
 eLife is relatively unique in allowing multiple supplements to 'top level' assets in order to provide more information to a reader. For example, a figure may be supplemented with additional sub-figures \(figure supplements\), source data files and/or videos.
 
