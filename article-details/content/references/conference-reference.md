@@ -50,7 +50,7 @@ If any of the mandatory information is not provided, look up the article on [**P
 
 
 
-Schematron
+## Schematron checks 
 
 
 
