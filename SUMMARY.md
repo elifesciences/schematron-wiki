@@ -29,6 +29,7 @@
   * [Reference citations](article-details/content/reference-citations.md)
   * [References](article-details/content/references/README.md)
     * [Conference reference](article-details/content/references/conference-reference.md)
+    * [Data references](article-details/content/references/data-references.md)
     * [Journal references](article-details/content/references/journal-references.md)
     * [Preprint references](article-details/content/references/preprint-references.md)
     * [Software references](article-details/content/references/software-references.md)
