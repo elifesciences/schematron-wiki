@@ -40,13 +40,13 @@ Production carry out three roles in the ERA process:
 ## ERA QC
 
 * Check that each of the executable items runs without failures \(by clicking the play button. You could also try editing the code to make sure \[changing colours etc.\]\).
-* If any figures are drastically different from the original, then check these with the authors. There may however be perfectly acceptable reason why they are different 
+* If any figures are drastically different from the original, then check these with the authors. There may, however, be perfectly acceptable reason why they are different for example if the Figure is generated from shuffled data \(and therefore _intended_ to give a different result each time\). **\[Provide example from Nolan paper when possible\]**
 
-\[To be fleshed out\]
+**\[To be fleshed out\]**
 
 ## List of known supported and unsupported content
 
-When an article is ERA'd, eLife JATS XML is converted to [**Schema.org**](https://schema.org/) using [**Encoda**](https://github.com/stencila/encoda). It is then converted into the authors selected format \(again, using Encoda\). This decoding and encoding process means that some content may only be partially retained or may not be retained at all.
+When an article is ERA'd, eLife JATS XML is converted to [**Schema.org**](https://schema.org/) using [**Encoda**](https://github.com/stencila/encoda). It is then converted into the authors' selected format \(again, using Encoda\). This decoding and encoding process means that some content may only be partially retained or may not be retained at all.
 
 Note, however, that during the 'building' process \(the process by which authors make their article executable\) it may be possible for this content to be added back in manually.
 
@@ -99,7 +99,7 @@ There are four steps to publishing an ERA:
 3. Create a pull request with the master branch and merge.
 4. Run Jenkins pipeline to effectuate changes onto Journal.
 
-### Obtaining the Stencila Hub links
+### 1. Obtaining the Stencila Hub links
 
 Visit the Stencila Hub project for the ERA you wish to publish, and go to snapshots:
 
@@ -121,7 +121,7 @@ Like eLife articles there is also a URL which will point to the latest snapshot 
 
 Visit the snapshot of the ERA you need to publish \(see [**above**](era.md#obtaining-the-stencila-hub-links) for how to do so\). Right click on the download button next to 'Open', and click 'Copy link address'. The link should be something like `https://hub.stenci.la/api/projects/583/snapshots/4/archive`.
 
-### Editing the YAML file
+### 2. Editing the YAML file
 
 1. Clone the [elifesciences/builder-configuration](https://github.com/elifesciences/builder-configuration) GitHub repo locally. \(Skip if already done\).
 2. Ensure that the local version is up to date with the master branch \(pull the latest\).
@@ -139,12 +139,12 @@ Date format is `YYYY-MM-DDTHH-mm-ssZ`, where `Y` is a digit for the year, `M` is
 
 \(Note that there will be two articles in the YAML file \(30274 and 52258\) with display links in the un-allowed format - **do not** follow the format of these links, as they were exceptions for the launch of ERA. Your display link should always be versioned, pointing to a snapshot specific URL - [**see above**](era.md#article-url).\)
 
-### Creating a pull request and merging the code
+### 3. Creating a pull request and merging the code
 
 1. Publish your new branch with these changes, and create a Pull request with the master branch. Depending on the permissions set up for your GitHub account and for this repo, you may need to request a review from a dev, who will also need to merge the PR.
 2. Once the branch has been merged with the master branch, your branch can be deleted from your local clone.
 
-### Running the Jenkins pipeline
+### 4. Running the Jenkins pipeline
 
 Visit [**https://alfred.elifesciences.org/job/process/job/process-rds-publishing/**](https://alfred.elifesciences.org/job/process/job/process-rds-publishing/) and click ‘Build Now’. This will run the Jenkins pipeline, which will publish the article on the site at the date and time specified in the YAML file.
 
