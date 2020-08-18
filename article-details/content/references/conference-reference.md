@@ -48,11 +48,19 @@ If any of the mandatory information is not provided, look up the article on [**P
 
 * Please provide the XXXXXX for this reference.
 
-
+## Finding reference details
 
 ## Schematron checks 
 
+### Content checks
+
+#### conf-doi-test-1
+
+Warning: _XXXXXX is a conference ref without a doi, but it's a conference which is know to possibly have dois - \(XXXXXX\). Should it have one?_
+
+Action:
 
 
-conf-doi-test-1	element-citation\[\(@publication-type='confproc'\) and not\(pub-id\[@pub-id-type='doi'\]\) and year and conf-name\]	\*\*Warning\*\*: \_XXXXXX is a conference ref without a doi, but it's a conference which is know to possibly have dois - \(XXXXXX\). Should it have one?\_
+
+## XML structure
 
