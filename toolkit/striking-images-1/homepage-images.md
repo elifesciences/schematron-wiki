@@ -63,7 +63,7 @@ The homepage image is changed on Tuesday afternoon, an email reminder will be se
 To do this, follow the steps below. 
 
 * Go to [**https://prod--journal-cms.elifesciences.org/**](https://prod--journal-cms.elifesciences.org/)\*\*\*\*
-* Login. If you do not have login credentials, please speak to a member of the Production team. 
+* Log in. If you do not have login credentials, please speak to a member of the Production team. 
 * Hover over the 'Structure' tab at the top of the page and click on 'Entityqueues'.
 
 ![](../../.gitbook/assets/screen-shot-2020-08-13-at-12.19.34.png)
