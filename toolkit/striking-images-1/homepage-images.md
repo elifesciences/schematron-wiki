@@ -18,7 +18,7 @@ The requirements for Journal CMS \(the website used to change the homepage image
 
 * Maximum of 32MB, 
 * Image size larger than 1800x900 pixels
-*  Accepted formats are png, jpg, and jpeg.
+* Accepted formats are png, jpg, and jpeg.
 
 ### Examples
 
