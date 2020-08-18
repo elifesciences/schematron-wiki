@@ -86,15 +86,15 @@ The following assets are allowed with boxes.
 
 | Asset label | XML ID | File name |
 | :--- | :--- | :--- |
-| Box 1—figure 1 \[inline\] |  |  |
-| Box 1—figure 1—source code 1 |  |  |
-| Box 1—figure 1—source data 1 |  |  |
-| Box 1—table 1 \[inline\] |  |  |
-| Box 1—table 1—source code 1 |  |  |
-| Box 1—table 1—source data 1 |  |  |
-| Box 1—video 1 \[inline\] |  |  |
-| Box 1—video 1—source code 1 |  |  |
-| Box 1—video 1—source data 1 |  |  |
+| **Box 1—figure 1 \[inline\]** | box1fig1 | elife-12345-box1-fig1 |
+| **Box 1—figure 1—source code 1** | box1fig1scode1 | elife-12345-box1-fig1-code1 |
+| **Box 1—figure 1—source data 1** | box1fig1sdata1 | elife-12345-box1-fig1-data1 |
+| **Box 1—table 1** \[inline\] | box1table1 |  |
+| **Box 1—table 1—source code 1** | box1table1scode1 | elife-12345-box1-table1-code1 |
+| **Box 1—table 1—source data 1** | box1table1sdata1 | elife-12345-box1-table1-data1 |
+| **Box 1—video 1** \[inline\] | box1video1 | elife-12345-box1-video1 |
+| **Box 1—video 1—source code 1** | box1video1scode1 | elife-12345-box1-video1-code1 |
+| **Box 1—video 1—source data 1** | box1video1sdata1 | elife-12345-box1-video1-data1 |
 
 ### Sub-article assets
 
