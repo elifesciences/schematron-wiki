@@ -8,7 +8,7 @@ description: This is a page about entries for conference articles in the referen
 
 A conference reference gives bibliographic details for work presented at a conference, or published in the proceedings for a conference.
 
-
+![Example of a conference reference](../../../.gitbook/assets/screen-shot-2020-08-18-at-16.23.36.png)
 
 
 
