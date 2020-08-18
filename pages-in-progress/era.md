@@ -123,9 +123,9 @@ Visit the snapshot of the ERA you need to publish \(see [**above**](era.md#obtai
 
 ### 2. Editing the YAML file
 
-1. Clone the [elifesciences/builder-configuration](https://github.com/elifesciences/builder-configuration) GitHub repo locally. \(Skip if already done\).
+1. Clone the [**elifesciences/builder-configuration**](https://github.com/elifesciences/builder-configuration) GitHub repo locally. \(Skip if already done\).
 2. Ensure that the local version is up to date with the master branch \(pull the latest\).
-3. Create a new branch \(based off the `master` branch\), calling it something appropriate like `era-update`. 
+3. Create a new branch \(based off the `master` branch\), calling it something appropriate like `era-update`.
 4. Add the details of the new ERA into the `pillar/rds-articles.yaml` file, in the format:
 
 ```yaml
