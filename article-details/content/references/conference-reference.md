@@ -22,7 +22,8 @@ The following information can be added for journal references:
 | Collaboration\(s\) | At least one author or collaboration is required; both can be present | &lt;person-group person-group-type="author"&gt;&lt;collab&gt;Tulsa 1000 Investigators&lt;/collab&gt;&lt;/person-group&gt; | Tulsa 1000 Investigators |
 | Year | Yes | &lt;year iso-8601-date="2018"&gt;2018&lt;/year&gt; | 2018 |
 | Article title | Yes | &lt;article-title&gt;Boundary learning by optimization with topological constraints&lt;/article-title&gt; | Boundary learning by optimization with topological constraints |
-|  | Yes | &lt;conf-name&gt;2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\)&lt;/conf-name&gt; | 2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\) |
+| Conference title | No | &lt;source&gt;Independent component analysis and signal separation&lt;/source&gt; | Independent component analysis and signal separation |
+| Conference name | Yes | &lt;conf-name&gt;2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\)&lt;/conf-name&gt; | 2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\) |
 | Journal name | Yes | &lt;source&gt;The Journal of Cell Biology&lt;/source&gt; | The Journal of Cell Biology |
 | Volume | No | &lt;volume&gt;173&lt;/volume&gt; | 173 |
 | e-location ID | No \(if first/last pages are present, there can be no e-location ID\) | &lt;elocation-id&gt;e51381&lt;/elocation-id&gt; | e51381 |
@@ -57,9 +58,51 @@ If any of the mandatory information is not provided, look up the article on [**P
 
 #### conf-doi-test-1
 
-Warning: _XXXXXX is a conference ref without a doi, but it's a conference which is know to possibly have dois - \(XXXXXX\). Should it have one?_
+**Warning**: _XXXXXX is a conference ref without a doi, but it's a conference which is know to possibly have dois - \(XXXXXX\). Should it have one?_
 
-Action:
+**Action**:
+
+#### err-elem-cit-confproc-2-1
+
+Error: One and only one person-group element is allowed. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements.
+
+**Action**:
+
+#### err-elem-cit-confproc-8-1
+
+**Error**: _Each &lt;element-citation&gt; of type 'confproc' must contain one and only one &lt;article-title&gt; element. Reference 'XXXXXX' has XXXXXX &lt;article-title&gt; elements._
+
+**Action**:
+
+#### err-elem-cit-confproc-9-1
+
+**Error**: _Each &lt;element-citation&gt; of type 'confproc' must not contain more than one &lt;source&gt; element\(s\). Reference 'XXXXXX' has XXXXXX &lt;source&gt; elements._
+
+**Action**:
+
+err-elem-cit-confproc-10-1	element-citation\[@publication-type='confproc'\]	\*\*Error\*\*: \_\[err-elem-cit-confproc-10-1\] &lt;conf-name&gt; is required. Reference 'XXXXXX' has XXXXXX &lt;conf-name&gt; elements.\_
+
+err-elem-cit-confproc-12-1	element-citation\[@publication-type='confproc'\]	\*\*Error\*\*: \_\[err-elem-cit-confproc-12-1\] The citation may contain &lt;fpage&gt; and &lt;lpage&gt;, only &lt;fpage&gt;, or only &lt;elocation-id&gt; elements, but not a mixture. Reference 'XXXXXX' has XXXXXX &lt;fpage&gt; elements, XXXXXX &lt;lpage&gt; elements, and XXXXXX &lt;elocation-id&gt; elements.\_
+
+err-elem-cit-confproc-12-2	element-citation\[@publication-type='confproc'\]	\*\*Error\*\*: \_\[err-elem-cit-confproc-12-2\] The citation may contain no more than one of any of &lt;fpage&gt;, &lt;lpage&gt;, and &lt;elocation-id&gt; elements. Reference 'XXXXXX' has XXXXXX &lt;fpage&gt; elements, XXXXXX &lt;lpage&gt; elements, and XXXXXX &lt;elocation-id&gt; elements.\_
+
+err-elem-cit-confproc-12-3	element-citation\[@publication-type='confproc'\]	\*\*Error\*\*: \_\[err-elem-cit-confproc-12-3\] If both &lt;lpage&gt; and &lt;fpage&gt; are present, the value of &lt;fpage&gt; must be less than the value of &lt;lpage&gt;. Reference 'XXXXXX' has &lt;lpage&gt; XXXXXX, which is less than or equal to &lt;fpage&gt; XXXXXX.\_
+
+err-elem-cit-confproc-12-4	element-citation\[@publication-type='confproc'\]	\*\*Error\*\*: \_\[err-elem-cit-confproc-12-4\] The content of the &lt;fpage&gt; and &lt;lpage&gt; elements can contain any alpha numeric value but no child elements are allowed. Reference 'XXXXXX' has XXXXXX child elements in &lt;fpage&gt; and XXXXXX child elements in &lt;lpage&gt;.\_
+
+err-elem-cit-confproc-16-1	element-citation\[@publication-type='confproc'\]	\*\*Error\*\*: \_\[err-elem-cit-confproc-16-1\] A maximum of one &lt;pub-id&gt; element is allowed. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements.\_
+
+err-elem-cit-confproc-17	element-citation\[@publication-type='confproc'\]	\*\*Error\*\*: \_\[err-elem-cit-confproc-17\] The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="confproc" are: &lt;person-group&gt;, &lt;year&gt;, &lt;article-title&gt;, &lt;source&gt;, &lt;conf-loc&gt;, &lt;conf-name&gt;, &lt;fpage&gt;, &lt;lpage&gt;, &lt;elocation-id&gt;, &lt;ext-link&gt;, and &lt;pub-id&gt;. Reference 'XXXXXX' has other elements.\_
+
+err-elem-cit-confproc-2-2	element-citation\[@publication-type='confproc'\]/person-group	\*\*Error\*\*: \_\[err-elem-cit-confproc-2-2\] Each &lt;person-group&gt; must have a @person-group-type attribute of type 'author'. Reference 'XXXXXX' has a &lt;person-group&gt; element with @person-group-type attribute 'XXXXXX'.\_
+
+err-elem-cit-confproc-9-2-2	element-citation\[@publication-type='confproc'\]/source	\*\*Error\*\*: \_\[err-elem-cit-confproc-9-2-2\] A &lt;source&gt; element within a &lt;element-citation&gt; of type 'confproc' may only contain the child elements&lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' has child elements that are not allowed.\_
+
+err-elem-cit-confproc-8-2	element-citation\[@publication-type='confproc'\]/article-title	\*\*Error\*\*: \_\[err-elem-cit-confproc-8-2\] An &lt;article-title&gt; element in a reference may contain characters and &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' does not meet this requirement.\_
+
+err-elem-cit-confproc-10-2	element-citation\[@publication-type='confproc'\]/conf-name	\*\*Error\*\*: \_\[err-elem-cit-confproc-10-2\] No elements are allowed inside &lt;conf-name&gt;. Reference 'XXXXXX' has child elements within the &lt;conf-name&gt; element.\_
+
+err-elem-cit-confproc-11-2	element-citation\[@publication-type='confproc'\]/conf-loc	\*\*Error\*\*: \_\[err-elem-cit-confproc-11-2\] No elements are allowed inside &lt;conf-loc&gt;. Reference 'XXXXXX' has child elements within the &lt;conf-loc&gt; element.\_
 
 
 

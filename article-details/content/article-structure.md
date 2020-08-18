@@ -293,7 +293,7 @@ In cases where the authors have included a top-level heading that is similar to 
 
 #### ra-sec-test-2
 
-**Warning**: XXXXXX doesn't have child sec\[@sec-type='intro'\] in the main body. Is this correct?
+**Warning**: _XXXXXX doesn't have child sec\[@sec-type='intro'\] in the main body. Is this correct?_
 
 **Action**: This warning indicates that there is no section element `<sec>` with the type attribute `@sec-type` equal to 'intro'. If an 'Introduction' section is present in an article, it must have the `@sec-type` with a value of 'intro'. An 'Introduction' section is mandatory for all research content \(except for short reports and scientific correspondence articles; this warning will not fire for these article types\).
 
