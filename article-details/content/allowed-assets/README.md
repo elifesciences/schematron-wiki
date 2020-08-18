@@ -82,7 +82,7 @@ The following assets appear in appendices. They follow the same pattern as main-
 
 ### Box assets
 
-The following assets are allowed with boxes.
+The following assets are allowed with boxes. These will always need to be positioned inline as they need to be contained within their parent box.
 
 | Asset label | XML ID | File name |
 | :--- | :--- | :--- |
@@ -98,17 +98,25 @@ The following assets are allowed with boxes.
 
 ### Sub-article assets
 
-* Decision letter image 1
-* Decision letter table 1
-* Unlabelled table \[inline\]
-* Decision letter video 1
+#### Decision letter
+
+The following assets are allowed in decision letters.
+
+| Asset label | XML ID | File name |
+| :--- | :--- | :--- |
+| **Decision letter image 1** | sa1fig1 | elife-12345-sa1-fig1 |
+| **Decision letter table 1** | sa1table1 |  |
+| **Decision letter video 1** | sa1video1 | elife-12345-sa1-video1 |
+
+#### Author response
+
+The following assets are allowed in author responses.
+
+| Asset label | XML ID | File name |
+| :--- | :--- | :--- |
+| **Author response image 1** | sa2fig1 | elife-12345-sa2-fig1 |
+| **Author response table 1** | sa2table1 |  |
+| **Author response video 1** | sa2video1 | elife-12345-sa2-video1 |
 
 
-
-* Author response image 1
-* Author response table 1
-* Unlabelled table \[inline\]
-* Author response video 1
-
-## Asset naming convention
 
