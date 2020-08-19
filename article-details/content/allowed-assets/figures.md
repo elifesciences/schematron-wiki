@@ -26,6 +26,7 @@ Figures are made up of:
 * Resolution of figures in the PDFs
 * Presence of tables in figures
 * Multi-page figures
+* Figure labels \(see list of allowed labels [**here**](./#allowed-assets)\)
 * Part labels 
 * Permissions information if required
 
@@ -33,21 +34,18 @@ Figures are made up of:
 
 Figure files should be:
 
-* in PDF, EPS, AI, JPEG, PNG or TIF \(in 8-bit only\) formats
+* in PDF, EPS, AI, JPEG, PNG or TIF formats
+  * in 8 bit format \(not 16 bit format\) if a TIF file.
 * no larger than 500MB
 * no wider than 14,000 pixels or no more than 178,956,970 pixels square in size 
 * no more than 500dpi in resolution
-* in portrait, not landscape orientation. We can accommodate figures of different aspect ratios \(e.g. wide, tall etc\) but they will always be presented in portrait orientation in the PDF.
+* in portrait, not landscape orientation. We can accommodate figures of different aspect ratios \(e.g. wide, tall etc\) but they will always be presented in portrait orientation in the PDF \(see more [**here**](figures.md#figure-orientation)\)
+* a single figure in a single file \(multiple figures in a figure file is not allowed, for example a PDF file with images across numerous pages\).
+* comprised of a single layer \(multiple layers should be avoided\).
+* without figure legends in the image \(they may be included in the image file by the authors for the purposes of peer review/PoA, but these should then be removed by Exeter during processing\).
+* with whitespace trimmed around the image.
 
-## Figure labels
-
-The following labels are allowed for figures in eLife articles:
-
-* Figure 1
-* Figure 1_—_figure supplement 1
-* Appendix 1_—_figure 1
-* Scheme 1
-* Chemical structure 1
+For more information about how figures are processed during production, see [**here**](figures.md#elife-figure-processing). 
 
 ## Resolution of figures
 
@@ -57,26 +55,38 @@ Figures and figure supplements should be checked in the PDFs to ensure they are 
 
 ## Tables in figures
 
-We strongly discourage authors from providing tables represented as figures or figure supplements as data presented in flat images cannot be mined or re-used without being manually rekeyed. If the authors have provided a table as a figure, the authors should be asked to provide this information as an editable table in Word or Excel format with the following author queries \(depending on whether the table is a figure or figure supplement\):
+We strongly discourage authors from providing tables represented as figures or figure supplements as data presented in flat images cannot be mined or re-used without being manually rekeyed. If the authors have provided a table as a figure, they should be asked to provide this information as an editable table in Word or Excel format with the following author queries \(depending on whether the table is a figure or figure supplement\):
 
 * We noticed that this figure only contains a table. eLife’s policy is to avoid including these as flat images wherever possible. Given this, please could you provide this table as an editable Word or Excel file so that we can include it as a main table.
 * We noticed that this figure supplement only contains a table. eLife’s policy is to avoid including these as flat images wherever possible. Given this, please could you provide this table as a Word, Excel or PDF file so that we can include it as source data for the related figure.
 
-If the author has not cited this "figure" in the text \(for instance because it is a figure supplement\) they will also need to add a citation to the new table in the main text.
+Once the editable tables are provided, these should be added as main tables or source data files. Make sure in-text citations to the figure or figure supplement are updated accordingly. If the table represented as a figure also has its own source data, this will need to be relabelled as another source data file. 
 
-For example, in 55692, Figure 1_—_ figure supplement 3 was originally provided as an image:
+For example, in 57936, Figure 1_—_ figure supplement 4 was originally provided as an image:
 
-![](../../../.gitbook/assets/screenshot-2020-07-01-at-16.06.10.png)
+![](../../../.gitbook/assets/screenshot-2020-08-19-at-12.37.04.png)
 
-The authors were asked to provide this as an editable file and it was changed to a table in the final version: 
+The authors were asked to provide this as an editable file and it was relabelled as source data for Figure 1 in the final version: 
 
-![](../../../.gitbook/assets/screenshot-2020-07-01-at-16.06.46.png)
+![](../../../.gitbook/assets/screenshot-2020-08-19-at-12.42.43.png)
 
 The author may also be given the option to convert the table to source data instead depending on the content. If the table was provided as a figure supplement this would become Figure 0_—_Source data 0 \(where 0 is one or more digits\); if it was provided as a main figure this would become source data attached to the document as a whole.
 
 If one of the panels in a figure is a table, this can be left as-is:
 
 ![](../../../.gitbook/assets/screenshot-2020-07-01-at-16.11.54.png)
+
+### Tables as figures
+
+Authors may label tables in their manuscript as figures \(usually figure supplements\). For example, in 58619:
+
+![](../../../.gitbook/assets/screenshot-2020-08-19-at-11.28.52.png)
+
+If the table is editable, create a blank document, copy the table there, and relabel and save it as source data \(in the case above, the table became Figure 1–source data 1\). Make sure the figure is removed from the article and add the source data to the relevant figure instead. If the table also has its own source data, this will also need to be relabelled \(in this case, source data for this Figure 1–figure supplement 2 became Figure 1–source data 2\). Then, leave the following author query:
+
+* Unfortunately we cannot support tables as figure supplements so these have been changed to source data for your figures. Please check and confirm this is correct. 
+
+If the table is a flat image, follow the steps outlined in the [**previous section**](figures.md#tables-in-figures). 
 
 ## Multi-page files
 
@@ -100,7 +110,11 @@ Authors may include inline images of chemical structures or schemes in their art
 
 ![An example of a scheme?](../../../.gitbook/assets/screenshot-2020-07-01-at-16.16.49%20%281%29.png)
 
-## Figure size in article PDFs
+## Figures in article PDFs
+
+The article and figures PDFs must be checked to ensure the content is legible and figures are in the correct order. 
+
+### Figure size
 
 The following applies to research content \([**Feature content**](../feature-content.md) templates have separate rules\). Figures can be either:
 
@@ -117,6 +131,16 @@ The following applies to research content \([**Feature content**](../feature-con
 In each case, the legend should be the same width as the image block and the figure should occupy as much of the available space as possible, left aligned but preferably with little to no whitespace on the right. If the image is particularly tall, this may result in there being more whitespace on the right because to increase the size of the image would make it too big for a PDF proof page. The appropriate width of the figure block should be determined by the resolution and aspect ratio of the supplied image. For smaller figures, these can be left the size they are:
 
 ![](../../../.gitbook/assets/screenshot-2020-07-01-at-16.38.50.png)
+
+### Figure orientation
+
+Figures must be in portrait, not landscape orientation. We can accommodate figures of different aspect ratios \(e.g. wide, tall etc\) but they must always be presented in portrait orientation in the PDF. For example, in 57215, the figure below was provided in landscape orientation but displayed in portrait format so the content was rotated:
+
+![](../../../.gitbook/assets/screenshot-2020-08-19-at-10.21.48.png)
+
+In the final version, this figure was rotated so the content would be legible in portrait view. 
+
+![](../../../.gitbook/assets/screenshot-2020-08-19-at-10.25.57.png)
 
 ## Accompanying text
 
@@ -262,6 +286,16 @@ After a paper has been peer reviewed, the Reviewing Editor collates the reviewer
 In rare cases, the editors may include figures in the decision letter. As with author response images, it is preferred, but not necessary for these to have titles if they have legends. If these are missing, the Editorial team will need to be consulted to see if there should be titles.
 
 ![](../../../.gitbook/assets/screenshot-2020-08-13-at-10.22.21.png)
+
+## eLife figure processing
+
+eLife publishes figures in TIF format only, meaning that all figures provided by authors in a filetype other than TIF are converted at the end of the production process. Therefore, in the final package delivered to Continuum and to downstream services, all figures are in TIF format. However, other formats are used for figures in the creation of the PDFs. These may be in the original formats provided by the authors, or in a vector/rasterised format derived from the original. As a result, during the production process, the XML that is downloaded from Kriya will contain references to various different file formats. Here is an example:
+
+```markup
+<graphic xlink:href="{.}../resources/elife2/ecs/article/184502/resources/FF01.eps" mimetype="application" mime-subtype="postscript"/>
+```
+
+The example above references a `.eps` file. The values of the `mimetype` and `mime-subtype` will differ and are dependent on what filetype is referenced.
 
 ## Schematron checks
 
