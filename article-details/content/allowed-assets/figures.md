@@ -23,11 +23,11 @@ Figures are made up of:
 
 ## What needs to be checked?
 
-* Resolution of figures in the PDFs
-* Presence of tables in figures
-* Multi-page figures
 * Figure labels \(see list of allowed labels [**here**](./#allowed-assets)\)
 * Part labels 
+* Resolution and placement of figures in the PDFs
+* Presence of tables in figures
+* Multi-page figures
 * Permissions information if required
 
 ## Figure files
@@ -46,6 +46,12 @@ Figure files should be:
 * with whitespace trimmed around the image.
 
 For more information about how figures are processed during production, see [**here**](figures.md#elife-figure-processing). 
+
+## Common author queries
+
+The main queries we receive from authors about figures are to do with replacing figures. These can be passed on to Exeter via the Kriya notes or email. 
+
+If authors have queries or complaints about the resolution of their figures, we first need to check the files they have submitted follow the requirements [**above**](figures.md#figure-files). If not, share the requirements with them and ask for updated figure files. If they have already followed the guidelines, Exeter will need to be consulted to see if the resolution can be improved further. In some cases the resolution cannot be improved further. It may be appropriate for the figure to be uploaded to a dedicated repository if it is very high resolution. 
 
 ## Resolution of figures
 
@@ -96,19 +102,25 @@ If an author provides a figure file over multiple pages we cannot process this a
 
 * Please provide this figure in a single-page format. If this would render the figure unreadable, please provide this as separate figures or figure supplements.
 
-## Unlabelled images
-
-If the authors have included unlabelled images in their article file that do not correspond to the main figures, the production team should be queried to determine how to treat these images. In most cases, these images will need to be treated as chemical structures or schemes.
-
-![An example of an image with no figure label](../../../.gitbook/assets/screenshot-2020-08-12-at-11.52.11.png)
-
 ## Chemical structures/schemes
 
 Authors may include inline images of chemical structures or schemes in their article. These should not be tagged as figures, as they need to be placed inline where the authors have indicated in their original submission. 
 
 ![An example of a chemical structure](../../../.gitbook/assets/screenshot-2020-07-01-at-16.23.50.png)
 
-![An example of a scheme?](../../../.gitbook/assets/screenshot-2020-07-01-at-16.16.49%20%281%29.png)
+![An example of a scheme](../../../.gitbook/assets/screenshot-2020-07-01-at-16.16.49%20%281%29.png)
+
+## Unlabelled images in the article file
+
+If there are unlabelled images in the article file that do not correspond to the main figures, the production team should be queried to determine how to treat these images. These may be inline images, which are permitted and don't require any labels. For more about inline images, see here. Inline images may also be present within tables - for more about this, see here. In most cases however, these images will need to be treated as chemical structures or schemes. 
+
+If the unlabelled image is a chemical structure or scheme, it will need to be labelled as such, with the title updated as appropriate.
+
+![An example of an inline image with no label](../../../.gitbook/assets/screenshot-2020-08-19-at-14.34.54.png)
+
+In the example above, this image was relabelled as Chemical structure 1 with the title '2-Cyano-N-\(4-\(trifluoromethyl\)phenyl\)acetamide – SGA-34'.
+
+![](../../../.gitbook/assets/screenshot-2020-08-19-at-14.35.03.png)
 
 ## Figures in article PDFs
 
@@ -128,9 +140,7 @@ The following applies to research content \([**Feature content**](../feature-con
 
 ![An example of a half-column width figure](../../../.gitbook/assets/screenshot-2020-07-01-at-16.27.02.png)
 
-In each case, the legend should be the same width as the image block and the figure should occupy as much of the available space as possible, left aligned but preferably with little to no whitespace on the right. If the image is particularly tall, this may result in there being more whitespace on the right because to increase the size of the image would make it too big for a PDF proof page. The appropriate width of the figure block should be determined by the resolution and aspect ratio of the supplied image. For smaller figures, these can be left the size they are:
-
-![](../../../.gitbook/assets/screenshot-2020-07-01-at-16.38.50.png)
+In each case, the legend will be the same width as the image block and the figure should occupy as much of the available space as possible, left aligned but preferably with little to no whitespace on the right. If the image is particularly tall, this may result in there being more whitespace on the right because to increase the size of the image would make it too big for a PDF proof page. The appropriate width of the figure block should be determined by the resolution and aspect ratio of the supplied image.
 
 ### Figure orientation
 
@@ -203,13 +213,17 @@ Please be aware that sometimes authors may cite a figure from another article. C
 
 ## Figure placement
 
-Figures are automatically placed directly after their first citation in the text \(although citations in captions should not be used to determine figure placement\). This can sometimes result in figures being placed in the middle of display formulae, which breaks the flow of the text.
+Figures can either be 'floating' or 'anchored'. In the PDFs, chemical structures, schemes, and appendix figures are treated as anchored objects rather than a floating one. All other figures are floating objects. 
+
+Floating figures are automatically placed directly after their first citation in the text \(although citations in captions should not be used to determine figure placement\). This can sometimes result in figures being placed in the middle of display formulae, which breaks the flow of the text.
 
 For example, in 55217, equation 9 should appear after the paragraph below. Instead, Figure 12 has been placed here, which breaks the flow of the text. Figure 12 should appear after equation 9 to improve readability.
 
 ![](../../../.gitbook/assets/screenshot-2020-08-12-at-16.10.15.png)
 
 ![](../../../.gitbook/assets/screenshot-2020-08-12-at-16.12.00.png)
+
+
 
 ## Source code/data
 
@@ -332,13 +346,13 @@ If the figure has been cited in the text and this error still appears, Exeter wi
 
 **Error:** _fig must have a label._
 
-**Action:** All figures and figure supplements in research content should have the label 'Figure 0' or 'Figure supplement 0' \(where 0 is one or more digits\). This error will fire if a figure does not have a label and will need to be corrected by Exeter.
+**Action:** All figures and figure supplements in research content should be numbered sequentially and thus have a label 'Figure 0' or 'Figure supplement 0' \(where 0 is one or more digits, based on the sequence of the numbered figure\). This error will fire if a figure does not have a label and will need to be corrected by Exeter.
 
 #### feat-fig-test-3
 
 **Warning:** _fig doesn't have a label. Is this correct?_
 
-**Action:** This will fire in Feature content if a figure does not have the label 'Figure 0' \(where 0 is one or more digits\). Check the original submitted document to see whether there should be a label. If so, this will need to be added by Exeter. If the original version does not have a label, this is ok to leave. For example, in 58965:
+**Action:** [**Feature content**](../feature-content.md) figures do not always require labels. However, there is a warning if a figure does not have the label 'Figure 0' \(where 0 is one or more digits, based on the sequence of the numbered figure\). Check the original submitted document to see whether there should be a label. If so, this will need to be added by Exeter. If the original version does not have a label, this is ok to leave. For example, in 58965:
 
 ![An example of a figure with no label in Feature content](../../../.gitbook/assets/screenshot-2020-07-08-at-16.12.34.png)
 
@@ -401,7 +415,13 @@ Exeter will need to fix this when the information is provided.
 
 **Warning:** _XXXXXX does not appear in sequence. Relative to the other figures it is placed in position XXXXXX. Please query this with the author._
 
-**Action:** Figures are automatically placed directly after their first citation. ****This warning usually appears if the authors have cited figures out of order. For example, if they refer to Figure 3 before Figure 2, this results in Figure 3 being placed before Figure 2. Unlink the citation that is out of order, move the figure to the correct place and leave the following query for the author:
+**Action:** Figures are automatically placed directly after their first citation. ****This warning usually appears if the authors have cited figures out of order. For example, if they refer to Figure 3 before Figure 2, this results in Figure 3 being placed before Figure 2. For example in 52278, Figures 5 and 6 were cited out of sequence:
+
+![](../../../.gitbook/assets/screenshot-2020-08-19-at-16.12.30.png)
+
+This resulted in Figures 5 and 6 appearing before Figure 2.
+
+Unlink the citation that is out of order, move the figure to the correct place and leave the following query for the author:
 
 * This citation is out of sequence with the other figure citations and has therefore been left unlinked \(figure placement is determined by first live citation\). Please confirm this is acceptable.
 
@@ -439,7 +459,7 @@ If multiple figures are out of sequence, leave the following query for the autho
 
 **Warning:** _There is no citation to XXXXXX Is this correct?_
 
-**Action:** This will fire in feature content if a main figure has no in-text citations. Check the submitted manuscript to see if this should be the case. If the original version had an in-text citation for the figure, double-check with Features whether they meant to remove this. If so, this warning can be ignored - otherwise add the in-text citation. If the original version didn't have an in-text citation for the figure, this warning can be ignored.
+**Action:** This will fire in [**Feature content**](../feature-content.md) if a main figure has no in-text citations. Check the submitted manuscript to see if this should be the case. If the original version had an in-text citation for the figure, double-check with Features whether they meant to remove this. If so, this warning can be ignored - otherwise add the in-text citation. If the original version didn't have an in-text citation for the figure, this warning can be ignored.
 
 #### fig-specific-test-5
 
@@ -461,13 +481,13 @@ If multiple figures are out of sequence, leave the following query for the autho
 
 **Error:** _fig in the body of the article which has a @specific-use='child-fig' must have a label in the format 'Figure 0—figure supplement 0.' \(where 0 is one or more digits\)._
 
-**Action:** __All figure supplements in research content should have the label 'Figure 0—figure supplement 0.' This error will fire if a figure supplement does not have this label. Exeter will need to fix this. 
+**Action:** __All figure supplements in research content should have the label 'Figure 0—figure supplement 0' \(where 0 is one or more digits, based on the sequence of the numbered figure\). This error will fire if a figure supplement does not have this label. Exeter will need to fix this. 
 
 #### fig-sup-test-3
 
 **Error:** _XXXXXX does not start with the main figure number it is associated with - XXXXXX._
 
-**Action:** __All figure supplements in research content should have the label 'Figure 0—figure supplement 0.' This error will fire if a figure supplement has a label which doesn't begin with the figure number it is associated with \(for example if Figure 2—figure supplement 1 is associated with Figure 1\). Exeter will need to check the original submission to see which figure the supplement should be associated and fix accordingly. 
+**Action:** __All figure supplements in research content should have the label 'Figure 0—figure supplement 0' \(where 0 is one or more digits, based on the sequence of the numbered figure\). This error will fire if a figure supplement has a label which doesn't begin with the figure number it is associated with \(for example if Figure 2—figure supplement 1 is associated with Figure 1\). Exeter will need to check the original submission to see which figure the supplement should be associated and fix accordingly. 
 
 #### fig-sup-test-4
 
@@ -675,12 +695,6 @@ If this warning appears at post-author stages, the author will need to be asked 
 
 These checks relate to the XML structure of figures and figure supplements. ‌X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see [**below**](figures.md#xml-structure).
 
-#### fig-xref-target-test
-
-**Error:** _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
-
-**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a figure, then the `ref-type` attribute value must be 'fig'. If the link it meant to point to something else, which is not a figure, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
-
 #### fig-group-test-1
 
 **Error:** _fig-group must have one and only one main figure._
@@ -777,150 +791,7 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 **Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a figure __supplement is not wrapped within a fig-group element. This should be corrected by Exeter.
 
-#### fig-xref-conformity-1
-
-**Error:** _XXXXXX - figure citation does not contain any numbers which must be incorrect._
-
-**Action:** This error will fire if a figure citation does not include any numbers e.g. 'Figure A'. Compare with the original submission to see what the correct citation should be. Exeter may need to fix this.
-
-#### fig-xref-conformity-2
-
-**Error:** _XXXXXX - figure citation does not appear to link to the same place as the content of the citation suggests it should._
-
-**Action:** This error will fire if a figure citation links to a different figure from the citation text e.g. if Figure 2 links to Figure 3. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
-
-#### fig-xref-conformity-3
-
-**Warning:** _XXXXXX - figure citation does not appear to link to the same place as the content of the citation suggests it should._
-
-**Action:** This error will fire if a figure citation links to a different figure from the citation text e.g. if Figure 2 links to Figure 3. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
-
-#### fig-xref-conformity-4
-
-**Error:** _XXXXXX - figure citation links to a figure, but it contains the string 'supplement'. It cannot be correct._
-
-**Action:** This error will fire if the text of a figure citation includes 'supplement' but links to a main figure e.g. if Figure 1_—_figure supplement 1 links to Figure 1. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
-
-#### fig-xref-conformity-5
-
-**Warning:** _figure citation stands alone, contains the text XXXXXX, and links to a figure supplement, but it does not contain the string 'supplement'. Is it correct? Preceding text - 'XXXXXX'_
-
-**Action:** This warning will fire if a figure citation links to a figure supplement but the citation text doesn't include the word 'supplement'. This is ok to leave if, for example the citation text says 'Figure 1_—_figure supplements 2, 3' and links correctly to both Figure 1_—_figure supplement 2 and Figure 1_—_figure supplement 3. However, if the citation text says 'Figure 1' but links to Figure 1_—_figure supplement 1, this will need to be corrected. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
-
-#### fig-xref-conformity-6
-
-**Error:** _figure citation contains the text XXXXXX but links to a figure supplement with the id XXXXXX which cannot be correct._
-
-**Action:** This error will fire if a figure citation links to the wrong figure supplement e.g. if the citation 'Figure 1_—_figure supplement 1' links to Figure 1_—_figure supplement 2. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
-
-#### fig-xref-test-2
-
-**Warning:** _There is no space between citation and the preceding text - XXXXXX - Is this correct?_
-
-**Action:** This error will fire if there is no space between a figure citation and the text before it, for example 'SeeFigure 2.' Add a space between the citation and the preceding text. However, if the text is 'See Figures 2,3' this is ok to leave.
-
-#### fig-xref-test-3
-
-**Warning:** _There is no space between citation and the following text - XXXXXX - Is this correct?_
-
-**Action:** This error will fire if there is no space between a figure citation and the text after it, for example 'See Figure 2for.' Add a space between the citation and the following text. However, if the text is 'See Figures 2,3' this is ok to leave.
-
-#### fig-xref-test-4
-
-**Warning:** _XXXXXX - Figure citation is in the caption of the figure that it links to. Is it correct or necessary?_
-
-**Action:** If the figure citation refers to a figure from another paper, this needs to be changed to plain text. If it is simply referring to a panel in the same figure, it can be changed to a part label. 
-
-For example, if the following text is in the caption of Figure 2:
-
-* "See Figure 2A \(Smith et al., 2020\)." The citation 'Figure 2A' should be changed to plain text as it refers to a figure from another article.
-* "\(B\) Further analysis of samples in Figure 2A." The 'Figure 2A' in this example should be changed to '\(A\)' as it is referring to a part label in the same figure.
-
-If the citation doesn't refer to a part label, again check if it refers to a figure from another paper - if so, change it to plain text. If not then the citation can be removed entirely.
-
-#### fig-xref-test-5
-
-**Error:** _XXXXXX - Figure citation is in a reference to a figure from a different paper, and therefore must be unlinked._
-
-**Action:** This error will fire if a figure citation appears before a reference e.g. 'See Figure 1 from Smith et al., 1992'. This figure citation needs to be changed to plain text. 
-
-#### fig-xref-test-6
-
-**Warning:** _citation is preceded by a letter or number immediately followed by '\('. Is there a space missing before the '\('? - 'XXXXXX'._
-
-**Action:** This warning will fire if a figure citation appears after a letter or number immediately followed by '\('. If there is a missing space, this should be added in, for example in 'DNA\(Figure 2\).' 
-
-#### fig-xref-test-7
-
-**Warning:** _citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'? - 'XXXXXX'._
-
-**Action:** This warning will fire if a figure citation is followed by a '\)' and a letter or number immediately after. If there is a missing space, this should be added in, for example in '\(Figure 2\)DNA.' 
-
-#### fig-xref-test-8
-
-**Warning:** _Figure citation is preceded by 'their'. Does this refer to a figure in other content \(and as such should be captured as plain text\)? - 'XXXXXX'._
-
-**Action:** This warning will fire if a figure citation is preceded by the word _'_their', for example 'Smith et al., 1992, their Figure 2.' As this is referring to Figure 2 in a different paper, this citation should be unlinked. If it isn't possible to tell from the context whether the authors are referring to a figure in a different paper, a query should be left - see more [**here**](figures.md#in-text-citations). 
-
-#### fig-xref-test-9
-
-**Warning:** _Is this figure citation a reference to a figure from other content \(and as such should be captured instead as plain text\)? - XXXXXX'._
-
-**Action:** This warning will fire if a figure citation is followed by the word _'_of', for example 'Figure 2 of Smith et al., 1992.' As this is referring to Figure 2 in a different paper, this citation should be unlinked. If it isn't possible to tell from the context whether the authors are referring to a figure in a different paper, a query should be left - see more [**here**](figures.md#in-text-citations). 
-
-#### fig-xref-test-10
-
-**Warning:** _Incomplete citation. Figure citation is followed by text which suggests it should instead be a link to a Figure supplement - XXXXXX'._
-
-**Action:** This warning will fire if a figure citation is __followed by text which suggests it should be a link to a figure supplement - for example, if the linked citation text is 'Figure 1' but it is followed by '—figure supplement 1' in plain text. In this example, a citation to Figure 1—figure supplement 1 should replace the citation for Figure 1.
-
-#### fig-xref-test-11
-
-**Warning:** _Incomplete citation. Figure citation is followed by text which suggests it should instead be a link to a video supplement - XXXXXX'._
-
-**Action:** This warning will fire if a figure citation is __followed by text which suggests it should be a link to a figure video - for example, if the linked citation text is 'Figure 1' but it is followed by '—video 1' in plain text. In this example, a citation to Figure 1—video 1 should replace the citation for Figure 1.
-
-#### fig-xref-test-12
-
-**Warning:** _Incomplete citation. Figure citation is followed by text which suggests it should instead be a link to source data or code - XXXXXX'._
-
-**Action:** This warning will fire if a figure citation is __followed by text which suggests it should be a link to a source data or code supplement - for example, if the linked citation text is 'Figure 1' but it is followed by '—source code 1' or '—source data 1' in plain text. In this example, a citation to Figure 1—source code 1 or Figure 1—source data 1 should replace the citation for Figure 1.
-
-#### fig-xref-test-13
-
-**Warning:** _Figure citation is followed by text which suggests it could be an incomplete citation - XXXXXX'. Is this OK?_
-
-**Action:** This warning will fire if a figure citation is __followed by text which suggests the citation is incomplete, for example if it is followed by the word 'supplement', 'video', or 'source'. Check the context to see whether the citation should be updated to a figure supplement, figure video or source data or code. 
-
-#### fig-xref-test-14
-
-**Warning:** _citation is preceded by 'XXXXXX'. The 'cf.' is unnecessary and should be removed._
-
-**Action:** This warning will fire if a figure citation is preceded by 'cf.', which means 'compare' and is sometimes used to refer the reader to other material for comparison. The 'cf.' can be deleted as it is not eLife's house style to use this. 
-
-#### fig-xref-test-15
-
-**Error:** _Link - 'XXXXXX' - is incomplete. It should have 'figure' or 'Figure' spelt out._
-
-**Action:** This error will fire if a figure citation uses an abbreviation e.g. 'Appendix 1 Fig. 1'. Make sure this is spelled out in full and formatted correctly - in this case, the citation would be corrected to 'Appendix 1_—_figure 1'.
-
-#### fig-xref-test-16
-
-**Warning:** _Figure citation - 'XXXXXX' - is preceded by the text 'XXXXXX' - should it be a figure supplement citation instead?_
-
-**Action:** This warning will fire if a figure citation is preceded by the text 'supp', 'suppl', 'supplemental\(s\)' or 'supplementary', suggesting the citation should link to a figure supplement. Check the context and update the citation as necessary. 
-
-#### fig-xref-test-17
-
-**Warning:** _Figure citation - 'XXXXXX' - is followed by the text 'XXXXXX' - should this text be included in the link text too \(i.e. 'XXXXXX'\)?_
-
-**Action:** This warning will fire if a figure citation includes part labels and is __followed by a letter, for example if the citation text 'Figure 1A-F' is followed by 'and H' in plain text. In this case, 'and H' should also be included in the link text. Check the context and update the citation as necessary. 
-
-#### fig-xref-test-18
-
-**Warning**: _Figure citation - 'XXXXXX' - is followed by the text 'XXXXXX' - should some or all of that text be included in the citation text?_
-
-**Action:** This will fire at all stages for any figure citation which is immediately followed by a hyphen \(or variant such as en dash or em dash\), and a letter or number. For example in this case **Figure 1a**-ai, where the bolded text \(in this example\) is linked. If this fires, check whether the text following the link should instead be included in the link text. This can be done, for example, by checking the panel indicators in the image being linked to.
+#### 
 
 #### ar-fig-title-test-1
 
