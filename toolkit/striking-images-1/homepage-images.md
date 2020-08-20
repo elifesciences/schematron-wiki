@@ -34,13 +34,13 @@ Below are some of the images that have featured on the homepage.
 
 The new homepage image is selected from the striking images of VoR articles that have been published from Wednesday, of the previous week, to the following Tuesday. The words are requested on the Monday morning so, if you were to pick a VoR article that has not yet been published, it is best to only use press papers that are already scheduled for that Tuesday. 
 
-You can use the Production team action [**sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) to look for articles that have been scheduled, and/or use the eLife's website to find VoR articles that have been published in the previous week. As you view each article, you will need to search the striking image bucket to see if it has a suitable image. Once you have found an image, you will then need to send this to Peter as outlined below. On the rare occasion that you do not find a suitable image, you should email Peter to let him know. Then either send an image later in the day when more articles have been published or at the very latest, Tuesday morning. 
+You can use the Production team action [**sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) to look for articles that have been scheduled, and/or use the eLife's website to find VoR articles that have been published in the previous week. As you view each article, you will need to search the striking image bucket to see if it has a suitable image \(please see the 'Uploading via the striking images AWS bucket' section [**here**](./#uploading-via-the-striking-images-aws-bucket) on how to access this\). Once you have found an image, you will then need to send this to Peter as outlined below. On the rare occasion that you do not find a suitable image, you should email Peter to let him know. Then either send an image later in the day when more articles have been published or at the very latest, Tuesday morning. 
 
-If you have found an image but it is not quite right, i.e slightly too small, you should able to adjust this in a photo editing programme such as Photoshop. However, you should not make any significant changes to the photo. 
+If you have found an image but it is not quite right, i.e slightly too small, you should able to adjust this in a photo editing program such as Photoshop. However, you should not make any significant changes to the photo. 
 
 ## Homepage image wording
 
-The homepage image is selected by a nominated member of the Production team on a Monday morning and this image will be emailed to Peter \(on the Features team\) to provide the wording which overlays the image. This text is a short description of the article which you can see on the carousel at the top of this page.
+The homepage image is selected by a nominated member of the Production team on a Monday morning. This image is emailed to Peter \(the Features Editor\) asking him to provide the wording which overlays the image. This text is a short description of the article, which you can see on the carousel at the top of this page.
 
 To ensure this is not forgotten, a reminder email is sent to the Production inbox. 
 
@@ -80,7 +80,7 @@ To do this, follow the steps below.
 
 ![](../../.gitbook/assets/screen-shot-2020-08-13-at-13.34.27.png)
 
-* Now 'Choose file' under the 'Image \(banner\) field. It may help to already have the chosen image on your desktop. After you have selected/opened your image, the system will alert you if there are any problems with the image. Typically, this is due to size or file type. **Reminder:** the images must be a maximum of 32MB, larger than 1800x900 pixels, and in either png jpg jpeg format. Leave the field 'Alternative text' blank.
+* Now 'Choose file' under the 'Image \(banner\) field. It may help to already have the chosen image saved to your desktop. After you have selected the image, the system will alert you if there are any problems with the image. Typically, this is due to size or file type. **Reminder:** the images must be a maximum of 32MB, larger than 1800x900 pixels, and only in the three following formats: png, jpg, or jpeg. Leave the field 'Alternative text' blank.
 
 ![](../../.gitbook/assets/screen-shot-2020-08-13-at-13.41.18.png)
 
