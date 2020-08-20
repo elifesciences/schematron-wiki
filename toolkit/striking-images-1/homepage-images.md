@@ -6,19 +6,19 @@ description: Information about the homepage images that feature on eLife's websi
 
 ## What are homepage images?
 
-On eLife's [**homepage**](https://elifesciences.org/), we feature three [**striking images**](./) on an image carousel. Each image will stay on the carousel for three weeks, which offers the chance of promoting the article during this time. Only VOR articles are selected for the homepage, not PoA articles.
+On eLife's [**homepage**](https://elifesciences.org/), we feature three [**striking images**](./) on an image carousel. Each image will stay on the carousel for three weeks, which offers the chance of promoting the article during this time. Only VoR articles are selected for the homepage, not PoA articles.
 
 ![](../../.gitbook/assets/captured-4-%20%281%29.gif)
 
 ## What makes a great homepage image?
 
-When looking through the possible striking images, it is important to keep in mind that the image will be in landscape orientation with white text overlaying the image. The image should have a strong visual impact and ideally not contain more than one panel. As mentioned in the striking image [**guidance**](./#requirements), there should be no graphs, text, or summary figures. The best choices are colour photographs, microscopy images and illustrations. It is also good practise to look at the other images on the carousel and try to vary the theme of the images if you can. 
+When looking through the possible striking images, it is important to keep in mind that the image will be in landscape orientation with white text overlaying the image. The image should have a strong visual impact and ideally not contain more than one panel. As mentioned in the striking image [**guidance**](./#requirements), there should be no graphs, text, or summary figures. The best choices are colour photographs, microscopy images, and illustrations. It is also good practise to look at the other images on the carousel and try to vary the theme of the images if you can. 
 
-The requirements for Journal CMS \(the website used to change the homepage image\) are as follows: 
+The requirements for Journal CMS \(the content management system used to change the homepage image\) are as follows: 
 
-* Maximum of 32MB, 
+* Maximum of 32MB 
 * Image size larger than 1800x900 pixels
-* Accepted formats are png, jpg, and jpeg.
+* Accepted formats are png, jpg, and jpeg
 
 ### Examples
 
@@ -32,9 +32,9 @@ Below are some of the images that have featured on the homepage.
 
 ## Selecting a homepage image
 
-The new homepage image is selected from the striking images of VOR articles that have been published from Wednesday, of the previous week, to the following Tuesday. The words are requested on the Monday morning so, if you were to pick a VOR article that has not yet been published, it is best to only use press papers that are already scheduled for that Tuesday. 
+The new homepage image is selected from the striking images of VoR articles that have been published from Wednesday, of the previous week, to the following Tuesday. The words are requested on the Monday morning so, if you were to pick a VoR article that has not yet been published, it is best to only use press papers that are already scheduled for that Tuesday. 
 
-You can use the Production team action sheet to look for articles that have been scheduled, and/or use the eLife's website to find VOR articles that have been published in the previous week. As you bring up each article, you will need to search the striking image bucket to see if it has a suitable image. Once you have found an image, you will then need to send this to Peter as outlined below. On the rare occasion that you do not find a suitable image, you should email Peter to let him know. Then either send an image later in the day when more articles have been published or at the very latest, Tuesday morning. 
+You can use the Production team action [**sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) to look for articles that have been scheduled, and/or use the eLife's website to find VoR articles that have been published in the previous week. As you view each article, you will need to search the striking image bucket to see if it has a suitable image. Once you have found an image, you will then need to send this to Peter as outlined below. On the rare occasion that you do not find a suitable image, you should email Peter to let him know. Then either send an image later in the day when more articles have been published or at the very latest, Tuesday morning. 
 
 If you have found an image but it is not quite right, i.e slightly too small, you should able to adjust this in a photo editing programme such as Photoshop. However, you should not make any significant changes to the photo. 
 
