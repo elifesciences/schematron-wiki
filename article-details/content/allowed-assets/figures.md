@@ -451,6 +451,12 @@ If multiple figures are out of sequence, leave the following query for the autho
 
 **Action:** Figures should always be placed in the XML directly after the paragraph in which they are first cited, unless the paragraph is immediately followed by a display formula, in which case the figure should be placed at the first appropriate place. This check doesn't take into account 'Figure 1-3' type links, so if the warning is linked to this type of figure citation, it can be ignored. Otherwise, make sure the figure is moved directly after its first citation. 
 
+If the first citation for a figure is in an appendix, leave the following query for the authors:
+
+* The first citation for this figure is in the appendix. Please advise whether this figure should be relabelled as Appendix 0—figure 0 or add a citation to this figure in the appropriate place so it can be moved to the main text. 
+
+Make sure the 'Appendix 0—figure 0' is updated with the appendix and figure number accordingly. If the article is at post-author stages, this will need to be queried with the authors via email. 
+
 #### pre-fig-specific-test-4
 
 **Warning:** _There is no citation to XXXXXX Ensure to query the author asking for a citation._
