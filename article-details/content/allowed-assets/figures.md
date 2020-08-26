@@ -203,7 +203,7 @@ All main figures must be cited in the article text \(figure supplements don't ha
 
 Authors may provide titles or legends for figures in their submitted article file but fail to upload the corresponding figure. One of the following queries should be left in these cases depending on whether the missing figure is a main figure or figure supplement. 
 
-* Please provide the image file for this figure \[need to add this in AQ list\]
+* Please provide the image file for this figure.
 * Please provide the image file for this figure supplement.
 
 Alternatively, if a figure or figure supplement is cited in the text but the corresponding file has not been provided, the author must be queried to provide the missing file:
@@ -352,16 +352,6 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 **Action:** If the caption for a figure or figure supplement includes 'image credit', this warning will fire. This information should be added in an &lt;attrib&gt; element \(see [**here**](figures.md#attributions)\).
 
-#### fig-test-2
-
-**Error:** _fig must have a @position._
-
-**Action:** This error will fire if a figure or figure supplement does not have a position in the XML. This may be because the figure has not been cited in the text. Check the article for any unlinked citations of the figure and link these \(unless the citations are to figures from another paper - see [**here**](figures.md#in-text-citations) for more information\). If the figure has not been cited in the text at all, please leave the following query: 
-
-* Please provide an in-text citation for this figure.
-
-If the figure has been cited in the text and this error still appears, Exeter will need to fix this.
-
 #### fig-test-3
 
 **Error:** _fig must have a label._
@@ -422,7 +412,7 @@ Exeter will need to fix this when the information is provided.
 
 **Action:** This warning will fire at the pre-author stages if no file has been provided for a figure or figure supplement. Leave one of the following author queries as relevant:
 
-* Please provide the image file for this figure. \(need to add this query?\)
+* Please provide the image file for this figure.
 * Please provide the image file for this figure supplement.
 
 #### final-fig-test-7
@@ -568,7 +558,7 @@ If this appears at post-author stages, the author will need to be asked whether 
 
 **Action:** This warning will fire at the pre-author stages if no file has been provided for an author response image. Production will need to be queried to check the AWS bucket to see if this was provided in the decision letter, and will send the image to Exeter if so. If it wasn't, please leave the following query.
 
-* Please provide the image file for this figure. \(need to add this query?\)
+* Please provide the image file for this figure.
 
 #### final-ar-fig-test-3
 
@@ -714,6 +704,16 @@ If this warning appears at post-author stages, the author will need to be asked 
 ### XML structure checks
 
 These checks relate to the XML structure of figures and figure supplements. ‌X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see [**below**](figures.md#xml-structure).
+
+#### fig-test-2
+
+**Error:** _fig must have a @position._
+
+**Action:** This error will fire if a figure or figure supplement does not have a position in the XML. This may be because the figure has not been cited in the text. Check the article for any unlinked citations of the figure and link these \(unless the citations are to figures from another paper - see [**here**](figures.md#in-text-citations) for more information\). If the figure has not been cited in the text at all, please leave the following query: 
+
+* Please provide an in-text citation for this figure.
+
+If the figure has been cited in the text and this error still appears, Exeter will need to fix this.
 
 #### fig-group-test-1
 
