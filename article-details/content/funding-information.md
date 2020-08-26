@@ -335,6 +335,12 @@ The University of Cambridge should not be listed in the funding table because it
 
 **Action:** This will fire at post-author stages. Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, the eLife team will have to contact the authors in order to determine who the funding should be attributed to.
 
+**par-name-test-1**
+
+**Error:** _Author name in funding entry contains a full stop - XXXXXX. Please remove the full stop._
+
+**Action:** This will fire at all stages if an author name in the funding table contains a full stop. These are taken from the proper author names, but do not update automatically when an author name is changed. The most likely scenario is that the article was processed, and then subsequently the full stop\(s\) were removed from the author name \(in the authors section in article details\), leaving the full stop in the respective name in the funding table \(because it didn't automatically update after the change\). In the event that the author's name is correct \(without full stops\) in the authors section, to resolve this error, simply re-enter the name in the funding entry. If the authors name \(in the authors section in article details\) also has a full stop, then correct it first there, and then in the funding section.
+
 ### XML structure checks
 
 These warnings relate to the XML structure of the funding section. For more information about what the XML should look like, see [below](funding-information.md#xml-structure). 
@@ -417,6 +423,30 @@ If the authors confirm no funding was received, make sure the funding statement 
 
 **Action:** Make sure there is only institution element in the xml per award group \(see [below](funding-information.md#xml-structure) for XML structure\). It should be impossible for this error to occur - please contact the Production team if you see it. 
 
+#### institution-id-test-2
+
+**Error:** _institution-id element must have the attribute institution-id-type="FundRef"._
+
+**Action:** This will fire if an institution-id element does not have the attribute institution-id-type="FundRef". It means that something has gone wrong with XML generation and Exeter will have to contact the support team to fix the issue.
+
+#### institution-id-test-3
+
+**Error:** _The funding entry for XXXXXX has an empty institution-id element, which is not allowed._
+
+**Action:** Every institution-id element must contain content, and empty one will cause the article to fail loading to Continuum. This may occur sometimes due to a bug in Kriya. If it does, it can usually be fixed by re-validating the funder against the Funder registry in Kriya, and saving. This usually resolves the error. If it persists then Exeter will need to contact the support team in order to fix the problem.
+
+#### institution-id-test-4
+
+**Error:** _The institution-id element in funding entry for XXXXXX contains child element\(s\) \(XXXXXX\) which is not allowed._
+
+**Action:** institution-id elements cannot contain child elements. If this fires, it means that something has gone wrong with XML generation and Exeter will have to contact the support team to fix the issue.
+
+#### institution-id-test-5
+
+**Error:** _The institution-id element in funding entry for XXXXXX contains the following text - XXXXXX - which is not a fundref doi._
+
+**Action:** institution-id elements should only contain fundref dois. It should be impossible for this error to occur - please contact the Production team if you see it. 
+
 ## XML structure
 
 Article with funding
@@ -474,4 +504,10 @@ Article with no funding
 
 * Updated 'Joint funders' section
 * award-group-test-3 and award-group-test-7 split out into pre and final versions.
+
+**26/08/2020**
+
+**Changes**
+
+* Added institution-id-test-2-5, and par-name-test-1.
 
