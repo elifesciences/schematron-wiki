@@ -719,13 +719,79 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 **Error:** _fig-group must have one and only one main figure._
 
-**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a fig-group element has more than one or no main figures. Double check which main figure should be present in this fig-group and correct accordingly \(Exeter will need to fix this\).
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element should only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a fig-group element has more than one or no main figures. Double check which main figure should be present in this fig-group and correct accordingly \(Exeter will need to fix this\).
+
+XML of a figure with a figure supplement wrapped in the fig-group element.
+
+```markup
+<fig-group>
+    <fig id="fig7" position="float">
+        <label>Figure 7.</label>
+        <caption>
+        ...
+        </caption>
+        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-53080-fig7-v2.tif"/>
+    </fig>
+    <fig id="fig7s1" position="float" specific-use="child-fig">
+        <label>Figure 7—figure supplement 1.</label>
+        <caption>
+        ...
+        </caption>
+        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-53080-fig7-figsupp1-v2.tif"/>
+    </fig>
+</fig-group>
+```
+
+XML of a figure with no figure supplements or videos \(and therefore, no fig-group wrapper\):
+
+```markup
+<fig id="fig1" position="float">
+    <label>Figure 1.</label>
+    <caption>
+    ...
+    </caption>
+    <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-53080-fig1-v2.tif"/>
+</fig>
+```
 
 #### fig-group-test-2
 
 **Error:** _fig-group does not contain a figure supplement or a figure-level video, which must be incorrect._
 
-**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a fig-group element has no figure supplements or figure-level videos. Double check whether the figure does indeed have no linked figure supplements or videos - if so this element should be removed by Exeter. If the figure should have figure supplements or videos, Exeter will need to add these to the fig-group.
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element should only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a fig-group element has no figure supplements or figure-level videos. Double check whether the figure does indeed have no linked figure supplements or videos - if so this element should be removed by Exeter. If the figure should have figure supplements or videos, Exeter will need to add these to the fig-group.
+
+XML of a figure with a figure supplement wrapped in the fig-group element.
+
+```markup
+<fig-group>
+    <fig id="fig7" position="float">
+        <label>Figure 7.</label>
+        <caption>
+        ...
+        </caption>
+        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-53080-fig7-v2.tif"/>
+    </fig>
+    <fig id="fig7s1" position="float" specific-use="child-fig">
+        <label>Figure 7—figure supplement 1.</label>
+        <caption>
+        ...
+        </caption>
+        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-53080-fig7-figsupp1-v2.tif"/>
+    </fig>
+</fig-group>
+```
+
+XML of a figure with no figure supplements or videos \(and therefore, no fig-group wrapper\):
+
+```markup
+<fig id="fig1" position="float">
+    <label>Figure 1.</label>
+    <caption>
+    ...
+    </caption>
+    <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-53080-fig1-v2.tif"/>
+</fig>
+```
 
 #### fig-group-child-test-1
 
@@ -809,23 +875,7 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 **Error:** _fig supplement is not a child of fig-group. This cannot be correct._
 
-**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a figure __supplement is not wrapped within a fig-group element. This should be corrected by Exeter.
-
-#### 
-
-#### ar-fig-title-test-1
-
-**Warning:** _Please query author for a XXXXXX title, and/or remove placeholder title text - XXXXXX._
-
-**Action:** This warning will fire if an author response image has the title 'Placeholder text.' Leave the following query for the author:
-
-* Please provide the title for this figure.
-
-#### label-fig-group-conformance-1
-
-**Error:** _XXXXXX is not placed in a &lt;fig-group&gt; element, which is incorrect. Either the label needs updating, or it needs moving into the &lt;fig-group&gt;._
-
-**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a figure has a figure supplement label \(e.g. Figure 1_—_Figure supplement 1\) but it is not placed in the fig-group element. This should be corrected by Exeter.
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element should only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a figure __supplement is not wrapped within a fig-group element. This should be corrected by Exeter.
 
 XML of a figure with a figure supplement wrapped in the fig-group element.
 
@@ -848,7 +898,54 @@ XML of a figure with a figure supplement wrapped in the fig-group element.
 </fig-group>
 ```
 
-XML of a figure with no figure supplements \(and therefore, no fig-group wrapper\):
+XML of a figure with no figure supplements or videos \(and therefore, no fig-group wrapper\):
+
+```markup
+<fig id="fig1" position="float">
+    <label>Figure 1.</label>
+    <caption>
+    ...
+    </caption>
+    <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-53080-fig1-v2.tif"/>
+</fig>
+```
+
+#### ar-fig-title-test-1
+
+**Warning:** _Please query author for a XXXXXX title, and/or remove placeholder title text - XXXXXX._
+
+**Action:** This warning will fire if an author response image has the title 'Placeholder text.' Leave the following query for the author:
+
+* Please provide the title for this figure.
+
+#### label-fig-group-conformance-1
+
+**Error:** _XXXXXX is not placed in a &lt;fig-group&gt; element, which is incorrect. Either the label needs updating, or it needs moving into the &lt;fig-group&gt;._
+
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element should only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a figure has a figure supplement label \(e.g. Figure 1_—_Figure supplement 1\) but it is not placed in the fig-group element. This should be corrected by Exeter.
+
+XML of a figure with a figure supplement wrapped in the fig-group element.
+
+```markup
+<fig-group>
+    <fig id="fig7" position="float">
+        <label>Figure 7.</label>
+        <caption>
+        ...
+        </caption>
+        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-53080-fig7-v2.tif"/>
+    </fig>
+    <fig id="fig7s1" position="float" specific-use="child-fig">
+        <label>Figure 7—figure supplement 1.</label>
+        <caption>
+        ...
+        </caption>
+        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-53080-fig7-figsupp1-v2.tif"/>
+    </fig>
+</fig-group>
+```
+
+XML of a figure with no figure supplements or videos \(and therefore, no fig-group wrapper\):
 
 ```markup
 <fig id="fig1" position="float">
