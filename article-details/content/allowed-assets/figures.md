@@ -16,7 +16,7 @@ Figures are made up of:
 
 1. The image \(which may be made up of multiple panels\)
 2. A label \(e.g. Figure 3\)
-3. A single-sentence title which summarises the figure \(e.g. 'Identification of BisR as a new intermediary regulator for PalpA activation.'\) The title may include part labels \(e.g. 'Results from experiment 1 \(**A**\) and experiment 2 \(**B**\).'
+3. A single-sentence title which summarises the figure \(e.g. 'Identification of BisR as a new intermediary regulator for PalpA activation.'\) The title may include part labels \(e.g. 'Results from experiment 1 \(**A**\) and experiment 2 \(**B**\)\).'
 4. A legend which describes the figure. Legends can include lists and equations. 
 
 ![Components of a figure](../../../.gitbook/assets/screenshot-2020-08-12-at-14.56.41.png)
@@ -49,9 +49,9 @@ For more information about how figures are processed during production, see [**h
 
 ## Common author queries
 
-The main queries we receive from authors about figures are to do with replacing figures. These can be passed on to Exeter via the Kriya notes or email. 
+The main queries we receive from authors about figures are to do with replacing figures. These can be passed on to Exeter via Kriya notes or email. 
 
-If authors have queries or complaints about the resolution of their figures, we first need to check the files they have submitted follow the requirements [**above**](figures.md#figure-files). If not, share the requirements with them and ask for updated figure files. If they have already followed the guidelines, Exeter will need to be consulted to see if the resolution can be improved further. In some cases the resolution cannot be improved further. It may be appropriate for the figure to be uploaded to a dedicated repository if it is very high resolution. 
+If authors have queries or complaints about the resolution of their figures, we first need to check the files they have submitted follow the requirements [**above**](figures.md#figure-files). If not, share the requirements with them and ask for updated figure files. If they have already followed the guidelines, Exeter will need to be consulted to see if the resolution can be improved further - although in some cases this will not be possible. It may be appropriate for the figure to be uploaded to a dedicated repository if it is very high resolution. 
 
 ## Resolution of figures
 
@@ -61,12 +61,12 @@ Figures and figure supplements should be checked in the PDFs to ensure they are 
 
 ## Tables in figures
 
-We strongly discourage authors from providing tables represented as figures or figure supplements as data presented in flat images cannot be mined or re-used without being manually rekeyed. If the authors have provided a table as a figure, they should be asked to provide this information as an editable table in Word or Excel format with the following author queries \(depending on whether the table is a figure or figure supplement\):
+We strongly discourage authors from providing tables represented as figures or figure supplements. This is because data presented in flat images cannot be mined or re-used without being manually rekeyed. If the authors have provided a table as a figure, they should be asked to provide this information as an editable table in Word or Excel format with the following author queries \(depending on whether the table is a figure or figure supplement\):
 
 * We noticed that this figure only contains a table. eLife’s policy is to avoid including these as flat images wherever possible. Given this, please could you provide this table as an editable Word or Excel file so that we can include it as a main table.
 * We noticed that this figure supplement only contains a table. eLife’s policy is to avoid including these as flat images wherever possible. Given this, please could you provide this table as a Word, Excel or PDF file so that we can include it as source data for the related figure.
 
-Once the editable tables are provided, these should be added as main tables or source data files. Make sure in-text citations to the figure or figure supplement are updated accordingly. If the table represented as a figure also has its own source data, this will need to be relabelled as another source data file. 
+Once the editable tables are provided, these should be added as main tables or source data files. If the table was provided as a figure supplement this would become Figure 0_—_Source data 0 \(where 0 is one or more digits\). If the table represented as a figure also has its own source data, this will need to be relabelled as another source data file for the figure. Make sure in-text citations to the figure or figure supplement are updated accordingly.
 
 For example, in 57936, Figure 1_—_ figure supplement 4 was originally provided as an image:
 
@@ -76,13 +76,11 @@ The authors were asked to provide this as an editable file and it was relabelled
 
 ![](../../../.gitbook/assets/screenshot-2020-08-19-at-12.42.43.png)
 
-The author may also be given the option to convert the table to source data instead depending on the content. If the table was provided as a figure supplement this would become Figure 0_—_Source data 0 \(where 0 is one or more digits\); if it was provided as a main figure this would become source data attached to the document as a whole.
-
 If one of the panels in a figure is a table, this can be left as-is:
 
 ![](../../../.gitbook/assets/screenshot-2020-07-01-at-16.11.54.png)
 
-### Tables as figures
+### Tables labelled as figures
 
 Authors may label tables in their manuscript as figures \(usually figure supplements\). For example, in 58619:
 
@@ -112,7 +110,7 @@ Authors may include inline images of chemical structures or schemes in their art
 
 ## Unlabelled images in the article file
 
-If there are unlabelled images in the article file that do not correspond to the main figures, the production team should be queried to determine how to treat these images. These may be inline images, which are permitted and don't require any labels. For more about inline images, see here. Inline images may also be present within tables - for more about this, see here. In most cases however, these images will need to be treated as chemical structures or schemes. 
+If there are unlabelled images in the article file that do not correspond to the main figures, the production team should be queried to determine how to treat these images. These may be inline images, which are permitted and don't require any labels. For more about inline images, see here \[link to be added\]. Inline images may also be present within tables - for more about this, see here \[link to be added\]. In most cases however, these images will need to be treated as chemical structures or schemes. 
 
 If the unlabelled image is a chemical structure or scheme, it will need to be labelled as such, with the title updated as appropriate.
 
@@ -158,7 +156,7 @@ All figures and figure supplements should have titles. Legends are not required 
 
 * Please provide the title for this figure.
 
-If the author has only provided a legend that begins with a description of panel A \(e.g. “\(A\) The high-resolution MS/MS spectrum of the H4K31ac peptide generated from . . .”\), the same query as above will need to be left to ask the authors to add an overall title.
+If the author has only provided a legend that begins with a description of the first panel \(e.g. “\(A\) The high-resolution MS/MS spectrum of the H4K31ac peptide generated from . . .”\), the same query as above will need to be left to ask the authors to add an overall title.
 
 ## Part labels
 
@@ -183,15 +181,17 @@ Make sure 'X' and 'Y' are replaced with the appropriate figure number and panel 
 
 If there are sub-parts that refer to figure panels \(e.g. A', A'', or A\(I\), \(II\)\) and the author has cited these in the text \(I.e. 'Figure 2Ai'\) make sure these are also captured consistently as part labels. Figure sub-parts that haven't been cited in the text don't need to be captured as part labels. The main thing is to be consistent within an article.
 
-Make sure part labels are not automatically added to every letter/number in a figure caption. For example in Figure 8 of 56236, some of the graphs included the text 'P19' and 'P24':
+Make sure part labels are not automatically added to every letter/number in a figure caption. For example, in the figure legend below, 'F–I' is captured as a part label. 
 
-![](../../../.gitbook/assets/screenshot-2020-07-08-at-12.34.06.png)
+![](../../../.gitbook/assets/image%20%281%29.png)
 
-These were incorrectly captured as part labels in the title:
+However, looking at the figure this legend corresponds to, there are no parts F–I. 
 
-![](../../../.gitbook/assets/screenshot-2020-06-25-at-10.13.39%20%281%29.png)
+![](../../../.gitbook/assets/image%20%282%29.png)
 
-As these do not refer to figure panels, they were changed to plain text in the final article.
+Therefore, this was changed to plain text in the final article. 
+
+![](../../../.gitbook/assets/screenshot-2020-08-26-at-10.09.58.png)
 
 ## In-text citations
 
@@ -201,23 +201,26 @@ All main figures must be cited in the article text \(figure supplements don't ha
 
 ## Figures that haven't been provided
 
-If a figure or figure supplement is cited in the text but the corresponding file has not been provided, the author must be queried to provide the missing file with one of the queries below. 
+Authors may provide titles or legends for figures in their submitted article file but fail to upload the corresponding figure. One of the following queries should be left in these cases depending on whether the missing figure is a main figure or figure supplement. 
 
-* Please provide the image file for this figure \(do we need to add this in AQ list?\)
+* Please provide the image file for this figure \[need to add this in AQ list\]
 * Please provide the image file for this figure supplement.
+
+Alternatively, if a figure or figure supplement is cited in the text but the corresponding file has not been provided, the author must be queried to provide the missing file:
+
 * Figure X is cited in the text but has not been provided. Please either correct the citation, provide the figure file and a title and legend, or confirm that this citation refers to another article.
 
-Please be aware that sometimes authors may cite a figure from another article. Citations of figures in other articles should be left as plain text. They can be identified by the context of the citation - for instance, “Figure 1 in Smith et al., 1990” refers to Figure 1 in Smith et al., 1990 and not to Figure 1 of the current article. Similarly, “\(see Jones et al., 2000 \[their Figure 2\]\)” references Figure 2 in Jones et al., 2000 and should stay as plain text. If the context is unclear, leave the following query:
+Please be aware that sometimes authors may cite a figure from another article. Citations of figures in other articles should be left as plain text. They can be identified by the context of the citation - for instance, “Figure 1 in Smith et al., 1990” refers to Figure 1 in Smith et al., 1990 and not to Figure 1 of the current article. Similarly, “\(see Jones et al., 2000 \[their Figure 2\]\)” references Figure 2 in Jones et al., 2000 and should stay as plain text. If the context is unclear, leave the same query as above:
 
 * Figure X is cited in the text but has not been provided. Please either correct the citation, provide the figure file and a title and legend, or confirm that this citation refers to another article.
 
 ## Figure placement
 
-Figures can either be 'floating' or 'anchored'. In the PDFs, chemical structures, schemes, and appendix figures are treated as anchored objects rather than a floating one. All other figures are floating objects. 
+Figures can either be 'floating' or 'anchored'. In the PDFs, chemical structures, schemes, and appendix figures are treated as anchored objects rather than floating ones. All other figures are floating objects. 
 
 Floating figures are automatically placed directly after their first citation in the text \(although citations in captions should not be used to determine figure placement\). This can sometimes result in figures being placed in the middle of display formulae, which breaks the flow of the text.
 
-For example, in 55217, equation 9 should appear after the paragraph below. Instead, Figure 12 has been placed here, which breaks the flow of the text. Figure 12 should appear after equation 9 to improve readability.
+For example, in 55217, equation 9 should appear after the paragraph shown below. Instead, Figure 12 has been placed here, which breaks the flow of the text. Figure 12 should appear after equation 9 to improve readability.
 
 ![](../../../.gitbook/assets/screenshot-2020-08-12-at-16.10.15.png)
 
@@ -227,15 +230,28 @@ For example, in 55217, equation 9 should appear after the paragraph below. Inste
 
 ## Source code/data
 
-Source data is often associated with figures and figure supplements. Each source data or source code file should be linked with the appropriate figure or figure supplement. For example, if a source data \(or code\) file is labelled Figure 1_—_source data 1 but the title or legend makes it clear that the data is linked to a figure supplement, it should be relabelled as Figure 1_—_Figure supplement X_—_source data 1 \(or source code as appropriate\). If the source data or code is linked to multiple figures and figure supplements however, it should become source data or code for the whole article. See more about source data and source code \(links to be added\).
+Source data is often associated with figures and figure supplements. Each source data or source code file should be linked with the appropriate figure or figure supplement. For example, if a source data \(or code\) file is labelled Figure 1_—_source data 1 but the title or legend makes it clear that the data is linked to a figure supplement, it should be relabelled as Figure 1_—_Figure supplement X_—_source data 1 \(or source code as appropriate\). If the source data or code is linked to multiple figures and figure supplements however, it should become source data or code for the whole article. See more about source data and source code here \(links to be added\).
 
 ## Adapted and reproduced images
 
 Figures and figure supplements \(or panels within these\) may be 'adapted' from previously published content. This usually means that the authors are not reproducing anything directly but are instead redrawing a figure or simply using the same data to create new content. However, as this term is used inconsistently by authors, eLife needs to determine whether the figure is an adaptation/redrawing or a reproduction, either by comparing the image to the original if possible, or by asking the authors to confirm this. If the figure is a clear adaptation or redrawing, and as long as the authors provide a suitable citation and state clearly, for example, that “Panel A in Figure 2 has been adapted from Smith and Jones, 2015”, no further action is required.
 
-If however, the figure has been reproduced, or if the legend for a figure or figure supplement states that the image is ‘reprinted from’ or ‘reproduced from’, we may need to add licensing information for the reproduced elements. This will usually apply to panels within images, not whole images. 
+If however, the figure has been reproduced, or if the legend for a figure or figure supplement states that the image is ‘reprinted from’ or ‘reproduced from’, we may need to add licensing information for the reproduced elements. This will usually apply to panels within figures instead of whole figures.
 
-If the previously published content was published under a [**CC BY**](https://creativecommons.org/licenses/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, the work must be properly attributed and credited \(provide full citation details and license\). If this matches the license of the article \(check the permissions-info message in the xml\), it does not need to be tagged differently in the underlying XML because it is following the license of the article. However, if the article you are working on is CC0, but the reproduced figure is CC BY, this needs to be indicated in the underlying XML and so requires specific tagging.
+If the previously published content was published under a [**CC BY**](https://creativecommons.org/licenses/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, the work must be properly attributed and credited \(provide full citation details and license\). If this matches the license of the article \(check the permissions-info message in the xml\), it does not need to be tagged differently in the underlying XML because it is following the license of the article. If the article license is CC-BY but the reproduced image is CC0, no permissions need to be added as no copyright is retained with CC0 licenses. However, if the article you are working on is CC0, but the reproduced figure is CC BY, this needs to be indicated in the underlying XML as the authors/creators still retain copyright. This requires specific tagging - for example:
+
+```markup
+<permissions>
+    <copyright-statement>© Brand, 2018.</copyright-statement>
+    <copyright-year>2018</copyright-year>
+    <copyright-holder>Françoise Brand </copyright-holder>
+    <license>
+        <ali:license_ref>http://creativecommons.org/licenses/by/4.0/</ali:license_ref> 
+        <license-p>Image courtesy of Françoise Brand, Swiss Tropical and Public Health Institute and University of Basel. Published under a <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 license.</ext-link>
+        </license-p>
+    </license>
+</permissions>
+```
 
 If the authors chose to exactly reproduce a figure or panel from a previously published, non-open access/non-CC BY article in part or in whole, it will need to be published under a separate license.  This is because the original publication will have been published under a license that retains copyright. An article published in Nature, for example, will be copyright to the Nature Publishing Group, and articles published in Science will be copyright to the American Association for the Advancement of Science and so on. If eLife is to reproduce the contents of these articles, it must make it clear that the publisher retains copyright on that content, and that it is therefore not covered by the CC BY or CC0 license that covers the rest of the eLife article. The same issue applies when authors incorporate images from other copyrighted media into their figures \(e.g. if they use film stills or artwork\). The authors will need to confirm they have permission from the copyright holders to reproduce the figure or figure panel.
 
@@ -270,13 +286,15 @@ Panel A is reprinted from
 
 ![Figure permissions display on the eLife website](../../../.gitbook/assets/screenshot-2020-07-22-at-13.00.02.png)
 
+If the note from Editorial says a figure does not require permissions, these should still be checked. If it is not possible to check \(because the figure is from a book for example\), this doesn't need to be followed up further. However, where possible, figure permissions should be double-checked regardless of what the note says.
+
 ## Attributions
 
 If the authors would like to credit the person who provided a figure, an attribution tag can be added to the figure. For example, Figure 5 in 49979 includes the following in the caption:
 
 ![](../../../.gitbook/assets/screenshot-2020-07-08-at-14.11.14.png)
 
-This has been added as an &lt;attrib&gt; element in the xml.
+This was added as an &lt;attrib&gt; element in the xml.
 
 ```markup
 <fig id="fig5" position="float">
@@ -295,11 +313,13 @@ After a paper has been peer reviewed, the Reviewing Editor collates the reviewer
 
 * Please provide the title for this X \(figure/video/table\).
 
+![](../../../.gitbook/assets/screenshot-2020-08-26-at-12.19.19.png)
+
 ## Decision letter figures
 
 In rare cases, the editors may include figures in the decision letter. As with author response images, it is preferred, but not necessary for these to have titles if they have legends. If these are missing, the Editorial team will need to be consulted to see if there should be titles.
 
-![](../../../.gitbook/assets/screenshot-2020-08-13-at-10.22.21.png)
+![An example of a decision letter image](../../../.gitbook/assets/screenshot-2020-08-13-at-10.22.21.png)
 
 ## eLife figure processing
 
@@ -723,7 +743,7 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 **Error:** _fig must have an @id in the format fig0 \(or C0 for chemical structures, or S0 for Schemes\). XXXXXX does not conform to this._
 
-**Action:** This error will fire __if a figure __has an ID in a format other than fig0, C0 or S0 \(where 0 is a number\). Exeter will need to fix this.
+**Action:** This error will fire __if a figure __has an ID in a format other than fig0, C0 or S0 \(where 0 is a number\) - for example FigA. Exeter will need to fix this.
 
 #### fig-id-test-2
 

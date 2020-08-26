@@ -16,13 +16,27 @@
 
 **Error:** _XXXXXX - figure citation does not appear to link to the same place as the content of the citation suggests it should._
 
-**Action:** This error will fire if a figure citation links to a different figure from the citation text e.g. if Figure 2 links to Figure 3. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
+**Action:** This error will fire if a figure citation links to a different figure from the citation text e.g. if Figure 2 links to Figure 3:
+
+```text
+<xref ref-type="fig" rid="fig3">Figure 2</xref>
+```
+
+Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
 
 #### fig-xref-conformity-3
 
 **Warning:** _XXXXXX - figure citation does not appear to link to the same place as the content of the citation suggests it should._
 
-**Action:** This error will fire if a figure citation links to a different figure from the citation text e.g. if Figure 2 links to Figure 3. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
+**Action:** This warning will fire if a figure citation links to a different figure from what the citation text suggests it should link to e.g. if the link text says 'Figure 21' but links to Figure 2. Note, fig-xref-conformity-2 would not fire in this case, because the number 2 is contained in the link text. 
+
+```text
+<xref ref-type="fig" rid="fig2">Figure 21</xref>
+```
+
+Check the citation links to the correct figure - if it does not, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
+
+This will also fire if the link text refers to part labels, for example 'Figure 4E2'. As long as the citation links to the correct figure \(Figure 4 in this case\), this warning can be ignored. 
 
 #### fig-xref-conformity-4
 
@@ -75,15 +89,15 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 #### fig-xref-test-6
 
-**Warning:** _citation is preceded by a letter or number immediately followed by '\('. Is there a space missing before the '\('? - 'XXXXXX'._
+**Error:** _citation is preceded by a letter or number immediately followed by '\('. Is there a space missing before the '\('? - 'XXXXXX'._
 
-**Action:** This warning will fire if a figure citation appears after a letter or number immediately followed by '\('. If there is a missing space, this should be added in, for example in 'DNA\(Figure 2\).' 
+**Action:** This error will fire if a figure citation appears after a letter or number immediately followed by '\('. If there is a missing space, this should be added in, for example in 'DNA\(Figure 2\).' 
 
 #### fig-xref-test-7
 
-**Warning:** _citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'? - 'XXXXXX'._
+**Error:** _citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'? - 'XXXXXX'._
 
-**Action:** This warning will fire if a figure citation is followed by a '\)' and a letter or number immediately after. If there is a missing space, this should be added in, for example in '\(Figure 2\)DNA.' 
+**Action:** This error will fire if a figure citation is followed by a '\)' and a letter or number immediately after. If there is a missing space, this should be added in, for example in '\(Figure 2\)DNA.' 
 
 #### fig-xref-test-8
 
@@ -99,15 +113,15 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 #### fig-xref-test-10
 
-**Warning:** _Incomplete citation. Figure citation is followed by text which suggests it should instead be a link to a Figure supplement - XXXXXX'._
+**Error:** _Incomplete citation. Figure citation is followed by text which suggests it should instead be a link to a Figure supplement - XXXXXX'._
 
-**Action:** This warning will fire if a figure citation is __followed by text which suggests it should be a link to a figure supplement - for example, if the linked citation text is 'Figure 1' but it is followed by '—figure supplement 1' in plain text. In this example, a citation to Figure 1—figure supplement 1 should replace the citation for Figure 1.
+**Action:** This error will fire if a figure citation is __followed by text which suggests it should be a link to a figure supplement - for example, if the linked citation text is 'Figure 1' but it is followed by '—figure supplement 1' in plain text. In this example, a citation to Figure 1—figure supplement 1 should replace the citation for Figure 1.
 
 #### fig-xref-test-11
 
-**Warning:** _Incomplete citation. Figure citation is followed by text which suggests it should instead be a link to a video supplement - XXXXXX'._
+**Error:** _Incomplete citation. Figure citation is followed by text which suggests it should instead be a link to a video supplement - XXXXXX'._
 
-**Action:** This warning will fire if a figure citation is __followed by text which suggests it should be a link to a figure video - for example, if the linked citation text is 'Figure 1' but it is followed by '—video 1' in plain text. In this example, a citation to Figure 1—video 1 should replace the citation for Figure 1.
+**Action:** This error will fire if a figure citation is __followed by text which suggests it should be a link to a figure video - for example, if the linked citation text is 'Figure 1' but it is followed by '—video 1' in plain text. In this example, a citation to Figure 1—video 1 should replace the citation for Figure 1.
 
 #### fig-xref-test-12
 
