@@ -309,9 +309,9 @@ This was added as an &lt;attrib&gt; element in the xml.
 
 ## **Author response figures**
 
-After a paper has been peer reviewed, the Reviewing Editor collates the reviewers’ comments into a single letter to the corresponding author, outlining the consolidated list of recommendations in the decision letter. Corresponding authors then have the opportunity to respond to the comments in the author response letter. Authors may include figures and videos in this letter. These have the same requirements as main figures in terms of resolution, tables, and attribution information. It is preferred, but not necessary for these to have titles if they have legends. If these are missing at pre-author stages, the following query should be added:
+After a paper has been peer reviewed, the Reviewing Editor collates the reviewers’ comments into a single letter to the corresponding author, outlining the consolidated list of recommendations in the decision letter. Corresponding authors then have the opportunity to respond to the comments in the author response letter. Authors may include figures, videos, and/or tables in this letter. These have the same requirements as main figures in terms of resolution, tables, and attribution information. It is preferred, but not necessary for these to have titles if they have legends. If these are missing at pre-author stages, the following query should be added:
 
-* Please provide the title for this X \(figure/video/table\).
+* Please provide the title for this figure.
 
 ![](../../../.gitbook/assets/screenshot-2020-08-26-at-12.19.19.png)
 
