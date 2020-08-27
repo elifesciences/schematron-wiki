@@ -35,23 +35,24 @@ Figures are made up of:
 Figure files should be:
 
 * in PDF, EPS, AI, JPEG, PNG or TIF formats
-  * in 8 bit format \(not 16 bit format\) if a TIF file.
+  * in 8 bit format \(not 16 bit format\) if a TIF file
 * no larger than 500MB
-* no wider than 14,000 pixels or no more than 178,956,970 pixels square in size 
+* no wider or higher than 10,000 pixels
+  * The upper extremes for Continuum are 14,000 pixels high and wide or or no more than 178,956,970 pixels square in size, but just to be safe, figures should be 10,000 pixels high and wide 
 * no more than 500dpi in resolution
 * in portrait, not landscape orientation. We can accommodate figures of different aspect ratios \(e.g. wide, tall etc\) but they will always be presented in portrait orientation in the PDF \(see more [**here**](figures.md#figure-orientation)\)
-* a single figure in a single file \(multiple figures in a figure file is not allowed, for example a PDF file with images across numerous pages\).
-* comprised of a single layer \(multiple layers should be avoided\).
-* without figure legends in the image \(they may be included in the image file by the authors for the purposes of peer review/PoA, but these should then be removed by Exeter during processing\).
+* a single figure in a single file \(multiple figures in a figure file is not allowed, for example a PDF file with images across numerous pages\)
+* comprised of a single layer \(multiple layers should be avoided\)
+* without figure legends in the image \(they may be included in the image file by the authors for the purposes of peer review/PoA, but these should then be removed by Exeter during processing\)
 * with whitespace trimmed around the image.
 
 For more information about how figures are processed during production, see [**here**](figures.md#elife-figure-processing). 
 
 ## Common author queries
 
-The main queries we receive from authors about figures are to do with replacing figures. These can be passed on to Exeter via Kriya notes or email. 
+The main queries we receive from authors about figures are to do with replacing figures. This may be because the wrong figure was uploaded, or something went wrong during typesetting to cause figures to be switched. If the changes are minor, the replacement figures can be passed on to Exeter via Kriya notes or email. If the changes are substantive \(i.e. there are changes to data or the figures look very different from the original submitted versions\), let the authors know that we need to run the updated figures by our editorial team.The editorial team may choose to run the changes by the editors and reviewers for their approval. 
 
-If authors have queries or complaints about the resolution of their figures, we first need to check the files they have submitted follow the requirements [**above**](figures.md#figure-files). If not, share the requirements with them and ask for updated figure files. If they have already followed the guidelines, Exeter will need to be consulted to see if the resolution can be improved further - although in some cases this will not be possible. It may be appropriate for the figure to be uploaded to a dedicated repository if it is very high resolution. 
+If authors have queries or complaints about the resolution of their figures, we first need to check the files they have submitted follow the requirements [**above**](figures.md#figure-files). If not, share the requirements with them and ask for updated figure files. If they have already followed the guidelines, Exeter will need to be consulted to see if the resolution can be improved further - although in some cases this will not be possible. If the figure is very high resolution, it may be appropriate for the figure to be included as source data or uploaded to a dedicated repository. 
 
 ## Resolution of figures
 
@@ -146,7 +147,7 @@ Figures must be in portrait, not landscape orientation. We can accommodate figur
 
 ![](../../../.gitbook/assets/screenshot-2020-08-19-at-10.21.48.png)
 
-In the final version, this figure was rotated so the content would be legible in portrait view. 
+This needs to be fixed so it is not rotated on the website. In the final version, this figure was rotated so the content would be legible in portrait view. 
 
 ![](../../../.gitbook/assets/screenshot-2020-08-19-at-10.25.57.png)
 
@@ -286,7 +287,7 @@ Panel A is reprinted from
 
 ![Figure permissions display on the eLife website](../../../.gitbook/assets/screenshot-2020-07-22-at-13.00.02.png)
 
-If the note from Editorial says a figure does not require permissions, these should still be checked. If it is not possible to check \(because the figure is from a book for example\), this doesn't need to be followed up further. However, where possible, figure permissions should be double-checked regardless of what the note says.
+If the note from editorial says a figure does not require permissions, these should still be checked. If it is not possible to check \(because the figure is from a book for example\), this doesn't need to be followed up further. However, where possible, figure permissions should be double-checked regardless of what the note says.
 
 ## Attributions
 
@@ -317,7 +318,7 @@ After a paper has been peer reviewed, the Reviewing Editor collates the reviewer
 
 ## Decision letter figures
 
-In rare cases, the editors may include figures in the decision letter. As with author response images, it is preferred, but not necessary for these to have titles if they have legends. If these are missing, the Editorial team will need to be consulted to see if there should be titles.
+In rare cases, the editors may include figures in the decision letter. As with author response images, it is preferred, but not necessary for these to have titles if they have legends. If these are missing, the editorial team will need to be consulted to see if there should be titles.
 
 ![An example of a decision letter image](../../../.gitbook/assets/screenshot-2020-08-13-at-10.22.21.png)
 
@@ -509,29 +510,13 @@ Make sure the 'Appendix 0—figure 0' is updated with the appendix and figure nu
 
 **Error:** _XXXXXX does not appear in sequence which is incorrect. Relative to the other figures it is placed in position XXXXXX._
 
-**Action:** Figures are automatically placed directly after their first citation. ****This warning usually appears if the authors have cited figures out of order. For example, if they refer to Figure 3—figure supplement 2 before Figure 3—figure supplement 1, this results in Figure 3—figure supplement 2 being placed before Figure 3—figure supplement 1. Unlink the citation that is out of order and leave the following query for the author:
-
-* This citation is out of sequence with the other figure citations and has therefore been left unlinked \(figure placement is determined by first live citation\). Please confirm this is acceptable.
-
-If multiple figures are out of sequence, leave the following query for the author instead:
-
-* Our system numbers figures based on when they are first cited. Please confirm these figures can be renumbered or provide in-sequence citations for these.
-
-If this appears at post-author stages, the author will need to be asked whether we can unlink the citation that is out of order, or renumber the figures.
+**Action:** This warning usually appears if the authors have added citations for figure supplements during proofing. Exeter will need to re-order the figures so they appear in sequence. 
 
 #### fig-sup-test-5
 
 **Error:** _XXXXXX is in position XXXXXX, which means either the label or the placement incorrect._
 
-**Action:** Figures are automatically placed directly after their first citation. ****This warning usually appears if the authors have cited figures out of order. For example, if they refer to Figure 3—figure supplement 2 before Figure 3—figure supplement 1, this results in Figure 3—figure supplement 2 being placed before Figure 3—figure supplement 1. Unlink the citation that is out of order and leave the following query for the author:
-
-* This citation is out of sequence with the other figure citations and has therefore been left unlinked \(figure placement is determined by first live citation\). Please confirm this is acceptable.
-
-If multiple figures are out of sequence, leave the following query for the author instead:
-
-* Our system numbers figures based on when they are first cited. Please confirm these figures can be renumbered or provide in-sequence citations for these.
-
-If this appears at post-author stages, the author will need to be asked whether we can unlink the citation that is out of order, or renumber the figures.
+**Action:** This warning usually appears if the authors have added citations for figure supplements during proofing. Exeter will need to re-order the figures so they appear in sequence. 
 
 #### fig-sup-test-6
 
@@ -576,19 +561,13 @@ If this appears at post-author stages, the author will need to be asked whether 
 
 **Warning:** _XXXXXX does not appear in sequence which is likely incorrect. Relative to the other AR images it is placed in position XXXXXX._
 
-**Action:** This warning will fire if the author response images in the author response letter are placed out of sequence. This may happen if the authors have cited the figures out of order. For example, if they refer to Author response image 3 before before Author response image 2 this results in Author response image 3 being placed before Author response image 2. However it may also be an error during processing - check the `elife/decision-letter-input` AWS bucket to see what the correct order of figures should be and correct accordingly. Otherwise, unlink the citation that is out of order and leave the following query for the author:
-
-* This citation is out of sequence with the other figure citations and has therefore been left unlinked \(figure placement is determined by first live citation\). Please confirm this is acceptable.
-
-If multiple figures are out of sequence, leave the following query for the author instead:
-
-* Our system numbers figures based on when they are first cited. Please confirm these figures can be renumbered or provide in-sequence citations for these.
+**Action:** This warning will fire if the author response images in the author response letter are placed out of sequence. This may be because the decision letter has the images in the wrong order, or it may be due to an error during processing. The production team will need to check the `elife/decision-letter-input` AWS bucket, and may also consult the editorial team to see what the correct order of figures should be.
 
 #### final-ar-fig-position-test
 
 **Error:** _XXXXXX does not appear in sequence which is incorrect. Relative to the other AR images it is placed in position XXXXXX._
 
-**Action:** This error will fire if the author response images in the author response letter are placed out of sequence. This may happen if the authors have cited the figures out of order. For example, if they refer to Author response image 3 before before Author response image 2 this results in Author response image 3 being placed before Author response image 2. The author will need to be asked whether we can unlink the citation that is out of order, or renumber the figures. 
+**Action:** This error will fire if the author response images in the author response letter are placed out of sequence. This may happen if the authors have cited the figures out of order. If it is clear that the authors are trying to change the order of figures, the production team will consult editorial to confirm this is ok. The figures will then need to be re-ordered according to what the authors have requested. However if the authors haven't indicated that the figures should be re-ordered, Exeter will need to correct the sequence of author response images. 
 
 #### resp-fig-test-2
 
