@@ -219,9 +219,9 @@ Please be aware that sometimes authors may cite a figure from another article. C
 
 Figures can either be 'floating' or 'anchored'. In the PDFs, chemical structures, schemes, and appendix figures are treated as anchored objects rather than floating ones. All other figures are floating objects. 
 
-Floating figures are automatically placed directly after their first citation in the text \(although citations in captions should not be used to determine figure placement\). This can sometimes result in figures being placed in the middle of display formulae, which breaks the flow of the text.
+On the eLife website, floating figures should be placed directly after their first citation. In the article PDFs, floating figures should be placed at the first appropriate position after their first citation. In both cases, citations in captions should not be used to determine figure placement. 
 
-For example, in 55217, equation 9 should appear after the paragraph shown below. Instead, Figure 12 has been placed here, which breaks the flow of the text. Figure 12 should appear after equation 9 to improve readability.
+However, this can sometimes result in figures being placed in the middle of display formulae, which breaks the flow of the text. For example, in 55217, equation 9 should appear after the paragraph shown below. Instead, Figure 12 has been placed here, which breaks the flow of the text. Figure 12 should appear after equation 9 to improve readability.
 
 ![](../../../.gitbook/assets/screenshot-2020-08-12-at-16.10.15.png)
 
@@ -416,6 +416,8 @@ Exeter will need to fix this when the information is provided.
 * Please provide the image file for this figure.
 * Please provide the image file for this figure supplement.
 
+If no file is present because the figure has been provided as a multi-page file, and this has been queried with the authors \(see [**above**](figures.md#multi-page-files)\), this warning can be ignored.
+
 #### final-fig-test-7
 
 **Error:** _fig must have a graphic._
@@ -454,9 +456,9 @@ If multiple figures are out of sequence, leave the following query for the autho
 
 If the first citation for a figure is in an appendix, leave the following query for the authors:
 
-* The first citation for this figure is in the appendix. Please advise whether this figure should be relabelled as Appendix 0—figure 0 or add a citation to this figure in the appropriate place so it can be moved to the main text. 
+* The first citation for this figure is in the appendix. Please advise whether this figure should be relabelled as Appendix 0—figure 0 or add a citation to this figure in the main text.
 
-Make sure the 'Appendix 0—figure 0' is updated with the appendix and figure number accordingly. If the article is at post-author stages, this will need to be queried with the authors via email. 
+Make sure the 'Appendix 0—figure 0' text in the query is updated with the appendix and figure number accordingly. If the article is at post-author stages, this will need to be queried with the authors via email. 
 
 #### pre-fig-specific-test-4
 
@@ -504,7 +506,7 @@ Make sure the 'Appendix 0—figure 0' is updated with the appendix and figure nu
 
 **Error:** _XXXXXX does not start with the main figure number it is associated with - XXXXXX._
 
-**Action:** __All figure supplements in research content should have the label 'Figure 0—figure supplement 0' \(where 0 is one or more digits, based on the sequence of the numbered figure\). This error will fire if a figure supplement has a label which doesn't begin with the figure number it is associated with \(for example if Figure 2—figure supplement 1 is associated with Figure 1\). Exeter will need to check the original submission to see which figure the supplement should be associated and fix accordingly. 
+**Action:** __All figure supplements in research content should have the label 'Figure 0—figure supplement 0' \(where 0 is one or more digits, based on the sequence of the numbered figure\). This error will fire if a figure supplement has a label which doesn't begin with the figure number it is associated with \(for example if Figure 2—figure supplement 1 is associated with Figure 1\). Exeter will need to check the original submission to see which figure the supplement should be associated and fix accordingly. If it is unclear in the original submission, the production team should be queried.
 
 #### fig-sup-test-4
 
@@ -617,7 +619,7 @@ If this error appears at post-author stages, check whether the authors asked for
 
 **Error:** _label for fig inside appendix must be in the format 'Appendix 1—figure 1—figure supplement 1.'._
 
-**Action:** This error will fire __if a figure supplement in an appendix has a label other than 'Appendix 0—figure 0—figure supplement 0.' \(following this capitalisation exactly i.e. 'Appendix 0—Figure 0—Figure Supplement 0.' is incorrect\). This will need to be corrected by Exeter.
+**Action:** This error will fire __if a figure supplement in an appendix has a label other than 'Appendix 0—figure 0—figure supplement 0.' \(following this capitalisation exactly i.e. 'Appendix 0—Figure 0—Figure Supplement 0.' is incorrect\). If the full stop is missing, try adding this in. Otherwise, this will need to be corrected by Exeter.
 
 #### app-fig-sup-test-2
 
@@ -643,7 +645,7 @@ If the title has part labels within a sentence, e.g. 'COVID-19 incubation period
 
 **Error:** _title for XXXXXX must end with a full stop._
 
-**Action:** This error will fire __if a figure has a title that does not end with a full stop. Make sure this is added.
+**Action:** This error will fire __if a figure has a title that does not end with a full stop. Make sure this is added. Sometimes the problem is just an extra space after the full stop - deleting the space will resolve the error in this case.
 
 #### fig-title-test-3
 
@@ -674,7 +676,7 @@ Move the relevant part of text out of the legend into the title.
 
 **Warning:** _title for XXXXXX begins with punctuation. Is this correct? - XXXXXX_
 
-**Action:** This error will fire if a title begins with punctuation \(e.g. ';Gonadectomy alters energy balance and fuel source utilization.'\). This is usually a typo and should be deleted - check against the original submission if unsure.
+**Action:** This error will fire if a title begins with punctuation \(e.g. ';Gonadectomy alters energy balance and fuel source utilization.'\). This is usually a typo and should be deleted - check against the original submission if unsure. If the title begins with a part label and covers all the part labels contained in the figure \(e.g. '\(**A**\) Results from experiment 1 and \(**B**\) experiment 2.'\) this is ok to ignore. 
 
 #### fig-title-test-6
 
@@ -782,7 +784,7 @@ XML of a figure with no figure supplements or videos \(and therefore, no fig-gro
 
 **Error:** _XXXXXX_ _is not allowed as a child of fig-group._
 
-**Action:** The only elements allowed as a child of `<fig-group>` are `<fig>` or `<media>`. This test will fire at all stages for an element which is not one of those in a `<fig-group>`. The XXXXXX will be the name of the offending element. This likely means that either this element is placed incorrectly in the XML, or there is an unnecessary element in the XML. Exeter will need to correct this.
+**Action:** The only elements allowed as a child of `<fig-group>` are `<fig>` or `<media>`. This test will fire at all stages for an element contained directly under `<fig-group>` that is not `<fig>` or `<media>`. The XXXXXX will be the name of the offending element. This likely means that either this element is placed incorrectly in the XML, or there is an unnecessary element in the XML. Exeter will need to correct this.
 
 #### fig-group-child-test-2
 
