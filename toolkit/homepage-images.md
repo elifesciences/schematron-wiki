@@ -36,7 +36,21 @@ The new homepage image is selected from the striking images of VoR articles that
 
 You can use the Production team action [**sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) to look for articles that have been scheduled, and/or use the eLife's website to find VoR articles that have been published in the previous week. As you view each article, you will need to search the striking image bucket to see if it has a suitable image \(please see the 'Uploading via the striking images AWS bucket' section [**here**](striking-images-1.md#uploading-via-the-striking-images-aws-bucket) on how to access this\). Once you have found an image, you will then need to send this to Peter as outlined below. On the rare occasion that you do not find a suitable image, you should email Peter to let him know. Then either send an image later in the day when more articles have been published or at the very latest, Tuesday morning. 
 
-If you have found an image but it is not quite right, i.e slightly too small, you should able to adjust this in a photo editing program such as Photoshop. However, you should not make any significant changes to the photo. 
+## Editing an image
+
+Sometimes, you may find the perfect image but it is not quite right, for example, the image may be slightly too small. Another reason may be that the image is too large so ideally it requires cropping slightly so that the right part of the image is the focus for the image carousel. 
+
+The striking image that was provided for 50645 was too small but would make a great homepage image. 
+
+![Striking image for 50645](../.gitbook/assets/screen-shot-2020-08-27-at-12.23.51.png)
+
+To make this more suitable for the homepage image, in Photoshop we extended the black background to at least our minimum image size \(1800x900 pixels\). Another change we made was to crop the image slightly so that the Jerboa's head is the main focus on the picture. In its current format, the image carousel would focus on the Jerboa's body, cutting off some of it's head. Sadly the funky feet had to go. 
+
+![The final edit to 50645 for the homepage](../.gitbook/assets/50645-a_striking_image.jpg)
+
+If you are not familiar with Photoshop, please do ask a member of the Production team who can assist you. 
+
+However, you should not make any significant changes to the photo that aren't for the purpose of re-sizing the image. This is due to respecting the author's original image submission. 
 
 ## Homepage image wording
 
