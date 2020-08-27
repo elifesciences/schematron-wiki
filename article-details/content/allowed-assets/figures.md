@@ -416,7 +416,7 @@ Exeter will need to fix this when the information is provided.
 * Please provide the image file for this figure.
 * Please provide the image file for this figure supplement.
 
-If no file is present because the figure has been provided as a multi-page file, and this has been queried with the authors \(see [**above**](figures.md#multi-page-files)\), this warning can be ignored.
+If no file is present because the figure was provided as a multi-page file, and this has been queried with the authors \(see [**above**](figures.md#multi-page-files)\), this warning can be ignored.
 
 #### final-fig-test-7
 
