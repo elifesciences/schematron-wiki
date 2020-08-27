@@ -38,9 +38,9 @@ You can use the Production team action [**sheet**](https://docs.google.com/docum
 
 ## Editing an image
 
-Sometimes, you may find the perfect image but it is not quite right, for example, the image may be slightly too small. Another reason may be that the image is too large so ideally it requires cropping slightly so that the right part of the image is the focus for the image carousel. 
+Sometimes, you may find the perfect image but it is not quite right, for example, the image may be slightly too small. Another reason may be that the image is too large so ideally it requires cropping slightly so that the right part of the image is the focus for the image carousel. Care should be taken not to edit the image beyond the point where the image quality drops significantly. 
 
-The striking image that was provided for 50645 was too small but would make a great homepage image. 
+The striking image that was provided for 50645 was too narrow but would make a great homepage image. 
 
 ![Striking image for 50645](../.gitbook/assets/screen-shot-2020-08-27-at-12.23.51.png)
 
@@ -102,7 +102,7 @@ To do this, follow the steps below.
 
 * If there is an image attribution, this should be entered in the field below. 
 
-![](../.gitbook/assets/screen-shot-2020-08-13-at-13.43.33.png)
+![An example of an attribution for 50645](../.gitbook/assets/screen-shot-2020-08-27-at-12.58.26%20%281%29.png)
 
 * Enter the manuscript number into ‘Related content item’ field and select it from drop-down menu. It will enter it into the field with another number in brackets next to it. Ensure you **do not** use an unpublished article.
 
