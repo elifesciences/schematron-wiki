@@ -66,7 +66,7 @@ This will also fire if the link text refers to part labels, for example 'Figure 
 
 **Warning:** _There is no space between citation and the following text - XXXXXX - Is this correct?_
 
-**Action:** This error will fire if there is no space between a figure citation and the text after it, for example 'See Figure 2for.' Add a space between the citation and the following text. However, if the text is 'See Figures 2,3' this is ok to leave.
+**Action:** This error will fire if there is no space between a figure citation and the text after it, for example 'See Figure 2for.' Add a space between the citation and the following text.
 
 #### fig-xref-test-4
 
@@ -85,7 +85,7 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 **Error:** _XXXXXX - Figure citation is in a reference to a figure from a different paper, and therefore must be unlinked._
 
-**Action:** This error will fire if a figure citation appears before a reference e.g. 'See Figure 1 from Smith et al., 1992'. This figure citation needs to be changed to plain text. 
+**Action:** This error will fire if a figure citation appears before a reference e.g. 'See Figure 1 from Smith et al., 1992' \(see more [**here**](figures.md#figures-that-havent-been-provided)\). This figure citation needs to be changed to plain text. 
 
 #### fig-xref-test-6
 

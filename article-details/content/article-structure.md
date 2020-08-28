@@ -279,7 +279,7 @@ XXXXXX will indicate the styled content at the start of a paragraph; X will be t
 
 **Warning**: _top level sec with title - XXXXXX - is not a usual title for XXXXXX content. Should this be captured as a sub-level of XXXXXX?_
 
-**Action**: This warning indicates that a Level 1 heading is present that does not match the allowed top-level headings. Check whether this heading should be tagged as Level 2, within the preceding Level 1 heading. This may require a check against the exported article file. If an unusual article structure has been approved by Editorial, this should be indicated in the production notes.
+**Action**: This warning indicates that a Level 1 heading is present that does not match the allowed top-level headings \([**see here**](article-structure.md#allowed-article-structures) for usual headings\). Check whether this heading should be tagged as Level 2, within the preceding Level 1 heading. This may require a check against the exported article file. If an unusual article structure has been approved by Editorial, this should be indicated in the production notes.
 
 In cases where the authors have included a top-level heading that is similar to a permitted Level 1 heading \(e.g. 'Experimental results' or 'Discussion and conclusions'\) this should be corrected to match eLife style \('Results' and 'Discussion' in this case\).
 
