@@ -757,6 +757,26 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 **Action**: This will fire at all stages is a table cell contains a reference citation or reference citations and the text other than the citation\(s\) does not contain letters or numbers. In a case where, the content of the cell is just citations, then the brackets around them should be removed. If there is other text, which makes the brackets necessary, then they can be left. 
 
+#### pre-table-title-test-1
+
+**Warning**: _XXXXXX does not have a title. Please ensure to query the authors for one._
+
+**Action**: This will fire at all pre-author stages if a table with a label \(which is not a Key resources table\) does not have a title. First check that the title has not been included as part of a caption. If it hasn't, then an author query should be added to obtain a title:
+
+* Please provide a title for this table.
+
+#### final-table-title-test-1
+
+**Error**: _XXXXXX does not have a title. Please ensure to query the authors for one._
+
+**Action**: This will fire at all post-author stages if a table with a label \(which is not a Key resources table\) does not have a title. eLife production will have to query the authors asking for one at Pub Review.
+
+#### table-title-test-3
+
+**Error**: _The title for XXXXXX does not end with a full stop which is incorrect - 'XXXXXX'._
+
+**Action**: This will fire at all stages if the title for a table does not end with a full stop.
+
 ### **XML structure checks**
 
 These checks relate to the XML structure of tables. X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see [**below**](tables.md#xml-structure).
@@ -844,6 +864,12 @@ Exeter will need to correct this issue if it fires.
 **Warning**: _PMID link should be preceding by 'PMID:' with no space but instead it is preceded by 'XXXXXX'_
 
 **Action**: This will fire if a link which points to [PubMed](https://pubmed.ncbi.nlm.nih.gov/) is preceded by 'PMID:' or 'PMID' followed by a space. As the message suggest the space between PMID: and the link should be removed. This is warning, because of a possible edge case, where an author would want to include some content which is not a PMID, but points to PubMed and requires a space before it.
+
+#### table-title-test-2
+
+**Error**: _The title for XXXXXX empty which is not allowed._
+
+**Action**: This will fire at all stages if the title for a table element for a table is empty. This means that either a title is missing, in which case it should be added \(or queried with the authors if it is not available\), or that something has gone wrong with XML generation, in which case the Exeter support team will need to be contacted.
 
 ## XML structure
 
@@ -1408,4 +1434,5 @@ Vertical cell alignment is defined using the `valign` attribute.
 * Updated 2020-06-24 to account for Key resources tables in appendices.
 * Updated 2020-07-07 with change for table-fn-label-test-1.
 * Updated 2020-08-03 to include table-test-3.
+* Updated 2020-09-02 to include pre-table-title-test-1, final-table-title-test-1, table-title-test-2, and table-title-test-3.
 
