@@ -265,6 +265,20 @@ XXXXXX in this message will indicate the text where this error is present.
 
 **Action**: This warning indicates that a citation in parentheses has run on with the text immediately following it, e.g. ". . . in OPCs \(**Pringle et al., 1992**\)and . . ." A space should be added between the closing parenthesis and the word immediately after it. XXXXXX in this message will indicate the text that needs to be corrected.
 
+#### ref-xref-test-26
+
+**Warning**: _citation is preceded by '; \[' - 'XXXXXX' - Are the square bracket\(s\) surrounding the citation required? If this citation is already in a bracketed sentence, then it's very likely they can be removed._
+
+**Action**: This warning indicates will fire if a citation is preceded by '; \['. If the citation is already in parentheses such as
+
+> \(here is some text; \[**Smith et al., 2020**\]\)
+
+then the square brackets can be removed so that the above would read '\(here is some text; Smith et al., 2020\)'. If the citation is not already in parentheses, then the square brackets should be changed to parentheses - '\('. Note that this will also fire in the case where the citation is not also followed by a square bracket as well for example:
+
+> \(here is some text; \[**Smith et al., 2020**\)
+
+The same action should be taken in this case.
+
 #### ref-xref-test-27
 
 **Warning**: _citation is followed by '\) \(', which in turn is followed by another link - 'XXXXXX'. Should the closing and opening brackets be replaced with a '; '? i.e. 'XXXXXX'._
