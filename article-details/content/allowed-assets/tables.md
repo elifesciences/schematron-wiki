@@ -777,6 +777,12 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 **Action**: This will fire at all stages if the title for a table does not end with a full stop.
 
+#### table-title-test-4
+
+**Error**: _The title for XXXXXX ends with 'vs.', which indicates that the title sentence may be split across title and caption - XXXXXX._
+
+**Action**: This will fire at all stages if the title for a table ends with 'vs.' which suggests it has been split between the title and the legend. Move the relevant part of text out of the legend into the title.
+
 ### **XML structure checks**
 
 These checks relate to the XML structure of tables. X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see [**below**](tables.md#xml-structure).
@@ -869,7 +875,7 @@ Exeter will need to correct this issue if it fires.
 
 **Error**: _The title for XXXXXX empty which is not allowed._
 
-**Action**: This will fire at all stages if the title for a table element for a table is empty. This means that either a title is missing, in which case it should be added \(or queried with the authors if it is not available\), or that something has gone wrong with XML generation, in which case the Exeter support team will need to be contacted.
+**Action**: This will fire at all stages if the title for a table is empty. This means that either a title is missing, in which case it should be added \(or queried with the authors if it is not available\), or that something has gone wrong with XML generation, in which case the Exeter support team will need to be contacted.
 
 ## XML structure
 
@@ -1434,5 +1440,5 @@ Vertical cell alignment is defined using the `valign` attribute.
 * Updated 2020-06-24 to account for Key resources tables in appendices.
 * Updated 2020-07-07 with change for table-fn-label-test-1.
 * Updated 2020-08-03 to include table-test-3.
-* Updated 2020-09-02 to include pre-table-title-test-1, final-table-title-test-1, table-title-test-2, and table-title-test-3.
+* Updated 2020-09-02 to include pre-table-title-test-1, final-table-title-test-1, table-title-test-2, table-title-test-3 and table-title-test-4.
 
