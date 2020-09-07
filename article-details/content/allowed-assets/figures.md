@@ -111,7 +111,7 @@ Authors may include inline images of chemical structures or schemes in their art
 
 ## Unlabelled images in the article file
 
-If there are unlabelled images in the article file that do not correspond to the main figures, the production team should be queried to determine how to treat these images. These may be inline images, which are permitted and don't require any labels. For more about inline images, see here \[link to be added\]. Inline images may also be present within tables - for more about this, see here \[link to be added\]. In most cases however, these images will need to be treated as chemical structures or schemes. 
+If there are unlabelled images in the article file that do not correspond to the main figures, the production team should be queried to determine how to treat these images. These may be inline images, which are permitted and don't require any labels. For more about inline images, see here \[link to be added\]. Inline images may also be present within tables - for more about this, see [**here**](tables.md#inline-images). In most cases however, these images will need to be treated as chemical structures or schemes. 
 
 If the unlabelled image is a chemical structure or scheme, it will need to be labelled as such, with the title updated as appropriate.
 
