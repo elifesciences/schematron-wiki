@@ -236,7 +236,7 @@ But ultimately, the decision about whether to include \(supported\) colours is m
 
 ### Inline images
 
-Each table cell can contain one \(or more\) 'inline' images. These are images which render inline with the content \(as opposed to the images in figures\).
+Each table cell can contain one \(or more\) 'inline' images. These are images which render inline with the content \(as opposed to the images in figures, which are blocks themselves\).
 
 \*\*\*\*[**Here**](https://elifesciences.org/articles/56416#table2) is an example of a table with images in table cells. Note that the table header is made up of one single cell, which spans all columns, and contains one image.
 
@@ -244,7 +244,7 @@ Each table cell can contain one \(or more\) 'inline' images. These are images wh
 
 #### Inline images in the XML
 
-Inline images are captured using the `<inline-graphic>` element. This element has the same attributes as the `<graphic>` element \(see also [Figures and figure supplements](figures.md#xml-structure)\), a `mimetype`, a `mime-subtype` , and an `xlink:href`; the latter points to the figure file itself.
+Inline images are captured using the `<inline-graphic>` element. This element has the same attributes as the `<graphic>` element \(see also [Figures and figure supplements](figures.md#xml-structure)\), a `mimetype`, a `mime-subtype` , and an `xlink:href`; the latter points to the image file itself.
 
 This element is placed as a child of the relevant cell \(`<td>` or `<th>`\).
 
