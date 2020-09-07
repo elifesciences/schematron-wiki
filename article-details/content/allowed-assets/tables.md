@@ -234,6 +234,33 @@ As a result colours should be avoided where possible. There are two author queri
 
 But ultimately, the decision about whether to include \(supported\) colours is made by the authors.
 
+### Inline images
+
+Each table cell can contain one \(or more\) 'inline' images. These are images which render inline with the content \(as opposed to the images in figures\).
+
+\*\*\*\*[**Here**](https://elifesciences.org/articles/56416#table2) is an example of a table with images in table cells. Note that the table header is made up of one single cell, which spans all columns, and contains one image.
+
+\*\*\*\*[**Here**](https://elifesciences.org/articles/17092#A5-tbl2) is an example of a different table containing inline images. In the first row, the cell on the right contains two separate images stacked on top of each other.
+
+#### Inline images in the XML
+
+Inline images are captured using the `<inline-graphic>` element. This element has the same attributes as the `<graphic>` element \(see also [Figures and figure supplements](figures.md#xml-structure)\), a `mimetype`, a `mime-subtype` , and an `xlink:href`; the latter points to the figure file itself.
+
+This element is placed as a child of the relevant cell \(`<td>` or `<th>`\).
+
+```markup
+<tr>
+    <td>DB75</td>
+    <td>Am</td>
+    <td>Am</td>
+    <td><inline-graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-56416-inf3-v3.tif"/></td>
+    <td>CH</td>
+    <td>CH</td>
+    <td>38.2 ± 10.2</td>
+    <td align="center">17.3</td>
+</tr>
+```
+
 ## Key resources tables
 
 Key resources tables contain a list of resources \(such as Genes, Strains, Antibodies, Reagents, Chemical compounds, Software etc.\) that were used in generating the research communicated in an article. 
@@ -1441,4 +1468,5 @@ Vertical cell alignment is defined using the `valign` attribute.
 * Updated 2020-07-07 with change for table-fn-label-test-1.
 * Updated 2020-08-03 to include table-test-3.
 * Updated 2020-09-02 to include pre-table-title-test-1, final-table-title-test-1, table-title-test-2, table-title-test-3 and table-title-test-4.
+* Updated 2020-09-07 to include information on inline images.
 
