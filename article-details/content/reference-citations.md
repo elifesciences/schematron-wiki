@@ -181,9 +181,17 @@ XXXXXX in this message will be the current, incorrect citation text. Note that t
 
 **Error**: _citation doesn't contain letters, which must be incorrect - XXXXXX_
 
-**Action**: This error will fire in a reference citation does not contain any letters, e.g. it is just '**2010**' rather than '**Smith et al., 2010**  \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\). Correct the citation text so that both name and year are present \( `<xref ref-type="bibr" rid="bib16">Smith et al., 2010</xref>`\). 
+**Action**: This error will fire if a reference citation does not contain any letters, e.g. it is just '**2010**' rather than '**Smith et al., 2010**  \( `<xref ref-type="bibr" rid="bib16">2010</xref>`\). Correct the citation text so that both name and year are present \( `<xref ref-type="bibr" rid="bib16">Smith et al., 2010</xref>`\). 
 
 XXXXXX in this message will be the current, incorrect citation text. Note that this error will not occur if the citation is simply '**2010a**'. Regardless, [ref-xref-test-19](reference-citations.md#ref-xref-test-19) should identify this as incorrect.
+
+#### ref-xref-test-7
+
+**Warning**: _citation is preceded by text containing 2 or more open brackets, '\('. eLife style is that parenthetical citations already in brackets should be contained in square brackets, '\['. Either there is a superfluous '\(' in the preceding text, or the '\(' needs changing to a '\['  - XXXXXX_
+
+**Action**: This error will fire if a reference citation is preceded by 2 or more left parentheses '\('. This indicated that either there are too many left parentheses or that there is a missing right parentheses before the citation. Most commonly it will be the former. In cases where the citation is in a bracketed sentence, and the citation still needs to be also in brackets, then the second left parentheses should be replaced with a left square bracket, '\[', and if the citation is surround by parentheses then the following the citation should very likely be changed to a right square bracket as well, '\]'. If the citation does not need to be brackets, the the left parentheses can be replaced with a semi-colon. 
+
+XXXXXX in this message will be 10 preceding characters, the citation and the 10 following characters.
 
 #### ref-xref-test-11
 
