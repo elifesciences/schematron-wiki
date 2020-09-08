@@ -119,5 +119,5 @@ The following assets are allowed in author responses.
 | **Author response table 1.** | sa2table1 |  |
 | **Author response video 1.** | sa2video1 | elife-12345-sa2-video1 |
 
-
+## XML structure
 
