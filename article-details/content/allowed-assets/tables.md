@@ -240,7 +240,11 @@ Each table cell can contain one \(or more\) 'inline' images. These are images wh
 
 \*\*\*\*[**Here**](https://elifesciences.org/articles/56416#table2) is an example of a table with images in table cells. Note that the table header is made up of one single cell, which spans all columns, and contains one image.
 
+![](../../../.gitbook/assets/screenshot-2020-09-08-at-12.23.12.png)
+
 \*\*\*\*[**Here**](https://elifesciences.org/articles/17092#A5-tbl2) is an example of a different table containing inline images. In the first row, the cell on the right contains two separate images stacked on top of each other.
+
+![](../../../.gitbook/assets/screenshot-2020-09-08-at-12.23.50.png)
 
 #### Inline images in the XML
 
