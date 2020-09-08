@@ -196,7 +196,7 @@ However, by accessing the repository page, the presence of data can be discerned
 
 If it is clear from either of these items in the repository that it contains data, it is acceptable to retain the dataset entry. In cases where it is unclear whether the repository contains data, the author should be queried to clarify the issue:
 
-* Does this repository contain source data as well as or instead of source code for your article?
+* Does this repository contain source data as well as or instead of source code for your article? If no data is present, this dataset entry will need to be removed.
 
 ### Journal articles entered as datasets
 
