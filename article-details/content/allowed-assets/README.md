@@ -143,12 +143,12 @@ Figure with source data and figure supplement.
                          β-galactosidase activities were measured.</p>
                      </caption>
                      <media mime-subtype="xlsx" mimetype="application"
-                        xlink:href="elife-59190-fig1-data1-v2.xlsx"/>
+                        xlink:href="elife-59190-fig1-data1.xlsx"/>
                 </supplementary-material>
             </p>
         </caption>
         <graphic mime-subtype="tiff" mimetype="image"
-            xlink:href="elife-59190-fig1-v2.tif"/>
+            xlink:href="elife-59190-fig1.tif"/>
     </fig>
     <fig id="fig1s1" position="float" specific-use="child-fig">
         <label>Figure 1—figure supplement 1.</label>
@@ -159,7 +159,7 @@ Figure with source data and figure supplement.
             immunoblot analysis of 1 µg purified proteins.</p>
         </caption>
         <graphic mime-subtype="tiff" mimetype="image"
-            xlink:href="elife-59190-fig1-figsupp1-v2.tif"/>
+            xlink:href="elife-59190-fig1-figsupp1.tif"/>
     </fig>
 </fig-group>
 ```
@@ -228,5 +228,86 @@ Table with source data.
 </table-wrap>
 ```
 
+Box with a figure.
 
+```markup
+<boxed-text id="box1">
+    <label>Box 1.</label>
+    <caption>
+        <title>An ecological feedback can control phenotypic heterogeneity in 
+        quorum-sensing microbial populations.</title>
+    </caption>
+    <p>Our work demonstrates that the coupling of ecological and population dynamics
+    through quorum sensing cannot only lead to homogeneously producing populations,
+    but can also control a heterogeneous production of autoinducers in microbial
+    populations. Phenotypic heterogeneity becomes manifest in the quorum-sensing
+    model as long-lived, bimodal states of the population that are dynamically stable;
+    see sketch below.</p>
+    <fig id="box2fig1" position="float">
+        <label>Box 1&#x2014;figure 1.</label>
+        <caption>
+            <title>Effective picture of robust phenotypic heterogeneity through an ecological feedback.</title>
+        </caption>
+        <graphic mimetype="image" mime-subtype="tiff" xlink:href="elife-00666-box1-fig1.tif"/>
+    </fig>
+    <p>In the quorum-sensing model, ecological dynamics are determined by the average
+    production level of autoinducers, while population dynamical changes are determined by
+    fitness differences between non-producers and producers of autoinducers. Because
+    individuals sense and respond to autoinducers in the environment, the ecological dynamics
+    are coupled with the population dynamics. In other words, an ecological feedback loop is
+    established when cells respond to an environment that is being shaped by their own
+    activities.</p>
+</boxed-text>
+```
+
+Additional files section with source code, supplementary files, audio files and reporting standards
+
+```markup
+<sec id="s6" sec-type="supplementary-material">
+    <title>Additional files</title>
+    <supplementary-material id="scode1">
+        <label>Source code 1.</label>
+        <caption>
+            <title>Source code for calcium trace extraction.</title>
+        </caption>
+        <media mime-subtype="x-m" mimetype="text" xlink:href="elife-43732-code1.m"/>
+    </supplementary-material>
+    <supplementary-material id="supp1">
+        <label>Supplementary file 1.</label>
+        <caption>
+            <title>Summary of behavioral data set for in vivo calcium imaging experiments.</title>
+            <p>*Male did not sing despite having a female present. **Male was actively
+            calling during this trial. ***Male did not sing despite being in the
+            presence of a female, however, the bird does perform introductory notes.</p>
+        </caption>
+        <media mime-subtype="docx" mimetype="application" xlink:href="elife-43732-supp1.docx"/>
+    </supplementary-material>
+    <supplementary-material id="supp2">
+        <label>Supplementary file 2.</label>
+        <caption>
+            <title>Table describing categories of neurons and the functional definitions
+            used in this study.</title>
+        </caption>
+        <media mime-subtype="docx" mimetype="application" xlink:href="elife-43732-supp2.docx"/>
+    </supplementary-material>
+    <supplementary-material id="supp3">
+            <label>Audio file 1.</label>
+            <caption>
+                <title><xref ref-type="fig" rid="fig2">Figure 2A</xref>: Inset audio.</title>
+            </caption>
+            <media mime-subtype="x-wav" mimetype="audio" xlink:href="elife-43732-supp3.wav"/>
+        </supplementary-material>
+        <supplementary-material id="supp4">
+            <label>Audio file 2.</label>
+            <caption>
+                <title><xref ref-type="fig" rid="fig2">Figure 2C</xref>: Inset audio1.</title>
+            </caption>
+            <media mime-subtype="x-wav" mimetype="audio" xlink:href="elife-43732-supp4.wav"/>
+        </supplementary-material>
+        <supplementary-material id="transrepform">
+            <label>Transparent reporting form</label>
+            <media mime-subtype="pdf" mimetype="application" xlink:href="elife-43732-transrepform.pdf"/>
+        </supplementary-material>
+    </sec>
+```
 
