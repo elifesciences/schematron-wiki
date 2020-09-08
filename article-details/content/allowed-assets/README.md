@@ -48,6 +48,7 @@ The following assets appear within the main text of an article. Top-level assets
 | **Animation 1.** | video1 | elife-12345-video1 |
 | **Animation 1—source code 1.** | video1scode1 | elife-12345-video1-code1 |
 | **Animation 1—source data 1.** | video1sdata1 | elife-12345-video1-data1 |
+| \[Inline graphic, unlabelled\] |  | elife-12345-inf1 |
 
 ### Additional information assets
 
@@ -230,6 +231,19 @@ Table with source data.
         </tbody>
     </table>
 </table-wrap>
+```
+
+Inline graphic in a table.
+
+```markup
+. . . 
+    <table frame="hsides" rules="groups">
+        <tbody>
+            <tr>
+                <th colspan="10"><inline-graphic xlink:href="elife-56416-inf1.tif"
+                mimetype="image" mime-subtype="tiff"/></th>
+            </tr>
+            . . .
 ```
 
 Box with a figure.
