@@ -368,5 +368,18 @@ Appendix figure with source data, figure supplement and video supplement.
 </fig-group>
 ```
 
+Author response image.
+
+```markup
+<fig id="sa2fig1">
+    <label>Author response image 1.</label>
+    <caption>
+        <title>Quantification of the vascular area fraction in 3D matrices embedding
+        a co-culture of VECs with fibroblasts or iSMCs (Student’s t-test with p=0.61).</title>
+    </caption>
+    <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-54383-resp-fig1.tif"/>
+</fig>
+```
+
 
 
