@@ -6,6 +6,10 @@ description: >-
 
 # Article assets
 
+{% hint style="info" %}
+
+{% endhint %}
+
 ## What is an asset?
 
 The term 'asset' refers to a figure, video, table or file associated with an article. These items are used to enhance the text of the article, providing illustration, raw data, or the means to replicate the research.
@@ -381,5 +385,5 @@ Author response image.
 </fig>
 ```
 
-
+## Changelog
 
