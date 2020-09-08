@@ -18,7 +18,7 @@ This page will document the current allowed assets for eLife articles and the fi
 
 ### Main text assets
 
-The following assets appear within the main text of an article. Most of these should be placed after the paragraph in which their first citation in the text appears \(unless there is a specific layout reason not to do this e.g. it would disrupt the flow of a mathematical derivation\). Anything marked 'inline', however, should appear at the point it is placed in the authors' submitted article file.
+The following assets appear within the main text of an article. Top-level assets should be placed after the paragraph in which their first citation in the text appears \(unless there is a specific layout reason not to do this e.g. it would disrupt the flow of a mathematical derivation\). Child-assets \(e.g. figure supplements\) are grouped with their parent and have no relation to their in-text citations. Anything marked 'inline' should appear at the point it is placed in the authors' submitted article file.
 
 | Asset label | XML ID | File name |
 | :--- | :--- | :--- |
@@ -52,6 +52,7 @@ The following assets appear in the 'Additional information' section at the back 
 | Asset label | XML ID | File name |
 | :--- | :--- | :--- |
 | **Supplementary file 1.** | supp1 | elife-12345-supp1 |
+| **Audio file 1.** | supp1 | elife-12345-supp1 |
 | **Source code 1.** | scode1 | elife-12345-code1 |
 | **Source data 1.** | sdata1 | elife-12345-data1 |
 | **Reporting standard 1.** | repstand1 | elife-12345-repstand1 |
