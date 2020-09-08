@@ -311,3 +311,62 @@ Additional files section with source code, supplementary files, audio files and 
     </sec>
 ```
 
+Appendix figure with source data, figure supplement and video supplement.
+
+```markup
+<fig-group>
+    <fig id="app8fig1" position="float">
+        <label>Appendix 8—figure 1.</label>
+        <caption>
+            <title>Prediction errors for the odor-trail mouse dataset from
+            <xref ref-type="bibr" rid="bib72">Mathis et al. (2018)</xref> using the
+             original implementation of the DeepLabCut model (<xref ref-type="bibr"
+             rid="bib72">Mathis et al., 2018</xref>; <xref ref-type="bibr" rid="bib78">
+             Nath et al., 2019</xref>) and our modified version of this model implemented
+             in DeepPoseKit.</title>
+            <p>Mean prediction error is slightly lower for the DeepPoseKit implementation,
+            but there is no discernible difference in variance. These results indicate
+            that the models achieve nearly identical prediction accuracy despite modification.</p>
+            <p>
+                <supplementary-material id="app8fig1sdata1">
+                    <label>Appendix 8—figure 1—source data 1.</label>
+                    <caption>
+                        <title>Raw prediction errors for our DeepLabCut model
+                        (<xref ref-type="bibr" rid="bib72">Mathis et al., 2018</xref>)
+                         reimplemented in DeepPoseKit in <xref ref-type="fig" rid="app8fig1">
+                         Appendix 8—figure 1</xref>.</title>
+                        <p>See 'Materials and methods’ for details.</p>
+                    </caption>
+                    <media mime-subtype="octet-stream" mimetype="application" xlink:href="elife-47994-app8-fig1-data1.csv"/>
+                </supplementary-material>
+            </p>
+            </caption>
+            <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-47994-app8-fig1.tif"/>
+    </fig>
+    <media id="app8fig1video1" mime-subtype="mp4" mimetype="video" xlink:href="elife-47994-fig1-video1.mp4">
+        <label>Appendix 8—figure 1—video 1.</label>
+        <caption>
+            <title>A video comparison of the tracking output of our implementation
+            of the DeepLabCut model (<xref ref-type="bibr" rid="bib72">Mathis et
+            al., 2018</xref>) in DeepPoseKit vs. the original implementation from
+            <xref ref-type="bibr" rid="bib72">Mathis et al. (2018)</xref> and <xref
+             ref-type="bibr" rid="bib78">Nath et al. (2019)</xref>.</title>
+        </caption>
+    </media>
+    <fig id="app8fig1s1" position="float" specific-use="child-fig">
+        <label>Appendix 8—figure 1—figure supplement 1.</label>
+        <caption>
+            <title>Plots of the predicted output for <xref ref-type="video"
+            rid="app8fig1video1">Appendix 8—figure 1—video 1</xref> comparing our
+            implementation of the DeepLabCut model (<xref ref-type="bibr" rid="bib72">
+            Mathis et al., 2018</xref>) in DeepPoseKit <italic>vs. </italic>the original
+            implementation from <xref ref-type="bibr" rid="bib72">Mathis et al. (2018)</xref>,
+            and <xref ref-type="bibr" rid="bib78">Nath et al. (2019)</xref>.</title>
+        </caption>
+        <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-47994-app8-fig1-figsupp1.tif"/>
+    </fig>
+</fig-group>
+```
+
+
+
