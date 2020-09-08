@@ -121,86 +121,112 @@ The following assets are allowed in author responses.
 
 ## XML structure
 
+Figure with source data and figure supplement.
+
 ```markup
 <fig-group>
     <fig id="fig1" position="float">
         <label>Figure 1.</label>
         <caption>
             <title>Patterning model and HetL/HetR interaction.</title>
-                <p>(<bold>A</bold>) Self-organized patterning in <italic>Nostoc</italic>
-                            Heterocysts are presented in green. Vegetative cells in brown. The width
-                            of the shade around the cells represents the strength of the
-                            activation/inhibition. Processed PatS is framed by a star.
-                                (<bold>B</bold>) (<italic>upper</italic>) Bacterial two hybrid assay
-                            between HetL and HetR. BTH101 strain was transformed with pKT25-hetL and
-                            pUT18C-HetR, β-galactosidase activities were measured as described in
-                            section ‘Materials and methods’ and were expressed in Miller units.
-                            Strains producing the T18 with T25 (control -), T25-HetR with T18 (HetR)
-                            and T25 with T18-HetL (HetL) served as negative controls. Strains
-                            producing T18-Zip and T25-Zip served as positive control (control +).
-                            Error bars indicate standard deviation. The characteristics of the
-                            fusion proteins used in this assay are indicated below: HetR-HetR:
-                            T25-HetR/T18-HetR; HetL-HetL: T25-HetL/T18-HetL; HetL-HetR:
-                            T25-HetL/T18-HetR; HetL-HetRhood: T25-HetL/HetRhood-T18; HetL:
-                            T25-HetL/T18; HetR: T25/T18-HetR. (<italic>lower</italic>) Domains
-                            organization of HetR: Helix-turn-helix domain, flap domain and hood
-                            domain. (<bold>C</bold>) BLi assay between HetL and HetR. 2.2 µM of
-                            biotinylated HetR was loaded onto streptavidin biosensors. A 30 s
-                            baseline in PBS was performed before a 120 s association step with
-                            various concentrations of HetL at 2.5, 5, 10 and 20 µM followed by a 120
-                            s dissociation step. Each curve represents the average of two
-                            experiments minus the control experiment. As a negative binding control,
-                            HetL 20 µM was added to the empty biosensor devoid of HetR.
-                                (<bold>D</bold>) EMSA assay of HetR (1 µM) with the
-                                <italic>hetP</italic> promoter (50 nM) in the presence of or PatS-5
-                            or PatS-6 (1 µM) and HetL (4 µM). The <italic>hetP</italic> promoter
-                            incubated alone served as negative control (free DNA) and HetL plus DNA
-                            as a specific control for the binding activity of HetR.</p>
-                        <p><supplementary-material id="fig1sdata1">
-                                <label>Figure 1—source data 1.</label>
-                                <caption>
-                                    <title>Source data to <xref ref-type="fig" rid="fig1">Figure
-                                            1B</xref>.</title>
-                                    <p>(upper) Bacterial two hybrid assay between HetL and HetR.
-                                        BTH101 strain was transformed with pKT25-HetL and
-                                        pUT18C-HetR, β-galactosidase activities were measured.</p>
-                                </caption>
-                                <media mime-subtype="xlsx" mimetype="application"
-                                    xlink:href="elife-59190-fig1-data1-v2.xlsx"/>
-                            </supplementary-material></p>
-                        <p><supplementary-material id="fig1sdata2">
-                                <label>Figure 1—source data 2.</label>
-                                <caption>
-                                    <title>Source data to <xref ref-type="fig" rid="fig1">Figure
-                                            1C</xref>.</title>
-                                    <p>BLi assay between HetL and HetR. 2.2 µM of biotinylated HetR
-                                        was loaded onto streptavidin biosensors. A 30 s baseline in
-                                        PBS was performed before a 120 s association step with
-                                        various concentrations of HetL at 2.5, 5, 10 and 20 µM
-                                        followed by a 120 s dissociation step.</p>
-                                </caption>
-                                <media mime-subtype="xlsx" mimetype="application"
-                                    xlink:href="elife-59190-fig1-data2-v2.xlsx"/>
-                            </supplementary-material></p>
-                    </caption>
-                    <graphic mime-subtype="tiff" mimetype="image"
-                        xlink:href="elife-59190-fig1-v2.tif"/>
-                </fig>
-                <fig id="fig1s1" position="float" specific-use="child-fig">
-                    <label>Figure 1—figure supplement 1.</label>
+            <p>(<bold>A</bold>) Self-organized patterning in <italic>Nostoc</italic> 
+            Heterocysts are presented in green. Vegetative cells in brown. The width
+            of the shade around the cells represents the strength of the activation/
+            inhibition . . .</p>
+            <p>
+                <supplementary-material id="fig1sdata1">
+                    <label>Figure 1—source data 1.</label>
                     <caption>
-                        <title>Purified HetL and HetR proteins.</title>
-                        <p>(<italic>left</italic>) 1 µg purified proteins migrated in 4–20% gel
-                            (Nusep) colored by instant blue. (<italic>right</italic>) Anti-Histidine
-                            immunoblot analysis of 1 µg purified proteins.</p>
-                    </caption>
-                    <graphic mime-subtype="tiff" mimetype="image"
-                        xlink:href="elife-59190-fig1-figsupp1-v2.tif"/>
-                </fig>
-            </fig-group>
+                        <title>Source data to <xref ref-type="fig" rid="fig1">Figure 1B</xref>.</title>
+                        <p>(upper) Bacterial two hybrid assay between HetL and HetR. 
+                        BTH101 strain was transformed with pKT25-HetL and pUT18C-HetR,
+                         β-galactosidase activities were measured.</p>
+                     </caption>
+                     <media mime-subtype="xlsx" mimetype="application"
+                        xlink:href="elife-59190-fig1-data1-v2.xlsx"/>
+                </supplementary-material>
+            </p>
+        </caption>
+        <graphic mime-subtype="tiff" mimetype="image"
+            xlink:href="elife-59190-fig1-v2.tif"/>
+    </fig>
+    <fig id="fig1s1" position="float" specific-use="child-fig">
+        <label>Figure 1—figure supplement 1.</label>
+        <caption>
+            <title>Purified HetL and HetR proteins.</title>
+            <p>(<italic>left</italic>) 1 µg purified proteins migrated in 4–20% gel
+            (Nusep) colored by instant blue. (<italic>right</italic>) Anti-Histidine
+            immunoblot analysis of 1 µg purified proteins.</p>
+        </caption>
+        <graphic mime-subtype="tiff" mimetype="image"
+            xlink:href="elife-59190-fig1-figsupp1-v2.tif"/>
+    </fig>
+</fig-group>
 ```
 
+Table with source data.
 
+```markup
+<table-wrap id="table1" position="float">
+    <label>Table 1.</label>
+    <caption>
+        <title>Percentage of heterocysts formed by different strains used in this
+        study after combined nitrogen starvation.</title>
+        <p>The number of the filaments analyzed was 60–100 in average.</p>
+        <p>
+            <supplementary-material id="table1sdata1">
+                <label>Table 1—source data 1.</label>
+                <caption>
+                    <title>Raw data for heterocyst intervals and percentages.</title>
+                </caption>
+                <media mime-subtype="xlsx" mimetype="application"
+                    xlink:href="elife-59190-table1-data1-v2.xlsx"/>
+            </supplementary-material>
+        </p>
+    </caption>
+    <table frame="hsides" rules="groups">
+        <thead>
+            <tr>
+                <th valign="top">Strain and condition</th>
+                <th valign="top">% of heterocysts, 24H after <break/>nitrogen starvation</th>
+                <th valign="top">Mean interval between<break/>two heterocysts</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td valign="top">Wild type</td>
+                <td valign="top">9.1 ± 1.6</td>
+                <td valign="top">10.7 ± 1.3</td>
+            </tr>
+            <tr>
+                <td valign="top">WT/<italic>PpetE-patS</italic></td>
+                <td valign="top">0</td>
+                <td valign="top">ND</td>
+            </tr>
+            <tr>
+                <td valign="top">WT and PatS-5 addition</td>
+                <td valign="top">0</td>
+                <td valign="top">ND</td>
+            </tr>
+            <tr>
+                <td valign="top">WT/<italic>PpetE-hetL</italic>[D151A]</td>
+                <td valign="top">10.5 ± 0.6</td>
+                <td valign="top">9.1 ± 1.6</td>
+            </tr>
+            <tr>
+                <td valign="top">WT/<italic>PpetE-patS PpetE-hetL</italic></td>
+                <td valign="top">11.1 ± 2.4</td>
+                <td valign="top">6.1 ± 1.8</td>
+            </tr>
+            <tr>
+                <td valign="top">WT/<italic>PpetE-patS PpetE-hetL</italic>[D151A]</td>
+                <td valign="top">0</td>
+                <td valign="top">ND</td>
+            </tr>
+        </tbody>
+    </table>
+</table-wrap>
+```
 
 
 
