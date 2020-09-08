@@ -7,7 +7,7 @@ description: >-
 # Article assets
 
 {% hint style="info" %}
-
+For the changelog, click [**here**](./#changelog).
 {% endhint %}
 
 ## What is an asset?
