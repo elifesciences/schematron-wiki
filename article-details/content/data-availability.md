@@ -182,6 +182,22 @@ A variation on this issue occurs when the authors do not have the final details 
 
 In these cases, the same author query is appropriate and the data availability statement will need to be updated once the authors have provided the full information.
 
+### GitHub repositories entered as datasets
+
+Sometimes, authors may enter the details for GitHub repositories as generated datasets. This will only be appropriate if there is data on those repositories instead or, or in addition to, code.
+
+In the following example, there is no way to tell whether this is the case from the provided details:
+
+![](../../.gitbook/assets/screen-shot-2020-09-08-at-12.01.57.png)
+
+However, by accessing the repository page, the presence of data can be discerned from the description and from the folder names:
+
+![](../../.gitbook/assets/screen-shot-2020-09-08-at-11.58.06.png)
+
+If it is clear from either of these items in the repository that it contains data, it is acceptable to retain the dataset entry. In cases where it is unclear whether the repository contains data, the author should be queried to clarify the issue:
+
+* Does this repository contain source data as well as or instead of source code for your article?
+
 ### Journal articles entered as datasets
 
 Some authors misunderstand the instructions around datasets and include citations of journal articles in the data availability section, thinking that they need to include mentions of previously published articles from which they have taken data:
