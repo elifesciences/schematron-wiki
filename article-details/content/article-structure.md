@@ -163,6 +163,10 @@ There are no rules for headings in review articles. The article structure should
 
 There are no rules for headings in feature content. The article structure should follow that indicated in the exported article file.
 
+If a feature article contains the heading 'Note' at the end of the text, this should be tagged as a Level 1 heading and should use the following alternative style in the PDF:
+
+![Example of alternative Level 1 heading for notes in feature content PDFs](../../.gitbook/assets/screen-shot-2020-09-08-at-10.13.03.png)
+
 ### Corrections and retractions
 
 Corrections and retractions will not usually contain any section headings. Where they do, the article structure should follow that indicated in the exported article file.
