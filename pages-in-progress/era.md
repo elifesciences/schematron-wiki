@@ -153,7 +153,7 @@ Date format is `YYYY-MM-DDTHH-mm-ssZ`, where `Y` is a digit for the year, `M` is
 
 ### 3. Creating a pull request and merging the code
 
-1. Publish your new branch with these changes, and create a Pull request with the master branch. Depending on the permissions set up for your GitHub account and for this repo, you may need to request a review from a dev, who will also need to merge the PR.
+1. Publish your new branch with these changes, and create a Pull request with the master branch. Depending on the permissions set up for your GitHub account and for this repo, you currently need to request a review from a dev, who will also need to merge the PR \(as you will not have the permissions to do so\).
 2. Once the branch has been merged with the master branch, your branch can be deleted from your local clone.
 
 ### 4. Running the Jenkins pipeline
