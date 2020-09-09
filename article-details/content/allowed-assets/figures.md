@@ -721,6 +721,32 @@ Move the relevant part of text out of the legend into the title.
 
 If this warning appears at post-author stages, the author will need to be asked for this via email.
 
+#### fig-title-test-7
+
+**Warning**: _title for XXXXXX is longer than 250 characters. Is it a caption instead?_
+
+**Action:** This warning will fire if a title is longer than 250 characters. This will usually happen if the figure caption has been pulled into the figure title. Compare with the submission to see whether this is the case, and correct accordingly. Additionally, if no title has been provided for the figure in the submission, leave the following query: 
+
+* Please provide the title for this figure.
+
+If this warning appears at post-author stages, the author will need to be asked for this via email.
+
+#### fig-title-test-8
+
+**Warning**: _title for XXXXXX contains XXXXXX sentences. Should the sentence\(s\) after the first be moved into the caption? Or is the title itself a caption \(in which case, please ask the authors for a title\)?_
+
+**Action:** This warning will fire if a title has more than one sentence. This will usually happen if the figure caption has been pulled into the figure title. Compare with the submission to see whether this is the case, and correct accordingly. Additionally, if no title has been provided for the figure in the submission, leave the following query: 
+
+* Please provide the title for this figure.
+
+If this warning appears at post-author stages, the author will need to be asked for this via email.
+
+#### fig-panel-test-1
+
+**Warning**: _Bold text in the caption for XXXXXX starts and/or ends with punctuation - XXXXXX - is that correct? Or should the punctuation be unbolded?_
+
+**Action:** This warning will fire if there is bold text in a caption beginning or ending with the following characters: `)(.,`. For example, if a caption includes **'\(A\)**'. Only the 'A' should be formatted as a figure panel so the opening and closing brackets should have bold formatting removed. If this fires on anything other than a figure panel, check against the original submission to see whether the authors intended this, and correct accordingly. 
+
 ### XML structure checks
 
 These checks relate to the XML structure of figures and figure supplements. ‌X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see [**below**](figures.md#xml-structure).
@@ -860,6 +886,18 @@ XML of a figure with no figure supplements or videos \(and therefore, no fig-gro
 **Error:** _figures in appendices must have an @id in the format app0fig0. XXXXXX does not conform to this._
 
 **Action:** This error will fire __if an appendix figure has an ID in a format other than app0fig0 \(where 0 is one or more digits\). Exeter will need to fix this.
+
+#### app-fig-id-test-2
+
+**Warning**: _Chemical structures must have an @id in the format app0chem0. XXXXXX does not conform to this._
+
+**Action:** This error will fire __if an appendix figure has an ID in a format other than app0chem0 \(where 0 is one or more digits\). Exeter will need to fix this.
+
+#### app-fig-id-test-3
+
+**Warning**: _Schemes must have an @id in the format app0scheme0. XXXXXX does not conform to this._
+
+**Action:** This error will fire __if an appendix figure has an ID in a format other than app0scheme0 \(where 0 is one or more digits\). Exeter will need to fix this.
 
 #### app-fig-sup-id-test
 
