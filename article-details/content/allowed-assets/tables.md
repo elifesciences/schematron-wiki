@@ -814,6 +814,26 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 **Action**: This will fire at all stages if the title for a table ends with 'vs.' which suggests it has been split between the title and the legend. Move the relevant part of text out of the legend into the title.
 
+#### table-title-test-5
+
+**Warning**: _The title for XXXXXX is longer than 250 characters. Is it a caption instead?_
+
+**Action**: This warning will fire at all stages if a title is longer than 250 characters. This will usually happen if the table caption has been pulled into the table title. Compare with the submission to see whether this is the case, and correct accordingly. At pre author stages, if no title has been provided for the table in the submission, leave the following query:
+
+* Please provide the title for this table.
+
+If this warning appears at post-author stages, the author will need to be asked for this via email.
+
+#### table-title-test-6
+
+**Warning**: _The title for XXXXXX contains XXXXXX sentences. Should the sentence\(s\) after the first be moved into the caption? Or is the title itself a caption \(in which case, please ask the authors for a title\)?_
+
+**Action**: This warning will fire at all stages if a title has more than one sentence. This will usually happen if the table caption has been pulled into the table title. Compare with the submission to see whether this is the case, and correct accordingly. At pre author stages, if no title has been provided for the table in the submission, leave the following query:
+
+* Please provide the title for this table.
+
+If this warning appears at post-author stages, the author will need to be asked for this via email.
+
 ### **XML structure checks**
 
 These checks relate to the XML structure of tables. X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see [**below**](tables.md#xml-structure).
@@ -1473,4 +1493,5 @@ Vertical cell alignment is defined using the `valign` attribute.
 * Updated 2020-08-03 to include table-test-3.
 * Updated 2020-09-02 to include pre-table-title-test-1, final-table-title-test-1, table-title-test-2, table-title-test-3 and table-title-test-4.
 * Updated 2020-09-07 to include information on inline images.
+* Updated 2020-09-09 to include table-title-test-5 and table-title-test-6.
 
