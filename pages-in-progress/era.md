@@ -18,6 +18,10 @@ More information \(more eloquently put\) in [**this blog post**](https://elifesc
 
 Note that ERAs used to be called RDSs \(which stood for Reproducible Document Stack\). While the two terms aren't necessarily interchangeable, unless specified, if someone refers to RDS they very likely mean ERA.
 
+## Who are Stencila
+
+Stencila is the organisation which developed the suite of tools used to enrich an article. They are \(currently\) a small organisation based all across the world. Articles are converted and enriched on [**Stencila Hub**](https://hub.stenci.la/open/\). They are also QC'd, and snapshot there too.
+
 ## Production's role in ERA
 
 Production carry out three roles in the ERA process:
@@ -38,6 +42,10 @@ Production carry out three roles in the ERA process:
 8. **Publication**: The Production team member will publish the ERA on the eLife site \(see [**Publishing an ERA**](era.md#publishing-an-era) below\).
 
 ## ERA QC
+
+All eLife ERAs are hosted on Stencila Hub. When you view a published ERA on the eLife website you are seeing an [**iframe**](https://www.w3schools.com/html/html_iframe.asp) which includes the article as it is rendered in Stencila Hub. in other words, there is no difference in display between an ERA snapshot on Stencila Hub, and the same ERA snapshot published on the eLife website.
+
+As a result, the production QC can be carried out in Stencila Hub, without the need to check it on a continuum instance \(unlike VoR eLife articles\).
 
 * Check that each of the executable items runs without failures \(by clicking the play button. You could also try editing the code to make sure \[changing colours etc.\]\).
 * If any figures are drastically different from the original, then check these with the authors. There may, however, be a perfectly acceptable reason why they are different for example if the Figure is generated from shuffled data \(and therefore _intended_ to give a different result each time\). **\[Provide example from Nolan paper when possible\]**
