@@ -60,7 +60,7 @@ When an article is ERA'd, eLife JATS XML is converted to [**Schema.org**](https:
 
 Note, however, that during the 'building' process \(the process by which authors make their article executable\) it may be possible for this content to be added back in manually.
 
-Below are lists of known supported, and unsupported content. This is to make you aware of the known issues when carrying out your QC, so that you can react accordingly \(either by ignoring the problem and proceeding with publication, or by asking the authors to correct the problem manually\).
+Below are lists of known supported, and unsupported content. This is to make you aware of the known issues when carrying out your QC, so that you can react accordingly. Any issues which require development work by Stencila should probably not hold up publication \(unless it's critical to the understanding of the content - which you should be able to determine with the help of the author\(s\)\).
 
 ### Known supported content
 
