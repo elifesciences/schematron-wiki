@@ -47,6 +47,8 @@ All eLife ERAs are hosted on Stencila Hub. When you view a published ERA on the 
 
 As a result, the production QC can be carried out in Stencila Hub, without the need to check it on a continuum instance \(unlike VoR eLife articles\).
 
+To QC an ERA, look at the snapshot in Stencila Hub and do the following:
+
 * Check that each of the executable items runs without failures \(by clicking the play button. You could also try editing the code to make sure \[changing colours etc.\]\).
 * If any figures are drastically different from the original, then check these with the authors. There may, however, be a perfectly acceptable reason why they are different for example if the Figure is generated from shuffled data \(and therefore _intended_ to give a different result each time\). **\[Provide example from Nolan paper when possible\]**
 
