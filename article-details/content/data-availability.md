@@ -184,7 +184,7 @@ In these cases, the same author query is appropriate and the data availability s
 
 ### GitHub repositories entered as datasets
 
-Sometimes, authors may enter the details for GitHub repositories as generated datasets. This will only be appropriate if there is data on those repositories instead or, or in addition to, code.
+Sometimes, authors may enter the details for GitHub repositories as generated datasets. This will only be appropriate if there is data on those repositories instead of, or in addition to, code.
 
 In the following example, there is no way to tell whether this is the case from the provided details:
 
@@ -194,7 +194,7 @@ However, by accessing the repository page, the presence of data can be discerned
 
 ![](../../.gitbook/assets/screen-shot-2020-09-08-at-11.58.06.png)
 
-If it is clear from the entered details or the repository pagethat data is present, it is acceptable to retain the dataset entry. In cases where it is unclear whether the repository contains data, the author should be queried to clarify the issue:
+If it is clear from the entered details or the repository page that data is present, it is acceptable to retain the dataset entry. In cases where it is unclear whether the repository contains data, the author should be queried to clarify the issue:
 
 * Does this repository contain source data as well as or instead of source code for your article? If no data is present, this dataset entry will need to be removed.
 
