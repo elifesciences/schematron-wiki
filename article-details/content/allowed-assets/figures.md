@@ -233,13 +233,27 @@ However, this can sometimes result in figures being placed in the middle of disp
 
 Source data is often associated with figures and figure supplements. Each source data or source code file should be linked with the appropriate figure or figure supplement. For example, if a source data \(or code\) file is labelled Figure 1_—_source data 1 but the title or legend makes it clear that the data is linked to a figure supplement, it should be relabelled as Figure 1_—_Figure supplement X_—_source data 1 \(or source code as appropriate\). If the source data or code is linked to multiple figures and figure supplements however, it should become source data or code for the whole article. See more about source data and source code here \(links to be added\).
 
-## Adapted and reproduced images
+## Figure adaptations and reproductions
+
+### Adapted figures
 
 Figures and figure supplements \(or panels within these\) may be 'adapted' from previously published content. This usually means that the authors are not reproducing anything directly but are instead redrawing a figure or simply using the same data to create new content. However, as this term is used inconsistently by authors, eLife needs to determine whether the figure is an adaptation/redrawing or a reproduction, either by comparing the image to the original if possible, or by asking the authors to confirm this. If the figure is a clear adaptation or redrawing, and as long as the authors provide a suitable citation and state clearly, for example, that “Panel A in Figure 2 has been adapted from Smith and Jones, 2015”, no further action is required.
 
-If however, the figure has been reproduced, or if the legend for a figure or figure supplement states that the image is ‘reprinted from’ or ‘reproduced from’, we may need to add licensing information for the reproduced elements. This will usually apply to panels within figures instead of whole figures.
+### Reproduced figures
 
-If the previously published content was published under a [**CC BY**](https://creativecommons.org/licenses/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, the work must be properly attributed and credited \(provide full citation details and license\). If this matches the license of the article \(check the permissions-info message in the xml\), it does not need to be tagged differently in the underlying XML because it is following the license of the article. If the article license is CC BY but the reproduced image is CC0, no permissions need to be added as no copyright is retained with CC0 licenses. However, if the article you are working on is CC0, but the reproduced figure is CC BY, this needs to be indicated in the underlying XML as the authors/creators still retain copyright. This requires specific tagging - for example:
+If a figure has been reproduced, or if the legend for a figure or figure supplement states that the image is ‘reprinted from’, ‘reproduced from’ \(or anything similar\), we may need to add licensing information for the reproduced elements. This will usually apply to panels within figures instead of whole figures.
+
+The editorial team check figure permissions as part of submission quality checks. They will leave a note for Exeter if permissions information needs to be added to the XML.
+
+#### Reproductions from CC BY-licensed content
+
+All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license. The CC BY 4.0 license allows content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions. 
+
+If an article has reproduced figures from content that was previously published under a [**CC BY**](https://creativecommons.org/licenses/) \(2, 3 or 4\) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, that content must be properly attributed and credited \(provide full citation details and license\). We may also need to add extra tagging. Check the license of the article \(you can find this from the permissions-info message in Oxygen\) and the license of the previously published content. 
+
+* If the license of the previously published content matches the license of the article, no additional tagging needs to be added.
+* If the article license is CC BY but the reproduced image is CC0, no additional tagging needs to be added.
+* If the article license is CC0 but the reproduced figure is CC BY, this needs to be indicated in the underlying XML as the authors/creators still retain copyright of the original figure. For example:
 
 ```markup
 <permissions>
@@ -254,11 +268,30 @@ If the previously published content was published under a [**CC BY**](https://cr
 </permissions>
 ```
 
-If the authors chose to exactly reproduce a figure or panel from a previously published, non-open access/non-CC BY 2, 3, or 4 article in part or in whole, it will need to be published under a separate license. This is because the original publication will have been published under a license that retains copyright. An article published in Nature, for example, will be copyright to the Nature Publishing Group, and articles published in Science will be copyright to the American Association for the Advancement of Science and so on. If eLife is to reproduce the contents of these articles, it must make it clear that the publisher retains copyright on that content, and that it is therefore not covered by the CC BY or CC0 license that covers the rest of the eLife article. The same issue applies when authors incorporate images from other copyrighted media into their figures \(e.g. if they use film stills or artwork\). The authors will need to confirm they have permission from the copyright holders to reproduce the figure or figure panel. Note: any reproductions from CC BY-SA , CC BY-NC or CC BY-SA licensed content must also be published under a separate license, as these licenses are not as permissive as CC BY or CC0 \(the licenses which eLife uses\).
+Note: if the reproduced image is CC BY-SA , CC BY-NC or CC BY-SA, this also needs to be indicated in the underlying XML as these licenses are not as permissive as CC BY or CC0. For example, in 52371, the following text was present in a caption:
 
-If the authors chose to reproduce copyrighted images in their figures, they must state what has been reproduced in the legend. In addition to this, a permissions statement must be added to the figure in the XML giving the license details for the reproduced image. The permissions text may have been provided already as part of the figure or figure supplement legend. If so, it should be removed and moved into the permissions tagging.
+> Photo credit: Marine snail \(Original photo by Katja Schulz, courtesy of Wikipedia, Creative Commons Attribution: Creative Commons, Attribution 2.0 Generic license\); Chambered nautilus \(Original photo by Profbergert, courtesy of Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported license\)
 
-The editorial team check figure permissions as part of submission quality checks. They will leave a note for Exeter if permissions information needs to be added to the XML, for example:
+No tagging needed to be added for the marine snail image as this was published under a CC BY 2.0 license. However, the chambered nautilus image needed additional tagging as this was published under a CC BY-SA license. The authors were asked for the copyright year and the following tagging was added:
+
+```markup
+<permissions>
+    <copyright-statement>© Berger, 2007</copyright-statement>
+    <copyright-year>2007</copyright-year>
+     <copyright-holder>Lee Berger</copyright-holder>
+     <license>
+        <ali:license_ref>https://creativecommons.org/licenses/by-sa/3.0/</ali:license_ref>
+        <license-p>Chambered nautilus image courtesy of Lee Berger. Published under a <ext-link ext-link-type=“uri” xlink:href=“https://creativecommons.org/licenses/by-sa/3.0/”>CC BY SA 3.0 unported license.</ext-link>
+        </license-p>
+     </license>
+</permissions>
+```
+
+#### Reproductions from non-CC BY-licensed content
+
+If authors chose to exactly reproduce a figure or panel from a previously published, non-open access/non-CC BY 2, 3, or 4 article in part or in whole, it will need to be published under a separate license. This is because the original content will have been published under a license that retains copyright. An article published in Nature, for example, will be copyright to the Nature Publishing Group, and articles published in Science will be copyright to the American Association for the Advancement of Science and so on. For eLife to reproduce the content, it must be made clear that the original publisher retains copyright, and it is not covered by the CC BY or CC0 license that applies to the rest of the eLife article. The same issue applies when authors incorporate images from other copyrighted media into their figures \(e.g. film stills or artwork\). The authors will need to confirm they have permission from the copyright holders to reproduce the figure or figure panel. They must also state what has been reproduced in the legend and a permissions statement will need to be added in the XML giving the license details for the reproduced image. The permissions text may have been provided already as part of the figure or figure supplement legend. If so, it should be removed and moved into the permissions tagging.
+
+The editorial team may have left a note for Exeter if permissions information needs to be added to the XML, for example:
 
 > FAO Exeter: Figure Permissions
 >
@@ -286,8 +319,6 @@ Panel A is reprinted from
 ![Figure permissions display in the PDF](../../../.gitbook/assets/screenshot-2020-07-22-at-12.59.21.png)
 
 ![Figure permissions display on the eLife website](../../../.gitbook/assets/screenshot-2020-07-22-at-13.00.02.png)
-
-If the permissions information is also in the caption, this should then be deleted so the text is not duplicated. 
 
 If the note from editorial says a figure does not require permissions, these should still be checked. If it is not possible to check \(because the figure is from a book for example\), this doesn't need to be followed up further. However, where possible, figure permissions should be double-checked regardless of what the note says.
 
