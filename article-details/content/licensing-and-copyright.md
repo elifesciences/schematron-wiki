@@ -1,10 +1,108 @@
 # Licensing and copyright
 
+## Article-level licensing
+
+All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, which applies to the whole article including all assets. The CC BY 4.0 license allows content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions. 
+
+## Asset-level licensing
+
+
+
 ## Schematron checks
 
 ### Content checks
 
 These checks relate to the content of figures and figure supplements. X or XXXXXX refers to quoted text which will change depending on the article.
+
+#### permissions-info
+
+**Info**: _This article is licensed under aXXXXXX license. XXXXXX_
+
+**Action**: 
+
+#### permissions-notification
+
+**Info**: _XXXXXX has permissions - 'XXXXXX'._
+
+**Action**: 
+
+#### permissions-parent
+
+**Error**: _permissions is not allowd as a child of XXXXXX_
+
+**Action**: 
+
+#### test-permissions-presence
+
+**Error**: _There must be one and only one permissions element in the article-meta. Currently there are XXXXXX_
+
+**Action**: 
+
+#### permissions-test-1
+
+**Error**: _permissions must contain copyright-statement._
+
+**Action**: 
+
+#### permissions-test-2
+
+**Error**: _permissions must contain copyright-year in the format 0000. Currently it is XXXXXX_
+
+**Action**: 
+
+#### permissions-test-3
+
+**Error**: _permissions must contain copyright-holder._
+
+**Action**: 
+
+#### permissions-test-4
+
+**Error**: _permissions must contain an ali:free\_to\_read element._
+
+**Action**: 
+
+#### permissions-test-5
+
+**Error**: _permissions must contain license._
+
+**Action**: 
+
+#### permissions-test-6
+
+**Error**: _copyright-year must match the contents of the year in the pub-date\[@publication-format='electronic'\]\[@date-type='publication'\]. Currently, copyright-year=XXXXXX and pub-date=XXXXXX._
+
+**Action**: 
+
+#### permissions-test-7
+
+**Error**: _copyright-holder is incorrect. If the article has one author then it should be their surname. If it has two authors it should be the surname of the first, then ' and ' and then the surname of the second. If three or more, it should be the surname of the first, and then ' et al'. Currently it's XXXXXX_
+
+**Action**: 
+
+#### permissions-test-8
+
+**Error**: _copyright-statement must contain a concatenation of '© ', copyright-year, and copyright-holder. Currently it is XXXXXX when according to the other values it should be XXXXXX_
+
+**Action**: 
+
+#### permissions-test-9
+
+**Error**: _license does not have an @xlink:href which is equal to '_[http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/)_' or '_[http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/)_'._
+
+**Action**: 
+
+#### license-test-1
+
+**Error**: _license must contain ali:license\_ref._
+
+**Action**: 
+
+#### license-test-2
+
+**Error**: _license must contain one and only one license-p._
+
+**Action**: 
 
 #### reproduce-test-1
 
