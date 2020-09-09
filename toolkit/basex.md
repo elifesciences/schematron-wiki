@@ -111,7 +111,7 @@ return (
 ```
 
 * Modify the `$path` variable so that it points to the location of the XML file you want validated.
-* Modify the `$src` variable so that it points to the location of the src folder in your local cloned copy of the Schematron repo
+* Modify the `$src` variable so that it points to the location of the src folder in your local cloned copy of the Schematron repo.
 * If needed, the `$schema` variable can be changed so that the final version of the Schematron is used instead of the pre-author version, e.g.:
 
 ```text
