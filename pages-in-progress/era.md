@@ -12,7 +12,7 @@ For change log, click [**here**](../article-details/content/allowed-assets/figur
 
 An Executable Research Article is an article in which the code and data have been included as executable assets. A reader can make edits to this information, and execute the code in the browser to regenerate/manipulate figures, tables, and code blocks.  
 
-See [**here**](https://elifesciences.org/articles/30274/executable) and [**here**](https://elifesciences.org/articles/52258/executable) for an examples.
+See [**here**](https://elifesciences.org/articles/30274/executable) and [**here**](https://elifesciences.org/articles/52258/executable) for examples.
 
 More information \(more eloquently put\) in [**this blog post**](https://elifesciences.org/labs/dc5acbde).
 
@@ -34,13 +34,13 @@ Production carry out three roles in the ERA process:
 4. **Building**: Using [**Stencilla Hub**](https://hub.stenci.la/open/), the author will build the article \(either by downloading the files in a supported format, updating those files locally and re-uploading; or by using Stencila’s Google Document Add-on \[which will be available at some time after launch\]\). They will add any code and data needed to make the article executable.
 5. **Snapshot-ing**: The authors will ‘snapshot’ their ERA in Stencila Hub. This means saving a version of the article which is immutable \(will not be edited further\) for the purposes of publication. 
 6. **Sharing**: The authors will share their ERA snapshot with the eLife production team. This will likely be in the form of an email from Stencila Hub containing a link to the article. \(There is a button in Stencila Hub which the author\(s\) can press to initiate this step\).
-7. **QC**: A production team member will compare the ERA on Stencila Hub against the eLife VoR article. If any edits need to be made, these will have to be done by the authors in Stencila Hub, and after having done so they will have to send over a separate snapshot link. See **ERA QC** section below
-8. **Publication**: The Production team member will publish the ERA on the eLife site \(see **Publishing an ERA** below\).
+7. **QC**: A production team member will compare the ERA on Stencila Hub against the eLife VoR article. If any edits need to be made, these will have to be done by the authors in Stencila Hub, and after having done so they will have to send over a separate snapshot link. See [**ERA QC**](era.md#era-qc) section below
+8. **Publication**: The Production team member will publish the ERA on the eLife site \(see [**Publishing an ERA**](era.md#publishing-an-era) below\).
 
 ## ERA QC
 
 * Check that each of the executable items runs without failures \(by clicking the play button. You could also try editing the code to make sure \[changing colours etc.\]\).
-* If any figures are drastically different from the original, then check these with the authors. There may, however, be perfectly acceptable reason why they are different for example if the Figure is generated from shuffled data \(and therefore _intended_ to give a different result each time\). **\[Provide example from Nolan paper when possible\]**
+* If any figures are drastically different from the original, then check these with the authors. There may, however, be a perfectly acceptable reason why they are different for example if the Figure is generated from shuffled data \(and therefore _intended_ to give a different result each time\). **\[Provide example from Nolan paper when possible\]**
 
 **\[To be fleshed out\]**
 
