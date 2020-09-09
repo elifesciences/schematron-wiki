@@ -17,7 +17,23 @@ If, for whatever reason, the [**Schematron validator**](https://basex-validator-
 repo:install('https://github.com/Schematron/schematron-basex/raw/master/dist/schematron-basex-1.2.xar')
 ```
 
-* Paste this XQuery into the GUI:
+* Find the BaseX folder in your local machine. Open the file in `.../basex/repo/http-github.com-Schematron-schematron-basex-1.2/content/iso-schematron/iso_svrl_for_xslt2.xsl`
+
+and edit the following element:
+
+```markup
+<xsl:param name="allow-foreign">false</xsl:param>
+```
+
+to:
+
+```markup
+<xsl:param name="allow-foreign">true</xsl:param>
+```
+
+Again, this only needs to be done once. 
+
+* Open the BaseX GUI \(basex/bin/basexgui\) and paste this XQuery into the GUI:
 
 ```text
 import module namespace schematron = "http://github.com/Schematron/schematron-basex";
