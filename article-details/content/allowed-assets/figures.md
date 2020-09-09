@@ -408,19 +408,19 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 * Please provide the title for this figure.
 
-Compare with the original submission on EJP - If the caption element was present in the figure file or original manuscript submitted but missing in the XML this will need to be added. Exeter will need to fix this.
+Compare with the original submission on EJP - If the caption element was present in the figure file or original manuscript submitted but missing in the XML this will need to be added. Exeter support will need to fix this.
 
 #### final-fig-test-4
 
 **Error:** _XXXXXX has no title or caption \(caption element\)._
 
-**Action:** This warning will appear at the post-author stages if a figure has no title or caption element. Check whether an author query was added at pre-editing requesting this from the author. If this author query was not present, check the submitted manuscript file or figure file for the figure title. If this was not provided, the authors will need to be asked for this. Exeter will need to fix this when the information is provided.
+**Action:** This warning will appear at the post-author stages if a figure has no title or caption element. Check whether an author query was added at pre-editing requesting this from the author. If this author query was not present, check the submitted manuscript file or figure file for the figure title. If this was not provided, the authors will need to be asked for this. Exeter support will need to fix this when the information is provided.
 
 #### pre-fig-test-5
 
 **Warning:** _XXXXXX does not have a title._
 
-**Action:** This warning will fire at the pre-author stages if a figure has no title. Compare with the original submission on EJP - If the caption element was present in the figure file or original manuscript submitted but missing in the XML this will need to be added. Exeter will need to fix this.
+**Action:** This warning will fire at the pre-author stages if a figure has no title. Compare with the original submission on EJP - If the caption element was present in the figure file or original manuscript submitted but missing in the XML this will need to be added. Exeter support will need to fix this.
 
  If this has not been provided, the following author query should be left:
 
@@ -432,7 +432,7 @@ Compare with the original submission on EJP - If the caption element was present
 
 **Action:** This warning will appear at the post-author stages if a figure has no title. Check whether an author query was added at pre-editing requesting this from the author. If this author query was not present, check the submitted manuscript file or figure file for the figure title. If this was not provided, the authors will need to be asked for this.
 
-Exeter will need to fix this when the information is provided.
+Exeter support will need to fix this when the information is provided.
 
 #### fig-test-6
 
@@ -479,7 +479,7 @@ If multiple figures are out of sequence, leave the following query for the autho
 
 **Error:** _XXXXXX does not appear in sequence which is incorrect. Relative to the other figures it is placed in position XXXXXX._
 
-**Action:** Figures are automatically placed directly after their first citation. ****This error usually appears if the authors have cited figures out of order. For example, if they refer to Figure 3 before Figure 2, this results in Figure 3 being placed before Figure 2. The authors will need to be asked to provide in-sequence citations or confirm the figures can be renumbered. If the citations are not out of order, Exeter will need to fix this.
+**Action:** Figures are automatically placed directly after their first citation. ****This error usually appears if the authors have cited figures out of order. For example, if they refer to Figure 3 before Figure 2, this results in Figure 3 being placed before Figure 2. The authors will need to be asked to provide in-sequence citations or confirm the figures can be renumbered. If the citations are not out of order, Exeter support will need to fix this.
 
 #### fig-specific-test-3
 
@@ -533,7 +533,7 @@ Make sure the 'Appendix 0—figure 0' text in the query is updated with the appe
 
 **Error:** _fig in the body of the article which has a @specific-use='child-fig' must have a label in the format 'Figure 0—figure supplement 0.' \(where 0 is one or more digits\)._
 
-**Action:** __All figure supplements in research content should have the label 'Figure 0—figure supplement 0' \(where 0 is one or more digits, based on the sequence of the numbered figure\). This error will fire if a figure supplement does not have this label. Exeter will need to fix this. 
+**Action:** __All figure supplements in research content should have the label 'Figure 0—figure supplement 0' \(where 0 is one or more digits, based on the sequence of the numbered figure\). This error will fire if a figure supplement does not have this label. Exeter support will need to fix this. 
 
 #### fig-sup-test-3
 
@@ -759,13 +759,13 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 * Please provide an in-text citation for this figure.
 
-If the figure has been cited in the text and this error still appears, Exeter will need to fix this.
+If the figure has been cited in the text and this error still appears, Exeter support will need to fix this.
 
 #### fig-group-test-1
 
 **Error:** _fig-group must have one and only one main figure._
 
-**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element should only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a fig-group element has more than one or no main figures. Double check which main figure should be present in this fig-group and correct accordingly \(Exeter will need to fix this\).
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element should only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a fig-group element has more than one or no main figures. Double check which main figure should be present in this fig-group and correct accordingly \(Exeter support will need to fix this\).
 
 XML of a figure with a figure supplement wrapped in the fig-group element.
 
@@ -855,67 +855,67 @@ XML of a figure with no figure supplements or videos \(and therefore, no fig-gro
 
 **Error:** _fig must have an @id in the format fig0 \(or C0 for chemical structures, or S0 for Schemes\). XXXXXX does not conform to this._
 
-**Action:** This error will fire __if a figure __has an ID in a format other than fig0, C0 or S0 \(where 0 is a number\) - for example FigA. Exeter will need to fix this.
+**Action:** This error will fire __if a figure __has an ID in a format other than fig0, C0 or S0 \(where 0 is a number\) - for example FigA. Exeter support will need to fix this.
 
 #### fig-id-test-2
 
 **Error:** _fig must have an @id in the format fig0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if a figure __has a label 'Figure 0' and an ID in a format other than fig0 \(where 0 is a number\) - for example if a figure has the label 'Figure 1' but the ID 'S1'_._ Exeter will need to fix this.
+**Action:** This error will fire __if a figure __has a label 'Figure 0' and an ID in a format other than fig0 \(where 0 is a number\) - for example if a figure has the label 'Figure 1' but the ID 'S1'_._ Exeter support will need to fix this.
 
 #### fig-sup-id-test
 
 **Error:** _figure supplement must have an @id in the format fig0s0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if a figure __supplement __has an ID in a format other than fig0s0 \(where 0 is one or more digits\). Exeter will need to fix this.
+**Action:** This error will fire __if a figure __supplement __has an ID in a format other than fig0s0 \(where 0 is one or more digits\). Exeter support will need to fix this.
 
 #### box-fig-id-1
 
 **Error:** _fig must have @id in the format box0fig0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if a figure __in a box __has an ID in a format other than box0fig0 \(where 0 is one or more digits\). Exeter will need to fix this.
+**Action:** This error will fire __if a figure __in a box __has an ID in a format other than box0fig0 \(where 0 is one or more digits\). Exeter support will need to fix this.
 
 #### box-fig-id-2
 
 **Error:** _fig id \(XXXXXX\) does not contain its ancestor boxed-text id. Please ensure the first part of the id contains 'XXXXXX'._
 
-**Action:** This error will fire __if the ID of a figure __in a box doesn't contain the correct box number - for example if Box 1 has a figure with the ID box2fig1. Check the original submission to ensure the figure is in the correct box - if not, Exeter will need to move this. If the figure is in the correct box, Exeter will need to fix the figure ID.
+**Action:** This error will fire __if the ID of a figure __in a box doesn't contain the correct box number - for example if Box 1 has a figure with the ID box2fig1. Check the original submission to ensure the figure is in the correct box - if not, Exeter will need to move this. If the figure is in the correct box, Exeter support will need to fix the figure ID.
 
 #### app-fig-id-test-1
 
 **Error:** _figures in appendices must have an @id in the format app0fig0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if an appendix figure has an ID in a format other than app0fig0 \(where 0 is one or more digits\). Exeter will need to fix this.
+**Action:** This error will fire __if an appendix figure has an ID in a format other than app0fig0 \(where 0 is one or more digits\). Exeter support will need to fix this.
 
 #### app-fig-id-test-2
 
 **Warning**: _Chemical structures must have an @id in the format app0chem0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if an appendix figure has an ID in a format other than app0chem0 \(where 0 is one or more digits\). Exeter will need to fix this.
+**Action:** This error will fire __if an appendix figure has an ID in a format other than app0chem0 \(where 0 is one or more digits\). Exeter support will need to fix this.
 
 #### app-fig-id-test-3
 
 **Warning**: _Schemes must have an @id in the format app0scheme0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if an appendix figure has an ID in a format other than app0scheme0 \(where 0 is one or more digits\). Exeter will need to fix this.
+**Action:** This error will fire __if an appendix figure has an ID in a format other than app0scheme0 \(where 0 is one or more digits\). Exeter support will need to fix this.
 
 #### app-fig-sup-id-test
 
 **Error:** _figure supplements in appendices must have an @id in the format app0fig0s0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if an appendix figure supplement __has an ID in a format other than app0fig0s0 \(where 0 is one or more digits\). Exeter will need to fix this.
+**Action:** This error will fire __if an appendix figure supplement __has an ID in a format other than app0fig0s0 \(where 0 is one or more digits\). Exeter support will need to fix this.
 
 #### resp-fig-id-test
 
 **Error:** _fig in decision letter/author response must have @id in the format respfig0, or sa0fig0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if a figure in the decision letter or author response section has an ID in a format other than respfig0 or sa0fig0 \(where 0 is one or more digits\). Exeter will need to fix this.
+**Action:** This error will fire __if a figure in the decision letter or author response section has an ID in a format other than respfig0 or sa0fig0 \(where 0 is one or more digits\). Exeter support will need to fix this.
 
 #### resp-fig-sup-id-test
 
 **Error:** _figure supplement in decision letter/author response must have @id in the format respfig0s0 or sa0fig0s0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if a figure __supplement in the decision letter or author response section has an ID in a format other than respfig0s0 or sa0fig0s0  \(where 0 is one or more digits\). Exeter will need to fix this.
+**Action:** This error will fire __if a figure __supplement in the decision letter or author response section has an ID in a format other than respfig0s0 or sa0fig0s0  \(where 0 is one or more digits\). Exeter support will need to fix this.
 
 #### fig-specific-test-1
 
@@ -927,7 +927,7 @@ XML of a figure with no figure supplements or videos \(and therefore, no fig-gro
 
 **Error:** _fig label must be in the format 'Figure 0.', 'Chemical structure 0.', or 'Scheme 0'._
 
-**Action:** This error will fire if a figure has a label other than Figure 0, Chemical structure 0 or Scheme 0. Exeter will need to fix this.
+**Action:** This error will fire if a figure has a label other than Figure 0, Chemical structure 0 or Scheme 0. Exeter support will need to fix this.
 
 #### fig-sup-test-1
 
@@ -1168,13 +1168,12 @@ Figure with attributions:
 
 After Exeter have fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent.
 
-### dd/mm/yyyy
+### 09/09/2020
 
 #### Changes
 
-* 
-### dd/mm/yyyy
+* Added the following tests: fig-title-test-7, fig-title-test-8, and app-fig-id-test-2, app-fig-id-test-3, and fig-panel-test-1 
+* Updated adapted/reproduced figures section
 
-#### Changes
 
-* 
+
