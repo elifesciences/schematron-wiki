@@ -73,7 +73,7 @@ let $html :=
                   for $x in $report-2//(*:successful-report|*:failed-assert)
                   let $role := $x/@role/string()
                   let $path := $x/@location/string()
-                  let $message := $x/*:text/data()
+                  let $message := if ($x/@see) then (data($x)||' '||$x/@see) else (data($x))
                   order by $role
                   return 
                   <tr class="{$role}">
