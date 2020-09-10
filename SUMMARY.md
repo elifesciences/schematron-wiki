@@ -63,3 +63,7 @@
 * [Publish on accept protocols](pages-in-progress/publish-on-accept-protocols.md)
 * [eToc](pages-in-progress/etoc.md)
 
+---
+
+* [eLife website and communication house style](elife-website-and-communication-house-style.md)
+
