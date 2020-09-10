@@ -32,9 +32,18 @@ Below are some of the images that have featured on the homepage.
 
 ## Selecting a homepage image
 
-The new homepage image is selected from the striking images of VoR articles that have been published from Wednesday, of the previous week, to the following Tuesday. The words are requested on the Monday morning so, if you were to pick a VoR article that has not yet been published, it is best to only use press papers that are already scheduled for that Tuesday. 
+Here is a brief overview of the process for selecting a homepage image:
+
+* Monday AM: Email Peter for the homepage words
+* Tuesday PM: Change the homepage image
+
+You can pick the new homepage image from the striking images associated with VoR articles that have been published since Wednesday of the previous week. 
+
+As the words are requested on Monday mornings, it can be hard to be sure that an article will be published by the Tuesday afternoon, when the image is changed, if it is still in the Production workflow.  To avoid having to select a new image at the last minute, it is best practise to only use press papers that are already scheduled for that Tuesday, if selecting an unpublished paper. 
 
 You can use the Production team action [**sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) to look for articles that have been scheduled, and/or use the eLife's website to find VoR articles that have been published in the previous week. As you view each article, you will need to search the striking image bucket to see if it has a suitable image \(please see the 'Uploading via the striking images AWS bucket' section [**here**](striking-images-1.md#uploading-via-the-striking-images-aws-bucket) on how to access this\). Once you have found an image, you will then need to send this to Peter as outlined below. On the rare occasion that you do not find a suitable image, you should email Peter to let him know. Then either send an image later in the day when more articles have been published or at the very latest, Tuesday morning. 
+
+Ideally, a PoA should not be used but in the rare cases that you cannot find a suitable image for a VoR article, Peter \(the Features editor\) should be emailed to discuss this. 
 
 ## Editing an image
 
@@ -56,9 +65,11 @@ However, you should not make any significant changes to the photo that aren't fo
 
 The homepage image is selected by a nominated member of the Production team on a Monday morning. This image is emailed to Peter \(the Features Editor\) asking him to provide the wording which overlays the image. This text is a short description of the article, which you can see on the carousel at the top of this page.
 
-To ensure this is not forgotten, a reminder email is sent to the Production inbox. 
+To ensure this is not forgotten, a reminder email is sent to the Production inbox and a reminder will appear in Slack. 
 
 ![](../.gitbook/assets/screen-shot-2020-08-10-at-12.25.52.png)
+
+![](../.gitbook/assets/screen-shot-2020-09-10-at-11.56.12.png)
 
 There will be a homepage image email thread for the month, typically in the format 'Homepages for August'. If it is a new month, a new email thread will need to be made. Ensure each request email contains both the manuscript number and the striking image you have selected. 
 
@@ -75,6 +86,8 @@ The homepage image is changed on Tuesday afternoon, an email reminder will be se
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-12.08.38.png)
 
 A reminder will also appear on Slack in the 'eLife\_production' channel.
+
+![](../.gitbook/assets/screen-shot-2020-09-10-at-11.57.55.png)
 
 To do this, follow the steps below. 
 
@@ -100,7 +113,7 @@ To do this, follow the steps below.
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-13.41.18.png)
 
-* If there is an image attribution, this should be entered in the field below. 
+* If there is an image attribution, this should be entered in the field below. Currently this does not display on the website but this information is important to include. 
 
 ![An example of an attribution for 50645](../.gitbook/assets/screen-shot-2020-08-27-at-12.58.26%20%281%29.png)
 
