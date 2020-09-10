@@ -43,7 +43,7 @@ Production carry out three roles in the ERA process:
 
 ## ERA QC
 
-All eLife ERAs are hosted on Stencila Hub. When you view a published ERA on the eLife website you are seeing an [**iframe**](https://www.w3schools.com/html/html_iframe.asp) which includes the article as it is rendered in Stencila Hub. in other words, there is no difference in display between an ERA snapshot on Stencila Hub, and the same ERA snapshot published on the eLife website.
+All eLife ERAs are hosted on Stencila Hub. When you view a published ERA on the eLife website you are seeing an [**iframe**](https://www.w3schools.com/html/html_iframe.asp) which includes the article as it is rendered in Stencila Hub. In other words, there is no difference in display between an ERA snapshot on Stencila Hub, and the same ERA snapshot published on the eLife website.
 
 As a result, the production QC can be carried out in Stencila Hub, without the need to check it on a continuum instance \(unlike VoR eLife articles\).
 
