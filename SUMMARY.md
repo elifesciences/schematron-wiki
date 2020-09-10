@@ -56,14 +56,11 @@
 * [XML Glossary](toolkit/xml-glossary.md)
 * [eLife Glossary](toolkit/elife-glossary.md)
 * [ERA](toolkit/era.md)
+* [eLife website and communication house style](toolkit/elife-website-and-communication-house-style.md)
 
 ## Pages in progress
 
 * [Kriya](pages-in-progress/kriya-1.md)
 * [Publish on accept protocols](pages-in-progress/publish-on-accept-protocols.md)
 * [eToc](pages-in-progress/etoc.md)
-
----
-
-* [eLife website and communication house style](elife-website-and-communication-house-style.md)
 
