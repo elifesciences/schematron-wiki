@@ -4,8 +4,6 @@ description: This is a style guide for eLife staff generated content (not resear
 
 # eLife website and communication house style
 
-
-
 * Maintenance - procedure: @channel in slack channel if you want to ask a question, add content or suggest change **Action** - Melissa inform everyone **DONE**
 * Breadth of coverage **Action:** Rowena to review and suggest new items 
 * Gaps and examples to be added - eg times and dates See above
