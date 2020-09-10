@@ -1,7 +1,7 @@
 ---
 description: >-
-  Bi-weekly emails sent out an email list containing the articles published by
-  authors
+  Bi-weekly emails sent out to subscribers containing the articles published by
+  eLife
 ---
 
 # eToc
