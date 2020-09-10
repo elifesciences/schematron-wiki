@@ -27,6 +27,7 @@
   * [Funding](article-details/content/funding-information.md)
   * [General content](article-details/content/general-content.md)
   * [Impact statement](article-details/content/impact-statement.md)
+  * [Keywords](article-details/content/keywords.md)
   * [Reference citations](article-details/content/reference-citations.md)
   * [References](article-details/content/references/README.md)
     * [Book references](article-details/content/references/book-references.md)
