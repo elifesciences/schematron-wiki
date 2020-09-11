@@ -18,5 +18,5 @@ On occasion, authors may contact production to ask why their article did not app
 
 The eToc is generated using `search` \(which also powers the listings of content on the website\). If there are unexplained issues \(such as an article not appearing in the expected eToc\), it may indicate that there is an issue with `search` and that the dev team would need to investigate.
 
-At time of writing, Will in the communications team is the point of contact for anything eToc related.
+At time of writing, XXX in the communications team is the point of contact for anything eToc related.
 
