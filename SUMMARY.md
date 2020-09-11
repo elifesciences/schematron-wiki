@@ -40,6 +40,7 @@
     * [Software references](article-details/content/references/software-references.md)
     * [Thesis references](article-details/content/references/thesis-references.md)
 * [People](article-details/people.md)
+* [Deceased status](article-details/deceased-status.md)
 * [Peer review](article-details/peer-review.md)
 * [Relationships](article-details/relationships.md)
 * [History](article-details/history.md)
