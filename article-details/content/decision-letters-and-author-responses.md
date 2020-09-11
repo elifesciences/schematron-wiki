@@ -87,6 +87,10 @@ Note that [**a separate workflow**](decision-letters-and-author-responses.md#dl-
 
 ![https://docs.google.com/drawings/d/16Q4mvzujVITy10nbAjmZTdH6CHO-4E4k5QBKrXolXyI/edit](../../.gitbook/assets/dlworkflow.png)
 
+#### Note
+
+Do not load Decision letter after author review unless specifically asked by Editorial \(because of correspondence with the authors or for some other reason\). This is because doing so would overwrite any changes that were made at or after author proofing.
+
 ### The Decision letter was not posted successfully
 
 There are two cases here either a success email was received, but the Decision letter was not successfully loaded to Kriya, or a failure email will be sent to the Production Inbox, which will look something like the following:
