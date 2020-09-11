@@ -4,13 +4,9 @@ description: This is a style guide for eLife staff generated content (not resear
 
 # eLife website and communication house style
 
-* Maintenance - procedure: @channel in slack channel if you want to ask a question, add content or suggest change **Action** - Melissa inform everyone **DONE**
-* Breadth of coverage **Action:** Rowena to review and suggest new items 
-* Gaps and examples to be added - eg times and dates See above
-* Deal with the comments **Done**
-* Common mistakes section to improve output **Action:** Peter
-* Display online examples - how the “metadata” hangs together online visually **Action:** Peter
-* A balance between too much and too little
+**Maintenance procedure**  
+@channel in slack channel \#styleguide if you want to ask a question, add content, or suggest change   
+Production team staff will make any approved changes to this page and add change history
 
 ### **Sentence case/all caps**
 
