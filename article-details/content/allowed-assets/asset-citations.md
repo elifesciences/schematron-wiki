@@ -79,7 +79,7 @@ For example, if the following text is in the caption of Figure 2:
 * "See Figure 2A \(Smith et al., 2020\)." The citation 'Figure 2A' should be changed to plain text as it refers to a figure from another article.
 * "\(B\) Further analysis of samples in Figure 2A." The 'Figure 2A' in this example should be changed to '\(A\)' as it is referring to a part label in the same figure.
 
-If the citation doesn't refer to a part label, again check if it refers to a figure from another paper - if so, change it to plain text. If not then the citation can be removed entirely.
+If the citation doesn't refer to a part label, again check if it refers to a figure from another paper - if so, change it to plain text. If the authors are simply referring to the figure in general, the citation can be left as is. If the figure has been incorrectly captured, for example, if the authors wrote 'Figure 1 - Supplemental Figure 4' and 'Figure 4' has been linked, this needs to be corrected \(in this example, to Figure 1_—_figure supplement 4\).
 
 #### fig-xref-test-5
 

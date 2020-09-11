@@ -909,13 +909,13 @@ XML of a figure with no figure supplements or videos \(and therefore, no fig-gro
 
 **Error:** _fig in decision letter/author response must have @id in the format respfig0, or sa0fig0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if a figure in the decision letter or author response section has an ID in a format other than respfig0 or sa0fig0 \(where 0 is one or more digits\). Exeter support will need to fix this.
+**Action:** This error will fire __if a figure in the decision letter or author response section has an ID in a format other than respfig0 \(for legacy content\) or sa0fig0 \(where 0 is one or more digits\). Exeter support will need to fix this.
 
 #### resp-fig-sup-id-test
 
 **Error:** _figure supplement in decision letter/author response must have @id in the format respfig0s0 or sa0fig0s0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if a figure __supplement in the decision letter or author response section has an ID in a format other than respfig0s0 or sa0fig0s0  \(where 0 is one or more digits\). Exeter support will need to fix this.
+**Action:** This error will fire __if a figure __supplement in the decision letter or author response section has an ID in a format other than respfig0s0 \(for legacy content\) or sa0fig0s0  \(where 0 is one or more digits\). Exeter support will need to fix this.
 
 #### fig-specific-test-1
 
