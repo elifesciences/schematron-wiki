@@ -1,8 +1,8 @@
 # RRIDs
 
-## What is the \[insert subject of page\]?
+## What is an RRID?
 
-Give a brief description of the subject being addressed in the page. 
+Research Resource Identifiers \(RRIDs\) are persistent and unique identifiers for referencing a research resource. Identifiers are prefixed with " RRID: ", followed by a second tag that indicates the source authority that provided it \(e.g. "AB" for the Antibody Registry, "CVCL" for the Cellosaurus, "MMRRC" for Mutant Mouse Regional Resource Centers, "SCR" for the SciCrunch registry of tools\).
 
 ## What needs to be checked?
 
