@@ -1090,5 +1090,9 @@ After Exeter have fed back on the page and it has been updated, any further chan
 * Added the following tests: fig-title-test-7, fig-title-test-8, and app-fig-id-test-2, app-fig-id-test-3, and fig-panel-test-1 
 * Updated adapted/reproduced figures section
 
+### 11/09/2020
 
+#### Changes
+
+* Updated figure adaptations and reproductions section \(added link to licensing and copyright page\) 
 
