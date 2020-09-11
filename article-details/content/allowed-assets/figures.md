@@ -227,8 +227,6 @@ However, this can sometimes result in figures being placed in the middle of disp
 
 ![](../../../.gitbook/assets/screenshot-2020-08-12-at-16.12.00.png)
 
-
-
 ## Source code/data
 
 Source data is often associated with figures and figure supplements. Each source data or source code file should be linked with the appropriate figure or figure supplement. For example, if a source data \(or code\) file is labelled Figure 1_—_source data 1 but the title or legend makes it clear that the data is linked to a figure supplement, it should be relabelled as Figure 1_—_Figure supplement X_—_source data 1 \(or source code as appropriate\). If the source data or code is linked to multiple figures and figure supplements however, it should become source data or code for the whole article. See more about source data and source code here \(links to be added\).
