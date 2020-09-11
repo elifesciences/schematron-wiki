@@ -33,15 +33,13 @@ To add a deceased footnote to an author, Exeter will need to update the `contrib
 
 ### Content checks
 
-List of errors and warnings that can occur, with guidance on how to solve each problem or on when it is OK to let the warning go by and not change anything.
-
-These checks relate to the content of \[insert name of page\]. X or XXXXXX refers to quoted text which will change depending on the article.
+These checks relate to deceased status. X or XXXXXX refers to quoted text which will change depending on the article.
 
 #### deceased-test-1
 
 **Error**: _XXXXXX has a linked footnote 'XXXXXX', but not @deceased="yes" which is incorrect._
 
-**Action:** This error will fire if an author has a linked footnote which states that the author is deceased but the contrib element does not have a `deceased="yes"` attribute. Check which author \(if any\) should have the footnote and ask Exeter to correct accordingly. 
+**Action:** This error will fire if an author has a linked footnote which indicates that the author is deceased but the `contrib` element does not have a `deceased="yes"` attribute. Check which author \(if any\) should have the footnote and ask Exeter to correct accordingly. 
 
 #### deceased-test-2
 
