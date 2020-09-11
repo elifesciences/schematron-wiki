@@ -27,7 +27,7 @@ These checks relate to RRIDs. X or XXXXXX refers to quoted text which will chang
 
 **Warning**: _'XXXXXX' element contains what looks like XXXXXX unlinked RRID\(s\). These should always be linked using '_[https://scicrunch.org/resolver/](https://scicrunch.org/resolver/)_'. Element begins with XXXXXX._
 
-**Action:** This warning will appear if there is text that looks like an RRID that isn't hyperlinked to a SciCrunch URL. For example if the text 'RRID:SCR\_003070' is appearing in plain text, this should be corrected. Search for the RRID using the [**SciCrunch resolver**](https://scicrunch.org/resolver) ****and use the resulting URL to add a hyperlink to the RRID.
+**Action:** This warning will fire if there is text that looks like an RRID that isn't hyperlinked to a SciCrunch URL. For example if the text 'RRID:SCR\_003070' is appearing in plain text, this should be corrected. Search for the RRID using the [**SciCrunch resolver**](https://scicrunch.org/resolver) ****and use the resulting URL to add a hyperlink to the RRID.
 
 #### pre-rrid-spacing
 
