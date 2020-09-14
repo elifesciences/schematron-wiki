@@ -100,8 +100,6 @@ Use colons rather than en rules in titles, for example:
 * Media coverage: Nothing fishy…
 * Press package: Cells sell sunscreen
 
-**Note:** Research Article titles – colons are discouraged except in tools and resources. 
-
 ### **Ampersand \(&\)**
 
 Do not use.
@@ -293,4 +291,14 @@ Current pages of the website
 * For authors: ****[**https://submit.elifesciences.org/html/elife\_author\_instructions.html**](https://submit.elifesciences.org/html/elife_author_instructions.html)
 * For reviewers: [**https://submit.elifesciences.org/html/elife\_reviewer\_instructions.html**](https://submit.elifesciences.org/html/elife_reviewer_instructions.html)
 * Contact us: ****[**https://submit.elifesciences.org/html/elife\_contact.html**](https://submit.elifesciences.org/html/elife_contact.html)
+
+## Changelog
+
+### 14/09/2020
+
+#### Changes
+
+* Removed 'Note: Research Article titles – colons are discouraged except in tools and resources.' from [**Colons**](elife-website-and-communication-house-style.md#colons) section. 
+
+
 
