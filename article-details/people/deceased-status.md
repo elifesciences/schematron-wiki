@@ -2,32 +2,19 @@
 
 ## What is deceased status?
 
-If an author of an article passes away prior to submission, this should be denoted with a footnote. 
+If an author of an article dies prior to publication, this should be denoted with a footnote. 
 
 ![An example of a deceased status footnote in the article PDF](../../.gitbook/assets/screenshot-2020-09-11-at-16.13.08.png)
 
 ![An example of a deceased status footnote on the eLife website](../../.gitbook/assets/screenshot-2020-09-11-at-16.13.33.png)
 
+{% hint style="info" %}
+Note: eLife does not issue new versions of articles in order to indicate that an author has died.
+{% endhint %}
+
 ## What needs to be added?
 
-To add a deceased footnote to an author, Exeter will need to update the `contrib` element with the attribute `deceased="yes"` and a footnote needs to be added in the `author-notes` section with an appropriate label \(usually † unless this is already being used for another footnote\). For example: 
-
-```markup
-<contrib contrib-type="author" deceased="yes" id="author-10109">
-    <name>
-    <surname>Moore</surname>
-    <given-names>Ian</given-names>
-    </name>
-```
-
-```markup
-<author-notes>
-    <fn fn-type="other" id="fn1">
-        <label>†</label>
-        <p>Deceased</p>
-    </fn>
-</author-notes>
-```
+To add a deceased footnote to an author, Exeter will need to add the attribute `deceased="yes"` to the`contrib` element, and a footnote also needs to be added in the `author-notes` section with an appropriate footnote symbol in the label. On the eLife website the attribute on the `contrib` element drives the necessary display. However, some sites, such as PMC, require the additional footnote as well to display the deceased status. For an XML example of deceased status, see [**below**](deceased-status.md#xml-structure). 
 
 ## Schematron checks
 
