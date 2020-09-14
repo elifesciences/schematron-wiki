@@ -267,6 +267,26 @@ If no funders are mentioned, the funding statement should be 'No external fundin
 
 * Please confirm whether any funding was received for this work.
 
+#### funding-group-test-4
+
+**Warning:** _Is the funding-statement correct? There are funders, but the statement is 'XXXXXX'. If there are funders it should usually be 'The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.'_
+
+**Action:** This will fire if there are funding entries and the funding statement does not state 'The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.' \(with the 's' in 'funders' being optional\). If the statement is 'No external funding was received for this work.', then it should be changed to the above which is eLife's standard statement for funding. If the funding statement is something different \(perhaps if it refers to a specific funder\), such as:
+
+> The funder \(HHMI\) provided technical support for study design, and data collection.
+
+Then it should be left as is, and the warning ignored. If the funding statement is substantively the same, but simply reworded in a different way:
+
+> The study design, data collection, and interpretation were not influenced by any funders.
+
+or if it refers to a particular piece of funding that is included in the funding table:
+
+> This work was supported by the FRM, grant DBF20160635740. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+
+Then it should be changed to the default statement \(The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.\). In the last example, if the funding is not present in the funding table, then it should also be added to the funding table, and if it is unclear which author\(s\) benefitted from the funding then the following query should be added:
+
+* Please confirm which author\(s\) benefitted from this funding.
+
 #### award-id-test-1
 
 **Warning:** _Funding entry with id 'fundX' has a comma or semi-colon in the award id. Should this be separated out into several funding entries? - 'XXXXXX'_
@@ -510,4 +530,10 @@ Article with no funding
 **Changes**
 
 * Added institution-id-test-2-5, and par-name-test-1.
+
+**14/09/2020**
+
+**Changes**
+
+* Added funding-group-test-4.
 
