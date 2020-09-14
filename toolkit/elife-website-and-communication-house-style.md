@@ -1,5 +1,7 @@
 ---
-description: This is a style guide for eLife staff generated content (not research content)
+description: >-
+  This is a style guide for eLife staff generated content (not research
+  content). Updated 14/09/2020
 ---
 
 # eLife website and communication house style
