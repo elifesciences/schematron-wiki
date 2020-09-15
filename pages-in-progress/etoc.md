@@ -6,7 +6,7 @@ description: >-
 
 # eToc
 
-Twice a week an email is sent out to subscribers which lists all the articles eLife has published in a certain time period.
+Twice a week an email is sent out to subscribers listing all the articles eLife has published in a certain time period.
 
 The eToc is sent every Monday and Wednesday.
 
