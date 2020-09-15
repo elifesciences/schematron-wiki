@@ -1,6 +1,6 @@
 ---
 description: >-
-  Bi-weekly emails sent out to subscribers containing the articles published by
+  Bi-weekly emails sent to subscribers containing the articles published by
   eLife
 ---
 
