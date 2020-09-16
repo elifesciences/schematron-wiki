@@ -147,6 +147,10 @@ Visit the snapshot of the ERA you need to publish \(see [**above**](era.md#obtai
     download: {link for Stencila project snapshot download}
 ```
 
+{% hint style="info" %}
+Note this filename will change to `pillar/era-articles.yaml` soon.
+{% endhint %}
+
 Date format is `YYYY-MM-DDTHH-mm-ssZ`, where `Y` is a digit for the year, `M` is a digit for the month, `D` is a digit for the day, `H` is a digit for the hour \(24 hour clock, for example 13 for 1pm\), `m` is a digit for the minute, and `s` a digit for the second. `T` and `Z` stay the same.
 
 \(Note that there will be two articles in the YAML file \(30274 and 52258\) with display links in the un-allowed format - **do not** follow the format of these links, as they were exceptions for the launch of ERA. Your display link should always be versioned, pointing to a snapshot specific URL - [**see above**](era.md#article-url).\)
