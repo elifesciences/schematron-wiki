@@ -30,7 +30,7 @@ The following assets appear within the main text of an article. Top-level assets
 | **Figure 1—source code 1.** | fig1scode1 | elife-12345-fig1-code1 |
 | **Figure 1—source data 1.** | fig1sdata1 | elife-12345-fig1-data1 |
 | **Figure 1—video 1.** | fig1video1 | elife-12345-fig1-video1 |
-| **Figure 1—animation 1.** | fig1video1 | elife-12345-fig1video1 |
+| **Figure 1—animation 1.** | fig1video1 | elife-12345-fig1-video1 |
 | **Figure 1—figure supplement 1.** | fig1s1 | elife-12345-fig1-figsupp1 |
 | **Figure 1—figure supplement 1—source code 1.** | fig1s1scode1 | elife-12345-fig1-figsupp1-code1 |
 | **Figure 1—figure supplement 1—source data 1.** | fig1s1sdata1 | elife-12345-fig1-figsupp1-data1 |
