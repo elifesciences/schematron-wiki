@@ -137,6 +137,8 @@ Once they have completed their checks, they will sign the article off to Post Au
 
 ### Post-author checks
 
+
+
 ## Schematron checks
 
 ### Content
