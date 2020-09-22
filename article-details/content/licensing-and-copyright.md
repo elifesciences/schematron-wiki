@@ -2,9 +2,11 @@
 
 ## Article-level licensing
 
-All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, which applies to the whole article including all assets. The CC BY 4.0 license allows content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions. 
+All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, which applies to the whole article including all assets. The CC BY 4.0 license allows content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions. The license of the article will be captured in the underlying XML \(see [**here**](licensing-and-copyright.md#article-level-license)\).
 
 ## Asset-level licensing
+
+As above, all eLife's article assets are published under a CC BY 4.0 or CC0 license, following the license of the article itself. Where assets are adapted or reproduced from previously published content, additional information may need to be added in the underlying XML. This is most common for figures, however may also apply to other assets.
 
 ## Figure adaptations and reproductions
 
@@ -22,7 +24,7 @@ The editorial team check figure permissions as part of submission quality checks
 
 All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license. The CC BY 4.0 license allows content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions. 
 
-If an article has reproduced figures from content that was previously published under a [**CC BY**](https://creativecommons.org/licenses/) \(2, 3 or 4\) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, that content must be properly attributed and credited \(provide full citation details and license\). We may also need to add extra tagging. Check the license of the article \(you can find this from the permissions-info message in Oxygen\) and the license of the previously published content. 
+If an article has reproduced figures from content that was previously published under a [**CC BY**](https://creativecommons.org/licenses/) \(2, 3 or 4\) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, that content must be properly attributed and credited \(provide full citation details and license\). We may also need to add extra tagging. Check the license of the article \(you can find this from the [**permissions-info**](licensing-and-copyright.md#permissions-info) message\) and the license of the previously published content. 
 
 * If the license of the previously published content matches the license of the article, no additional tagging needs to be added.
 * If the article license is CC BY but the reproduced image is CC0, no additional tagging needs to be added.
@@ -105,13 +107,13 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 **Info**: _This article is licensed under aXXXXXX license. XXXXXX_
 
-**Action**: 
+**Action**: This information message will appear for every article to denote which license the article will be published under. eLife's articles are either published under CC BY 4.0 or CC0 licenses. This message can be useful for determining what additional XML tagging needs to be added for content reproduced from CC BY-licensed content \(see [**here**](licensing-and-copyright.md#reproductions-from-cc-by-licensed-content)\).
 
 #### permissions-notification
 
 **Info**: _XXXXXX has permissions - 'XXXXXX'._
 
-**Action**: 
+**Action**: This information message will appear for any asset that has permissions information added. 
 
 #### permissions-parent
 
@@ -129,7 +131,9 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 **Error**: _permissions must contain copyright-statement._
 
-**Action**: 
+**Action**: This error will appear if the permissions wrapper for an article does not have a copyright-statement element. Exeter will need to add this, for example:`<copyright-statement>© 2019, Smith et al</copyright-statement>`
+
+See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license). 
 
 #### permissions-test-2
 
@@ -310,4 +314,54 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 **Warning**: _XXXXXX permissions - the &lt;license-p&gt; for all rights reserved type permissions should usually end with 'further reproduction of this panel/figure would need permission from the copyright holder.', but XXXXXX's doesn't. Is this correct? \(There is no '_[_https://creativecommons.org/_](https://creativecommons.org/)_' type link so presumed ARR.\)_
 
 **Action**: If the copyright statement for a figure includes 'All rights reserved', the permissions statement should end with 'further reproduction of this panel/figure would need permission from the copyright holder' - you just need to add it in if this is missing. If there is no '[**https://creativecommons.org/**](https://creativecommons.org/)' type link, the schematron will automatically assume the figure permission is 'All rights reserved' - query the Production team to check this is correct. 
+
+## XML structure
+
+#### Article-level license
+
+```markup
+<article>
+    <front>
+      <permissions>
+        <copyright-statement>© 2019, Smith et al</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <copyright-holder>Smith et al</copyright-holder>
+        <ali:free_to_read/>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <ali:license_ref>http://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+          <license-p>This article is distributed under the terms of the<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative
+              Commons Attribution License</ext-link>, which permits unrestricted use and
+            redistribution provided that the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+    </front>
+  </article>
+```
+
+#### Asset-level license \(for a figure\):
+
+```markup
+<fig id="fig3s1" position="float" specific-use="child-fig">
+    <label>Figure 3—figure supplement 1.</label>
+    <caption>
+        <title>Duplex strand ATPases contact only one strand while encircling duplex DNA.</title>
+        <p>(<bold>A</bold>) The<italic>E. coli</italic>clamp loader binds only one strand during action on dsDNA. (<bold>B</bold>) CMG motor domains bind ssDNA in a B-form conformation. (<bold>C</bold>) Little to no conformation change would be needed for CMG motors to bind B-form ssDNA and then slide onto dsDNA (flush end) and continue tracking on the same 3’−5’ strand.</p>
+    </caption>
+    <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-46515-fig3-figsupp1-v2.tif"/>
+    <permissions>
+        <copyright-statement>© 2009 Elsevier</copyright-statement>
+        <copyright-year>2009</copyright-year>
+        <copyright-holder>Elsevier</copyright-holder>
+        <license>
+            <license-p>
+            Panel A is reprinted from
+            <xref ref-type="bibr" rid="bib40">Simonetta et al., 2009</xref>
+            , with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.
+            </license-p>
+        </license>
+    </permissions>
+</fig>
+```
+
+
 
