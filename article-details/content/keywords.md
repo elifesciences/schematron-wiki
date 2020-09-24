@@ -10,7 +10,7 @@ Keywords are scientific terms that allow articles to be searchable on the journa
 
 ## Examples of keywords
 
-The words chosen should to be specific to the topic of the article, contain a mixture of words and phrases, and it is beneficial to include additional words that are not included in the title.  
+The words chosen should ideally be specific to the topic of the article, contain a mixture of words and phrases, and it is beneficial to include additional words that are not included in the title.  
 
 Here is an example of keywords for the following article:
 
@@ -20,25 +20,19 @@ Here is an example of keywords for the following article:
 
 **Keywords:** Molecular Dynamics, Simulation, Statistics, Thermodynamics, Kinetics
 
-Keywords are not visible in the PDF but are present at the bottom of the article's webpage, alongside the research category. 
+Keywords are not visible in the PDF but are included within the XML. These are present at the bottom of the article's webpage, alongside the research category. 
 
 ![Keywords on the eLife website](../../.gitbook/assets/screen-shot-2020-09-10-at-15.37.09.png)
 
 ## What needs to be checked?
 
-Outline the main things that need to be checked. Include a checklist if possible.
+Keywords are decided by the authors and entered into eJP during the submission process. 
 
-## Examples
+Please check these are: 
 
-Give specific examples of everything that needs to be checked/any common problems. Add sub-sections where needed, but be as succinct as possible. Include screenshots as required.
-
-This section should also list any issues that can be spotted without the need to run Schematron tests such as low figure quality, broken paragraphs, badly formatted tables etc. Crosscheck against the protocol documents in [this folder](https://drive.google.com/drive/folders/0B2wDI5EMHiJ-UzctZnVBdWFwbzA).
-
-> Any quotes from articles should be formatted as quotes
-
-* Any Kriya queries should be formatted as a bullet point
-
-Any [**hyperlinks**](../../untitled-4.md) to other pages or websites should be bolded to make sure they are more visible. 
+* In sentence case only, with the exception of proper nouns
+* In italics if appropriate \(e.g. _E. coli_\)
+* A maximum of 6 words 
 
 ## Schematron checks
 
@@ -67,16 +61,10 @@ These checks relate to the XML structure of \[insert name of page\]. ‌X or XXX
 ## XML structure
 
 ```
-Include an example of the xml with variations if appropriate. 
+<kwd-group kwd-group-type="author-keywords"><kwd>decision-making</kwd><kwd>network model</kwd><kwd>NMDA receptor</kwd><kwd>schizophrenia</kwd><kwd>ketamine</kwd></kwd-group>
 ```
 
-## Further reading
-
-Where applicable, give links to related pages and external sites.
-
-## Changelog
-
-After Exeter has fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent.
+## Changes
 
 ### dd/mm/yyyy
 
