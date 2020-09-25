@@ -1,3 +1,7 @@
+---
+description: Updated 25/09/20
+---
+
 # Licensing and copyright
 
 ## Article-level licensing
