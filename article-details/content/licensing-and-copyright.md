@@ -2,11 +2,17 @@
 
 ## Article-level licensing
 
-All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, which applies to the whole article including all assets. The CC BY 4.0 license allows content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions. The license of the article will be captured in the underlying XML \(see [**here**](licensing-and-copyright.md#article-level-license)\).
+All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, which applies to the whole article including all assets. The CC BY 4.0 license allows content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions. The license of the article will be captured in the underlying XML \(see [**here**](licensing-and-copyright.md#article-level-license)\) and a copyright statement will be present in the article PDF.
+
+![An example of an article copyright statement](../../.gitbook/assets/screenshot-2020-09-25-at-10.30.26.png)
 
 ## Asset-level licensing
 
 As above, all eLife's article assets are published under a CC BY 4.0 or CC0 license, following the license of the article itself. Where assets are adapted or reproduced from previously published content, additional information may need to be added in the underlying XML. This is most common for figures, however may also apply to other assets.
+
+![An asset with a copyright statement \(PDF display\)](../../.gitbook/assets/screenshot-2020-07-22-at-12.59.21.png)
+
+![An asset with a copyright statement \(eLife website display\)](../../.gitbook/assets/screenshot-2020-07-22-at-13.00.02.png)
 
 ## Figure adaptations and reproductions
 
@@ -91,10 +97,6 @@ Panel A is reprinted from
 </permissions>
 ```
 
-![Figure permissions display in the PDF](../../.gitbook/assets/screenshot-2020-07-22-at-12.59.21.png)
-
-![Figure permissions display on the eLife website](../../.gitbook/assets/screenshot-2020-07-22-at-13.00.02.png)
-
 If the note from editorial says a figure does not require permissions, these should still be checked. If it is not possible to check \(because the figure is from a book for example\), this doesn't need to be followed up further. However, where possible, figure permissions should be double-checked regardless of what the note says.
 
 ## Schematron checks
@@ -105,7 +107,7 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 #### permissions-info
 
-**Info**: _This article is licensed under aXXXXXX license. XXXXXX_
+**Info**: _This article is licensed under a XXXXXX license. XXXXXX_
 
 **Action**: This information message will appear for every article to denote which license the article will be published under. eLife's articles are either published under CC BY 4.0 or CC0 licenses. This message can be useful for determining what additional XML tagging needs to be added for content reproduced from CC BY-licensed content \(see [**here**](licensing-and-copyright.md#reproductions-from-cc-by-licensed-content)\).
 
@@ -117,21 +119,21 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 #### permissions-parent
 
-**Error**: _permissions is not allowd as a child of XXXXXX_
+**Error**: _permissions is not allowed as a child of XXXXXX_
 
-**Action**: 
+**Action**: This error will fire if a permissions element is not wrapped under a parent asset such as a table, figure, video, box, or supplementary material. Check which asset the permissions element should be associated with and ask Exeter to correct this.  
 
 #### test-permissions-presence
 
 **Error**: _There must be one and only one permissions element in the article-meta. Currently there are XXXXXX_
 
-**Action**: 
+**Action**: This error will fire if there are none or more than one permission elements under the article-meta. Every article should have article-level licensing including a permissions element in the front matter. If there are multiple, check which is correct by comparing against the copyright year, copyright holder and copyright statements and ask Exeter to correct this. See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license). 
 
 #### permissions-test-1
 
 **Error**: _permissions must contain copyright-statement._
 
-**Action**: This error will appear if the permissions wrapper for an article does not have a copyright-statement element. Exeter will need to add this, for example:`<copyright-statement>© 2019, Smith et al</copyright-statement>`
+**Action**: This error will fire if the permissions wrapper for an article does not have a copyright-statement element. The copyright statement is made up of the copyright symbol © followed by the copyright year, and the copyright holder. Exeter will need to add this, for example:`<copyright-statement>© 2019, Smith et al</copyright-statement>`
 
 See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license). 
 
@@ -139,61 +141,65 @@ See an example of XML for the article-level license [**here**](licensing-and-cop
 
 **Error**: _permissions must contain copyright-year in the format 0000. Currently it is XXXXXX_
 
-**Action**: 
+**Action**: This error will fire if the copyright year of an article is entered in a format other than numerical e.g. two thousand and twenty instead of 2020. Exeter will need to correct this. See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license). 
 
 #### permissions-test-3
 
 **Error**: _permissions must contain copyright-holder._
 
-**Action**: 
+**Action**: This error will fire if there is no copyright holder for an article. Exeter will need to correct this. The copyright holder should entered as the surname of the first author followed by 'et al' \(e.g. Smith et al\). If there is only one author, the 'et al' is not required \(e.g. Smith\). If there are only two authors, the surnames of both authors should be entered with no 'et al' \(e.g. Smith and Jones\). See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license).
 
 #### permissions-test-4
 
 **Error**: _permissions must contain an ali:free\_to\_read element._
 
-**Action**: 
+**Action**: This error will fire if there is no ali:free\_to\_read element in the permissions wrapper. This will need to be added by Exeter. See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license).
 
 #### permissions-test-5
 
 **Error**: _permissions must contain license._
 
-**Action**: 
+**Action**: This error will fire if there is no license element in the permissions wrapper. This will need to be added by Exeter. The license element contains information about which CC license the article is published under. See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license).
 
 #### permissions-test-6
 
 **Error**: _copyright-year must match the contents of the year in the pub-date\[@publication-format='electronic'\]\[@date-type='publication'\]. Currently, copyright-year=XXXXXX and pub-date=XXXXXX._
 
-**Action**: 
+**Action**: This error will fire if the copyright year does not match the published date of the article \(for example, if an article was published in 2020 but the copyright year is 2019\). This will need to be corrected by Exeter. See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license).
 
 #### permissions-test-7
 
 **Error**: _copyright-holder is incorrect. If the article has one author then it should be their surname. If it has two authors it should be the surname of the first, then ' and ' and then the surname of the second. If three or more, it should be the surname of the first, and then ' et al'. Currently it's XXXXXX_
 
-**Action**: 
+**Action**: This error will fire if the copyright holder is incorrect. The copyright holder should entered as the surname of the first author followed by 'et al' \(e.g. Smith et al\). If there is only one author, the 'et al' is not required \(e.g. Smith\). If there are only two authors, the surnames of both authors should be entered with no 'et al' \(e.g. Smith and Jones\). This will need to be corrected by Exeter. See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license).
 
 #### permissions-test-8
 
 **Error**: _copyright-statement must contain a concatenation of '© ', copyright-year, and copyright-holder. Currently it is XXXXXX when according to the other values it should be XXXXXX_
 
-**Action**: 
+**Action**: This error will fire if the copyright statement is incorrect. The copyright statement must be made up of the copyright symbol © followed by the correct copyright year, and the correct copyright holder \(e.g. © 2019, Smith et al\). This test checks whether the contents of the copyright statement match the values indicated in the copyright year and copyright holder fields. If any of these are incorrect, they will need to be fixed by Exeter. 
 
 #### permissions-test-9
 
 **Error**: _license does not have an @xlink:href which is equal to '_[http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/)_' or '_[http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/)_'._
 
-**Action**: 
+**Action**: This error will fire if the license element has a link other than _'_[http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/)_'_ or _'_[http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/)_'._ This will need to be corrected by Exeter. 
 
 #### license-test-1
 
 **Error**: _license must contain ali:license\_ref._
 
-**Action**: 
+**Action**: This error will fire if there is no ali:license\_ref element in the license element. This element includes an appropriate creative commons link depending on which license the article will be published under. Exeter will need to add this. See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license).
 
 #### license-test-2
 
 **Error**: _license must contain one and only one license-p._
 
-**Action**: 
+**Action**: This error will fire if the license for the article contains none or more than one license-p element. The license-p element includes a copyright statement, for example:
+
+> This article is distributed under the terms of the [**Creative Commons Attribution License**](http://creativecommons.org/licenses/by/4.0), which permits unrestricted use and redistribution provided that the original author and source are credited.
+
+See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license). Exeter will need to correct this and include a link to the appropriate creative commons link depending on which license the article will be published under.
 
 #### reproduce-test-1
 
@@ -315,6 +321,12 @@ See an example of XML for the article-level license [**here**](licensing-and-cop
 
 **Action**: If the copyright statement for a figure includes 'All rights reserved', the permissions statement should end with 'further reproduction of this panel/figure would need permission from the copyright holder' - you just need to add it in if this is missing. If there is no '[**https://creativecommons.org/**](https://creativecommons.org/)' type link, the schematron will automatically assume the figure permission is 'All rights reserved' - query the Production team to check this is correct. 
 
+#### fig-permissions-test-13
+
+**Warning**: _XXXXXX permissions - the &lt;license-p&gt; contains a CC link, but the license does not have an ali:licens\_ref element, which is very likely incorrect._
+
+**Action**:  
+
 ## XML structure
 
 #### Article-level license
@@ -338,7 +350,7 @@ See an example of XML for the article-level license [**here**](licensing-and-cop
   </article>
 ```
 
-#### Asset-level license \(for a figure\):
+#### Asset-level license \(for a figure with non-CC BY permissions\):
 
 ```markup
 <fig id="fig3s1" position="float" specific-use="child-fig">
@@ -363,5 +375,19 @@ See an example of XML for the article-level license [**here**](licensing-and-cop
 </fig>
 ```
 
+#### Asset-level license \(for a figure with CC BY permissions\)
 
+```markup
+<fig>
+     <label>Figure 2.</label>
+     <permissions>
+       <copyright-statement>© Berger, 2007</copyright-statement>
+       <copyright-year>2007</copyright-year>
+       <copyright-holder>Lee Berger</copyright-holder>
+       <license>
+         <license-p>Chambered nautilus image courtesy of Lee Berger. Published under a <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY SA 3.0 unported license</ext-link>.</license-p>
+       </license>
+     </permissions>
+</fig>
+```
 
