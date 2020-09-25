@@ -155,25 +155,25 @@ Insight articles should be published alongside the research content to which the
 
 **Error**: _title starts with the sub-display-channel. This is certainly incorrect._
 
-**Action**: This error indicates that the title prefix \(sub-display-channel\) has been included at the start of the article title as well as in the correct field. Remove the repeated text from the article title.
+**Action**: This error indicates that the title prefix \(`sub-display-channel`\) has been included at the start of the article title as well as in the correct field. Remove the repeated text from the article title.
 
 #### feature-subj-test-2
 
 **Error**: _The content of the sub-display-channel should be in title case - XXXXXX_
 
-**Action**: Correct the title prefix \(sub-display-channel\) so that it is in title case rather than, for example, in sentence case. XXXXXX will be the text of the title prefix.
+**Action**: Correct the title prefix \(`sub-display-channel`\) so that it is in title case rather than, for example, in sentence case. XXXXXX will be the text of the title prefix.
 
 #### feature-subj-test-3
 
 **Error**: _sub-display-channel ends with a colon. This is incorrect._
 
-**Action**: Delete the colon from the end of the title prefix \(sub-display-channel\).
+**Action**: Delete the colon from the end of the title prefix \(`sub-display-channel`\).
 
 #### feature-author-test-1
 
 **Error**: _Author must contain child bio in feature content._
 
-**Action**: Every author in a feature article should have a bio element. The text for this should be given in the exported article file. Ensure that this is added to the author indicated.
+**Action**: Every author in a feature article should have a bio element. The text for this should be given in the exported article file. Ensure that this is added to the author indicated. If the bio has not been provided, the Production team should be alerted and they may need to contact the Features team to get the required text.
 
 #### feature-bio-test-1
 
@@ -215,25 +215,25 @@ Insight articles should be published alongside the research content to which the
 
 **Error**: _One and only 1 &lt;p&gt; is allowed as a child of bio. XXXXXX_
 
-**Action**: Only a single paragraph should be present in the author bio. If more than one paragraph is present, the text should be reformatted into a single paragraph.
+**Action**: Only a single paragraph should be present in the author bio. If more than one paragraph is present, the text should be reformatted into a single paragraph. XXXXXX will be the text of the affected bio.
 
 #### feature-bio-test-5
 
 **Error**: _XXXXXX is not allowed as a child of &lt;bio&gt;. - XXXXXX_
 
-**Action**: Only bold formatting \(`<bold>`\) elements are allowed within an author's bio. Any other formatting and any hyperlinks should be removed. The message will indicate which elements are 
+**Action**: Only bold formatting \(`<bold>`\) elements are allowed within an author's bio. Any other formatting and any hyperlinks should be removed. The message will indicate which disallowed elements are present and the text of the affected bio will be included at the end.
 
 #### feature-template-test-1
 
 **Error**: _XXXXXX is a template XXXXXX but it has a decision letter or author response, which cannot be correct, as only template 5s are allowed these._
 
-**Action**: Only Template 5 feature articles should have decision letter and author response sections.
+**Action**: Only Template 5 feature articles should have decision letter and author response sections. This error indicates that an article using another template has a decision letter or author response section. This will need to be resolved, either by removing the inappropraite sections or by changing the article to Template 5. The Features team will likely need to be asked which is the correct course of action, unless it is clear that the decision/response has been added in error.
 
 #### feature-template-test-2
 
 **Error**: _XXXXXX is a template XXXXXX so the article element must have a @article-type="research-article". Instead the @article-type="XXXXXX"._
 
-**Action**: Template 5 feature articles must have an attribute of `@article-type="research-article"` on the &lt;article&gt; element. If this error fires, it indicates that the article-type attribute has another value and this needs to be corrected to "research-article". 
+**Action**: Template 5 feature articles must have an attribute of `@article-type="research-article"` on their `<article>` element. If this error fires, it indicates that the article-type attribute has another value and this needs to be corrected to "research-article". 
 
 #### feature-template-test-3
 
@@ -251,25 +251,25 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 **Error**: _XXXXXX is a template XXXXXX, which means that it should not have any BREs. This XXXXXX has XXXXXX. Please remove any senior/reviewing editors._
 
-**Action**: Template 1–4 articles should not have any editor or reveiewer information. Remove this information from the article to clear this error.
+**Action**: Template 1–4 articles should not have any editor or reviewer information. Remove this information from the article to clear this error.
 
 #### feature-templates-author-cont
 
 **Warning**: _XXXXXX is a template XXXXXX, which means that it should very likely not have any Author contributions. This XXXXXX has XXXXXX. Please check with eLife production whether author contributions should be present._
 
-**Action**: This warning indicates that the authors of a Template 1, 2, 3 or 4 article have author contirbutions. This is highly unusual as articles using these templates do not typically include contributions. eLife has, however, published Editorials \(Template 2\) articles with contributions, so they are allowed in unusual cases. Check for any notes indicating that contributions are required for the current article.
+**Action**: This warning indicates that the authors of a Template 1, 2, 3 or 4 article have author contributions. This is highly unusual as articles using these templates do not typically include contributions. However, they are allowed in unusual cases. Check for any notes indicating that contributions are required for the current article. If there are no notes, the Production team will need to contact the Features team to determine if contributions should be included.
 
 #### insight-box-test-1
 
 **Warning**: A citation for related article XXXXXX is not included in the related-article box text in the body of the article. 'XXXXXX' is not present \(or is different to the relevant passage\) in 'XXXXXX'
 
-**Action**: 
+**Action**: This warning indicates that one of the related articles to which the Insight is linked does not appear in a Key info box at the start of the Insight's content. The details for the indicated related article should be added to the Key info box.
 
 #### insight-related-article-test-1
 
 **Error**: Insight related article links must have the related-article-type 'commentary-article'. The link for XXXXXX has 'XXXXXX'.
 
-**Action**: The link from an Insight article to the related research article have the type 'commentary-article'.
+**Action**: The link from an Insight article to the related research article should have the type 'commentary-article'. If another type has been used, the link type must be corrected \(this may require removing the existing link and then re-linking the article from the proofing system dashboard\).
 
 ### Structure
 
@@ -277,13 +277,23 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 **Error**: _XXXXXX is not allowed in a Template type meta-value._
 
-**Action**: In the template type `<custom-meta specific-use="meta-only">` element \(that is, one with the `<meta-name>Template</meta-name>`\), the value \(provided in a `<meta-value>` element\) should be a single digit with no other elements. This error will fire if additional elements are present within `<meta-value>`. This elements \(e.g. formatting, bold, italics\) should be removed.
+**Action**: In the template type element `<custom-meta specific-use="meta-only">` \(that is, one with the `<meta-name>Template</meta-name>`\), the value \(provided in a `<meta-value>` element\) should be a single digit with no other elements. This error will fire if additional elements are present within `<meta-value>`. This elements \(e.g. formatting, bold, italics\) should be removed. An example of a correction template `<custom-meta>` element is shown below:
+
+```markup
+<custom-meta-group>
+    . . .
+    <custom-meta specific-use="meta-only">
+        <meta-name>Template</meta-name>
+        <meta-value>4</meta-value>
+    </custom-meta>
+</custom-meta-group>
+```
 
 #### feat-custom-meta-test-2	
 
 **Error**: _Template type meta-value must one of '1','2','3','4', or '5'._
 
-**Action**: Correct the template type to the one indicated by the name of the article file in the export package \(e.g. \). If the template number given is a value other than 1, 2, 3, 4 or 5, the Production team should be alerted so that they can check which value the Feature team intended for the article.
+**Action**: This error indicates the template type in the XML \(see above\) is not 1, 2, 3, 4 or 5. Correct the template type to the one indicated by the name of the article file in the export package \(e.g. \). If the template number given in the article file name is a value other than 1, 2, 3, 4 or 5, the Production team should check which value the Feature team intended for the article.
 
 #### feat-custom-meta-test-info	
 
