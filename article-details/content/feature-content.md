@@ -137,7 +137,7 @@ Once they have completed their checks, they will sign the article off to Post Au
 
 ### Post-author checks
 
-
+The Production team will carry out final post-author/post-Feature team checks in the same manner as post-author checks for research content. Any remaining issues should be resolved and the author/feature changes should be checked and accepted. If the authors have requested an additional proof, the article should be sent back to them following the normal procedure \(signing the article off to Author review for a second time\). However, if the Features team have requested an additional proof, a PDF should be shared with them via email or Slack. Any further changes they request should be carried out by the Production team.
 
 ## Schematron checks
 
@@ -213,7 +213,7 @@ Once they have completed their checks, they will sign the article off to Post Au
 
 **Error**: _XXXXXX is not allowed as a child of &lt;bio&gt;. - XXXXXX_
 
-**Action**: 
+**Action**: Only bold formatting \(`<bold>`\) elements are allowed within an author's bio. Any other formatting and any hyperlinks should be removed. The message will indicate which elements are 
 
 #### feature-template-test-1
 
