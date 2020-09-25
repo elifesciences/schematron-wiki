@@ -209,7 +209,7 @@ Insight articles should be published alongside the research content to which the
 
 **Error**: _bio cannot end with a full stop - 'XXXXXX'._
 
-**Action**: remove the full-stop from the end of the author bio. XXXXXX will be the text of the affected bio.
+**Action**: Remove the full-stop from the end of the author bio. XXXXXX will be the text of the affected bio.
 
 #### feature-bio-test-4
 
@@ -246,6 +246,12 @@ Insight articles should be published alongside the research content to which the
 **Warning**: _XXXXXX is a template XXXXXX but it does not \(currently\) have an author response. Is that OK?_
 
 Action: This warning will fire if a Template 5 article does not have an author response section. Check the article notes - if no decision/response was expected for the current article, this should have been recorded. If there are no notes, the Production team should contact the Feature team to check the status of the decision/response for the article.
+
+#### final-test-r-article-d-letter-feat
+
+**Warning**: _A decision letter should be present for research articles. Feature template 5s almost always have a decision letter, but this one does not. Is that correct?_
+
+**Action**: This warning will fire if a Template 5 article does not have a decision letter section. Check the article notes - if no decision/response was expected for the current article, this should have been recorded. If there are no notes, the Production team should contact the Feature team to check the status of the decision/response for the article.
 
 #### feature-templates-no-bre
 
