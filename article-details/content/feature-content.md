@@ -10,15 +10,15 @@ At eLife, the term 'feature content' covers all non-research content published b
 
 This content is overseen by the Features team and consists in part of [**blogposts**](https://elifesciences.org/inside-elife) and [**podcasts**](https://elifesciences.org/podcast) that do not required Production intervention to publish. Digests are also published in a dedicated [section](https://elifesciences.org/digests) under the magazine heading, in addition to being included in the related article.
 
-In addition to this, however, there are four categories of Feature article that come through the Production process:
+In addition to this there are four categories of Feature article that come through the Production process:
 
-* **Insight** - a commentary article accompanying one or more research articles, usually written by the editors or reviewers who worked on the article, providing context for a broader audience and discussing the importance of the findings being reported.
-* **Editorial** - an editorial piece written by one or more of eLife's deputy or senior editors, or the editor-in-chief, usually addressing a specific issue or development in the scientific community and/or eLife in particular.
-* **Feature article** - feature articles cover a variety of content, ranging from short essays and opinion articles \(which will not have decision/response sections, supporting files etc.\) to substantial meta-research articles containing multiple figures, figure supplements, source data, decision/response sections etc.
+* **Insight** - a commentary article accompanying one or more research articles, usually written by the editors or reviewers who worked on the article, to provide context for a broader audience and highlight the importance of the findings being reported.
+* **Editorial** - an editorial piece written by one or more of eLife's deputy or senior editors, or the editor-in-chief, usually addressing a specific issue or development in the scientific community in general and/or at eLife in particular.
+* **Feature article** - a general article type that covers a variety of content, ranging from short essays and opinion articles that do not have decision/response sections, supporting files etc., to substantial meta-research articles that can contain multiple figures, figure supplements, source data, decision/response sections etc.
 
 ### Magazine templates
 
-There are five content templates that map to the above article types. Aside from differences in the content of the articles, these reflect different PDF layouts.
+There are five content templates that map to the above article types. Aside from differences in the content of the articles, these templates reflect different PDF layouts.
 
 | Template number | Article type | PDF format | Possible content |
 | :--- | :--- | :--- | :--- |
@@ -34,11 +34,11 @@ The required template will be indicated using the article file name in the expor
 
 Feature content includes the following items not found in research content:
 
-* **Title prefix** - a brief category label displayed in front of the title, currently captured in the XML as a 'sub-display-channel' subject element. Text is given in title case.
+* **Title prefix** - a brief category label displayed in front of the title, currently captured in the XML as a 'sub-display-channel' subject element. The text should be in title case.
 
 ![Example sub-display channels](../../.gitbook/assets/screen-shot-2020-06-23-at-15.52.41.png)
 
-* **Author bio** - a short description of the author's affiliation and any notable positions held. This is given in addition to author affiliations, rather than replacing them, but supercedes them for display.
+* **Author bio** - a short description of the author's affiliation and any notable positions held. This is given in addition to author affiliations, rather than replacing them, but supersedes them for display in the PDF and online.
 
 ![Example of an author bio](../../.gitbook/assets/screen-shot-2020-06-23-at-15.55.43.png)
 
@@ -56,13 +56,13 @@ Feature content includes the following items not found in research content:
 
 ## Submission and export of feature content
 
-Feature content is submitted to eLife via two paths: articles submitted via the the normal submission process and articles commissioned or invited by the Feature team. When articles are submitted via the normal process, they will go through peer review, usually overseen by the Features editors, and likely have decision and response sections. Commissioned articles are not reviewed and so will have no editors or review materials associated with them. These will be uploaded to the submissions system by the Features team, who will use the 'auto-accept' option to bypass the reviewing process.
+Feature content is submitted to eLife via two paths: articles arriving through the the normal submission process and articles commissioned or invited by the Feature team. When articles are submitted via the normal process, they will go through peer review, usually overseen by the Features editors, and will likely have decision and response sections as a result. Commissioned articles are not reviewed and so will have no editors or review materials associated with them. These will be uploaded to the submissions system by the Features team, who will use the 'auto-accept' option to bypass the reviewing process.
 
-In both cases, the Features team will carry out checks and editing tasks before the articles are exported for production. Part of this involves formatting the article files using 'pseudo-tagging' to designate the various parts of the content for processing. If the article needs to be published as an accepted manuscript \(PoA\), then this will need to be done before these changes are made to ensure a clean accepted manuscript is published. When the PoA process has been carried out, the article should be held in the export queue until the pseudo-tagging has been added.
+In both cases, the Features team will carry out checks and editing tasks before the articles are exported for production. Part of this involves formatting the article files using 'pseudo-tagging' to designate the various parts of the content for processing. If the article needs to be published as an accepted manuscript \(PoA\), then this will need to be done before being tagged to ensure a clean accepted manuscript is published. When the PoA process has been carried out, the article should be held in the export queue until the pseudo-tagging has been added.
 
 ![Example of pseudo tagging in the article file for an Editorial](../../.gitbook/assets/screen-shot-2020-07-01-at-17.47.09.png)
 
-The article file will also be renamed to indicate which template should be used and will rename any figure files to indicate the width at which they should be placed in the PDF. Since feature content uses a two-column PDF template, there are more options for figure placement than in research content. These are described using the following classes:
+The article file will be renamed to indicate which template should be used and the any figure files will be renamed to indicate the width at which they should be placed in the PDF. Since feature content uses a two-column PDF template, there are more options for figure placement than in research content. These are described using the following classes:
 
 * **Class A** = 1 column wide
 * **Class B** = 1 column plus the margin wide
@@ -73,7 +73,7 @@ The class chosen for each figure will be indicated in the file name.
 
 ![Examples of updated file names for feature content in the submission system](../../.gitbook/assets/screen-shot-2020-07-01-at-18.16.03.png)
 
-Once the files have been edited, the article will be exported. At this point, the Features team may contact the Production team by email to advise them whether a decision/response will be included, or any unusual elements such as complex boxes, or to give a specific deadline for getting the proof to the authors.
+Once the files have been edited, the article will be exported. At this point, the Features team may contact the Production team by email to advise them whether a decision/response will be included, or if there are unusual elements \(such as complex boxes, animations etc.\), or to give a specific deadline for getting the proof to the authors.
 
 ## Production process for feature content
 
@@ -81,7 +81,7 @@ Once the files have been edited, the article will be exported. At this point, th
 
 Feature content should be processed as soon as possible after export \(within 24 hours for Insights, Editorials and Template 3/4 content, within 48 hours for Template 5 content\). If more time is required, the content processors should let the Production team know as soon as possible.
 
-No copy-editing should be required for feature content as this will already have been carried out by the Feature team prior to export. In very rare cases where external copy-editing is required, the Features team will advise the Production team who will request that the article is moved into the external copy-editing workflow.
+No copy-editing should be required for feature content as this will already have been carried out by the Feature team prior to export. In very rare cases where copy-editing is required, the Features team will advise the Production team who will request that the article is moved into the copy-editing workflow.
 
 Once a feature article has been processed, it will be moved to the pre-author check stage to allow the Production team to check the content prior to author proofing.
 
@@ -89,17 +89,19 @@ Once a feature article has been processed, it will be moved to the pre-author ch
 
 The Production team will check feature content before it goes out to the author to ensure that it has been processed correctly, and to make sure any special requirements have been fulfilled. In order to do this, it will be necessary to open the article in the submission system to compare against the processed version.
 
+The following items should be checked:
+
 #### Title prefix
 
 The title prefix is displayed as the 'sub display channel' in the article details page. This should be in title case \(as opposed to the sentence case used for all other eLife headings\).
 
-![](../../.gitbook/assets/screen-shot-2020-06-30-at-15.47.36.png)
+![Title prefix in the proofing system](../../.gitbook/assets/screen-shot-2020-06-30-at-15.47.36.png)
 
 #### Author bio
 
 The author bio displays under the author name and can be edited in the author details panel.
 
-![Author bio display](../../.gitbook/assets/screen-shot-2020-06-30-at-15.47.55.png)
+![Author bio in the proofing system](../../.gitbook/assets/screen-shot-2020-06-30-at-15.47.55.png)
 
 The author bio and the affiliations for each author should be consistent, but they do not need to be identical. For example, the author bio might say that "**Louise Smith** is in the Department of Genetics and the Institute of Neuroscience, University of Bristol, Bristol, United Kingdom", whereas the affiliations will be given separately as "Department of Genetics, University of Bristol, Bristol, United Kingdom" and "Institute of Neuroscience, University of Bristol, Bristol, United Kingdom".
 
@@ -123,21 +125,27 @@ Pull-quotes should ideally appear at a similar point in the PDF; however this ma
 
 #### PDF display
 
-Figures in the PDF should display at the correct width corresponding to the class given in the file name \(see [above](feature-content.md#submission-and-export-of-feature-content)\).
+Figures in the PDF should display at the correct width corresponding to the class given in the file name \(see [**above**](feature-content.md#submission-and-export-of-feature-content)\).
 
 ### Author proofing
 
-Author proofing for feature content proceeds in the same manner as for research content. The proofing email will be copied to the Features team and the Features editor. Author correspondence during proofing should be handled by whichever of the Production or Features teams is most appropraite. That is, technical questions about the proofing system and problems with the proof should be handled by the Production team while requests to make extensive changes should be referred to the Features team.
+Author proofing for feature content proceeds in the same manner as for research content. However, the proofing email will be copied to the Features team and the Features editor. Author correspondence during proofing should be handled by whichever of the Production or Features teams is most appropriate. That is, technical questions about the proofing system and problems with the proof should be handled by the Production team while requests to make extensive changes should be referred to the Features team.
 
 ### Feature review
 
-Once author proofing is complete, the article will move into the 'Feature Review' stage to allow the Features team to check over the authors' edits. They will be alerted with an email notification once this occurs.
+Once author proofing is complete, the article will move into the 'Feature Review' stage to allow the Features team to check over the authors' edits. They will be alerted with an email notification when this occurs.
 
-Once they have completed their checks, they will sign the article off to Post Author Validation. If anything needs changing or correcting and the Feature team cannot make the required edits via the proofing system, they will email instructions to the Production team who will respond accordingly, either by passing the instructions on to the content processors or by making a note to fix the outstanding issues at the post-author check stage.
+After they have completed their checks, they will sign the article off to 'Post Author Validation' with the content processors \(the same stage research content goes into following Author Review\). If the Feature team cannot make required corrections via the proofing system, they will email instructions to the Production team who will respond accordingly, either by passing the instructions on to the content processors or by making a note to fix the outstanding issues at the post-author check stage.
 
 ### Post-author checks
 
 The Production team will carry out final post-author/post-Feature team checks in the same manner as post-author checks for research content. Any remaining issues should be resolved and the author/feature changes should be checked and accepted. If the authors have requested an additional proof, the article should be sent back to them following the normal procedure \(signing the article off to Author review for a second time\). However, if the Features team have requested an additional proof, a PDF should be shared with them via email or Slack. Any further changes they request should be carried out by the Production team.
+
+### Publication
+
+Publication of feature content follows the same process as for research content. If no specific date has been requested for Editorials or Feature articles, they should be published as soon as they are ready to go.
+
+Insight articles should be published alongside the research content to which they are related. Usually, the typeset version of record for this content will be ready by the time the Insight has gone through proofing. In the event that the research content is not ready for VoR publication and it has not been published as an accepted manuscript, the Insight should be held until the related article is ready. If the article has been published on acceptance \(PoA\), the Features team should be contacted to ask if the related Insight should be held until the VoR is ready. They may decide to go ahead with publication of the Insight as it will be linked to the PoA version of the research content.
 
 ## Schematron checks
 
