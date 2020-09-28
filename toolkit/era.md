@@ -138,7 +138,7 @@ Visit the snapshot of the ERA you need to publish \(see [**above**](era.md#obtai
 1. Clone the [**elifesciences/builder-configuration**](https://github.com/elifesciences/builder-configuration) GitHub repo locally. \(Skip if already done\).
 2. Ensure that the local version is up to date with the master branch \(pull the latest\).
 3. Create a new branch \(based off the `master` branch\), calling it something appropriate like `era-update`.
-4. Add the details of the new ERA into the `pillar/rds-articles.yaml` file, in the format:
+4. Add the details of the new ERA into the `pillar/era-articles.yaml` file, in the format:
 
 ```yaml
 '{5 digit id of article}':
@@ -146,10 +146,6 @@ Visit the snapshot of the ERA you need to publish \(see [**above**](era.md#obtai
     display: {link to Snapshot Stencila Hub Article HTML}
     download: {link for Stencila project snapshot download}
 ```
-
-{% hint style="info" %}
-Note this filename will change to `pillar/era-articles.yaml` soon.
-{% endhint %}
 
 Date format is `YYYY-MM-DDTHH-mm-ssZ`, where `Y` is a digit for the year, `M` is a digit for the month, `D` is a digit for the day, `H` is a digit for the hour \(24 hour clock, for example 13 for 1pm\), `m` is a digit for the minute, and `s` a digit for the second. `T` and `Z` stay the same.
 
