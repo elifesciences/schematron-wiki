@@ -27,19 +27,43 @@ Stencila is the organisation which developed the suite of tools used to enrich a
 Production carry out three roles in the ERA process:
 
 * **Point of contact for Authors who are ERA-ing their article**. If they have any technical questions, these should be directed to Stencila. However, any questions related to how they should present their content \(and so on\) are for Production to answer.
+* **Creating a Stencila Project** for authors to work in.
 * **QC of an ERA**. QC-ing an ERA prior to publication fall within Production's remit.
 * **Publication of ERAs**. Production are responsible for publishing ERAs.
 
 ## **ERA workflow**
 
 1. **Approach**: The author\(s\) of an already published \(VoR\) eLife article contact eLife to let them know they would like to ‘ERA’ their article. They will likely be screened by someone else at eLife before being put in touch with Production.
-2. **Authoring**: The author\(s\) follow [**guidelines**](http://help.stenci.la/en/articles/4184684-enriching-an-elife-article) which detail how to write reproducible articles as R Markdown or Jupyter Notebook documents in [**Stencila Hub**](https://hub.stenci.la/open/). These guidelines will include how to add the necessary metadata to each of these formats \(note that there is also an interactive wizard to help any user when first creating a project in Stencila Hub\). R Markdown and Jupyter Notebook are currently the only formats which are supported for ERAs. In the future this will be extended to other formats. 
-3. **Uploading**: The author\(s\) upload their article, and necessary data and code files, to a “project” on [**Stencila Hub**](https://hub.stenci.la/open/).
-4. **Building**: Using [**Stencilla Hub**](https://hub.stenci.la/open/), the author will build the article \(either by downloading the files in a supported format, updating those files locally and re-uploading; or by using Stencila’s Google Document Add-on \[which will be available at some time after launch\]\). They will add any code and data needed to make the article executable.
-5. **Snapshot-ing**: The authors will ‘snapshot’ their ERA in Stencila Hub. This means saving a version of the article which is immutable \(will not be edited further\) for the purposes of publication. 
-6. **Sharing**: The authors will share their ERA snapshot with the eLife production team. This will likely be in the form of an email from Stencila Hub containing a link to the article. \(There is a button in Stencila Hub which the author\(s\) can press to initiate this step\).
-7. **QC**: A production team member will compare the ERA on Stencila Hub against the eLife VoR article. If any edits need to be made, these will have to be done by the authors in Stencila Hub, and after having done so they will have to send over a separate snapshot link. See [**ERA QC**](era.md#era-qc) section below
-8. **Publication**: The Production team member will publish the ERA on the eLife site \(see [**Publishing an ERA**](era.md#publishing-an-era) below\).
+2. **Project setup**: Follow the guidelines below to setup a project under the eLife organisation for that article in Stencila Hub.
+3. **Authoring**: The author\(s\) follow [**guidelines**](http://help.stenci.la/en/articles/4184684-enriching-an-elife-article) which detail how to write reproducible articles as R Markdown or Jupyter Notebook documents in [**Stencila Hub**](https://hub.stenci.la/open/). These guidelines will include how to add the necessary metadata to each of these formats \(note that there is also an interactive wizard to help any user when first creating a project in Stencila Hub\). R Markdown and Jupyter Notebook are currently the only formats which are supported for ERAs. In the future this will be extended to other formats. 
+4. **Uploading**: The author\(s\) upload their article, and necessary data and code files, to a “project” on [**Stencila Hub**](https://hub.stenci.la/open/).
+5. **Building**: Using [**Stencilla Hub**](https://hub.stenci.la/open/), the author will build the article \(either by downloading the files in a supported format, updating those files locally and re-uploading; or by using Stencila’s Google Document Add-on \[which will be available at some time after launch\]\). They will add any code and data needed to make the article executable.
+6. **Snapshot-ing**: The authors will ‘snapshot’ their ERA in Stencila Hub. This means saving a version of the article which is immutable \(will not be edited further\) for the purposes of publication. 
+7. **Sharing**: The authors will share their ERA snapshot with the eLife production team. This will likely be in the form of an email from Stencila Hub containing a link to the article. \(There is a button in Stencila Hub which the author\(s\) can press to initiate this step\).
+8. **QC**: A production team member will compare the ERA on Stencila Hub against the eLife VoR article. If any edits need to be made, these will have to be done by the authors in Stencila Hub, and after having done so they will have to send over a separate snapshot link. See [**ERA QC**](era.md#era-qc) section below
+9. **Publication**: The Production team member will publish the ERA on the eLife site \(see [**Publishing an ERA**](era.md#publishing-an-era) below\).
+
+## Creating a Stencila Project and sharing it with authors
+
+* Visit [Stencila Hub](https://stenci.la/), and log in.
+* Go to the [Organisations page](https://hub.stenci.la/orgs/), and click eLife.
+
+![](../.gitbook/assets/screenshot-2020-09-28-at-11.45.45.png)
+
+* Click '+ New project'
+
+![](../.gitbook/assets/screenshot-2020-09-28-at-11.46.17.png)
+
+* In the Name field add 'article-' followed by the article number \(e.g. article-55862\). Everything else can remain the same.
+* Go to settings
+
+![](../.gitbook/assets/screenshot-2020-09-28-at-11.48.46.png)
+
+* In the title field, add the title of the article.
+* In the Description field add the abstract for the article.
+* Go to Sharing in the left hand table of contents
+* If the authors have already created a stencila Hub account, search for their name or account handle, and click add.
+* If the authors have not created a Stencila Hub account, click 'Invite them' and use their email.
 
 ## ERA QC
 
@@ -161,4 +185,6 @@ Date format is `YYYY-MM-DDTHH-mm-ssZ`, where `Y` is a digit for the year, `M` is
 Visit [**https://alfred.elifesciences.org/job/process/job/process-rds-publishing/**](https://alfred.elifesciences.org/job/process/job/process-rds-publishing/) and click ‘Build Now’. This will run the Jenkins pipeline, which will publish the article on the site at the date and time specified in the YAML file.
 
 ## Change log
+
+* Updated 28/09/2020 to account for new workflow \(eLife prod to setup Stencila Project\).
 
