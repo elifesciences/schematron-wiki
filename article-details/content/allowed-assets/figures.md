@@ -35,7 +35,7 @@ Figures are made up of:
 Figure files should be:
 
 * in PDF, EPS, AI, JPEG, PNG or TIF formats
-  * in 8 bit format \(not 16 bit format\) if a TIF file
+  * in 16 bit format \(not 8 bit format\) if a TIF file
 * no larger than 500MB
 * no wider or higher than 10,000 pixels
   * The upper extremes for Continuum are 14,000 pixels high and wide or or no more than 178,956,970 pixels square in size, but just to be safe, figures should be 10,000 pixels high and wide 
