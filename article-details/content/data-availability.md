@@ -855,6 +855,14 @@ For example, if the URLs for two datasets are both [https://www.ncbi.nlm.nih.gov
 
 For example, if the identifiers for two datasets are both GSE135351, but the URLs are [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135351) and [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143881), the dataset for the second URL should have the identifier GSE143881.
 
+#### das-elem-cit-5
+
+**Warning**: _The reference in position XX of the data availability section has a pub-id \(XXXXXX\) which is the same as in another reference in the reference list. Is the same reference in both the reference list and data availability section?_
+
+**Action**: This warning indicates that a dataset's identifier matches that of an identifier in a reference in the reference list. If it's the case that the same reference is included in both places, then check the amount of times that the reference in the reference list has been cited. If it hasn't been cited or if it has only been cited in a duplicate data availability section, then the reference in the reference list can be deleted. If they aren't duplicate references but have the same identifiers, then it's likely that one of them is wrong. If you cannot determine which is incorrect, then at pre-authors stages an author query should be added on the identifier in the reference list:
+
+* Please confirm that the details for this reference are correct. The identifier is currently the same as an identifier for one of the dataset references in the Data availability section.
+
 #### das-pub-id-1
 
 **Error**: _Each pub-id element must have an @pub-id-type which is either accession or doi._
@@ -1612,4 +1620,5 @@ The current data availability tagging was introduced at the beginning of June 20
 
 * Updated 2020-07-07 to purge mention of archive type pub-ids. Only accession or doi now allowed.
 * Updated 2020-08-17 to account for split of das-elem-cit-3 into pre and final versions.
+* Updated 2020-09-29 to add das-elem-cit-5.
 
