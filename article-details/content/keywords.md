@@ -42,19 +42,21 @@ Please check these are:
 
 **Error**: _XXXXXX articles must not have any author keywords_
 
-**Action**:
+**Action**: This will fire if a Correction or Retraction notice contains author keywords. They should be deleted in Kriya.
 
 **test-ro-kwd-group-presence-2**
 
 **Warning**: _XXXXXX does not contain a Research Organism keyword group. Is this correct?_
 
-**Action**:
+**Action**: This will fire if any one of the following article types does not contain a research organism keyword - Research Article, Research Advance, Replication Study, Research Communication. It would be quite unusual for one of these article not to have used a research organism. Check in eJP if one has been selected. If not, then please add the following author query:
+
+* Please confirm whether any research organisms were used for this work.
 
 **kwd-group-title**
 
 **Error**: _kwd-group title is XXXXXX, which is wrong. It should be 'Research organism'._
 
-**Action**:
+**Action**: 
 
 **kwd-upper-case**
 
