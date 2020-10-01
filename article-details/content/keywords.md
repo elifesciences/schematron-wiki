@@ -116,8 +116,14 @@ Please check these are:
 
 ## XML structure
 
-```
-<kwd-group kwd-group-type="author-keywords"><kwd>decision-making</kwd><kwd>network model</kwd><kwd>NMDA receptor</kwd><kwd>schizophrenia</kwd><kwd>ketamine</kwd></kwd-group>
+```markup
+<kwd-group kwd-group-type="author-keywords">
+<kwd>decision-making</kwd>
+<kwd>network model</kwd>
+<kwd>NMDA receptor</kwd>
+<kwd>schizophrenia</kwd>
+<kwd>ketamine</kwd>
+</kwd-group>
 ```
 
 ## Changes
