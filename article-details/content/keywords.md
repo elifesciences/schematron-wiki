@@ -38,25 +38,79 @@ Please check these are:
 
 ### Content checks
 
-List of errors and warnings that can occur, with guidance on how to solve each problem or on when it is OK to let the warning go by and not change anything.
+**test-auth-kwd-group-presence-2**
 
-These checks relate to the content of \[insert name of page\]. X or XXXXXX refers to quoted text which will change depending on the article.
+**Error**: _XXXXXX articles must not have any author keywords_
 
-#### id-x - make sure this is tagged as a level 3 header
+**Action**:
 
-**Warning/Error/Info:** _content of message_
+**test-ro-kwd-group-presence-2**
 
-**Action:** What to do if this message fires
+**Warning**: _XXXXXX does not contain a Research Organism keyword group. Is this correct?_
+
+**Action**:
+
+**kwd-group-title**
+
+**Error**: _kwd-group title is XXXXXX, which is wrong. It should be 'Research organism'._
+
+**Action**:
+
+**kwd-upper-case**
+
+**Error**: _research-organism kwd elements should start with an upper-case letter._
+
+**Action**:
+
+**kwd-child-test**
+
+**Error**: _research-organism keywords cannot have child elements such as XXXXXX._
+
+**Action**:
+
+**auth-kwd-check**
+
+**Warning**: _Keyword - 'XXXXXX' - does not appear in the article text with this capitalisation. Should it be XXXXXX instead?_
+
+**Action**:
+
+**auth-kwd-check-2**
+
+**Warning**: _Keyword contains what looks like a broken unicode - XXXXXX._
+
+**Action**:
 
 ### XML structure checks
 
-These checks relate to the XML structure of \[insert name of page\]. ‌X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see below \(include link to XML structure\).
+**test-auth-kwd-group-presence-1**
 
-#### id-x - make sure this is tagged as a level 3 header
+**Error**: _One author keyword group must be present in article-meta._
 
-**Warning/Error/Info:** _content of message_
+**Action**:
 
-**Action:** What to do if this message fires
+**test-ro-kwd-group-presence-1**
+
+**Error**: _More than 1 Research organism keyword group is present in article-meta. This is incorrect._
+
+**Action**:
+
+**kwd-group-type**
+
+**Error**: _kwd-group must have a @kwd-group-type 'research-organism', or 'author-keywords'._
+
+**Action**:
+
+**non-ro-kwd-presence-test**
+
+**Warning**: _kwd-group must contain at least one kwd_
+
+**Action**:
+
+**ro-kwd-presence-test**
+
+**Warning**: _kwd-group must contain at least one kwd_
+
+**Action**:
 
 ## XML structure
 
