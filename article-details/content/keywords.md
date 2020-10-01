@@ -48,7 +48,7 @@ Please check these are:
 
 **Warning**: _XXXXXX does not contain a Research Organism keyword group. Is this correct?_
 
-**Action**: This will fire if any one of the following article types does not contain a research organism keyword - Research Article, Research Advance, Replication Study, Research Communication. It would be quite unusual for one of these article not to have used a research organism. Check in eJP if one has been selected. If not, then please add the following author query:
+**Action**: This will fire if any one of the following article types does not contain a research organism keyword - Research Article, Research Advance, Replication Study, Research Communication. Even in the case where no research organisms were used in a work a keyword containing 'None' should be added. Check in eJP if one has been selected. If not, then add 'None' as a keyword and add the following author query:
 
 * Please confirm whether any research organisms were used for this work.
 
@@ -56,13 +56,13 @@ Please check these are:
 
 **Error**: _kwd-group title is XXXXXX, which is wrong. It should be 'Research organism'._
 
-**Action**: 
+**Action**: The title for a keyword group containing research organisms \(`<kwd-group kwd-group-type="research-organism">`\) should be 'Research organism'. If this fires, it means something has gone awry in Kriya and will need to be correct by Exeter or Exeter's support team.
 
 **kwd-upper-case**
 
 **Error**: _research-organism kwd elements should start with an upper-case letter._
 
-**Action**:
+**Action**: Research organism keywords must start with an upper-case letter. If it is a misspelling of one of the set research organisms, then correct it. If it is not a misspelling or it is unclear, then Exeter should check with eLife Production, and if eLife Production cannot determine the correct 
 
 **kwd-child-test**
 
