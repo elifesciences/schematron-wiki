@@ -161,13 +161,24 @@ Note that those captured in italics below, should _always_ be in italics in the 
 
 ## XML structure
 
+### Author keywords
+
 ```markup
 <kwd-group kwd-group-type="author-keywords">
-<kwd>decision-making</kwd>
-<kwd>network model</kwd>
-<kwd>NMDA receptor</kwd>
-<kwd>schizophrenia</kwd>
-<kwd>ketamine</kwd>
+    <kwd>decision-making</kwd>
+    <kwd>network model</kwd>
+    <kwd>NMDA receptor</kwd>
+    <kwd>schizophrenia</kwd>
+    <kwd>ketamine</kwd>
+</kwd-group>
+```
+
+### Research organisms
+
+```markup
+<kwd-group kwd-group-type="research-organism">
+    <title>Research organism</title>
+    <kwd>Rhesus macaque</kwd>
 </kwd-group>
 ```
 
