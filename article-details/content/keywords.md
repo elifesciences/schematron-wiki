@@ -34,6 +34,45 @@ Please check these are:
 * In italics if appropriate \(e.g. _E. coli_\)
 * A maximum of 6 words 
 
+## Research organisms
+
+### List of allowed Research organism
+
+
+
+* _A. thaliana_
+* _B. subtilis_
+* _C. elegans_
+* _C. intestinalis_
+* Chicken
+* _Chlamydomonas reinhardtii_
+* _Daphnia_
+* _Dictyostelium_
+* _D. melanogaster_
+* _E. coli_
+* Human
+* Maize
+* Mouse
+* _M. thermophila_
+* _Neurospora_
+* _N. crassa_
+* _O. fasciatus_
+* _P. cynocephalus_
+* _P. dumerilii_
+* _P. falciparum_
+* _Planarian_
+* Rat
+* _S. cerevisiae_
+* _S. enterica serovar Typhi_
+* _S. pombe_
+* _S. pyogenes_
+* Rhesus macaque
+* Viruses
+* _Xenopus_
+* Zebrafish
+* Other
+* None
+
 ## Schematron checks
 
 ### Content checks
@@ -62,7 +101,7 @@ Please check these are:
 
 **Error**: _research-organism kwd elements should start with an upper-case letter._
 
-**Action**: Research organism keywords must start with an upper-case letter. If it is a misspelling of one of the set research organisms, then correct it. If it is not a misspelling or it is unclear, then Exeter should check with eLife Production, and if eLife Production cannot determine the correct 
+**Action**: Research organism keywords must start with an upper-case letter. If it is a misspelling of one of the set research organisms, then correct it. If it is not a misspelling or it is unclear which one should be used, then Exeter should check with eLife Production who should determine which of the the set research organism keywords should be used.
 
 **kwd-child-test**
 
