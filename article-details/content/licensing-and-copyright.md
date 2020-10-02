@@ -133,7 +133,7 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 **Error**: _There must be one and only one permissions element in the article-meta. Currently there are XXXXXX_
 
-**Action**: This error will fire if there are none or more than one permission elements under the article-meta. Every article should have article-level licensing including a permissions element in the front matter. If there are multiple, check which is correct by comparing against the copyright year, copyright holder and copyright statements and ask Exeter to correct this. See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license). 
+**Action**: This error will fire if there are none or more than one permission elements under the article-meta. Every article should have article-level licensing including a permissions element in the front matter. If there are multiple, check which is correct by comparing against the copyright year, copyright holder and copyright statements \(and checking the license of the article\) and ask Exeter to correct this. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
 
 #### permissions-test-1
 
@@ -141,43 +141,43 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 **Action**: This error will fire if the permissions wrapper for an article does not have a copyright-statement element. The copyright statement is made up of the copyright symbol © followed by the copyright year, and the copyright holder. Exeter will need to add this, for example:`<copyright-statement>© 2019, Smith et al</copyright-statement>`
 
-This will not fire for CC0 articles as these do not have copyright statements. See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license). 
+This will not fire for CC0 articles as these do not have copyright statements. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
 
 #### permissions-test-2
 
 **Error**: _permissions must contain copyright-year in the format 0000. Currently it is XXXXXX_
 
-**Action**: This error will fire if the copyright year of an article is entered in a format other than numerical e.g. two thousand and twenty instead of 2020. Exeter will need to correct this. This will not fire for CC0 articles. See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license). 
+**Action**: This error will fire if the copyright year of an article is entered in a format other than numerical e.g. two thousand and twenty instead of 2020. Exeter will need to correct this. This will not fire for CC0 articles. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
 
 #### permissions-test-3
 
 **Error**: _permissions must contain copyright-holder._
 
-**Action**: This error will fire if there is no copyright holder for an article \(does not apply to CC0 articles\). Exeter will need to correct this. The copyright holder should entered as the surname of the first author followed by 'et al' \(e.g. Smith et al\). If there is only one author, the 'et al' is not required \(e.g. Smith\). If there are only two authors, the surnames of both authors should be entered with no 'et al' \(e.g. Smith and Jones\). See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license).
+**Action**: This error will fire if there is no copyright holder for an article \(does not apply to CC0 articles\). Exeter will need to correct this. The copyright holder should entered as the surname of the first author followed by 'et al' \(e.g. Smith et al\). If there is only one author, the 'et al' is not required \(e.g. Smith\). If there are only two authors, the surnames of both authors should be entered with no 'et al' \(e.g. Smith and Jones\). See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
 
 #### permissions-test-4
 
 **Error**: _permissions must contain an ali:free\_to\_read element._
 
-**Action**: This error will fire if there is no ali:free\_to\_read element in the permissions wrapper and one is required \(i.e. does not apply to CC-BY articles\). This will need to be added by Exeter. See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license-cc-0).
+**Action**: This error will fire if there is no ali:free\_to\_read element in the permissions wrapper and one is required \(i.e. does not apply to CC-BY articles\). This will need to be added by Exeter. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
 
 #### permissions-test-5
 
 **Error**: _permissions must contain license._
 
-**Action**: This error will fire if there is no &lt;license&gt; element in the permissions wrapper. This will need to be added by Exeter. The license element contains information about which CC license the article is published under. See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license).
+**Action**: This error will fire if there is no &lt;license&gt; element in the permissions wrapper. This will need to be added by Exeter. The license element contains information about which CC license the article is published under. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
 
 #### permissions-test-6
 
 **Error**: _copyright-year must match the contents of the year in the pub-date\[@publication-format='electronic'\]\[@date-type='publication'\]. Currently, copyright-year=XXXXXX and pub-date=XXXXXX._
 
-**Action**: This error will fire if the copyright year for the article does not match the published date of the article \(for example, if an article was published in 2020 but the copyright year is 2019\). This will need to be corrected by Exeter. See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license).
+**Action**: This error will fire if the copyright year for the article does not match the published date of the article \(for example, if an article was published in 2020 but the copyright year is 2019\). This will need to be corrected by Exeter. This will not apply to CC0 articles. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
 
 #### permissions-test-7
 
 **Error**: _copyright-holder is incorrect. If the article has one author then it should be their surname. If it has two authors it should be the surname of the first, then ' and ' and then the surname of the second. If three or more, it should be the surname of the first, and then ' et al'. Currently it's XXXXXX_
 
-**Action**: This error will fire if the copyright holder for the article is incorrect. The copyright holder should entered as the surname of the first author followed by 'et al' \(e.g. Smith et al\). If there is only one author, the 'et al' is not required \(e.g. Smith\). If there are only two authors, the surnames of both authors should be entered with no 'et al' \(e.g. Smith and Jones\). This will need to be corrected by Exeter. See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license).
+**Action**: This error will fire if the copyright holder for the article is incorrect. The copyright holder should entered as the surname of the first author followed by 'et al' \(e.g. Smith et al\). If there is only one author, the 'et al' is not required \(e.g. Smith\). If there are only two authors, the surnames of both authors should be entered with no 'et al' \(e.g. Smith and Jones\). This will need to be corrected by Exeter. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).
 
 #### permissions-test-8
 
@@ -195,7 +195,7 @@ This will not fire for CC0 articles as these do not have copyright statements. S
 
 **Error**: _license must contain ali:license\_ref._
 
-**Action**: This error will fire if there is no ali:license\_ref element in the license element for the article. This element includes an appropriate creative commons link depending on which license the article will be published under. Exeter will need to add this. See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license).
+**Action**: This error will fire if there is no ali:license\_ref element in the license element for the article. This element includes an appropriate creative commons link depending on which license the article will be published under. Exeter will need to add this. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
 
 #### license-test-2
 
@@ -205,7 +205,7 @@ This will not fire for CC0 articles as these do not have copyright statements. S
 
 > This article is distributed under the terms of the [**Creative Commons Attribution License**](http://creativecommons.org/licenses/by/4.0), which permits unrestricted use and redistribution provided that the original author and source are credited.
 
-See an example of XML for the article-level license [**here**](licensing-and-copyright.md#article-level-license). Exeter will need to correct this and include a link to the appropriate creative commons link depending on which license the article will be published under.
+See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0). Exeter will need to correct this and include a link to the appropriate creative commons link depending on which license the article will be published under.
 
 #### reproduce-test-1
 
