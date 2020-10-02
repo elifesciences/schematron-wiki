@@ -95,7 +95,7 @@ Note that those captured in italics below, should _always_ be in italics in the 
 
 **Error**: _kwd-group title is XXXXXX, which is wrong. It should be 'Research organism'._
 
-**Action**: The title for a keyword group containing research organisms \(`<kwd-group kwd-group-type="research-organism">`\) should be 'Research organism'. If this fires, it means something has gone awry in Kriya and will need to be correct by Exeter or Exeter's support team.
+**Action**: The title for a keyword group containing research organisms \(`<kwd-group kwd-group-type="research-organism">`\) should be 'Research organism'. This is boilerplate text, so if this fires it means something has gone awry in Kriya and will need to be correct by Exeter or Exeter's support team.
 
 **kwd-upper-case**
 
