@@ -227,7 +227,7 @@ Insight articles should be published alongside the research content to which the
 
 **Error**: _XXXXXX is a template XXXXXX but it has a decision letter or author response, which cannot be correct, as only template 5s are allowed these._
 
-**Action**: Only Template 5 feature articles should have decision letter and author response sections. This error indicates that an article using another template has a decision letter or author response section. This will need to be resolved, either by removing the inappropraite sections or by changing the article to Template 5. The Features team will likely need to be asked which is the correct course of action, unless it is clear that the decision/response has been added in error.
+**Action**: Only Template 5 feature articles should have decision letter and author response sections. This error indicates that an article using another template has a decision letter or author response section. This will need to be resolved, either by removing the inappropriate sections or by changing the article to Template 5. The Features team will likely need to be asked which is the correct course of action, unless it is clear that the decision/response has been added in error.
 
 #### feature-template-test-2
 
