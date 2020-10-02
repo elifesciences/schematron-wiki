@@ -8,7 +8,7 @@ description: How to handle the different types of Feature content
 
 At eLife, the term 'feature content' covers all non-research content published by the journal. This is synonymous with 'magazine content' and can be found under this heading on the eLife website: [**https://elifesciences.org/magazine**](https://elifesciences.org/magazine).
 
-This content is overseen by the Features team and consists in part of [**blogposts**](https://elifesciences.org/inside-elife) and [**podcasts**](https://elifesciences.org/podcast) that do not required Production intervention to publish. Digests are also published in a dedicated [section](https://elifesciences.org/digests) under the magazine heading, in addition to being included in the related article.
+This content is overseen by the Features team and consists in part of [**blogposts**](https://elifesciences.org/inside-elife) and [**podcasts**](https://elifesciences.org/podcast) that do not required Production intervention to publish. Digests are also published in a dedicated [**section**](https://elifesciences.org/digests) under the magazine heading, in addition to being included in the related article.
 
 In addition to this there are four categories of Feature article that come through the Production process:
 
@@ -62,7 +62,7 @@ In both cases, the Features team will carry out checks and editing tasks before 
 
 ![Example of pseudo tagging in the article file for an Editorial](../../.gitbook/assets/screen-shot-2020-07-01-at-17.47.09.png)
 
-The article file will be renamed to indicate which template should be used and the any figure files will be renamed to indicate the width at which they should be placed in the PDF. Since feature content uses a two-column PDF template, there are more options for figure placement than in research content. These are described using the following classes:
+The article file will be renamed to indicate which template should be used and then any figure files will be renamed to indicate the width at which they should be placed in the PDF. Since feature content uses a two-column PDF template, there are more options for figure placement than in research content. These are described using the following classes:
 
 * **Class A** = 1 column wide
 * **Class B** = 1 column plus the margin wide
