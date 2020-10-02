@@ -36,7 +36,7 @@ Please check these are:
 
 ## Research organisms
 
-### List of allowed Research organism
+### List of allowed research organisms
 
 Note that those captured in italics below, should _always_ be in italics in the article as well.
 
