@@ -131,7 +131,7 @@ Note that those captured in italics below, should _always_ be in italics in the 
 
 **Warning**: _Keyword contains brackets - XXXXXX.  These should either simply be removed, or added as two keywords \(with the brackets still removed\)._
 
-**Action**: This will fire if a keyword contains any of the following characters '\(', '\)', '\[', '\]', '{', '}'. If this is a scientific term which contains brackets such as `poly(A)-tail` or `(p)ppGpp` then it can be ignored. Check the rest of the text or search the term online to check whether it is a common scientific term which contains brackets. If this isn't the case, then text in the brackets should be added as a separate keyword, and the brackets removed. Quite often these will be terms followed by an abbreviation. For example `electron cryo-microscopy (cryoEM)` should be changed to `electron cryo-microscopy`, `cryoEM`.
+**Action**: This will fire if a keyword contains any of the following characters '\(', '\)', '\[', '\]', '{', '}'. If this is a scientific term which contains brackets such as `poly(A)-tail` or `(p)ppGpp` then it can be ignored. Check the rest of the text or search the term online to determine whether it is a common scientific term which contains brackets. If this isn't the case, then any text in the brackets should be added as a separate keyword, and the brackets removed. Quite often these will be terms followed by an abbreviation. For example `electron cryo-microscopy (cryoEM)` should be changed to `electron cryo-microscopy`, `cryoEM`.
 
 **auth-kwd-check-5**
 
