@@ -107,7 +107,7 @@ Note that those captured in italics below, should _always_ be in italics in the 
 
 **Error**: _research-organism keywords cannot have child elements such as XXXXXX._
 
-**Action**: This will fire if a research organism keyword has any child element which is not italic. This includes formatting such as bold, superscript etc., but also other XML elements. If the keyword contains un-allowed formatting, then remove it or re-key the keyword in Kriya. If it contains other elements, then Exeter will need to fix this.
+**Action**: This will fire if a research organism keyword has any child element which is not italic. This includes formatting such as bold, superscript etc., but also other XML elements. If the keyword contains disallowed formatting, then remove it or re-key the keyword in Kriya. If it contains other elements, then Exeter will need to fix this.
 
 **auth-kwd-check**
 
