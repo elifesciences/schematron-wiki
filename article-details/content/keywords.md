@@ -121,6 +121,36 @@ Note that those captured in italics below, should _always_ be in italics in the 
 
 **Action**: This will fire for keywords containing broken unicode such as `&#x03B2;-cell regeneration`. Search the broken unicode text online followed by the word 'unicode' in order to find the correct symbol. In the example above, doing so reveals that the correct letter is Greek small letter Beta, so the keyword should be updated to `β-cell regeneration`.
 
+**auth-kwd-check-3**
+
+**Error**: _Keyword contains markup captured as text - XXXXXX. Please remove it and ensure that it is marked up properly \(if necessary\)._
+
+**Action**: This will fire for keywords containing markup as text such as `<italic>E. coli`. Remove the unnecessary tags and, if necessary, ensure that the keyword is in italics.
+
+**auth-kwd-check-4**
+
+**Warning**: _Keyword contains brackets - XXXXXX.  These should either simply be removed, or added as two keywords \(with the brackets still removed\)._
+
+**Action**: This will fire if a keyword contains any of the following characters '\(', '\)', '\[', '\]', '{', '}'. In these cases the text in the brackets should be added as a separate keyword, and the brackets removed. For example `electron cryo-microscopy (cryoEM)` becomes `electron cryo-microscopy`, `cryoEM`.
+
+**auth-kwd-check-5**
+
+**Warning**: _Keyword contains 'and' - XXXXXX. These should be split out into two keywords._
+
+**Action**: This will fire for keywords containing the text ' and ', for example `arbitrary and deliberate decisions`. Keywords should contain a single term, so the presence of 'and' indicates that they need to be split up. In some cases this is as simple as removing the `and` and capturing the text either side as two keywords. For example this keyword `cilia and flagella` can be simply split into two, `cilia`, `flagella`. However in some cases you may need to look at the text and determine how they should be split. For example `arbitrary and deliberate decisions` should be split into `arbitrary decisions`, `deliberate decisions`.
+
+**auth-kwd-check-6**
+
+**Warning**: _Keyword contains more than 3 words - XXXXXX. These should be split out into separate keywords._
+
+**Action**: This will fire for keywords containing more than 3 words in them. This indicates that the keyword contains a phrase which can be split up. Use your judgement as to whether this can be split up into multiple keywords or not.
+
+**auth-kwd-check-7**
+
+**Warning**: _Keyword contains an organism name which is not in italics - XXXXXX. Please italicise the organism name in the keyword._
+
+**Action**: This will fire for keywords containing unitalicised organism names such as `E.coli`.  These should be italicised, such as _`E.coli`_.
+
 **test-auth-kwd-group-presence-1**
 
 **Error**: _One author keyword group must be present in article-meta._
