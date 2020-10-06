@@ -136,7 +136,7 @@ Now that the code has been archived an author query needs adding to let the auth
 
 The following should be requested from the authors \(if they aren't already present\):
 
-* An open source license for their code.
+* An open source license for their code \(see [**below**](archiving-code.md#how-to-determine-whether-a-repo-has-an-open-source-license) for how to determine this\).
 * A README.md file including a link to the eLife paper.
 
 One of the following four author queries should be added, depending on whether the repo contains any of the above:
