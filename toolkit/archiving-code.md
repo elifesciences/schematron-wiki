@@ -15,7 +15,7 @@ It is usually possible to work out whether a repository needs to be archived bas
 
 ## Checklist for archiving repositories
 
-1. \*\*\*\*[**Check that the repo contains files and is public**](archiving-code.md#check-whether-the-code-is-present-and-public)**.**
+1. \*\*\*\*[**Check whether the repo contains code and is public**](archiving-code.md#check-whether-the-code-is-present-and-public)**.**
 2. \*\*\*\*[**Check whether the correct version of the code already exists at Software Heritage**](archiving-code.md#check-whether-the-correct-version-of-the-code-already-exists-at-software-heritage)**.**
 3. If it does not, [**archive code at Software Heritage**](archiving-code.md#how-to-archive-code-in-software-heritage)**.**
 4. \*\*\*\*[**Add the SWHID to the article text to indicate where the copy is archived**](archiving-code.md#add-the-swhid-to-the-article-text)\*\*\*\*
