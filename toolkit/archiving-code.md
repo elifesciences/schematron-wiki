@@ -128,6 +128,10 @@ The authors may have referred to their code in the article text and/or in the da
 
 > Our spike sorting code is freely available at [https://github.com/narendramukherjee/blech\_clust](https://github.com/narendramukherjee/blech_clust) \([Mukherjee, 2019](https://elifesciences.org/articles/45968#bib60); copy archived at [swh:1:rev:86d380144b3f85c8951923de873893583bd25edf](https://archive.softwareheritage.org/swh:1:rev:86d380144b3f85c8951923de873893583bd25edf/)\).
 
+{% hint style="info" %}
+SWHIDs can be appended to 'https://archive.softwareheritage.org/' in order to obtain the hyperlink to the resource the SWHID points to
+{% endhint %}
+
 ### Add an author query
 
 Now that the code has been archived an author query needs adding to let the authors know what has occurred and to ensure that the code is presented with best practice.
