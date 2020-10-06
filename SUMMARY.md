@@ -68,3 +68,7 @@
 * [eToc](pages-in-progress/etoc.md)
 * [Glencoe](pages-in-progress/glencoe.md)
 
+---
+
+* [Name change requests](name-change-requests.md)
+
