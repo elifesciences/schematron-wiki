@@ -35,11 +35,12 @@ Once the name change request has been approved by the Editorial team, they will 
 
 ### Updating the current version of the article
 
-The current version of each affected article should be silently corrected following the normal process. The individual's name should be changed in the following places where appicable:
+
 
 * Article metadata:
   * author list or peer review details
   * author contributions
+  * competing interestsThe current version of each affected article should be silently corrected following the normal process. The individual's name should be changed in the following places where applicable:
   * funding table \(should correct automatically\)
   * funding statement
   * data statement
