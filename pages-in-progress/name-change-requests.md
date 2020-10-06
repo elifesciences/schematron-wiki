@@ -77,7 +77,34 @@ To silently correct these, the first step is to download all package prior to th
 * 1 VoR versions
   * elife-57056-vor-v3-20200921142808.zip
 
-These will need to be edited offline and then uploaded to the silent correction bucket to overwrite their respective versions of the article.
+In the event that a reviewer or senior editor name needs to be updated, only the version of record \(vor\) packages will need to be edited. If, however, an author or reviewing editor name is to be changed, all versions will need to be corrected.
+
+As [**above**](name-change-requests.md#updating-the-current-version-of-the-article), the affected name will need to be edited in all places it occurs in the article. 
+
+* The XML will need to be updated manually to replace the existing information. This can be done in Oxygen by the Production team.
+* The PDFs will need to be updated offline to reflect the edited information:
+  * PoA PDFs should be edited in Adobe by the Production team. 
+  * VoR PDFs will need to go to the content processor to be updated.
+
+Once the XML and PDF files have been corrected, each version's ZIP package should be recreated and named using the exact same filename that was initially downloaded. These should then be loaded into the silent correction bucket on the AWS.
+
+It will take a few minutes for each online version to update.
+
+### Downstream delivery
+
+PMC will be updated on SC of the most recent version
+
+Crossref will be updated by the SC on the most recent version
+
+PubMed will not be updated through the normal silent correction - will need to manually update
+
+CLOCKSS \(black box for eLife\) will be updated
+
+Google Scholar ???
+
+### Annotation to indicate a name change
+
+Following an update to change an author, editor or reviewer's name, an annotation should be added to the latest version of the article to indicate that such a change has taken place.
 
 
 
