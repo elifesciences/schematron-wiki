@@ -1,5 +1,5 @@
 ---
-description: How to handle the different types of Feature content
+description: How to handle the different types of feature content
 ---
 
 # Feature content
@@ -22,11 +22,11 @@ There are five content templates that map to the above article types. Aside from
 
 | Template number | Article type | PDF format | Possible content |
 | :--- | :--- | :--- | :--- |
-| Template 1 | Insight | Two column, with key information box on first page; one-sentence abstract displayed as stand-first | Labelled figures, no digest, no decision/response, no editors/reviewers, no funding, no data availability |
-| Template 2 | Editorial | Two column, one-sentence abstract displayed as stand-first | Illustrations and pull-quotes, no digest, no decision/response, no editors/reviewers, no funding, no data availability |
-| Template 3 | Feature article | Two column, one-sentence abstract displayed as stand-first | Illustrations and pull-quotes, no digest, no decision/response, no editors/reviewers, no funding, no data availability |
-| Template 4 | Feature article | Two column, full abstract | Labelled figures, tables, boxes, no digest, pull-quotes, no decision/response, no editors/reviewers, no funding, no data availability |
-| Template 5 | Feature article | Two column, full abstract | Labelled figures, tables, boxes, no digest, possible decision/response, editors/reviewers, funding information, data availability section |
+| \*\*\*\*[**Template 1**](https://drive.google.com/file/d/0B2wDI5EMHiJ-Y1gyNVVySENwMmM/view?usp=sharing)\*\*\*\* | Insight | Two column, with key information box on first page; one-sentence abstract displayed as stand-first | Labelled figures, no digest, no decision/response, no editors/reviewers, no funding, no data availability |
+| \*\*\*\*[**Template 2**](https://drive.google.com/file/d/0B2wDI5EMHiJ-Zm5VR0dxTlk4dGc/view?usp=sharing)\*\*\*\* | Editorial | Two column, one-sentence abstract displayed as stand-first | Illustrations and pull-quotes, no digest, no decision/response, no editors/reviewers, no funding, no data availability |
+| \*\*\*\*[**Template 3**](https://drive.google.com/file/d/0B2wDI5EMHiJ-VENsOTczcExQRjQ/view?usp=sharing)\*\*\*\* | Feature article | Two column, one-sentence abstract displayed as stand-first | Illustrations and pull-quotes, no digest, no decision/response, no editors/reviewers, no funding, no data availability |
+| \*\*\*\*[**Template 4**](https://drive.google.com/file/d/0B2wDI5EMHiJ-NVJEekI2UUNyaGM/view?usp=sharing)\*\*\*\* | Feature article | Two column, full abstract | Labelled figures, tables, boxes, no digest, pull-quotes, no decision/response, no editors/reviewers, no funding, no data availability |
+| \*\*\*\*[**Template 5**](https://drive.google.com/file/d/0B2wDI5EMHiJ-TDU1bFpfWm9OX3c/view?usp=sharing)\*\*\*\* | Feature article | Two column, full abstract | Labelled figures, tables, boxes, no digest, possible decision/response, editors/reviewers, funding information, data availability section |
 
 The required template will be indicated using the article file name in the exported files, for example "elife50543\_template3.docx" or "elife46563\_template4.docx".
 
@@ -34,7 +34,7 @@ The required template will be indicated using the article file name in the expor
 
 Feature content includes the following items not found in research content:
 
-* **Title prefix** - a brief category label displayed in front of the title, currently captured in the XML as a 'sub-display-channel' subject element. The text should be in title case.
+* **Title prefix** - a brief category label displayed in front of the title, currently captured in the XML as a 'sub-display-channel' subject element. There is no predefined list of these prefixes - while some are used to categorise feature articles \(e.g. 'Living Science' or 'Meta-Research'\), those used in Insights will be chosen based on the specific content being covered. The text should be in title case.
 
 ![Example sub-display channels](../../.gitbook/assets/screen-shot-2020-06-23-at-15.52.41.png)
 
@@ -56,13 +56,13 @@ Feature content includes the following items not found in research content:
 
 ## Submission and export of feature content
 
-Feature content is submitted to eLife via two paths: articles arriving through the the normal submission process and articles commissioned or invited by the Feature team. When articles are submitted via the normal process, they will go through peer review, usually overseen by the Features editors, and will likely have decision and response sections as a result. Commissioned articles are not reviewed and so will have no editors or review materials associated with them. These will be uploaded to the submissions system by the Features team, who will use the 'auto-accept' option to bypass the reviewing process.
+Feature content is submitted to eLife via two paths: an article arrives through the normal submission process, or an article is commissioned or invited by the Feature team. When articles are submitted via the normal process, they will go through peer review, usually overseen by the Features editors, and will likely have a decision letter and author response as a result. Commissioned articles are not reviewed and so will have no editors or review materials associated with them. These will be uploaded to the submissions system by the Features team, who will use the 'auto-accept' option to bypass the reviewing process.
 
 In both cases, the Features team will carry out checks and editing tasks before the articles are exported for production. Part of this involves formatting the article files using 'pseudo-tagging' to designate the various parts of the content for processing. If the article needs to be published as an accepted manuscript \(PoA\), then this will need to be done before being tagged to ensure a clean accepted manuscript is published. When the PoA process has been carried out, the article should be held in the export queue until the pseudo-tagging has been added.
 
 ![Example of pseudo tagging in the article file for an Editorial](../../.gitbook/assets/screen-shot-2020-07-01-at-17.47.09.png)
 
-The article file will be renamed to indicate which template should be used and then any figure files will be renamed to indicate the width at which they should be placed in the PDF. Since feature content uses a two-column PDF template, there are more options for figure placement than in research content. These are described using the following classes:
+The article file will be renamed to indicate which template should be used and any figure files will be renamed to indicate the width at which they should be placed in the PDF. Since feature content uses a two-column PDF template, there are more options for figure placement than in research content. These are described using the following classes:
 
 * **Class A** = 1 column wide
 * **Class B** = 1 column plus the margin wide
@@ -81,7 +81,7 @@ Once the files have been edited, the article will be exported. At this point, th
 
 Feature content should be processed as soon as possible after export \(within 24 hours for Insights, Editorials and Template 3/4 content, within 48 hours for Template 5 content\). If more time is required, the content processors should let the Production team know as soon as possible.
 
-No copy-editing should be required for feature content as this will already have been carried out by the Feature team prior to export. In very rare cases where copy-editing is required, the Features team will advise the Production team who will request that the article is moved into the copy-editing workflow.
+No copy-editing should be required for feature content as this will already have been carried out by the Feature team prior to export. In very rare cases where copy-editing is required, the Features team will advise the Production team, who will request that the article is moved into the copy-editing workflow.
 
 Once a feature article has been processed, it will be moved to the pre-author check stage to allow the Production team to check the content prior to author proofing.
 
@@ -105,7 +105,7 @@ The author bio displays under the author name and can be edited in the author de
 
 The author bio and the affiliations for each author should be consistent, but they do not need to be identical. For example, the author bio might say that "**Louise Smith** is in the Department of Genetics and the Institute of Neuroscience, University of Bristol, Bristol, United Kingdom", whereas the affiliations will be given separately as "Department of Genetics, University of Bristol, Bristol, United Kingdom" and "Institute of Neuroscience, University of Bristol, Bristol, United Kingdom".
 
-The author's name should be given in bold and the bio should not end in a full-stop.
+In the text of the bio, the author's name should be bold and the bio should not end in a full-stop.
 
 #### Key info box
 

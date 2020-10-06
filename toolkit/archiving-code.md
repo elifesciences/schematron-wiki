@@ -46,7 +46,7 @@ If the repo contains code and is public, go to the [**Software Heritage archive*
 
 ![](../.gitbook/assets/screenshot-2020-10-06-at-11.30.09.png)
 
-Untick 'only show origins visited at least once' and 'filter out origins with no archived content', and enter the URL for the repo containing the code. If it's already archived it will appear in the results.
+Untick 'only show origins visited at least once' and 'filter out origins with no archived content', and enter the URL for the repo containing the code. If there are no results, this indicates that the code has yet to be archived. Follow the steps [**below**](archiving-code.md#how-to-archive-code-in-software-heritage) to do so. If it's already archived it will appear in the results.
 
 Check that the result is the correct repo and the most up-to-date version of that repo \(by comparing the latest commit date\). If the code is not the latest version, follow the steps [**below for archiving code**](https://app.gitbook.com/@elifesciences/s/productionhowto/~/drafts/-MIxO7WNOziUlsqSYqlV/toolkit/archiving-code#how-to-archive-code-in-software-heritage).
 
@@ -54,7 +54,7 @@ Here's an example which does _not_ have the most up-to-date version:
 
 ![Latest version in SH from January 2020](../.gitbook/assets/screenshot-2020-10-06-at-11.41.25.png)
 
-If there are now results, this indicates that the code has yet to be archived. Follow the steps [**below**](archiving-code.md#how-to-archive-code-in-software-heritage) to do so.
+
 
 ### How to archive code in Software Heritage
 
