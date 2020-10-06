@@ -100,6 +100,10 @@ Any code with subversion-based revision control systems can follow [**the workfl
 
 Any code that does not use git, mercurial or subversion, will need to be deposited in a different way. We currently do not have the functionality setup to do this.
 
+If you are unable to determine which revision control system is used, add an author query:
+
+* Per eLife policy we would like to archive your code on Software Heritage. In order for us to do so, we need to know what revision control system is used in the repo. Please confirm this \(for example, git, mercurial, subversion etc.\).
+
 ## **Add the SWHID to the article text**
 
 Software Heritage Identifiers \(SWHID\) are unique and persistent ids used to reference code. They can reference a specific line of code, file, repo, and version of code. For our purposes we want to point to a specific version of a whole repo \(or repos\).
