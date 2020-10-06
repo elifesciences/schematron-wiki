@@ -4,7 +4,9 @@
 
 Any code that has been specifically written as part of the work reported in an eLife paper should be made freely accessible under an open-source license. This allows readers to replicate the results using the same tools the authors used. As authors may continue to develop their code in the future, eLife archives the version that exists at the point of publication at [**Software Heritage**](https://www.softwareheritage.org/). Only code that has been created for the specific work should be archived.
 
-It is usually possible to work out whether a repository needs to be archived based on the context:
+It is usually possible to work out whether a repository needs to be archived based on the context.
+
+### Context checklist
 
 * Code mentioned in the Data Availability Statement \(e.g. “All analysis code has been made available on GitHub \([**https://github.com/learning-memory-and-decision-lab/NassarBrucknerFrank\_eLife\_2019**](https://github.com/learning-memory-and-decision-lab/NassarBrucknerFrank_eLife_2019)\).”\) should usually be archived.
 * If one of the authors of the paper also authored the code, this usually indicates that it was generated for the work and should be archived.
