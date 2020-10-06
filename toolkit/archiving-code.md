@@ -95,7 +95,7 @@ Any code that does not use git, will need to be deposited. TO BE FLESHED OUT
 
 ## **Add the SWHID to the article text**
 
-Software Heritage Identifiers \(SWHID\) are unique and persistent ids used to reference code. They can reference a specific line, file, repo, and version of code. for our purposes we want to point to a specific version of a whole repo \(or repos\).
+Software Heritage Identifiers \(SWHID\) are unique and persistent ids used to reference code. They can reference a specific line of code, file, repo, and version of code. For our purposes we want to point to a specific version of a whole repo \(or repos\).
 
 To get a SWHID for a repo, click the 'Permalinks' sidebar tab:
 
