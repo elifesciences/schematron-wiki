@@ -10,7 +10,7 @@ At eLife, the term 'feature content' covers all non-research content published b
 
 This content is overseen by the Features team and consists in part of [**blogposts**](https://elifesciences.org/inside-elife) and [**podcasts**](https://elifesciences.org/podcast) that do not required Production intervention to publish. Digests are also published in a dedicated [**section**](https://elifesciences.org/digests) under the magazine heading, in addition to being included in the related article.
 
-In addition to this there are four categories of Feature article that come through the Production process:
+In addition to this there are four categories of feature article that come through the production process:
 
 * **Insight** - a commentary article accompanying one or more research articles, usually written by the editors or reviewers who worked on the article, to provide context for a broader audience and highlight the importance of the findings being reported.
 * **Editorial** - an editorial piece written by one or more of eLife's deputy or senior editors, or the editor-in-chief, usually addressing a specific issue or development in the scientific community in general and/or at eLife in particular.
@@ -143,9 +143,11 @@ The Production team will carry out final post-author/post-Feature team checks in
 
 ### Publication
 
-Publication of feature content follows the same process as for research content. If no specific date has been requested for Editorials or Feature articles, they should be published as soon as they are ready to go.
-
 Insight articles should be published alongside the research content to which they are related. Usually, the typeset version of record for this content will be ready by the time the Insight has gone through proofing. In the event that the research content is not ready for VoR publication and it has not been published as an accepted manuscript, the Insight should be held until the related article is ready. If the article has been published on acceptance \(PoA\), the Features team should be contacted to ask if the related Insight should be held until the VoR is ready. They may decide to go ahead with publication of the Insight as it will be linked to the PoA version of the research content.
+
+Publication of other feature content follows the same process as for research content. If no specific date has been requested for Editorials or Feature articles, they should be published as soon as they are ready to go.
+
+
 
 ## Schematron checks
 
@@ -177,7 +179,7 @@ Insight articles should be published alongside the research content to which the
 
 #### feature-bio-test-1
 
-**Error**: _bio must contain a bold element which contains the name of the author - XXXXXX._
+**Error**: _bio must contain a bold element that contains the name of the author - XXXXXX._
 
 **Action**: The author's name in the bio should be in bold. Check that this has been done and that the bold formatting does not spill over into the rest of the text. XXXXXX will be the affected author.
 
@@ -283,7 +285,7 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 **Error**: _XXXXXX is not allowed in a Template type meta-value._
 
-**Action**: In the template type element `<custom-meta specific-use="meta-only">` \(that is, one with the `<meta-name>Template</meta-name>`\), the value \(provided in a `<meta-value>` element\) should be a single digit with no other elements. This error will fire if additional elements are present within `<meta-value>`. This elements \(e.g. formatting, bold, italics\) should be removed. An example of a correction template `<custom-meta>` element is shown below:
+**Action**: In the template type element `<custom-meta specific-use="meta-only">` \(that is, one with the `<meta-name>Template</meta-name>`\), the value \(provided in a `<meta-value>` element\) should be a single digit with no other elements. This error will fire if additional elements are present within `<meta-value>`. These elements \(e.g. formatting, bold, italics\) should be removed. An example of a correction template `<custom-meta>` element is shown below:
 
 ```markup
 <custom-meta-group>
@@ -299,7 +301,7 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 **Error**: _Template type meta-value must one of '1','2','3','4', or '5'._
 
-**Action**: This error indicates the template type in the XML \(see above\) is not 1, 2, 3, 4 or 5. Correct the template type to the one indicated by the name of the article file in the export package \(e.g. \). If the template number given in the article file name is a value other than 1, 2, 3, 4 or 5, the Production team should check which value the Feature team intended for the article.
+**Action**: This error indicates the template type in the XML \(see above\) is not 1, 2, 3, 4 or 5. Correct the template type to the one indicated by the name of the article file in the export package \(e.g. \). If the template number given in the article file name is a value other than 1, 2, 3, 4 or 5, the Production team should check which value the Feature team intended for the article and instruct the content processors accordingly.
 
 #### feat-custom-meta-test-info	
 
@@ -329,9 +331,9 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 **Error**: _article categories for XXXXXX must contain one and only one subj-group\[@subj-group-type='sub-display-channel'._
 
-**Action**: Only one title prefix \(sub-display-channel\) is allowed per article. This is captured in the XML as the element  &lt;subj-group subj-group-type="sub-display-channel"&gt;. This error indicates that zero or more than one elements of this type are present. Remove any extra title prefixes. If no title prefix is present in the article file, the Features team must be contacted to provide one. XXXXXX will be the article type.
+**Action**: Only one title prefix \(sub-display-channel\) is allowed per article. This is captured in the XML as the element  &lt;subj-group subj-group-type="sub-display-channel"&gt;. This error indicates that zero or more than one element of this type are present. Remove any extra title prefixes. If no title prefix is present in the article file, the Features team must be contacted to provide one. XXXXXX will be the article type.
 
-#### feature-subj-test-4
+#### feature-subj-test-4[Structure](https://app.gitbook.com/@elifesciences/s/productionhowto/~/drafts/-MIy5UDRC1dmQRGfnb0o/article-details/content/feature-content#structure)
 
 **Error**: _There is more than one sub-display-channel subjects. This is incorrect._
 
