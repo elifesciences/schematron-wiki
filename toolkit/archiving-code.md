@@ -30,7 +30,11 @@ Visit the URL provided in the text. If you see a 404 page such as this:
 
 First determine whether there's a typo in the URL. If there's no typo and you cannot determine the correct repo, then add the following author query:
 
+* Please ensure that all scripts/data/code \(as necessary\) are added to this repository, and that it is publicly available. We would also like to ask you to license the contents of the repo \(we would recommend using an open source license \[https://opensource.org/licenses\]\). Guidance on what license might better suit you can be found at https://choosealicense.com/ and instructions on how to add a license to a GitHub repository are available here https://help.github.com/articles/adding-a-license-to-a-repository/. Once your code has been committed and licensed, we will fork it to our own GitHub repository for archiving purposes.
 
+The same action should be taken if the repo is empty
+
+![](https://gblobscdn.gitbook.com/assets%2F-M-TtTNzy5JVpg-oCz26%2F-M8KXAlxtmWpHHSLxNBr%2F-M8KZbLMAnidrlWJhMXW%2FScreen%20Shot%202020-05-26%20at%2011.31.16.png?alt=media&token=9706b81f-4d00-45d6-8338-bf183bb138b2)
 
 All the other steps will have to wait until the authors have responded and acted upon this query.
 
@@ -83,7 +87,42 @@ If the code is stored elsewhere, then you will need to determine what revision c
 
 Any code with git-based revision control systems can follow [**the workflow above**](archiving-code.md#if-the-code-is-in-github-or-gitlab).
 
+Any code with mercurial-based revision control systems can follow [**the workflow above**](archiving-code.md#if-the-code-is-in-github-or-gitlab), but with the caveat that 'hg' instead of 'git' is selected as the Origin type.
+
+Any code with subversion-based revision control systems can follow [**the workflow above**](archiving-code.md#if-the-code-is-in-github-or-gitlab), but with the caveat that 'svn' instead of 'git' is selected as the Origin type.
+
 Any code that does not use git, will need to be deposited. TO BE FLESHED OUT
+
+## **Add the SWHID to the article text**
+
+Software Heritage Identifiers \(SWHID\) are unique and persistent ids used to reference code. They can reference a specific line, file, repo, and version of code. for our purposes we want to point to a specific version of a whole repo \(or repos\).
+
+To get a SWHID for a repo, click the 'Permalinks' sidebar tab:
+
+![](../.gitbook/assets/screenshot-2020-10-06-at-12.39.49.png)
+
+Click the revision tab in the sidebar, and **untick** 'Add contextual information':
+
+![](../.gitbook/assets/screenshot-2020-10-06-at-12.41.56.png)
+
+We want to add the abbreviated SWHID to the text with an embedded link to the archived version.
+
+### Add the SWHID to the appropriate place in the text
+
+The authors may have referred to their code in the article text and/or in the data availability statement. 
+
+* If a link to a repository is included the data availability statement, always add the text 'copy archived at XXXXXX', replacing 'XXXXXX' with the SWHID containing the embedded hyperlink.
+* If it is included in the article text, you only need to add this text the first time it is mentioned \(note, this needs to be done for each separate repository link if there are multiple\). The authors may only have included this link in their Key Resources Table so make sure the new link is added there if this is the case.
+
+  If the authors have only referred to the code in the data availability statement, add the following query:
+
+  * Please add a mention of your code to the main text of your article so we can add it to your reference list.
+
+* A software reference also needs to be added in the main article \(see [**here**](../article-details/content/references/software-references.md) for how to do this\) - this should only be done after the code has been archived. Please note software citations can't be added in the data availability statement.
+
+#### Example
+
+> Our spike sorting code is freely available at [https://github.com/narendramukherjee/blech\_clust](https://github.com/narendramukherjee/blech_clust) \([Mukherjee, 2019](https://elifesciences.org/articles/45968#bib60); copy archived at [swh:1:rev:86d380144b3f85c8951923de873893583bd25edf](https://archive.softwareheritage.org/swh:1:rev:86d380144b3f85c8951923de873893583bd25edf/)\).
 
 ## How to determine whether a repo has an open-source license
 
@@ -108,6 +147,30 @@ The following are all commonly used open-source licenses:
 * \*\*\*\*[**Mozilla Public License 2.0**](https://opensource.org/licenses/MPL-2.0)\*\*\*\*
 * \*\*\*\*[**Common Development and Distribution License**](https://opensource.org/licenses/CDDL-1.0)\*\*\*\*
 * \*\*\*\*[**Eclipse Public License version 2.0**](https://opensource.org/licenses/EPL-2.0)\*\*\*\*
+
+## Examples of code that doesn't need to be **archived**
+
+Often, authors will include links or references to software they have used in their studies. These do not need to be archived if they were not generated specifically for the paper. In the example below, none of the GitHub repositories linked need to be archived, as they are references to software that is already available. They should be added as [software references](../article-details/content/references/software-references.md#how-to-add-a-software-reference) instead.
+
+![](../.gitbook/assets/screenshot-2020-04-23-at-10.24.29.png)
+
+## Research advances
+
+Sometimes, authors will refer to code that has been previously forked or archived. This code does not need to be archived unless it has been updated since the previous time. For example, in 55159:
+
+![](../.gitbook/assets/screen-shot-2020-04-24-at-12.35.52.png)
+
+Trying to fork these repositories brought up these messages: 
+
+![](../.gitbook/assets/fork.jpg)
+
+Comparing the forked repositories to the ones that are linked in the article shows that the code has not been updated \(see below, note both repositories were last updated 2 years ago\). Therefore, the repository doesn't need to be forked again. Instead, [software references](../article-details/content/references/software-references.md#how-to-add-a-software-reference) should be added. 
+
+![Repository linked in the article](../.gitbook/assets/screenshot-2020-04-24-at-13.02.03.png)
+
+![Forked repository](../.gitbook/assets/screenshot-2020-04-24-at-13.02.12.png)
+
+If someone else’s code has been modified for an eLife paper, this code should not be forked. A [software reference](../article-details/content/references/software-references.md#how-to-add-a-software-reference) to the original code should be added however.
 
 ## If a link to a GitHub user is provided
 
