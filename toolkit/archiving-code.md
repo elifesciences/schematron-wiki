@@ -204,7 +204,7 @@ Sometimes, authors will refer to code that has been forked or archived for a pre
 
 ![](../.gitbook/assets/screen-shot-2020-04-24-at-12.35.52.png)
 
-Comparing the forked repositories to the ones that are linked in the article shows that the code has not been updated \(see below, note both repositories were last updated 2 years ago\). Therefore, the repository doesn't need to be forked again. Instead, [software references](../article-details/content/references/software-references.md#how-to-add-a-software-reference) should be added. 
+Comparing the forked repositories to the ones that are linked in the article shows that the code has not been updated \(see below, note both repositories were last updated 2 years ago\). Therefore, the repository doesn't need to be archived. Instead, [software references](../article-details/content/references/software-references.md#how-to-add-a-software-reference) should be added. 
 
 ![Repository linked in the article](../.gitbook/assets/screenshot-2020-04-24-at-13.02.03.png)
 
@@ -224,7 +224,7 @@ Sometimes authors provide a link to a GitHub user account instead of a specific 
 
 ![](../.gitbook/assets/screenshot-2020-05-27-at-14.19.33.png)
 
-As this does not link to a specific repository, the code cannot be forked. We need the authors to confirm which repository holds the code for the study. Please leave the following author query:
+As this does not link to a specific repository, the code cannot be archived. We need the authors to confirm which repository holds the code for the study. Please leave the following author query:
 
 * Please confirm which repositories contain the code for this paper. 
 
@@ -238,15 +238,15 @@ The link here is to an institutional website:
 
 ![](../.gitbook/assets/screenshot-2020-05-14-at-09.48.43.png)
 
-As it is not possible to fork this, the following query needs to be left:
+As it is not possible to archive this, the following query needs to be left:
 
-* We see that you have included a custom script hosted on a lab website. In the interests of transparency and reproducibility, please upload this to a dedicated software repository \(such as GitHub, GitLab etc.\) and ensure that the software is licensed with an open source license \[https://opensource.org/licenses\]. We can provide guidance for you if required. Once your code has been licensed, we will fork it to our own GitHub repository for archiving purposes.
+* We see that you have included a custom script hosted on a lab website. In the interests of transparency and reproducibility, please upload this to a dedicated software repository \(such as GitHub, GitLab etc.\) and ensure that the software is licensed with an open source license \[https://opensource.org/licenses\]. We can provide guidance for you if required. Once your code has been uploaded and licensed, we will archive it at Software Heritage.
 
 If the link to the code is not to a GitHub/GitLab/SourceForge/Bitbucket repository, and instead to a lab/institution website \(which will usually have the lab's name in the title of the website or on the page\), the above query should be added.
 
-### When to fork code in Tools and Resources papers
+### When to archive code in Tools and Resources papers
 
-If the repository has the same name as the tool being described in the paper, this usually indicates that it should not be forked. For example the data availability statement of 51322 states:
+If the repository has the same name as the tool being described in the paper, this usually indicates that it should not be archived. For example the data availability statement of 51322 states:
 
 > All data \(schematics, soft- and hardware documentation\) for constructing the MaCaQuE or equivalent systems is made available via GitHub: [https://github.com/sensorimotorgroupdpz/MaCaQuE](https://github.com/sensorimotorgroupdpz/MaCaQuE).
 
@@ -254,9 +254,9 @@ The abstract of this paper states:
 
 > We present an experimental environment \(Reach Cage\) and a versatile visuo-haptic interaction system \(MaCaQuE\) for investigating goal-directed whole-body movements of unrestrained monkeys.
 
-As this paper describing the MaCaQuE system, and the code is for constructing this system, it does not need to be forked.
+As this paper describing the MaCaQuE system, and the code is for constructing this system, it does not need to be archived.
 
-However, if data was analysed in the paper as in the example below, the linked repositories should be forked. 
+However, if data was analysed in the paper as in the example below, the linked repositories should be archived. 
 
 ![](../.gitbook/assets/screenshot-2020-04-24-at-11.18.10.png)
 
