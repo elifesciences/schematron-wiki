@@ -145,11 +145,9 @@ The Production team will carry out final post-author/post-Feature team checks in
 
 ### Publication
 
-Insight articles should be published alongside the research content to which they are related. Usually, the typeset version of record for this content will be ready by the time the Insight has gone through proofing. In the event that the research content is not ready for VoR publication and it has not been published as an accepted manuscript, the Insight should be held until the related article is ready. If the article has been published on acceptance \(PoA\), the Features team should be contacted to ask if the related Insight should be held until the VoR is ready. They may decide to go ahead with publication of the Insight as it will be linked to the PoA version of the research content.
+Insight articles should be published alongside the research content to which they are related. Usually, the typeset version of record for this content will be ready by the time the Insight has gone through proofing. In the event that the research content is not ready for VoR publication and it has not been published as an accepted manuscript, the Insight will ideally be held until the related article is ready. If the article has been published on acceptance \(PoA\), the Features team should be contacted to ask if the related Insight should be held until the VoR is ready. They may decide to go ahead with publication of the Insight as it will be linked to the PoA version of the research content.
 
 Publication of other feature content follows the same process as for research content. If no specific date has been requested for Editorials or Feature articles, they should be published as soon as they are ready to go.
-
-
 
 ## Schematron checks
 
