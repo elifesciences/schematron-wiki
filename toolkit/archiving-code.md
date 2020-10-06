@@ -55,7 +55,7 @@ If it's already archived it will appear in the results. Check that the result is
 
 If the code is not the latest version, follow the steps [**below for archiving code**](https://app.gitbook.com/@elifesciences/s/productionhowto/~/drafts/-MIxO7WNOziUlsqSYqlV/toolkit/archiving-code#how-to-archive-code-in-software-heritage).
 
-### Example of _not_ the most up-to-date version
+### Example of an older version that is archived
 
 ![Latest version in SH from January 2020](../.gitbook/assets/screenshot-2020-10-06-at-11.41.25.png)
 
