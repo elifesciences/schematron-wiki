@@ -22,9 +22,7 @@ It is usually possible to work out whether a repository needs to be archived bas
 5. \*\*\*\*[**Add a software reference for the repository**](../article-details/content/references/software-references.md#how-to-add-a-software-reference)\*\*\*\*
 6. \*\*\*\*[**Add an author query to indicate the repo has been archived, text updated, and \(if appropriate\) ask the authors to add a license/readme.**](archiving-code.md#add-an-author-query)\*\*\*\*
 
-## Process
-
-### Check whether the repo contains code and is public
+## Check whether the repo contains code and is public
 
 Visit the URL provided in the text. If you see a 404 page such as this:
 
@@ -40,7 +38,7 @@ The same action should be taken if the repo is empty
 
 All the other steps in the process will have to wait until the authors have responded and acted upon this query.
 
-### Check whether the correct version of the code already exists at Software Heritage
+## Check whether the correct version of the code already exists at Software Heritage
 
 If the repo contains code and is public, go to the [**Software Heritage archive**](https://archive.softwareheritage.org/)**:**
 
@@ -52,13 +50,13 @@ If there are no results, this indicates that the code has yet to be archived. Fo
 
 If it's already archived it will appear in the results. Check that the result is the correct repo and the most up-to-date version of that repo \(by comparing the latest commit date\). If the code is not the latest version, follow the steps [**below for archiving code**](https://app.gitbook.com/@elifesciences/s/productionhowto/~/drafts/-MIxO7WNOziUlsqSYqlV/toolkit/archiving-code#how-to-archive-code-in-software-heritage).
 
-#### Example of _not_ the most up-to-date version
+### Example of _not_ the most up-to-date version
 
 ![Latest version in SH from January 2020](../.gitbook/assets/screenshot-2020-10-06-at-11.41.25.png)
 
 ![Latest version on GitHub from October 2020](../.gitbook/assets/screenshot-2020-10-06-at-14.27.32.png)
 
-### How to archive code in Software Heritage
+## How to archive code in Software Heritage
 
 From the [**search page**](https://archive.softwareheritage.org/)**,** click 'Save code now' in the left hand panel:
 
@@ -68,7 +66,7 @@ This can also be done if looking at a particular repo in Software Heritage:
 
 ![](../.gitbook/assets/screenshot-2020-10-06-at-11.44.13%20%281%29.png)
 
-#### If the code is in GitHub or GitLab
+### If the code is in GitHub or GitLab
 
 * Visit the [**save code now page**](https://archive.softwareheritage.org/save/).
 * ensure the origin type is 'git' and enter the URL in the 'origin url' field
@@ -85,7 +83,7 @@ This can also be done if looking at a particular repo in Software Heritage:
 
 The time this process takes is dependent on the contents of the repo, but on average for new repos it may take around 2 hours. Updating repos should be much quicker \(although again this is dependent on the nature of the update\).
 
-#### If the code is not in GitHub or GitLab
+### If the code is not in GitHub or GitLab
 
 If the code is stored elsewhere, then you will need to determine what revision control system is used. Bitbucket, Assembla, and SourceFourge all offer other version control in addition to Git, so this will have to be determined from the repo itself.
 
@@ -97,7 +95,7 @@ Any code with subversion-based revision control systems can follow [**the workfl
 
 Any code that does not use git, mercurial or subversion, will need to be deposited in a different way. We currently do not have the functionality setup to do this.
 
-### **Add the SWHID to the article text**
+## **Add the SWHID to the article text**
 
 Software Heritage Identifiers \(SWHID\) are unique and persistent ids used to reference code. They can reference a specific line of code, file, repo, and version of code. For our purposes we want to point to a specific version of a whole repo \(or repos\).
 
@@ -111,7 +109,7 @@ Click the revision tab in the sidebar, and **untick** 'Add contextual informatio
 
 We want to add the abbreviated SWHID to the text with an embedded link to the archived version.
 
-#### Add the SWHID to the appropriate place in the text
+### Add the SWHID to the appropriate place in the text
 
 The authors may have referred to their code in the article text and/or in the data availability statement. 
 
@@ -132,7 +130,7 @@ The authors may have referred to their code in the article text and/or in the da
 SWHIDs can be appended to 'https://archive.softwareheritage.org/' in order to obtain the hyperlink to the resource the SWHID points to
 {% endhint %}
 
-### Add an author query
+## Add an author query
 
 Now that the code has been archived an author query needs adding to let the authors know what has occurred and to ensure that the code is presented with best practice.
 
