@@ -79,6 +79,13 @@ Once the files have been edited, the article will be exported. At this point, th
 
 ## Production process for feature content
 
+* \*\*\*\*[**Pre-editing**](feature-content.md#pre-editing) - handled by the content processors
+* \*\*\*\*[**Pre-author checks**](feature-content.md#pre-author-checks) - carried out by the Production team
+* \*\*\*\*[**Author proofing**](feature-content.md#author-proofing) - the author checks the proof
+* \*\*\*\*[**Feature review**](feature-content.md#feature-review) - a post-author check carried out by the Feature team
+* \*\*\*\*[**Post-author checks**](feature-content.md#post-author-checks) - final checks carried out by the Production team
+* \*\*\*\*[**Publication**](feature-content.md#publication) - carried out by the Production team
+
 ### Pre-editing
 
 Feature content should be processed as soon as possible after export \(within 24 hours for Insights, Editorials and Template 3/4 content, within 48 hours for Template 5 content\). If more time is required, the content processors should let the Production team know as soon as possible.
