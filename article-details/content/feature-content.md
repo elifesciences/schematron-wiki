@@ -58,7 +58,7 @@ Feature content includes the following items not found in research content:
 
 ## Submission and export of feature content
 
-Feature content is submitted to eLife via two paths: an article arrives through the normal submission process, or an article is commissioned or invited by the Feature team. When articles are submitted via the normal process, they will go through peer review, usually overseen by the Features editors, and will likely have a decision letter and author response as a result. Commissioned articles are not reviewed and so will have no editors or review materials associated with them. These will be uploaded to the submissions system by the Features team, who will use the 'auto-accept' option to bypass the reviewing process.
+Feature content is submitted to eLife via two paths: an article arrives through the normal submission process, or an article is commissioned or invited by the Features team. When articles are submitted via the normal process, they will go through peer review, usually overseen by the Features editors, and will likely have a decision letter and author response as a result. Commissioned articles are not reviewed and so will have no editors or review materials associated with them. These will be uploaded to the submissions system by the Features team, who will use the 'auto-accept' option to bypass the reviewing process.
 
 In both cases, the Features team will carry out checks and editing tasks before the articles are exported for production. Part of this involves formatting the article files using 'pseudo-tagging' to designate the various parts of the content for processing. If the article needs to be published as an accepted manuscript \(PoA\), then this will need to be done before being tagged to ensure a clean accepted manuscript is published. When the PoA process has been carried out, the article should be held in the export queue until the pseudo-tagging has been added.
 
@@ -82,7 +82,7 @@ Once the files have been edited, the article will be exported. At this point, th
 * \*\*\*\*[**Pre-editing**](feature-content.md#pre-editing) - handled by the content processors
 * \*\*\*\*[**Pre-author checks**](feature-content.md#pre-author-checks) - carried out by the Production team
 * \*\*\*\*[**Author proofing**](feature-content.md#author-proofing) - the author checks the proof
-* \*\*\*\*[**Feature review**](feature-content.md#feature-review) - a post-author check carried out by the Feature team
+* \*\*\*\*[**Feature review**](feature-content.md#feature-review) - a post-author check carried out by the Features team
 * \*\*\*\*[**Post-author checks**](feature-content.md#post-author-checks) - final checks carried out by the Production team
 * \*\*\*\*[**Publication**](feature-content.md#publication) - carried out by the Production team
 
@@ -90,7 +90,7 @@ Once the files have been edited, the article will be exported. At this point, th
 
 Feature content should be processed as soon as possible after export \(within 24 hours for Insights, Editorials and Template 3/4 content, within 48 hours for Template 5 content\). If more time is required, the content processors should let the Production team know as soon as possible.
 
-No copy-editing should be required for feature content as this will already have been carried out by the Feature team prior to export. In very rare cases where copy-editing is required, the Features team will advise the Production team, who will request that the article is moved into the copy-editing workflow.
+No copy-editing should be required for feature content as this will already have been carried out by the Features team prior to export. In very rare cases where copy-editing is required, the Features team will advise the Production team, who will request that the article is moved into the copy-editing workflow.
 
 Once a feature article has been processed, it will be moved to the pre-author check stage to allow the Production team to check the content prior to author proofing.
 
@@ -144,11 +144,11 @@ Author proofing for feature content proceeds in the same manner as for research 
 
 Once author proofing is complete, the article will move into the 'Feature Review' stage to allow the Features team to check over the authors' edits. They will be alerted with an email notification when this occurs.
 
-After they have completed their checks, they will sign the article off to 'Post Author Validation' with the content processors \(the same stage research content goes into following Author Review\). If the Feature team cannot make required corrections via the proofing system, they will email instructions to the Production team who will respond accordingly, either by passing the instructions on to the content processors or by making a note to fix the outstanding issues at the post-author check stage.
+After they have completed their checks, they will sign the article off to 'Post Author Validation' with the content processors \(the same stage research content goes into following Author Review\). If the Features team cannot make required corrections via the proofing system, they will email instructions to the Production team who will respond accordingly, either by passing the instructions on to the content processors or by making a note to fix the outstanding issues at the post-author check stage.
 
 ### Post-author checks
 
-The Production team will carry out final post-author/post-Feature team checks in the same manner as post-author checks for research content. Any remaining issues should be resolved and the author/feature changes should be checked and accepted. If the authors have requested an additional proof, the article should be sent back to them following the normal procedure \(signing the article off to Author review for a second time\). However, if the Features team have requested an additional proof, a PDF should be shared with them via email or Slack. Any further changes they request should be carried out by the Production team.
+The Production team will carry out final post-author/post-Features team checks in the same manner as post-author checks for research content. Any remaining issues should be resolved and the author/feature changes should be checked and accepted. If the authors have requested an additional proof, the article should be sent back to them following the normal procedure \(signing the article off to Author review for a second time\). However, if the Features team have requested an additional proof, a PDF should be shared with them via email or Slack. Any further changes they request should be carried out by the Production team.
 
 ### Publication
 
@@ -236,19 +236,19 @@ Publication of other feature content follows the same process as for research co
 
 **Warning**: _XXXXXX is a template XXXXXX but it does not \(currently\) have a decision letter. Is that OK?_
 
-**Action**: This warning will fire if a Template 5 article does not have a decision letter section. Check the article notes - if no decision/response was expected for the current article, this should have been recorded. If there are no notes, the Production team should contact the Feature team to check the status of the decision/response for the article.
+**Action**: This warning will fire if a Template 5 article does not have a decision letter section. Check the article notes - if no decision/response was expected for the current article, this should have been recorded. If there are no notes, the Production team should contact the Features team to check the status of the decision/response for the article.
 
 #### feature-template-test-4
 
 **Warning**: _XXXXXX is a template XXXXXX but it does not \(currently\) have an author response. Is that OK?_
 
-Action: This warning will fire if a Template 5 article does not have an author response section. Check the article notes - if no decision/response was expected for the current article, this should have been recorded. If there are no notes, the Production team should contact the Feature team to check the status of the decision/response for the article.
+Action: This warning will fire if a Template 5 article does not have an author response section. Check the article notes - if no decision/response was expected for the current article, this should have been recorded. If there are no notes, the Production team should contact the Features team to check the status of the decision/response for the article.
 
 #### final-test-r-article-d-letter-feat
 
 **Warning**: _A decision letter should be present for research articles. Feature template 5s almost always have a decision letter, but this one does not. Is that correct?_
 
-**Action**: This warning will fire if a Template 5 article does not have a decision letter section. Check the article notes - if no decision/response was expected for the current article, this should have been recorded. If there are no notes, the Production team should contact the Feature team to check the status of the decision/response for the article.
+**Action**: This warning will fire if a Template 5 article does not have a decision letter section. Check the article notes - if no decision/response was expected for the current article, this should have been recorded. If there are no notes, the Production team should contact the Features team to check the status of the decision/response for the article.
 
 #### feature-templates-no-bre
 
@@ -266,7 +266,7 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 **Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract reads "XXXXXX", whereas the impact statement reads "XXXXXX"._
 
-**Action**: This warning indicates that an Insight's impact statement and abstract do not match. The Feature team will need to be asked which version of the text is correct and then the text that does not match this should be changed.
+**Action**: This warning indicates that an Insight's impact statement and abstract do not match. The Features team will need to be asked which version of the text is correct and then the text that does not match this should be changed.
 
 #### insight-abstract-impact-test-2
 
@@ -314,7 +314,7 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 **Error**: _Template type meta-value must one of '1','2','3','4', or '5'._
 
-**Action**: This error indicates the template type in the XML \(see above\) is not 1, 2, 3, 4 or 5. Correct the template type to the one indicated by the name of the article file in the export package \(e.g. \). If the template number given in the article file name is a value other than 1, 2, 3, 4 or 5, the Production team should check which value the Feature team intended for the article and instruct the content processors accordingly.
+**Action**: This error indicates the template type in the XML \(see above\) is not 1, 2, 3, 4 or 5. Correct the template type to the one indicated by the name of the article file in the export package \(e.g. \). If the template number given in the article file name is a value other than 1, 2, 3, 4 or 5, the Production team should check which value the Features team intended for the article and instruct the content processors accordingly.
 
 #### feat-custom-meta-test-info	
 
