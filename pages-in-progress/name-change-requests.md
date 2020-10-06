@@ -55,11 +55,15 @@ In cases where the individual's pronouns have changed in addition to their name,
 * funding statement
 * acknowledgments
 
+For Insight articles and co-submissions, the following will also need to be corrected where applicable:
 
+* key info box details for the related article \(in Insights\)
+* mentions of the first author\(s\) in the text \(if applicable\)
+* entry for related article in the reference list
 
 ### Extracting old versions from the archive
 
-To identify previously published versions of the affected articles, navigate to the 
+To identify previously published versions of the affected articles, go to the `elife-publishing-archive` bucket in the eLife Amazon Web Services \(AWS\). Searching for the affected article number\(s\) will show 
 
 
 
