@@ -77,9 +77,9 @@ To silently correct these, the first step is to download all package prior to th
 * 1 VoR versions
   * elife-57056-vor-v3-20200921142808.zip
 
+These will need to be edited offline and then uploaded to the silent correction bucket to overwrite their respective versions of the article.
 
 
-{% embed url="https://elife-57056-poa-v1-20200902000000.zip" %}
 
 
 
