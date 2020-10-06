@@ -67,3 +67,7 @@ To identify previously published versions of the affected articles, go to the `e
 
 
 
+![](../.gitbook/assets/screen-shot-2020-10-06-at-11.08.42.png)
+
+
+
