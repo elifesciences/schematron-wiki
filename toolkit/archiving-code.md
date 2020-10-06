@@ -22,13 +22,21 @@ It is usually possible to work out whether a repository needs to be archived bas
 5. \*\*\*\*[**Add a software reference for the repository**](../article-details/content/references/software-references.md#how-to-add-a-software-reference)\*\*\*\*
 6. **Add an author query to indicate the repo has been archived, text updated, and \(if appropriate\) ask the authors to add a license/readme.**
 
-## Check whether the code is present and public
+## Check whether the repo contains code and is public
+
+Visit the URL provided in the text. If you see a 404 page such as this:
+
+![](../.gitbook/assets/screenshot-2020-10-06-at-12.12.22.png)
+
+First determine whether there's a typo in the URL. If there's no typo and you cannot determine the correct repo, then add the following author query:
 
 
+
+All the other steps will have to wait until the authors have responded and acted upon this query.
 
 ## Check whether the correct version of the code already exists at Software Heritage
 
-Go to the [**Software Heritage archive**](https://archive.softwareheritage.org/)**:**
+If the repo contains code and is public, go to the [**Software Heritage archive**](https://archive.softwareheritage.org/)**:**
 
 ![](../.gitbook/assets/screenshot-2020-10-06-at-11.30.09.png)
 
@@ -39,6 +47,8 @@ Check that the result is the correct repo and the most up-to-date version of tha
 Here's an example which does _not_ have the most up-to-date version:
 
 ![Latest version in SH from January 2020](../.gitbook/assets/screenshot-2020-10-06-at-11.41.25.png)
+
+If there are now results, this indicates that the code has yet to be archived. Follow the steps [**below**](archiving-code.md#how-to-archive-code-in-software-heritage) to do so.
 
 ## How to archive code in Software Heritage
 
@@ -57,7 +67,7 @@ This can also be done if looking at a particular repo in Software Heritage:
 
 ![](../.gitbook/assets/screenshot-2020-10-06-at-11.47.18.png)
 
-* Click submit. You should see a green message pop-up:
+* Click Submit. You should see a green message pop-up:
 
 ![](../.gitbook/assets/screenshot-2020-10-06-at-11.47.13.png)
 
@@ -65,7 +75,7 @@ This can also be done if looking at a particular repo in Software Heritage:
 
 ![](../.gitbook/assets/screenshot-2020-10-06-at-11.50.52.png)
 
-The time this process takes will depend on the contents of the repo, but on average for new repos may take around 2 hours. Updating repos should be much quicker \(although again this is dependent on the nature of the update\).
+The time this process takes is dependent on the contents of the repo, but on average for new repos it may take around 2 hours. Updating repos should be much quicker \(although again this is dependent on the nature of the update\).
 
 ### If the code is not in GitHub or GitLab
 
