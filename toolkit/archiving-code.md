@@ -11,7 +11,7 @@ It is usually possible to work out whether a repository needs to be archived bas
 * Code that is mentioned in the text only and referred to as being a ‘package’ is unlikely to have been created for this specific work and therefore doesn’t need to be archived \(unless it is a custom package\). Adding a [**software reference**](../article-details/content/references/software-references.md#how-to-add-a-software-reference) would be more appropriate in these cases. See [**below**](forking-git-based-repos.md#examples-of-code-that-doesnt-need-to-be-forked) for examples of this.
 * Any references to custom code or software usually indicates it needs to be archived. 
 * If the repository is years old, this usually indicates that the code should not be archived as it probably was not created specifically for the paper.
-* Code described in Tools and Resources articles usually does not need to be archived as there will be no results to replicate using it. However, there are some cases where this will be required \([**see below**](forking-git-based-repos.md#when-to-fork-code-in-tools-and-resources-papers)\). 
+* Code described in Tools and Resources articles usually does not need to be archived as there will be no results to replicate using it. However, there are some cases where this will be required \([**see below**](archiving-code.md#when-to-fork-code-in-tools-and-resources-papers)\). 
 
 ## Checklist for archiving repositories
 
@@ -136,6 +136,28 @@ As it is not possible to fork this, the following query needs to be left:
 * We see that you have included a custom script hosted on a lab website. In the interests of transparency and reproducibility, please upload this to a dedicated software repository \(such as GitHub, GitLab etc.\) and ensure that the software is licensed with an open source license \[https://opensource.org/licenses\]. We can provide guidance for you if required. Once your code has been licensed, we will fork it to our own GitHub repository for archiving purposes.
 
 If the link to the code is not to a GitHub/GitLab/SourceForge/Bitbucket repository, and instead to a lab/institution website \(which will usually have the lab's name in the title of the website or on the page\), the above query should be added.
+
+## When to fork code in Tools and Resources papers
+
+If the repository has the same name as the tool being described in the paper, this usually indicates that it should not be forked. For example the data availability statement of 51322 states:
+
+> All data \(schematics, soft- and hardware documentation\) for constructing the MaCaQuE or equivalent systems is made available via GitHub: [https://github.com/sensorimotorgroupdpz/MaCaQuE](https://github.com/sensorimotorgroupdpz/MaCaQuE).
+
+The abstract of this paper states:
+
+> We present an experimental environment \(Reach Cage\) and a versatile visuo-haptic interaction system \(MaCaQuE\) for investigating goal-directed whole-body movements of unrestrained monkeys.
+
+As this paper describing the MaCaQuE system, and the code is for constructing this system, it does not need to be forked.
+
+However, if data was analysed in the paper as in the example below, the linked repositories should be forked. 
+
+![](../.gitbook/assets/screenshot-2020-04-24-at-11.18.10.png)
+
+## If no links or source code files are provided
+
+If authors refer to custom code but there is no link to this and no source code has been provided, please leave the following query:
+
+* We notice that you refer to custom but it seems this hasn't been provided. Please send source code files to production@elifesciences.org, or upload the code to a dedicated software repository \(such as GitHub, GitLab etc.\) and ensure it is licensed with an open source license \[https://opensource.org/licenses\]. Guidance on what license might better suit you can be found at https://choosealicense.com/ and instructions on how to add a license to a GitHub repository are available here https://help.github.com/articles/adding-a-license-to-a-repository/. Once your code has been licensed, we will fork it to our own GitHub repository for archiving purposes.
 
 ## Schematron checks
 
