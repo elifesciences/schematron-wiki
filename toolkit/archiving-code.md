@@ -83,7 +83,7 @@ If the code is stored elsewhere, then you will need to determine what revision c
 
 Any code with git-based revision control systems can follow [**the workflow above**](archiving-code.md#if-the-code-is-in-github-or-gitlab).
 
-Any code that does not use git, will need to be deposited.
+Any code that does not use git, will need to be deposited. TO BE FLESHED OUT
 
 ## How to determine whether a repo has an open-source license
 
@@ -108,6 +108,52 @@ The following are all commonly used open-source licenses:
 * \*\*\*\*[**Mozilla Public License 2.0**](https://opensource.org/licenses/MPL-2.0)\*\*\*\*
 * \*\*\*\*[**Common Development and Distribution License**](https://opensource.org/licenses/CDDL-1.0)\*\*\*\*
 * \*\*\*\*[**Eclipse Public License version 2.0**](https://opensource.org/licenses/EPL-2.0)\*\*\*\*
+
+## If a link to a GitHub user is provided
+
+Sometimes authors provide a link to a GitHub user account instead of a specific repository, as in 52658 below:
+
+* All data have been uploaded to https://github.com/horwitzlab.
+
+![](../.gitbook/assets/screenshot-2020-05-27-at-14.19.33.png)
+
+As this does not link to a specific repository, the code cannot be forked. We need the authors to confirm which repository holds the code for the study. Please leave the following author query:
+
+* Please confirm which repositories contain the code for this paper. 
+
+## If code is hosted on an institutional website
+
+Sometimes authors will upload their code to an institutional or lab website. For example, in 54983:
+
+> A comprehensive and curated sequence library was prepared querying the Blastp web server and using a custom Python script \([http://dfns.u-shizuoka-ken.ac.jp/labs/proeng/librarycuration.html](http://dfns.u-shizuoka-ken.ac.jp/labs/proeng/librarycuration.html)\), which exhibited more than 30% sequence identity with E. coli BirA \(EU08004.1\).
+
+The link here is to an institutional website:
+
+![](../.gitbook/assets/screenshot-2020-05-14-at-09.48.43.png)
+
+As it is not possible to fork this, the following query needs to be left:
+
+* We see that you have included a custom script hosted on a lab website. In the interests of transparency and reproducibility, please upload this to a dedicated software repository \(such as GitHub, GitLab etc.\) and ensure that the software is licensed with an open source license \[https://opensource.org/licenses\]. We can provide guidance for you if required. Once your code has been licensed, we will fork it to our own GitHub repository for archiving purposes.
+
+If the link to the code is not to a GitHub/GitLab/SourceForge/Bitbucket repository, and instead to a lab/institution website \(which will usually have the lab's name in the title of the website or on the page\), the above query should be added.
+
+## Schematron checks
+
+The following tests relate to software that may need to be forked.
+
+#### **code-fork-info**
+
+**Warning**: _Article possibly contains code that needs forking. Search - XXXXXX_
+
+**Action**: This warning will appear if the following words are present: github, gitlab, codeplex, sourceforge, bitbucket or assembla. 'XXXXXX' in this warning will be one of these words. If this warning fires, it may indicate there is code which needs to be forked or imported. [See above](forking-git-based-repos.md#examples-of-code-that-doesnt-need-to-be-forked) to determine whether this is necessary. If the code was specifically written as part of the work reported, it should be forked and a software reference should be added \([**see above**](forking-git-based-repos.md#checklist-for-forking-repositories)\). If it is previously published code please query the author to provide full citation details:
+
+* eLife follows the FAIR principles for software and data citation. Please provide the full bibliographic details \(author\(s\), year, full title, publisher, version, URL\) for this software so that it can be added to the reference list. 
+
+#### ext-link-child-test-3
+
+**Error**: _ext-link - XXXXXX - contains the phrase 'copy archived', which is incorrect._
+
+**Action**: This error will appear if the phrase 'copy archived' is included in the hyperlink to the forked repository. 'XXXXXX' in this error message will be the text which has hyperlink formatting. When pasting in the forked repository link, make sure only the url is hyperlinked. 
 
 ## 
 
