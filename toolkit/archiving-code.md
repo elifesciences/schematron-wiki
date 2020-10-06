@@ -154,21 +154,21 @@ Often, authors will include links or references to software they have used in th
 
 ![](../.gitbook/assets/screenshot-2020-04-23-at-10.24.29.png)
 
-## Research advances
+## Previously forked or archived repos
 
-Sometimes, authors will refer to code that has been previously forked or archived. This code does not need to be archived unless it has been updated since the previous time. For example, in 55159:
+Sometimes, authors will refer to code that has been forked or archived for a previous eLife article. While rare, this case occurs most commonly in research advances. No action is required unless the code has been updated since the previous publication. For example, in 55159:
 
 ![](../.gitbook/assets/screen-shot-2020-04-24-at-12.35.52.png)
-
-Trying to fork these repositories brought up these messages: 
-
-![](../.gitbook/assets/fork.jpg)
 
 Comparing the forked repositories to the ones that are linked in the article shows that the code has not been updated \(see below, note both repositories were last updated 2 years ago\). Therefore, the repository doesn't need to be forked again. Instead, [software references](../article-details/content/references/software-references.md#how-to-add-a-software-reference) should be added. 
 
 ![Repository linked in the article](../.gitbook/assets/screenshot-2020-04-24-at-13.02.03.png)
 
 ![Forked repository](../.gitbook/assets/screenshot-2020-04-24-at-13.02.12.png)
+
+The same is true for archived code.
+
+However, if the code has been updated since the fork/archival, then it should be re-archived, and the text should be updated by following the steps from the top of [**the checklist**](archiving-code.md#checklist-for-archiving-repositories).
 
 If someone else’s code has been modified for an eLife paper, this code should not be forked. A [software reference](../article-details/content/references/software-references.md#how-to-add-a-software-reference) to the original code should be added however.
 
