@@ -59,7 +59,7 @@ In cases where the individual's pronouns have changed in addition to their name,
 
 ### Extracting old versions from the archive
 
-
+To identify previously published versions of the affected articles, navigate to the 
 
 
 
