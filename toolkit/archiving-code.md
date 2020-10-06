@@ -124,6 +124,33 @@ The authors may have referred to their code in the article text and/or in the da
 
 > Our spike sorting code is freely available at [https://github.com/narendramukherjee/blech\_clust](https://github.com/narendramukherjee/blech_clust) \([Mukherjee, 2019](https://elifesciences.org/articles/45968#bib60); copy archived at [swh:1:rev:86d380144b3f85c8951923de873893583bd25edf](https://archive.softwareheritage.org/swh:1:rev:86d380144b3f85c8951923de873893583bd25edf/)\).
 
+## Add an author query
+
+Now that the code has been archived an author query needs adding to let the authors know what has occurred and to ensure that the code is presented with best practice.
+
+The following should be requested from the authors \(if they aren't already present\):
+
+* An open source license for their code.
+* A README.md file including a link to the eLife paper.
+
+One of the following four author queries should be added, depending on whether the repo contains any of the above:
+
+If the repo has neither a license or a readme with a reference to the eLife article, add the following author query:
+
+* Per eLife policy, we have archived your code at Software Heritage and updated the text and Data Availability Statement to reflect this. Please confirm that you are happy with the revised wording. Please also ensure that your repo has a README.md file containing a reference to your eLife paper. Finally, please ensure it is licensed with an open source license \[https://opensource.org/licenses\]. Guidance on what license might better suit you can be found at https://choosealicense.com/ and instructions on how to add a license to a GitHub repository are available here https://help.github.com/articles/adding-a-license-to-a-repository/.
+
+If the repo has a license, but no readme containing a reference to the eLife paper, add the following author query:
+
+* Per eLife policy, we have archived your code at Software Heritage and updated the text and Data Availability Statement to reflect this. Please confirm that you are happy with the revised wording. Please also ensure that your repo has a README.md file containing a reference to your eLife paper.
+
+If the repo has a readme with a reference to the eLife article, but no license, add the following author query:
+
+* Per eLife policy, we have archived your code at Software Heritage and updated the text and Data Availability Statement to reflect this. Please confirm that you are happy with the revised wording. Please also ensure that your repo is licensed with an open source license \[https://opensource.org/licenses\]. Guidance on what license might better suit you can be found at https://choosealicense.com/ and instructions on how to add a license to a GitHub repository are available here https://help.github.com/articles/adding-a-license-to-a-repository/.
+
+If the repo has both a readme with a reference to the eLife article, and a license, add the following author query:
+
+* Per eLife policy, we have archived your code at Software Heritage and updated the text and Data Availability Statement to reflect this. Please confirm that you are happy with the revised wording.
+
 ## How to determine whether a repo has an open-source license
 
 For GitHub repositories, the licensing information, if available, can be seen in the 'About section' \(see below\). If this icon is not present, double-check the repository for a file with 'LICENSE' in the name or check the 'README' file which may include licensing information.
