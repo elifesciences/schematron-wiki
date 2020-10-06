@@ -199,13 +199,7 @@ Publication of other feature content follows the same process as for research co
 
 **Warning**: _Some of the text from XXXXXX's affiliations does not appear in their bio - XXXXXX. Is this correct?_
 
-**Action**: This warning indicates that an author's bio does not contain the affiliation text as it appears in the affiliation associated with that author. This may indicate that there is an error in one or the other, such as a misspelling in the affiliation text. Check and correct this if necessary. However, it might also be the case that the bio text combines two departments in one mention. For example, the following bio and affiliations will not contain the exact same text, but this is acceptable:
-
-> **Louise Smith** is in the Department of Genetics and the Institute of Neuroscience, University of Bristol, Bristol, United Kingdom
->
-> > Affiliation 1: "Department of Genetics, University of Bristol, Bristol, United Kingdom"
-> >
-> > Affiliation 2: "Institute of Neuroscience, University of Bristol, Bristol, United Kingdom".
+**Action**: This warning indicates that an author's bio does not contain the affiliation text as it appears in the affiliation associated with that author. This may indicate that there is an error in one or the other, such as a misspelling in the affiliation text. Check and correct where necessary. If it is not clear which are the correct affiliation details, the Features team should be queried.
 
 #### feature-bio-test-3
 
@@ -218,12 +212,6 @@ Publication of other feature content follows the same process as for research co
 **Error**: _One and only 1 &lt;p&gt; is allowed as a child of bio. XXXXXX_
 
 **Action**: Only a single paragraph should be present in the author bio. If more than one paragraph is present, the text should be reformatted into a single paragraph. XXXXXX will be the text of the affected bio.
-
-#### feature-bio-test-5
-
-**Error**: _XXXXXX is not allowed as a child of &lt;bio&gt;. - XXXXXX_
-
-**Action**: Only bold formatting \(`<bold>`\) elements are allowed within an author's bio. Any other formatting and any hyperlinks should be removed. The message will indicate which disallowed elements are present and the text of the affected bio will be included at the end.
 
 #### feature-template-test-1
 
@@ -351,11 +339,17 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 **Action**: Only one title prefix \(sub-display-channel\) is allowed per article. This is captured in the XML as the element  &lt;subj-group subj-group-type="sub-display-channel"&gt;. This error indicates that zero or more than one element of this type are present. Remove any extra title prefixes. If no title prefix is present in the article file, the Features team must be contacted to provide one. XXXXXX will be the article type.
 
-#### feature-subj-test-4[Structure](https://app.gitbook.com/@elifesciences/s/productionhowto/~/drafts/-MIy5UDRC1dmQRGfnb0o/article-details/content/feature-content#structure)
+#### feature-subj-test-4
 
 **Error**: _There is more than one sub-display-channel subjects. This is incorrect._
 
 **Action**: Only one title prefix \(sub-display-channel\) is allowed per article. This error indicates that two `<subject>` elements have been included in  `<subj-group subj-group-type="sub-display-channel">`. Remove any extra title prefixes/`<subject>` elements to correct this.
+
+#### feature-bio-test-5
+
+**Error**: _XXXXXX is not allowed as a child of &lt;bio&gt;. - XXXXXX_
+
+**Action**: The only child element allowed of the `<bio>` element is paragraph `<p>`. If this error fires, it indicates that another element has been included as a child of `<bio>`. The content processors will need to correct this.
 
 #### features-custom-meta-presence
 
