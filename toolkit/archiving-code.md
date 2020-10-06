@@ -17,12 +17,13 @@ It is usually possible to work out whether a repository needs to be archived bas
 
 ## Checklist for archiving repositories
 
-1. \*\*\*\*[**Check whether the repo contains code and is public**](archiving-code.md#check-whether-the-code-is-present-and-public)**.**
-2. \*\*\*\*[**Check whether the correct version of the code already exists at Software Heritage**](archiving-code.md#check-whether-the-correct-version-of-the-code-already-exists-at-software-heritage)**.**
-3. If it does not, [**archive code at Software Heritage**](archiving-code.md#how-to-archive-code-in-software-heritage)**.**
-4. \*\*\*\*[**Add the SWHID to the article text to indicate where the copy is archived**](archiving-code.md#add-the-swhid-to-the-article-text)\*\*\*\*
-5. \*\*\*\*[**Add a software reference for the repository**](../article-details/content/references/software-references.md#how-to-add-a-software-reference)\*\*\*\*
-6. \*\*\*\*[**Add an author query to indicate the repo has been archived, text updated, and \(if appropriate\) ask the authors to add a license/readme.**](archiving-code.md#add-an-author-query)\*\*\*\*
+1. \*\*\*\*[**Check whether the repo should be archived**](archiving-code.md#context-checklist)**.**
+2. \*\*\*\*[**Check whether the repo contains code and is public**](archiving-code.md#check-whether-the-code-is-present-and-public)**.**
+3. \*\*\*\*[**Check whether the correct version of the code already exists at Software Heritage**](archiving-code.md#check-whether-the-correct-version-of-the-code-already-exists-at-software-heritage)**.**
+4. If it does not, [**archive code at Software Heritage**](archiving-code.md#how-to-archive-code-in-software-heritage)**.**
+5. \*\*\*\*[**Add the SWHID to the article text to indicate where the copy is archived**](archiving-code.md#add-the-swhid-to-the-article-text)\*\*\*\*
+6. \*\*\*\*[**Add a software reference for the repository**](../article-details/content/references/software-references.md#how-to-add-a-software-reference)\*\*\*\*
+7. \*\*\*\*[**Add an author query to indicate the repo has been archived, text updated, and \(if appropriate\) ask the authors to add a license/readme.**](archiving-code.md#add-an-author-query)\*\*\*\*
 
 ## Check whether the repo contains code and is public
 
