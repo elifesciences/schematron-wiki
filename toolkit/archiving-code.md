@@ -20,7 +20,7 @@ It is usually possible to work out whether a repository needs to be archived bas
 3. If it does not, [**archive code at Software Heritage**](archiving-code.md#how-to-archive-code-in-software-heritage)**.**
 4. \*\*\*\*[**Add the SWHID to the article text to indicate where the copy is archived**](archiving-code.md#add-the-swhid-to-the-article-text)\*\*\*\*
 5. \*\*\*\*[**Add a software reference for the repository**](../article-details/content/references/software-references.md#how-to-add-a-software-reference)\*\*\*\*
-6. **Add an author query to indicate the repo has been archived, text updated, and \(if appropriate\) ask the authors to add a license/readme.**
+6. \*\*\*\*[**Add an author query to indicate the repo has been archived, text updated, and \(if appropriate\) ask the authors to add a license/readme.**](archiving-code.md#add-an-author-query)\*\*\*\*
 
 ## Process
 
