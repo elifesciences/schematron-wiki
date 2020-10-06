@@ -35,12 +35,12 @@ Once the name change request has been approved by the Editorial team, they will 
 
 ### Updating the current version of the article
 
-
+The current version of each affected article should be silently corrected following the normal process. The individual's name should be changed in the following places where applicable:
 
 * Article metadata:
   * author list or peer review details
   * author contributions
-  * competing interestsThe current version of each affected article should be silently corrected following the normal process. The individual's name should be changed in the following places where applicable:
+  * competing interests
   * funding table \(should correct automatically\)
   * funding statement
   * data statement
@@ -49,7 +49,15 @@ Once the name change request has been approved by the Editorial team, they will 
   * decision letter
   * author response
 
-Extracting old versions from the archive
+In cases where the individual's pronouns have changed in addition to their name, the following sections should be checked and updated if necessary:
+
+* competing interests
+* funding statement
+* acknowledgments
+
+
+
+### Extracting old versions from the archive
 
 
 
