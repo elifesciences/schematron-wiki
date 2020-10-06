@@ -168,7 +168,7 @@ Comparing the forked repositories to the ones that are linked in the article sho
 
 The same is true for archived code.
 
-However, if the code has been updated since the fork/archival, then it should be re-archived, and the text should be updated by following the steps from the top of [**the checklist**](archiving-code.md#checklist-for-archiving-repositories).
+However, if the code has been updated since the fork/archival, then it should be re-archived at Software Heritage, and the text should be updated by following the steps from the top of [**the checklist**](archiving-code.md#checklist-for-archiving-repositories).
 
 If someone else’s code has been modified for an eLife paper, this code should not be forked. A [software reference](../article-details/content/references/software-references.md#how-to-add-a-software-reference) to the original code should be added however.
 
