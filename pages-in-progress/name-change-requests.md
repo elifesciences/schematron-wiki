@@ -61,13 +61,25 @@ For Insight articles and co-submissions, the following will also need to be corr
 * mentions of the first author\(s\) in the text \(if applicable\)
 * entry for related article in the reference list
 
+These changes can be made in the proofing system and once signed off for silent correction, the updated article will overwrite the latest published version. However, if there are any previous versions of the article on the system, these will still show the old name. Therefore, these need to be corrected as well.
+
 ### Extracting old versions from the archive
 
-To identify previously published versions of the affected articles, go to the `elife-publishing-archive` bucket in the eLife Amazon Web Services \(AWS\). Searching for the affected article number\(s\) will show 
+To identify previously published versions of the affected articles, go to the `elife-publishing-archive` bucket in the eLife Amazon Web Services \(AWS\). All versions of published eLife articles are stored here. If a user searches for a published article, they will see zip packages for each PoA and VoR version that has been issued.
+
+![Example of version history for an article in archive](../.gitbook/assets/screen-shot-2020-10-06-at-12.50.16.png)
+
+To silently correct these, the first step is to download all package prior to the current \(latest\) version and note the full package names. These names will be required for loading to the silent correction bucket \(`prod-elife-silent-corrections`\) once all versions have been revised. So, for example, in the above case, there would be three packages:
+
+* 2 PoA versions
+  * elife-57056-poa-v1-20200902000000.zip
+  * elife-57056-poa-v2-20200909092638.zip
+* 1 VoR versions
+  * elife-57056-vor-v3-20200921142808.zip
 
 
 
-![](../.gitbook/assets/screen-shot-2020-10-06-at-11.08.42.png)
+{% embed url="https://elife-57056-poa-v1-20200902000000.zip" %}
 
 
 
