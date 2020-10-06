@@ -79,7 +79,7 @@ This can also be done if looking at a particular repo in Software Heritage:
 
 ![](../.gitbook/assets/screenshot-2020-10-06-at-11.47.13.png)
 
-* The status of the archiving can be seen in the 'Browse save requests' tab:
+* The status of the archiving can be seen in the '[**Browse save requests**](https://archive.softwareheritage.org/save/#requests)' tab:
 
 ![](../.gitbook/assets/screenshot-2020-10-06-at-11.50.52.png)
 
