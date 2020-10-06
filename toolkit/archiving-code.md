@@ -52,11 +52,11 @@ If there are no results, this indicates that the code has yet to be archived. Fo
 
 If it's already archived it will appear in the results. Check that the result is the correct repo and the most up-to-date version of that repo \(by comparing the latest commit date\). If the code is not the latest version, follow the steps [**below for archiving code**](https://app.gitbook.com/@elifesciences/s/productionhowto/~/drafts/-MIxO7WNOziUlsqSYqlV/toolkit/archiving-code#how-to-archive-code-in-software-heritage).
 
-Here's an example which does _not_ have the most up-to-date version:
+#### Example of _not_ the most up-to-date version
 
 ![Latest version in SH from January 2020](../.gitbook/assets/screenshot-2020-10-06-at-11.41.25.png)
 
-
+![Latest version on GitHub from October 2020](../.gitbook/assets/screenshot-2020-10-06-at-14.27.32.png)
 
 ### How to archive code in Software Heritage
 
