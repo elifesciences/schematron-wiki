@@ -38,7 +38,7 @@ The same action should be taken if the repo is empty
 
 ![](https://gblobscdn.gitbook.com/assets%2F-M-TtTNzy5JVpg-oCz26%2F-M8KXAlxtmWpHHSLxNBr%2F-M8KZbLMAnidrlWJhMXW%2FScreen%20Shot%202020-05-26%20at%2011.31.16.png?alt=media&token=9706b81f-4d00-45d6-8338-bf183bb138b2)
 
-All the other steps will have to wait until the authors have responded and acted upon this query.
+All the other steps in the process will have to wait until the authors have responded and acted upon this query.
 
 ### Check whether the correct version of the code already exists at Software Heritage
 
