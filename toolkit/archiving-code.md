@@ -22,7 +22,9 @@ It is usually possible to work out whether a repository needs to be archived bas
 5. \*\*\*\*[**Add a software reference for the repository**](../article-details/content/references/software-references.md#how-to-add-a-software-reference)\*\*\*\*
 6. **Add an author query to indicate the repo has been archived, text updated, and \(if appropriate\) ask the authors to add a license/readme.**
 
-## Check whether the repo contains code and is public
+## Process
+
+### Check whether the repo contains code and is public
 
 Visit the URL provided in the text. If you see a 404 page such as this:
 
@@ -38,7 +40,7 @@ The same action should be taken if the repo is empty
 
 All the other steps will have to wait until the authors have responded and acted upon this query.
 
-## Check whether the correct version of the code already exists at Software Heritage
+### Check whether the correct version of the code already exists at Software Heritage
 
 If the repo contains code and is public, go to the [**Software Heritage archive**](https://archive.softwareheritage.org/)**:**
 
@@ -54,7 +56,7 @@ Here's an example which does _not_ have the most up-to-date version:
 
 If there are now results, this indicates that the code has yet to be archived. Follow the steps [**below**](archiving-code.md#how-to-archive-code-in-software-heritage) to do so.
 
-## How to archive code in Software Heritage
+### How to archive code in Software Heritage
 
 From the [**search page**](https://archive.softwareheritage.org/)**,** click 'Save code now' in the left hand panel:
 
@@ -64,7 +66,7 @@ This can also be done if looking at a particular repo in Software Heritage:
 
 ![](../.gitbook/assets/screenshot-2020-10-06-at-11.44.13%20%281%29.png)
 
-### If the code is in GitHub or GitLab
+#### If the code is in GitHub or GitLab
 
 * Visit the [**save code now page**](https://archive.softwareheritage.org/save/).
 * ensure the origin type is 'git' and enter the URL in the 'origin url' field
@@ -81,7 +83,7 @@ This can also be done if looking at a particular repo in Software Heritage:
 
 The time this process takes is dependent on the contents of the repo, but on average for new repos it may take around 2 hours. Updating repos should be much quicker \(although again this is dependent on the nature of the update\).
 
-### If the code is not in GitHub or GitLab
+#### If the code is not in GitHub or GitLab
 
 If the code is stored elsewhere, then you will need to determine what revision control system is used. Bitbucket, Assembla, and SourceFourge all offer other version control in addition to Git, so this will have to be determined from the repo itself.
 
@@ -93,7 +95,7 @@ Any code with subversion-based revision control systems can follow [**the workfl
 
 Any code that does not use git, will need to be deposited. TO BE FLESHED OUT
 
-## **Add the SWHID to the article text**
+### **Add the SWHID to the article text**
 
 Software Heritage Identifiers \(SWHID\) are unique and persistent ids used to reference code. They can reference a specific line of code, file, repo, and version of code. For our purposes we want to point to a specific version of a whole repo \(or repos\).
 
@@ -107,7 +109,7 @@ Click the revision tab in the sidebar, and **untick** 'Add contextual informatio
 
 We want to add the abbreviated SWHID to the text with an embedded link to the archived version.
 
-### Add the SWHID to the appropriate place in the text
+#### Add the SWHID to the appropriate place in the text
 
 The authors may have referred to their code in the article text and/or in the data availability statement. 
 
@@ -120,11 +122,11 @@ The authors may have referred to their code in the article text and/or in the da
 
 * A software reference also needs to be added in the main article \(see [**here**](../article-details/content/references/software-references.md) for how to do this\) - this should only be done after the code has been archived. Please note software citations can't be added in the data availability statement.
 
-#### Example
+**Example**
 
 > Our spike sorting code is freely available at [https://github.com/narendramukherjee/blech\_clust](https://github.com/narendramukherjee/blech_clust) \([Mukherjee, 2019](https://elifesciences.org/articles/45968#bib60); copy archived at [swh:1:rev:86d380144b3f85c8951923de873893583bd25edf](https://archive.softwareheritage.org/swh:1:rev:86d380144b3f85c8951923de873893583bd25edf/)\).
 
-## Add an author query
+### Add an author query
 
 Now that the code has been archived an author query needs adding to let the authors know what has occurred and to ensure that the code is presented with best practice.
 
@@ -151,7 +153,9 @@ If the repo has both a readme with a reference to the eLife article, and a licen
 
 * Per eLife policy, we have archived your code at Software Heritage and updated the text and Data Availability Statement to reflect this. Please confirm that you are happy with the revised wording.
 
-## How to determine whether a repo has an open-source license
+## Troubleshooting
+
+### How to determine whether a repo has an open-source license
 
 For GitHub repositories, the licensing information, if available, can be seen in the 'About section' \(see below\). If this icon is not present, double-check the repository for a file with 'LICENSE' in the name or check the 'README' file which may include licensing information.
 
@@ -175,13 +179,13 @@ The following are all commonly used open-source licenses:
 * \*\*\*\*[**Common Development and Distribution License**](https://opensource.org/licenses/CDDL-1.0)\*\*\*\*
 * \*\*\*\*[**Eclipse Public License version 2.0**](https://opensource.org/licenses/EPL-2.0)\*\*\*\*
 
-## Examples of code that doesn't need to be **archived**
+### Examples of code that doesn't need to be **archived**
 
 Often, authors will include links or references to software they have used in their studies. These do not need to be archived if they were not generated specifically for the paper. In the example below, none of the GitHub repositories linked need to be archived, as they are references to software that is already available. They should be added as [software references](../article-details/content/references/software-references.md#how-to-add-a-software-reference) instead.
 
 ![](../.gitbook/assets/screenshot-2020-04-23-at-10.24.29.png)
 
-## Previously forked or archived repos
+### Previously forked or archived repos
 
 Sometimes, authors will refer to code that has been forked or archived for a previous eLife article. While rare, this case occurs most commonly in research advances. No action is required unless the code has been updated since the previous publication. For example, in 55159:
 
@@ -199,7 +203,7 @@ However, if the code has been updated since the fork/archival, then it should be
 
 If someone else’s code has been modified for an eLife paper, this code should not be forked. A [software reference](../article-details/content/references/software-references.md#how-to-add-a-software-reference) to the original code should be added however.
 
-## If a link to a GitHub user is provided
+### If a link to a GitHub user is provided
 
 Sometimes authors provide a link to a GitHub user account instead of a specific repository, as in 52658 below:
 
@@ -211,7 +215,7 @@ As this does not link to a specific repository, the code cannot be forked. We ne
 
 * Please confirm which repositories contain the code for this paper. 
 
-## If code is hosted on an institutional website
+### If code is hosted on an institutional website
 
 Sometimes authors will upload their code to an institutional or lab website. For example, in 54983:
 
@@ -227,7 +231,7 @@ As it is not possible to fork this, the following query needs to be left:
 
 If the link to the code is not to a GitHub/GitLab/SourceForge/Bitbucket repository, and instead to a lab/institution website \(which will usually have the lab's name in the title of the website or on the page\), the above query should be added.
 
-## When to fork code in Tools and Resources papers
+### When to fork code in Tools and Resources papers
 
 If the repository has the same name as the tool being described in the paper, this usually indicates that it should not be forked. For example the data availability statement of 51322 states:
 
@@ -243,7 +247,7 @@ However, if data was analysed in the paper as in the example below, the linked r
 
 ![](../.gitbook/assets/screenshot-2020-04-24-at-11.18.10.png)
 
-## If no links or source code files are provided
+### If no links or source code files are provided
 
 If authors refer to custom code but there is no link to this and no source code has been provided, please leave the following query:
 
