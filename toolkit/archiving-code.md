@@ -95,7 +95,7 @@ Any code with mercurial-based revision control systems can follow [**the workflo
 
 Any code with subversion-based revision control systems can follow [**the workflow above**](archiving-code.md#if-the-code-is-in-github-or-gitlab), but with the caveat that 'svn' instead of 'git' is selected as the Origin type.
 
-Any code that does not use git, will need to be deposited. TO BE FLESHED OUT
+Any code that does not use git, will need to be deposited in a different way. We currently do not have the functionality setup to do this.
 
 ### **Add the SWHID to the article text**
 
