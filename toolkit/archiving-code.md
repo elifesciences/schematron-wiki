@@ -17,9 +17,9 @@ It is usually possible to work out whether a repository needs to be archived bas
 
 ## Checklist for archiving repositories
 
-1. \*\*\*\*[**Check whether the repo should be archived**](archiving-code.md#context-checklist)**.**
-2. \*\*\*\*[**Check whether the repo contains code and is public**](archiving-code.md#check-whether-the-code-is-present-and-public)**.**
-3. \*\*\*\*[**Check whether the correct version of the code already exists at Software Heritage**](archiving-code.md#check-whether-the-correct-version-of-the-code-already-exists-at-software-heritage)**.**
+1. [**Should the repo should be archived?**](archiving-code.md#context-checklist)
+2. [**Is the repo public and does it contain code?**](archiving-code.md#check-whether-the-code-is-present-and-public)
+3. \*\*\*\*[**Does the correct version of the code already exists at Software Heritage?**](archiving-code.md#check-whether-the-correct-version-of-the-code-already-exists-at-software-heritage)
 4. If it does not, [**archive code at Software Heritage**](archiving-code.md#how-to-archive-code-in-software-heritage)**.**
 5. \*\*\*\*[**Add the SWHID to the article text to indicate where the copy is archived**](archiving-code.md#add-the-swhid-to-the-article-text)\*\*\*\*
 6. \*\*\*\*[**Add a software reference for the repository**](../article-details/content/references/software-references.md#how-to-add-a-software-reference)\*\*\*\*
@@ -51,7 +51,9 @@ Untick 'only show origins visited at least once' and 'filter out origins with no
 
 If there are no results, this indicates that the code has yet to be archived. Follow the steps [**below**](archiving-code.md#how-to-archive-code-in-software-heritage) to do so. 
 
-If it's already archived it will appear in the results. Check that the result is the correct repo and the most up-to-date version of that repo \(by comparing the latest commit date\). If the code is not the latest version, follow the steps [**below for archiving code**](https://app.gitbook.com/@elifesciences/s/productionhowto/~/drafts/-MIxO7WNOziUlsqSYqlV/toolkit/archiving-code#how-to-archive-code-in-software-heritage).
+If it's already archived it will appear in the results. Check that the result is the correct repo and the most up-to-date version of that repo \(by comparing the latest commit date\). If the latest version of the code is archived, the next step is to [**add the SWHID to the article**](archiving-code.md#add-the-swhid-to-the-article-text).
+
+If the code is not the latest version, follow the steps [**below for archiving code**](https://app.gitbook.com/@elifesciences/s/productionhowto/~/drafts/-MIxO7WNOziUlsqSYqlV/toolkit/archiving-code#how-to-archive-code-in-software-heritage).
 
 ### Example of _not_ the most up-to-date version
 
