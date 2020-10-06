@@ -293,6 +293,12 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 **Action**: The link from an Insight article to the related research article should have the type 'commentary-article'. If another type has been used, the link type must be corrected \(this may require removing the existing link and then re-linking the article from the proofing system dashboard\).
 
+#### final-feat-ok-test
+
+**Error**: _XXXXXX element contains \[OK\] or \[OK?\] which should be removed - XXXXXX_
+
+**Action**: This error indicates that the text "**\[OK\]**" or "**\[OK?\]**" is present in the article. The Features team use this text as a way of querying the author during pre-production editing. It should be removed before final publication.
+
 ### Structure
 
 #### feat-custom-meta-test-1
@@ -327,13 +333,13 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 **Error**: _XXXXXX must be a template 1. Currently it is a template XXXXXX._
 
-**Action**: An article with the article type 'Insight' must use Template 1. Please change the article to this template.
+**Action**: An article with the article type 'Insight' must use Template 1. The content processor will need to change the article to this template.
 
 #### feat-custom-meta-test-4	
 
 **Error**: _XXXXXX must be a template 2. Currently it is a template XXXXXX._
 
-**Action**: An article with the article type 'Editorial' must use Template 2. Please change the article to this template.
+**Action**: An article with the article type 'Editorial' must use Template 2. The content processor will need to change the article to this template.
 
 #### feat-custom-meta-test-5
 
