@@ -33,7 +33,7 @@ Visit the URL provided in the text. If you see a 404 page such as this:
 
 first determine whether there's a typo in the URL. If there's no typo and you cannot determine the correct repo, then add the following author query:
 
-* Please ensure that all scripts/data/code \(as necessary\) are added to this repository, and that it is publicly available. We would also like to ask you to license the contents of the repo \(we would recommend using an open source license \[https://opensource.org/licenses\]\). Guidance on what license might better suit you can be found at https://choosealicense.com/ and instructions on how to add a license to a GitHub repository are available here https://help.github.com/articles/adding-a-license-to-a-repository/. Once your code has been committed and licensed, we will fork it to our own GitHub repository for archiving purposes.
+* Please ensure that all scripts/data/code \(as necessary\) are added to this repository, and that it is publicly available. We would also like to ask you to license the contents of the repo \(we would recommend using an open source license \[https://opensource.org/licenses\]\). Guidance on what license might better suit you can be found at https://choosealicense.com/ and instructions on how to add a license to a GitHub repository are available here https://help.github.com/articles/adding-a-license-to-a-repository/. Once your code has been committed and licensed, we will archive it at Software Heritage.
 
 The same action should be taken if the repo is empty
 
@@ -178,7 +178,7 @@ You can check whether a license is open-source by clicking on it. In the above e
 
 ![](../.gitbook/assets/screenshot-2020-04-21-at-12.39.19.png)
 
-If the license allows free use, modifications and distribution, it is an open-source license, and the repository can be forked. 
+If the license allows free use, modifications and distribution, it is an open-source license.
 
 The following are all commonly used open-source licenses:
 
