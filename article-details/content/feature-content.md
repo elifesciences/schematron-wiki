@@ -8,7 +8,7 @@ description: How to handle the different types of feature content
 
 At eLife, the term 'feature content' covers all non-research content published by the journal. This is synonymous with 'magazine content' and can be found under this heading on the eLife website: [**https://elifesciences.org/magazine**](https://elifesciences.org/magazine).
 
-This content is overseen by the Features team and consists in part of [**blogposts**](https://elifesciences.org/inside-elife) and [**podcasts**](https://elifesciences.org/podcast) that do not required Production intervention to publish. Digests are also published in a dedicated [**section**](https://elifesciences.org/digests) under the magazine heading, in addition to being included in the related article.
+This content is overseen by the Features team and consists in part of [**blogposts**](https://elifesciences.org/inside-elife) and [**podcasts**](https://elifesciences.org/podcast) that do not require Production intervention to publish. Digests are also published in a dedicated [**section**](https://elifesciences.org/digests) under the magazine heading, in addition to being included in the related article.
 
 In addition to this there are four categories of feature article that come through the production process:
 
