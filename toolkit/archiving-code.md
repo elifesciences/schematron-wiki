@@ -63,7 +63,7 @@ If the code is not the latest version, follow the steps [**below for archiving c
 
 ## How to archive code in Software Heritage
 
-From the [**search page**](https://archive.softwareheritage.org/)**,** click 'Save code now' in the left hand panel:
+From the [**search page**](https://archive.softwareheritage.org/)**,** click 'Save code now' in the left-hand panel:
 
 ![](../.gitbook/assets/screenshot-2020-10-06-at-11.55.44.png)
 
