@@ -348,7 +348,7 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 #### feature-subj-test-4
 
-**Error**: _There are more than one sub-display-channel subjects. This is incorrect._
+**Error**: _There is more than one sub-display-channel subject. This is incorrect._
 
 **Action**: Only one title prefix \(sub-display-channel\) is allowed per article. This error indicates that two `<subject>` elements have been included in  `<subj-group subj-group-type="sub-display-channel">`. Remove any extra title prefixes/`<subject>` elements to correct this.
 
