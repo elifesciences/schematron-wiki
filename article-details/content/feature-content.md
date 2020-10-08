@@ -13,7 +13,7 @@ This content is overseen by the Features team and consists in part of [**blogpos
 In addition to this there are four categories of feature article that come through the production process:
 
 * **Insight** - a commentary article accompanying one or more research articles, usually written by the editors or reviewers who worked on the article, to provide context for a broader audience and highlight the importance of the findings being reported.
-* **Editorial** - an editorial piece written by one or more of eLife's deputy or senior editors, or the editor-in-chief, usually addressing a specific issue or development in the scientific community in general and/or at eLife in particular.
+* **Editorial** - an editorial piece written by eLife staff, one or more of eLife's deputy or senior editors, or the editor-in-chief, usually addressing a specific issue or development in the scientific community in general and/or at eLife in particular.
 * **Feature article** - a general article type that covers a variety of content, ranging from short essays and opinion articles that do not have decision/response sections, supporting files etc., to substantial meta-research articles that can contain multiple figures, figure supplements, source data, decision/response sections etc.
 
 ### Magazine templates
