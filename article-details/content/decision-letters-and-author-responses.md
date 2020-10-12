@@ -227,9 +227,9 @@ In order to determine which of these is the case, Exeter should check the output
 
 #### reply-body-test-1
 
-**Error**: _author response doesn't contain a disp-quote. This has to be incorrect._
+**Error**: _author response doesn't contain a disp-quote. This is very likely to be incorrect. Please check the original file._
 
-**Action**: disp-quote is the element which holds quotations. In the Author response, these will be quotations from the Decision letter. Every Author response will have some kind of quotation from the Decision letter, so if this fires, it means that there is 1 or more quotation in the Author response missing this tagging. In the original document, quotations are supplied in italics, so scan the Author response for any paragraph\(s\) entirely in italics, un-italicise them and mark them as display quotes in Kriya.
+**Action**: disp-quote is the element which holds quotations. In the Author response, these will be quotations from the Decision letter. Almost every Author response will have some kind of quotation from the Decision letter, so if this fires, it means that there is 1 or more quotation in the Author response missing this tagging. In the original document, quotations are supplied in italics, so scan the Author response for any paragraph\(s\) entirely in italics, un-italicise them and mark them as display quotes in Kriya. In the very rare case that there are no quotations from the decision letter, this check can be ignored. 
 
 #### reply-body-test-2
 
