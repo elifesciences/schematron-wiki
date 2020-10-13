@@ -49,6 +49,12 @@ If any of the mandatory information is not provided, look up the article on [**P
 
 * Please provide the XXXXXX for this reference.
 
+
+
+## How to add a conference reference
+
+
+
 ## Finding reference details
 
 Details for conference references can usually be found online, however there is no central indexing service for conferences as there is for journals \(PubMed\). 
