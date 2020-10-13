@@ -115,11 +115,13 @@ Once the XML and PDF files have been corrected, each version's ZIP package shoul
 
 These should then be loaded into the silent correction bucket on the AWS.
 
-It will take a few minutes for each online version to update.
+![Example of specific version silent corrections in the bucket](../.gitbook/assets/screen-shot-2020-10-13-at-13.04.52.png)
+
+It will take a few minutes for each online version\(s\) to update once the silent corrections have been uploaded. Any errors in processing the articles will appear on the Continuum dashboard as per normal.
 
 ### Downstream delivery
 
-When the latest version of an article is silently corrected, the article will be redelivered to the following downstream endpoints, so these will be automatically updated iwth the new name:
+When the latest version of an article is silently corrected, the article will be redelivered to the following downstream endpoints, so these will be automatically updated with the new name:
 
 * \*\*\*\*[**CrossRef**](https://www.crossref.org/) \(DOI registration\)
 * \*\*\*\*[**PubMed Central**](https://www.ncbi.nlm.nih.gov/pmc/) \(full-text indexing service\)
