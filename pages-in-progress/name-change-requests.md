@@ -87,16 +87,15 @@ As [**above**](name-change-requests.md#updating-the-current-version-of-the-artic
 
 ![Make sure all instances of the name, e.g. in the funding details, are corrected](../.gitbook/assets/screen-shot-2020-10-13-at-12.47.32.png)
 
-* The PDFs will need to be updated offline to reflect the edited information:
-  * PoA PDFs should be edited in Adobe by the Production team.
+* PoA PDFs should be edited in Adobe by the Production team.
 
 ![Example of manually editing a PoA PDF in ](../.gitbook/assets/screen-shot-2020-10-13-at-12.26.44.png)
 
-* VoR PDFs will need to go to the content processor to be updated. Please use the following template text to request the change via email:
+* VoR PDFs \(article PDF, figures PDF if affected\) will need to go to the content processor to be updated. Please use the following template text to request the change via email:
 
 > REQUEST: Name change in previous versions of XXXXX  
 >   
-> Please update all occurrences Name One to Name Two in the attached PDFs \(author list/peer review details, author contributions, competing interests, funding table, funding statement, data statement, acknowledgements, decision letter, author response \[DELETE AS APPLICABLE\]\). Please ensure that the corresponding initials are corrected where applicable.
+> Please update all occurrences Name One to Name Two in the attached PDF\(s\) \(author list/peer review details, author contributions, competing interests, funding table, funding statement, data statement, acknowledgements, decision letter, author response \[DELETE AS APPLICABLE\]\). Please ensure that the corresponding initials are corrected where applicable.
 >
 > \[INCLUDE IF REQUIRED\] Please correct the following instances of _Pronoun 1_ to _Pronoun 2_:
 >
@@ -104,7 +103,17 @@ As [**above**](name-change-requests.md#updating-the-current-version-of-the-artic
 > * Text to be corrected
 > * . . .
 
-Once the XML and PDF files have been corrected, each version's ZIP package should be recreated and named using the exact same filename that was initially downloaded. These should then be loaded into the silent correction bucket on the AWS.
+Once the XML and PDF files have been corrected, each version's ZIP package should be recreated and named using the exact same filename that was initially downloaded.
+
+![Step 1. Select all the files required for the package.](../.gitbook/assets/screen-shot-2020-10-13-at-12.54.34.png)
+
+![Step 2. Compress the items into a ZIP package.](../.gitbook/assets/screen-shot-2020-10-13-at-12.55.34.png)
+
+![Step 3. Copy the name from the original archived package.](../.gitbook/assets/screen-shot-2020-10-13-at-12.55.55.png)
+
+![Step 4. Rename the new ZIP package using the copied name.](../.gitbook/assets/screen-shot-2020-10-13-at-12.56.20.png)
+
+These should then be loaded into the silent correction bucket on the AWS.
 
 It will take a few minutes for each online version to update.
 
