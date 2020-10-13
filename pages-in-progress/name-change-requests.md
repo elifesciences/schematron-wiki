@@ -26,7 +26,7 @@ eLife aims to allow authors, reviewers and editors to update their names with a 
 
 ## Production process
 
-Once the name change request has been approved by the Editorial team, they will supply a list of the affected content to the Production team. It will be Production's responsibility to ensure that all versions of this content are updated with the individual's new name. This will cover the following:
+Once the name change request has been verified by the Editorial team, they will supply a list of the affected content to the Production team. It will be Production's responsibility to ensure that all versions of this content are updated with the individual's new name. This will cover the following:
 
 * The current version of the article
 * Any pending versions of the article \(VoR, new versions\) in the proofing system
