@@ -77,7 +77,7 @@ To silently correct these, the first step is to download all package prior to th
 * 1 VoR versions
   * elife-57056-vor-v3-20200921142808.zip
 
-In the event that a reviewer or senior editor name needs to be updated, only the version of record \(vor\) packages will need to be edited. If, however, an author or reviewing editor name is to be changed, all versions will need to be corrected.
+In the event that a reviewer or senior editor name needs to be updated, only the version of record \(VoR\) packages will need to be edited. If, however, an author or reviewing editor name is to be changed, all versions will need to be corrected.
 
 As [**above**](name-change-requests.md#updating-the-current-version-of-the-article), the affected name will need to be edited in all places it occurs in the article. 
 
