@@ -22,6 +22,7 @@ The following information can be added for journal references:
 | Article title | Yes | &lt;article-title&gt;Boundary learning by optimization with topological constraints&lt;/article-title&gt; | Boundary learning by optimization with topological constraints |
 | Conference title | No | &lt;source&gt;Independent component analysis and signal separation&lt;/source&gt; | Independent component analysis and signal separation |
 | Conference location | No | &lt;conf-loc&gt;Province, RI&lt;/conf-loc&gt; | Province, RI |
+| Conference data | No | &lt;&lt;conf-date&gt;&lt;/conf-date&gt; |  |
 | Conference name | Yes | &lt;conf-name&gt;2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\)&lt;/conf-name&gt; | 2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\) |
 | e-location ID | No \(if first/last pages are present, there can be no e-location ID\) | &lt;elocation-id&gt;e51381&lt;/elocation-id&gt; | e51381 |
 | First page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;fpage&gt;132&lt;/fpage&gt; | 132 |
@@ -180,4 +181,26 @@ Error: One and only one person-group element is allowed. Reference 'XXXXXX' has 
 
 
 ## XML structure
+
+```markup
+<ref id="bib17">
+    <element-citation publication-type="confproc">
+        <person-group person-group-type="author">
+            <name><surname>Funke</surname><given-names>J</given-names></name>
+            <name><surname>Andres</surname><given-names>B</given-names></name>
+            <name><surname>Hamprecht</surname><given-names>F</given-names></name>
+            <name><surname>Cardona</surname><given-names>A</given-names></name>
+            <name><surname>Cook</surname><given-names>M</given-names></name>
+        </person-group>
+        <year iso-8601-date="2012">2012</year>
+        <article-title>Efficient automatic 3D reconstruction of branching neurons
+        from EM data</article-title>
+        <conf-name>Computer Vision and Pattern Recognition</conf-name>
+        <conf-date>16-21 June 2012</conf-date>
+        <conf-loc>Province, RI</conf-loc>
+        <fpage>1004</fpage>
+        <lpage>1011</lpage>
+    </element-citation>
+</ref>
+```
 
