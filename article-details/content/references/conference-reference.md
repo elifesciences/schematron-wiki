@@ -83,17 +83,11 @@ If the conference is one associated with the [**IEEE**](https://www.ieee.org/), 
 
 **Action**: This warning indicates a reference to a conference article associated with an organisation that is known to register DOIs. Search the article title and conference name online to identify a corresponding DOI \(if one exists\).
 
-#### err-elem-cit-confproc-2-1
-
-Error: One and only one person-group element is allowed. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements.
-
-**Action**:
-
 #### err-elem-cit-confproc-8-1
 
 **Error**: _Each &lt;element-citation&gt; of type 'confproc' must contain one and only one &lt;article-title&gt; element. Reference 'XXXXXX' has XXXXXX &lt;article-title&gt; elements._
 
-**Action**:
+\_\_
 
 #### err-elem-cit-confproc-9-1
 
@@ -107,9 +101,9 @@ Error: One and only one person-group element is allowed. Reference 'XXXXXX' has 
 
 **Action**: 
 
-#### err-elem-cit-confproc-12-1
+#### err-elem-cit-confproc-12-3
 
-**Error**: _The citation may contain &lt;fpage&gt; and &lt;lpage&gt;, only &lt;fpage&gt;, or only &lt;elocation-id&gt; elements, but not a mixture. Reference 'XXXXXX' has XXXXXX &lt;fpage&gt; elements, XXXXXX &lt;lpage&gt; elements, and XXXXXX &lt;elocation-id&gt; elements._
+**Error**: _If both &lt;lpage&gt; and &lt;fpage&gt; are present, the value of &lt;fpage&gt; must be less than the value of &lt;lpage&gt;. Reference 'XXXXXX' has &lt;lpage&gt; XXXXXX, which is less than or equal to &lt;fpage&gt; XXXXXX._
 
 **Action**:
 
@@ -119,13 +113,13 @@ Error: One and only one person-group element is allowed. Reference 'XXXXXX' has 
 
 **Action**:
 
-#### err-elem-cit-confproc-12-3
+#### err-elem-cit-confproc-12-1
 
-**Error**: _If both &lt;lpage&gt; and &lt;fpage&gt; are present, the value of &lt;fpage&gt; must be less than the value of &lt;lpage&gt;. Reference 'XXXXXX' has &lt;lpage&gt; XXXXXX, which is less than or equal to &lt;fpage&gt; XXXXXX._
+**Error**: _The citation may contain &lt;fpage&gt; and &lt;lpage&gt;, only &lt;fpage&gt;, or only &lt;elocation-id&gt; elements, but not a mixture. Reference 'XXXXXX' has XXXXXX &lt;fpage&gt; elements, XXXXXX &lt;lpage&gt; elements, and XXXXXX &lt;elocation-id&gt; elements._
 
 **Action**:
 
-err-elem-cit-confproc-12-4
+#### err-elem-cit-confproc-12-4
 
 **Error**: _The content of the &lt;fpage&gt; and &lt;lpage&gt; elements can contain any alpha numeric value but no child elements are allowed. Reference 'XXXXXX' has XXXXXX child elements in &lt;fpage&gt; and XXXXXX child elements in &lt;lpage&gt;._
 
@@ -134,12 +128,6 @@ err-elem-cit-confproc-12-4
 #### err-elem-cit-confproc-16-1
 
 **Error**: _A maximum of one &lt;pub-id&gt; element is allowed. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements._
-
-**Action**:
-
-#### err-elem-cit-confproc-17
-
-**Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="confproc" are: &lt;person-group&gt;, &lt;year&gt;, &lt;article-title&gt;, &lt;source&gt;, &lt;conf-loc&gt;, &lt;conf-name&gt;, &lt;fpage&gt;, &lt;lpage&gt;, &lt;elocation-id&gt;, &lt;ext-link&gt;, and &lt;pub-id&gt;. Reference 'XXXXXX' has other elements._
 
 **Action**:
 
@@ -172,6 +160,22 @@ err-elem-cit-confproc-12-4
 **Error**: _No elements are allowed inside &lt;conf-loc&gt;. Reference 'XXXXXX' has child elements within the &lt;conf-loc&gt; element._
 
 **Action**: 
+
+### Structure checks
+
+#### err-elem-cit-confproc-2-1
+
+Error: One and only one person-group element is allowed. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements.
+
+**Action**:
+
+#### err-elem-cit-confproc-17
+
+**Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="confproc" are: &lt;person-group&gt;, &lt;year&gt;, &lt;article-title&gt;, &lt;source&gt;, &lt;conf-loc&gt;, &lt;conf-name&gt;, &lt;fpage&gt;, &lt;lpage&gt;, &lt;elocation-id&gt;, &lt;ext-link&gt;, and &lt;pub-id&gt;. Reference 'XXXXXX' has other elements._
+
+**Action**:
+
+
 
 
 
