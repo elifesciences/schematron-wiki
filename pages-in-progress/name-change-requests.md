@@ -8,7 +8,7 @@ description: Process for changing the name of an author or editor in eLife conte
 
 When an individual changes their name \(through marriage, by deed-poll, as a result of transitioning to another gender etc.\), they may wish to update the scientific record to ensure that their work can be found under their new name.
 
-eLife aims to allow authors, reviewers and editors to update their names with a minimum of hassle. Requests to do so will be verified by the Editorial team and then passed on to the Production team, who will be responsible for updating the affected articles. 
+eLife aims to allow authors, reviewers and editors to update their names with a minimum of hassle. Requests to do so will be verified by the Editorial team and then passed on to the Production team, who will update the affected articles. 
 
 ## Editorial process
 
@@ -61,23 +61,23 @@ For Insight articles and co-submissions, the following will also need to be corr
 * mentions of the first author\(s\) in the text \(if applicable\)
 * entry for related article in the reference list
 
-If the article has been published as a Version of Record, the changes can be made in the proofing system following the normal silent correction process and once signed off, the updated article will overwrite the latest published version.
+If the article has been published as a Version of Record, the changes can be made in the proofing system following the normal silent correction process and once signed off, the updated article will overwrite the latest published version. If this was the only version of the article ever published by eLife, this is the end of the name-change process.
 
-If the article has only been published as an accepted article, the PoA version should be silently corrected 
-
-However, if there are any previous versions of the article on the system, these will still show the old name. Therefore, these need to be corrected as well.
+If the article has only been published as an accepted article, the PoA version should be silently corrected following the same process described [**below**](name-change-requests.md#updating-old-versions-in-the-archive) for old versions. The pending VoR proof should then be updated \(see next section\). Once again, if this is the only version of the article published at the point the name-change request is received, this is the end of the process.
 
 ### Updating a pending version of the article
 
-If the Version of Record is still in production, 
+If the Version of Record for the affected article is still in production, the author or reviewer details should be updated via the proofing system. This should ideally be done as soon as possible; however, if the article is still being processed \(pre-editing, copy-editing\), the content processor should be asked to make the change. This request can be sent via email or slack, as appropriate.
 
-### Extracting old versions from the archive
+In this case, once the PoA version\(s\) have been updated and the VoR proof has been corrected, no further action should be required.
 
-To identify previously published versions of the affected articles, go to the `elife-publishing-archive` bucket in the eLife Amazon Web Services \(AWS\). All versions of published eLife articles are stored here. If a user searches for a published article, they will see zip packages for each PoA and VoR version that has been issued.
+### Updating old versions in the archive
+
+All previous versions of an article in which a name is being changed should be updated to match the current version. To identify previously published versions of the affected article\(s\), go to the `elife-publishing-archive` bucket in the eLife Amazon Web Services \(AWS\). If a user searches for a published article, they will see zip packages for each PoA and VoR version that has been issued.
 
 ![Example of version history for an article in archive](../.gitbook/assets/screen-shot-2020-10-06-at-12.50.16.png)
 
-To silently correct these, the first step is to download all package prior to the current \(latest\) version and note the full package names. These names will be required for loading to the silent correction bucket \(`prod-elife-silent-corrections`\) once all versions have been revised. So, for example, in the above case, there would be three packages to correct:
+To silently correct these, the first step is to download all package prior to the current \(most recent\) version. So, for example, in the above case, there would be three packages to correct:
 
 * 2 PoA versions
   * elife-57056-poa-v1-20200902000000.zip
@@ -136,7 +136,7 @@ Once the XML and PDF files have been corrected, each version's ZIP package shoul
 
 ![Step 4. Rename the new ZIP package using the copied name.](../.gitbook/assets/screen-shot-2020-10-13-at-12.56.20.png)
 
-These should then be loaded into the silent correction bucket on the AWS.
+These should then be loaded into the AWS silent correction bucket \(`prod-elife-silent-corrections`\).
 
 ![Example of specific version silent corrections in the bucket](../.gitbook/assets/screen-shot-2020-10-13-at-13.04.52.png)
 
