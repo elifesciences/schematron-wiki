@@ -162,7 +162,7 @@ Following an update to change an author, editor or reviewer's name, an annotatio
 
 > This article has been updated in response to a name-change request.
 
+## Post-change actions
 
-
-
+Once the change has been implemented
 
