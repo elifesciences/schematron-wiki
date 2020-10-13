@@ -347,9 +347,10 @@ See an example of XML for the article-level license of a CC-BY article [**here**
         <ali:free_to_read/>
         <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
           <ali:license_ref>http://creativecommons.org/licenses/by/4.0/</ali:license_ref>
-          <license-p>This article is distributed under the terms of the<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative
-              Commons Attribution License</ext-link>, which permits unrestricted use and
-            redistribution provided that the original author and source are credited.</license-p>
+          <license-p>This article is distributed under the terms of the <ext-link
+          ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative 
+          Commons Attribution License</ext-link>, which permits unrestricted use and 
+          redistribution provided that the original author and source are credited.</license-p>
         </license>
       </permissions>
     </front>
@@ -365,9 +366,12 @@ See an example of XML for the article-level license of a CC-BY article [**here**
             <license xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">
             <ali:license_ref>http://creativecommons.org/publicdomain/zero/1.0/</ali:license_ref>
             <license-p>
-                This is an open-access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the
-                <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 public domain dedication</ext-link>
-                .
+                This is an open-access article, free of all copyright, and may be
+                freely reproduced, distributed, transmitted, modified, built upon,
+                or otherwise used by anyone for any lawful purpose. The work is made
+                available under the <ext-link ext-link-type="uri"
+                xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">Creative
+                Commons CC0 public domain dedication</ext-link>.
             </license-p>
             </license>
         </permissions>
@@ -381,7 +385,11 @@ See an example of XML for the article-level license of a CC-BY article [**here**
     <label>Figure 3—figure supplement 1.</label>
     <caption>
         <title>Duplex strand ATPases contact only one strand while encircling duplex DNA.</title>
-        <p>(<bold>A</bold>) The<italic>E. coli</italic>clamp loader binds only one strand during action on dsDNA. (<bold>B</bold>) CMG motor domains bind ssDNA in a B-form conformation. (<bold>C</bold>) Little to no conformation change would be needed for CMG motors to bind B-form ssDNA and then slide onto dsDNA (flush end) and continue tracking on the same 3’−5’ strand.</p>
+        <p>(<bold>A</bold>) The<italic>E. coli</italic>clamp loader binds only
+        one strand during action on dsDNA. (<bold>B</bold>) CMG motor domains
+        bind ssDNA in a B-form conformation. (<bold>C</bold>) Little to no conformation
+        change would be needed for CMG motors to bind B-form ssDNA and then slide onto
+        dsDNA (flush end) and continue tracking on the same 3’−5’ strand.</p>
     </caption>
     <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-46515-fig3-figsupp1-v2.tif"/>
     <permissions>
@@ -390,9 +398,10 @@ See an example of XML for the article-level license of a CC-BY article [**here**
         <copyright-holder>Elsevier</copyright-holder>
         <license>
             <license-p>
-            Panel A is reprinted from
-            <xref ref-type="bibr" rid="bib40">Simonetta et al., 2009</xref>
-            , with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.
+            Panel A is reprinted from <xref ref-type="bibr" rid="bib40">Simonetta
+            et al., 2009</xref>, with permission from Elsevier. It is not covered
+            by the CC-BY 4.0 licence and further reproduction of this panel would
+            need permission from the copyright holder.
             </license-p>
         </license>
     </permissions>
@@ -409,7 +418,10 @@ See an example of XML for the article-level license of a CC-BY article [**here**
        <copyright-year>2007</copyright-year>
        <copyright-holder>Lee Berger</copyright-holder>
        <license>
-         <license-p>Chambered nautilus image courtesy of Lee Berger. Published under a <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY SA 3.0 unported license</ext-link>.</license-p>
+         <license-p>Chambered nautilus image courtesy of Lee Berger. Published
+          under a <ext-link ext-link-type="uri"
+          xlink:href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY SA 3.0
+          unported license</ext-link>.</license-p>
        </license>
      </permissions>
 </fig>
