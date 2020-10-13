@@ -62,7 +62,7 @@ Production carry out three roles in the ERA process:
 * In the title field, add the title of the article.
 * In the Description field add the abstract for the article.
 * Go to Sharing in the left hand table of contents
-* If the authors have already created a stencila Hub account, search for their name or account handle, and click add.
+* If the authors have already created a Stencila Hub account, search for their name or account handle, and click add.
 * If the authors have not created a Stencila Hub account, click 'Invite them' and use their email.
 
 ## ERA QC
