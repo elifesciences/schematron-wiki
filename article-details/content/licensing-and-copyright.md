@@ -147,13 +147,13 @@ This will not fire for CC0 articles as these do not have copyright statements. S
 
 **Error**: _permissions must contain copyright-year in the format 0000. Currently it is XXXXXX_
 
-**Action**: This error will fire if the copyright year of an article is entered in a format other than numerical e.g. two thousand and twenty instead of 2020. Exeter will need to correct this. This will not fire for CC0 articles. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
+**Action**: This error will fire if the copyright year of an article is entered in a format other than numerical e.g. 'two thousand and twenty' instead of '2020'. Exeter will need to correct this. This will not fire for CC0 articles. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
 
 #### permissions-test-3
 
 **Error**: _permissions must contain copyright-holder._
 
-**Action**: This error will fire if there is no copyright holder for an article \(does not apply to CC0 articles\). Exeter will need to correct this. The copyright holder should entered as the surname of the first author followed by 'et al' \(e.g. Smith et al\). If there is only one author, the 'et al' is not required \(e.g. Smith\). If there are only two authors, the surnames of both authors should be entered with no 'et al' \(e.g. Smith and Jones\). See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
+**Action**: This error will fire if there is no copyright holder for an article \(does not apply to CC0 articles\). Exeter will need to correct this. The copyright holder should be entered as the surname of the first author followed by 'et al' \(e.g. Smith et al\). If there is only one author, the 'et al' is not required \(e.g. Smith\). If there are only two authors, the surnames of both authors should be entered with no 'et al' \(e.g. Smith and Jones\). See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
 
 #### permissions-test-4
 
