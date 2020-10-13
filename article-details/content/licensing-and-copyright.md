@@ -113,7 +113,7 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 #### permissions-info
 
-**Info**: _This article is licensed under aXXXXXX license. XXXXXX_
+**Info**: _This article is licensed under a XXXXXX license. XXXXXX_
 
 **Action**: This information message will appear for every article to denote which license the article will be published under. eLife's articles are either published under CC BY 4.0 or CC0 licenses. This message can be useful for determining what additional XML tagging needs to be added for content reproduced from CC BY-licensed content \(see [**here**](licensing-and-copyright.md#reproductions-from-cc-by-licensed-content)\).
 
