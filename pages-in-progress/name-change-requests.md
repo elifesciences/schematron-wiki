@@ -29,9 +29,9 @@ eLife aims to allow authors, reviewers and editors to update their names with a 
 Once the name change request has been approved by the Editorial team, they will supply a list of the affected content to the Production team. It will be Production's responsibility to ensure that all versions of this content are updated with the individual's new name. This will cover the following:
 
 * The current version of the article
+* Any pending versions of the article \(VoR, new versions\) in the proofing system
 * Any previously published versions \(PoA, VoR\)
 * Any related content such as Insights, Corrections or co-submissions
-* Any pending versions of the article \(VoR, new versions\) in the proofing system
 
 ### Updating the current version of the article
 
@@ -61,7 +61,15 @@ For Insight articles and co-submissions, the following will also need to be corr
 * mentions of the first author\(s\) in the text \(if applicable\)
 * entry for related article in the reference list
 
-These changes can be made in the proofing system and once signed off for silent correction, the updated article will overwrite the latest published version. However, if there are any previous versions of the article on the system, these will still show the old name. Therefore, these need to be corrected as well.
+If the article has been published as a Version of Record, the changes can be made in the proofing system following the normal silent correction process and once signed off, the updated article will overwrite the latest published version.
+
+If the article has only been published as an accepted article, the PoA version should be silently corrected 
+
+However, if there are any previous versions of the article on the system, these will still show the old name. Therefore, these need to be corrected as well.
+
+### Updating a pending version of the article
+
+If the Version of Record is still in production, 
 
 ### Extracting old versions from the archive
 
@@ -95,9 +103,24 @@ As [**above**](name-change-requests.md#updating-the-current-version-of-the-artic
 
 > REQUEST: Name change in previous versions of XXXXX  
 >   
-> Please update all occurrences Name One to Name Two in the attached PDF\(s\) \(author list/peer review details, author contributions, competing interests, funding table, funding statement, data statement, acknowledgements, decision letter, author response \[DELETE AS APPLICABLE\]\). Please ensure that the corresponding initials are corrected where applicable.
+> Please update all occurrences Name One to Name Two in the attached PDF\(s\). The name appears in \[DELETE AS APPLICABLE\]:
 >
-> \[INCLUDE IF REQUIRED\] Please correct the following instances of _Pronoun 1_ to _Pronoun 2_:
+> * author list/peer review details
+> * author contributions
+> * competing interests
+> * funding table
+> * funding statement
+> * data statement
+> * key info box
+> * text "xxxxx . . . "
+> * reference\(s\) XXXX et al., XXXX . . .
+> * acknowledgements
+> * decision letter
+> * author response
+>
+> Please ensure that the corresponding initials are corrected where applicable.
+>
+> \[INCLUDE IF REQUIRED\] Please also correct the following instances of _Pronoun 1_ to _Pronoun 2_:
 >
 > * Text to be corrected
 > * Text to be corrected
