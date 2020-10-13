@@ -140,7 +140,7 @@ These should then be loaded into the AWS silent correction bucket \(`prod-elife-
 
 ![Example of specific version silent corrections in the bucket](../.gitbook/assets/screen-shot-2020-10-13-at-13.04.52.png)
 
-It will take a few minutes for each online version\(s\) to update once the silent corrections have been uploaded. Any errors in processing the articles will appear on the Continuum dashboard as per normal.
+It will take a few minutes for each online version to update once the silent corrections have been uploaded. Any errors in processing the articles will appear on the Continuum dashboard as per normal.
 
 ### Downstream delivery
 
