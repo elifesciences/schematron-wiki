@@ -10,8 +10,6 @@ A conference reference gives bibliographic details for work presented at a confe
 
 ![Example of a conference reference](../../../.gitbook/assets/screen-shot-2020-08-18-at-16.23.36.png)
 
-
-
 ## What needs to be added?
 
 The following information can be added for journal references:
