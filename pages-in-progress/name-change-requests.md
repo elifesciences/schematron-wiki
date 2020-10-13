@@ -6,9 +6,9 @@ description: Process for changing the name of an author or editor in eLife conte
 
 ## What does this page cover?
 
-When an individual changes their name \(through marriage, by deed-poll, as a result of transitioning to another gender etc.\), they may wish to update their articles in the scientific record to ensure that their work can be found under their new name.
+When an individual changes their name \(through marriage, by deed-poll, as a result of transitioning to another gender etc.\), they may wish to update the scientific record to ensure that their work can be found under their new name.
 
-eLife aims to allow authors, reviewers and editors to update their names with a minimum of hassle.
+eLife aims to allow authors, reviewers and editors to update their names with a minimum of hassle. Requests to do so will be verified by the Editorial team and then passed on to the Production team, who will be responsible for updating the affected articles. 
 
 ## Editorial process
 
