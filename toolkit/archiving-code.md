@@ -146,6 +146,10 @@ SWHIDs can be appended to 'https://archive.softwareheritage.org/' in order to ob
 
 ## Add an author query
 
+{% hint style="info" %}
+This should only be done before author proofing. It is unnecessary to add this query after author proofing.
+{% endhint %}
+
 Now that the code has been archived an author query needs adding to let the authors know what has occurred and to ensure that the code is presented with best practice.
 
 The following should be requested from the authors \(if they aren't already present\):
