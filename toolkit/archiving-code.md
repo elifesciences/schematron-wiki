@@ -194,7 +194,7 @@ The following are all commonly used open-source licenses:
 
 ### Examples of code that doesn't need to be **archived**
 
-Often, authors will include links or references to software they have used in their studies. These do not need to be archived if they were not generated specifically for the paper. In the example below, none of the GitHub repositories linked need to be archived, as they are references to software that is already available. They should be added as [software references](../article-details/content/references/software-references.md#how-to-add-a-software-reference) instead.
+Often, authors will include links or references to software they have used in their studies. These do not need to be archived if they were not generated specifically for the paper. In the example below, none of the GitHub repositories linked need to be archived, as they are references to software that is already available. They should be added as [**software references**](../article-details/content/references/software-references.md#how-to-add-a-software-reference) instead.
 
 ![](../.gitbook/assets/screenshot-2020-04-23-at-10.24.29.png)
 
@@ -204,7 +204,7 @@ Sometimes, authors will refer to code that has been forked or archived for a pre
 
 ![](../.gitbook/assets/screen-shot-2020-04-24-at-12.35.52.png)
 
-Comparing the forked/archived repositories to the ones that are linked in the article shows that the code has not been updated \(see below, note both repositories were last updated 2 years ago\). Therefore, the repository doesn't need to be archived. Instead, [software references](../article-details/content/references/software-references.md#how-to-add-a-software-reference) should be added. 
+Comparing the forked/archived repositories to the ones that are linked in the article shows that the code has not been updated \(see below, note both repositories were last updated 2 years ago\). Therefore, the repository doesn't need to be archived. Instead, [**software references**](../article-details/content/references/software-references.md#how-to-add-a-software-reference) should be added. 
 
 ![Repository linked in the article](../.gitbook/assets/screenshot-2020-04-24-at-13.02.03.png)
 
@@ -214,7 +214,7 @@ The same is true for archived code.
 
 However, if the code has been updated since the fork/archival, then it should be re-archived at Software Heritage, and the text should be updated by following the steps from the top of [**the checklist**](archiving-code.md#checklist-for-archiving-repositories).
 
-If someone else’s code has been modified for an eLife paper, this code should not be archived. A [software reference](../article-details/content/references/software-references.md#how-to-add-a-software-reference) to the original code should be added however.
+If someone else’s code has been modified for an eLife paper, this code should not be archived. A [**software reference**](../article-details/content/references/software-references.md#how-to-add-a-software-reference) to the original code should be added however.
 
 ### If a link to a GitHub user is provided
 
