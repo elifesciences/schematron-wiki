@@ -81,7 +81,7 @@ If the conference is one associated with the [**IEEE**](https://www.ieee.org/), 
 
 **Warning**: _XXXXXX is a conference ref without a doi, but it's a conference which is know to possibly have dois - \(XXXXXX\). Should it have one?_
 
-**Action**:
+**Action**: This warning indicates a reference to a conference article associated with an organisation that is known to register DOIs. Search the article title and conference name online to identify a corresponding DOI \(if one exists\).
 
 #### err-elem-cit-confproc-2-1
 
