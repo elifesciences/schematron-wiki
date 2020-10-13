@@ -92,19 +92,23 @@ It will take a few minutes for each online version to update.
 
 ### Downstream delivery
 
-PMC will be updated on SC of the most recent version
+When the latest version of an article is silently corrected, the article will be redelivered to the following downstream endpoints, so these will be automatically updated iwth the new name:
 
-Crossref will be updated by the SC on the most recent version
+* \*\*\*\*[**CrossRef**](https://www.crossref.org/) \(DOI registration\)
+* \*\*\*\*[**PubMed Central**](https://www.ncbi.nlm.nih.gov/pmc/) \(full-text indexing service\)
+* \*\*\*\*[**CLOCKSS**](https://clockss.org/) \(the dark archive used to preserve eLife publications in case the journal folds\)
 
-PubMed will not be updated through the normal silent correction - will need to manually update
+The following endpoints will need to manually updated with the new name:
 
-CLOCKSS \(black box for eLife\) will be updated
+* [**PubMed**](https://www.ncbi.nlm.nih.gov/pubmed/management) \(abstract indexing service\)
 
 Google Scholar ???
 
 ### Annotation to indicate a name change
 
 Following an update to change an author, editor or reviewer's name, an annotation should be added to the latest version of the article to indicate that such a change has taken place.
+
+> This article has been updated in response to a name-change request.
 
 
 
