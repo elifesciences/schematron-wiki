@@ -91,7 +91,7 @@ As [**above**](name-change-requests.md#updating-the-current-version-of-the-artic
 
 ![Example of manually editing a PoA PDF in ](../.gitbook/assets/screen-shot-2020-10-13-at-12.26.44.png)
 
-* VoR PDFs \(article PDF, figures PDF if affected\) will need to go to the content processor to be updated. Please use the following template text to request the change via email:
+* VoR PDFs \(article PDF, figures PDF if affected\) will need to go to the content processor to be updated. The following is a suggested email template for requesting changes:
 
 > REQUEST: Name change in previous versions of XXXXX  
 >   
