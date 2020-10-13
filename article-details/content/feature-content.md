@@ -144,7 +144,7 @@ Author proofing for feature content proceeds in the same manner as for research 
 
 Once author proofing is complete, the article will move into the 'Feature Review' stage to allow the Features team to check over the authors' edits. They will be alerted with an email notification when this occurs.
 
-After they have completed their checks, they will sign the article off to 'Post Author Validation' with the content processors \(the same stage research content goes into following Author Review\). If the Features team cannot make required corrections via the proofing system, they will email instructions to the Production team who will respond accordingly, either by passing the instructions on to the content processors or by making a note to fix the outstanding issues at the post-author check stage.
+After they have completed their checks, they will sign the article off to 'Post Author Validation' with the content processors \(the same stage research content goes into following Author Review\). If the Features team cannot make required corrections via the proofing system, they will send instructions to the Production team via email or slack. Production will either pass the instructions on to the content processors or make a note to fix the outstanding issues at the post-author check stage.
 
 ### Post-author checks
 
