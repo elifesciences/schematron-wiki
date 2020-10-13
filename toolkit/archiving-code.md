@@ -122,7 +122,12 @@ We want to add the abbreviated SWHID to the text with an embedded link to the ar
 
 The authors may have referred to their code in the article text and/or in the data availability statement. 
 
-* If a link to a repository is included the data availability statement, always add the text 'copy archived at XXXXXX', replacing 'XXXXXX' with the SWHID containing the embedded hyperlink.
+* If a link to a repository is included the data availability statement, always add the text 'copy archived at XXXXXX', replacing 'XXXXXX' with the hyperlink to the archived code on Software Heritage.
+
+{% hint style="info" %}
+We cannot include embedded hyperlinks in data availability statements in Kriya 1.5, so the full URL has to be included instead of the SWHID with the embedded link.
+{% endhint %}
+
 * If it is included in the article text, you only need to add this text the first time it is mentioned \(note, this needs to be done for each separate repository link if there are multiple\). The authors may only have included this link in their Key Resources Table so make sure the new link is added there if this is the case.
 
   If the authors have only referred to the code in the data availability statement, add the following query:
