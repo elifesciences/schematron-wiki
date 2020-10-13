@@ -174,11 +174,7 @@ Error: One and only one person-group element is allowed. Reference 'XXXXXX' has 
 
 **Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="confproc" are: &lt;person-group&gt;, &lt;year&gt;, &lt;article-title&gt;, &lt;source&gt;, &lt;conf-loc&gt;, &lt;conf-name&gt;, &lt;fpage&gt;, &lt;lpage&gt;, &lt;elocation-id&gt;, &lt;ext-link&gt;, and &lt;pub-id&gt;. Reference 'XXXXXX' has other elements._
 
-**Action**:
-
-
-
-
+**Action:** This error indicates that elements are present in a conference reference that are not allowed.
 
 ## XML structure
 
