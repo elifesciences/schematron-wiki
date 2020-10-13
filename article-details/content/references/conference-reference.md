@@ -69,7 +69,11 @@ The default fields in Kriya will need to be altered to include the following inf
 
 ## Finding reference details
 
-Details for conference references can usually be found online, however there is no central indexing service for conferences as there is for journals \(PubMed\). 
+Details for conference references can usually be found online, however there is no central indexing service for conferences as there is for journals \(PubMed\). Searching the article title together with the conference name should provide a landing page if one is available.
+
+If the conference is one associated with the [**IEEE**](https://www.ieee.org/), there will likely be both an online page for the article and a corresponding DOI.
+
+![Example of an IEEE record for a paper presented at a conference](../../../.gitbook/assets/screen-shot-2020-10-13-at-17.41.14.png)
 
 ## Schematron checks 
 
