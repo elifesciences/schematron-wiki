@@ -277,49 +277,49 @@ See an example of XML for the article-level license of a CC-BY article [**here**
 
 **Error:** _permissions for XXXXXX must contain a license-p element._
 
-**Action**: This will appear if the permissions statement doesn't have a &lt;license-p&gt; element. Exeter will need to add this.
+**Action**: This will appear if the permissions statement doesn't have a `<license-p>` element. Exeter will need to add this.
 
 #### fig-permissions-test-5
 
 **Error:** _permissions for XXXXXX has XXXXXX &lt;copyright-statement&gt; elements, when there can only be 0 or 1._
 
-**Action**: This will appear if a permissions statement has more than 1 &lt;copyright-statement&gt; element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct statement should be by comparing with the instructions given by the Production team.
+**Action**: This will appear if a permissions statement has more than 1 `<copyright-statement>` element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct statement should be by comparing with the instructions given by the Production team.
 
 #### fig-permissions-test-6
 
 **Error:** _permissions for XXXXXX has XXXXXX &lt;copyright-holder&gt; elements, when there can only be 0 or 1._
 
-**Action**: This will appear if a permissions statement has more than 1 &lt;copyright-holder&gt; element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct copyright holder should be by comparing with the instructions given by the Production team.
+**Action**: This will appear if a permissions statement has more than 1 `<copyright-holder>` element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct copyright holder should be by comparing with the instructions given by the Production team.
 
 #### fig-permissions-test-7
 
 **Error:** _permissions for XXXXXX has XXXXXX &lt;copyright-year&gt; elements, when there can only be 0 or 1._
 
-**Action**: This will appear if a permissions statement has more than 1 &lt;copyright-year&gt; element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct copyright year should be by comparing with the instructions given by the Production team.
+**Action**: This will appear if a permissions statement has more than 1 `<copyright-year>` element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct copyright year should be by comparing with the instructions given by the Production team.
 
 #### fig-permissions-test-8
 
 **Error:** _permissions for XXXXXX has XXXXXX &lt;license&gt; elements, when there can only be 0 or 1._ 
 
-**Action**: This error will appear if a permissions statement has more than 1 &lt;license&gt; element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct license should be by comparing with the instructions given by the Production team.
+**Action**: This error will appear if a permissions statement has more than 1 `<license>` element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct license should be by comparing with the instructions given by the Production team.
 
 #### fig-permissions-test-9
 
 **Error**: _permissions for XXXXXX has a &lt;license&gt; element, but not &lt;license-p&gt; element, which is incorrect._
 
-**Action**: This error will appear if a permissions statement has a &lt;license&gt; element but no &lt;license-p&gt; element. Double-check the instructions given by the Production team to see what this should be. 
+**Action**: This error will appear if a permissions statement has a `<license>` element but no `<license-p>` element. Double-check the instructions given by the Production team to see what this should be. 
 
 #### fig-permissions-test-10
 
 **Error**: _permissions for XXXXXX has XXXXXX &lt;license-p&gt; elements, when there can only be 0 or 1._
 
-**Action**: This error will appear if a permissions statement has more than 1 &lt;license-p&gt; element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct &lt;license-p&gt; text should be by comparing with the instructions given by the Production team.
+**Action**: This error will appear if a permissions statement has more than 1 `<license-p>` element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct `<license-p>` text should be by comparing with the instructions given by the Production team.
 
 #### fig-permissions-test-11
 
 **Error**: _figure level permissions must either have a &lt;copyright-statement&gt; or a  &lt;license&gt; element, but those for XXXXXX have neither._
 
-**Action**: This error will appear if a permissions statement has no &lt;copyright-statement&gt; or &lt;license&gt; elements. Query the Production team if these were not provided in the permissions instructions. 
+**Action**: This error will appear if a permissions statement has no `<copyright-statement>` or `<license>` elements. Query the Production team if these were not provided in the permissions instructions. 
 
 #### fig-permissions-test-12
 
