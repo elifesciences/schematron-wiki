@@ -6,7 +6,7 @@ description: A tool to aid in the discovery and representation of an article
 
 ## What are keywords?
 
-Keywords are one-word \(or two\) terms that allow articles to be searchable on the journal's website and through online search engines, such as PMC and Google Scholar. These also provide an accurate representation of what the study was about.
+Keywords are one-word \(or two\) terms that allow articles to be searchable on the journal's website and through online search engines, such as PMC and Google Scholar. These also provide an accurate representation of what the study was about. These should not be confused with research organisms which you can read about [**below**](keywords.md#research-organisms). 
 
 ## Examples of keywords
 
@@ -32,8 +32,9 @@ Please check these are:
 
 * In lower case only, with the exception of proper nouns
 * In italics if appropriate \(e.g. _E. coli_\)
+* For species name the Genus should be reduced to first letter and full stop \(eg _Escherichia coli_ should be _E. coli_\)
 * One-word \(or two\) terms
-* 
+
 In eJP, authors are only allowed to enter a maximum of 6 separate keywords. During proofing, authors may request to add more. If these seem reasonable, this is fine to do but you may wish to run this past Editorial if you are unsure.
 
 ## Research organisms
