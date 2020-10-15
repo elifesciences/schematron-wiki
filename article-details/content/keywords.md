@@ -1,5 +1,5 @@
 ---
-description: A tool to aid in the discovery and representation of an article
+description: Tools to aid in the discovery and representation of an article
 ---
 
 # Keywords and research organisms
