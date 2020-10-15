@@ -133,7 +133,7 @@ If the archiving at Software Heritage takes a long time, and as a result the SWH
 
 > copy archived at \[URL to be added\]
 
-`[URL to be added]` can then be replaced at a later stage \(such as at PAV or Publisher Review\).
+`[URL to be added]` can then be replaced at a later stage \(such as at PAV or Publisher Review\) with the SWHID.
 {% endhint %}
 
 * If it is included in the article text, you only need to add this text the first time it is mentioned \(note, this needs to be done for each separate repository link if there are multiple\). The authors may only have included this link in their Key Resources Table so make sure the new link is added there if this is the case.
