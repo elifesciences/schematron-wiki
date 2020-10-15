@@ -27,7 +27,7 @@
   * [Funding](article-details/content/funding-information.md)
   * [General content](article-details/content/general-content.md)
   * [Impact statement](article-details/content/impact-statement.md)
-  * [Keywords](article-details/content/keywords.md)
+  * [Keywords and research organisms](article-details/content/keywords.md)
   * [RRIDs](article-details/content/rrids.md)
   * [Reference citations](article-details/content/reference-citations.md)
   * [References](article-details/content/references/README.md)

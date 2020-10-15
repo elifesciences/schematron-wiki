@@ -2,7 +2,7 @@
 description: A tool to aid in the discovery and representation of an article
 ---
 
-# Keywords
+# Keywords and research organisms
 
 ## What are keywords?
 
