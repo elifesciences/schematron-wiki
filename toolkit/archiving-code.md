@@ -128,6 +128,14 @@ The authors may have referred to their code in the article text and/or in the da
 We cannot include embedded hyperlinks in data availability statements in Kriya 1.5, so the full URL has to be included instead of the SWHID with the embedded link.
 {% endhint %}
 
+{% hint style="info" %}
+If the archiving at Software Heritage takes a long time, and as a result the SWHID cannot be added yet, do not hold the article to wait until this has been completed \(unless just before publication\). Instead add the following text in the article:
+
+> copy archived at \[URL to be added\]
+
+`[URL to be added]` can then be replaced at a later stage \(such as at PAV or Publisher Review\).
+{% endhint %}
+
 * If it is included in the article text, you only need to add this text the first time it is mentioned \(note, this needs to be done for each separate repository link if there are multiple\). The authors may only have included this link in their Key Resources Table so make sure the new link is added there if this is the case.
 
   If the authors have only referred to the code in the data availability statement, add the following query:
