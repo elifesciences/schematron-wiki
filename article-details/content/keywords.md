@@ -76,7 +76,6 @@ Note that those captured in italics below, should _always_ be in italics in the 
 * _Xenopus_
 * Zebrafish
 * Other
-* None
 
 ## Schematron checks
 
