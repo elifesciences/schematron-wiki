@@ -301,3 +301,11 @@ The following tests relate to software that may need to be archived.
 
 **Action**: This error will appear if the phrase 'copy archived' is included in the hyperlink to the archived repository. 'XXXXXX' in this error message will be the text which has hyperlink formatting. When pasting in the SWHID link, make sure only the url is hyperlinked. 
 
+#### final-missing-url-test
+
+**Warning**: _XXXXXX element contains the text 'URL to be added' - XXXXXX. If this is a software heritage link, then please ensure that it is added. If it is a different URL, then it may be worth querying with the authors to determine what needs to be added._
+
+**Action**: This will fire at post-author stages for any paragraph or table cells containing the text URL to be added. As detailed above, if the archiving of code takes a long time, then articles should not be held to wait for this process to finish. Instead, the text `[URL to be added]` should be included and the article should proceed in the production process. After author proofing, the code should have become archived, and so the SHWID can be added to the text. Replace the text `[URL to be added]` with the SWHID containing an embedded hyperlink. The code can be found by searching the original repo hyperlink in the Software Heritage archive.
+
+If the text is there unrelated to any code archiving process \(for example if it was there in the original manuscript and not updated during author proofing\), then the eLife production team should query the authors asking what content should be included there at Pub review.
+
