@@ -6,7 +6,7 @@ description: Updated 25/09/20
 
 ## Article-level licensing
 
-All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, which applies to the whole article including all assets. The CC BY 4.0 license allows content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions. The license of the article will be captured in the underlying XML \(see [**here**](licensing-and-copyright.md#article-level-license) ****and ****[**here**](licensing-and-copyright.md#article-level-license-cc-0)\). A copyright statement will be present for CC BY content but not for CC0 content in the article PDF.
+All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, which by default applies to the whole article including all assets. The CC BY 4.0 license permits content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions. The license of the article will be captured in the underlying XML \(see [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) ****and ****[**here**](licensing-and-copyright.md#article-level-license-cc-0)\). A different copyright statement will be present for CC BY content compared to CC0 content in the article PDF.
 
 ![An example of the copyright statement for a CC-BY licensed article ](../../.gitbook/assets/screenshot-2020-09-25-at-10.30.26.png)
 
@@ -14,7 +14,7 @@ All eLife's articles are published under a [**CC BY 4.0**](https://creativecommo
 
 ## Asset-level licensing
 
-As above, all eLife's article assets are published under a CC BY 4.0 or CC0 license, following the license of the article itself. Where assets are adapted or reproduced from previously published content, additional information may need to be added in the underlying XML. This is most common for figures, however may also apply to other assets.
+As above, all eLife's article assets are published under a CC BY 4.0 or CC0 license, following the license of the article itself. Where assets are adapted or reproduced from previously published content, they may need to be exempted from the article-level license, with the details included in the underlying XML. This is most common for figures, however may also apply to other assets.
 
 ![An asset with a copyright statement \(PDF display\)](../../.gitbook/assets/screenshot-2020-07-22-at-12.59.21.png)
 
@@ -24,7 +24,7 @@ As above, all eLife's article assets are published under a CC BY 4.0 or CC0 lice
 
 ### Redrawn figures
 
-Figures and figure supplements \(or panels within these\) may be redrawn or 'adapted' from previously published content. This usually means that the authors are not reproducing anything directly but are instead redrawing a figure or simply using the same data to create new content. However, as this term is used inconsistently by authors, eLife needs to determine whether the figure is an adaptation/redrawing or a reproduction, either by comparing the image to the original if possible, or by asking the authors to confirm this. If the figure is a clear adaptation or redrawing, and as long as the authors provide a suitable citation and state clearly, for example, that “Panel A in Figure 2 has been adapted from Smith and Jones, 2015”, no further action is required.
+Figures and figure supplements \(in part or in whole\) may be redrawn or 'adapted' from previously published content. This usually means that the authors are not reproducing anything directly but are instead redrawing a figure or simply using the same data to create new content. However, as this term is used inconsistently by authors, eLife needs to determine whether the figure is an adaptation/redrawing or a reproduction, either by comparing the image to the original if possible, or by asking the authors to confirm this. If the figure is a clear adaptation or redrawing, and as long as the authors provide a suitable citation and state clearly, for example, that “Panel A in Figure 2 has been adapted from Smith and Jones, 2015”, no further action is required.
 
 ### Reproduced figures
 
@@ -76,7 +76,7 @@ No tagging needed to be added for the marine snail image as this was published u
 
 #### Reproductions from non-CC BY-licensed content
 
-If authors chose to exactly reproduce a figure or panel from a previously published, non-CC BY 2, 3, or 4 article in part or in whole, it will need to be published under a separate license. This is because the original content will have been published under a license that retains copyright. An article published in Nature, for example, will be copyright to the Nature Publishing Group, articles published in Science will be copyright to the American Association for the Advancement of Science, and so on. For eLife to reproduce the content, it must be made clear that the original publisher retains copyright, and it is not covered by the CC BY or CC0 license that applies to the rest of the eLife article. The same issue applies when authors incorporate images from other copyrighted media into their figures \(e.g. film stills or artwork\). The authors will need to confirm they have permission from the copyright holders to reproduce the figure or figure panel and state what has been reproduced in the legend. A permissions statement will also need to be added in the XML with the license details for the reproduced image. The permissions text may have been provided already as part of the figure or figure supplement legend. If so, it should be removed and moved into the permissions tagging.
+If authors chose to exactly reproduce a figure or panel from a previously published, non-CC BY 2, 3, or 4 article in part or in whole, it will need to be published under a separate license. This is because the original content will have been published under a license that retains copyright. An article published in Nature, for example, will be copyright to the Nature Publishing Group, articles published in Science will be copyright to the American Association for the Advancement of Science, and so on. For eLife to reproduce the content, it must be made clear that the original publisher retains copyright, and it is not covered by the CC BY or CC0 license that applies to the rest of the eLife article. The same issue applies when authors incorporate images from other copyrighted media into their figures \(e.g. film stills or artwork\). The authors will need to confirm they have permission from the copyright holders to reproduce the figure or figure panel and state what has been reproduced in the legend. A permissions statement will also need to be added in the XML with the license details for the reproduced image. The permissions text may have been provided already as part of the figure or figure supplement legend. If so, it should be moved into the permissions tagging.
 
 The editorial team may have left a note for Exeter if permissions information needs to be added to the XML, for example:
 
@@ -123,18 +123,6 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 **Action**: This information message will appear for any asset that has permissions information added. 
 
-#### permissions-parent
-
-**Error**: _permissions is not allowed as a child of XXXXXX_
-
-**Action**: This error will fire if a permissions element is not wrapped under a parent asset such as a table, figure, video, box, or supplementary material. Check which asset the permissions element should be associated with and ask Exeter to correct this.  
-
-#### test-permissions-presence
-
-**Error**: _There must be one and only one permissions element in the article-meta. Currently there are XXXXXX_
-
-**Action**: This error will fire if there are none or more than one permission elements under the article-meta. Every article should have article-level licensing including a permissions element in the front matter. If there are multiple, check which is correct by comparing against the copyright year, copyright holder and copyright statements \(and checking the license of the article\) and ask Exeter to correct this. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
-
 #### permissions-test-1
 
 **Error**: _permissions must contain copyright-statement._
@@ -171,7 +159,7 @@ This will not fire for CC0 articles as these do not have copyright statements. S
 
 **Error**: _copyright-year must match the contents of the year in the pub-date\[@publication-format='electronic'\]\[@date-type='publication'\]. Currently, copyright-year=XXXXXX and pub-date=XXXXXX._
 
-**Action**: This error will fire if the copyright year for the article does not match the published date of the article \(for example, if an article was published in 2020 but the copyright year is 2019\). This will need to be corrected by Exeter. This will not apply to CC0 articles. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
+**Action**: This error will fire if the copyright year for the article does not match the published date of the article \(for example, if an article was published in 2020 but the copyright year is 2019\). This will need to be corrected by Exeter. This will not apply to CC0 articles as the permissions will not not contain a copyright year element.. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
 
 #### permissions-test-7
 
@@ -332,6 +320,22 @@ See an example of XML for the article-level license of a CC-BY article [**here**
 **Warning**: _XXXXXX permissions - the &lt;license-p&gt; contains a CC link, but the license does not have an ali:licens\_ref element, which is very likely incorrect._
 
 **Action**:  
+
+### XML structure checks
+
+These checks relate to the XML structure of licensing tagging.
+
+#### permissions-parent
+
+**Error**: _permissions is not allowed as a child of XXXXXX_
+
+**Action**: This error will fire if a permissions element is not wrapped under a parent asset such as a table, figure, video, box, or supplementary material. Check which asset the permissions element should be associated with and ask Exeter to correct this.  
+
+#### test-permissions-presence
+
+**Error**: _There must be one and only one permissions element in the article-meta. Currently there are XXXXXX_
+
+**Action**: This error will fire if there are none or more than one permission elements under the article-meta. Every article should have article-level licensing including a permissions element in the front matter. If there are multiple, check which is correct by comparing against the copyright year, copyright holder and copyright statements \(and checking the license of the article\) and ask Exeter to correct this. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
 
 ## XML structure
 
