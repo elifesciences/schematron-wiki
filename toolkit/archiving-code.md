@@ -307,5 +307,5 @@ The following tests relate to software that may need to be archived.
 
 **Action**: This will fire at post-author stages for any paragraph or table cells containing the text URL to be added. As detailed above, if the archiving of code takes a long time, then articles should not be held to wait for this process to finish. Instead, the text `[URL to be added]` should be included and the article should proceed in the production process. After author proofing, the code should have become archived, and so the SHWID can be added to the text. Replace the text `[URL to be added]` with the SWHID containing an embedded hyperlink. The code can be found by searching the original repo hyperlink in the Software Heritage archive.
 
-If the text is there unrelated to any code archiving process \(for example if it was there in the original manuscript and not updated during author proofing\), then the eLife production team should query the authors asking what content should be included there at Pub review.
+If the text is unrelated to any code archiving process \(for example if it was present in the original manuscript, and not updated during author proofing\), then the eLife production team should query the authors asking what content should be included at Pub review.
 
