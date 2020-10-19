@@ -249,6 +249,40 @@ In order to determine which of these is the case, Exeter should check the output
 
 **Action**: In the original word document \(which the XML is generated from\) quotations in the Author response are captured entirely in italics \(as an indicator that they are quotations\). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision letter quote since the content, in part or in its entirety, will also be present in the Decision letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya. If it is not a quote from the Decision letter, and the text was italic in the original word document, then the text should be left as italics \(a relatively common use-case is quoting from the article itself, rather than from the Decision letter\).
 
+#### decision-missing-table-test
+
+**Warning**: _A decision letter table is referred to in the text, but there is no table in the decision letter with a label._
+
+**Action**: Exeter should contact the eLife production team, who should check the original decision letter file. If this has been flagged **before** author proofing then:
+
+* If there is an un-labelled table and '**Decision letter table X**' without a full stop is provided just above a table in the file, then it can be included by reposting the decision letter with a full stop after that content.
+* If there is no table at all, then contact Fred who will investigate further, and will likely raise a ticket for Graham to investigate.
+
+If this has been flagged **after** author proofing then:
+
+* If there is no table, then the word document should be sent to Exeter so that they can include it. \(This has to be done because the author may have made changes to the author response which would be overwritten if the decision letter was reposted.\)
+* If this is flagged after author proofing, and the table is present without a label, then Exeter should be asked to label the table.
+
+#### reply-missing-table-test
+
+**Warning**: _An author response table is referred to in the text, but there is no table in the response with a label._
+
+**Action**: Exeter should contact the eLife production team, who should check the original decision letter file. If this has been flagged **before** author proofing then:
+
+* If there is an un-labelled table and '**Author response table X**' without a full stop is provided just above a table in the file, then it can be included by reposting the decision letter with a full stop after that content.
+* If there is no table at all, then contact Fred who will investigate further, and will likely raise a ticket for Graham to investigate.
+
+If this has been flagged **after** author proofing then:
+
+* If there is no table, then the word document should be sent to Exeter so that they can include it. \(This has to be done because the author may have made changes to the author response which would be overwritten if the decision letter was reposted.\)
+* If this is flagged after author proofing, and the table is present without a label, then Exeter should be asked to label the table.
+
+#### paper-pile-test
+
+**Error**: _In the XXXXXX the text 'XXXXXX' has an embedded hyperlink to XXXXXX. The hyperlink should be removed \(but the text retained\)._
+
+**Action**: This error will fire for any paperpile links in a Decision Letter or Author response. These links are legacy reference manager links, retained from the original word document. As the message suggests, the link should be removed, but the text retained. The first XXXXXX will indicate whether the problem is in the Decision letter or Author response. The second will be the text, and the third will be the link embedded in the text.
+
 **unicode-test-1**
 
 **Warning**: _XXXXXX element contains 'â‚¬' - this should instead be the character '€'. - XXXXXX._
