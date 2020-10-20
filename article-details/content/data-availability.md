@@ -4,7 +4,7 @@ description: How to check and copy-edit the data availability section
 
 # Data availability
 
-## 
+For the changelog, click [**here**](data-availability.md#change-log).
 
 ## What is the data availability section?
 
