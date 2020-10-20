@@ -92,41 +92,33 @@ If the conference is one associated with the [**IEEE**](https://www.ieee.org/), 
 
 **Action**: This warning indicates a reference to a conference article associated with an organisation that is known to register DOIs. Search the article title and conference name online to identify a corresponding DOI \(if one exists\).
 
-#### err-elem-cit-confproc-8-1
-
-**Error**: _Each &lt;element-citation&gt; of type 'confproc' must contain one and only one &lt;article-title&gt; element. Reference 'XXXXXX' has XXXXXX &lt;article-title&gt; elements._
-
-**Action**:
-
-#### err-elem-cit-confproc-9-1
-
-**Error**: _Each &lt;element-citation&gt; of type 'confproc' must not contain more than one &lt;source&gt; element\(s\). Reference 'XXXXXX' has XXXXXX &lt;source&gt; elements._
-
-**Action**:
-
 #### err-elem-cit-confproc-10-1
 
 **Error**: _&lt;conf-name&gt; is required. Reference 'XXXXXX' has XXXXXX &lt;conf-name&gt; elements._
 
-**Action**: 
+**Action**: Every conference reference must contain a conference name. This error indicates that no conference name is present. Compare the reference to the original manuscript file to check for processing errors such as the conference name being tagged as a conference title or as part of the article title. If one has not been provided, please query the author with the following:
+
+* Please provide the conference name for this reference.
 
 #### err-elem-cit-confproc-12-3
 
 **Error**: _If both &lt;lpage&gt; and &lt;fpage&gt; are present, the value of &lt;fpage&gt; must be less than the value of &lt;lpage&gt;. Reference 'XXXXXX' has &lt;lpage&gt; XXXXXX, which is less than or equal to &lt;fpage&gt; XXXXXX._
 
-**Action**:
+**Action**: This error will appear if a journal reference has a first page value larger than the last page value \(this can happen if the authors truncate the last page, e.g. 123–34\). If possible, look the article up online to find the correct page range. If this is not possible, add the following author query:
+
+* Please provide the correct page range for this reference.
 
 #### err-elem-cit-confproc-12-2	
 
 **Error**: _The citation may contain no more than one of any of &lt;fpage&gt;, &lt;lpage&gt;, and &lt;elocation-id&gt; elements. Reference 'XXXXXX' has XXXXXX &lt;fpage&gt; elements, XXXXXX &lt;lpage&gt; elements, and XXXXXX &lt;elocation-id&gt; elements._
 
-**Action**:
+**Action:** This error will appear if a conference reference has more than one of any of the elements in the message \(e.g. multiple first pages\). Ensure that the beginning and end of a page range have been tagged as first page and last page respectively, and remove the extra instances of any duplicate elements. 
 
 #### err-elem-cit-confproc-12-1
 
 **Error**: _The citation may contain &lt;fpage&gt; and &lt;lpage&gt;, only &lt;fpage&gt;, or only &lt;elocation-id&gt; elements, but not a mixture. Reference 'XXXXXX' has XXXXXX &lt;fpage&gt; elements, XXXXXX &lt;lpage&gt; elements, and XXXXXX &lt;elocation-id&gt; elements._
 
-**Action**:
+**Action**: This error will fire if a conference reference has an elocation-id AND a page range. References should only have one or the other. 
 
 #### err-elem-cit-confproc-12-4
 
@@ -183,6 +175,22 @@ If the conference is one associated with the [**IEEE**](https://www.ieee.org/), 
 **Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="confproc" are: &lt;person-group&gt;, &lt;year&gt;, &lt;article-title&gt;, &lt;source&gt;, &lt;conf-loc&gt;, &lt;conf-name&gt;, &lt;fpage&gt;, &lt;lpage&gt;, &lt;elocation-id&gt;, &lt;ext-link&gt;, and &lt;pub-id&gt;. Reference 'XXXXXX' has other elements._
 
 **Action:** This error indicates that elements are present in a conference reference that are not allowed.
+
+#### err-elem-cit-confproc-8-1
+
+**Error**: _Each &lt;element-citation&gt; of type 'confproc' must contain one and only one &lt;article-title&gt; element. Reference 'XXXXXX' has XXXXXX &lt;article-title&gt; elements._
+
+**Action:** This error indicates that a conference reference either has no article title or more than one article title. If the article title is missing and cannot be located online using the other details provided \(conference name, page range, DOI\), please add the following add the following author query:
+
+* Please provide the title for this reference.
+
+If the reference has more than one article title, it may indicate an error in the processing of the article. Compare the reference to the original article file and correct accordingly.
+
+#### err-elem-cit-confproc-9-1
+
+**Error**: _Each &lt;element-citation&gt; of type 'confproc' must not contain more than one &lt;source&gt; element\(s\). Reference 'XXXXXX' has XXXXXX &lt;source&gt; elements._
+
+**Action**:
 
 ## XML structure
 
