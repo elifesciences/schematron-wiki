@@ -8,7 +8,9 @@ description: This is a page about entries for conference articles in the referen
 
 A conference reference gives bibliographic details for work presented at a conference, or published in the proceedings for a conference.
 
-![Example of a conference reference](../../../.gitbook/assets/screen-shot-2020-08-18-at-16.23.36.png)
+![Example of a conference reference](../../../.gitbook/assets/screen-shot-2020-10-20-at-12.30.56.png)
+
+![Formatting display for a conference reference in eLife articles](../../../.gitbook/assets/screen-shot-2020-10-20-at-12.31.07.png)
 
 ## What needs to be added?
 
@@ -21,9 +23,9 @@ The following information can be added for journal references:
 | Year | Yes | &lt;year iso-8601-date="2018"&gt;2018&lt;/year&gt; | 2018 |
 | Article title | Yes | &lt;article-title&gt;Boundary learning by optimization with topological constraints&lt;/article-title&gt; | Boundary learning by optimization with topological constraints |
 | Conference title | No | &lt;source&gt;Independent component analysis and signal separation&lt;/source&gt; | Independent component analysis and signal separation |
+| Conference name | Yes | &lt;conf-name&gt;2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\)&lt;/conf-name&gt; | 2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\) |
 | Conference location | No | &lt;conf-loc&gt;Province, RI&lt;/conf-loc&gt; | Province, RI |
 | Conference data | No | &lt;&lt;conf-date&gt;&lt;/conf-date&gt; |  |
-| Conference name | Yes | &lt;conf-name&gt;2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\)&lt;/conf-name&gt; | 2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\) |
 | e-location ID | No \(if first/last pages are present, there can be no e-location ID\) | &lt;elocation-id&gt;e51381&lt;/elocation-id&gt; | e51381 |
 | First page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;fpage&gt;132&lt;/fpage&gt; | 132 |
 | Last page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;lpage&gt;135&lt;/lpage&gt; | 135 |
