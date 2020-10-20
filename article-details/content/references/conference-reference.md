@@ -72,6 +72,8 @@ The default fields in Kriya will need to be altered to include the following inf
 
 Once you have entered the information in the fields, click on 'Search PubMed'. This will compare the information entered to the PubMed database and ensures that a PubMed ID \(if available\). If this does not generate results, click on 'Search Crossref', which may return results if the conference DOIs were registered at CrossRef.
 
+Regardless of whether any corresponding PubMed or CrossRef records, press 'Insert Reference' to add the entry to the reference list.
+
 ## Finding reference details
 
 Details for conference references can usually be found online, however there is no central indexing service for conferences as there is for journals \(PubMed\). Searching the article title together with the conference name should provide a landing page if one is available.
