@@ -162,7 +162,15 @@ Following an update to change an author, editor or reviewer's name, an annotatio
 
 > This article has been updated in response to a name-change request.
 
+## Blogposts and other non-article content
+
+In addition to updating article content, changes may be required in non-article content such as blogposts on the eLife website.
+
+Where this is the case, the details of the change to be made and the affected content should be shared directly with Anja, as Marketing Assistant \(via email [a.stares@elifesciences.org](mailto:a.stares@elifesciences.org) or Slack\). Anja will make the changes and confirm with the Production team once they had been made.
+
+If Anja isn’t available, the [comms@elifesciences.org](mailto:comms@elifesciences.org) address can be used to find someone else in the team who can help with a request. However please note that this is a mailing group rather than a dedicated account, so it should not be used to share the specific details of the request. These should be passed along once an alternative member of the Comms team has been identified. This is to limit the number of people who have access/records of the sensitive information.
+
 ## Post-change actions
 
-Once the change has been implemented
+Once the change has been implemented, Editorial will confirm this with the person who made the intial request.
 
