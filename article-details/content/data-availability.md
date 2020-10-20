@@ -4,7 +4,9 @@ description: How to check and copy-edit the data availability section
 
 # Data availability
 
+{% hint style="info" %}
 For the changelog, click [**here**](data-availability.md#change-log).
+{% endhint %}
 
 ## What is the data availability section?
 
