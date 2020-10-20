@@ -128,7 +128,7 @@ A very similar process can be followed in the same case but for a validation sce
 
 1. Download the file below place it somewhere on your local machine such as your documents folder.
 
-{% file src="../.gitbook/assets/latin-terms \(1\).xq" %}
+{% file src="../.gitbook/assets/latin-terms \(2\).xq" %}
 
 2. Open any XML file in Oxygen.
 
