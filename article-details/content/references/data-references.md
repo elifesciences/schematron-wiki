@@ -62,3 +62,13 @@ Once you have entered the information in the fields, click on 'Search PubMed'.
 
 ## Finding reference details
 
+
+
+## Schematron checks
+
+
+
+
+
+
+
