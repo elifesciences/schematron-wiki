@@ -26,15 +26,10 @@ The following information can be added for data references:
 * **Authors**: Enter each author name as a surname\(s\) followed by initials. 
 * **Collaboration:** Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
 * **Year**: This should be the year the article was published. This field can include a letter suffix \(e.g. 2020a\) if needed to distinguish between citations \(see more [here](../reference-citations.md#what-is-a-reference-citation)\).
-* **Article title**: The title of the article. Can contain italics, superscript and subscript as required.
-* **Journal name**: The full \(not abbreviated\) name of the journal in which the article was published.
-* **Volume:** The volume of the journal in which the article was published \(if applicable\). eLife does not include issue numbers in journal references, so this information does not need to be added.
-* **e-location ID:** The e-location identifier for the article \(if applicable; most journal references will have either page numbers or an e-location ID\).
-* **First page:** The page number on which the article starts \(if applicable; most journal references will have either page numbers or an e-location ID\). Some page numbers will be prefixed with letters.
-* **Last page:** The page number on which the article ends \(if applicable; some articles are one-page long and so a last page is not required as it is the same as the first page\). Some page numbers will be prefixed with letters.
+* **Dataset title**: The title of the dataset. Can contain italics, superscript and subscript as required.
+* **Database**: The full \(not abbreviated\) name of the database in which the dataset is stored.
+* **Accession**: 
 * **DOI:** The Digital Object Identifier for the article \(if applicable\).
-* **PMID:** The PubMed Identifier for the article \(if applicable\). This will not be supplied by the author but is added during pre-editing via the PubMed API tool.
-* **InPress**: If a paper has been accepted for publication but the final publication details are not yet known, this field should have the text 'In press'. 
 
 If any of the mandatory information is not provided, look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
 
