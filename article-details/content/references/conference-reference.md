@@ -76,7 +76,7 @@ Regardless of whether any corresponding PubMed or CrossRef records, press 'Inser
 
 ## Finding reference details
 
-Details for conference references can usually be found online, however there is no central indexing service for conferences as there is for journals \(PubMed\). Searching the article title together with the conference name should provide a landing page if one is available.
+Details for conference references can usually be found online, however there is no central indexing service for conferences as there is for journals. Searching the article title together with the conference name should provide a landing page if one is available.
 
 If the conference is one associated with the [**IEEE**](https://www.ieee.org/), there will likely be both an online page for the article and a corresponding DOI.
 
@@ -118,43 +118,39 @@ If the conference is one associated with the [**IEEE**](https://www.ieee.org/), 
 
 **Error**: _The citation may contain &lt;fpage&gt; and &lt;lpage&gt;, only &lt;fpage&gt;, or only &lt;elocation-id&gt; elements, but not a mixture. Reference 'XXXXXX' has XXXXXX &lt;fpage&gt; elements, XXXXXX &lt;lpage&gt; elements, and XXXXXX &lt;elocation-id&gt; elements._
 
-**Action**: This error will fire if a conference reference has an elocation-id AND a page range. References should only have one or the other. 
+**Action**: This error will fire if a conference reference has both an elocation ID and page range. References should only have one or the other. Check the original article file to make sure this is not a processing error \(such as the first page being captured as an elocation ID\) and if this does not resolve the issue, try to find the conference article online.
+
+If an eLocation ID is provided, this should usually be favoured over the page range.
 
 #### err-elem-cit-confproc-12-4
 
 **Error**: _The content of the &lt;fpage&gt; and &lt;lpage&gt; elements can contain any alpha numeric value but no child elements are allowed. Reference 'XXXXXX' has XXXXXX child elements in &lt;fpage&gt; and XXXXXX child elements in &lt;lpage&gt;._
 
-**Action:**
+**Action**: This error indicates that child elements are present within the first page and/or last page elements. Only plain text letters and numbers are permitted in these elements, so any formatting \(bold, italics etc\) or hyperlinks should be removed.
 
 #### err-elem-cit-confproc-16-1
 
 **Error**: _A maximum of one &lt;pub-id&gt; element is allowed. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements._
 
-**Action**:
-
-#### err-elem-cit-confproc-2-2
-
-**Error**: _Each &lt;person-group&gt; must have a @person-group-type attribute of type 'author'. Reference 'XXXXXX' has a &lt;person-group&gt; element with @person-group-type attribute 'XXXXXX'._
-
-**Action**:
-
-#### err-elem-cit-confproc-9-2-2
-
-**Error**: _A &lt;source&gt; element within a &lt;element-citation&gt; of type 'confproc' may only contain the child elements&lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' has child elements that are not allowed._
-
-**Action**:
+**Action**: Only one pub-id element \(the DOI\) is allowed in a conference reference. Any additional pub-ids should be removed.
 
 #### err-elem-cit-confproc-8-2
 
 **Error**: _An &lt;article-title&gt; element in a reference may contain characters and &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' does not meet this requirement._
 
-**Action**:
+**Action:** This error will appear if there are formatting elements in the article title other than italics, superscripts and subscripts \(e.g. bold, underline\). Make sure any disallowed formatting is removed.
+
+#### err-elem-cit-confproc-9-2-2
+
+**Error**: _A &lt;source&gt; element within a &lt;element-citation&gt; of type 'confproc' may only contain the child elements&lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' has child elements that are not allowed._
+
+**Action**: This error will appear if there are formatting elements in the `<source>` element \(conference title\) other than italics, superscripts and subscripts \(e.g. bold, underline\). Make sure any disallowed formatting is removed.
 
 #### err-elem-cit-confproc-10-2
 
 **Error**: _No elements are allowed inside &lt;conf-name&gt;. Reference 'XXXXXX' has child elements within the &lt;conf-name&gt; element._
 
-**Action**:
+**Action:** This error will appear if there are formatting elements in the journal name \(e.g. bold, underline\). Delete the current contents of this field and paste in an unformatted version of the journal name.
 
 #### err-elem-cit-confproc-11-2
 
@@ -189,6 +185,12 @@ If the reference has more than one article title, it may indicate an error in th
 #### err-elem-cit-confproc-9-1
 
 **Error**: _Each &lt;element-citation&gt; of type 'confproc' must not contain more than one &lt;source&gt; element\(s\). Reference 'XXXXXX' has XXXXXX &lt;source&gt; elements._
+
+**Action**: This error indicates that more than one `<source>` element \(conference title\) is present in a conference reference. The extra &lt;source&gt; elements should be removed — however please check whether the contents should be moved to the conference title or the conference name fields first. If possible locate the article online to check the correct details.
+
+#### err-elem-cit-confproc-2-2
+
+**Error**: _Each &lt;person-group&gt; must have a @person-group-type attribute of type 'author'. Reference 'XXXXXX' has a &lt;person-group&gt; element with @person-group-type attribute 'XXXXXX'._
 
 **Action**:
 
