@@ -66,6 +66,10 @@ The default fields in Kriya will need to be altered to include the following inf
 * e-location ID or first and last page \(if available\)
 * DOI \(if available\)
 
+
+
+![](../../../.gitbook/assets/screen-shot-2020-10-20-at-12.25.53.png)
+
 ## Finding reference details
 
 Details for conference references can usually be found online, however there is no central indexing service for conferences as there is for journals \(PubMed\). Searching the article title together with the conference name should provide a landing page if one is available.
