@@ -2,9 +2,9 @@
 
 ## What is a data reference?
 
-A journal reference gives bibliographic details for articles published in academic journals.
+A data reference gives bibliographic details for a dataset deposited with a structured repository, database or other data-sharing platform.
 
-For eLife articles, each part of the reference is formatted specifically:
+
 
 ## What needs to be added?
 
@@ -15,15 +15,11 @@ The following information can be added for data references:
 | Author\(s\) | At least one author or collaboration is required; both can be present | &lt;person-group person-group-type="author"&gt;&lt;name&gt;&lt;surname&gt;Bloggs&lt;/surname&gt;&lt;given-names&gt;J&lt;/given-names&gt;&lt;/name&gt;&lt;/person-group&gt; | Bloggs J |
 | Collaboration\(s\) | At least one author or collaboration is required; both can be present | &lt;person-group person-group-type="author"&gt;&lt;collab&gt;Tulsa 1000 Investigators&lt;/collab&gt;&lt;/person-group&gt; | Tulsa 1000 Investigators |
 | Year | Yes | &lt;year iso-8601-date="2008"&gt;2008&lt;/year&gt; | 2008 |
-|  |  |  |  |
-| Journal name | Yes | &lt;source&gt;The Journal of Cell Biology&lt;/source&gt; | The Journal of Cell Biology |
-| Volume | No | &lt;volume&gt;173&lt;/volume&gt; | 173 |
-| e-location ID | No \(if first/last pages are present, there can be no e-location ID\) | &lt;elocation-id&gt;e51381&lt;/elocation-id&gt; | e51381 |
-| First page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;fpage&gt;917&lt;/fpage&gt; | 917 |
-| Last page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;lpage&gt;926&lt;/lpage&gt; | 926 |
-| DOI | Yes \(if there is one\) | &lt;pub-id pub-id-type="doi"&gt; | 10.1083/jcb.200510010 |
-| PMID | Yes \(if there is one\) | &lt;pub-id pub-id-type="pmid"&gt; | 16769818 |
-| InPress | No | &lt;comment&gt;In press&lt;/comment&gt; | In press |
+| Dataset title | Yes |  |  |
+| Database | Yes |  |  |
+| Accession | Yes, or DOI should be present |  |  |
+| DOI | Yes, or Accession should be present | &lt;pub-id pub-id-type="doi"&gt; |  |
+| Assigning authority |  |  |  |
 
 **Non-mandatory fields are required if they exist**. Validation of references via PubMed or Crossref API tools should pull them in if the author did not provide them. Schematron warnings may also pick up incomplete references, and these should be checked at the source of the reference.
 
@@ -61,40 +57,9 @@ The default fields in Kriya will need to be altered to include the following inf
 * PMID \(if available\)
 * InPress \(if applicable\)
 
-Once you have entered the information in the fields, click on 'Search PubMed'. This will compare the information entered to the PubMed database and ensures that a PubMed ID and a DOI is added \(if there is one - not all journals use DOIs\). If this does not generate results, click on 'Search Crossref'. Most journal DOIs are registered with Crossref \(including non-life sciences articles\).
+Once you have entered the information in the fields, click on 'Search PubMed'.
 
-![](../../../.gitbook/assets/screenshot-2020-05-27-at-14.59.10.png)
 
-Click the article with the correct authors, title and journal. This will automatically fill in the remaining fields if the information hasn't been added already.
-
-The minimum fields that need to be populated for the PubMed and Crossref validators to find an article are:
-
-* First author name
-* Year
-* Article title
-* Journal title
-
-Some journal references will not appear when searching the PubMed and Crossref databases. If you have entered the article details correctly and verified that it is the same in the original submitted version, you can just click on 'Insert Reference' to add the reference to the article.
-
-Watch out for unexpanded journal names when trying to validate them. Sometimes, the authors may have provided the contracted version of the journal name, e.g. 'Mol Biol Evo' for 'Molecular Biology and Evolution' \(they will likely take this from a source like PubMed which shows the contracted version by default\). If this is not expanded to the full version of the name, the validator may not be able to pick up the reference correctly to assign DOI/PMID.
-
-Look out for journal names that are incorrectly run on to the end of article titles \(e.g. 'Reversal of prolonged obesity-associated cerebrovascular dysfunction by inhibiting microglial Tak1. _Nature'\)_. This is often caught by the schematron rules but in some cases, it may not be.
-
-### How to add an 'In press' field
-
-![](../../../.gitbook/assets/screenshot-2020-06-09-at-13.24.22.png)
-
-To add an 'In press' comment to a journal reference, add a new field \(which is not the 'In press' field\) and enter the text 'In press'.
-
-![](../../../.gitbook/assets/screenshot-2020-06-09-at-13.24.39.png)
-
-Then change the field to 'In press' and validate the reference before saving it.
-
-![](../../../.gitbook/assets/screenshot-2020-06-09-at-13.25.06.png)
-
-This is the only way to add an 'In press' comment, as at the moment, it is not possible to add text to the 'In press' field in Kriya.
-
-![](../../../.gitbook/assets/screenshot-2020-06-09-at-13.25.30.png)
 
 ## Finding reference details
 
