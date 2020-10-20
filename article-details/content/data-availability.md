@@ -1622,7 +1622,7 @@ The current data availability tagging was introduced at the beginning of June 20
 </sec>
 ```
 
-## Change log
+## Changelog
 
 * Updated 2020-07-07 to purge mention of archive type pub-ids. Only accession or doi now allowed.
 * Updated 2020-08-17 to account for split of das-elem-cit-3 into pre and final versions.
