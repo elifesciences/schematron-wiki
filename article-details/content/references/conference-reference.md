@@ -68,9 +68,9 @@ The default fields in Kriya will need to be altered to include the following inf
 * e-location ID or first and last page \(if available\)
 * DOI \(if available\)
 
+![](../../../.gitbook/assets/screen-shot-2020-10-20-at-12.41.05.png)
 
-
-![](../../../.gitbook/assets/screen-shot-2020-10-20-at-12.25.53.png)
+Once you have entered the information in the fields, click on 'Search PubMed'. This will compare the information entered to the PubMed database and ensures that a PubMed ID \(if available\). If this does not generate results, click on 'Search Crossref', which may return results if the conference DOIs were registered at CrossRef.
 
 ## Finding reference details
 
