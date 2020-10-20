@@ -96,7 +96,7 @@ If the conference is one associated with the [**IEEE**](https://www.ieee.org/), 
 
 **Error**: _Each &lt;element-citation&gt; of type 'confproc' must contain one and only one &lt;article-title&gt; element. Reference 'XXXXXX' has XXXXXX &lt;article-title&gt; elements._
 
-\_\_
+**Action**:
 
 #### err-elem-cit-confproc-9-1
 
@@ -174,7 +174,7 @@ If the conference is one associated with the [**IEEE**](https://www.ieee.org/), 
 
 #### err-elem-cit-confproc-2-1
 
-Error: One and only one person-group element is allowed. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements.
+**Error**: _One and only one person-group element is allowed. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements._
 
 **Action**:
 
