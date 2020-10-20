@@ -8,7 +8,7 @@ description: Process for changing the name of an author or editor in eLife conte
 
 When an individual changes their name \(through marriage, by deed-poll, as a result of transitioning to another gender etc.\), they may wish to update the scientific record to ensure that their work can be found under their new name.
 
-eLife aims to allow authors, reviewers and editors to update their names with a minimum of hassle. Requests to do so will be verified by the Editorial team and then passed on to the Production team, who will update the affected articles. 
+eLife aims to allow authors, reviewers and editors to update their names with minimum hassle. Requests to do so will be verified by the Editorial team and then passed on to the Production team, who will update the affected articles. 
 
 ## Editorial process
 
@@ -43,7 +43,7 @@ The current version of each affected article should be silently corrected follow
   * competing interests
   * funding table \(should correct automatically\)
   * funding statement
-  * data statement
+  * data availability statement
 * Article content:
   * acknowledgements
   * decision letter
@@ -77,7 +77,7 @@ All previous versions of an article in which a name is being changed should be u
 
 ![Example of version history for an article in archive](../.gitbook/assets/screen-shot-2020-10-06-at-12.50.16.png)
 
-To silently correct these, the first step is to download all package prior to the current \(most recent\) version. So, for example, in the above case, there would be three packages to correct:
+To silently correct these, the first step is to download all packages prior to the current \(most recent\) version. So, for example, in the above case, there would be three packages to correct:
 
 * 2 PoA versions
   * elife-57056-poa-v1-20200902000000.zip
@@ -128,7 +128,7 @@ As [**above**](name-change-requests.md#updating-the-current-version-of-the-artic
 
 Once the XML and PDF files have been corrected, each version's ZIP package should be recreated and named using the exact same filename that was initially downloaded.
 
-![Step 1. Select all the files required for the package.](../.gitbook/assets/screen-shot-2020-10-13-at-12.54.34.png)
+![Step 1. Select all the files required for the package \(NOT the folder\).](../.gitbook/assets/screen-shot-2020-10-13-at-12.54.34.png)
 
 ![Step 2. Compress the items into a ZIP package.](../.gitbook/assets/screen-shot-2020-10-13-at-12.55.34.png)
 
@@ -158,7 +158,7 @@ Google Scholar ???
 
 ### Annotation to indicate a name change
 
-Following an update to change an author, editor or reviewer's name, an annotation should be added to the latest version of the article to indicate that such a change has taken place.
+Following an update to change an author, editor or reviewer's name, an annotation should be added to the latest version of the article to indicate that such a change has taken place. Please use the following text:
 
 > This article has been updated in response to a name-change request.
 
