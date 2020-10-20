@@ -863,6 +863,8 @@ For example, if the identifiers for two datasets are both GSE135351, but the URL
 
 * Please confirm that the details for this reference are correct. The identifier is currently the same as an identifier for one of the dataset references in the Data availability section.
 
+However, please note that if the dataset entry points to a journal article, it will likely need to be removed from the data availability section anyway - see [**above for details**](data-availability.md#journal-articles-entered-as-datasets).
+
 #### das-pub-id-1
 
 **Error**: _Each pub-id element must have an @pub-id-type which is either accession or doi._
