@@ -124,6 +124,62 @@ In order to fix this do the following:
 A very similar process can be followed in the same case but for a validation scenario.
 {% endhint %}
 
+## Setting up the latin terms XQuery in oXygen
+
+1. Download the file below place it somewhere on your local machine such as your documents folder.
+
+{% file src="../.gitbook/assets/latin-terms.xq" %}
+
+2. Open any XML file in Oxygen.
+
+3. In Oxygen's top toolbar, click 'Configure Transformation Scenarios' \(or press cmd + shift + t\).
+
+![&apos;Configure Transformation Scenarios&apos; icon](https://user-images.githubusercontent.com/43879983/87419802-0cfb0880-c5cc-11ea-932f-b98f4a85af29.png)
+
+4. Click 'New' -&gt; XML transformation with XQUERY.
+
+![](https://user-images.githubusercontent.com/43879983/87419913-3e73d400-c5cc-11ea-90e8-03c68832ead5.png)
+
+5. Rename the scenario something appropriate, like Latin terms.
+
+![](../.gitbook/assets/screenshot-2020-10-20-at-11.51.55%20%281%29.png)
+
+6. Click the folder for XQuery URL, and navigate to where your local version of `latin-terms.xq` was placed.
+
+![](../.gitbook/assets/screenshot-2020-10-20-at-11.51.55.png)
+
+7. Select `Saxon-PE XQuery ...` for the 'Transformer':
+
+![](../.gitbook/assets/screenshot-2020-10-20-at-11.55.44%20%281%29.png)
+
+8. Click 'Parameters':
+
+![](../.gitbook/assets/screenshot-2020-10-20-at-11.55.44%20%282%29.png)
+
+9. In the Configure parameters pop-up, click 'new':
+
+![](../.gitbook/assets/screenshot-2020-10-20-at-11.59.02.png)
+
+10. In the 'Add parameter' pop-up, in the 'Name' field add 'xml' \(all lowercase\):
+
+![](../.gitbook/assets/screenshot-2020-10-20-at-12.00.30.png)
+
+11. In the 'Value' field, enter the following:
+
+`doc('${currentFileURL}')`
+
+12. Tick 'Evaluate as XPath':
+
+![](../.gitbook/assets/screenshot-2020-10-20-at-12.02.57.png)
+
+13. Click 'OK'. Click 'OK' again. Click 'OK' again. Click 'Save and close'.
+
+You can now run the latin terms XQuery as you would an XSLT.
+
+When run, you'll get an output which looks something like this:
+
+![](../.gitbook/assets/screenshot-2020-10-20-at-12.05.25.png)
+
 ## Useful keyboard shortcuts and tips
 
 ### \(Mac\) Keyboard shortcuts
