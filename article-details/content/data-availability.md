@@ -1628,5 +1628,4 @@ The current data availability tagging was introduced at the beginning of June 20
 * Updated 2020-08-17 to account for split of das-elem-cit-3 into pre and final versions.
 * Updated 2020-09-29 to add das-elem-cit-5.
 * Updated 2020-10-20 to clarify das-elem-cit-5.
-* Updated 2020-10-20 to cover GitHub repos in the dataset section.
 
