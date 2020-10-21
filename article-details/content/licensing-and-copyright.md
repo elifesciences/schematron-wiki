@@ -131,7 +131,7 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 **Info**: _XXXXXX has permissions - 'XXXXXX'._
 
-**Action**: This information message will appear for any asset that has permissions information added. 
+**Action**: This information message will appear for any asset that has permissions information added. No action is required. 
 
 #### permissions-test-1
 
@@ -323,7 +323,44 @@ See an example of XML for the article-level license of a CC-BY article [**here**
 
 **Warning**: _XXXXXX permissions - the &lt;license-p&gt; for all rights reserved type permissions should usually end with 'further reproduction of this panel/illustration/figure would need permission from the copyright holder.', but XXXXXX's doesn't. Is this correct? \(There is no '_[_https://creativecommons.org/_](https://creativecommons.org/)_' type link so presumed ARR.\)_
 
-**Action**: If the copyright statement for a figure includes 'All rights reserved', the permissions statement should end with 'further reproduction of this panel/illustration/figure would need permission from the copyright holder' - you just need to add it in if this is missing. If there is no '[**https://creativecommons.org/**](https://creativecommons.org/)' type link in the license-p element \(because the image is not CC-BY\), the schematron will automatically assume the figure permission is 'All rights reserved' - query the Production team to check this is correct. For example in 52419:
+**Action**: If the copyright statement for a figure includes 'All rights reserved', the permissions statement should end with 'further reproduction of this panel/illustration/figure would need permission from the copyright holder' - you just need to add it in if this is missing. For example in 50403, the copyright statement includes 'All rights reserved' but the license-p does not have any information about further reproductions of the figure:
+
+```markup
+<permissions>
+    <copyright-statement>© 2006 John Wiley and Sons. All Rights Reserved</copyright-statement>
+    <copyright-year>2006</copyright-year>
+    <copyright-holder>John Wiley and SonsFigure 5—figure supplement 1</copyright-holder>
+    <license>
+        <license-p>
+        modifed from
+        <xref ref-type="bibr" rid="bib63">Schwarz et al. (2006)</xref>
+        with permission. Original image modified from
+        <xref ref-type="bibr" rid="bib65">Stämpfli and Hille (1976)</xref>.
+        </license-p>
+    </license>
+</permissions>
+```
+
+The license-p element should be corrected to: 
+
+```markup
+<permissions>
+    <copyright-statement>© 2006 John Wiley and Sons. All Rights Reserved</copyright-statement>
+    <copyright-year>2006</copyright-year>
+    <copyright-holder>John Wiley and SonsFigure 5—figure supplement 1</copyright-holder>
+    <license>
+        <license-p>
+        modifed from
+        <xref ref-type="bibr" rid="bib63">Schwarz et al. (2006)</xref>
+        with permission. Original image modified from
+        <xref ref-type="bibr" rid="bib65">Stämpfli and Hille (1976)</xref>. Further 
+        reproduction of this figure would need permission from the copyright holder.
+        </license-p>
+    </license>
+</permissions>
+```
+
+If there is no '[**https://creativecommons.org/**](https://creativecommons.org/)' type link in the license-p element \(because the image is not CC-BY\), the schematron will automatically assume the figure permission is 'All rights reserved' - query the Production team to check this is correct. For example in 52419, there is no creativecommons.org link:
 
 ```markup
 <permissions>
@@ -331,7 +368,11 @@ See an example of XML for the article-level license of a CC-BY article [**here**
     <copyright-year>2019</copyright-year>
     <copyright-holder>Tim Phelps, JHU AAM</copyright-holder>
     <license>
-    <license-p>Illustrations in panels A and B: Tim Phelps © 2019 JHU AAM (Department of Art as Applied to Medicine, Johns Hopkins University School of Medicine), published with permission. These illustrations are not covered by the CC-BY 4.0 licence and may not be separated from the article.</license-p>
+    <license-p>Illustrations in panels A and B: Tim Phelps © 2019 JHU AAM 
+    (Department of Art as Applied to Medicine, Johns Hopkins University 
+    School of Medicine), published with permission. These illustrations are 
+    not covered by the CC-BY 4.0 licence and may not be separated from the 
+    article.</license-p>
     </license>
 </permissions>
 
@@ -345,7 +386,11 @@ This should be updated as below:
     <copyright-year>2019</copyright-year>
     <copyright-holder>Tim Phelps, JHU AAM</copyright-holder>
     <license>
-    <license-p>Illustrations in panels A and B: Tim Phelps © 2019 JHU AAM (Department of Art as Applied to Medicine, Johns Hopkins University School of Medicine), published with permission. These illustrations are not covered by the CC-BY 4.0 licence and further reproduction of these illustrations would need permission from the copyright holder.</license-p>
+    <license-p>Illustrations in panels A and B: Tim Phelps © 2019 JHU AAM 
+    (Department of Art as Applied to Medicine, Johns Hopkins University 
+    School of Medicine), published with permission. These illustrations are 
+    not covered by the CC-BY 4.0 licence and further reproduction of these 
+    illustrations would need permission from the copyright holder.</license-p>
     </license>
 </permissions>
 ```
