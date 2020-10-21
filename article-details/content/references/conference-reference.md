@@ -61,8 +61,8 @@ The default fields in Kriya will need to be altered to include the following inf
 * Year 
 * Article title
 * Conference title \(if applicable\)
-* Conference location \(if applicable\)
 * Conference name
+* Conference location \(if applicable\)
 * e-location ID or first and last page \(if available\)
 * DOI \(if available\)
 
