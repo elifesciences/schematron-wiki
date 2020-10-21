@@ -86,10 +86,20 @@ The editorial team may have left a note for Exeter if permissions information ne
 > copyright-holder: Elsevier  
 > permissions: Figure 1A is reprinted from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.
 
-This information should be added in the XML:
+This information should be added in the XML, for example:
+
+| Sticky note field | Content | XML tag |
+| :--- | :--- | :--- |
+| copyright-year | 2009 | `<copyright-year>2009</copyright-year>` |
+| copyright-holder | Elsevier | `<copyright-holder>Elsevier</copyright-holder>` |
+| permissions | Figure 1A is reprinted from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder | `<license-p> Panel A is reprinted from <xref ref-type="bibr"rid="bib40">Simonetta et al., 2009</xref>, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder. </license-p>` |
+|  | \`\` | `<copyright-statement>© 2009 Elsevier</copyright-statement>` |
+
+{% hint style="info" %}
+The copyright-statement field will not be provided in the sticky note but the XML tag can be populated from the copyright year and copyright holder. It should contain a '©' symbol followed by the copyright year and copyright holder. 
+{% endhint %}
 
 ```markup
-<permissions>
 <copyright-statement>© 2009 Elsevier</copyright-statement>
 <copyright-year>2009</copyright-year>
 <copyright-holder>Elsevier</copyright-holder>
@@ -311,9 +321,34 @@ See an example of XML for the article-level license of a CC-BY article [**here**
 
 #### fig-permissions-test-12
 
-**Warning**: _XXXXXX permissions - the &lt;license-p&gt; for all rights reserved type permissions should usually end with 'further reproduction of this panel/figure would need permission from the copyright holder.', but XXXXXX's doesn't. Is this correct? \(There is no '_[_https://creativecommons.org/_](https://creativecommons.org/)_' type link so presumed ARR.\)_
+**Warning**: _XXXXXX permissions - the &lt;license-p&gt; for all rights reserved type permissions should usually end with 'further reproduction of this panel/illustration/figure would need permission from the copyright holder.', but XXXXXX's doesn't. Is this correct? \(There is no '_[_https://creativecommons.org/_](https://creativecommons.org/)_' type link so presumed ARR.\)_
 
-**Action**: If the copyright statement for a figure includes 'All rights reserved', the permissions statement should end with 'further reproduction of this panel/figure would need permission from the copyright holder' - you just need to add it in if this is missing. If there is no '[**https://creativecommons.org/**](https://creativecommons.org/)' type link, the schematron will automatically assume the figure permission is 'All rights reserved' - query the Production team to check this is correct. 
+**Action**: If the copyright statement for a figure includes 'All rights reserved', the permissions statement should end with 'further reproduction of this panel/illustration/figure would need permission from the copyright holder' - you just need to add it in if this is missing. If there is no '[**https://creativecommons.org/**](https://creativecommons.org/)' type link in the license-p element \(because the image is not CC-BY\), the schematron will automatically assume the figure permission is 'All rights reserved' - query the Production team to check this is correct. For example in 52419:
+
+```markup
+<permissions>
+    <copyright-statement>© 2019 Tim Phelps, JHU AAM</copyright-statement>
+    <copyright-year>2019</copyright-year>
+    <copyright-holder>Tim Phelps, JHU AAM</copyright-holder>
+    <license>
+    <license-p>Illustrations in panels A and B: Tim Phelps © 2019 JHU AAM (Department of Art as Applied to Medicine, Johns Hopkins University School of Medicine), published with permission. These illustrations are not covered by the CC-BY 4.0 licence and may not be separated from the article.</license-p>
+    </license>
+</permissions>
+
+```
+
+This should be updated as below: 
+
+```markup
+<permissions>
+    <copyright-statement>© 2019 Tim Phelps, JHU AAM</copyright-statement>
+    <copyright-year>2019</copyright-year>
+    <copyright-holder>Tim Phelps, JHU AAM</copyright-holder>
+    <license>
+    <license-p>Illustrations in panels A and B: Tim Phelps © 2019 JHU AAM (Department of Art as Applied to Medicine, Johns Hopkins University School of Medicine), published with permission. These illustrations are not covered by the CC-BY 4.0 licence and further reproduction of these illustrations would need permission from the copyright holder.</license-p>
+    </license>
+</permissions>
+```
 
 #### fig-permissions-test-13
 
