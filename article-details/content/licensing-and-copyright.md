@@ -36,7 +36,7 @@ The editorial team check figure permissions as part of submission quality checks
 
 All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license. The CC BY 4.0 license allows content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions. 
 
-If an article has reproduced figures from content that was previously published under a [**CC BY**](https://creativecommons.org/licenses/) \(2, 3 or 4\) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, that content must be properly attributed and credited \(provide full citation details and license\). We may also need to add extra tagging. Check the license of the article \(you can find this from the [**permissions-info**](licensing-and-copyright.md#permissions-info) message\) and the license of the previously published content. 
+If an article has reproduced figures from content that was previously published under a [**CC BY**](https://creativecommons.org/licenses/) \(2, 3 or 4\), that content must be properly attributed and credited \(provide full citation details and license\). We may also need to add extra tagging. Check the license of the article \(you can find this from the [**permissions-info**](licensing-and-copyright.md#permissions-info) message\) and the license of the previously published content. 
 
 * If the license of the previously published content matches the license of the article, no additional tagging needs to be added.
 * If the article license is CC BY but the reproduced image is CC0, no additional tagging needs to be added.
@@ -55,7 +55,7 @@ If an article has reproduced figures from content that was previously published 
 </permissions>
 ```
 
-Note: if the reproduced image is CC BY-SA , CC BY-NC or CC BY-SA, this also needs to be indicated in the underlying XML as these licenses are not as permissive as CC BY or CC0. For example, in 52371, the following text was present in a caption:
+Note: if the reproduced image is CC BY-SA, CC BY-NC or CC BY-SA, this also needs to be indicated in the underlying XML as these licenses are not as permissive as CC BY or CC0. For example, in 52371, the following text was present in a caption:
 
 > Photo credit: Marine snail \(Original photo by Katja Schulz, courtesy of Wikipedia, Creative Commons Attribution: Creative Commons, Attribution 2.0 Generic license\); Chambered nautilus \(Original photo by Profbergert, courtesy of Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported license\)
 
@@ -68,7 +68,10 @@ No tagging needed to be added for the marine snail image as this was published u
      <copyright-holder>Lee Berger</copyright-holder>
      <license>
         <ali:license_ref>https://creativecommons.org/licenses/by-sa/3.0/</ali:license_ref>
-        <license-p>Chambered nautilus image courtesy of Lee Berger. Published under a <ext-link ext-link-type=“uri” xlink:href=“https://creativecommons.org/licenses/by-sa/3.0/”>CC BY SA 3.0 unported license.</ext-link>
+        <license-p>Chambered nautilus image courtesy of Lee Berger. Published 
+        under a <ext-link ext-link-type=“uri” 
+        xlink:href=“https://creativecommons.org/licenses/by-sa/3.0/”>CC BY SA 3.0 
+        unported license.</ext-link>
         </license-p>
      </license>
 </permissions>
@@ -76,7 +79,7 @@ No tagging needed to be added for the marine snail image as this was published u
 
 #### Reproductions from non-CC BY-licensed content
 
-If authors chose to exactly reproduce a figure or panel from a previously published, non-CC BY 2, 3, or 4 article in part or in whole, it will need to be published under a separate license. This is because the original content will have been published under a license that retains copyright. An article published in Nature, for example, will be copyright to the Nature Publishing Group, articles published in Science will be copyright to the American Association for the Advancement of Science, and so on. For eLife to reproduce the content, it must be made clear that the original publisher retains copyright, and it is not covered by the CC BY or CC0 license that applies to the rest of the eLife article. The same issue applies when authors incorporate images from other copyrighted media into their figures \(e.g. film stills or artwork\). The authors will need to confirm they have permission from the copyright holders to reproduce the figure or figure panel and state what has been reproduced in the legend. A permissions statement will also need to be added in the XML with the license details for the reproduced image. The permissions text may have been provided already as part of the figure or figure supplement legend. If so, it should be moved into the permissions tagging.
+If authors chose to exactly reproduce a figure or panel from a previously published, non-CC BY 2, 3, or 4 media in part or in whole, it will need to be published under a separate license. This is because the original content will have been published under a license that is less permissive. For eLife to reproduce the content, it must be made clear that the license holder has given permission for the material to be reprinted, and that it is not covered by the CC BY or CC0 license that applies to the rest of the eLife article. The authors will need to confirm they have permission from the license holders to reproduce the material and state what has been reproduced in the legend. A permissions statement will also need to be added in the XML with the license details for the reproduced material. The permissions text may have been provided already as part of a legend. If so, it should be moved into the permissions tagging.
 
 The editorial team may have left a note for Exeter if permissions information needs to be added to the XML, for example:
 
@@ -92,7 +95,7 @@ This information should be added in the XML, for example:
 | :--- | :--- | :--- |
 | copyright-year | 2009 | `<copyright-year>2009</copyright-year>` |
 | copyright-holder | Elsevier | `<copyright-holder>Elsevier</copyright-holder>` |
-| permissions | Figure 1A is reprinted from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder | `<license-p> Panel A is reprinted from <xref ref-type="bibr"rid="bib40">Simonetta et al., 2009</xref>, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder. </license-p>` |
+| permissions | Figure 1A is reprinted from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder | `<license-p> Figure 1A is reprinted from <xref ref-type="bibr"rid="bib40">Simonetta et al., 2009</xref>, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder. </license-p>` |
 |  | \`\` | `<copyright-statement>© 2009 Elsevier</copyright-statement>` |
 
 {% hint style="info" %}
@@ -100,20 +103,23 @@ The copyright-statement field will not be provided in the sticky note but the XM
 {% endhint %}
 
 ```markup
+<permissions>
 <copyright-statement>© 2009 Elsevier</copyright-statement>
 <copyright-year>2009</copyright-year>
 <copyright-holder>Elsevier</copyright-holder>
 <license>
 <license-p>
-Panel A is reprinted from
+Figure 1A is reprinted from
 <xref ref-type="bibr" rid="bib40">Simonetta et al., 2009</xref>
-, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.
+, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence 
+and further reproduction of this panel would need permission from the copyright 
+holder.
 </license-p>
 </license>
 </permissions>
 ```
 
-If the note from editorial says a figure does not require permissions, these should still be checked. If it is not possible to check \(because the content is behind access controls, for example\), this doesn't need to be followed up further. However, where possible, figure permissions should be double-checked regardless of what the note says.
+If the note from editorial says a figure does not require permissions, these should still be checked. If it is not possible to check \(because the content is behind access controls, for example\), discuss this case with the Production team. However, where possible, figure permissions should be double-checked regardless of what the note says.
 
 ## Schematron checks
 
@@ -157,7 +163,7 @@ This will not fire for CC0 articles as these do not have copyright statements. S
 
 **Error**: _permissions must contain an ali:free\_to\_read element._
 
-**Action**: This error will fire if there is no ali:free\_to\_read element in the permissions wrapper and one is required \(i.e. does not apply to CC-BY articles\). This will need to be added by Exeter. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
+**Action**: This error will fire if there is no ali:free\_to\_read element in the permissions wrapper for the article. This will need to be added by Exeter. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
 
 #### permissions-test-5
 
@@ -281,7 +287,7 @@ See an example of XML for the article-level license of a CC-BY article [**here**
 
 **Error:** _permissions for XXXXXX has XXXXXX &lt;copyright-statement&gt; elements, when there can only be 0 or 1._
 
-**Action**: This will appear if a permissions statement has more than 1 `<copyright-statement>` element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct statement should be by comparing with the instructions given by the Production team.
+**Action**: This will appear if a permissions statement has more than 1 &lt;copyright-statement&gt; element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct statement should be by comparing with the instructions given by the Production team.
 
 #### fig-permissions-test-6
 
@@ -329,10 +335,10 @@ See an example of XML for the article-level license of a CC-BY article [**here**
 <permissions>
     <copyright-statement>© 2006 John Wiley and Sons. All Rights Reserved</copyright-statement>
     <copyright-year>2006</copyright-year>
-    <copyright-holder>John Wiley and SonsFigure 5—figure supplement 1</copyright-holder>
+    <copyright-holder>John Wiley and Sons</copyright-holder>
     <license>
         <license-p>
-        modifed from
+        Figure 5—figure supplement 1 modifed from
         <xref ref-type="bibr" rid="bib63">Schwarz et al. (2006)</xref>
         with permission. Original image modified from
         <xref ref-type="bibr" rid="bib65">Stämpfli and Hille (1976)</xref>.
@@ -347,59 +353,27 @@ The license-p element should be corrected to:
 <permissions>
     <copyright-statement>© 2006 John Wiley and Sons. All Rights Reserved</copyright-statement>
     <copyright-year>2006</copyright-year>
-    <copyright-holder>John Wiley and SonsFigure 5—figure supplement 1</copyright-holder>
+    <copyright-holder>John Wiley and Sons</copyright-holder>
     <license>
         <license-p>
-        modifed from
+        Figure 5—figure supplement 1 modifed from
         <xref ref-type="bibr" rid="bib63">Schwarz et al. (2006)</xref>
         with permission. Original image modified from
-        <xref ref-type="bibr" rid="bib65">Stämpfli and Hille (1976)</xref>. Further 
-        reproduction of this figure would need permission from the copyright holder.
+        <xref ref-type="bibr" rid="bib65">Stämpfli and Hille (1976)</xref>. 
+        Further reproduction of this figure would need permission from the 
+        copyright holder.
         </license-p>
     </license>
 </permissions>
 ```
 
-If there is no '[**https://creativecommons.org/**](https://creativecommons.org/)' type link in the license-p element \(because the image is not CC-BY\), the schematron will automatically assume the figure permission is 'All rights reserved' - query the Production team to check this is correct. For example in 52419, there is no creativecommons.org link:
-
-```markup
-<permissions>
-    <copyright-statement>© 2019 Tim Phelps, JHU AAM</copyright-statement>
-    <copyright-year>2019</copyright-year>
-    <copyright-holder>Tim Phelps, JHU AAM</copyright-holder>
-    <license>
-    <license-p>Illustrations in panels A and B: Tim Phelps © 2019 JHU AAM 
-    (Department of Art as Applied to Medicine, Johns Hopkins University 
-    School of Medicine), published with permission. These illustrations are 
-    not covered by the CC-BY 4.0 licence and may not be separated from the 
-    article.</license-p>
-    </license>
-</permissions>
-
-```
-
-This should be updated as below: 
-
-```markup
-<permissions>
-    <copyright-statement>© 2019 Tim Phelps, JHU AAM</copyright-statement>
-    <copyright-year>2019</copyright-year>
-    <copyright-holder>Tim Phelps, JHU AAM</copyright-holder>
-    <license>
-    <license-p>Illustrations in panels A and B: Tim Phelps © 2019 JHU AAM 
-    (Department of Art as Applied to Medicine, Johns Hopkins University 
-    School of Medicine), published with permission. These illustrations are 
-    not covered by the CC-BY 4.0 licence and further reproduction of these 
-    illustrations would need permission from the copyright holder.</license-p>
-    </license>
-</permissions>
-```
+If there is no '[**https://creativecommons.org/**](https://creativecommons.org/)' type link in the license element and also none in a ali:license\_ref element \(because the image is not CC-BY\), the schematron will automatically assume the figure permission is 'All rights reserved' - query the Production team to check this is correct.
 
 #### fig-permissions-test-13
 
 **Warning**: _XXXXXX permissions - the &lt;license-p&gt; contains a CC link, but the license does not have an ali:licens\_ref element, which is very likely incorrect._
 
-**Action**:  
+**Action**: Exeter to add
 
 ### XML structure checks
 
