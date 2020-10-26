@@ -1549,13 +1549,19 @@ The current data availability tagging was introduced at the beginning of June 20
 
 **Action**: Each entry for a dataset in this section should be an `<element-citation>` with the `specific-use` attribute \(set to either `specific-use="isSupplementedBy"` for generated datasets or `specific-use="references"` for previously published datasets\). This warning will fire if the `specific-use` attribute has another value. The value of the attribute will need to be corrected to one of the allowed values. Technical support will be required to fix this issue.
 
-#### das-pub-id-2
+#### pre-das-pub-id-2
+
+**Warning**: _Each pub-id element which is not a doi must have an @xlink-href \(which is not empty\). If the link is not available please query the authors asking for it._
+
+**Action**: This will fire at pre-author stages. If a `<pub-id>` element does not contain a DOI, the dataset URL should appear as an attribute on this element. Check that a URL has been provided and ask the author for it if it is missing:
+
+* Please provide the final URL for this dataset and arrange for it to be released.
+
+#### final-das-pub-id-2
 
 **Error**: _Each pub-id element which is not a doi must have an @xlink-href \(which is not empty\)._
 
-**Action**: If a `<pub-id>` element does not contain a DOI, the dataset URL should appear as an attribute on this element. Check that a URL has been provided and ask the author for it if it is missing:
-
-* Please provide the final URL for this dataset and arrange for it to be released.
+**Action**: This will fire at post-author stages. If a `<pub-id>` element does not contain a DOI, the dataset URL should appear as an attribute on this element. Check that a URL has been provided and if it hasn't, the eLife production team should ask the author for it.
 
 #### das-elem-citation-year-1
 
@@ -1628,4 +1634,5 @@ The current data availability tagging was introduced at the beginning of June 20
 * Updated 2020-08-17 to account for split of das-elem-cit-3 into pre and final versions.
 * Updated 2020-09-29 to add das-elem-cit-5.
 * Updated 2020-10-20 to clarify das-elem-cit-5.
+* Updated 2020-10-26 to account for das-pub-id-2 split.
 
