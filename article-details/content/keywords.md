@@ -145,9 +145,9 @@ Note that those captured in italics below, should _always_ be in italics in the 
 
 **auth-kwd-check-6**
 
-**Warning**: _Keyword contains more than 3 words - XXXXXX. Should these should be split out into separate keywords?_
+**Warning**: _Keyword contains more than 4 words - XXXXXX. Should these should be split out into separate keywords?_
 
-**Action**: This will fire for keywords containing more than 3 words in them \(it will not fire in feature content\). This indicates that the keyword contains a phrase which can be split up. Use your judgement as to whether this can be split up into multiple keywords or not.
+**Action**: This will fire for keywords containing more than 4 words in them \(it will not fire in feature content\). This indicates that the keyword contains a phrase which can be split up. Use your judgement as to whether this can be split up into multiple keywords or not.
 
 **auth-kwd-check-7**
 
