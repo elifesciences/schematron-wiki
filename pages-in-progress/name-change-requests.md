@@ -154,7 +154,7 @@ The following endpoints will need to manually updated with the new name:
 
 * [**PubMed**](https://www.ncbi.nlm.nih.gov/pubmed/management) \(abstract indexing service\)
 
-Google Scholar ???
+We will not be resupplying the article to any other endpoints. With regards to Google Scholar, this runs on a periodic \(six-monthly\) update schedule and so should update eventually, but we have no control over this.
 
 ### Annotation to indicate a name change
 
