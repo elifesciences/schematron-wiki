@@ -192,11 +192,11 @@ A decision letter may fail to load for the following reasons:
 * Kriya is down \(we should still receive a success email\).
 * The article has not yet been sent to Kriya \(we will receive a success email for this - not a failure one\). The decision letter should be reloaded once the article has been loaded to Kriya - this can be done by downloading and then re-uploading the zip on the AWS bucket \(`decision-letter-input`\).
 * An article is currently in the 'Content loading' stage in Kriya. This will result in a failure email. Leave this email open and once the article has loaded to Kriya, re-upload the decision letter to the AWS bucket as above.
-* Editorial have zipped up the files incorrectly. The failure message might say something like:
+* The files have been zipped up incorrectly. The failure message might say something like:
 
 > \[No articles to check\]
 
-Check that the files have been included as direct children of the zip, i.e. that a folder hasn't been included in the zip. If all the files are zipped correctly, then contact Fred in the Production team who will investigate further \(if Fred is not available, raise a GitHub issue in the [**eLife issues repository**](https://github.com/elifesciences/issues), and assign to Graham to investigate\).
+Check that the files have been included as direct children of the zip, i.e. that a folder hasn't been included in the zip \(see [**above**](decision-letters-and-author-responses.md#zipping-up-the-items) for how to do this\). If all the files are zipped correctly, then contact Fred in the Production team who will investigate further \(if Fred is not available, raise a GitHub issue in the [**eLife issues repository**](https://github.com/elifesciences/issues), and assign to Graham to investigate\).
 
 * Other. If a failure message comes through and you are unsure what it means, it's possible that the content hasn't been parsed correctly by the parser. Contact Fred in the Production team who will investigate further \(if Fred is not available, raise a GitHub issue in the [**eLife issues repository**](https://github.com/elifesciences/issues), and assign to Graham to investigate\).
 
