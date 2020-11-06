@@ -291,7 +291,7 @@ The following tests relate to software that may need to be archived.
 
 **Warning**: _Article possibly contains code that needs forking. Search - XXXXXX_
 
-**Action**: This warning will appear if the following words are present: github, gitlab, codeplex, sourceforge, bitbucket or assembla. 'XXXXXX' in this warning will be one of these words. If this warning fires, it may indicate there is code which needs to be archived. [**See above**]() to determine whether this is necessary. If the code was specifically written as part of the work reported, it should be archived and a software reference should be added \([**see above**]()\). If it is previously published code please query the author to provide full citation details:
+**Action**: This warning will appear if the following words are present: github, gitlab, codeplex, sourceforge, bitbucket or assembla. 'XXXXXX' in this warning will be one of these words. If this warning fires, it may indicate there is code which needs to be archived. [**See above**](archiving-code.md#context-checklist) to determine whether this is necessary. If the code was specifically written as part of the work reported, it should be archived and a software reference should be added \([**see above**](archiving-code.md#how-to-archive-code-in-software-heritage)\). If it is previously published code please query the author to provide full citation details:
 
 * eLife follows the FAIR principles for software and data citation. Please provide the full bibliographic details \(author\(s\), year, full title, publisher, version, URL\) for this software so that it can be added to the reference list. Alternatively, please provide the RRID and version number for this software.
 
