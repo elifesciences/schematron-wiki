@@ -97,7 +97,7 @@ Graham to confirm how videos should be marked up in the word doc
 * Any decision letter images should be named `elife-00000-sa1-fig1.jpg`. The first DL image would be `fig1`, the second `fig2` and so on.
 * Any author response images should be named `elife-00000-sa2-fig1.jpg`. The first AR image would be `fig1`, the second `fig2` and so on.
 
-The 00000 above should be changed to the manuscript's 5 digit tracking number.
+The 00000 above should be changed to the manuscript's 5 digit tracking number. `sa1` is used for decision letter content, `sa2` is used for author response content.
 
 ### Zipping up the items
 
