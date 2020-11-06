@@ -161,7 +161,7 @@ Reloading a Decision letter is as simple as downloading the zip file from the `e
 
 ## Decision letter workflow
 
-eLife production will be made aware of any Decision letters being loaded by an automated email appearing in the Production Inbox. Certain actions may be required depending on whether the email indicates that the Decision Letter was posted successfully or not \(see also [**Decision letter loading**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading) for more information on how to handle this email\). In the event that a Decision letter/Author response contains videos, Editorial will inform Production prior to uploading, see [**below**](decision-letters-and-author-responses.md#dl-with-author-response-videos) on what to do when this occurs. 
+eLife production will be made aware of any Decision letters being loaded by an automated email appearing in the Production Inbox. Certain actions may be required depending on whether the email indicates that the Decision Letter was posted successfully or not \(see also [**Decision letter loading**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading) for more information on how to handle this email\). In the event that a Decision letter/Author response contains videos, Ed Office will inform Production prior to uploading, see [**below**](decision-letters-and-author-responses.md#dl-with-author-response-videos) on what to do when this occurs. 
 
 ### The Decision letter was posted successfully
 
