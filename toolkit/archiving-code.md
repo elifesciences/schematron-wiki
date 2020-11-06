@@ -169,7 +169,7 @@ One of the following four author queries should be added, depending on whether t
 
 If the repo has neither a license or a readme with a reference to the eLife article, add the following author query:
 
-* Per eLife policy, we have archived your code at Software Heritage and updated the text and Data Availability Statement to reflect this. Please confirm that you are happy with the revised wording. Please also ensure that your repo has a README.md file containing a reference to your eLife paper. Finally, please ensure it is licensed with an open source license \[https://opensource.org/licenses\]. Guidance on what license might better suit you can be found at https://choosealicense.com/ and instructions on how to add a license to a GitHub repository are available here https://help.github.com/articles/adding-a-license-to-a-repository/.
+* Per eLife policy, we have archived your code at Software Heritage and updated the text and Data Availability Statement to reflect this. Please confirm that you are happy with the revised wording. Please also ensure that your repo has a README.md file containing a reference to your eLife paper. Finally, please ensure it is licensed with an open source license \[https://opensource.org/licenses\]. Software without a license cannot be safely integrated, shared, built upon etc. Guidance on what license might better suit you can be found at https://choosealicense.com/ and instructions on how to add a license to a GitHub repository are available here https://help.github.com/articles/adding-a-license-to-a-repository/.
 
 If the repo has a license, but no readme containing a reference to the eLife paper, add the following author query:
 
@@ -177,7 +177,7 @@ If the repo has a license, but no readme containing a reference to the eLife pap
 
 If the repo has a readme with a reference to the eLife article, but no license, add the following author query:
 
-* Per eLife policy, we have archived your code at Software Heritage and updated the text and Data Availability Statement to reflect this. Please confirm that you are happy with the revised wording. Please also ensure that your repo is licensed with an open source license \[https://opensource.org/licenses\]. Guidance on what license might better suit you can be found at https://choosealicense.com/ and instructions on how to add a license to a GitHub repository are available here https://help.github.com/articles/adding-a-license-to-a-repository/.
+* Per eLife policy, we have archived your code at Software Heritage and updated the text and Data Availability Statement to reflect this. Please confirm that you are happy with the revised wording. Please also ensure that your repo is licensed with an open source license \[https://opensource.org/licenses\]. Software without a license cannot be safely integrated, shared, built upon etc. Guidance on what license might better suit you can be found at https://choosealicense.com/ and instructions on how to add a license to a GitHub repository are available here https://help.github.com/articles/adding-a-license-to-a-repository/.
 
 If the repo has both a readme with a reference to the eLife article, and a license, add the following author query:
 
