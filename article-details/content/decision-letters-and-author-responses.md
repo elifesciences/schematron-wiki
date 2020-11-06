@@ -59,8 +59,11 @@ Editorial office carry out the following edits on Decision letters:
 * Headings are changed to sentence case.
 * Quotes are given the proper emphasis \(italics\) and speech marks.
 * Numbered points are changed to a number and a bracket \(e.g. `1.` -&gt; `1)`\).
+* Check for any images which are reproduced.
 
-
+{% hint style="info" %}
+Need to flesh out process for images which require permissions info to be added.
+{% endhint %}
 
 ## Instructions for packaging up a decision letter
 
