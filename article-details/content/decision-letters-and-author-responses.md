@@ -55,7 +55,35 @@ A Macro is run on the content which normalises it \(italicises certain words and
 
 ### Formatting the Decision letter word doc
 
+#### Decision letter images
 
+Decision letter images should be added to the word doc in the following way:
+
+![](../../.gitbook/assets/screenshot-2020-11-06-at-14.32.59.png)
+
+Any titles or legends should be placed after a `<Decision letter image 0 title/legend>` tag \(which is also yellow highlighted\) and bolded text containing the label for that image \(for example, **Decision letter image 1.** - note that the full stop should be present\). It should then end with a `</Decision letter image 0 title/legend>` tag \(see also image for Author response legends [**below**](decision-letters-and-author-responses.md#author-response-images)\). 
+
+#### Author response images
+
+Author response images should be added in the following way:
+
+![](../../.gitbook/assets/screenshot-2020-11-06-at-14.35.06.png)
+
+Any titles or legends should be placed after a `<Author response image 0 title/legend>` tag \(which is also yellow highlighted\) and bolded text containing the label for that image \(for example, **Author response image 1.** - note that the full stop should be present\). It should then end with a `</Author response image 0 title/legend>` tag. See below for an example:
+
+![](../../.gitbook/assets/screenshot-2020-11-06-at-14.34.13.png)
+
+#### Tables
+
+Table can be included in the word document. They must be preceded by their label which is **formatted in bold**:
+
+![](../../.gitbook/assets/screenshot-2020-11-06-at-14.54.15.png)
+
+Tables in the decision letter should be labelled 'Decision letter table 1', and those in the author response should be labelled 'Author response table 1' \(with 1 being the appropriate number if there is more than 1\).
+
+{% hint style="info" %}
+Graham to confirm how table captions should be marked up in the word doc
+{% endhint %}
 
 ### Filenames for the items
 
@@ -93,7 +121,6 @@ Archive:  elife-54591.zip
     68573  11-02-2020 16:36   elife-54591/elife-54591.docx
 ---------                     -------
    276810                     4 files
-        
 ```
 
 Note how all the files are inside a folder called `elife-54591`.
@@ -111,10 +138,6 @@ Any figures are automatically included in the article in Kriya \(due to them bei
 {% hint style="info" %}
 Reloading a Decision letter is as simple as downloading the zip file from the `elife/decision-letter-input` aws bucket and then re-uploading it \(which will overwrite the file\).
 {% endhint %}
-
-## Decision letter Word markup for JATS parsing
-
-\[To be filled out once the Kitchen Sink word file has been created.\]
 
 ## Decision letter workflow
 
