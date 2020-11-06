@@ -113,7 +113,7 @@ To do this, follow the steps below.
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-13.41.18.png)
 
-* If there is an image attribution, this should be entered in the field below. Currently this does not display on the website but this information is important to include. 
+* If there is an image attribution, this should be entered in the field below. Where possible, try to keep the attribution fewer than 50 characters long, as if it is longer then it will be shortened with an ellipsis on the site.
 
 ![An example of an attribution for 50645](../.gitbook/assets/screen-shot-2020-08-27-at-12.58.26%20%281%29.png)
 
