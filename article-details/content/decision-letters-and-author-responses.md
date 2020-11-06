@@ -79,7 +79,7 @@ Table can be included in the word document. They must be preceded by their label
 
 ![](../../.gitbook/assets/screenshot-2020-11-06-at-14.54.15.png)
 
-Tables in the decision letter should be labelled 'Decision letter table 1', and those in the author response should be labelled 'Author response table 1' \(with 1 being the appropriate number if there is more than 1\).
+Tables in the decision letter should be labelled 'Decision letter table 1', and those in the author response should be labelled 'Author response table 1' \(with 1 being changed to the appropriate number if there is more than 1\).
 
 {% hint style="info" %}
 Graham to confirm how table captions should be marked up in the word doc
