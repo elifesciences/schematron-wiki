@@ -49,11 +49,58 @@ The following articles will never have a Decision letter or Author response:
 
 Decision letters and Author responses are collated from the peer review correspondence as indicated above. The eLife Editorial team \(Ed Office\) collate this content \(which may have originally been taken from various sources, e.g. emails, PDFs etc.\) into one Word file. Each Word file contains both the Decision letter and Author response \(provided there _are_ both, which is typical for any research article\).
 
-A Macro is run on the content which normalises it \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This resultant word document is then QC'd by Ed Office, before then being QC'd by the eLife Editorial team.
+A Macro is run on the content which normalises it \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This resultant word document is then QC'd by Ed Office, and uploaded to the S3 bucket.
+
+## Instructions for packaging up a decision letter
+
+### Formatting the Decision letter word doc
+
+
+
+### Filenames for the items
+
+* The word doc should be named in the format `elife-00000.docx`.
+* Any decision letter images should be named `elife-00000-sa1-fig1.jpg`. The first DL image would be fig1, the second fig2 and so on.
+* Any author response images should be named `elife-00000-sa2-fig1.jpg`. The first AR image would be fig1, the second fig2 and so on.
+
+The 00000 above should be changed to the manuscript's 5 digit tracking number.
+
+### Zipping up the items
+
+The decision letter content needs to be zipped into a zip with a filename that follows this convention:
+
+> elife-00000.zip
+
+The 00000 above should be changed to the manuscript's 5 digit tracking number.
+
+The zip **should not** contain sub-folders \(otherwise the bot will be unable to find the files\). In order to always ensure this happens select the object\(s\) that require zipping, and right-click and zip using your OSs preferred method. Do not simply right click the folder containing the objects and zip this up, as it will always zip the contents in a sub folder within the zip.
+
+You can check the contents of a zip using the following bash script \(in the command line\):
+
+```bash
+unzip -l path-to-zip.zip
+```
+
+if there is a subfolder then this will be indicated in the result:
+
+```bash
+Archive:  elife-54591.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  11-06-2020 14:16   elife-54591/
+    99472  11-02-2020 09:08   elife-54591/elife-54591-sa2-fig1.jpg
+   104153  11-02-2020 09:08   elife-54591/elife-54591-sa2-fig2.jpg
+    68573  11-02-2020 16:36   elife-54591/elife-54591.docx
+---------                     -------
+   276810                     4 files
+        
+```
+
+Note how all the files are inside a folder called `elife-54591`.
 
 ## How are Decision letters and Author responses loaded?
 
-The Word document containing both the Decision letter and Author response, and any accompanying assets, are zipped up, and placed in the `elife/decision-letter-input` AWS bucket by the eLife Editorial team.
+The Word document containing both the Decision letter and Author response, and any accompanying assets, are zipped up, and placed in the `elife/prod-elife-decision-letter-input` AWS bucket by Editorial Office.
 
 At this point the eLife bot will notice the zip and process the content in order to send it to Kriya.
 
