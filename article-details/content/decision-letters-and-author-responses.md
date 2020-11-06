@@ -65,7 +65,7 @@ Editorial office carry out the following edits on Decision letters:
 Need to flesh out process for images which require permissions info to be added.
 {% endhint %}
 
-## Instructions for packaging up a decision letter
+## Packaging up a decision letter
 
 ### Formatting the Decision letter word doc
 
