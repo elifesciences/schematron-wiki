@@ -129,7 +129,7 @@ Archive:  elife-54591.zip
    276810                     4 files
 ```
 
-Note how all the files are inside a folder called `elife-54591`.
+Note how all the files are inside a folder called `elife-54591`. This would be the cause of a failure if uploaded.
 
 ## How are Decision letters and Author responses loaded?
 
