@@ -85,6 +85,12 @@ Tables in the decision letter should be labelled 'Decision letter table 1', and 
 Graham to confirm how table captions should be marked up in the word doc
 {% endhint %}
 
+#### Videos
+
+{% hint style="info" %}
+Graham to confirm how videos should be marked up in the word doc
+{% endhint %}
+
 ### Filenames for the items
 
 * The word doc should be named in the format `elife-00000.docx`.
