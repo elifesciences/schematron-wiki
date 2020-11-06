@@ -34,7 +34,7 @@ The contents of the statement should be reflected in the rest of the dataset sec
 
 Any statement that indicates data is [available on request](data-availability.md#approved-on-request-data) from the authors will need to be approved by Editorial prior to publication. Cases where this is acceptable include exceptionally large datasets that cannot be supported by existing repositories and patient data that cannot be anonymised.
 
-Data availability statements may also mention code that has been made publicly available by the authors. Instructions on how to deal with this can be found [here](../../toolkit/forking-git-based-repos.md#checklist-for-forking-repositories).
+Data availability statements may also mention code that has been made publicly available by the authors. Instructions on how to deal with this can be found [here]().
 
 ### Generated datasets
 
@@ -202,7 +202,7 @@ If it is clear from the entered details or the repository page that data is pres
 
 * Does this repository contain source data as well as or instead of source code for your article? If no data is present, this dataset entry will need to be removed.
 
-In cases where the GitHub repository only contains code, the dataset entry should be removed. Mentions of the repository in the data availability statement should be retained, however, and in all other respects, the normal procedure regarding [**code forking**](../../toolkit/forking-git-based-repos.md) should be followed.
+In cases where the GitHub repository only contains code, the dataset entry should be removed. Mentions of the repository in the data availability statement should be retained, however, and in all other respects, the normal procedure regarding [**code forking**]() should be followed.
 
 In the rare case that a repository contains only data, the dataset entry should be retained but there is no requirement to fork the corresponding repo.
 

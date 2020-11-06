@@ -55,7 +55,6 @@
 * [Striking images](toolkit/striking-images-1.md)
 * [Homepage images](toolkit/homepage-images.md)
 * [Toggl](toolkit/kriya.md)
-* [When and how to fork repositories](toolkit/forking-git-based-repos.md)
 * [Archiving code](toolkit/archiving-code.md)
 * [XML Glossary](toolkit/xml-glossary.md)
 * [eLife Glossary](toolkit/elife-glossary.md)

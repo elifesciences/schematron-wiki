@@ -13,7 +13,7 @@ The following should be checked for Tables:
 * The presence of colours \(should be flagged by Schematron; see [**colour-check-table**](tables.md#colour-check-table) and [**Allowed colours in tables**](tables.md#allowed-colours-in-tables)\).
 * Missing links for RRIDs, DOIs, PMIDs and PMCIDs.
 * That links for RRIDs, DOIs, PMIDs and PMCIDs resolve.
-* References to software that requires forking or adding a citation \(see [**When and how to fork repositories**](../../../toolkit/forking-git-based-repos.md) and [**Software references**](../references/software-references.md)\).
+* References to software that requires forking or adding a citation \(see [**When and how to fork repositories**]() and [**Software references**](../references/software-references.md)\).
 * A corresponding citation in the text \(note this is not necessary for Key resources tables, tables in Decision letters or Author responses, and for certain Appendix tables\).
 * That a title is present \(note this is not necessary for Key resources tables, tables in Decision letters or Author responses\).
 * Footnotes use the correct indicators, and follow the correct sequence.

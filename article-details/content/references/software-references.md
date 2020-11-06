@@ -49,7 +49,7 @@ If the authors have provided the RRID for a software, this does not need to be a
 
 ## How to add a software reference
 
-Make sure a citation is added whenever the software is mentioned in the text or in the key resources table. To add a GitHub reference after [forking code](../../../toolkit/forking-git-based-repos.md) for example, in Kriya, right-click where you want to add the citation and click on Add New &gt; Add New Reference and select Software under Reference Type. 
+Make sure a citation is added whenever the software is mentioned in the text or in the key resources table. To add a GitHub reference after [forking code]() for example, in Kriya, right-click where you want to add the citation and click on Add New &gt; Add New Reference and select Software under Reference Type. 
 
 ![The default fields in Kriya for a software reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.08.25.png)
 
