@@ -51,6 +51,17 @@ Decision letters and Author responses are collated from the peer review correspo
 
 A Macro is run on the content which normalises it \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This resultant word document is then QC'd by Ed Office, and uploaded to the S3 bucket.
 
+## Decision letter QC
+
+Editorial office carry out the following edits on Decision letters:
+
+* Any references to page and line numbers are changed to section titles and paragraphs \(this is because the page numbers used during review will change at publication, and the line numbers will not be present in the VoR\).
+* Headings are changed to sentence case.
+* Quotes are given the proper emphasis \(italics\) and speech marks.
+* Numbered points are changed to a number and a bracket \(e.g. `1.` -&gt; `1)`\).
+
+
+
 ## Instructions for packaging up a decision letter
 
 ### Formatting the Decision letter word doc
