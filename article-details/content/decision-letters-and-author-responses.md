@@ -61,7 +61,7 @@ Decision letter images should be added to the word doc in the following way:
 
 ![](../../.gitbook/assets/screenshot-2020-11-06-at-14.32.59.png)
 
-Any titles or legends should be placed after a `<Decision letter image 0 title/legend>` tag \(which is also yellow highlighted\) and bolded text containing the label for that image \(for example, **Decision letter image 1.** - note that the full stop should be present\). It should then end with a `</Decision letter image 0 title/legend>` tag \(see also image for Author response legends [**below**](decision-letters-and-author-responses.md#author-response-images)\). 
+Any titles or legends should be placed after a `<Decision letter image 1 title/legend>` tag \(which is also yellow highlighted\) and bolded text containing the label for that image \(for example, **Decision letter image 1.** - note that the full stop should be present\). It should then end with a `</Decision letter image 1 title/legend>` tag \(see also image for Author response legends [**below**](decision-letters-and-author-responses.md#author-response-images)\). 
 
 #### Author response images
 
@@ -69,7 +69,7 @@ Author response images should be added in the following way:
 
 ![](../../.gitbook/assets/screenshot-2020-11-06-at-14.35.06.png)
 
-Any titles or legends should be placed after a `<Author response image 0 title/legend>` tag \(which is also yellow highlighted\) and bolded text containing the label for that image \(for example, **Author response image 1.** - note that the full stop should be present\). It should then end with a `</Author response image 0 title/legend>` tag. See below for an example:
+Any titles or legends should be placed after a `<Author response image 1 title/legend>` tag \(which is also yellow highlighted\) and bolded text containing the label for that image \(for example, **Author response image 1.** - note that the full stop should be present\). It should then end with a `</Author response image 1 title/legend>` tag. See below for an example:
 
 ![](../../.gitbook/assets/screenshot-2020-11-06-at-14.34.13.png)
 
