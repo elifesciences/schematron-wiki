@@ -1505,6 +1505,12 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Action**: &lt;XXX&gt; will be a disallowed XML element\(s\) present in &lt;ZZZ&gt;, which will be either the title \(`<data-title>`\) or database name \(`<source>`\). The only XML elements allowed within these fields are &lt;italic&gt;, &lt;sup&gt; or &lt;sub&gt;. To address this warning, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks. For example, if the warning reads "&lt;bold&gt; element in a &lt;source&gt; element", bold formatting is present in the database name and should be removed; similarly, "&lt;ext-link&gt; element in a &lt;source&gt; element" indicates a hyperlink that needs to be removed.
 
+#### final-das-p-conformity-1
+
+**Error**: _p element in data availability section contains no content. It must be removed._
+
+**Action**: This error will fire at post-author stages if a &lt;p&gt; element in the data availability section contains not content. The &lt;p&gt; element should be removed if it is superfluous, or the authors should be asked for a data availability statement if there isn't one at all \(and this should be checked with Editorial when provided\).
+
 ### XML structure checks
 
 These checks relate to the XML structure of the data availability section. X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, [**see below**](data-availability.md#xml-structure).
@@ -1635,4 +1641,5 @@ The current data availability tagging was introduced at the beginning of June 20
 * Updated 2020-09-29 to add das-elem-cit-5.
 * Updated 2020-10-20 to clarify das-elem-cit-5.
 * Updated 2020-10-26 to account for das-pub-id-2 split.
+* Updated 2020-11-10 to add final-das-p-conformity-1.
 
