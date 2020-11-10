@@ -8,19 +8,128 @@ description: Process for changing the name of an author or editor in eLife conte
 
 When an individual changes their name \(through marriage, by deed-poll, as a result of transitioning to another gender etc.\), they may wish to update the scientific record to ensure that their work can be found under their new name.
 
-eLife aims to allow authors, reviewers and editors to update their names with minimum hassle. Requests to do so will be verified by the Editorial team and then passed on to the Production team, who will update the affected articles. 
+eLife aims to allow authors, reviewers and editors to update their names with minimum hassle. This policy can be seen in the [**author guide**](https://submit.elifesciences.org/html/elife_author_instructions.html#policies). Requests to do so will be verified by the Editorial team and then passed on to the Production team, who will update the affected articles.
 
 ## Editorial process
 
-### Initial request
+### Confirming receipt of name change request, verification and collection of additional information
+
+* The Individual’s identity needs to be verified, on their terms – as such, verification doesn’t have to be formal identification. Examples of verification can include:
+  1. The email address they are emailing from matches the email address of their eJP account
+  2. A written statement from their supervisor/the corresponding author of the applicable manuscript
+* Any alternative names and affiliations need to be captured so that duplicate accounts are not overlooked in the submission system e.g. Mike or Mick for Michael
+* Email The Individual for this information using “Template text – first response”:
+
+> **Template text – Confirmation and verification**
+>
+> Thank you for your email to notify us of your name change. 
+>
+> To make sure that we capture all of the papers that need to be updated, we would be grateful if you could provide any past email addresses, affiliations or nicknames that may have been used by yourself, by another author who submitted a manuscript which you co-authored or by a research who may have suggested you as a reviewer. This is to double check that we do not have any duplicate accounts for you in the submission system. We will use this information to search our submission system for any manuscripts that have listed you as an author or that you might have reviewed or edited for eLife. We will then compile a list of published research content for your approval which we can send to our Production Team to update. This list will not include any research content rejected by eLife as your name on these submissions will be automatically updated once we update your profile in our submission system.
+>
+> \[Include this paragraph only if email address does not match email provided in eJP\]
+>
+> In addition, as is noted by our name change policy, we require some form of identity verification but this can be an item of your choice, including \(but not limited to\) a letter from your supervisor, an email sent from the email address we have on record, university staff or student identification cards or another form of ID. 
+>
+> At the end of the process, your name will be corrected in our manuscript management system and in published research content.
 
 
 
-### Confirmation
+### Identifying content that needs to be changed
+
+* Once The Individual has verified their identity and provided any additional names, emails or affiliations, these can be searched in eJP.
+  * Using the “Find Person” person link on the eJP home page, search for The Individual.
+  * In The Individual’s profile, under the merge tab, search for the email addresses and any other names they have provided in turn, and merge any duplicate accounts. If you have any uncertainty about whether you are merging the correct individuals, use the list of past affiliations they have provided where possible, and seek clarification from The Individual if needed.
+* Once all the profiles have been merged, collect a list of the manuscripts that they have been involved in so that this information can be verified by The Individual and later passed to Production. There is a template email at the end of this section that can be used to compile the list.
+  * **Author**: Go to the “Pending/Completed Manuscripts” tab and collect a list of all papers that have been accepted and manuscripts that are currently under consideration \(rejected manuscripts will have been updated in the submission system\).
+    * For all accepted papers, check whether an Insight article or co-submission has been linked to it. This information can be found on the submission page, in the table of information under the files, in the “Related Manuscript” row.
+    * Information to be collected from the published article:
+      1. First author
+      2. Title
+      3. URL to published paper
+      4. Corresponding author\(s\) \[to include co-corresponding authors\]
+  * **Reviewer**: Go to the “Reviews” tab and collect a list of all papers that were reviewed by the individual. 
+    * If the manuscript was accepted, please check whether they chose to reveal their identity in the submission system using the “Decision Summary” link on all versions of the manuscript – full and revised submissions. If they did, then this information would be captured in the metadata published online, and should be adjusted by the Production Team.
+  * **Manuscripts handled as BRE**: Go to the “Monitoring Editor” tab and collect a list of all manuscripts accepted. The editors who handle a manuscript are included in the metadata and should be updated by the Production Team.
+  * **Manuscripts handled as Senior Editor**: XXX
+* The list of papers we’ve found associated with The Individual should be compiled and run past them to confirm that the manuscripts listed are correct and to see if there is any other content that has been overlooked.
+* Magazine content is not captured in eJP, so we need to ask The Individual whether they have been involved in any interviews, podcasts etc.
+* Clarification is needed about whether we can contact the corresponding authors for each of these changes yet – The Individual needs to be alerted to the fact that we will have to tell the corresponding author about any changes.
+* Clarification is needed about whether The Individual has changed their preferred pronoun.
+* Clarification is needed about whether all versions of the manuscript need to be changed or whether the latest version can just be updated \(the latter will be quicker, but previous name could be found if not all versions are updated\).
+* Email The Individual using template below:
+
+> **Template text – confirming content that needs to be changed**
+>
+> Thank you for providing this additional information \[optional: and verification\], it is greatly appreciated. We have now searched our submission system and found the following published research content associated with your account.
+>
+> Please can you confirm that these papers are correct and whether any manuscripts are missing that you think should be included. As stated in our previous email, this list is compiled for the use of our Production Team, so it only includes published content – if you are linked to any content that was rejected, your name will be automatically updated when we update your profile in the submission system.
+>
+> Manuscripts which you are listed as an author:
+>
+> 1. \[First author\] et al., \[year\]. \[Title\]. Link: \[link to published paper\] Corresponding author\(s\): \[name\]
+> 2. \[First author\] et al., \[year\]. \[Title\]. Link: \[link to published paper\] Corresponding author\(s\): \[name\]
+> 3. \[First author\] et al., \[year\]. \[Title\]. Link: \[link to published paper\] Corresponding author\(s\): \[name\]
+>
+> Manuscripts that you reviewed and chose to reveal your identity:
+>
+> 1. \[First author\] et al., \[year\]. \[Title\]. Link: \[link to published paper – this should be to the section where their identity is revealed\]
+> 2. \[First author\] et al., \[year\]. \[Title\]. Link: \[link to published paper – this should be to the section where their identity is revealed\]
+>
+> Manuscripts that you have handled as editor:
+>
+> 1. \[First author\] et al., \[year\]. \[Title\]. Link: \[link to published paper – this should be to the section where their identity is revealed\]
+>
+> For the articles which you have authored, we will need to contact the corresponding author of each paper to notify them that you have requested a change to your name. With that in mind, we wanted to confirm whether you have already notified the corresponding author\(s\) of this change and, if not, whether you would like to do so before we contact them.
+>
+> For all articles, we would be grateful if you could let us know whether you would like to update all versions of the manuscript, or whether just updating the latest version would be sufficient. Only updating the latest version will be a lot quicker, but in this case the earlier versions of the manuscript are still discoverable and would display your non-preferred name. 
+>
+> In addition, eLife has magazine content which is not accessible via the submission system, such as interviews and podcasts. Please let us know if you have been interviewed for any eLife magazine content and I can forward that information to ??? They can then update any written information on your behalf \(although we are unable to edit the audio content of the podcasts\).
+>
+> We also wanted to check whether your preferred pronoun has changed and, if so, what this should be updated to. For research content, we will use this information to check and update the Acknowledgements section and any Competing Interests statements, but we will not be able to update pronoun use within the article itself. For magazine content, ???
 
 
 
-### Editorial approval
+### Processing name changes
+
+1. Once the individual has indicated that they are happy for the corresponding author\(s\) to be contacted, email the corresponding author\(s\) to let them know.
+
+> **Template text – notifying corresponding authors**
+>
+> This is an email to notify you that we have received a name change request from …
+
+1. 1. 2. \[Can occur in parallel with 3a\] Update the individual’s eJP account to their preferred name.
+      1. Step-by-step instructions  
+   3. \[Must wait for completion of 3a\] Based on the list of papers compiled by us and approved by the individual, compile list of research content \(authored, reviewed, edited articles\) to send to the Production Team \([production@elifesciences.org](mailto:production@elifesciences.org)\). 
+
+Template text – forwarding content to Production  
+
+
+We have received a request for a name change – \[previous name\] should be updated to \[preferred name\] in the following content:  
+
+
+Authored articles: 
+
+Manuscript ID 1
+
+Manuscript ID 2
+
+Reviewed articles:
+
+Manuscript ID 3
+
+Edited articles:
+
+Manuscript ID 4
+
+Magazine content:
+
+\[link\]
+
+\[link\]  
+
+
+\[Name\] has requested that the content be updated in all versions of the manuscript. / \[Name\] has indicated that they are happy for only the latest version of the manuscript to be updated. \[delete as appropriate\]  
+\[Name\] has requested that, where possible, their pronouns should be updated to \[preferred pronouns\]. / \[Name\] has not requested a change to their pronouns. \[delete as appropriate\]
 
 
 
