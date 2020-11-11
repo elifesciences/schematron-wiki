@@ -114,7 +114,7 @@ If the Reviewing Editor decided to share their identity, the respective sentence
 * Check for any images which are reproduced.
 
 {% hint style="info" %}
-Need to flesh out process for images which require permissions info to be added.
+Ed office to flag any reproduced images to Production, and not upload the DL. If the image will need permissions tagging, Production will then place the article on hold in Kriya \(so that the article is not automatically sent out to the authors\). After it's been placed on hold the DL can be loaded, and the Production team can send the article to Exeter, as appropriate.
 {% endhint %}
 
 * ‘_eLife_’ should be italicised.
