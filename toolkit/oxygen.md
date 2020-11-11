@@ -62,7 +62,11 @@ For example clicking the left most column heading \(which usually has no text\),
 
 If you cannot see the full message, you can hover over it, or right-click and click 'Show message' to see it in full.
 
-Some messages will contain GitBook links at the end of them. These are messages which have been covered in this GitBook, and you can follow the link to be taken to the accompanying page and description/action for that message. Note that you cannot simply click the link, and instead will have to copy it from the message and then paste it into your browser.
+Some messages have accompanying explanations/instructions in this GitBook. They will display in oXygen with a book symbol in the Info column:
+
+![](../.gitbook/assets/screenshot-2020-11-11-at-14.12.09.png)
+
+Clicking the book symbol will open a link to the relevant section of the relevant GitBook page for that message in your default browser.
 
 ## How to set up the Crossref transformation scenario
 
