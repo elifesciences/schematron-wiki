@@ -65,11 +65,9 @@ Editorial office carry out the following edits on Decision letters:
 Need to flesh out process for images which require permissions info to be added.
 {% endhint %}
 
-## Packaging up a decision letter
+## Formatting the Decision letter Word doc
 
-### Formatting the Decision letter Word doc
-
-#### General formatting
+### General formatting
 
 In the Author response, the original comments from the editor/reviewers are in italics whereas the author replies are not:
 
@@ -105,7 +103,7 @@ In the Author response, the original comments from the editor/reviewers are in i
 >
 > Response, response, response
 
-#### Number of reviewers
+### Editor/Reviewer details
 
 If needed, correct the sentence about the number of reviewers. Here are the common options:
 
@@ -114,7 +112,7 @@ If needed, correct the sentence about the number of reviewers. Here are the comm
 3. ...reviewed by a Senior Editor, a Reviewing Editor, and three reviewers. \[when the Reviewing Editor ISN’T one of the three reviewers\]   .
 4. ...reviewed by a Senior Editor, a Reviewing Editor, and two reviewers. \[when the Reviewing editor ISN’T one of the two reviewers\]   .
 
-#### General checks
+### General checks
 
 * Use TNR point size 12.
 * Reviewer numbers can include hash or not: either is fine but be consistent within the file.
@@ -142,7 +140,7 @@ Sometimes it is more beneficial to substitute a reference for a quotation or tru
 
 
 
-
+### Images
 
 Images should be captured as separate `.jpg` files \(see below for formatting in word doc for images\). For images in PDFs, in Reader, take a snap shot, paste in Paint \(or similar\) and save as `.jpg`. For images in Word, right click, save as `.jpg`.
 
@@ -185,6 +183,8 @@ Graham to confirm how table captions should be marked up in the word doc
 {% hint style="info" %}
 Graham to confirm how videos should be marked up in the word doc
 {% endhint %}
+
+## Packaging up a decision letter
 
 ### Filenames for the items
 
