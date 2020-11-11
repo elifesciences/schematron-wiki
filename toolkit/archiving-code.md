@@ -162,7 +162,7 @@ The SWHID can also be obtained from the link itself. The section after `anchor=`
 
 **Example**
 
-> Our spike sorting code is freely available at [https://github.com/narendramukherjee/blech\_clust](https://github.com/narendramukherjee/blech_clust) \([Mukherjee, 2019](https://elifesciences.org/articles/45968#bib60); copy archived at [**swh:1:rev:86d380144b3f85c8951923de873893583bd25edf**](https://archive.softwareheritage.org/swh:1:dir:5025e62c4f6436576af0de3aa31d07cec877eb6c;origin=https://github.com/narendramukherjee/blech_clust;visit=swh:1:snp:816c8e048d2d81fb7cc4e89f3f94f18a2cda6f69;anchor=swh:1:rev:86d380144b3f85c8951923de873893583bd25edf/)\).
+> Our spike sorting code is freely available at [https://github.com/narendramukherjee/blech\_clust](https://github.com/narendramukherjee/blech_clust) \(Mukherjee, 2019; copy archived at [**swh:1:rev:86d380144b3f85c8951923de873893583bd25edf**](https://archive.softwareheritage.org/swh:1:dir:5025e62c4f6436576af0de3aa31d07cec877eb6c;origin=https://github.com/narendramukherjee/blech_clust;visit=swh:1:snp:816c8e048d2d81fb7cc4e89f3f94f18a2cda6f69;anchor=swh:1:rev:86d380144b3f85c8951923de873893583bd25edf/)\).
 
 ### In references
 
