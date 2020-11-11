@@ -168,7 +168,7 @@ The SWHID can also be obtained from the link itself. The section after `anchor=`
 
 * A software reference also needs to be added in the main article \(see [**here**](../article-details/content/references/software-references.md) for how to do this\) - this should only be done after the code has been archived. Please note software citations can't be added in the data availability statement.
 
-The same link used in the main text should be added for the reference. See [**above**](archiving-code.md#in-the-main-text) for how to obtain this.
+The same link used in the main text should be added for the reference. See [**above**](archiving-code.md#in-the-main-text) for how to obtain this. An example of the fields and the type of information which needs inputting can be found [**here**](../article-details/content/references/software-references.md#example-of-a-software-heritage-software-reference).
 
 ## Add an author query
 
