@@ -1291,4 +1291,5 @@ An example of a Decision letter with figures:
 ## Change log
 
 * Updated 2020-10-19 to include decision-missing-table-test, reply-missing-table-test, and paper-pile-test.
+* Updated 2020-11-11 to include the formatting changes that are made prior to upload.
 
