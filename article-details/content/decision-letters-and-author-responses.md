@@ -53,19 +53,7 @@ A Macro is run on the content which normalises it \(italicises certain words and
 
 ## Decision letter QC
 
-Editorial office carry out the following edits on Decision letters:
-
-* Any references to page and line numbers are changed to section titles and paragraphs \(this is because the page numbers used during review will change at publication, and the line numbers will not be present in the VoR\).
-* Headings are changed to sentence case.
-* Quotes are given the proper emphasis \(italics\) and speech marks.
-* Numbered points are changed to a number and a bracket \(e.g. `1.` -&gt; `1)`\).
-* Check for any images which are reproduced.
-
-{% hint style="info" %}
-Need to flesh out process for images which require permissions info to be added.
-{% endhint %}
-
-## Formatting the Decision letter Word doc
+Editorial office carry out a series of on Decision letters.
 
 ### General formatting
 
@@ -112,11 +100,23 @@ If needed, correct the sentence about the number of reviewers. Here are the comm
 3. ...reviewed by a Senior Editor, a Reviewing Editor, and three reviewers. \[when the Reviewing Editor ISN’T one of the three reviewers\]   .
 4. ...reviewed by a Senior Editor, a Reviewing Editor, and two reviewers. \[when the Reviewing editor ISN’T one of the two reviewers\]   .
 
+If the Reviewing Editor decided to share their identity, the respective sentence should be edited to say: 
+
+> Your article has been reviewed by three peer reviewers, including X as the Reviewing Editor and Reviewer \#1, and the evaluation has been overseen by a Senior Editor.
+
 ### General checks
 
 * Use TNR point size 12.
 * Reviewer numbers can include hash or not: either is fine but be consistent within the file.
+* Headings are changed to sentence case.
+* Numbered points are changed to a number and a bracket \(e.g. `1.` -&gt; `1)`\).
 * Check for language/comments that could be construed as inappropriate or offensive.
+* Check for any images which are reproduced.
+
+{% hint style="info" %}
+Need to flesh out process for images which require permissions info to be added.
+{% endhint %}
+
 * ‘_eLife_’ should be italicised.
 * Species names should be italicized \(where obvious, e.g., _Drosophila_, _D. melanogaster_, _C. elegans_, _E. coli_\)
 * Latin phrases such as ‘in vivo’ or ‘et al’ should not be italicised. 
@@ -138,7 +138,17 @@ Sometimes it is more beneficial to substitute a reference for a quotation or tru
 * If there are equations, check that they are editable \(an example of an non editable equation is when the equation is actually in an image format\).
 * For long quotations, abbreviate using ellipses, e.g., `In the Discussion we now say: “Blah, blah, blah. [...] Blah de blah, blah”`
 
+### References
 
+Don’t include references from the end of the Author response, unless the authors have used in text numbered referencing \[1-3\] and have these numbered at the end.
+
+Where authors refer to numbered references \[36\] from the main article reference list \[13\], look them up and change to \(Name, year\)
+
+Do not delete the “et al.” abbreviation. 'et al.' should not be italicised.
+
+When the reference lists between one to three authors, include all surnames in the citation: e.g. Sheckman, 2014; Malhotra and Marder, 2015; Schekman, Watt and Weigel, 2012.
+
+When there are four or more authors, write the last name of the first author, followed by et al. whenever you cite the source: e.g. Berger et al., 2015.
 
 ### Images
 
