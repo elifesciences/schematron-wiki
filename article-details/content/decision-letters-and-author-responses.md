@@ -69,6 +69,87 @@ Need to flesh out process for images which require permissions info to be added.
 
 ### Formatting the Decision letter Word doc
 
+#### General formatting
+
+In the Author response, the original comments from the editor/reviewers are in italics whereas the author replies are not:
+
+> **Decision letter**
+>
+> Text, text, text
+>
+> _Reviewer 1:_
+>
+> Text, text, text
+>
+> _Reviewer 2:_
+>
+> Text, text, text
+>
+> \[...\]
+>
+> **Author response**
+>
+> _Text, text, text_
+>
+> Response, response, response
+>
+> Reviewer 1:
+>
+> _Text, text, text_
+>
+> Response, response, response
+>
+> Reviewer 2:
+>
+> _Text, text, text_
+>
+> Response, response, response
+
+#### Number of reviewers
+
+If needed, correct the sentence about the number of reviewers. Here are the common options:
+
+1. ...has been reviewed by three peer reviewers, including X as the Reviewing Editor and Reviewer \#1, and the evaluation has been overseen by a Senior Editor. \[if the BRE has agreed to reveal their names\]   .
+2. …. has been reviewed by three peer reviewers, one of whom is a member of our Board of Reviewing Editors, and the evaluation has been overseen by a Senior Editor. \[if the BRE did NOT disclose their identity\].
+3. ...reviewed by a Senior Editor, a Reviewing Editor, and three reviewers. \[when the Reviewing Editor ISN’T one of the three reviewers\]   .
+4. ...reviewed by a Senior Editor, a Reviewing Editor, and two reviewers. \[when the Reviewing editor ISN’T one of the two reviewers\]   .
+
+#### General checks
+
+* Use TNR point size 12.
+* Reviewer numbers can include hash or not: either is fine but be consistent within the file.
+* Check for language/comments that could be construed as inappropriate or offensive.
+* ‘_eLife_’ should be italicised.
+* Species names should be italicized \(where obvious, e.g., _Drosophila_, _D. melanogaster_, _C. elegans_, _E. coli_\)
+* Latin phrases such as ‘in vivo’ or ‘et al’ should not be italicised. 
+* Journal names not italicised.
+* Italicise gene names, where possible. If in doubt, leave what the authors provided.
+* Change to Figure X—figure supplement Y – NOT ‘Figure 1 S1’, ‘Fig 1 supplement 1’ or ‘Figure 1—supplemental figure 1’. Use em dashes.
+* Edit out references to page numbers and replace with appropriate references where possible e.g., section heading or abbreviated quotation. There is no need to include a detailed reference to the paragraph itself \(e.g. “eighth paragraph”\).
+
+{% hint style="info" %}
+Sometimes it is more beneficial to substitute a reference for a quotation or truncated quote, for instance, when the reviewers or authors allude to a specific sentence in the text. E.g.: “In the last paragraph of the Discussion” -&gt; In the Discussion, the authors state: “\[quote/truncated quote\]”
+{% endhint %}
+
+* Add in super/sub-scripts where appropriate \(match up decision letter to author response\), e.g. Ca2+ → Ca²+.
+* Replace hyphens with en dashes where they don’t concatenate a word.
+* Add in Greek symbols where appropriate, i.e., where a should be α, or b should be β.
+* Where words in the title are wrapped in `<i>` tags, remove the tags and italicise the text.
+* Where words are marked with asterisks or capitalised for emphasis, replace and italicise them instead.
+* Words italicised in the Decision letter do not need to be reversed to roman in the corresponding portion of text in the Author response, unless they have been used for emphasis.
+* If there are equations, check that they are editable \(an example of an non editable equation is when the equation is actually in an image format\).
+* For long quotations, abbreviate using ellipses, e.g., `In the Discussion we now say: “Blah, blah, blah. [...] Blah de blah, blah”`
+
+
+
+
+
+Images should be captured as separate `.jpg` files \(see below for formatting in word doc for images\). For images in PDFs, in Reader, take a snap shot, paste in Paint \(or similar\) and save as `.jpg`. For images in Word, right click, save as `.jpg`.
+
+{% hint style="info" %}
+When PNGs turn out to be too small and with reduced quality, a good solution is to enhance the size of the PDF file and take a screenshot of the figures \(Alt+Print Screen in Windows, Command-Shift-4 in OS X\). Please make sure to crop the images as appropriate \(e.g. if the screenshot captures the whole screen\).
+{% endhint %}
+
 #### Decision letter images
 
 Decision letter images should be added to the word doc in the following way:
