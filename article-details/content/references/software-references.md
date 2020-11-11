@@ -370,7 +370,19 @@ The DOI Badge will pop up:
 
 * eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the URL for this software so that we can add it to the reference list. Alternatively, please provide the RRID for this software.
 
+## Example of a Software Heritage software reference
 
+
+
+| Kriya field | Mandatory? | XML element | Example |
+| :--- | :--- | :--- | :--- |
+| Author | Yes \(or a collaboration must be entered instead\) | &lt;person-group person-group-type="author"&gt; &lt;name&gt; | Bloggs J |
+| Collaboration | Yes \(or authors must be entered instead\) | &lt;person-group person-group-type="author"&gt; &lt;collab&gt; | R Development Core Team |
+| Year | Yes | &lt;year iso-8601-date="XXXXXX"&gt; where XXXXXX is the year | 2020 |
+| Software title | Yes | &lt;data-title&gt; | blech\_clust |
+| Source | Yes \(or Publisher must be entered instead\) | &lt;source&gt; | Software Heritage |
+| Software version | No | &lt;version designator="XXXXXX"&gt; where XXXXXX is the version | swh:1:rev:c008b3ff49d567a1abe9d9eed42afed4e9a27b42 |
+| Website | No | &lt;ext-link ext-link-type="uri" xlink:href="XXXXXX"&gt; where XXXXXX is the URL | https://archive.softwareheritage.org/swh:1:dir:89513b41bd021137c72fa7cf3e57bcef4bf6c933;origin=https://github.com/lifan36/Zhan-Fan-et-al-2019-scRNAseq;visit=swh:1:snp:7166156ca6702a41990236e9da386c44440b6609;anchor=swh:1:rev:c008b3ff49d567a1abe9d9eed42afed4e9a27b42/ |
 
 ## XML Structure
 
