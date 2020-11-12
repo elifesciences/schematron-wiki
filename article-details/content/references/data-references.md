@@ -8,8 +8,6 @@ description: This is a page about entries for datasets in the reference list.
 
 A data reference gives bibliographic details for a dataset deposited with a structured repository, database or other data-sharing platform. These may be in addition to those in the [**data availability section**](../data-availability.md), or they may repeat those listed in that section.
 
-
-
 ## What needs to be added?
 
 The following information can be added for data references:
