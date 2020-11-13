@@ -352,17 +352,29 @@ If this warning appears at the post-editing stage, the authors may need to be as
 
 These checks relate to the XML structure of journal references. For more information about what the XML should look like, [**see below**](journal-references.md#xml-structure).
 
-#### err-elem-cit-journal-2-1
+#### pre-err-elem-cit-journal-2-1
+
+**Warning:** _Each &lt;element-citation&gt; of type 'journal' must contain one and only one &lt;person-group&gt; element. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements. If this information is missing, please query the authors for it._
+
+**Action:** This will fire at pre author stages. If there is no author list present, one will need to be added to the reference. Look the article up online if possible; otherwise raise an author query on the proof for the missing information. In cases where no author is given, 'Anon' will most likely need to be added in the 'Collaboration' field \(&lt;collab&gt;\). Alternatively, if the article is an [editorial piece](https://www.nature.com/articles/d41586-020-01620-1), use the name of the journal in the 'Collaboration' field. If there are multiple person-group elements, this means there has been an error in processing - Exeter will need to fix this.
+
+#### final-err-elem-cit-journal-2-1
 
 **Error:** _Each &lt;element-citation&gt; of type 'journal' must contain one and only one &lt;person-group&gt; element. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements._
 
-**Action:** If there is no author list present, one will need to be added to the reference. Look the article up online if possible; otherwise raise an author query on the proof for the missing information. In cases where no author is given, 'Anon' will most likely need to be added in the 'Collaboration' field \(&lt;collab&gt;\). Alternatively, if the article is an [editorial piece](https://www.nature.com/articles/d41586-020-01620-1), use the name of the journal in the 'Collaboration' field. If there are multiple person-group elements, this means there has been an error in processing - Exeter will need to fix this.
+**Action:** This will fire at post-author stages. If there is no author list present, one will need to be added to the reference. Look the article up online if possible; otherwise the eLife production team should contact the authors for the missing information. In cases where no author is given, 'Anon' will most likely need to be added in the 'Collaboration' field \(&lt;collab&gt;\). Alternatively, if the article is an [editorial piece](https://www.nature.com/articles/d41586-020-01620-1), use the name of the journal in the 'Collaboration' field. If there are multiple person-group elements, this means there has been an error in processing - Exeter will need to fix this.
 
-#### err-elem-cit-journal-2-2
+#### pre-err-elem-cit-journal-2-2
+
+**Warning:** _Each &lt;element-citation&gt; of type 'journal' must contain one &lt;person-group&gt; with the attribute person-group-type 'author'. Reference 'XXXXXX' has a &lt;person-group&gt; type of 'XXXXXX'._
+
+**Action:** This warning will fire at pre-author stages if there is no author list, or if authors have been tagged as other kinds of contributors \(e.g. editors or curators\). If there is no author list, make sure this is added by searching for the article details online. If the details cannot be found, then add an author query in the proofs asking for the author list. If there are contributors other than authors or collaborations, this means there has been an error in processing - Exeter will need to fix this.
+
+#### final-err-elem-cit-journal-2-2
 
 **Error:** _Each &lt;element-citation&gt; of type 'journal' must contain one &lt;person-group&gt; with the attribute person-group-type 'author'. Reference 'XXXXXX' has a &lt;person-group&gt; type of 'XXXXXX'._
 
-**Action:** This error will appear if there is no author list, or if authors have been tagged as other kinds of contributors \(e.g. editors or curators\). If there is no author list, make sure this is added by searching for the article details online. If there are contributors other than authors or collaborations, this means there has been an error in processing - Exeter will need to fix this.
+**Action:** This error will fire at post-author stages if there is no author list, or if authors have been tagged as other kinds of contributors \(e.g. editors or curators\). If there is no author list, make sure this is added by searching for the article details online. If the details cannot be found, then the eLife production team will need to contact the authors to ask for the author list. If there are contributors other than authors or collaborations, this means there has been an error in processing - Exeter will need to fix this.
 
 #### err-elem-cit-journal-3-1
 
