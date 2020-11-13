@@ -620,4 +620,5 @@ Journal reference with eLocation ID.
 ## Change log
 
 * Update 2020-08-17 with `elife-check`.
+* Updated 2020-11-13 to account for splitting of `err-elem-cit-journal-2-1` and `err-elem-cit-journal-2-2` into pre and final versions.
 
