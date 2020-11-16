@@ -206,5 +206,5 @@ The following points should be addressed during copy-editing:
 
 ## Changelog
 
-* 13/11/2020 - updated gudiance on titles for Review articles.
+* Updated 2020-11-13 to provide gudiance on titles for Review articles.
 
