@@ -4,8 +4,6 @@ description: XQuery processor and Database management system
 
 # BaseX
 
-
-
 ## Offline Schematron validation
 
 If, for whatever reason, the [**Schematron validator**](https://basex-validator--staging.elifesciences.org/schematron) is not working for a particular article, offline validation reports can be provided to Exeter using BaseX.
