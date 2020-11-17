@@ -72,6 +72,8 @@ Archive:  /Users/fredatherden/Desktop/elife_Nov_16.video.zip
   * A `mimetype="video"` attribute.
 * Video filenames must be unique for the entire journal. In other words, they need to contain the manuscript tracking number. 
 
+If, after checking that all of these are correct, you are still unsure of the cause of video failures, then Glencoe should be contacted.
+
 ## After videos are supplied
 
 After the videos have successfully been supplied, they are processed by Glencoe. This is quick and usually only takes a few seconds. Once the videos have been processed, production@elifesciences.org receive a video processing confirmation email from elife-support@glencoesoftware.com. Here is an example of one:
