@@ -51,6 +51,11 @@ Decision letters and Author responses are collated from the peer review correspo
 
 A Macro is run on the content which normalises it \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This resultant word document is then QC'd by Ed Office, and uploaded to the S3 bucket.
 
+### General guidance
+
+* Acceptance summaries aren't strictly compulsory, but are strongly encouraged.
+* Articles accepted at full submission will not include a 'Your article has been reviewed by ...' introduction paragraph in the decision letter.
+
 ## Decision letter QC
 
 Editorial office carry out a series of on Decision letters.
