@@ -51,11 +51,6 @@ Decision letters and Author responses are collated from the peer review correspo
 
 A Macro is run on the content which normalises it \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This resultant word document is then QC'd by Ed Office, and uploaded to the S3 bucket.
 
-### General guidance
-
-* Acceptance summaries aren't strictly compulsory, but are strongly encouraged.
-* Articles accepted at full submission will not include a 'Your article has been reviewed by ...' introduction paragraph in the decision letter.
-
 ## Decision letter QC
 
 Editorial office carry out a series of on Decision letters.
@@ -306,7 +301,13 @@ eLife Editorial will inform eLife Production prior to uploading a Decision lette
 
 See below for the workflow
 
-[https://docs.google.com/drawings/d/1mN7lHDMwa2CWaMSoR8q1xHiuvDzY3y3iOGdG9UKUVTc/edit](https://docs.google.com/drawings/d/1mN7lHDMwa2CWaMSoR8q1xHiuvDzY3y3iOGdG9UKUVTc/edit)
+{% embed url="https://docs.google.com/drawings/d/1mN7lHDMwa2CWaMSoR8q1xHiuvDzY3y3iOGdG9UKUVTc/edit" %}
+
+## General guidance for Decision letter proofing queries
+
+* Acceptance summaries aren't strictly compulsory, but are strongly encouraged.
+* Articles accepted at full submission will not include a 'Your article has been reviewed by ...' introduction paragraph in the decision letter.
+* In the interests of transparency, we _do_ include peer review information, for example that the decision was appealed.
 
 ## Schematron checks
 
