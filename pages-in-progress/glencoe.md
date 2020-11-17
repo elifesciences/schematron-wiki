@@ -4,7 +4,130 @@ description: The video hosting platform that eLife use
 
 # Glencoe
 
-eLife host their videos on a site hosted by Glencoe software Inc.
+eLife host their videos on a site hosted by Glencoe software Inc. The videos are provided to Glencoe in an FTP by Exeter.
 
-## 
+## When are videos supplied
+
+Videos are uploaded to the Glencoe FTP once during the production process at pre-editing by Exeter. If there are any changes to required to the videos during proofing, then this is done at post-author validation.
+
+## How are videos supplied 
+
+Exeter supply videos and metadata to the Glencoe FTP. This is an automated process, except in cases where the videos for an article are cumulatively large enough in file size, that they need to be manually uploaded.
+
+Videos are added to a folder, then name of which is the tracking number for the respective article in the Glencoe FTP. Inside the folder is placed two zips \(this isn't actually a requirement from Glencoe, it could just be one zip, this is simply how Exeter have implemented it\). One zip contains all the videos files usually with the file name `elife_{Month}_{day}_videos.zip`. The XML is provided in a second zip, with a filename in the format `elife_{Month}_{day}_xml.zip`.
+
+The zip files should contain no internal directories \(this is a common cause of any video processing failures, when they have to uploaded manually\).
+
+The XML is a simple JATS file, which has a publication date of the upload date, and a `<media/>` element for each of the videos. See [**the example**](glencoe.md#example-of-xml) below.
+
+## Troubleshooting video upload failures
+
+Typically we don't receive notifications from Glencoe when video processing has failed \(although in some cases we may\). This is simply because the metadata or videos themselves have been provided in such a way that they cannot be processed to begin with.
+
+If Exeter are unsure of the reason why videos have failed processing, they will contact the eLife production team.
+
+Contact Fred in the eLife production team if you need access to the FTP.
+
+Below is a checklist which outlines what the cause of the problem may be. But first, if you have [**BaseX**](../toolkit/basex.md) running locally, you can run the below XQuery on the zip files from the FTP in order to more quickly determine the cause of the problem. 
+
+{% file src="../.gitbook/assets/glencoe-validation.xq" caption="Glencoe check" %}
+
+In order to run it, simply place the two zip files in a folder somewhere \(such as on your desktop\), and then in the query itself, change the following parameter so that it points to the location of that folder:
+
+```markup
+declare variable $folder := '/Users/fredatherden/Desktop/glencoe/';
+```
+
+### Checklist
+
+* The zip files cannot contain directories. If needed, this can be checked using the following bash script:
+
+```text
+unzip -l patth-to-zipfile.zip
+```
+
+`path-to-zipfile` should be replaced with an actual path the the zip file \(including the zip filename\).
+
+If there is a folder in the zip, this will be shown in the output, for example:
+
+```text
+Archive:  /Users/fredatherden/Desktop/elife_Nov_16.video.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  11-17-2020 09:39   elife_Nov_16.video/
+ 10234324  11-16-2020 13:36   elife_Nov_16.video/elife-58952-fig1-video2.avi
+ 55439460  11-16-2020 13:36   elife_Nov_16.video/elife-58952-fig1-video1.avi
+ 55300596  11-16-2020 13:37   elife_Nov_16.video/elife-58952-fig3-video1.avi
+  2290242  11-16-2020 13:36   elife_Nov_16.video/elife-58952-fig2-video2.avi
+  2592582  11-16-2020 13:36   elife_Nov_16.video/elife-58952-fig2-video3.avi
+ 39843444  11-16-2020 13:36   elife_Nov_16.video/elife-58952-fig2-video1.avi
+---------                     -------
+165702153                     14 files
+```
+
+* The xml file must have the extension `.xml` \(case sensitive\).
+* The xml file must be valid JATS \(archiving version 1.1\).
+* The xml must contain a doi \(`<article-id pub-id-type="doi">...</article-id>`\).
+* In the xml, the `<media>` element must have the following:
+  * An id attribute, whose value is unique within the document.
+  * An `xlink:href` attribute with the video filename. This must be the exact filename \(this is case sensitive\).
+  * A `mimetype="video"` attribute.
+* Video filenames must be unique for the entire journal. In other words, they need to contain the manuscript tracking number. 
+
+## After videos are supplied
+
+After the videos have successfully been supplied, they are processed by Glencoe. This is very quick and usually only takes a few seconds. Once the videos have been processed, production@elifesciences.org receive a video processing confirmation email from elife-support@glencoesoftware.com. Here is an example of one:
+
+![A video processing confirmation email](../.gitbook/assets/screenshot-2020-11-17-at-09.50.03.png)
+
+The videos can then be interacted with using Glencoe's API. For example https://movie-usa.glencoesoftware.com/metadata/{doi} \(where `{doi}` is replaced with an actual doi\) will return a JSON response containing information relating to all the videos uploaded for that article. Similarly individual videos can be found using the following convention http://movie-usa.glencoesoftware.com/video/{doi}/{video-id} \(where `{video-id}` is the value of the id attribute for the media element in the XML for the corresponding video\).
+
+Once the videos have been processed by Glencoe, Exeter then embed the links in Kriya, so that the videos are displayed for proofing.
+
+## Why pub dates are included in the XML
+
+Publication dates in the XML are used for the purposes of billing by Glencoe. eLife are billed on a quarterly basis, so the pub-date determines which quarter we will be billed for the videos. 
+
+Pub dates are included in the first upload \(as the upload date\) so that they do not have to be resupplied later in the production workflow with the actual article publication date. We previously used to provide Glencoe the videos/metadata without the publication dates at the start of the workflow, and then resupply the metadata at the end of the workflow with the actual article publication date. However, this caused a race condition between video processing and Continuum \(which checks for the presence of videos using Glencoe's API\), and in cases where Continuum won the race, the article would fail, and in some cases remain stuck as unpublishable until developers could manually fix the problem.
+
+Providing publication dates at the start of the workflow resolves this race condition, but it does come with a caveat in that if the number videos in an article are changed during proofing \(added or removed\), and these uploads occur either side of a quarter billing cycle, then we are either under-, or over-paying for videos. The likelihood of this occurrence however is very rare.
+
+## Example of XML
+
+Here is an example of an XML that was uploaded on the 16th of November 2020.
+
+```markup
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d1 20130915//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1d1">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="nlm-ta">elife</journal-id>
+            <journal-id journal-id-type="publisher-id">eLife</journal-id>
+            <journal-title-group>
+                <journal-title>eLife</journal-title>
+            </journal-title-group>
+           <publisher>
+                <publisher-name>eLife Sciences Publications, Ltd</publisher-name>
+            </publisher></journal-meta>
+        <article-meta>
+            <article-id pub-id-type="publisher-id">58952</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.58952</article-id>
+			<pub-date date-type="publication" publication-format="electronic">
+				<day>16</day>
+				<month>11</month>
+				<year>2020</year>
+			</pub-date>
+        </article-meta>
+            </front>
+    <body>
+    <media content-type="glencoe play-in-place height-250 width-310" mime-subtype="avi" mimetype="video" xlink:href="elife-58952-fig1-video1.avi" id="fig1video1"/>
+        <media content-type="glencoe play-in-place height-250 width-310" mime-subtype="avi" mimetype="video" xlink:href="elife-58952-fig1-video2.avi" id="fig1video2"/>
+        <media content-type="glencoe play-in-place height-250 width-310" mime-subtype="avi" mimetype="video" xlink:href="elife-58952-fig2-video1.avi" id="fig2video1"/>
+        <media content-type="glencoe play-in-place height-250 width-310" mime-subtype="avi" mimetype="video" xlink:href="elife-58952-fig2-video2.avi" id="fig2video2"/>
+        <media content-type="glencoe play-in-place height-250 width-310" mime-subtype="avi" mimetype="video" xlink:href="elife-58952-fig2-video3.avi" id="fig2video3"/>
+        <media content-type="glencoe play-in-place height-250 width-310" mime-subtype="avi" mimetype="video" xlink:href="elife-58952-fig3-video1.avi" id="fig3video1"/>
+    </body>
+</article>
+```
 
