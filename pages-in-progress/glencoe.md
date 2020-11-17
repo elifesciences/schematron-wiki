@@ -14,9 +14,7 @@ Videos are uploaded to the Glencoe FTP once during the production process at pre
 
 Exeter supply videos and metadata to the Glencoe FTP. This is an automated process, except in cases where the videos for an article are cumulatively large enough in file size, that they need to be manually uploaded.
 
-Videos are added to a folder, then name of which is the tracking number for the respective article in the Glencoe FTP. Inside the folder is placed two zips \(this isn't actually a requirement from Glencoe, it could just be one zip, this is simply how Exeter have implemented it\). One zip contains all the videos files usually with the file name `elife_{Month}_{day}_videos.zip`. The XML is provided in a second zip, with a filename in the format `elife_{Month}_{day}_xml.zip`.
-
-The zip files should contain no internal directories \(this is a common cause of any video processing failures, when they have to uploaded manually\).
+Videos are added to a folder, the name of which is the tracking number for the respective article in the Glencoe FTP. Inside the folder two zips are placed \(this isn't actually a requirement from Glencoe, it could just be one zip, this is simply how Exeter have implemented it\). One zip contains all the videos files with a filename in the format `elife_{Month}_{day}_videos.zip`. The XML is provided in a second zip, with a filename in the format `elife_{Month}_{day}_xml.zip`.
 
 The XML is a simple JATS file, which has a publication date of the upload date, and a `<media/>` element for each of the videos. See [**the example**](glencoe.md#example-of-xml) below.
 
@@ -43,7 +41,7 @@ declare variable $folder := '/Users/fredatherden/Desktop/glencoe/';
 * The zip files cannot contain directories. If needed, this can be checked using the following bash script:
 
 ```text
-unzip -l patth-to-zipfile.zip
+unzip -l path-to-zipfile.zip
 ```
 
 `path-to-zipfile` should be replaced with an actual path the the zip file \(including the zip filename\).
