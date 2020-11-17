@@ -157,6 +157,7 @@ The current version of each affected article should be silently corrected follow
   * acknowledgements
   * decision letter
   * author response
+  * any author lists given in additional files \(supplementary files, source data, source code etc\)
 
 In cases where the individual's pronouns have changed in addition to their name, the following sections should be checked and updated if necessary:
 
