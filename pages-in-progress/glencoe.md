@@ -4,7 +4,7 @@ description: The video hosting platform that eLife use
 
 # Glencoe
 
-eLife host their videos on a site hosted by Glencoe software Inc. The videos are provided to Glencoe in an FTP by Exeter.
+eLife host their videos on a site hosted by Glencoe software Inc.
 
 ## When are videos supplied
 
