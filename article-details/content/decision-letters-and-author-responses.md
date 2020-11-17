@@ -307,7 +307,11 @@ See below for the workflow
 
 * Acceptance summaries aren't strictly compulsory, but are strongly encouraged.
 * Articles accepted at full submission will not include a 'Your article has been reviewed by ...' introduction paragraph in the decision letter.
-* In the interests of transparency, we _do_ include peer review information, for example that the decision was appealed.
+* We include peer review information, for example that the decision was appealed.
+* We tend to retain the original/previous article titles, as the changes are often at the behest of the editors and so should be included in the decision letter \(references to these changes are not essential, but would be nice\).
+* Usual best practice is to not change what the editors wrote.
+* Any missing information \(such as missing characters\) can be queried with Editorial Office, since they will have access to the original files.
+* Articles reviewed by Review commons will only have an acceptance summary as the Decision letter. The Author response will still contain responses to specific points however.
 
 ## Schematron checks
 
