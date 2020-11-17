@@ -74,7 +74,7 @@ Archive:  /Users/fredatherden/Desktop/elife_Nov_16.video.zip
 
 ## After videos are supplied
 
-After the videos have successfully been supplied, they are processed by Glencoe. This is very quick and usually only takes a few seconds. Once the videos have been processed, production@elifesciences.org receive a video processing confirmation email from elife-support@glencoesoftware.com. Here is an example of one:
+After the videos have successfully been supplied, they are processed by Glencoe. This is quick and usually only takes a few seconds. Once the videos have been processed, production@elifesciences.org receive a video processing confirmation email from elife-support@glencoesoftware.com. Here is an example of one:
 
 ![A video processing confirmation email](../.gitbook/assets/screenshot-2020-11-17-at-09.50.03.png)
 
@@ -86,9 +86,9 @@ Once the videos have been processed by Glencoe, Exeter then embed the links in K
 
 Publication dates in the XML are used for the purposes of billing by Glencoe. eLife are billed on a quarterly basis, so the pub-date determines which quarter we will be billed for the videos. 
 
-Pub dates are included in the first upload \(as the upload date\) so that they do not have to be resupplied later in the production workflow with the actual article publication date. We previously used to provide Glencoe the videos/metadata without the publication dates at the start of the workflow, and then resupply the metadata at the end of the workflow with the actual article publication date. However, this caused a race condition between video processing and Continuum \(which checks for the presence of videos using Glencoe's API\), and in cases where Continuum won the race, the article would fail, and in some cases remain stuck as unpublishable until developers could manually fix the problem.
+Pub dates are included in the first upload \(as the upload date\) so that they do not have to be resupplied later in the production workflow with the actual article publication date. We previously used to provide Glencoe the videos/metadata without the publication dates at the start of the workflow, and then resupply the metadata at the end of the workflow with the actual article publication date. However, this caused a race condition between video processing and Continuum \(which checks for the presence of videos using Glencoe's API\), and in cases where Continuum won the race, the article would fail ingestion, and in some cases remain stuck as unpublishable until developers could manually fix the problem.
 
-Providing publication dates at the start of the workflow resolves this race condition, but it does come with a caveat in that if the number videos in an article are changed during proofing \(added or removed\), and these uploads occur either side of a quarter billing cycle, then we are either under-, or over-paying for videos. The likelihood of this occurrence however is very rare.
+Providing publication dates at the start of the workflow resolves this race condition, but it does come with a caveat - if the number videos in an article are changed during proofing \(added or removed\), and these uploads occur either side of a quarterly billing cycle, then we are either under-, or over-paying for videos. The likelihood of this occurrence, however, is very rare.
 
 ## Example of XML
 
