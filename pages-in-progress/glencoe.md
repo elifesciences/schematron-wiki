@@ -38,7 +38,7 @@ declare variable $folder := '/Users/fredatherden/Desktop/glencoe/';
 
 ### Checklist
 
-* The zip files cannot contain directories. If needed, this can be checked using the following bash script \(in the command line\):
+* The zip files cannot contain directories. If needed, Mac users can check this using the following bash script \(in the command line\):
 
 ```text
 unzip -l path-to-zipfile.zip
