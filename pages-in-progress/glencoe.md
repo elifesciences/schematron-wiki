@@ -38,15 +38,15 @@ declare variable $folder := '/Users/fredatherden/Desktop/glencoe/';
 
 ### Checklist
 
-* The zip files cannot contain directories. If needed, this can be checked using the following bash script:
+* The zip files cannot contain directories. If needed, this can be checked using the following bash script \(in the command line\):
 
 ```text
 unzip -l path-to-zipfile.zip
 ```
 
-`path-to-zipfile` should be replaced with an actual path the the zip file \(including the zip filename\).
+`path-to-zipfile` should be replaced with an actual path the the zip file \(including the zip filename - for example `unzip -l /Users/fredatherden/Desktop/elife_Nov_16.video.zip`\).
 
-If there is a folder in the zip, this will be shown in the output, for example:
+If there is a folder in the zip, this will be shown in the output of that command. Here is an example of a zip which contains a directory \(named `elife_Nov_16.video/`\):
 
 ```text
 Archive:  /Users/fredatherden/Desktop/elife_Nov_16.video.zip
