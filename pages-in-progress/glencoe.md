@@ -44,7 +44,7 @@ declare variable $folder := '/Users/fredatherden/Desktop/glencoe/';
 unzip -l path-to-zipfile.zip
 ```
 
-`path-to-zipfile` should be replaced with an actual path the the zip file \(including the zip filename - for example `unzip -l /Users/fredatherden/Desktop/elife_Nov_16.video.zip`\).
+`path-to-zipfile` should be replaced with an actual path to the zip file \(including the zip filename - for example `unzip -l /Users/fredatherden/Desktop/elife_Nov_16.video.zip`\).
 
 If there is a folder in the zip, this will be shown in the output of that command. Here is an example of a zip which contains a directory \(named `elife_Nov_16.video/`\):
 
@@ -72,6 +72,8 @@ Archive:  /Users/fredatherden/Desktop/elife_Nov_16.video.zip
   * A `mimetype="video"` attribute.
 * Video filenames must be unique for the entire journal. In other words, they need to contain the manuscript tracking number. 
 
+If you have identified that any of these are the cause of the problem, then this should be fed back to Exeter so that they can correct the package and re-upload. 
+
 If, after checking that all of these are correct, you are still unsure of the cause of video failures, then Glencoe should be contacted.
 
 ## After videos are supplied
@@ -82,6 +84,37 @@ After the videos have successfully been supplied, they are processed by Glencoe.
 
 The videos can then be interacted with using Glencoe's API. For example https://movie-usa.glencoesoftware.com/metadata/{doi} \(where `{doi}` is replaced with an actual doi\) will return a JSON response containing information relating to all the videos uploaded for that article. Similarly individual videos can be found using the following convention http://movie-usa.glencoesoftware.com/video/{doi}/{video-id} \(where `{video-id}` is the value of the id attribute for the media element in the XML for the corresponding video\).
 
+Here are some examples using 61467:
+
+This http://movie-usa.glencoesoftware.com/video/10.7554/eLife.61467 returns the following JSON:
+
+```javascript
+{
+    "video1": {
+        "source_href": "http://static-movie-usa.glencoesoftware.com/source/10.7554/207/10505bff099f27841cf09b9e363b9f5650980b15/elife-61467-video1.mov",
+        "doi": "",
+        "flv_href": "http://static-movie-usa.glencoesoftware.com/flv/10.7554/207/10505bff099f27841cf09b9e363b9f5650980b15/elife-61467-video1.flv",
+        "uuid": "6c956a13-dae8-46ed-a7b4-dff68b01903d",
+        "title": "video1",
+        "video_id": "video1",
+        "solo_href": "http://movie-usa.glencoesoftware.com/video/10.7554/eLife.61467/video1",
+        "height": 1398,
+        "ogv_href": "http://static-movie-usa.glencoesoftware.com/ogv/10.7554/207/10505bff099f27841cf09b9e363b9f5650980b15/elife-61467-video1.ogv",
+        "width": 2346,
+        "legend": "",
+        "href": "elife-61467-video1.mov",
+        "webm_href": "http://static-movie-usa.glencoesoftware.com/webm/10.7554/207/10505bff099f27841cf09b9e363b9f5650980b15/elife-61467-video1.webm",
+        "jpg_href": "http://static-movie-usa.glencoesoftware.com/jpg/10.7554/207/10505bff099f27841cf09b9e363b9f5650980b15/elife-61467-video1.jpg",
+        "duration": 5.298984,
+        "mp4_href": "http://static-movie-usa.glencoesoftware.com/mp4/10.7554/207/10505bff099f27841cf09b9e363b9f5650980b15/elife-61467-video1.mp4",
+        "id": "",
+        "size": 11645704
+    }
+}
+```
+
+Whereas this http://movie-usa.glencoesoftware.com/video/10.7554/eLife.61467/video1 returns a page containing the video for video 1.
+
 Once the videos have been processed by Glencoe, Exeter then embed the links in Kriya, so that the videos are displayed for proofing.
 
 ## Why pub dates are included in the XML
@@ -90,7 +123,7 @@ Publication dates in the XML are used for the purposes of billing by Glencoe. eL
 
 Pub dates are included in the first upload \(as the upload date\) so that they do not have to be resupplied later in the production workflow with the actual article publication date. We previously used to provide Glencoe the videos/metadata without the publication dates at the start of the workflow, and then resupply the metadata at the end of the workflow with the actual article publication date. However, this caused a race condition between video processing and Continuum \(which checks for the presence of videos using Glencoe's API\), and in cases where Continuum won the race, the article would fail ingestion, and in some cases remain stuck as unpublishable until developers could manually fix the problem.
 
-Providing publication dates at the start of the workflow resolves this race condition, but it does come with a caveat - if the number videos in an article are changed during proofing \(added or removed\), and these uploads occur either side of a quarterly billing cycle, then we are either under-, or over-paying for videos. The likelihood of this occurrence, however, is very rare.
+Providing publication dates at the start of the workflow resolves this race condition, but it does come with a caveat - if the number of videos in an article are changed during proofing \(added or removed\), and these uploads occur either side of a quarterly billing cycle, then we are either under-, or over-paying for videos. The likelihood of this occurrence, however, is very rare.
 
 ## Example of XML
 
