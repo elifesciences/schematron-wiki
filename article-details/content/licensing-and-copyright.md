@@ -32,6 +32,10 @@ If a figure has been reproduced, or if the legend for a figure or figure supplem
 
 The editorial team check figure permissions as part of submission quality checks. They will leave a note for Exeter if permissions information needs to be added to the XML. The production team is the backstop in this process and may need to veto previous decisions or double-check the communication and decision-making process.
 
+{% hint style="info" %}
+Note: if multiple panels have been reproduced and require permissions information to be added, these should not be merged into a single permissions tag. Each panel should have a separate permissions tag.
+{% endhint %}
+
 #### Reproductions from CC BY-licensed content
 
 All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license. The CC BY 4.0 license allows content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions. 
@@ -59,7 +63,7 @@ If an article has reproduced figures from content that was previously published 
 </permissions>
 ```
 
-Note: if the reproduced image is CC BY-SA, CC BY-NC or CC BY-SA, this also needs to be indicated in the underlying XML as these licenses are not as permissive as CC BY or CC0. For example, in 52371, the following text was present in a caption:
+If the reproduced image is CC BY-SA, CC BY-NC or CC BY-SA, this also needs to be indicated in the underlying XML as these licenses are not as permissive as CC BY or CC0. For example, in 52371, the following text was present in a caption:
 
 > Photo credit: Marine snail \(Original photo by Katja Schulz, courtesy of Wikipedia, Creative Commons Attribution: Creative Commons, Attribution 2.0 Generic license\); Chambered nautilus \(Original photo by Profbergert, courtesy of Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported license\)
 
@@ -380,7 +384,7 @@ If there is no '[**https://creativecommons.org/**](https://creativecommons.org/)
 
 **Warning**: _XXXXXX permissions - the &lt;license-p&gt; contains a CC link, but the license does not have an ali:licens\_ref element, which is very likely incorrect._
 
-**Action**: Exeter to add
+**Action**: This warning will fire if there is a '[**https://creativecommons.org/**](https://creativecommons.org/)**'** type link in the license element but there is no ali:license\_ref element. Exeter will need to add the ali:license\_ref element in. 
 
 ### XML structure checks
 
@@ -436,10 +440,10 @@ These checks relate to the XML structure of licensing tagging.
             <license-p>
                 This is an open-access article, free of all copyright, and may be
                 freely reproduced, distributed, transmitted, modified, built upon,
-                or otherwise used by anyone for any lawful purpose. The work is made
-                available under the <ext-link ext-link-type="uri"
-                xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">Creative
-                Commons CC0 public domain dedication</ext-link>.
+                or otherwise used by anyone for any lawful purpose. The work is 
+                made available under the <ext-link ext-link-type="uri"
+                xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">
+                Creative Commons CC0 public domain dedication</ext-link>.
             </license-p>
             </license>
         </permissions>
@@ -461,7 +465,8 @@ These checks relate to the XML structure of licensing tagging.
         and then slide onto
         dsDNA (flush end) and continue tracking on the same 3’−5’ strand.</p>
     </caption>
-    <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-46515-fig3-figsupp1-v2.tif"/>
+    <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-46515-fig3-
+    figsupp1-v2.tif"/>
     <permissions>
         <copyright-statement>© 2009 Elsevier</copyright-statement>
         <copyright-year>2009</copyright-year>
@@ -488,10 +493,12 @@ These checks relate to the XML structure of licensing tagging.
        <copyright-year>2007</copyright-year>
        <copyright-holder>Lee Berger</copyright-holder>
        <license>
+       <ali:license_ref>https://creativecommons.org/licenses/by-sa/3.0/
+       </ali:license_ref>
          <license-p>Chambered nautilus image courtesy of Lee Berger. Published
           under a <ext-link ext-link-type="uri"
-          xlink:href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY SA 3.0
-          unported license</ext-link>.</license-p>
+          xlink:href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY 
+          SA 3.0 unported license</ext-link>.</license-p>
        </license>
      </permissions>
 </fig>
