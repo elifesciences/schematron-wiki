@@ -8,7 +8,7 @@ eLife videos are on a site hosted by Glencoe software Inc.
 
 ## When are videos supplied
 
-Videos are uploaded to the Glencoe FTP once during the production process at pre-editing by Exeter. If there are any changes to required to the videos during proofing, then this is done at post-author validation.
+Videos are uploaded to the Glencoe FTP once during the production process at pre-editing by Exeter. If there are any changes required to the videos during proofing, then this is done at post-author validation.
 
 ## How are videos supplied 
 
@@ -20,7 +20,7 @@ The XML is a simple JATS file, which has a publication date of the upload date, 
 
 ## Troubleshooting video upload failures
 
-Typically we don't receive notifications from Glencoe when video processing has failed \(although in some cases we may\). This is simply because the metadata or videos themselves have been provided in such a way that they cannot be processed to begin with.
+Typically we don't receive notifications from Glencoe when video processing has failed \(although in some cases we may\). This is simply because the metadata or videos themselves have been provided in such a way that they cannot be processed to begin with. Glencoe only provide video transcoding error messages, so if the videos cannot be found \(due to problems with the way they are provided\), then there is no message indicating this from Glencoe. The only indication that something is not correct, is that there is no confirmation email at all.
 
 If Exeter are unsure of the reason why videos have failed processing, they will contact the eLife production team.
 
