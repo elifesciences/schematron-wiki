@@ -48,8 +48,12 @@ If an article has reproduced figures from content that was previously published 
     <copyright-year>2018</copyright-year>
     <copyright-holder>Françoise Brand </copyright-holder>
     <license>
-        <ali:license_ref>http://creativecommons.org/licenses/by/4.0/</ali:license_ref> 
-        <license-p>Image courtesy of Françoise Brand, Swiss Tropical and Public Health Institute and University of Basel. Published under a <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 license.</ext-link>
+        <ali:license_ref>http://creativecommons.org/licenses/by/4.0/
+        </ali:license_ref> 
+        <license-p>Image courtesy of Françoise Brand, Swiss Tropical 
+        and Public Health Institute and University of Basel. Published under 
+        a <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/
+        licenses/by/4.0/">CC BY 4.0 license.</ext-link>
         </license-p>
     </license>
 </permissions>
@@ -67,7 +71,8 @@ No tagging needed to be added for the marine snail image as this was published u
     <copyright-year>2007</copyright-year>
      <copyright-holder>Lee Berger</copyright-holder>
      <license>
-        <ali:license_ref>https://creativecommons.org/licenses/by-sa/3.0/</ali:license_ref>
+        <ali:license_ref>https://creativecommons.org/licenses/by-sa/3.0/
+        </ali:license_ref>
         <license-p>Chambered nautilus image courtesy of Lee Berger. Published 
         under a <ext-link ext-link-type=“uri” 
         xlink:href=“https://creativecommons.org/licenses/by-sa/3.0/”>CC BY SA 3.0 
@@ -104,18 +109,18 @@ The copyright-statement field will not be provided in the sticky note but the XM
 
 ```markup
 <permissions>
-<copyright-statement>© 2009 Elsevier</copyright-statement>
-<copyright-year>2009</copyright-year>
-<copyright-holder>Elsevier</copyright-holder>
-<license>
-<license-p>
-Figure 1A is reprinted from
-<xref ref-type="bibr" rid="bib40">Simonetta et al., 2009</xref>
-, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence 
-and further reproduction of this panel would need permission from the copyright 
-holder.
-</license-p>
-</license>
+    <copyright-statement>© 2009 Elsevier</copyright-statement>
+    <copyright-year>2009</copyright-year>
+    <copyright-holder>Elsevier</copyright-holder>
+    <license>
+        <license-p>
+        Figure 1A is reprinted from
+        <xref ref-type="bibr" rid="bib40">Simonetta et al., 2009</xref>, with
+        permission from Elsevier. It is not covered by the CC-BY 4.0 licence 
+        and further reproduction of this panel would need permission from the 
+        copyright holder.
+        </license-p>
+    </license>
 </permissions>
 ```
 
@@ -333,7 +338,8 @@ See an example of XML for the article-level license of a CC-BY article [**here**
 
 ```markup
 <permissions>
-    <copyright-statement>© 2006 John Wiley and Sons. All Rights Reserved</copyright-statement>
+    <copyright-statement>© 2006 John Wiley and Sons. All Rights Reserved
+    </copyright-statement>
     <copyright-year>2006</copyright-year>
     <copyright-holder>John Wiley and Sons</copyright-holder>
     <license>
@@ -351,7 +357,8 @@ The license-p element should be corrected to:
 
 ```markup
 <permissions>
-    <copyright-statement>© 2006 John Wiley and Sons. All Rights Reserved</copyright-statement>
+    <copyright-statement>© 2006 John Wiley and Sons. All Rights Reserved
+    </copyright-statement>
     <copyright-year>2006</copyright-year>
     <copyright-holder>John Wiley and Sons</copyright-holder>
     <license>
@@ -404,11 +411,13 @@ These checks relate to the XML structure of licensing tagging.
         <copyright-holder>Smith et al</copyright-holder>
         <ali:free_to_read/>
         <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
-          <ali:license_ref>http://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+          <ali:license_ref>http://creativecommons.org/licenses/by/4.0/
+          </ali:license_ref>
           <license-p>This article is distributed under the terms of the <ext-link
-          ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative 
-          Commons Attribution License</ext-link>, which permits unrestricted use and 
-          redistribution provided that the original author and source are credited.</license-p>
+          ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/
+          by/4.0/">Creative Commons Attribution License</ext-link>, which permits 
+          unrestricted use and redistribution provided that the original author 
+          and source are credited.</license-p>
         </license>
       </permissions>
     </front>
@@ -422,7 +431,8 @@ These checks relate to the XML structure of licensing tagging.
         <permissions>
         <ali:free_to_read/>
             <license xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">
-            <ali:license_ref>http://creativecommons.org/publicdomain/zero/1.0/</ali:license_ref>
+            <ali:license_ref>http://creativecommons.org/publicdomain/zero/1.0/
+            </ali:license_ref>
             <license-p>
                 This is an open-access article, free of all copyright, and may be
                 freely reproduced, distributed, transmitted, modified, built upon,
@@ -442,11 +452,13 @@ These checks relate to the XML structure of licensing tagging.
 <fig id="fig3s1" position="float" specific-use="child-fig">
     <label>Figure 3—figure supplement 1.</label>
     <caption>
-        <title>Duplex strand ATPases contact only one strand while encircling duplex DNA.</title>
+        <title>Duplex strand ATPases contact only one strand while encircling 
+        duplex DNA.</title>
         <p>(<bold>A</bold>) The<italic>E. coli</italic>clamp loader binds only
         one strand during action on dsDNA. (<bold>B</bold>) CMG motor domains
-        bind ssDNA in a B-form conformation. (<bold>C</bold>) Little to no conformation
-        change would be needed for CMG motors to bind B-form ssDNA and then slide onto
+        bind ssDNA in a B-form conformation. (<bold>C</bold>) Little to no 
+        conformation change would be needed for CMG motors to bind B-form ssDNA 
+        and then slide onto
         dsDNA (flush end) and continue tracking on the same 3’−5’ strand.</p>
     </caption>
     <graphic mime-subtype="tiff" mimetype="image" xlink:href="elife-46515-fig3-figsupp1-v2.tif"/>
