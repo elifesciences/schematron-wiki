@@ -129,7 +129,7 @@ Once the videos have been processed by Glencoe, Exeter then embed the links in K
 
 Publication dates in the XML are used for the purposes of billing by Glencoe. eLife are billed on a quarterly basis, so the pub-date determines which quarter we will be billed for the videos. 
 
-The publication date is included in the first upload, as the date of that upload \(not the publication date of the article, if there is one\) so that they do not have to be resupplied later in the production workflow with the actual article publication date. 
+The publication date is included in the first upload, as the date of that upload \(not the publication date of the article, if there is one; see the [**example below**](glencoe.md#example-of-xml), the article's publication date is not the 16th November, that's just the date of upload\). This is so that the videos do not have to be resupplied later in the production workflow with the actual article publication date. 
 
 We previously used to provide Glencoe the videos/metadata without the publication dates at the start of the workflow, and then resupply the metadata at the end of the workflow with the actual article publication date. However, this caused a race condition between video processing and Continuum \(which checks for the presence of videos using Glencoe's API\), and in cases where Continuum won the race, the article would fail ingestion, and in some cases remain stuck as unpublishable until developers could manually fix the problem.
 
