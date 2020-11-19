@@ -131,11 +131,11 @@ Publication dates in the XML are used for the purposes of billing by Glencoe. eL
 
 The publication date is included in the first upload, as the date of that upload \(not the publication date of the article; see the [**example below**](glencoe.md#example-of-xml), that article's publication date is not the 16th of November, that's simply the date those files were uploaded to the FTP\). This is so that the videos do not have to be resupplied later in the production workflow with the actual article publication date. 
 
+Any subsequent uploads should contain the same publication date as the first upload, however if it contained a separate date it would not matter, since only the first date provided is used by Glencoe for billing. 
+
 We previously used to provide Glencoe the videos/metadata without the publication dates at the start of the workflow, and then resupplied the metadata at the end of the workflow with the actual article publication date. However, this caused a race condition between video processing and Continuum \(which checks for the presence of videos using Glencoe's API\). In cases where Continuum won the race, the article would fail ingestion, and in some cases remain stuck as unpublishable until developers could manually fix the problem.
 
 Providing publication dates at the start of the workflow resolves this race condition, but it does come with a caveat - if the number of videos in an article are changed during proofing \(added or removed\), and these uploads occur either side of a quarterly billing cycle, then we are either under-, or over-paying for videos. The likelihood of this occurrence, however, is very rare.
-
-Any subsequent uploads should contain the same publication date as the the first upload \(again, the publication date is actually the first upload date\), however if it contained a separate date it would not matter, since only the first date provided is used by Glencoe for billing. 
 
 ## Example of XML
 
