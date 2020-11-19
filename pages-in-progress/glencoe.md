@@ -4,7 +4,7 @@ description: The video hosting platform that eLife use
 
 # Glencoe
 
-eLife videos are on a site hosted by Glencoe software Inc.
+Videos in eLife articles are hosted by Glencoe software Inc.
 
 ## When are videos supplied
 
@@ -14,7 +14,15 @@ Videos are uploaded to the Glencoe FTP once during the production process at pre
 
 Exeter supply videos and metadata to the Glencoe FTP. This is an automated process, except in cases where the videos for an article are cumulatively large enough in file size, that they need to be manually uploaded.
 
-Videos are added to a folder, the name of which is the tracking number for the respective article in the Glencoe FTP. Inside the folder two zips are placed \(this isn't actually a requirement from Glencoe, it could just be one zip, this is simply how Exeter have implemented it\). One zip contains all the videos files with a filename in the format `elife_{Month}_{day}_videos.zip`. The XML is provided in a second zip, with a filename in the format `elife_{Month}_{day}_xml.zip`.
+Videos are added to a folder, the name of which is the tracking number for the respective article in the Glencoe FTP. 
+
+![](../.gitbook/assets/screenshot-2020-11-19-at-13.00.22.png)
+
+Inside the folder two zips are placed \(this isn't actually a requirement from Glencoe, it could just be one zip, this is simply how Exeter have implemented it\). 
+
+![](../.gitbook/assets/screenshot-2020-11-19-at-14.19.51.png)
+
+One zip contains all the videos files with a filename in the format `elife_{Month}_{day}_videos.zip`. The XML is provided in a second zip, with a filename in the format `elife_{Month}_{day}_xml.zip`.
 
 The XML is a simple JATS file, which has a publication date of the upload date, and a `<media/>` element for each of the videos. See [**the example**](glencoe.md#example-of-xml) below.
 
@@ -121,9 +129,13 @@ Once the videos have been processed by Glencoe, Exeter then embed the links in K
 
 Publication dates in the XML are used for the purposes of billing by Glencoe. eLife are billed on a quarterly basis, so the pub-date determines which quarter we will be billed for the videos. 
 
-Pub dates are included in the first upload \(as the upload date\) so that they do not have to be resupplied later in the production workflow with the actual article publication date. We previously used to provide Glencoe the videos/metadata without the publication dates at the start of the workflow, and then resupply the metadata at the end of the workflow with the actual article publication date. However, this caused a race condition between video processing and Continuum \(which checks for the presence of videos using Glencoe's API\), and in cases where Continuum won the race, the article would fail ingestion, and in some cases remain stuck as unpublishable until developers could manually fix the problem.
+The publication date is included in the first upload, as the date of that upload \(not the publication date of the article, if there is one\) so that they do not have to be resupplied later in the production workflow with the actual article publication date. 
+
+We previously used to provide Glencoe the videos/metadata without the publication dates at the start of the workflow, and then resupply the metadata at the end of the workflow with the actual article publication date. However, this caused a race condition between video processing and Continuum \(which checks for the presence of videos using Glencoe's API\), and in cases where Continuum won the race, the article would fail ingestion, and in some cases remain stuck as unpublishable until developers could manually fix the problem.
 
 Providing publication dates at the start of the workflow resolves this race condition, but it does come with a caveat - if the number of videos in an article are changed during proofing \(added or removed\), and these uploads occur either side of a quarterly billing cycle, then we are either under-, or over-paying for videos. The likelihood of this occurrence, however, is very rare.
+
+Any subsequent uploads should contain the same publication date as the the first upload \(again, the publication date is actually the first upload date\), however if it contained a separate date it would not matter, since only the first date provided is used by Glencoe for billing. 
 
 ## Example of XML
 
