@@ -24,7 +24,7 @@ Inside the folder two zips are placed \(this isn't actually a requirement from G
 
 One zip contains all the videos files with a filename in the format `elife_{Month}_{day}_videos.zip`. The XML is provided in a second zip, with a filename in the format `elife_{Month}_{day}_xml.zip`.
 
-The XML is a simple JATS file, which has a publication date of the upload date, and a `<media/>` element for each of the videos. See [**the example**](glencoe.md#example-of-xml) below.
+The XML is a simple JATS file, which has a publication date \(which is actually the upload date\), and a `<media/>` element for each of the videos. See [**the example**](glencoe.md#example-of-xml) below.
 
 ## Troubleshooting video upload failures
 
