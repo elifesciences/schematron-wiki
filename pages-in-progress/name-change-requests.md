@@ -183,7 +183,9 @@ In this case, once the PoA version\(s\) have been updated and the VoR proof has 
 
 ### Updating old versions in the archive
 
-All previous versions of an article in which a name is being changed should be updated to match the current version. This cannot be done through the proofing system interface, as this only allow updates to the latest version of the article. To identify previously published versions of the affected article\(s\), go to the `elife-publishing-archive` bucket in the eLife Amazon Web Services \(AWS\). If a user searches for a published article, they will see zip packages for each PoA and VoR version that has been issued.
+All previous versions of an article in which a name is being changed should be updated to match the current version. This cannot be done through the proofing system interface, as this only allow updates to the latest version of the article.
+
+To identify previously published versions of the affected article\(s\), go to the `elife-publishing-archive` bucket in the eLife Amazon Web Services \(AWS\). If a user searches for a published article, they will see zip packages for each PoA and VoR version that has been issued.
 
 ![Example of version history for an article in archive](../.gitbook/assets/screen-shot-2020-10-06-at-12.50.16.png)
 
