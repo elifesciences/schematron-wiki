@@ -87,15 +87,15 @@ This has now been resolved. Unfortunately, this does mean that the citation to t
 
 ## What to do when a failure occurs \(non-Dryad\) 
 
-Occasionally, we receive Crossref failures that are not Dryad related. Depending on the nature of the error, this often requires a manual fix. 
+Occasionally, we receive Crossref failures that are not related to Dryad. Depending on the nature of the error, this often requires a manual fix. 
 
 Some failures alert us to issues within the proof such as a duplicate ORCID ID. This could occur due to a user error during the submission of the article or during proofing.
 
 ![](../.gitbook/assets/screen-shot-2020-11-20-at-14.08.50.png)
 
-In the case above, the proof had to be sent back to Exeter so they could remove the duplicated ORCID ID. You may wish to email the author in case they would like to add in the correct ORCID ID. The article can then be resent to Continuum and we should then receive a success email from Crossref. 
+In the case above, the proof had to be sent back to Exeter so they could remove the duplicated ORCID ID. You may wish to email the author in case they would like to add in the correct ORCID ID. The article can then be resent to Continuum and we should receive a success email from Crossref. 
 
-Other failures can be a result of a non-Dryad dataset which is not yet live. We often find this when an article is PoA'd and has included a DOI to a dataset that has been held for publication. By the publication of the VoR, this should be live or at least be in the process of being released. 
+Other failures can be a result of a non-Dryad dataset which is not yet live. This often occurs when an article is PoA'd and has included a DOI to a dataset that has been held for publication.
 
 ![](../.gitbook/assets/screen-shot-2020-11-20-at-14.15.06.png)
 
@@ -103,21 +103,21 @@ These type of failures are resolved in a similar way to a Dryad failure, however
 
 ## Replacing the XML at Crossref \(non-Dryad\)
 
-* Go to the Crossref admin page: https://doi.crossref.org/servlet/useragent?func=showHome and log in \(please ask Production for these credentials\). 
+* Go to the Crossref admin page: ****[**https://doi.crossref.org/servlet/useragent?func=showHome**](https://doi.crossref.org/servlet/useragent?func=showHome) and log in \(please ask Production for these credentials\). 
 * Select ‘Submission administration’.
 * Search for the DOI number with no restrictions, which will bring up the list of submissions processed by Crossref. Recent errors will be highlighted with a red ‘E’ symbol:
 
 ![](../.gitbook/assets/screen-shot-2020-07-09-at-15.39.22%20%281%29.png)
 
 * Locate the article that has failed.
-* Copy the filename and right/ctrl click on the file icon to the right of the ID \(blue text\). Click ‘Save link as’ and paste the old filename into the 'Save As:' field. When running the Dryad scenario, Oxygen will automatically change this name for you as Crossref will reject any files with duplicated names. This will need to be changed manually so you will need to change the filename so that the time is in the future \(this only needs to be an hour or so\) and click save. 
+* Copy the filename and right/ctrl click on the file icon to the right of the ID \(blue text\). Click ‘Save link as’ and paste the old filename into the 'Save As:' field. When running the Dryad scenario, Oxygen will automatically change this name for you as Crossref will reject any files with duplicated names. This will need to be changed manually in this instance so you will need to change the filename so that the time is in the future \(this only needs to be an hour or so\) and click save. 
 * Now open the XML file using your XML editor, such as Oxygen.
 * Using the Find/Replace function in Oxygen, search for the DOI in the Crossref failure email.
 
 ![](../.gitbook/assets/screen-shot-2020-11-20-at-14.40.26.png)
 
 * **Please note,** the XML has been formatted for training purposes, this should not be done normally. 
-* You will see the troublesome DOI highlighted. Double click on the `<rel :program>` tag that the DOI is located within and this will highlight the block of tagging that we need to remove. 
+* You will see the troublesome DOI highlighted. Double click on the `<rel :program>` tag that the DOI is located within to highlight the block of tagging that we need to remove. 
 
 ![](../.gitbook/assets/screen-shot-2020-11-20-at-14.43.28.png)
 
