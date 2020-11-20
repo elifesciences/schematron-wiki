@@ -37,6 +37,8 @@ Please check these are:
 
 In eJP, authors are only allowed to enter a maximum of 6 separate keywords. During proofing, authors may request to add more. If these seem reasonable, this is fine to do but you may wish to run this past Editorial if you are unsure.
 
+Common abbreviations such as DNA, RNA, TNF, TSS etc should not be spelt out. If the author has decided to expand these when entering the keyword into eJP, these should be left as provided. 
+
 ## Research organisms
 
 A research organism can be any creature that the authors used within their study. These can range from bacteria to humans. See below for the preselected list available in eJP but this is not exhaustive and authors may wish to add their own during proofing.
