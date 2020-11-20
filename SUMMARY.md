@@ -68,4 +68,5 @@
 * [Kriya](pages-in-progress/kriya-1.md)
 * [Name change requests](pages-in-progress/name-change-requests.md)
 * [Publish on accept protocols](pages-in-progress/publish-on-accept-protocols.md)
+* [Digests](pages-in-progress/digests.md)
 
