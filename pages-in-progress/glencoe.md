@@ -18,7 +18,7 @@ Videos are added to a folder, the name of which is the tracking number for the r
 
 ![](../.gitbook/assets/screenshot-2020-11-19-at-13.00.22.png)
 
-Inside the folder two zips are placed \(this isn't actually a requirement from Glencoe, it could just be one zip, this is simply how Exeter have implemented it\). 
+Inside the folder two zips are placed \(this isn't actually a requirement from Glencoe, it could just be one zip, this is simply how Exeter have implemented it using an older workflow and continue to do so for legacy reasons\). 
 
 ![](../.gitbook/assets/screenshot-2020-11-19-at-14.19.51.png)
 
@@ -133,7 +133,9 @@ The publication date is included in the first upload, as the date of that upload
 
 Any subsequent uploads should contain the same publication date as the first upload, however if it contained a separate date it would not matter, since only the first date provided is used by Glencoe for billing. 
 
-We previously used to provide Glencoe the videos/metadata without the publication dates at the start of the workflow, and then resupplied the metadata at the end of the workflow with the actual article publication date. However, this caused a race condition between video processing and Continuum \(which checks for the presence of videos using Glencoe's API\). In cases where Continuum won the race, the article would fail ingestion, and in some cases remain stuck as unpublishable until developers could manually fix the problem.
+We previously used to provide Glencoe the videos/metadata without the publication dates at the start of the workflow, and then resupplied the metadata at the end of the workflow with the actual article publication date. This is why the XML and videos are in separate zips, because it means that \(provided there are no changes to the videos\), only the XML needed re-uploading, rather than both the XML and the videos.
+
+However, this caused a race condition between video processing and Continuum \(which checks for the presence of videos using Glencoe's API\). In cases where Continuum won the race, the article would fail ingestion, and in some cases remain stuck as unpublishable until developers could manually fix the problem.
 
 Providing publication dates at the start of the workflow resolves this race condition, but it does come with a caveat - if the number of videos in an article are changed during proofing \(added or removed\), and these uploads occur either side of a quarterly billing cycle, then we are either under-, or over-paying for videos. The likelihood of this occurrence, however, is very rare.
 
