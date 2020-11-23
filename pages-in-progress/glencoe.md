@@ -133,7 +133,7 @@ The publication date is included in the first upload, as the date of that upload
 
 Any subsequent uploads should contain the same publication date as the first upload, however if it contained a separate date it would not matter, since only the first date provided is used by Glencoe for billing. 
 
-We previously used to provide Glencoe the videos/metadata without the publication dates at the start of the workflow, and then resupplied the metadata at the end of the workflow with the actual article publication date. This is why the XML and videos are in separate zips, because it means that \(provided there are no changes to the videos\), only the XML needed re-uploading, rather than both the XML and the videos.
+We previously used to provide Glencoe the videos/metadata without the publication dates at the start of the workflow, and then resupplied the metadata at the end of the workflow with the actual article publication date. This is why the XML and videos are in separate zips, because it meant that \(provided there are no changes to the videos\), only the XML needed re-uploading, rather than both the XML and the videos.
 
 However, this caused a race condition between video processing and Continuum \(which checks for the presence of videos using Glencoe's API\). In cases where Continuum won the race, the article would fail ingestion, and in some cases remain stuck as unpublishable until developers could manually fix the problem.
 
