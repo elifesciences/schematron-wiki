@@ -71,7 +71,7 @@ The NCBI Gene Expression Omnibus \(GEO\) has highly structured landing pages tha
 
 The Mass Sepctrometry Interactive Virtual Environment \(MassIVE\), however, only clearly shows the title for the article. Author details are limited to the citation associated with the data and the primary contact \(effectivley corresponding author\) for the dataset. Since the authors for the dataset may differ from those on the associated publication and the contact is unlikely to be solely responsible for collecting the data, an author query may be required to seek the full author list for the reference.
 
-In cases where no URL has been provided but an accession number is available, it is most likely possible 
+In cases where no URL has been provided but an accession number is available, it should be possible to find the URL either by searching in the indicated database or by plugging the accession number into known URL structures. See [**here**](../data-availability.md#database-examples) for a table of commonly used databases and their associated URL structures.
 
 ## Schematron checks
 
