@@ -107,35 +107,39 @@ Clarification is needed about whether we can contact the corresponding authors f
       1. Step-by-step instructions  
    3. \[Must wait for completion of 3a\] Based on the list of papers compiled by us and approved by the individual, compile list of research content \(authored, reviewed, edited articles\) to send to the Production Team \([production@elifesciences.org](mailto:production@elifesciences.org)\). 
 
-Template text – forwarding content to Production  
+  
 
 
-We have received a request for a name change – \[previous name\] should be updated to \[preferred name\] in the following content:  
+> **Template text – forwarding content to Production**
+>
+> We have received a request for a name change – \[previous name\] should be updated to \[preferred name\] in the following content:  
+>
+>
+> Authored articles: 
+>
+> Manuscript ID 1
+>
+> Manuscript ID 2
+>
+> Reviewed articles:
+>
+> Manuscript ID 3
+>
+> Edited articles:
+>
+> Manuscript ID 4
+>
+> Magazine content:
+>
+> \[link\]
+>
+> \[link\]  
+>
+>
+> \[Name\] has requested that the content be updated in all versions of the manuscript. / \[Name\] has indicated that they are happy for only the latest version of the manuscript to be updated. \[delete as appropriate\]  
+> \[Name\] has requested that, where possible, their pronouns should be updated to \[preferred pronouns\]. / \[Name\] has not requested a change to their pronouns. \[delete as appropriate\]
 
 
-Authored articles: 
-
-Manuscript ID 1
-
-Manuscript ID 2
-
-Reviewed articles:
-
-Manuscript ID 3
-
-Edited articles:
-
-Manuscript ID 4
-
-Magazine content:
-
-\[link\]
-
-\[link\]  
-
-
-\[Name\] has requested that the content be updated in all versions of the manuscript. / \[Name\] has indicated that they are happy for only the latest version of the manuscript to be updated. \[delete as appropriate\]  
-\[Name\] has requested that, where possible, their pronouns should be updated to \[preferred pronouns\]. / \[Name\] has not requested a change to their pronouns. \[delete as appropriate\]
 
 
 
