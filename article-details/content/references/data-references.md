@@ -87,13 +87,19 @@ In cases where no URL has been provided but an accession number is available, it
 
 **Error**: _\[err-elem-cit-data-3-2\] Each &lt;element-citation&gt; of type 'data' must contain at least one &lt;person-group&gt; element. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements._
 
-**Action**:
+**Action**: This error indicates that a data reference has zero &lt;person-group&gt; elements. Look the dataset up online if possible to identify the correct author list. If there are no authors given or the dataset cannot be found, please raise an author query on the proof for the missing information.
+
+* Please provide the author list for this reference.
 
 #### err-elem-cit-data-10
 
 **Error**: _\[err-elem-cit-data-10\] Each &lt;element-citation&gt; of type 'data' must contain one and only one &lt;data-title&gt; element. Reference 'XXXXXX' has XXXXXX &lt;data-title&gt; elements._
 
-**Action**:
+**Action**: This error indicates that a data reference either has no title or more than one title. If the title is missing and cannot be located online using the other details provided \(accession, DOI\), please add the following author query:
+
+* Please provide the title for this reference.
+
+If the reference has more than one title, it may indicate a processing error. Compare the reference to the original article file and correct accordingly.
 
 #### err-elem-cit-data-11-2
 
