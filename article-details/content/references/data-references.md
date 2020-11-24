@@ -81,7 +81,7 @@ In cases where no URL has been provided but an accession number is available, it
 
 **Error**: _\[err-elem-cit-data-3-1\] Only one person-group of each type \(author, compiler, curator\) is allowed. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements of type of 'author', XXXXXX &lt;person-group&gt; elements of type of 'compiler', XXXXXX &lt;person-group&gt; elements of type of 'curator', and XXXXXX &lt;person-group&gt; elements of some other type._
 
-**Action**: 
+**Action**: This error indicates either that there is more than one `<person-group>` element with the attribute `person-group-type` equal to "author", "compiler" or "curator, or that there is one or more `<person-group>` element with another value for this attribute. Multiple author, compiler or curator lists should be combined and any `<person-group>` elements with incorrect attributes should be corrected. The latter will likely require support team intervention. Please note that while eLife allows compliers and curators in addition or instead of authors on datasets, the systems are not set up to allow this at present.
 
 #### err-elem-cit-data-3-2
 
@@ -105,7 +105,7 @@ If the reference has more than one title, it may indicate a processing error. Co
 
 **Error**: _\[err-elem-cit-data-11-2\] Each &lt;element-citation&gt; of type 'data' must contain one and only one &lt;source&gt; element. Reference 'XXXXXX' has XXXXXX &lt;source&gt; elements._
 
-**Action**:
+**Action**: This error indicates that more than one &lt;source&gt; element \(database name\) is present in a conference reference. The extra &lt;source&gt; elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
 
 #### err-elem-cit-data-11-3-2
 
