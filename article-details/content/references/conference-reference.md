@@ -150,7 +150,7 @@ If an eLocation ID is provided, this should usually be favoured over the page ra
 
 * Please provide the title for this reference.
 
-If the reference has more than one article title, it may indicate an error in the processing of the article. Compare the reference to the original article file and correct accordingly.
+If the reference has more than one article title, it may indicate a processing error. Compare the reference to the original article file and correct accordingly.
 
 #### err-elem-cit-confproc-8-2
 
