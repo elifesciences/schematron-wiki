@@ -88,7 +88,7 @@ In cases where the conference being cited is associated with the [**IEEE**](http
 
 **Warning**: _XXXXXX is a conference ref without a doi, but it's a conference which is know to possibly have dois - \(XXXXXX\). Should it have one?_
 
-**Action**: This warning indicates a reference to a conference article associated with an organisation that is known to register DOIs. Search the article title and conference name online to identify a corresponding DOI \(if one exists\).
+**Action**: This warning indicates a reference to a conference article associated with an organisation that is known to register DOIs. Search the article title and conference name online to identify a corresponding DOI \(if one exists\). Please note that this warning does not indicate that the reference definitely has a DOI - articles from older conferences may not have associated DOIs, so if none can be found, ignore this warning.
 
 #### err-elem-cit-confproc-10-1
 
@@ -132,7 +132,7 @@ If an eLocation ID is provided, this should usually be favoured over the page ra
 
 **Error**: _One and only one person-group element is allowed. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements._
 
-**Action**: This error indicates that a conference reference has zero or more than one `<person-group>` elements. Look the conference article up online if possible to identify the correct author list. If there are no authors and the artile cannot be found, please raise an author query on the proof for the missing information.
+**Action**: This error indicates that a conference reference has zero or more than one `<person-group>` elements. Look the conference article up online if possible to identify the correct author list. If there are no authors given or the article cannot be found, please raise an author query on the proof for the missing information.
 
 * Please provide the author list for this reference.
 
@@ -140,13 +140,13 @@ If an eLocation ID is provided, this should usually be favoured over the page ra
 
 **Error**: _Each &lt;person-group&gt; must have a @person-group-type attribute of type 'author'. Reference 'XXXXXX' has a &lt;person-group&gt; element with @person-group-type attribute 'XXXXXX'._
 
-**Action**: Correct the &lt;person-group&gt; element so that it has the attribute `person-group-type="author"`. This will either need to be done by removing all current authors and re-adding them, or by contacting the support team for the proofing system.
+**Action**: Correct the &lt;person-group&gt; element so that it has the attribute `person-group-type="author"`. This will either need to be done by removing all current authors and re-adding them, or by contacting the proofing system support team.
 
 #### err-elem-cit-confproc-8-1
 
 **Error**: _Each &lt;element-citation&gt; of type 'confproc' must contain one and only one &lt;article-title&gt; element. Reference 'XXXXXX' has XXXXXX &lt;article-title&gt; elements._
 
-**Action:** This error indicates that a conference reference either has no article title or more than one article title. If the article title is missing and cannot be located online using the other details provided \(conference name, page range, DOI\), please add the following add the following author query:
+**Action:** This error indicates that a conference reference either has no article title or more than one article title. If the article title is missing and cannot be located online using the other details provided \(conference name, page range, DOI\), please add the following author query:
 
 * Please provide the title for this reference.
 
@@ -162,7 +162,7 @@ If the reference has more than one article title, it may indicate an error in th
 
 **Error**: _Each &lt;element-citation&gt; of type 'confproc' must not contain more than one &lt;source&gt; element\(s\). Reference 'XXXXXX' has XXXXXX &lt;source&gt; elements._
 
-**Action**: This error indicates that more than one `<source>` element \(conference title\) is present in a conference reference. The extra &lt;source&gt; elements should be removed — however please check whether the contents should be moved to the conference title or the conference name fields first. If possible locate the article online to check the correct details.
+**Action**: This error indicates that more than one `<source>` element \(conference title\) is present in a conference reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the conference title or the conference name fields first. If possible locate the article online to check the correct details.
 
 #### err-elem-cit-confproc-9-2-2
 
@@ -192,7 +192,7 @@ If the reference has more than one article title, it may indicate an error in th
 
 **Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="confproc" are: &lt;person-group&gt;, &lt;year&gt;, &lt;article-title&gt;, &lt;source&gt;, &lt;conf-loc&gt;, &lt;conf-name&gt;, &lt;fpage&gt;, &lt;lpage&gt;, &lt;elocation-id&gt;, &lt;ext-link&gt;, and &lt;pub-id&gt;. Reference 'XXXXXX' has other elements._
 
-**Action:** This error indicates that elements are present in a conference reference that are not allowed.
+**Action:** This error indicates that elements are present in a conference reference that are not allowed. Check the fields present in the reference match those given [**above**](conference-reference.md#what-needs-to-be-added). Update or remove any additional elements. If this does not clear the error, the support team may need to be consulted.
 
 ## XML structure
 
