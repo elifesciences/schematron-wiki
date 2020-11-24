@@ -59,11 +59,19 @@ The default fields in Kriya will need to be altered to include the following inf
 
 Once you have entered the information in the fields, click on 'Search Crossref'. This will likely return no results. When the search has completed, hit 'Insert Reference' to add the dataset to the reference list.
 
-
-
 ## Finding reference details
 
+In most cases, where a dataset is cited, a URL will have been provided that will lead directly to a landing page including all the details required for the reference. For example, [**https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760**](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760), [**https://doi.org/10.5061/dryad.pzgmsbcgc**](https://doi.org/10.5061/dryad.pzgmsbcgc), or [**https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=715e60ce44ae4ecea2b84e28dd336c01**](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=715e60ce44ae4ecea2b84e28dd336c01). However, some of these landing pages are more useful than others for checking the details required for a reference. Compare GEO to MassIVE:
 
+![](../../../.gitbook/assets/screen-shot-2020-11-24-at-14.40.56.png)
+
+The NCBI Gene Expression Omnibus \(GEO\) has highly structured landing pages that clearly show the title and contributors \(authors\) for each dataset. So with a GEO URL, it is easy to locate the full details.
+
+![](../../../.gitbook/assets/screen-shot-2020-11-24-at-14.43.37.png)
+
+The Mass Sepctrometry Interactive Virtual Environment \(MassIVE\), however, only clearly shows the title for the article. Author details are limited to the citation associated with the data and the primary contact \(effectivley corresponding author\) for the dataset. Since the authors for the dataset may differ from those on the associated publication and the contact is unlikely to be solely responsible for collecting the data, an author query may be required to seek the full author list for the reference.
+
+In cases where no URL has been provided but an accession number is available, it is most likely possible 
 
 ## Schematron checks
 
