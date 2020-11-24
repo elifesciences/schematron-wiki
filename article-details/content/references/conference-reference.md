@@ -30,21 +30,21 @@ The following information can be added for journal references:
 | Last page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;lpage&gt;135&lt;/lpage&gt; | 135 |
 | DOI | Yes \(if there is one\) | &lt;pub-id pub-id-type="doi"&gt; | 10.1083/jcb.200510010 |
 
-**Non-mandatory fields are required if they exist**. Validation of references via PubMed or Crossref API tools should pull them in if the author did not provide them. Schematron warnings may also pick up incomplete references, and these should be checked at the source of the reference.
+**Non-mandatory fields are required if they exist**. Check the source of the reference if possible \(e.g. if the conference article is available online\). Schematron warnings may also pick up incomplete references, and these should be checked at the source of the reference.
 
 * **Authors**: Enter each author name as a surname\(s\) followed by initials. 
 * **Collaboration:** Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
 * **Year**: This should be the year the conference article was presented/published. This field can include a letter suffix \(e.g. 2020a\) if needed to distinguish between citations \(see more [**here**](../reference-citations.md#what-is-a-reference-citation)\).
 * **Article title**: The title of the conference article. Can contain italics, superscript and subscript as required.
 * **Conference title**: The full \(not abbreviated\) name of the conference proceedings, if this differs from the conference name.
-* **Conference name**: The name of the conference at which the article was presented.
+* **Conference name**: The full  \(not abbreviated\) name of the conference at which the article was presented.
 * **Conference location**: Where the conference took place. Usually some combination of city, state and country.
 * **e-location ID:** The e-location identifier for the article \(if applicable; most references will have either page numbers or an e-location ID\).
-* **First page:** The page number on which the article starts \(if applicable; most journal references will have either page numbers or an e-location ID\). Some page numbers will be prefixed with letters.
+* **First page:** The page number on which the article starts \(if applicable\). Some page numbers will be prefixed with letters.
 * **Last page:** The page number on which the article ends \(if applicable; some articles are one-page long and so a last page is not required as it is the same as the first page\). Some page numbers will be prefixed with letters.
 * **DOI:** The Digital Object Identifier for the article \(if applicable\).
 
-If any of the mandatory information is not provided, look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
+If any of the mandatory information is not provided, look up the article online. Conference articles are not consistently indexed at PubMed or CrossRef, so usually this will entail searching for the [**title and conference name**](conference-reference.md#finding-reference-details). If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
 
 * Please provide the XXXXXX for this reference.
 
@@ -68,15 +68,15 @@ The default fields in Kriya will need to be altered to include the following inf
 
 ![](../../../.gitbook/assets/screen-shot-2020-10-20-at-12.41.05.png)
 
-Once you have entered the information in the fields, click on 'Search PubMed'. This will compare the information entered to the PubMed database and ensures that a PubMed ID \(if available; some conference proceedings are indexed at this site\). If this does not generate results, click on 'Search Crossref', which may return results if the conference DOIs were registered at CrossRef.
+Once you have entered the information in the fields, click on 'Search PubMed'. This will compare the information entered to the PubMed database and ensures that a PubMed ID \(if available; only some conference proceedings are indexed at this site\). If this does not generate results, click on 'Search Crossref', which may return results if the conference DOIs were registered at CrossRef.
 
-Regardless of whether any corresponding PubMed or CrossRef records, press 'Insert Reference' to add the entry to the reference list.
+Regardless of whether any corresponding PubMed or CrossRef records are returned, press 'Insert Reference' to add the entry to the reference list.
 
 ## Finding reference details
 
 Details for conference references can usually be found online, however there is no central indexing service for conferences as there is for journals. Searching the article title together with the conference name should provide a landing page if one is available.
 
-If the conference is one associated with the [**IEEE**](https://www.ieee.org/), there will likely be both an online page for the article and a corresponding DOI.
+In cases where the conference being cited is associated with the [**IEEE**](https://www.ieee.org/), there will likely be both an online page for the article and a corresponding DOI. These should be easy to locate; an example record is given below.
 
 ![Example of an IEEE record for a paper presented at a conference](../../../.gitbook/assets/screen-shot-2020-10-13-at-17.41.14.png)
 
