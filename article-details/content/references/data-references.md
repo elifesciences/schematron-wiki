@@ -32,6 +32,7 @@ The following information can be added for data references:
 * **Database**: The full \(not abbreviated\) name of the database in which the dataset is stored.
 * **Accession**: A unique identifier for the dataset. Usually an alphanumeric string e.g. GSE48760, EMD-22286, MSV000086293 etc. Must be accompanied by a URL for the dataset which may or may not contain the accession number as well.
 * **DOI:** The Digital Object Identifier for the article \(if applicable\).
+* Assigning authority
 
 If any of the mandatory information is not provided, look up the dataset online, preferably using the URL provided. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
 
@@ -46,9 +47,9 @@ The default fields in Kriya will need to be altered to include the following inf
 * Author 
 * Collaboration \(if applicable\)
 * Year 
-* Article title
-* Journal name
-* Volume \(if available\)
+* Data title
+* Publisher
+* Accession
 * e-location ID or first and last page \(if available\)
 * DOI \(if available\)
 * PMID \(if available\)
