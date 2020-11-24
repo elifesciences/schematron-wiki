@@ -14,11 +14,11 @@ eLife aims to allow authors, reviewers and editors to update their names with mi
 
 ### Confirming receipt of name change request, verification and collection of additional information
 
-* The Individual’s identity needs to be verified, on their terms – as such, verification doesn’t have to be formal identification. Examples of verification can include:
-  1. The email address they are emailing from matches the email address of their eJP account
-  2. A written statement from their supervisor/the corresponding author of the applicable manuscript
-* Any alternative names and affiliations need to be captured so that duplicate accounts are not overlooked in the submission system e.g. Mike or Mick for Michael
-* Email The Individual for this information using “Template text – first response”:
+Editorial will verify the identity of an individual requesting a name change on their own terms. That is, rather than a formal identification requiring legal documentation, identity may be confirmed by checking the email address from which the request came matches their account in the submission system or by receipt of a statement from their supervisor or the corresponding author of their article.
+
+Editorial will also require alternative names and affiliations/email address to ensure that duplicate accounts are not overlooked in the submission system.
+
+The following “Template text – first response” email template will be used to reply to an initial name-change request
 
 > **Template text – Confirmation and verification**
 >
@@ -36,27 +36,33 @@ eLife aims to allow authors, reviewers and editors to update their names with mi
 
 ### Identifying content that needs to be changed
 
-* Once The Individual has verified their identity and provided any additional names, emails or affiliations, these can be searched in eJP.
-  * Using the “Find Person” person link on the eJP home page, search for The Individual.
-  * In The Individual’s profile, under the merge tab, search for the email addresses and any other names they have provided in turn, and merge any duplicate accounts. If you have any uncertainty about whether you are merging the correct individuals, use the list of past affiliations they have provided where possible, and seek clarification from The Individual if needed.
-* Once all the profiles have been merged, collect a list of the manuscripts that they have been involved in so that this information can be verified by The Individual and later passed to Production. There is a template email at the end of this section that can be used to compile the list.
-  * **Author**: Go to the “Pending/Completed Manuscripts” tab and collect a list of all papers that have been accepted and manuscripts that are currently under consideration \(rejected manuscripts will have been updated in the submission system\).
-    * For all accepted papers, check whether an Insight article or co-submission has been linked to it. This information can be found on the submission page, in the table of information under the files, in the “Related Manuscript” row.
-    * Information to be collected from the published article:
-      1. First author
-      2. Title
-      3. URL to published paper
-      4. Corresponding author\(s\) \[to include co-corresponding authors\]
-  * **Reviewer**: Go to the “Reviews” tab and collect a list of all papers that were reviewed by the individual. 
-    * If the manuscript was accepted, please check whether they chose to reveal their identity in the submission system using the “Decision Summary” link on all versions of the manuscript – full and revised submissions. If they did, then this information would be captured in the metadata published online, and should be adjusted by the Production Team.
-  * **Manuscripts handled as BRE**: Go to the “Monitoring Editor” tab and collect a list of all manuscripts accepted. The editors who handle a manuscript are included in the metadata and should be updated by the Production Team.
-  * **Manuscripts handled as Senior Editor**: XXX
-* The list of papers we’ve found associated with The Individual should be compiled and run past them to confirm that the manuscripts listed are correct and to see if there is any other content that has been overlooked.
-* Magazine content is not captured in eJP, so we need to ask The Individual whether they have been involved in any interviews, podcasts etc.
-* Clarification is needed about whether we can contact the corresponding authors for each of these changes yet – The Individual needs to be alerted to the fact that we will have to tell the corresponding author about any changes.
+Once the individual's identity has been verified and they have provided any additional names, emails or affiliations, these can be searched for using the following steps:
+
+* Using the “Find Person” person link on the eJP home page, search for the individual.
+* In their profile, under the merge tab, search for the email addresses and any other names they have provided in turn, and merge any duplicate accounts. If you have any uncertainty about whether you are merging the correct individuals, use the list of past affiliations they have provided where possible, and seek clarification from the individual if needed.
+
+Once all the profiles have been merged, collect a list of the manuscripts that they have been involved in so that this information can be verified by the individual and later passed to Production. There is a template email at the end of this section that can be used to compile the list.
+
+* **Author**: Go to the “Pending/Completed Manuscripts” tab and collect a list of all papers that have been accepted and manuscripts that are currently under consideration \(rejected manuscripts will have been updated in the submission system\).
+  * For all accepted papers, check whether an Insight article or co-submission has been linked to it. This information can be found on the submission page, in the table of information under the files, in the “Related Manuscript” row.
+  * Information to be collected from the published article:
+    1. First author
+    2. Title
+    3. URL to published paper
+    4. Corresponding author\(s\) \[to include co-corresponding authors\]
+* **Reviewer**: Go to the “Reviews” tab and collect a list of all papers that were reviewed by the individual. 
+  * If the manuscript was accepted, please check whether they chose to reveal their identity in the submission system using the “Decision Summary” link on all versions of the manuscript – full and revised submissions. If they did, then this information would be captured in the metadata published online, and should be adjusted by the Production Team.
+* **Manuscripts handled as BRE**: Go to the “Monitoring Editor” tab and collect a list of all manuscripts accepted. The editors who handle a manuscript are included in the metadata and should be updated by the Production Team.
+* **Manuscripts handled as Senior Editor**: XXX
+
+The list of papers we’ve found associated with the individual should be compiled and run past them to confirm that the manuscripts listed are correct and to see if there is any other content that has been overlooked. Magazine content is not captured in eJP, so we need to ask the individual whether they have been involved in any interviews, podcasts etc.
+
+Clarification is needed about whether we can contact the corresponding authors for each of these changes yet – the individual making the request needs to be alerted to the fact that we will have to tell the corresponding author about any changes.
+
 * Clarification is needed about whether The Individual has changed their preferred pronoun.
 * Clarification is needed about whether all versions of the manuscript need to be changed or whether the latest version can just be updated \(the latter will be quicker, but previous name could be found if not all versions are updated\).
-* Email The Individual using template below:
+* 
+
 
 > **Template text – confirming content that needs to be changed**
 >
