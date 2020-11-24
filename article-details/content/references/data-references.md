@@ -31,8 +31,8 @@ The following information can be added for data references:
 * **Dataset title**: The title of the dataset. Can contain italics, superscript and subscript as required.
 * **Database**: The full \(not abbreviated\) name of the database in which the dataset is stored.
 * **Accession**: A unique identifier for the dataset. Usually an alphanumeric string e.g. GSE48760, EMD-22286, MSV000086293 etc. Must be accompanied by a URL for the dataset which may or may not contain the accession number as well.
-* **DOI:** The Digital Object Identifier for the article \(if applicable\).
-* Assigning authority
+* **DOI:** The Digital Object Identifier for the dataset.
+* **Assigning authority**: The body that assigned the accession number or DOI to the dataset.
 
 If any of the mandatory information is not provided, look up the dataset online, preferably using the URL provided. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
 
@@ -49,13 +49,15 @@ The default fields in Kriya will need to be altered to include the following inf
 * Year 
 * Data title
 * Publisher
-* Accession
-* e-location ID or first and last page \(if available\)
-* DOI \(if available\)
-* PMID \(if available\)
-* InPress \(if applicable\)
+* DOI \[OR\] Accession
+* Authority
+* Website \[if using Accession\]
 
-Once you have entered the information in the fields, click on 'Search PubMed'.
+![Example of fields required for a dataset with a DOI](../../../.gitbook/assets/screen-shot-2020-11-24-at-14.18.57.png)
+
+![Example of fields required for a dataset with an accession number](../../../.gitbook/assets/screen-shot-2020-11-24-at-14.18.35.png)
+
+Once you have entered the information in the fields, click on 'Search Crossref'. This will likely return no results. When the search has completed, hit 'Insert Reference' to add the dataset to the reference list.
 
 
 
