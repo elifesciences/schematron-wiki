@@ -111,7 +111,7 @@ If the reference has more than one title, it may indicate a processing error. Co
 
 **Error**: _\[err-elem-cit-data-11-3-2\] A &lt;source&gt; element within a &lt;element-citation&gt; of type 'data' may only contain the child elements&lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' has disallowed child elements._
 
-**Action**:
+**Action**: This error will appear if there are formatting elements in the `<source>` element \(database name\) other than italics, superscripts and subscripts \(e.g. bold, underline\). Make sure any disallowed formatting is removed.
 
 #### err-elem-cit-data-13-1
 
