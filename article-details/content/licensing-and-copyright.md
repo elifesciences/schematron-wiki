@@ -105,7 +105,7 @@ This information should be added in the XML, for example:
 | copyright-year | 2009 | `<copyright-year>2009</copyright-year>` |
 | copyright-holder | Elsevier | `<copyright-holder>Elsevier</copyright-holder>` |
 | permissions | Figure 1A is reprinted from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder | `<license-p> Figure 1A is reprinted from <xref ref-type="bibr"rid="bib40">Simonetta et al., 2009</xref>, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder. </license-p>` |
-|  | \`\` | `<copyright-statement>© 2009 Elsevier</copyright-statement>` |
+|  | \`\` | `<copyright-statement>© 2009, Elsevier</copyright-statement>` |
 
 {% hint style="info" %}
 The copyright-statement field will not be provided in the sticky note but the XML tag can be populated from the copyright year and copyright holder. It should contain a '©' symbol followed by the copyright year and copyright holder. 
@@ -113,7 +113,7 @@ The copyright-statement field will not be provided in the sticky note but the XM
 
 ```markup
 <permissions>
-    <copyright-statement>© 2009 Elsevier</copyright-statement>
+    <copyright-statement>© 2009, Elsevier</copyright-statement>
     <copyright-year>2009</copyright-year>
     <copyright-holder>Elsevier</copyright-holder>
     <license>
