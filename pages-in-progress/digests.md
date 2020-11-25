@@ -8,7 +8,7 @@ description: >-
 
 ## What is a digest?
 
-A digest is a plain-language summary of the findings of an article and encourages any reader \(academic or not\) to learn something from the article. These have been part of eLife's magazine content since eLife started publishing in 2012 and are written by a member of the Features team based on the answers authors provide during the submission of their article in eJP. Not all articles receive a digest, even if the author opted in for one. 
+A digest is a plain-language summary of the findings of an article and encourages any reader \(academic or not\) to learn something from the article. These have been part of eLife's magazine content since eLife started publishing in 2012 and are written by a member of the Features team based on the answers provided by the authors during the submission of their article in eJP. Not all articles receive a digest, even if the author opted in for one. 
 
 ## What needs to be checked?
 
