@@ -386,6 +386,18 @@ If there is no '[**https://creativecommons.org/**](https://creativecommons.org/)
 
 **Action**: This warning will fire if there is a '[**https://creativecommons.org/**](https://creativecommons.org/)**'** type link in the license element but there is no ali:license\_ref element. Exeter will need to add the ali:license\_ref element in. 
 
+#### fig-permissions-test-14
+
+**Warning**: _permissions for XXXXXX does not contain a &lt;copyright-statement&gt; element. Is this correct? This would usually only be the case in CC0 licenses._
+
+**Action**: This warning will fire if there is no copyright statement in the permissions for an asset. This is only appropriate if the permissions are CC0. If they are not then a copyright statement should be added. The copyright statement should be a concatenation of '© ', the copyright year, and comma and space and the copyright holder.
+
+#### fig-permissions-test-15
+
+**Error**: _The &lt;copyright-statement&gt; element in the permissions for XXXXXX does not contain the text 'XXXXXX' \(a concatenation of '© ', copyright-year, a comma and space, and copyright-holder\)._
+
+**Action**: This warning will fire if the copyright statement in the permissions for an asset is either empty or incorrect. This error will only fire if the permissions already has a copyright year and copyright holder. As the message states, the copyright statement should be in this format '© 2020, copyright holder', so the action should be to change the statement so that it matches this format.
+
 ### XML structure checks
 
 These checks relate to the XML structure of licensing tagging.
