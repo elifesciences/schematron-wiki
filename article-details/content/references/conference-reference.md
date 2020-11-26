@@ -21,14 +21,14 @@ The following information can be added for journal references:
 | Author\(s\) | At least one author or collaboration is required; both can be present | &lt;person-group person-group-type="author"&gt;&lt;name&gt;&lt;surname&gt;Bloggs&lt;/surname&gt;&lt;given-names&gt;J&lt;/given-names&gt;&lt;/name&gt;&lt;/person-group&gt; | Bloggs J |
 | Collaboration\(s\) | At least one author or collaboration is required; both can be present | &lt;person-group person-group-type="author"&gt;&lt;collab&gt;Tulsa 1000 Investigators&lt;/collab&gt;&lt;/person-group&gt; | Tulsa 1000 Investigators |
 | Year | Yes | &lt;year iso-8601-date="2018"&gt;2018&lt;/year&gt; | 2018 |
-| Article title | Yes | &lt;article-title&gt;Boundary learning by optimization with topological constraints&lt;/article-title&gt; | Boundary learning by optimization with topological constraints |
+| Article title | Yes | &lt;article-title&gt;Image-domain material decomposition using data-driven sparsity models for dual-energy CT&lt;/article-title&gt; | Image-domain material decomposition using data-driven sparsity models for dual-energy CT |
 | Conference title | No | &lt;source&gt;Independent component analysis and signal separation&lt;/source&gt; | Independent component analysis and signal separation |
 | Conference name | Yes | &lt;conf-name&gt;2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\)&lt;/conf-name&gt; | 2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\) |
-| Conference location | No | &lt;conf-loc&gt;Province, RI&lt;/conf-loc&gt; | Province, RI |
+| Conference location | No | &lt;conf-loc&gt;Washington, DC, USA &lt;/conf-loc&gt; | Washington, DC, USA  |
 | e-location ID | No \(if first/last pages are present, there can be no e-location ID\) | &lt;elocation-id&gt;e51381&lt;/elocation-id&gt; | e51381 |
-| First page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;fpage&gt;132&lt;/fpage&gt; | 132 |
-| Last page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;lpage&gt;135&lt;/lpage&gt; | 135 |
-| DOI | Yes \(if there is one\) | &lt;pub-id pub-id-type="doi"&gt; | 10.1083/jcb.200510010 |
+| First page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;fpage&gt;52&lt;/fpage&gt; | 52 |
+| Last page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;lpage&gt;56&lt;/lpage&gt; | 56 |
+| DOI | Yes \(if there is one\) | &lt;pub-id pub-id-type="doi"&gt;10.1109/ISBI.2018.8363521&lt;/pub-id&gt; | 10.1109/ISBI.2018.8363521 |
 
 **Non-mandatory fields are required if they exist**. Check the source of the reference if possible \(e.g. if the conference article is available online\). Schematron warnings may also pick up incomplete references, and these should be checked at the source of the reference.
 
