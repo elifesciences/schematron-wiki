@@ -34,7 +34,7 @@ If Exeter are unsure of the reason why videos have failed processing, they will 
 
 Contact Fred in the eLife production team if you need access to the FTP.
 
-Below is a checklist which outlines what the cause of the problem may be. But first, if you have [**BaseX**](../toolkit/basex.md) running locally, you can run the below XQuery on the zip files from the FTP in order to more quickly determine the cause of the problem. 
+Below is a checklist which outlines what the cause of the problem may be. But first, if you have [**BaseX**](basex.md) running locally, you can run the below XQuery on the zip files from the FTP in order to more quickly determine the cause of the problem. 
 
 {% file src="../.gitbook/assets/glencoe-validation.xq" caption="Glencoe check" %}
 
