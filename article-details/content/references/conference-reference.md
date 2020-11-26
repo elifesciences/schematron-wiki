@@ -200,17 +200,15 @@ If the reference has more than one article title, it may indicate a processing e
 <ref id="bib17">
     <element-citation publication-type="confproc">
         <person-group person-group-type="author">
-            <name><surname>Funke</surname><given-names>J</given-names></name>
-            <name><surname>Andres</surname><given-names>B</given-names></name>
-            <name><surname>Hamprecht</surname><given-names>F</given-names></name>
-            <name><surname>Cardona</surname><given-names>A</given-names></name>
-            <name><surname>Cook</surname><given-names>M</given-names></name>
+            <name><surname>Li</surname><given-names>Z</given-names></name>
+            <name><surname>Ravishankar</surname><given-names>S</given-names></name>
+            <name><surname>Long</surname><given-names>Y</given-names></name>
+            <name><surname>Fessler</surname><given-names>JA</given-names></name>
         </person-group>
-        <year iso-8601-date="2012">2012</year>
-        <article-title>Efficient automatic 3D reconstruction of branching neurons
-        from EM data</article-title>
-        <conf-name>Computer Vision and Pattern Recognition</conf-name>
-        <conf-date>16-21 June 2012</conf-date>
+        <year iso-8601-date="2018">2018</year>
+        <article-title>Image-domain material decomposition using data-driven 
+        sparsity models for dual-energy CT</article-title>
+        <conf-name>2018 IEEE 15th International Symposium on Biomedical Imaging</conf-name>
         <conf-loc>Province, RI</conf-loc>
         <fpage>1004</fpage>
         <lpage>1011</lpage>
