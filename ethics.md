@@ -58,6 +58,44 @@ Warning/Error/Info:  \*\*Warning\*\*: \_Section has a title 'XXXXXX'. Is it a du
 
 Action: What to do if this message fires
 
+#### ethics-test-1
+
+\*\*Error\*\*: \_Ethics fn-group can only be captured as a child of a sec \[@sec-type='additional-information'\]\_
+
+Action: 
+
+#### ethics-test-2
+
+\*\*Error\*\*: \_Ethics fn-group may not have more than 3 fn elements. Currently there are XXXXXX.\_
+
+Action: 
+
+#### ethics-test-3
+
+\*\*Error\*\*: \_Ethics fn-group must have at least one fn element.\_
+
+Action: 
+
+#### ethics-test-4
+
+\*\*Error\*\*: \_This fn must have an @fn-type='other'\_
+
+Action: 
+
+#### ethics-info-conformity
+
+\*\*Error\*\*: \_The ethics statement must end with a full stop.\_
+
+Action: 
+
+#### ethics-info-supplemental-conformity
+
+\*\*Warning\*\*: \_Ethics statement contains the phrase 'supplemental figure'. This will almost certainly need updating to account for eLife's figure labelling.\_
+
+Action: 
+
+
+
 ### XML structure checks
 
 These checks relate to the XML structure of \[insert name of page\]. ‌X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see below \(include link to XML structure\).
