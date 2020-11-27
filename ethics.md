@@ -12,19 +12,21 @@ All authors are expected to adhere to the guidelines set by their institutional 
 
 ## What needs to be checked?
 
-We ask authors to provide an ethics statement during submission to indicate that the study has been approved and that the guidelines have been adhered to. 
+We ask authors to provide an ethics statement during submission to indicate that the study has been approved and that the guidelines have been adhered to. Each institute will have their own statement. 
+
+It is important to check the statement to ensure it makes sense and is formatted correctly, with no missing spaces or obvious typos. These are included within the article details but the authors may choose to include these within the main text as well. 
 
 ## Examples
 
-Give specific examples of everything that needs to be checked/any common problems. Add sub-sections where needed, but be as succinct as possible. Include screenshots as required.
+Ethics statement for animal subjects: 
 
-This section should also list any issues that can be spotted without the need to run Schematron tests such as low figure quality, broken paragraphs, badly formatted tables etc. Crosscheck against the protocol documents in [this folder](https://drive.google.com/drive/folders/0B2wDI5EMHiJ-UzctZnVBdWFwbzA).
+Animal experimentation: All training and experimental procedures were in accordance with the National Institutes of Health Guide for the Care and Use of Laboratory Animals and were approved by the University of Pennsylvania Institutional Animal Care and Use Committee \(protocol \#804726\). Details about monkey training, behavioral tasks, and caudate recording were reported previously \(Fan et al., 2018; Doi et al., 2020\).
 
-> Any quotes from articles should be formatted as quotes
+Ethics statement for human participants:
 
-* Any Kriya queries should be formatted as a bullet point
+Human subjects: Mothers provided informed consent for their infants to be included in the PreSSMat birth cohort and to have clinical data, cord blood and newborn heel prick samples collected and analysed. The study was approved by the Research Review and Ethical Review Committees of the International Centre for Diarrhoeal Disease Research, Bangladesh \(PR-16039\) on July 10, 2016. Approvals were also obtained from the Research Ethics Boards of the Ottawa Health Science Network \(20160219-01H\) on June 10, 2016, and the Children's Hospital of Eastern Ontario \(16/20E\) on June 8, 2016.
 
-Any [**hyperlinks**](untitled-4.md) to other pages or websites should be bolded to make sure they are more visible. 
+
 
 ## Schematron checks
 
