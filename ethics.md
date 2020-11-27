@@ -26,8 +26,6 @@ Ethics statement for human participants:
 
 Human subjects: Mothers provided informed consent for their infants to be included in the PreSSMat birth cohort and to have clinical data, cord blood and newborn heel prick samples collected and analysed. The study was approved by the Research Review and Ethical Review Committees of the International Centre for Diarrhoeal Disease Research, Bangladesh \(PR-16039\) on July 10, 2016. Approvals were also obtained from the Research Ethics Boards of the Ottawa Health Science Network \(20160219-01H\) on June 10, 2016, and the Children's Hospital of Eastern Ontario \(16/20E\) on June 8, 2016.
 
-
-
 ## Schematron checks
 
 ### Content checks
