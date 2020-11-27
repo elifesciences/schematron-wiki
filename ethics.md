@@ -8,7 +8,7 @@ description: >-
 
 ## What are ethics in research?
 
-All authors are expected to adhere to the guidelines set by their institutional review board or ethics committee when the study was approved. For example, animals should not undergo any unnecessary suffering if this can be avoided, and human participants should be be allowed confidentiality and data protection. 
+All authors are expected to adhere to the guidelines set by their institutional review board or ethics committee when the study was approved. For example, animals should not undergo any unnecessary suffering if this can be avoided, and human participants should be be allowed the right to confidentiality and data protection. 
 
 ## What needs to be checked?
 
@@ -18,11 +18,11 @@ It is important to check the statement to ensure it makes sense and is formatted
 
 ## Examples
 
-Ethics statement for animal subjects: 
+**Ethics statement for animal subjects:** 
 
 Animal experimentation: All training and experimental procedures were in accordance with the National Institutes of Health Guide for the Care and Use of Laboratory Animals and were approved by the University of Pennsylvania Institutional Animal Care and Use Committee \(protocol \#804726\). Details about monkey training, behavioral tasks, and caudate recording were reported previously \(Fan et al., 2018; Doi et al., 2020\).
 
-Ethics statement for human participants:
+**Ethics statement for human participants:**
 
 Human subjects: Mothers provided informed consent for their infants to be included in the PreSSMat birth cohort and to have clinical data, cord blood and newborn heel prick samples collected and analysed. The study was approved by the Research Review and Ethical Review Committees of the International Centre for Diarrhoeal Disease Research, Bangladesh \(PR-16039\) on July 10, 2016. Approvals were also obtained from the Research Ethics Boards of the Ottawa Health Science Network \(20160219-01H\) on June 10, 2016, and the Children's Hospital of Eastern Ontario \(16/20E\) on June 8, 2016.
 
