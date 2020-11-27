@@ -248,7 +248,11 @@ As [**above**](name-change-requests.md#updating-the-current-version-of-the-artic
 > * Text to be corrected
 > * . . .
 
-Once the XML and PDF files have been corrected, each version's ZIP package should be recreated and named using the exact same filename that was initially downloaded.
+Once the XML and PDF files have been corrected, each version's ZIP package should be recreated and named using the **exact same filename** that was initially downloaded.
+
+{% hint style="info" %}
+The filename for the silent correction **MUST** match the targeted version in the archive folder. Do not, under any circumstances, use a generic filename such as elife-57056-poa-r1.zip. This will create erroneous versions of the article and require developer intervention to fix.
+{% endhint %}
 
 ![Step 1. Select all the files required for the package \(NOT the folder\).](../.gitbook/assets/screen-shot-2020-10-13-at-12.54.34.png)
 
