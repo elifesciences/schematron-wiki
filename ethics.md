@@ -40,6 +40,24 @@ These checks relate to the content of \[insert name of page\]. X or XXXXXX refer
 
 **Action:** What to do if this message fires
 
+#### ethics-title-test
+
+Warning/Error/Info: \*\*Error\*\*: \_fn-group\[@content-type='ethics-information'\] must have a title that contains 'Ethics'. Currently it is 'XXXXXX'.\_
+
+Action: 
+
+#### id-x - ethics-broken-unicode-test
+
+Warning/Error/Info: \*\*Warning\*\*: \_Ethics statement likely contains a broken unicode - XXXXXX.\_
+
+Action: What to do if this message fires
+
+#### sec-test-4
+
+Warning/Error/Info:  \*\*Warning\*\*: \_Section has a title 'XXXXXX'. Is it a duplicate of, or very similar to, the ethics statement \(in the article details page\)? If so, it should be removed. If not, then which statement is correct? The one in this section or 'XXXXXX'?\_
+
+Action: What to do if this message fires
+
 ### XML structure checks
 
 These checks relate to the XML structure of \[insert name of page\]. ‌X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see below \(include link to XML structure\).
