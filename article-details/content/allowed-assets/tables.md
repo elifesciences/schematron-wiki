@@ -534,7 +534,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 #### kr-table-not-tagged
 
-**Error**: _XXXXXX has headings that are for a Key resources table, but it does not have an @id the format 'keyresource' or 'app0keyresource'._
+**Warning**: _XXXXXX has headings that are for a Key resources table, but it does not have an @id the format 'keyresource' or 'app0keyresource'._
 
 **Action**: This will at all stages fire if a table has all the Key resources table headings but does not have an id in the format `keyresource` or _`app0keyresource`._ If this fires, ensure that the Table is captured as a Key resources table \(with the correct id and label depending on where it is placed and no title or caption\).
 
@@ -1429,4 +1429,5 @@ Vertical cell alignment is defined using the `valign` attribute.
 * Updated 2020-09-07 to include information on inline images.
 * Updated 2020-09-09 to include table-title-test-5 and table-title-test-6.
 * Updated 2020-10-21 to move table-xref-conformity-1 to 4 and table-xref-test-1 to 6 to asset citations page.  
+* Updated 2020-11-30 to account for kr-table-not-tagged changing to warning.
 
