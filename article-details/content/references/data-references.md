@@ -79,17 +79,23 @@ In cases where no URL has been provided but an accession number is available, it
 
 #### err-elem-cit-data-3-1
 
-**Error**: _\[err-elem-cit-data-3-1\] Only one person-group of each type \(author, compiler, curator\) is allowed. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements of type of 'author', XXXXXX &lt;person-group&gt; elements of type of 'compiler', XXXXXX &lt;person-group&gt; elements of type of 'curator', and XXXXXX &lt;person-group&gt; elements of some other type._
+**Error**: _Data references must have one and only one &lt;person-group person-group-type='author'&gt;. Reference 'XXXXXX' has XXXXXX._
 
 **Action**: This error indicates either that there is more than one `<person-group>` element with the attribute `person-group-type` equal to "author", "compiler" or "curator, or that there is one or more `<person-group>` element with another value for this attribute. Multiple author, compiler or curator lists should be combined and any `<person-group>` elements with incorrect attributes should be corrected. The latter will likely require support team intervention. Please note that while eLife allows compliers and curators in addition or instead of authors on datasets, the systems are not set up to allow this at present.
 
-#### err-elem-cit-data-3-2
+#### pre-err-elem-cit-data-3-2
 
-**Error**: _\[err-elem-cit-data-3-2\] Each &lt;element-citation&gt; of type 'data' must contain at least one &lt;person-group&gt; element. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements._
+**Warning**: _Data references must have one and only one &lt;person-group person-group-type='author'&gt;. Reference 'XXXXXX' has 0. If this information is missing, please query the authors asking for it._
 
-**Action**: This error indicates that a data reference has zero &lt;person-group&gt; elements. Look the dataset up online if possible to identify the correct author list. If there are no authors given or the dataset cannot be found, please raise an author query on the proof for the missing information.
+**Action**: This warning indicates that a data reference has zero &lt;person-group&gt; elements. If possible, look the dataset up online to identify the correct author list. If there are no authors given or the dataset cannot be found, please raise an author query on the proof for the missing information.
 
 * Please provide the author list for this reference.
+
+#### final-err-elem-cit-data-3-2	
+
+**Error**: _Data references must have one and only one &lt;person-group person-group-type='author'&gt;. Reference 'XXXXXX' has 0._
+
+**Action**: This error indicates that a data reference has zero &lt;person-group&gt; elements. If possible, look the dataset up online to identify the correct author list. If there are no authors given or the dataset cannot be found, please query the authors for the missing information.
 
 #### err-elem-cit-data-10
 
