@@ -78,11 +78,15 @@ Regardless of whether any corresponding PubMed or CrossRef records are returned,
 
 ## Finding reference details
 
-Details for conference references can usually be found online, however there is no central indexing service for conferences as there is for journals. Searching the article title together with the conference name should provide a landing page if one is available.
+Details for conference references can usually be found online; searching the article title together with the conference name should provide a landing page if one is available.
 
 In cases where the conference being cited is associated with the [**IEEE**](https://www.ieee.org/), there will likely be both an online page for the article and a corresponding DOI. These should be easy to locate; an example record is given below.
 
 ![Example of an IEEE record for a paper presented at a conference](../../../.gitbook/assets/screen-shot-2020-10-13-at-17.41.14.png)
+
+Conferences in optics and photonics may be found at the [**SPIE Digital Library**](https://www.spiedigitallibrary.org/) and will be assigned DOIs. For example, this conference article cited in [**10.7554/eLife.44898**](https://doi.org/10.7554/eLife.44898) has the following landing page:
+
+![](../../../.gitbook/assets/screen-shot-2020-12-01-at-15.36.14.png)
 
 ## Schematron checks 
 
