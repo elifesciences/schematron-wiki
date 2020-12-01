@@ -162,7 +162,9 @@ When PNGs turn out to be too small and with reduced quality, a good solution is 
 
 Decision letter images should be added to the word doc in the following way:
 
-![](../../.gitbook/assets/screenshot-2020-11-06-at-14.32.59.png)
+![](../../.gitbook/assets/screenshot-2020-12-01-at-09.02.15.png)
+
+If there is no title or legend, the the full stop in the tag must be present in order for the label to be correctly captured.
 
 Any titles or legends should be placed after a `<Decision letter image 1 title/legend>` tag \(which is also yellow highlighted\) and bolded text containing the label for that image \(for example, **Decision letter image 1.** - note that the full stop should be present\). It should then end with a `</Decision letter image 1 title/legend>` tag \(see also image for Author response legends [**below**](decision-letters-and-author-responses.md#author-response-images)\). 
 
@@ -170,7 +172,9 @@ Any titles or legends should be placed after a `<Decision letter image 1 title/l
 
 Author response images should be added in the following way:
 
-![](../../.gitbook/assets/screenshot-2020-11-06-at-14.35.06.png)
+![](../../.gitbook/assets/screenshot-2020-12-01-at-08.58.18.png)
+
+If there is no title or legend, the the full stop in the tag must be present in order for the label to be correctly captured.
 
 Any titles or legends should be placed after a `<Author response image 1 title/legend>` tag \(which is also yellow highlighted\) and bolded text containing the label for that image \(for example, **Author response image 1.** - note that the full stop should be present\). It should then end with a `</Author response image 1 title/legend>` tag. See below for an example:
 
@@ -235,6 +239,10 @@ Archive:  elife-54591.zip
 ```
 
 Note how all the files are inside a folder called `elife-54591`. This would be the cause of a failure if uploaded.
+
+## Kitchen sink Decision letter zip
+
+A 'Kitchen sink' decision letter zip can be found here - [**https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test\_data/elife-00666.zip**](https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test_data/elife-00666.zip). This contains all the kinds of content we can expect in Decision letters, and how to capture them in the word file so that they are converted and sent correctly.
 
 ## How are Decision letters and Author responses loaded?
 
