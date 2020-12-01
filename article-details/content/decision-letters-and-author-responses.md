@@ -184,19 +184,25 @@ Any titles or legends should be placed after a `<Author response image 1 title/l
 
 Table can be included in the word document. They must be preceded by their label which is **formatted in bold**:
 
-![](../../.gitbook/assets/screenshot-2020-11-06-at-14.54.15.png)
+![](../../.gitbook/assets/screenshot-2020-12-01-at-09.05.34.png)
 
-Tables in the decision letter should be labelled 'Decision letter table 1', and those in the author response should be labelled 'Author response table 1' \(with 1 being changed to the appropriate number if there is more than 1\).
+Tables in the decision letter should be labelled 'Decision letter table 1.', and those in the author response should be labelled 'Author response table 1.' \(with 1 being changed to the appropriate number if there is more than 1\).
 
-{% hint style="info" %}
-Graham to confirm how table captions should be marked up in the word doc
-{% endhint %}
+Any titles or legends should be placed after a `<Author response table 1 title/legend>` tag \(which is also yellow highlighted\) and in this case there is no need for bolded text containing the label for that table. It should then end with a `</Author response table 1 title/legend>` tag. See below for an example:
+
+![](../../.gitbook/assets/screenshot-2020-12-01-at-09.08.21.png)
 
 #### Videos
 
-{% hint style="info" %}
-Graham to confirm how videos should be marked up in the word doc
-{% endhint %}
+Videos should be marked up in the same way as images, but with the word `image` replaced with `video` in the tag.
+
+Here is an example of a video without a title/caption \(note the full stop at the end of the tag\):
+
+![](../../.gitbook/assets/screenshot-2020-12-01-at-09.11.13.png)
+
+Here is an example of a video with a title/caption:
+
+![](../../.gitbook/assets/screenshot-2020-12-01-at-09.12.21.png)
 
 ## Packaging up a decision letter
 
@@ -1310,4 +1316,5 @@ An example of a Decision letter with figures:
 
 * Updated 2020-10-19 to include decision-missing-table-test, reply-missing-table-test, and paper-pile-test.
 * Updated 2020-11-11 to include the formatting changes that are made prior to upload.
+* Updated 2020-12-01 to include latest guidance on word doc and kitchen sink zip.
 
