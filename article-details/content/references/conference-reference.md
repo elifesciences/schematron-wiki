@@ -12,6 +12,12 @@ A conference reference gives bibliographic details for work presented at a confe
 
 ![Formatting display for a conference reference in eLife articles](../../../.gitbook/assets/screen-shot-2020-10-20-at-12.31.07.png)
 
+Some conference references include a title for the proceedings in which the article is published as well as the name of the conference it was presented at. This does not currently display on Continuum.
+
+![Example of a conference reference](../../../.gitbook/assets/screen-shot-2020-12-01-at-15.26.41.png)
+
+![Title for the conference proceedings highlighted in the PDF display](../../../.gitbook/assets/screen-shot-2020-12-01-at-15.27.28.png)
+
 ## What needs to be added?
 
 The following information can be added for journal references:
