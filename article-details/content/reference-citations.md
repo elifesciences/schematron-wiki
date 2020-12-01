@@ -387,4 +387,5 @@ spindle midzone (<xref ref-type="bibr" rid="bib13">Davies et al., 2014</xref>;
 ## Change log
 
 * Updated 07/09/2020 to include ref-xref-7.
+* Updated 2020-12-01 to account for splitting of ref-xref-test-19 into pre and final versions.
 
