@@ -31,7 +31,7 @@ The following information can be added for journal references:
 | Conference title | No | &lt;source&gt;Proceedings Volume 8506: Developments in X-Ray Tomography VIII&lt;/source&gt; | Independent component analysis and signal separation |
 | Conference name | Yes | &lt;conf-name&gt;2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\)&lt;/conf-name&gt; | 2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\) |
 | Conference location | No | &lt;conf-loc&gt;Washington, DC, USA &lt;/conf-loc&gt; | Washington, DC, USA  |
-| e-location ID | No \(if first/last pages are present, there can be no e-location ID\) | &lt;elocation-id&gt;e51381&lt;/elocation-id&gt; | e51381 |
+| e-location ID | No \(if first/last pages are present, there can be no e-location ID\) | &lt;elocation-id&gt;e51381&lt;/elocation-id&gt; | 78040M |
 | First page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;fpage&gt;52&lt;/fpage&gt; | 52 |
 | Last page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;lpage&gt;56&lt;/lpage&gt; | 56 |
 | DOI | Yes \(if there is one\) | &lt;pub-id pub-id-type="doi"&gt;10.1109/ISBI.2018.8363521&lt;/pub-id&gt; | 10.1109/ISBI.2018.8363521 |
