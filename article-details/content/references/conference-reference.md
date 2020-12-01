@@ -22,7 +22,7 @@ The following information can be added for journal references:
 | Collaboration\(s\) | At least one author or collaboration is required; both can be present | &lt;person-group person-group-type="author"&gt;&lt;collab&gt;Tulsa 1000 Investigators&lt;/collab&gt;&lt;/person-group&gt; | Tulsa 1000 Investigators |
 | Year | Yes | &lt;year iso-8601-date="2018"&gt;2018&lt;/year&gt; | 2018 |
 | Article title | Yes | &lt;article-title&gt;Image-domain material decomposition using data-driven sparsity models for dual-energy CT&lt;/article-title&gt; | Image-domain material decomposition using data-driven sparsity models for dual-energy CT |
-| Conference title | No | &lt;source&gt;Independent component analysis and signal separation&lt;/source&gt; | Independent component analysis and signal separation |
+| Conference title | No | &lt;source&gt;Proceedings Volume 8506: Developments in X-Ray Tomography VIII&lt;/source&gt; | Independent component analysis and signal separation |
 | Conference name | Yes | &lt;conf-name&gt;2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\)&lt;/conf-name&gt; | 2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\) |
 | Conference location | No | &lt;conf-loc&gt;Washington, DC, USA &lt;/conf-loc&gt; | Washington, DC, USA  |
 | e-location ID | No \(if first/last pages are present, there can be no e-location ID\) | &lt;elocation-id&gt;e51381&lt;/elocation-id&gt; | e51381 |
