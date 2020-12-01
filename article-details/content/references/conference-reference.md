@@ -54,8 +54,6 @@ If any of the mandatory information is not provided, look up the article online.
 
 * Please provide the XXXXXX for this reference.
 
-
-
 ## How to add a conference reference
 
 Right-click where you want to add the citation and click on Add New &gt; Add New Reference and select 'Conference' under Reference Type.
