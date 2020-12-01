@@ -247,7 +247,15 @@ the brackets in the quoted text in the message can be removed. In most other cas
 
 > Neutrophils release NETs via various mechanisms, which in most cases lead to neutrophil death \(Kenny et al., 2017\); thus, NETs are an extreme form of antimicrobial defense ...
 
-#### ref-xref-test-19
+#### pre-ref-xref-test-19
+
+**Warning**: _XXXXXX - citation doesn't start with an author's name. If this information is missing, please ensure to query the authors asking for the details for this reference._
+
+**Action**: This warning will fire at pre-author stages and indicates that the text within a reference citation does not start with the surname of the first author in the corresponding reference. If the information is available, the citation text should be corrected to include the first author's surname, or the full text for a collaboration listed as first author. XXXXXX in this message will indicate the text that needs correcting. If the information is missing \(because the reference is missing authors\) then the following query should be added for the reference \(not the citation\):
+
+* Please provide the author\(s\) for this reference.
+
+#### final-ref-xref-test-19
 
 **Error**: _XXXXXX - citation doesn't start with an author's name which is incorrect._
 
