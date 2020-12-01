@@ -97,19 +97,33 @@ In cases where no URL has been provided but an accession number is available, it
 
 **Action**: This error indicates that a data reference has zero &lt;person-group&gt; elements. If possible, look the dataset up online to identify the correct author list. If there are no authors given or the dataset cannot be found, please query the authors for the missing information.
 
-#### err-elem-cit-data-10
+#### pre-err-elem-cit-data-10
 
-**Error**: _Each &lt;element-citation&gt; of type 'data' must contain one and only one &lt;data-title&gt; element. Reference 'XXXXXX' has XXXXXX &lt;data-title&gt; elements._
+**Warning**: _Data reference 'XXXXXX' has XXXXXX data-title elements, when it should contain one. If this information is missing, please query it with the authors._
 
-**Action**: This error indicates that a data reference either has no title or more than one title. If the title is missing and cannot be located online using the other details provided \(accession, DOI\), please add the following author query:
+**Action**: This warning indicates that a data reference either has no title or more than one title. If the title is missing and cannot be located online using the other details provided \(accession, DOI\), please add the following author query:
 
 * Please provide the title for this reference.
 
-If the reference has more than one title, it may indicate a processing error. Compare the reference to the original article file and correct accordingly.
+If the reference has more than one title, it may indicate a processing error. Compare the reference to the original article file and correct accordingly. This may require support team intervention to remove the extra title element.
 
-#### err-elem-cit-data-11-2
+#### final-err-elem-cit-data-10
 
-**Error**: _Each &lt;element-citation&gt; of type 'data' must contain one and only one &lt;source&gt; element. Reference 'XXXXXX' has XXXXXX &lt;source&gt; elements._
+**Error**: Data reference 'XXXXXX' has XXXXXX data-title elements. It must contain one \(and only one\).
+
+**Action**: This error indicates that a data reference either has no title or more than one title. If the title is missing and cannot be located online using the other details provided \(accession, DOI\), please query the authors.
+
+If the reference has more than one title, it may indicate a processing error. This may require support team intervention to remove the extra title element.
+
+#### pre-err-elem-cit-data-11-2
+
+**Warning**: _Data reference 'XXXXXX' has XXXXXX source elements, when it should contain one. If this information is missing, please query it with the authors._
+
+**Action**: This warning indicates that more than one &lt;source&gt; element \(database name\) is present in a conference reference. The extra &lt;source&gt; elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
+
+#### final-err-elem-cit-data-11-2
+
+**Error**: _Data reference 'XXXXXX' has XXXXXX source elements. It must contain one \(and only one\)._
 
 **Action**: This error indicates that more than one &lt;source&gt; element \(database name\) is present in a conference reference. The extra &lt;source&gt; elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
 
@@ -117,23 +131,41 @@ If the reference has more than one title, it may indicate a processing error. Co
 
 **Error**: _A &lt;source&gt; element within a &lt;element-citation&gt; of type 'data' may only contain the child elements&lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' has disallowed child elements._
 
-**Action**: This error will appear if there are formatting elements in the `<source>` element \(database name\) other than italics, superscripts and subscripts \(e.g. bold, underline\). Make sure any disallowed formatting is removed.
+**Action**: This error will appear if there are formatting elements in the article title other than italics, superscripts and subscripts \(e.g. bold, underline\). Make sure any disallowed formatting elements are removed from the article title.
 
-#### err-elem-cit-data-13-1
+#### pre-err-elem-cit-data-13-1
 
-**Error**: _There must be at least one pub-id OR an &lt;ext-link&gt;. There may be more than one pub-id. Reference 'XXXXXX' has XXXXXX &lt;pub-id elements and XXXXXX &lt;ext-link&gt; elements._
+**Warning**: _There must be at least one pub-id OR an &lt;ext-link&gt;. There may be more than one pub-id. Reference 'XXXXXX' has XXXXXX &lt;pub-id elements and XXXXXX &lt;ext-link&gt; elements. If this information is missing, please query it with the authors._
 
 **Action**: 
 
-#### err-elem-cit-data-17-1
+#### final-err-elem-cit-data-13-1
+
+**Error**: _There must be at least one pub-id OR an &lt;ext-link&gt;. There may be more than one pub-id. Reference 'XXXXXX' has XXXXXX &lt;pub-id elements and XXXXXX &lt;ext-link&gt; elements._
+
+**Action**:
+
+#### pre-err-elem-cit-data-17-1
+
+**Warning**: _The &lt;ext-link&gt; element is required if there is no &lt;pub-id&gt;. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements. If this information is missing, please query it with the authors._
+
+**Action**: 
+
+#### final-err-elem-cit-data-17-1
 
 **Error**: _The &lt;ext-link&gt; element is required if there is no &lt;pub-id&gt;. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements._
 
-**Action**:
+**Action**: 
 
 #### err-elem-cit-data-18
 
 **Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="data" are: &lt;person-group&gt;, &lt;data-title&gt;, &lt;source&gt;, &lt;year&gt;, &lt;pub-id&gt;, &lt;version&gt;, and &lt;ext-link&gt;. Reference 'XXXXXX' has other elements._
+
+**Action**: This error will appear if a journal reference has any xml elements other than the ones in the message \(e.g. string date\). Check the XML and remove the extra elements from the reference.
+
+#### data-cite-person-group
+
+**Error**: _The person-group for a data reference must have the attribute person-group-type="author". This one in reference 'XXXXXX' has either no person-group attribute or the value is incorrect \(XXXXXX\)._
 
 **Action**: 
 
@@ -141,19 +173,21 @@ If the reference has more than one title, it may indicate a processing error. Co
 
 **Error**: _If the pub-id is of pub-id-type doi, it may not have an @xlink:href. Reference 'XXXXXX' has a &lt;pub-id element with type doi and an @link-href with value 'XXXXXX'._
 
-**Action**: This error indicates that the attribute `@xlink:href` is present on a DOI in a data reference. The proofing system support team will need to remove this attribute.
+**Action**: 
 
 #### err-elem-cit-data-13-2
 
 **Error**: _Each pub-id element must have a pub-id-type which is either accession or doi. Reference 'XXXXXX' has a &lt;pub-id element with the type 'XXXXXX'._
 
-**Action**: 
+**Action**:
 
 #### err-elem-cit-data-14-1
 
 **Error**: _If the pub-id is of any pub-id-type except doi, it must have an @xlink:href. Reference 'XXXXXX' has a &lt;pub-id element with type 'XXXXXX' but no @xlink-href._
 
-**Action**: 
+**Action**: This error indicates a URL has not been provided for a dataset with an accession number. Please locate the URL for the dataset using the database name and accession/identifier, or query the author for the missing information if this is not possible.
+
+* Please provide the direct URL for this dataset.
 
 
 
