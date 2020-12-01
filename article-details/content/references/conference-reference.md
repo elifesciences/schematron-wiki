@@ -86,7 +86,7 @@ In cases where the conference being cited is associated with the [**IEEE**](http
 
 #### conf-doi-test-1
 
-**Warning**: _XXXXXX is a conference ref without a doi, but it's a conference which is know to possibly have dois - \(XXXXXX\). Should it have one?_
+**Warning**: _XXXXXX is a conference ref without a doi, but it's a conference which is known to possibly have dois - \(XXXXXX\). Should it have one?_
 
 **Action**: This warning indicates a reference to a conference article associated with an organisation that is known to register DOIs. Search the article title and conference name online to identify a corresponding DOI \(if one exists\). Please note that this warning does not indicate that the reference definitely has a DOI - articles from older conferences may not have associated DOIs, so if none can be found, ignore this warning.
 
