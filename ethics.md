@@ -56,7 +56,7 @@ Human subjects: Mothers provided informed consent for their infants to be includ
 
 **Error:** Ethics fn-group may not have more than 3 fn elements. Currently there are XXXXXX.
 
-Action: If 
+Action: If One for clinical trial registration, one for human, one for animal
 
 #### ethics-test-3
 
