@@ -1,5 +1,41 @@
 # Asset citations
 
+## What is an asset citation?
+
+An asset citation is an in-text citation for an [**asset**](./#main-text-assets) that is part of an article. This is in contrast to reference citations. These are rendered as links in the final article. Clicking them in the PDF will take the reader to the relevant asset in the PDF and HTML view.
+
+In most cases, asset citations will appear inside brackets. Where multiple assets are cited in one set of brackets, each citation should be separated from the next with a comma followed by a space.
+
+## What needs to be checked?
+
+Most of the major possible issues with asset citations will be picked up by schematron rules. It is, however, important to be aware of the style rules relating to the following when adding or removing asset citations:
+
+* Brackets around citations \(when to use, when these are not required\)
+* , should be used as a separator between citations
+* How to identify unconverted citations
+
+Examples of these can be found in the next section. 
+
+## Examples
+
+If several parts of a figure are cited and the letters run on an en dash should be used: Figure 1A–D
+
+If several parts are cited but they don’t run on, please separate the part labels with commas:
+
+Figure 1A, C, E
+
+Should 'and' be included in the link text?
+
+Supplementary files with parts
+
+![Table 1 should be included in the linked text](../../../.gitbook/assets/screenshot-2020-12-04-at-12.10.02.png)
+
+> Any quotes from articles should be formatted as quotes
+
+* Any Kriya queries should be formatted as a bullet point
+
+## 
+
 #### fig-xref-target-test
 
 **Error:** _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
