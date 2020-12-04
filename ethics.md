@@ -28,71 +28,61 @@ Human subjects: Mothers provided informed consent for their infants to be includ
 
 ## Schematron checks
 
-### Content checks
-
-List of errors and warnings that can occur, with guidance on how to solve each problem or on when it is OK to let the warning go by and not change anything.
-
-These checks relate to the content of \[insert name of page\]. X or XXXXXX refers to quoted text which will change depending on the article.
-
-#### id-x - make sure this is tagged as a level 3 header
-
-**Warning/Error/Info:** _content of message_
-
-**Action:** What to do if this message fires
-
 #### ethics-title-test
 
-Warning/Error/Info: \*\*Error\*\*: \_fn-group\[@content-type='ethics-information'\] must have a title that contains 'Ethics'. Currently it is 'XXXXXX'.\_
+**Error:** _fn-group\[@content-type='ethics-information'\] must have a title that contains 'Ethics'. Currently it is 'XXXXXX'._
 
-Action: 
+**Action:** This error will show if the title is anything but 'Ethics', the title should be corrected to 'Ethics'.  
 
-#### id-x - ethics-broken-unicode-test
+#### ethics-broken-unicode-test
 
-Warning/Error/Info: \*\*Warning\*\*: \_Ethics statement likely contains a broken unicode - XXXXXX.\_
+**Warning:** _Ethics statement likely contains a broken unicode - XXXXXX._
 
-Action: What to do if this message fires
+**Action:** Sometimes when articles are exported from eJP, some characters appear as broken unicode. Make sure the ethics statement does not have a broken unicode - if it does, search for the unicode online to see what the character should be and replace accordingly. 
 
 #### sec-test-4
 
-Warning/Error/Info:  \*\*Warning\*\*: \_Section has a title 'XXXXXX'. Is it a duplicate of, or very similar to, the ethics statement \(in the article details page\)? If so, it should be removed. If not, then which statement is correct? The one in this section or 'XXXXXX'?\_
+**Warning:** Section has a title 'XXXXXX'. Is it a duplicate of, or very similar to, the ethics statement \(in the article details page\)? If so, it should be removed. If not, then which statement is correct? The one in this section or 'XXXXXX'?
 
-Action: What to do if this message fires
+**Action:** Sometimes authors include the ethics statement within the main text as well as in eJP, these can often be removed if they are duplicates. If the text looks very similar, Editorial should be contacted to determine which is the correct statement to use. This warning may appear if the word 'ethics' are used within the main text, for example "Results: Editors' views on publication ethics". In this case, the warning should be ignored. 
 
 #### ethics-test-1
 
-\*\*Error\*\*: \_Ethics fn-group can only be captured as a child of a sec \[@sec-type='additional-information'\]\_
+**Error:** Ethics fn-group can only be captured as a child of a sec \[@sec-type='additional-information'\]
 
-Action: 
+**Action:** The Ethics fn-group should be captured within the 'additional-information' in the XML. Exeter will need to fix this. 
 
 #### ethics-test-2
 
-\*\*Error\*\*: \_Ethics fn-group may not have more than 3 fn elements. Currently there are XXXXXX.\_
+**Error:** Ethics fn-group may not have more than 3 fn elements. Currently there are XXXXXX.
 
-Action: 
+Action: If 
 
 #### ethics-test-3
 
-\*\*Error\*\*: \_Ethics fn-group must have at least one fn element.\_
+**Error:** Ethics fn-group must have at least one fn element.
 
-Action: 
+**Action:**  In the XML, the fn element contains the ethics statement. This element should only be present if an ethics statement has been provided. This error will fire if a fn group does not have an fn element. Double check which ethics statement should be present in this fn-group and correct accordingly.
 
 #### ethics-test-4
 
-\*\*Error\*\*: \_This fn must have an @fn-type='other'\_
+**Error:** This fn must have an @fn-type='other'
 
-Action: 
+**Action:** If the fn-type is not 'other' this will need to be corrected by Exeter. 
 
 #### ethics-info-conformity
 
-\*\*Error\*\*: \_The ethics statement must end with a full stop.\_
+**Error:** The ethics statement must end with a full stop.
 
-Action: 
+**Action:** Make sure there is a full stop at the end of the statement. If there is already a full stop, ensure there is not an extra space following it. 
 
 #### ethics-info-supplemental-conformity
 
-\*\*Warning\*\*: \_Ethics statement contains the phrase 'supplemental figure'. This will almost certainly need updating to account for eLife's figure labelling.\_
+**Warning:** Ethics statement contains the phrase 'supplemental figure'. This will almost certainly need updating to account for eLife's figure labelling.
 
-Action: 
+**Action:** If the ethic statement contains the phrase 'supplemental figure', this will need to be updated to use the final labels e.g. Figure 1-figure supplement 1. If it is not clear how to do this, add the following author query:
+
+* Please update your ethics statement to use the final labels for all figure supplements and supplementary files mentioned.
 
 ## XML structure
 
