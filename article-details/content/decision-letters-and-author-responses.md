@@ -326,6 +326,7 @@ See below for the workflow
 * Usual best practice is to not change what the editors wrote.
 * Any missing information \(such as missing characters\) can be queried with Editorial Office, since they will have access to the original files.
 * Articles reviewed by Review commons will only have an acceptance summary as the Decision letter. The Author response will still contain responses to specific points however.
+* We are happy to include the minor comments if the authors wish to.
 
 ## Schematron checks
 
