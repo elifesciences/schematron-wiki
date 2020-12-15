@@ -138,13 +138,19 @@ If the reference has more than one title, it may indicate a processing error. Th
 
 **Warning**: _There must be at least one pub-id OR an &lt;ext-link&gt;. There may be more than one pub-id. Reference 'XXXXXX' has XXXXXX &lt;pub-id elements and XXXXXX &lt;ext-link&gt; elements. If this information is missing, please query it with the authors._
 
-**Action**: 
+**Action**: At least one pub-id \(DOI or accession number\) or one URL must be present in a data reference. This error indicates that none of these, or more than one URL \(`<ext-link>`\) is present in the reference.
+
+If more than one URL is present, check whether the provided URL has been mis-tagged e.g. split into two fields and correct accordingly. Extra URLs will need to be removed; if more than one URL has been provided per data reference, the Production team should be alerted and they will need to investigate what the issue is \(e.g. may be that the author is citing mutliple datasets at once\).
+
+If no DOI, accession number, or URL has been provided, query the author for the required information:
+
+* Please provide the identifier, DOI, or URL for this dataset.
 
 #### final-err-elem-cit-data-13-1
 
 **Error**: _There must be at least one pub-id OR an &lt;ext-link&gt;. There may be more than one pub-id. Reference 'XXXXXX' has XXXXXX &lt;pub-id elements and XXXXXX &lt;ext-link&gt; elements._
 
-**Action**: At least one pub-id \(DOI or accession number\) or one URL must be present in a data reference. This error indicates that none of these, or more than one URL \(`<ext-link>`\) is present in the reference. Where applicable, locate the missing information and add it in, or remove the extra elements.
+**Action**: At least one pub-id \(DOI or accession number\) or one URL must be present in a data reference. This error indicates that none of these, or more than one URL \(`<ext-link>`\) is present in the reference. Where applicable, locate the missing information and add it in, or remove the extra elements. The author may need to be queried if no identifier or URL has been provided, or multiple URLs have been provided for one dataset.
 
 #### pre-err-elem-cit-data-17-1
 
@@ -152,7 +158,7 @@ If the reference has more than one title, it may indicate a processing error. Th
 
 **Action**: Where neither a DOI nor an accession number is present, a URL must be provided. This warning indicates that no URL has been given for a reference with no DOI or accession. Query the author for the missing details:
 
-* Please provide the identifier, DOI and/or URL for this dataset.
+* Please provide the identifier, DOI, or URL for this dataset.
 
 #### final-err-elem-cit-data-17-1
 
