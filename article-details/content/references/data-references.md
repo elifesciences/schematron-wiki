@@ -33,6 +33,7 @@ The following information can be added for data references:
 * **Accession**: A unique identifier for the dataset. Usually an alphanumeric string e.g. GSE48760, EMD-22286, MSV000086293 etc. Must be accompanied by a URL for the dataset which may or may not contain the accession number as well.
 * **DOI:** The Digital Object Identifier for the dataset.
 * **Assigning authority**: The body that assigned the accession number or DOI to the dataset.
+* **Website**: A URL is permitted as an alternative to an accession or DOI, if the latter are not available.
 
 If any of the mandatory information is not provided, look up the dataset online, preferably using the URL provided. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
 
@@ -49,9 +50,9 @@ The default fields in Kriya will need to be altered to include the following inf
 * Year 
 * Data title
 * Publisher
-* DOI \[OR\] Accession
+* DOI \[OR\] Accession \(where applicable\)
 * Authority
-* Website \[if using Accession\]
+* Website \[if using Accession or if no DOI or Accession available\]
 
 ![Example of fields required for a dataset with a DOI](../../../.gitbook/assets/screen-shot-2020-11-24-at-14.18.57.png)
 
@@ -143,19 +144,21 @@ If the reference has more than one title, it may indicate a processing error. Th
 
 **Error**: _There must be at least one pub-id OR an &lt;ext-link&gt;. There may be more than one pub-id. Reference 'XXXXXX' has XXXXXX &lt;pub-id elements and XXXXXX &lt;ext-link&gt; elements._
 
-**Action**:
+**Action**: At least one pub-id \(DOI or accession number\) or one URL must be present in a data reference. This error indicates that none of these, or more than one URL \(`<ext-link>`\) is present in the reference. Where applicable, locate the missing information and add it in, or remove the extra elements.
 
 #### pre-err-elem-cit-data-17-1
 
 **Warning**: _The &lt;ext-link&gt; element is required if there is no &lt;pub-id&gt;. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements. If this information is missing, please query it with the authors._
 
-**Action**: 
+**Action**: Where neither a DOI nor an accession number is present, a URL must be provided. This warning indicates that no URL has been given for a reference with no DOI or accession. Query the author for the missing details:
+
+> Please provide the identifier, DOI and/or URL for this dataset.
 
 #### final-err-elem-cit-data-17-1
 
 **Error**: _The &lt;ext-link&gt; element is required if there is no &lt;pub-id&gt;. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements._
 
-**Action**: 
+**Action**: **Action**: Where neither a DOI nor an accession number is present, a URL must be provided. This warning indicates that no URL has been given for a reference with no DOI or accession. The author will need to be contacted to provide the missing information.
 
 #### err-elem-cit-data-18
 
