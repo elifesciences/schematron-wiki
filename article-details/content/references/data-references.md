@@ -152,7 +152,7 @@ If the reference has more than one title, it may indicate a processing error. Th
 
 **Action**: Where neither a DOI nor an accession number is present, a URL must be provided. This warning indicates that no URL has been given for a reference with no DOI or accession. Query the author for the missing details:
 
-> Please provide the identifier, DOI and/or URL for this dataset.
+* Please provide the identifier, DOI and/or URL for this dataset.
 
 #### final-err-elem-cit-data-17-1
 
