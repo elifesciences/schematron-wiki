@@ -170,19 +170,19 @@ If the reference has more than one title, it may indicate a processing error. Th
 
 **Error**: _The person-group for a data reference must have the attribute person-group-type="author". This one in reference 'XXXXXX' has either no person-group attribute or the value is incorrect \(XXXXXX\)._
 
-**Action**: 
+**Action**: Correct the &lt;person-group&gt; element so that it has the attribute `person-group-type="author"`. This will either need to be done by removing all current authors and re-adding them, or by contacting the proofing system support team.
 
 #### err-elem-cit-data-14-2
 
 **Error**: _If the pub-id is of pub-id-type doi, it may not have an @xlink:href. Reference 'XXXXXX' has a &lt;pub-id element with type doi and an @link-href with value 'XXXXXX'._
 
-**Action**: 
+**Action**: If a data reference has a DOI, it should not have a website URL as well. This error indicates a reference has both a DOI and a URL. Remove the URL.
 
 #### err-elem-cit-data-13-2
 
 **Error**: _Each pub-id element must have a pub-id-type which is either accession or doi. Reference 'XXXXXX' has a &lt;pub-id element with the type 'XXXXXX'._
 
-**Action**:
+**Action**: Only `<pub-id>` elements of `pub-id-type="doi"` or `pub-id-type="accession"` are allowed in data references. This error indicates a reference has a `<pub-id>` element with another type. This may mean a DOI or an accession number has been tagged incorrectly. The incorrect pub-id should be removed and the contents moved to either a DOI or accession field.
 
 #### err-elem-cit-data-14-1
 
