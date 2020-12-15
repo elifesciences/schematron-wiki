@@ -28,7 +28,6 @@ The following information can be added for journal references:
 | Collaboration\(s\) | At least one author or collaboration is required; both can be present | &lt;person-group person-group-type="author"&gt;&lt;collab&gt;Tulsa 1000 Investigators&lt;/collab&gt;&lt;/person-group&gt; | Tulsa 1000 Investigators |
 | Year | Yes | &lt;year iso-8601-date="2018"&gt;2018&lt;/year&gt; | 2018 |
 | Article title | Yes | &lt;article-title&gt;Image-domain material decomposition using data-driven sparsity models for dual-energy CT&lt;/article-title&gt; | Image-domain material decomposition using data-driven sparsity models for dual-energy CT |
-| Conference title | No | &lt;source&gt;Proceedings Volume 8506: Developments in X-Ray Tomography VIII&lt;/source&gt; | Independent component analysis and signal separation |
 | Conference name | Yes | &lt;conf-name&gt;2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\)&lt;/conf-name&gt; | 2018 IEEE 15th International Symposium on Biomedical Imaging \(ISBI\) |
 | Conference location | No | &lt;conf-loc&gt;Washington, DC, USA &lt;/conf-loc&gt; | Washington, DC, USA  |
 | e-location ID | No \(if first/last pages are present, there can be no e-location ID\) | &lt;elocation-id&gt;e51381&lt;/elocation-id&gt; | 78040M |
@@ -42,8 +41,7 @@ The following information can be added for journal references:
 * **Collaboration:** Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
 * **Year**: This should be the year the conference article was presented/published. This field can include a letter suffix \(e.g. 2020a\) if needed to distinguish between citations \(see more [**here**](../reference-citations.md#what-is-a-reference-citation)\).
 * **Article title**: The title of the conference article. Can contain italics, superscript and subscript as required.
-* **Conference title**: The full \(not abbreviated\) name of the conference proceedings, if this differs from the conference name. Examples of this came be seen in SPIE references e.g. [**https://doi.org/10.1117/12.860783**](https://doi.org/10.1117/12.860783).
-* **Conference name**: The full  \(not abbreviated\) name of the conference at which the article was presented.
+* **Conference name**: The full  \(not abbreviated\) name of the conference at which the article was presented \(or the proceedings thereof, where applicable e.g. [Proceedings Volume 7804, Developments in X-Ray Tomography VII](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7804.toc)\).
 * **Conference location**: Where the conference took place. Usually some combination of city, state and country.
 * **e-location ID:** The e-location identifier for the article \(if applicable; most references will have either page numbers or an e-location ID\).
 * **First page:** The page number on which the article starts \(if applicable\). Some page numbers will be prefixed with letters.
@@ -62,9 +60,8 @@ The default fields in Kriya will need to be altered to include the following inf
 
 * Author 
 * Collaboration \(if applicable\)
-* Year 
+* Year
 * Article title
-* Conference title \(if applicable\)
 * Conference name
 * Conference location \(if applicable\)
 * e-location ID or first and last page \(if available\)
