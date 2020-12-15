@@ -20,9 +20,9 @@ The following information can be added for data references:
 | Dataset title | Yes | &lt;data-title&gt;Transcriptomes of the hybrid mouse diversity panel subjected to Isoproterenol challenge&lt;/data-title&gt; | Transcriptomes of the hybrid mouse diversity panel subjected to Isoproterenol challenge |
 | Database | Yes | &lt;source&gt;NCBI Gene Expression Omnibus&lt;/source&gt; | NCBI Gene Expression Omnibus |
 | Accession | Yes, or either DOI or Website should be present | &lt;pub-id assigning-authority="NCBI" pub-id-type="accession" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760"&gt;GSE48760&lt;/pub-id&gt; | GSE48760 |
-| DOI | Yes, or Accession and Website should be present | &lt;pub-id assigning-authority="Dryad" pub-id-type="doi"&gt;10.5061/dryad.zcrjdfn8n&lt;/pub-id&gt; | 10.5061/dryad.zcrjdfn8n |
+| DOI | Yes, or either Accession or Website should be present | &lt;pub-id assigning-authority="Dryad" pub-id-type="doi"&gt;10.5061/dryad.zcrjdfn8n&lt;/pub-id&gt; | 10.5061/dryad.zcrjdfn8n |
 | Assigning authority | No | assigning-authority="NCBI" | NCBI |
-| Website | Yes if accession number is used, No if DOI is used, Yes if neither DOI nor accession is used  |  | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760"&gt;GSE48760 |
+| URL | Yes if neither DOI nor accession is present  | &lt;ext-link ext-link-type="uri" xlink:href="https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline"&gt;                 https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline&lt;/ext-link&gt; | https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline |
 
 **Non-mandatory fields are required if they exist**.
 
@@ -34,7 +34,7 @@ The following information can be added for data references:
 * **Accession**: A unique identifier for the dataset. Usually an alphanumeric string e.g. GSE48760, EMD-22286, MSV000086293 etc. Must be accompanied by a URL for the dataset which may or may not contain the accession number as well.
 * **DOI:** The Digital Object Identifier for the dataset.
 * **Assigning authority**: The body that assigned the accession number or DOI to the dataset.
-* **Website**: A URL is permitted as an alternative to an accession or DOI, if the latter are not available.
+* **URL**: A URL is permitted as an alternative to an accession or DOI, if the latter are not available.
 
 If any of the mandatory information is not provided, look up the dataset online, preferably using the URL provided. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
 
@@ -53,7 +53,7 @@ The default fields in Kriya will need to be altered to include the following inf
 * Publisher
 * DOI \[OR\] Accession \(where applicable\)
 * Authority
-* Website \[if using Accession or if no DOI or Accession available\]
+* Website \[must be added if using Accession or if no DOI or Accession available\]
 
 ![Example of fields required for a dataset with a DOI](../../../.gitbook/assets/screen-shot-2020-11-24-at-14.18.57.png)
 
