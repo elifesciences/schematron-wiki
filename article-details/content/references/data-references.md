@@ -201,7 +201,44 @@ If no DOI, accession number, or URL has been provided, query the author for the 
 
 ## XML structure
 
+Data reference with accession number:
 
+```markup
+<ref id="bib21">
+    <element-citation publication-type="data">
+        <person-group person-group-type="author">
+            <name><surname>Hoang</surname><given-names>C</given-names></name>
+            <name><surname>Swift</surname><given-names>GH</given-names></name>
+            <name><surname>Azevedo-Pouly</surname><given-names>A</given-names></name>
+            <name><surname>MacDonald</surname><given-names>RJ</given-names></name>
+        </person-group>
+        <year iso-8601-date="2015">2015</year>
+        <data-title>Effects on the transcriptome of adult mouse pancreas (principally
+        acinar cells) by the inactivation of the Ptf1a gene in vivo</data-title>
+        <source>NCBI Gene Expression Omnibus</source>
+        <pub-id pub-id-type="accession" assigning-authority="NCBI"
+        xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70542">GSE70542</pub-id>
+    </element-citation>
+</ref>
+```
 
+Data reference with DOI:
 
+```markup
+<ref id="bib26">
+    <element-citation publication-type="data">
+        <person-group person-group-type="author">
+            <name><surname>Kok</surname><given-names>K</given-names></name>
+            <name><surname>Ay</surname><given-names>A</given-names></name>
+            <name><surname>Li</surname><given-names>L</given-names></name>
+            <name><surname>Arnosti</surname><given-names>DN</given-names></name>
+        </person-group>
+        <year iso-8601-date="2015">2015</year>
+        <data-title>Data from: Genome-wide errant targeting by Hairy</data-title>
+        <source>Dryad Digital Repository</source>
+        <pub-id pub-id-type="doi" assigning-authority="Dryad Digital Repository">
+        10.5061/dryad.cv323</pub-id>
+    </element-citation>
+</ref>
+```
 
