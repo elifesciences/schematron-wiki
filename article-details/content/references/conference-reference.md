@@ -35,7 +35,7 @@ The following information can be added for journal references:
 * **Collaboration:** Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
 * **Year**: This should be the year the conference article was presented/published. This field can include a letter suffix \(e.g. 2020a\) if needed to distinguish between citations \(see more [**here**](../reference-citations.md#what-is-a-reference-citation)\).
 * **Article title**: The title of the conference article. Can contain italics, superscript and subscript as required.
-* **Conference name**: The full  \(not abbreviated\) name of the conference at which the article was presented \(or the proceedings thereof, where applicable e.g. [Proceedings Volume 7804, Developments in X-Ray Tomography VII](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7804.toc)\).
+* **Conference name**: The full  \(not abbreviated\) name of the conference at which the article was presented \(or the proceedings thereof, where applicable e.g. [**Proceedings Volume 7804, Developments in X-Ray Tomography VII**](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7804.toc)\).
 * **Conference location**: Where the conference took place. Usually some combination of city, state and country.
 * **e-location ID:** The e-location identifier for the article \(if applicable; most references will have either page numbers or an e-location ID\).
 * **First page:** The page number on which the article starts \(if applicable\). Some page numbers will be prefixed with letters.
