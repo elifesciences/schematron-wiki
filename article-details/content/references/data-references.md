@@ -83,13 +83,13 @@ In cases where no URL has been provided but an accession number is available, it
 
 **Error**: _Data references must have one and only one &lt;person-group person-group-type='author'&gt;. Reference 'XXXXXX' has XXXXXX._
 
-**Action**: This error indicates either that there is more than one `<person-group>` element with the attribute `person-group-type` equal to "author", "compiler" or "curator, or that there is one or more `<person-group>` element with another value for this attribute. Multiple author, compiler or curator lists should be combined and any `<person-group>` elements with incorrect attributes should be corrected. The latter will likely require support team intervention. Please note that while eLife allows compliers and curators in addition or instead of authors on datasets, the systems are not set up to allow this at present.
+**Action**: This error indicates either that there is more than one `<person-group>` element with the attribute `person-group-type` equal to "author" or that there is one or more `<person-group>` element with another value for this attribute. Multiple author lists should be combined and any `<person-group>` elements with incorrect attributes should be corrected. The latter will likely require support team intervention. Please note that while eLife allows compliers and curators in addition or instead of authors on datasets, the systems are not set up to allow this at present.
 
 #### pre-err-elem-cit-data-3-2
 
 **Warning**: _Data references must have one and only one &lt;person-group person-group-type='author'&gt;. Reference 'XXXXXX' has 0. If this information is missing, please query the authors asking for it._
 
-**Action**: This warning indicates that a data reference has zero &lt;person-group&gt; elements. If possible, look the dataset up online to identify the correct author list. If there are no authors given or the dataset cannot be found, please raise an author query on the proof for the missing information.
+**Action**: This warning indicates that a data reference has zero `<person-group>` elements. If possible, look the dataset up online to identify the correct author list. If there are no authors given or the dataset cannot be found, please raise an author query on the proof for the missing information.
 
 * Please provide the author list for this reference.
 
@@ -97,7 +97,7 @@ In cases where no URL has been provided but an accession number is available, it
 
 **Error**: _Data references must have one and only one &lt;person-group person-group-type='author'&gt;. Reference 'XXXXXX' has 0._
 
-**Action**: This error indicates that a data reference has zero &lt;person-group&gt; elements. If possible, look the dataset up online to identify the correct author list. If there are no authors given or the dataset cannot be found, please query the authors for the missing information.
+**Action**: This error indicates that a data reference has zero `<person-group>` elements. If possible, look the dataset up online to identify the correct author list. If there are no authors given or the dataset cannot be found, please query the authors for the missing information.
 
 #### pre-err-elem-cit-data-10
 
@@ -107,7 +107,7 @@ In cases where no URL has been provided but an accession number is available, it
 
 * Please provide the title for this reference.
 
-If the reference has more than one title, it may indicate a processing error. Compare the reference to the original article file and correct accordingly. This may require support team intervention to remove the extra title element.
+If the reference has more than one title, it may indicate a processing error. Compare the reference to the original article file and correct accordingly, combining the multiple titles into one field.
 
 #### final-err-elem-cit-data-10
 
@@ -115,19 +115,19 @@ If the reference has more than one title, it may indicate a processing error. Co
 
 **Action**: This error indicates that a data reference either has no title or more than one title. If the title is missing and cannot be located online using the other details provided \(accession, DOI\), please query the authors.
 
-If the reference has more than one title, it may indicate a processing error. This may require support team intervention to remove the extra title element.
+If the reference has more than one title, it may indicate a processing error and should be corrected, combining the multiple titles into one field.
 
 #### pre-err-elem-cit-data-11-2
 
 **Warning**: _Data reference 'XXXXXX' has XXXXXX source elements, when it should contain one. If this information is missing, please query it with the authors._
 
-**Action**: This warning indicates that more than one &lt;source&gt; element \(database name\) is present in a conference reference. The extra &lt;source&gt; elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
+**Action**: This warning indicates that more than one `<source>` element \(database name\) is present in a conference reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
 
 #### final-err-elem-cit-data-11-2
 
 **Error**: _Data reference 'XXXXXX' has XXXXXX source elements. It must contain one \(and only one\)._
 
-**Action**: This error indicates that more than one &lt;source&gt; element \(database name\) is present in a conference reference. The extra &lt;source&gt; elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
+**Action**: This error indicates that more than one `<source>` element \(database name\) is present in a conference reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
 
 #### err-elem-cit-data-11-3-2
 
