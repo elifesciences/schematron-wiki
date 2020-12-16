@@ -381,6 +381,14 @@ Please note that there are a couple of databases for which both DOIs and URLs ar
         </td>
     </tr>
     <tr>
+      <td style="text-align:left">EMPIAR</td>
+      <td style="text-align:left">Electron Microscopy Public Image Archive</td>
+      <td style="text-align:left">accession</td>
+      <td style="text-align:left">EBI</td>
+      <td style="text-align:left"><a href="https://www.ebi.ac.uk/pdbe/emdb/empiar/entry/10536/">https://www.ebi.ac.uk/pdbe/emdb/empiar/entry/10536/</a>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">ETH Library Research Collection</td>
       <td style="text-align:left">ETH Research Collection</td>
       <td style="text-align:left">doi</td>
