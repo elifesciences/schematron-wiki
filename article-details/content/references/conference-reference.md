@@ -157,12 +157,6 @@ If the reference has more than one article title, it may indicate a processing e
 
 **Action:** This error will appear if there are formatting elements in the article title other than italics, superscripts and subscripts \(e.g. bold, underline\). Make sure any disallowed formatting is removed.
 
-#### err-elem-cit-confproc-9-2-2
-
-**Error**: _A &lt;source&gt; element within a &lt;element-citation&gt; of type 'confproc' may only contain the child elements&lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' has child elements that are not allowed._
-
-**Action**: This error will appear if there are formatting elements in the `<source>` element \(conference title\) other than italics, superscripts and subscripts \(e.g. bold, underline\). Make sure any disallowed formatting is removed.
-
 #### err-elem-cit-confproc-10-2
 
 **Error**: _No elements are allowed inside &lt;conf-name&gt;. Reference 'XXXXXX' has child elements within the &lt;conf-name&gt; element._
@@ -183,7 +177,7 @@ If the reference has more than one article title, it may indicate a processing e
 
 #### err-elem-cit-confproc-17
 
-**Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="confproc" are: &lt;person-group&gt;, &lt;year&gt;, &lt;article-title&gt;, &lt;source&gt;, &lt;conf-loc&gt;, &lt;conf-name&gt;, &lt;fpage&gt;, &lt;lpage&gt;, &lt;elocation-id&gt;, &lt;ext-link&gt;, and &lt;pub-id&gt;. Reference 'XXXXXX' has other elements._
+**Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="confproc" are: &lt;person-group&gt;, &lt;year&gt;, &lt;article-title&gt;, &lt;conf-loc&gt;, &lt;conf-name&gt;, &lt;fpage&gt;, &lt;lpage&gt;, &lt;elocation-id&gt;, &lt;ext-link&gt;, and &lt;pub-id&gt;. Reference 'XXXXXX' has other elements._
 
 **Action:** This error indicates that elements are present in a conference reference that are not allowed. Check the fields present in the reference match those given [**above**](conference-reference.md#what-needs-to-be-added). Update or remove any additional elements. If this does not clear the error, the support team may need to be consulted.
 
