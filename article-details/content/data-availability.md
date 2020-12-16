@@ -202,9 +202,9 @@ If it is clear from the entered details or the repository page that data is pres
 
 * Does this repository contain source data as well as or instead of source code for your article? If no data is present, this dataset entry will need to be removed.
 
-In cases where the GitHub repository only contains code, the dataset entry should be removed. Mentions of the repository in the data availability statement should be retained, however, and in all other respects, the normal procedure regarding [**code forking**]() should be followed.
+In cases where the GitHub repository only contains code, the dataset entry should be removed. Mentions of the repository in the data availability statement should be retained, however, and in all other respects, the normal procedure regarding [**code archiving**](../../toolkit/archiving-code.md) should be followed.
 
-In the rare case that a repository contains only data, the dataset entry should be retained but there is no requirement to fork the corresponding repo.
+In the rare case that a repository contains only data, the dataset entry should be retained but there is no requirement to archive the corresponding repo.
 
 ### Journal articles entered as datasets
 
