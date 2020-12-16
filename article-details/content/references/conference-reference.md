@@ -199,6 +199,7 @@ If the reference has more than one article title, it may indicate a processing e
         <conf-loc>Province, RI</conf-loc>
         <fpage>1004</fpage>
         <lpage>1011</lpage>
+        <pub-id pub-id-type="doi">10.1109/ISBI.2018.8363521</pub-id>
     </element-citation>
 </ref>
 ```
