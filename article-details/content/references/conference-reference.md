@@ -157,12 +157,6 @@ If the reference has more than one article title, it may indicate a processing e
 
 **Action:** This error will appear if there are formatting elements in the article title other than italics, superscripts and subscripts \(e.g. bold, underline\). Make sure any disallowed formatting is removed.
 
-#### err-elem-cit-confproc-9-1
-
-**Error**: _Each &lt;element-citation&gt; of type 'confproc' must not contain more than one &lt;source&gt; element\(s\). Reference 'XXXXXX' has XXXXXX &lt;source&gt; elements._
-
-**Action**: This error indicates that more than one `<source>` element \(conference title\) is present in a conference reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the conference title or the conference name fields first. If possible locate the article online to check the correct details.
-
 #### err-elem-cit-confproc-9-2-2
 
 **Error**: _A &lt;source&gt; element within a &lt;element-citation&gt; of type 'confproc' may only contain the child elements&lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' has child elements that are not allowed._
