@@ -1650,4 +1650,5 @@ The current data availability tagging was introduced at the beginning of June 20
 * Updated 2020-10-20 to clarify das-elem-cit-5.
 * Updated 2020-10-26 to account for das-pub-id-2 split.
 * Updated 2020-11-10 to add final-das-p-conformity-1.
+* Updated 2020-12-16 to cover GitHub repos as datasets and changes to code archiving process.
 
