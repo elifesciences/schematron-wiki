@@ -4,6 +4,10 @@ description: How to fix Crossref/Dryad failures that result in emails to the inb
 
 # Fixing Crossref/Dryad failures
 
+{% hint style="info" %}
+For changelog, click [**here**](fixing-crossref-dryad-failures.md#changelog). Last updated 20/11/2020.
+{% endhint %}
+
 ## What is Crossref? 
 
 Crossref is most commonly known for registering Digital Object Identifiers \(DOIs\) for research outputs, making them easier to locate and cite. DOIs allow the reader to follow a stable link straight to the content even when a URL has changed. Crossref DOIs begin with '10.', followed by a publisher's unique 4 digit number and a slash \(eLife's is 7554/\). Following that each publisher assigns a unique set of characters to each DOI they publish, eLife uses eLife.XXXXX where XXXXX is the manuscript number assigned to an article in eJP. For example: 10.7554/eLife.58603.
@@ -111,12 +115,16 @@ These type of failures are resolved in a similar way to a Dryad failure, however
 
 * Locate the article that has failed.
 * Copy the filename and right/ctrl click on the file icon to the right of the ID \(blue text\). Click ‘Save link as’ and paste the old filename into the 'Save As:' field. When running the Dryad scenario, Oxygen will automatically change this name for you as Crossref will reject any files with duplicated names. This will need to be changed manually in this instance so you will need to change the filename so that the time is in the future \(this only needs to be an hour or so\) and click save. 
-* Now open the XML file using your XML editor, such as Oxygen.
+* Open the XML file using your XML editor, such as Oxygen.
 * You also need to update the timestamp and doi\_batch\_id elements within the XML for the same reason as above \(duplicated file names\). These can be found at the top of the file:
 
-![Timestamp and doi batch id. ](../.gitbook/assets/screen-shot-2020-12-17-at-12.49.07.png)
+![Timestamp and doi\_batch\_id. ](../.gitbook/assets/screen-shot-2020-12-17-at-12.49.07.png)
 
-* Using the Find/Replace function in Oxygen, search for the DOI in the Crossref failure email.
+* Update the timestamp string in both elements so that it is later than in the originally submitted file. It is good practice to make the new timestamp about 10-15 minutes in the future relative to when you are editing the file. So, this would now look as follows:
+
+![Updated timestamp and doi\_batch\_id.](../.gitbook/assets/screen-shot-2020-12-17-at-13.54.53.png)
+
+* Now it is time to remove the DOI causing the failure. Using the Find/Replace function in Oxygen, search for the DOI in the Crossref failure email.
 
 ![](../.gitbook/assets/screen-shot-2020-11-20-at-14.40.26.png)
 
@@ -136,7 +144,7 @@ These type of failures are resolved in a similar way to a Dryad failure, however
 
 ## Changelog
 
-### 09/09/2020
+#### 20/11/2020
 
 #### Changes
 
