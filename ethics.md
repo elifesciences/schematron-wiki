@@ -74,7 +74,7 @@ Human subjects: Mothers provided informed consent for their infants to be includ
 
 **Error:** Ethics fn-group may not have more than 3 fn elements. Currently there are XXXXXX.
 
-Action: Authors are allowed to include one ethics statement for clinical trial registration, one for human, one for animal. If there are additional statements, Editorial may need to be contacted so they can confirm which should be used. 
+**Action**: Authors are allowed to include one ethics statement for clinical trial registration, one for human, one for animal. If there are additional statements, Editorial may need to be contacted so they can confirm which should be used. 
 
 #### ethics-test-3
 
