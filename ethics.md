@@ -28,6 +28,8 @@ Human subjects: Mothers provided informed consent for their infants to be includ
 
 ## Schematron checks
 
+### Content checks
+
 #### ethics-title-test
 
 **Error:** _fn-group\[@content-type='ethics-information'\] must have a title that contains 'Ethics'. Currently it is 'XXXXXX'._
@@ -45,6 +47,20 @@ Human subjects: Mothers provided informed consent for their infants to be includ
 **Warning:** Section has a title 'XXXXXX'. Is it a duplicate of, or very similar to, the ethics statement \(in the article details page\)? If so, it should be removed. If not, then which statement is correct? The one in this section or 'XXXXXX'?
 
 **Action:** Sometimes authors include the ethics statement within the main text as well as in eJP, these can often be removed if they are duplicates. If the text looks very similar, Editorial should be contacted to determine which is the correct statement to use. This warning may appear if the word 'ethics' are used within the main text, for example "Results: Editors' views on publication ethics". In this case, the warning should be ignored. 
+
+#### ethics-info-conformity
+
+**Error:** The ethics statement must end with a full stop.
+
+**Action:** Make sure there is a full stop at the end of the statement. If there is already a full stop, ensure there is not an extra space following it. 
+
+#### ethics-info-supplemental-conformity
+
+**Action:** If the ethic statement contains the phrase 'supplemental figure', this will need to be updated to use the final labels e.g. Figure 1-figure supplement 1. If it is not clear how to do this, add the following author query:
+
+* Please update your ethics statement to use the final labels for all figure supplements and supplementary files mentioned.
+
+### XML structure checks 
 
 #### ethics-test-1
 
@@ -70,19 +86,23 @@ Action: Authors are allowed to include one ethics statement for clinical trial r
 
 **Action:** If the fn-type is not 'other' this will need to be corrected by Exeter. 
 
-#### ethics-info-conformity
-
-**Error:** The ethics statement must end with a full stop.
-
-**Action:** Make sure there is a full stop at the end of the statement. If there is already a full stop, ensure there is not an extra space following it. 
-
-#### ethics-info-supplemental-conformity
-
 **Warning:** Ethics statement contains the phrase 'supplemental figure'. This will almost certainly need updating to account for eLife's figure labelling.
 
-**Action:** If the ethic statement contains the phrase 'supplemental figure', this will need to be updated to use the final labels e.g. Figure 1-figure supplement 1. If it is not clear how to do this, add the following author query:
-
-* Please update your ethics statement to use the final labels for all figure supplements and supplementary files mentioned.
-
 ## XML structure
+
+```markup
+<fn-group content-type="ethics-information">
+<title>Ethics</title>
+<fn fn-type="other">
+<p>Human subjects: Informed consent was obtained for all participants. 
+Procedures for experiment 1 were approved by and complied with the guidelines
+of the Oxford Central University Research Ethics Committee (protocol numbers: 
+MSD-IDREC-C2-2012-36 and MSD-IDREC-C2-2012-20). Procedures for experiment 2 were
+approved by and complied with the guidelines of the University of California-
+Berkeley Committee for the Protection of Human Subjects (protocol ID 2010-12-2638).
+</p></fn>
+</fn-group>
+```
+
+
 
