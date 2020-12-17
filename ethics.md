@@ -58,6 +58,8 @@ Human subjects: Mothers provided informed consent for their infants to be includ
 
 **Action:** If the ethic statement contains the phrase 'supplemental figure', this will need to be updated to use the final labels e.g. Figure 1-figure supplement 1. If it is not clear how to do this, add the following author query:
 
+**Warning:** Ethics statement contains the phrase 'supplemental figure'. This will almost certainly need updating to account for eLife's figure labelling.
+
 * Please update your ethics statement to use the final labels for all figure supplements and supplementary files mentioned.
 
 ### XML structure checks 
@@ -85,8 +87,6 @@ Action: Authors are allowed to include one ethics statement for clinical trial r
 **Error:** This fn must have an @fn-type='other'
 
 **Action:** If the fn-type is not 'other' this will need to be corrected by Exeter. 
-
-**Warning:** Ethics statement contains the phrase 'supplemental figure'. This will almost certainly need updating to account for eLife's figure labelling.
 
 ## XML structure
 
