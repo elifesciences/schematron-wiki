@@ -14,7 +14,7 @@ All authors are expected to adhere to the guidelines set by their institutional 
 
 If the study includes the use of animals or people, we ask authors to provide an ethics statement during submission to indicate that the study has been approved and that the guidelines have been adhered to. Each institute will have their own statement. 
 
-The statement should be checked to ensure it makes sense and is formatted correctly, with no missing spaces or obvious typos. These are included within the article details but the authors may choose to include these within the main text as well. 
+The statement should be checked to ensure it makes sense and is formatted correctly, with no missing spaces or obvious typos. These are included within the article details but the authors may choose to expand on these within the main text as well. 
 
 ## Examples
 
@@ -56,7 +56,7 @@ Human subjects: Mothers provided informed consent for their infants to be includ
 
 **Error:** Ethics fn-group may not have more than 3 fn elements. Currently there are XXXXXX.
 
-Action: If One for clinical trial registration, one for human, one for animal
+Action: Authors are allowed to include one ethics statement for clinical trial registration, one for human, one for animal. If there are additional statements, Editorial may need to be contacted so they can confirm which should be used. 
 
 #### ethics-test-3
 
