@@ -112,6 +112,10 @@ These type of failures are resolved in a similar way to a Dryad failure, however
 * Locate the article that has failed.
 * Copy the filename and right/ctrl click on the file icon to the right of the ID \(blue text\). Click ‘Save link as’ and paste the old filename into the 'Save As:' field. When running the Dryad scenario, Oxygen will automatically change this name for you as Crossref will reject any files with duplicated names. This will need to be changed manually in this instance so you will need to change the filename so that the time is in the future \(this only needs to be an hour or so\) and click save. 
 * Now open the XML file using your XML editor, such as Oxygen.
+* You also need to update the timestamp and doi\_batch\_id elements within the XML for the same reason as above \(duplicated file names\). These can be found at the top of the file:
+
+![Timestamp and doi batch id. ](../.gitbook/assets/screen-shot-2020-12-17-at-12.49.07.png)
+
 * Using the Find/Replace function in Oxygen, search for the DOI in the Crossref failure email.
 
 ![](../.gitbook/assets/screen-shot-2020-11-20-at-14.40.26.png)
@@ -129,4 +133,12 @@ These type of failures are resolved in a similar way to a Dryad failure, however
 * Select the corrected XML file and click the 'upload' icon. 
 * Go back to the admin page and search without restriction to bring up the whole queue again, it should now be at the top. Be aware that the old failure will still remain.
 * Look out for the success Crossref email to come through. 
+
+## Changelog
+
+### 09/09/2020
+
+#### Changes
+
+* Adding how to fix non-Dryad crossref failures.
 
