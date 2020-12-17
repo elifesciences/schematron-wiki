@@ -56,9 +56,9 @@ Human subjects: Mothers provided informed consent for their infants to be includ
 
 #### ethics-info-supplemental-conformity
 
-**Action:** If the ethic statement contains the phrase 'supplemental figure', this will need to be updated to use the final labels e.g. Figure 1-figure supplement 1. If it is not clear how to do this, add the following author query:
-
 **Warning:** Ethics statement contains the phrase 'supplemental figure'. This will almost certainly need updating to account for eLife's figure labelling.
+
+**Action:** If the ethic statement contains the phrase 'supplemental figure', this will need to be updated to use the final labels e.g. Figure 1-figure supplement 1. If it is not clear how to do this, add the following author query:
 
 * Please update your ethics statement to use the final labels for all figure supplements and supplementary files mentioned.
 
