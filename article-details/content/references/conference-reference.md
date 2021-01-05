@@ -4,6 +4,10 @@ description: This is a page about entries for conference articles in the referen
 
 # Conference references
 
+{% hint style="info" %}
+For change log, click [**here**](conference-reference.md#change-log).
+{% endhint %}
+
 ## What is a conference reference?
 
 A conference reference gives bibliographic details for work presented at a conference, or published in the proceedings for a conference. This usually means a paper, but this reference type should be used for posters as well. For simplicity, this page uses 'article' to mean both kinds of presentation.
@@ -203,4 +207,8 @@ If the reference has more than one article title, it may indicate a processing e
     </element-citation>
 </ref>
 ```
+
+## Change log
+
+
 
