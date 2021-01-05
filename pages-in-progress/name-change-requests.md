@@ -288,7 +288,19 @@ We will not be resupplying the article to any other endpoints. With regards to G
 
 If an article was published prior to the retirement of sub-DOIs in eLife articles, its decision letter and author response sections will have been delivered to CrossRef under DOIs such as 10.7554/eLife.12345.013 and 10.7554/eLife.12345.014. When the article is silently corrected, the decision and response will be redelivered to CrossRef under new sub-article DOIs \(e.g. 10.7554/eLife.12345.sa1, 10.7554/eLife.12345.sa2\) but this will not overwrite the original record. This means that, for example, when changing an author's name, the uncorrected author list will remain in CrossRef under the original author response sub-DOI.
 
-To correct this, go to the [**CrossRef administration page**](https://doi.crossref.org/servlet/useragent?func=showHome) and log in. 
+To correct this, go to the [**CrossRef administration page**](https://doi.crossref.org/servlet/useragent?func=showHome) and log in. From there, go to 'Submission Administration'. In order to locate the record that needs correcting, you will need the date on which it was submitted. Search the article number in the Production inbox and find the email showing the deposition of peer review materials:
+
+![Example of a peer review materials submission to CrossRef](../.gitbook/assets/screen-shot-2021-01-05-at-17.44.06.png)
+
+Enter the date this email was received into the search function in CrossRef. This will return all the CrossRef submissions for that day.
+
+![](../.gitbook/assets/screen-shot-2021-01-05-at-17.45.44.png)
+
+You will then need to search through the results to locate the article in question.
+
+
+
+
 
 ### Annotation to indicate a name change
 
