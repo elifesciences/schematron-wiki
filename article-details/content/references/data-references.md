@@ -6,7 +6,7 @@ description: This is a page about entries for datasets in the reference list.
 
 ## What is a data reference?
 
-A data reference gives bibliographic details for a dataset deposited with a structured repository, database or other data-sharing platform. These may be in addition to those in the [**data availability section**](../data-availability.md), or they may repeat those listed in that section.
+A data reference gives bibliographic details for a dataset deposited in a structured repository, database or other data-sharing platform. These may be in addition to those in the [**data availability section**](../data-availability.md), or they may repeat those listed in that section, where the authors wish to directly cite them in the text.
 
 ## What needs to be added?
 
@@ -31,12 +31,12 @@ The following information can be added for data references:
 * **Year**: This should be the year the article was published. This field can include a letter suffix \(e.g. 2020a\) if needed to distinguish between citations \(see more [here](../reference-citations.md#what-is-a-reference-citation)\).
 * **Dataset title**: The title of the dataset. Can contain italics, superscript and subscript as required.
 * **Database**: The full \(not abbreviated\) name of the database in which the dataset is stored.
-* **Accession**: A unique identifier for the dataset. Usually an alphanumeric string e.g. GSE48760, EMD-22286, MSV000086293 etc. Must be accompanied by a URL for the dataset which may or may not contain the accession number as well.
+* **Accession**: A unique identifier for the dataset. Usually an alphanumeric string e.g. GSE48760, EMD-22286, MSV000086293 etc. Must be accompanied by a URL for the dataset, which may or may not contain the accession number as well.
 * **DOI:** The Digital Object Identifier for the dataset.
 * **Assigning authority**: The body that assigned the accession number or DOI to the dataset.
 * **URL**: A URL is permitted as an alternative to an accession or DOI, if the latter are not available \(note that this is a URL tagged **separately** from an accession number, rather than the URL for an accession number mentioned above\).
 
-If any of the mandatory information is not provided, look up the dataset online, preferably using the idenfier/URL provided. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
+If any of the mandatory information is not provided, look up the dataset online using the title, identifier and/or URL provided. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
 
 * Please provide the XXXXXX for this reference.
 
@@ -59,7 +59,7 @@ The default fields in Kriya will need to be altered to include the following inf
 
 ![Example of fields required for a dataset with an accession number](../../../.gitbook/assets/screen-shot-2020-11-24-at-14.18.35.png)
 
-Once you have entered the information in the fields, click on 'Search Crossref'. This will likely return no results. When the search has completed, hit 'Insert Reference' to add the dataset to the reference list.
+Once you have entered the information in the fields, click on 'Search Crossref'. This will likely return no results. Regardless of whether it does, once the search has completed, hit 'Insert Reference' to add the dataset to the reference list.
 
 ## Finding reference details
 
@@ -83,7 +83,9 @@ In cases where no URL has been provided but an accession number is available, it
 
 **Error**: _Data references must have one and only one &lt;person-group person-group-type='author'&gt;. Reference 'XXXXXX' has XXXXXX._
 
-**Action**: This error indicates either that there is more than one `<person-group>` element with the attribute `person-group-type` equal to "author" or that there is one or more `<person-group>` element with another value for this attribute. Multiple author lists should be combined and any `<person-group>` elements with incorrect attributes should be corrected. The latter will likely require support team intervention. Please note that while eLife allows compliers and curators in addition or instead of authors on datasets, the systems are not set up to allow this at present.
+**Action**: This error indicates either that there is more than one `<person-group>` element with the attribute `person-group-type` equal to "author" or that there is one or more `<person-group>` element with another value for this attribute. Multiple author lists should be combined and any `<person-group>` elements with incorrect attributes should be corrected. The latter will likely require support team intervention.
+
+Please note that while eLife allows compliers and curators in addition or instead of authors on datasets, the systems are not set up to allow this at present.
 
 #### pre-err-elem-cit-data-3-2
 
@@ -133,13 +135,13 @@ If the reference has more than one title, it may indicate a processing error and
 
 **Error**: _A &lt;source&gt; element within a &lt;element-citation&gt; of type 'data' may only contain the child elements&lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' has disallowed child elements._
 
-**Action**: This error will appear if there are formatting elements in the article title other than italics, superscripts and subscripts \(e.g. bold, underline\). Make sure any disallowed formatting elements are removed from the article title.
+**Action**: This error will appear if there are formatting elements in the article title other than italics, superscripts and subscripts \(e.g. bold, underline\). Make sure any disallowed formatting is removed from the article title.
 
 #### pre-err-elem-cit-data-13-1
 
 **Warning**: _There must be at least one pub-id OR an &lt;ext-link&gt;. Reference 'XXXXXX' has XXXXXX &lt;pub-id elements and XXXXXX &lt;ext-link&gt; elements. If this information is missing, please query it with the authors._
 
-**Action**: One pub-id \(DOI or accession number\) or one URL must be present in a data reference. This error indicates that none or more than one of tese is present in the reference. If more than one URL is present, check whether the provided URL has been mis-tagged e.g. split into two fields and correct accordingly. Extra URLs will need to be removed; if more than one URL has been provided per data reference, the Production team should be alerted and they will need to investigate what the issue is \(e.g. may be that the author is citing multiple datasets at once\).
+**Action**: One pub-id \(DOI or accession number\) or one URL must be present in a data reference. This error indicates that none or more than one of these is present in the reference. If more than one URL is present, check whether the provided URL has been mistagged e.g. split into two fields and correct accordingly. Extra URLs will need to be removed; if more than one URL has been provided per data reference, the Production team should be alerted and they will need to investigate what the issue is \(e.g. maybe the author is citing multiple datasets at once\).
 
 If no DOI, accession number, or URL has been provided, query the author for the required information:
 
@@ -149,7 +151,7 @@ If no DOI, accession number, or URL has been provided, query the author for the 
 
 **Error**: _There must be at least one pub-id OR an &lt;ext-link&gt;. Reference 'XXXXXX' has XXXXXX &lt;pub-id elements and XXXXXX &lt;ext-link&gt; elements._
 
-**Action**: One pub-id \(DOI or accession number\) or one URL must be present in a data reference. This error indicates that none or more than  one of these is present in the reference. Where applicable, locate the missing information and add it in, or remove the extra elements. The author may need to be queried if no identifier or URL has been provided, or multiple URLs have been provided for one dataset.
+**Action**: One pub-id \(DOI or accession number\) or one URL must be present in a data reference. This error indicates that none or more than one of these is present in the reference. Where applicable, locate the missing information and add it in, or remove the extra elements. The author may need to be queried if no identifier or URL has been provided, or multiple URLs have been provided for one dataset.
 
 #### pre-err-elem-cit-data-17-1
 
@@ -163,13 +165,13 @@ If no DOI, accession number, or URL has been provided, query the author for the 
 
 **Error**: _The &lt;ext-link&gt; element is required if there is no &lt;pub-id&gt;. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements._
 
-**Action**: **Action**: Where neither a DOI nor an accession number is present, a URL must be provided. This warning indicates that no URL has been given for a reference with no DOI or accession. The author will need to be contacted to provide the missing information.
+**Action**: Where neither a DOI nor an accession number is present, a URL must be provided. This warning indicates that no URL has been given for a reference with no DOI or accession. The author will need to be contacted to provide the missing information.
 
 #### err-elem-cit-data-18
 
 **Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="data" are: &lt;person-group&gt;, &lt;data-title&gt;, &lt;source&gt;, &lt;year&gt;, &lt;pub-id&gt;, &lt;version&gt;, and &lt;ext-link&gt;. Reference 'XXXXXX' has other elements._
 
-**Action**: This error will appear if a journal reference has any xml elements other than the ones in the message \(e.g. string date\). Check the XML and remove the extra elements from the reference.
+**Action**: This error will appear if a data reference has any XML elements other than the ones in the message \(e.g. string date\). Check the XML and remove the extra elements from the reference. This may require support team intervention if the elements cannot be removed by deleteing unwanted fields in the user interface.
 
 #### data-cite-person-group
 
