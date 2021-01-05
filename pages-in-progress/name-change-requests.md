@@ -164,6 +164,7 @@ The current version of each affected article should be silently corrected follow
   * funding statement
   * data availability statement
 * Article content:
+  * digest
   * acknowledgements
   * decision letter
   * author response
