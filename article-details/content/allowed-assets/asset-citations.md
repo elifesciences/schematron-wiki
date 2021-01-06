@@ -2,7 +2,7 @@
 
 ## What is an asset citation?
 
-An asset citation is an in-text citation for an [**asset**](./#main-text-assets) that is part of an article. This is in contrast to reference citations. These are rendered as links in the final article. Clicking them in the PDF will take the reader to the relevant asset in the PDF and HTML view.
+An asset citation is an in-text citation for an [**asset**](./#main-text-assets) that is part of an article. This is in contrast to [reference citations](../reference-citations.md). These are rendered as links in the final article. Clicking them in the PDF will take the reader to the relevant asset in the PDF and HTML view.
 
 In most cases, asset citations will appear inside brackets. Where multiple assets are cited in one set of brackets, each citation should be separated from the next with a comma followed by a space.
 
