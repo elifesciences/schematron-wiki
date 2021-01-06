@@ -61,12 +61,12 @@
 * [ERA](toolkit/era.md)
 * [eLife website and communication house style](toolkit/elife-website-and-communication-house-style.md)
 * [Glencoe](toolkit/glencoe.md)
+* [Name change requests](toolkit/name-change-requests.md)
 * [eToc](toolkit/etoc.md)
 
 ## Pages in progress
 
 * [Kriya](pages-in-progress/kriya-1.md)
-* [Name change requests](pages-in-progress/name-change-requests.md)
 * [Publish on accept protocols](pages-in-progress/publish-on-accept-protocols.md)
 * [Digests](pages-in-progress/digests.md)
 
