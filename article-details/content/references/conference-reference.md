@@ -33,7 +33,7 @@ The following information can be added for journal references:
 | Last page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;lpage&gt;56&lt;/lpage&gt; | 56 |
 | DOI | Yes \(if there is one\) | &lt;pub-id pub-id-type="doi"&gt;10.1109/ISBI.2018.8363521&lt;/pub-id&gt; | 10.1109/ISBI.2018.8363521 |
 
-**Non-mandatory fields are required if they exist**. Check the source of the reference if possible \(e.g. if the conference article is available online\). Schematron warnings may also pick up incomplete references, and these should be checked at the source of the reference.
+Non-mandatory fields are required if they exist. Check the source of the reference if possible \(e.g. if the conference article is available online\). Schematron warnings may also pick up incomplete references, and these should be checked at the source of the reference.
 
 * **Authors**: Enter each author name as a surname\(s\) followed by initials. 
 * **Collaboration:** Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
