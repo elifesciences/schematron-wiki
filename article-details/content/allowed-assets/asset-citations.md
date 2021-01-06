@@ -2,45 +2,89 @@
 
 ## What is an asset citation?
 
-An asset citation is an in-text citation for an [**asset**](./#main-text-assets) that is part of an article. This is in contrast to reference citations. These are rendered as links in the final article. Clicking them in the PDF will take the reader to the relevant asset in the PDF and HTML view.
+An asset citation is an in-text citation for an [**asset**](./#main-text-assets) that is part of an article. This is in contrast to [**reference citations**](../reference-citations.md). These are rendered as links in the final article. Clicking them in the PDF will take the reader to the relevant asset in the PDF and HTML view.
 
-In most cases, asset citations will appear inside brackets. Where multiple assets are cited in one set of brackets, each citation should be separated from the next with a comma followed by a space.
+![A figure and supplementary file citation](../../../.gitbook/assets/screenshot-2021-01-06-at-15.12.24.png)
+
+Asset citations may appear inside or outside brackets. Where multiple assets are cited in one set of brackets, each citation should be separated from the next by a comma or semi-colon followed by a space \(depending on context and what the author has provided\). 
 
 ## What needs to be checked?
 
 Most of the major possible issues with asset citations will be picked up by schematron rules. It is, however, important to be aware of the style rules relating to the following when adding or removing asset citations:
 
-* Brackets around citations \(when to use, when these are not required\)
-* , should be used as a separator between citations
-* How to identify unconverted citations
+* Citation order
+* Citing asset parts 
+* Identifying unconverted citations
 
 Examples of these can be found in the next section. 
 
 ## Examples
 
-If several parts of a figure are cited and the letters run on an en dash should be used: Figure 1A–D
+### Citation order
 
-If several parts are cited but they don’t run on, please separate the part labels with commas:
+Asset placement is determined by first live citation. If figures or tables are cited out of order, queries should be left for the authors. This is covered further on the [**tables**](tables.md#tables-cited-out-of-sequence) and [**figures**](figures.md#pre-fig-specific-test-2) page. 
 
-Figure 1A, C, E
+### Citing asset parts
 
-Should 'and' be included in the link text?
+Some assets can have parts which may be included in the citation link text. For example, figures, tables and supplementary files may have multiple parts. If several parts of an asset are cited and the letters run on an en dash should be used - for example, Figure 1A–D. 
 
-Supplementary files with parts
+If several parts are cited but they don’t run on, the part labels should be formatted as a comma-separated list - for example, Figure 1A, C, and E. 
 
-![Table 1 should be included in the linked text](../../../.gitbook/assets/screenshot-2020-12-04-at-12.10.02.png)
+Supplementary files with parts should have those parts included in the link text. In the example below, 'table 1' should be included in the citation link.
 
-> Any quotes from articles should be formatted as quotes
+![](../../../.gitbook/assets/screenshot-2020-12-04-at-12.10.02.png)
 
-* Any Kriya queries should be formatted as a bullet point
+### Identifying unconverted citations
 
-## 
+Occasionally, citations may be intentionally left unlinked to maintain the required asset order. In most other cases however, all asset citations should be linked. Sometimes, authors will use 'Fig' or 'Supp file' which may result in these citations being missed - these should be checked for and linked. Note however, that authors may be citing assets from other publications, for example “Figure 1 in Smith et al., 1990”. See more [**here**](figures.md#figures-that-havent-been-provided). 
+
+## Schematron checks
+
+### Content checks
+
+These checks relate to the content of asset citations. X or XXXXXX refers to quoted text which will change depending on the article.
 
 #### fig-xref-target-test
 
 **Error:** _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
 
 **Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a figure, then the `ref-type` attribute value must be 'fig'. If the link it meant to point to something else, which is not a figure, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
+
+#### vid-xref-target-test
+
+**Error**: _xref with @ref-type='XXXXXX' must point to a media\[@mimetype="video"\] element. Either this links to the incorrect location or the xref/@ref-type is incorrect._
+
+**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a video, then the `ref-type` attribute value must be 'video'. If the link it meant to point to something else, which is not a video, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
+
+#### supplementary-material-xref-target-test
+
+**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
+
+**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a supplementary file, then the `ref-type` attribute value must be 'supplementary-material'. If the link it meant to point to something else, which is not a supplementary file, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
+
+#### other-xref-target-test
+
+**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
+
+**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a video, then the `ref-type` attribute value must be 'video'. If the link it meant to point to something else, which is not a figure, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
+
+#### table-xref-target-test
+
+**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
+
+**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a video, then the `ref-type` attribute value must be 'video'. If the link it meant to point to something else, which is not a figure, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
+
+#### box-xref-target-test
+
+**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
+
+**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a video, then the `ref-type` attribute value must be 'video'. If the link it meant to point to something else, which is not a figure, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
+
+#### box-xref-target-test
+
+**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
+
+**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a video, then the `ref-type` attribute value must be 'video'. If the link it meant to point to something else, which is not a figure, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
 
 #### fig-xref-conformity-1
 
@@ -266,4 +310,12 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 **Action**: This will fire at all stages if a table citation is preceded by text such as 'Supplementary' or 'supplemental'. Often when authors have referred to supplementary tables in their original manuscript, what they actually mean is a file which will now have been labelled as a Supplementary file. If it can be determined that the original intention was to refer to a supplementary file \(this can sometimes be determined by using that supplementary file's title/caption and looking at how the authors have referred to the file in the text\), then the text and citation should be updated with a Supplementary file citation. If you are unable to determine this, then the following author query should be added:
 
 * XXXXXXX is cited in the text but has not been provided. Please either correct the citation, provide the file and a title and legend, or confirm that this citation refers to another article.
+
+#### supplementary-material-xref-target-test
+
+**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
+
+**Action**: This error will fire if a reference citation `<xref>` element \(e.g. one with the attribute `ref-type="bibr"`\) does not point to a reference but instead to some other element such as a figure. So, for example, a figure citation with the type "bibr" is not allowed: `<xref ref-type="bibr" rid="fig1">Figure 1</xref>`. The tagging should be corrected to use the correct ref-type \(`ref-type="fig"` in this example\).
+
+## 
 
