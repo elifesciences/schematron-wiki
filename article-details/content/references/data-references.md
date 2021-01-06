@@ -91,7 +91,7 @@ Please note that while eLife allows compliers and curators in addition or instea
 
 **Warning**: _Data references must have one and only one &lt;person-group person-group-type='author'&gt;. Reference 'XXXXXX' has 0. If this information is missing, please query the authors asking for it._
 
-**Action**: This warning indicates that a data reference has zero `<person-group>` elements. If possible, look the dataset up online to identify the correct author list. If there are no authors given or the dataset cannot be found, please raise an author query on the proof for the missing information.
+**Action**: This warning will fire at pre author stages, indicating that a data reference has zero `<person-group>` elements. If possible, look the dataset up online to identify the correct author list. If there are no authors given or the dataset cannot be found, please raise an author query on the proof for the missing information.
 
 * Please provide the author list for this reference.
 
@@ -99,13 +99,13 @@ Please note that while eLife allows compliers and curators in addition or instea
 
 **Error**: _Data references must have one and only one &lt;person-group person-group-type='author'&gt;. Reference 'XXXXXX' has 0._
 
-**Action**: This error indicates that a data reference has zero `<person-group>` elements. If possible, look the dataset up online to identify the correct author list. If there are no authors given or the dataset cannot be found, please query the authors for the missing information.
+**Action**: This error will fire at final stages, indicating that a data reference has zero `<person-group>` elements. If possible, look the dataset up online to identify the correct author list. If there are no authors given or the dataset cannot be found, please query the authors for the missing information.
 
 #### pre-err-elem-cit-data-10
 
 **Warning**: _Data reference 'XXXXXX' has XXXXXX data-title elements, when it should contain one. If this information is missing, please query it with the authors._
 
-**Action**: This warning indicates that a data reference either has no title or more than one title. If the title is missing and cannot be located online using the other details provided \(accession, DOI\), please add the following author query:
+**Action**: This warning will fire at pre author stages, indicating that a data reference either has no title or more than one title. If the title is missing and cannot be located online using the other details provided \(accession, DOI\), please add the following author query:
 
 * Please provide the title for this reference.
 
@@ -115,7 +115,7 @@ If the reference has more than one title, it may indicate a processing error. Co
 
 **Error**: Data reference 'XXXXXX' has XXXXXX data-title elements. It must contain one \(and only one\).
 
-**Action**: This error indicates that a data reference either has no title or more than one title. If the title is missing and cannot be located online using the other details provided \(accession, DOI\), please query the authors.
+**Action**: This error will fire at final stages, indicating that a data reference either has no title or more than one title. If the title is missing and cannot be located online using the other details provided \(accession, DOI\), please query the authors.
 
 If the reference has more than one title, it may indicate a processing error and should be corrected, combining the multiple titles into one field.
 
@@ -123,13 +123,13 @@ If the reference has more than one title, it may indicate a processing error and
 
 **Warning**: _Data reference 'XXXXXX' has XXXXXX source elements, when it should contain one. If this information is missing, please query it with the authors._
 
-**Action**: This warning indicates that more than one `<source>` element \(database name\) is present in a data reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
+**Action**: This warning will fire at pre author stages, indicating that more than one `<source>` element \(database name\) is present in a data reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
 
 #### final-err-elem-cit-data-11-2
 
 **Error**: _Data reference 'XXXXXX' has XXXXXX source elements. It must contain one \(and only one\)._
 
-**Action**: This error indicates that more than one `<source>` element \(database name\) is present in a data reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
+**Action**: This error will fire at final stages, indicating that more than one `<source>` element \(database name\) is present in a data reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
 
 #### err-elem-cit-data-11-3-2
 
@@ -141,7 +141,7 @@ If the reference has more than one title, it may indicate a processing error and
 
 **Warning**: _There must be at least one pub-id OR an &lt;ext-link&gt;. Reference 'XXXXXX' has XXXXXX &lt;pub-id elements and XXXXXX &lt;ext-link&gt; elements. If this information is missing, please query it with the authors._
 
-**Action**: One pub-id \(DOI or accession number\) or one URL must be present in a data reference. This error indicates that none or more than one of these is present in the reference. If more than one URL is present, check whether the provided URL has been mistagged e.g. split into two fields and correct accordingly. Extra URLs will need to be removed; if more than one URL has been provided per data reference, the Production team should be alerted and they will need to investigate what the issue is \(e.g. maybe the author is citing multiple datasets at once\).
+**Action**: One pub-id \(DOI or accession number\) or one URL must be present in a data reference. This error indicates \(at pre-author stages\) that none or more than one of these is present in the reference. If more than one URL is present, check whether the provided URL has been mistagged e.g. split into two fields and correct accordingly. Extra URLs will need to be removed; if more than one URL has been provided per data reference, the Production team should be alerted and they will need to investigate what the issue is \(e.g. maybe the author is citing multiple datasets at once\).
 
 If no DOI, accession number, or URL has been provided, query the author for the required information:
 
@@ -151,13 +151,13 @@ If no DOI, accession number, or URL has been provided, query the author for the 
 
 **Error**: _There must be at least one pub-id OR an &lt;ext-link&gt;. Reference 'XXXXXX' has XXXXXX &lt;pub-id elements and XXXXXX &lt;ext-link&gt; elements._
 
-**Action**: One pub-id \(DOI or accession number\) or one URL must be present in a data reference. This error indicates that none or more than one of these is present in the reference. Where applicable, locate the missing information and add it in, or remove the extra elements. The author may need to be queried if no identifier or URL has been provided, or multiple URLs have been provided for one dataset.
+**Action**: One pub-id \(DOI or accession number\) or one URL must be present in a data reference. This error indicates \(at final stages\) that none or more than one of these is present in the reference. Where applicable, locate the missing information and add it in, or remove the extra elements. The author may need to be queried if no identifier or URL has been provided, or multiple URLs have been provided for one dataset.
 
 #### pre-err-elem-cit-data-17-1
 
 **Warning**: _The &lt;ext-link&gt; element is required if there is no &lt;pub-id&gt;. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements. If this information is missing, please query it with the authors._
 
-**Action**: Where neither a DOI nor an accession number is present, a URL must be provided. This warning indicates that no URL has been given for a reference with no DOI or accession. Query the author for the missing details:
+**Action**: Where neither a DOI nor an accession number is present, a URL must be provided. This warning indicates \(at pre-author stages\) that no URL has been given for a reference with no DOI or accession. Query the author for the missing details:
 
 * Please provide the identifier, DOI, or URL for this dataset.
 
@@ -165,7 +165,7 @@ If no DOI, accession number, or URL has been provided, query the author for the 
 
 **Error**: _The &lt;ext-link&gt; element is required if there is no &lt;pub-id&gt;. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements._
 
-**Action**: Where neither a DOI nor an accession number is present, a URL must be provided. This warning indicates that no URL has been given for a reference with no DOI or accession. The author will need to be contacted to provide the missing information.
+**Action**: Where neither a DOI nor an accession number is present, a URL must be provided. This warning \(at final stages\) indicates that no URL has been given for a reference with no DOI or accession. The author will need to be contacted to provide the missing information.
 
 #### err-elem-cit-data-18
 
