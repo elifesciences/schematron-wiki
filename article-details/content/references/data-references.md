@@ -123,13 +123,13 @@ If the reference has more than one title, it may indicate a processing error and
 
 **Warning**: _Data reference 'XXXXXX' has XXXXXX source elements, when it should contain one. If this information is missing, please query it with the authors._
 
-**Action**: This warning indicates that more than one `<source>` element \(database name\) is present in a conference reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
+**Action**: This warning indicates that more than one `<source>` element \(database name\) is present in a data reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
 
 #### final-err-elem-cit-data-11-2
 
 **Error**: _Data reference 'XXXXXX' has XXXXXX source elements. It must contain one \(and only one\)._
 
-**Action**: This error indicates that more than one `<source>` element \(database name\) is present in a conference reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
+**Action**: This error indicates that more than one `<source>` element \(database name\) is present in a data reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
 
 #### err-elem-cit-data-11-3-2
 
@@ -171,7 +171,7 @@ If no DOI, accession number, or URL has been provided, query the author for the 
 
 **Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="data" are: &lt;person-group&gt;, &lt;data-title&gt;, &lt;source&gt;, &lt;year&gt;, &lt;pub-id&gt;, &lt;version&gt;, and &lt;ext-link&gt;. Reference 'XXXXXX' has other elements._
 
-**Action**: This error will appear if a data reference has any XML elements other than the ones in the message \(e.g. string date\). Check the XML and remove the extra elements from the reference. This may require support team intervention if the elements cannot be removed by deleteing unwanted fields in the user interface.
+**Action**: This error will appear if a data reference has any XML elements other than the ones in the message \(e.g. string date\). Check the XML and remove the extra elements from the reference. This may require support team intervention if the elements cannot be removed by deleting unwanted fields in the user interface.
 
 #### data-cite-person-group
 
