@@ -34,7 +34,7 @@ Non-mandatory fields are required if they exist.
 * **Accession**: A unique identifier for the dataset. Usually an alphanumeric string e.g. GSE48760, EMD-22286, MSV000086293 etc. Must be accompanied by a URL for the dataset, which may or may not contain the accession number as well.
 * **DOI:** The Digital Object Identifier for the dataset.
 * **Assigning authority**: The body that assigned the accession number or DOI to the dataset.
-* **URL**: A URL is permitted as an alternative to an accession or DOI, if the latter are not available \(note that this is a URL tagged **separately** from an accession number, rather than the URL for an accession number mentioned above\).
+* **Website**: A URL is permitted as an alternative to an accession or DOI, if the latter are not available \(note that this is a URL tagged **separately** from an accession number, rather than the URL for an accession number mentioned above\).
 
 If any of the mandatory information is not provided, look up the dataset online using the title, identifier and/or URL provided. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
 
