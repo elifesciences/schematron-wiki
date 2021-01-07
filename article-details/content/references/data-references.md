@@ -19,10 +19,10 @@ The following information can be added for data references:
 | Year | Yes | &lt;year iso-8601-date="2008"&gt;2008&lt;/year&gt; | 2008 |
 | Dataset title | Yes | &lt;data-title&gt;Transcriptomes of the hybrid mouse diversity panel subjected to Isoproterenol challenge&lt;/data-title&gt; | Transcriptomes of the hybrid mouse diversity panel subjected to Isoproterenol challenge |
 | Database | Yes | &lt;source&gt;NCBI Gene Expression Omnibus&lt;/source&gt; | NCBI Gene Expression Omnibus |
-| Accession | Yes, or either DOI or URL should be present | &lt;pub-id assigning-authority="NCBI" pub-id-type="accession" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760"&gt;GSE48760&lt;/pub-id&gt; | GSE48760 |
-| DOI | Yes, or either accession or URL should be present | &lt;pub-id assigning-authority="Dryad" pub-id-type="doi"&gt;10.5061/dryad.zcrjdfn8n&lt;/pub-id&gt; | 10.5061/dryad.zcrjdfn8n |
+| Accession | Yes, or either DOI or website should be present | &lt;pub-id assigning-authority="NCBI" pub-id-type="accession" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760"&gt;GSE48760&lt;/pub-id&gt; | GSE48760 |
+| DOI | Yes, or either accession or website should be present | &lt;pub-id assigning-authority="Dryad" pub-id-type="doi"&gt;10.5061/dryad.zcrjdfn8n&lt;/pub-id&gt; | 10.5061/dryad.zcrjdfn8n |
 | Assigning authority | No | assigning-authority="NCBI" | NCBI |
-| URL | Yes if neither DOI nor accession is present  | &lt;ext-link ext-link-type="uri" xlink:href="https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline"&gt;                 https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline&lt;/ext-link&gt; | https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline |
+| Website | Yes if neither DOI nor accession is present  | &lt;ext-link ext-link-type="uri" xlink:href="https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline"&gt;                 https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline&lt;/ext-link&gt; | https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline |
 
 Non-mandatory fields are required if they exist.
 
