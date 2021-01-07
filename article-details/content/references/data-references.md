@@ -31,7 +31,7 @@ Non-mandatory fields are required if they exist.
 * **Year**: This should be the year the article was published. This field can include a letter suffix \(e.g. 2020a\) if needed to distinguish between citations \(see more [here](../reference-citations.md#what-is-a-reference-citation)\).
 * **Dataset title**: The title of the dataset. Can contain italics, superscript and subscript as required.
 * **Database**: The full \(not abbreviated\) name of the database in which the dataset is stored.
-* **Accession**: A unique identifier for the dataset. Usually an alphanumeric string e.g. GSE48760, EMD-22286, MSV000086293 etc. Must be accompanied by a URL for the dataset, which may or may not contain the accession number as well.
+* **Accession**: A unique identifier for the dataset. Usually an alphanumeric string e.g. GSE48760, EMD-22286, MSV000086293 etc. Must be accompanied by a website for the dataset, which may or may not contain the accession number as well.
 * **DOI:** The Digital Object Identifier for the dataset.
 * **Assigning authority**: The body that assigned the accession number or DOI to the dataset.
 * **Website**: A URL is permitted as an alternative to an accession or DOI, if the latter are not available \(note that this is a URL tagged **separately** from an accession number, rather than the URL for an accession number mentioned above\).
