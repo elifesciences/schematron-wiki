@@ -30,8 +30,8 @@ Non-mandatory fields are required if they exist.
 * **Year**: This should be the year the article was published. This field can include a letter suffix \(e.g. 2020a\) if needed to distinguish between citations \(see more [here](../reference-citations.md#what-is-a-reference-citation)\).
 * **Dataset title**: The title of the dataset. Can contain italics, superscript and subscript as required.
 * **Publisher**: The full \(not abbreviated\) name of the database in which the dataset is stored.
-* **Accession**: A unique identifier for the dataset. Usually an alphanumeric string e.g. GSE48760, EMD-22286, MSV000086293 etc. Must be accompanied by a website for the dataset, which may or may not contain the accession number as well.
-* **DOI:** The Digital Object Identifier for the dataset.
+* **Accession**: A unique identifier for the dataset. Usually an alphanumeric string e.g. GSE48760, EMD-22286, MSV000086293 etc. Must be accompanied by a website for the dataset, which may or may not contain the accession number as well. Cannot be included if DOI used.
+* **DOI:** The Digital Object Identifier for the dataset. Cannoted be included if Accession used.
 * **Website**: If a dataset has a DOI, a website URL is not required. Otherwise, every dataset must have a URL. Not that if this is accompanied by an accession number, it will be tagged as an attribute on a `<pub-id>` element. If not, it will be included as an `<ext-link>` element. This will not affect display but will affect the underlying XML.
 
 If any of the mandatory information is not provided, look up the dataset online using the title, identifier and/or URL provided. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
@@ -50,7 +50,7 @@ The default fields in Kriya will need to be altered to include the following inf
 * Data title
 * Publisher
 * DOI \[OR\] Accession \(where applicable\)
-* Website \[must be added if using accession or if no DOI or accession available\]
+* Website \[must be added if using accession; must not be added if using DOI\]
 
 ![Adding data reference with DOI](../../../.gitbook/assets/screen-shot-2021-01-08-at-15.12.19.png)
 
