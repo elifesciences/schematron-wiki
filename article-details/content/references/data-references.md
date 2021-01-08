@@ -30,8 +30,8 @@ Non-mandatory fields are required if they exist.
 * **Year**: This should be the year the article was published. This field can include a letter suffix \(e.g. 2020a\) if needed to distinguish between citations \(see more [here](../reference-citations.md#what-is-a-reference-citation)\).
 * **Dataset title**: The title of the dataset. Can contain italics, superscript and subscript as required.
 * **Publisher**: The full \(not abbreviated\) name of the database in which the dataset is stored.
-* **Accession**: A unique identifier for the dataset. Usually an alphanumeric string e.g. GSE48760, EMD-22286, MSV000086293 etc. Must be accompanied by a website for the dataset, which may or may not contain the accession number as well. Cannot be included if DOI used.
-* **DOI:** The Digital Object Identifier for the dataset. Cannoted be included if Accession used.
+* **Accession**: A unique identifier for the dataset. Usually an alphanumeric string e.g. GSE48760, EMD-22286, MSV000086293 etc. Must be accompanied by a website for the dataset, which may or may not contain the accession number as well. Must not be included if DOI used.
+* **DOI:** The Digital Object Identifier for the dataset. Must not be included if Accession used.
 * **Website**: If a dataset has a DOI, a website URL is not required. Otherwise, every dataset must have a URL. Not that if this is accompanied by an accession number, it will be tagged as an attribute on a `<pub-id>` element. If not, it will be included as an `<ext-link>` element. This will not affect display but will affect the underlying XML.
 
 If any of the mandatory information is not provided, look up the dataset online using the title, identifier and/or URL provided. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
@@ -90,7 +90,7 @@ Please note that while eLife allows compliers and curators in addition or instea
 
 **Warning**: _Data references must have one and only one &lt;person-group person-group-type='author'&gt;. Reference 'XXXXXX' has 0. If this information is missing, please query the authors asking for it._
 
-**Action**: This warning will fire at pre author stages, indicating that a data reference has zero `<person-group>` elements. If possible, look the dataset up online to identify the correct author list. If there are no authors given or the dataset cannot be found, please raise an author query on the proof for the missing information.
+**Action**: This warning will fire at pre-author stages, indicating that a data reference has zero `<person-group>` elements. If possible, look the dataset up online to identify the correct author list. If there are no authors given or the dataset cannot be found, please raise an author query on the proof for the missing information.
 
 * Please provide the author list for this reference.
 
@@ -104,7 +104,7 @@ Please note that while eLife allows compliers and curators in addition or instea
 
 **Warning**: _Data reference 'XXXXXX' has XXXXXX data-title elements, when it should contain one. If this information is missing, please query it with the authors._
 
-**Action**: This warning will fire at pre author stages, indicating that a data reference either has no title or more than one title. If the title is missing and cannot be located online using the other details provided \(accession, DOI\), please add the following author query:
+**Action**: This warning will fire at pre-author stages, indicating that a data reference either has no title or more than one title. If the title is missing and cannot be located online using the other details provided \(accession, DOI\), please add the following author query:
 
 * Please provide the title for this reference.
 
@@ -122,7 +122,7 @@ If the reference has more than one title, it may indicate a processing error and
 
 **Warning**: _Data reference 'XXXXXX' has XXXXXX source elements, when it should contain one. If this information is missing, please query it with the authors._
 
-**Action**: This warning will fire at pre author stages, indicating that more than one `<source>` element \(database name\) is present in a data reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
+**Action**: This warning will fire at pre-author stages, indicating that more than one `<source>` element \(database name\) is present in a data reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
 
 #### final-err-elem-cit-data-11-2
 
@@ -132,7 +132,7 @@ If the reference has more than one title, it may indicate a processing error and
 
 #### err-elem-cit-data-11-3-2
 
-**Error**: _A &lt;source&gt; element within a &lt;element-citation&gt; of type 'data' may only contain the child elements&lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' has disallowed child elements._
+**Error**: _A &lt;source&gt; element within a &lt;element-citation&gt; of type 'data' may only contain the child elements &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' has disallowed child elements._
 
 **Action**: This error will appear if there are formatting elements in the article title other than italics, superscripts and subscripts \(e.g. bold, underline\). Make sure any disallowed formatting is removed from the article title.
 
@@ -140,7 +140,7 @@ If the reference has more than one title, it may indicate a processing error and
 
 **Warning**_:_ _There should be one \(and only one\) pub-id or one \(and only one\) ext-link. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements. If this information is missing, please query it with the authors._
 
-**Action**: One pub-id \(`<pub-id>`, DOI or accession number\) or one URL \(`<ext-link>`\) must be present in a data reference. This error indicates \(at pre-author stages\) that none or more than one of these is present in the reference. If more than one URL is present, check whether the provided URL has been mistagged e.g. split into two fields and correct accordingly. Extra URLs will need to be removed; if more than one URL has been provided per data reference, the Production team should be alerted and they will need to investigate what the issue is \(e.g. maybe the author is citing multiple datasets at once\).
+**Action**: One pub-id \(`<pub-id>`, DOI or accession number\) or one URL \(`<ext-link>`\) must be present in a data reference. This error indicates \(at pre-author stages\) that none or more than one of these is present in the reference. If more than one URL is present, check whether the provided URL has been mistagged e.g. split into two fields and correct accordingly. Extra URLs will need to be removed; if more than one URL has been provided per data reference, the Production team should be alerted and they will need to investigate the issue \(e.g. maybe the author is citing multiple datasets at once\).
 
 If no DOI, accession number, or URL has been provided, query the author for the required information:
 
@@ -156,7 +156,7 @@ If no DOI, accession number, or URL has been provided, query the author for the 
 
 **Error**: _Dataset reference 'XXXXXX' has both &lt;pub-id&gt; &lt;ext-link&gt; elements. There can only be one or the other, not both._
 
-**Action**: One pub-id \(`<pub-id>`, DOI or accession number\) or one URL \(`<ext-link>`\) must be present in a data reference. This error indicates that both are present. If the reference contains a DOI, edit it to remove any website field present in the system; only the DOI is required. if the reference has an accession number, this is likely a tagging error. Try revalidating the reference and if this does not resolve the problem, it will need ot be escalated to the support team.
+**Action**: One pub-id \(`<pub-id>`, DOI or accession number\) or one URL \(`<ext-link>`\) must be present in a data reference. This error indicates that both are present. If the reference contains a DOI, edit it to remove any website field present in the system; only the DOI is required. if the reference has an accession number, this is likely a tagging error. Try revalidating the reference and if this does not resolve the problem, it will need to be escalated to the support team.
 
 #### pre-err-elem-cit-data-17-1
 
