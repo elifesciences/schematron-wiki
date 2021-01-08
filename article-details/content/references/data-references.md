@@ -247,3 +247,27 @@ Data reference with DOI:
 </ref>
 ```
 
+Data reference with website only:
+
+```markup
+<ref id="bib89">
+    <element-citation publication-type="data">
+        <person-group person-group-type="author">
+            <name>
+                <surname>Test</surname>
+                <given-names>A</given-names>
+            </name>
+            <name>
+                <surname>Test</surname>
+                <given-names>B</given-names>
+            </name>
+        </person-group>
+        <year iso-8601-date="2020">2020</year>
+        <data-title>Dataset title</data-title>
+        <source>Gene Expression Omnibus</source>
+        <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/geo/"
+            >https://www.ncbi.nlm.nih.gov/geo/</ext-link>
+    </element-citation>
+</ref>
+```
+
