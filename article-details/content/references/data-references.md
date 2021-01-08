@@ -32,7 +32,7 @@ Non-mandatory fields are required if they exist.
 * **Publisher**: The full \(not abbreviated\) name of the database in which the dataset is stored.
 * **Accession**: A unique identifier for the dataset. Usually an alphanumeric string e.g. GSE48760, EMD-22286, MSV000086293 etc. Must be accompanied by a website for the dataset, which may or may not contain the accession number as well. Must not be included if DOI used.
 * **DOI:** The Digital Object Identifier for the dataset. Must not be included if Accession used.
-* **Website**: If a dataset has a DOI, a website URL is not required. Otherwise, every dataset must have a URL. Not that if this is accompanied by an accession number, it will be tagged as an attribute on a `<pub-id>` element. If not, it will be included as an `<ext-link>` element. This will not affect display but will affect the underlying XML.
+* **Website**: If a dataset has a DOI, a website URL is not required. Otherwise, every dataset must have a URL. Note that if this is accompanied by an accession number, it will be tagged as an attribute on a `<pub-id>` element. If not, it will be included as an `<ext-link>` element. This will not affect display but will affect the underlying XML.
 
 If any of the mandatory information is not provided, look up the dataset online using the title, identifier and/or URL provided. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
 
