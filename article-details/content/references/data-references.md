@@ -140,7 +140,7 @@ If the reference has more than one title, it may indicate a processing error and
 
 **Warning**_:_ _There should be one \(and only one\) pub-id or one \(and only one\) ext-link. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements. If this information is missing, please query it with the authors._
 
-**Action**: One pub-id \(DOI or accession number\) or one URL must be present in a data reference. This error indicates \(at pre-author stages\) that none or more than one of these is present in the reference. If more than one URL is present, check whether the provided URL has been mistagged e.g. split into two fields and correct accordingly. Extra URLs will need to be removed; if more than one URL has been provided per data reference, the Production team should be alerted and they will need to investigate what the issue is \(e.g. maybe the author is citing multiple datasets at once\).
+**Action**: One pub-id \(`<pub-id>`, DOI or accession number\) or one URL \(`<ext-link>`\) must be present in a data reference. This error indicates \(at pre-author stages\) that none or more than one of these is present in the reference. If more than one URL is present, check whether the provided URL has been mistagged e.g. split into two fields and correct accordingly. Extra URLs will need to be removed; if more than one URL has been provided per data reference, the Production team should be alerted and they will need to investigate what the issue is \(e.g. maybe the author is citing multiple datasets at once\).
 
 If no DOI, accession number, or URL has been provided, query the author for the required information:
 
@@ -150,7 +150,13 @@ If no DOI, accession number, or URL has been provided, query the author for the 
 
 **Error**: T_here must be one \(and only one\) pub-id or one \(and only one\) ext-link. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements._
 
-**Action**: One pub-id \(DOI or accession number\) or one URL must be present in a data reference. This error indicates \(at final stages\) that none or more than one of these is present in the reference. Where applicable, locate the missing information and add it in, or remove the extra elements. The author may need to be queried if no identifier or URL has been provided, or multiple URLs have been provided for one dataset.
+**Action**: One pub-id \(`<pub-id>`, DOI or accession number\) or one URL \(`<ext-link>`\) must be present in a data reference. This error indicates \(at final stages\) that none or more than one of these is present in the reference. Where applicable, locate the missing information and add it in, or remove the extra elements. The author may need to be queried if no identifier or URL has been provided, or multiple URLs have been provided for one dataset.
+
+#### elem-cit-data-pub-id-ext-link
+
+**Error**: _Dataset reference 'XXXXXX' has both &lt;pub-id&gt; &lt;ext-link&gt; elements. There can only be one or the other, not both._
+
+**Action**: One pub-id \(`<pub-id>`, DOI or accession number\) or one URL \(`<ext-link>`\) must be present in a data reference. This error indicates that both are present. If the reference contains a DOI, edit it to remove any website field present in the system; only the DOI is required. if the reference has an accession number, this is likely a tagging error. Try revalidating the reference and if this does not resolve the problem, it will need ot be escalated to the support team.
 
 #### pre-err-elem-cit-data-17-1
 
