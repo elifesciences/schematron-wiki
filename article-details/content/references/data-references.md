@@ -138,7 +138,7 @@ If the reference has more than one title, it may indicate a processing error and
 
 #### pre-err-elem-cit-data-13-1
 
-**Warning**: _There must be at least one pub-id OR an &lt;ext-link&gt;. Reference 'XXXXXX' has XXXXXX &lt;pub-id elements and XXXXXX &lt;ext-link&gt; elements. If this information is missing, please query it with the authors._
+**Warning**_:_ _There should be one \(and only one\) pub-id or one \(and only one\) ext-link. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements. If this information is missing, please query it with the authors._
 
 **Action**: One pub-id \(DOI or accession number\) or one URL must be present in a data reference. This error indicates \(at pre-author stages\) that none or more than one of these is present in the reference. If more than one URL is present, check whether the provided URL has been mistagged e.g. split into two fields and correct accordingly. Extra URLs will need to be removed; if more than one URL has been provided per data reference, the Production team should be alerted and they will need to investigate what the issue is \(e.g. maybe the author is citing multiple datasets at once\).
 
@@ -148,7 +148,7 @@ If no DOI, accession number, or URL has been provided, query the author for the 
 
 #### final-err-elem-cit-data-13-1
 
-**Error**: _There must be at least one pub-id OR an &lt;ext-link&gt;. Reference 'XXXXXX' has XXXXXX &lt;pub-id elements and XXXXXX &lt;ext-link&gt; elements._
+**Error**: T_here must be one \(and only one\) pub-id or one \(and only one\) ext-link. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements._
 
 **Action**: One pub-id \(DOI or accession number\) or one URL must be present in a data reference. This error indicates \(at final stages\) that none or more than one of these is present in the reference. Where applicable, locate the missing information and add it in, or remove the extra elements. The author may need to be queried if no identifier or URL has been provided, or multiple URLs have been provided for one dataset.
 
@@ -168,7 +168,7 @@ If no DOI, accession number, or URL has been provided, query the author for the 
 
 #### err-elem-cit-data-18
 
-**Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="data" are: &lt;person-group&gt;, &lt;data-title&gt;, &lt;source&gt;, &lt;year&gt;, &lt;pub-id&gt;, &lt;version&gt;, and &lt;ext-link&gt;. Reference 'XXXXXX' has other elements._
+**Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="data" are: &lt;person-group&gt;, &lt;data-title&gt;, &lt;source&gt;, &lt;year&gt;, &lt;pub-id&gt;, &lt;ext-link&gt; and &lt;version&gt;. Reference 'XXXXXX' has other elements._
 
 **Action**: This error will appear if a data reference has any XML elements other than the ones in the message \(e.g. string date\). Check the XML and remove the extra elements from the reference. This may require support team intervention if the elements cannot be removed by deleting unwanted fields in the user interface.
 
