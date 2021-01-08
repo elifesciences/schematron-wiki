@@ -18,11 +18,10 @@ The following information can be added for data references:
 | Collaboration\(s\) | At least one author or collaboration is required; both can be present | &lt;person-group person-group-type="author"&gt;&lt;collab&gt;Tulsa 1000 Investigators&lt;/collab&gt;&lt;/person-group&gt; | Tulsa 1000 Investigators |
 | Year | Yes | &lt;year iso-8601-date="2008"&gt;2008&lt;/year&gt; | 2008 |
 | Dataset title | Yes | &lt;data-title&gt;Transcriptomes of the hybrid mouse diversity panel subjected to Isoproterenol challenge&lt;/data-title&gt; | Transcriptomes of the hybrid mouse diversity panel subjected to Isoproterenol challenge |
-| Database | Yes | &lt;source&gt;NCBI Gene Expression Omnibus&lt;/source&gt; | NCBI Gene Expression Omnibus |
-| Accession | Yes, or either DOI or website should be present | &lt;pub-id assigning-authority="NCBI" pub-id-type="accession" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760"&gt;GSE48760&lt;/pub-id&gt; | GSE48760 |
-| DOI | Yes, or either accession or website should be present | &lt;pub-id assigning-authority="Dryad" pub-id-type="doi"&gt;10.5061/dryad.zcrjdfn8n&lt;/pub-id&gt; | 10.5061/dryad.zcrjdfn8n |
-| Assigning authority | No | assigning-authority="NCBI" | NCBI |
-| Website | Yes if neither DOI nor accession is present  | &lt;ext-link ext-link-type="uri" xlink:href="https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline"&gt;                 https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline&lt;/ext-link&gt; | https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline |
+| Publisher | Yes | &lt;source&gt;NCBI Gene Expression Omnibus&lt;/source&gt; | NCBI Gene Expression Omnibus |
+| Accession | No | &lt;pub-id assigning-authority="NCBI" pub-id-type="accession" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760"&gt;GSE48760&lt;/pub-id&gt; | GSE48760 |
+| DOI | No | &lt;pub-id assigning-authority="Dryad" pub-id-type="doi"&gt;10.5061/dryad.zcrjdfn8n&lt;/pub-id&gt; | 10.5061/dryad.zcrjdfn8n |
+| Website | Yes unless a DOI is present | &lt;ext-link ext-link-type="uri" xlink:href="https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline"&gt;                 https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline&lt;/ext-link&gt; | https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline |
 
 Non-mandatory fields are required if they exist.
 
@@ -30,10 +29,9 @@ Non-mandatory fields are required if they exist.
 * **Collaboration:** Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
 * **Year**: This should be the year the article was published. This field can include a letter suffix \(e.g. 2020a\) if needed to distinguish between citations \(see more [here](../reference-citations.md#what-is-a-reference-citation)\).
 * **Dataset title**: The title of the dataset. Can contain italics, superscript and subscript as required.
-* **Database**: The full \(not abbreviated\) name of the database in which the dataset is stored.
+* **Publisher**: The full \(not abbreviated\) name of the database in which the dataset is stored.
 * **Accession**: A unique identifier for the dataset. Usually an alphanumeric string e.g. GSE48760, EMD-22286, MSV000086293 etc. Must be accompanied by a website for the dataset, which may or may not contain the accession number as well.
 * **DOI:** The Digital Object Identifier for the dataset.
-* **Assigning authority**: The body that assigned the accession number or DOI to the dataset.
 * **Website**: A URL is permitted as an alternative to an accession or DOI, if the latter are not available \(note that this is a URL tagged **separately** from an accession number, rather than the URL for an accession number mentioned above\).
 
 If any of the mandatory information is not provided, look up the dataset online using the title, identifier and/or URL provided. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
@@ -52,12 +50,13 @@ The default fields in Kriya will need to be altered to include the following inf
 * Data title
 * Publisher
 * DOI \[OR\] Accession \(where applicable\)
-* Authority
 * Website \[must be added if using accession or if no DOI or accession available\]
 
-![Example of fields required for a dataset with a DOI](../../../.gitbook/assets/screen-shot-2020-11-24-at-14.18.57.png)
+![Adding data reference with DOI](../../../.gitbook/assets/screen-shot-2021-01-08-at-15.12.19.png)
 
-![Example of fields required for a dataset with an accession number](../../../.gitbook/assets/screen-shot-2020-11-24-at-14.18.35.png)
+![Adding data reference with accession number](../../../.gitbook/assets/screen-shot-2021-01-08-at-15.12.29.png)
+
+![Adding data reference with website only](../../../.gitbook/assets/screen-shot-2021-01-08-at-15.12.36.png)
 
 Once you have entered the information in the fields, click on 'Search Crossref'. This will likely return no results. Regardless of whether it does, once the search has completed, hit 'Insert Reference' to add the dataset to the reference list.
 
