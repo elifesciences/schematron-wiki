@@ -16,6 +16,18 @@ If the study includes the use of animals or people, we ask authors to provide an
 
 The statement should be checked to ensure it makes sense and is formatted correctly, with no missing spaces or obvious typos. These are included within the article details but the authors may choose to expand on these within the main text as well. 
 
+Not all articles need these statements and are only included if the study involved human or animal subjects. 
+
+## How is this information added? 
+
+During the submission process, authors need to answer the ethics section of the submission information page. 
+
+![Ethics form in eJP.](.gitbook/assets/image%20%283%29.png)
+
+Authors are expected to fill this in accurately as this information will be exported from eJP to Exeter in the XML. Exeter do not make any changes to this section during typesetting, unless it is to correct an obvious error such as a duplication of statement text 'Animal experimentation: and Human subjects:' which the authors may add in themselves. This is not required as they are generated automatically depending on the statement included. 
+
+![Example of an ethics statement in the proofing system.](.gitbook/assets/screen-shot-2021-01-08-at-14.06.35.png)
+
 ## Examples
 
 **Ethics statement for animal subjects:** 
@@ -26,6 +38,10 @@ Animal experimentation: All training and experimental procedures were in accorda
 
 Human subjects: Mothers provided informed consent for their infants to be included in the PreSSMat birth cohort and to have clinical data, cord blood and newborn heel prick samples collected and analysed. The study was approved by the Research Review and Ethical Review Committees of the International Centre for Diarrhoeal Disease Research, Bangladesh \(PR-16039\) on July 10, 2016. Approvals were also obtained from the Research Ethics Boards of the Ottawa Health Science Network \(20160219-01H\) on June 10, 2016, and the Children's Hospital of Eastern Ontario \(16/20E\) on June 8, 2016.
 
+**Ethics statement for clinical trials:** 
+
+Clinical trial registration Clinical Trials.gov no. NCT02752672.
+
 ## Schematron checks
 
 ### Content checks
@@ -34,7 +50,7 @@ Human subjects: Mothers provided informed consent for their infants to be includ
 
 **Error:** _fn-group\[@content-type='ethics-information'\] must have a title that contains 'Ethics'. Currently it is 'XXXXXX'._
 
-**Action:** This error will show if the title is anything but 'Ethics', the title should be corrected to 'Ethics'.  
+**Action:** This error will show if the title is anything but 'Ethics', the title should be corrected to 'Ethics'.  As this is in the meta data, Exeter's support team would need to fix this. 
 
 #### ethics-broken-unicode-test
 
@@ -92,15 +108,16 @@ Human subjects: Mothers provided informed consent for their infants to be includ
 
 ```markup
 <fn-group content-type="ethics-information">
-<title>Ethics</title>
-<fn fn-type="other">
-<p>Human subjects: Informed consent was obtained for all participants. 
-Procedures for experiment 1 were approved by and complied with the guidelines
-of the Oxford Central University Research Ethics Committee (protocol numbers: 
-MSD-IDREC-C2-2012-36 and MSD-IDREC-C2-2012-20). Procedures for experiment 2 were
-approved by and complied with the guidelines of the University of California-
-Berkeley Committee for the Protection of Human Subjects (protocol ID 2010-12-2638).
-</p></fn>
+  <title>Ethics</title>
+  <fn fn-type="other" id="fn1">
+    <p>Clinical trial registration Clinical Trials.gov no. NCT02752672.</p>
+  </fn>
+  <fn fn-type="other" id="fn2">
+    <p>Human subjects: A clinical study in psoriatic patients treated with dithranol was completed in cooperation with the Department of Dermatology, Klagenfurt State Hospital. Clinical trial procedures were approved by the ethics committee of the federal state of Carinthia, Austria (protocol number A23/15) and all participants gave written informed consent in accordance with the principles of the Declaration of Helsinki.</p>
+  </fn>
+  <fn fn-type="other" id="fn3">
+    <p>Animal experimentation: All mouse experiments were approved by the Austrian Government, Federal Ministry for Science and Research (protocol numbers BMWF-66-010/0032-11/3b/2018, 66.009/0200-WF/II/3b/2014) and animal experiments performed in Vienna were additionally approved by the Animal Experimental Ethics Committee of the Medical University of Vienna.</p>
+  </fn>
 </fn-group>
 ```
 
