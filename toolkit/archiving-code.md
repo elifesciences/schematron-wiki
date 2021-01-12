@@ -355,7 +355,7 @@ If the text is unrelated to any code archiving process \(for example if it was p
 
 **Warning**: _A Software heritage link must follow the original link for the software. The Software heritage link with the text 'XXXXXX' has 'XXXXXX' as its origin URL, but there is no preceding link with that same URL._
 
-**Action**: This error will fire if a software heritage link in the main text is not preceded by a URL which corresponds to the software heritage link. It means that either the software heritage link is incorrect, or the link to the original repo is missing or incorrect.
+**Action**: This warning will fire if a software heritage link in the main text is not preceded by a URL which corresponds to the software heritage link. It means that either the software heritage link is incorrect, or the link to the original repo is missing or incorrect.
 
 Here's a working example:
 
