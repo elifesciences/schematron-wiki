@@ -284,7 +284,7 @@ The following endpoints will need to manually updated with the new name:
 
 We will not be resupplying the article to any other endpoints. With regards to Google Scholar, this runs on a periodic \(six-monthly\) update schedule and so should update eventually, but we have no control over this.
 
-#### Updating old decision/response sub-DOIs
+### Updating old decision/response sub-DOIs
 
 If an article was published prior to the retirement of sub-DOIs in eLife articles, its decision letter and author response sections will have been delivered to CrossRef with DOIs such as 10.7554/eLife.12345.013 and 10.7554/eLife.12345.014. When the article is silently corrected, the decision and response will be redelivered to CrossRef under new sub-article DOIs \(e.g. 10.7554/eLife.12345.sa1, 10.7554/eLife.12345.sa2\) but this will not overwrite the original records.
 
