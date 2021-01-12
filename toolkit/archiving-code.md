@@ -351,3 +351,29 @@ If the text is unrelated to any code archiving process \(for example if it was p
 
 ![The SWHID is swh:1:rev:c008b3ff49d567a1abe9d9eed42afed4e9a27b42](../.gitbook/assets/screenshot-2020-11-09-at-11.21.14.png)
 
+#### software-heritage-test-4
+
+**Warning**: _A Software heritage link must follow the original link for the software. The Software heritage link with the text 'XXXXXX' has 'XXXXXX' as its origin URL, but there is no preceding link with that same URL._
+
+**Action**: This error will fire if a software heritage link in the main text is not preceded by a URL which corresponds to the software heritage link. It means that either the software heritage link is incorrect, or the link to the original repo is missing or incorrect.
+
+Here's a working example:
+
+![](https://lh3.googleusercontent.com/MyhMP1OklYXem58oCz4UPTzQ7OZ_g7ArnzvBvz19GHZ45DV9HhyaX0P9oRve_KXqrf5k_XaV2d-idLOgM1I06kL3zPsPsI4J8HmzW9Xw9ZA-ukG_WnTEbZYHvck7Cj4B0pzUqZCDE48)
+
+In this case, the link embedded in the id is:
+
+`https://archive.softwareheritage.org/swh:1:dir:506ed35220eaeab7de719a7093111e21a87646bb;origin=https://github.com/Arslan-Zaidi/popstructure;visit=swh:1:snp:ed79853f64e7ce7bb9fcad629912cb361d9ab156;anchor=swh:1:rev:1509a53ee491e3e01320c174ff55f9426da8923f/`
+
+This test checks that the content after `origin=` in the link \(in this case `https://github.com/Arslan-Zaidi/popstructure`\) is present as a separate link preceding the software heritage one. It will check up to three previous links, and will check the embedded links of those three previous links rather than the text. 
+
+So for example the following would be fine:
+
+> Scripts are available at GitHub, [**here**](https://github.com/rylanshearn/sex-read-depth) and [**here**](https://github.com/frankwalbert/promoterVariants) \(copies archived at [**swh:1:rev:0e33f6b8158f4e1385af58117afeb762576cc0fb**](https://archive.softwareheritage.org/swh:1:dir:d302bb0de7a1c5e845fe0ed83949a4fa432db0a1;origin=https://github.com/rylanshearn/sex-read-depth;visit=swh:1:snp:83e5a9acecab3b64b7e92f18d87e35590d5c64eb;anchor=swh:1:rev:0e33f6b8158f4e1385af58117afeb762576cc0fb/) and [**swh:1:rev:fb7e232981f63281d944ccf273fdafa24ac2272d**](https://archive.softwareheritage.org/swh:1:dir:e9626267bba430e5ba9d045629260763ff262441;origin=https://github.com/frankwalbert/promoterVariants;visit=swh:1:snp:3b5aa5fe84982530521c07efc43f79ef4b4fb634;anchor=swh:1:rev:fb7e232981f63281d944ccf273fdafa24ac2272d/) respectively\).
+
+Since the same links are present in the origin of the software heritage links. However the following would not be correct:
+
+> Scripts are available at GitHub, [**here**](https://github.com/elifesciences/eLife-JATS-schematron) and [**here**](https://github.com/frankwalbert/promoterVariants) \(copies archived at [**swh:1:rev:0e33f6b8158f4e1385af58117afeb762576cc0fb**](https://archive.softwareheritage.org/swh:1:dir:d302bb0de7a1c5e845fe0ed83949a4fa432db0a1;origin=https://github.com/rylanshearn/sex-read-depth;visit=swh:1:snp:83e5a9acecab3b64b7e92f18d87e35590d5c64eb;anchor=swh:1:rev:0e33f6b8158f4e1385af58117afeb762576cc0fb/) and [**swh:1:rev:fb7e232981f63281d944ccf273fdafa24ac2272d**](https://archive.softwareheritage.org/swh:1:dir:e9626267bba430e5ba9d045629260763ff262441;origin=https://github.com/frankwalbert/promoterVariants;visit=swh:1:snp:3b5aa5fe84982530521c07efc43f79ef4b4fb634;anchor=swh:1:rev:fb7e232981f63281d944ccf273fdafa24ac2272d/) respectively\).
+
+Since the embedded link in the first 'here' is `https://github.com/elifesciences/eLife-JATS-schematron` and that is in neither of the Software Heritage links.
+
