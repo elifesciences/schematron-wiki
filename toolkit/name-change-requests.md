@@ -290,25 +290,17 @@ If an article was published prior to the retirement of sub-DOIs in eLife article
 
 This means that when changing an author's name, the uncorrected author list will remain in CrossRef under the original author response sub-DOI. Similarly, if an editor's name is changing, the previous details will remain listed under the original decision letter sub-DOI.
 
-To correct this, go to the [**CrossRef administration page**](https://doi.crossref.org/servlet/useragent?func=showHome) and log in. From there, go to 'Submission Administration'. In order to locate the record that needs correcting, you will need the date on which it was submitted. Search the article number in the Production inbox and find the email showing the deposition of peer review materials:
+To correct this, go to the [**CrossRef administration page**](https://doi.crossref.org/servlet/useragent?func=showHome) and log in. From there, go to 'Submission Administration'. In order to locate the record that needs correcting, you will need the relevant submission ID. Search the article number in the Production inbox and find the email showing the deposition of peer review materials. The ID is in the email header:
 
 ![Example of a peer review materials submission to CrossRef](../.gitbook/assets/screen-shot-2021-01-05-at-17.44.06.png)
 
 Enter the date this email was received into the search function in CrossRef. This will return all the CrossRef submissions for that day.
 
-![](../.gitbook/assets/screen-shot-2021-01-05-at-17.45.44.png)
-
-You will then need to search through the results to locate the article in question.
-
-{% hint style="info" %}
-To save time, go to the second page of results and edit the URL to increase the number of results per page. This will allow a quick search for the required article.
-{% endhint %}
-
-![](../.gitbook/assets/screen-shot-2021-01-12-at-11.44.02.png)
+![](../.gitbook/assets/screen-shot-2021-01-12-at-15.03.40.png)
 
 The required file will be prefixed 'elife-crossref-peer\_review-', followed by the article number.
 
-![](../.gitbook/assets/screen-shot-2021-01-05-at-17.55.20.png)
+![](../.gitbook/assets/screen-shot-2021-01-12-at-15.04.20.png)
 
 Download the corresponding XML file via the normal procedure for getting CrossRef XML and then rename it with a different timestamp, e.g. changing "elife-crossref-peer\_review-21673-20191113013212.xml" to "elife-crossref-peer\_review-21673-20210105183000.xml. Remember to set the timestamp at least half and hour in advance of the current time to avoid it being rejected when the edited file is uploaded.
 
