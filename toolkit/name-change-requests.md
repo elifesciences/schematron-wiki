@@ -294,11 +294,9 @@ To correct this, go to the [**CrossRef administration page**](https://doi.crossr
 
 ![Example of a peer review materials submission to CrossRef](../.gitbook/assets/screen-shot-2021-01-05-at-17.44.06.png)
 
-Enter the date this email was received into the search function in CrossRef. This will return all the CrossRef submissions for that day.
+Enter the ID into the search function in CrossRef and it will return the required entry.
 
 ![](../.gitbook/assets/screen-shot-2021-01-12-at-15.03.40.png)
-
-The required file will be prefixed 'elife-crossref-peer\_review-', followed by the article number.
 
 ![](../.gitbook/assets/screen-shot-2021-01-12-at-15.04.20.png)
 
