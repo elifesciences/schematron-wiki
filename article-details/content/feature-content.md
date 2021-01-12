@@ -2,15 +2,13 @@
 description: How to handle the different types of feature content
 ---
 
-# Feature content
+# Insights, Editorials, and Feature articles
 
 ## What is feature content?
 
 At eLife, the term 'feature content' covers all non-research content published by the journal. This is synonymous with 'magazine content' and can be found under this heading on the eLife website: [**https://elifesciences.org/magazine**](https://elifesciences.org/magazine).
 
-This content is overseen by the Features team and consists in part of [**blogposts**](https://elifesciences.org/inside-elife) and [**podcasts**](https://elifesciences.org/podcast) that do not require Production intervention to publish. Digests are also published in a dedicated [**section**](https://elifesciences.org/digests) under the magazine heading, in addition to being included in the related article.
-
-In addition to this there are four categories of feature article that come through the production process:
+This content is overseen by the Features team and there categories of feature article come through the production process:
 
 * **Insight** - a commentary article accompanying one or more research articles, usually written by the editors or reviewers who worked on the article, to provide context for a broader audience and highlight the importance of the findings being reported.
 * **Editorial** - an editorial piece written by eLife staff, one or more of eLife's deputy or senior editors, or the editor-in-chief, usually addressing a specific issue or development in the scientific community in general and/or at eLife in particular.
@@ -25,8 +23,8 @@ There are five content templates that map to the above article types. Aside from
 | \*\*\*\*[**Template 1**](https://drive.google.com/file/d/0B2wDI5EMHiJ-Y1gyNVVySENwMmM/view?usp=sharing)\*\*\*\* | Insight | Two column, with key information box on first page; one-sentence abstract displayed as stand-first | Labelled figures, no digest, no decision/response, no editors/reviewers, no funding, no data availability |
 | \*\*\*\*[**Template 2**](https://drive.google.com/file/d/0B2wDI5EMHiJ-Zm5VR0dxTlk4dGc/view?usp=sharing)\*\*\*\* | Editorial | Two column, one-sentence abstract displayed as stand-first | Illustrations and pull-quotes, no digest, no decision/response, no editors/reviewers, no funding, no data availability |
 | \*\*\*\*[**Template 3**](https://drive.google.com/file/d/0B2wDI5EMHiJ-VENsOTczcExQRjQ/view?usp=sharing)\*\*\*\* | Feature article | Two column, one-sentence abstract displayed as stand-first | Illustrations and pull-quotes, no digest, no decision/response, no editors/reviewers, no funding, no data availability |
-| \*\*\*\*[**Template 4**](https://drive.google.com/file/d/0B2wDI5EMHiJ-NVJEekI2UUNyaGM/view?usp=sharing)\*\*\*\* | Feature article | Two column, full abstract | Labelled figures, tables, boxes, no digest, pull-quotes, no decision/response, no editors/reviewers, no funding, no data availability |
-| \*\*\*\*[**Template 5**](https://drive.google.com/file/d/0B2wDI5EMHiJ-TDU1bFpfWm9OX3c/view?usp=sharing)\*\*\*\* | Feature article | Two column, full abstract | Labelled figures, tables, boxes, no digest, possible decision/response, editors/reviewers, funding information, data availability section, author contributions |
+| \*\*\*\*[**Template 4**](https://drive.google.com/file/d/0B2wDI5EMHiJ-NVJEekI2UUNyaGM/view?usp=sharing)\*\*\*\* | Feature article | Two column, full abstract | Labelled figures, tables, boxes, additional files, no digest, pull-quotes, no decision/response, no editors/reviewers, no funding, no data availability |
+| \*\*\*\*[**Template 5**](https://drive.google.com/file/d/0B2wDI5EMHiJ-TDU1bFpfWm9OX3c/view?usp=sharing)\*\*\*\* | Feature article | Two column, full abstract | Labelled figures, tables, boxes, additional files, no digest, possible decision/response, editors/reviewers, funding information, data availability section, author contributions |
 
 The required template will be indicated using the article file name in the exported files, for example "elife50543\_template3.docx" or "elife46563\_template4.docx".
 
@@ -75,7 +73,7 @@ The class chosen for each figure will be indicated in the file name.
 
 ![Examples of updated file names for feature content in the submission system](../../.gitbook/assets/screen-shot-2020-07-01-at-18.16.03.png)
 
-Once the files have been edited, the article will be exported. At this point, the Features team may contact the Production team by email to advise them whether a decision/response will be included, or if there are unusual elements \(such as complex boxes, animations etc.\), or to give a specific deadline for getting the proof to the authors.
+Once the files have been edited, the article will be exported. At this point, the Features team will contact the Production team by email to advise them whether a decision/response will be included, or if there are unusual elements \(such as complex boxes, animations etc.\), or to give a specific deadline for getting the proof to the authors.
 
 ## Production process for feature content
 
