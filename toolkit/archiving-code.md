@@ -363,9 +363,9 @@ Here's a working example:
 
 In this case, the link embedded in the id is:
 
-`https://archive.softwareheritage.org/swh:1:dir:506ed35220eaeab7de719a7093111e21a87646bb;origin=https://github.com/Arslan-Zaidi/popstructure;visit=swh:1:snp:ed79853f64e7ce7bb9fcad629912cb361d9ab156;anchor=swh:1:rev:1509a53ee491e3e01320c174ff55f9426da8923f/`
+`https://archive.softwareheritage.org/swh:1:dir:506ed35220eaeab7de719a7093111e21a87646bb;origin=https://github.com/Arslan-Zaidi/popstructured;visit=swh:1:snp:ed79853f64e7ce7bb9fcad629912cb361d9ab156;anchor=swh:1:rev:1509a53ee491e3e01320c174ff55f9426da8923f/`
 
-This test checks that the content after `origin=` in the link \(in this case `https://github.com/Arslan-Zaidi/popstructure`\) is present as a separate link preceding the software heritage one. It will check up to three previous links, and will check the embedded links of those three previous links rather than the text. 
+This test checks that the content after `origin=` in the link \(in this case `https://github.com/Arslan-Zaidi/popstructured`\) is present as a separate link preceding the software heritage one. It will check up to three previous links, and will check the embedded links of those three previous links rather than the text. 
 
 So for example the following would be fine:
 
