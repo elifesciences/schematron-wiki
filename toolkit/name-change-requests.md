@@ -316,7 +316,11 @@ You will then need to open the XML and edit the doi batch ID timestamp to match 
 
 ![](../.gitbook/assets/screen-shot-2021-01-05-at-17.59.05.png)
 
-Once this is done, edit the editor or author details as required. Save the XML and navigate to the 'Upload' option in CrossRef. Upload the revised decision/response XML; it should process within five minutes of being resupplied. This will correct the metadata associated with the original sub-DOIs, but it may take a few days for the corrected author list\(s\) to show in a [**CrossRef search**](https://search.crossref.org/?from_ui=&q=).
+Once this is done, edit the editor or author details as required. Save the XML and navigate to the 'Upload' option in CrossRef. Upload the revised decision/response XML; it should process within five minutes of being resupplied.
+
+![](../.gitbook/assets/screen-shot-2021-01-12-at-11.52.15.png)
+
+This will correct the metadata associated with the original sub-DOIs, but it may take a few days for the corrected author list\(s\) to show in a [**CrossRef search**](https://search.crossref.org/?from_ui=&q=).
 
 ### Annotation to indicate a name change
 
