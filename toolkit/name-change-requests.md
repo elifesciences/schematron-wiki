@@ -290,7 +290,7 @@ If an article was published prior to the retirement of sub-DOIs in eLife article
 
 This means that when changing an author's name, the uncorrected author list will remain in CrossRef under the original author response sub-DOI. Similarly, if an editor's name is changing, the previous details will remain listed under the original decision letter sub-DOI.
 
-To correct this, go to the [**CrossRef administration page**](https://doi.crossref.org/servlet/useragent?func=showHome) and log in. From there, go to 'Submission Administration'. In order to locate the record that needs correcting, you will need the relevant submission ID. Search the article number in the Production inbox and find the email showing the deposition of peer review materials. The ID is in the email header:
+To correct this, go to the [**CrossRef administration page**](https://doi.crossref.org/servlet/useragent?func=showHome) and log in. From there, go to 'Submission Administration'. In order to locate the record that needs correcting, you will need the relevant submission ID. Search the article number in the Production inbox and find the email showing the deposition of peer review materials under old-style sub-DOIs. The ID is in the email header:
 
 ![Example of a peer review materials submission to CrossRef](../.gitbook/assets/screen-shot-2021-01-05-at-17.44.06.png)
 
