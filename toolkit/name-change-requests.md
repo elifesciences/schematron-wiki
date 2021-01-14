@@ -279,18 +279,18 @@ When the latest version of an article is silently corrected, the article will be
 
 The following endpoints will need to manually updated with the new name:
 
-* [**PubMed**](https://www.ncbi.nlm.nih.gov/pubmed/management) \(abstract indexing service\)
-* [**CrossRef**](https://www.crossref.org/) \(if Decision/Response DOIs were registered using old sub-article structure, see **below**\)
+* [**PubMed**](https://www.ncbi.nlm.nih.gov/pubmed/management) \(abstract indexing service, by searching the DOI for the article in the [**PubMed Data Management Center**](https://www.ncbi.nlm.nih.gov/pubmed/management) and editing the details in the record\)
+* [**CrossRef**](https://www.crossref.org/) \(if Decision/Response DOIs were registered using old sub-article structure, see [**below**](name-change-requests.md#updating-old-decision-response-sub-dois)\)
 
 We will not be resupplying the article to any other endpoints. With regards to Google Scholar, this runs on a periodic \(six-monthly\) update schedule and so should update eventually, but we have no control over this.
 
 ### Updating old decision/response sub-DOIs
 
-If an article was published prior to the retirement of sub-DOIs in eLife articles, its decision letter and author response sections will have been delivered to CrossRef with DOIs such as 10.7554/eLife.12345.013 and 10.7554/eLife.12345.014. When the article is silently corrected, the decision and response will be redelivered to CrossRef under new sub-article DOIs \(e.g. 10.7554/eLife.12345.sa1, 10.7554/eLife.12345.sa2\) but this will not overwrite the original records.
+If an article was published prior to the retirement of sub-DOIs in eLife articles \(in Q4 2019\), its decision letter and author response sections will have been delivered to CrossRef with DOIs such as 10.7554/eLife.12345.013 and 10.7554/eLife.12345.014. When the article is silently corrected, the decision and response will be redelivered to CrossRef under new sub-article DOIs \(e.g. 10.7554/eLife.12345.sa1, 10.7554/eLife.12345.sa2\) but this will not overwrite the original records.
 
 This means that when changing an author's name, the uncorrected author list will remain in CrossRef under the original author response sub-DOI. Similarly, if an editor's name is changing, the previous details will remain listed under the original decision letter sub-DOI.
 
-To correct this, go to the [**CrossRef administration page**](https://doi.crossref.org/servlet/useragent?func=showHome) and log in. From there, go to 'Submission Administration'. In order to locate the record that needs correcting, you will need the relevant submission ID. Search the article number in the Production inbox and find the email showing the deposition of peer review materials under old-style sub-DOIs. The ID is in the email header:
+To correct this, go to the [**CrossRef administration page**](https://doi.crossref.org/servlet/useragent?func=showHome) and log in. From there, go to 'Submission Administration'. In order to locate the record that needs correcting, you will need the relevant submission ID. Search the article number in the Production inbox and find the email showing the deposition of peer review materials under old-style sub-DOIs \(this will have been received in **November 2019**, when a bulk delivery of published peer review material was carried out\). The ID is in the email header:
 
 ![Example of a peer review materials submission to CrossRef](../.gitbook/assets/screen-shot-2021-01-05-at-17.44.06.png)
 
