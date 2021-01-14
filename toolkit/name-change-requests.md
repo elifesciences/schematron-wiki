@@ -4,6 +4,10 @@ description: Process for changing the name of an author or editor in eLife conte
 
 # Name change requests
 
+{% hint style="info" %}
+For the changelog, click [**here**](name-change-requests.md#changelog).
+{% endhint %}
+
 ## What does this page cover?
 
 When an individual changes their name \(through marriage, by deed-poll, as a result of transitioning to another gender etc.\), they may wish to update the scientific record to ensure that their work can be found under their new name.
@@ -329,4 +333,8 @@ If Anja isn’t available, the [comms@elifesciences.org](mailto:comms@elifescien
 ## Post-change actions
 
 Once the change has been implemented, Editorial will confirm this with the person who made the intial request.
+
+## Changelog
+
+* 2021-01-14: To cover updating old sub-DOI metadata for peer review materials in CrossRef.
 
