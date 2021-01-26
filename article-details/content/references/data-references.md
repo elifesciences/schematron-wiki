@@ -162,20 +162,6 @@ If no DOI, accession number, or URL has been provided, query the author for the 
 
 **Action**: One pub-id \(`<pub-id>`, DOI or accession number\) or one URL \(`<ext-link>`\) must be present in a data reference. This error indicates that both are present. If the reference contains a DOI, edit it to remove any website field present in the system; only the DOI is required. if the reference has an accession number, this is likely a tagging error. Try revalidating the reference and if this does not resolve the problem, it will need to be escalated to the support team.
 
-#### pre-err-elem-cit-data-17-1
-
-**Warning**: _The &lt;ext-link&gt; element is required if there is no &lt;pub-id&gt;. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements. If this information is missing, please query it with the authors._
-
-**Action**: Where neither a DOI nor an accession number is present, a URL must be provided. This warning indicates \(at pre-author stages\) that no URL has been given for a reference with no DOI or accession. Query the author for the missing details:
-
-* Please provide the identifier, DOI, or URL for this dataset.
-
-#### final-err-elem-cit-data-17-1
-
-**Error**: _The &lt;ext-link&gt; element is required if there is no &lt;pub-id&gt;. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements._
-
-**Action**: Where neither a DOI nor an accession number is present, a URL must be provided. This warning \(at final stages\) indicates that no URL has been given for a reference with no DOI or accession. The author will need to be contacted to provide the missing information.
-
 #### err-elem-cit-data-18
 
 **Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="data" are: &lt;person-group&gt;, &lt;data-title&gt;, &lt;source&gt;, &lt;year&gt;, &lt;pub-id&gt;, &lt;ext-link&gt; and &lt;version&gt;. Reference 'XXXXXX' has other elements._
