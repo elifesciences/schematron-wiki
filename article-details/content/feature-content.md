@@ -4,6 +4,10 @@ description: How to handle the different types of feature content
 
 # Insights, Editorials, and Feature articles
 
+{% hint style="info" %}
+For the changelog, click [**here**](feature-content.md#changelog).
+{% endhint %}
+
 ## What is feature content?
 
 At eLife, the term 'feature content' covers all non-research content published by the journal. This is synonymous with 'magazine content' and can be found under this heading on the eLife website: [**https://elifesciences.org/magazine**](https://elifesciences.org/magazine).
@@ -377,6 +381,8 @@ Action: This warning will fire if a Template 5 article does not have an author r
     </custom-meta>
 </custom-meta-group>
 ```
+
+## Changelog
 
 
 
