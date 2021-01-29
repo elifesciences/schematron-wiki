@@ -265,18 +265,6 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 **Action**: This warning indicates that the authors of a Template 1, 2, 3 or 4 article have author contributions. This is highly unusual as articles using these templates do not typically include contributions. However, they are allowed in unusual cases. Check for any notes indicating that contributions are required for the current article. If there are no notes, the Production team will need to contact the Features team to determine if contributions should be included.
 
-#### insight-abstract-impact-test-1
-
-**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract reads "XXXXXX", whereas the impact statement reads "XXXXXX"._
-
-**Action**: This warning indicates that an Insight's impact statement and abstract do not match. The Features team will need to be asked which version of the text is correct and then the text that does not match this should be changed.
-
-#### insight-abstract-impact-test-2
-
-**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract has XXXXXX child element\(s\), whereas the impact statement has XXXXXX child element\(s\). Check for possible missing formatting._
-
-**Action**: This warning indicates that there are different numbers of child elements in the impact statement and abstract for an Insight. This likely means that there is formatting in one of these pieces of text that is not present in the other. Apply the formatting to whichever text is missing it so that they are identical.
-
 #### insight-box-test-1
 
 **Warning**: A citation for related article XXXXXX is not included in the related-article box text in the body of the article. 'XXXXXX' is not present \(or is different to the relevant passage\) in 'XXXXXX'
