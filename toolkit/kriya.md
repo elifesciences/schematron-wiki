@@ -236,11 +236,11 @@ This is used to record time spent working on the production GitBook. The descrip
 
 ### GitLab
 
-This is used to track time spent on GitLab tickets opened with the production vendor, usually related to bugs and improvements in the proofing system.
+This is used to track time spent on GitLab tickets opened with the production vendor, usually related to bugs and improvements in the proofing system. The description should be the ticket number.
 
 ### Home page
 
-
+This is for recording time spent on updating the eLife homepage image. It covers both choosing the homepage from available options \(in which case the description entered should be **Choosing homepage image**\) and changing the image on the homepage \(in which case, the description should be **Changing homepage image**\).
 
 ### JATS4R
 
@@ -268,7 +268,7 @@ It is useful to track our meetings too, somethings these can overrun and it's ea
 
 ### PoA
 
-
+The PoA project covers time spent working on Publish on Accept articles. This can include updating article publication dates, replacing PDFs or assisting the Editorial Office team in other matters related to the PoA process. The number for the article being worked on should be added to the description.
 
 ### **Pub check**
 
