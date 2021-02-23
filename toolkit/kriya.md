@@ -4,6 +4,8 @@ description: Task tracking with Toggl
 
 # Toggl
 
+## What is Toggl?
+
 [**Toggl**](https://toggl.com/) is a time-tracking application that the eLife production team uses to monitor how much time is spent on different tasks. This information will be used to monitor the effect of changes to workflows, to track the distribution of work compared to article volumes, to double-check the team has time to work on projects outside the day-to-day tasks, and so on.
 
 The Toggl interface works on self-reporting, with the user required to start and stop the time like a stop-watch. The user can add a manual description of the task, assign it to a preset ‘project’ and add one or more preset tags.
@@ -14,7 +16,139 @@ The Toggl interface works on self-reporting, with the user required to start and
 
 ## Projects and tags
 
-
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Project</th>
+      <th style="text-align:left">What&apos;s it for?</th>
+      <th style="text-align:left">Associated tags</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Continuum Checks</td>
+      <td style="text-align:left">Tracking pre-publication checks on Continuum, equates to &apos;preview&apos;
+        in TaskAdept</td>
+      <td style="text-align:left">New version</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Emails</td>
+      <td style="text-align:left">Tracking time spent on emails</td>
+      <td style="text-align:left">
+        <p>Emails: author details</p>
+        <p>Emails: datasets</p>
+        <p>Emails: figures</p>
+        <p>Emails: math</p>
+        <p>Emails: morning</p>
+        <p>Emails: press</p>
+        <p>Emails: proof access</p>
+        <p>Emails: proof edits</p>
+        <p>Emails: proof return delay</p>
+        <p>Emails: Pub date query</p>
+        <p>Emails: reproducibility</p>
+        <p>Emails: software</p>
+        <p>Emails: striking images</p>
+        <p>Emails: typesetting</p>
+        <p>New version</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">ERA</td>
+      <td style="text-align:left">Tracking time spent on executable research articles</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">GitBook</td>
+      <td style="text-align:left">Tracking time spent on the production Gitbook</td>
+      <td style="text-align:left">
+        <p>Reviewing</p>
+        <p>Updating</p>
+        <p>Writing</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">GitLab</td>
+      <td style="text-align:left">Tracking time spent on GitLab tickets e.g. production vendor bugs</td>
+      <td
+      style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Home page</td>
+      <td style="text-align:left">Tracking time spent updating the home-page</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">JATS4R</td>
+      <td style="text-align:left">Tracking time spent on the JATS For Reuse project</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Kriya - dashboard</td>
+      <td style="text-align:left">Tracking time spent on the Kriya dashboard, refreshing, assigning articles
+        etc.</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Libero Editor</td>
+      <td style="text-align:left">Tracking time spent working on the Libero Editor project</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Meetings</td>
+      <td style="text-align:left">Tracking time spent in meeting, huddles etc</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Misc</td>
+      <td style="text-align:left">Tracking time spent on tasks not covered in other projects</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">PoA</td>
+      <td style="text-align:left">Tracking time spent working on Publish on Accept content</td>
+      <td style="text-align:left">New version</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">PRC</td>
+      <td style="text-align:left">Tracking time spent on the Publish, Review, Curate project (Sciety)</td>
+      <td
+      style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Pub Check</td>
+      <td style="text-align:left">Tracking pre-author checks in Kriya, article number in description</td>
+      <td
+      style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Pub Review</td>
+      <td style="text-align:left">Tracking post-author checks in Kriya, article number in description</td>
+      <td
+      style="text-align:left">New version</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Reporting</td>
+      <td style="text-align:left">Tracking time spent on reporting and data tasks</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Schematron</td>
+      <td style="text-align:left">Tracking time spent working on the schematron tests</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Slack</td>
+      <td style="text-align:left">Tracking time spent in Slack, assisting others, asking questions,</td>
+      <td
+      style="text-align:left">New version</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Training</td>
+      <td style="text-align:left">Tracking time spent training other members of the team</td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>
 
 ## **Emails** 
 
