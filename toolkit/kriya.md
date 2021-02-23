@@ -36,87 +36,99 @@ The following is a full list of projects and the associated tags currently in us
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Continuum Checks</td>
-      <td style="text-align:left">Tracking pre-publication checks on Continuum, equates to &apos;preview&apos;
-        in TaskAdept</td>
-      <td style="text-align:left">New version</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Emails</td>
-      <td style="text-align:left">Tracking time spent on emails</td>
-      <td style="text-align:left">
-        <p>Emails: author details</p>
-        <p>Emails: datasets</p>
-        <p>Emails: figures</p>
-        <p>Emails: math</p>
-        <p>Emails: morning</p>
-        <p>Emails: press</p>
-        <p>Emails: proof access</p>
-        <p>Emails: proof edits</p>
-        <p>Emails: proof return delay</p>
-        <p>Emails: Pub date query</p>
-        <p>Emails: reproducibility</p>
-        <p>Emails: software</p>
-        <p>Emails: striking images</p>
-        <p>Emails: typesetting</p>
-        <p>New version</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">ERA</td>
-      <td style="text-align:left">Tracking time spent on executable research articles</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">GitBook</td>
-      <td style="text-align:left">Tracking time spent on the production Gitbook</td>
-      <td style="text-align:left">
-        <p>Reviewing</p>
-        <p>Updating</p>
-        <p>Writing</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">GitLab</td>
-      <td style="text-align:left">Tracking time spent on GitLab tickets e.g. production vendor bugs</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#continuum-checks"><b>Continuum Checks</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">Tracking pre-publication checks on Continuum, equates to &apos;preview&apos;
+        in TaskAdept</td>
+        <td style="text-align:left">New version</td>
     </tr>
     <tr>
-      <td style="text-align:left">Home page</td>
-      <td style="text-align:left">Tracking time spent updating the home-page</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#emails"><b>Emails</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Tracking time spent on emails</td>
+        <td style="text-align:left">
+          <p>Emails: author details</p>
+          <p>Emails: datasets</p>
+          <p>Emails: figures</p>
+          <p>Emails: math</p>
+          <p>Emails: morning</p>
+          <p>Emails: press</p>
+          <p>Emails: proof access</p>
+          <p>Emails: proof edits</p>
+          <p>Emails: proof return delay</p>
+          <p>Emails: Pub date query</p>
+          <p>Emails: reproducibility</p>
+          <p>Emails: software</p>
+          <p>Emails: striking images</p>
+          <p>Emails: typesetting</p>
+          <p>New version</p>
+        </td>
     </tr>
     <tr>
-      <td style="text-align:left">JATS4R</td>
-      <td style="text-align:left">Tracking time spent on the JATS For Reuse project</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#era"><b>ERA</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Tracking time spent on executable research articles</td>
+        <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Kriya - dashboard</td>
-      <td style="text-align:left">Tracking time spent on the Kriya dashboard, refreshing, assigning articles
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#gitbook"><b>GitBook</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Tracking time spent on the production Gitbook</td>
+        <td style="text-align:left">
+          <p>Reviewing</p>
+          <p>Updating</p>
+          <p>Writing</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#gitlab"><b>GitLab</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Tracking time spent on GitLab tickets e.g. production vendor bugs</td>
+        <td
+        style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#home-page"><b>Home page</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Tracking time spent updating the home-page</td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#jats-4-r"><b>JATS4R</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Tracking time spent on the JATS For Reuse project</td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#kriya-dashboard"><b>Kriya - dashboard</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Tracking time spent on the Kriya dashboard, refreshing, assigning articles
         etc.</td>
-      <td style="text-align:left"></td>
+        <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Libero Editor</td>
-      <td style="text-align:left">Tracking time spent working on the Libero Editor project</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#libero-editor"><b>Libero Editor</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Tracking time spent working on the Libero Editor project</td>
+        <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Meetings</td>
-      <td style="text-align:left">Tracking time spent in meeting, huddles etc</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#meetings"><b>Meetings</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Tracking time spent in meeting, huddles etc</td>
+        <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Misc</td>
-      <td style="text-align:left">Tracking time spent on tasks not covered in other projects</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#misc"><b>Misc</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Tracking time spent on tasks not covered in other projects</td>
+        <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">PoA</td>
-      <td style="text-align:left">Tracking time spent working on Publish on Accept content</td>
-      <td style="text-align:left">New version</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#poa"><b>PoA</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Tracking time spent working on Publish on Accept content</td>
+        <td style="text-align:left">New version</td>
     </tr>
     <tr>
       <td style="text-align:left">PRC</td>
@@ -125,37 +137,43 @@ The following is a full list of projects and the associated tags currently in us
       style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Pub Check</td>
-      <td style="text-align:left">Tracking pre-author checks in Kriya, article number in description</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#pub-check"><b>Pub Check</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left"></td>
+      style="text-align:left">Tracking pre-author checks in Kriya, article number in description</td>
+        <td
+        style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Pub Review</td>
-      <td style="text-align:left">Tracking post-author checks in Kriya, article number in description</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#pub-review"><b>Pub Review</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">New version</td>
+      style="text-align:left">Tracking post-author checks in Kriya, article number in description</td>
+        <td
+        style="text-align:left">New version</td>
     </tr>
     <tr>
-      <td style="text-align:left">Reporting</td>
-      <td style="text-align:left">Tracking time spent on reporting and data tasks</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Schematron</td>
-      <td style="text-align:left">Tracking time spent working on the schematron tests</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Slack</td>
-      <td style="text-align:left">Tracking time spent in Slack, assisting others, asking questions,</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#reporting"><b>Reporting</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">New version</td>
+      style="text-align:left">Tracking time spent on reporting and data tasks</td>
+        <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Training</td>
-      <td style="text-align:left">Tracking time spent training other members of the team</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#schematron"><b>Schematron</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Tracking time spent working on the schematron tests</td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#slack"><b>Slack</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Tracking time spent in Slack, assisting others, asking questions,</td>
+        <td
+        style="text-align:left">New version</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#training"><b>Training</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">Tracking time spent training other members of the team</td>
+        <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>
@@ -231,6 +249,10 @@ We have these as separate projects so that we can monitor how long it takes to c
 ![](../.gitbook/assets/2%20%282%29.png)
 
 ### Reporting
+
+
+
+### Schematron
 
 
 
