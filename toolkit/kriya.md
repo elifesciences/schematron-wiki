@@ -180,7 +180,7 @@ The following is a full list of projects and the associated tags currently in us
 
 ### **Continuum Checks**
 
-As with the pub checks and reviews, we also track how long a Continuum check may take. 
+This records time spent checking articles that have been loaded to Continuum on the journal preview site. Where the check is being carried out on a new or corrected version of an article, the 'New version' tag should be applied.
 
 ![](../.gitbook/assets/3%20%282%29.png)
 
@@ -193,6 +193,38 @@ When handling emails, you should always use the ‘Emails’ project unless they
 If you are just looking at/closing standard emails \(such as Crossref emails, Exeter delivery updates etc\), you can track this under the ‘Emails’ project and leave the description blank or type ‘Emails’ into this.
 
 We like to track how long emails take for particular articles so if you are replying to the authors, please add the manuscript number to the description field e.g. 58556.
+
+
+
+Emails: author details
+
+Emails: datasets
+
+Emails: figures
+
+Emails: math
+
+Emails: morning
+
+Emails: new versions
+
+Emails: press
+
+Emails: proof access
+
+Emails: proof edits
+
+Emails: proof return delay
+
+Emails: Pub date query
+
+Emails: reproducibility
+
+Emails: software
+
+Emails: striking images
+
+Emails: typesetting
 
 ### ERA
 
