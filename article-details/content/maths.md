@@ -4,7 +4,7 @@ description: Mathematical content in eLife articles
 
 # Maths
 
-Many eLife articles contain maths. These can be rendered inline \(inline with the text in a paragraph/list item/table cell or similar\) or as display equations. eLife captures math content either as plain text \(for simple maths\) or as [**MathML**](https://en.wikipedia.org/wiki/MathML) which is a mathematical markup language. Similarly, in their original files, authors can capture maths in varying ways. Either as plain text, as MathML \(by using an equation editor in Word or similar word processors\) or in [**LaTeX**](https://en.wikipedia.org/wiki/LaTeX).
+Many eLife articles contain maths. It can be rendered inline \(inline with the text in a paragraph/list item/table cell or similar\) or as display equations. eLife captures math content either as plain text \(for simple maths\) or as [**MathML**](https://en.wikipedia.org/wiki/MathML) which is a mathematical markup language. Similarly, in their original files, authors can capture maths in varying ways. Either as plain text, as MathML \(by using an equation editor in Word or similar word processors\) or in [**LaTeX**](https://en.wikipedia.org/wiki/LaTeX).
 
 ## What needs to be checked?
 
