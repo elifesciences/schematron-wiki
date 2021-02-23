@@ -6,7 +6,7 @@ description: Task tracking with Toggl
 
 ## What is Toggl?
 
-[**Toggl**](https://toggl.com/) is a time-tracking application that the eLife production team uses to monitor how much time is spent on different tasks. This information will be used to monitor the effect of changes to workflows, to track the distribution of work compared to article volumes, to double-check the team has time to work on projects outside the day-to-day tasks, and so on.
+[**Toggl track**](https://toggl.com/) is a time-tracking application that the eLife production team uses to monitor how much time is spent on different tasks. This information will be used to monitor the effect of changes to workflows, to track the distribution of work compared to article volumes, to double-check the team has time to work on projects outside the day-to-day tasks, and so on.
 
 The Toggl interface works on self-reporting, with the user required to start and stop the time like a stop-watch. The user can add a manual description of the task, assign it to a preset ‘project’ and add one or more preset tags.
 
@@ -15,6 +15,16 @@ The Toggl interface works on self-reporting, with the user required to start and
 
 
 ## Projects and tags
+
+A preset list of projects is maintained to account for standard production tasks. These can be edited within the Toggl browser interface at [**https://track.toggl.com/projects/**](https://track.toggl.com/projects/). When beginning or editing a task in the desktop application, the project can be set 
+
+![Project selection in Toggl](../.gitbook/assets/screen-shot-2021-02-23-at-15.39.52.png)
+
+Tags can be appended to the task as well. Multiple tags are permitted per task, but most of the preset tags are intended for use with specific projects.
+
+![Tags in Toggl](../.gitbook/assets/screen-shot-2021-02-23-at-15.41.52.png)
+
+The following is a full list of projects and the associated tags currently in use by the production team.
 
 <table>
   <thead>
