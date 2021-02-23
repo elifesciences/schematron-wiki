@@ -232,11 +232,11 @@ Emails: typesetting
 
 ### GitBook
 
-This project is used to record time spent working on the production GitBook. The description should be the name of the page being worked on. There are three dedicated tags for this task: **Writing** is used for the initial draft and revisions of the page; **Reviewing** is used for checking over drafts written by other members of the team; **Updating** is used for making updates to the page after initial publication.
+This is used to record time spent working on the production GitBook. The description should be the name of the page being worked on. There are three dedicated tags for this task: **Writing** is used for the initial draft and revisions of the page; **Reviewing** is used for checking over drafts written by other members of the team; **Updating** is used for making updates to the page after initial publication.
 
 ### GitLab
 
-
+This is used to track time spent on GitLab tickets opened with the production vendor, usually related to bugs and improvements in the proofing system.
 
 ### Home page
 
