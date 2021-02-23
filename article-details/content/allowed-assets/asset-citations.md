@@ -288,13 +288,13 @@ For example, if the following text is in the caption of Video 2:
 
 #### vid-xref-test-6
 
-**Warning**: _citation is preceded by a letter or number immediately followed by '\('. Is there a space missing before the '\('? - 'XXXXXX'._
+**Error**: _citation is preceded by a letter or number immediately followed by '\('. Is there a space missing before the '\('? - 'XXXXXX'._
 
-**Action:** This warning will fire if a video citation appears after a letter or number immediately followed by '\('. If there is a missing space, this should be added in, for example in 'DNA\(Video 2\).' 
+**Action:** This will fire if a video citation appears after a letter or number immediately followed by '\('. If there is a missing space, this should be added in, for example in 'DNA\(Video 2\).' 
 
 #### vid-xref-test-7
 
-**Warning**: _citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'? - 'XXXXXX'._
+**Error**: _citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'? - 'XXXXXX'._
 
 **Action:** This error will fire if a video citation is followed by a '\)' and a letter or number immediately after. If there is a missing space, this should be added in, for example in '\(Video 2\)DNA.'  
 
@@ -306,9 +306,17 @@ For example, if the following text is in the caption of Video 2:
 
 #### vid-xref-test-9
 
-**Error**: _Incomplete citation. Video citation is preceded by text which suggests it should instead be a link to figure level source data or code - 'XXXXXX'._
+**Error**: _Incomplete citation. Video citation is preceded by text which suggests it should instead be a link to a figure level video._
 
-**Action:** unsure
+**Action:** This will fire if a video citation is __preceded by text which suggests it should be a link to a figure level video- for example, if the linked citation text is 'Video 1' but it is preceded by 'Figure 1— '.
+
+```text
+<p>see Figure 1-<xref ref-type="video" rid="video1">video 1</xref> for analysis.</p>
+```
+
+In these cases, the citation should be updated so it links to the appropriate figure video \(provided there is one\). If there is no figure video, but it has been referred to, then the following author query needs to be added:
+
+* XXXXXX is cited in the text but has not been provided. Please either correct the citation, provide the file and a title and legend, or confirm that this citation refers to another article.
 
 #### vid-xref-test-10
 
@@ -359,13 +367,13 @@ For example, if the following text is in the caption of Table 2:
 
 #### table-xref-test-2
 
-**Warning**: _citation is preceded by a letter or number immediately followed by '\('. Is there a space missing before the '\('?  - 'XXXXX'._
+**Error**: _citation is preceded by a letter or number immediately followed by '\('. Is there a space missing before the '\('?  - 'XXXXX'._
 
 **Action**: This will fire at all stages for text such as 'found at the end\(**Table 1**\)'. In this case, the missing space needs to be added between 'end' and '\(**Table 1**\)'.
 
 #### table-xref-test-3
 
-**Warning**: _citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'?  -  'XXXXX'._
+**Error**: _citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'?  -  'XXXXX'._
 
 **Action**: This will fire at all stages for text such as ' end \(**Table 1**\)and in **Figure 1**'. In this case, the missing space needs to be added between '\(**Table 1**\)' and 'and'.
 
@@ -450,13 +458,13 @@ For example, if the following text is in the caption of Supplementary file 2:
 
 #### supp-xref-test-2
 
-**Warning**: _citation is preceded by a letter or number immediately followed by '\('. Is there a space missing before the '\('? - 'XXXXXX'._
+**Error**: _citation is preceded by a letter or number immediately followed by '\('. Is there a space missing before the '\('? - 'XXXXXX'._
 
 **Action:** This will fire if a citation of supplementary material appears after a letter or number immediately followed by '\('. If there is a missing space, this should be added in, for example in 'DNA\(Supplementary file 2\).' 
 
 #### supp-xref-test-**3**
 
-**Warning**: _citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'? - 'XXXXXX'._
+**Error**: _citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'? - 'XXXXXX'._
 
 **Action:** This will fire if a citation of supplementary material is followed by a '\)' and a letter or number immediately after. If there is a missing space, this should be added in, for example in '\(Supplementary file 2\)DNA.'  
 
