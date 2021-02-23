@@ -160,6 +160,12 @@ The following is a full list of projects and the associated tags currently in us
   </tbody>
 </table>
 
+## **Continuum Checks**
+
+As with the pub checks and reviews, we also track how long a Continuum check may take. 
+
+![](../.gitbook/assets/3%20%282%29.png)
+
 ## **Emails** 
 
 When handling emails, you should always use the ‘Emails’ project unless they are related to striking images which should then go under the ‘Home page image/striking images’ project.
@@ -170,29 +176,57 @@ If you are just looking at/closing standard emails \(such as Crossref emails, Ex
 
 We like to track how long emails take for particular articles so if you are replying to the authors, please add the manuscript number to the description field e.g. 58556.
 
-## **Kriya dashboard**
+## ERA
+
+
+
+## GitBook
+
+
+
+## GitLab
+
+
+
+## Home page
+
+
+
+## JATS4R
+
+
+
+## Kriya - dashboard
 
 To help us monitor the performance of the Kriya dashboard, it is helpful to track the time it takes to refresh the page or when assigning the articles to yourself.
 
 ![](../.gitbook/assets/1%20%282%29.png)
 
-## **Pub check and Pub review**
+## Libero Editor
 
-We have these as separate projects so that we can monitor how long it takes to complete the pub check or pub review. This should be tracked from when you open the proof to when you sign off out of the proof. For Toggl, you should add the article number to the description.
 
-![](../.gitbook/assets/2%20%282%29.png)
 
-## **Continuum Checks**
-
-As with the pub checks and reviews, we also track how long a Continuum check may take. 
-
-![](../.gitbook/assets/3%20%282%29.png)
-
-## **Meetings**
+## Meetings
 
 It is useful to track our meetings too, somethings these can overrun and it's easy to wonder where the day went!
 
 ![](../.gitbook/assets/4%20%282%29.png)
+
+## Misc
+
+
+
+## PoA
+
+
+
+## **Pub check**
+
+## **Pub review**
+
+We have these as separate projects so that we can monitor how long it takes to complete the pub check or pub review. This should be tracked from when you open the proof to when you sign off out of the proof. For Toggl, you should add the article number to the description.
+
+![](../.gitbook/assets/2%20%282%29.png)
 
 ## **Training**
 
