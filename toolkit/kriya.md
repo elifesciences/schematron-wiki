@@ -188,17 +188,13 @@ This records time spent checking articles that have been loaded to Continuum on 
 
 The Email project is used for time spent working on emails and managing the production inbox. There are a number of tags and shared descriptions that apply to this task. However, general assignment and filing of emails can be recorded without any description.
 
+When an email task is related to a specific article, the number should be included as the description. If it relates to the regular notifications from the Features team regarding articles that will not receive a digest, 'No digest email' should be used as the description.
+
+Please note that the time recorded under 'email' is all the time required to complete whatever tasks are prompted by that email, that is, reading, investigation, system updates, sending queries to third parties and responding to the email should all be included in the one time recording. Correspondingly, if an email is consulted as part of another task \(e.g. [**Pub review**](kriya.md#pub-review)\), the time taken should be recorded as part of that task.
 
 
 
 
-
-
-
-
-If you are just looking at/closing standard emails \(such as Crossref emails, Exeter delivery updates etc\), you can track this under the ‘Emails’ project and leave the description blank or type ‘Emails’ into this.
-
-We like to track how long emails take for particular articles so if you are replying to the authors, please add the manuscript number to the description field e.g. 58556.
 
 
 
