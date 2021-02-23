@@ -186,9 +186,17 @@ This records time spent checking articles that have been loaded to Continuum on 
 
 ### **Emails** 
 
-When handling emails, you should always use the ‘Emails’ project unless they are related to striking images which should then go under the ‘Home page image/striking images’ project.
+The Email project is used for time spent working on emails and managing the production inbox. There are a number of tags and shared descriptions that apply to this task.
 
-![](../.gitbook/assets/0%20%283%29.png)
+General assignment and filing of emails can be recorded without any description.
+
+
+
+
+
+
+
+
 
 If you are just looking at/closing standard emails \(such as Crossref emails, Exeter delivery updates etc\), you can track this under the ‘Emails’ project and leave the description blank or type ‘Emails’ into this.
 
