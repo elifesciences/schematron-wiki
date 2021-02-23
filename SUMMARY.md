@@ -28,6 +28,7 @@
   * [Impact statement](article-details/content/impact-statement.md)
   * [Insights, Editorials, and Feature articles](article-details/content/feature-content.md)
   * [Keywords and research organisms](article-details/content/keywords.md)
+  * [Maths](article-details/content/maths.md)
   * [RRIDs](article-details/content/rrids.md)
   * [Reference citations](article-details/content/reference-citations.md)
   * [References](article-details/content/references/README.md)
