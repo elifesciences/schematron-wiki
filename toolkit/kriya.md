@@ -194,39 +194,23 @@ Please note that the time recorded under 'email' is all the time required to com
 
 The following specific tags can be added to a task recorded as 'Emails'. 
 
+* Emails: author details - used for questions about or edits to author information
+* Emails: datasets - used for correspondence about datasets
+* Emails: figures - used for emails providing replacement images or question related to figure display
+* Emails: math - used for issues with equations in articles
+* Emails: morning - applied to email tasks carried out at the start of the day related to clearing notification emails out of the inbox
+* Emails: new versions
+* Emails: press - used for emails regarding press releases
+* Emails: proof access - used for authors experiencing login/access problems with the proofing system
+* Emails: proof edits - used for edit requests sent via email
+* Emails: proof return delay - used for requests to extend the proofing deadline
+* Emails: pub date query - used for questions about when articles will be published
+* Emails: reproducibility
+* Emails: software - used for questions regarding software
+* Emails: striking images - used for emails providing striking images and uploading the images to the system
+* Emails: typesetting - used for queries from the content processors and correspondent with the authors to resolve the issues at the pre-editing stage
 
 
-
-
-Emails: author details
-
-Emails: datasets
-
-Emails: figures
-
-Emails: math
-
-Emails: morning
-
-Emails: new versions
-
-Emails: press
-
-Emails: proof access
-
-Emails: proof edits
-
-Emails: proof return delay
-
-Emails: Pub date query
-
-Emails: reproducibility
-
-Emails: software
-
-Emails: striking images
-
-Emails: typesetting
 
 ### ERA
 
