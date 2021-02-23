@@ -186,9 +186,7 @@ This records time spent checking articles that have been loaded to Continuum on 
 
 ### **Emails** 
 
-The Email project is used for time spent working on emails and managing the production inbox. There are a number of tags and shared descriptions that apply to this task.
-
-General assignment and filing of emails can be recorded without any description.
+The Email project is used for time spent working on emails and managing the production inbox. There are a number of tags and shared descriptions that apply to this task. However, general assignment and filing of emails can be recorded without any description.
 
 
 
