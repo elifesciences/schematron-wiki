@@ -180,7 +180,7 @@ The following is a full list of projects and the associated tags currently in us
 
 ### **Continuum Checks**
 
-This records time spent checking articles that have been loaded to Continuum on the journal preview site. Where the check is being carried out on a new or corrected version of an article, the 'New version' tag should be applied.
+This records time spent checking articles that have been loaded to Continuum on the journal preview site. The description should be the five-digit article number. Where the check is being carried out on a new or corrected version of an article, the **New version** tag should be applied.
 
 ![](../.gitbook/assets/3%20%282%29.png)
 
@@ -232,7 +232,7 @@ Emails: typesetting
 
 ### GitBook
 
-
+This project is used to record time spent working on the production GitBook. The description should be the name of the page being worked on. There are three dedicated tags for this task: **Writing** is used for the initial draft and revisions of the page; **Reviewing** is used for checking over drafts written by other members of the team; **Updating** is used for making updates to the page after initial publication.
 
 ### GitLab
 
