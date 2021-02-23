@@ -1,5 +1,5 @@
 ---
-description: Mathematic content in eLife article
+description: Mathematical content in eLife articles
 ---
 
 # Maths
