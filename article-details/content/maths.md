@@ -18,13 +18,35 @@ Many eLife articles contain maths. It can be rendered inline \(inline with the t
 
 **Warning**: _There is no space between inline-formula and the preceding text - XXXXXX - Is this correct?_
 
-**Action**: 
+**Action**: In almost all cases this warning fires, a space will need to be added before the inline equation. The only exception would be if both of the following two conditions are satisfied:
+
+1.  A particular character or characters need to be captured as an inline equation so that the font matches how those characters appear elsewhere in the article \(see above\).
+2. This character \(or characters\) should be placed directly after the preceding text without any space. 
+
+Here is an example of a case where the warning could be ignored, taken from [**https://elifesciences.org/articles/56942.pdf**](https://elifesciences.org/articles/56942.pdf).
+
+![](../../.gitbook/assets/screenshot-2021-02-26-at-13.43.42.png)
+
+The underlined mathematical fraktur 'R' must be tagged as an inline equation to match the font used for that term used elsewhere.
+
+If Exeter are unsure, they can query the eLife production team via slack for instruction.
 
 **inline-formula-test-3**
 
 **Warning**: _There is no space between inline-formula and the following text - XXXXXX - Is this correct?_
 
-**Action**:
+**Action**: In almost all cases this warning fires, a space will need to be added after the inline equation. The only exception would be if both of the following two conditions are satisfied:
+
+1.  A particular character or characters need to be captured as an inline equation so that the font matches how those characters appear elsewhere in the article \(see above\).
+2. This character \(or characters\) should be placed directly before the following text without any space. 
+
+Here is an example of a case where the warning could be ignored taken from [**https://elifesciences.org/articles/56942.pdf**](https://elifesciences.org/articles/56942.pdf).
+
+![](../../.gitbook/assets/screenshot-2021-02-26-at-13.43.42.png)
+
+The underlined mathematical fraktur 'R' must be tagged as an inline equation to match the font used for that term used elsewhere..
+
+If Exeter are unsure, they can query the eLife production team via slack for instruction.
 
 **math-test-14**
 
@@ -36,37 +58,41 @@ Many eLife articles contain maths. It can be rendered inline \(inline with the t
 
 **Error**: _mml:math only contains '±', which is unnecessary. Capture this as a normal text '±' instead._
 
-**Action**:
+**Action**: As the message suggest, the action here should be to delete the inline equation in Kriya, and add the '±' as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation.
 
 **math-test-4**
 
 **Error**: _mml:math only contains '±' followed by digits, which is unnecessary. Capture this as a normal text instead._
 
-**Action**:
+**Action**: As the message suggest, the action here should be to delete the inline equation in Kriya, and add the '±' and digits as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation.
 
 **math-test-5**
 
 **Error**: _mml:math only contains '×', which is unnecessary. Capture this as a normal text '×' instead._
 
-**Action**:
+**Action**: As the message suggest, the action here should be to delete the inline equation in Kriya, and add the '×' as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation.
 
 **math-test-6**
 
 **Error**: _mml:math only contains '~', which is unnecessary. Capture this as a normal text '~' instead._
 
-**Action**:
+**Action**: As the message suggest, the action here should be to delete the inline equation in Kriya, and add the '~' as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation.
 
 **math-test-7**
 
 **Error**: _mml:math only contains '~' and digits, which is unnecessary. Capture this as a normal text instead._
 
-**Action**:
+**Action**: As the message suggest, the action here should be to delete the inline equation in Kriya, and add the '~' and digits as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation.
 
 **math-test-8**
 
 **Warning**: _mml:math only contains 'μ', which is likely unnecessary. Should this be captured as a normal text 'μ' instead?_
 
-**Action**:
+**Action**: Typically in scientific articles this character is used to denote micro. However, it may also \(or instead\) be used as a constant or variable in an equation which represents a certain value. Depending on it's usage in an article, it may be appropriate to retain this as an inline equation or to delete it and instead capture the character as plain text. 
+
+Check if the character has been used in a display equation elsewhere. If it has, and this is being used to denote that same variable, then it _must_ be left as an inline equation to retain consistent font throughout the article.
+
+Typically, if this character has been used to communicate micro, such as in 'μm', or similar, then it can be deleted however this is not _certainly_ the case. If in doubt, leave this character as an inline equation unless the authors specify otherwise during proofing.
 
 **math-test-9**
 
