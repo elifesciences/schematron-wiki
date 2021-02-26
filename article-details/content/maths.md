@@ -192,19 +192,25 @@ And here is the same equation with the change:
 
 **Warning**: _math \(XXXXXX element\) containing 'XXXXXX' has XXXXXX colour formatting. Is this OK?_
 
-**Action**: 
+**Action**: This warning will fire at all stages when maths is formatted with one of the permitted colours for text \(red, blue or purple\). At pre-author stages, Exeter should add the following author query:
+
+* Where possible, we prefer that colours are not used in text in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). Would it be possible to capture the same meaning in this equation with more common forms of emphasis \(such as bold, italic or underline\)? If so please stipulate below how the equation should be revised. Please note that this is a suggestion and these permitted colours can be published if required.
+
+At post-author stages, this warning can be ignored.
 
 **pre-mathbackground-test-1**
 
 **Warning**: _math \(XXXXXX element\) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. Please check this carefully against the original manuscript. If it's not a mistake, and the background colour is deliberate, then please add the following author query -&gt; 'Where possible, we prefer that colours are not used in text in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). eLife does not support background colours for text, however we do support the following colours for text itself - 'red', 'blue' and 'purple'. Please confirm how you would like the colour\(s\) captured here given this information, and note that our preference would be to use more common forms of emphasis \(such as bold, italic or underline\) if possible to still convey the same meaning.'._
 
-**Action**:
+**Action**: This warning will fire at pre-author stages for maths in the text, which has background colour formatting \(similar to highlighting\). eLife do not permit this for text, and only permit certain colours for text \(red, blue, or purple\). Exeter should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP, and if it isn't a processing error, then they should add the following author query:
+
+* Where possible, we prefer that colours are not used in text in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). eLife does not support background colours for text, however we do support the following colours for text itself - 'red', 'blue' and 'purple'. Please confirm how you would like the colour\(s\) captured here given this information, and note that our preference would be to use more common forms of emphasis \(such as bold, italic or underline\) if possible to still convey the same meaning.'
 
 **pre-mathbackground-test-2**
 
 **Warning**: _math \(XXXXXX element\) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. Please check this carefully against the original manuscript. If it's not a mistake, and the background colour is deliberate, then please ensure that the background colour is captured for the table cell \(rather than the maths\)._
 
-**Action**:
+**Action**: This warning will fire at pre-author stages for maths in a table, which has background colour formatting \(similar to highlighting\). eLife do not permit background colouring for text, and only permit certain colours for text itself \(red, blue, or purple\), and [**certain colours for table cells**](allowed-assets/tables.md#allowed-colours-in-tables). Exeter should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP. If the colours were present for the table cell\(s\) in the original manuscript then that formatting should be removed from the equation and added to the cell; then the steps required for colours in tables cells should be followed, as directed by the Schematron messages after re-validating \(see also the [**Tables page**](allowed-assets/tables.md)\). If, in the original manuscript, there was background colour for the maths, then it should be changed as colour for the text of the maths. 
 
 **final-mathbackground-test-1**
 
