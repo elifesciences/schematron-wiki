@@ -166,27 +166,33 @@ Here, you can see that on the eLife website, there is no space between 'Multivar
 
 To fix this open up the equation editor in Kriya and replace any spaces used with `\;` so that the space is retained in the XML/on the website.
 
-**Insert screenshots here**
+Here is that equation in Kriya before the edit:
 
+![](../../.gitbook/assets/screenshot-2021-02-26-at-16.18.01.png)
 
+And here is the same equation with the change:
+
+![](../../.gitbook/assets/screenshot-2021-02-26-at-16.18.18.png)
 
 **pre-mathcolor-test-1**
 
 **Warning**: _math \(XXXXXX element\) containing 'XXXXXX' has a color style which is not red, blue or purple - 'XXXXXX' - which is not allowed. If it is clear that colours are supposed to be used, but you are not sure which ones, then please query the authors - 'eLife only supports the following colours for text and maths - 'red', 'blue' and 'purple'. Please confirm how you would like the colour\(s\) here captured given this information.'._
 
-**Action**:
+**Action**: The only colours eLife permit for text is red, blue or purple and this is still the case for maths. As the message suggests, this will fire at pre-author stages when maths contains a colour which is not permitted. Exeter should add the following author query:
+
+* eLife only supports the following colours for text and maths - 'red', 'blue' and 'purple'. Please confirm how you would like the colour\(s\) here captured given this information.
 
 **final-mathcolor-test-1**
 
 **Error**: _math \(XXXXXX element\) containing 'XXXXXX' has a color style which is not red, blue or purple - 'XXXXXX' - which is not allowed. Only 'red', 'blue' and 'purple' are allowed._
 
-**Action**:
+**Action**: The only colours eLife permit for text is red, blue or purple and this is still the case for maths. As the message suggests, this will fire at post-author stages when maths contains a colour which is not permitted. Exeter should check the response the authors had to the query which was \(hopefully\) added before they proofed. If the authors suggest a suitable solution \(such as removing the colours, adding different forms of emphasis such as bold, or by asking for the colours to be changed to the permitted ones\), then Exeter can implement their suggestion. If the query was missed or if the authors did not provide a suitable solution, then Exeter should add a note to the article for the attention of the Production team at Publisher Review. The Production team can then determine the correct course of action, which likely will be to go back to the authors and clarify their options.
 
 **mathcolor-test-2**
 
 **Warning**: _math \(XXXXXX element\) containing 'XXXXXX' has XXXXXX colour formatting. Is this OK?_
 
-**Action**:
+**Action**: 
 
 **pre-mathbackground-test-1**
 
