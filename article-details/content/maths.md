@@ -58,31 +58,31 @@ If Exeter are unsure, they can query the eLife production team via slack for ins
 
 **Error**: _mml:math only contains '±', which is unnecessary. Capture this as a normal text '±' instead._
 
-**Action**: As the message suggest, the action here should be to delete the inline equation in Kriya, and add the '±' as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation.
+**Action**: As the message suggests, the action here should be to delete the inline equation in Kriya, and add the '±' as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
 
 **math-test-4**
 
 **Error**: _mml:math only contains '±' followed by digits, which is unnecessary. Capture this as a normal text instead._
 
-**Action**: As the message suggest, the action here should be to delete the inline equation in Kriya, and add the '±' and digits as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation.
+**Action**: As the message suggests, the action here should be to delete the inline equation in Kriya, and add the '±' and digits as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
 
 **math-test-5**
 
 **Error**: _mml:math only contains '×', which is unnecessary. Capture this as a normal text '×' instead._
 
-**Action**: As the message suggest, the action here should be to delete the inline equation in Kriya, and add the '×' as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation.
+**Action**: As the message suggests, the action here should be to delete the inline equation in Kriya, and add the '×' as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
 
 **math-test-6**
 
 **Error**: _mml:math only contains '~', which is unnecessary. Capture this as a normal text '~' instead._
 
-**Action**: As the message suggest, the action here should be to delete the inline equation in Kriya, and add the '~' as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation.
+**Action**: As the message suggests, the action here should be to delete the inline equation in Kriya, and add the '~' as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
 
 **math-test-7**
 
 **Error**: _mml:math only contains '~' and digits, which is unnecessary. Capture this as a normal text instead._
 
-**Action**: As the message suggest, the action here should be to delete the inline equation in Kriya, and add the '~' and digits as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation.
+**Action**: As the message suggests, the action here should be to delete the inline equation in Kriya, and add the '~' and digits as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
 
 **math-test-8**
 
@@ -98,31 +98,31 @@ Typically, if this character has been used to communicate micro, such as in 'μm
 
 **Error**: _mml:math only contains '%' and digits, which is unnecessary. Capture this as a normal text instead._
 
-**Action**:
+**Action**: As the message suggests, the action here should be to delete the inline equation in Kriya, and add the percentage symbol and numbers as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
 
 **math-test-12**
 
 **Error**: _mml:math only contains '%', which is unnecessary. Capture this as a normal text instead._
 
-**Action**:
+**Action**: As the message suggests, the action here should be to delete the inline equation in Kriya, and add the percentage symbol as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
 
 **math-test-10**
 
 **Error**: _mml:math only contains '°', which is likely unnecessary. This should be captured as a normal text '°' instead._
 
-**Action**:
+**Action**: As the message suggests, the action here should be to delete the inline equation in Kriya, and add the degree symbol as plain text.
 
 **math-test-11**
 
 **Warning**: _mml:math contains '○' \(the white circle symbol\). Should this be the degree symbol instead - '°', or '∘' \(the ring operator symbol\)?_
 
-**Action**:
+**Action**: Check the context in which this symbol is used. If it follows numbers and/or is used in the context of discussing temperature, rotation or angles, then replace the inline equation with a plain text degree symbol. If it is definitely supposed to be a white circle symbol, then check how it's been used elsewhere - if the character is present in a display equation, then it will need to remain as an inline equation to keep the font consistent. The aim here is to remove unnecessary math markup, but not to the detriment of keeping fonts/meaning consistent in the article.
 
 **math-test-13**
 
 **Warning**: _mml:math only contains 'XXXXXX', which is likely unnecessary. Should this be captured as normal text instead?_
 
-**Action**:
+**Action**: 
 
 **math-test-15**
 
@@ -140,7 +140,7 @@ Typically, if this character has been used to communicate micro, such as in 'μm
 
 **Warning**: _mml:math only contains number\(s\) and square root symbol\(s\) 'XXXXXX', which is likely unnecessary. Should this be captured as normal text instead? Such as XXXXXX?_
 
-**Action**:
+**Action**: This warning will fire if an inline equation contains only numbers accompanied by a square root symbol. It's likely that it can be replaced with plain text '√' and the numbers, but check how this and similar content has been captured elsewhere in the article and ensure that it's consistent.
 
 **math-test-18**
 
