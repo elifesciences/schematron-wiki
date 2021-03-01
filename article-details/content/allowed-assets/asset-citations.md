@@ -2,11 +2,17 @@
 
 ## What is an asset citation?
 
-An asset citation is an in-text citation for an [**asset**](./#main-text-assets) that is part of an article. This is in contrast to [**reference citations**](../reference-citations.md). These are rendered as links in the final article. Clicking them in the PDF will take the reader to the relevant asset in the PDF and HTML view.
+An asset citation is an in-text citation for an [**asset**](./#main-text-assets) that is part of an article. This is in contrast to [**reference citations**](../reference-citations.md). These are rendered as links in the final article. Clicking them will take the reader to the relevant asset in the PDF and HTML view.
 
 ![A figure and supplementary file citation](../../../.gitbook/assets/screenshot-2021-01-06-at-15.12.24.png)
 
-Asset citations may appear inside or outside brackets. Where multiple assets are cited in one set of brackets, each citation should be separated from the next by a comma or semi-colon followed by a space \(depending on context and what the author has provided\). 
+Asset citations may appear inside \(see above\) or outside \(see below\) brackets. 
+
+![](../../../.gitbook/assets/screenshot-2021-03-01-at-15.23.48.png)
+
+Where multiple assets are cited in one set of brackets, each citation should be separated from the next by a comma or semi-colon followed by a space \(depending on context and what the author has provided\).  If several assets are cited and they run on, an en dash should be used and the citation text should be pluralised, for example, citations of 'Figure 1, Figure 2, and Figure 3' should become 'Figures 1–3'. 
+
+![](../../../.gitbook/assets/screenshot-2021-03-01-at-15.28.17.png)
 
 ## What needs to be checked?
 
@@ -22,21 +28,23 @@ Examples of these can be found in the next section.
 
 ### Citation order
 
-Asset placement is determined by first live citation. If figures or tables are cited out of order, queries should be left for the authors. This is covered further on the [**tables**](tables.md#tables-cited-out-of-sequence) and [**figures**](figures.md#pre-fig-specific-test-2) page. 
+Asset placement is determined by first live citation. If figures or tables are cited out of order, this should be queried with the authors. This is covered further on the [**tables**](tables.md#tables-cited-out-of-sequence) and [**figures**](figures.md#pre-fig-specific-test-2) page. 
 
 ### Citing asset parts
 
 Some assets can have parts which may be included in the citation link text. For example, figures, tables and supplementary files may have multiple parts. If several parts of an asset are cited and the letters run on an en dash should be used - for example, Figure 1A–D. 
 
+![Citations including part labels](../../../.gitbook/assets/screenshot-2021-03-01-at-15.29.11.png)
+
 If several parts are cited but they don’t run on, the part labels should be formatted as a comma-separated list - for example, Figure 1A, C, and E. 
 
-Supplementary files with parts should have those parts included in the link text. In the example below, 'table 1' should be included in the citation link.
+Supplementary files with parts should have those parts included in the link text. In the example below, 'table 1' should be included in the citation link and the hyphen should be changed to an em-dash to match eLife's style.
 
 ![](../../../.gitbook/assets/screenshot-2020-12-04-at-12.10.02.png)
 
 ### Identifying unconverted citations
 
-Occasionally, citations may be intentionally left unlinked to maintain the required asset order. In most other cases however, all asset citations should be linked. Sometimes, authors will use 'Fig' or 'Supp file' which may result in these citations being missed - these should be checked for and linked. Note however, that authors may be citing assets from other publications, for example “Figure 1 in Smith et al., 1990”. See more [**here**](figures.md#figures-that-havent-been-provided). 
+Occasionally, citations may be intentionally left unlinked to maintain the required asset order. In most other cases however, all asset citations should be linked. Sometimes, authors will use 'Fig' or 'Supp file' which may result in these citations being missed - these should be checked for and converted to eLife style at pre-editing. If these are still present aNote however, that authors may be citing assets from other publications, for example “Figure 1 in Smith et al., 1990”. See more [**here**](figures.md#figures-that-havent-been-provided). 
 
 ## Schematron checks
 
@@ -44,41 +52,7 @@ Occasionally, citations may be intentionally left unlinked to maintain the requi
 
 These checks relate to the content of asset citations. X or XXXXXX refers to quoted text which will change depending on the article.
 
-#### fig-xref-target-test
-
-**Error:** _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
-
-**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a figure, then the `ref-type` attribute value must be 'fig'. If the link it meant to point to something else, which is not a figure, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
-
-#### vid-xref-target-test
-
-**Error**: _xref with @ref-type='XXXXXX' must point to a media\[@mimetype="video"\] element. Either this links to the incorrect location or the xref/@ref-type is incorrect._
-
-**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a video, then the `ref-type` attribute value must be 'video'. If the link it meant to point to something else, which is not a video, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
-
-#### supplementary-material-xref-target-test
-
-**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
-
-**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a supplementary file, then the `ref-type` attribute value must be 'supplementary-material'. If the link it meant to point to something else, which is not a supplementary file, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
-
-#### other-xref-target-test
-
-**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
-
-**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to an award group, then the `ref-type` attribute value must be 'other'. If the link it meant to point to something else, which is not an award group, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
-
-#### table-xref-target-test
-
-**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
-
-**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a table, then the `ref-type` attribute value must be 'table'. If the link it meant to point to something else, which is not a figure, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
-
-#### box-xref-target-test
-
-**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
-
-**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a box, then the `ref-type` attribute value must be 'box'. If the link it meant to point to something else, which is not a figure, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
+#### 
 
 #### fig-xref-conformity-1
 
@@ -143,7 +117,7 @@ This will also fire if the link text refers to part labels, for example 'Figure 
 **Action:** This error will fire if a figure citation links to a different figure from the citation text e.g. if Video 1 links to Video 2:
 
 ```text
-<xref ref-type="video" rid="video2">Video 1</xref>.</p>
+<xref ref-type="video" rid="video2">Video 1</xref>
 ```
 
 Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
@@ -175,7 +149,7 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 #### fig-xref-test-5
 
-**Error:** _XXXXXX - Figure citation is in a reference to a figure from a different paper, and therefore must be unlinked._
+**Error:** _XXXXXX - Figure citation refers to a figure from a different paper, and therefore must be unlinked._
 
 **Action:** This error will fire if a figure citation appears before a reference with 'in', 'from' or 'of' in between  e.g. 'See Figure 1 from Smith et al., 1992' \(see more [**here**](figures.md#figures-that-havent-been-provided)\). This figure citation needs to be changed to plain text as it refers to a figure from another source. 
 
@@ -187,7 +161,7 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 #### fig-xref-test-7
 
-**Error:** _citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'? - 'XXXXXX'._
+**Error:** _citation is followed by a '\)' which in turn is immediately followed by a letter or number. Is there a space missing after the '\)'? - 'XXXXXX'._
 
 **Action:** This error will fire if a figure citation is followed by a '\)' and a letter or number immediately after. If there is a missing space, this should be added in, for example in '\(Figure 2\)DNA.' 
 
@@ -294,7 +268,7 @@ For example, if the following text is in the caption of Video 2:
 
 #### vid-xref-test-7
 
-**Error**: _citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'? - 'XXXXXX'._
+**Error**: _citation is followed by a '\)' which in turn is immediately followed by a letter or number. Is there a space missing after the '\)'? - 'XXXXXX'._
 
 **Action:** This error will fire if a video citation is followed by a '\)' and a letter or number immediately after. If there is a missing space, this should be added in, for example in '\(Video 2\)DNA.'  
 
@@ -302,13 +276,13 @@ For example, if the following text is in the caption of Video 2:
 
 **Error**: _Incomplete citation. Video citation is followed by text which suggests it should instead be a link to source data or code - XXXXXX'._
 
-**Action:** This will fire if a video citation is __followed by text which suggests it should be a link to a source data or code supplement - for example, if the linked citation text is 'Video 1' but it is followed by '—source code 1' or '—source data 1' in plain text. In this example, a citation to Video 1—source code 1 or Video 1—source data 1 should replace the citation for Video 1.
+**Action:** This will fire if a video citation is __followed by text which suggests it should be a link to a source data or code supplement, for example, if the linked citation text is 'Video 1' but it is followed by '—source code 1' or '—source data 1' in plain text. In this example, a citation to Video 1—source code 1 or Video 1—source data 1 should replace the citation for Video 1.
 
 #### vid-xref-test-9
 
 **Error**: _Incomplete citation. Video citation is preceded by text which suggests it should instead be a link to a figure level video._
 
-**Action:** This will fire if a video citation is __preceded by text which suggests it should be a link to a figure level video- for example, if the linked citation text is 'Video 1' but it is preceded by 'Figure 1— '.
+**Action:** This will fire if a video citation is __preceded by text which suggests it should be a link to a figure level video, for example, if the linked citation text is 'Video 1' but it is preceded by 'Figure 1— '.
 
 ```text
 <p>see Figure 1-<xref ref-type="video" rid="video1">video 1</xref> for analysis.</p>
@@ -346,13 +320,13 @@ In these cases, the citation should be updated so it links to the appropriate fi
 
 **Warning**: _'XXXXXXX' - Citation content does not match what it directs to._
 
-**Action**: This will fire at all stages if the text in a main text table citation does not contain the number of the label that the table directs to. For example if **Table 2**, links to Table 3. 
+**Action**: This will fire at all stages if the text in a main text table citation does not contain the number of the label that the table directs to, for example if **Table 2**, links to Table 3. 
 
 #### table-xref-conformity-4
 
 **Warning**: _'XXXXXXX' - Citation content does not match what it directs to._
 
-**Action**: This will fire at all stages if the text in an appendix table citation does not contain the number of the label that the table directs to. For example if **Appendix 1–table 1**, links to Appendix 1–table 2. 
+**Action**: This will fire at all stages if the text in an appendix table citation does not contain the number of the label that the table directs to, for example if **Appendix 1–table 1**, links to Appendix 1–table 2. 
 
 #### table-xref-test-1
 
@@ -373,7 +347,7 @@ For example, if the following text is in the caption of Table 2:
 
 #### table-xref-test-3
 
-**Error**: _citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'?  -  'XXXXX'._
+**Error**: _citation is followed by a '\)' which in turn is immediately followed by a letter or number. Is there a space missing after the '\)'?  -  'XXXXX'._
 
 **Action**: This will fire at all stages for text such as ' end \(**Table 1**\)and in **Figure 1**'. In this case, the missing space needs to be added between '\(**Table 1**\)' and 'and'.
 
@@ -409,13 +383,13 @@ For example, if the following text is in the caption of Table 2:
 
 **Warning**: _XXXXXX - citation points to source code, but does not include the string 'source code', which is very unusual._
 
-**Action:** This will fire if a citation of supplementary material points to a 'code' type asset but the citation text doesn't include the string 'source code', for example, if the citation text is 'Source data 1' but points to 'Source code 1'. Check the original submission to clarify whether the citation should be to source data or source code -try deleting and re-adding the correct citation but if this doesn't work, Exeter will need to update. .
+**Action:** This will fire if a citation of supplementary material points to a 'code' type asset but the citation text doesn't include the string 'source code', for example, if the citation text is 'Source data 1' but points to 'Source code 1'. Check the original submission to clarify whether the citation should be to source data or source code -try deleting and re-adding the correct citation but if this doesn't work, Exeter will need to update. 
 
 #### supp-file-xref-conformity-3
 
 **Warning**: _XXXXXX - citation points to a supplementary file, but does not include the string 'Supplementary file', which is very unusual._
 
-**Action:** This will fire if a citation of supplementary material points to a 'supp' type asset but the citation text doesn't include the string 'supplementary file', for example, if the citation text is 'Source data 1' but points to 'Supplementary file 1'. Check the original submission to clarify whether the citation should be to source data or the supplementary file - try deleting and re-adding the correct citation but if this doesn't work, Exeter will need to update. 
+**Action:** This will fire if a citation of supplementary material points to a 'supp' type asset but the citation text doesn't include the string 'supplementary file', for example, if the citation text is 'Source data 1' but points to 'Supplementary file 1'. Check the original submission to clarify whether the citation should be to source data or the supplementary file - try deleting and re-adding the correct citation but if this doesn't work, Exeter will need to update. It may also be that 'supplementary file' has been misspelled - correct if this is the case. 
 
 #### supp-file-xref-conformity-4
 
@@ -464,7 +438,7 @@ For example, if the following text is in the caption of Supplementary file 2:
 
 #### supp-xref-test-**3**
 
-**Error**: _citation is followed by a '\)' which in turns is immediately followed by a letter or number. Is there a space missing after the '\)'? - 'XXXXXX'._
+**Error**: _citation is followed by a '\)' which in turn is immediately followed by a letter or number. Is there a space missing after the '\)'? - 'XXXXXX'._
 
 **Action:** This will fire if a citation of supplementary material is followed by a '\)' and a letter or number immediately after. If there is a missing space, this should be added in, for example in '\(Supplementary file 2\)DNA.'  
 
@@ -495,11 +469,162 @@ In these cases, the citation should be updated so it links to the appropriate fi
 
 **Action:** This warning will fire if a citation of supplementary material is captured with a capital instead of lowercase 's'. Asset level source code or data should be formatted as, for example 'Figure 1—source data 1', not Figure 1—Source data 1\(see [**table of allowed article assets**](./#allowed-assets) for correct formatting for all assets\). 
 
+#### equ-xref-conformity-1
+
+**Warning**: _XXXXXX - link points to equation, but does not include the string 'Equation', which is unusual. Is it correct?_
+
+**Action:** This will fire if a citation of an equation to an 'disp-formula' type asset but the citation text doesn't include the string 'Equation'. This is usually because of a misspelling or a different format of citation, for example 'Equ 1' or 'Eq 1'. Make sure the citation is updated to match eLife's style \('Equation 1'\). 
+
+#### equ-xref-conformity-**2**
+
+**Warning**: _equation link content does not match what it directs to \(content = XXXXXX; label = XXXXXX\). Is this correct?_
+
+**Action**: This will fire at all stages if the text in an equation citation does not contain the number of the equation that the citation directs to, for example if **Equation 2**, links to Equation 3. 
+
+#### equ-xref-conformity-**3**
+
+**Error**: _XXXXXX - Equation citation appears to be a reference to an equation from a different paper, and therefore must be unlinked._
+
+**Action:** This error will fire if an equation citation appears before a reference with 'in', 'from' or 'of' in between  e.g. 'See Equation 1 from Smith et al., 1992'. This equation citation needs to be changed to plain text as it refers to an equation from another source. 
+
+#### equ-xref-conformity-**4**
+
+**Warning**: _citation is preceded by 'XXXXXX'. The 'cf.' is unnecessary and should be removed._
+
+**Action:** This warning will fire if a citation of an equation is preceded by 'cf.', which means 'compare' and is sometimes used to refer the reader to other material for comparison. The 'cf.' can be deleted as it is not eLife's house style to use this. 
+
 #### supplementary-material-xref-target-test
 
 **Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
 
 **Action**: This error will fire if a reference citation `<xref>` element \(e.g. one with the attribute `ref-type="bibr"`\) does not point to a reference but instead to some other element such as a figure. So, for example, a figure citation with the type "bibr" is not allowed: `<xref ref-type="bibr" rid="fig1">Figure 1</xref>`. The tagging should be corrected to use the correct ref-type \(`ref-type="fig"` in this example\).
+
+#### supplementalfigure-presence
+
+**Warning**: _XXXXXX element contains the phrase ' Supplemental figure ' which almost certainly needs updating. XXXXXX starts with - XXXXXX_
+
+**Action:** This warning will fire if the phrase 'Supplemental figure' is present anywhere in an article. If the authors are referring to a figure supplement in the article, the citation should be updated accordingly to match eLife's format \(i.e. 'Figure supplement' instead of 'Supplemental figure'\). If the authors are referring to a supplemental figure in another article, this should be left as is. If it is unclear, the following query should be left:
+
+* Please confirm which figure this refers to, or confirm that this citation refers to a figure in another article.
+
+If the authors are just generically referring to 'supplemental figures', for example in the data availability statement, this can just be updated to 'figure supplements'.
+
+#### supplementalfile-presence
+
+**Warning**: _XXXXXX element contains the phrase ' Supplemental file ' which almost certainly needs updating. XXXXXX starts with - XXXXXX_
+
+**Action:** This warning will fire if the phrase 'Supplemental file' is present anywhere in an article. If the authors are referring to a figure file in the article, the citation should be updated accordingly to match eLife's format \(i.e. 'Supplementary file' instead of 'Supplemental file'\). If the authors are referring to a supplemental file in another article, this should be left as is. If it is unclear, the following query should be left:
+
+* Please confirm which supplementary file this refers to, or confirm that this citation refers to a file from another article.
+
+If the authors are just generically referring to 'supplemental files', for example in the data availability statement, this can just be updated to 'supplementary files'.
+
+#### supplementaryfigure-presence
+
+**Warning**: _XXXXXX element contains the phrase ' Supplementary figure ' which almost certainly needs updating. If it's unclear which figure/figure supplement should be cited, please query the authors. XXXXXX starts with - XXXXXX_
+
+**Action:** This warning will fire if the phrase 'Supplementary figure' is present anywhere in an article. If the authors are referring to a figure supplement in the article, the citation should be updated accordingly to match eLife's format \(i.e. 'Figure supplement' instead of 'Supplementary figure'\). If the authors are referring to a supplementary figure in another article, this should be left as is. If it is unclear, the following query should be left:
+
+* Please confirm which figure this refers to, or confirm that this citation refers to a figure in another article.
+
+If the authors are just generically referring to 'supplementary figures', for example in the data availability statement, this can just be updated to 'figure supplements'.
+
+#### supplement-table-presence
+
+**Warning**: _XXXXXX element contains the phrase 'Supplementary table' or 'Supplemental table'. Does it need updating? If it's unclear what should be cited, please query the authors. XXXXXX starts with - XXXXXX_
+
+**Action:** This warning will fire if the phrase 'Supplementary table' is present anywhere in an article. The authors may be referring to a table, figure supplement, figure/article source data or supplementary file. If they are referring to a figure supplement which is a table provided as an image, this will need to be addressed \(see more [**here**](figures.md#tables-in-figures) and [**here**](figures.md#tables-labelled-as-figures)\). If the authors are referring to a table, figure/article source data or supplementary file, the citation should be updated accordingly to match eLife's format. If the authors are referring to a supplementary table in another article, this should be left as is. If it is unclear, the following query should be left:
+
+* Please confirm which table or file this refers to, or confirm that this citation refers to another article.
+
+If the authors are just generically referring to 'supplementary tables', for example in the data availability statement, check from the context to see what they are referring to. If it is a reference to tables, figure/article source data or supplementary files, this should just be updated according to eLife's style.
+
+#### xref-target-conformance
+
+**Error**: _xref with @ref-type='XXXXXX' points to an element with an @id='XXXXXX', but no such element exists._
+
+**Action:** This will fire if there is a reference to an element which does not exist in the article. This may be because the authors need to be queried for a missing figure or file. 
+
+#### empty-xref-test
+
+**Error**: _Empty xref in the body is not allowed. Its position here in the text - "XXXXXX"._
+
+**Action:** Unsure. 
+
+#### semi-colon-xref-test
+
+**Warning**: _xref ends with semi-colon - 'XXXXXX' - which is almost definitely incorrect. The semi-colon should very likely be placed after the link as 'normal' text._
+
+**Action:** This will fire if a citation ends with a semi-colon:
+
+```text
+<xref ref-type="fig" rid="fig1">Figure 1; </xref><xref ref-type="fig" rid="fig4">
+Figure 4</xref></p>
+```
+
+This will almost always be incorrect as the semi-colon should not be included in the link text. Remove the semi-colon from the link text and make sure it is marked as plain text. 
+
+### Structure checks
+
+#### xref-parent-test
+
+**Error**: _xref - XXXXXX - has a formatting parent element - XXXXXX - which is not correct._
+
+**Action:** Asset citations should not be contained within style formatting such as italics or bold. If this formatting is present, please remove it. For example:
+
+```text
+<p><bold><xref ref-type="fig" rid="bib1"/></bold></p>
+```
+
+The bold tags will need to be removed in this case. 
+
+#### xref-child-test
+
+**Warning**: _xref - XXXXXX - has a formatting child element - XXXXXX - which is likely not correct._
+
+**Action:** Asset citations should not contain style formatting such as italics or bold. If this formatting is present, please remove it. For example:
+
+```text
+<p><xref ref-type="fig" rid="bib1"><bold/></xref></p>
+```
+
+The bold tags will need to be removed in this case. 
+
+#### fig-xref-target-test
+
+**Error:** _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
+
+**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a figure, then the `ref-type` attribute value must be 'fig'. If the link is meant to point to something else, which is not a figure, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
+
+#### vid-xref-target-test
+
+**Error**: _xref with @ref-type='XXXXXX' must point to a media\[@mimetype="video"\] element. Either this links to the incorrect location or the xref/@ref-type is incorrect._
+
+**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a video, then the `ref-type` attribute value must be 'video'. If the link is meant to point to something else, which is not a video, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
+
+#### supplementary-material-xref-target-test
+
+**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
+
+**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a supplementary file, then the `ref-type` attribute value must be 'supplementary-material'. If the link is meant to point to something else, which is not a supplementary file, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
+
+#### other-xref-target-test
+
+**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
+
+**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to an award group, then the `ref-type` attribute value must be 'other'. If the link is meant to point to something else, which is not an award group, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
+
+#### table-xref-target-test
+
+**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
+
+**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a table, then the `ref-type` attribute value must be 'table'. If the link is meant to point to something else, which is not a figure, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
+
+#### box-xref-target-test
+
+**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
+
+**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a box, then the `ref-type` attribute value must be 'box'. If the link is meant to point to something else, which is not a figure, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
 
 ## 
 
