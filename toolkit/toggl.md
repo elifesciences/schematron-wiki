@@ -292,6 +292,8 @@ The PoA project covers time spent working on Publish on Accept articles. This ca
 
 This task tracks time spent on the 'Publisher Check' stage in the proofing system.  This should be tracked from when the user begins looking at the article \(either by opening the article or checking the notes on it\) to when they stop working on it, by either logging out of the proof or signing it off to the next stage.
 
+![](../.gitbook/assets/screen-shot-2021-03-02-at-16.37.39.png)
+
 ### **Pub review**
 
 **Recommended description**:
