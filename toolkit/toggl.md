@@ -202,21 +202,21 @@ This is used to track time spent checking articles on the journal preview site. 
 
 **Associated tags**:
 
-* Emails: author details - used for questions about or edits to author information
-* Emails: datasets - used for correspondence about datasets
-* Emails: figures - used for emails providing replacement images or question related to figure display
-* Emails: math - used for issues with equations in articles
-* Emails: morning - applied to email tasks carried out at the start of the day related to clearing notification emails out of the inbox
-* Emails: press - used for emails regarding press releases
-* Emails: proof access - used for authors experiencing login/access problems with the proofing system
-* Emails: proof edits - used for edit requests sent via email
-* Emails: proof return delay - used for requests to extend the proofing deadline
-* Emails: pub date query - used for questions about when articles will be published
+* Emails: author details - _use for questions about or edits to author information_
+* Emails: datasets - _use for correspondence about datasets_
+* Emails: figures - _use for emails providing replacement images or question related to figure display_
+* Emails: math - _use for issues with equations in articles_
+* Emails: morning - _apply to email tasks carried out at the start of the day related to clearing notification emails out of the inbox_
+* Emails: press - _use for emails regarding press releases_
+* Emails: proof access - _use for authors experiencing login/access problems with the proofing system_
+* Emails: proof edits - _use for edit requests sent via email_
+* Emails: proof return delay - _use for requests to extend the proofing deadline_
+* Emails: pub date query - _use for questions about when articles will be published_
 * Emails: reproducibility
-* Emails: software - used for questions regarding software
-* Emails: striking images - used for emails providing striking images and uploading the images to the system
-* Emails: typesetting - used for queries from the content processors and correspondent with the authors to resolve the issues at the pre-editing stage
-* New version - used for emails that trigger or are related to an official correction, new version or silent correction of an article
+* Emails: software - _use for questions regarding software_
+* Emails: striking images - _use for emails providing striking images and uploading the images to the system_
+* Emails: typesetting - _use for queries from the content processors and correspondent with the authors to resolve the issues at the pre-editing stage_
+* New version - _use for emails that trigger or are related to an official correction, new version or silent correction of an article_
 
 This project is used for time spent working on emails and managing the production inbox. There are a number of tags and shared descriptions that apply to this task. However, general assignment and filing of emails can be recorded without any description.
 
@@ -236,17 +236,21 @@ Please note that the time recorded under 'email' is all the time required to com
 
 **Associated tags**:
 
-* Writing
-* Reviewing
-* Updating
+* Writing - _use for the initial draft and revisions of the page_
+* Reviewing - _use for checking over drafts written by other members of the team_
+* Updating - _use for making updates to the page after initial publication_
 
-This is used to record time spent working on the production GitBook. The description should be the name of the page being worked on. There are three dedicated tags for this task: **Writing** is used for the initial draft and revisions of the page; **Reviewing** is used for checking over drafts written by other members of the team; **Updating** is used for making updates to the page after initial publication.
+This is used to record time spent working on the production GitBook. The description should be the name of the page being worked on. There are three dedicated tags for this task, denoting three stages of the production of documentation.
 
 ![](../.gitbook/assets/screen-shot-2021-03-02-at-16.26.36.png)
 
 ### GitLab
 
-This is used to track time spent on GitLab tickets opened with the production vendor, usually related to bugs and improvements in the proofing system. The description should be the ticket number.
+**Recommended description**:
+
+* The number of the ticket being worked on
+
+This is used to track time spent on GitLab tickets opened with the production vendor, usually related to bugs and improvements in the proofing system.
 
 ### Home page
 
