@@ -264,9 +264,12 @@ This is for recording time spent on updating the eLife homepage image. It covers
 
 ### Kriya - dashboard
 
-To help us monitor the performance of the Kriya dashboard, it is helpful to track the time it takes to refresh the page or when assigning the articles to yourself.
+**Recommended description**:
 
-![](../.gitbook/assets/1%20%282%29.png)
+* Refreshing
+* Assigning articles
+
+To help monitor the performance of the Kriya proofing system, it is helpful to track the time taken to refresh the page and to assign articles. However, it's accepted that other tasks may be completed while the page is reloading, so these should take priority in terms of tracking.
 
 ### Libero Editor
 
