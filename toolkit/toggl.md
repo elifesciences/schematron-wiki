@@ -224,6 +224,8 @@ When an email task is related to a specific article, the number should be includ
 
 Please note that the time recorded under 'email' is all the time required to complete whatever tasks are prompted by that email, that is, reading, investigation, system updates, sending queries to third parties and responding to the email should all be included in the one time recording. Correspondingly, if an email is consulted as part of another task \(e.g. [**Pub review**](toggl.md#pub-review)\), the time taken should be recorded as part of that task.
 
+![](../.gitbook/assets/screen-shot-2021-03-02-at-16.39.36.png)
+
 ### ERA
 
 
