@@ -230,7 +230,19 @@ Please note that the time recorded under 'email' is all the time required to com
 
 ### GitBook
 
+**Recommended description**:
+
+* Name of the page being worked on
+
+**Associated tags**:
+
+* Writing
+* Reviewing
+* Updating
+
 This is used to record time spent working on the production GitBook. The description should be the name of the page being worked on. There are three dedicated tags for this task: **Writing** is used for the initial draft and revisions of the page; **Reviewing** is used for checking over drafts written by other members of the team; **Updating** is used for making updates to the page after initial publication.
+
+![](../.gitbook/assets/screen-shot-2021-03-02-at-16.26.36.png)
 
 ### GitLab
 
