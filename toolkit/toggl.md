@@ -256,6 +256,11 @@ This is used to track time spent on GitLab tickets opened with the production ve
 
 ### Home page
 
+**Recommended description**:
+
+* Choosing homepage image - _when_ _selecting image to be used_
+* Changing homepage image - _when_ _updating the website_
+
 This is for recording time spent on updating the eLife homepage image. It covers both choosing the homepage from available options \(in which case the description entered should be **Choosing homepage image**\) and changing the image on the homepage \(in which case, the description should be **Changing homepage image**\).
 
 ### JATS4R
