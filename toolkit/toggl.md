@@ -222,7 +222,7 @@ This project is used for time spent working on emails and managing the productio
 
 When an email task is related to a specific article, the number should be included as the description. If it relates to the regular notifications from the Features team regarding articles that will not receive a digest, 'No digest email' should be used as the description.
 
-Please note that the time recorded under 'email' is all the time required to complete whatever tasks are prompted by that email, that is, reading, investigation, system updates, sending queries to third parties and responding to the email should all be included in the one time recording. Correspondingly, if an email is consulted as part of another task \(e.g. [**Pub review**](toggl.md#pub-review)\), the time taken should be recorded as part of that task.
+Please note that the time recorded under 'email' is all the time required to complete whatever tasks are prompted by that email, that is, reading, investigation, system updates, sending queries to third parties and responding to the email should all be included in the one time recording. Correspondingly, if an email is consulted as part of another task \(e.g. [**Pub review**](toggl.md#pub-review)\), the time taken should be recorded as part of that task, rather than 'Emails'.
 
 ![](../.gitbook/assets/screen-shot-2021-03-02-at-16.39.36.png)
 
@@ -284,7 +284,13 @@ It is useful to track our meetings too, somethings these can overrun and it's ea
 
 ### PoA
 
+**Recommended description**:
+
+* Article number
+
 The PoA project covers time spent working on Publish on Accept articles. This can include updating article publication dates, replacing PDFs or assisting the Editorial Office team in other matters related to the PoA process. The number for the article being worked on should be added to the description.
+
+![](../.gitbook/assets/screen-shot-2021-03-02-at-16.43.33.png)
 
 ### **Pub check**
 
@@ -312,7 +318,9 @@ This task tracks time spent on the 'Publisher Review' stage in the proofing syst
 
 ### Reporting
 
-This project is used for tasks related to reporting tasks and data management.
+This project is used for tasks related to reporting tasks and data management. Currently there are no tags or recommended descriptions for it, though ideally a description of the task being carried out should be provided.
+
+![](../.gitbook/assets/screen-shot-2021-03-02-at-16.45.42.png)
 
 ### Schematron
 
