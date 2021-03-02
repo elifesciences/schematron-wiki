@@ -36,14 +36,14 @@ The following is a full list of projects and the associated tags currently in us
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#continuum-checks"><b>Continuum Checks</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#continuum-checks"><b>Continuum Checks</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking pre-publication checks on Continuum, equates to &apos;preview&apos;
         in TaskAdept</td>
         <td style="text-align:left">New version</td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#emails"><b>Emails</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#emails"><b>Emails</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent on emails</td>
         <td style="text-align:left">
@@ -65,13 +65,13 @@ The following is a full list of projects and the associated tags currently in us
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#era"><b>ERA</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#era"><b>ERA</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent on executable research articles</td>
         <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#gitbook"><b>GitBook</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#gitbook"><b>GitBook</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent on the production Gitbook</td>
         <td style="text-align:left">
@@ -81,51 +81,51 @@ The following is a full list of projects and the associated tags currently in us
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#gitlab"><b>GitLab</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#gitlab"><b>GitLab</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent on GitLab tickets e.g. production vendor bugs</td>
         <td
         style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#home-page"><b>Home page</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#home-page"><b>Home page</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent updating the home-page</td>
         <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#jats-4-r"><b>JATS4R</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#jats-4-r"><b>JATS4R</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent on the JATS For Reuse project</td>
         <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#kriya-dashboard"><b>Kriya - dashboard</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#kriya-dashboard"><b>Kriya - dashboard</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent on the Kriya dashboard, refreshing, assigning articles
         etc.</td>
         <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#libero-editor"><b>Libero Editor</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#libero-editor"><b>Libero Editor</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent working on the Libero Editor project</td>
         <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#meetings"><b>Meetings</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#meetings"><b>Meetings</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent in meeting, huddles etc</td>
         <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#misc"><b>Misc</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#misc"><b>Misc</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent on tasks not covered in other projects</td>
         <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#poa"><b>PoA</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#poa"><b>PoA</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent working on Publish on Accept content</td>
         <td style="text-align:left">New version</td>
@@ -137,40 +137,40 @@ The following is a full list of projects and the associated tags currently in us
       style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#pub-check"><b>Pub Check</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#pub-check"><b>Pub Check</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking pre-author checks in Kriya, article number in description</td>
         <td
         style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#pub-review"><b>Pub Review</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#pub-review"><b>Pub Review</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking post-author checks in Kriya, article number in description</td>
         <td
         style="text-align:left">New version</td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#reporting"><b>Reporting</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#reporting"><b>Reporting</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent on reporting and data tasks</td>
         <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#schematron"><b>Schematron</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#schematron"><b>Schematron</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent working on the schematron tests</td>
         <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#slack"><b>Slack</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#slack"><b>Slack</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent in Slack, assisting others, asking questions,</td>
         <td
         style="text-align:left">New version</td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="kriya.md#training"><b>Training</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#training"><b>Training</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent training other members of the team</td>
         <td style="text-align:left"></td>
@@ -222,7 +222,7 @@ This project is used for time spent working on emails and managing the productio
 
 When an email task is related to a specific article, the number should be included as the description. If it relates to the regular notifications from the Features team regarding articles that will not receive a digest, 'No digest email' should be used as the description.
 
-Please note that the time recorded under 'email' is all the time required to complete whatever tasks are prompted by that email, that is, reading, investigation, system updates, sending queries to third parties and responding to the email should all be included in the one time recording. Correspondingly, if an email is consulted as part of another task \(e.g. [**Pub review**](kriya.md#pub-review)\), the time taken should be recorded as part of that task.
+Please note that the time recorded under 'email' is all the time required to complete whatever tasks are prompted by that email, that is, reading, investigation, system updates, sending queries to third parties and responding to the email should all be included in the one time recording. Correspondingly, if an email is consulted as part of another task \(e.g. [**Pub review**](toggl.md#pub-review)\), the time taken should be recorded as part of that task.
 
 ### ERA
 

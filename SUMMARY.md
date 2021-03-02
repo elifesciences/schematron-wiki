@@ -55,7 +55,7 @@
 * [Fixing Crossref/Dryad failures](toolkit/fixing-crossref-dryad-failures.md)
 * [Striking images](toolkit/striking-images-1.md)
 * [Homepage images](toolkit/homepage-images.md)
-* [Toggl](toolkit/kriya.md)
+* [Toggl](toolkit/toggl.md)
 * [Archiving code](toolkit/archiving-code.md)
 * [XML Glossary](toolkit/xml-glossary.md)
 * [eLife Glossary](toolkit/elife-glossary.md)
