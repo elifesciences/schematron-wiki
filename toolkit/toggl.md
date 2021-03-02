@@ -8,7 +8,7 @@ description: Task tracking with Toggl
 
 [**Toggl track**](https://toggl.com/) is a time-tracking application that the eLife production team uses to monitor how much time is spent on different tasks. This information will be used to monitor the effect of changes to workflows, to track the distribution of work compared to article volumes, to double-check the team has time to work on projects outside the day-to-day tasks, and so on.
 
-The Toggl interface works via self-reporting, with the user required to start and stop it like a stop-watch. The user can add a manual description of the task, assign it to a preset ‘project’ and add one or more preset tags.
+The Toggl interface works via self-reporting, with the user required to start and stop a timer like a stop-watch. The user can add a manual description of the task, assign it to a preset ‘project’ and add one or more preset tags.
 
 ![Example task in Toggl](../.gitbook/assets/screen-shot-2021-02-23-at-15.15.36.png)
 
