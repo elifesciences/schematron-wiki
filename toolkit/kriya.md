@@ -16,11 +16,11 @@ The Toggl interface works on self-reporting, with the user required to start and
 
 ## Projects and tags
 
-A preset list of projects is maintained to account for standard production tasks. These can be edited within the Toggl browser interface at [**https://track.toggl.com/projects/**](https://track.toggl.com/projects/). When beginning or editing a task in the desktop application, the project can be set 
+A preset list of projects is maintained to account for standard production tasks. These can be edited within the Toggl browser interface at [**https://track.toggl.com/projects/**](https://track.toggl.com/projects/). When beginning or editing a task in the desktop application, the project can be set from the following control:
 
 ![Project selection in Toggl](../.gitbook/assets/screen-shot-2021-02-23-at-15.39.52.png)
 
-Tags can be appended to the task as well. Multiple tags are permitted per task, but most of the preset tags are intended for use with specific projects.
+Tags can be appended to the task to provide further details about what is being done. Multiple tags are permitted per task, but most of the preset tags are intended for use with specific projects.
 
 ![Tags in Toggl](../.gitbook/assets/screen-shot-2021-02-23-at-15.41.52.png)
 
@@ -178,28 +178,35 @@ The following is a full list of projects and the associated tags currently in us
   </tbody>
 </table>
 
-### **Continuum Checks**
+### Continuum Checks
 
-This records time spent checking articles that have been loaded to Continuum on the journal preview site. The description should be the five-digit article number. Where the check is being carried out on a new or corrected version of an article, the **New version** tag should be applied.
+**Recommended description**:
+
+* Article number
+
+**Associated tags**:
+
+* New version
+
+This is used to track time spent checking articles on the journal preview site. The description should be the five-digit article number. Where the check is being carried out on a new or corrected version of an article, the **New version** tag should be applied.
 
 ![](../.gitbook/assets/3%20%282%29.png)
 
 ### **Emails** 
 
-This project is used for time spent working on emails and managing the production inbox. There are a number of tags and shared descriptions that apply to this task. However, general assignment and filing of emails can be recorded without any description.
+**Recommended description**:
 
-When an email task is related to a specific article, the number should be included as the description. If it relates to the regular notifications from the Features team regarding articles that will not receive a digest, 'No digest email' should be used as the description.
+* Article number for correspondence on a specific article
+* 'No digest email' for time spent checking features update about articles set to no-digest
+* Otherwise, describe the task
 
-Please note that the time recorded under 'email' is all the time required to complete whatever tasks are prompted by that email, that is, reading, investigation, system updates, sending queries to third parties and responding to the email should all be included in the one time recording. Correspondingly, if an email is consulted as part of another task \(e.g. [**Pub review**](kriya.md#pub-review)\), the time taken should be recorded as part of that task.
-
-The following specific tags can be added to a task recorded as 'Emails'. 
+**Associated tags**:
 
 * Emails: author details - used for questions about or edits to author information
 * Emails: datasets - used for correspondence about datasets
 * Emails: figures - used for emails providing replacement images or question related to figure display
 * Emails: math - used for issues with equations in articles
 * Emails: morning - applied to email tasks carried out at the start of the day related to clearing notification emails out of the inbox
-* Emails: new versions
 * Emails: press - used for emails regarding press releases
 * Emails: proof access - used for authors experiencing login/access problems with the proofing system
 * Emails: proof edits - used for edit requests sent via email
@@ -209,8 +216,13 @@ The following specific tags can be added to a task recorded as 'Emails'.
 * Emails: software - used for questions regarding software
 * Emails: striking images - used for emails providing striking images and uploading the images to the system
 * Emails: typesetting - used for queries from the content processors and correspondent with the authors to resolve the issues at the pre-editing stage
+* New version - used for emails that trigger or are related to an official correction, new version or silent correction of an article
 
+This project is used for time spent working on emails and managing the production inbox. There are a number of tags and shared descriptions that apply to this task. However, general assignment and filing of emails can be recorded without any description.
 
+When an email task is related to a specific article, the number should be included as the description. If it relates to the regular notifications from the Features team regarding articles that will not receive a digest, 'No digest email' should be used as the description.
+
+Please note that the time recorded under 'email' is all the time required to complete whatever tasks are prompted by that email, that is, reading, investigation, system updates, sending queries to third parties and responding to the email should all be included in the one time recording. Correspondingly, if an email is consulted as part of another task \(e.g. [**Pub review**](kriya.md#pub-review)\), the time taken should be recorded as part of that task.
 
 ### ERA
 
