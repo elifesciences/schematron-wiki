@@ -344,7 +344,7 @@ If you are just using slack \(such as answering a query from Exeter or chatting 
 
 ### **Training**
 
-Unfortunately we are unable to track training that you may receive at the same time as another project \(such as being talked through an issue within your pub review\) so we have a training project for time that is solely dedicated to a training session.
+Time spent training other members of the team should be recorded using the Training project.
 
 ![](../.gitbook/assets/5%20%281%29.png)
 
