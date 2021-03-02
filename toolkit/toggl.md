@@ -286,13 +286,25 @@ The PoA project covers time spent working on Publish on Accept articles. This ca
 
 ### **Pub check**
 
-\*\*\*\*
+**Recommended description**:
+
+* Article number
+
+This task tracks time spent on the 'Publisher Check' stage in the proofing system.  This should be tracked from when the user begins looking at the article \(either by opening the article or checking the notes on it\) to when they stop working on it, by either logging out of the proof or signing it off to the next stage.
 
 ### **Pub review**
 
-We have these as separate projects so that we can monitor how long it takes to complete the pub check or pub review. This should be tracked from when you open the proof to when you sign off out of the proof. For Toggl, you should add the article number to the description.
+**Recommended description**:
 
-![](../.gitbook/assets/2%20%282%29.png)
+* Article number
+
+**Associated tags**:
+
+* New version
+
+This task tracks time spent on the 'Publisher Review' stage in the proofing system.  This should be tracked from when the user begins looking at the article \(either by opening the article or checking the notes/emails on it\) to when they stop working on it, by either logging out of the proof or signing it off to the next stage. Where the check is being carried out on a new or corrected version of an article, the **New version** tag should be applied.
+
+![](../.gitbook/assets/screen-shot-2021-03-02-at-16.36.01.png)
 
 ### Reporting
 
