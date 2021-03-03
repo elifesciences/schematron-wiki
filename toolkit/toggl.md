@@ -276,7 +276,7 @@ To help monitor the performance of the Kriya proofing system, it is helpful to t
 
 ### Meetings
 
-It is useful to track our meetings too, somtimes these can overrun and it's easy to wonder where the day went!
+It is useful to track our meetings too, sometimes these can overrun and it's easy to wonder where the day went!
 
 ![](../.gitbook/assets/4%20%282%29.png)
 
