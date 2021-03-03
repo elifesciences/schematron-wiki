@@ -166,11 +166,11 @@ These checks relate to the content of impact statements. X or XXXXXX refers to q
 
 #### custom-meta-test-5
 
-**Warning**: _Impact statement contains more than 30 words. This is not allowed._
+**Warning**: _Impact statement contains more than 40 words. This is not allowed._
 
-**Action**: When an impact statement is more than 30 words in length, it should be shortened if this is possible without changing the scientific meaning of the text. If this is not possible, the author should be asked to rephrase it to bring it under the word limit:
+**Action**: When an impact statement is more than 40 words in length, it should be shortened if this is possible without changing the scientific meaning of the text. If this is not possible, the author should be asked to rephrase it to bring it under the word limit:
 
-* Please rephrase this impact statement so that it is no more than 30 words in length.
+* Please rephrase this impact statement so that it is no more than 40 words in length.
 
 #### pre-custom-meta-test-6
 
