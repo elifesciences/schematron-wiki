@@ -65,12 +65,6 @@ The following is a full list of projects and the associated tags currently in us
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#era"><b>ERA</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left">Tracking time spent on executable research articles</td>
-        <td style="text-align:left"></td>
-    </tr>
-    <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#gitbook"><b>GitBook</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent on the production Gitbook</td>
@@ -91,12 +85,6 @@ The following is a full list of projects and the associated tags currently in us
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#home-page"><b>Home page</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking time spent updating the home-page</td>
-        <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#jats-4-r"><b>JATS4R</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left">Tracking time spent on the JATS For Reuse project</td>
         <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -131,12 +119,6 @@ The following is a full list of projects and the associated tags currently in us
         <td style="text-align:left">New version</td>
     </tr>
     <tr>
-      <td style="text-align:left">PRC</td>
-      <td style="text-align:left">Tracking time spent on the Publish, Review, Curate project (Sciety)</td>
-      <td
-      style="text-align:left"></td>
-    </tr>
-    <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#pub-check"><b>Pub Check</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">Tracking pre-author checks in Kriya, article number in description</td>
@@ -149,12 +131,6 @@ The following is a full list of projects and the associated tags currently in us
       style="text-align:left">Tracking post-author checks in Kriya, article number in description</td>
         <td
         style="text-align:left">New version</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#reporting"><b>Reporting</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left">Tracking time spent on reporting and data tasks</td>
-        <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#schematron"><b>Schematron</b></a>&lt;b&gt;&lt;/b&gt;</td>
