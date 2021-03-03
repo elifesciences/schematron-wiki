@@ -12,7 +12,7 @@ An impact statement is a succinct summary of an article, intended for display on
 
 Impact statements do not display on the main article page on the website or the PDF.
 
-An impact statement should be a single complete sentence, no more than 30 words in length. Multiple sentences or multiple statements joined with semi-colons are not allowed. Colons are similarly not allowed, except when the article is a [Replication study](impact-statement.md#impact-statements-in-replication-studies). The statement should be properly punctuated and end in a full stop. Bold text is not allowed but italics and superscript should be retained as the author provides, and as in the title, species names \(e.g. _Homo sapiens_\) should be in italics.
+An impact statement should be a single complete sentence, no more than 40 words in length. Multiple sentences or multiple statements joined with semi-colons are not allowed. Colons are similarly not allowed, except when the article is a [Replication study](impact-statement.md#impact-statements-in-replication-studies). The statement should be properly punctuated and end in a full stop. Bold text is not allowed but italics and superscript should be retained as the author provides, and as in the title, species names \(e.g. _Homo sapiens_\) should be in italics.
 
 The statement should not repeat the title and it should not be written in the first-person. It should not use acronyms without defining them, although commonly used terms \(such as RNA\) are OK. It should match the main text in terms of whether UK or US spelling is used.
 
@@ -37,9 +37,9 @@ Whenever an impact statement is edited, the author must be notified using the fo
 
 * The impact statement has been edited. Please confirm whether the revised wording is acceptable.
 
-If the statement is longer than 30 words, it should be shortened if this is possible without changing the scientific meaning of the text. If it is unclear how to do this, the authors will need to be asked to shorten it themselves:
+If the statement is longer than 40 words, it should be shortened if this is possible without changing the scientific meaning of the text. If it is unclear how to do this, the authors will need to be asked to shorten it themselves:
 
-* Please rephrase this impact statement so that it is no more than 30 words in length.
+* Please rephrase this impact statement so that it is no more than 40 words in length.
 
 In extreme cases, where it is not possible to create an acceptable impact statement from the text provided \(e.g. they have provided multiple sentences and  it is unclear how they should be combined\), the following query may be used to ask the authors to start again:
 
@@ -122,7 +122,7 @@ This statement was edited to the following based on information given in the abs
 
 ### Spelling out abbreviations
 
-The use of undefined abbreviations is discouraged, excepting commonly used ones such as DNA or protein/gene names. A general rule of thumb is that if the authors spell out the term in full in their abstract/main text, it should be given in full in the impact statement \(provided this does not take the statement over the 30 word limit. For example:
+The use of undefined abbreviations is discouraged, excepting commonly used ones such as DNA or protein/gene names. A general rule of thumb is that if the authors spell out the term in full in their abstract/main text, it should be given in full in the impact statement \(provided this does not take the statement over the 40 word limit. For example:
 
 > "The tissue environment shapes the lipid recognition capacity of **NKT** cells."
 
@@ -132,7 +132,7 @@ Here, the expansion of 'NKT' was found from the abstract:
 
 > "The tissue environment shapes the lipid recognition capacity of **natural killer T** cells."
 
-If spelling out the abbreviation would take the statement over 30 words, it is acceptable to leave the abbreviation as it is, provided that the title of the article uses the spelled-out version. It is also acceptable to leave the abbreviations if the authors are defining it in their impact statement, e.g.
+If spelling out the abbreviation would take the statement over 40 words, it is acceptable to leave the abbreviation as it is, provided that the title of the article uses the spelled-out version. It is also acceptable to leave the abbreviations if the authors are defining it in their impact statement, e.g.
 
 > "The human cytomegalovirus \(HCMV\) interactome systematically characterises high-confidence viral-viral and viral-host protein interactions in HCMV-infected cells, facilitating multiple novel insights into HCMV and herpesviral function."
 
@@ -320,4 +320,8 @@ These checks relate to the XML structure of impact statements. X or XXXXXX refer
   </article-meta>
 </front>
 ```
+
+## Changelog
+
+* Updated 03/03/2021 to account for increase in impact statement word limit.
 
