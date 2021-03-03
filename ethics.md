@@ -10,6 +10,16 @@ description: >-
 
 All authors are expected to adhere to the guidelines set by their institutional review board or ethics committee when the study was approved. For example, animals should not undergo any unnecessary suffering if this can be avoided, and human participants should be be allowed the right to confidentiality and data protection. 
 
+There are two main types of studies, clinical trials and observational studies. 
+
+### Clinical trials 
+
+Clinical trials involve participants that receive certain interventions such as medical products, medical procedures, changes to environment, and diet. These often involve comparisons to other studies and products that are already available. It is the researchers' aim to determine if the approach or product will have different outcomes to those that are currently used. For example, testing a new medication for heart conditions. There are risks involved with these trials so they have four phases defined by the Food and Drug Administration \(FDA\), before 
+
+### Observational studies
+
+Observational studies assess health or behaviour outcomes in the participants with minimal interventions. Most observational studies are not ethically sensitive and the main ethical risk within these studies are related to safety, confidentiality, and consent. 
+
 ## What needs to be checked?
 
 If the study includes the use of animals or people, we ask authors to provide an ethics statement during submission to indicate that the study has been approved and that the guidelines have been adhered to. Each institute will have their own statement. 
