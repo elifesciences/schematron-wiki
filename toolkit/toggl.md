@@ -226,10 +226,6 @@ Please note that the time recorded under 'email' is all the time required to com
 
 ![](../.gitbook/assets/screen-shot-2021-03-02-at-16.39.36.png)
 
-### ERA
-
-
-
 ### GitBook
 
 **Recommended description**:
@@ -263,10 +259,6 @@ This is used to track time spent on GitLab tickets opened with the production ve
 
 This is for recording time spent on updating the eLife homepage image. It covers both choosing the homepage from available options \(in which case the description entered should be **Choosing homepage image**\) and changing the image on the homepage \(in which case, the description should be **Changing homepage image**\).
 
-### JATS4R
-
-
-
 ### Kriya - dashboard
 
 **Recommended description**:
@@ -284,7 +276,7 @@ To help monitor the performance of the Kriya proofing system, it is helpful to t
 
 ### Meetings
 
-It is useful to track our meetings too, somethings these can overrun and it's easy to wonder where the day went!
+It is useful to track our meetings too, somtimes these can overrun and it's easy to wonder where the day went!
 
 ![](../.gitbook/assets/4%20%282%29.png)
 
@@ -325,14 +317,6 @@ This task tracks time spent on the 'Publisher Check' stage in the proofing syste
 This task tracks time spent on the 'Publisher Review' stage in the proofing system.  This should be tracked from when the user begins looking at the article \(either by opening the article or checking the notes/emails on it\) to when they stop working on it, by either logging out of the proof or signing it off to the next stage. Where the check is being carried out on a new or corrected version of an article, the **New version** tag should be applied.
 
 ![](../.gitbook/assets/screen-shot-2021-03-02-at-16.36.01.png)
-
-### Reporting
-
-This project is used for tasks related to reporting tasks and data management. Currently there are no tags or recommended descriptions for it, though ideally a description of the task being carried out should be provided.
-
-![](../.gitbook/assets/screen-shot-2021-03-02-at-16.45.42.png)
-
-### Schematron
 
 
 
