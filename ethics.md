@@ -14,7 +14,7 @@ There are two main types of studies, clinical trials and observational studies.
 
 ### Clinical trials 
 
-Clinical trials involve participants that receive certain interventions such as medical products, medical procedures, changes to environment, and diet. These often involve comparisons to other studies and products that are already available. It is the researchers' aim to determine if the approach or product will have different outcomes to those that are currently used. For example, testing a new medication for heart conditions. There are risks involved with these trials so they have four phases defined by the Food and Drug Administration \(FDA\), before 
+Clinical trials involve human participants that receive certain interventions such as medical products, medical procedures, changes to environment, and diet. It is the researchers' aim to determine if the approach or product will have different outcomes to those that are currently used. For example, testing a new medication for heart conditions. There are risks involved, so before a clinical trial can be approved by the Food and Drug Administration \(FDA\), tests and studies are carried out on animals. If positive results are shown, the FDA may grant permission for the trial to begin.
 
 ### Observational studies
 
