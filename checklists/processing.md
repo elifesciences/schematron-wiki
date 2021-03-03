@@ -206,5 +206,6 @@ The following points should be addressed during copy-editing:
 
 ## Changelog
 
-* Updated 2020-11-13 to provide gudiance on titles for Review articles.
+* Updated 2020-11-13 to provide guidance on titles for Review articles.
+* Updated 2021-03-03 to increase Impact Statement length to 40 words
 
