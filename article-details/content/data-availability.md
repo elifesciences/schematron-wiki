@@ -67,7 +67,6 @@ Each of these fields will need to be completed for the dataset to pass schematro
 * **Database**: The name of the repository in which the data has been deposited.
 * **Identifier**: A unique string that can be used to identify the dataset. This may be a DOI, an accession number or simply an ID unique to the database in which the data has been stored.
 * **pub-id-type**: The type of identifier present. Chose from: accession, doi. This cannot be left as 'other'. Guidance on which databases take which value for this field can be found [here](data-availability.md#database-examples).
-* **assigning-authority**: The organisation that assigned the identifier. Often the organisation that hosts/maintains the database. This can be set to 'other' if multiple organisations are involved or the authority is not on the list of allowed values. The values for common databases can be found [here](data-availability.md#database-examples).
 
 Once all the fields are completed, the dataset can be saved and it will appear in the relevant section. The form is the same for generated and previously published datasets.
 
@@ -635,9 +634,9 @@ These checks relate to the content of the data availability section. X or XXXXXX
 
 #### pre-das-dryad-conformity
 
-**Warning**: _Data Availability Statement contains the word Dryad, but there is no data citation in the dataset section with a dryad assigning authority. If there is a dryad dataset present, ensure the assigning authority is dryad, otherwise please query the authors for the reference details._
+**Warning**: _Data Availability Statement contains the word Dryad, but there is no data citation in the dataset section with a dryad doi and/or database name containing 'Dryad'. If there is a dryad dataset present, ensure that it is captured correctly, otherwise please query the authors for the reference details._
 
-**Action**: This warning indicates at the pre-author stage that Dryad is mentioned in the data availability statement but no dataset entries with the assigning authority set to 'Dryad' are present. If an entry for a Dryad dataset _is_ present, make sure that the assigning authority is corrected. If no Dryad dataset is present but the data availability statement mentions a Dryad DOI, the corresponding dataset should be added under the appropriate heading \(generated for data described as coming from the current work, previously published for data described as being used by the current work\). The details for the dataset will either be available by following DOI or, in the case of an unreleased generated dataset, will be the same author list as the current article, the current year and the article title preceded by 'Data from: ".
+**Action**: This warning indicates at the pre-author stage that Dryad is mentioned in the data availability statement but no dataset entries with the a database name containing 'Dryad' or a Dryad DOI are present. If an entry for a Dryad dataset _is_ present, make sure that the details are corrected. If no Dryad dataset is present but the data availability statement mentions a Dryad DOI, the corresponding dataset should be added under the appropriate heading \(generated for data described as coming from the current work, previously published for data described as being used by the current work\). The details for the dataset will either be available by following DOI or, in the case of an unreleased generated dataset, will be the same author list as the current article, the current year and the article title preceded by 'Data from: ".
 
 If the data availability statement does not contain the DOI, please add the following author query:
 
@@ -645,9 +644,9 @@ If the data availability statement does not contain the DOI, please add the foll
 
 #### final-das-dryad-conformity
 
-**Error**: _Data Availability Statement contains the word Dryad, but there is no data citation in the dataset section with a dryad assigning authority._
+**Error**: _Data Availability Statement contains the word Dryad, but there is no data citation in the dataset section with a dryad doi and/or database name containing 'Dryad'.._
 
-**Action**: This error indicates at the post-author stage that Dryad is mentioned in the data availability statement but no dataset entries with the assigning authority set to 'Dryad' are present. If an entry for a Dryad dataset _is_ present, make sure that the assigning authority is corrected. If no Dryad dataset is present but the data availability statement mentions a Dryad DOI, the corresponding dataset should be added under the appropriate heading \(generated for data described as coming from the current work, previously published for data described as being used by the current work\). The details for the dataset will either be available by following DOI or, in the case of an unreleased generated dataset, will be the same author list as the current article, the current year and the article title preceded by 'Data from: ".
+**Action**: This error indicates at the post-author stage that Dryad is mentioned in the data availability statement but no dataset entries with the a database name containing 'Dryad' or a Dryad DOI are present. If an entry for a Dryad dataset _is_ present, make sure that the details are corrected. If no Dryad dataset is present but the data availability statement mentions a Dryad DOI, the corresponding dataset should be added under the appropriate heading \(generated for data described as coming from the current work, previously published for data described as being used by the current work\). The details for the dataset will either be available by following DOI or, in the case of an unreleased generated dataset, will be the same author list as the current article, the current year and the article title preceded by 'Data from: ".
 
 If the data availability statement does not contain the DOI, the author will need to be asked to provide the missing details.
 
@@ -975,18 +974,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 **Action**: This warning fires when the pub-id-type given for the indicated dataset does not match the expected value based on the database name provided. Pub-id-types for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the pub-id-type to the expected value.
 
-#### data-ncbi-test-3
-
-**Warning**: _Data reference with an NCBI link 'XXXXXX' is not marked with NCBI as its assigning authority, which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the URL provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
-
-#### data-ncbi-test-4
-
-**Warning**: _Data reference with the database source 'XXXXXX' is not marked with NCBI as its assigning authority, which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the database name provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
-
 #### data-dryad-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a Dryad type doi XXXXXX, but the database name is not 'Dryad Digital Repository' - XXXXXX._
@@ -1003,12 +990,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 * Please provide the final DOI for this dataset.
 
-#### data-dryad-test-3
-
-**Warning**: _Data reference with the title 'XXXXXX' has a Dryad type doi - XXXXXX, but the assigning authority is not Dryad, which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the DOI provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
-
 #### data-rcsbpbd-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'http://www.rcsb.org' type link, but the database name is not 'RCSB Protein Data Bank' - XXXXXX. Is that correct?_
@@ -1016,12 +997,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 **Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
 
 XXXXXX will be the dataset title and the current database name in this entry, respectively.
-
-#### data-rcsbpbd-test-2
-
-**Warning**: _Data reference with the title 'XXXXXX' has a 'http://www.rcsb.org' type link, but is not marked with PDB as its assigning authority, which must be incorrect_
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the URL provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
 
 #### data-rcsbpbd-test-3
 
@@ -1037,12 +1012,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
-#### data-emdb-test-2
-
-**Warning**: _Data reference with the title 'XXXXXX' has a 'http://www.ebi.ac.uk/pdbe/emdb' type link, but is not marked with EMDB as its assigning authority, which must be incorrect_
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the URL provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
-
 #### data-emdb-test-3
 
 **Warning**: _Data reference with the title 'XXXXXX' has a EMDB 'http://www.ebi.ac.uk/pdbe/emdb' type link, but is not marked as an accession type link._
@@ -1057,12 +1026,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 XXXXXX will be the dataset title and the current database name in this entry, respectively.
 
-#### data-arrayexpress-test-2
-
-**Warning**: _Data reference with the title 'XXXXXX' has a 'www.ebi.ac.uk/arrayexpress' type link, but is not marked with EBI as its assigning authority, which must be incorrect_
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the URL provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
-
 #### data-arrayexpress-test-3
 
 **Warning**: _Data reference with the title 'XXXXXX' has an ArrayExpress 'www.ebi.ac.uk/arrayexpress' type link, but is not marked as an accession type link._
@@ -1076,12 +1039,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 **Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
 
 XXXXXX will be the dataset title and the current database name in this entry, respectively.
-
-#### data-pride-test-2
-
-**Warning**: _Data reference with the title 'XXXXXX' has a 'www.ebi.ac.uk/pride' type link, but is not marked with EBI as its assigning authority, which must be incorrect_
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the URL provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
 
 #### data-pride-test-3
 
@@ -1105,12 +1062,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 * Please provide the final DOI for this dataset.
 
-#### data-zenodo-test-3
-
-Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, but the assigning authority is not Zenodo, which must be incorrect.
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the DOI provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
-
 #### data-osf-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'https://osf.io' type link, but the database name is not 'Open Science Framework' - XXXXXX. Is that correct?_
@@ -1118,12 +1069,6 @@ Warning: Data reference with the title 'XXXXXX' has a Zenodo type doi - XXXXXX, 
 **Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
 
 XXXXXX will be the dataset title and the current database name in this entry, respectively.
-
-#### data-osf-test-2
-
-**Warning**: _Data reference with the title 'XXXXXX' has a 'https://osf.io' type link, but is not marked with Open Science Framework as its assigning authority, which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the URL provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
 
 #### data-osf-test-3
 
@@ -1136,12 +1081,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.17605/OSF' but the database name is not 'Open Science Framework' - XXXXXX._
 
 **Action**: This warning will fire if an OSF DOI is present for a dataset, but the database name entered is not 'Open Science Framework'. Please correct the database name accordingly.
-
-#### data-osf-test-5
-
-**Warning**: _Data reference with the title 'XXXXXX' has a OSF type doi - XXXXXX, but the assigning authority is not Open Science Framework, which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the DOI provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
 
 #### data-figshare-test-1
 
@@ -1161,12 +1100,6 @@ If the DOI itself cannot be located, query the author to provide the missing det
 
 * Please provide the final DOI for this dataset.
 
-#### data-figshare-test-3
-
-**Warning**: _Data reference with the title 'XXXXXX' has a figshare type doi - XXXXXX, but the assigning authority is not figshare, which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the DOI provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
-
 #### data-proteomexchange-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'http://proteomecentral.proteomexchange.org/' type link, but the database name is not 'ProteomeXchange' - XXXXXX. Is that correct?_
@@ -1174,12 +1107,6 @@ If the DOI itself cannot be located, query the author to provide the missing det
 **Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
 
 XXXXXX will be the dataset title and the current database name in this entry, respectively.
-
-#### data-proteomexchange-test-2
-
-**Warning**: _Data reference with the title 'XXXXXX' has a 'http://proteomecentral.proteomexchange.org/' type link, but is not marked with 'other' as its assigning authority, which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the URL provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
 
 #### data-proteomexchange-test-3
 
@@ -1203,12 +1130,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 * Please provide the final DOI for this dataset.
 
-#### data-openneuro-test-3
-
-**Warning**: _Data reference with the title 'XXXXXX' has a OpenNeuro type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the DOI provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
-
 #### data-synapse-test-1
 
 **Warning**: Data reference with the title 'XXXXXX' has a doi starting with '10.7303/syn' but the database name is not 'Synapse' - XXXXXX.
@@ -1225,12 +1146,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 * Please provide the final DOI for this dataset.
 
-#### data-synapse-test-3
-
-**Warning**: _Data reference with the title 'XXXXXX' has a Synapse type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the DOI provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
-
 #### data-bmrb-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'www.bmrb.wisc.edu/data\_library/summary' type link, but the database name is not 'Biological Magnetic Resonance Data Bank' - XXXXXX. Is that correct?_
@@ -1238,12 +1153,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 **Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
 
 XXXXXX will be the dataset title and the current database name in this entry, respectively.
-
-#### data-bmrb-test-2
-
-**Warning**: _Data reference with the title 'XXXXXX' has a 'www.bmrb.wisc.edu/data\_library/summary' type link, but is not marked with 'other' as its assigning authority, which must be incorrect_
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the URL provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
 
 #### data-bmrb-test-3
 
@@ -1258,12 +1167,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 **Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
 
 XXXXXX will be the dataset title and the current database name in this entry, respectively.
-
-#### data-morphdbase-test-2
-
-**Warning**: _Data reference with the title 'XXXXXX' has a 'www.morphdbase.de' type link, but is not marked with 'other' as its assigning authority, which must be incorrect_
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the URL provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
 
 #### data-morphdbase-test-3
 
@@ -1287,12 +1190,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 * Please provide the final DOI for this dataset.
 
-#### data-mendeley-test-3
-
-**Warning**: _Data reference with the title 'XXXXXX' has a Mendeley Data type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the DOI provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
-
 #### data-edatashare-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.7488' but the database name is not 'Edinburgh DataShare' - XXXXXX._
@@ -1308,12 +1205,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 **Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. Ensure that a DOI of the correct type is entered in the identifier field. If this information cannot be located, query the author to provide the missing details:
 
 * Please provide the final DOI for this dataset.
-
-#### data-edatashare-test-3
-
-**Warning**: _Data reference with the title 'XXXXXX' has a Edinburgh DataShare type doi - XXXXXX, but the assigning authority is not 'Edinburgh University', which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the DOI provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
 
 #### data-eth-test-1
 
@@ -1331,12 +1222,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 * Please provide the final DOI for this dataset.
 
-#### data-eth-test-3
-
-**Warning**: _Data reference with the title 'XXXXXX' has a ETH Library research collection type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the DOI provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
-
 #### data-crcns-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.6080' but the database name is not 'Collaborative Research in Computational Neuroscience' - XXXXXX._
@@ -1352,12 +1237,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 **Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. Ensure that a DOI of the correct type is entered in the identifier field. If this information cannot be located, query the author to provide the missing details:
 
 * Please provide the final DOI for this dataset.
-
-#### data-crcns-test-3
-
-**Warning**: _Data reference with the title 'XXXXXX' has a CRCNS type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the DOI provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
 
 #### data-morphosource-test-1
 
@@ -1375,12 +1254,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 * Please provide the final DOI for this dataset.
 
-#### data-morphosource-test-3
-
-**Warning**: _Data reference with the title 'XXXXXX' has a MorphoSource type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the DOI provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
-
 #### data-neurovault-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'neurovault.org/collections' type link, but the database name is not 'NeuroVault' - XXXXXX. Is that correct?_
@@ -1388,12 +1261,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 **Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
 
 XXXXXX will be the dataset title and the current database name in this entry, respectively.
-
-#### data-neurovault-test-2
-
-**Warning**: Data reference with the title 'XXXXXX' has a 'neurovault.org/collections' type link, but is not marked with 'other' as its assigning authority, which must be incorrect
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the URL provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
 
 #### data-neurovault-test-3
 
@@ -1417,12 +1284,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 * Please provide the final DOI for this dataset.
 
-#### data-wwpdb-test-3
-
-**Warning**: _Data reference with the title 'XXXXXX' has a Worldwide Protein Data Bank type doi - XXXXXX, but the assigning authority is not 'PDB', which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the DOI provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
-
 #### data-sbgdb-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a doi starting with '10.15785/SBGRID' but the database name is not 'SBGrid Data Bank' - XXXXXX._
@@ -1438,12 +1299,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 **Action**: This warning fires when the identifier for the indicated dataset is not a DOI starting with the expected string based on the database name. See [above](data-availability.md#database-examples) for examples of DOIs for commonly encountered databases. Ensure that a DOI of the correct type is entered in the identifier field. If this information cannot be located, query the author to provide the missing details:
 
 * Please provide the final DOI for this dataset.
-
-#### data-sbgdb-test-3
-
-**Warning**: _Data reference with the title 'XXXXXX' has a SBGrid Data Bank type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the DOI provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
 
 #### data-harvard-dataverse-test-1
 
@@ -1461,12 +1316,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 
 * Please provide the final DOI for this dataset.
 
-#### data-harvard-dataverse-test-3
-
-**Warning**: _Data reference with the title 'XXXXXX' has a Harvard Dataverse type doi - XXXXXX, but the assigning authority is not 'other', which must be incorrect._
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the DOI provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
-
 #### data-encode-test-1
 
 **Warning**: _Data reference with the title 'XXXXXX' has a 'www.encodeproject.org' type link, but the database name is not 'ENCODE' - XXXXXX. Is that correct?_
@@ -1474,12 +1323,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 **Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
 
 XXXXXX will be the dataset title and the current database name in this entry, respectively.
-
-#### data-encode-test-2
-
-**Warning**: _Data reference with the title 'XXXXXX' has a 'www.encodeproject.org' type link, but is not marked with 'other' as its assigning authority, which must be incorrect_
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the URL provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
 
 #### data-encode-test-3
 
@@ -1494,12 +1337,6 @@ XXXXXX will be the dataset title and the current database name in this entry, re
 **Action**: This warning indicates that the database name for a dataset is not the one expected based on the URL provided. This may be due to differing spacing or capitalisation, or the authors may have entered an alternative name for the database. Synonyms for common database names can be found in the list of [database examples](data-availability.md#database-examples). In most cases, the database name should be corrected to the value given in the message. However, please check the database name displayed when following the URL provided and if it does not correspond to the warning message, the Production team will need to investigate further.
 
 XXXXXX will be the dataset title and the current database name in this entry, respectively.
-
-#### data-emdr-test-2
-
-**Warning**: _Data reference with the title 'XXXXXX' has a 'www.emdataresource.org' type link, but is not marked with 'other' as its assigning authority, which must be incorrect_
-
-**Action**: This warning fires when the assigning-authority given for the indicated dataset does not match the expected value based on the URL provided. Assigning-authorities for commonly encountered databases can be found [above](data-availability.md#database-examples). Please correct the assigning-authority to the expected value.
 
 #### data-emdr-test-3
 
@@ -1651,4 +1488,5 @@ The current data availability tagging was introduced at the beginning of June 20
 * Updated 2020-10-26 to account for das-pub-id-2 split.
 * Updated 2020-11-10 to add final-das-p-conformity-1.
 * Updated 2020-12-16 to cover GitHub repos as datasets and changes to code archiving process.
+* Updated 2021-03-04 to remove assigning authority tests.
 
