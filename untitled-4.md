@@ -1,10 +1,14 @@
 ---
-description: >-
-  Add a page description. For pages with a changelog, include 'Updated
-  dd/mm/yyyy'
+description: Add a page description.
 ---
 
 # Template
+
+{% hint style="info" %}
+Add an info link to the changelog at the top of the page with the text below \(ensure the 'here' has a link to the changelog at the bottom of the page\): 
+
+For changelog, click here. Updated dd/mm/yyy
+{% endhint %}
 
 ## What is the \[insert subject of page\]?
 
