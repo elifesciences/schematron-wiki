@@ -258,7 +258,7 @@ At post-author stages, this warning can be ignored.
 
 **Error**: _disp-formula must contain an mml:math element._
 
-**Action**:
+**Action**: This will fire at all stages if there is no mml:math element as a child of the disp-formula element. If this has fired, it means something has gone awry in Kriya, and will likely need to be looked into by the Exeter support team. 
 
 **disp-formula-test-3**
 
@@ -276,19 +276,19 @@ At post-author stages, this warning can be ignored.
 
 **Error**: _inline-formula must contain an mml:math element._
 
-**Action**:
+**Action**: This will fire at all stages if there is no mml:math element as a child of the inline-formula element. If this has fired, it means something has gone awry in Kriya, and will likely need to be looked into by the Exeter support team. 
 
 **inline-formula-test-4**
 
 **Error**: _XXXXXX must be a child of p, td, th or title. The formula containing XXXXXX is a child of XXXXXX_
 
-**Action**:
+**Action**: This will fire at all stages if an inline-formula element is not a child of either a p, title, td or th element. If this has fired, it means something has gone awry in Kriya, and will likely need to be looked into by the Exeter support team. 
 
 **math-test-1**
 
 **Error**: _mml:math must not be empty._
 
-**Action**:
+**Action**: This will fire at all stages if an mml:math element contains no content. In Kriya this will essentially be an empty formula. The action should be to attempt to delete, the extra equation, or add in the missing content \(as appropriate\). If this does not work, then it will need to be looked into by the Exeter support team.
 
 **math-test-2**
 
