@@ -1,16 +1,29 @@
 ---
-description: Managing the production inbox
+description: Managing the production inbox and slack
 ---
 
-# Managing the production inbox
+# Managing production queries
+
+{% hint style="info" %}
+For changelog, click [**here**](managing-the-production-inbox.md#changelog). Updated 08/03/2021
+{% endhint %}
+
+## Production q**ueries**
+
+The Production team receives daily queries from a variety of sources including the external typesetters, other eLife teams, and authors. Author queries arrive as emails, but we also use Slack for liaising with other eLife teams and our typesetters. It is important to respond to these queries in a timely manner to prevent articles being held up unnecessarily. Production assistants and editors are responsible for keeping on top of the inbox and the Slack channels we have with the typesetters. 
+
+* Emails from authors should be replied to within the same day \(unless they arrive after 4PM\), even if only with a note to say we are looking into the query and will respond with a resolution when it is available. See more about interacting with authors [**here**](interacting-with-authors.md). 
+* Slack queries from our typesetters should be replied to within the same day to prevent holding up articles.
 
 ## **Using Hiver**
 
-The Production inbox is a shared inbox that everyone in the team has access to. We manage this inbox using a collaboration tool called Hiver. Hiver allows us to clearly divide up the workload by assigning emails to ourselves. It also allows us to categorise and track the types of emails we get by adding tags. When an email needs responding to it is ‘open’, when resolved it can be closed. An email can also be marked ‘pending’ if further action is needed, or its progress needs to be tracked.
+The Production inbox is a shared inbox that everyone in the team has access to. We manage this using a collaboration tool called Hiver. Hiver allows us to clearly divide up the workload by assigning emails to ourselves. It also allows us to categorise and track the types of emails we get by adding tags. When an email needs responding to it is ‘open’, when resolved it can be closed. An email can also be marked ‘pending’ if further action is needed, or its progress needs to be tracked. 
 
 The Hiver inbox can be seen on the left sidebar in Gmail. In the drop-down menu, you can view emails assigned to yourself/the rest of the team, as well as emails that have yet to be assigned, and pending emails. 
 
 ![](../.gitbook/assets/screenshot-2020-06-24-at-12.11.31.png)
+
+  
 
 ### **Assigning emails**
 
@@ -46,7 +59,7 @@ If the authors have contacted production directly, you should still reply to aut
 
 ### Adding notes to emails
 
-You can view an email’s history, and any notes that have been added to it \(as well as adding your own\) in the Hiver toolbox when you open an email.
+You can view an email’s history, and any notes that have been added to it \(as well as adding your own\) in the Hiver toolbox when you open an email. If there are particular points to be aware of in relation to an article, it is useful to add and pin this note to help the team see this at a glance.
 
 ![](../.gitbook/assets/captured.gif)
 
@@ -76,6 +89,7 @@ Our tags:
 * Press - for any press-related emails
 * New versions - for any published articles that need to be corrected \(PoA and VoR\)
 * TNQ Correction - for any emails about articles requiring a TNQ correction \(correction for any articles published before November 2015 with our previous typesetters\)
+* Huddle - for flagging any emails that you want to discuss in the daily huddle meeting
 
 ### Exeter prefixes
 
@@ -248,4 +262,16 @@ This email notifies us that articles have been exported from eJP. If they have a
 ![XML notification for articles which will not have a PoA version](../.gitbook/assets/14%20%281%29.png)
 
 
+
+## Changelog
+
+After Exeter has fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent.
+
+### 08/03/2021
+
+#### Changes
+
+* Added information about the huddle tag
+* Added [**Production queries**](managing-the-production-inbox.md#production-queries) section
+* Added to [**Adding notes to emails**](managing-the-production-inbox.md#adding-notes-to-emails) section
 
