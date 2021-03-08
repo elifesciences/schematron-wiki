@@ -10,6 +10,8 @@ Many eLife articles contain maths. It can be rendered inline \(inline with the t
 
 * test
 
+Mathpix Snip
+
 ## Schematron checks
 
 ### Content checks
@@ -294,7 +296,7 @@ At post-author stages, this warning can be ignored.
 
 **Error**: _math contains an mml:merror with 'XXXXXX'. This will almost certainly not render correctly._
 
-**Action**:
+**Action**: 
 
 **disp-formula-child-test-1**
 
