@@ -1035,6 +1035,42 @@ If this has been flagged **after** author proofing then:
 
 **Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¿' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ÿ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to Exeter to fix them all.
 
+**dec-letter-box-test-1**
+
+**Error**: _The text at the top of the decision letter is not correct - 'XXXXXX'. It has to be one of the three paragraphs which are permitted \(see the GitBook page for these paragraphs\)._
+
+**Action**: This message will fire if the boxed text at the top of the decision letter is incorrect. It can be one of three paragraphs depending on whether a public review has been posted and whether there is an acceptance summary.
+
+If a public review has not been posted on the article's preprint then the text should be:
+
+> In the interests of transparency, eLife publishes the most substantive revision requests and the accompanying author responses.
+
+If a public review has been posted, and there is an acceptance summary in the decision letter then it should be:
+
+> Our editorial process produces two outputs: i\) public reviews designed to be posted alongside the preprint for the benefit of readers; ii\) feedback on the manuscript for the authors, including requests for revisions, shown below. We also include an acceptance summary that explains what the editors found interesting or important about the work.
+
+If a public review has been posted, and there is _**not**_ an acceptance summary in the decision letter then it should be:
+
+> Our editorial process produces two outputs: i\) public reviews designed to be posted alongside the preprint for the benefit of readers; ii\) feedback on the manuscript for the authors, including requests for revisions, shown below.
+
+If Exeter notice this error fires, they should contact the eLife production team. The eLife production team should check [**this spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd_STqhP7x0/edit#gid=0) to determine whether a public review has been posted for that article, and use the correct text, as specified above, depending on whether a public review has been posted or not.
+
+**dec-letter-box-test-2**
+
+**Error**: _At the top of the decision letter, the text 'public reviews' must contain an embedded link to Sciety where the public review for this article's preprint is located._
+
+**Action**: This message will fire if the boxed text at the top of the decision letter indicates that there is a public review for that article's preprint, but there is no link to Sciety in the correct part of the text. First check that there isn't already a link to Sciety which is embedded in the wrong text, and if so, then change it so that 'public reviews' has the link embedded. If that's not the case, and the preprint doi is known \(for example if there is a link to the preprint in the text elsewhere\), then the Sciety link can be added, it will be [`https://sciety.org/articles/activity/`](https://sciety.org/articles/activity/) followed by the doi of the preprint. Finally, if the preprint is not known, then the eLife production team should check [**this spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd_STqhP7x0/edit#gid=0) to determine whether a public review has been posted for that article. If there is an entry in there, the add the Sciety link from that spreadsheet. If there is not, then the text at the top of the decision letter should be changed to:
+
+> In the interests of transparency, eLife publishes the most substantive revision requests and the accompanying author responses.
+
+**dec-letter-box-test-3**
+
+**Error**: _At the top of the decision letter, the text 'the preprint' must contain an embedded link to this article's preprint._
+
+**Action**: This message will fire if the boxed text at the top of the decision letter indicates that there is a public review for that article's preprint, but there is no link to the preprint in the correct part of the text. First check that there isn't already a link to the preprint which is embedded in the wrong text, and if so, then change it so that 'the preprint' has the link embedded. If that's not the case, and the preprint link is known, then add it in. Finally, if the preprint is not known, then the eLife production team should check [**this spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd_STqhP7x0/edit#gid=0) to determine what it is. If there is an entry in there, the add the preprint link from that spreadsheet. If there is not, then the text at the top of the decision letter should be changed to:
+
+> In the interests of transparency, eLife publishes the most substantive revision requests and the accompanying author responses.
+
 ### **XML structure checks**
 
 #### dec-letter-reply-test-1
