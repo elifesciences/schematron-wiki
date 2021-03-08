@@ -14,6 +14,19 @@ Where multiple assets are cited in one set of brackets, each citation should be 
 
 ![](../../../.gitbook/assets/screenshot-2021-03-01-at-15.28.17.png)
 
+The table below outlines which assets require in-text citations:
+
+| **Asset** | **Requires in-text citation?** |
+| :--- | :--- |
+| Figures, videos, animations and tables | Yes |
+| Supplementary figures | No |
+| Figure videos | No |
+| Figure/video/animation/table source data or code | No |
+| Source code, source data, supplementary files | No |
+| Equations | No |
+| Chemical structures | No |
+| Schemes | No |
+
 ## What needs to be checked?
 
 Most of the major possible issues with asset citations will be picked up by schematron rules. It is, however, important to be aware of the style rules relating to the following when adding or removing asset citations:
@@ -52,8 +65,6 @@ Occasionally, citations may be intentionally left unlinked to maintain the requi
 
 These checks relate to the content of asset citations. X or XXXXXX refers to quoted text which will change depending on the article.
 
-#### 
-
 #### fig-xref-conformity-1
 
 **Error:** _XXXXXX - figure citation does not contain any numbers which must be incorrect._
@@ -70,7 +81,7 @@ These checks relate to the content of asset citations. X or XXXXXX refers to quo
 <xref ref-type="fig" rid="fig3">Figure 2</xref>
 ```
 
-Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this.
 
 #### fig-xref-conformity-3
 
@@ -82,9 +93,15 @@ Try to add the citation again through Kriya - if this doesn't work, Exeter will 
 <xref ref-type="fig" rid="fig2">Figure 21</xref>
 ```
 
-Check the citation links to the correct figure - if it does not, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this.
 
-This will also fire if the link text refers to part labels, for example 'Figure 4E2'. As long as the citation links to the correct figure \(Figure 4 in this case\), this warning can be ignored. 
+This will also fire if the link text refers to part labels, for example 'Figure 4E2':
+
+```text
+<xref ref-type="fig" rid="fig4">Figure 4E2</xref>
+```
+
+As long as the citation links to the correct figure \(Figure 4 in this case\), this warning can be ignored
 
 #### fig-xref-conformity-4
 
@@ -96,7 +113,20 @@ This will also fire if the link text refers to part labels, for example 'Figure 
 
 **Warning:** _figure citation stands alone, contains the text XXXXXX, and links to a figure supplement, but it does not contain the string 'supplement'. Is it correct? Preceding text - 'XXXXXX'_
 
-**Action:** This warning will fire if a figure citation links to a figure supplement but the citation text doesn't include the word 'supplement'. This is ok to leave if, for example the citation text says 'Figure 1_—_figure supplements 2, 3' and links correctly to both Figure 1_—_figure supplement 2 and Figure 1_—_figure supplement 3. However, if the citation text says 'Figure 1' but links to Figure 1_—_figure supplement 1, this will need to be corrected. Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
+**Action:** This warning will fire if a figure citation links to a figure supplement but the citation text doesn't include the word 'supplement'. This is ok to leave if, for example the citation text says 'Figure 1_—_figure supplements 2, 3' and links correctly to both Figure 1_—_figure supplement 2 and Figure 1_—_figure supplement 3: 
+
+```text
+<xref ref-type="fig" rid="fig1s2">Figure 1-figure supplements 2,</xref><xref 
+ref-type="fig" rid="fig1s3">3</xref>
+```
+
+However, if the citation text says 'Figure 1' but links to Figure 1_—_figure supplement 1, this will need to be corrected:
+
+```text
+<xref ref-type="fig" rid="fig1s1">Figure 1</xref>
+```
+
+Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
 
 #### fig-xref-conformity-6
 
@@ -120,19 +150,23 @@ This will also fire if the link text refers to part labels, for example 'Figure 
 <xref ref-type="video" rid="video2">Video 1</xref>
 ```
 
-Try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this.
 
 #### fig-xref-test-2
 
 **Warning:** _There is no space between citation and the preceding text - XXXXXX - Is this correct?_
 
-**Action:** This warning will fire if there is no space between a figure citation and the text before it, for example 'SeeFigure 2.' Add a space between the citation and the preceding text. However, if the text is 'See Figures 2,3' this is ok to leave.
+**Action:** This warning will fire if there is no space between a figure citation and the text before it, for example 'SeeFigure 2.' Add a space between the citation and the preceding text. If the text is 'See Figures 2,3' this warning will fire for the citation of Figure 3, however this is ok to leave.
 
 #### fig-xref-test-3
 
 **Warning:** _There is no space between citation and the following text - XXXXXX - Is this correct?_
 
-**Action:** This warning will fire if there is no space between a figure citation and the text after it, for example 'See Figure 2for.' Add a space between the citation and the following text.
+**Action:** This warning will fire if there is no space between a figure citation and the text after it, for example 'See Figure 2for.' Add a space between the citation and the following text. This will also fire if part labels \(or sub-part labels e.g. Aii\) aren't captured as part of the citation link, for example:
+
+```text
+<xref ref-type="fig" rid="fig2">Figure 2</xref>A
+```
 
 #### fig-xref-test-4
 
@@ -181,25 +215,25 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 **Error:** _Incomplete citation. Figure citation is followed by text which suggests it should instead be a link to a Figure supplement - XXXXXX'._
 
-**Action:** This error will fire if a figure citation is __followed by text which suggests it should be a link to a figure supplement - for example, if the linked citation text is 'Figure 1' but it is followed by '—figure supplement 1' in plain text. In this example, a citation to Figure 1—figure supplement 1 should replace the citation for Figure 1.
+**Action:** This error will fire if a figure citation is __followed by text which suggests it should be a link to a figure supplement - for example, if the linked citation text is 'Figure 1' but it is followed by '—figure supplement 1', 'figure supplement 1', or ', figure supplement 1' in plain text. In this example, a citation to Figure 1—figure supplement 1 should replace the citation for Figure 1.
 
 #### fig-xref-test-11
 
 **Error:** _Incomplete citation. Figure citation is followed by text which suggests it should instead be a link to a video supplement - XXXXXX'._
 
-**Action:** This error will fire if a figure citation is __followed by text which suggests it should be a link to a figure video - for example, if the linked citation text is 'Figure 1' but it is followed by '—video 1' in plain text. In this example, a citation to Figure 1—video 1 should replace the citation for Figure 1.
+**Action:** This error will fire if a figure citation is __followed by text which suggests it should be a link to a figure video - for example, if the linked citation text is 'Figure 1' but it is followed by '—video 1', 'video 1', or ', video 1' in plain text. In this example, a citation to Figure 1—video 1 should replace the citation for Figure 1.
 
 #### fig-xref-test-12
 
 **Warning:** _Incomplete citation. Figure citation is followed by text which suggests it should instead be a link to source data or code - XXXXXX'._
 
-**Action:** This warning will fire if a figure citation is __followed by text which suggests it should be a link to a source data or code supplement - for example, if the linked citation text is 'Figure 1' but it is followed by '—source code 1' or '—source data 1' in plain text. In this example, a citation to Figure 1—source code 1 or Figure 1—source data 1 should replace the citation for Figure 1.
+**Action:** This warning will fire if a figure citation is __followed by text which suggests it should be a link to a source data or code supplement - for example, if the linked citation text is 'Figure 1' but it is followed by '—source code 1', 'source code 1' or ', source code 1',  \(or source data\) in plain text. In this example, a citation to Figure 1—source code 1 or Figure 1—source data 1 should replace the citation for Figure 1.
 
 #### fig-xref-test-13
 
 **Warning:** _Figure citation is followed by text which suggests it could be an incomplete citation - XXXXXX'. Is this OK?_
 
-**Action:** This warning will fire if a figure citation is __followed by text which suggests the citation is incomplete, for example if it is followed by the word 'supplement', 'video', or 'source'. Check the context to see whether the citation should be updated to a figure supplement, figure video or source data or code. 
+**Action:** This warning will fire if a figure citation is __followed by text which suggests the citation is incomplete, for example if it is followed by the word 'supplement', 'video', or 'source' \(with or without an em dash or comma\). Check the context to see whether the citation should be updated to a figure supplement, figure video or source data or code. 
 
 #### fig-xref-test-14
 
@@ -235,13 +269,18 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 **Warning**: _There is no space between citation and the preceding text - XXXXXX - Is this correct?_
 
-**Action:** This warning will fire if there is no space between a video citation and the text before it, for example 'SeeVideo 2.' Add a space between the citation and the preceding text. However, if the text is 'See Videos 2,3' this is ok to leave.
+**Action:** This warning will fire if there is no space between a video citation and the text before it, for example 'SeeVideo 2.' Add a space between the citation and the preceding text. If the text is 'See Videos 2,3' this warning will for for the citation of Video 3. As long as both Videos 2 and 3 are linked correctly, this is ok to leave.
+
+```text
+See <xref ref-type="video" rid="video3">Videos 2,</xref><xref ref-type="video" 
+rid="video3">3,</xref>.
+```
 
 #### vid-xref-test-3
 
 **Warning**: _There is no space between citation and the following text - XXXXXX - Is this correct?_
 
-**Action:** This warning will fire if there is no space between a _video_ citation and the text after it, for example 'See Video 2for.' Add a space between the citation and the following text.
+**Action:** This warning will fire if there is no space between a video citation and the text after it, for example 'See Video 2for.' Add a space between the citation and the following text.
 
 #### vid-xref-test-4
 
@@ -322,11 +361,15 @@ In these cases, the citation should be updated so it links to the appropriate fi
 
 **Action**: This will fire at all stages if the text in a main text table citation does not contain the number of the label that the table directs to, for example if **Table 2**, links to Table 3. 
 
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this.
+
 #### table-xref-conformity-4
 
 **Warning**: _'XXXXXXX' - Citation content does not match what it directs to._
 
 **Action**: This will fire at all stages if the text in an appendix table citation does not contain the number of the label that the table directs to, for example if **Appendix 1–table 1**, links to Appendix 1–table 2. 
+
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this.
 
 #### table-xref-test-1
 
@@ -401,7 +444,7 @@ For example, if the following text is in the caption of Table 2:
 <xref ref-type="supplementary-material" rid="supp1">Supplementary file 2</xref>
 ```
 
-Check the original submission to see which file should be referred to and correct accordingly - try deleting and re-adding the correct citation but if this doesn't work, Exeter will need to update. 
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this. 
 
 #### supp-file-xref-conformity-5
 
@@ -417,7 +460,7 @@ Note, supp-file-xref-conformity-4 would not fire in this case, because the numbe
 
 This warning will also fire if the link text refers to part labels, for example 'Supplementary file 4 - table 2'. As long as the citation links to the correct file \(Supplementary file 4 in this case\), this warning can be ignored. 
 
-Check the original submission to see which file should be referred to and correct accordingly if needed - try deleting and re-adding the correct citation but if this doesn't work, Exeter will need to update. 
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this. 
 
 #### supp-file-xref-test-1
 
@@ -481,6 +524,8 @@ In these cases, the citation should be updated so it links to the appropriate fi
 
 **Action**: This will fire at all stages if the text in an equation citation does not contain the number of the equation that the citation directs to, for example if **Equation 2**, links to Equation 3. 
 
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this.
+
 #### equ-xref-conformity-**3**
 
 **Error**: _XXXXXX - Equation citation appears to be a reference to an equation from a different paper, and therefore must be unlinked._
@@ -492,12 +537,6 @@ In these cases, the citation should be updated so it links to the appropriate fi
 **Warning**: _citation is preceded by 'XXXXXX'. The 'cf.' is unnecessary and should be removed._
 
 **Action:** This warning will fire if a citation of an equation is preceded by 'cf.', which means 'compare' and is sometimes used to refer the reader to other material for comparison. The 'cf.' can be deleted as it is not eLife's house style to use this. 
-
-#### supplementary-material-xref-target-test
-
-**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
-
-**Action**: This error will fire if a reference citation `<xref>` element \(e.g. one with the attribute `ref-type="bibr"`\) does not point to a reference but instead to some other element such as a figure. So, for example, a figure citation with the type "bibr" is not allowed: `<xref ref-type="bibr" rid="fig1">Figure 1</xref>`. The tagging should be corrected to use the correct ref-type \(`ref-type="fig"` in this example\).
 
 #### supplementalfigure-presence
 
@@ -549,11 +588,11 @@ If the authors are just generically referring to 'supplementary tables', for exa
 
 **Error**: _Empty xref in the body is not allowed. Its position here in the text - "XXXXXX"._
 
-**Action:** Unsure. 
+**Action:** This will fire if there are any citation links within the main body of the text without citation text \(essentially rendering them invisible\). Exeter will need to correct this. 
 
 #### semi-colon-xref-test
 
-**Warning**: _xref ends with semi-colon - 'XXXXXX' - which is almost definitely incorrect. The semi-colon should very likely be placed after the link as 'normal' text._
+**Error**: _xref ends with semi-colon - 'XXXXXX' - which is almost definitely incorrect. The semi-colon should very likely be placed after the link as 'normal' text._
 
 **Action:** This will fire if a citation ends with a semi-colon:
 
@@ -562,7 +601,7 @@ If the authors are just generically referring to 'supplementary tables', for exa
 Figure 4</xref></p>
 ```
 
-This will almost always be incorrect as the semi-colon should not be included in the link text. Remove the semi-colon from the link text and make sure it is marked as plain text. 
+This is incorrect as the semi-colon should not be included in the link text. Remove the semi-colon from the link text and make sure it is marked as plain text. 
 
 ### Structure checks
 
@@ -626,5 +665,75 @@ The bold tags will need to be removed in this case.
 
 **Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to a box, then the `ref-type` attribute value must be 'box'. If the link is meant to point to something else, which is not a figure, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
 
-## 
+#### supplementary-material-xref-target-test
+
+**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
+
+**Action**: This error will fire if a reference citation `<xref>` element \(e.g. one with the attribute `ref-type="bibr"`\) does not point to a reference but instead to some other element such as a figure. So, for example, a figure citation with the type "bibr" is not allowed: `<xref ref-type="bibr" rid="fig1">Figure 1</xref>`. The tagging should be corrected to use the correct ref-type \(`ref-type="fig"` in this example\).
+
+## XML structure
+
+Figure citation
+
+```markup
+<xref ref-type="fig" rid="fig4">Figure 4E2</xref>
+```
+
+Figure supplement citation
+
+```markup
+<xref ref-type="fig" rid="fig1s1">Figure 1—figure supplement 1</xref>
+```
+
+Video citation
+
+```markup
+<xref ref-type="video" rid="video1">Video 1</xref>
+```
+
+Table citation
+
+```markup
+<xref ref-type="table" rid="table1">Table 1</xref>
+```
+
+Asset source data or code citation
+
+```markup
+<xref ref-type="supplementary-material" rid="video1sd1">Video 1—source data 1</xref>
+```
+
+```markup
+<xref ref-type="supplementary-material" rid="table1sc1">Table 1—source code 1</xref>
+```
+
+```markup
+<xref ref-type="supplementary-material" rid="fig1sc1">Figure 1—source code 1</xref>
+```
+
+Equation citation
+
+```markup
+<xref ref-type="disp-formula">Equations 1 and 2</xref>
+```
+
+Source code citation
+
+```markup
+<xref ref-type="supplementary-material" rid="code1">Source code 1</xref>
+```
+
+Source data citation
+
+```markup
+<xref ref-type="supplementary-material" rid="data1">Source data 1</xref>
+```
+
+Supplementary file citation
+
+```markup
+ <xref ref-type="supplementary-material" rid="supp1">Supplementary file 1</xref>
+```
+
+
 
