@@ -216,13 +216,13 @@ At post-author stages, this warning can be ignored.
 
 **Error**: _math \(XXXXXX element\) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. If it's not a mistake, and the background colour is deliberate, then this will need to removed._
 
-**Action**:
+**Action**: This warning will fire at post-author stages for maths in the text, which has background colour formatting \(similar to highlighting\). eLife do not permit this for text, and only permit certain colours for text \(red, blue, or purple\). Exeter should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP, and if it isn't a processing error, then they should check the response from an author if an author query was added relating to this at pre-editing. If there was no author query, they should flag it to the eLife Production staff, who at Pub Review stage should contact the authors, letting them know about the constraints and asking them how they would like to proceed.
 
 **final-mathbackground-test-2**
 
 **Error**: _math \(XXXXXX element\) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. If it's not a mistake, and the background colour is deliberate, then either the background colour will need to added to the table cell \(rather than the maths\), or it needs to be removed._
 
-**Action**:
+**Action**: This warning will fire at pre-author stages for maths in a table, which has background colour formatting \(similar to highlighting\). eLife do not permit background colouring for text, and only permit certain colours for text itself \(red, blue, or purple\), and [**certain colours for table cells**](allowed-assets/tables.md#allowed-colours-in-tables). Exeter should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP. If the colours were present for the table cell\(s\) in the original manuscript then that formatting should be removed from the equation and added to the cell; then the steps required for colours in tables cells should be followed, as directed by the Schematron messages after re-validating \(see also the [**Tables page**](allowed-assets/tables.md)\). If, in the original manuscript, there was background colour for the maths, then it should be changed as colour for the text of the maths. 
 
 **mtext-test-1**
 
@@ -240,15 +240,17 @@ At post-author stages, this warning can be ignored.
 
 **Error**: _Duplicated display formula labels - XXXXXX is present more than once in the same appendix._
 
-**Action**:
+**Action**: This will fire at all stages if two or more equations in a single appendix have the same label. Exeter should query the eLife Production team, who will determine the best course of action. If this is an obvious typo, then the equations can be renumbered so that they are sequential. Note that we can have equations 1a, 1b and so on, so it may be appropriate to renumber in that fashion. If the authors are referring to an equation from a different paper \(for example Equation 1 from Smith et al. and there is also an equation 1 from the authors\), then the label in the equation taken from the other paper can be removed, and references to it in the text can be updated to reflect that \(any citations for Equation 1 changed to Equation 1 from Smith et al., 2020\) etc. An author query should be added so that the authors are aware of the change and can suggest an alternative if desired:
+
+* Please note that we have re-labelled/removed the label from this equation as we do not permit more than one equation with the same label within an appendix.
 
 **equation-label-conformance-2**
 
 **Error**: _Duplicated display formula labels - XXXXXX is present more than once in the main body of the text._
 
-**Action**:
+**Action**: This will fire at all stages if two or more equations in a single appendix have the same label. Exeter should query the eLife Production team, who will determine the best course of action. If this is an obvious typo, then the equations can be renumbered so that they are sequential. Note that we can have equations 1a, 1b and so on, so it may be appropriate to renumber in that fashion. If the authors are referring to an equation from a different paper \(for example Equation 1 from Smith et al. and there is also an equation 1 from the authors\), then the label in the equation taken from the other paper can be removed, and references to it in the text can be updated to reflect that \(any citations for Equation 1 changed to Equation 1 from Smith et al., 2020\) etc. An author query should be added so that the authors are aware of the change and can suggest an alternative if desired:
 
-
+* Please note that we have re-labelled/removed the label from this equation as we do not permit more than one equation with the same label within the main body of the article.
 
 ### XML structure checks
 
