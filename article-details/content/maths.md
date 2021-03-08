@@ -314,25 +314,25 @@ At post-author stages, this warning can be ignored.
 
 **Error**: _mml:math @id in disp-formula must be in the format 'm0'. XXXXXX does not conform to this._
 
-**Action**:
+**Action**: This error will fire at any stage __if an mml:math element in the main body or an appendix has an id which is not in the format `m0`. The Exeter support team will need to fix this.
 
 **sub-mml-math-id-test**
 
 **Error**: _mml:math @id in disp-formula must be in the format 'sa0m0'. XXXXXX does not conform to this._
 
-**Action**:
+**Action**: This error will fire at any stage __if an mml:math element within a sub-article which is not in the format `sa0m0`. The Exeter support team will need to fix this.
 
 **disp-formula-id-test**
 
 **Error**: _disp-formula @id must be in the format 'equ0'._
 
-**Action**:
+**Action**: This error will fire at any stage __if an disp-formula element in the main body or an appendix has an id which is not in the format `equ0`. The Exeter support team will need to fix this.
 
 **sub-disp-formula-id-test**
 
 **Error**: _disp-formula @id must be in the format 'sa0equ0' when in a sub-article. XXXXXX does not conform to this._
 
-**Action**:
+**Action**: This error will fire at any stage __if a disp-formula element within a sub-article which is not in the format `sa0equ0`. The Exeter support team will need to fix this.
 
 
 
