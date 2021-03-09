@@ -107,7 +107,17 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 #### Decorations and notation
 
+`\overline{x+y}=\underline{x+y}` $$\overline{x+y}=\underline{x+y}$$
 
+`\widehat{x+y} = \widetilde{x+y}` $$\widehat{x+y} = \widetilde{x+y}$$
+
+`\overbrace{x+y}=\underbrace{x+y}` $$\overbrace{x+y}=\underbrace{x+y}$$
+
+`\dot{x} + \ddot{y} + \ddddot{z} + \bar{\omega}` $$\dot{x}+\ddot{y}+\ddddot{z}+\bar{\omega}$$
+
+`\overbrace{x}^{y} = \underbrace{x}_{y}` $$\overbrace{x}^{y} = \underbrace{x}_{y}$$
+
+`\sum{x} = \sum\limits_{x}{y} = \sum\limits_{i=0}^{n}{i}` $$\sum{x} = \sum\limits_{x}{y} = \sum\limits_{i=0}^{n}{i}$$
 
 #### Integrals
 
