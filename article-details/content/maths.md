@@ -54,7 +54,7 @@ If Exeter are unsure, they can query the eLife production team via slack for ins
 
 **Warning**: _mml:math only contains numbers and/or operators - 'XXXXXX'. Is it necessary for this to be set as a formula, or can it be captured with as normal text instead?_
 
-**Action**:
+**Action**: This warning will fire at all stages if there is maths which only contains numbers and/or operators \(such as +, ±, ~, × etc.\). At pre-author stages, unless these symbols or numbers are used in an inline formula and referring to particular parts of a display formula, then they can be changed to plain text. At post-author stages, if the authors have deliberately added these as equations, then they should be left as equations.  Otherwise they can be changed to plain text.
 
 **math-test-3**
 
@@ -124,19 +124,31 @@ Typically, if this character has been used to communicate micro, such as in 'μm
 
 **Warning**: _mml:math only contains 'XXXXXX', which is likely unnecessary. Should this be captured as normal text instead?_
 
-**Action**: 
+**Action**: This warning will fire at all stages if there is maths which only contains numbers and/or operators \(such as +, ±, ~, × etc.\). At pre-author stages, unless these symbols or numbers are used in an inline formula and referring to particular parts of a display formula, then they can be changed to plain text. At post-author stages, if the authors have deliberately added these as equations, then they should be left as equations.  Otherwise they can be changed to plain text.
 
 **math-test-15**
 
 **Warning**: _mml:math seems to only contain the formula for a cation - 'XXXXXX' - which is likely unnecessary. Should this be captured as normal text instead?_
 
-**Action**:
+**Action**: This warning will fire at all stages if there is an equation which only contains a cation, such as
+
+$$
+Ca^{+2}
+$$
+
+At pre-author stages, unless these symbols or numbers are used in an inline formula and referring to particular parts of a display formula, then they can be changed to plain text. At post-author stages, if the authors have deliberately added these as equations, then they should be left as equations. Otherwise they can be changed to plain text.
 
 **math-test-16**
 
 **Warning**: _mml:math seems to only contain the formula for an anion - 'XXXXXX' - which is likely unnecessary. Should this be captured as normal text instead?_
 
-**Action**:
+**Action**: This warning will fire at all stages if there is an equation which only contains an anion, such as
+
+$$
+CI^{-}
+$$
+
+At pre-author stages, unless the anion is used in an inline formula and referring in the text to particular parts of a display formula, then they can be changed to plain text. At post-author stages, if the authors have deliberately added these as equations, then they should be left as equations. Otherwise they can be changed to plain text.
 
 **math-test-17**
 
@@ -230,13 +242,25 @@ At post-author stages, this warning can be ignored.
 
 **Warning**: _math \(XXXXXX element\) contains 'XXXXXX' which looks suspiciously like LaTeX markup. Is it correct? Or is there missing content or content which has been processed incompletely?_
 
-**Action**:
+**Action**: This warning will fire in cases where an equation contains what may be LaTeX markup, meaning tat the maths may not be processed correctly. Check against the original manuscript to determine what the equation is supposed to look like, and compare. It may be the case that the equation appears OK in Kriya and in the PDF, but it may still be incorrect on the eLife website. In most cases, this warning should not be ignored. Only in cases where the authors have used rather strange notation should this be ignored. It will fire for text content in an equation containing a backslash \(`\`\). Here is an example of when it needs to be fixed:
+
+![](../../.gitbook/assets/screenshot-2021-03-09-at-12.02.53.png)
+
+Taken from [**https://elifesciences.org/articles/51207**](https://elifesciences.org/articles/51207). In this case, when comparing against the original manuscript, it's clear that `\Updelta` simply needs to be removed. But in other cases the LaTeX notation that the authors used may not be supported, and alternative LaTeX notation should be used to render the desired character\(s\). Tools such as Mathpix snip may be useful here since they will use relatively standard LaTeX notation \(where possible\).
 
 **inline-formula-length-test-1**
 
 **Warning**: _Inline formula containing 'XXXXXX' is particularly long. Consider either splitting this up into multiple equations or capturing this as a display equation, as the display on Continuum will likely be strange._
 
-**Action**:
+**Action**: This warning will fire at all stages for an inline formula which does not contain a table and is more than 90 characters long. Such length formulas will need to br wrapped over multiple lines in the HTML on the eLife website, which will affect the readability within the text. For example from **https://elifesciences.org/articles/56349**:
+
+![](../../.gitbook/assets/screenshot-2021-03-09-at-12.10.27.png)
+
+At pre-author stages, an author query should be added:
+
+* This inline formula is lengthy enough that it will run over two lines in the HTML, which will make comprehension more difficult. We suggest that this is captured as a display equation instead. Please confirm whether that is acceptable.
+
+At post-author stages, if the above query has been added, then action should be taken depending on the authors response. If the above query was not added, then eLife Production should contact the authors at Pub Review with the same query.
 
 **equation-label-conformance-1**
 
