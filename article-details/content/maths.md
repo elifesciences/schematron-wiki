@@ -290,7 +290,7 @@ At post-author stages, if the above query has been added, then action should be 
 
 **Warning**: _In the vast majority of cases disp-formula should be a child of p. XXXXXX is a child of XXXXXX. Is that correct?_
 
-**Action**: This warning will fire at all stages if an display formula is not placed as a child of a `<p>` element. The only case where this can be ignored, is when a display formula appears as the first piece of content within a section, in which case it will be a child of `<sec>` \(it cannot be placed as the first item in a paragraph, see [**disp-formula-test-4**](maths.md#disp-formula-test-4) below\).
+**Action**: This warning will fire at all stages if an display formula is not placed as a child of a `<p>` element. The only case where this can be ignored \(and note that these are very rare occurrences\), is when a display formula appears as the first piece of content within a section, in which case it will be a child of `<sec>` \(it cannot be placed as the first item in a paragraph, see [**disp-formula-test-4**](maths.md#disp-formula-test-4) below\). The Exeter support team will likely need to correct this.
 
 #### **disp-formula-test-4**
 
