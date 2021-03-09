@@ -42,7 +42,7 @@ Equations should not be provided as images. If an author manuscript contains mat
 
 If you are unfamiliar with LaTeX notation, then you can use a tool such as [**Mathpix snip**](https://mathpix.com/) to screenshot a picture of the maths, it will then provide you with the latex notation. Note that this is free for up to 50 pictures a month.
 
-## Simple LaTeX cheatsheet
+## LaTeX cheatsheet
 
 Below contains some simple LaTeX instructions which are standard and included in Kriya \(as well as most packages\).
 
@@ -53,6 +53,10 @@ Below contains some simple LaTeX instructions which are standard and included in
 `x^{superscript-here}` $$x^{superscript-here}$$
 
 `x^{superscript-here}_{subscript-here}`  $$x^{superscript-here}_{subscript-here}$$
+
+`\overset{x}{y} = \underset{x}{y}`  $$\overset{x}{y} = \underset{x}{y}$$
+
+`\overset{x}{\underset{z}{y}}` $$\overset{x}{\underset{y}{z}} $$
 
 #### fractions
 
