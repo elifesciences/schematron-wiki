@@ -157,11 +157,11 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 `\mathrm{roman\,text}` $$\mathrm{roman\,text}$$
 
-`\mathrm{roma-text\, \mathit{use\> mathit\> to\> escape\> parent\> formatting}}` $$\mathrm{roman\,text\, \mathit{use\> mathit\> to\> escape\> parent\> formatting}}$$
+`\mathrm{roman\,text\, \mathit{use\> mathit\> to\> escape\> parent\> formatting}\> roman\, text}` $$\mathrm{roman\,text\, \mathit{use\> mathit\> to\> escape\> parent\> formatting}\> roman\, text}$$
 
-`\mathscr{ONLY\enspace CAPITAL\enspace LETTERS}` $$\mathscr{ONLY\enspace CAPITAL\enspace LETTERS}$$
+`\mathscr{ONLY\quad CAPITAL\quad LETTERS}` $$\mathscr{ONLY\quad CAPITAL\quad LETTERS}$$
 
-`\mathbb{BLACKBOARD\enspace BOLD}` $$\mathbb{BLACKBOARD\enspace BOLD}$$
+`\mathbb{ONLY\quad CAPITAL\quad LETTERS}` $$\mathbb{ONLY\quad CAPITAL\quad LETTERS}$$
 
 `\mathfrak{AaBbCcDdEe}` $$\mathfrak{AaBbCcDdEe}$$
 
