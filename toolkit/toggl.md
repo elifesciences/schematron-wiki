@@ -140,7 +140,7 @@ The following is a full list of projects and the associated tags currently in us
 
 **Associated tags**:
 
-* New version
+* New version - _where this is carried out for a new version, silent correction or official correction to an article_
 
 This is used to track time spent checking articles on the journal preview site. The description should be the five-digit article number. Where the check is being carried out on a new or corrected version of an article, the **New version** tag should be applied.
 
@@ -208,10 +208,10 @@ This is used to track time spent on GitLab tickets opened with the production ve
 
 **Recommended description**:
 
-* Choosing homepage image - _when_ _selecting image to be used_
-* Changing homepage image - _when_ _updating the website_
+* Choosing homepage image
+* Changing homepage image
 
-This is for recording time spent on updating the eLife homepage image. It covers both choosing the homepage from available options \(in which case the description entered should be **Choosing homepage image**\) and changing the image on the homepage \(in which case, the description should be **Changing homepage image**\).
+This is for recording time spent on updating the eLife homepage image. It covers both choosing the homepage from available options \(in which case the description entered should be 'Choosing homepage image'\) and changing the image on the homepage \(in which case, the description should be 'Changing homepage image'\).
 
 ### Kriya - dashboard
 
@@ -226,7 +226,7 @@ To help monitor the performance of the Kriya proofing system, it is helpful to t
 
 ### Libero Editor
 
-This is used to track time spent working on the Editor project, assisting with design, development and testing of a new article proofing system.
+This is used to track time spent working on the Libero Editor project - that is, assisting with design, development and testing of a new article proofing system.
 
 ### Meetings
 
@@ -245,7 +245,7 @@ This is used to track time spent in meetings \(which can add up quite a lot on s
 * Article number \(if applicable\)
 * Otherwise, the description of the task
 
-This category is used for any task not covered by the other projects.
+This category is used for any task not covered by the other projects. If a miscelaneous task is used often enough, it may be considered for being promoted to a project label in Toggl.
 
 ![](../.gitbook/assets/screen-shot-2021-03-09-at-12.15.02.png)
 
@@ -277,7 +277,7 @@ This task tracks time spent on the 'Publisher Check' stage in the proofing syste
 
 **Associated tags**:
 
-* New version
+* New version - _where this is carried out for a new version, silent correction or official correction to an article_
 
 This task tracks time spent on the 'Publisher Review' stage in the proofing system.  This should be tracked from when the user begins looking at the article \(either by opening the article or checking the notes/emails on it\) to when they stop working on it, by either logging out of the proof or signing it off to the next stage. Where the check is being carried out on a new or corrected version of an article, the **New version** tag should be applied.
 
