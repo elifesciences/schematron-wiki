@@ -125,15 +125,15 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 #### Integrals
 
-`\oint{x}` $$\oint{x}$$
-
-`\oint\limits_{\oint{x} }^{y}{z}` $$\oint\limits_{\oint{x} }^{y}{z}$$  
-
 `\int{\rho}` $$\int{\rho}$$
 
 `\int\limits_{^{x}{y}}^{z}{\Delta}` $$\int\limits_{^{x}{y}}^{z}{\Delta}$$
 
 `\int_{x=1}^{n}{x}\;dx` $$\int_{x=1}^{n}{x}\;dx $$
+
+`\oint{x}` $$\oint{x}$$
+
+`\oint\limits_{\oint{x} }^{y}{z}` $$\oint\limits_{\oint{x} }^{y}{z}$$  
 
 #### Spacing
 
