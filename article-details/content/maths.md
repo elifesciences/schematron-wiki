@@ -38,7 +38,72 @@ Equations should not be provided as images. If an author manuscript contains mat
 
 
 
-Mathpix Snip
+## Mathpix Snip
+
+## Simple LaTeX cheatsheet
+
+#### Subscript and superscript
+
+`x_{subscript-here}` $$x_{subscript=here}$$
+
+`x^{superscript-here}` $$x^{superscript-here}$$
+
+
+
+#### fractions
+
+`\frac{numerator}{denominator}` $$\frac{numerator}{denominator}$$
+
+#### Roots
+
+`\sqrt{2} = \sqrt[n]{3}` $$\sqrt{2} = \sqrt[n]{3}$$
+
+#### Greek
+
+* `\alpha` $$\alpha$$
+* `\beta` $$\beta$$
+* `\gamma` $$\gamma$$
+* `\Gamma` $$\Gamma$$
+* `\delta` $$\delta$$
+* `\Delta` $$\Delta$$
+* `\epsilon` $$\epsilon$$
+* `\varepsilon` $$\varepsilon$$
+* `\zeta` $$\zeta$$
+* `\eta` $$\eta$$
+* `\theta` $$\theta$$
+* `\Theta` $$\Theta$$
+* `\vartheta` $$\vartheta$$
+* `\iota` $$\iota$$
+* `\kappa` $$\kappa$$
+* `\lambda` $$\lambda$$
+* `\Lambda` $$\Lambda$$
+* `\mu` $$\mu$$
+* `\nu` $$\nu$$
+* `\xi` $$\xi$$
+* `\Xi` $$\Xi$$
+* `\pi` $$\pi$$
+* `\Pi` $$\Pi$$
+* `\varpi` $$\varpi$$
+* `\rho` $$\rho$$
+* `\varrho` $$\varrho$$
+* `\sigma` $$\sigma$$
+* `\Sigma` $$\Sigma$$
+* `\varsigma` $$\varsigma$$
+* `\tau` $$\tau$$
+* `\upsilon` $$\upsilon$$
+* `\Upsilon` $$\Upsilon$$
+* `\phi` $$\phi$$
+* `\Phi` $$\Phi$$
+* `\varphi` $$\varphi$$
+* `\chi` $$\chi$$
+* `\psi` $$\psi$$
+* `\Psi` $$\Psi$$
+* `\omega` $$\omega$$
+* `\Omega` $$\Omega$$
+
+#### Decorations and notation
+
+
 
 ## Schematron checks
 
