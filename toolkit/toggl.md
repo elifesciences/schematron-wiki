@@ -8,7 +8,7 @@ description: Task tracking with Toggl
 
 [**Toggl track**](https://toggl.com/) is a time-tracking application that the eLife production team uses to monitor how much time is spent on different tasks. This information will be used to monitor the effect of changes to workflows, to track the distribution of work compared to article volumes, to double-check the team has time to work on projects outside the day-to-day tasks, and so on.
 
-The Toggl interface works via self-reporting, with the user required to start and stop a timer like a stop-watch. The user can add a manual description of the task, assign it to a preset ‘project’ and add one or more preset tags.
+The Toggl interface works via self-reporting, with the user required to start and stop the timer. The user can add a manual description of the task, assign it to a preset ‘project’ and add one or more preset tags.
 
 ![Example task in Toggl](../.gitbook/assets/screen-shot-2021-02-23-at-15.15.36.png)
 
@@ -30,7 +30,6 @@ The following is a full list of projects and the associated tags currently in us
   <thead>
     <tr>
       <th style="text-align:left">Project</th>
-      <th style="text-align:left">What&apos;s it for?</th>
       <th style="text-align:left">Associated tags</th>
     </tr>
   </thead>
@@ -38,118 +37,97 @@ The following is a full list of projects and the associated tags currently in us
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#continuum-checks"><b>Continuum Checks</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">Tracking pre-publication checks on Continuum, equates to &apos;preview&apos;
-        in TaskAdept</td>
-        <td style="text-align:left">New version</td>
+      style="text-align:left">New version</td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#emails"><b>Emails</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">Tracking time spent on emails</td>
-        <td style="text-align:left">
-          <p>Emails: author details</p>
-          <p>Emails: datasets</p>
-          <p>Emails: figures</p>
-          <p>Emails: math</p>
-          <p>Emails: morning</p>
-          <p>Emails: press</p>
-          <p>Emails: proof access</p>
-          <p>Emails: proof edits</p>
-          <p>Emails: proof return delay</p>
-          <p>Emails: Pub date query</p>
-          <p>Emails: reproducibility</p>
-          <p>Emails: software</p>
-          <p>Emails: striking images</p>
-          <p>Emails: typesetting</p>
-          <p>New version</p>
+      style="text-align:left">
+        <p>Emails: author details</p>
+        <p>Emails: datasets</p>
+        <p>Emails: figures</p>
+        <p>Emails: math</p>
+        <p>Emails: morning</p>
+        <p>Emails: press</p>
+        <p>Emails: proof access</p>
+        <p>Emails: proof edits</p>
+        <p>Emails: proof return delay</p>
+        <p>Emails: Pub date query</p>
+        <p>Emails: reproducibility</p>
+        <p>Emails: software</p>
+        <p>Emails: striking images</p>
+        <p>Emails: typesetting</p>
+        <p>New version</p>
         </td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#gitbook"><b>GitBook</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">Tracking time spent on the production Gitbook</td>
-        <td style="text-align:left">
-          <p>Reviewing</p>
-          <p>Updating</p>
-          <p>Writing</p>
+      style="text-align:left">
+        <p>Reviewing</p>
+        <p>Updating</p>
+        <p>Writing</p>
         </td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#gitlab"><b>GitLab</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">Tracking time spent on GitLab tickets e.g. production vendor bugs</td>
-        <td
-        style="text-align:left"></td>
+      style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#home-page"><b>Home page</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">Tracking time spent updating the home-page</td>
-        <td style="text-align:left"></td>
+      style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#kriya-dashboard"><b>Kriya - dashboard</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">Tracking time spent on the Kriya dashboard, refreshing, assigning articles
-        etc.</td>
-        <td style="text-align:left"></td>
+      style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#libero-editor"><b>Libero Editor</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">Tracking time spent working on the Libero Editor project</td>
-        <td style="text-align:left"></td>
+      style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#meetings"><b>Meetings</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">Tracking time spent in meeting, huddles etc</td>
-        <td style="text-align:left"></td>
+      style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#misc"><b>Misc</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">Tracking time spent on tasks not covered in other projects</td>
-        <td style="text-align:left"></td>
+      style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#poa"><b>PoA</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">Tracking time spent working on Publish on Accept content</td>
-        <td style="text-align:left">New version</td>
+      style="text-align:left">New version</td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#pub-check"><b>Pub Check</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">Tracking pre-author checks in Kriya, article number in description</td>
-        <td
-        style="text-align:left"></td>
+      style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#pub-review"><b>Pub Review</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">Tracking post-author checks in Kriya, article number in description</td>
-        <td
-        style="text-align:left">New version</td>
+      style="text-align:left">New version</td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#schematron"><b>Schematron</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">Tracking time spent working on the schematron tests</td>
-        <td style="text-align:left"></td>
+      style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#slack"><b>Slack</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">Tracking time spent in Slack, assisting others, asking questions,</td>
-        <td
-        style="text-align:left">New version</td>
+      style="text-align:left">New version</td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#training"><b>Training</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left">Tracking time spent training other members of the team</td>
-        <td style="text-align:left"></td>
+      style="text-align:left"></td>
     </tr>
   </tbody>
 </table>
@@ -191,7 +169,7 @@ This is used to track time spent checking articles on the journal preview site. 
 * Emails: reproducibility
 * Emails: software - _use for questions regarding software_
 * Emails: striking images - _use for emails providing striking images and uploading the images to the system_
-* Emails: typesetting - _use for queries from the content processors and correspondent with the authors to resolve the issues at the pre-editing stage_
+* Emails: typesetting - _use for queries from the content processors and correspondence with the authors to resolve issues at the pre-editing stage_
 * New version - _use for emails that trigger or are related to an official correction, new version or silent correction of an article_
 
 This project is used for time spent working on emails and managing the production inbox. There are a number of tags and shared descriptions that apply to this task. However, general assignment and filing of emails can be recorded without any description.
