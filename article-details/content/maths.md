@@ -16,6 +16,18 @@ The equation editor in Kriya uses LaTeX notation.
 * The labels for display equations are consistent \(see [**display equation labelling**](maths.md#display-equation-labelling)\).
 * Equations appear the same in the HTML and in the PDF.
 
+## Where are equations allowed
+
+Equations can be captured in two ways, inline or as a display equation. Inline equations can only appear inline within the text, so as part of a paragraph, list item, or table cell. Display equations look distinct from the text, and in rare cases can be captured directly under a section, but in many cases they are captured in the same way as inline equations, but simply rendered with more prominence than inline equations.
+
+## What can equations contain
+
+Display equations can \(but don't have to\) have a label. Inline equations cannot have a label. They both must contain some math markup, MathML. 
+
+Equations should not be provided as images. If an author manuscript contains maths captured as images, either Exeter need to typeset the maths themselves, or eLife production staff need to go back to authors and ask them to provide it in a machine readable format.
+
+
+
 
 
 ## Maths as plain text
