@@ -10,7 +10,13 @@ The equation editor in Kriya uses LaTeX notation.
 
 ## What needs to be checked?
 
-* test
+* There are no errors in equations \(which will be flagged by the Schematron\).
+* Font use is consistent in the text. If a symbol is used in a display equation, and then referenced in a paragraph \(typically defining or expounding what that symbol represents\), that symbol should be tagged as an inline equation so that the fonts match, and so that the reader can easily discern that it is the same symbol from the equation.
+* There are no unnecessary equations in the text for content which should be captured as plain text \(but err on the side of caution\).
+* The labels for display equations are consistent \(see display equation labelling\).
+* Equations appear the same in the HTML and in the PDF.
+
+
 
 Mathpix Snip
 
