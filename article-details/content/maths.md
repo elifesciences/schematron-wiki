@@ -44,7 +44,7 @@ If you are unfamiliar with LaTeX notation, then you can use a tool such as [**Ma
 
 ## LaTeX cheatsheet
 
-Below contains some simple LaTeX instructions which are standard and included in Kriya \(as well as most packages\).
+Below contains some simple LaTeX instructions which are standard and included in Kriya \(as well as most packages\). It is by no means an exhaustive list. Kriya's equation editor has instructions on how to capture certain markup that is helpful. 
 
 #### Subscript and superscript
 
