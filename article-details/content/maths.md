@@ -6,6 +6,8 @@ description: Mathematical content in eLife articles
 
 Many eLife articles contain maths. It can be rendered inline \(inline with the text in a paragraph/list item/table cell or similar\) or as display equations. eLife captures math content either as plain text \(for simple maths\) or as [**MathML**](https://en.wikipedia.org/wiki/MathML) which is a mathematical markup language. Similarly, in their original files, authors can capture maths in varying ways. Either as plain text, as MathML \(by using an equation editor in Word or similar word processors\) or in [**LaTeX**](https://en.wikipedia.org/wiki/LaTeX).
 
+The equation editor in Kriya uses LaTeX notation.
+
 ## What needs to be checked?
 
 * test
@@ -296,7 +298,7 @@ At post-author stages, if the above query has been added, then action should be 
 
 **Error**: _disp-formula cannot be placed as the first child of a p element with no content before it \(ie. &lt;disp-formula ...\). Either capture it at the end of the previous paragraph or capture it as a child of XXXXXX_
 
-**Action**:
+**Action**: This error will fire at all stages when a `<disp-formula>` element has been placed at the start of a `<p>` element \(with no text or other elements before it\). This tagging will cause the article to fail on Continuum. If the display formula is the first piece of content in a section, or directly placed after a table or figure \(for example\), then it should be captured as a child of `<sec>`. If it comes after a paragraph of text, then it should be placed at the end of that `<p>` tag.
 
 #### **inline-formula-test-1**
 
@@ -320,19 +322,23 @@ At post-author stages, if the above query has been added, then action should be 
 
 **Error**: _math contains an mml:merror with 'XXXXXX'. This will almost certainly not render correctly._
 
-**Action**: 
+**Action**: This error will fire at all stages if a mathML element called `merror` is present. This means that the equation will not render correctly in the HTML on the eLife website. Here is an example from [**39441**](https://elifesciences.org/articles/39441/figures#fig4):
+
+![](../../.gitbook/assets/screenshot-2021-03-09-at-13.40.36.png)
+
+Try re-entering the LaTeX for the equation in the equation editor in Kriya. If you do not know how to capture it in LaTeX, try using a tool such as Mathpix snip. Save the equation, download the latest XML and revalidate. If that has not solved the problem, then the Exeter support team will need to look into the issue.
 
 #### **disp-formula-child-test-1**
 
 **Error**: _XXXXXX element is not allowed as a child of disp-formula._
 
-**Action**:
+**Action**: This error will fire at all stages for any element which is a child of `<disp-formula>` that is not either `<label>` or `<mml:math>`. The Exeter support team will need to fix this.
 
 #### **inline-formula-child-test-1**
 
 **Error**: _XXXXXX element is not allowed as a child of inline-formula._
 
-**Action**:
+**Action**: This error will fire at all stages for any element which is a child of `<inline-formula>` that is `<mml:math>`. The Exeter support team will need to fix this.
 
 #### **mml-math-id-test**
 
