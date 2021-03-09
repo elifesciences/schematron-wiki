@@ -40,7 +40,11 @@ Equations should not be provided as images. If an author manuscript contains mat
 
 ## Mathpix Snip
 
+If you are unfamiliar with LaTeX notation, then you can use a tool such as [**Mathpix snip**](https://mathpix.com/) to screenshot a picture of the maths, it will then provide you with the latex notation. Note that this is free for up to 50 pictures a month.
+
 ## Simple LaTeX cheatsheet
+
+Below contains some simple LaTeX instructions which are standard and included in Kriya \(as well as most packages\).
 
 #### Subscript and superscript
 
@@ -48,7 +52,7 @@ Equations should not be provided as images. If an author manuscript contains mat
 
 `x^{superscript-here}` $$x^{superscript-here}$$
 
-
+`x^{superscript-here}_{subscript-here}`  $$x^{superscript-here}_{subscript-here}$$
 
 #### fractions
 
@@ -104,6 +108,48 @@ Equations should not be provided as images. If an author manuscript contains mat
 #### Decorations and notation
 
 
+
+#### Integrals
+
+`\oint{x}` $$\oint{x}$$
+
+`\oint\limits_{\oint{x} }^{y}{z}` $$\oint\limits_{\oint{x} }^{y}{z}$$  
+
+`\int{\rho}` $$\int{\rho}$$
+
+`\int\limits_{^{x}{y}}^{z}{\Delta}` $$\int\limits_{^{x}{y}}^{z}{\Delta}$$
+
+`\int_{x=1}^{n}{x}\;dx` $$\int_{x=1}^{n}{x}\;dx $$
+
+#### Spacing
+
+`here\, is\, some\, text` $$here\, is\, some\, text$$
+
+`here\> is\> some\> text` $$here\> is\> some\> text$$
+
+`here\; is\; some\; text` $$here\; is\; some\; text$$
+
+`here\enspace is\enspace some\enspace text` $$here\enspace is\enspace some\enspace text$$
+
+`here\quad is\quad some\quad text` $$here\quad is\quad some\quad text$$
+
+`here\qquad is\qquad some\qquad text` $$here\qquad is\qquad some\qquad text$$
+
+`here\hspace{15pt} is\hspace{30pt} sometext` $$here\hspace{15pt} is\hspace{30pt} sometext$$
+
+`here\\ is\\ some\\[1 cm] text` $$here\\ is\\ some\\[1 cm] text$$
+
+#### Fonts
+
+`\mathrm{roman\,text}` $$\mathrm{roman\,text}$$
+
+`\mathrm{roma-text\, \mathit{use\> mathit\> to\> escape\> parent\> formatting}}` $$\mathrm{roman\,text\, \mathit{use\> mathit\> to\> escape\> parent\> formatting}}$$
+
+`\mathscr{ONLY\enspace CAPITAL\enspace LETTERS}` $$\mathscr{ONLY\enspace CAPITAL\enspace LETTERS}$$
+
+`\mathbb{BLACKBOARD\enspace BOLD}` $$\mathbb{BLACKBOARD\enspace BOLD}$$
+
+`\mathfrak{AaBbCcDdEe}` $$\mathfrak{AaBbCcDdEe}$$
 
 ## Schematron checks
 
