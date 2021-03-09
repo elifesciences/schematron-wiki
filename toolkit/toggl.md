@@ -252,13 +252,24 @@ This is used to track time spent working on the Editor project, assisting with d
 
 ### Meetings
 
-It is useful to track our meetings too, sometimes these can overrun and it's easy to wonder where the day went!
+**Recommended description**:
+
+* The name/purpose of the meeting
+
+This is used to track time spent in meetings \(which can add up quite a lot on some days!\).
 
 ![](../.gitbook/assets/4%20%282%29.png)
 
 ### Misc
 
+**Recommended description**:
 
+* Article number \(if applicable\)
+* Otherwise, the description of the task
+
+This category is used for any task not covered by the other projects.
+
+![](../.gitbook/assets/screen-shot-2021-03-09-at-12.15.02.png)
 
 ### PoA
 
@@ -298,7 +309,11 @@ This task tracks time spent on the 'Publisher Review' stage in the proofing syst
 
 ### Slack
 
-If you are just using slack \(such as answering a query from Exeter or chatting to the Production team\), this should be tracked using the ‘Slack’ project. You do not need to add a description for this.
+**Recommended description**:
+
+* Article number \(if applicable\)
+
+This tracks time spent communicating on slack, either in relation to a specific article \(e.g. answering questions from the content processors, discussing with the editorial team\) or general communication \(such as assisting another member of the team\).
 
 ![](../.gitbook/assets/6%20%282%29.png)
 
