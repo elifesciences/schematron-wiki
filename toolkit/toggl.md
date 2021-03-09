@@ -248,7 +248,7 @@ To help monitor the performance of the Kriya proofing system, it is helpful to t
 
 ### Libero Editor
 
-
+This is used to track time spent working on the Editor project, assisting with design, development and testing of a new article proofing system.
 
 ### Meetings
 
