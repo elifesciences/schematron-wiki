@@ -222,6 +222,10 @@ $$f_{n} = \begin{cases} a \qquad\qquad \text{if n = 0} \\ r \cdot f_{n-1} \hspac
 
 $$\begin{align*} \nabla \cdot \mathbb{A}\; = \alpha \\ \nabla \cdot \mathbb{B}\; = \beta \end{align*}$$
 
+## Maths on the eLife website
+
+
+
 ## Schematron checks
 
 ### Content checks
@@ -556,5 +560,152 @@ Try re-entering the LaTeX for the equation in the equation editor in Kriya. If y
 
 **Action**: This error will fire at any stage __if a disp-formula element within a sub-article which is not in the format `sa0equ0`. The Exeter support team will need to fix this.
 
+## XML structure
 
+Inline equations are captured using `<inline-formula>`.
+
+Display equations are captured using `<disp-formula>`.
+
+### MathML basics
+
+The top level element containing the equation is `<math>`. This element and any of its descendants must be bound to the namespace http://www.w3.org/1998/Math/MathML. In JATS this namespace is typically declared on the root element for the document \(`<article>`\) as `mml`, and as a result, mathML elements will have the prefix `mml:` before their name in the XML \(in line with Clark notation\).
+
+The most common, basic elements are listed below. More information on MathML can be found [**here**](https://developer.mozilla.org/en-US/docs/Web/MathML).
+
+* `<mi>` - this element contains identifiers such as constants, variables or function names. 
+*  `<mo>` - this element contains operators such as equal signs, commas, parentheses, multiplication symbols, semicolons, and so on. 
+* `<mn>` - this element contains numerals, which could be just digits, digits with a comma or full stop, or roman numerals and so on.
+* `<mtext>` - this element contains text. 
+* `<mspace>` - this element denotes blank space. The size of the space is determined by its attributes.
+
+An inline equation:
+
+```markup
+<p> ...
+    <inline-formula>
+        <mml:math id="inf6">
+            <mml:mrow>
+                <mml:mrow>
+                    <mml:mi>ρ</mml:mi>
+                    <mml:mo>/</mml:mo>
+                    <mml:mi>μ</mml:mi>
+                </mml:mrow>
+                <mml:mo>=</mml:mo>
+                <mml:mn>0.001</mml:mn>
+            </mml:mrow>
+        </mml:math>
+    </inline-formula>
+    ...
+</p>
+```
+
+A display equation with a label:
+
+```markup
+<p> ...
+    <disp-formula id="equ1">
+        <label>(1)</label>
+        <mml:math id="m1">
+            <mml:mrow>
+                <mml:mrow>
+                    <mml:msub>
+                        <mml:mi>n</mml:mi>
+                        <mml:mrow>
+                            <mml:mo stretchy="false">(</mml:mo>
+                            <mml:msub>
+                                <mml:mi>s</mml:mi>
+                                <mml:mn>1</mml:mn>
+                            </mml:msub>
+                            <mml:mo>,</mml:mo>
+                            <mml:msub>
+                                <mml:mi>s</mml:mi>
+                                <mml:mn>2</mml:mn>
+                            </mml:msub>
+                            <mml:mo stretchy="false">)</mml:mo>
+                        </mml:mrow>
+                    </mml:msub>
+                    <mml:mo>∝</mml:mo>
+                    <mml:mrow>
+                        <mml:msub>
+                            <mml:mi>t</mml:mi>
+                            <mml:mrow>
+                                <mml:mo stretchy="false">(</mml:mo>
+                                <mml:msub>
+                                    <mml:mi>s</mml:mi>
+                                    <mml:mn>1</mml:mn>
+                                </mml:msub>
+                                <mml:mo>,</mml:mo>
+                                <mml:msub>
+                                    <mml:mi>s</mml:mi>
+                                    <mml:mn>2</mml:mn>
+                                </mml:msub>
+                                <mml:mo stretchy="false">)</mml:mo>
+                            </mml:mrow>
+                        </mml:msub>
+                        <mml:mo>⁢</mml:mo>
+                        <mml:msub>
+                            <mml:mi>f</mml:mi>
+                            <mml:mrow>
+                                <mml:mo stretchy="false">(</mml:mo>
+                                <mml:msub>
+                                    <mml:mi>s</mml:mi>
+                                    <mml:mn>1</mml:mn>
+                                </mml:msub>
+                                <mml:mo>,</mml:mo>
+                                <mml:msub>
+                                    <mml:mi>s</mml:mi>
+                                    <mml:mn>2</mml:mn>
+                                </mml:msub>
+                                <mml:mo stretchy="false">)</mml:mo>
+                            </mml:mrow>
+                        </mml:msub>
+                    </mml:mrow>
+                </mml:mrow>
+                <mml:mo>.</mml:mo>
+            </mml:mrow>
+        </mml:math>
+    </disp-formula>
+</p>
+```
+
+A display equation without a label:
+
+```markup
+<p>
+    <disp-formula id="equ1">
+        <mml:math id="m1">
+            <mml:mstyle displaystyle="true" scriptlevel="0">
+                <mml:mrow>
+                    <mml:msub>
+                        <mml:mi>F</mml:mi>
+                        <mml:mrow>
+                            <mml:mi>p</mml:mi>
+                        </mml:mrow>
+                    </mml:msub>
+                    <mml:mo>=</mml:mo>
+                    <mml:msub>
+                        <mml:mi>I</mml:mi>
+                        <mml:mrow>
+                            <mml:mi>s</mml:mi>
+                        </mml:mrow>
+                    </mml:msub>
+                    <mml:mrow>
+                        <mml:mo>/</mml:mo>
+                    </mml:mrow>
+                    <mml:mo stretchy="false">(</mml:mo>
+                    <mml:mi mathvariant="normal">Σ</mml:mi>
+                    <mml:msub>
+                        <mml:mi>I</mml:mi>
+                        <mml:mrow>
+                            <mml:mi>p</mml:mi>
+                        </mml:mrow>
+                    </mml:msub>
+                    <mml:mo stretchy="false">)</mml:mo>
+                </mml:mrow>
+            </mml:mstyle>
+        </mml:math>
+    </disp-formula>
+</p>
+
+```
 
