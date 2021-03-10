@@ -14,7 +14,11 @@ There are two main types of studies, clinical trials and observational studies.
 
 ### Clinical trials 
 
-Clinical trials involve human participants that receive certain interventions such as medical products, medical procedures, changes to environment, and diet. It is the researchers' aim to determine if the approach or product will have different outcomes to those that are currently used. For example, testing a new medication for heart conditions. There are risks involved, so before a clinical trial can be approved by the Food and Drug Administration \(FDA\), tests and studies are carried out on animals. If positive results are shown, the FDA may grant permission for the trial to begin.
+Clinical trials involve human participants that receive certain interventions such as medical products, medical procedures, changes to environment, and diet. It is the researchers' aim to determine if the approach or product will have different outcomes to those that are currently used. For example, testing a new medication for heart conditions. 
+
+eLife follows the recommendations of the ****[**ICMJE**](http://www.icmje.org/about-icmje/faqs/clinical-trials-registration/) that all trials must have been prospectively registered to be considered for publication, and the clinical trial registration number will be requested during submission.
+
+There are numerous clinical trial registries that are accepted by eLife, see here for more information about the [**ICMJE**](http://www.icmje.org/about-icmje/faqs/clinical-trials-registration/) ****as an example. Clinical trials are identified with a trial registration number, which is unique to that particular registry. Typically this information will be included in a structured abstract, however if the scope of an article is not purely clinical, but a clinical trial has nevertheless been undertaken, this information will need to be included in the ethics statement instead. This statement will include both the clinical trial registry and the clinical trial number, so that it can be accurately identified by readers.
 
 ### Observational studies
 
