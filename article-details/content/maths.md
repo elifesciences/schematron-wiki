@@ -6,7 +6,7 @@ description: Mathematical content in eLife articles
 
 Many eLife articles contain maths. It can be rendered inline \(inline with the text in a paragraph/list item/table cell or similar\) or as display equations. eLife captures math content either as plain text \(for simple maths\) or as [**MathML**](https://en.wikipedia.org/wiki/MathML) which is a mathematical markup language. Similarly, in their original files, authors can capture maths in varying ways. Either as plain text, as MathML \(by using an equation editor in Word or similar word processors\) or in [**LaTeX**](https://en.wikipedia.org/wiki/LaTeX).
 
-The equation editor in Kriya uses LaTeX notation.
+The equation editor in Kriya uses LaTeX notation, which is then converted to MathML for inclusion in the XML.
 
 ## What needs to be checked?
 
@@ -26,10 +26,6 @@ Display equations can \(but don't have to\) have a label. Inline equations canno
 
 Equations should not be provided as images. If an author manuscript contains maths captured as images, either Exeter need to typeset the maths themselves, or eLife production staff need to go back to authors and ask them to provide it in a machine readable format.
 
-
-
-
-
 ## Maths as plain text
 
 ### Pre-author
@@ -44,7 +40,15 @@ Content loading and pre-editing
 
 ## Display equation labelling
 
+Display equation labels do not need to be distinct throughout the entire article, but they **do** need to be distinct within the main body, and within an appendix. This means that the label numbering can being again in an appendix, i.e. there can be an equation with the label `(1)` in the main body, in Appendix 1, Appendix 2 and so on. But there cannot be more than one equation with the label `(1)` within the main body of an article, or within a single appendix.
 
+## Adding maths in Kriya
+
+The equation editor in Kriya accepts LaTeX as its input. It also has examples of notation that can be used as a guide to help include the equation correctly.
+
+![The equation editor in Kriya](../../.gitbook/assets/screenshot-2021-03-10-at-10.16.33.png)
+
+As stated above, eLife capture maths in the XML as MathML, so this LaTeX is converted to MathML upon XML generation.
 
 ## Mathpix Snip
 
