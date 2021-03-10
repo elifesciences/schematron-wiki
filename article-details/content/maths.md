@@ -163,6 +163,8 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 #### Fonts
 
+`text\; is\; italic\; by\; default\; 123`  $$text\; is\;italic\; by\; default\; 123$$
+
 `\mathrm{roman\,text}` $$\mathrm{roman\,text}$$
 
 `\mathrm{roman\,text\, \mathit{use\> mathit\> to\> escape\> parent\> formatting}\> roman\, text}` $$\mathrm{roman\,text\, \mathit{use\> mathit\> to\> escape\> parent\> formatting}\> roman\, text}$$
