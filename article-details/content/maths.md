@@ -41,18 +41,13 @@ For example, the first _i_ is present in the inline equation that precedes it, a
 At content loading and/or pre-editing the following instances of maths should be changed to plain text:
 
 * Superscript and Subscript for content which are not references to parts of a display formula.
-* Expressions captured partially in maths, for example x = $$10$$.
-* Symbols which are not referenced in a display equation, which do not need to be captured in maths - 
-
-Degree
-
-Just number only
-
-
+* Expressions captured partially in maths, for example x $$=10$$.
+* Symbols which are not referenced in a display equation, which do not need to be captured in maths - for example degree symbols \($$\degree$$\).
+* Just numbers only - for example $$123$$.
 
 ### Post-author
 
-
+At post-author stages, if the authors have requested making certain symbols match the font, then 
 
 ## Display equation labelling
 
