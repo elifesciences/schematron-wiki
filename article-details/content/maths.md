@@ -63,6 +63,12 @@ The equation editor in Kriya accepts LaTeX as its input. It also has examples of
 
 As stated above, eLife capture maths in the XML as MathML, so this LaTeX is converted to MathML upon XML generation.
 
+### A note on deleting equations in Kriya
+
+When you need to delete an equation in Kriya, **do not** do so by opening the equation, deleting the content, and then saving the empty equation. Using this method will insert an empty equation into the document, which will flag a Schematron error.
+
+Instead equation should be deleted by backspacing or deleting the equation as you would with normal text.
+
 ## Mathpix Snip
 
 If you are unfamiliar with LaTeX notation, then you can use a tool such as [**Mathpix snip**](https://mathpix.com/) to screenshot a picture of the maths, it will then provide you with the latex notation. Note that this is free for up to 50 pictures a month.
