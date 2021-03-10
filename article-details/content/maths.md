@@ -222,9 +222,11 @@ $$f_{n} = \begin{cases} a \qquad\qquad \text{if n = 0} \\ r \cdot f_{n-1} \hspac
 
 $$\begin{align*} \nabla \cdot \mathbb{A}\; = \alpha \\ \nabla \cdot \mathbb{B}\; = \beta \end{align*}$$
 
-## Maths on the eLife website
+## Equations on the eLife website
 
+Equations are rendered on the eLife website using [**MathJax**](https://www.mathjax.org/).
 
+During pre-publication checks, special care should be given to equations by eLife production staff, to ensure that there is no discrepancy between the equations as they appear on Continuum and the equations as they appear in the PDF.
 
 ## Schematron checks
 
