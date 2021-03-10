@@ -182,7 +182,7 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 `text\; is\; italic\; by\; default\; 123`  $$text\; is\;italic\; by\; default\; 123$$
 
-`\mathrm{roman\,text}` $$\mathrm{roman\,text}$$
+`\mathrm{roman\,text}\; and\; \text{text}` $$\mathrm{roman\,text}\; and\; \text{text}$$
 
 `\mathrm{roman\,text\, \mathit{use\> mathit\> to\> escape\> parent\> formatting}\> roman\, text}` $$\mathrm{roman\,text\, \mathit{use\> mathit\> to\> escape\> parent\> formatting}\> roman\, text}$$
 
@@ -216,7 +216,11 @@ $$\cup\; \cap\; \subset\; \subseteq\; \supset \;\supseteq\; \in\; \notin\; \fora
 
 $$f_{n} = \begin{cases} a \qquad\qquad \text{if n = 0} \\ r \cdot f_{n-1} \hspace{14pt} \text{else} \end{cases}$$
 
+### Alignment
 
+`\begin{align*} \nabla \cdot \mathbb{A}\; = \alpha \\ \nabla \cdot \mathbb{B}\; = \beta \end{align*}`
+
+$$\begin{align*} \nabla \cdot \mathbb{A}\; = \alpha \\ \nabla \cdot \mathbb{B}\; = \beta \end{align*}$$
 
 ## Schematron checks
 
