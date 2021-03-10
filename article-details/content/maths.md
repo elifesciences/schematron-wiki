@@ -165,6 +165,24 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 `\mathfrak{AaBbCcDdEe}` $$\mathfrak{AaBbCcDdEe}$$
 
+#### Fences \(brackets\)
+
+`() [] \{\} \langle \rangle \lfloor \rfloor \lceil \rceil | \|`  $$() [] \{\} \langle \rangle \lfloor \rfloor \lceil \rceil | \|$$
+
+#### Arrays and matrices
+
+`\begin{matrix} x_{1} & x^{2} \\ x_{3}^{4} & \gamma \end{matrix}`  $$\begin{matrix} x_{1} & x^{2} \\ x_{3}^{4} & \gamma \end{matrix}$$
+
+`\begin{pmatrix} a & b \\ c & d \end{pmatrix}`  $$\begin{pmatrix} a & b \\ c & d \end{pmatrix}$$
+
+`\begin{bmatrix} a & b \\ c & d \end{bmatrix}`  $$\begin{bmatrix} a & b \\ c & d \end{bmatrix}$$
+
+`f_{n} = \begin{cases} a \qquad\qquad \text{if n = 0} \\ r \cdot f_{n-1} \hspace{14pt} \text{else} \end{cases}`
+
+$$f_{n} = \begin{cases} a \qquad\qquad \text{if n = 0} \\ r \cdot f_{n-1} \hspace{14pt} \text{else} \end{cases}$$
+
+
+
 ## Schematron checks
 
 ### Content checks
