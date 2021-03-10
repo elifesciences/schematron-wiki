@@ -150,6 +150,10 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 `\dot{x} + \ddot{y} + \ddddot{z} + \bar{\omega}` $$\dot{x}+\ddot{y}+\ddddot{z}+\bar{\omega}$$
 
+`\overrightarrow{AB} \underleftarrow{AB} \underleftrightarrow{AB}`  
+
+$$\overrightarrow{AB}\hspace{90pt} \underleftarrow{AB}\hspace{90pt} \underleftrightarrow{AB}$$
+
 `\overbrace{x}^{y} = \underbrace{x}_{y}` $$\overbrace{x}^{y} = \underbrace{x}_{y}$$
 
 `\sum{x} = \sum\limits_{x}{y} = \sum\limits_{i=0}^{n}{i}` $$\sum{x} = \sum\limits_{x}{y} = \sum\limits_{i=0}^{n}{i}$$
