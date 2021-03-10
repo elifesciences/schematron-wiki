@@ -36,11 +36,11 @@ Not all articles need these statements and are only included if the study involv
 
 During the submission process, authors need to answer the ethics section of the submission information page. 
 
-![Ethics form in eJP.](.gitbook/assets/image%20%283%29.png)
+![Ethics form in eJP.](../../.gitbook/assets/image%20%283%29.png)
 
 Authors are expected to fill this in accurately as this information will be exported from eJP to Exeter in the XML. Exeter do not make any changes to this section during typesetting, unless it is to correct an obvious error such as a duplication of statement text 'Animal experimentation: and Human subjects:' which the authors may add in themselves. This is not required as they are generated automatically depending on the statement included. 
 
-![Example of an ethics statement in the proofing system.](.gitbook/assets/screen-shot-2021-01-08-at-14.06.35.png)
+![Example of an ethics statement in the proofing system.](../../.gitbook/assets/screen-shot-2021-01-08-at-14.06.35.png)
 
 ## Examples
 

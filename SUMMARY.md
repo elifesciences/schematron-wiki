@@ -23,6 +23,7 @@
   * [Country names](article-details/content/country-names.md)
   * [Data availability](article-details/content/data-availability.md)
   * [Decision letters and Author responses](article-details/content/decision-letters-and-author-responses.md)
+  * [Ethics](article-details/content/ethics.md)
   * [Funding](article-details/content/funding-information.md)
   * [General content](article-details/content/general-content.md)
   * [Impact statement](article-details/content/impact-statement.md)
@@ -70,8 +71,4 @@
 * [Kriya](pages-in-progress/kriya-1.md)
 * [Publish on accept protocols](pages-in-progress/publish-on-accept-protocols.md)
 * [Digests](pages-in-progress/digests.md)
-
----
-
-* [Ethics](ethics.md)
 
