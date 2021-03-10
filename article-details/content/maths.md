@@ -71,7 +71,7 @@ If you are unfamiliar with LaTeX notation, then you can use a tool such as [**Ma
 
 Below contains some simple LaTeX instructions which are standard and included in Kriya \(as well as most packages\). It is by no means an exhaustive list. Kriya's equation editor has instructions on how to capture certain markup that is helpful. 
 
-#### Subscript and superscript
+### Subscript and superscript
 
 `x_{subscript-here}` $$x_{subscript-here}$$
 
@@ -83,15 +83,15 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 `\overset{x}{\underset{z}{y}}` $$\overset{x}{\underset{y}{z}} $$
 
-#### Fractions
+### Fractions
 
 `\frac{numerator}{denominator}` $$\frac{numerator}{denominator}$$
 
-#### Roots
+### Roots
 
 `\sqrt{2} = \sqrt[n]{3}` $$\sqrt{2} = \sqrt[n]{3}$$
 
-#### Greek
+### Greek
 
 * `\alpha` $$\alpha$$
 * `\beta` $$\beta$$
@@ -134,7 +134,7 @@ Below contains some simple LaTeX instructions which are standard and included in
 * `\omega` $$\omega$$
 * `\Omega` $$\Omega$$
 
-#### Decorations and notation
+### Decorations and notation
 
 `\overline{x+y}=\underline{x+y}` $$\overline{x+y}=\underline{x+y}$$
 
@@ -148,7 +148,7 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 `\sum{x} = \sum\limits_{x}{y} = \sum\limits_{i=0}^{n}{i}` $$\sum{x} = \sum\limits_{x}{y} = \sum\limits_{i=0}^{n}{i}$$
 
-#### Integrals
+### Integrals
 
 `\int{\rho}` $$\int{\rho}$$
 
@@ -160,7 +160,7 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 `\oint\limits_{\oint{x} }^{y}{z}` $$\oint\limits_{\oint{x} }^{y}{z}$$  
 
-#### Spacing
+### Spacing
 
 `here\, is\, some\, text` $$here\, is\, some\, text$$
 
@@ -178,7 +178,7 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 `here\\ is\\ some\\[1 cm] text` $$here\\ is\\ some\\[1 cm] text$$
 
-#### Fonts
+### Fonts
 
 `text\; is\; italic\; by\; default\; 123`  $$text\; is\;italic\; by\; default\; 123$$
 
@@ -192,19 +192,19 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 `\mathfrak{AaBbCcDdEe}` $$\mathfrak{AaBbCcDdEe}$$
 
-#### Fences \(brackets\)
+### Fences \(brackets\)
 
 `() [] \{\} \langle \rangle \lfloor \rfloor \lceil \rceil | \|` 
 
 $$()\hspace{8pt} []\hspace{10pt} \{\}\hspace{15pt} \langle\hspace{30pt} \rangle\hspace{30pt} \lfloor\hspace{30pt} \rfloor\hspace{30pt} \lceil\hspace{25pt} \rceil\hspace{17pt} |\hspace{8pt} \|$$
 
-#### Sets
+### Sets
 
 `\cup \cap \subset \subseteq \supset \supseteq \in \notin \forall \exists \neg \vee \wedge \vdash \models \setminus`
 
 $$\cup\; \cap\; \subset\; \subseteq\; \supset \;\supseteq\; \in\; \notin\; \forall\; \exists\; \neg\; \vee\; \wedge\; \vdash\; \models\; \setminus$$
 
-#### Matrices
+### Matrices
 
 `\begin{matrix} x_{1} & x^{2} \\ x_{3}^{4} & \gamma \end{matrix}`  $$\begin{matrix} x_{1} & x^{2} \\ x_{3}^{4} & \gamma \end{matrix}$$
 
