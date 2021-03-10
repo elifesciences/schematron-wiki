@@ -4,14 +4,14 @@ description: Mathematical content in eLife articles
 
 # Maths
 
-Many eLife articles contain maths. It can be rendered inline \(inline with the text in a paragraph/list item/table cell or similar\) or as display equations. eLife captures math content either as plain text \(for simple maths\) or as [**MathML**](https://en.wikipedia.org/wiki/MathML) which is a mathematical markup language. Similarly, in their original files, authors can capture maths in varying ways. Either as plain text, as MathML \(by using an equation editor in Word or similar word processors\) or in [**LaTeX**](https://en.wikipedia.org/wiki/LaTeX).
+Many eLife articles contain maths. It can be rendered inline \(inline with the text in a paragraph/list item/table cell or similar\) or as display equations. eLife captures math content either as plain text \(for simple maths\) or as [**MathML**](https://en.wikipedia.org/wiki/MathML) which is a mathematical markup language. Similarly, in their original files, authors can capture maths in varying ways - either as plain text, as MathML \(by using an equation editor in Word or similar word processors\), in [**LaTeX**](https://en.wikipedia.org/wiki/LaTeX), or in other ways.
 
 The equation editor in Kriya uses LaTeX notation, which is then converted to MathML for inclusion in the XML.
 
 ## What needs to be checked?
 
 * There are no errors in equations \(which will be flagged by the Schematron\).
-* Font use is consistent in the text. If a symbol is used in a display equation, and then referenced in a paragraph \(typically defining or expounding what that symbol represents\), that symbol should be tagged as an inline equation so that the fonts match, and so that the reader can easily discern that it is the same symbol from the equation.
+* Font use is consistent in the text \(see [**maths as plain text**](maths.md#maths-as-plain-text)\).
 * There are no unnecessary equations in the text for content which should be captured as plain text \(but err on the side of caution; see [**maths as plain text**](maths.md#maths-as-plain-text)\).
 * The labels for display equations are consistent \(see [**display equation labelling**](maths.md#display-equation-labelling)\).
 * Equations appear the same in the HTML and in the PDF.
@@ -28,7 +28,7 @@ Equations should not be provided as images. If an author manuscript contains mat
 
 ## Maths as plain text
 
-Unnecessary equations slow the load time of content in web pages, and overcomplicate content. Therefore, it is desirable for simple maths to be captured a plain text where appropriate. However, this should be done with caution, equations should not be changed to text at the expense of meaning. Equations appear in a different font to plain text in both the PDF and HTML \(where MathJax is used to render the equations\), so changing equations to plain text may not be appropriate where symbols are used to represent something elsewhere in the text \(as the font difference would be confusing for readers\). 
+Unnecessary equations slow the load time of content in web pages, and overcomplicate content. Therefore, it is desirable for simple maths to be captured a plain text where appropriate. However, this should be done with caution, equations should not be changed to text at the expense of meaning. Equations appear in a different font to plain text in both the PDF and HTML \(where MathJax is used to render the equations\). If a symbol is used in a display equation, and then referenced in a preceding or subsequent paragraph \(typically defining or expounding what that symbol represents\), the symbol in the paragraph should be tagged as an inline equation, so that the fonts match, and the reader can easily discern that it is the same symbol from the equation.
 
 Here is an example of where changing equations to plain text is inappropriate:
 
