@@ -28,7 +28,7 @@ Equations should not be provided as images. If an author manuscript contains mat
 
 ## Maths as plain text
 
-Unnecessary equations slow the load time of content in web pages, and overcomplicate content. Therefore, it is desirable for simple maths to be captured a plain text where appropriate. However, this should be done with caution, equations should not be changed to text at the expense of meaning. Equations appear in a different font to plain text in both the PDF and HTML \(where MathJax is used to render the equations\). If a symbol is used in a display equation, and then referenced in a preceding or subsequent paragraph \(typically defining or expounding what that symbol represents\), the symbol in the paragraph should be tagged as an inline equation, so that the fonts match, and the reader can easily discern that it is the same symbol from the equation.
+Unnecessary equations slow the load time of content in web pages, may not appear in downstream locations, and overcomplicate content. Therefore, it is desirable for maths to be captured a plain text where appropriate. However, this should be done with caution, equations should not be changed to text at the expense of meaning, and in some cases it is not possible to capture the complexity of an equation with just unicode. Equations appear in a different font to plain text in both the PDF and HTML \(where MathJax is used to render the equations\). If a symbol is used in a display equation, and then referenced in a preceding or subsequent paragraph \(typically defining or expounding what that symbol represents\), the symbol in the paragraph should be tagged as an inline equation, so that the fonts match, and the reader can easily discern that it is the same symbol from the equation.
 
 Here is an example of where changing equations to plain text is inappropriate:
 
@@ -50,6 +50,12 @@ All other instances should be retained as equations, unless specified by eLife P
 ### Post-author
 
 At post-author stages, any author feedback relating to equations should be addressed. In some cases the feedback may be in the form of 'this x does not have the same format as in equation 1', in which case the action should be to capture that content as an equation in order to keep the font consistent for that symbol.
+
+### Equations in abstracts
+
+Abstracts are sent to many downstream services, and some of these are not able to render maths if provided as MathML \(or LaTeX, or images\). Therefore, if it is possible to capture an equation in an abstract as plain text, then it should be done. 
+
+For example, until recently PubMed were unable to render mathML in abstracts. As a result eLife currently replace any equation in an abstract with the text `[Formula: see text]` in the content that we send them.
 
 ## Display equation labelling
 
