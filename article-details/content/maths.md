@@ -56,7 +56,7 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 #### Subscript and superscript
 
-`x_{subscript-here}` $$x_{subscript=here}$$
+`x_{subscript-here}` $$x_{subscript-here}$$
 
 `x^{superscript-here}` $$x^{superscript-here}$$
 
