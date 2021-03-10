@@ -53,7 +53,7 @@ At post-author stages, any author feedback relating to equations should be addre
 
 ## Display equation labelling
 
-Display equation labels do not need to be distinct throughout the entire article, but they **do** need to be distinct within the main body, and within an appendix. This means that the label numbering can being again in an appendix, i.e. there can be an equation with the label `(1)` in the main body, in Appendix 1, Appendix 2 and so on. But there cannot be more than one equation with the label `(1)` within the main body of an article, or within a single appendix.
+Display equation labels do not need to be distinct throughout the entire article, but they **do** need to be distinct within the main body, and within an appendix. This means that the label numbering can being again in an appendix, i.e. there can be an equation with the label `(1)` in the main body, in Appendix 1, Appendix 2 and so on, but there cannot be more than one equation with the label `(1)` within the main body of an article, or within a single appendix.
 
 ## Adding maths in Kriya
 
