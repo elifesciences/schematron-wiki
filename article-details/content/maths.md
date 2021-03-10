@@ -28,6 +28,14 @@ Equations should not be provided as images. If an author manuscript contains mat
 
 ## Maths as plain text
 
+Unnecessary equations slow the load time of content in web pages, and overcomplicate content. Therefore, it is desirable for simple maths to be captured a plain text where appropriate. However, this should be done with caution, equations should not be changed to text at the expense of meaning. Equations appear in a different font to plain text in both the PDF and HTML \(where MathJax is used to render the equations\), so changing equations to plain text may not be appropriate where symbols are used to represent something elsewhere in the text \(as the font difference would be confusing for readers\). 
+
+Here is an example of where changing equations to plain text is inappropriate:
+
+![](../../.gitbook/assets/image%20%284%29.png)
+
+For example, the first _i_ is present in the inline equation that precedes it, and therefore it needs to be captured as an equation to match the formatting/font, so that the reader can tell it is the same symbol.
+
 ### Pre-author
 
 Content loading and pre-editing
