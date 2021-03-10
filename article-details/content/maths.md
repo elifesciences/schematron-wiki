@@ -200,9 +200,9 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 ### Fences \(brackets\)
 
-`() [] \{\} \langle \rangle \lfloor \rfloor \lceil \rceil | \|` 
+`() [] \Big[\Big] \{\} \langle \rangle \lfloor \rfloor \lceil \rceil | \|` 
 
-$$\;()\hspace{5pt} []\hspace{10pt} \{\}\hspace{15pt} \langle\hspace{30pt} \rangle\hspace{30pt} \lfloor\hspace{30pt} \rfloor\hspace{30pt} \lceil\hspace{25pt} \rceil\hspace{17pt} |\hspace{8pt} \|$$
+$$\;()\hspace{5pt} []\hspace{20pt} \Big[\Big]\hspace{25pt} \{\}\hspace{15pt} \langle\hspace{30pt} \rangle\hspace{30pt} \lfloor\hspace{30pt} \rfloor\hspace{30pt} \lceil\hspace{25pt} \rceil\hspace{17pt} |\hspace{8pt} \|$$
 
 ### Sets
 
