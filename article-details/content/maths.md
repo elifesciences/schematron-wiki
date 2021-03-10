@@ -40,14 +40,16 @@ For example, the first _i_ is present in the inline equation that precedes it, a
 
 At content loading and/or pre-editing the following instances of maths should be changed to plain text:
 
-* Superscript and Subscript for content which are not references to parts of a display formula.
-* Expressions captured partially in maths, for example x $$=10$$.
-* Symbols which are not referenced in a display equation, which do not need to be captured in maths - for example degree symbols \($$\degree$$\).
-* Just numbers only - for example $$123$$.
+* Superscript and Subscript for content which are not references to parts of a display formula. For example n$$^{2}$$ should be changed to n².
+* Expressions captured partially in maths, for example x$$=10$$, should be changed to x=10.
+* Symbols which are not referenced in a display equation, which do not need to be captured in maths - for example degree symbols \($$\degree$$ changed to °\).
+* Just numbers only - for example $$123$$ changed to 123.
+
+All other instances should be retained as equations, unless specified by eLife Production staff.
 
 ### Post-author
 
-At post-author stages, if the authors have requested making certain symbols match the font, then 
+At post-author stages, any author feedback relating to equations should be addressed. In some cases the feedback may be in the form of 'this x does not have the same format as in equation 1', in which case the action should be to capture that content as an equation in order to keep the font consistent for that symbol.
 
 ## Display equation labelling
 
