@@ -200,9 +200,9 @@ $$\;()\hspace{5pt} []\hspace{10pt} \{\}\hspace{15pt} \langle\hspace{30pt} \rangl
 
 ### Sets
 
-`\cup \cap \subset \subseteq \supset \supseteq \in \notin \forall \exists \neg \vee \wedge \vdash \models \setminus`
+`\cup \cap \bigcup \bigcap \subset \subseteq \supset \supseteq \in \notin \forall \exists \neg \vee \wedge \vdash \models \setminus`
 
-$$\cup\; \cap\; \subset\; \subseteq\; \supset \;\supseteq\; \in\; \notin\; \forall\; \exists\; \neg\; \vee\; \wedge\; \vdash\; \models\; \setminus$$
+$$\cup\; \cap\; \bigcup\; \bigcap\; \subset\; \subseteq\; \supset \;\supseteq\; \in\; \notin\; \forall\; \exists\; \neg\; \vee\; \wedge\; \vdash\; \models\; \setminus$$
 
 ### Matrices
 
