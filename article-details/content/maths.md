@@ -32,6 +32,14 @@ Equations should not be provided as images. If an author manuscript contains mat
 
 ## Maths as plain text
 
+### Pre-author
+
+Content loading and pre-editing
+
+
+
+### Post-author
+
 
 
 ## Display equation labelling
@@ -58,7 +66,7 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 `\overset{x}{\underset{z}{y}}` $$\overset{x}{\underset{y}{z}} $$
 
-#### fractions
+#### Fractions
 
 `\frac{numerator}{denominator}` $$\frac{numerator}{denominator}$$
 
@@ -168,6 +176,12 @@ Below contains some simple LaTeX instructions which are standard and included in
 #### Fences \(brackets\)
 
 `() [] \{\} \langle \rangle \lfloor \rfloor \lceil \rceil | \|`  $$() [] \{\} \langle \rangle \lfloor \rfloor \lceil \rceil | \|$$
+
+#### Sets
+
+`\cup \cap \subset \subseteq \supset \supseteq \in \notin \forall \exists \neg \vee \wedge \vdash \models \setminus`
+
+$$\cup\; \cap\; \subset\; \subseteq\; \supset \;\supseteq\; \in\; \notin\; \forall\; \exists\; \neg\; \vee\; \wedge\; \vdash\; \models\; \setminus$$
 
 #### Arrays and matrices
 
