@@ -38,7 +38,15 @@ For example, the first _i_ is present in the inline equation that precedes it, a
 
 ### Pre-author
 
-Content loading and pre-editing
+At content loading and/or pre-editing the following instances of maths should be changed to plain text:
+
+* Superscript and Subscript for content which are not references to parts of a display formula.
+* Expressions captured partially in maths, for example x = $$10$$.
+* Symbols which are not referenced in a display equation, which do not need to be captured in maths - 
+
+Degree
+
+Just number only
 
 
 
@@ -199,7 +207,7 @@ $$()\hspace{8pt} []\hspace{10pt} \{\}\hspace{15pt} \langle\hspace{30pt} \rangle\
 
 $$\cup\; \cap\; \subset\; \subseteq\; \supset \;\supseteq\; \in\; \notin\; \forall\; \exists\; \neg\; \vee\; \wedge\; \vdash\; \models\; \setminus$$
 
-#### Arrays and matrices
+#### Matrices
 
 `\begin{matrix} x_{1} & x^{2} \\ x_{3}^{4} & \gamma \end{matrix}`  $$\begin{matrix} x_{1} & x^{2} \\ x_{3}^{4} & \gamma \end{matrix}$$
 
