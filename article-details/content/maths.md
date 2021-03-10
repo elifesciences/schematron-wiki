@@ -340,11 +340,7 @@ Typically, if this character has been used to communicate micro, such as in 'μm
 
 **Warning**: _mml:math seems to only contain the formula for a cation - 'XXXXXX' - which is likely unnecessary. Should this be captured as normal text instead?_
 
-**Action**: This warning will fire at all stages if there is an equation which only contains a cation, such as
-
-$$
-Ca^{+2}
-$$
+**Action**: This warning will fire at all stages if there is an equation which only contains a cation, such as $$Ca^{+2}$$.
 
 At pre-author stages, unless these symbols or numbers are used in an inline formula and referring to particular parts of a display formula, then they can be changed to plain text. At post-author stages, if the authors have deliberately added these as equations, then they should be left as equations. Otherwise they can be changed to plain text.
 
@@ -352,11 +348,7 @@ At pre-author stages, unless these symbols or numbers are used in an inline form
 
 **Warning**: _mml:math seems to only contain the formula for an anion - 'XXXXXX' - which is likely unnecessary. Should this be captured as normal text instead?_
 
-**Action**: This warning will fire at all stages if there is an equation which only contains an anion, such as
-
-$$
-CI^{-}
-$$
+**Action**: This warning will fire at all stages if there is an equation which only contains an anion, such as $$CI^{-}$$.
 
 At pre-author stages, unless the anion is used in an inline formula and referring in the text to particular parts of a display formula, then they can be changed to plain text. At post-author stages, if the authors have deliberately added these as equations, then they should be left as equations. Otherwise they can be changed to plain text.
 
@@ -388,15 +380,7 @@ Here, you can see that on the eLife website, there is no space between 'Multivar
 
 ![](../../.gitbook/assets/screenshot-2021-02-26-at-16.06.22.png)
 
-To fix this open up the equation editor in Kriya and replace any spaces used with `\;` so that the space is retained in the XML/on the website.
-
-Here is that equation in Kriya before the edit:
-
-![](../../.gitbook/assets/screenshot-2021-02-26-at-16.18.01.png)
-
-And here is the same equation with the change:
-
-![](../../.gitbook/assets/screenshot-2021-02-26-at-16.18.18.png)
+To fix this open up the equation editor in Kriya and replace any spaces used with `\;` so that the space is retained in the XML/on the website \(see also [**Spacing**](maths.md#spacing) above\).
 
 #### **pre-mathcolor-test-1**
 
@@ -456,7 +440,7 @@ At post-author stages, this warning can be ignored.
 
 ![](../../.gitbook/assets/screenshot-2021-03-09-at-12.02.53.png)
 
-Taken from [**https://elifesciences.org/articles/51207**](https://elifesciences.org/articles/51207). In this case, when comparing against the original manuscript, it's clear that `\Updelta` simply needs to be removed. But in other cases the LaTeX notation that the authors used may not be supported, and alternative LaTeX notation should be used to render the desired character\(s\). Tools such as Mathpix snip may be useful here since they will use relatively standard LaTeX notation \(where possible\).
+Taken from [**https://elifesciences.org/articles/51207**](https://elifesciences.org/articles/51207). In this case, when comparing against the original manuscript, it's clear that `\Updelta` simply needs to be removed. But in other cases the LaTeX notation that the authors used may not be supported, and alternative LaTeX notation should be used to render the desired character\(s\). Tools such as Mathpix snip may be useful here since they will use relatively standard LaTeX notation \(where possible\), or you can use the help in the equation editor in Kriya or use the [**cheatsheet**](maths.md#latex-cheatsheet) above.
 
 #### **inline-formula-length-test-1**
 
