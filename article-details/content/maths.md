@@ -210,7 +210,7 @@ $$\;()\hspace{5pt} []\hspace{20pt} \Big[\Big]\hspace{25pt} \{\}\hspace{15pt} \la
 
 $$\cup\; \cap\; \bigcup\; \bigcap\; \subset\; \subseteq\; \supset \;\supseteq\; \in\; \notin\; \forall\; \exists\; \neg\; \vee\; \wedge\; \vdash\; \models\; \setminus$$
 
-### Matrices
+### Matrices and cases
 
 `\begin{matrix} x_{1} & x^{2} \\ x_{3}^{4} & \gamma \end{matrix}`  $$\begin{matrix} x_{1} & x^{2} \\ x_{3}^{4} & \gamma \end{matrix}$$
 
