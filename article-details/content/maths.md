@@ -32,7 +32,7 @@ Equations should not be provided as images. If an author manuscript contains mat
 
 ## Maths as plain text
 
-Unnecessary equations slow the load time of content in web pages, may not appear in downstream locations, and overcomplicate content. Therefore, it is desirable for maths to be captured a plain text where appropriate. However, this should be done with caution, equations should not be changed to text at the expense of meaning, and in some cases it is not possible to capture the complexity of an equation with just plain text. Equations appear in a different font to plain text in the PDF. If a symbol is used in a display equation, and then referenced in a preceding or subsequent paragraph \(typically defining or expounding what that symbol represents\), the symbol in the paragraph should be tagged as an inline equation, so that the fonts match, and the reader can easily discern that it is the same symbol from the equation.
+Unnecessary equations slow the load time of content in web pages, may not appear in downstream locations, and overcomplicate content. Therefore, it is desirable for maths to be captured a plain text where appropriate. However, this should be done with caution, equations should not be changed to text at the expense of meaning, and in some cases it is not possible to capture the complexity of an equation with just plain text. Equations appear in a different font \(Stix\) to plain text in the PDF. If a symbol is used in a display equation, and then referenced in a preceding or subsequent paragraph \(typically defining or expounding what that symbol represents\), the symbol in the paragraph should be tagged as an inline equation, so that the fonts match, and the reader can easily discern that it is the same symbol from the equation.
 
 Here is an example of where changing equations to plain text is inappropriate:
 
@@ -468,7 +468,7 @@ At post-author stages, this warning can be ignored.
 
 **Warning**: _math \(XXXXXX element\) contains 'XXXXXX' which looks suspiciously like LaTeX markup. Is it correct? Or is there missing content or content which has been processed incompletely?_
 
-**Action**: This warning will fire in cases where an equation contains what may be LaTeX markup, meaning tat the maths may not be processed correctly. Check against the original manuscript to determine what the equation is supposed to look like, and compare. It may be the case that the equation appears OK in Kriya and in the PDF, but it may still be incorrect on the eLife website. In most cases, this warning should not be ignored. Only in cases where the authors have used rather strange notation should this be ignored. It will fire for text content in an equation containing a backslash \(`\`\). Here is an example of when it needs to be fixed:
+**Action**: This warning will fire in cases where an equation contains what may be LaTeX markup, meaning that the maths may not be processed correctly. Check against the original manuscript to determine what the equation is supposed to look like, and compare. It may be the case that the equation appears OK in Kriya and in the PDF, but it may still be incorrect on the eLife website. In most cases, this warning should not be ignored. Only in cases where the authors have used rather strange notation should this be ignored. It will fire for text content in an equation containing a backslash \(`\`\). Here is an example of when it needs to be fixed:
 
 ![](../../.gitbook/assets/screenshot-2021-03-09-at-12.02.53.png)
 
@@ -478,7 +478,7 @@ Taken from [**https://elifesciences.org/articles/51207**](https://elifesciences.
 
 **Warning**: _Inline formula containing 'XXXXXX' is particularly long. Consider either splitting this up into multiple equations or capturing this as a display equation, as the display on Continuum will likely be strange._
 
-**Action**: This warning will fire at all stages for an inline formula which does not contain a table and is more than 90 characters long. Such length formulas will need to br wrapped over multiple lines in the HTML on the eLife website, which will affect the readability within the text. For example from **https://elifesciences.org/articles/56349**:
+**Action**: This warning will fire at all stages for an inline formula which does not contain a table and is more than 90 characters long. Such length formulas will need to be wrapped over multiple lines in the HTML on the eLife website, which will affect the readability within the text. For example from **https://elifesciences.org/articles/56349**:
 
 ![](../../.gitbook/assets/screenshot-2021-03-09-at-12.10.27.png)
 
