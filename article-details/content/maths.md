@@ -247,7 +247,7 @@ $$\begin{align*} \nabla \cdot \mathbb{A}\; = \alpha \\ \nabla \cdot \mathbb{B}\;
 
 `+  -  \pm \times \div \cdot \oplus \otimes \ne < > \le \ge \approx \infty`
 
-$$+ \hspace{3pt} - \hspace{7pt} \pm\hspace{14pt} \times\hspace{14pt} \div\hspace{16pt} \cdot\hspace{18pt} \oplus\hspace{27pt} \otimes\hspace{15pt} \ne\hspace{3pt} <\hspace{2pt} >\hspace{5pt} \le\hspace{9pt} \ge\hspace{15pt} \approx\hspace{20pt} \infty$$
+$$+ \hspace{3pt} - \hspace{7pt} \pm\hspace{14pt} \times\hspace{14pt} \div\hspace{16pt} \cdot\hspace{18pt} \oplus\hspace{27pt} \otimes\hspace{14pt} \ne\hspace{4pt} <\hspace{2pt} >\hspace{5pt} \le\hspace{9pt} \ge\hspace{15pt} \approx\hspace{20pt} \infty$$
 
 ## Equations on the eLife website
 
