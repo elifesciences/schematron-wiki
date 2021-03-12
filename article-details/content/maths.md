@@ -4,7 +4,7 @@ description: Mathematical content in eLife articles
 
 # Maths
 
-Many eLife articles contain maths. It can be rendered inline \(inline with the text in a paragraph/list item/table cell or similar\) or as display equations. eLife captures math content either as plain text \(for simple maths\) or as [**MathML**](https://en.wikipedia.org/wiki/MathML) which is a mathematical markup language. Similarly, in their original files, authors can capture maths in varying ways - either as plain text, as MathML \(by using an equation editor in Word or similar word processors\), in [**LaTeX**](https://en.wikipedia.org/wiki/LaTeX), or in other ways.
+Many eLife articles contain maths. It can be rendered inline \(inline with the text in a paragraph/list item/table cell or similar\) or as display equations. eLife captures math content either as plain text \(for simple maths\) or as [**MathML**](https://en.wikipedia.org/wiki/MathML) which is a mathematical markup language. Similarly, in their original files, authors can capture maths in varying ways - either as plain text, as MathML \(by using an equation editor in Word or similar word processors\), in [**LaTeX**](https://en.wikipedia.org/wiki/LaTeX), or in other ways \(see also [**What can equations contain**](maths.md#what-can-equations-contain)\).
 
 The equation editor in Kriya uses LaTeX notation, which is then converted to MathML for inclusion in the XML.
 
@@ -20,6 +20,10 @@ The equation editor in Kriya uses LaTeX notation, which is then converted to Mat
 
 Equations can be captured in two ways, inline or as a display equation. Inline equations can only appear inline within the text, so as part of a paragraph, list item, or table cell. Display equations look distinct from the text, and in rare cases can be captured directly under a section, but in many cases they are captured in the same way as inline equations, but simply rendered with more prominence than inline equations.
 
+For example below, inline equations are marked in blue, and the display equation is marked in red:
+
+![https://elifesciences.org/articles/65878\#fig5](../../.gitbook/assets/screenshot-2021-03-12-at-15.01.30.png)
+
 ## What can equations contain
 
 Display equations can \(but don't have to\) have a label. Inline equations cannot have a label. They both must contain some math markup, MathML. 
@@ -28,7 +32,7 @@ Equations should not be provided as images. If an author manuscript contains mat
 
 ## Maths as plain text
 
-Unnecessary equations slow the load time of content in web pages, may not appear in downstream locations, and overcomplicate content. Therefore, it is desirable for maths to be captured a plain text where appropriate. However, this should be done with caution, equations should not be changed to text at the expense of meaning, and in some cases it is not possible to capture the complexity of an equation with just unicode. Equations appear in a different font to plain text in both the PDF and HTML \(where MathJax is used to render the equations\). If a symbol is used in a display equation, and then referenced in a preceding or subsequent paragraph \(typically defining or expounding what that symbol represents\), the symbol in the paragraph should be tagged as an inline equation, so that the fonts match, and the reader can easily discern that it is the same symbol from the equation.
+Unnecessary equations slow the load time of content in web pages, may not appear in downstream locations, and overcomplicate content. Therefore, it is desirable for maths to be captured a plain text where appropriate. However, this should be done with caution, equations should not be changed to text at the expense of meaning, and in some cases it is not possible to capture the complexity of an equation with just plain text. Equations appear in a different font to plain text in both the PDF and HTML \(where MathJax is used to render the equations\). If a symbol is used in a display equation, and then referenced in a preceding or subsequent paragraph \(typically defining or expounding what that symbol represents\), the symbol in the paragraph should be tagged as an inline equation, so that the fonts match, and the reader can easily discern that it is the same symbol from the equation.
 
 Here is an example of where changing equations to plain text is inappropriate:
 
