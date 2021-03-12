@@ -246,6 +246,8 @@ $$\begin{align*} \nabla \cdot \mathbb{A}\; = \alpha \\ \nabla \cdot \mathbb{B}\;
 
 Equations are rendered on the eLife website using [**MathJax**](https://www.mathjax.org/).
 
+eLife have an arrangement with Exeter whereby they are paid more for LaTeX articles, and expected to carefully check the maths against the original files at pre-editing. LaTeX articles also have an extended turn-around time \(compared with non-LaTeX articles\).
+
 During pre-publication checks, special care should be given to equations by eLife production staff, to ensure that there is no discrepancy between the equations as they appear on Continuum and the equations as they appear in the PDF.
 
 ## Schematron checks
@@ -370,6 +372,8 @@ Typically, if this character has been used to communicate micro, such as in 'μm
 
 At pre-author stages, unless these symbols or numbers are used in an inline formula and referring to particular parts of a display formula, then they can be changed to plain text. At post-author stages, if the authors have deliberately added these as equations, then they should be left as equations. Otherwise they can be changed to plain text.
 
+A cation is a positively charged ion \(which would be attracted to the cathode in electrolysis\). It can be identified in the text as it will look like a chemical element followed by a superscript plus \(+\) sign and superscript or subscript numbers.
+
 #### **math-test-16**
 
 **Warning**: _mml:math seems to only contain the formula for an anion - 'XXXXXX' - which is likely unnecessary. Should this be captured as normal text instead?_
@@ -377,6 +381,8 @@ At pre-author stages, unless these symbols or numbers are used in an inline form
 **Action**: This warning will fire at all stages if there is an equation which only contains an anion, such as $$CI^{-}$$.
 
 At pre-author stages, unless the anion is used in an inline formula and referring in the text to particular parts of a display formula, then they can be changed to plain text. At post-author stages, if the authors have deliberately added these as equations, then they should be left as equations. Otherwise they can be changed to plain text.
+
+An anion is a negatively charged ion \(which would be attracted to the anode in electrolysis\). It can be identified in the text as it will look like a chemical element followed by a superscript minus \(-\) sign and superscript or subscript numbers.
 
 #### **math-test-17**
 
@@ -410,7 +416,7 @@ To fix this open up the equation editor in Kriya and replace any spaces used wit
 
 #### **pre-mathcolor-test-1**
 
-**Warning**: _math \(XXXXXX element\) containing 'XXXXXX' has a color style which is not red, blue or purple - 'XXXXXX' - which is not allowed. If it is clear that colours are supposed to be used, but you are not sure which ones, then please query the authors - 'eLife only supports the following colours for text and maths - 'red', 'blue' and 'purple'. Please confirm how you would like the colour\(s\) here captured given this information.'._
+**Warning**: _math \(XXXXXX element\) containing 'XXXXXX' has a colour style which is not red, blue or purple - 'XXXXXX' - which is not allowed. If it is clear that colours are supposed to be used, but you are not sure which ones, then please query the authors - 'eLife only supports the following colours for text and maths - 'red', 'blue' and 'purple'. Please confirm how you would like the colour\(s\) here captured given this information.'._
 
 **Action**: The only colours eLife permit for text is red, blue or purple and this is still the case for maths. As the message suggests, this will fire at pre-author stages when maths contains a colour which is not permitted. Exeter should add the following author query:
 
@@ -436,7 +442,7 @@ At post-author stages, this warning can be ignored.
 
 **Warning**: _math \(XXXXXX element\) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. Please check this carefully against the original manuscript. If it's not a mistake, and the background colour is deliberate, then please add the following author query -&gt; 'Where possible, we prefer that colours are not used in text in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). eLife does not support background colours for text, however we do support the following colours for text itself - 'red', 'blue' and 'purple'. Please confirm how you would like the colour\(s\) captured here given this information, and note that our preference would be to use more common forms of emphasis \(such as bold, italic or underline\) if possible to still convey the same meaning.'._
 
-**Action**: This warning will fire at pre-author stages for maths in the text, which has background colour formatting \(similar to highlighting\). eLife do not permit this for text, and only permit certain colours for text \(red, blue, or purple\). Exeter should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP, and if it isn't a processing error, then they should add the following author query:
+**Action**: This warning will fire at pre-author stages for maths in the text, which has background colour formatting \(similar to highlighting\). eLife does not permit this for text, and only permit certain colours for text \(red, blue, or purple\). Exeter should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP, and if it isn't a processing error, then they should add the following author query:
 
 * Where possible, we prefer that colours are not used in text in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). eLife does not support background colours for text, however we do support the following colours for text itself - 'red', 'blue' and 'purple'. Please confirm how you would like the colour\(s\) captured here given this information, and note that our preference would be to use more common forms of emphasis \(such as bold, italic or underline\) if possible to still convey the same meaning.'
 
