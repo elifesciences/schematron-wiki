@@ -243,6 +243,12 @@ $$f_{n} = \begin{cases} a \qquad\qquad \text{if n = 0} \\ r \cdot f_{n-1} \hspac
 
 $$\begin{align*} \nabla \cdot \mathbb{A}\; = \alpha \\ \nabla \cdot \mathbb{B}\; = \beta \end{align*}$$
 
+### Symbols
+
+`+  -  \pm \times \div \cdot \oplus \otimes \ne < > \le \ge \approx \infty`
+
+$$+ \hspace{3pt} - \hspace{7pt} \pm\hspace{14pt} \times\hspace{14pt} \div\hspace{16pt} \cdot\hspace{18pt} \oplus\hspace{27pt} \otimes\hspace{15pt} \ne\hspace{3pt} <\hspace{2pt} >\hspace{5pt} \le\hspace{9pt} \ge\hspace{15pt} \approx\hspace{20pt} \infty$$
+
 ## Equations on the eLife website
 
 Equations are rendered on the eLife website using [**MathJax**](https://www.mathjax.org/).
