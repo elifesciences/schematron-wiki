@@ -41,7 +41,7 @@ Examples of these can be found in the next section.
 
 ### Citation order
 
-Asset placement is determined by first live citation. If figures or tables are cited out of order, this should be queried with the authors. This is covered further on the [**tables**](tables.md#tables-cited-out-of-sequence) and [**figures**](figures.md#pre-fig-specific-test-2) page. 
+Asset placement is determined by first live citation. Main figures and videos, and tables should be placed after their first citation. If they are cited out of order, this should be queried with the authors. This is covered further on the [**tables**](tables.md#tables-cited-out-of-sequence) and [**figures**](figures.md#pre-fig-specific-test-2) page. 
 
 ### Citing asset parts
 
@@ -101,7 +101,7 @@ This will also fire if the link text refers to part labels, for example 'Figure 
 <xref ref-type="fig" rid="fig4">Figure 4E2</xref>
 ```
 
-As long as the citation links to the correct figure \(Figure 4 in this case\), this warning can be ignored
+As long as the citation links to the correct figure \(Figure 4 in this case\), this warning can be ignored.
 
 #### fig-xref-conformity-4
 
@@ -156,7 +156,12 @@ Check what the correct citation should be by checking the original submission an
 
 **Warning:** _There is no space between citation and the preceding text - XXXXXX - Is this correct?_
 
-**Action:** This warning will fire if there is no space between a figure citation and the text before it, for example 'SeeFigure 2.' Add a space between the citation and the preceding text. If the text is 'See Figures 2,3' this warning will fire for the citation of Figure 3, however this is ok to leave.
+**Action:** This warning will fire if there is no space between a figure citation and the text before it, for example 'SeeFigure 2', add a space between the citation and the preceding text. If the text is 'See Figures 2,3' this warning will fire for the citation of Figure 3, however this is ok to leave.
+
+```text
+See <xref ref-type="fig" rid="fig2">Figures 2</xref>,<xref ref-type="fig" 
+rid="fig3">3</xref>
+```
 
 #### fig-xref-test-3
 
@@ -165,7 +170,14 @@ Check what the correct citation should be by checking the original submission an
 **Action:** This warning will fire if there is no space between a figure citation and the text after it, for example 'See Figure 2for.' Add a space between the citation and the following text. This will also fire if part labels \(or sub-part labels e.g. Aii\) aren't captured as part of the citation link, for example:
 
 ```text
-<xref ref-type="fig" rid="fig2">Figure 2</xref>A
+<xref ref-type="fig" rid="fig2">Figure 2</xref>Aii
+```
+
+If the text is 'See Figures 2,3' this warning will fire for the citation of Figure 2, however this is ok to leave.
+
+```text
+See <xref ref-type="fig" rid="fig2">Figures 2</xref>,<xref ref-type="fig" 
+rid="fig3">3</xref>
 ```
 
 #### fig-xref-test-4
@@ -179,7 +191,17 @@ For example, if the following text is in the caption of Figure 2:
 * "See Figure 2A \(Smith et al., 2020\)." The citation 'Figure 2A' should be changed to plain text as it refers to a figure from another article.
 * "\(B\) Further analysis of samples in Figure 2A." The 'Figure 2A' in this example should be changed to '\(A\)' as it is referring to a part label in the same figure.
 
-If the citation doesn't refer to a part label, again check if it refers to a figure from another paper - if so, change it to plain text. If the authors are simply referring to the figure in general, the citation can be left as is. If the figure has been incorrectly captured, for example, if the authors wrote 'Figure 1 - Supplemental Figure 4' and 'Figure 4' has been linked, this needs to be corrected \(in this example, to Figure 1_—_figure supplement 4\).
+If the citation doesn't refer to a part label, again check if it refers to a figure from another paper - if so, change it to plain text. If the authors are simply referring to the figure in general, the citation should be unlinked. For example, in 63042, there was a link to Figure 5 in the caption of Figure 5: 
+
+![](../../../.gitbook/assets/screenshot-2021-03-15-at-13.08.58.png)
+
+This should have been unlinked. 
+
+If it is not possible to tell whether the authors are citing a figure from the same paper or a different one, please leave the following query: 
+
+* Please confirm whether this citation refers to a figure from a different article. If it does not, we will unlink this citation. 
+
+If the figure has been incorrectly captured, for example, if the authors wrote 'Figure 1 - Supplemental Figure 4' and 'Figure 4' has been linked, this needs to be corrected \(in this example, to Figure 1_—_figure supplement 4\).
 
 #### fig-xref-test-5
 
@@ -420,7 +442,7 @@ For example, if the following text is in the caption of Table 2:
 
 **Warning**: _XXXXXX - citation points to source data, but does not include the string 'source data', which is very unusual._
 
-**Action:** This will fire if a citation of supplementary material points to a 'data' type asset but the citation text doesn't include the string 'source data', for example, if the citation text is 'File data 1' and points to 'Source data 1'. The citation text should be updated accordingly - in this example, to Source data 1. Try deleting and re-adding the correct citation but if this doesn't work, Exeter will need to update. 
+**Action:** This will fire if a citation of supplementary material does not contain the string 'source data', for example, if the citation text is 'File data 1' and points to 'Source data 1'. The citation text should be updated accordingly - in this example, to Source data 1. Try deleting and re-adding the correct citation but if this doesn't work, Exeter will need to update. In cases where this fires for text like 'See **Source data 1** and **2**', the test will fire for the **2** and can be ignored. 
 
 #### supp-file-xref-conformity-2
 
@@ -461,6 +483,18 @@ Note, supp-file-xref-conformity-4 would not fire in this case, because the numbe
 This warning will also fire if the link text refers to part labels, for example 'Supplementary file 4 - table 2'. As long as the citation links to the correct file \(Supplementary file 4 in this case\), this warning can be ignored. 
 
 Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this. 
+
+#### supp-file-xref-conformity-6
+
+**Error**: _XXXXXX - citation points to source data but contains the string 'source datas', which is grammatically incorrect. It should be source data instead._
+
+**Action:**  To be added
+
+#### supp-file-xref-conformity-7
+
+**Error**: _XXXXXX - citation points to source code but contains the string 'source codes', which is grammatically incorrect. It should be source code instead._
+
+**Action:**  To be added
 
 #### supp-file-xref-test-1
 
@@ -542,7 +576,7 @@ Check what the correct citation should be by checking the original submission an
 
 **Warning**: _XXXXXX element contains the phrase ' Supplemental figure ' which almost certainly needs updating. XXXXXX starts with - XXXXXX_
 
-**Action:** This warning will fire if the phrase 'Supplemental figure' is present anywhere in an article. If the authors are referring to a figure supplement in the article, the citation should be updated accordingly to match eLife's format \(i.e. 'Figure supplement' instead of 'Supplemental figure'\). If the authors are referring to a supplemental figure in another article, this should be left as is. If it is unclear, the following query should be left:
+**Action:** This warning will fire if the phrase 'supplemental figure' is present anywhere in an article. If the authors are referring to a figure supplement in the article, the citation should be updated accordingly to match eLife's format \(i.e. 'figure supplement' instead of 'supplemental figure'\). If the authors are referring to a supplemental figure in another article, this should be left as is. If it is unclear, the following query should be left:
 
 * Please confirm which figure this refers to, or confirm that this citation refers to a figure in another article.
 
@@ -552,7 +586,7 @@ If the authors are just generically referring to 'supplemental figures', for exa
 
 **Warning**: _XXXXXX element contains the phrase ' Supplemental file ' which almost certainly needs updating. XXXXXX starts with - XXXXXX_
 
-**Action:** This warning will fire if the phrase 'Supplemental file' is present anywhere in an article. If the authors are referring to a figure file in the article, the citation should be updated accordingly to match eLife's format \(i.e. 'Supplementary file' instead of 'Supplemental file'\). If the authors are referring to a supplemental file in another article, this should be left as is. If it is unclear, the following query should be left:
+**Action:** This warning will fire if the phrase 'supplemental file' is present anywhere in an article. If the authors are referring to a figure file in the article, the citation should be updated accordingly to match eLife's format \(i.e. 'supplementary file' instead of 'supplemental file'\). If the authors are referring to a supplemental file in another article, this should be left as is. If it is unclear, the following query should be left:
 
 * Please confirm which supplementary file this refers to, or confirm that this citation refers to a file from another article.
 
@@ -562,7 +596,7 @@ If the authors are just generically referring to 'supplemental files', for examp
 
 **Warning**: _XXXXXX element contains the phrase ' Supplementary figure ' which almost certainly needs updating. If it's unclear which figure/figure supplement should be cited, please query the authors. XXXXXX starts with - XXXXXX_
 
-**Action:** This warning will fire if the phrase 'Supplementary figure' is present anywhere in an article. If the authors are referring to a figure supplement in the article, the citation should be updated accordingly to match eLife's format \(i.e. 'Figure supplement' instead of 'Supplementary figure'\). If the authors are referring to a supplementary figure in another article, this should be left as is. If it is unclear, the following query should be left:
+**Action:** This warning will fire if the phrase 'supplementary figure' is present anywhere in an article. If the authors are referring to a figure supplement in the article, the citation should be updated accordingly to match eLife's format \(i.e. 'figure supplement' instead of 'supplementary figure'\). If the authors are referring to a supplementary figure in another article, this should be left as is. If it is unclear, the following query should be left:
 
 * Please confirm which figure this refers to, or confirm that this citation refers to a figure in another article.
 
@@ -572,7 +606,7 @@ If the authors are just generically referring to 'supplementary figures', for ex
 
 **Warning**: _XXXXXX element contains the phrase 'Supplementary table' or 'Supplemental table'. Does it need updating? If it's unclear what should be cited, please query the authors. XXXXXX starts with - XXXXXX_
 
-**Action:** This warning will fire if the phrase 'Supplementary table' is present anywhere in an article. The authors may be referring to a table, figure supplement, figure/article source data or supplementary file. If they are referring to a figure supplement which is a table provided as an image, this will need to be addressed \(see more [**here**](figures.md#tables-in-figures) and [**here**](figures.md#tables-labelled-as-figures)\). If the authors are referring to a table, figure/article source data or supplementary file, the citation should be updated accordingly to match eLife's format. If the authors are referring to a supplementary table in another article, this should be left as is. If it is unclear, the following query should be left:
+**Action:** This warning will fire if the phrase 'supplementary table' is present anywhere in an article. The authors may be referring to a table, figure supplement, figure/article source data or supplementary file. If they are referring to a figure supplement which is a table provided as an image, this will need to be addressed \(see more [**here**](figures.md#tables-in-figures) and [**here**](figures.md#tables-labelled-as-figures)\). If the authors are referring to a table, figure/article source data or supplementary file, the citation should be updated accordingly to match eLife's format. If the authors are referring to a supplementary table in another article, this should be left as is. If it is unclear, the following query should be left:
 
 * Please confirm which table or file this refers to, or confirm that this citation refers to another article.
 
@@ -582,13 +616,19 @@ If the authors are just generically referring to 'supplementary tables', for exa
 
 **Error**: _xref with @ref-type='XXXXXX' points to an element with an @id='XXXXXX', but no such element exists._
 
-**Action:** This will fire if there is a reference to an element which does not exist in the article. This may be because the authors need to be queried for a missing figure or file. 
+**Action:** This will fire if there is a reference to an element which does not exist in the article. This is likely a bug and will need Exeter support to fix.
 
 #### empty-xref-test
 
 **Error**: _Empty xref in the body is not allowed. Its position here in the text - "XXXXXX"._
 
-**Action:** This will fire if there are any citation links within the main body of the text without citation text \(essentially rendering them invisible\). Exeter will need to correct this. 
+**Action:** This will fire if there are any citation links within the main body of the text without citation text \(essentially rendering them invisible\). 
+
+```text
+<p>Here is a citation <xref ref-type="bibr" rid="bib25"/> to a reference.</p>
+```
+
+Exeter will need to correct this. 
 
 #### semi-colon-xref-test
 
@@ -597,9 +637,13 @@ If the authors are just generically referring to 'supplementary tables', for exa
 **Action:** This will fire if a citation ends with a semi-colon:
 
 ```text
-<xref ref-type="fig" rid="fig1">Figure 1; </xref><xref ref-type="fig" rid="fig4">
-Figure 4</xref></p>
+are problematic (<xref ref-type="fig" rid="fig1">Figure 1;</xref> <xref ref-type="fig" rid="fig4">
+Figure 4</xref>).</p>
 ```
+
+![](../../../.gitbook/assets/screenshot-2021-03-15-at-08.59.34.png)
+
+![](../../../.gitbook/assets/screenshot-2021-03-15-at-09.02.06.png)
 
 This is incorrect as the semi-colon should not be included in the link text. Remove the semi-colon from the link text and make sure it is marked as plain text. 
 

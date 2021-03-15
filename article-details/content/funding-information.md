@@ -5,7 +5,7 @@ description: How to manage funding information for eLife's articles
 # Funding
 
 {% hint style="info" %}
-For the changelog, click [**here**](funding-information.md#changelog).
+For the changelog, click [**here**](funding-information.md#changelog). Updated 15/03/2021
 {% endhint %}
 
 ## What is the funding section?
@@ -467,6 +467,12 @@ If the authors confirm no funding was received, make sure the funding statement 
 
 **Action:** institution-id elements should only contain fundref dois. It should be impossible for this error to occur - please contact the Production team if you see it. 
 
+#### other-xref-target-test
+
+**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
+
+**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to an award group, then the `ref-type` attribute value must be 'other'. If the link is meant to point to something else, which is not an award group, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
+
 ## XML structure
 
 Article with funding
@@ -536,4 +542,10 @@ Article with no funding
 **Changes**
 
 * Added funding-group-test-4.
+
+**15/03/2021**
+
+* Added other-xref-target-test.
+
+\*\*\*\*
 
