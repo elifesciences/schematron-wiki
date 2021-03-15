@@ -16,16 +16,17 @@ Where multiple assets are cited in one set of brackets, each citation should be 
 
 The table below outlines which assets require in-text citations:
 
-| **Asset** | **Requires in-text citation?** |
+| **Asset** | **In-text citation** |
 | :--- | :--- |
-| Figures, videos, animations and tables | Yes |
-| Supplementary figures | No |
-| Figure videos | No |
-| Figure/video/animation/table source data or code | No |
-| Source code, source data, supplementary files | No |
-| Equations | No |
-| Chemical structures | No |
-| Schemes | No |
+| Figures, videos, animations and numbered tables | Mandatory |
+| In-line tables | Optional |
+| Supplementary figures | Optional |
+| Figure videos | Optional |
+| Figure/video/animation/table source data or code | Optional |
+| Source code, source data, supplementary files | Optional |
+| Equations | Optional |
+| Chemical structures | Optional |
+| Schemes | Optional |
 
 ## What needs to be checked?
 
