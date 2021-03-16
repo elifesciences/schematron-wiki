@@ -215,6 +215,8 @@ $$\overrightarrow{AB}\hspace{90pt} \underleftarrow{AB}\hspace{90pt} \underleftri
 
 `\mathfrak{AaBbCcDdEe}` $$\mathfrak{AaBbCcDdEe}$$
 
+`\mathcal{AaBbCcDdEe}` $$\mathcal{AaBbCcDdEe}$$
+
 ### Fences \(brackets\)
 
 `() [] \Big[\Big] \{\} \langle \rangle \lfloor \rfloor \lceil \rceil | \|` 
