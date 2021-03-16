@@ -4,7 +4,7 @@ description: Mathematical content in eLife articles
 
 # Maths
 
-Many eLife articles contain maths. It can be rendered inline \(inline with the text in a paragraph/list item/table cell or similar\) or as display equations. eLife captures math content either as plain text \(for simple maths\) or as [**MathML**](https://en.wikipedia.org/wiki/MathML) which is a mathematical markup language. Similarly, in their original files, authors can capture maths in varying ways - either as plain text, as MathML \(by using an equation editor in Word or similar word processors\), in [**LaTeX**](https://en.wikipedia.org/wiki/LaTeX), or in other ways \(see also [**What can equations contain**](maths.md#what-can-equations-contain)\).
+Many eLife articles contain maths. It can be rendered inline \(inline with the text in a paragraph/list item/table cell or similar\) or as display equations \(equations which are given extra emphasis by being distinct from the text and, in some cases labelled and cited elsewhere in the text\). eLife captures math content either as plain text \(for simple maths\) or as [**MathML**](https://en.wikipedia.org/wiki/MathML) which is a mathematical markup language. Similarly, in their original files, authors can capture maths in varying ways - either as plain text, as MathML \(by using an equation editor in Word or similar word processors\), in [**LaTeX**](https://en.wikipedia.org/wiki/LaTeX), or in other ways \(see also [**What can equations contain**](maths.md#what-can-equations-contain)\).
 
 The equation editor in Kriya uses LaTeX notation, which is then converted to MathML for inclusion in the XML.
 
@@ -64,7 +64,9 @@ For example, until recently PubMed were unable to render mathML in abstracts. As
 
 ## Display equation labelling
 
-Display equation labels do not need to be distinct throughout the entire article, but they **do** need to be distinct within the main body, and within an appendix. This means that the label numbering can being again in an appendix, i.e. there can be an equation with the label `(1)` in the main body, in Appendix 1, Appendix 2 and so on, but there cannot be more than one equation with the label `(1)` within the main body of an article, or within a single appendix.
+Display equation labels do not need to be distinct throughout the entire article, but they **do** need to be distinct within the main body, and within an appendix. This means that the label numbering can begin again in an appendix, i.e. there can be an equation with the label `(1)` in the main body, in Appendix 1, Appendix 2 and so on, but there cannot be more than one equation with the label `(1)` within the main body of an article, or within a single appendix.
+
+Note that eLife permits different styles of labels, for example, \(1\), 1, 1a, 1b, A1, 1.1, A1.1 etc.
 
 ## Adding maths in Kriya
 
