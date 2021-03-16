@@ -385,6 +385,10 @@ At pre-author stages, unless these symbols or numbers are used in an inline form
 
 A cation is a positively charged ion \(which would be attracted to the cathode in electrolysis\). It can be identified in the text as it will look like a chemical element followed by a superscript plus \(+\) sign and superscript or subscript numbers.
 
+Here are some more examples of cations:
+
+$$Al^{+3}\quad Ba^{+2}\quad Cs^{+}\quad K^{+}\quad Zn^{+2}$$
+
 #### **math-test-16**
 
 **Warning**: _mml:math seems to only contain the formula for an anion - 'XXXXXX' - which is likely unnecessary. Should this be captured as normal text instead?_
@@ -394,6 +398,10 @@ A cation is a positively charged ion \(which would be attracted to the cathode i
 At pre-author stages, unless the anion is used in an inline formula and referring in the text to particular parts of a display formula, then they can be changed to plain text. At post-author stages, if the authors have deliberately added these as equations, then they should be left as equations. Otherwise they can be changed to plain text.
 
 An anion is a negatively charged ion \(which would be attracted to the anode in electrolysis\). It can be identified in the text as it will look like a chemical element followed by a superscript minus \(-\) sign and superscript or subscript numbers.
+
+Here are some more examples of anions:
+
+$$Br^{-}\quad F^{-}\quad N^{3-}\quad O^{2-}\quad S^{-}$$
 
 #### **math-test-17**
 
