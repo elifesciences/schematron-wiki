@@ -6,7 +6,7 @@ description: Task tracking with Toggl
 
 ## What is Toggl?
 
-[**Toggl track**](https://toggl.com/) is a time-tracking application that the eLife production team uses to monitor how much time is spent on different tasks. This information will be used to monitor the effect of changes to workflows, to track the distribution of work compared to article volumes, to double-check the team has time to work on projects outside the day-to-day tasks, and so on.
+[**Toggl track**](https://toggl.com/) is a time-tracking application that the eLife production team uses to monitor how much time is spent on different tasks. This information will be used to monitor the effect of changes to workflows, to track the distribution of work compared to article volumes, to monitor the team's availability to work on projects outside the day-to-day tasks, and so on.
 
 The Toggl interface works via self-reporting, with the user required to start and stop the timer. The user can add a manual description of the task, assign it to a preset ‘project’ and add one or more preset tags.
 
@@ -35,7 +35,7 @@ The following is a full list of projects and the associated tags currently in us
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#continuum-checks"><b>Continuum Checks</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#continuum-checks"><b>Continuum checks</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">New version</td>
     </tr>
@@ -52,7 +52,7 @@ The following is a full list of projects and the associated tags currently in us
         <p>Emails: proof access</p>
         <p>Emails: proof edits</p>
         <p>Emails: proof return delay</p>
-        <p>Emails: Pub date query</p>
+        <p>Emails: pub date query</p>
         <p>Emails: reproducibility</p>
         <p>Emails: software</p>
         <p>Emails: striking images</p>
@@ -75,7 +75,7 @@ The following is a full list of projects and the associated tags currently in us
       style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#home-page"><b>Home page</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#home-page"><b>Homepage</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left"></td>
     </tr>
@@ -105,12 +105,12 @@ The following is a full list of projects and the associated tags currently in us
       style="text-align:left">New version</td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#pub-check"><b>Pub Check</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#pub-check"><b>Pub check</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#pub-review"><b>Pub Review</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#pub-review"><b>Pub review</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">New version</td>
     </tr>
@@ -204,7 +204,7 @@ This is used to record time spent working on the production GitBook. The descrip
 
 This is used to track time spent on GitLab tickets opened with the production vendor, usually related to bugs and improvements in the proofing system.
 
-### Home page
+### Homepage
 
 **Recommended description**:
 
