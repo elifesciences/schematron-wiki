@@ -343,7 +343,7 @@ If Exeter are unsure, they can query the eLife production team via slack for ins
 
 Check if the character has been used in a display equation elsewhere. If it has, and this is being used to denote that same variable, then it _must_ be left as an inline equation to retain consistent font throughout the article.
 
-Typically, if this character has been used to communicate micro, such as in 'μm', or similar, then it can be deleted however this is not _certainly_ the case. If in doubt, leave this character as an equation unless the authors specify otherwise during proofing.
+Typically, if this character has been used to communicate micro, such as in 'μm', or similar, then it can be converted to plain text however this is not _certainly_ the case. If in doubt, leave this character as an equation unless the authors specify otherwise during proofing.
 
 #### **math-test-9**
 
