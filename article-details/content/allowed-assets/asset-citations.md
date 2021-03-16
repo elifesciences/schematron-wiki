@@ -192,7 +192,7 @@ For example, if the following text is in the caption of Figure 2:
 * "See Figure 2A \(Smith et al., 2020\)." The citation 'Figure 2A' should be changed to plain text as it refers to a figure from another article.
 * "\(B\) Further analysis of samples in Figure 2A." The 'Figure 2A' in this example should be changed to '\(A\)' as it is referring to a part label in the same figure.
 
-If the citation doesn't refer to a part label, again check if it refers to a figure from another paper - if so, change it to plain text. If the authors are simply referring to the figure in general, the citation should be unlinked. For example, in 63042, there was a link to Figure 5 in the caption of Figure 5: 
+If the citation doesn't refer to a part label, again check if it refers to a figure from another paper - if so, change it to plain text. If the authors are simply referring to the figure in general, the citation should be unlinked. For example, [**in 63042**,](https://elifesciences.org/articles/63042#fig5) there was a link to Figure 5 in the caption of Figure 5: 
 
 ![](../../../.gitbook/assets/screenshot-2021-03-15-at-13.08.58.png)
 
@@ -202,7 +202,7 @@ If it is not possible to tell whether the authors are citing a figure from the s
 
 * Please confirm whether this citation refers to a figure from a different article. If it does not, we will unlink this citation. 
 
-If the figure has been incorrectly captured, for example, if the authors wrote 'Figure 1 - Supplemental Figure 4' and 'Figure 4' has been linked, this needs to be corrected \(in this example, to Figure 1_—_figure supplement 4\).
+If the figure has been incorrectly captured, for example, if \(in the caption of Figure 4\) the authors wrote 'Figure 1 - Supplemental Figure 4' and only 'Figure 4' has been linked, this citation needs to be corrected \(in this example, to Figure 1_—_figure supplement 4\).
 
 #### fig-xref-test-5
 
@@ -309,12 +309,24 @@ rid="video3">3,</xref>.
 
 **Warning**: _XXXXXX - video citation is in the caption of the video that it links to. Is it correct or necessary?_
 
-**Action:** If the video citation refers to a figure from another paper, this needs to be changed to plain text. If it is simply referring to the video itself, it can be retained.
+**Action:** If the video citation refers to a video from another paper, this needs to be changed to plain text. If it is simply referring to the video itself, it should be unlinked \(changed to plain text\).
 
 For example, if the following text is in the caption of Video 2:
 
-* "See Video 2 \(Smith et al., 2020\)." The citation 'Video 2' should be changed to plain text as it refers to a figure from another article.
-* "Video 2 shows further analysis." The citation of 'Video 2' in this example can just be retained.
+* "See Video 2 \(Smith et al., 2020\)." The citation 'Video 2' should be changed to plain text as it refers to a video from another article.
+* "Video 2 shows further analysis." The citation of 'Video 2' in this example should be unlinked.
+
+For example, [**in 63205**](https://elifesciences.org/articles/63205#video3), there was a link to Video 3 in the caption of Video 3:
+
+![](../../../.gitbook/assets/screenshot-2021-03-16-at-07.20.40.png)
+
+This should have been unlinked. 
+
+If it is not possible to tell whether the authors are citing a video from the same paper or a different one, please leave the following query: 
+
+* Please confirm whether this citation refers to a video from a different article. If it does not, we will unlink this citation. 
+
+If the video has been incorrectly captured, for example, if \(in the caption of Video 4\) the authors wrote 'Figure 1 - video 4' and only 'video 4' has been linked, this citation needs to be corrected \(in this example, to Figure 1_—_ video 4\).
 
 #### vid-xref-test-5
 
@@ -398,12 +410,28 @@ Check what the correct citation should be by checking the original submission an
 
 **Warning**: _'XXXXXXX' - Citation is in the caption of the Table that it links to. Is it correct or necessary?_
 
-**Action:** If the table citation refers to a table from another paper, this needs to be changed to plain text. If it is simply referring to the video itself, it can be retained.
+**Action:** If the table \(or its caption\) contains a citation to a table from another paper, this needs to be changed to plain text. If it is simply referring to the table itself, it should be unlinked \(changed to plain text\).
 
 For example, if the following text is in the caption of Table 2:
 
-* "See Table 2 \(Smith et al., 2020\)." The citation 'Table 2' should be changed to plain text as it refers to a figure from another article.
-* "Table 2 shows further analysis." The citation of 'Table 2' in this example can just be retained.
+* "See Table 2 \(Smith et al., 2020\)." The citation 'Table 2' should be changed to plain text as it refers to a table from another article.
+* "Table 2 shows further analysis." The citation of 'Table 2' in this example should be unlinked.
+
+If the citation doesn't refer to a part label, again check if it refers to a table from another paper - if so, change it to plain text. If the authors are simply referring to the figure in general, the citation should be unlinked. For example, [**in 49115**](https://elifesciences.org/articles/49115#table2), there were citations to Table 2 within Table 2:
+
+![](../../../.gitbook/assets/screenshot-2021-03-16-at-07.31.28.png)
+
+These should have been unlinked - and in this case, just changed to 'A' and 'B'. 
+
+ Similarly, [**in 49979**](https://elifesciences.org/articles/49979#table2), there was a citation to Table 2 within the caption of Table 2:
+
+![](../../../.gitbook/assets/screenshot-2021-03-16-at-07.34.46.png)
+
+This should have been unlinked. 
+
+If it is not possible to tell whether the authors are citing a table from the same paper or a different one, please leave the following query: 
+
+* Please confirm whether this citation refers to a table from a different article. If it does not, we will unlink this citation. 
 
 #### table-xref-test-2
 
@@ -501,12 +529,25 @@ Check what the correct citation should be by checking the original submission an
 
 **Warning**: _XXXXXX - Citation is in the caption of the Supplementary file that it links to. Is it correct or necessary?_
 
-**Action:** If a citation of supplementary material refers to a file from another paper, this needs to be changed to plain text. If it is simply referring to the supplementary material itself, it can be retained.
+**Action:** If a citation of supplementary material refers to material from another paper, this needs to be changed to plain text. If it is simply referring to the supplementary material itself, it should be unlinked \(changed to plain text\). If it is referring to a sub-part of the supplementary material, it can be changed to a part label. 
 
 For example, if the following text is in the caption of Supplementary file 2:
 
-* "See Supplementary file 2 \(Smith et al., 2020\)." The citation 'Supplementary file 2' should be changed to plain text as it refers to a figure from another article.
-* "Supplementary file 2 shows further analysis." The citation of 'Supplementary file 2' in this example can just be retained.
+* "See Supplementary file 2 \(Smith et al., 2020\)." The citation 'Supplementary file 2' should be changed to plain text as it refers to a file from another article.
+* "Supplementary file 2 shows further analysis." The citation of 'Supplementary file 2' in this example should be unlinked.
+* "Supplementary file 2A shows further analysis." The citation of 'Supplementary file 2A' in this example should be changed to '\(A\)' as it is referring to a sub-part of the file.
+
+If the citation doesn't refer to a part label, again check if it refers to a file from another paper - if so, change it to plain text. If the authors are simply referring to the file in general, the citation should be unlinked. For example**,** [**in 49496**](https://elifesciences.org/articles/49496/figures#supp1), there were links to Supplementary file 1 in the caption of Supplementary file 1:
+
+![](../../../.gitbook/assets/screenshot-2021-03-16-at-07.40.29.png)
+
+These should have been changed to parts 'a' and 'b'. 
+
+If it is not possible to tell whether the authors are citing a supplementary file from the same paper or a different one, please leave the following query: 
+
+* Please confirm whether this citation refers to a supplementary file from a different article. If it does not, we will unlink this citation. 
+
+If the figure has been incorrectly captured, for example, if \(in the caption of Supplementary file 1\) the authors wrote 'Figure 1 - supplementary file 1' and only 'supplementary file 1' has been linked, this citation needs to be corrected \(in this example, to Figure 1_—_ figure supplement 1\). 
 
 #### supp-xref-test-2
 
