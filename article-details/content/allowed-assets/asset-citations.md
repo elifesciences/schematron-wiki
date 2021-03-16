@@ -759,6 +759,14 @@ The bold tags will need to be removed in this case.
 
 ## XML structure
 
+| **Asset** | **Ref type** |
+| :--- | :--- |
+| Main figures and figure supplements | xref ref-type="fig" |
+| Main and figure videos | xref ref-type="video" |
+| Main table | xref ref-type="table" |
+| Equation | xref ref-type="disp-formula" |
+| Asset or source data and code and supplementary files | xref ref-type="supplementary-material" |
+
 Figure citation
 
 ```markup
