@@ -82,7 +82,9 @@ These checks relate to the content of asset citations. X or XXXXXX refers to quo
 <xref ref-type="fig" rid="fig3">Figure 2</xref>
 ```
 
-Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this.
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this:
+
+* Please confirm which figure this refers to, or confirm that this citation refers to a figure in another article. 
 
 #### fig-xref-conformity-3
 
@@ -94,7 +96,9 @@ Check what the correct citation should be by checking the original submission an
 <xref ref-type="fig" rid="fig2">Figure 21</xref>
 ```
 
-Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this.
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this:
+
+* Please confirm which figure this refers to, or confirm that this citation refers to a figure in another article. 
 
 This will also fire if the link text refers to part labels, for example 'Figure 4E2':
 
@@ -151,7 +155,9 @@ Try to add the citation again through Kriya - if this doesn't work, Exeter will 
 <xref ref-type="video" rid="video2">Video 1</xref>
 ```
 
-Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this.
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this:
+
+* Please confirm which video this refers to, or confirm that this citation refers to a video in another article. 
 
 #### fig-xref-test-2
 
@@ -228,11 +234,15 @@ If the figure has been incorrectly captured, for example, if \(in the caption of
 
 **Action:** This warning will fire if a figure citation is preceded by the word _'_their', for example 'Smith et al., 1992, their Figure 2.' As this is referring to Figure 2 in a different paper, this citation should be unlinked. If it isn't possible to tell from the context whether the authors are referring to a figure in a different paper, a query should be left - see more [**here**](figures.md#in-text-citations). 
 
+* Please confirm which figure this refers to, or confirm that this citation refers to a figure in another article. 
+
 #### fig-xref-test-9
 
 **Warning:** _Is this figure citation a reference to a figure from other content \(and as such should be captured instead as plain text\)? - XXXXXX'._
 
 **Action:** This warning will fire if a figure citation is followed by the word _'_of', for example 'Figure 2 of Smith et al., 1992.' As this is referring to Figure 2 in a different paper, this citation should be unlinked. If it isn't possible to tell from the context whether the authors are referring to a figure in a different paper, a query should be left - see more [**here**](figures.md#in-text-citations). 
+
+* Please confirm which figure this refers to, or confirm that this citation refers to a figure in another article. 
 
 #### fig-xref-test-10
 
@@ -396,7 +406,9 @@ In these cases, the citation should be updated so it links to the appropriate fi
 
 **Action**: This will fire at all stages if the text in a main text table citation does not contain the number of the label that the table directs to, for example if **Table 2**, links to Table 3. 
 
-Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this.
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this:
+
+* Please confirm which table this refers to, or confirm that this citation refers to a table in another article. 
 
 #### table-xref-conformity-4
 
@@ -404,7 +416,9 @@ Check what the correct citation should be by checking the original submission an
 
 **Action**: This will fire at all stages if the text in an appendix table citation does not contain the number of the label that the table directs to, for example if **Appendix 1–table 1**, links to Appendix 1–table 2. 
 
-Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this.
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this:
+
+* Please confirm which table this refers to, or confirm that this citation refers to a table in another article. 
 
 #### table-xref-test-1
 
@@ -495,7 +509,9 @@ If it is not possible to tell whether the authors are citing a table from the sa
 <xref ref-type="supplementary-material" rid="supp1">Supplementary file 2</xref>
 ```
 
-Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this. 
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this:
+
+* Please confirm which supplementary file this refers to, or confirm that this citation refers to a file in another article.
 
 #### supp-file-xref-conformity-5
 
@@ -511,7 +527,9 @@ Note, supp-file-xref-conformity-4 would not fire in this case, because the numbe
 
 This warning will also fire if the link text refers to part labels, for example 'Supplementary file 4 - table 2'. As long as the citation links to the correct file \(Supplementary file 4 in this case\), this warning can be ignored. 
 
-Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this. 
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this:
+
+* Please confirm which supplementary file this refers to, or confirm that this citation refers to a file in another article. 
 
 #### supp-file-xref-conformity-6
 
@@ -600,7 +618,9 @@ In these cases, the citation should be updated so it links to the appropriate fi
 
 **Action**: This will fire at all stages if the text in an equation citation does not contain the number of the equation that the citation directs to, for example if **Equation 2**, links to Equation 3. 
 
-Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this.
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this \(replace XXXXXX with 'equation'\):
+
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
 
 #### equ-xref-conformity-**3**
 
@@ -618,9 +638,9 @@ Check what the correct citation should be by checking the original submission an
 
 **Warning**: _XXXXXX element contains the phrase ' Supplemental figure ' which almost certainly needs updating. XXXXXX starts with - XXXXXX_
 
-**Action:** This warning will fire if the phrase 'supplemental figure' is present anywhere in an article. If the authors are referring to a figure supplement in the article, the citation should be updated accordingly to match eLife's format \(i.e. 'figure supplement' instead of 'supplemental figure'\). If the authors are referring to a supplemental figure in another article, this should be left as is. If it is unclear, the following query should be left:
+**Action:** This warning will fire if the phrase 'supplemental figure' is present anywhere in an article. If the authors are referring to a figure supplement in the article, the citation should be updated accordingly to match eLife's format \(i.e. 'figure supplement' instead of 'supplemental figure'\). If the authors are referring to a supplemental figure in another article, this should be left as is. If it is unclear, the following query should be left \(replace XXXXXX with 'figure'\):
 
-* Please confirm which figure this refers to, or confirm that this citation refers to a figure in another article.
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article. 
 
 If the authors are just generically referring to 'supplemental figures', for example in the data availability statement, this can just be updated to 'figure supplements'.
 
@@ -628,9 +648,9 @@ If the authors are just generically referring to 'supplemental figures', for exa
 
 **Warning**: _XXXXXX element contains the phrase ' Supplemental file ' which almost certainly needs updating. XXXXXX starts with - XXXXXX_
 
-**Action:** This warning will fire if the phrase 'supplemental file' is present anywhere in an article. If the authors are referring to a figure file in the article, the citation should be updated accordingly to match eLife's format \(i.e. 'supplementary file' instead of 'supplemental file'\). If the authors are referring to a supplemental file in another article, this should be left as is. If it is unclear, the following query should be left:
+**Action:** This warning will fire if the phrase 'supplemental file' is present anywhere in an article. If the authors are referring to a figure file in the article, the citation should be updated accordingly to match eLife's format \(i.e. 'supplementary file' instead of 'supplemental file'\). If the authors are referring to a supplemental file in another article, this should be left as is. If it is unclear, the following query should be left \(replace XXXXXX with 'supplementary file'\):
 
-* Please confirm which supplementary file this refers to, or confirm that this citation refers to a file from another article.
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article. 
 
 If the authors are just generically referring to 'supplemental files', for example in the data availability statement, this can just be updated to 'supplementary files'.
 
@@ -638,9 +658,9 @@ If the authors are just generically referring to 'supplemental files', for examp
 
 **Warning**: _XXXXXX element contains the phrase ' Supplementary figure ' which almost certainly needs updating. If it's unclear which figure/figure supplement should be cited, please query the authors. XXXXXX starts with - XXXXXX_
 
-**Action:** This warning will fire if the phrase 'supplementary figure' is present anywhere in an article. If the authors are referring to a figure supplement in the article, the citation should be updated accordingly to match eLife's format \(i.e. 'figure supplement' instead of 'supplementary figure'\). If the authors are referring to a supplementary figure in another article, this should be left as is. If it is unclear, the following query should be left:
+**Action:** This warning will fire if the phrase 'supplementary figure' is present anywhere in an article. If the authors are referring to a figure supplement in the article, the citation should be updated accordingly to match eLife's format \(i.e. 'figure supplement' instead of 'supplementary figure'\). If the authors are referring to a supplementary figure in another article, this should be left as is. If it is unclear, the following query should be left \(replace XXXXXX with 'figure'\):
 
-* Please confirm which figure this refers to, or confirm that this citation refers to a figure in another article.
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article. 
 
 If the authors are just generically referring to 'supplementary figures', for example in the data availability statement, this can just be updated to 'figure supplements'.
 
@@ -648,9 +668,9 @@ If the authors are just generically referring to 'supplementary figures', for ex
 
 **Warning**: _XXXXXX element contains the phrase 'Supplementary table' or 'Supplemental table'. Does it need updating? If it's unclear what should be cited, please query the authors. XXXXXX starts with - XXXXXX_
 
-**Action:** This warning will fire if the phrase 'supplementary table' is present anywhere in an article. The authors may be referring to a table, figure supplement, figure/article source data or supplementary file. If they are referring to a figure supplement which is a table provided as an image, this will need to be addressed \(see more [**here**](figures.md#tables-in-figures) and [**here**](figures.md#tables-labelled-as-figures)\). If the authors are referring to a table, figure/article source data or supplementary file, the citation should be updated accordingly to match eLife's format. If the authors are referring to a supplementary table in another article, this should be left as is. If it is unclear, the following query should be left:
+**Action:** This warning will fire if the phrase 'supplementary table' is present anywhere in an article. The authors may be referring to a table, figure supplement, figure/article source data or supplementary file. If they are referring to a figure supplement which is a table provided as an image, this will need to be addressed \(see more [**here**](figures.md#tables-in-figures) and [**here**](figures.md#tables-labelled-as-figures)\). If the authors are referring to a table, figure/article source data or supplementary file, the citation should be updated accordingly to match eLife's format. If the authors are referring to a supplementary table in another article, this should be left as is. If it is unclear, the following query should be left \(replace XXXXXX with 'table or file'\):
 
-* Please confirm which table or file this refers to, or confirm that this citation refers to another article.
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article
 
 If the authors are just generically referring to 'supplementary tables', for example in the data availability statement, check from the context to see what they are referring to. If it is a reference to tables, figure/article source data or supplementary files, this should just be updated according to eLife's style.
 
