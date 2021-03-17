@@ -82,6 +82,10 @@ When you need to delete an equation in Kriya, **do not** do so by opening the eq
 
 Instead equation should be deleted by backspacing or deleting the equation as you would with normal text.
 
+### A note on Kriya 1
+
+There is an issue in Kriya 1.5 whereby if an equation which just contains 0 alone, it will not be rendered or included in the XML. In these cases, it will have to be captured as plain text instead, unless of course the 0 is incorrectly captured as a standalone equation, in which case it should be included as part of the larger equation that it belongs and the standalone equation deleted.
+
 ## Mathpix Snip
 
 If you are unfamiliar with LaTeX notation, then you can use a tool such as [**Mathpix snip**](https://mathpix.com/) to screenshot a picture of the maths, it will then provide you with the latex notation. Note that this is free for up to 50 pictures a month.
