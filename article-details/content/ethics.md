@@ -64,7 +64,7 @@ Clinical trial registration Clinical Trials.gov no. NCT02752672.
 
 **Error:** _fn-group\[@content-type='ethics-information'\] must have a title that contains 'Ethics'. Currently it is 'XXXXXX'._
 
-**Action:** This error will show if the title is anything but 'Ethics', the title should be corrected to 'Ethics'.  As this is in the meta data, Exeter's support team would need to fix this. 
+**Action:** This error will show if the title is anything but 'Ethics', the title should be corrected to 'Ethics'. This test is looking for an exact match so 'Ethic' or any other spelling mistake is not allowed. As this is in the meta data, Exeter's support team would need to fix this. 
 
 #### ethics-broken-unicode-test
 
