@@ -342,6 +342,8 @@ If it is not possible to tell whether the authors are citing a video from the sa
 
 * Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
 
+The citation will then need to be dealt with depending on the author's response. 
+
 #### vid-xref-test-5
 
 **Error**: _XXXXXX - Video citation is in a reference to a video from a different paper, and therefore must be unlinked._
@@ -410,9 +412,9 @@ In these cases, the citation should be updated so it links to the appropriate fi
 
 **Action**: This will fire at all stages if the text in a main text table citation does not contain the number of the label that the table directs to, for example if **Table 2**, links to Table 3. 
 
-Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this:
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this \(replace XXXXXX with 'table'\):
 
-* Please confirm which table this refers to, or confirm that this citation refers to a table in another article. 
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
 
 #### table-xref-conformity-4
 
@@ -420,9 +422,9 @@ Check what the correct citation should be by checking the original submission an
 
 **Action**: This will fire at all stages if the text in an appendix table citation does not contain the number of the label that the table directs to, for example if **Appendix 1–table 1**, links to Appendix 1–table 2. 
 
-Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this:
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this \(replace XXXXXX with 'table'\):
 
-* Please confirm which table this refers to, or confirm that this citation refers to a table in another article. 
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
 
 #### table-xref-test-1
 
@@ -447,9 +449,9 @@ These should have been unlinked - and in this case, just changed to 'A' and 'B'.
 
 This should have been unlinked. 
 
-If it is not possible to tell whether the authors are citing a table from the same paper or a different one, please leave the following query: 
+If it is not possible to tell whether the authors are citing a table from the same paper or a different one, please leave the following query \(replace XXXXXX with 'table'\):
 
-* Please confirm whether this citation refers to a table from a different article. If it does not, we will unlink this citation. 
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
 
 #### table-xref-test-2
 
@@ -467,9 +469,9 @@ If it is not possible to tell whether the authors are citing a table from the sa
 
 **Warning**: _'Incomplete citation. Table citation is followed by text which suggests it should instead be a link to source data or code - 'XXXXXX'._
 
-**Action**: This will fire at all stages for pieces of text like - 'See **Table 1**–Source data 1', where only Table 1 is linked. In these cases, the citation should be updated to link to the source data file \(provided there is one\). If there is no source data, but it has been referred to, then the following author query needs to be added:
+**Action**: This will fire at all stages for pieces of text like - 'See **Table 1**–Source data 1', where only Table 1 is linked. In these cases, the citation should be updated to link to the source data file \(provided there is one\). If there is no source data, but it has been referred to, then the following author query needs to be added \(replace XXXXXX with 'source data' or 'source code'\):
 
-* XXXXXX is cited in the text but has not been provided. Please either correct the citation, provide the file and a title and legend, or confirm that this citation refers to another article.
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
 
 #### table-xref-test-5
 
@@ -513,9 +515,9 @@ If it is not possible to tell whether the authors are citing a table from the sa
 <xref ref-type="supplementary-material" rid="supp1">Supplementary file 2</xref>
 ```
 
-Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this:
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this \(replace XXXXXX with 'supplementary file'\):
 
-* Please confirm which supplementary file this refers to, or confirm that this citation refers to a file in another article.
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
 
 #### supp-file-xref-conformity-5
 
@@ -531,21 +533,33 @@ Note, supp-file-xref-conformity-4 would not fire in this case, because the numbe
 
 This warning will also fire if the link text refers to part labels, for example 'Supplementary file 4 - table 2'. As long as the citation links to the correct file \(Supplementary file 4 in this case\), this warning can be ignored. 
 
-Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this:
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this \(replace XXXXXX with 'supplementary file'\):
 
-* Please confirm which supplementary file this refers to, or confirm that this citation refers to a file in another article. 
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
 
 #### supp-file-xref-conformity-6
 
 **Error**: _XXXXXX - citation points to source data but contains the string 'source datas', which is grammatically incorrect. It should be source data instead._
 
-**Action:**  To be added
+**Action:**  This will fire if a citation of source data contains the phrase 'source datas':
+
+```text
+<xref ref-type="supplementary-material" rid="data1">Source datas 1-</xref>
+```
+
+This is grammatically incorrect and should be changed to 'source data' instead.
 
 #### supp-file-xref-conformity-7
 
 **Error**: _XXXXXX - citation points to source code but contains the string 'source codes', which is grammatically incorrect. It should be source code instead._
 
-**Action:**  To be added
+**Action:**   This will fire if a citation of source data contains the phrase 'source codes':
+
+```text
+<xref ref-type="supplementary-material" rid="code1">Source codes 1-</xref>
+```
+
+This is grammatically incorrect and should be changed to 'source code' instead.
 
 #### supp-file-xref-test-1
 
@@ -565,11 +579,13 @@ If the citation doesn't refer to a part label, again check if it refers to a fil
 
 These should have been changed to parts 'a' and 'b'. 
 
-If it is not possible to tell whether the authors are citing a supplementary file from the same paper or a different one, please leave the following query: 
-
-* Please confirm whether this citation refers to a supplementary file from a different article. If it does not, we will unlink this citation. 
-
 If the figure has been incorrectly captured, for example, if \(in the caption of Supplementary file 1\) the authors wrote 'Figure 1 - supplementary file 1' and only 'supplementary file 1' has been linked, this citation needs to be corrected \(in this example, to Figure 1_—_ figure supplement 1\). 
+
+If it is not possible to tell whether the authors are citing a supplementary file from the same paper or a different one, please leave the following query \(replace XXXXXX with 'supplementary file'\):
+
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
+
+The citation will then need to be dealt with depending on the author's response. 
 
 #### supp-xref-test-2
 
