@@ -257,6 +257,10 @@ $$\begin{align*} \nabla \cdot \mathbb{A}\; = \alpha \\ \nabla \cdot \mathbb{B}\;
 
 $$+ \hspace{3pt} - \hspace{7pt} \pm\hspace{14pt} \times\hspace{14pt} \div\hspace{16pt} \cdot\hspace{18pt} \oplus\hspace{27pt} \otimes\hspace{14pt} \ne\hspace{4pt} <\hspace{2pt} >\hspace{5pt} \le\hspace{9pt} \ge\hspace{15pt} \approx\hspace{20pt} \infty$$
 
+`\cong \neq \equiv \prec \succ \preceq \succeq \mp \vee \wedge \ll \gg` 
+
+$$\hspace{10pt}\cong\hspace{15pt}\neq\hspace{15pt}\equiv\hspace{19pt}\prec\hspace{19pt}\succ\hspace{20pt}\preceq\hspace{25pt}\succeq\hspace{17.5pt}\mp\hspace{12pt}\vee\hspace{12pt}\wedge\hspace{12pt}\ll\hspace{10pt}\gg$$
+
 ## Equations on the eLife website
 
 Equations are rendered on the eLife website using [**MathJax**](https://www.mathjax.org/).
