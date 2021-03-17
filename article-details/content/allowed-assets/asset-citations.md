@@ -42,7 +42,9 @@ Examples of these can be found in the next section.
 
 ### Citation order
 
-Asset placement is determined by first live citation. Main figures and videos, and tables should be placed after their first citation. If they are cited out of order, this should be queried with the authors. This is covered further on the [**tables**](tables.md#tables-cited-out-of-sequence) and [**figures**](figures.md#pre-fig-specific-test-2) page. 
+Asset placement is determined by first live citation. Main figures and videos, and tables should be placed after their first citation. If they are cited out of order, this should be queried with the authors. This is covered further on the [**tables**](tables.md#tables-cited-out-of-sequence) and [**figures**](figures.md#pre-fig-specific-test-2) page. If these have not been cited, the following query should be left:
+
+* Please provide an in-text citation for this XXXXXX.
 
 ### Citing asset parts
 
@@ -82,9 +84,9 @@ These checks relate to the content of asset citations. X or XXXXXX refers to quo
 <xref ref-type="fig" rid="fig3">Figure 2</xref>
 ```
 
-Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this:
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this \(replace XXXXXX with 'figure'\):
 
-* Please confirm which figure this refers to, or confirm that this citation refers to a figure in another article. 
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
 
 #### fig-xref-conformity-3
 
@@ -96,9 +98,9 @@ Check what the correct citation should be by checking the original submission an
 <xref ref-type="fig" rid="fig2">Figure 21</xref>
 ```
 
-Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this:
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this \(replace XXXXXX with 'figure'\):
 
-* Please confirm which figure this refers to, or confirm that this citation refers to a figure in another article. 
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
 
 This will also fire if the link text refers to part labels, for example 'Figure 4E2':
 
@@ -155,9 +157,9 @@ Try to add the citation again through Kriya - if this doesn't work, Exeter will 
 <xref ref-type="video" rid="video2">Video 1</xref>
 ```
 
-Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this:
+Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this \(replace XXXXXX with 'video'\):
 
-* Please confirm which video this refers to, or confirm that this citation refers to a video in another article. 
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
 
 #### fig-xref-test-2
 
@@ -204,11 +206,13 @@ If the citation doesn't refer to a part label, again check if it refers to a fig
 
 This should have been unlinked. 
 
-If it is not possible to tell whether the authors are citing a figure from the same paper or a different one, please leave the following query: 
-
-* Please confirm whether this citation refers to a figure from a different article. If it does not, we will unlink this citation. 
-
 If the figure has been incorrectly captured, for example, if \(in the caption of Figure 4\) the authors wrote 'Figure 1 - Supplemental Figure 4' and only 'Figure 4' has been linked, this citation needs to be corrected \(in this example, to Figure 1_—_figure supplement 4\).
+
+If it is not possible to tell whether the authors are citing a figure from the same paper or a different one, please leave the following query \(replace XXXXXX with 'figure'\):
+
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
+
+The citation will then need to be dealt with depending on the author's response. 
 
 #### fig-xref-test-5
 
@@ -232,17 +236,17 @@ If the figure has been incorrectly captured, for example, if \(in the caption of
 
 **Warning:** _Figure citation is preceded by 'their'. Does this refer to a figure in other content \(and as such should be captured as plain text\)? - 'XXXXXX'._
 
-**Action:** This warning will fire if a figure citation is preceded by the word _'_their', for example 'Smith et al., 1992, their Figure 2.' As this is referring to Figure 2 in a different paper, this citation should be unlinked. If it isn't possible to tell from the context whether the authors are referring to a figure in a different paper, a query should be left - see more [**here**](figures.md#in-text-citations). 
+**Action:** This warning will fire if a figure citation is preceded by the word _'_their', for example 'Smith et al., 1992, their Figure 2.' As this is referring to Figure 2 in a different paper, this citation should be unlinked. If it isn't possible to tell from the context whether the authors are referring to a figure in a different paper, a query should be left \(replace XXXXXX with 'figure'\):
 
-* Please confirm which figure this refers to, or confirm that this citation refers to a figure in another article. 
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
 
 #### fig-xref-test-9
 
 **Warning:** _Is this figure citation a reference to a figure from other content \(and as such should be captured instead as plain text\)? - XXXXXX'._
 
-**Action:** This warning will fire if a figure citation is followed by the word _'_of', for example 'Figure 2 of Smith et al., 1992.' As this is referring to Figure 2 in a different paper, this citation should be unlinked. If it isn't possible to tell from the context whether the authors are referring to a figure in a different paper, a query should be left - see more [**here**](figures.md#in-text-citations). 
+**Action:** This warning will fire if a figure citation is followed by the word _'_of', for example 'Figure 2 of Smith et al., 1992.' As this is referring to Figure 2 in a different paper, this citation should be unlinked. If it isn't possible to tell from the context whether the authors are referring to a figure in a different paper, a query should be left - see more \(replace XXXXXX with 'figure'\):
 
-* Please confirm which figure this refers to, or confirm that this citation refers to a figure in another article. 
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
 
 #### fig-xref-test-10
 
@@ -332,11 +336,11 @@ For example, [**in 63205**](https://elifesciences.org/articles/63205#video3), th
 
 This should have been unlinked. 
 
-If it is not possible to tell whether the authors are citing a video from the same paper or a different one, please leave the following query: 
-
-* Please confirm whether this citation refers to a video from a different article. If it does not, we will unlink this citation. 
-
 If the video has been incorrectly captured, for example, if \(in the caption of Video 4\) the authors wrote 'Figure 1 - video 4' and only 'video 4' has been linked, this citation needs to be corrected \(in this example, to Figure 1_—_ video 4\).
+
+If it is not possible to tell whether the authors are citing a video from the same paper or a different one, please leave the following query \(replace XXXXXX with 'video'\):
+
+* Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
 
 #### vid-xref-test-5
 
