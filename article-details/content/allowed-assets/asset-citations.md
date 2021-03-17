@@ -276,7 +276,7 @@ The citation will then need to be dealt with depending on the author's response.
 
 **Warning:** _citation is preceded by 'XXXXXX'. The 'cf.' is unnecessary and should be removed._
 
-**Action:** This warning will fire if a figure citation is preceded by 'cf.', which means 'compare' and is sometimes used to refer the reader to other material for comparison. The 'cf.' can be deleted as it is not eLife's house style to use this. 
+**Action:** This warning will fire if a figure citation is preceded by 'cf.', which means 'compare' and is sometimes used to refer the reader to other material for comparison. Replace 'cf.' with 'compare with'.
 
 #### fig-xref-test-15
 
@@ -386,7 +386,7 @@ In these cases, the citation should be updated so it links to the appropriate fi
 
 **Warning**: _citation is preceded by 'XXXXXX'. The 'cf.' is unnecessary and should be removed._
 
-**Action:** This warning will fire if a video citation is preceded by 'cf.', which means 'compare' and is sometimes used to refer the reader to other material for comparison. The 'cf.' can be deleted as it is not eLife's house style to use this. 
+**Action:** This warning will fire if a video citation is preceded by 'cf.', which means 'compare' and is sometimes used to refer the reader to other material for comparison. Replace 'cf.' with 'compare with'.
 
 #### vid-xref-test-11
 
@@ -477,7 +477,7 @@ If it is not possible to tell whether the authors are citing a table from the sa
 
 **Warning**: _citation is preceded by 'XXXXXX'. The 'cf.' is unnecessary and should be removed._
 
-**Action**: This warning will fire if a figure citation is preceded by 'cf.', which means 'compare' and is sometimes used to refer the reader to other material for comparison. The 'cf.' can be deleted as it is not eLife's house style to use this. 
+**Action**: This warning will fire if a figure citation is preceded by 'cf.', which means 'compare' and is sometimes used to refer the reader to other material for comparison. Replace 'cf.' with 'compare with'.
 
 #### table-xref-test-6
 
@@ -618,7 +618,7 @@ In these cases, the citation should be updated so it links to the appropriate fi
 
 **Warning**: _citation is preceded by 'XXXXXX'. The 'cf.' is unnecessary and should be removed._
 
-**Action**: This warning will fire if a citation of supplementary material is preceded by 'cf.', which means 'compare' and is sometimes used to refer the reader to other material for comparison. The 'cf.' can be deleted as it is not eLife's house style to use this. 
+**Action**: This warning will fire if a citation of supplementary material is preceded by 'cf.', which means 'compare' and is sometimes used to refer the reader to other material for comparison. Replace 'cf.' with 'compare with'.
 
 #### supp-xref-test-**6**
 
@@ -652,7 +652,7 @@ Check what the correct citation should be by checking the original submission an
 
 **Warning**: _citation is preceded by 'XXXXXX'. The 'cf.' is unnecessary and should be removed._
 
-**Action:** This warning will fire if a citation of an equation is preceded by 'cf.', which means 'compare' and is sometimes used to refer the reader to other material for comparison. The 'cf.' can be deleted as it is not eLife's house style to use this. 
+**Action:** This warning will fire if a citation of an equation is preceded by 'cf.', which means 'compare' and is sometimes used to refer the reader to other material for comparison. Replace 'cf.' with 'compare with'.
 
 #### supplementalfigure-presence
 
