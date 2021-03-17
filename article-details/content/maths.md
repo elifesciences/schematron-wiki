@@ -263,7 +263,7 @@ $$\hspace{10pt}\cong\hspace{15pt}\neq\hspace{15pt}\equiv\hspace{19pt}\prec\hspac
 
 ## Equations on the eLife website
 
-Equations are rendered on the eLife website using [**MathJax**](https://www.mathjax.org/).
+Equations are rendered on the eLife website using [**MathJax**](https://www.mathjax.org/). Note that there are certain space limitations on the eLife website for equations, if they are particularly long they may be wrapped across numerous lines in order to fit within the content container, and since they are an object which is separate from the normal text in the page, the wrapping may not correspond with the text \(see also [**inline-formula-length-test-1**](maths.md#inline-formula-length-test-1) ****and the example therein\).
 
 eLife have an arrangement with Exeter whereby they are paid more for LaTeX articles, and expected to carefully check the maths against the original files at pre-editing. LaTeX articles also have an extended turn-around time \(compared with non-LaTeX articles\).
 
@@ -509,7 +509,7 @@ Taken from [**https://elifesciences.org/articles/51207**](https://elifesciences.
 
 **Warning**: _Inline formula containing 'XXXXXX' is particularly long. Consider either splitting this up into multiple equations or capturing this as a display equation, as the display on Continuum will likely be strange._
 
-**Action**: This warning will fire at all stages for an inline formula which does not contain a table and is more than 90 characters long. Such length formulas will need to be wrapped over multiple lines in the HTML on the eLife website, which will affect the readability within the text. For example from **https://elifesciences.org/articles/56349**:
+**Action**: This warning will fire at all stages for an inline formula which does not contain a table and is more than 90 characters long. Such length formulas will need to be wrapped over multiple lines in the HTML on the eLife website, which will affect the readability within the text. For example from [**https://elifesciences.org/articles/56349**](https://elifesciences.org/articles/56349):
 
 ![](../../.gitbook/assets/screenshot-2021-03-09-at-12.10.27.png)
 
