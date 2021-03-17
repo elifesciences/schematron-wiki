@@ -545,6 +545,10 @@ At post-author stages, if the above query has been added, then action should be 
 
 **Action**: This warning will fire at all stages if an display formula is not placed as a child of a `<p>` element. The only case where this can be ignored \(and note that these are very rare occurrences\), is when a display formula appears as the first piece of content within a section, in which case it will be a child of `<sec>` \(it cannot be placed as the first item in a paragraph, see [**disp-formula-test-4**](maths.md#disp-formula-test-4) below\). The Exeter support team will likely need to correct this.
 
+\*\*\*\*[**Here is an example**](https://elifesciences.org/articles/62105#s16-5-1) of when a display formula appears as the first piece of content within a section, and in this particular instance this warning would fire, but can be ignored.
+
+![Equations appear directly after the section heading](../../.gitbook/assets/screenshot-2021-03-17-at-11.24.28.png)
+
 #### **disp-formula-test-4**
 
 **Error**: _disp-formula cannot be placed as the first child of a p element with no content before it \(ie. &lt;disp-formula ...\). Either capture it at the end of the previous paragraph or capture it as a child of XXXXXX_
