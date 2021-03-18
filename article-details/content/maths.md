@@ -11,7 +11,7 @@ The equation editor in Kriya uses LaTeX notation, which is then converted to Mat
 ## What needs to be checked?
 
 * Equations include the same information as in the original manuscript.
-* There are no Schematron errors for equations.
+* That there are no Schematron errors for equations.
 * Font use is consistent in the text \(see [**maths as plain text**](maths.md#maths-as-plain-text)\).
 * There are no unnecessary equations in the text for content which should be captured as plain text \(but err on the side of caution; see [**maths as plain text**](maths.md#maths-as-plain-text)\).
 * The labels for display equations are consistent \(see [**display equation labelling**](maths.md#display-equation-labelling)\).
