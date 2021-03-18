@@ -515,7 +515,7 @@ Taken from [**https://elifesciences.org/articles/51207**](https://elifesciences.
 
 At pre-author stages, an author query should be added:
 
-* This inline formula is lengthy enough that it will run over two lines in the HTML, which will make comprehension more difficult. We suggest that this is captured as a display equation instead. Please confirm whether that is acceptable.
+* This inline formula is lengthy enough that it will run over two lines in the HTML, which will make comprehension more difficult. We suggest that this is captured on a new line instead. Please confirm whether that is acceptable.
 
 At post-author stages, if the above query has been added, then action should be taken depending on the authors response. If the above query was not added, then eLife Production should contact the authors at Pub Review with the same query.
 
@@ -531,7 +531,9 @@ At post-author stages, if the above query has been added, then action should be 
 
 **Error**: _Duplicated display formula labels - XXXXXX is present more than once in the main body of the text._
 
-**Action**: This will fire at all stages if two or more equations in a single appendix have the same label. Exeter should query the eLife Production team, who will determine the best course of action. If this is an obvious typo, then the equations can be renumbered so that they are sequential. Note that we can have equations 1a, 1b and so on, so it may be appropriate to renumber in that fashion. If the authors are referring to an equation from a different paper \(for example Equation 1 from Smith et al. and there is also an equation 1 from the authors\), then the label in the equation taken from the other paper can be removed, and references to it in the text can be updated to reflect that \(any citations for Equation 1 changed to Equation 1 from Smith et al., 2020\) etc. An author query should be added so that the authors are aware of the change and can suggest an alternative if desired:
+**Action**: This will fire at all stages if two or more equations in a single appendix have the same label. Exeter should query the eLife Production team, who will determine the best course of action. If this is an obvious typo, then the equations can be renumbered so that they are sequential. Note that we can have equations 1a, 1b and so on, so it may be appropriate to renumber in that fashion. 
+
+If the authors are referring to an equation from a different paper \(for example Equation 1 from Smith et al. and there is also an equation 1 from the authors\), then the label in the equation taken from the other paper can be removed, and references to it in the text can be updated to reflect that \(any citations for Equation 1 changed to Equation 1 from Smith et al., 2020\) etc. An author query should be added so that the authors are aware of the change and can suggest an alternative if desired:
 
 * Please note that we have re-labelled/removed the label from this equation as we do not permit more than one equation with the same label within the main body of the article.
 
