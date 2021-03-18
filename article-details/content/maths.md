@@ -37,7 +37,7 @@ Equations slow the load time of content in web pages, and may not appear in down
 
 Here is an example of where changing equations to plain text is inappropriate:
 
-![The pink highlighted text should be captured as equations instead](../../.gitbook/assets/image%20%284%29.png)
+![The pink highlighted text should be captured as equations instead](../../.gitbook/assets/image%20%285%29.png)
 
 For example, the first _i_ is present in the inline equation that precedes it, and therefore it needs to be captured as an equation to match the formatting/font, so that the reader can tell it is the same symbol.
 
