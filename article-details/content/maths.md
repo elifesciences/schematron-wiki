@@ -16,6 +16,7 @@ The equation editor in Kriya uses LaTeX notation, which is then converted to Mat
 * There are no unnecessary equations in the text for content which should be captured as plain text \(but err on the side of caution; see [**maths as plain text**](maths.md#maths-as-plain-text)\).
 * The labels for display equations are consistent \(see [**display equation labelling**](maths.md#display-equation-labelling)\).
 * Equations appear the same in the HTML and in the PDF.
+* Equations are not inappropriately split up into numerous separate equations.
 
 ## Where are equations allowed
 
@@ -30,6 +31,12 @@ For example below, inline equations are marked in blue, and the display equation
 Display equations can \(but don't have to\) have a label. Inline equations cannot have a label. They both must contain some math markup, MathML. 
 
 Equations should not be provided as images. If an author manuscript contains maths captured as images, either Exeter need to typeset the maths themselves, or eLife production staff need to go back to authors and ask them to provide it in a machine readable format.
+
+Equations should not be split up into numerous separate equations for example like this:
+
+$$\overset{x}{y} \times \alpha$$ $$= 1098$$
+
+If there are other equations with little or truncated content directly preceding or following an equation, check the source file to determine if it has been appropriately captured, or whether it is in fact a single equation that needs collating into one..
 
 ## Maths as plain text
 
@@ -319,7 +326,7 @@ If Exeter are unsure, they can query the eLife production team via slack for ins
 
 **Error**: _mml:math only contains '±', which is unnecessary. Capture this as a normal text '±' instead._
 
-**Action**: As the message suggests, the action here should be to delete the equation in Kriya, and add the '±' as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
+**Action**: As the message suggests, the action here should be to delete the equation in Kriya, and add the '±' as plain text.
 
 #### **math-test-4**
 
