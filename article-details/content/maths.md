@@ -159,6 +159,8 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 ### Decorations and notation
 
+Use `\hat{x}` for this $$\hat{x}$$ instead of `\overset{^}{x}` 
+
 `\overline{x+y}=\underline{x+y}` $$\overline{x+y}=\underline{x+y}$$
 
 `\widehat{x+y} = \widetilde{x+y}` $$\widehat{x+y} = \widetilde{x+y}$$
