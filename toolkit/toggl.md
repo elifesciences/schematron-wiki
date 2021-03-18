@@ -245,7 +245,7 @@ This is used to track time spent in meetings \(which can add up quite a lot on s
 * Article number \(if applicable\)
 * Otherwise, the description of the task
 
-This category is used for any task not covered by the other projects. If a miscelaneous task is used often enough, it may be considered for being promoted to a project label in Toggl.
+This category is used for any task not covered by the other projects. If a miscellaneous task is used often enough, it may be considered for being promoted to a project label in Toggl.
 
 ![](../.gitbook/assets/screen-shot-2021-03-09-at-12.15.02.png)
 
