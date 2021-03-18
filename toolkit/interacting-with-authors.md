@@ -4,6 +4,10 @@ description: Responding to common author queries
 
 # Interacting with authors
 
+{% hint style="info" %}
+For changelog, click [**here**](interacting-with-authors.md#changelog). Updated 18/03/2021
+{% endhint %}
+
 Most of our interaction with the authors of eLife articles happens via email. It is important to ensure that queries from authors are responded to the day they are received, unless after 4pm, in which case they can be replied to the following morning. If we do not have an answer to the queries yet, the authors should be made aware that we are looking into it. There are many email templates saved in the production collaboration tool \(Hiver\) which are useful for drafting responses - but these should be tailored to cover the nuances in each author query. To access the Hiver templates, open an email and click to reply to it, then click on the 'Email templates' button. Select the appropriate template and tailor it to the email.
 
 ![](../.gitbook/assets/captured-1-.gif)
@@ -47,6 +51,8 @@ If authors want to know when they will receive their proofs, or when their artic
 * If an article has recently been added to Kriya and it is only waiting for its decision letter, it will usually take around a week before this is ready to go to the authors. 
 * If an article is waiting for a digest, check the [**digest status list**](https://docs.google.com/spreadsheets/d/17Llag-aEnbuARu5ORDJFki4K73xzy1fz2B2XG_QHQPI/edit#gid=1376331906) to see when this will be ready. The proofs will automatically be sent to the authors once this is uploaded by the Features team. Usually decision letters will be added before the digests are ready.
 * Once an article has arrived at publisher review, it should be ready to publish on the same day, unless there are issues to correct or the authors want to see revised proofs \(or the article is getting press coverage, in which case it should be scheduled for a pre-agreed press date\).
+
+When replying to the authors about the publication date, use the hiver template [**pub date query response**](interacting-with-authors.md#pub-date-query-response) and make sure Emily is copied in.  
 
 ### Revised proof requests
 
@@ -112,7 +118,11 @@ This can be used when authors ask us to add ORCIDs for them. It is ORCIDs stipul
 
 #### Press information
 
-This template includes information about eLife's press policy
+This template includes information about eLife's press policy.
+
+#### Pub date query response
+
+This should be used when authors query about the publication date of their article and includes a note about copying in Emily in case they require a press release. Make sure Emily is copied in the response. 
 
 #### Revised article and figures PDFs
 
@@ -133,6 +143,14 @@ This can be used when authors send us striking images to upload.
 #### Summer Fridays response
 
 This is a template email for Prepress to use when the production team are out of office for Summer Fridays.
+
+## Changelog
+
+### 18/03/2021
+
+#### Changes
+
+* Added pub date query response template and information to the corresponding section.
 
 
 
