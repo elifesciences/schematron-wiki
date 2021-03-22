@@ -168,7 +168,7 @@ The production team uses GitHub and GitLab to collaborate with other teams. When
 
 ### **No-digest emails**
 
-Every week \(usually on Wednesday or Thursday\), the Features team send us a list of the latest articles that are not getting digests. 
+Every week \(usually on Wednesday or Thursday\), the Features team sends us a list of the latest articles that are not getting digests. 
 
 ![](../.gitbook/assets/screenshot-2020-06-24-at-15.06.27.png)
 
@@ -178,7 +178,7 @@ Search for each article from the email and add a 'No digest' status to any artic
 
 ![A no-digest article](../.gitbook/assets/24%20%281%29.png)
 
-If the article is still waiting for its decision letter to be loaded, the [**decision letter tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1oy8TIwsedSYdy6n3_SFuqUcJ4Ljeg7tXnTS6q2CsNI8/edit?ts=57fe457c#gid=0) will need to be updated so the Editorial office team knows which decision letters should be prioritised. Search for the manuscript number and in the 'Notes' column, add the text 'No digest'. This should be done for all articles on the no-digest list, including any that are not yet in Kriya. 
+If the article is still waiting for its decision letter to be loaded, the [**decision letter tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1oy8TIwsedSYdy6n3_SFuqUcJ4Ljeg7tXnTS6q2CsNI8/edit?ts=57fe457c#gid=0) will need to be updated so the Editorial Office team knows which decision letters should be prioritised. Search for the manuscript number and in the 'Notes' column, add the text 'No digest'. This should be done for all articles on the no-digest list, including any that are not yet in Kriya. 
 
 ![](../.gitbook/assets/screenshot-2021-03-22-at-08.46.06.png)
 
@@ -186,7 +186,7 @@ If the article is not yet in Kriya, add it to the [**Production actions sheet**]
 
 ![](../.gitbook/assets/screenshot-2020-06-25-at-12.36.21.png)
 
-Note, the decision letter tracker has a 'hold for export' section. This is for articles that are currently on hold with the Editorial office \(usually waiting for some additional information e.g about data availability\). Articles in this section should still be marked as 'No digest' if relevant. 
+Note, the decision letter tracker has a 'hold for export' section. This is for articles that are currently on hold with the Editorial Office \(usually waiting for some additional information e.g about data availability\). Articles in this section should still be marked as 'No digest' if relevant. 
 
 ![](../.gitbook/assets/screenshot-2021-03-22-at-09.02.13.png)
 
@@ -210,7 +210,7 @@ In the example screenshot above, only a partial or corrupted zip package was del
 
 ### **PoA package emails - success and failure**
 
-We receive success or failure notifications for all articles that are scheduled for publication as PoAs by the bot. Every day, a member of the production team will handle these emails. The editorial office will let us know if any articles need to be reloaded or if the published dates need to be updated. If there is a failure, it will need action. We will also receive a 'PublishFinalPOA Success!' email when the PoAs have been published. This email can be closed. See [**Publish on Accept protocols**](../pages-in-progress/publish-on-accept-protocols.md) for more information about the PoA process.
+We receive success or failure notifications for all articles that are scheduled for publication as PoAs by the bot. Every day, a member of the production team will handle these emails. The Editorial Office will let us know if any articles need to be reloaded or if the published dates need to be updated. If there is a failure, it will need action. We will also receive a 'PublishFinalPOA Success!' email when the PoAs have been loaded to Continuum. This email can be closed. See [**Publish on Accept protocols**](../pages-in-progress/publish-on-accept-protocols.md) for more information about the PoA process.
 
 ![](../.gitbook/assets/26.png)
 
@@ -222,9 +222,25 @@ This is an automatic email that notifies us when the post-acceptance check has b
 
 ### **Press emails**
 
-Our Press Officer Emily will sometimes email us to ask about publication dates. Often she will cc in Editorial and Features, if the article’s progress is dependent upon post-acceptance checks or a digest. Emily will also cc us in if she asks Sue at Editorial Office to put any recently accepted papers on hold, whilst she looks into potential press for them. There is no action needed for these emails, except to read them and check that there aren’t any issues. Make sure a 'Press' tag is added to any emails about press. 
+Our Press Officer Emily will sometimes email us to ask about publication dates. Often she will cc in Editorial and Features, if the article’s progress is dependent upon post-acceptance checks or a digest. 
 
-If a PoA article will receive press coverage, Emily will email Sue to schedule this and cc us in. Add the manuscript number to the [**Production team actions sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) under the relevant press date section. 
+Emily will also cc us in if she asks Sue at Editorial Office to put any recently accepted papers on hold, whilst she looks into potential press for them. 
+
+![](../.gitbook/assets/screenshot-2021-03-22-at-11.56.32.png)
+
+A 'Press' tag should be added to these emails. The initial request email \(and hold confirmation response from Editorial Office\) can just be closed. Once Emily decides a PoA article is getting press, she will ask Editorial Office to schedule the article and CC us in. 
+
+![](../.gitbook/assets/screenshot-2021-03-22-at-12.00.05.png)
+
+At this point, the manuscript number should be added to the [**Production team actions sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) under the relevant press date section. The email can be closed once this is done. 
+
+![](../.gitbook/assets/screenshot-2021-03-22-at-12.03.03.png)
+
+When Editorial Office confirm an article has been scheduled, double-check it appears under the 'Scheduled' section on the [**Continuum dashboard**](https://prod--ppp-dash.elifesciences.org/current)**.** 
+
+![](../.gitbook/assets/screenshot-2021-03-22-at-12.05.45.png)
+
+The green 'Scheduled' note can then be added on the Production team actions sheet and the email closed once more. 
 
 ### **Proofing emails and chasers**
 
