@@ -79,20 +79,20 @@ When tags are added, they appear at the top of the email and also in the quick v
 
 Our tags:
 
-* Author Complaint - for any negative emails/complaints from unhappy authors
-* Author Compliment - for any complimentary emails from happy authors
-* Author Correspondence - for any and all emails from authors
-* eLife Query - for queries sent to us from Exeter
-* Exeter Delivery - for the delivery note we receive from Exeter every morning
-* Exeter Problem - for any problem emails we send to Exeter
-* Exeter Question - for any questions/requests we ask of Exeter
-* Failure - for any Crossref/PMC/POA failures
-* Features - for all correspondence regarding feature content
-* Press - for any press-related emails
-* New versions - for any published articles that need to be corrected \(PoA and VoR\)
-* TNQ Correction - for any emails about articles requiring a TNQ correction \(correction for any articles published before November 2015 with our previous typesetters\)
-* Huddle -  for flagging any emails that you want to discuss in the daily huddle meeting \(10.30 AM\).
-  * If you are working on emails in the morning and you come to one you cannot respond without discussion with the team, use this tag. If emails arrive later in the day you are not sure how to deal with use Slack to discuss with your colleagues rather than tagging for the Huddle the following day
+* Author Complaint - for any negative emails/complaints from unhappy authors.
+* Author Compliment - for any complimentary emails from happy authors.
+* Author Correspondence - for any and all emails from authors.
+* eLife Query - for queries sent to us from Exeter.
+* Exeter Delivery - for the delivery note we receive from Exeter every morning.
+* Exeter Problem - for any problem emails we send to Exeter.
+* Exeter Question - for any questions/requests we ask of Exeter.
+* Failure - for any Crossref/PMC/POA failures.
+* Features - for all correspondence regarding feature content.
+* Press - for any press-related emails.
+* New versions - for any published articles that need to be corrected \(PoA and VoR\).
+* TNQ Correction - for any emails about articles requiring a TNQ correction \(correction for any articles published before November 2015 with our previous typesetters\).
+* Huddle -  for flagging any emails that you want to discuss in that day's huddle meeting \(10.30 AM\).
+  * Use this tag if you are clearing the inbox in the morning and you come across an email that requires further discussion with the team before a response. If you come across such an email after the huddle, this should be queried with the Production team in Slack rather than being tagged for discussion the following day.
 
 ### Exeter prefixes
 
@@ -198,7 +198,7 @@ We may receive 'out of office' response to the automatic proofing emails that ar
 
 ### **PMC failures**
 
-Occasionally our contact at PMC will email us to let us know that one of our articles has failed on PMC. It should be investigated, and if necessary, resupplied and sent to Exeter for silent correction to fix the error in the XML. We can usually pick up on these failures before we are contacted by PMC, as we receive a daily report of articles that have been loaded to them in the last 24 hours. If the status of each package is 'Passed-Sent to QA', this email can be closed.
+We receive a daily summary from PMC about articles we have sent to them in the last 24 hours. If the status of each package is 'Passed-Sent to QA', this email can be closed.
 
 ![](../.gitbook/assets/screenshot-2020-06-24-at-15.20.50.png)
 
@@ -296,7 +296,11 @@ After Exeter has fed back on the page and it has been updated, any further chang
 
 #### Changes
 
-* Added information about the huddle tag
-* Added [**Production queries**](managing-the-production-inbox.md#production-queries) section
-* Added to [**Adding notes to emails**](managing-the-production-inbox.md#adding-notes-to-emails) section
+* Added information about the huddle tag.
+* Added [**Production queries**](managing-the-production-inbox.md#production-queries) section.
+* Added to [**Adding notes to emails**](managing-the-production-inbox.md#adding-notes-to-emails) section.
+
+### 22/03/2021
+
+* Made some edits to various sections after Production team feedback. 
 
