@@ -10,14 +10,14 @@ For changelog, click [**here**](managing-the-production-inbox.md#changelog). Upd
 
 ## Production q**ueries**
 
-The Production team receives daily queries from a variety of sources including the external typesetters, other eLife teams, and authors. Author queries arrive as emails, but we also use Slack for liaising with other eLife teams and our typesetters. It is important to respond to these queries in a timely manner to prevent articles being held up unnecessarily. Production assistants and editors are responsible for keeping on top of the inbox and the Slack channels we have with the typesetters. 
+The Production team receives daily queries from a variety of sources including external vendors, other eLife teams, and authors. Author queries arrive as emails, but we receive emails and use Slack for liaising with other eLife teams and some vendors \(eg Exeter and Editorial Office\). It is important to respond to these queries in a timely manner to prevent articles being held up unnecessarily. Production staff are responsible for responding to these messages throughout the day, ideally as soon as possible without breaking the flow of other tasks. The first task in the mornings is to address emails that have arrived overnight. 
 
 * Emails from authors should be replied to within the same day \(unless they arrive after 4PM\), even if only with a note to say we are looking into the query and will respond with a resolution when it is available. See more about interacting with authors [**here**](interacting-with-authors.md). 
-* Slack queries from our typesetters should be replied to within the same day to prevent holding up articles.
+* Slack queries from our typesetters should be replied to as quickly as possible within the same day to prevent holding up articles.
 
 ## **Using Hiver**
 
-The Production inbox is a shared inbox that everyone in the team has access to. We manage this using a collaboration tool called Hiver. Hiver allows us to clearly divide up the workload by assigning emails to ourselves. It also allows us to categorise and track the types of emails we get by adding tags. When an email needs responding to it is ‘open’, when resolved it can be closed. An email can also be marked ‘pending’ if further action is needed, or its progress needs to be tracked. 
+The Production inbox is a shared inbox that everyone in the team has access to. We manage this using a collaboration tool called a Google Chrome plugin called Hiver \(download [**here**](https://hiverhq.com/)\). Hiver allows us to clearly divide up the workload by assigning emails to ourselves. It also allows us to categorise and track the types of emails we get by adding tags. When an email needs responding to it is ‘open’, when resolved it can be closed. An email can also be marked ‘pending’ if further action is needed, or its progress needs to be tracked. 
 
 The Hiver inbox can be seen on the left sidebar in Gmail. In the drop-down menu, you can view emails assigned to yourself/the rest of the team, as well as emails that have yet to be assigned, and pending emails. 
 
@@ -51,7 +51,7 @@ If an email requires no response or has been resolved it should be closed. You c
 
 ![](../.gitbook/assets/captured-5-.gif)
 
-'Pending' status should be used for emails that are waiting on further action from others, or need to be watched. For example, if editorial have CCd us into a request for data or code, these emails can be marked as pending.
+'Pending' status should be used for emails that are waiting on further action from others, or need to be watched. For example, if editorial have CCd us into a request for data or code, these emails can be marked as pending until the author has responded or the article is published.
 
 ![](../.gitbook/assets/screenshot-2020-07-01-at-12.53.04.png)
 
@@ -71,7 +71,7 @@ Hiver tags help us to categorise our emails, and to keep track of what we receiv
 
 ![](../.gitbook/assets/captured-4-.gif)
 
-When tags are added, they appear in the inbox attached to the email. Each tag has a different colour, and you can add as many tags as needed. For example, in the screenshot below, emails containing tags for assigned users, New versions, Author correspondence and Author complaint:
+When tags are added, they appear at the top of the email and also in the quick view. Each tag has a different colour, and you can add as many tags as needed. For example, in the screenshot below, emails containing tags for assigned users, New versions, Author correspondence and Author complaint:
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-10.03.12.png)
 
@@ -89,17 +89,18 @@ Our tags:
 * Press - for any press-related emails
 * New versions - for any published articles that need to be corrected \(PoA and VoR\)
 * TNQ Correction - for any emails about articles requiring a TNQ correction \(correction for any articles published before November 2015 with our previous typesetters\)
-* Huddle - for flagging any emails that you want to discuss in the daily huddle meeting
+* Huddle -  for flagging any emails that you want to discuss in the daily huddle meeting \(10.30 AM\).
+  * If you are working on emails in the morning and you come to one you cannot respond without discussion with the team, use this tag. If emails arrive later in the day you are not sure how to deal with use Slack to discuss with your colleagues rather than tagging for the Huddle the following day
 
 ### Exeter prefixes
 
 Emails we send to Exeter should also be prefixed to help them categorise and filter emails at their end:
 
-* Author Correspondence: This is for author emails we forward on to Exeter which contain changes that they should make during the Post-author validation stage.
-* Problem: This is for when we encounter any issues using Kriya, or on articles that we cannot solve at our end
-* Request: For any requests, such as asking Exeter to manually move an article between stages
-* Praise: For providing any positive feedback, or forwarding on any complimentary author emails
-* eLife Query: For any questions that they ask us. Sometimes these questions will be asked in Slack, and we will need to reply in email \(for example, if they ask us to provide a file\), so you will need to use the prefix.
+* AUTHOR CORRESPONDENCE: This is for author emails we forward on to Exeter which contain changes that they should make during the Post-author validation stage.
+* PROBLEM: This is for when we encounter any issues using Kriya, or on articles that we cannot solve at our end
+* REQUEST: For any requests, such as asking Exeter to manually move an article between stages
+* PRAISE: For providing any positive feedback, or forwarding on any complimentary author emails
+* ELIFE QUERY: For any questions that they ask us. Sometimes these questions will be asked in Slack, and we will need to reply in email, so you will need to use the prefix.
 
 You can see in the screenshots below how emails have both the subject prefix \(for Exeter’s use\), and the Hiver tag \(for ours\).
 
@@ -117,7 +118,7 @@ Crossref, the DOI registration agency, processes all of our DOIs and sub-DOIs wh
 
 ![](../.gitbook/assets/15.png)
 
-Scroll to the last 6 lines of the report. If there is anything in the ‘warning\_count’ or ‘failure\_count’ then action is needed. If all are zeros then it can be closed as all DOIs have successfully processed and registered.
+Scroll to the last 6 lines of the report. If there is anything in the ‘failure\_count’ then action is needed \(if there is anything in ‘warning\_count’ this can usually be ignored\). If all are zeros then it can be closed as all DOIs have successfully processed and registered.
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-11.50.01.png)
 
@@ -149,7 +150,7 @@ There are numerous possible reason why a decision letter might have failed to lo
 
 ### **Digest loading**
 
-Similarly, we receive emails when a digest is uploaded to an article.
+Similarly, we receive emails when a digest is uploaded to an article by the Features team.
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-12.13.45.png)
 
@@ -157,7 +158,7 @@ Just as before, these also need to be checked on Kriya five minutes after we rec
 
 ![An article with digest \(and decision letter\) loaded](../.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%281%29.png)
 
-If a digest hasn't loaded, this is usually because Kriya is down \(or the article hasn't yet been loaded, but this is much less likely\). When Kriya is running again, or when the article has loaded, the digest will need to be re-uploaded to the AWS bucket. Digests may also not load because there is a problem with the files or parser - in this case, we'll need to raise a GitHub issue for Graham to investigate.
+If a digest hasn't loaded, this is usually because Kriya is down \(or the article hasn't yet been loaded, but this is much less likely\). When Kriya is running again, or when the article has loaded, the digest will need to be re-uploaded to the AWS bucket by the Features team. Digests may also not load because there is a problem with the files or parser - in this case, we'll need to raise a GitHub issue for Graham to investigate.
 
 ### GitHub/GitLab emails
 
@@ -171,17 +172,23 @@ Every week \(usually on Wednesday or Thursday\), the Features team send us a lis
 
 ![](../.gitbook/assets/screenshot-2020-06-24-at-15.06.27.png)
 
-They will have already marked them as ‘no-digest’ articles in Kriya, however we need to check all of them to ensure that the labels have stuck because Kriya 1 can be unstable. Add the 'No digest' status to any that haven't had the label stick. If an article has been sent to the 'Waiting for assets' queue and has had its decision letter loaded, marking it as 'no-digest' will send it straight to the authors for proofing.
+They will have already marked them as ‘no-digest’ articles in Kriya, however we need to double check all of them to ensure that the labels have stuck because Kriya 1 can be unstable. We also need to check and update the [**decision letter tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1oy8TIwsedSYdy6n3_SFuqUcJ4Ljeg7tXnTS6q2CsNI8/edit?ts=57fe457c#gid=0) at the same time. 
+
+Search for each article from the email and add a 'No digest' status to any articles that haven't had the label stick. If an article has been sent to the 'Waiting for assets' queue and has had its decision letter loaded, marking it as 'no-digest' will send it straight to the authors for proofing. 
 
 ![A no-digest article](../.gitbook/assets/24%20%281%29.png)
 
-If the article is still waiting for its decision letter to be loaded, the [**decision letter tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1oy8TIwsedSYdy6n3_SFuqUcJ4Ljeg7tXnTS6q2CsNI8/edit?ts=57fe457c#gid=0) will need to be updated so the Editorial team knows which decision letters should be prioritised. Search for the manuscript number and in the 'Notes' column, add the text 'No digest, please prioritise'. 
+If the article is still waiting for its decision letter to be loaded, the [**decision letter tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1oy8TIwsedSYdy6n3_SFuqUcJ4Ljeg7tXnTS6q2CsNI8/edit?ts=57fe457c#gid=0) will need to be updated so the Editorial office team knows which decision letters should be prioritised. Search for the manuscript number and in the 'Notes' column, add the text 'No digest'. This should be done for all articles on the no-digest list, including any that are not yet in Kriya. 
 
-![](../.gitbook/assets/screenshot-2020-06-24-at-15.14.36.png)
+![](../.gitbook/assets/screenshot-2021-03-22-at-08.46.06.png)
 
-If the article is not yet in Kriya, add it to the [**Production actions sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) under the 'CONFIRMED NO DIGEST BUT NOT YET IN KRIYA' heading and update the 'last checked' date. This section of the sheet should be checked every day and once the article has loaded to Kriya, it should be marked as 'No digest'. 
+If the article is not yet in Kriya, add it to the [**Production actions sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) under the 'CONFIRMED NO DIGEST BUT NOT YET IN KRIYA' heading and update the 'last checked' date. This section of the sheet should be checked every day and once the article has loaded to Kriya, it should be marked as 'No digest'.
 
 ![](../.gitbook/assets/screenshot-2020-06-25-at-12.36.21.png)
+
+Note, the decision letter tracker has a 'hold for export' section. This is for articles that are currently on hold with the Editorial office \(usually waiting for some additional information e.g about data availability\). Articles in this section should still be marked as 'No digest' if relevant. 
+
+![](../.gitbook/assets/screenshot-2021-03-22-at-09.02.13.png)
 
 ### **Out of office responses**
 
