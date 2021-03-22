@@ -12,8 +12,10 @@ For changelog, click [**here**](managing-the-production-inbox.md#changelog). Upd
 
 The Production team receives daily queries from a variety of sources including external vendors, other eLife teams, and authors. Author queries arrive as emails, but we receive emails and use Slack for liaising with other eLife teams and some vendors \(eg Exeter and Editorial Office\). It is important to respond to these queries in a timely manner to prevent articles being held up unnecessarily. Production staff are responsible for responding to these messages throughout the day, ideally as soon as possible without breaking the flow of other tasks. The first task in the mornings is to address emails that have arrived overnight. 
 
-* Emails from authors should be replied to within the same day \(unless they arrive after 4PM\), even if only with a note to say we are looking into the query and will respond with a resolution when it is available. See more about interacting with authors [**here**](interacting-with-authors.md). 
-* Slack queries from our typesetters should be replied to as quickly as possible within the same day to prevent holding up articles.
+{% hint style="info" %}
+* Emails from authors should be replied to within the same day \(unless they arrive after 4PM\), even if only with a note to say we are looking into the query and will respond with a resolution when it is available. Pre-publication author correspondence emails should be prioritised above other emails and production tasks. See more about interacting with authors [**here**](interacting-with-authors.md). 
+* Slack queries and emails from our typesetters should be replied to as quickly as possible within the same day to prevent holding up articles.
+{% endhint %}
 
 ## **Using Hiver**
 
@@ -59,7 +61,7 @@ If the authors have contacted production directly, you should still reply to aut
 
 ### Adding notes to emails
 
-You can view an email’s history, and any notes that have been added to it \(as well as adding your own\) in the Hiver toolbox when you open an email. If there are particular points to be aware of in relation to an article, it is useful to add and pin this note to help the team see this at a glance.
+You can view an email’s history, and any notes that have been added to it \(as well as adding your own\) in the Hiver toolbox when you open an email. If there are particular points to be aware of in relation to an article, it is useful to add and pin this note to help the team see this at a glance. If the email is just for the Production team's information, add a 'Read' note so we know when the whole team has read the email \(the last person to add the note can then close the email\).
 
 ![](../.gitbook/assets/captured.gif)
 
