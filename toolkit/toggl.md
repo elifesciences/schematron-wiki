@@ -220,7 +220,7 @@ This is for recording time spent on updating the eLife homepage image. It covers
 * refreshing
 * assigning articles
 
-To help monitor the performance of the Kriya proofing system, it is helpful to track the time taken to refresh the page and to assign articles. However, it's accepted that other tasks may be completed while the page is reloading, so these should take priority in terms of tracking.
+To help monitor the performance of the Kriya proofing system, it is helpful to track the time taken to refresh the page and to assign articles. However, it's accepted that other tasks may be completed while the page is reloading, so these should take priority in terms of tracking. We accept that the data for this description will therefore be incomplete and will revist this later as the system is updated.
 
 ![](../.gitbook/assets/screen-shot-2021-03-02-at-16.54.03.png)
 
