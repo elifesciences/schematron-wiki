@@ -266,7 +266,7 @@ Reloading a Decision letter is as simple as downloading the zip file from the `e
 
 ## Decision letter workflow
 
-eLife production will be made aware of any Decision letters being loaded by an automated email appearing in the Production Inbox. Certain actions may be required depending on whether the email indicates that the Decision Letter was posted successfully or not \(see also [**Decision letter loading**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading) for more information on how to handle this email\). In the event that a Decision letter/Author response contains videos, Ed Office will inform Production prior to uploading, see [**below**](decision-letters-and-author-responses.md#dl-with-author-response-videos) on what to do when this occurs. 
+eLife production will be made aware of any Decision letters being loaded by an automated email appearing in the Production Inbox. Certain actions may be required depending on whether the email indicates that the Decision Letter was posted successfully or not \(see also [**Decision letter loading**](../../toolkit/managing-production-queries.md#decision-letter-loading) for more information on how to handle this email\). In the event that a Decision letter/Author response contains videos, Ed Office will inform Production prior to uploading, see [**below**](decision-letters-and-author-responses.md#dl-with-author-response-videos) on what to do when this occurs. 
 
 ### The Decision letter was posted successfully
 
@@ -305,7 +305,7 @@ Check that the files have been included as direct children of the zip, i.e. that
 
 * Other. If a failure message comes through and you are unsure what it means, it's possible that the content hasn't been parsed correctly by the parser. Contact Fred in the Production team who will investigate further \(if Fred is not available, raise a GitHub issue in the [**eLife issues repository**](https://github.com/elifesciences/issues), and assign to Graham to investigate\).
 
-\[Question for review - where should these be outlined? They are already explained in detail [**here**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading). Should they be here instead? In Both places? Or should we just link to [**here**](../../toolkit/managing-the-production-inbox.md#decision-letter-loading)?\]
+\[Question for review - where should these be outlined? They are already explained in detail [**here**](../../toolkit/managing-production-queries.md#decision-letter-loading). Should they be here instead? In Both places? Or should we just link to [**here**](../../toolkit/managing-production-queries.md#decision-letter-loading)?\]
 
 ### Decision letters/Author responses with videos
 

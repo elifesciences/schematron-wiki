@@ -5,7 +5,7 @@ description: Managing the production inbox and slack
 # Managing production queries
 
 {% hint style="info" %}
-For changelog, click [**here**](managing-the-production-inbox.md#changelog). Updated 22/03/2021
+For changelog, click [**here**](managing-production-queries.md#changelog). Updated 22/03/2021
 {% endhint %}
 
 ## Production q**ueries**
@@ -297,8 +297,8 @@ After Exeter has fed back on the page and it has been updated, any further chang
 #### Changes
 
 * Added information about the huddle tag.
-* Added [**Production queries**](managing-the-production-inbox.md#production-queries) section.
-* Added to [**Adding notes to emails**](managing-the-production-inbox.md#adding-notes-to-emails) section.
+* Added [**Production queries**](managing-production-queries.md#production-queries) section.
+* Added to [**Adding notes to emails**](managing-production-queries.md#adding-notes-to-emails) section.
 
 ### 22/03/2021
 

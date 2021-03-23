@@ -55,9 +55,9 @@ The authors may only include the title of the article within the email or email 
 
 The striking images are held in the elife-striking-images AWS bucket and you can upload the images in three ways: straight to the bucket, via eJP, and the Kriya dashboard. 
 
-If the article has been exported from eJP and is in Kriya, upload the image via the Kriya dashboard. If the article is still within eJP and not yet exported, upload it to eJP. It is important **not** to load it to eJP if the article is already in the production system because the systems do not transfer further information with each other after export has occurred.The most efficient way to do this is to search the Production inbox for the XML notification, which informs production an article has been exported from eJP \(see [**here**](managing-the-production-inbox.md#xml-notification-emails)\).
+If the article has been exported from eJP and is in Kriya, upload the image via the Kriya dashboard. If the article is still within eJP and not yet exported, upload it to eJP. It is important **not** to load it to eJP if the article is already in the production system because the systems do not transfer further information with each other after export has occurred.The most efficient way to do this is to search the Production inbox for the XML notification, which informs production an article has been exported from eJP \(see [**here**](managing-production-queries.md#xml-notification-emails)\).
 
-If the article has been exported from eJP and has not yet reached the Kriya dashboard, you can add a note to the email containing the striking image, and change the email to 'pending' \(see [**here**](managing-the-production-inbox.md#changing-the-status-of-an-email) and [**here**](managing-the-production-inbox.md#adding-notes-to-emails)\). Ensure you check the dashboard regularly so the image can be uploaded and not be forgotten.  
+If the article has been exported from eJP and has not yet reached the Kriya dashboard, you can add a note to the email containing the striking image, and change the email to 'pending' \(see [**here**](managing-production-queries.md#changing-the-status-of-an-email) and [**here**](managing-production-queries.md#adding-notes-to-emails)\). Ensure you check the dashboard regularly so the image can be uploaded and not be forgotten.  
 
 Once an article is on the Kriya dashboard and you wish to upload a striking image, it is important to check if a striking image is already present for an article. If any further images are uploaded via the dashboard, it will overwrite any previous images in the AWS bucket. 
 
@@ -145,7 +145,7 @@ To upload the image to eJP, search eJP using the MS number.
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-14.45.46%20%281%29.png)
 
-Ensure this article has not already been exported from eJP to Kriya. The most efficient way to do this is to search the Production inbox for the XML notification, which informs production an article has been exported from eJP \(see [**here**](managing-the-production-inbox.md#xml-notification-emails)\).
+Ensure this article has not already been exported from eJP to Kriya. The most efficient way to do this is to search the Production inbox for the XML notification, which informs production an article has been exported from eJP \(see [**here**](managing-production-queries.md#xml-notification-emails)\).
 
 However, if you are already in eJP look at 'More Manuscript Info and Tools' on the right-hand side of the page. If the 'Export to Exeter' option is not displaying but instead says 'Resend/Export to Exeter Premedia' this means the article has already been exported.
 

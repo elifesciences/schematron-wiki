@@ -52,7 +52,7 @@
 * [BaseX](toolkit/basex.md)
 * [Interacting with authors](toolkit/interacting-with-authors.md)
 * [Oxygen](toolkit/oxygen.md)
-* [Managing production queries](toolkit/managing-the-production-inbox.md)
+* [Managing production queries](toolkit/managing-production-queries.md)
 * [Fixing Crossref/Dryad failures](toolkit/fixing-crossref-dryad-failures.md)
 * [Striking images](toolkit/striking-images-1.md)
 * [Homepage images](toolkit/homepage-images.md)
