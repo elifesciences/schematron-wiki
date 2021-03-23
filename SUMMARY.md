@@ -66,6 +66,10 @@
 * [Name change requests](toolkit/name-change-requests.md)
 * [eToc](toolkit/etoc.md)
 
+---
+
+* [s3 \(AWS\) buckets](s3-aws-buckets.md)
+
 ## Pages in progress
 
 * [Kriya](pages-in-progress/kriya-1.md)
