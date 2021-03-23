@@ -65,10 +65,7 @@
 * [Glencoe](toolkit/glencoe.md)
 * [Name change requests](toolkit/name-change-requests.md)
 * [eToc](toolkit/etoc.md)
-
----
-
-* [s3 \(AWS\) buckets](s3-aws-buckets.md)
+* [s3 \(AWS\) buckets](toolkit/s3-aws-buckets.md)
 
 ## Pages in progress
 
