@@ -133,7 +133,7 @@ The following applies to research content \([**Feature content**](../feature-con
 2. Column width, across just the width of the text column \(100mm\)
 3. Half-column width, occupying the left 50% of the width of the text column, with the text flowing around the image block on the right \(50mm\) 
 
-![An example of a full-page width figure](../../../.gitbook/assets/screenshot-2020-07-01-at-16.35.48.png)
+![An example of a full-page width figure](../../../.gitbook/assets/screenshot-2020-07-01-at-16.35.48%20%281%29%20%281%29.png)
 
 ![An example of a column-width figure](../../../.gitbook/assets/screenshot-2020-07-01-at-16.34.30.png)
 

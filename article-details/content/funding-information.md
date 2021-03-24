@@ -105,7 +105,7 @@ The steps to take in this case are:
 
 * Please check that the edited funding details are still correct.
 
-![](../../.gitbook/assets/5.png)
+![](../../.gitbook/assets/4%20%284%29.png)
 
 Some funders can be tricky to track down. For example, the acknowledgements section of 51440 states:
 
@@ -143,7 +143,7 @@ If the article is at pub review, these entries can be left as-is.
 
 Sometimes, multiple grant references will be entered under the same funder. In the example below, the first entry for the funder 'Cancerfonden' has the grant reference 'CAN2011/1180; CAN 2018/793'. If grant references include semi-colons or commas, this usually indicates multiple grants from the same funder. If you need to split funding entries, cross-check with the acknowledgements to see if they have specified different authors for each of the grants, and add an author query if you are unsure the split is correct.
 
-![](../../.gitbook/assets/7.png)
+![](../../.gitbook/assets/6%20%284%29.png)
 
 In this case, split the grant references into two entries, enter the same author for both, and leave the following author query:
 

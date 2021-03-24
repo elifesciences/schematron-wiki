@@ -10,7 +10,7 @@ For changelog, click [**here**](interacting-with-authors.md#changelog). Updated 
 
 Most of our interaction with the authors of eLife articles happens via email. It is important to ensure that queries from authors are responded to the day they are received, unless after 4pm, in which case they can be replied to the following morning. If we do not have an answer to the queries yet, the authors should be made aware that we are looking into it. There are many email templates saved in the production collaboration tool \(Hiver\) which are useful for drafting responses - but these should be tailored to cover the nuances in each author query. To access the Hiver templates, open an email and click to reply to it, then click on the 'Email templates' button. Select the appropriate template and tailor it to the email.
 
-![](../.gitbook/assets/captured-1-.gif)
+![](../.gitbook/assets/captured-1-%20%281%29.gif)
 
 ## Common queries 
 

@@ -33,11 +33,11 @@ General queries in the inbox can be replied to without assigning the email to yo
 
 To do this from the inbox, select the email and click on the![](../.gitbook/assets/screenshot-2020-06-24-at-12.16.44.png)icon. Then click on 'Select a user' and choose a name from the drop-down menu. 
 
-![](../.gitbook/assets/captured%20%282%29.gif)
+![](../.gitbook/assets/captured%20%282%29%20%281%29.gif)
 
 You can also assign an email by opening the email and going to the Hiver toolbox on the right-hand side of the email. If this is not visible, click on the Hiver icon on the top-right Click on the 'Assigned to' drop-down menu.
 
-![](../.gitbook/assets/captured-1-%20%282%29.gif)
+![](../.gitbook/assets/captured-1-%20%283%29.gif)
 
 The email will then be tagged with that user’s name and moved to their inbox. The rest of the team can still search for and access the email, however they will not be notified of any correspondence in that thread until it is unassigned and moved back to the general inbox.
 
@@ -108,7 +108,7 @@ You can see in the screenshots below how emails have both the subject prefix \(f
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-10.15.18.png)
 
-![](../.gitbook/assets/screenshot-2020-06-17-at-10.12.34.png)
+![](../.gitbook/assets/screenshot-2020-06-17-at-10.12.34%20%281%29.png)
 
 ## **Email types**
 
@@ -128,7 +128,7 @@ Scroll to the last 6 lines of the report. If there is anything in the ‘failure
 
 Every now and then we also get emails from Crossref to let us know about scheduled maintenance. These can just be closed. If they email to let us know their server is down, this email can be kept open for the duration of the outage so everyone on the team is aware of this.
 
-![](../.gitbook/assets/screenshot-2020-06-25-at-12.29.40%20%281%29.png)
+![](../.gitbook/assets/screenshot-2020-06-25-at-12.29.40%20%281%29%20%281%29.png)
 
 ### **Decision letter loading**
 
@@ -140,7 +140,7 @@ Wait five minutes or so and then check the decision letter has loaded on the Kri
 
 ![An article with no decision letter or digest](../.gitbook/assets/screenshot-2020-06-17-at-11.59.06.png)
 
-![An article with decision letter \(and digest\) loaded](../.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%281%29.png)
+![An article with decision letter \(and digest\) loaded](../.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%281%29%20%283%29.png)
 
 If the decision letter has loaded, this email can be closed. If the article is not yet in Kriya, this email should be left open until it is \(add a note to the email using Hiver\).
 
@@ -158,7 +158,7 @@ Similarly, we receive emails when a digest is uploaded to an article by the Feat
 
 Just as before, these also need to be checked on Kriya five minutes after we receive the email before closing.
 
-![An article with digest \(and decision letter\) loaded](../.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%281%29.png)
+![An article with digest \(and decision letter\) loaded](../.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%281%29%20%283%29.png)
 
 If a digest hasn't loaded, this is usually because Kriya is down \(or the article hasn't yet been loaded, but this is much less likely\). When Kriya is running again, or when the article has loaded, the digest will need to be re-uploaded to the AWS bucket by the Features team. Digests may also not load because there is a problem with the files or parser - in this case, we'll need to raise a GitHub issue for Graham to investigate.
 
@@ -190,7 +190,7 @@ If the article is not yet in Kriya, add it to the [**Production actions sheet**]
 
 Note, the decision letter tracker has a 'hold for export' section. This is for articles that are currently on hold with the Editorial Office \(usually waiting for some additional information e.g about data availability\). Articles in this section should still be marked as 'No digest' if relevant. 
 
-![](../.gitbook/assets/screenshot-2021-03-22-at-09.02.13.png)
+![](../.gitbook/assets/screenshot-2021-03-22-at-09.02.13%20%282%29.png)
 
 ### **Out of office responses**
 

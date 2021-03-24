@@ -67,7 +67,7 @@ It is typically easier, if you can, to use the Kriya dashboard as it sets up the
 
 To upload a striking image to an article, download the image provided by the author, go to the article in the Kriya dashboard. Click on 'Striking image'. 
 
-![](../.gitbook/assets/screenshot-2020-06-17-at-12.03.26%20%283%29.png)
+![](../.gitbook/assets/screenshot-2020-06-17-at-12.03.26%20%283%29%20%282%29.png)
 
 When the uploader appears, select the file and then click on 'Update'. Do not add text to the 'metacontent' field unless the authors have provided a caption or attribution information, in which case enter the provided text here. 
 
@@ -83,7 +83,7 @@ The screenshot above shows multiple images selected within the same session. You
 
 Due to a dashboard bug, after clicking on 'Update' the uploader will not automatically close. You will need to refresh the page. Double-check the article in the dashboard to make sure the 'Striking image' button is now green. Alternatively, you can bring up the striking images AWS bucket at the same time and after you have clicked update, you can refresh the bucket to ensure this has been uploaded. 
 
-![](../.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%283%29.png)
+![](../.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%281%29%20%282%29.png)
 
 ### Uploading via the striking images AWS bucket 
 
@@ -133,7 +133,7 @@ To do this, open the 'elife-striking-images' bucket in Cyberduck \(or similar pr
 
 Open this folder and drag and drop the new striking image in to upload it. Make sure the striking image is titled appropriately - e.g. '56754-b\_striking\_image' because there is already a '56754-a\_striking\_image'. If the authors have provided a title, caption, or attribution information, enter this into a .txt file and save with the same title \(i.e. '56754-b\_striking\_image'\). If they have not provided this information, you do not need to include a .txt file. 
 
-![](../.gitbook/assets/screenshot-2020-06-17-at-15.21.44%20%281%29.png)
+![](../.gitbook/assets/screenshot-2020-06-17-at-15.21.44.png)
 
 If you have multiple images with captions to add to existing images provided by the author, you may prefer to use the Kriya dashboard. You will need to re-upload the old images at the same time as the new images to prevent overwriting. To do this, you should download any existing images and .txt files \(if these contain any captions\) from the bucket and upload these along with the new images as shown in the previous section.
 
@@ -141,9 +141,9 @@ If you have multiple images with captions to add to existing images provided by 
 
 To upload the image to eJP, search eJP using the MS number.
 
-![](../.gitbook/assets/screenshot-2020-06-17-at-14.44.57%20%281%29.png)
+![](../.gitbook/assets/screenshot-2020-06-17-at-14.44.57.png)
 
-![](../.gitbook/assets/screenshot-2020-06-17-at-14.45.46%20%281%29.png)
+![](../.gitbook/assets/screenshot-2020-06-17-at-14.45.46%20%281%29%20%281%29.png)
 
 Ensure this article has not already been exported from eJP to Kriya. The most efficient way to do this is to search the Production inbox for the XML notification, which informs production an article has been exported from eJP \(see [**here**](managing-production-queries.md#xml-notification-emails)\).
 

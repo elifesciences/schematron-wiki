@@ -60,7 +60,7 @@ Once this has been set up, you can correct failures in the blink of an eye. When
 * Select ‘Submission administration’.
 * Search for the DOI number with no restrictions, which will bring up the list of submissions processed by Crossref. Recent errors will be highlighted with a red ‘E’ symbol:
 
-![](../.gitbook/assets/screen-shot-2020-07-09-at-15.39.22.png)
+![](../.gitbook/assets/screen-shot-2020-07-09-at-15.39.22%20%281%29.png)
 
 * Locate the article that has failed.
 * Right/ctrl click on the file icon to the right of the ID \(blue text\) and click ‘Save link as’. When you download a file it automatically downloads with the filename `submissionAdmin.xml`. 
@@ -111,7 +111,7 @@ These type of failures are resolved in a similar way to a Dryad failure, however
 * Select ‘Submission administration’.
 * Search for the DOI number with no restrictions, which will bring up the list of submissions processed by Crossref. Recent errors will be highlighted with a red ‘E’ symbol:
 
-![](../.gitbook/assets/screen-shot-2020-07-09-at-15.39.22%20%281%29.png)
+![](../.gitbook/assets/screen-shot-2020-07-09-at-15.39.22%20%281%29%20%281%29.png)
 
 * Locate the article that has failed.
 * Copy the filename and right/ctrl click on the file icon to the right of the ID \(blue text\). Click ‘Save link as’ and paste the old filename into the 'Save As:' field. When running the Dryad scenario, Oxygen will automatically change this name for you as Crossref will reject any files with duplicated names. This will need to be changed manually in this instance so you will need to change the filename so that the time is in the future \(this only needs to be an hour or so\) and click save. 

@@ -28,7 +28,7 @@ The Production team use Oxygen to view, edit, validate, and transform XML files.
 
       7. Click the cog symbol in the furthest right column:
 
-![](../.gitbook/assets/screenshot-2020-07-27-at-13.51.44%20%282%29.png)
+![](../.gitbook/assets/screenshot-2020-07-27-at-13.51.44%20%282%29%20%281%29.png)
 
         8. In the specify schema pop-up, select 'Use custom schema':
 

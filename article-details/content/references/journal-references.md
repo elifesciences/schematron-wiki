@@ -338,7 +338,7 @@ If this warning appears at the post-editing stage, the authors may need to be as
 
 **Action:** This warning will appear if a journal reference has a journal name including any of the following: conference, symposium, symposia, neural information processing, nips, computer vision and pattern recognition, scipy, workshop, meeting, spie, congress, \[number\]st, \[number\]nd, \[number\]rd, \[number\]th. This test is intended to identify journal references that are actually conference references. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) to check whether it has been published in a journal, or whether it is a paper from a conference. If the conference proceedings have been published in a journal \(i.e. if it is indexed on PubMed\), this can be kept as a journal reference, otherwise change it to a conference reference \(hyperlink to be added\).
 
-![An example of conference proceedings published in a journal](../../../.gitbook/assets/screenshot-2020-06-09-at-15.38.31.png)
+![An example of conference proceedings published in a journal](../../../.gitbook/assets/screenshot-2020-06-09-at-15.38.31%20%281%29.png)
 
 #### journal-conference-ref-check-2
 
@@ -346,7 +346,7 @@ If this warning appears at the post-editing stage, the authors may need to be as
 
 **Action:** This warning will appear if a journal reference has a journal name including a year. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) or the journal website to check whether it has been published in a journal, or whether it is a paper from a conference. If the conference proceedings have been published in a journal \(i.e. if it is indexed on PubMed\), this can be kept as a journal reference, otherwise change it to a conference reference \(hyperlink to be added\).
 
-![An example of conference proceedings published in a journal](../../../.gitbook/assets/screenshot-2020-06-09-at-15.38.31%20%281%29.png)
+![An example of conference proceedings published in a journal](../../../.gitbook/assets/screenshot-2020-06-09-at-15.38.31%20%281%29%20%281%29.png)
 
 ### XML Structure checks
 

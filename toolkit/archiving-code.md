@@ -69,7 +69,7 @@ From the [**search page**](https://archive.softwareheritage.org/)**,** click 'Sa
 
 This can also be done if looking at a particular repo in Software Heritage:
 
-![](../.gitbook/assets/screenshot-2020-10-06-at-11.44.13%20%281%29.png)
+![](../.gitbook/assets/screenshot-2020-10-06-at-11.44.13%20%281%29%20%281%29.png)
 
 ### If the code is in GitHub or GitLab
 
