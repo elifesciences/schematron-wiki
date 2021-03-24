@@ -20,6 +20,7 @@ assignees: ''
 - [ ] Fred approved page
 - [ ] James approved page
 - [ ] Naushin approved page
+- [ ] Claudia approved page
 - [ ] Share page with Exeter and invite feedback
 
 ### Definition of done
