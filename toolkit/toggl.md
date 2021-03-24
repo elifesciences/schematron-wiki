@@ -307,5 +307,5 @@ Time spent training other members of the team should be recorded using the Train
 
 ## Changelog
 
-* 24 March 2021 - text and labels updated for full accounting of current processes
+* Updated 2021-03-24 - text and labels updated for full accounting of current processes
 
