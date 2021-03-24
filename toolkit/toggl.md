@@ -4,6 +4,10 @@ description: Task tracking with Toggl
 
 # Toggl
 
+{% hint style="info" %}
+For the changelog, click here.
+{% endhint %}
+
 ## What is Toggl?
 
 [**Toggl track**](https://toggl.com/) is a time-tracking application that the eLife production team uses to monitor how much time is spent on different tasks. This information will be used to monitor the effect of changes to workflows, to track the distribution of work compared to article volumes, to monitor the team's availability to work on projects outside the day-to-day tasks, and so on.
@@ -300,4 +304,8 @@ This tracks time spent communicating on slack, either in relation to a specific 
 Time spent training other members of the team should be recorded using the Training project.
 
 ![](../.gitbook/assets/5%20%281%29.png)
+
+## Changelog
+
+
 
