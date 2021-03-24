@@ -147,11 +147,9 @@ If there are any issues with the Journal CMS website, Nathan can be contacted th
 
 ## Changelog
 
-* 
-### dd/mm/yyyy
+* 24/03/2021 - To update how the image attribution is entered into Journal CMS and how it displays on the homepage.
 
-#### Changes
 
-* 
+
 
 
