@@ -4,6 +4,10 @@ description: Information about the homepage images that feature on eLife's websi
 
 # Homepage images
 
+{% hint style="info" %}
+For changelog, click [**here**](homepage-images.md#changelog). Updated 24/03/2021
+{% endhint %}
+
 ## What are homepage images?
 
 On eLife's [**homepage**](https://elifesciences.org/), we feature three [**striking images**](striking-images-1.md) on an image carousel, with one new image being added each Tuesday. Each image will stay on the carousel for three weeks, which offers the chance of promoting the article during this time. Only VoR articles are selected for the homepage, not PoA articles.
@@ -147,7 +151,9 @@ If there are any issues with the Journal CMS website, Nathan can be contacted th
 
 ## Changelog
 
-* 24/03/2021 - To update how the image attribution is entered into Journal CMS and how it displays on the homepage.
+### **24/03/2021**
+
+* Updated how the image attribution is entered into Journal CMS and how it displays on the homepage.
 
 
 
