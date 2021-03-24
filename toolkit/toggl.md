@@ -48,12 +48,12 @@ The following is a full list of projects and the associated tags currently in us
         <p>Emails: figures</p>
         <p>Emails: math</p>
         <p>Emails: morning</p>
+        <p>Emails: permissions</p>
         <p>Emails: press</p>
         <p>Emails: proof access</p>
         <p>Emails: proof edits</p>
         <p>Emails: proof return delay</p>
         <p>Emails: pub date query</p>
-        <p>Emails: reproducibility</p>
         <p>Emails: software</p>
         <p>Emails: striking images</p>
         <p>Emails: typesetting</p>
@@ -161,12 +161,12 @@ This is used to track time spent checking articles on the journal preview site. 
 * Emails: figures - _use for emails providing replacement images or question related to figure display_
 * Emails: math - _use for issues with equations in articles_
 * Emails: morning - _apply to email tasks carried out at the start of the day related to clearing notification emails out of the inbox_
+* Emails: permissions - _use for emails related to permissions for images and other assets reproduced from previously published works_
 * Emails: press - _use for emails regarding press releases_
 * Emails: proof access - _use for authors experiencing login/access problems with the proofing system_
 * Emails: proof edits - _use for edit requests sent via email_
 * Emails: proof return delay - _use for requests to extend the proofing deadline_
 * Emails: pub date query - _use for questions about when articles will be published_
-* Emails: reproducibility
 * Emails: software - _use for questions regarding software_
 * Emails: striking images - _use for emails providing striking images and uploading the images to the system_
 * Emails: typesetting - _use for queries from the content processors and correspondence with the authors to resolve issues at the pre-editing stage_
