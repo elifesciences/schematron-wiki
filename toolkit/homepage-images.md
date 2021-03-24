@@ -113,9 +113,13 @@ To do this, follow the steps below.
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-13.41.18.png)
 
-* If there is an image attribution, this should be entered in the field below. Where possible, try to keep the attribution fewer than 50 characters long, as if it is longer then it will be shortened with an ellipsis on the site.
+* If there is an image attribution, this should be entered in the field below. If provided, the attribution can be found in the .txt file which you can download from the AWS bucket, see [**here**](striking-images-1.md#uploading-via-the-striking-images-aws-bucket) for more information. Where possible, try to keep the attribution fewer than 50 characters long, as if it is longer then it will be shortened with an ellipsis on the site. You will also need to enter the tag 'Image credit:' before the attribution to ensure this is consistent as the carousel will display whatever is entered into the field below.
 
-![An example of an attribution for 50645](../.gitbook/assets/screen-shot-2020-08-27-at-12.58.26%20%281%29.png)
+![](../.gitbook/assets/screen-shot-2021-03-24-at-08.56.31%20%281%29.png)
+
+* The image attribution will be displayed in the righthand corner of the carousel \(see below\).
+
+![](../.gitbook/assets/screen-shot-2020-11-24-at-15.32.17.png)
 
 * Enter the manuscript number into ‘Related content item’ field and select it from drop-down menu. It will enter it into the field with another number in brackets next to it. Ensure you **do not** use an unpublished article.
 
