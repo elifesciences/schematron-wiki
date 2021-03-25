@@ -42,11 +42,23 @@ If there are other equations with little or truncated content directly preceding
 
 Equations slow the load time of content in web pages, and may not appear in downstream locations. Therefore, certain maths content \(single operators \[+, –, ±\], numbers alone, some individual characters\) should be converted to plain text where possible. However, this should be done with caution, equations should not be changed to text at the expense of meaning. Equations appear in a different font \(Stix\) to plain text in the PDF. If a symbol is used in a display equation, and then referenced in a preceding or subsequent paragraph \(typically defining or expounding what that symbol represents\), the symbol in the paragraph should be tagged as an inline equation, so that the fonts match, and the reader can easily discern that it is the same symbol from the equation.
 
-Here is an example of where changing equations to plain text is inappropriate:
+### An example where changing equations to plain text is inappropriate
 
 ![The pink highlighted text should be captured as equations instead](../../.gitbook/assets/image%20%285%29.png)
 
 For example, the first _i_ is present in the inline equation that precedes it, and therefore it needs to be captured as an equation to match the formatting/font, so that the reader can tell it is the same symbol.
+
+### An example where changing equations to plain text is appropriate
+
+The author of this example has provided their manuscript as LaTeX. The delta symbol has been included \(and processed\) as an equation:
+
+![Example taken from 64348](../../.gitbook/assets/screenshot-2021-03-25-at-12.23.39.png)
+
+Here are the relevant snippets of content from the original file:
+
+`... and for a $\Delta$\textit{kaiABC} background ... wild-type (blue), $\Delta$\textit{sepJ}/$\Delta$\textit{fraCD} (green) and   $\Delta$\textit{kaiABC} (orange) ...`
+
+After a quick check of the rest of manuscript, it's clear that these symbols aren't used in a display equation, and changing them to plain text delta symbols wouldn't change the meaning, so it is appropriate to capture them as plain text.
 
 ### Pre-author
 
@@ -54,7 +66,7 @@ At content loading and/or pre-editing the following instances of maths should be
 
 * Superscript and Subscript for content which are not references to parts of a display formula. For example n$$^{2}$$ should be changed to n².
 * Expressions captured partially in maths, for example x$$=10$$, should be changed to x=10.
-* Symbols which are not referenced in a display equation, which do not need to be captured in maths - for example degree symbols \($$\degree$$ changed to °\).
+* Symbols which are not referenced in a display equation, which do not need to be captured in maths - for example degree symbols \($$\degree$$ changed to °\), and greek symbols.
 * Just numbers only - for example $$123$$ changed to 123.
 
 All other instances should be retained as equations, unless specified by eLife Production staff.
