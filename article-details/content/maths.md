@@ -66,7 +66,7 @@ At content loading and/or pre-editing the following instances of maths should be
 
 * Superscript and Subscript for content which are not references to parts of a display formula. For example n$$^{2}$$ should be changed to n².
 * Expressions captured partially in maths, for example x$$=10$$, should be changed to x=10.
-* Symbols which are not referenced in a display equation, which do not need to be captured in maths - for example degree symbols \($$\degree$$ changed to °\), and greek symbols.
+* Symbols which are not referenced in a display equation, which do not need to be captured in maths - for example degree symbols \($$\degree$$ changed to °\), and greek symbols \($$\Delta$$ changed to Δ\).
 * Just numbers only - for example $$123$$ changed to 123.
 
 All other instances should be retained as equations, unless specified by eLife Production staff.
