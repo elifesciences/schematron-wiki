@@ -102,7 +102,6 @@ Emails we send to Exeter should also be prefixed to help them categorise and fil
 * PROBLEM: This is for when we encounter any issues using Kriya, or on articles that we cannot solve at our end
 * REQUEST: For any requests, such as asking Exeter to manually move an article between stages
 * PRAISE: For providing any positive feedback, or forwarding on any complimentary author emails
-* ELIFE QUERY: For any questions that they ask us. Sometimes these questions will be asked in Slack, and we will need to reply in email, so you will need to use the prefix.
 
 You can see in the screenshots below how emails have both the subject prefix \(for Exeter’s use\), and the Hiver tag \(for ours\).
 
@@ -160,7 +159,7 @@ Just as before, these also need to be checked on Kriya five minutes after we rec
 
 ![An article with digest \(and decision letter\) loaded](../.gitbook/assets/screenshot-2020-06-17-at-12.03.45%20%281%29%20%283%29.png)
 
-If a digest hasn't loaded, this is usually because Kriya is down \(or the article hasn't yet been loaded, but this is much less likely\). When Kriya is running again, or when the article has loaded, the digest will need to be re-uploaded to the AWS bucket by the Features team. Digests may also not load because there is a problem with the files or parser - in this case, we'll need to raise a GitHub issue for Graham to investigate.
+If a digest hasn't loaded, this is usually because Kriya is down \(or the article hasn't yet been loaded, but this is much less likely\). When Kriya is running again, or when the article has loaded, the Production team will need to ask the Features team to re-upload the digest to the AWS bucket. Digests may also not load because there is a problem with the files or parser - in this case, we'll need to raise a GitHub issue for Graham to investigate.
 
 ### GitHub/GitLab emails
 
@@ -264,9 +263,13 @@ Throughout the day we will also receive automated emails when articles are loade
 
 ![](../.gitbook/assets/16.png)
 
-We may also receive emails about articles that have been rejected from PubMed. This will need to be investigated further so raise this in the daily Huddle meeting. 
+If any articles have been rejected from PubMed, these will be listed in the loader report summary email and in a separate 'REJECTED ARTICLES' email. 
 
-![](../.gitbook/assets/17.png)
+![](../.gitbook/assets/screenshot-2021-03-29-at-08.57.03.png)
+
+![](../.gitbook/assets/screenshot-2021-03-29-at-09.01.00.png)
+
+This will need to be investigated further so add the 'Failure' and 'Huddle' tags and raise this in the daily Huddle meeting. The loader report email can be closed, but keep the REJECTED ARTICLES email open until this has been discussed and resolved. 
 
 ### **Striking images**
 
