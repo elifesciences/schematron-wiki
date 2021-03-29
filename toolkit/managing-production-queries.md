@@ -307,3 +307,7 @@ After Exeter has fed back on the page and it has been updated, any further chang
 
 * Made some edits to various sections after Production team feedback. 
 
+### 29/03/2021
+
+* Added some additional info \(colouring notes in Hiver, pubmed loader failure emails\).
+
