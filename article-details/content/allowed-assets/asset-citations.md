@@ -1,5 +1,9 @@
 # Asset citations
 
+{% hint style="info" %}
+For changelog, click here. Updated 29/03/2021
+{% endhint %}
+
 ## What is an asset citation?
 
 An asset citation is an in-text citation for an [**asset**](./#main-text-assets) that is part of an article. This is in contrast to [**reference citations**](../reference-citations.md). These are rendered as links in the final article. Clicking them will take the reader to the relevant asset in the PDF and HTML view.
@@ -881,5 +885,11 @@ Supplementary file citation
  <xref ref-type="supplementary-material" rid="supp1">Supplementary file 1</xref>
 ```
 
+## Changelog
 
+### 29/03/2021
+
+#### Changes
+
+* Added [**figurefigure-presence**](asset-citations.md#figurefigure-presence) and [**disp-formula-xref-target-test**](asset-citations.md#disp-formula-xref-target-test) tests. 
 
