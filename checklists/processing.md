@@ -151,7 +151,7 @@ The following points should be addressed during copy-editing:
    * Product information \(company, country\)
    * Use of dashes
 3. Citations are only allowed in the abstract for Research Advances, where plain-text citations of the related article\(s\) are permitted. In all other cases, authors should be asked to remove any citations and reword the abstract if necessary.
-4. Check that the article structure looks correct. If required sections are missing, this should be queried with the author. See the [**Article structure**](../article-details/content/article-structure.md#allowed-article-structures) page for more details.
+4. Check that the article structure looks correct. If required sections are missing, this should be queried with the author. See the [**Article structure**](../article-details/content/article-structure/#allowed-article-structures) page for more details.
 5. Section headings and titles for figures, tables, source data etc. should be in sentence case.
 6. Abbreviations should be spelled out the first time they are used, followed immediately by the abbreviation in brackets. Thereafter, the abbreviated form should be used. However, please note the following exceptions:
    * The abstract, figures and tables should be treated as separate entities and abbreviations should be redefined within them.

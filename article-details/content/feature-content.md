@@ -44,7 +44,7 @@ Feature content includes the following items not found in research content:
 
 ![Example of an author bio](../../.gitbook/assets/screen-shot-2020-06-23-at-15.55.43.png)
 
-* **No set article structure** - Insights, Editorials and Feature articles do not have predefined structures or set level 1 headings. Further details on this can be found on the [**Article structure**](article-structure.md#feature-content) page.
+* **No set article structure** - Insights, Editorials and Feature articles do not have predefined structures or set level 1 headings. Further details on this can be found on the [**Article structure**](article-structure/#feature-content) page.
 * **Illustrations** - unlabelled figures with a single sentence description. May also include an attribution.
 
 ![Example of an illustration](../../.gitbook/assets/screen-shot-2020-06-23-at-15.58.57.png)

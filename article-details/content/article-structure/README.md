@@ -5,7 +5,7 @@ description: The article structure for different article types.
 # Article structure
 
 {% hint style="info" %}
-For the changelog, click [**here**](article-structure.md#changelog).
+For the changelog, click [**here**](./#changelog).
 {% endhint %}
 
 ## What is article structure?
@@ -14,33 +14,33 @@ Article structure refers to the way in which the body of an article is organised
 
 These sections are usually discussed in terms of the hierarchy of their titles, referred to as 'headings'.
 
-![Example of article structure displayed in the proofing system, showing Level 1 and Level 2 headings](../../.gitbook/assets/screen-shot-2020-07-21-at-16.16.57.png)
+![Example of article structure displayed in the proofing system, showing Level 1 and Level 2 headings](../../../.gitbook/assets/screen-shot-2020-07-21-at-16.16.57.png)
 
 eLife currently allows four levels of headings:
 
 * **Level 1** - top level heading that will appear in the jump-to menu on the published HTML view:
 
-![Level 1 &apos;Introduction&apos; heading in online view](../../.gitbook/assets/screen-shot-2020-07-14-at-16.45.13.png)
+![Level 1 &apos;Introduction&apos; heading in online view](../../../.gitbook/assets/screen-shot-2020-07-14-at-16.45.13.png)
 
-![Level 1 &apos;Introduction&apos; heading in PDF](../../.gitbook/assets/screen-shot-2020-07-14-at-16.49.07.png)
+![Level 1 &apos;Introduction&apos; heading in PDF](../../../.gitbook/assets/screen-shot-2020-07-14-at-16.49.07.png)
 
 * **Level 2** - sub-section heading under a Level 1 heading:
 
-![Level 2 heading &apos;Glycan synthesis in Golgi compartments&apos; heading in online view](../../.gitbook/assets/screen-shot-2020-07-14-at-16.51.12.png)
+![Level 2 heading &apos;Glycan synthesis in Golgi compartments&apos; heading in online view](../../../.gitbook/assets/screen-shot-2020-07-14-at-16.51.12.png)
 
-![Level 2 heading &apos;Glycan synthesis in Golgi compartments&apos; heading in PDF](../../.gitbook/assets/screen-shot-2020-07-14-at-16.51.30.png)
+![Level 2 heading &apos;Glycan synthesis in Golgi compartments&apos; heading in PDF](../../../.gitbook/assets/screen-shot-2020-07-14-at-16.51.30.png)
 
 * **Level 3** - sub-section heading under a Level 2 heading:
 
-![Level 3 heading &apos;Promiscuity&apos; in online view](../../.gitbook/assets/screen-shot-2020-07-14-at-16.53.45.png)
+![Level 3 heading &apos;Promiscuity&apos; in online view](../../../.gitbook/assets/screen-shot-2020-07-14-at-16.53.45.png)
 
-![Level 3 heading &apos;Promiscuity&apos; in PDF](../../.gitbook/assets/screen-shot-2020-07-14-at-16.53.21.png)
+![Level 3 heading &apos;Promiscuity&apos; in PDF](../../../.gitbook/assets/screen-shot-2020-07-14-at-16.53.21.png)
 
 * **Level 4** - sub-section heading under a Level 3 heading.
 
-![Level 4 heading &apos;Survival and water-electrolyte balance&apos; in online view](../../.gitbook/assets/screen-shot-2020-07-28-at-15.58.34.png)
+![Level 4 heading &apos;Survival and water-electrolyte balance&apos; in online view](../../../.gitbook/assets/screen-shot-2020-07-28-at-15.58.34.png)
 
-![Level 4 heading &apos;Survival and water-electrolyte balance&apos; in PDF](../../.gitbook/assets/screen-shot-2020-07-28-at-15.59.05.png)
+![Level 4 heading &apos;Survival and water-electrolyte balance&apos; in PDF](../../../.gitbook/assets/screen-shot-2020-07-28-at-15.59.05.png)
 
 Any number of Level 2, 3 or 4 headings may appear within their parent sections. However, eLife limits the number of Level 1 headings in research content to between one and four in most cases. Please note that levels cannot be skipped – for example, a Level 2 heading cannot be followed by a Level 4 heading. 
 
@@ -90,7 +90,7 @@ Finally, for modelling articles, the following structure is allowed. This will b
   * **Results**
   * **Discussion**
 
-![Example of production note indicated approval for non-standard article structure](../../.gitbook/assets/screen-shot-2020-08-11-at-16.58.27.png)
+![Example of production note indicated approval for non-standard article structure](../../../.gitbook/assets/screen-shot-2020-08-11-at-16.58.27.png)
 
 ### Research advance
 
@@ -141,7 +141,7 @@ Registered reports will have the following article structure:
 
 ### Replication study
 
-Replication studies share the same structure rules as [**research articles**](article-structure.md#research-article).
+Replication studies share the same structure rules as [**research articles**](./#research-article).
 
 ### Scientific correspondence
 
@@ -165,7 +165,7 @@ There are no rules for headings in feature content. The article structure should
 
 If a feature article contains the heading 'Note' at the end of the text, this should be tagged as a Level 1 heading and should use the following alternative style in the PDF:
 
-![Example of alternative Level 1 heading for notes in feature content PDFs](../../.gitbook/assets/screen-shot-2020-09-08-at-10.13.03.png)
+![Example of alternative Level 1 heading for notes in feature content PDFs](../../../.gitbook/assets/screen-shot-2020-09-08-at-10.13.03.png)
 
 ### Corrections and retractions
 
@@ -179,7 +179,7 @@ On rare occasions, a review article may contain numbering at all levels. This wi
 
 The correct style for a numbered heading in an eLife articles is '1.1 Cube density and coverage', '1.2 Percolation threshold of cube mazes' etc.
 
-![Example of numbered sub-sections in an appendix](../../.gitbook/assets/screen-shot-2020-08-11-at-16.02.57.png)
+![Example of numbered sub-sections in an appendix](../../../.gitbook/assets/screen-shot-2020-08-11-at-16.02.57.png)
 
 ## Schematron checks
 
@@ -283,7 +283,7 @@ XXXXXX will indicate the styled content at the start of a paragraph; X will be t
 
 **Warning**: _top level sec with title - XXXXXX - is not a usual title for XXXXXX content. Should this be captured as a sub-level of XXXXXX?_
 
-**Action**: This warning indicates that a Level 1 heading is present that does not match the allowed top-level headings \([**see here**](article-structure.md#allowed-article-structures) for usual headings\). Check whether this heading should be tagged as Level 2, within the preceding Level 1 heading. This may require a check against the exported article file. If an unusual article structure has been approved by Editorial, this should be indicated in the production notes.
+**Action**: This warning indicates that a Level 1 heading is present that does not match the allowed top-level headings \([**see here**](./#allowed-article-structures) for usual headings\). Check whether this heading should be tagged as Level 2, within the preceding Level 1 heading. This may require a check against the exported article file. If an unusual article structure has been approved by Editorial, this should be indicated in the production notes.
 
 In cases where the authors have included a top-level heading that is similar to a permitted Level 1 heading \(e.g. 'Experimental results' or 'Discussion and conclusions'\) this should be corrected to match eLife style \('Results' and 'Discussion' in this case\).
 
