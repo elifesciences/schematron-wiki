@@ -8,7 +8,7 @@ In scientific articles, an appendix contains additional material that is not an 
 
 ![An appendix in the PDF](../../../.gitbook/assets/screenshot-2021-03-29-at-08.29.18.png)
 
-eLife's appendices are named numerically \(not alphabetically\) and any related assets are named accordingly, e.g Appendix 2—figure 1. If there is only one appendix, it should still be numbered Appendix 1. 
+eLife's appendices are named numerically \(not alphabetically\) and any related assets are named accordingly, e.g. Appendix 2—figure 1. If there is only one appendix, it should still be numbered Appendix 1. 
 
 
 
