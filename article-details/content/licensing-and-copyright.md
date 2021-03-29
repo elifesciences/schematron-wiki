@@ -22,15 +22,36 @@ As above, all eLife's article assets are published under a CC BY 4.0 or CC0 lice
 
 ## Figure adaptations and reproductions
 
+![](../../.gitbook/assets/licensing-flowchart%20%282%29.png)
+
+### 
+
+The editorial team check figure permissions as part of submission quality checks. They will leave a note for Exeter if an author has indicated that they have adapted or reproduced a figure from another source. This note will indicate which figure panel has been adapted or reproduced, and if required, the information that needs to be added in the XML.
+
+For example, for redrawn figures:
+
+> FAO Exeter: Figure Permissions
+>
+> Figure 2A has been adapted from Smith and Jones, 2015
+
+And for reproduced figures: 
+
+> FAO Exeter: Figure Permissions
+>
+> copyright-year: 2009  
+> copyright-holder: Elsevier  
+> copyright-statement: © 2009, Elsevier   
+> permissions: Figure 1A is reprinted from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.
+
+The production team is the backstop in this process and should double-check the original versions of these figures to ensure they are re-drawings/reproductions. This involves looking up the original sources and communicating with the Editorial team.
+
 ### Redrawn figures
 
-Figures and figure supplements \(in part or in whole\) may be redrawn or 'adapted' from previously published content. This usually means that the authors are not reproducing anything directly but are instead redrawing a figure or simply using the same data to create new content. However, as this term is used inconsistently by authors, eLife needs to determine whether the figure is an adaptation/redrawing or a reproduction, either by comparing the image to the original if possible, or by asking the authors to confirm this. If the figure is a clear adaptation or redrawing, and as long as the authors provide a suitable citation and state clearly, for example, that “Panel A in Figure 2 has been adapted from Smith and Jones, 2015”, no further action is required.
+Figures and figure supplements \(in part or in whole\) may be redrawn or 'adapted' from previously published content. This usually means that the authors are not reproducing anything directly but are instead redrawing a figure or simply using the same data to create new content. However, as this term is used inconsistently by authors, eLife needs to determine whether the figure is an adaptation/re-drawing or a reproduction, either by comparing the image to the original if possible, or by asking the authors to confirm this. If the figure is a clear adaptation or redrawing, and as long as the authors provide a suitable citation and state clearly, for example, that “Panel A in Figure 2 has been adapted from Smith and Jones, 2015”, no further action is required.
 
 ### Reproduced figures
 
 If a figure has been reproduced, or if the legend for a figure or figure supplement states that the image is ‘reprinted from’, ‘reproduced from’ \(or anything similar\), we may need to add licensing information for the reproduced elements. This will usually apply to panels within figures instead of whole figures.
-
-The editorial team check figure permissions as part of submission quality checks. They will leave a note for Exeter if permissions information needs to be added to the XML. The production team is the backstop in this process and may need to veto previous decisions or double-check the communication and decision-making process.
 
 {% hint style="info" %}
 Note: if multiple panels have been reproduced and require permissions information to be added, these should not be merged into a single permissions tag. Each panel should have a separate permissions tag.
@@ -63,7 +84,7 @@ If an article has reproduced figures from content that was previously published 
 </permissions>
 ```
 
-If the reproduced image is CC BY-SA, CC BY-NC or CC BY-SA, this also needs to be indicated in the underlying XML as these licenses are not as permissive as CC BY or CC0. For example, in 52371, the following text was present in a caption:
+If the reproduced image is CC-BY-SA, CC-BY-NC, CC-BY-ND, CC-BY-NC-SA or CC-BY-NC-ND, this also needs to be indicated in the underlying XML as these licenses are not as permissive as CC BY or CC0. For example, in 52371, the following text was present in a caption:
 
 > Photo credit: Marine snail \(Original photo by Katja Schulz, courtesy of Wikipedia, Creative Commons Attribution: Creative Commons, Attribution 2.0 Generic license\); Chambered nautilus \(Original photo by Profbergert, courtesy of Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported license\)
 
@@ -105,11 +126,7 @@ This information should be added in the XML, for example:
 | copyright-year | 2009 | `<copyright-year>2009</copyright-year>` |
 | copyright-holder | Elsevier | `<copyright-holder>Elsevier</copyright-holder>` |
 | permissions | Figure 1A is reprinted from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder | `<license-p> Figure 1A is reprinted from <xref ref-type="bibr"rid="bib40">Simonetta et al., 2009</xref>, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder. </license-p>` |
-|  | \`\` | `<copyright-statement>© 2009, Elsevier</copyright-statement>` |
-
-{% hint style="info" %}
-The copyright-statement field will not be provided in the sticky note but the XML tag can be populated from the copyright year and copyright holder. It should contain a '©' symbol followed by the copyright year and copyright holder. 
-{% endhint %}
+|  | \`\` | `<copyright-statement>© 2009, Elsevier</copyright-statement>`  |
 
 ```markup
 <permissions>
