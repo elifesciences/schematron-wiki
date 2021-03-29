@@ -61,11 +61,11 @@ If the authors have contacted production directly, you should still reply to aut
 
 ### Adding notes to emails
 
-You can view an email’s history, and any notes that have been added to it \(as well as adding your own\) in the Hiver toolbox when you open an email. If there are particular points to be aware of in relation to an article, it is useful to add and pin this note to help the team see this at a glance. If the email is just for the Production team's information, add a 'Read' note so we know when the whole team has read the email \(the last person to add the note can then close the email\).
+You can view an email’s history, and any notes that have been added to it \(as well as adding your own\) in the Hiver toolbox when you open an email. If there are particular points to be aware of in relation to an article, it is useful to add and pin this note and colour it red to help the team see this at a glance. If the email is just for the Production team's information, add a 'Read' note so we know when the whole team has read the email \(the last person to add the note can then close the email\).
 
-![](../.gitbook/assets/captured.gif)
+![](../.gitbook/assets/captured-1-.gif)
 
-![](../.gitbook/assets/screenshot-2020-06-17-at-10.00.09.png)
+![An example of a note added to an email](../.gitbook/assets/screenshot-2020-06-17-at-10.00.09.png)
 
 ### **Hiver tags**
 
