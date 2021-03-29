@@ -302,6 +302,12 @@ The citation will then need to be dealt with depending on the author's response.
 
 **Action:** This will fire at all stages for any figure citation which is immediately followed by a hyphen \(or variant such as en dash or em dash\), and a letter or number. For example in this case **Figure 1a**-ai, where the bolded text \(in this example\) is linked. If this fires, check whether the text following the link should instead be included in the link text. This can be done, for example, by checking the panel indicators in the image being linked to.
 
+#### figurefigure-presence
+
+**Warning**: _XXXXXX element contains ' figure figure ' which is very likely to be incorrect._
+
+**Action:** This warning will fire if the article text contains the phrase 'figure figure'. This will need to be corrected if it is a typo or an incorrect citation. Check against the original submission and correct accordingly.  
+
 #### vid-xref-test-2
 
 **Warning**: _There is no space between citation and the preceding text - XXXXXX - Is this correct?_
@@ -630,13 +636,13 @@ In these cases, the citation should be updated so it links to the appropriate fi
 
 **Warning**: _XXXXXX - link points to equation, but does not include the string 'Equation', which is unusual. Is it correct?_
 
-**Action:** This will fire if a citation of an equation to an 'disp-formula' type asset but the citation text doesn't include the string 'Equation'. This is usually because of a misspelling or a different format of citation, for example 'Equ 1' or 'Eq 1'. Make sure the citation is updated to match eLife's style \('Equation 1'\). 
+**Action:** This will fire if a citation of a display formula type asset does not include the string 'Equation' in the citation text. This is usually because of a misspelling or a different format of citation, for example 'Equ 1' or 'Eq 1'. Make sure the citation is updated to match eLife's style \('Equation 1'\). 
 
 #### equ-xref-conformity-**2**
 
 **Warning**: _equation link content does not match what it directs to \(content = XXXXXX; label = XXXXXX\). Is this correct?_
 
-**Action**: This will fire at all stages if the text in an equation citation does not contain the number of the equation that the citation directs to, for example if **Equation 2**, links to Equation 3. 
+**Action**: This will fire at all stages if the text in a citation of a display formula does not contain the number of the equation that the citation directs to, for example if **Equation 2**, links to Equation 3. 
 
 Check what the correct citation should be by checking the original submission and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this. If it is unclear from the original submission and author edits what the correct citation is supposed to be, query the authors for this \(replace XXXXXX with 'equation'\):
 
@@ -646,13 +652,19 @@ Check what the correct citation should be by checking the original submission an
 
 **Error**: _XXXXXX - Equation citation appears to be a reference to an equation from a different paper, and therefore must be unlinked._
 
-**Action:** This error will fire if an equation citation appears before a reference with 'in', 'from' or 'of' in between  e.g. 'See Equation 1 from Smith et al., 1992'. This equation citation needs to be changed to plain text as it refers to an equation from another source. 
+**Action:** This error will fire if a citation of a display formula appears before a reference with 'in', 'from' or 'of' in between  e.g. 'See Equation 1 from Smith et al., 1992'. This citation needs to be changed to plain text as it refers to an equation from another source. 
 
 #### equ-xref-conformity-**4**
 
 **Warning**: _citation is preceded by 'XXXXXX'. The 'cf.' is unnecessary and should be removed._
 
-**Action:** This warning will fire if a citation of an equation is preceded by 'cf.', which means 'compare' and is sometimes used to refer the reader to other material for comparison. Replace 'cf.' with 'compare with'.
+**Action:** This warning will fire if a citation of a display formula is preceded by 'cf.', which means 'compare' and is sometimes used to refer the reader to other material for comparison. Replace 'cf.' with 'compare with'.
+
+#### disp-formula-xref-target-test
+
+**Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
+
+**Action:** This error will fire if a citation of a display formula does not point to a display-formula element. Try deleting and re-adding the citation - if this doesn't work, Exeter support will have to fix this.
 
 #### supplementalfigure-presence
 
