@@ -5,7 +5,7 @@ description: Responding to common author queries
 # Interacting with authors
 
 {% hint style="info" %}
-For changelog, click [**here**](interacting-with-authors.md#changelog). Updated 18/03/2021
+For changelog, click [**here**](interacting-with-authors.md#changelog). Updated 30/03/2021
 {% endhint %}
 
 Most of our interaction with the authors of eLife articles happens via email. It is important to ensure that queries from authors are responded to the day they are received, unless after 4pm, in which case they can be replied to the following morning. If we do not have an answer to the queries yet, the authors should be made aware that we are looking into it. There are many email templates saved in the production collaboration tool \(Hiver\) which are useful for drafting responses - but these should be tailored to cover the nuances in each author query. To access the Hiver templates, open an email and click to reply to it, then click on the 'Email templates' button. Select the appropriate template and tailor it to the email.
@@ -128,9 +128,9 @@ This should be used when authors query about the publication date of their artic
 
 This should be sent to authors when attaching revised article and figures PDFs. This should only be used if the authors had issues accessing the proofs in Kriya. 
 
-#### Second proof
+#### Second proof PDFs
 
-This can be used when second proofs have been requested by the authors and you need to convey further information that is not included in the proofing email.
+This can be used when second proofs have been requested by the authors and they had issues with the system so these need to be shared as PDFs.
 
 #### Striking image info
 
@@ -150,7 +150,11 @@ This is a template email for Prepress to use when the production team are out of
 
 #### Changes
 
-* Added pub date query response template and information to the corresponding section.
+* Added [**pub date query response**](interacting-with-authors.md#pub-date-query-response) template and information to the corresponding section.
 
+### 30/03/2021
 
+#### Changes
+
+* Updated [**second proof**](interacting-with-authors.md#second-proof-pdfs) template description. 
 
