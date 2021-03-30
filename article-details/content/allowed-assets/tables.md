@@ -277,6 +277,8 @@ They have a specific structure which must be followed - there will always be 5 c
 
 In some articles, Key resources tables will be captured in a supplementary file instead. This is currently acceptable and no action needs to be taken \(although in the future we will likely not allow this, and will instead mandate that these are captured in appendices\).
 
+Guidance for authors on Key resources tables can also be found [**here**](https://elife-cdn.s3.amazonaws.com/author-guide/elifeKRTtemplatev2.docx).
+
 [**Key resources table example**](https://elifesciences.org/articles/57578#keyresource):
 
 ![](../../../.gitbook/assets/screen-shot-2020-06-01-at-11.52.50.png)
@@ -615,6 +617,12 @@ For example, the header may be present as a row in the body of the table, rather
 **Error**: _Table cell in_ Key resources _table containing 'XXXXXX' is captured as a table header cell \(th\), which is not allowed. Ensure that this is changed to a normal table cell \(td\)._
 
 **Action**: This will fire for any table cell in the body of a Key Resources table which is captured with heading formatting \(as a `<th>` element\). This should always be changed to a normal table cell \(`<td>` element\).
+
+#### kr-table-first-column-1
+
+**Warning**: _A cell in the first column of the body of a key resources table should start with one of the standard values. 'XXXXXX' does not start with one of Gene; Strain, strain background; Genetic reagent; Cell line; Transfected construct; Biological sample; Antibody; Recombinant DNA reagent; Sequence-based reagent; Peptide, recombinant protein; Commercial assay or kit; Chemical compound, drug; Software; Algorithm; Other._
+
+**Action**: This warning will fire for any table cell in the first column of the body of a Key Resources table which does not start with one of the standard categories \(listed in the message above\). If it's clear this is a typo, then the typo can simply be corrected. Otherwise this warning should be ignored.
 
 #### table-test-2
 
