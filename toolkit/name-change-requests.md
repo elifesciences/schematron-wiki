@@ -4,6 +4,8 @@ description: Process for changing the name of an author or editor in eLife conte
 
 # Name change requests
 
+
+
 {% hint style="info" %}
 For the changelog, click [**here**](name-change-requests.md#changelog).
 {% endhint %}
