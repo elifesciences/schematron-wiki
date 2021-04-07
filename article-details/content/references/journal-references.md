@@ -244,6 +244,14 @@ If the authors respond to say the article is now in press, add the 'In press' fi
 
 * Please provide the journal name for this reference.
 
+#### zenodo-check
+
+**Error:** X_XXXXX type reference XXXXXX is a zenodo one, which means that it must be one of the following reference types: data, software, preprint or report._
+
+**Example message:** _journal type reference \(with the id bib20\) is a zenodo one, which means that it must be one of the following reference types: data, software, preprint or report._
+
+**Action:** This error will appear if a reference which is not captured as either a data, software, preprint or report type reference and has a source element containing 'Zenodo' or similar, or a link or doi which points to Zenodo. Check the content on Zendod, and change the reference type to suit what kind of reference it should be.
+
 #### elife-check
 
 **Error:** _Journal ref 'XXXXXX' has an eLife doi XXXXXX, but the journal name is 'XXXXXX', when it should be 'eLife'. Either the journal name needs updating to eLife, or the doi is incorrect._
@@ -621,4 +629,5 @@ Journal reference with eLocation ID.
 
 * Update 2020-08-17 with `elife-check`.
 * Updated 2020-11-13 to account for splitting of `err-elem-cit-journal-2-1` and `err-elem-cit-journal-2-2` into pre and final versions.
+* Updated 07/04/2021 to add missing `zenodo-check` schematron check.
 
