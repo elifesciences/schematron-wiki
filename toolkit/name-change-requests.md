@@ -339,4 +339,5 @@ Once the change has been implemented, Editorial will confirm this with the perso
 ## Changelog
 
 * 2021-01-14: To cover updating old sub-DOI metadata for peer review materials in CrossRef.
+* 2021-04-07: To make clear the annotation is now optional, in-line with an updated policy.
 
