@@ -156,6 +156,8 @@ Once the name change request has been verified by the Editorial team, they will 
 * Any previously published versions \(PoA, VoR\)
 * Any related content such as Insights, Corrections or co-submissions
 
+Please confirm ahead of time whether the individual has requested an [**annotation**](name-change-requests.md#annotation-to-indicate-a-name-change) on the updated article\(s\).
+
 ### Updating the current version of the article
 
 The current version of each affected article should be silently corrected following the normal process. The individual's name should be changed in the following places where applicable:
@@ -318,9 +320,9 @@ This will correct the metadata associated with the original sub-DOIs, but it may
 
 ### Annotation to indicate a name change
 
-Following an update to change an author, editor or reviewer's name, an annotation should be added to the latest version of the article to indicate that such a change has taken place. Please use the following text:
+If requested by the individual whose name has been changed, an annotation may be added to the latest version of the article to indicate that such a change has taken place. Please use the following text:
 
-> This article has been updated in response to a name-change request.
+> This article has been updated in response to a name-change request; please ensure that you cite it correctly.
 
 ## Blogposts and other non-article content
 
