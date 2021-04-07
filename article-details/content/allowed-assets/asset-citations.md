@@ -260,7 +260,7 @@ The citation will then need to be dealt with depending on the author's response.
 
 #### fig-xref-test-11
 
-**Error:** _Incomplete citation. Figure citation is followed by text which suggests it should instead be a link to a video supplement - XXXXXX'._
+**Warning:** _Incomplete citation. Figure citation is followed by text which suggests it should instead be a link to a video supplement - XXXXXX'._
 
 **Action:** This error will fire if a figure citation is __followed by text which suggests it should be a link to a figure video - for example, if the linked citation text is 'Figure 1' but it is followed by '—video 1', 'video 1', or ', video 1' in plain text. In this example, a citation to Figure 1—video 1 should replace the citation for Figure 1.
 
@@ -887,9 +887,6 @@ Supplementary file citation
 
 ## Changelog
 
-### 29/03/2021
-
-#### Changes
-
-* Added [**figurefigure-presence**](asset-citations.md#figurefigure-presence) and [**disp-formula-xref-target-test**](asset-citations.md#disp-formula-xref-target-test) tests. 
+* **29/03/2021** - Added [**figurefigure-presence**](asset-citations.md#figurefigure-presence) and [**disp-formula-xref-target-test**](asset-citations.md#disp-formula-xref-target-test) tests. 
+* **07/04/2021** - Updated [**fig-xref-test-11**](asset-citations.md#fig-xref-test-11) from error to warning.
 
