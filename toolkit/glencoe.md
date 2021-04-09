@@ -90,7 +90,7 @@ After the videos have successfully been supplied, they are processed by Glencoe.
 
 ![A video processing confirmation email](../.gitbook/assets/screenshot-2020-11-17-at-09.50.03.png)
 
-The videos can then be interacted with using Glencoe's API. For example https://movie-usa.glencoesoftware.com/metadata/{doi} \(where `{doi}` is replaced with an actual doi\) will return a JSON response containing information relating to all the videos uploaded for that article. Similarly individual videos can be found using the following convention http://movie-usa.glencoesoftware.com/video/{doi}/{video-id} \(where `{video-id}` is the value of the id attribute for the media element in the XML for the corresponding video\).
+The videos can _then_ be interacted with using Glencoe's API. For example https://movie-usa.glencoesoftware.com/metadata/{doi} \(where `{doi}` is replaced with an actual doi\) will return a JSON response containing information relating to all the videos uploaded for that article. Similarly individual videos can be found using the following convention http://movie-usa.glencoesoftware.com/video/{doi}/{video-id} \(where `{video-id}` is the value of the id attribute for the media element in the XML for the corresponding video\).
 
 Here are some examples using 61467:
 
@@ -177,4 +177,6 @@ Here is an example of an XML that was uploaded on the 16th of November 2020.
     </body>
 </article>
 ```
+
+
 
