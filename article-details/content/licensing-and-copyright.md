@@ -65,7 +65,7 @@ Note: if multiple panels have been reproduced and require permissions informatio
 
 All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license. The CC BY 4.0 license allows content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions. 
 
-If an article has reproduced figures from content that was previously published under a [**CC BY**](https://creativecommons.org/licenses/) \(1-4\), that content must be properly attributed and credited \(provide full citation details and license\). We may also need to add extra tagging. Check the license of the article \(you can find this from the [**permissions-info**](licensing-and-copyright.md#permissions-info) message\) and the license of the previously published content. 
+If an article has reproduced figures from content that was previously published under [**CC BY**](https://creativecommons.org/licenses/) \(1-4\), that content must be properly attributed and credited \(provide full citation details and license\). We may also need to add extra tagging. Check the license of the article \(you can find this from the [**permissions-info**](licensing-and-copyright.md#permissions-info) message\) and the license of the previously published content. 
 
 * If the license of the previously published content matches the license of the article, no additional tagging needs to be added.
 * If the article license is CC BY but the reproduced image is CC0, no additional tagging needs to be added.
@@ -121,15 +121,15 @@ The editorial team may have left a note for Exeter if permissions information ne
 >
 > copyright-year: 2009  
 > copyright-holder: Elsevier  
-> permissions: Figure 1A is reprinted from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.
+> permissions: Figure 1A is reprinted from Figure 2B from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.
 
-This information should be added in the XML, for example:
+This information should be added in the XML. Note, the copyright-statement field will not be provided in the note from Editorial, but this can be obtained by combining copyright-year and copyright-holder.
 
-| Sticky note field | Content | XML tag |
+| Editorial note field | Content | XML tag |
 | :--- | :--- | :--- |
 | copyright-year | 2009 | `<copyright-year>2009</copyright-year>` |
 | copyright-holder | Elsevier | `<copyright-holder>Elsevier</copyright-holder>` |
-| permissions | Figure 1A is reprinted from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder | `<license-p> Figure 1A is reprinted from <xref ref-type="bibr"rid="bib40">Simonetta et al., 2009</xref>, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder. </license-p>` |
+| permissions | Figure 1A is reprinted from Figure 2B from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder | `<license-p> Figure 1A is reprinted from Figure 2B from <xref ref-type="bibr"rid="bib40">Simonetta et al., 2009</xref>, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder. </license-p>` |
 |  | \`\` | `<copyright-statement>© 2009, Elsevier</copyright-statement>`  |
 
 ```markup
@@ -139,7 +139,7 @@ This information should be added in the XML, for example:
     <copyright-holder>Elsevier</copyright-holder>
     <license>
         <license-p>
-        Figure 1A is reprinted from
+        Figure 1A is reprinted from Figure 2B from
         <xref ref-type="bibr" rid="bib40">Simonetta et al., 2009</xref>, with
         permission from Elsevier. It is not covered by the CC-BY 4.0 licence 
         and further reproduction of this panel would need permission from the 
