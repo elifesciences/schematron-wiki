@@ -1,8 +1,8 @@
----
-description: Updated 18/11/20
----
-
 # Licensing and copyright
+
+{% hint style="info" %}
+For changelog, click [**here**](licensing-and-copyright.md#changelog). Updated 12/04/2021
+{% endhint %}
 
 ## Article-level licensing
 
@@ -26,7 +26,7 @@ As above, all eLife's article assets are published under a CC BY 4.0 or CC0 lice
 
 ### 
 
-The editorial team check figure permissions as part of submission quality checks. They will leave a note for Exeter if an author has indicated that they have adapted or reproduced a figure from another source. This note will indicate which figure panel has been adapted or reproduced, and if required, the information that needs to be added in the XML.
+The editorial team check figure permissions as part of submission quality checks. They will leave a note for Exeter if an author has indicated that they have adapted or reproduced a figure from another source. This note will indicate which figure panel has been adapted or reproduced, and the information that needs to be added in the XML or figure legend.
 
 For example, for redrawn figures:
 
@@ -34,7 +34,9 @@ For example, for redrawn figures:
 >
 > Figure 2A has been adapted from Figure 3A from Smith and Jones, 2015
 
-And for reproduced figures: 
+In this case, the permissions statement should be added to the legend at the end of Figure 2A if it is not already present. 
+
+For reproduced figures: 
 
 > FAO Exeter: Figure Permissions
 >
@@ -42,6 +44,18 @@ And for reproduced figures:
 > copyright-holder: Elsevier  
 > copyright-statement: © 2009, Elsevier   
 > permissions: Figure 1A is reprinted from Figure 2B from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.
+
+This information will need to be added in the underlying XML - see [**below**](licensing-and-copyright.md#reproduced-figures) for how to do this.
+
+Some reproduced figures will not require additional XML tagging, but Editorial will leave a note to indicate what needs to be added to the figure legend:
+
+> FAO Exeter: Figure Permissions
+>
+> Note: No additional XML tagging needed as article license and reproduced figure license are both CC BY 4.0.
+>
+> Permissions: Figure \[eLife Figure number\] reproduced from Figure \[original journal Figure number\] \[\[Author name\] et al. Year\].
+
+The permissions statement should be added at the end of the appropriate figure panel legend. See [**below**](licensing-and-copyright.md#reproductions-from-cc-by-licensed-content) for how to determine which reproduced figures require XML tagging and which do not.
 
 The production team is the backstop in this process and should double-check the original versions of these figures to ensure they are re-drawings/reproductions. This involves looking up the original sources and communicating with the Editorial team.
 
@@ -115,7 +129,7 @@ No tagging needed to be added for the marine snail image as this was published u
 
 If authors chose to exactly reproduce a figure or panel from a previously published, non-CC BY 2, 3, or 4 media in part or in whole, it will need to be published under a separate license. This is because the original content will have been published under a license that is less permissive. For eLife to reproduce the content, it must be made clear that the license holder has given permission for the material to be reprinted, and that it is not covered by the CC BY or CC0 license that applies to the rest of the eLife article. The authors will need to confirm they have permission from the license holders to reproduce the material and state what has been reproduced in the legend. A permissions statement will also need to be added in the XML with the license details for the reproduced material. The permissions text may have been provided already as part of a legend. If so, it should be moved into the permissions tagging.
 
-The editorial team may have left a note for Exeter if permissions information needs to be added to the XML, for example:
+The editorial team will leave a note for Exeter if permissions information needs to be added to the XML, for example:
 
 > FAO Exeter: Figure Permissions
 >
@@ -140,16 +154,17 @@ This information should be added in the XML. Note, the copyright-statement field
     <license>
         <license-p>
         Figure 1A is reprinted from Figure 2B from
-        <xref ref-type="bibr" rid="bib40">Simonetta et al., 2009</xref>, with
-        permission from Elsevier. It is not covered by the CC-BY 4.0 licence 
-        and further reproduction of this panel would need permission from the 
-        copyright holder.
+        <xref ref-type="bibr" rid="bib40">Simonetta et al., 2009
+        </xref>, with permission from Elsevier. It is not 
+        covered by the CC-BY 4.0 licence and further 
+        reproduction of this panel would need permission from 
+        the copyright holder.
         </license-p>
     </license>
 </permissions>
 ```
 
-If the note from editorial says a figure does not require permissions, these should still be checked. If it is not possible to check \(because the content is behind access controls, for example\), discuss this case with the Production team. However, where possible, figure permissions should be double-checked regardless of what the note says.
+If the note from editorial says a figure does not require permissions, these should still be double-checked. If it is not possible to check \(because the content is behind access controls, for example\), discuss this case with the Production team. However, where possible, figure permissions should be double-checked regardless of what the note says.
 
 ## Schematron checks
 
@@ -536,4 +551,12 @@ These checks relate to the XML structure of licensing tagging.
      </permissions>
 </fig>
 ```
+
+## Changelog
+
+### 12/04/2021
+
+#### Changes
+
+* Added [**licensing flowchart**](licensing-and-copyright.md#figure-adaptations-and-reproductions) and clarifications about adding XML. 
 
