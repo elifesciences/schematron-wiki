@@ -32,7 +32,7 @@ For example, for redrawn figures:
 
 > FAO Exeter: Figure Permissions
 >
-> Figure 2A has been adapted from Smith and Jones, 2015
+> Figure 2A has been adapted from Figure 3A from Smith and Jones, 2015
 
 And for reproduced figures: 
 
@@ -41,7 +41,7 @@ And for reproduced figures:
 > copyright-year: 2009  
 > copyright-holder: Elsevier  
 > copyright-statement: © 2009, Elsevier   
-> permissions: Figure 1A is reprinted from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.
+> permissions: Figure 1A is reprinted from Figure 2B from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.
 
 The production team is the backstop in this process and should double-check the original versions of these figures to ensure they are re-drawings/reproductions. This involves looking up the original sources and communicating with the Editorial team.
 
