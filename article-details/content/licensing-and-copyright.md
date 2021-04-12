@@ -26,7 +26,7 @@ As above, all eLife's article assets are published under a CC BY 4.0 or CC0 lice
 
 ### 
 
-The editorial team check figure permissions as part of submission quality checks. They will leave a note for Exeter if an author has indicated that they have adapted or reproduced a figure from another source. This note will indicate which figure panel has been adapted or reproduced, and the information that needs to be added in the XML or figure legend.
+The editorial team check figure permissions as part of submission quality checks. They will leave a note for Exeter if an author has indicated that they have adapted or reproduced a figure from another source. This note will indicate which figure panel has been adapted or reproduced, and the information that needs to be added in the XML or figure legend - Exeter will add this during pre-editing.
 
 For example, for redrawn figures:
 
@@ -61,7 +61,7 @@ The production team is the backstop in this process and should double-check the 
 
 ### Redrawn figures
 
-Figures and figure supplements \(in part or in whole\) may be redrawn or 'adapted' from previously published content. This usually means that the authors are not reproducing anything directly but are instead redrawing a figure or simply using the same data to create new content. However, as this term is used inconsistently by authors, eLife needs to determine whether the figure is an adaptation/re-drawing or a reproduction, either by comparing the image to the original if possible, or by asking the authors to confirm this. If the figure is a clear adaptation or redrawing, and as long as the authors provide a suitable citation and state clearly, for example, that “Panel A in Figure 2 has been adapted from Smith and Jones, 2015”, no further action is required.
+Figures and figure supplements \(in part or in whole\) may be redrawn or 'adapted' from previously published content. This usually means that the authors are not reproducing anything directly but are instead redrawing a figure or simply using the same data to create new content. However, as this term is used inconsistently by authors, eLife needs to determine whether the figure is an adaptation/re-drawing or a reproduction, either by comparing the image to the original if possible, or by asking the authors to confirm this. If the figure is a clear adaptation or redrawing, and as long as the authors provide a suitable citation and state clearly, for example, that “Panel A in Figure 2 has been adapted from Smith and Jones, 2015”, no further action is required. 
 
 {% hint style="info" %}
 If a figure is reproduced but with some additions/deletions, this can be counted as an adaptation. 
@@ -79,7 +79,7 @@ Note: if multiple panels have been reproduced and require permissions informatio
 
 All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license. The CC BY 4.0 license allows content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions. 
 
-If an article has reproduced figures from content that was previously published under [**CC BY**](https://creativecommons.org/licenses/) \(1-4\), that content must be properly attributed and credited \(provide full citation details and license\). We may also need to add extra tagging. Check the license of the article \(you can find this from the [**permissions-info**](licensing-and-copyright.md#permissions-info) message\) and the license of the previously published content. 
+If an article has reproduced figures from content that was previously published under [**CC BY**](https://creativecommons.org/licenses/) \(1-4\), that content must be properly attributed and credited \(provide full citation details and license\). We may also need to add extra tagging. Check the license of the article \(you can find this from the [**permissions-info**](licensing-and-copyright.md#permissions-info) message\) and the license of the previously published content. This will differ depending on where the content was previously published but there should be copyright information on the website of the original content. The Production team can also check in with Editorial to find out if this was flagged at submission.
 
 * If the license of the previously published content matches the license of the article, no additional tagging needs to be added.
 * If the article license is CC BY but the reproduced image is CC0, no additional tagging needs to be added.
