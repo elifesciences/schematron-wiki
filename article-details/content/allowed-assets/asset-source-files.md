@@ -14,8 +14,6 @@ Source data accompanying an article asset is far more common than source code si
 
 There are relatively few checks required for these files. A descriptive title for each is preferred but technically not required; authors should be queried to provide one during proofing but it will not cause any fatal errors to proceed without in cases where they judge that the label is sufficient description.
 
-
-
 ## Schematron checks
 
 ### Content checks
