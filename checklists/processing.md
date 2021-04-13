@@ -66,8 +66,6 @@ The following checks should be carried out in addition to acting on any warnings
 | Sigma-Aldrich | Sigma Aldrich | MilliporeSigma |
 | Thermo Fisher | ThermoFisher | Thermo Fisher Scientific |
 
-
-
 ### PDFs
 
 1. Ensure there are no blank pages in either the article PDF or the figures PDF.
