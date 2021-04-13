@@ -15,6 +15,7 @@
 
 * [Content](article-details/content/README.md)
   * [Article assets](article-details/content/allowed-assets/README.md)
+    * [Asset source files](article-details/content/allowed-assets/asset-source-files.md)
     * [Asset citations](article-details/content/allowed-assets/asset-citations.md)
     * [Figures and figure supplements](article-details/content/allowed-assets/figures.md)
     * [Tables](article-details/content/allowed-assets/tables.md)
