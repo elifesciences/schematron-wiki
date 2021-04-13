@@ -10,3 +10,5 @@ Figures \(and their supplements\), videos and tables may be accompanied by the s
 
 Source data accompanying an article asset is far more common than source code since scripts and other code are more usually to be uploaded at the article level, or submitted to an online repository \(see [**Archiving code**](../../../toolkit/archiving-code.md) for more details on this\).
 
+## What needs to be checked?
+
