@@ -57,7 +57,7 @@ The following checks should be carried out in addition to acting on any warnings
     * "As eLife does not support footnotes to the main text, we have integrated this note into the text at the point it was cited. Please confirm this is acceptable."
 16. The names for manufacturers should be standardised to the official company name. However, please note exceptions where they apply where authors may have given a fuller version of the company name.
 
-| Preferred | Variants that should be corrected | Variants that should be left |
+| Preferred | Variants that should be corrected | Variants that should be left as provided |
 | :--- | :--- | :--- |
 | Bio-Rad | Biorad, BioRad, Bio-rad | Bio-Rad Laboratories |
 | GraphPad | Graphpad | GraphPad Software |
