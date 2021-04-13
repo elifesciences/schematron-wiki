@@ -12,3 +12,97 @@ Source data accompanying an article asset is far more common than source code si
 
 ## What needs to be checked?
 
+
+
+
+
+## Schematron checks
+
+### Content checks
+
+#### fig-data-test-1
+
+**Warning**: _XXXXXX is figure level source data, but contains 1 figure citation which is a link to a figure supplement - should it be figure supplement level source data?_
+
+**Action**: 
+
+#### fig-code-test-1
+
+**Warning**: _XXXXXX is figure level source code, but contains 1 figure citation which is a link to a figure supplement - should it be figure supplement level source code?_
+
+**Action**:
+
+#### fig-data-test-2
+
+**Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
+
+**Action**:
+
+#### fig-data-id
+
+**Error**: _The id for figure level source data must be the id of its ancestor fig, followed by 'sdata', followed by its position relative to other source data for the same figure. The id for XXXXXX, 'XXXXXX' is not in this format. It should be 'XXXXXX' instead._
+
+**Action**:
+
+#### fig-code-test-2
+
+**Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
+
+**Action:**
+
+#### fig-code-id
+
+**Error**: _The id for figure level source code must be the id of its ancestor fig, followed by 'scode', followed by its position relative to other source data for the same figure. The id for XXXXXX, 'XXXXXX' is not in this format. It should be 'XXXXXX' instead._
+
+**Action**:
+
+#### vid-data-test-2
+
+**Error**: 'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position.
+
+**Action**:
+
+#### vid-data-id
+
+**Error**: _The id for video level source data must be the id of its ancestor video, followed by 'sdata', followed by its position relative to other source data for the same video. The id for XXXXXX, 'XXXXXX' is not in this format. It should be 'XXXXXX' instead._
+
+**Action**:
+
+#### vid-code-test-2
+
+**Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
+
+**Action**:
+
+#### vid-code-id
+
+**Error**: _The id for video level source code must be the id of its ancestor video, followed by 'scode', followed by its position relative to other source data for the same video. The id for XXXXXX, 'XXXXXX' is not in this format. It should be 'XXXXXX' instead._
+
+**Action:**
+
+#### table-data-test-2
+
+**Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
+
+**Action**:
+
+#### table-data-id
+
+**Error**: _The id for table level source data must be the id of its ancestor table-wrap, followed by 'sdata', followed by its position relative to other source data for the same table. The id for XXXXXX, 'XXXXXX' is not in this format. It should be 'XXXXXX' instead._
+
+**Action**:
+
+#### table-code-test-2
+
+**Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
+
+**Action:**
+
+#### table-code-id
+
+**Error**: _The id for table level source code must be the id of its ancestor table, followed by 'scode', followed by its position relative to other source data for the same table. The id for XXXXXX, 'XXXXXX' is not in this format. It should be 'XXXXXX' instead._
+
+**Action**:
+
+### Structure checks
+
