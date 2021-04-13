@@ -55,6 +55,18 @@ The following checks should be carried out in addition to acting on any warnings
 14. Check the Acknowledgements \(`<ack>`\) section for author funding that is not already listed in the funding section. Ignore [**third party funders**](../article-details/content/funding-information.md#third-party-funding-vs-funding-to-authors). Any funding information not already in the funding section should be added to the funding table \(see [**Funding**](../article-details/content/funding-information.md#acknowledgements-section) for more information\).
 15. Footnotes to the main text are not allowed. Any such footnotes should be incorporated as a bracketed statement at the point where they are cited in the text. An author query should be added to confirm this is acceptable:
     * "As eLife does not support footnotes to the main text, we have integrated this note into the text at the point it was cited. Please confirm this is acceptable."
+16. The names for manufacturers should be standardised to the official company name. However, please note exceptions where they apply where authors may have given a fuller version of the company name.
+
+| Preferred | Variants that should be corrected | Variants that should be left |
+| :--- | :--- | :--- |
+| Bio-Rad | Biorad, BioRad, Bio-rad | Bio-Rad Laboratories |
+| GraphPad | Graphpad | GraphPad Software |
+| Millipore |  | MilliporeSigma, Merck Millipore |
+| QIAGEN | Qiagen |  |
+| Sigma-Aldrich | Sigma Aldrich | MilliporeSigma |
+| Thermo Fisher | ThermoFisher | Thermo Fisher Scientific |
+
+
 
 ### PDFs
 
