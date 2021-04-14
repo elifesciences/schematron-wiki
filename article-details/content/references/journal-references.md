@@ -110,6 +110,14 @@ This is the only way to add an 'In press' comment, as at the moment, it is not p
 
 ![](../../../.gitbook/assets/screenshot-2020-06-09-at-13.25.30.png)
 
+### Articles in preparation
+
+In the reference list, an author may use different terms to 'in press' \(e.g. 'manuscript in preparation', 'in production', 'under review' etc\). If this is present, Exeter should leave the following author query.
+
+* Please update this reference if this article is now in press. If it is still in preparation, it will need to be removed from the reference list and cited in the text as, for example 'Smith et al., in preparation'.
+
+If the authors respond to say the article is now in press, the 'In press' field will need to be added to the reference \(see [**above**](journal-references.md#how-to-add-an-in-press-field)\). If the authors respond to say the article is still in preparation, the reference will need to be removed from the reference list as we are unable to present this information correctly. 
+
 ## Finding reference details
 
 Journals are not standardised in the way they archive their articles. Some journals do not use volume numbers, page ranges, e-locations, or DOIs, so these details will not be present for all journal references. Many journals publish articles online 'ahead of print' \(eLife calls this 'Publish on Acceptance', or 'PoA'\) so the full details may be unavailable until the print or full version is issued.  
