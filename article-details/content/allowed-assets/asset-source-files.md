@@ -6,11 +6,45 @@ description: >-
 
 # Additional files
 
-## What are asset source files?
+## What are additional files?
+
+Besides the figures, figure supplements, tables and videos that are presented throughout an article, eLife also allows authors to include files that can be downloaded to support their findings. These can be uploaded at the level of the entire article \(in which case they sit in an 'additional files' section at the back of the article\) or to accompany particular display assets \(that is, they will be associated with a figure, table or video\). eLife allows the following varieties of additional file.
+
+### Article-level source files
+
+Source data and source code may be provided to give readers access to the raw data and the scripts that were used to process it. During the submission process, authors are in fact encouraged to provide these files to aid the reviewers and, in the event of acceptance, to allow readers to easily reproduce the work.
+
+In the event that the data is too large or extensive to be neatly captured within one or two Excel files, it may be uploaded as a generated dataset to an external repository. In such cases, it should not be listed as a source data file but instead described in the [**Data availability section**](../data-availability.md). See **below** for how to deal with cases where authors become confused on this point.
+
+Source code may also be uploaded to an external repository such as GitHub and this is often preferable to being included as an attached file as it permits proper licensing of the code \(see [**Archiving code**](../../../toolkit/archiving-code.md) for more details on this\). Again, if source code is hosted away from the article, it should not be listed as a source code file.
+
+These filetypes are labelled respectively Source data 1, Source data 2, etc. and Source code 1, Source code 2, etc.
+
+### Asset-level source files
 
 Figures \(and their supplements\), videos and tables may be accompanied by the source data and/or source code that was used to generate them. The source data will usually consist of tables of raw data but may also include unprocessed images, editable version of charts provided as flat images, or multiple-page documents that cannot be typeset as single figures/figure supplements. Source code will usually comprise scripts that were used to process the data or to generate the graphs shown in figures.
 
-Source data accompanying an article asset is far more common than source code since scripts and other code are more usually to be uploaded at the article level, or submitted to an online repository \(see [**Archiving code**](../../../toolkit/archiving-code.md) for more details on this\).
+To indicate that they are associated with a display asset, these files will be named Figure 1—source data 1, Figure 2—figure supplement 1—source data 1, Table 3—source data 1, Video 4—source data 1, etc. and Figure 1—source code 1, Figure 2—figure supplement 1—source code 1, Table 3—source code 1, Video 4—source code 1, etc. The numbering restarts for each asset e.g. Figure 1—source data 1, Figure 2—source data 1, Figure 2—source data 2, Figure 3—source data 1.
+
+### Audio files
+
+At present, eLife cannot support inline audio-only playback so audio files \(as distinct from videos\) should be included as additional files.
+
+They are labelled as Audio file 1, Audio file 2, etc.
+
+### Reporting standards
+
+Reporting standard documents describe particular protocols and standards that the authors followed when they were collecting their results. These generally take the form of check-lists. Please note that these are entirely distinct from the transparent reporting form that eLife requests authors complete on submission.
+
+They are labelled as Reporting standard 1, Reporting standard 2, etc.
+
+### Supplementary files
+
+
+
+### Transparent reporting form
+
+
 
 ## What needs to be checked?
 
