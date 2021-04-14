@@ -1,8 +1,10 @@
 ---
-description: 'Source data and source code for assets (figures, videos, tables)'
+description: >-
+  Asset- and article-level source files, supplementary files and other
+  additional filess
 ---
 
-# Asset source files
+# Additional files
 
 ## What are asset source files?
 
