@@ -50,9 +50,81 @@ When authors have accompanying documents that do not fit into the other categori
 
 There are relatively few checks required for these files. A descriptive title for each is preferred but technically not required; authors should be queried to provide one during proofing but it will not cause any fatal errors to proceed without in cases where they judge that the label is sufficient description.
 
+
+
 ## Schematron checks
 
 ### Content checks
+
+supplementary-material-test-1	supplementary-material	\*\*Error\*\*: \_supplementary-material must have a label.\_
+
+supplementary-material-test-2	supplementary-material	\*\*Warning\*\*: \_XXXXXX is missing a title/caption - is this correct? \(supplementary-material should have a child caption.\)\_
+
+pre-supplementary-material-test-3	supplementary-material	\*\*Warning\*\*: \_XXXXXX does not have a title.\_
+
+final-supplementary-material-test-3	supplementary-material	\*\*Warning\*\*: \_XXXXXX doesn't have a title. Is this correct?\_
+
+pre-supplementary-material-test-5	supplementary-material	\*\*Warning\*\*: \_XXXXXX is missing a file \(supplementary-material missing a media element\) - please ensure that this is queried with the author.\_
+
+final-supplementary-material-test-5	supplementary-material	\*\*Error\*\*: \_XXXXXX is missing a file \(supplementary-material must have a media\).\_
+
+supplementary-material-test-6	supplementary-material	\*\*Error\*\*: \_supplementary-material label \(XXXXXX\) does not conform to eLife's usual label format.\_
+
+supplementary-material-test-7	supplementary-material	\*\*Error\*\*: \_supplementary-material in additional files sections cannot have the a media element with the attribute mimetype='video'. This should be mimetype='application'\_
+
+supplementary-material-test-8	supplementary-material	\*\*Error\*\*: \_XXXXXX has an article level label but it is not captured in the additional files section - This must be incorrect.\_
+
+supplementary-material-test-9	supplementary-material	\*\*Error\*\*: \_XXXXXX has XXXXXX media elements which is incorrect.\_
+
+supplementary-material-test-10	supplementary-material	\*\*Warning\*\*: \_Article contains XXXXXX Please check with eLife - is this actually a reporting standard?\_
+
+source-code-test-1	supplementary-material	\*\*Warning\*\*: \_XXXXXX has a file which looks like code - XXXXXX, but it's not labelled as code.\_
+
+#### supplementary-material-test-11
+
+**Warning**: _XXXXXX has a title 'XXXXXX'. Is it a Key resources table? If so, it should be captured as a table in an appendix for the article._
+
+**Action**: 
+
+#### source-code-test-2
+
+**Warning**: _Source code files should always be zipped. The file type for XXXXXX is 'XXXXXX'. Please zip this file, and replace it with the zipped version._
+
+**Action**: 
+
+#### back-supplementary-file-position
+
+**Error**: _XXXXXX id ends with XXXXXX, but it is placed XXXXXX. Either it is mislabelled, the id is incorrect, or it should be moved to a different position._
+
+**Action**: 
+
+#### back-supplementary-file-id
+
+**Error**: _The id \(XXXXXX\) for XXXXXX is not in the correct format. Supplementary files need to have ids in the format 'supp0'._
+
+**Action**: 
+
+#### back-source-data-position
+
+**Error**: _XXXXXX id ends with XXXXXX, but it is placed XXXXXX. Either it is mislabelled, the id is incorrect, or it should be moved to a different position._
+
+#### back-source-data-id
+
+**Error**: _The id \(XXXXXX\) for XXXXXX is not in the correct format. Source data need to have ids in the format 'sdata0'._
+
+**Action**: 
+
+#### back-source-code-position
+
+**Error**: _XXXXXX id ends with XXXXXX, but it is placed XXXXXX. Either it is mislabelled, the id is incorrect, or it should be moved to a different position._
+
+**Action**: 
+
+#### back-source-code-id
+
+**Error**: _The id \(XXXXXX\) for XXXXXX is not in the correct format. Source code needs to have ids in the format 'scode0'._
+
+**Action**: 
 
 #### fig-data-test-1
 
