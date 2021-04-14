@@ -40,7 +40,7 @@ They are labelled as Reporting standard 1, Reporting standard 2, etc.
 
 ### Supplementary files
 
-
+When authors have accompanying documents that do not fit into the other categories of additional file, they may include these as supplementary files. These can cover lists of plasmids, operating manuals for resources, experimental design documentation, supporting tables that do not count as source data, lists of datasets used, and so on. Broadly speaking it is preferable that authors use one of the specific categories of file and include tables in their main text but eLife accepts this is not always possible.
 
 ### Transparent reporting form
 
