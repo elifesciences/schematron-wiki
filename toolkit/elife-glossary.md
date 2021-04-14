@@ -98,7 +98,7 @@ eLife digests explain the findings of eLife papers to a broader audience. Digest
 
 This is the automatic system that runs various workflows at set times daily \(e.g. the PoA workflow\), or in response to a trigger \(e.g. uploading a package to the final bucket\).
 
-#### **bucket**
+#### **AWS bucket**
 
 eLife uses Amazon S3 buckets \(a public cloud storage resource\) to store objects consisting of data and its descriptive metadata
 
@@ -107,8 +107,6 @@ eLife uses Amazon S3 buckets \(a public cloud storage resource\) to store object
 An agency that registers DOIs for articles
 
 #### FTP
-
-#### AWS bucket
 
 #### JATS
 
