@@ -436,6 +436,14 @@ Check what the correct citation should be by checking the original submission an
 
 * Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
 
+#### table-xref-conformity-5
+
+**Warning**: _'XXXXXXX' - Citation content does not match what it directs to._
+
+**Action**: This will fire at all stages if the text in a decision letter table or author response table citation does not contain the number of the label that the table directs to, for example if **Author response table 1**, links to Author response table 2. 
+
+eLife should check what the correct citation should be by checking the original decision letter file and any edits the authors have tried to make. If link is incorrect, try to add the citation again through Kriya - if this doesn't work, Exeter will need to fix this.
+
 #### table-xref-test-1
 
 **Warning**: _'XXXXXXX' - Citation is in the caption of the Table that it links to. Is it correct or necessary?_
@@ -889,4 +897,5 @@ Supplementary file citation
 
 * **29/03/2021** - Added [**figurefigure-presence**](asset-citations.md#figurefigure-presence) and [**disp-formula-xref-target-test**](asset-citations.md#disp-formula-xref-target-test) tests. 
 * **07/04/2021** - Updated [**fig-xref-test-11**](asset-citations.md#fig-xref-test-11) from error to warning.
+* **14/04/2021** - added **table-xref-conformity-5**.
 
