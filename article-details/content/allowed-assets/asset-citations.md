@@ -1,7 +1,7 @@
 # Asset citations
 
 {% hint style="info" %}
-For changelog, click here. Updated 29/03/2021
+For changelog, click [**here**](asset-citations.md#changelog). Updated 29/03/2021
 {% endhint %}
 
 ## What is an asset citation?
