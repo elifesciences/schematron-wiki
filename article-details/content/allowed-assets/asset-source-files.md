@@ -56,29 +56,77 @@ There are relatively few checks required for these files. A descriptive title fo
 
 ### Content checks
 
-supplementary-material-test-1	supplementary-material	\*\*Error\*\*: \_supplementary-material must have a label.\_
+#### supplementary-material-test-1
 
-supplementary-material-test-2	supplementary-material	\*\*Warning\*\*: \_XXXXXX is missing a title/caption - is this correct? \(supplementary-material should have a child caption.\)\_
+**Error**: _supplementary-material must have a label._
 
-pre-supplementary-material-test-3	supplementary-material	\*\*Warning\*\*: \_XXXXXX does not have a title.\_
+**Action**: 
 
-final-supplementary-material-test-3	supplementary-material	\*\*Warning\*\*: \_XXXXXX doesn't have a title. Is this correct?\_
+#### supplementary-material-test-2
 
-pre-supplementary-material-test-5	supplementary-material	\*\*Warning\*\*: \_XXXXXX is missing a file \(supplementary-material missing a media element\) - please ensure that this is queried with the author.\_
+**Warning**: _XXXXXX is missing a title/caption - is this correct? \(supplementary-material should have a child caption.\)_
 
-final-supplementary-material-test-5	supplementary-material	\*\*Error\*\*: \_XXXXXX is missing a file \(supplementary-material must have a media\).\_
+**Action**:
 
-supplementary-material-test-6	supplementary-material	\*\*Error\*\*: \_supplementary-material label \(XXXXXX\) does not conform to eLife's usual label format.\_
+#### pre-supplementary-material-test-3
 
-supplementary-material-test-7	supplementary-material	\*\*Error\*\*: \_supplementary-material in additional files sections cannot have the a media element with the attribute mimetype='video'. This should be mimetype='application'\_
+**Warning**: _XXXXXX does not have a title._
 
-supplementary-material-test-8	supplementary-material	\*\*Error\*\*: \_XXXXXX has an article level label but it is not captured in the additional files section - This must be incorrect.\_
+**Action**: 
 
-supplementary-material-test-9	supplementary-material	\*\*Error\*\*: \_XXXXXX has XXXXXX media elements which is incorrect.\_
+#### final-supplementary-material-test-3
 
-supplementary-material-test-10	supplementary-material	\*\*Warning\*\*: \_Article contains XXXXXX Please check with eLife - is this actually a reporting standard?\_
+**Warning**: _XXXXXX doesn't have a title. Is this correct?_
 
-source-code-test-1	supplementary-material	\*\*Warning\*\*: \_XXXXXX has a file which looks like code - XXXXXX, but it's not labelled as code.\_
+**Action**: 
+
+#### pre-supplementary-material-test-5
+
+**Warning**: _XXXXXX is missing a file \(supplementary-material missing a media element\) - please ensure that this is queried with the author._
+
+**Action**: 
+
+#### final-supplementary-material-test-5
+
+**Error**: _XXXXXX is missing a file \(supplementary-material must have a media\)._
+
+**Action**: 
+
+#### supplementary-material-test-6
+
+**Error**: _supplementary-material label \(XXXXXX\) does not conform to eLife's usual label format._
+
+**Action**:
+
+#### supplementary-material-test-7
+
+**Error**: _supplementary-material in additional files sections cannot have the a media element with the attribute mimetype='video'. This should be mimetype='application'_
+
+**Action**:
+
+#### supplementary-material-test-8
+
+**Error**: _XXXXXX has an article level label but it is not captured in the additional files section - This must be incorrect._
+
+**Action**:
+
+#### supplementary-material-test-9
+
+**Error**: _XXXXXX has XXXXXX media elements which is incorrect._
+
+**Action:**
+
+#### supplementary-material-test-10
+
+**Warning**: _Article contains XXXXXX Please check with eLife - is this actually a reporting standard?_
+
+**Action**:
+
+#### source-code-test-1
+
+**Warning**: _XXXXXX has a file which looks like code - XXXXXX, but it's not labelled as code._
+
+**Action**: 
 
 #### supplementary-material-test-11
 
