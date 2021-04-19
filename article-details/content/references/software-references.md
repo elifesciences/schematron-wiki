@@ -6,13 +6,15 @@ description: This is a page about entries for software in the reference list.
 
 ## What is a software reference?
 
-A software reference gives bibliographic details for a piece of software or computer code.
+A software reference gives bibliographic details for a piece of software or computer code. These are hosted on various websites, and are captured in eLife articles as software references. Any code that has been specifically written as part of the work reported in an eLife paper should be archived at Software Heritage \(see more about how to do this [**here**](../../../toolkit/archiving-code.md)\).
 
-![](../../../.gitbook/assets/screenshot-2020-05-01-at-10.27.09.png)
+![](../../../.gitbook/assets/screenshot-2021-04-19-at-12.30.54.png)
 
-![Examples of software references](../../../.gitbook/assets/screenshot-2020-05-01-at-10.26.49.png)
+![](../../../.gitbook/assets/screenshot-2021-04-19-at-12.21.39.png)
 
-![An example of a software citation](../../../.gitbook/assets/screenshot-2020-05-01-at-10.24.05.png)
+![Formatting display for different software references in eLife articles](../../../.gitbook/assets/screenshot-2021-04-19-at-11.55.15.png)
+
+![An example of a software citation](../../../.gitbook/assets/screenshot-2021-04-19-at-12.41.36.png)
 
 ## What needs to be added?
 
@@ -37,7 +39,7 @@ Where the optional information is available, this should also be added in.
 * **Collaboration:** If the software was made by a team this should be entered as a collaboration instead of authors ****e.g. ****R Development Core Team.
 * **Year**: This should be the year that the software being cited was released. 
 * **Software title**: The name of the software.
-* **Source**: Where the software is hosted \(this does not necessarily mean they own the software\), if applicable.
+* **Source**: Where the software is hosted \(this does not necessarily mean the host owns the software\), if applicable.
 * **Software version:** The version of software that was used. This is often mentioned in the article text - if it is not, it does not need to be added in.
 * **Publisher location:** The location of the publishers of the software. This is separated into city and country fields in Kriya.
 * **Publisher**: The company or organisation that created the software and has ownership rights over it, if applicable.
@@ -49,18 +51,20 @@ If the authors have provided the RRID for a software, this does not need to be a
 
 ## How to add a software reference
 
-Make sure a citation is added whenever the software is mentioned in the text or in the key resources table. To add a GitHub reference after [forking code]() for example, in Kriya, right-click where you want to add the citation and click on Add New &gt; Add New Reference and select Software under Reference Type. 
+To add a software reference in Kriya, right-click where you want to add the citation and click on Add New &gt; Add New Reference and select Software under Reference Type. 
 
 ![The default fields in Kriya for a software reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.08.25.png)
 
-The default fields in Kriya will need to be altered to include the following information in this order:
+The default fields in Kriya will need to be altered to include the appropriate information. The fields we capture will differ slightly depending on the type of software reference. Make sure a citation is added whenever the software is mentioned in the text or in the key resources table. 
 
-* Author - for GitHub references, you can just enter the first author's name. Sometimes the repository will include information about the authors.
+### GitHub
+
+* Author - for GitHub references, you can just enter the first author's name. Sometimes the repository will include information about the authors - in this case, they should all be added. 
 * Year - the year of the latest commit when the repository is forked.
 * Software title - for GitHub references, this is the name of the repository 
-* Source - GitHub
+* Source \(currently Software name on Kriya 1.5\) - GitHub
 * Software version - for GitHub references, this is the ID of the latest commit number
-* Website - This should be a link to the original \(not the forked\) repository
+* Website - This should be a link to the repository 
 
 ![The software version for GitHub references is the unique ID for the latest commit number](../../../.gitbook/assets/screenshot-2020-07-21-at-10.13.42%20%281%29.png)
 
@@ -80,9 +84,11 @@ An example of correctly entered fields for a GitHub repository reference is give
 | Author | Colijn CC |
 | Year | 2020 |
 | Software title | Analysis of novel Coronavirus Disease \(COVID-19\) Singapore and Tianjin outbreak clusters |
-| Software name | GitHub |
+| Source | GitHub |
 | Software version | 9e78826 |
 | Website | https://github.com/carolinecolijn/ClustersCOVID19 |
+
+### R software and packages
 
 Guidance on what information should be included in a software reference can sometimes be found on the software website. For example, for R references, the developers provide the [**following information**](https://cran.r-project.org/doc/FAQ/R-FAQ.html):
 
@@ -98,7 +104,7 @@ To add a reference for R software, add a new software reference as above. The in
 | Software version | 3.1.0 |
 | Publisher city | Vienna |
 | Publisher country | Austria |
-| Software host | R Foundation for Statistical Computing |
+| Publisher | R Foundation for Statistical Computing |
 | Website | http://www.R-project.org |
 
 If authors refer to software packages, these will also need to be cited properly. For example:
@@ -112,7 +118,7 @@ Looking up [**biomod2**](https://cran.r-project.org/web/packages/biomod2/index.h
 | Author | Thuiller W, Georges D, Engler R, Breiner F |
 | Year | 2020 |
 | Software title | biomod2: Ensemble Platform for Species Distribution Modeling |
-| Software name | CRAN |
+| Source | CRAN |
 | Software version | 3.2-7.1 |
 | Website | https://CRAN.R-project.org/package=biomod2 |
 
@@ -124,11 +130,58 @@ The citation can then be updated as below, removing the version details:
 
 > Modelling was executed in the R environment \(R Development Core Team, 2019\) using the biomod2 package \(Thuiller et al., 2020\)
 
+### Software Heritage
+
+After archiving code in Software Heritage \(see how to do this [**here**](../../../toolkit/archiving-code.md)\), a software reference needs to be added in the main text. The information can be entered as below:
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Fields</th>
+      <th style="text-align:left">Values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Author</td>
+      <td style="text-align:left">Tereshko L</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Year</td>
+      <td style="text-align:left">2021</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Software title</td>
+      <td style="text-align:left">current_clamp_scripts</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Source</td>
+      <td style="text-align:left">Software Heritage</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Software version</td>
+      <td style="text-align:left">
+        <p>swh:1:rev:</p>
+        <p>71bf63383de2b658ae870dba47898b3b784cce79</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Website</td>
+      <td style="text-align:left">
+        <p>https://archive.softwareheritage.org/swh:1:dir:fbfd44e58131c368b2c91ebfff9b77e146617df9;origin=https://github.com/latereshko/current_clamp_scripts;visit=swh:1:snp:db990b63caef9f158c2c5de1572cbe9aa82bb4d0;anchor=swh:1:rev:</p>
+        <p>71bf63383de2b658ae870dba47898b3b784cce79/</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## **When to add software references**
 
-Any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference \(unless the authors have already included RRIDs\). Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [**FAIR principles**](https://peerj.com/articles/cs-86/). Please note, this only needs to be done if the software is not already in the reference list. If any of the mandatory information required for a software reference is missing, please leave the following author query:
+As far as possible, any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference \(unless the authors have already included RRIDs\). Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [**FAIR principles**](https://peerj.com/articles/cs-86/). Please note, this only needs to be done if the software is not already in the reference list. If any of the mandatory information required for a software reference is missing, please leave the following author query:
 
-* eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list. Alternatively, please provide the RRID and version number for this software.
+* eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). If known, please provide ****the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list. Alternatively, please provide the RRID and version number for this software.
+
+If the authors cannot provide this information, the text should be left as is.
 
 ![All software here should be added as software references and cited properly](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17%20%281%29.png)
 
@@ -369,8 +422,6 @@ The DOI Badge will pop up:
 **Action:** This error will appear if a software reference does not have a website link. If the authors have provided a link to the website for the software, add this information to the reference in the 'Website' field. If there is no website link, please leave the following query.
 
 * eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the URL for this software so that we can add it to the reference list. Alternatively, please provide the RRID for this software.
-
-## Example of a Software Heritage software reference
 
 
 

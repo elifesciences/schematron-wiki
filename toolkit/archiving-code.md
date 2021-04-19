@@ -10,7 +10,7 @@ It is usually possible to work out whether a repository needs to be archived bas
 
 * Code mentioned in the Data Availability Statement \(e.g. “All analysis code has been made available on GitHub \([**https://github.com/learning-memory-and-decision-lab/NassarBrucknerFrank\_eLife\_2019**](https://github.com/learning-memory-and-decision-lab/NassarBrucknerFrank_eLife_2019)\).”\) should usually be archived.
 * If one of the authors of the paper also authored the code, this usually indicates that it was generated for the work and should be archived.
-* Code that is mentioned in the text only and referred to as being a ‘package’ is unlikely to have been created for this specific work and therefore doesn’t need to be archived \(unless it is a custom package\). Adding a [**software reference**](../article-details/content/references/software-references.md#how-to-add-a-software-reference) would be more appropriate in these cases. See [**below**]() for examples of this.
+* Code that is mentioned in the text only and referred to as being a ‘package’ is unlikely to have been created for this specific work and therefore doesn’t need to be archived \(unless it is a custom package\). Adding a [**software reference**](../article-details/content/references/software-references.md#how-to-add-a-software-reference) would be more appropriate in these cases.
 * Any references to custom code or software usually indicates it needs to be archived. 
 * If the repository is years old, this usually indicates that the code should not be archived as it probably was not created specifically for the paper.
 * Code described in Tools and Resources articles usually does not need to be archived as there will be no results to replicate using it. However, there are some cases where this will be required \([**see below**](archiving-code.md#when-to-fork-code-in-tools-and-resources-papers)\). 
@@ -162,13 +162,13 @@ The SWHID can also be obtained from the link itself. The section after `anchor=`
 
 **Example**
 
-> Our spike sorting code is freely available at [https://github.com/narendramukherjee/blech\_clust](https://github.com/narendramukherjee/blech_clust) \(Mukherjee, 2019; copy archived at [**swh:1:rev:86d380144b3f85c8951923de873893583bd25edf**](https://archive.softwareheritage.org/swh:1:dir:5025e62c4f6436576af0de3aa31d07cec877eb6c;origin=https://github.com/narendramukherjee/blech_clust;visit=swh:1:snp:816c8e048d2d81fb7cc4e89f3f94f18a2cda6f69;anchor=swh:1:rev:86d380144b3f85c8951923de873893583bd25edf/)\).
+> Our spike sorting code is freely available at [https://github.com/narendramukherjee/blech\_clust](https://github.com/narendramukherjee/blech_clust) \(Mukherjee, 2019; copy archived at [**swh:1:rev:86d380144b3f85c8951923de873893583bd25edf**](https://archive.softwareheritage.org/swh:1:dir:5025e62c4f6436576af0de3aa31d07cec877eb6c;origin=https://github.com/narendramukherjee/blech_clust;visit=swh:1:snp:816c8e048d2d81fb7cc4e89f3f94f18a2cda6f69;anchor=swh:1:rev:86d380144b3f85c8951923de873893583bd25edf)\).
 
 ### In references
 
 * A software reference also needs to be added in the main article \(see [**here**](../article-details/content/references/software-references.md) for how to do this\) - this should only be done after the code has been archived. Please note software citations can't be added in the data availability statement.
 
-The same link used in the main text should be added for the reference. See [**above**](archiving-code.md#in-the-main-text) for how to obtain this. An example of the fields and the type of information which needs inputting can be found [**here**](../article-details/content/references/software-references.md#example-of-a-software-heritage-software-reference).
+The same link used in the main text should be added for the reference. See [**above**](archiving-code.md#in-the-main-text) for how to obtain this. An example of the fields and the type of information which needs inputting can be found [**here**](../article-details/content/references/software-references.md#software-heritage).
 
 ## Add an author query
 

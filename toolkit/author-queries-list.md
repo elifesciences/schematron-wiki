@@ -83,7 +83,7 @@ For changelog, click here. Updated dd/mm/yyy
 * Please confirm which XXXXXX this refers to, or confirm that this citation refers to another article.
 * Please provide an in-text citation for this XXXXXX.
 * This cited reference does not appear in the reference list. Please provide the full bibliographic details.
-* eLife follows the FAIR principles for software and data citation. Please provide the full bibliographic details \(author\(s\), year, full title, publisher, version, URL\) for this software so that it can be added to the reference list. Alternatively, please provide the RRID and version number for this software.
+* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). If known, please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list. Alternatively, please provide the RRID and version number for this software.
 * Please indicate whether this citation refers to XXXXa or XXXXb.
 * If this submitted/unpublished reference has now been accepted for publication, please provide all available bibliographic information \(journal/publisher, volume, page-range, DOI etc\).
 * Per eLife policy, we have forked your GitHub code in order to archive it in our own repository and have updated the text and Data Availability Statement to reflect this. Please confirm that you are happy with the revised wording.
