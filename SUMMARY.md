@@ -51,6 +51,7 @@
 
 ## Toolkit
 
+* [Author queries list](toolkit/author-queries-list.md)
 * [BaseX](toolkit/basex.md)
 * [Interacting with authors](toolkit/interacting-with-authors.md)
 * [Oxygen](toolkit/oxygen.md)
@@ -74,8 +75,4 @@
 * [Kriya](pages-in-progress/kriya-1.md)
 * [Publish on accept protocols](pages-in-progress/publish-on-accept-protocols.md)
 * [Digests](pages-in-progress/digests.md)
-
----
-
-* [Author queries list](author-queries-list.md)
 
