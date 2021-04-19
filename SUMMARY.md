@@ -75,3 +75,7 @@
 * [Publish on accept protocols](pages-in-progress/publish-on-accept-protocols.md)
 * [Digests](pages-in-progress/digests.md)
 
+---
+
+* [Author queries list](author-queries-list.md)
+
