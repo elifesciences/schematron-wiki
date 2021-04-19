@@ -134,46 +134,14 @@ The citation can then be updated as below, removing the version details:
 
 After archiving code in Software Heritage \(see how to do this [**here**](../../../toolkit/archiving-code.md)\), a software reference needs to be added in the main text. The information can be entered as below:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Fields</th>
-      <th style="text-align:left">Values</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Author</td>
-      <td style="text-align:left">Tereshko L</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Year</td>
-      <td style="text-align:left">2021</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Software title</td>
-      <td style="text-align:left">current_clamp_scripts</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Source</td>
-      <td style="text-align:left">Software Heritage</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Software version</td>
-      <td style="text-align:left">
-        <p>swh:1:rev:</p>
-        <p>71bf63383de2b658ae870dba47898b3b784cce79</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Website</td>
-      <td style="text-align:left">
-        <p>https://archive.softwareheritage.org/swh:1:dir:fbfd44e58131c368b2c91ebfff9b77e146617df9;origin=https://github.com/latereshko/current_clamp_scripts;visit=swh:1:snp:db990b63caef9f158c2c5de1572cbe9aa82bb4d0;anchor=swh:1:rev:</p>
-        <p>71bf63383de2b658ae870dba47898b3b784cce79/</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Fields | Values |
+| :--- | :--- |
+| Author | Mukherjee N |
+| Year | 2019 |
+| Software title | blech\_clust |
+| Source | Software Heritage |
+| Software version | swh:1:rev:86d380144b3f85c8951923de873893583bd25edf |
+| Website | https://archive.softwareheritage.org/browse/directory/5025e62c4f6436576af0de3aa31d07cec877eb6c/?origin\_url=https://github.com/narendramukherjee/blech\_clust&revision=86d380144b3f85c8951923de873893583bd25edf&snapshot=816c8e048d2d81fb7cc4e89f3f94f18a2cda6f69 |
 
 ## **When to add software references**
 
