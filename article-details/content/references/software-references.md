@@ -8,8 +8,6 @@ description: This is a page about entries for software in the reference list.
 
 A software reference gives bibliographic details for a piece of software or computer code. These are hosted on various websites, and are captured in eLife articles as software references. Any code that has been specifically written as part of the work reported in an eLife paper should be archived at Software Heritage \(see more about how to do this [**here**](../../../toolkit/archiving-code.md)\).
 
-![](../../../.gitbook/assets/screenshot-2021-04-19-at-12.30.54.png)
-
 ![](../../../.gitbook/assets/screenshot-2021-04-19-at-12.21.39.png)
 
 ![Formatting display for different software references in eLife articles](../../../.gitbook/assets/screenshot-2021-04-19-at-11.55.15.png)
@@ -45,9 +43,21 @@ Where the optional information is available, this should also be added in.
 * **Publisher**: The company or organisation that created the software and has ownership rights over it, if applicable.
 * **Website**: Some software providers add DOIs for their software. These need to be added as a full DOI links instead of just the DOI.
 
-If the authors have provided the RRID for a software, this does not need to be added as a software reference. Otherwise, if any of the mandatory information for a reference cannot easily be found from what the authors have provided in text, please leave the following author query, deleting as appropriate the information that has already been provided:
+{% hint style="info" %}
+If the authors have provided the RRID for a software, this does not need to be added as a software reference.
+{% endhint %}
 
-* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list. Alternatively, please provide the RRID and version number for this software.
+## **When to add software references**
+
+As far as possible, any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference \(unless the authors have already included RRIDs\). Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [**FAIR principles**](https://peerj.com/articles/cs-86/). Please note, this only needs to be done if the software is not already in the reference list. If any of the mandatory information required for a software reference is missing, please leave the following author query, deleting as appropriate the information that has already been provided:
+
+* eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). If known, please provide ****the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list. Alternatively, please provide the RRID and version number for this software.
+
+If the authors cannot provide this information, the text should be left as is.
+
+![All software here should be added as software references and cited properly](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17%20%281%29.png)
+
+![The software entries here do not need software references as they already have RRIDs](../../../.gitbook/assets/screenshot-2020-05-01-at-16.32.22.png)
 
 ## How to add a software reference
 
@@ -70,7 +80,7 @@ The default fields in Kriya will need to be altered to include the appropriate i
 
 An example of correctly entered fields for a GitHub repository reference is given below:
 
-| Fields | Values |
+| Kriya field | Value |
 | :--- | :--- |
 | Author | Tindale LC |
 | Author | Stockdale JE |
@@ -96,7 +106,7 @@ Guidance on what information should be included in a software reference can some
 
 To add a reference for R software, add a new software reference as above. The information above needs to be entered into Kriya in the order shown below:
 
-| Fields | Values |
+| Kriya field | Value |
 | :--- | :--- |
 | Collaboration | R Development Core Team |
 | Year | 2014 |
@@ -113,9 +123,12 @@ If authors refer to software packages, these will also need to be cited properly
 
 Looking up [**biomod2**](https://cran.r-project.org/web/packages/biomod2/index.html) shows this is a package for R. The information from the CRAN website where this is hosted can be entered as below:
 
-| Fields | Values |
+| Kriya field | Value |
 | :--- | :--- |
-| Author | Thuiller W, Georges D, Engler R, Breiner F |
+| Author | Thuiller W |
+| Author | Georges D |
+| Author | Engler R |
+| Author | Breiner F |
 | Year | 2020 |
 | Software title | biomod2: Ensemble Platform for Species Distribution Modeling |
 | Source | CRAN |
@@ -132,28 +145,62 @@ The citation can then be updated as below, removing the version details:
 
 ### Software Heritage
 
-After archiving code in Software Heritage \(see how to do this [**here**](../../../toolkit/archiving-code.md)\), a software reference needs to be added in the main text. The information can be entered as below:
+After archiving code in Software Heritage \(see how to do this [**here**](../../../toolkit/archiving-code.md)\), a software reference needs to be added in the main text. An example of a Software Heritage software reference is below:
 
 | Fields | Values |
 | :--- | :--- |
-| Author | Mukherjee N |
-| Year | 2019 |
-| Software title | blech\_clust |
+| Author | Zhan N |
+| Year | 2020 |
+| Software title |  Zhan-Fan-et-al-2019-scRNAseq |
 | Source | Software Heritage |
-| Software version | swh:1:rev:86d380144b3f85c8951923de873893583bd25edf |
-| Website | https://archive.softwareheritage.org/browse/directory/5025e62c4f6436576af0de3aa31d07cec877eb6c/?origin\_url=https://github.com/narendramukherjee/blech\_clust&revision=86d380144b3f85c8951923de873893583bd25edf&snapshot=816c8e048d2d81fb7cc4e89f3f94f18a2cda6f69 |
+| Software version | swh:1:rev:c008b3ff49d567a1abe9d9eed42afed4e9a27b42 |
+| Website | https://archive.softwareheritage.org/browse/directory/89513b41bd021137c72fa7cf3e57bcef4bf6c933/?origin\_url=https://github.com/lifan36/Zhan-Fan-et-al-2019-scRNAseq&revision=c008b3ff49d567a1abe9d9eed42afed4e9a27b42&snapshot=7166156ca6702a41990236e9da386c44440b6609 |
 
-## **When to add software references**
+### **Figshare** 
 
-As far as possible, any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference \(unless the authors have already included RRIDs\). Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [**FAIR principles**](https://peerj.com/articles/cs-86/). Please note, this only needs to be done if the software is not already in the reference list. If any of the mandatory information required for a software reference is missing, please leave the following author query:
+An example of a Figshare software reference is below. 
 
-* eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). If known, please provide ****the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list. Alternatively, please provide the RRID and version number for this software.
+| Kriya field | Value |
+| :--- | :--- |
+| Author | Boden A |
+| Author | Volpato A |
+| Author | Hake K |
+| Author | York A |
+| Author | Testa I |
+| Year | 2020 |
+| Software title | Lens-free scanning |
+| Source | Zenodo |
+| Software version | 0.0.2 |
+| Website | https://doi.org/10.5281/zenodo.3653386 |
 
-If the authors cannot provide this information, the text should be left as is.
+Note, Figshare can also be used for [**data references**](data-references.md) - double-check whether the link is for software or data and add the reference accordingly. If you cannot determine this, leave the following author query: 
 
-![All software here should be added as software references and cited properly](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17%20%281%29.png)
+* Please confirm whether this link refers to software or a dataset so we can capture it correctly in your reference list. 
 
-![The software here do not need software references as they already have RRIDs](../../../.gitbook/assets/screenshot-2020-05-01-at-16.32.22.png)
+Authors may upload a mixture of software and data to Figshare. The Production team will liaise with the authors as necessary to decide how to capture this in these cases.
+
+### **Zenodo**
+
+An example of a Zenodo software reference is below. 
+
+| Kriya field | Value |
+| :--- | :--- |
+| Author | Boden A |
+| Author | Volpato A |
+| Author | Hake K |
+| Author | York A |
+| Author | Testa I |
+| Year | 2020 |
+| Software title | Lens-free scanning |
+| Source | Zenodo |
+| Software version | 0.0.2 |
+| Website | https://doi.org/10.5281/zenodo.3653386 |
+
+Note, Zenodo can also be used for [**data references**](data-references.md) - double-check whether the link is for software or data and add the reference accordingly. If you cannot determine this, leave the following author query: 
+
+* Please confirm whether this link refers to software or a dataset so we can capture it correctly in your reference list. 
+
+Authors may upload a mixture of software and data to Zenodo. The Production team will liaise with the authors as necessary to decide how to capture this in these cases. 
 
 ## **Schematron checks**
 
@@ -544,4 +591,10 @@ Zenodo
 #### Changes
 
 * Updated guidance on what to use as version number for GitHub references.
+
+### /04/2021
+
+#### Changes
+
+* Added examples of more software references, updated guidance about when to query authors and updated author query.
 
