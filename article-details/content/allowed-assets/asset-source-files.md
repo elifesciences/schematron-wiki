@@ -125,9 +125,9 @@ The production team should take care to check the submission system prior to con
 
 During production of an article, it should be confirmed as far as possible that all addiitonal files are intact/valid documents. This should be done by downloading the file from the proof \(or staged article\) and seeing if there are any issues when it is opened in the appropriate program. ZIP packages should also be expanded to make sure they are complete. If a file is corrupted, check the submission system to see if this is true of the original and either replace the document with the uncorrupted version or go to the authors to request one.
 
-Ideally this should be checked both prior and after the article is loaded to the journal website as conversions may occur at this stage. In the unlikely event that it appears the creation of the final package is responsible for the corruption of a file, the content processors should be advised and requested to resolve the issue.
+This should definitely be checked after the article is loaded to the journal website as conversions may occur at this stage. In the unlikely event that it appears the creation of the final package is responsible for the corruption of a file, the content processors should be advised and requested to resolve the issue.
 
-Please note that there are going to be some additional files we cannot check as they are intended for use with propriatory software that we do not have access to. In these cases, there is unfortunately little we can do beyond making sure the files to not have an arbitrarily low size \(e.g. in the range of bytes rather than at least kilobytes\).
+Please note that there are going to be some additional files we cannot check as they are intended for use with propitiatory software that we do not have access to. In these cases, there is unfortunately little we can do beyond making sure the files to not have an arbitrarily low size \(e.g. in the range of bytes rather than at least kilobytes\).
 
 ## Schematron checks
 
