@@ -34,9 +34,11 @@ They are labelled as Reporting standard 1, Reporting standard 2, etc. A descript
 
 Source data and source code may be provided to give readers access to the raw data and the scripts that were used to process it. During the submission process, authors are in fact encouraged to provide these files to aid the reviewers and, in the event of acceptance, to allow readers to easily reproduce the work.
 
-In the event that the data is too large or extensive to be neatly captured within one or two Excel files, it may be uploaded as a generated dataset to an external repository. In such cases, it should not be listed as a source data file but instead described in the [**Data availability section**](../data-availability.md). See **below** for how to deal with cases where authors become confused on this point.
+In the event that the data is too large or extensive to be neatly captured within one or two Excel files, it may be uploaded as a generated dataset to an external repository. In such cases, it should not be listed as a source data file but instead described in the [**Data availability section**](../data-availability.md). See [**below**](asset-source-files.md#additional-files-hosted-outside-the-article) for how to deal with cases where authors become confused on this point.
 
 Source code may also be uploaded to an external repository such as GitHub and this is often preferable to being included as an attached file as it permits proper licensing of the code \(see [**Archiving code**](../../../toolkit/archiving-code.md) for more details on this\). Again, if source code is hosted away from the article, it should not be listed as a source code file.
+
+Where it is included in an article, source code should be zipped or otherwise compressed so that the original filenames are preserved. This is to account for dependancy between multiple files \(e.g. where one script includes a call to an accompanying one, though if this is the case the authors will usually have zipped the different files together in one archive\). 
 
 These file-types are labelled respectively Source data 1, Source data 2, etc. and Source code 1, Source code 2, etc. Each source data and source code file should have a descriptive title and may be accompanied by a legend. They are published in the Additional files section at the back of the article.
 
@@ -92,6 +94,7 @@ Transparent reporting forms do not require a title or legend and are published a
 
 * Appropriateness of the file-type
 * Relationship to asset \(where applicable\)
+* Additional files hosted outside the article
 * Inappropriate/mistaken inclusion of an additional file
 * Corrupted files
 
@@ -106,6 +109,8 @@ Occasionally, this kind of issue can affect transparent reporting forms, with au
 As indicated by the relevant schematron tests, asset-level source data and code should be relate directly to the asset with which it is associated. That is to say, if Figure 1—source data 1 relates only to Figure 1—figure supplement 2, it should be changed to Figure 1—figure supplement 2—source data 1. Likewise, if the title for source data at the article level indicates a relationship to a figure \(e.g. "Source data 1. Original data for Figure 5"\) it should be changed to asset-level source data for that figure.
 
 That being said, when a source file covers multiple assets, it may be more appropriate to leave it as provided. For example, if Figure 2—source data 1 relates to both Figure 2 and Figure 2—figure supplement 1, it should remain associated directly with Figure 2. If a source code file \(at the article level\) relates to multiple figures, it is appropriate as Source code 1 since it would not be quite accurate to label it as source code for any one of the figures covered.
+
+### Additional files hosted outside the article
 
 ### Inappropriate/mistaken inclusion of an additional file
 
@@ -139,35 +144,40 @@ Please note that there are going to be some additional files we cannot check as 
 
 **Action**: This warning indicates that an additional file does not have a title or legend. The author should be queried to provide one if possible.
 
-* Please provide a descriptive title for this file.
+* Please provide a single-sentence title \(and legend, if appropriate\) describing the contents of this file.
 
-If this is at the post-author stage, check whether the author was previously queried about this. If they provided a title, add this in. If not, please contact them and reiterate the request. Note that in the case of asset-level source data, it is acceptable to proceed without a title as the lable \(e.g. Figure 1—source data 1\) is largely descriptive of what the file contains.
+If this is at the post-author stage, check whether the author was previously queried about this. If they provided a title, add this in. If not, please contact them and reiterate the request. Note that in the case of asset-level source data, it is acceptable to proceed without a title if this is the author's preference as the label \(e.g. Figure 1—source data 1\) is largely descriptive of what the file contains.
 
 #### pre-supplementary-material-test-3
 
 **Warning**: _XXXXXX does not have a title._
 
-**Action**:  This warning indicates that an additional file does not have a title or legend. The author should be queried to provide one:
+**Action**:  This warning indicates, at the pre-author stage, that an additional file does not have a title or legend. The author should be queried to provide one:
 
-* Please provide a descriptive title for this file.
+* Please provide a single-sentence title \(and legend, if appropriate\) describing the contents of this file.
 
 #### final-supplementary-material-test-3
 
 **Warning**: _XXXXXX doesn't have a title. Is this correct?_
 
-**Action**: 
+**Action**: This warning indicates, at the post-author stage, that an additional file does not have a title or legend. Check whether the author was previously queried about this. If they provided a title, add this in. If not, please contact them and reiterate the request. Note that in the case of asset-level source data, it is acceptable to proceed without a title if this is the author's preference as the label \(e.g. Figure 1—source data 1\) is largely descriptive of what the file contains.
 
 #### pre-supplementary-material-test-5
 
 **Warning**: _XXXXXX is missing a file \(supplementary-material missing a media element\) - please ensure that this is queried with the author._
 
-**Action**: 
+**Action**: This warning indicates at the pre-author stage that no file is present for an additional file entry. The author should be queried to provide the missing document.
+
+* Please provide the file for this source data.
+* Please provide the file for this source code.
+* Please provide the file for this supplementary file.
+* Please provide the file for this reporting standard
 
 #### final-supplementary-material-test-5
 
 **Error**: _XXXXXX is missing a file \(supplementary-material must have a media\)._
 
-**Action**: 
+**Action**: This erros indicates there is no file present for an additional file entry at the post-author stage. Check to see if the file was provided by email or in the notes in the proofing system and, if so, upload it. If no file was provided, query the authors via email.
 
 #### supplementary-material-test-6
 
@@ -187,12 +197,6 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Action**:
 
-#### supplementary-material-test-9
-
-**Error**: _XXXXXX has XXXXXX media elements which is incorrect._
-
-**Action:**
-
 #### supplementary-material-test-10
 
 **Warning**: _Article contains XXXXXX Please check with eLife - is this actually a reporting standard?_
@@ -209,13 +213,13 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Warning**: _XXXXXX has a title 'XXXXXX'. Is it a Key resources table? If so, it should be captured as a table in an appendix for the article._
 
-**Action**: 
+**Action**: This warning indicates that an addiitonal file has a title that indicates it is a key resources table. Previously, if a key resources table was too large to be included in the main text, it would be placed as a supplementary file; however this policy has changed and such tables are now presented as appendices. Please typeset the table on its own within a new appendix and remove the file. If an editable version of the table has not been provided, the eLife production team should contact the authors to request one.
 
 #### source-code-test-2
 
 **Warning**: _Source code files should always be zipped. The file type for XXXXXX is 'XXXXXX'. Please zip this file, and replace it with the zipped version._
 
-**Action**: 
+**Action**: In order to preserve the original files names for source code, it should be zipped where it is not already compressed into an archive fromat \(e.g. .zip, .rar, .tar.gz etc.\).
 
 #### back-supplementary-file-position
 
@@ -346,6 +350,12 @@ In cases where the source code title or legend mentions multiple figure suppleme
 **Error**: _supplementary-material must have a label._
 
 **Action**: 
+
+#### supplementary-material-test-9
+
+**Error**: _XXXXXX has XXXXXX media elements which is incorrect._
+
+**Action:**
 
 ## XML
 
