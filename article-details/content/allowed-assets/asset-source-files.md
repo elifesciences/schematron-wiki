@@ -10,7 +10,19 @@ description: >-
 
 Besides the figures, figure supplements, tables and videos that are presented throughout an article, eLife also allows authors to include files that can be downloaded to support their findings. These can be uploaded at the level of the entire article \(in which case they sit in an 'additional files' section at the back of the article\) or to accompany particular display assets \(that is, they will be associated with a figure, table or video\). eLife allows the following varieties of additional file.
 
-### Article-level source files
+### Audio files
+
+At present, eLife cannot support inline audio-only playback so audio files \(as distinct from videos\) should be included as additional files. These are treated in all respects like [**Supplementary files**](asset-source-files.md#supplementary-files), but are labelled as as Audio file 1, Audio file 2, etc.
+
+They are published in the Additional files section. A descriptive title should be provided for each file and a legend may be present as well. 
+
+### Reporting standards
+
+Reporting standard documents describe particular protocols and standards that the authors followed when they were collecting their results. These generally take the form of check-lists. Please note that these are entirely distinct from the transparent reporting form that eLife requests authors complete on submission.
+
+They are labelled as Reporting standard 1, Reporting standard 2, etc. A descriptive title should be provided and they are published in the Additional files section.
+
+### Source files \(article-level\)
 
 Source data and source code may be provided to give readers access to the raw data and the scripts that were used to process it. During the submission process, authors are in fact encouraged to provide these files to aid the reviewers and, in the event of acceptance, to allow readers to easily reproduce the work.
 
@@ -18,35 +30,27 @@ In the event that the data is too large or extensive to be neatly captured withi
 
 Source code may also be uploaded to an external repository such as GitHub and this is often preferable to being included as an attached file as it permits proper licensing of the code \(see [**Archiving code**](../../../toolkit/archiving-code.md) for more details on this\). Again, if source code is hosted away from the article, it should not be listed as a source code file.
 
-These filetypes are labelled respectively Source data 1, Source data 2, etc. and Source code 1, Source code 2, etc.
+These filetypes are labelled respectively Source data 1, Source data 2, etc. and Source code 1, Source code 2, etc. Each source data and source code file should have a descriptive title and may be accompanied by a legend. They are published in the Additional files section at the back of the article.
 
-### Asset-level source files
+### Source files \(asset-level
 
 Figures \(and their supplements\), videos and tables may be accompanied by the source data and/or source code that was used to generate them. The source data will usually consist of tables of raw data but may also include unprocessed images, editable version of charts provided as flat images, or multiple-page documents that cannot be typeset as single figures/figure supplements. Source code will usually comprise scripts that were used to process the data or to generate the graphs shown in figures.
 
-To indicate that they are associated with a display asset, these files will be named Figure 1—source data 1, Figure 2—figure supplement 1—source data 1, Table 3—source data 1, Video 4—source data 1, etc. and Figure 1—source code 1, Figure 2—figure supplement 1—source code 1, Table 3—source code 1, Video 4—source code 1, etc. The numbering restarts for each asset e.g. Figure 1—source data 1, Figure 2—source data 1, Figure 2—source data 2, Figure 3—source data 1.
-
-### Audio files
-
-At present, eLife cannot support inline audio-only playback so audio files \(as distinct from videos\) should be included as additional files.
-
-They are labelled as Audio file 1, Audio file 2, etc.
-
-### Reporting standards
-
-Reporting standard documents describe particular protocols and standards that the authors followed when they were collecting their results. These generally take the form of check-lists. Please note that these are entirely distinct from the transparent reporting form that eLife requests authors complete on submission.
-
-They are labelled as Reporting standard 1, Reporting standard 2, etc.
+To indicate that they are associated with a display asset, these files will be named Figure 1—source data 1, Figure 2—figure supplement 1—source data 1, Table 3—source data 1, Video 4—source data 1, etc. and Figure 1—source code 1, Figure 2—figure supplement 1—source code 1, Table 3—source code 1, Video 4—source code 1, etc. The numbering restarts for each asset e.g. Figure 1—source data 1, Figure 2—source data 1, Figure 2—source data 2, Figure 3—source data 1. Like article-level source data and source code files, they should have a descriptive title and may be accompanied by a legend. They are displayed in context with the main asset to which they relate.
 
 ### Supplementary files
 
 When authors have accompanying documents that do not fit into the other categories of additional file, they may include these as supplementary files. These can cover lists of plasmids, operating manuals for resources, experimental design documentation, supporting tables that do not count as source data, lists of datasets used, and so on. Broadly speaking it is preferable that authors use one of the specific categories of file and include tables in their main text but eLife accepts this is not always possible.
 
+Supplementary files are published in the Additional files section and should have a descriptive title. A legend may also be provided with a fuller description of the file contents.
+
 ### Transparent reporting form
 
-To facilitate the interpretation and replication of experiments, authors should, where appropriate, provide detailed information in areas relating to sample-size estimation, replicates, and statistical reporting. At the Full Submission step, authors should be ready to upload a completed version of this form \([**PDF**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.pdf); [**Word**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.docx)\), which should describe the places within the submission where this information has been included.
+To facilitate the interpretation and replication of experiments, authors as asked during full submission to provide information relating to sample-size estimation, replicates, and statistical reporting. They are encouraged to fill out a template form \(available as a [**PDF**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.pdf) ****or a [**Word file**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.docx)\) describing the places within the article where this information has been included. This transparent reporting form is them published alongside the version of record.
 
-Please note that we publish the completed Transparent Reporting Form for submissions accepted for publication. This will be available to download as a supplementary file in the format provided by the authors.
+It is important to note that while TRFs accompany most articles, they are not mandatory. If, for example, an article does not describe experiments or the analysis of data \(as might be the case in a Tools and Resources submission\), the form would not be applicable.
+
+Transparent reporting forms do not require a title or legend and are published at the end of the Additional files section.
 
 ## What needs to be checked?
 
