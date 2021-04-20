@@ -203,7 +203,7 @@ Authors may upload a mixture of software and data to Zenodo. The Production team
 
 ### **Content checks**
 
-‌These checks relate to the content of software references. X or XXXXXX refers to quoted text which will change depending on the article.
+These checks relate to the content of software references. X or XXXXXX refers to quoted text which will change depending on the article.
 
 #### **zenodo-check**
 
