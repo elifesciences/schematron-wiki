@@ -363,7 +363,7 @@ The DOI Badge will pop up:
 
 ### **XML structure checks**
 
-**‌**‌These checks relate to the XML structure of software references. X or XXXXXX refers to quoted text which will change depending on the article. For examples of what the XML should look like, [**see below**](software-references.md#xml-structure).
+These checks relate to the XML structure of software references. X or XXXXXX refers to quoted text which will change depending on the article. For examples of what the XML should look like, [**see below**](software-references.md#xml-structure).
 
 #### **err-elem-cit-software-2-1**
 
@@ -449,7 +449,7 @@ The DOI Badge will pop up:
 
 ## XML Structure
 
-Here are some examples of how the xml will look for various software references.
+Here are some examples of how the XML will look for various software references.
 
 R software
 
