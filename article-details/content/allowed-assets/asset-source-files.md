@@ -44,11 +44,13 @@ When authors have accompanying documents that do not fit into the other categori
 
 ### Transparent reporting form
 
+To facilitate the interpretation and replication of experiments, authors should, where appropriate, provide detailed information in areas relating to sample-size estimation, replicates, and statistical reporting. At the Full Submission step, authors should be ready to upload a completed version of this form \([**PDF**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.pdf); [**Word**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.docx)\), which should describe the places within the submission where this information has been included.
 
+Please note that we publish the completed Transparent Reporting Form for submissions accepted for publication. This will be available to download as a supplementary file in the format provided by the authors.
 
 ## What needs to be checked?
 
-There are relatively few checks required for these files. A descriptive title for each is preferred but technically not required; authors should be queried to provide one during proofing but it will not cause any fatal errors to proceed without in cases where they judge that the label is sufficient description.
+
 
 
 
@@ -263,4 +265,8 @@ In cases where the source code title or legend mentions multiple figure suppleme
 **Action**:
 
 ### Structure checks
+
+## XML
+
+
 
