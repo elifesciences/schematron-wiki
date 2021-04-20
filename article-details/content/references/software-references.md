@@ -158,20 +158,15 @@ After archiving code in Software Heritage \(see how to do this [**here**](../../
 
 ### **Figshare** 
 
-An example of a Figshare software reference is below. 
+An example of a Figshare software reference is below:
 
 | Kriya field | Value |
 | :--- | :--- |
-| Author | Boden A |
-| Author | Volpato A |
-| Author | Hake K |
-| Author | York A |
-| Author | Testa I |
-| Year | 2020 |
-| Software title | Lens-free scanning |
-| Source | Zenodo |
-| Software version | 0.0.2 |
-| Website | https://doi.org/10.5281/zenodo.3653386 |
+| Author | Zandbelt |
+| Year | 2017 |
+| Software title | Slice display |
+| Source | Figshare |
+| Website | http://doi.org/10.6084/m9.figshare.4742866.v1 |
 
 Note, Figshare can also be used for [**data references**](data-references.md) - double-check whether the link is for software or data and add the reference accordingly. If you cannot determine this, leave the following author query: 
 
