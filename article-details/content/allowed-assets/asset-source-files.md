@@ -268,55 +268,113 @@ In cases where the source code title or legend mentions multiple figure suppleme
 
 ## XML
 
-```markup
-<sec id="s5" sec-type="supplementary-material">
-            <title>Additional files</title>
-            <supplementary-material id="repstand1">
-                <label>Reporting standard 1.</label>
-                <caption>
-                    <title>STROBE checklist.</title>
-                </caption>
-                <media mime-subtype="docx" mimetype="application"
-                    xlink:href="elife-67569-repstand1-v3.docx"/>
-            </supplementary-material>
-        </sec>
-```
+A reporting standard file in the additional files section.
 
 ```markup
 <sec id="s5" sec-type="supplementary-material">
-            <supplementary-material id="transrepform">
-                <label>Transparent reporting form</label>
-                <media mime-subtype="pdf" mimetype="application"
-                    xlink:href="elife-67569-transrepform-v3.pdf"/>
-            </supplementary-material>
-        </sec>
+    <title>Additional files</title>
+    <supplementary-material id="repstand1">
+        <label>Reporting standard 1.</label>
+        <caption>
+            <title>STROBE checklist.</title>
+        </caption>
+        <media mime-subtype="docx" mimetype="application"
+        xlink:href="elife-67569-repstand1-v3.docx"/>
+    </supplementary-material>
+</sec>
 ```
+
+A transparent reporting form in the additional files section. Note there is no caption, just a label.
+
+```markup
+<sec id="s5" sec-type="supplementary-material">
+    <supplementary-material id="transrepform">
+        <label>Transparent reporting form</label>
+        <media mime-subtype="pdf" mimetype="application"
+        xlink:href="elife-67569-transrepform-v3.pdf"/>
+    </supplementary-material>
+</sec>
+```
+
+A source code file in the additional files section.
 
 ```markup
 <sec id="s6" sec-type="supplementary-material">
-            <title>Additional files</title>
-            <supplementary-material id="supp1">
-                <label>Supplementary file 1.</label>
-                <caption>
-                    <title>Table of RNAseq (Tab 1) and GO Term analysis (Tab 2) for
-                    Sun dKO versus WT mouse keratinocytes grown in low calcium media
-                    (undifferentiated).</title>
-                </caption>
-                <media mime-subtype="xlsx" mimetype="application"
-                    xlink:href="elife-58541-supp1-v2.xlsx"/>
-            </supplementary-material>
-            <supplementary-material id="supp2">
-                <label>Supplementary file 2.</label>
-                <caption>
-                    <title>Table of RNAseq (Tab 1) and GO Term analysis (Tab 2) for 
-                    Sun dKO versus WT mouse keratinocytes grown in high calcium media
-                    (differentiated).</title>
-                </caption>
-                <media mime-subtype="xlsx" mimetype="application"
-                    xlink:href="elife-58541-supp2-v2.xlsx"/>
-            </supplementary-material>
-        </sec>
+    <title>Additional files</title>
+    <supplementary-material id="scode1">
+        <label>Source code 1.</label>
+        <caption>
+            <title>MATLAB scripts for tracking analysis and MSD/
+            <italic>osd</italic><sup>2</sup>﻿ calculation.</title>
+        </caption>
+        <media mime-subtype="zip" mimetype="application"
+        xlink:href="elife-64207-code1-v2.zip"/>
+    </supplementary-material>
+</sec>
 ```
+
+A source data file in the additional files section with a long legend.
+
+```markup
+<sec id="s6" sec-type="supplementary-material">
+    <title>Additional files</title>
+    <supplementary-material id="sdata1">
+        <label>Source data 1.</label>
+        <caption>
+            <title>Cross-tissue enrichments details, transcript sequences and DESeq2 results.</title>
+            <p>(<bold>a</bold>) For each Kyoto Encyclopedia of Genes and Genomes pathway
+            and Molecular Signatures Database hallmark that was detected to be
+            significantly (false discovery rate &lt; 0.1) enriched for status-dependent
+            differential expression at the weighted cross-tissue level, the data set
+            contains a *.tsv file with the genes that form the respective pathway/hallmark
+            sorted by their individual contribution to the enrichment. The files also
+            provide an overview of the p-values and fold-changes of those genes in those
+            tissues in which the genes are expressed most highly. (<bold>b</bold>) (fa.gz)
+            Transcript isoforms of <italic>F. mechowii</italic> used for read mapping.
+            (<bold>c</bold>) (fa.gz) Transcript isoforms of <italic>F. micklemi</italic>
+            used for read mapping. (<bold>d</bold>) (tsv.gz) Raw read counts for all 17,065
+            genes and 636 samples that were analyzed in this study using RNA-seq. (<bold>e</bold>)
+            (zip) DESeq2 results for status-dependent gene expression (direction: breeder/
+            non-breeder). The data set contains one *.tsv file per analyzed tissue. (<bold>f</bold>)
+            (zip) DESeq2 results for sex-dependent gene expression (direction: female/male).
+            The data set contains one *.tsv file per analyzed tissue. (<bold>g</bold>)
+            (zip) DESeq2 results for species-dependent gene expression (direction:
+            mechowii/micklemi). The data set contains one *.tsv file per analyzed
+            tissue.</p>
+        </caption>
+        <media mime-subtype="zip" mimetype="application"
+        xlink:href="elife-57843-data1-v2.zip"/>
+    </supplementary-material>
+</sec>
+```
+
+Supplementary files in the additional files section.
+
+```markup
+<sec id="s6" sec-type="supplementary-material">
+    <title>Additional files</title>
+    <supplementary-material id="supp1">
+        <label>Supplementary file 1.</label>
+        <caption>
+            <title>Table of RNAseq (Tab 1) and GO Term analysis (Tab 2) for Sun dKO versus
+            WT mouse keratinocytes grown in low calcium media (undifferentiated).</title>
+        </caption>
+        <media mime-subtype="xlsx" mimetype="application"
+        xlink:href="elife-58541-supp1-v2.xlsx"/>
+    </supplementary-material>
+    <supplementary-material id="supp2">
+        <label>Supplementary file 2.</label>
+        <caption>
+            <title>Table of RNAseq (Tab 1) and GO Term analysis (Tab 2) for Sun dKO versus
+            WT mouse keratinocytes grown in high calcium media (differentiated).</title>
+        </caption>
+        <media mime-subtype="xlsx" mimetype="application"
+        xlink:href="elife-58541-supp2-v2.xlsx"/>
+    </supplementary-material>
+</sec>
+```
+
+Supplementary file followed by audio files in the additional files section. Note that the IDs for these follow the same pattern at present, so Audio file 1 is supp2, Audio file 2 is supp 3 etc.
 
 ```markup
 <sec id="s6" sec-type="supplementary-material">
@@ -345,10 +403,12 @@ In cases where the source code title or legend mentions multiple figure suppleme
                     <title>Broadband peaky speech sample from the male narrator (<italic>The
                             Alchemyst</italic>; <xref ref-type="bibr" rid="bib56">Scott,
                         2007</xref>).</title>
-                </caption>
-                <media mime-subtype="zip" mimetype="application"
-                    xlink:href="elife-62329-fig3-v2.zip"/>
-            </supplementary-material>
-        </sec>
+        </caption>
+        <media mime-subtype="zip" mimetype="application"
+        xlink:href="elife-62329-fig3-v2.zip"/>
+    </supplementary-material>
+</sec>
 ```
+
+
 
