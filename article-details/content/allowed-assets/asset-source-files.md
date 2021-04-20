@@ -378,31 +378,29 @@ Supplementary file followed by audio files in the additional files section. Note
 
 ```markup
 <sec id="s6" sec-type="supplementary-material">
-            <title>Additional files</title>
-            <supplementary-material id="supp1">
-                <label>Supplementary file 1.</label>
-                <caption>
-                    <title>Details of statistical models.</title>
-                </caption>
-                <media mime-subtype="docx" mimetype="application"
-                    xlink:href="elife-62329-supp1-v2.docx"/>
-            </supplementary-material>
-            <supplementary-material id="supp2">
-                <label>Audio file 1.</label>
-                <caption>
-                    <title>Unaltered speech sample from the male narrator (<italic>The
-                            Alchemyst</italic>; <xref ref-type="bibr" rid="bib56">Scott,
-                        2007</xref>).</title>
-                </caption>
-                <media mime-subtype="zip" mimetype="application"
-                    xlink:href="elife-62329-fig2-v2.zip"/>
-            </supplementary-material>
-            <supplementary-material id="supp3">
-                <label>Audio file 2.</label>
-                <caption>
-                    <title>Broadband peaky speech sample from the male narrator (<italic>The
-                            Alchemyst</italic>; <xref ref-type="bibr" rid="bib56">Scott,
-                        2007</xref>).</title>
+    <title>Additional files</title>
+    <supplementary-material id="supp1">
+        <label>Supplementary file 1.</label>
+        <caption>
+            <title>Details of statistical models.</title>
+        </caption>
+        <media mime-subtype="docx" mimetype="application"
+        xlink:href="elife-62329-supp1-v2.docx"/>
+    </supplementary-material>
+    <supplementary-material id="supp2">
+        <label>Audio file 1.</label>
+        <caption>
+            <title>Unaltered speech sample from the male narrator (<italic>The
+            Alchemyst</italic>; <xref ref-type="bibr" rid="bib56">Scott, 2007</xref>).</title>
+        </caption>
+        <media mime-subtype="zip" mimetype="application"
+        xlink:href="elife-62329-fig2-v2.zip"/>
+    </supplementary-material>
+    <supplementary-material id="supp3">
+        <label>Audio file 2.</label>
+        <caption>
+            <title>Broadband peaky speech sample from the male narrator (<italic>The
+            Alchemyst</italic>; <xref ref-type="bibr" rid="bib56">Scott, 2007</xref>).</title>
         </caption>
         <media mime-subtype="zip" mimetype="application"
         xlink:href="elife-62329-fig3-v2.zip"/>
