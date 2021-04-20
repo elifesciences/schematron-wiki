@@ -219,7 +219,7 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Warning**: _Source code files should always be zipped. The file type for XXXXXX is 'XXXXXX'. Please zip this file, and replace it with the zipped version._
 
-**Action**: In order to preserve the original files names for source code, it should be zipped where it is not already compressed into an archive fromat \(e.g. .zip, .rar, .tar.gz etc.\).
+**Action**: In order to preserve the original filename for source code, it should be zipped where it is not already compressed into an archive fromat \(e.g. .zip, .rar, .tar.gz etc.\).
 
 #### back-supplementary-file-position
 
