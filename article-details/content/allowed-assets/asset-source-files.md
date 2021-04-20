@@ -58,9 +58,9 @@ To indicate that they are associated with a display asset, these files will be n
 
 ![Figure-level source data file in the PDF](../../../.gitbook/assets/screen-shot-2021-04-20-at-13.00.52.png)
 
-![Figure supplement-level source data file in the online view](../../../.gitbook/assets/screen-shot-2021-04-20-at-13.06.04.png)
+![Figure supplement-level source code and source data files in the online view](../../../.gitbook/assets/screen-shot-2021-04-20-at-14.18.00.png)
 
-![Figure supplement-level source data file in the PDF](../../../.gitbook/assets/screen-shot-2021-04-20-at-13.06.31.png)
+![Figure supplement-level source code and source data files in the PDF](../../../.gitbook/assets/screen-shot-2021-04-20-at-14.19.25.png)
 
 ![Table-level source data file in the online view](../../../.gitbook/assets/screen-shot-2021-04-20-at-13.02.12.png)
 
