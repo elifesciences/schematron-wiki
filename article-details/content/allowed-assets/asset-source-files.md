@@ -94,23 +94,19 @@ Transparent reporting forms do not require a title or legend and are published a
 
 ### Content checks
 
-#### supplementary-material-test-1
-
-**Error**: _supplementary-material must have a label._
-
-**Action**: 
-
 #### supplementary-material-test-2
 
 **Warning**: _XXXXXX is missing a title/caption - is this correct? \(supplementary-material should have a child caption.\)_
 
-**Action**:
+**Action**: This warning indicates that an additional file does not have a title or legend. The author should be queried to provide one if possible.
 
 #### pre-supplementary-material-test-3
 
 **Warning**: _XXXXXX does not have a title._
 
-**Action**: 
+**Action**:  This warning indicates that an additional file does not have a title or legend. The author should be queried to provide one:
+
+
 
 #### final-supplementary-material-test-3
 
@@ -301,6 +297,12 @@ In cases where the source code title or legend mentions multiple figure suppleme
 **Action**:
 
 ### Structure checks
+
+#### supplementary-material-test-1
+
+**Error**: _supplementary-material must have a label._
+
+**Action**: 
 
 ## XML
 
