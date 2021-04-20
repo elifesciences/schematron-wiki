@@ -16,11 +16,19 @@ At present, eLife cannot support inline audio-only playback so audio files \(as 
 
 They are published in the Additional files section. A descriptive title should be provided for each file and a legend may be present as well. 
 
+![Display for audio files online](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.35.49.png)
+
+![Display for audio files in the PDF](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.38.06%20%281%29.png)
+
 ### Reporting standards
 
 Reporting standard documents describe particular protocols and standards that the authors followed when they were collecting their results. These generally take the form of check-lists. Please note that these are entirely distinct from the transparent reporting form that eLife requests authors complete on submission.
 
 They are labelled as Reporting standard 1, Reporting standard 2, etc. A descriptive title should be provided and they are published in the Additional files section.
+
+![Reporting standard file in the online view](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.50.27.png)
+
+![Reporting standard file in the PDF](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.51.33.png)
 
 ### Source files \(article-level\)
 
@@ -30,7 +38,15 @@ In the event that the data is too large or extensive to be neatly captured withi
 
 Source code may also be uploaded to an external repository such as GitHub and this is often preferable to being included as an attached file as it permits proper licensing of the code \(see [**Archiving code**](../../../toolkit/archiving-code.md) for more details on this\). Again, if source code is hosted away from the article, it should not be listed as a source code file.
 
-These filetypes are labelled respectively Source data 1, Source data 2, etc. and Source code 1, Source code 2, etc. Each source data and source code file should have a descriptive title and may be accompanied by a legend. They are published in the Additional files section at the back of the article.
+These file-types are labelled respectively Source data 1, Source data 2, etc. and Source code 1, Source code 2, etc. Each source data and source code file should have a descriptive title and may be accompanied by a legend. They are published in the Additional files section at the back of the article.
+
+![Article-level source code file in the online view](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.39.45.png)
+
+![Article-level source code file in the PDF](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.41.11.png)
+
+![Article-level source data file in the online view](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.43.09.png)
+
+![Article-level source data file in the PDF](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.43.41.png)
 
 ### Source files \(asset-level
 
@@ -38,11 +54,23 @@ Figures \(and their supplements\), videos and tables may be accompanied by the s
 
 To indicate that they are associated with a display asset, these files will be named Figure 1—source data 1, Figure 2—figure supplement 1—source data 1, Table 3—source data 1, Video 4—source data 1, etc. and Figure 1—source code 1, Figure 2—figure supplement 1—source code 1, Table 3—source code 1, Video 4—source code 1, etc. The numbering restarts for each asset e.g. Figure 1—source data 1, Figure 2—source data 1, Figure 2—source data 2, Figure 3—source data 1. Like article-level source data and source code files, they should have a descriptive title and may be accompanied by a legend. They are displayed in context with the main asset to which they relate.
 
+
+
+
+
+
+
+
+
 ### Supplementary files
 
 When authors have accompanying documents that do not fit into the other categories of additional file, they may include these as supplementary files. These can cover lists of plasmids, operating manuals for resources, experimental design documentation, supporting tables that do not count as source data, lists of datasets used, and so on. Broadly speaking it is preferable that authors use one of the specific categories of file and include tables in their main text but eLife accepts this is not always possible.
 
 Supplementary files are published in the Additional files section and should have a descriptive title. A legend may also be provided with a fuller description of the file contents.
+
+![](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.44.48.png)
+
+![](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.44.56.png)
 
 ### Transparent reporting form
 
@@ -51,6 +79,10 @@ To facilitate the interpretation and replication of experiments, authors as aske
 It is important to note that while TRFs accompany most articles, they are not mandatory. If, for example, an article does not describe experiments or the analysis of data \(as might be the case in a Tools and Resources submission\), the form would not be applicable.
 
 Transparent reporting forms do not require a title or legend and are published at the end of the Additional files section.
+
+![](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.45.35.png)
+
+![](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.45.46.png)
 
 ## What needs to be checked?
 
