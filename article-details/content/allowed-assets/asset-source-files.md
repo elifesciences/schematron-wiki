@@ -112,6 +112,8 @@ That being said, when a source file covers multiple assets, it may be more appro
 
 ### Additional files hosted outside the article
 
+Occasionally, authors will list titles and legends in their article file for additional files that have been submitted to databases or other external repositories. This is often because the files were originally provided as part of the submission to eLife but the editorial team encouraged them to be submitted to, for example, Dryad.
+
 ### Inappropriate/mistaken inclusion of an additional file
 
 Another issue that can occur during submission is that authors include additional files that should have been either a 'Related Manuscript File' \(file uploaded for peer review that is not required for final publication\) or a 'LaTex Support File' \(a supporting file for a LaTex submission e.g. a .sty style file or a .bib bibliography file\). Examples of this would include a marked-up PDF of the article showing tracked changes for reviewers, a copy of the article provided for the publication on acceptance, and a .bib file providing the article's reference list. It is usually clear when this is the case as no title or legend will have been provided for the additional file and its author-provided file name will indicate its purpose as one of the given examples. In these situations, the additional file should be removed from the proof.
