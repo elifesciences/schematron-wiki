@@ -179,35 +179,19 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Action**: This erros indicates there is no file present for an additional file entry at the post-author stage. Check to see if the file was provided by email or in the notes in the proofing system and, if so, upload it. If no file was provided, query the authors via email.
 
-#### supplementary-material-test-6
-
-**Error**: _supplementary-material label \(XXXXXX\) does not conform to eLife's usual label format._
-
-**Action**:
-
-#### supplementary-material-test-7
-
-**Error**: _supplementary-material in additional files sections cannot have the a media element with the attribute mimetype='video'. This should be mimetype='application'_
-
-**Action**:
-
-#### supplementary-material-test-8
-
-**Error**: _XXXXXX has an article level label but it is not captured in the additional files section - This must be incorrect._
-
-**Action**:
-
 #### supplementary-material-test-10
 
 **Warning**: _Article contains XXXXXX Please check with eLife - is this actually a reporting standard?_
 
-**Action**:
+**Action**: This warning indicates that an additional files is present in the label 'Reporting standard'. Please check that the indicated file is in fact a reporting standard and not a transparent reporting form.
 
 #### source-code-test-1
 
 **Warning**: _XXXXXX has a file which looks like code - XXXXXX, but it's not labelled as code._
 
-**Action**: 
+**Action**: This warning indicates that an additional file has an extension that might indicate it is source code rather than, for example, data. It currently checks for the following extensions: .m, .py, .lib, .jl, .c, .sh, .for, .cpproj, .ipynb, .mph, .cc, .rmd, .nlogo, .stan, .wrl, .pl, .r, .fas, .ijm, .llb, .ipf, .mdl, .h. If the title and/or legend does not clearly indicate that the file contains data alone, please query the author about whether it should be changed to source code.
+
+* Should this file be labelled as source code? 
 
 #### supplementary-material-test-11
 
@@ -219,7 +203,55 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Warning**: _Source code files should always be zipped. The file type for XXXXXX is 'XXXXXX'. Please zip this file, and replace it with the zipped version._
 
-**Action**: In order to preserve the original filename for source code, it should be zipped where it is not already compressed into an archive fromat \(e.g. .zip, .rar, .tar.gz etc.\).
+**Action**: In order to preserve the original filename for source code, it should be zipped where it is not already compressed into an archive format \(e.g. .zip, .rar, .tar.gz etc.\).
+
+#### fig-data-test-1
+
+**Warning**: _XXXXXX is figure level source data, but contains 1 figure citation which is a link to a figure supplement - should it be figure supplement level source data?_
+
+**Action**: This warning indicates that the description for a source data file associated with a main figure contains a citation to a figure supplement. In cases where the source data title or legend mentions both the main figure and one or more figure supplements \(e.g. "Source data for Figure 3A and Figure 3—figure supplement 1"\) this warning can be ignored. In cases where only a figure supplement is mentioned \(e.g. "Source data for Figure 4—figure supplement 1D"\) the source data should be moved so that it is associated with the cited figure supplement.
+
+In cases where the source data title or legend mentions multiple figure supplements \(e.g. Source data for Figure 1–figure supplements 1–4"\) it is appropriate to leave it associated with the main figure \(Figure 1 in this example\) since it wouldn't be correct to associate it with any single figure supplement.
+
+#### fig-code-test-1
+
+**Warning**: _XXXXXX is figure level source code, but contains 1 figure citation which is a link to a figure supplement - should it be figure supplement level source code?_
+
+**Action**: This warning indicates that the description for a source code file associated with a main figure contains a citation to a figure supplement. In cases where the source code title or legend mentions both the main figure and one or more figure supplements \(e.g. "Source code for Figure 3A and Figure 3—figure supplement 1"\) this warning can be ignored. In cases where only a figure supplement is mentioned \(e.g. "Source code for Figure 4—figure supplement 1D"\) the source code should be moved so that it is associated with the cited figure supplement.
+
+In cases where the source code title or legend mentions multiple figure supplements \(e.g. Source code for Figure 1–figure supplements 1–4"\) it is appropriate to leave it associated with the main figure \(Figure 1 in this example\) since it wouldn't be correct to associate it with any single figure supplement.
+
+### Structure checks
+
+#### supplementary-material-test-1
+
+**Error**: _supplementary-material must have a label._
+
+**Action**: 
+
+#### supplementary-material-test-6
+
+**Error**: _supplementary-material label \(XXXXXX\) does not conform to eLife's usual label format._
+
+**Action**:
+
+#### supplementary-material-test-8
+
+**Error**: _XXXXXX has an article level label but it is not captured in the additional files section - This must be incorrect._
+
+**Action**:
+
+#### supplementary-material-test-7
+
+**Error**: _supplementary-material in additional files sections cannot have the a media element with the attribute mimetype='video'. This should be mimetype='application'_
+
+**Action**:
+
+#### supplementary-material-test-9
+
+**Error**: _XXXXXX has XXXXXX media elements which is incorrect._
+
+**Action:**
 
 #### back-supplementary-file-position
 
@@ -237,6 +269,8 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Error**: _XXXXXX id ends with XXXXXX, but it is placed XXXXXX. Either it is mislabelled, the id is incorrect, or it should be moved to a different position._
 
+**Action**:
+
 #### back-source-data-id
 
 **Error**: _The id \(XXXXXX\) for XXXXXX is not in the correct format. Source data need to have ids in the format 'sdata0'._
@@ -253,23 +287,7 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Error**: _The id \(XXXXXX\) for XXXXXX is not in the correct format. Source code needs to have ids in the format 'scode0'._
 
-**Action**: 
-
-#### fig-data-test-1
-
-**Warning**: _XXXXXX is figure level source data, but contains 1 figure citation which is a link to a figure supplement - should it be figure supplement level source data?_
-
-**Action**: This warning indicates that the description for a source data file associated with a main figure contains a citation to a figure supplement. In cases where the source data title or legend mentions both the main figure and one or more figure supplements \(e.g. "Source data for Figure 3A and Figure 3—figure supplement 1"\) this warning can be ignored. In cases where only a figure supplement is mentioned \(e.g. "Source data for Figure 4—figure supplement 1D"\) the source data should be moved so that it is associated with the cited figure supplement.
-
-In cases where the source data title or legend mentions multiple figure supplements \(e.g. Source data for Figure 1–figure supplements 1–4"\) it is appropriate to leave it associated with the main figure \(Figure 1 in this example\) since it wouldn't be correct to associate it with any single figure supplement.
-
-#### fig-code-test-1
-
-**Warning**: _XXXXXX is figure level source code, but contains 1 figure citation which is a link to a figure supplement - should it be figure supplement level source code?_
-
-**Action**: This warning indicates that the description for a source code file associated with a main figure contains a citation to a figure supplement. In cases where the source code title or legend mentions both the main figure and one or more figure supplements \(e.g. "Source code for Figure 3A and Figure 3—figure supplement 1"\) this warning can be ignored. In cases where only a figure supplement is mentioned \(e.g. "Source code for Figure 4—figure supplement 1D"\) the source code should be moved so that it is associated with the cited figure supplement.
-
-In cases where the source code title or legend mentions multiple figure supplements \(e.g. Source code for Figure 1–figure supplements 1–4"\) it is appropriate to leave it associated with the main figure \(Figure 1 in this example\) since it wouldn't be correct to associate it with any single figure supplement.
+**Action**:
 
 #### fig-data-test-2
 
@@ -342,20 +360,6 @@ In cases where the source code title or legend mentions multiple figure suppleme
 **Error**: _The id for table level source code must be the id of its ancestor table, followed by 'scode', followed by its position relative to other source data for the same table. The id for XXXXXX, 'XXXXXX' is not in this format. It should be 'XXXXXX' instead._
 
 **Action**:
-
-### Structure checks
-
-#### supplementary-material-test-1
-
-**Error**: _supplementary-material must have a label._
-
-**Action**: 
-
-#### supplementary-material-test-9
-
-**Error**: _XXXXXX has XXXXXX media elements which is incorrect._
-
-**Action:**
 
 ## XML
 
