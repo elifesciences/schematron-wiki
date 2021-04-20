@@ -90,9 +90,44 @@ Transparent reporting forms do not require a title or legend and are published a
 
 ## What needs to be checked?
 
+* Appropriateness of the file-type
+* Relationship to asset \(where applicable\)
+* Inappropriate/mistaken inclusion of an additional file
+* Corrupted files
 
+### Appropriateness of the file-type
 
+Sometimes, authors will submit files using one additional file type where it would have been better for them to use another. For instance, a Supplementary file 1 with the title 'Source data for first experiment' should really have been Source data 1 and should be updated accordingly. Likewise if a source data file's title or legend indicate it is in fact code, this should be changed to source code.
 
+Occasionally, this kind of issue can affect transparent reporting forms, with authors uploading them as reporting standards instead. If not title has been provided for a reporting standard, it is worth downloading the file and comparing it to the TRF template mentioned [**above**](asset-source-files.md#transparent-reporting-form). If it is clearly a transparent reporting form, it should be relabelled accordingly.
+
+### Relationship to asset \(where applicable\)
+
+As indicated by the relevant schematron tests, asset-level source data and code should be relate directly to the asset with which it is associated. That is to say, if Figure 1—source data 1 relates only to Figure 1—figure supplement 2, it should be changed to Figure 1—figure supplement 2—source data 1. Likewise, if the title for source data at the article level indicates a relationship to a figure \(e.g. "Source data 1. Original data for Figure 5"\) it should be changed to asset-level source data for that figure.
+
+That being said, when a source file covers multiple assets, it may be more appropriate to leave it as provided. For example, if Figure 2—source data 1 relates to both Figure 2 and Figure 2—figure supplement 1, it should remain associated directly with Figure 2. If a source code file \(at the article level\) relates to multiple figures, it is appropriate as Source code 1 since it would not be quite accurate to label it as source code for any one of the figures covered.
+
+### Inappropriate/mistaken inclusion of an additional file
+
+Another issue that can occur during submission is that authors include additional files that should have been either a 'Related Manuscript File' \(file uploaded for peer review that is not required for final publication\) or a 'LaTex Support File' \(a supporting file for a LaTex submission e.g. a .sty style file or a .bib bibliography file\). Examples of this would include a marked-up PDF of the article showing tracked changes for reviewers, a copy of the article provided for the publication on acceptance, and a .bib file providing the article's reference list. It is usually clear when this is the case as no title or legend will have been provided for the additional file and its author-provided file name will indicate its purpose as one of the given examples. In these situations, the additional file should be removed from the proof.
+
+Where it is unclear whether the file is required for final publication, the author should be asked to double check that it is needed and provide a title where appropriate.
+
+Occasionally, authors will provide a LaTex \(.tex\) file as an additional file, under the assumption that we will typeset it for them. If they do so, they must be asked to provide a PDF version of this file so that it will be available in an easy-to-read format for publication.
+
+* We noticed that you have provided a .tex file as an additional file. Please could you provide a typeset PDF version of this file that we can use for final publication?
+
+One final case of this kind of issue is when authors provide an appendix as a supplementary file. That is, they refer to the file as an appendix in their text or file name and had intended for it to be typeset as such. If this occurs, the file should usually be incorporated into the main text. It may be necessary to query the author for full-resolution images or an editable version of the appendix file. Ideally, the content processors should alert the eLife production team if they encounter an additional file named as an appendix so that this can be sorted out before the proof goes to the authors.
+
+The production team should take care to check the submission system prior to contacting the authors as sometimes there may be reasons it would be more appropriate to include this as an additional file, such as there being complex graphical components that cannot be rendered in an appendix section. Furthermore, the editorial team may have previously requested that the content be moved to an additional file and contradictory requests to the author should be avoided or explained.
+
+### Corrupted files
+
+During production of an article, it should be confirmed as far as possible that all addiitonal files are intact/valid documents. This should be done by downloading the file from the proof \(or staged article\) and seeing if there are any issues when it is opened in the appropriate program. ZIP packages should also be expanded to make sure they are complete. If a file is corrupted, check the submission system to see if this is true of the original and either replace the document with the uncorrupted version or go to the authors to request one.
+
+Ideally this should be checked both prior and after the article is loaded to the journal website as conversions may occur at this stage. In the unlikely event that it appears the creation of the final package is responsible for the corruption of a file, the content processors should be advised and requested to resolve the issue.
+
+Please note that there are going to be some additional files we cannot check as they are intended for use with propriatory software that we do not have access to. In these cases, there is unfortunately little we can do beyond making sure the files to not have an arbitrarily low size \(e.g. in the range of bytes rather than at least kilobytes\).
 
 ## Schematron checks
 
