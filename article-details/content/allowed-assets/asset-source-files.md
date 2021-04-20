@@ -104,13 +104,17 @@ Transparent reporting forms do not require a title or legend and are published a
 
 **Action**: This warning indicates that an additional file does not have a title or legend. The author should be queried to provide one if possible.
 
+* Please provide a descriptive title for this file.
+
+If this is at the post-author stage, check whether the author was previously queried about this. If they provided a title, add this in. If not, please contact them and reiterate the request. Note that in the case of asset-level source data, it is acceptable to proceed without a title as the lable \(e.g. Figure 1—source data 1\) is largely descriptive of what the file contains.
+
 #### pre-supplementary-material-test-3
 
 **Warning**: _XXXXXX does not have a title._
 
 **Action**:  This warning indicates that an additional file does not have a title or legend. The author should be queried to provide one:
 
-
+* Please provide a descriptive title for this file.
 
 #### final-supplementary-material-test-3
 
