@@ -193,7 +193,7 @@ An example of a Zenodo software reference is below. The authors may have provide
 | Software version | 0.0.2 |
 | Website | https://doi.org/10.5281/zenodo.3653386 |
 
-Note, Zenodo can also be used for [**data references**](data-references.md) - double-check whether the link is for software or data and add the reference accordingly. If you cannot determine this, leave the following author query: 
+Note, Zenodo can also be used for [**data references**](data-references.md) – double-check whether the link is for software or data and add the reference accordingly. If you cannot determine this, leave the following author query: 
 
 * Please confirm whether this link refers to software or a dataset so we can capture it correctly in your reference list. 
 
