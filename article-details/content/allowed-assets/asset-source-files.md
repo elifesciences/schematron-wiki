@@ -54,13 +54,17 @@ Figures \(and their supplements\), videos and tables may be accompanied by the s
 
 To indicate that they are associated with a display asset, these files will be named Figure 1—source data 1, Figure 2—figure supplement 1—source data 1, Table 3—source data 1, Video 4—source data 1, etc. and Figure 1—source code 1, Figure 2—figure supplement 1—source code 1, Table 3—source code 1, Video 4—source code 1, etc. The numbering restarts for each asset e.g. Figure 1—source data 1, Figure 2—source data 1, Figure 2—source data 2, Figure 3—source data 1. Like article-level source data and source code files, they should have a descriptive title and may be accompanied by a legend. They are displayed in context with the main asset to which they relate.
 
+![Figure-level source data file in the online view](../../../.gitbook/assets/screen-shot-2021-04-20-at-13.00.34.png)
 
+![Figure-level source data file in the PDF](../../../.gitbook/assets/screen-shot-2021-04-20-at-13.00.52.png)
 
+![Figure supplement-level source data file in the online view](../../../.gitbook/assets/screen-shot-2021-04-20-at-13.06.04.png)
 
+![Figure supplement-level source data file in the PDF](../../../.gitbook/assets/screen-shot-2021-04-20-at-13.06.31.png)
 
+![Table-level source data file in the online view](../../../.gitbook/assets/screen-shot-2021-04-20-at-13.02.12.png)
 
-
-
+![Table-level source data file in the PDF](../../../.gitbook/assets/screen-shot-2021-04-20-at-13.03.18.png)
 
 ### Supplementary files
 
