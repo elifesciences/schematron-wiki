@@ -8,6 +8,8 @@ description: This is a page about entries for software in the reference list.
 
 A software reference gives bibliographic details for a piece of software or computer code. These are hosted on various websites, and are captured in eLife articles as software references. Any code that has been specifically written as part of the work reported in an eLife paper should be archived at Software Heritage \(see more about how to do this [**here**](../../../toolkit/archiving-code.md)\).
 
+![](../../../.gitbook/assets/screenshot-2021-04-20-at-09.20.27.png)
+
 ![](../../../.gitbook/assets/screenshot-2021-04-19-at-12.21.39.png)
 
 ![Formatting display for different software references in eLife articles](../../../.gitbook/assets/screenshot-2021-04-19-at-11.55.15.png)
@@ -145,7 +147,7 @@ The citation can then be updated as below, removing the version details:
 
 ### Software Heritage
 
-After archiving code in Software Heritage \(see how to do this [**here**](../../../toolkit/archiving-code.md)\), a software reference needs to be added in the main text. An example of a Software Heritage software reference is below:
+After archiving code in Software Heritage \(see how to do this [**here**](../../../toolkit/archiving-code.md)\), a software reference needs to be added in the main text. The website should be the full directory link with contextual information \(see [**here**](../../../toolkit/archiving-code.md#in-the-main-text) for how to obtain this\). An example of a correctly entered Software Heritage software reference is below:
 
 | Fields | Values |
 | :--- | :--- |
@@ -158,11 +160,11 @@ After archiving code in Software Heritage \(see how to do this [**here**](../../
 
 ### **Figshare** 
 
-An example of a Figshare software reference is below:
+An example of a Figshare software reference is below. The authors may have provided a software version - if so, this should also be added.
 
 | Kriya field | Value |
 | :--- | :--- |
-| Author | Zandbelt |
+| Author | Zandbelt B |
 | Year | 2017 |
 | Software title | Slice display |
 | Source | Figshare |
@@ -176,7 +178,7 @@ Authors may upload a mixture of software and data to Figshare. The Production te
 
 ### **Zenodo**
 
-An example of a Zenodo software reference is below. 
+An example of a Zenodo software reference is below. The authors may have provided a software version - if so, this should also be added.
 
 | Kriya field | Value |
 | :--- | :--- |
@@ -461,11 +463,13 @@ R software
            <collab>R Development Core Team</collab>
          </person-group>
          <year iso-8601-date="2014">2014</year>
-         <data-title>R: A Language and Environment for Statistical Computing</data-title>
+         <data-title>R: A Language and Environment for Statistical Computing
+         </data-title>
          <version designator="3.1.0">3.1.0</version>
          <publisher-loc>Vienna, Austria</publisher-loc>
          <publisher-name>R Foundation for Statistical Computing</publisher-name>
-         <ext-link ext-link-type="uri" xlink:href="http://www.R-project.org">http://www.R-project.org</ext-link>
+         <ext-link ext-link-type="uri" xlink:href="http://www.R-project.org">
+         http://www.R-project.org</ext-link>
       </element-citation>
         . . .
     <article-meta>
@@ -488,8 +492,11 @@ Github
        <year iso-8601-date="2020">2020</year>
        <data-title>Calculate_APs_velocities_in_MEAs</data-title>
        <version designator="d135ae9">d135ae9</version>
-       <publisher-name>Github</publisher-name>
-       <ext-link ext-link-type="uri" xlink:href="https://github.com/paulodecastroaguiar/Calculate_APs_velocities_in_MEAs">https://github.com/paulodecastroaguiar/Calculate_APs_velocities_in_MEAs</ext-link>
+       <source>Github</source>
+       <ext-link ext-link-type="uri" xlink:href="https://github.com/
+       paulodecastroaguiar/Calculate_APs_velocities_in_MEAs">
+       https://github.com/paulodecastroaguiar/Calculate_APs_velocities_in_MEAs
+       </ext-link>
       </element-citation>
         . . .
     <article-meta>
@@ -502,17 +509,19 @@ Figshare
     . . .
     <article-meta>
         . . . 
-      <element-citation  publication-type="software">
-       <person-group person-group-type="author">
-         <name>
-           <surname>Zandbelt</surname> 
-           <given-names>B</given-names>
-         </name>
-       </person-group>
-       <year iso-8601-date="2017">2017</year>
-       <data-title>Slice display</data-title>
-       <publisher-name>Figshare</publisher-name>
-       <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.6084/m9.figshare.4742866.v1">http://doi.org/10.6084/m9.figshare.4742866.v1</ext-link>
+      <element-citation publication-type="software">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Zandbelt</surname> 
+          <given-names>B</given-names>
+        </name>
+      </person-group>
+      <year iso-8601-date="2017">2017</year>
+      <data-title>Slice display</data-title>
+      <source>Figshare</source>
+      <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.6084/m9.
+      figshare.4742866.v1">http://doi.org/10.6084/m9.figshare.4742866.v1
+      </ext-link>
       </element-citation>
         . . .
     <article-meta>
@@ -566,8 +575,9 @@ Zenodo
        </person-group>
        <year iso-8601-date="2018">2018</year>
        <data-title>Human neocortical neurosolver</data-title>
-       <publisher-name>Zenodo</publisher-name>
-       <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.5281/zenodo.1446517">http://doi.org/10.5281/zenodo.1446517</ext-link>
+       <source>Zenodo</source>
+       <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.5281/zenodo.
+       1446517">http://doi.org/10.5281/zenodo.1446517</ext-link>
      </element-citation>
 
     <article-meta>
@@ -592,4 +602,5 @@ Zenodo
 #### Changes
 
 * Added examples of more software references, updated guidance about when to query authors and updated author query.
+* Changed instances of &lt;publisher-name&gt; in XML structure examples to &lt;source&gt; for all but R reference.
 
