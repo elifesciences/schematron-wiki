@@ -43,7 +43,7 @@ If the statement is longer than 40 words, it should be shortened if this is poss
 
 In extreme cases, where it is not possible to create an acceptable impact statement from the text provided \(e.g. they have provided multiple sentences and  it is unclear how they should be combined\), the following query may be used to ask the authors to start again:
 
-* The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement that clearly explains the main results of your study.
+* The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement, no longer than 30 words, that clearly explains the main results of your study.
 
 ### Impact statements in Replication studies
 
