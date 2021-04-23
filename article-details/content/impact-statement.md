@@ -324,5 +324,5 @@ These checks relate to the XML structure of impact statements. X or XXXXXX refer
 ## Changelog
 
 * Updated 03/03/2021 to account for increase in impact statement word limit.
-* Updated 23/04/2021 to acc the 30 word limit to an author query.
+* Updated 23/04/2021 to add the 40 word limit to an author query.
 
