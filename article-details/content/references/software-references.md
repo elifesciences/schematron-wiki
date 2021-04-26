@@ -337,7 +337,7 @@ These checks relate to the XML structure of software references. X or XXXXXX ref
 
 **Error:** _The &lt;person-group&gt; in a software reference must have the attribute person-group-type set to 'author'. Reference 'XXXXXX' has a &lt;person-group&gt; type of 'XXXXXX'._
 
-**Action:** This error will appear if a software reference has a &lt;person-group&gt; element with a person-group-type that isn't an author or curator \(e.g. an author has been tagged as an editor\). It should be impossible for this error to occur - please contact the support team if you see it. 
+**Action:** This error will appear if a software reference has a &lt;person-group&gt; element with a person-group-type that isn't an author \(e.g. an author has been tagged as an editor\). It should be impossible for this error to occur - please contact the support team if you see it. 
 
 #### **err-elem-cit-software-10-1**
 
