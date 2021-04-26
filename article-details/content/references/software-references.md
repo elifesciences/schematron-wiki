@@ -25,7 +25,7 @@ The following information can be added for software references:
 | Author | Yes \(or a collaboration must be entered instead\) | &lt;person-group person-group-type="author"&gt; &lt;name&gt; | Bloggs J |
 | Collaboration | Yes \(or authors must be entered instead\) | &lt;person-group person-group-type="author"&gt; &lt;collab&gt; | R Development Core Team |
 | Year | Yes | &lt;year iso-8601-date="XXXXXX"&gt; where XXXXXX is the year | 2020 |
-| Software title | Yes | &lt;data-title&gt; | R: A Language and Environment for Statistical Computing |
+| Software title | Yes | &lt;data-title&gt; | Slice display |
 | Source | Yes \(or Publisher must be entered instead\) | &lt;source&gt; | GitHub |
 | Software version | No | &lt;version designator="XXXXXX"&gt; where XXXXXX is the version | 3.1.0 |
 | Publisher city | No | &lt;publisher-loc&gt; | Vienna |
@@ -72,7 +72,7 @@ The default fields in Kriya will need to be altered to include the appropriate i
 ### GitHub
 
 * Author - If the repository includes information about the authors, these should be added. If not, just use the GitHub User IDs of the collaborators.
-* Year - the year of the latest commit number.
+* Year - the year of the latest commit number \(outlined in red below\).
 * Software title - the name of the repository.
 * Source \(currently Software name on Kriya 1.5\) - GitHub.
 * Software version - the ID of the latest commit number.
