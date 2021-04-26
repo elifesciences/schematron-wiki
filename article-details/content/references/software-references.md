@@ -40,10 +40,10 @@ Where the optional information is available, this should also be added in.
 * **Year**: This should be the year that the software being cited was released. 
 * **Software title**: The name of the software.
 * **Source**: Where the software is hosted \(this does not necessarily mean the host owns the software\), if applicable.
-* **Software version:** The version of software that was used. This is often mentioned in the article text - if it is not, it does not need to be added in.
+* **Software version:** The version of software that was used. This is often mentioned in the article text - if it is not, it does not need to be added in. However, if it is provided it should be added and tagged correctly as a software version.
 * **Publisher location:** The location of the publishers of the software. This is separated into city and country fields in Kriya.
 * **Publisher**: The company or organisation that created the software and has ownership rights over it, if applicable.
-* **Website**: Some software providers add DOIs for their software. These need to be added as a full DOI links instead of just the DOI.
+* **Website**: Some software providers add DOIs for their software. These need to be added as a full URL links \(e.g. [http://doi.org/10.6084/m9.figshare.4742866.v1](http://doi.org/10.6084/m9.figshare.4742866.v1)\) instead of just the DOI.
 
 {% hint style="info" %}
 If the authors have provided the RRID for a software, this does not need to be added as a software reference.
@@ -51,13 +51,13 @@ If the authors have provided the RRID for a software, this does not need to be a
 
 ## **When to add software references**
 
-As far as possible, any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference \(unless the authors have already included RRIDs\). Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references so they are in accordance with the [**FAIR principles**](https://peerj.com/articles/cs-86/). Please note, this only needs to be done if the software is not already in the reference list. If any of the mandatory information required for a software reference is missing, please leave the following author query, deleting as appropriate the information that has already been provided:
+As far as possible, any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference \(unless the authors have already included RRIDs\). Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references in accordance with the [**FAIR principles**](https://peerj.com/articles/cs-86/). Please note, this only needs to be done if the software is not already in the reference list. If any of the mandatory information required for a software reference is missing, please leave the following author query, deleting as appropriate the information that has already been provided:
 
 * eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). If known, please provide ****the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list. Alternatively, please provide the RRID and version number for this software.
 
 If the authors cannot provide this information, the text should be left as is.
 
-![All software here should be added as software references and cited properly](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17%20%281%29.png)
+![All software here should be added as software references and cited properly as far as possible.](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17%20%281%29.png)
 
 ![The software entries here do not need software references as they already have RRIDs](../../../.gitbook/assets/screenshot-2020-05-01-at-16.32.22.png)
 
@@ -71,12 +71,12 @@ The default fields in Kriya will need to be altered to include the appropriate i
 
 ### GitHub
 
-* Author - for GitHub references, you can just enter the first author's name. Sometimes the repository will include information about the authors - in this case, they should all be added. 
-* Year - the year of the latest commit when the repository is forked.
-* Software title - for GitHub references, this is the name of the repository 
-* Source \(currently Software name on Kriya 1.5\) - GitHub
-* Software version - for GitHub references, this is the ID of the latest commit number
-* Website - This should be a link to the repository 
+* Author - If the repository includes information about the authors, these should be added. If not, just use the GitHub User IDs of the collaborators.
+* Year - the year of the latest commit number.
+* Software title - the name of the repository.
+* Source \(currently Software name on Kriya 1.5\) - GitHub.
+* Software version - the ID of the latest commit number.
+* Website - the URL for the repository.
 
 ![The software version for GitHub references is the unique ID for the latest commit number](../../../.gitbook/assets/screenshot-2020-07-21-at-10.13.42%20%281%29.png)
 
@@ -102,48 +102,9 @@ An example of correctly entered fields for a GitHub repository reference is give
 
 ### R software and packages
 
-Guidance on what information should be included in a software reference can sometimes be found on the software website. For example, for R references, the developers provide the [**following information**](https://cran.r-project.org/doc/FAQ/R-FAQ.html):
+R is a commonly used statistical software package. As it has an [**RRID**](https://scicrunch.org/resolver/RRID:SCR_001905), this should be used instead of adding a software reference. Many packages for R also have RRIDs, so these can also be used when mentioned. If an RRID is not provided by the authors, please leave the following query:
 
-![](../../../.gitbook/assets/screenshot-2020-05-06-at-13.05.57.png)
-
-To add a reference for R software, add a new software reference as above. The information above needs to be entered into Kriya in the order shown below:
-
-| Kriya field | Value |
-| :--- | :--- |
-| Collaboration | R Development Core Team |
-| Year | 2014 |
-| Software title | R: A Language and Environment for Statistical Computing |
-| Software version | 3.1.0 |
-| Publisher city | Vienna |
-| Publisher country | Austria |
-| Publisher | R Foundation for Statistical Computing |
-| Website | http://www.R-project.org |
-
-If authors refer to software packages, these will also need to be cited properly. For example:
-
-> Modelling was executed in the R environment \(R Development Core Team, 2019\) using the biomod2 package \(version 3.3-7.1\)
-
-Looking up [**biomod2**](https://cran.r-project.org/web/packages/biomod2/index.html) shows this is a package for R. The information from the CRAN website where this is hosted can be entered as below:
-
-| Kriya field | Value |
-| :--- | :--- |
-| Author | Thuiller W |
-| Author | Georges D |
-| Author | Engler R |
-| Author | Breiner F |
-| Year | 2020 |
-| Software title | biomod2: Ensemble Platform for Species Distribution Modeling |
-| Source | CRAN |
-| Software version | 3.2-7.1 |
-| Website | https://CRAN.R-project.org/package=biomod2 |
-
-Note the CRAN website gives instructions for the correct link to include when citing software packages:
-
-![](../../../.gitbook/assets/screenshot-2020-05-20-at-16.04.42.png)
-
-The citation can then be updated as below, removing the version details:
-
-> Modelling was executed in the R environment \(R Development Core Team, 2019\) using the biomod2 package \(Thuiller et al., 2020\)
+* If known, please provide ****the RRID and version number for this package.
 
 ### Software Heritage
 
@@ -158,23 +119,23 @@ After archiving code in Software Heritage \(see how to do this [**here**](../../
 | Software version | swh:1:rev:c008b3ff49d567a1abe9d9eed42afed4e9a27b42 |
 | Website | https://archive.softwareheritage.org/browse/directory/89513b41bd021137c72fa7cf3e57bcef4bf6c933/?origin\_url=https://github.com/lifan36/Zhan-Fan-et-al-2019-scRNAseq&revision=c008b3ff49d567a1abe9d9eed42afed4e9a27b42&snapshot=7166156ca6702a41990236e9da386c44440b6609 |
 
-### **Figshare** 
+### **figshare** 
 
-An example of a Figshare software reference is below. The authors may have provided a software version - if so, this should also be added.
+An example of a figshare software reference is below. The authors may have provided a software version - if so, this should also be added.
 
 | Kriya field | Value |
 | :--- | :--- |
 | Author | Zandbelt B |
 | Year | 2017 |
 | Software title | Slice display |
-| Source | Figshare |
+| Source | figshare |
 | Website | http://doi.org/10.6084/m9.figshare.4742866.v1 |
 
-Note, Figshare can also be used for [**data references**](data-references.md) - double-check whether the link is for software or data and add the reference accordingly. If you cannot determine this, leave the following author query: 
+Note, figshare can also be used for [**data references**](data-references.md) - double-check whether the link is for software or data and add the reference accordingly. If you cannot determine this, leave the following author query: 
 
 * Please confirm whether this link refers to software or a dataset so we can capture it correctly in your reference list. 
 
-Authors may upload a mixture of software and data to Figshare. The Production team will liaise with the authors as necessary to decide how to capture this in these cases.
+Authors may upload a mixture of software and data to figshare. The Production team will liaise with the authors as necessary to decide how to capture this in these cases.
 
 ### **Zenodo**
 
@@ -259,9 +220,9 @@ The fields are as below:
 | Website | https://github.com/hCoV-2019/pangolin |
 | Accessed date | April 27, 2020 |
 
-This reference needs to be changed to a software reference, and the fields should be updated as below. The authors should also be asked to provide the rest of the reference details, using the following query:
+This reference needs to be changed to a software reference, and the fields should be updated as below. The authors should also be asked to provide the rest of the required details if these are not available, using the following query \(deleting as appropriate the information that has already been provided\):
 
-* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list.
+* Please provide the authors, year, software name, version used, and URL for this software so that we can add it to the reference list.
 
 | Fields | Values |
 | :--- | :--- |
@@ -328,7 +289,7 @@ If the link in the reference is to a blog post by GitHub however, as the example
 
 **Error**: _software reference contains the replacement character '�' which is unallowed - XXXXXX_
 
-**Action:** This error will fire if a software reference contains the character ‘�’. This usually indicates that processing has gone wrong, or it has been used to replace an unknown, unrecognized or unrepresentable character. Make sure the fields have all been entered correctly and update the citation. 
+**Action:** This error will fire if a software reference contains the character ‘�’. This usually indicates a conversion error has occurred and an unknown, unrecognized or unrepresentable character has been replaced with ‘�’. Search for the reference in the original submission and update with the correct character.
 
 **software-doi-test-1**
 
@@ -336,30 +297,31 @@ If the link in the reference is to a blog post by GitHub however, as the example
 
 **Action:** If a software reference has a source containing 'Zenodo', there needs to be a URL that contains '10.5281/zenodo'. Make sure the DOI URL \(including https://\) is present in the website field in the reference. This is because Continuum does not currently allow DOIs for software references.
 
-In the example below, the WebSite link is incorrectly entered as the landing page for the software, instead of the DOI:
+To get the full URL for a Zenodo dataset, on the dataset page, click on the 'DOI' button:
 
-| Fields | Values |
-| :--- | :--- |
-| Author | Winters S |
-| Year | 2019 |
-| Software title | sandrawinters/guenon\_occlusion: eLife |
-| Software name | _Zenodo_ |
-| Software version | 1.0 |
-| **WebSite** |  ****[**https://zenodo.org/record/3574512\#.XsVMhRNKiL8** ](https://zenodo.org/record/3574512#.XsVMhRNKiL8%20)\*\*\*\* |
+![](../../../.gitbook/assets/screenshot-2020-05-20-at-16.30.58%20%282%29.png)
 
-Clicking the link will send you to this page:
+The DOI badge will pop up:
 
-![To get the DOI URL, click on the DOI \(outlined in red above\)](../../../.gitbook/assets/screenshot-2020-05-20-at-16.30.58%20%282%29.png)
+![](../../../.gitbook/assets/screenshot-2020-05-20-at-16.31.07.png)
 
-The DOI Badge will pop up:
-
-![Copy and paste the Target URL into the WebSite field in Kriya](../../../.gitbook/assets/screenshot-2020-05-20-at-16.31.07.png)
+Finally, just paste the URL into the Website field in Kriya.
 
 **software-doi-test-2**
 
 **Warning**: _XXXXXX is a software ref with a host \(XXXXXX\) known to register dois starting with '10.6084/m9.figshare'. Should it have a link in the format 'https://doi.org/10.6084/m9.figshare...'?_
 
-**Action:** If a software reference has a source containing 'Figshare', there needs to be a URL that contains '10.6084/m9.figshare'. This is because Continuum does not currently allow DOIs for software references. Make sure the DOI URL \(including https://\) is present in the website field in the reference.
+**Action:** If a software reference has a source containing 'figshare', there needs to be a URL that contains '10.6084/m9.figshare'. This is because Continuum does not currently allow DOIs for software references. Make sure the DOI URL \(including https://\) is present in the website field in the reference.
+
+To get the full URL for a figshare dataset, on the dataset page, click on the 'Cite' button:
+
+![](../../../.gitbook/assets/screenshot-2021-04-26-at-11.32.27.png)
+
+Then, click on the 'Copy DOI' button:
+
+![](../../../.gitbook/assets/screenshot-2021-04-26-at-11.32.36.png)
+
+Finally, just paste the URL into the Website field in Kriya.
 
 ### **XML structure checks**
 
@@ -425,7 +387,7 @@ These checks relate to the XML structure of software references. X or XXXXXX ref
 
 **Action:** This warning will appear if a software reference does not have a version number. If the version number is mentioned in the text, add this information to the reference in the 'Software version' field. If the version number is not included, please leave the following query.
 
-* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the version used for this software so that we can add it to the reference list. Alternatively, please provide the RRID for this software.
+* Please provide the version number for this software so that we can add it to the reference list. Alternatively, please provide the RRID for this software if available.
 
 #### **ref-software-test-6**
 
@@ -433,19 +395,7 @@ These checks relate to the XML structure of software references. X or XXXXXX ref
 
 **Action:** This error will appear if a software reference does not have a website link. If the authors have provided a link to the website for the software, add this information to the reference in the 'Website' field. If there is no website link, please leave the following query.
 
-* eLife's policy is to include full software reference details in accordance with FAIR principles \(https://peerj.com/articles/cs-86/\). Please provide the URL for this software so that we can add it to the reference list. Alternatively, please provide the RRID for this software.
-
-
-
-| Kriya field | Mandatory? | XML element | Example |
-| :--- | :--- | :--- | :--- |
-| Author | Yes \(or a collaboration must be entered instead\) | &lt;person-group person-group-type="author"&gt; &lt;name&gt; | Bloggs J |
-| Collaboration | Yes \(or authors must be entered instead\) | &lt;person-group person-group-type="author"&gt; &lt;collab&gt; | R Development Core Team |
-| Year | Yes | &lt;year iso-8601-date="XXXXXX"&gt; where XXXXXX is the year | 2020 |
-| Software title | Yes | &lt;data-title&gt; | blech\_clust |
-| Source | Yes \(or Publisher must be entered instead\) | &lt;source&gt; | Software Heritage |
-| Software version | No | &lt;version designator="XXXXXX"&gt; where XXXXXX is the version | swh:1:rev:c008b3ff49d567a1abe9d9eed42afed4e9a27b42 |
-| Website | No | &lt;ext-link ext-link-type="uri" xlink:href="XXXXXX"&gt; where XXXXXX is the URL | https://archive.softwareheritage.org/swh:1:dir:89513b41bd021137c72fa7cf3e57bcef4bf6c933;origin=https://github.com/lifan36/Zhan-Fan-et-al-2019-scRNAseq;visit=swh:1:snp:7166156ca6702a41990236e9da386c44440b6609;anchor=swh:1:rev:c008b3ff49d567a1abe9d9eed42afed4e9a27b42/ |
+* Please provide the URL for this software so that we can add it to the reference list. Alternatively, please provide the RRID for this software if available.
 
 ## XML Structure
 
@@ -502,7 +452,7 @@ Github
     <article-meta>
 ```
 
-Figshare
+figshare
 
 ```markup
 <back>
@@ -518,7 +468,7 @@ Figshare
       </person-group>
       <year iso-8601-date="2017">2017</year>
       <data-title>Slice display</data-title>
-      <source>Figshare</source>
+      <source>figshare</source>
       <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.6084/m9.
       figshare.4742866.v1">http://doi.org/10.6084/m9.figshare.4742866.v1
       </ext-link>
