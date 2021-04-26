@@ -329,13 +329,13 @@ These checks relate to the XML structure of software references. X or XXXXXX ref
 
 #### **err-elem-cit-software-2-1**
 
-**Error:** _Each &lt;element-citation&gt; of type 'software' must contain one &lt;person-group&gt; element \(either author or curator\) or one &lt;person-group&gt; with attribute person-group-type = author and one &lt;person-group&gt; with attribute person-group-type = curator. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements.‌_
+**Error:** _Each &lt;element-citation&gt; of type 'software' must contain one &lt;person-group&gt; element with attribute person-group-type = author. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements.‌_
 
 **Action:** This error will appear if a software reference has more than one &lt;person-group&gt; element \(which usually contains either authors or collaborations\). It should be impossible for this error to occur - please contact support team if you see it. 
 
 #### **err-elem-cit-software-2-2**
 
-**Error:** _Each &lt;element-citation&gt; of type 'software' must contain one &lt;person-group&gt; with the attribute person-group-type set to 'author' or 'curator'. Reference 'XXXXXX' has a &lt;person-group&gt; type of 'XXXXXX'._
+**Error:** _The &lt;person-group&gt; in a software reference must have the attribute person-group-type set to 'author'. Reference 'XXXXXX' has a &lt;person-group&gt; type of 'XXXXXX'._
 
 **Action:** This error will appear if a software reference has a &lt;person-group&gt; element with a person-group-type that isn't an author or curator \(e.g. an author has been tagged as an editor\). It should be impossible for this error to occur - please contact the support team if you see it. 
 
