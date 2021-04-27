@@ -8,7 +8,7 @@ description: >-
 
 ## What are additional files?
 
-Besides the figures, figure supplements, tables and videos that are presented throughout an article, eLife also allows authors to include files that can be downloaded to support their findings. These can be uploaded at the level of the entire article \(in which case they sit in an 'additional files' section at the back of the article\) or to accompany particular display assets \(that is, they will be associated with a figure, table or video\). eLife allows the following varieties of additional file.
+Besides the figures, figure supplements, tables and videos that are presented throughout an article, eLife also allows authors to include files that can be downloaded to support their findings. These can be uploaded at the level of the entire article \(in which case they sit in an 'Additional files' section at the back of the article\) or to accompany particular display assets \(that is, they will be associated with a figure, table or video\). eLife allows the following varieties of additional file.
 
 ### Audio files
 
@@ -22,7 +22,7 @@ They are published in the Additional files section. A descriptive title should b
 
 ### Reporting standards
 
-Reporting standard documents describe particular protocols and standards that the authors followed when they were collecting their results. These generally take the form of check-lists. Please note that these are entirely distinct from the transparent reporting form that eLife requests authors complete on submission.
+Reporting standard documents describe particular protocols and standards that authors followed when they collected their results. These generally take the form of check-lists and are distinct from the [**transparent reporting form**](asset-source-files.md#transparent-reporting-form) that eLife requests authors complete on submission.
 
 They are labelled as Reporting standard 1, Reporting standard 2, etc. A descriptive title should be provided and they are published in the Additional files section.
 
@@ -32,15 +32,15 @@ They are labelled as Reporting standard 1, Reporting standard 2, etc. A descript
 
 ### Source files \(article-level\)
 
-Source data and source code may be provided to give readers access to the raw data and the scripts that were used to process it. During the submission process, authors are in fact encouraged to provide these files to aid the reviewers and, in the event of acceptance, to allow readers to easily reproduce the work.
+Source data and source code may be provided to aloow readers access to the raw data and any scripts that were used to process it. During submission, authors are encouraged to provide these files to aid the reviewers and, in the event of acceptance, to allow other groups to easily reproduce the work.
 
-In the event that the data is too large or extensive to be neatly captured within one or two Excel files, it may be uploaded as a generated dataset to an external repository. In such cases, it should not be listed as a source data file but instead described in the [**Data availability section**](../data-availability.md). See [**below**](asset-source-files.md#additional-files-hosted-outside-the-article) for how to deal with cases where authors become confused on this point.
+In the event that the data is too large or extensive to be captured within one or two Excel files, it may be uploaded as a generated dataset to an external repository. In such cases, it should not be listed as a source data file but instead described in the [**Data availability section**](../data-availability.md). See [**below**](asset-source-files.md#additional-files-hosted-outside-the-article) for how to deal with cases where authors become confused on this point.
 
-Source code may also be uploaded to an external repository such as GitHub and this is often preferable to being included as an attached file as it permits proper licensing of the code \(see [**Archiving code**](../../../toolkit/archiving-code.md) for more details on this\). Again, if source code is hosted away from the article, it should not be listed as a source code file.
+Source code may also be uploaded to an external repository, such as GitHub, and this is often preferable to inclusion as an additional file as it permits proper licensing of the code \(see [**Archiving code**](../../../toolkit/archiving-code.md) for more on this\). Again, if source code is hosted away from the article, it should not be listed as a source code file.
 
-Where it is included in an article, source code should be zipped or otherwise compressed so that the original filenames are preserved. This is to account for dependancy between multiple files \(e.g. where one script includes a call to an accompanying one, though if this is the case the authors will usually have zipped the different files together in one archive\). 
+Where it is included in an article, source code should be zipped or otherwise compressed so the original filenames are preserved. This is to account for dependency between multiple files \(e.g. where one script includes a call to an accompanying one, though if this is the case the authors will usually have zipped the different files together in one archive\). 
 
-These file-types are labelled respectively Source data 1, Source data 2, etc. and Source code 1, Source code 2, etc. Each source data and source code file should have a descriptive title and may be accompanied by a legend. They are published in the Additional files section at the back of the article.
+These files are labelled respectively Source data 1, Source data 2, etc. and Source code 1, Source code 2, etc. Each source data and source code file should have a descriptive title and may be accompanied by a legend. They are published in the Additional files section at the back of the article.
 
 ![Article-level source code file in the online view](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.39.45.png)
 
@@ -56,6 +56,8 @@ Figures \(and their supplements\), videos and tables may be accompanied by the s
 
 To indicate that they are associated with a display asset, these files will be named Figure 1—source data 1, Figure 2—figure supplement 1—source data 1, Table 3—source data 1, Video 4—source data 1, etc. and Figure 1—source code 1, Figure 2—figure supplement 1—source code 1, Table 3—source code 1, Video 4—source code 1, etc. The numbering restarts for each asset e.g. Figure 1—source data 1, Figure 2—source data 1, Figure 2—source data 2, Figure 3—source data 1. Like article-level source data and source code files, they should have a descriptive title and may be accompanied by a legend. They are displayed in context with the main asset to which they relate.
 
+Asset-level source files may accompany figures, videos and tables in an appendix as well as those in the main text. Schema and Chemical structures, however, cannot support associated source files.
+
 ![Figure-level source data file in the online view](../../../.gitbook/assets/screen-shot-2021-04-20-at-13.00.34.png)
 
 ![Figure-level source data file in the PDF](../../../.gitbook/assets/screen-shot-2021-04-20-at-13.00.52.png)
@@ -70,7 +72,7 @@ To indicate that they are associated with a display asset, these files will be n
 
 ### Supplementary files
 
-When authors have accompanying documents that do not fit into the other categories of additional file, they may include these as supplementary files. These can cover lists of plasmids, operating manuals for resources, experimental design documentation, supporting tables that do not count as source data, lists of datasets used, and so on. Broadly speaking it is preferable that authors use one of the specific categories of file and include tables in their main text but eLife accepts this is not always possible.
+When authors have accompanying documents that do not fit into the other categories of additional file, they may include these as supplementary files. These can cover lists of plasmids, operating manuals for resources, experimental design documentation, supporting tables that are not raw data, lists of datasets used, and so on. It is preferable that authors use one of the specific categories of file and include any tables in their main text but eLife accepts that, for a variety of reasons, this may not be possible
 
 Supplementary files are published in the Additional files section and should have a descriptive title. A legend may also be provided with a fuller description of the file contents.
 
@@ -80,9 +82,9 @@ Supplementary files are published in the Additional files section and should hav
 
 ### Transparent reporting form
 
-To facilitate the interpretation and replication of experiments, authors as asked during full submission to provide information relating to sample-size estimation, replicates, and statistical reporting. They are encouraged to fill out a template form \(available as a [**PDF**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.pdf) ****or a [**Word file**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.docx)\) describing the places within the article where this information has been included. This transparent reporting form is them published alongside the version of record.
+To facilitate the interpretation and replication of experiments, authors are asked during full submission to provide information relating to sample-size estimation, replicates, and statistical reporting. They are then encouraged to fill out a template form \(available as a [**PDF**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.pdf) ****or a [**Word file**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.docx)\) describing the places within their article where this information has been included. This transparent reporting form will be published alongside the final version of record.
 
-It is important to note that while TRFs accompany most articles, they are not mandatory. If, for example, an article does not describe experiments or the analysis of data \(as might be the case in a Tools and Resources submission\), the form would not be applicable.
+It is important to note that while TRFs accompany most articles, they are not mandatory. If, for example, an article does not describe experiments or the analysis of data \(as might be the case in a Tools and Resources submission\), the form would not be needed.
 
 Transparent reporting forms do not require a title or legend and are published at the end of the Additional files section.
 
@@ -100,21 +102,21 @@ Transparent reporting forms do not require a title or legend and are published a
 
 ### Appropriateness of the file-type
 
-Sometimes, authors will submit files using one additional file type where it would have been better for them to use another. For instance, a Supplementary file 1 with the title 'Source data for first experiment' should really have been Source data 1 and should be updated accordingly. Likewise if a source data file's title or legend indicate it is in fact code, this should be changed to source code.
+Sometimes, authors will submit files using one additional file type where it would have been better for them to use another. For instance, a Supplementary file 1 with the title 'Source data for first experiment' should really have been Source data 1 and should be updated accordingly. Likewise if a source data file's title or legend indicate it in fact contains code, this should be changed to source code.
 
-Occasionally, this kind of issue can affect transparent reporting forms, with authors uploading them as reporting standards instead. If not title has been provided for a reporting standard, it is worth downloading the file and comparing it to the TRF template mentioned [**above**](asset-source-files.md#transparent-reporting-form). If it is clearly a transparent reporting form, it should be relabelled accordingly.
+Occasionally, this kind of issue can affect transparent reporting forms, with authors uploading them as reporting standards instead. If no title has been provided for a reporting standard, it is worth downloading the file and comparing it to the TRF template mentioned [**above**](asset-source-files.md#transparent-reporting-form). If it is clearly a transparent reporting form, it should be relabelled accordingly.
 
 ### Relationship to asset \(where applicable\)
 
 As indicated by the relevant schematron tests, asset-level source data and code should be relate directly to the asset with which it is associated. That is to say, if Figure 1—source data 1 relates only to Figure 1—figure supplement 2, it should be changed to Figure 1—figure supplement 2—source data 1. Likewise, if the title for source data at the article level indicates a relationship to a figure \(e.g. "Source data 1. Original data for Figure 5"\) it should be changed to asset-level source data for that figure.
 
-That being said, when a source file covers multiple assets, it may be more appropriate to leave it as provided. For example, if Figure 2—source data 1 relates to both Figure 2 and Figure 2—figure supplement 1, it should remain associated directly with Figure 2. If a source code file \(at the article level\) relates to multiple figures, it is appropriate as Source code 1 since it would not be quite accurate to label it as source code for any one of the figures covered.
+This being said, when a source file covers multiple assets, it may be more appropriate to leave it as provided. For example, if Figure 2—source data 1 relates to both Figure 2 and Figure 2—figure supplement 1, it should remain associated directly with Figure 2. If a source code file \(at the article level\) relates to multiple figures, it is appropriate as Source code 1 since it would not be accurate to label it as source code for any one of the figures covered.
 
 ### Additional files hosted outside the article
 
 Occasionally, authors will list titles and legends in their article file for additional files that have been submitted to databases or other external repositories. This is often because the files were originally provided as part of the submission to eLife but the editorial team encouraged them to be submitted to, for example, Dryad.
 
-We cannot list entries for additional files without including an actual file. Therefore, the titles and legends provided will need to be either removed or incorporated into the text wherever is appropriate. The dataset can, for example, be added to the main reference list and cited in the context of the related asset. The details from the orphaned legend can then be added that asset's own legend. For one example, see article [**10.7554/eLife.54350**](https://doi.org/10.7554/eLife.54350).
+Since we cannot list entries for additional files without including an actual file, the titles and legends provided need to be either removed or incorporated into the text wherever is appropriate. The dataset can be added to the main reference list and cited in the context of the related asset. The details from the orphaned legend can then be added that asset's own legend. For one example, see article [**10.7554/eLife.54350**](https://doi.org/10.7554/eLife.54350).
 
 ![Originally supplied legend for Figure 1&#x2014;source data 1, with files hosted on Dryad](../../../.gitbook/assets/screen-shot-2021-04-27-at-13.01.50.png)
 
@@ -122,7 +124,7 @@ We cannot list entries for additional files without including an actual file. Th
 
 ### Inappropriate/mistaken inclusion of an additional file
 
-Another issue that can occur during submission is that authors include additional files that should have been either a 'Related Manuscript File' \(file uploaded for peer review that is not required for final publication\) or a 'LaTex Support File' \(a supporting file for a LaTex submission e.g. a .sty style file or a .bib bibliography file\). Examples of this would include a marked-up PDF of the article showing tracked changes for reviewers, a copy of the article provided for the publication on acceptance, and a .bib file providing the article's reference list. It is usually clear when this is the case as no title or legend will have been provided for the additional file and its author-provided file name will indicate its purpose as one of the given examples. In these situations, the additional file should be removed from the proof.
+Another issue that can occur during submission is that authors include additional files that should have been either a 'Related Manuscript File' \(file uploaded for peer review that is not required for final publication\) or a 'LaTex Support File' \(a supporting file for a LaTex submission e.g. a .sty style file or a .bib bibliography file\). Examples of this would include a marked-up PDF of the article showing tracked changes for reviewers, a copy of the article provided for the publication on acceptance, or a .bib file providing the article's reference list. It is usually clear when this is the case as no title or legend will have been provided for the additional file and its author-provided file name will indicate its purpose as one of the given examples. In these situations, the additional file should be removed from the proof.
 
 Where it is unclear whether the file is required for final publication, the author should be asked to double check that it is needed and provide a title where appropriate.
 
@@ -136,11 +138,11 @@ The production team should take care to check the submission system prior to con
 
 ### Corrupted files
 
-During production of an article, it should be confirmed as far as possible that all addiitonal files are intact/valid documents. This should be done by downloading the file from the proof \(or staged article\) and seeing if there are any issues when it is opened in the appropriate program. ZIP packages should also be expanded to make sure they are complete. If a file is corrupted, check the submission system to see if this is true of the original and either replace the document with the uncorrupted version or go to the authors to request one.
+It should be confirmed as far as possible that all additional files are intact/valid documents. This should be done by downloading the file from the proof \(or staged article\) and seeing if there are any issues when it is opened in the appropriate program. ZIP packages should also be expanded to make sure they are complete. If a file is corrupted, check the submission system to see if this is true of the original and either replace the document with the uncorrupted version or go to the authors to request one.
 
 This should definitely be checked after the article is loaded to the journal website as conversions may occur at this stage. In the unlikely event that it appears the creation of the final package is responsible for the corruption of a file, the content processors should be advised and requested to resolve the issue.
 
-Please note that there are going to be some additional files we cannot check as they are intended for use with propitiatory software that we do not have access to. In these cases, there is unfortunately little we can do beyond making sure the files to not have an arbitrarily low size \(e.g. in the range of bytes rather than at least kilobytes\).
+Please note there will be some additional files we cannot check as they are intended for use with propitiatory software we do not have access to. In these cases, there is unfortunately little we can do beyond making sure the files to not have an arbitrarily low size \(e.g. in the range of bytes rather than at least kilobytes\). If this is case, it is possible the file has been corrupted and it should be compared to the originally submitted version.
 
 ## Schematron checks
 
@@ -150,7 +152,7 @@ Please note that there are going to be some additional files we cannot check as 
 
 **Warning**: _XXXXXX is missing a title/caption - is this correct? \(supplementary-material should have a child caption.\)_
 
-**Action**: This warning indicates that an additional file does not have a title or legend. The author should be queried to provide one if possible.
+**Action**: This warning indicates an additional file does not have a title or legend. The author should be queried to provide one if possible.
 
 * Please provide a single-sentence title \(and legend, if appropriate\) describing the contents of this file.
 
@@ -185,19 +187,19 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Error**: _XXXXXX is missing a file \(supplementary-material must have a media\)._
 
-**Action**: This errors indicates there is no file present for an additional file entry at the post-author stage. Check to see if the file was provided by email or in the notes in the proofing system and, if so, upload it. If no file was provided, query the authors via email.
+**Action**: This errors indicates no file present for an additional file entry at the post-author stage. Check to see if the file was provided by email or in the notes in the proofing system and, if so, upload it. If no file was provided, query the authors via email.
 
 #### supplementary-material-test-10
 
 **Warning**: _Article contains XXXXXX Please check with eLife - is this actually a reporting standard?_
 
-**Action**: This warning indicates that an additional files is present in the label 'Reporting standard'. Please check that the indicated file is in fact a reporting standard and not a transparent reporting form.
+**Action**: This warning indicates that an additional file is present with the label 'Reporting standard'. Please check that the indicated file is in fact a reporting standard and not a transparent reporting form \(see [**above**](asset-source-files.md#appropriateness-of-the-file-type)\).
 
 #### source-code-test-1
 
 **Warning**: _XXXXXX has a file which looks like code - XXXXXX, but it's not labelled as code._
 
-**Action**: This warning indicates that an additional file has an extension that might indicate it is source code rather than, for example, data. It currently checks for the following extensions: .m, .py, .lib, .jl, .c, .sh, .for, .cpproj, .ipynb, .mph, .cc, .rmd, .nlogo, .stan, .wrl, .pl, .r, .fas, .ijm, .llb, .ipf, .mdl, .h. If the title and/or legend does not clearly indicate that the file contains data alone, please query the author about whether it should be changed to source code.
+**Action**: This warning indicates that an additional file has an extension that may indicate it is source code rather than, for example, data. It currently checks for the following extensions: .m, .py, .lib, .jl, .c, .sh, .for, .cpproj, .ipynb, .mph, .cc, .rmd, .nlogo, .stan, .wrl, .pl, .r, .fas, .ijm, .llb, .ipf, .mdl, .h. If the title and/or legend does not clearly indicate that the file contains data alone, please query the author as to whether it should be changed to source code.
 
 * Should this file be labelled as source code? 
 
@@ -205,7 +207,7 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Warning**: _XXXXXX has a title 'XXXXXX'. Is it a Key resources table? If so, it should be captured as a table in an appendix for the article._
 
-**Action**: This warning indicates that an addiitonal file has a title that indicates it is a key resources table. Previously, if a key resources table was too large to be included in the main text, it would be placed as a supplementary file; however this policy has changed and such tables are now presented as appendices. Please typeset the table on its own within a new appendix and remove the file. If an editable version of the table has not been provided, the eLife production team should contact the authors to request one.
+**Action**: This warning indicates an additional file has a title that indicates it is a key resources table. Previously, if a key resources table was too large to be included in the main text, it would be placed as a supplementary file; however this policy has changed and such tables are now presented as appendices. Please typeset the table on its own within a new appendix and remove the file. If an editable version of the table has not been provided, the eLife production team should contact the authors to request one.
 
 #### source-code-test-2
 
