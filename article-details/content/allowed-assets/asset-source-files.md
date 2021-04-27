@@ -257,7 +257,14 @@ In cases where the source code title or legend mentions multiple figure suppleme
 
 **Error**: _XXXXXX has XXXXXX media elements which is incorrect._
 
-**Action:**
+**Action**: Additional files should have one and only one &lt;media&gt; element. This error indicates that zero or more &lt;media&gt; elements are present for a file. If it is zero, the missing file should be requested from the author:
+
+* Please provide the file for this source data.
+* Please provide the file for this source code.
+* Please provide the file for this supplementary file.
+* Please provide the file for this reporting standard
+
+If it is more than one, this will need support intervention to remove the extra elements.
 
 #### back-supplementary-file-position
 
