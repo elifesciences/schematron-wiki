@@ -114,7 +114,7 @@ That being said, when a source file covers multiple assets, it may be more appro
 
 Occasionally, authors will list titles and legends in their article file for additional files that have been submitted to databases or other external repositories. This is often because the files were originally provided as part of the submission to eLife but the editorial team encouraged them to be submitted to, for example, Dryad.
 
-We cannot list entries for additional files without including an actual file. Therefore, the titles and legends provided will need to be either removed or incorporated into the text wherever is appropraite. The dataset can, for example, be added to the main reference list and cited in the context of the related asset. The details from the orphaned legend can then be added that asset's own legend:
+We cannot list entries for additional files without including an actual file. Therefore, the titles and legends provided will need to be either removed or incorporated into the text wherever is appropriate. The dataset can, for example, be added to the main reference list and cited in the context of the related asset. The details from the orphaned legend can then be added that asset's own legend:
 
 
 
@@ -183,7 +183,7 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Error**: _XXXXXX is missing a file \(supplementary-material must have a media\)._
 
-**Action**: This erros indicates there is no file present for an additional file entry at the post-author stage. Check to see if the file was provided by email or in the notes in the proofing system and, if so, upload it. If no file was provided, query the authors via email.
+**Action**: This errors indicates there is no file present for an additional file entry at the post-author stage. Check to see if the file was provided by email or in the notes in the proofing system and, if so, upload it. If no file was provided, query the authors via email.
 
 #### supplementary-material-test-10
 
@@ -233,19 +233,19 @@ In cases where the source code title or legend mentions multiple figure suppleme
 
 **Error**: _supplementary-material must have a label._
 
-**Action**: 
+**Action**: This error indicates that no label is present for an additional file. This will need the production vendor's support team to fix as it means the element `<label>` is missing from the XML.
 
 #### supplementary-material-test-6
 
 **Error**: _supplementary-material label \(XXXXXX\) does not conform to eLife's usual label format._
 
-**Action**:
+**Action**: This error indicates that an additional file label does not match the usual pattern of Audio file X, Reporting standard X, Source data X, Source code X, Figure X—source data Y, Figure X—source code Y, Supplementary file X, or Transparent reporting form. The label should be corrected to match the correct format for the type of file being indicated. This may require support team intervention.
 
 #### supplementary-material-test-8
 
 **Error**: _XXXXXX has an article level label but it is not captured in the additional files section - This must be incorrect._
 
-**Action**:
+**Action**: This error indicates that an additional file associated with an asset has a label in the format for an article-level file, e.g. Audio file X, Reporting standard X, Source data X, Source code X, Supplementary file X, or Transparent reporting form. 
 
 #### supplementary-material-test-7
 
