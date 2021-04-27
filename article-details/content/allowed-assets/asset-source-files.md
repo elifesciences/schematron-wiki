@@ -278,31 +278,31 @@ If it is more than one, this will need support intervention to remove the extra 
 
 **Error**: _The id \(XXXXXX\) for XXXXXX is not in the correct format. Supplementary files need to have ids in the format 'supp0'._
 
-**Action**: 
+**Action**: This error indicates that a supplementary file has an ID that does not confirm to the standard format 'supp0'. That is, Supplementary file 1 should usually have an ID 'supp1', Supplementary file 2 should usually have an ID 'supp2' and so on. This will need to be corrected by the production vendor's support team.
 
 #### back-source-data-position
 
 **Error**: _XXXXXX id ends with XXXXXX, but it is placed XXXXXX. Either it is mislabelled, the id is incorrect, or it should be moved to a different position._
 
-**Action**: This error indicates that the labelling for a source data file does not match the sequence in which the other files of that type have been placed. And example would be Source data 1, Source data 3, Source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action**: This error indicates that the labelling for an article-level source data file does not match the sequence in which the other files of that type have been placed. And example would be Source data 1, Source data 3, Source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### back-source-data-id
 
 **Error**: _The id \(XXXXXX\) for XXXXXX is not in the correct format. Source data need to have ids in the format 'sdata0'._
 
-**Action**: 
+**Action**: This error indicates that an article-level source data file has an ID that does not confirm to the standard format 'sdata0'. That is, Source data 1 should usually have an ID 'sdata1', Source data 2 should usually have an ID 'sdata2' and so on. This will need to be corrected by the production vendor's support team.
 
 #### back-source-code-position
 
 **Error**: _XXXXXX id ends with XXXXXX, but it is placed XXXXXX. Either it is mislabelled, the id is incorrect, or it should be moved to a different position._
 
-**Action**: This error indicates that the labelling for a source code file does not match the sequence in which the other files of that type have been placed. And example would be Source code 1, Source code 3, Source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action**: This error indicates that the labelling for an article-level source code file does not match the sequence in which the other files of that type have been placed. And example would be Source code 1, Source code 3, Source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### back-source-code-id
 
 **Error**: _The id \(XXXXXX\) for XXXXXX is not in the correct format. Source code needs to have ids in the format 'scode0'._
 
-**Action**:
+**Action**: This error indicates that an article-level source code file has an ID that does not confirm to the standard format 'scode0'. That is, Source code 1 should usually have an ID 'scode1', Source code 2 should usually have an ID 'scode2' and so on. This will need to be corrected by the production vendor's support team.
 
 #### fig-data-test-2
 
