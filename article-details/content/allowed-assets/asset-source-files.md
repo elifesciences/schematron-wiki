@@ -270,7 +270,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 **Error**: _XXXXXX id ends with XXXXXX, but it is placed XXXXXX. Either it is mislabelled, the id is incorrect, or it should be moved to a different position._
 
-**Action**: 
+**Action**: This error indicates that the labelling for a supplementary file does not match the sequence in which the other files of that type have been placed. And example would be Supplementary file 1, Supplementary file 3, Supplementary file 2. The production vendors will need to reorder the files into the correct sequence or correct the labelling. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### back-supplementary-file-id
 
@@ -282,7 +282,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 **Error**: _XXXXXX id ends with XXXXXX, but it is placed XXXXXX. Either it is mislabelled, the id is incorrect, or it should be moved to a different position._
 
-**Action**:
+**Action**: This error indicates that the labelling for a source data file does not match the sequence in which the other files of that type have been placed. And example would be Source data 1, Source data 3, Source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### back-source-data-id
 
@@ -294,7 +294,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 **Error**: _XXXXXX id ends with XXXXXX, but it is placed XXXXXX. Either it is mislabelled, the id is incorrect, or it should be moved to a different position._
 
-**Action**: 
+**Action**: This error indicates that the labelling for a source code file does not match the sequence in which the other files of that type have been placed. And example would be Source code 1, Source code 3, Source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### back-source-code-id
 
