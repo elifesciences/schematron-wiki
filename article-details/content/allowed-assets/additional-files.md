@@ -12,7 +12,7 @@ Besides the figures, figure supplements, tables and videos that are presented th
 
 ### Audio files
 
-At present, eLife cannot support inline audio-only playback so audio files \(as distinct from videos\) should be included as additional files. These are treated in all respects like [**Supplementary files**](asset-source-files.md#supplementary-files), but are labelled as as Audio file 1, Audio file 2, etc.
+At present, eLife cannot support inline audio-only playback so audio files \(as distinct from videos\) should be included as additional files. These are treated in all respects like [**Supplementary files**](additional-files.md#supplementary-files), but are labelled as as Audio file 1, Audio file 2, etc.
 
 They are published in the Additional files section. A descriptive title should be provided for each file and a legend may be present as well. 
 
@@ -22,7 +22,7 @@ They are published in the Additional files section. A descriptive title should b
 
 ### Reporting standards
 
-Reporting standard documents describe particular protocols and standards that authors followed when they collected their results. These generally take the form of check-lists and are distinct from the [**transparent reporting form**](asset-source-files.md#transparent-reporting-form) that eLife requests authors complete on submission.
+Reporting standard documents describe particular protocols and standards that authors followed when they collected their results. These generally take the form of check-lists and are distinct from the [**transparent reporting form**](additional-files.md#transparent-reporting-form) that eLife requests authors complete on submission.
 
 They are labelled as Reporting standard 1, Reporting standard 2, etc. A descriptive title should be provided and they are published in the Additional files section.
 
@@ -34,7 +34,7 @@ They are labelled as Reporting standard 1, Reporting standard 2, etc. A descript
 
 Source data and source code may be provided to aloow readers access to the raw data and any scripts that were used to process it. During submission, authors are encouraged to provide these files to aid the reviewers and, in the event of acceptance, to allow other groups to easily reproduce the work.
 
-In the event that the data is too large or extensive to be captured within one or two Excel files, it may be uploaded as a generated dataset to an external repository. In such cases, it should not be listed as a source data file but instead described in the [**Data availability section**](../data-availability.md). See [**below**](asset-source-files.md#additional-files-hosted-outside-the-article) for how to deal with cases where authors become confused on this point.
+In the event that the data is too large or extensive to be captured within one or two Excel files, it may be uploaded as a generated dataset to an external repository. In such cases, it should not be listed as a source data file but instead described in the [**Data availability section**](../data-availability.md). See [**below**](additional-files.md#additional-files-hosted-outside-the-article) for how to deal with cases where authors become confused on this point.
 
 Source code may also be uploaded to an external repository, such as GitHub, and this is often preferable to inclusion as an additional file as it permits proper licensing of the code \(see [**Archiving code**](../../../toolkit/archiving-code.md) for more on this\). Again, if source code is hosted away from the article, it should not be listed as a source code file.
 
@@ -104,7 +104,7 @@ Transparent reporting forms do not require a title or legend and are published a
 
 Sometimes, authors will submit files using one additional file type where it would have been better for them to use another. For instance, a Supplementary file 1 with the title 'Source data for first experiment' should really have been Source data 1 and should be updated accordingly. Likewise if a source data file's title or legend indicate it in fact contains code, this should be changed to source code.
 
-Occasionally, this kind of issue can affect transparent reporting forms, with authors uploading them as reporting standards instead. If no title has been provided for a reporting standard, it is worth downloading the file and comparing it to the TRF template mentioned [**above**](asset-source-files.md#transparent-reporting-form). If it is clearly a transparent reporting form, it should be relabelled accordingly.
+Occasionally, this kind of issue can affect transparent reporting forms, with authors uploading them as reporting standards instead. If no title has been provided for a reporting standard, it is worth downloading the file and comparing it to the TRF template mentioned [**above**](additional-files.md#transparent-reporting-form). If it is clearly a transparent reporting form, it should be relabelled accordingly.
 
 ### Relationship to asset \(where applicable\)
 
@@ -193,7 +193,7 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Warning**: _Article contains XXXXXX Please check with eLife - is this actually a reporting standard?_
 
-**Action**: This warning indicates that an additional file is present with the label 'Reporting standard'. Please check that the indicated file is in fact a reporting standard and not a transparent reporting form \(see [**above**](asset-source-files.md#appropriateness-of-the-file-type)\).
+**Action**: This warning indicates that an additional file is present with the label 'Reporting standard'. Please check that the indicated file is in fact a reporting standard and not a transparent reporting form \(see [**above**](additional-files.md#appropriateness-of-the-file-type)\).
 
 #### source-code-test-1
 
