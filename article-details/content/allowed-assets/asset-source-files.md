@@ -245,13 +245,13 @@ In cases where the source code title or legend mentions multiple figure suppleme
 
 **Error**: _XXXXXX has an article level label but it is not captured in the additional files section - This must be incorrect._
 
-**Action**: This error indicates that an additional file associated with an asset has a label in the format for an article-level file, e.g. Audio file X, Reporting standard X, Source data X, Source code X, Supplementary file X, or Transparent reporting form. 
+**Action**: This error indicates that an additional file associated with an asset has a label in the format for an article-level file, e.g. Audio file X, Reporting standard X, Source data X, Source code X, Supplementary file X, or Transparent reporting form. It should either be moved to the Additional files section, or the label should be corrected to indicate the file's relationship to a main asset.
 
 #### supplementary-material-test-7
 
 **Error**: _supplementary-material in additional files sections cannot have the a media element with the attribute mimetype='video'. This should be mimetype='application'_
 
-**Action**:
+**Action**: This error indicates that an additional file has been given the attribute `mimetype='video'`. This is incorrect. Even if a video file is included as, for example, a supplementary file, it should be assigned a mimetype of `'application'`. This will require support team intervention to fix.
 
 #### supplementary-material-test-9
 
