@@ -274,109 +274,109 @@ If it is more than one, this will need support intervention to remove the extra 
 
 **Error**: _XXXXXX id ends with XXXXXX, but it is placed XXXXXX. Either it is mislabelled, the id is incorrect, or it should be moved to a different position._
 
-**Action**: This error indicates the labelling for a supplementary file does not match the sequence in which the other files of that type have been placed. And example would be Supplementary file 1, Supplementary file 3, Supplementary file 2. The production vendors will need to reorder the files into the correct sequence or correct the labelling. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action**: This error indicates the labelling for a supplementary file does not match the sequence in which the other files of that type have been placed. An example would be Supplementary file 1, Supplementary file 3, Supplementary file 2. The production vendors will need to reorder the files into the correct sequence or correct the labelling. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### back-supplementary-file-id
 
 **Error**: _The id \(XXXXXX\) for XXXXXX is not in the correct format. Supplementary files need to have ids in the format 'supp0'._
 
-**Action**: This error indicates a supplementary file has an ID that does not confirm to the standard format 'supp0'. That is, Supplementary file 1 should usually have an ID 'supp1', Supplementary file 2 should usually have an ID 'supp2' and so on. This will need to be corrected by the production vendor's support team.
+**Action**: This error indicates a supplementary file has an ID that does not conform to the standard format 'supp0'. That is, Supplementary file 1 should usually have an ID 'supp1', Supplementary file 2 should usually have an ID 'supp2' and so on. This will need to be corrected by the production vendor's support team.
 
 #### back-source-data-position
 
 **Error**: _XXXXXX id ends with XXXXXX, but it is placed XXXXXX. Either it is mislabelled, the id is incorrect, or it should be moved to a different position._
 
-**Action**: This error indicates the labelling for an article-level source data file does not match the sequence in which the other files of that type have been placed. And example would be Source data 1, Source data 3, Source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action**: This error indicates the labelling for an article-level source data file does not match the sequence in which the other files of that type have been placed. An example would be Source data 1, Source data 3, Source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### back-source-data-id
 
 **Error**: _The id \(XXXXXX\) for XXXXXX is not in the correct format. Source data need to have ids in the format 'sdata0'._
 
-**Action**: This error indicates an article-level source data file has an ID that does not confirm to the standard format 'sdata0'. That is, Source data 1 should have an ID 'sdata1', Source data 2 should have an ID 'sdata2', and so on. This will need to be corrected by the production vendor's support team.
+**Action**: This error indicates an article-level source data file has an ID that does not conform to the standard format 'sdata0'. That is, Source data 1 should have an ID 'sdata1', Source data 2 should have an ID 'sdata2', and so on. This will need to be corrected by the production vendor's support team.
 
 #### back-source-code-position
 
 **Error**: _XXXXXX id ends with XXXXXX, but it is placed XXXXXX. Either it is mislabelled, the id is incorrect, or it should be moved to a different position._
 
-**Action**: This error indicates the labelling for an article-level source code file does not match the sequence in which the other files of that type have been placed. And example would be Source code 1, Source code 3, Source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action**: This error indicates the labelling for an article-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Source code 1, Source code 3, Source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### back-source-code-id
 
 **Error**: _The id \(XXXXXX\) for XXXXXX is not in the correct format. Source code needs to have ids in the format 'scode0'._
 
-**Action**: This error indicates an article-level source code file has an ID that does not confirm to the standard format 'scode0'. That is, Source code 1 should have an ID 'scode1', Source code 2 should have an ID 'scode2', and so on. This will need to be corrected by the production vendor's support team.
+**Action**: This error indicates an article-level source code file has an ID that does not conform to the standard format 'scode0'. That is, Source code 1 should have an ID 'scode1', Source code 2 should have an ID 'scode2', and so on. This will need to be corrected by the production vendor's support team.
 
 #### fig-data-test-2
 
 **Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
 
-**Action**: This error indicates the labelling for a figure-level source data file does not match the sequence in which the other files of that type have been placed. And example would be Figure 1—source data 1, Figure 1—source data 3, Figure 1—source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action**: This error indicates the labelling for a figure-level source data file does not match the sequence in which the other files of that type have been placed. An example would be Figure 1—source data 1, Figure 1—source data 3, Figure 1—source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### fig-data-id
 
 **Error**: _The id for figure level source data must be the id of its ancestor fig, followed by 'sdata', followed by its position relative to other source data for the same figure. The id for XXXXXX, 'XXXXXX' is not in this format. It should be 'XXXXXX' instead._
 
-**Action**: This error indicates a figure-level source data file has an ID that does not confirm to the standard format 'fig0sdata0'. That is, Figure 1—source data 1 should have an ID 'fig1sdata1', Figure 2—source data 1 should have an ID 'fig2sdata1', Figure 2—source data 2 should have an ID 'fig2sdata2', and so on. This will need to be corrected by the production vendor's support team.
+**Action**: This error indicates a figure-level source data file has an ID that does not conform to the standard format 'fig0sdata0'. That is, Figure 1—source data 1 should have an ID 'fig1sdata1', Figure 2—source data 1 should have an ID 'fig2sdata1', Figure 2—source data 2 should have an ID 'fig2sdata2', and so on. This will need to be corrected by the production vendor's support team.
 
 #### fig-code-test-2
 
 **Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
 
-**Action:** This error indicates the labelling for a figure-level source code file does not match the sequence in which the other files of that type have been placed. And example would be Figure 1—source code 1, Figure 1—source code 3, Figure 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action:** This error indicates the labelling for a figure-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Figure 1—source code 1, Figure 1—source code 3, Figure 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### fig-code-id
 
 **Error**: _The id for figure level source code must be the id of its ancestor fig, followed by 'scode', followed by its position relative to other source data for the same figure. The id for XXXXXX, 'XXXXXX' is not in this format. It should be 'XXXXXX' instead._
 
-**Action**: This error indicates a figure-level source code file has an ID that does not confirm to the standard format 'fig0sdata0'. That is, Figure 1—source code 1 should have an ID 'fig1scode1', Figure 2—source code 1 should have an ID 'fig2scode1', Figure 2—source code 2 should have an ID 'fig2scode2', and so on. This will need to be corrected by the production vendor's support team.
+**Action**: This error indicates a figure-level source code file has an ID that does not conform to the standard format 'fig0sdata0'. That is, Figure 1—source code 1 should have an ID 'fig1scode1', Figure 2—source code 1 should have an ID 'fig2scode1', Figure 2—source code 2 should have an ID 'fig2scode2', and so on. This will need to be corrected by the production vendor's support team.
 
 #### vid-data-test-2
 
 **Error**: 'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position.
 
-**Action:** This error indicates the labelling for a video-level source data file does not match the sequence in which the other files of that type have been placed. And example would be Video 1—source data 1, Video 1—source data 3, Video 1—source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action:** This error indicates the labelling for a video-level source data file does not match the sequence in which the other files of that type have been placed. An example would be Video 1—source data 1, Video 1—source data 3, Video 1—source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### vid-data-id
 
 **Error**: _The id for video level source data must be the id of its ancestor video, followed by 'sdata', followed by its position relative to other source data for the same video. The id for XXXXXX, 'XXXXXX' is not in this format. It should be 'XXXXXX' instead._
 
-**Action**: This error indicates a video-level source data file has an ID that does not confirm to the standard format 'video0sdata0'. That is, Video 1—source data 1 should have an ID 'video1sdata1', Video 2—source data 1 should have an ID 'video2sdata1', Video 2—source data 2 should have an ID 'video2sdata2', and so on. This will need to be corrected by the production vendor's support team.
+**Action**: This error indicates a video-level source data file has an ID that does not conform to the standard format 'video0sdata0'. That is, Video 1—source data 1 should have an ID 'video1sdata1', Video 2—source data 1 should have an ID 'video2sdata1', Video 2—source data 2 should have an ID 'video2sdata2', and so on. This will need to be corrected by the production vendor's support team.
 
 #### vid-code-test-2
 
 **Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
 
-**Action:** This error indicates the labelling for a video-level source code file does not match the sequence in which the other files of that type have been placed. And example would be Video 1—source code 1, Video 1—source code 3, Video 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action:** This error indicates the labelling for a video-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Video 1—source code 1, Video 1—source code 3, Video 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### vid-code-id
 
 **Error**: _The id for video level source code must be the id of its ancestor video, followed by 'scode', followed by its position relative to other source data for the same video. The id for XXXXXX, 'XXXXXX' is not in this format. It should be 'XXXXXX' instead._
 
-**Action**: This error indicates a video-level source data file has an ID that does not confirm to the standard format 'video0sdata0'. That is, Video 1—source code 1 should have an ID 'video1scode1', Video 2—source code 1 should have an ID 'video2scode1', Video 2—source code 2 should have an ID 'video2scode2', and so on. This will need to be corrected by the production vendor's support team.
+**Action**: This error indicates a video-level source data file has an ID that does not conform to the standard format 'video0sdata0'. That is, Video 1—source code 1 should have an ID 'video1scode1', Video 2—source code 1 should have an ID 'video2scode1', Video 2—source code 2 should have an ID 'video2scode2', and so on. This will need to be corrected by the production vendor's support team.
 
 #### table-data-test-2
 
 **Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
 
-**Action:** This error indicates the labelling for a table-level source data file does not match the sequence in which the other files of that type have been placed. And example would be Table 1—source data 1, Table 1—source data 3, Table 1—source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action:** This error indicates the labelling for a table-level source data file does not match the sequence in which the other files of that type have been placed. An example would be Table 1—source data 1, Table 1—source data 3, Table 1—source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### table-data-id
 
 **Error**: _The id for table level source data must be the id of its ancestor table-wrap, followed by 'sdata', followed by its position relative to other source data for the same table. The id for XXXXXX, 'XXXXXX' is not in this format. It should be 'XXXXXX' instead._
 
-**Action**: This error indicates a table-level source data file has an ID that does not confirm to the standard format 'table0sdata0'. That is, Table 1—source data 1 should have an ID 'table1sdata1', Table 2—source data 1 should have an ID 'table2sdata1', Table 2—source data 2 should have an ID 'table2sdata2', and so on. This will need to be corrected by the production vendor's support team.:
+**Action**: This error indicates a table-level source data file has an ID that does not conform to the standard format 'table0sdata0'. That is, Table 1—source data 1 should have an ID 'table1sdata1', Table 2—source data 1 should have an ID 'table2sdata1', Table 2—source data 2 should have an ID 'table2sdata2', and so on. This will need to be corrected by the production vendor's support team.:
 
 #### table-code-test-2
 
 **Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
 
-**Action:** This error indicates the labelling for a table-level source code file does not match the sequence in which the other files of that type have been placed. And example would be Table 1—source code 1, Table 1—source code 3, Table 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action:** This error indicates the labelling for a table-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Table 1—source code 1, Table 1—source code 3, Table 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### table-code-id
 
 **Error**: _The id for table level source code must be the id of its ancestor table, followed by 'scode', followed by its position relative to other source data for the same table. The id for XXXXXX, 'XXXXXX' is not in this format. It should be 'XXXXXX' instead._
 
-**Action**: This error indicates a table-level source data file has an ID that does not confirm to the standard format 'table0sdata0'. That is, Table 1—source code 1 should have an ID 'table1scode1', Table 2—source code 1 should have an ID 'table2scode1', Table 2—source code 2 should have an ID 'table2scode2', and so on. This will need to be corrected by the production vendor's support team.
+**Action**: This error indicates a table-level source data file has an ID that does not conform to the standard format 'table0sdata0'. That is, Table 1—source code 1 should have an ID 'table1scode1', Table 2—source code 1 should have an ID 'table2scode1', Table 2—source code 2 should have an ID 'table2scode2', and so on. This will need to be corrected by the production vendor's support team.
 
 ## XML
 
