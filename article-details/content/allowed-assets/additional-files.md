@@ -142,7 +142,7 @@ It should be confirmed as far as possible that all additional files are intact/v
 
 This should definitely be checked after the article is loaded to the journal website as conversions may occur at this stage. In the unlikely event that it appears the creation of the final package is responsible for the corruption of a file, the content processors should be advised and requested to resolve the issue.
 
-Please note there will be some additional files we cannot check as they are intended for use with propitiatory software we do not have access to. In these cases, there is unfortunately little we can do beyond making sure the files to not have an arbitrarily low size \(e.g. in the range of bytes rather than at least kilobytes\). If this is case, it is possible the file has been corrupted and it should be compared to the originally submitted version.
+Please note there will be some additional files we cannot check as they are intended for use with propitiatory software we do not have access to. In these cases, there is unfortunately little we can do beyond making sure the files do not have an arbitrarily low size \(e.g. in the range of bytes rather than at least kilobytes\). If this is case, it is possible the file has been corrupted and it should be compared to the originally submitted version.
 
 ## Schematron checks
 
@@ -187,7 +187,7 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Error**: _XXXXXX is missing a file \(supplementary-material must have a media\)._
 
-**Action**: This errors indicates no file present for an additional file entry at the post-author stage. Check to see if the file was provided by email or in the notes in the proofing system and, if so, upload it. If no file was provided, query the authors via email.
+**Action**: This error indicates no file present for an additional file entry at the post-author stage. Check to see if the file was provided by email or in the notes in the proofing system and, if so, upload it. If no file was provided, query the authors via email.
 
 #### supplementary-material-test-10
 
