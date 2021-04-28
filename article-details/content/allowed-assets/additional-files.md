@@ -231,6 +231,26 @@ In cases where the source data title or legend mentions multiple figure suppleme
 
 In cases where the source code title or legend mentions multiple figure supplements \(e.g. Source code for Figure 1–figure supplements 1–4"\) it is appropriate to leave it associated with the main figure \(Figure 1 in this example\) since it wouldn't be correct to associate it with any single figure supplement.
 
+
+
+supplementary-material-title-test-1	supplementary-material/caption/title	\*\*Warning\*\*: \_'XXXXXX' appears to have a title which is the beginning of a caption. Is this correct?\_
+
+supplementary-material-title-test-2	supplementary-material/caption/title	\*\*Error\*\*: \_title for XXXXXX must end with a full stop.\_
+
+supplementary-material-title-test-3	supplementary-material/caption/title	\*\*Warning\*\*: \_title for XXXXXX ends with 'vs.', which indicates that the title sentence may be split across title and caption.\_
+
+supplementary-material-title-test-4	supplementary-material/caption/title	\*\*Error\*\*: \_title for XXXXXX begins with a space, which is not allowed.\_
+
+supplementary-material-title-test-5	supplementary-material/caption/title	\*\*Warning\*\*: \_title for XXXXXX is 'XXXXXX' - should 'resource' be plural, i.e. 'resources'?.\_
+
+supplementary-material-title-test-6	supplementary-material/caption/title	\*\*Warning\*\*: \_title for XXXXXX is 'XXXXXX', which suggest the label should be in the format Supplementary file X instead.\_
+
+supplementary-material-title-test-7	supplementary-material/caption/title	\*\*Warning\*\*: \_title for XXXXXX is longer than 250 characters. Is it a caption instead?\_
+
+supplementary-material-title-test-8	supplementary-material/caption/title	\*\*Warning\*\*: \_title for XXXXXX contains XXXXXX sentences. Should the sentence\(s\) after the first be moved into the caption? Or is the title itself a caption \(in which case, please ask the authors for a title\)?\_
+
+
+
 ### Structure checks
 
 #### supplementary-material-test-1
@@ -377,6 +397,8 @@ If it is more than one, this will need support intervention to remove the extra 
 **Error**: _The id for table level source code must be the id of its ancestor table, followed by 'scode', followed by its position relative to other source data for the same table. The id for XXXXXX, 'XXXXXX' is not in this format. It should be 'XXXXXX' instead._
 
 **Action**: This error indicates a table-level source data file has an ID that does not conform to the standard format 'table0sdata0'. That is, Table 1—source code 1 should have an ID 'table1scode1', Table 2—source code 1 should have an ID 'table2scode1', Table 2—source code 2 should have an ID 'table2scode2', and so on. This will need to be corrected by the production vendor's support team.
+
+supplementary-material-child-conformance	supplementary-material/\*	\*\*Error\*\*: \_XXXXXX is not allowed as a child of supplementary-material.\_
 
 ## XML
 
