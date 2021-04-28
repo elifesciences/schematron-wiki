@@ -106,7 +106,7 @@ For changelog, click here. Updated dd/mm/yyy
 * Please provide the full page range for this reference.
 * Please check that the page range for this reference is correct.
 * Please check whether this In press reference has now been published and, if so, please provide the full citation details.
-* Please update this reference if this article is now in press. If it is still in preparation, it will need to be removed from the reference list and cited in the text as, for example 'Smith et al., in preparation'.
+* Please update this reference if this article is now in press. If it is still in preparation, it will need to be removed from the reference list and cited in the text as, for example 'Smith et al., in preparation. Alternatively, if this is available as a preprint, please can those details be provided so that we can add it to the reference list instead.'
 * Please provide the DOI for this reference.
 * Please confirm the title for this book.
 * Please provide the title for this reference.
