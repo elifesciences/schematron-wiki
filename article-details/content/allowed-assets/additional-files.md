@@ -116,7 +116,7 @@ This being said, when a source file covers multiple assets, it may be more appro
 
 Occasionally, authors will list titles and legends in their article file for additional files that have been submitted to databases or other external repositories. This is often because the files were originally provided as part of the submission to eLife but the editorial team encouraged them to be submitted to, for example, Dryad.
 
-Since we cannot list entries for additional files without including an actual file, the titles and legends provided need to be either removed or incorporated into the text wherever is appropriate. The dataset can be added to the main reference list and cited in the context of the related asset. The details from the orphaned legend can then be added that asset's own legend. For one example, see article [**10.7554/eLife.54350**](https://doi.org/10.7554/eLife.54350).
+Since we cannot list entries for additional files without including an actual file, the titles and legends provided need to be either removed or incorporated into the text wherever is appropriate. The dataset can be added to the main reference list and cited in the context of the related asset. The details from the orphaned legend can then be added to that asset's own legend. For one example, see article [**10.7554/eLife.54350**](https://doi.org/10.7554/eLife.54350).
 
 ![Originally supplied legend for Figure 1&#x2014;source data 1, with files hosted on Dryad](../../../.gitbook/assets/screen-shot-2021-04-27-at-13.01.50.png)
 
