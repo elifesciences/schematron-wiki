@@ -1,7 +1,7 @@
 ---
 description: >-
   Asset- and article-level source files, supplementary files and other
-  additional filess
+  additional files
 ---
 
 # Additional files
@@ -12,7 +12,7 @@ Besides the figures, figure supplements, tables and videos that are presented th
 
 ### Audio files
 
-At present, eLife cannot support inline audio-only playback so audio files \(as distinct from videos\) should be included as additional files. These are treated in all respects like [**Supplementary files**](additional-files.md#supplementary-files), but are labelled as as Audio file 1, Audio file 2, etc.
+At present, eLife cannot support inline audio-only playback so audio files \(as distinct from videos\) should be included as additional files. These are treated in all respects like [**Supplementary files**](additional-files.md#supplementary-files), but are labelled as Audio file 1, Audio file 2, etc.
 
 They are published in the Additional files section. A descriptive title should be provided for each file and a legend may be present as well. 
 
@@ -32,7 +32,7 @@ They are labelled as Reporting standard 1, Reporting standard 2, etc. A descript
 
 ### Source files \(article-level\)
 
-Source data and source code may be provided to aloow readers access to the raw data and any scripts that were used to process it. During submission, authors are encouraged to provide these files to aid the reviewers and, in the event of acceptance, to allow other groups to easily reproduce the work.
+Source data and source code may be provided to allow readers access to the raw data and any scripts that were used to process it. During submission, authors are encouraged to provide these files to aid the reviewers and, in the event of acceptance, to allow other groups to easily reproduce the work.
 
 In the event that the data is too large or extensive to be captured within one or two Excel files, it may be uploaded as a generated dataset to an external repository. In such cases, it should not be listed as a source data file but instead described in the [**Data availability section**](../data-availability.md). See [**below**](additional-files.md#additional-files-hosted-outside-the-article) for how to deal with cases where authors become confused on this point.
 
@@ -50,7 +50,7 @@ These files are labelled respectively Source data 1, Source data 2, etc. and Sou
 
 ![Article-level source data file in the PDF](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.43.41.png)
 
-### Source files \(asset-level
+### Source files \(asset-level\)
 
 Figures \(and their supplements\), videos and tables may be accompanied by the source data and/or source code that was used to generate them. The source data will usually consist of tables of raw data but may also include unprocessed images, editable version of charts provided as flat images, or multiple-page documents that cannot be typeset as single figures/figure supplements. Source code will usually comprise scripts that were used to process the data or to generate the graphs shown in figures.
 
@@ -108,7 +108,7 @@ Occasionally, this kind of issue can affect transparent reporting forms, with au
 
 ### Relationship to asset \(where applicable\)
 
-As indicated by the relevant schematron tests, asset-level source data and code should be relate directly to the asset with which it is associated. That is to say, if Figure 1—source data 1 relates only to Figure 1—figure supplement 2, it should be changed to Figure 1—figure supplement 2—source data 1. Likewise, if the title for source data at the article level indicates a relationship to a figure \(e.g. "Source data 1. Original data for Figure 5"\) it should be changed to asset-level source data for that figure.
+As indicated by the relevant schematron tests, asset-level source data and code should relate directly to the asset with which it is associated. That is to say, if Figure 1—source data 1 relates only to Figure 1—figure supplement 2, it should be changed to Figure 1—figure supplement 2—source data 1. Likewise, if the title for source data at the article level indicates a relationship to a figure \(e.g. "Source data 1. Original data for Figure 5"\) it should be changed to asset-level source data for that figure.
 
 This being said, when a source file covers multiple assets, it may be more appropriate to leave it as provided. For example, if Figure 2—source data 1 relates to both Figure 2 and Figure 2—figure supplement 1, it should remain associated directly with Figure 2. If a source code file \(at the article level\) relates to multiple figures, it is appropriate as Source code 1 since it would not be accurate to label it as source code for any one of the figures covered.
 
