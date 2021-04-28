@@ -114,7 +114,7 @@ This is the only way to add an 'In press' comment, as at the moment, it is not p
 
 In the reference list, an author may use different terms to 'in press' \(e.g. 'manuscript in preparation', 'in production', 'under review' etc\). If this is present, Exeter should leave the following author query during pre-editing.
 
-* Please update this reference if this article is now in press. If it is still in preparation, it will need to be removed from the reference list and cited in the text as, for example 'Smith et al., in preparation'.
+* Please update this reference if this article is now in press. If it is still in preparation, it will need to be removed from the reference list and cited in the text as, for example 'Smith et al., in preparation. Alternatively, if this is available as a preprint, please can those details be provided so that we can add it to the reference list instead.'.
 
 If the authors respond to say the article is now in press, the 'In press' field will need to be added to the reference \(see [**above**](journal-references.md#how-to-add-an-in-press-field)\). If the authors respond to say the article is still in preparation, the reference will need to be removed from the reference list. We would then add a plain text citation within the text, for example 'Smith et al., in preparation'. 
 
