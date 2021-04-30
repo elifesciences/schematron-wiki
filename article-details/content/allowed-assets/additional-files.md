@@ -231,25 +231,53 @@ In cases where the source data title or legend mentions multiple figure suppleme
 
 In cases where the source code title or legend mentions multiple figure supplements \(e.g. Source code for Figure 1–figure supplements 1–4"\) it is appropriate to leave it associated with the main figure \(Figure 1 in this example\) since it wouldn't be correct to associate it with any single figure supplement.
 
+#### supplementary-material-title-test-1
 
+**Warning**: _'XXXXXX' appears to have a title which is the beginning of a caption. Is this correct?_
 
-supplementary-material-title-test-1	supplementary-material/caption/title	\*\*Warning\*\*: \_'XXXXXX' appears to have a title which is the beginning of a caption. Is this correct?\_
+**Action**:
 
-supplementary-material-title-test-2	supplementary-material/caption/title	\*\*Error\*\*: \_title for XXXXXX must end with a full stop.\_
+#### supplementary-material-title-test-2
 
-supplementary-material-title-test-3	supplementary-material/caption/title	\*\*Warning\*\*: \_title for XXXXXX ends with 'vs.', which indicates that the title sentence may be split across title and caption.\_
+**Error**: _title for XXXXXX must end with a full stop._
 
-supplementary-material-title-test-4	supplementary-material/caption/title	\*\*Error\*\*: \_title for XXXXXX begins with a space, which is not allowed.\_
+**Action**:
 
-supplementary-material-title-test-5	supplementary-material/caption/title	\*\*Warning\*\*: \_title for XXXXXX is 'XXXXXX' - should 'resource' be plural, i.e. 'resources'?.\_
+#### supplementary-material-title-test-3
 
-supplementary-material-title-test-6	supplementary-material/caption/title	\*\*Warning\*\*: \_title for XXXXXX is 'XXXXXX', which suggest the label should be in the format Supplementary file X instead.\_
+**Warning**: _title for XXXXXX ends with 'vs.', which indicates that the title sentence may be split across title and caption._
 
-supplementary-material-title-test-7	supplementary-material/caption/title	\*\*Warning\*\*: \_title for XXXXXX is longer than 250 characters. Is it a caption instead?\_
+**Action**:
 
-supplementary-material-title-test-8	supplementary-material/caption/title	\*\*Warning\*\*: \_title for XXXXXX contains XXXXXX sentences. Should the sentence\(s\) after the first be moved into the caption? Or is the title itself a caption \(in which case, please ask the authors for a title\)?\_
+#### supplementary-material-title-test-4
 
+**Error**: _title for XXXXXX begins with a space, which is not allowed._
 
+**Action**:
+
+#### supplementary-material-title-test-5
+
+**Warning**: _title for XXXXXX is 'XXXXXX' - should 'resource' be plural, i.e. 'resources'?._
+
+**Action**:
+
+#### supplementary-material-title-test-6
+
+**Warning**: _title for XXXXXX is 'XXXXXX', which suggest the label should be in the format Supplementary file X instead._
+
+**Action**:
+
+#### supplementary-material-title-test-7
+
+**Warning**: _title for XXXXXX is longer than 250 characters. Is it a caption instead?_
+
+**Action**:
+
+#### supplementary-material-title-test-8
+
+**Warning**: _title for XXXXXX contains XXXXXX sentences. Should the sentence\(s\) after the first be moved into the caption? Or is the title itself a caption \(in which case, please ask the authors for a title\)?_
+
+**Action**: This warning indicates that the title for an additional file contains multiple fullstops.
 
 ### Structure checks
 
@@ -398,7 +426,11 @@ If it is more than one, this will need support intervention to remove the extra 
 
 **Action**: This error indicates a table-level source data file has an ID that does not conform to the standard format 'table0sdata0'. That is, Table 1—source code 1 should have an ID 'table1scode1', Table 2—source code 1 should have an ID 'table2scode1', Table 2—source code 2 should have an ID 'table2scode2', and so on. This will need to be corrected by the production vendor's support team.
 
-supplementary-material-child-conformance	supplementary-material/\*	\*\*Error\*\*: \_XXXXXX is not allowed as a child of supplementary-material.\_
+#### supplementary-material-child-conformance
+
+**Error**: _XXXXXX is not allowed as a child of supplementary-material._
+
+**Action**:
 
 ## XML
 
