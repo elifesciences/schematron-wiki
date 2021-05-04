@@ -235,19 +235,23 @@ In cases where the source code title or legend mentions multiple figure suppleme
 
 **Warning**: _'XXXXXX' appears to have a title which is the beginning of a caption. Is this correct?_
 
-**Action**:
+**Action**: This warning will fire if a letter in brackets is present at the start of a file's title, e.g. "\(a\) Overview of number of samples . . ." This usually means that no actual title has been provided by the authors and the first line of the legend \(usually a definition of part A/a if the file has multiple parts\) has been picked up as the title. If this warning appears pre-author, please ask the author to provide an overall title:
+
+* Please provide a single-sentence title describing the contents of this file.
+
+If this happens post-author, the author should be contacted by email to provide an overall title.
 
 #### supplementary-material-title-test-2
 
 **Error**: _title for XXXXXX must end with a full stop._
 
-**Action**:
+**Action**: This error indicates that a full stop is missing from the end of a file's title, or that the title ends with another character such as a space. If no full stop is present, one should be added. If an extra space is present after a full stop at the end of the title, this should be removed.
 
 #### supplementary-material-title-test-3
 
 **Warning**: _title for XXXXXX ends with 'vs.', which indicates that the title sentence may be split across title and caption._
 
-**Action**:
+**Action**: The authors may include the term 'vs.' in a title for an additional file, which 
 
 #### supplementary-material-title-test-4
 
