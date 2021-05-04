@@ -251,13 +251,13 @@ If this happens post-author, the author should be contacted by email to provide 
 
 **Warning**: _title for XXXXXX ends with 'vs.', which indicates that the title sentence may be split across title and caption._
 
-**Action**: The authors may include the term 'vs.' in a title for an additional file, which 
+**Action**: The authors may include the term 'vs.' in a title for an additional file, which can result in it being split on the full stop for this abbreviation rather than the actual end of the title. So, for example, "Results of experiment 1 vs. experiment 2." may end up being truncated to "Results of experiment 1 vs.", with the rest of the title placed at the start of the legend. This should be fixed by moving the remainder text up to complete the title; refer back to the original article file if required to determine the full title.
 
 #### supplementary-material-title-test-4
 
 **Error**: _title for XXXXXX begins with a space, which is not allowed._
 
-**Action**:
+**Action**: This error indicates that the first character in a file's title is a space. This should be removed.
 
 #### supplementary-material-title-test-5
 
