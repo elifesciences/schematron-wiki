@@ -275,13 +275,15 @@ If this happens post-author, the author should be contacted by email to provide 
 
 **Warning**: _title for XXXXXX is longer than 250 characters. Is it a caption instead?_
 
-**Action**: This warning fires if a title exceeds 250 characters. This might indicated that it should be part of the caption. 
+**Action**: This warning fires if a title exceeds 250 characters. This might indicated that it should be part of the caption. However, in most cases it will simply be a very long file title. 
 
 #### supplementary-material-title-test-8
 
 **Warning**: _title for XXXXXX contains XXXXXX sentences. Should the sentence\(s\) after the first be moved into the caption? Or is the title itself a caption \(in which case, please ask the authors for a title\)?_
 
-**Action**: This warning indicates that the title for an additional file contains multiple fullstops.
+**Action**: This warning indicates that the title for an additional file contains multiple full stops. This may be because multiple sentences have been included in the title, e.g. "Python script for determining relaxation parameters for two state model. Representative python script used to read in a table of peak heights as output from the sparky ‘rh’ or ‘Relaxation Peak Heights’ command, where the number of cycles has been entered as the time parameter." The second sentence should be moved to the start of the legend.
+
+Please note, however, that this warning may fire in cases where full stops are included in the title as part of species names or abbreviations \(such as 'vs.', mentioned above\). In these cases, the warning may be ignored.
 
 ### Structure checks
 
