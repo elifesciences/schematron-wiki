@@ -332,11 +332,15 @@ Dom Mitchell \(dom@doaj.org\)
 
 ### OVID
 
+OVID is a proprietary service that provides access to academic journals and bibliographic databases for subscribed users/institutions. Their primary focus is in Medicine/the health sciences. Their previous major product was MEDLINE, but this is now available via PubMed. 
 
+All eLife articles are sent to OVID. A zip package containing all article files is placed on their FTP for an article. They receive every version of an article \(PoA, VoR, V2 and silent correction\).
 
 #### Contacts
 
+Nir Karmi \(nir@tdnet.com\)
 
+Gidon Junge \(Gidon@tdnet.com\)
 
 ### ProQuest
 
