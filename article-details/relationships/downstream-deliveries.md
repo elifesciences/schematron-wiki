@@ -1,5 +1,5 @@
 ---
-description: Places we send eLife content to
+description: Places we send eLife content to.
 ---
 
 # Downstream Deliveries
@@ -81,6 +81,20 @@ description: Places we send eLife content to
         </td>
     </tr>
     <tr>
+      <td style="text-align:left">DOAJ</td>
+      <td style="text-align:left">Every VoR version</td>
+      <td style="text-align:left">
+        <p>&lt;b&gt;&lt;/b&gt;<a href="https://github.com/DOAJ/doaj/blob/master/docs/system/IncomingAPIArticle.md"><b>DOAJ JSON</b></a><b> </b>
+        </p>
+        <p>(derived from eLife JSON)</p>
+      </td>
+      <td style="text-align:left">?</td>
+      <td style="text-align:left">
+        <p>Posted to their</p>
+        <p>API endpoint</p>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">GoOA</td>
       <td style="text-align:left">First VoR version</td>
       <td style="text-align:left">
@@ -136,7 +150,7 @@ description: Places we send eLife content to
         </p>
         <p>(derived from JATS)</p>
       </td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Daily</td>
       <td style="text-align:left">SFTP</td>
     </tr>
     <tr>
@@ -203,20 +217,6 @@ description: Places we send eLife content to
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">DOAJ</td>
-      <td style="text-align:left">Every VoR version</td>
-      <td style="text-align:left">
-        <p>&lt;b&gt;&lt;/b&gt;<a href="https://github.com/DOAJ/doaj/blob/master/docs/system/IncomingAPIArticle.md"><b>DOAJ JSON</b></a><b> </b>
-        </p>
-        <p>(derived from eLife JSON)</p>
-      </td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p>Posted to their</p>
-        <p>API endpoint</p>
-      </td>
-    </tr>
-    <tr>
       <td style="text-align:left">EBSCO</td>
       <td style="text-align:left">?</td>
       <td style="text-align:left">?</td>
@@ -257,7 +257,19 @@ description: Places we send eLife content to
 
 ### DOAJ
 
+\*\*\*\*[**The Directory of Open Access Journals**](https://doaj.org/) lists open access journals and a subset of information for the articles therein. [**Here is the page for eLife**](https://doaj.org/toc/2050-084X). For each article the following information \(where present\) is sent to DOAJ:
 
+* DOI
+* Authors 
+  * names
+  * affiliations
+  * ORCIDs
+* Article title
+* Abstract
+* Keywords
+* Volume number
+* Month and year of publication
+* Full text article link on eLife site
 
 ### EBSCO
 
