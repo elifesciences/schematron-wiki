@@ -237,7 +237,17 @@ description: Places we send eLife content to.
 
 ### Cengage
 
+Cengage are sent the first VoR version of every eLife article. They are sent just the XML and PDF. 
 
+They render eLife content on their site, in an article page. Since we don't provide them with image files, these are omitted.
+
+#### Contacts
+
+Main contact - Steve Lee \(Steve.Lee@cengage.com\)
+
+Contractual matters - John Aceves \(john.aceves@cengage.com\)
+
+Technical questions - Brian Newman \(Brian.Newman@cengage.com\)
 
 ### CLOCKSS
 
