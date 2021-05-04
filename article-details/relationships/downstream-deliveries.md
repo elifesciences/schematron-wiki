@@ -272,11 +272,28 @@ For each eLife article the following information \(where present\) is sent to Cr
   * Affiliations
   * \(Group authors and individual members of that group will be provided\)
 * References
-  * 
-* 
+* Link to PDF
+* Link to XML
+* Link to full text HTML
+* Subject area\(s\)
+* Datasets \(including id and id-type\)
+
+For each eLife peer review material \(Decision letter an Author response\), the following is provided to Crossref:
+
+* Title \(which is the article title prefixed by 'Decision letter: ' or 'Author response: '\)
+* Authors \(authors of the peer review material, not the article\)
+  * ORCID \(and whether it's authenticated or not\)
+  * Given names
+  * Surnames
+  * Affiliations
+* Type of peer review material 
+* The DOI of the article that the material relates to
+
 Information on the Crossref Schema can be found [**here**](https://data.crossref.org/reports/help/schema_doc/4.4.2/index.html). 
 
+#### Contacts
 
+There are no specific contacts at Crossref. See the documentation above. Any problems need to be raised in the Support portal [**here**](https://support.crossref.org/hc/en-us).
 
 ### DOAJ
 
@@ -295,7 +312,7 @@ Information on the Crossref Schema can be found [**here**](https://data.crossref
 * eLocation ID
 * eISSN
 * Month and year of publication
-* Full text article link on eLife site
+* Link to full text HTML
 
 #### Contacts
 
