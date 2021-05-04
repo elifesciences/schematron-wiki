@@ -259,18 +259,6 @@ If this happens post-author, the author should be contacted by email to provide 
 
 **Action**: This error indicates that the first character in a file's title is a space. This should be removed.
 
-#### supplementary-material-title-test-5
-
-**Warning**: _title for XXXXXX is 'XXXXXX' - should 'resource' be plural, i.e. 'resources'?._
-
-**Action**:
-
-#### supplementary-material-title-test-6
-
-**Warning**: _title for XXXXXX is 'XXXXXX', which suggest the label should be in the format Supplementary file X instead._
-
-**Action**:
-
 #### supplementary-material-title-test-7
 
 **Warning**: _title for XXXXXX is longer than 250 characters. Is it a caption instead?_
