@@ -434,7 +434,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 **Error**: _XXXXXX is not allowed as a child of supplementary-material._
 
-**Action**:
+**Action**: This error indicates that a disallowed element has been included within an additional file's XML \(`<supplementary-material>`\). The only permitted elements are as follows: . If another element is present, it should be removed.
 
 ## XML
 
