@@ -253,6 +253,29 @@ description: Places we send eLife content to.
 
 ### Crossref
 
+Crossref is a DOI registration agency. All DOIs that are minted by eLife are registered at Crossref \(this does not extend to content within eLife articles which may be registered elsewhere, for example, an author may have generated a dataset that is deposited at a repository which registers its DOIs at a different agency, e.g. DataCite\).
+
+For each eLife article the following information \(where present\) is sent to Crossref:
+
+* License
+* Funding information
+  * Funder
+  * FundRef DOI
+  * Award ID
+* Abstract
+* Article title
+* Volume number
+* Authors
+  * ORCID \(and whether it's authenticated or not\)
+  * Given names
+  * Surnames
+  * Affiliations
+  * \(Group authors and individual members of that group will be provided\)
+* References
+  * 
+* 
+Information on the Crossref Schema can be found [**here**](https://data.crossref.org/reports/help/schema_doc/4.4.2/index.html). 
+
 
 
 ### DOAJ
@@ -261,15 +284,22 @@ description: Places we send eLife content to.
 
 * DOI
 * Authors 
-  * names
-  * affiliations
+  * names \(as one string\)
+  * affiliations \(as one string\)
   * ORCIDs
+  * \(For Group authors, only the group name will be provided, not the individual members of the group\)
 * Article title
 * Abstract
 * Keywords
 * Volume number
+* eLocation ID
+* eISSN
 * Month and year of publication
 * Full text article link on eLife site
+
+#### Contacts
+
+Dom Mitchell \(dom@doaj.org\)
 
 ### EBSCO
 
