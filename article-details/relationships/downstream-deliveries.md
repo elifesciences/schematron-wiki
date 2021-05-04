@@ -334,6 +334,8 @@ Dom Mitchell \(dom@doaj.org\)
 
 OVID is a proprietary service that provides access to academic journals and bibliographic databases for subscribed users/institutions. Their primary focus is in Medicine/the health sciences. Their previous major product was MEDLINE, but this is now available via PubMed. 
 
+OVID render bibliographic information for eLife articles on their site, and provide links to the full text at eLife's site as well as PubMed, PMC etc.
+
 All eLife articles are sent to OVID. A zip package containing all article files is placed on their FTP for an article. They receive every version of an article \(PoA, VoR, V2 and silent correction\).
 
 #### Contacts
@@ -368,7 +370,17 @@ Gidon Junge \(Gidon@tdnet.com\)
 
 ### Zendy
 
+Zendy is a digital library based in Saudi Arabia. Zendy will render eLife articles on their site.
 
+They receive every version of every eLife article. A zip package is delivered to their FTP for each article, containing the article XML, PDF and all assets.
+
+#### Contacts
+
+Kamran Kardan \(k.kardan@knowledgee.com\)
+
+Victoria Gevärsdotter \(v.gevarsdotter@zendy.io\)
+
+Stephen Lavery \(s.lavery@zendy.io\)
 
 
 
