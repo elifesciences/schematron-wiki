@@ -255,7 +255,7 @@ description: Places we send eLife content to.
 
 Crossref is a DOI registration agency. All DOIs that are minted by eLife are registered at Crossref \(this does not extend to content within eLife articles which may be registered elsewhere, for example, an author may have generated a dataset that is deposited at a repository which registers its DOIs at a different agency, e.g. DataCite\).
 
-For each eLife article the following information \(where present\) is sent to Crossref:
+For each eLife VoR the following information \(where present\) is sent to Crossref:
 
 * License
 * Funding information
@@ -289,6 +289,8 @@ For each eLife peer review material \(Decision letter an Author response\), the 
 * Type of peer review material 
 * The DOI of the article that the material relates to
 
+The information sent to Crossref for eLife PoAs is a subset of the information sent at VoR, derived from the submission in eJP.
+
 Information on the Crossref Schema can be found [**here**](https://data.crossref.org/reports/help/schema_doc/4.4.2/index.html). 
 
 #### Contacts
@@ -314,6 +316,8 @@ There are no specific contacts at Crossref. See the documentation above. Any pro
 * Month and year of publication
 * Link to full text HTML
 
+Every eLife article is sent to DOAJ, however not all version of that article. PoAs are not sent. This is because some downstream services may pick up \(from DOAJ\)  the first version and not update until 6 months later. All new versions \(after VoR publication\) are sent to DOAJ.
+
 #### Contacts
 
 Dom Mitchell \(dom@doaj.org\)
@@ -327,6 +331,10 @@ Dom Mitchell \(dom@doaj.org\)
 
 
 ### OVID
+
+
+
+#### Contacts
 
 
 
