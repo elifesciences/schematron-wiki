@@ -362,9 +362,9 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### fig-data-label
 
-**Error**: _Figure source data label \(XXXXXX\) is incorrect based on its position. Either it has been placed in the incorrect place, or the label is incorrect. Should the label be XXXXXX instead?_
+**Error**: _Figure source data label \(XXXXXX\) is incorrect based on its position. Either it has been placed under the wrong figure or the label is incorrect. Should the label be XXXXXX instead?_
 
-**Action**: This error indicates the labelling for a figure-level source data file does not match the sequence in which the other files of that type have been placed. An example would be Figure 1—source data 1, Figure 1—source data 3, Figure 1—source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action**: This error indicates the labelling for a figure-level source data file does not match the asset with which it is associated. For example, this will fire if Figure 1—source data 1 is placed as a child of Figure 1—figure supplement 1. Either the label will need to be updated or the file will need to be moved to be related to the correct figure/figure supplement.
 
 #### fig-code-test-2
 
@@ -380,9 +380,9 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### fig-code-label
 
-**Error**: _Figure source data label \(XXXXXX\) is incorrect based on its position. Either it has been placed in the incorrect place, or the label is incorrect. Should the label be XXXXXX instead?_
+**Error**: _Figure source data label \(XXXXXX\) is incorrect based on its position. Either it has been placed under the wrong figure, or the label is incorrect. Should the label be XXXXXX instead?_
 
-**Action:** This error indicates the labelling for a figure-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Figure 1—source code 1, Figure 1—source code 3, Figure 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action**: This error indicates the labelling for a figure-level source code file does not match the asset with which it is associated. For example, this will fire if Figure 1—source code 1 is placed as a child of Figure 1—figure supplement 1. Either the label will need to be updated or the file will need to be moved to be related to the correct figure/figure supplement.
 
 #### vid-data-test-2
 
@@ -398,9 +398,9 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### vid-data-label
 
-**Error**: _Video source data label \(XXXXXX\) is incorrect based on its position. Either it has been placed in the incorrect place, or the label is incorrect. Should the label be XXXXXX instead?_
+**Error**: _Video source data label \(XXXXXX\) is incorrect based on its position. Either it has been placed under the wrong video, or the label is incorrect. Should the label be XXXXXX instead?_
 
-**Action**: This error indicates the labelling for a video-level source data file does not match the sequence in which the other files of that type have been placed. An example would be Video 1—source data 1, Video 1—source data 3, Video 1—source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action**: This error indicates the labelling for a video-level source data file does not match the asset with which it is associated. For example, this will fire if Video 1—source data 1 is placed as a child of Video 2. Either the label will need to be updated or the file will need to be moved to be related to the correct video.
 
 #### vid-code-test-2
 
@@ -416,9 +416,9 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### vid-code-label
 
-**Error**: _Video source code label \(XXXXXX\) is incorrect based on its position. Either it has been placed in the incorrect place, or the label is incorrect. Should the label be XXXXXX instead?_
+**Error**: _Video source code label \(XXXXXX\) is incorrect based on its position. Either it has been placed under the wrong video, or the label is incorrect. Should the label be XXXXXX instead?_
 
-**Action**: This error indicates the labelling for a video-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Video 1—source code 1, Video 1—source code 3, Video 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action**: This error indicates the labelling for a video-level source code file does not match the asset with which it is associated. For example, this will fire if Video 1—source code 1 is placed as a child of Video 2. Either the label will need to be updated or the file will need to be moved to be related to the correct video.
 
 #### table-data-test-2
 
