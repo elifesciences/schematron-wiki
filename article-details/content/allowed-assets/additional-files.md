@@ -432,6 +432,12 @@ If it is more than one, this will need support intervention to remove the extra 
 
 **Action**: This error indicates a table-level source code file has an ID that does not conform to the standard format 'table0sdata0'. That is, Table 1—source data 1 should have an ID 'table1sdata1', Table 2—source data 1 should have an ID 'table2sdata1', Table 2—source data 2 should have an ID 'table2sdata2', and so on. This will need to be corrected by the production vendor's support team.
 
+#### table-data-label
+
+**Error**: _Table source data label \(XXXXXX\) is incorrect based on its position. Either it has been placed under the wrong table, or the label is incorrect. Should the label be XXXXXX instead?_
+
+**Action**: This error indicates the labelling for a table-level source data file does not match the asset with which it is associated. For example, this will fire if Table 1—source data 1 is placed as a child of Table 2. Either the label will need to be updated or the file will need to be moved to be related to the correct video.
+
 #### table-code-test-2
 
 **Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
@@ -446,9 +452,9 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### table-code-label
 
-**Error**: _Table source code label \(XXXXXX\) is incorrect based on its position. Either it has been placed in the incorrect place, or the label is incorrect. Should the label be XXXXXX instead?_
+**Error**: _Table source code label \(XXXXXX\) is incorrect based on its position. Either it has been placed iunder the wrong table, or the label is incorrect. Should the label be XXXXXX instead?_
 
-**Action**: This error indicates the labelling for a table-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Table 1—source code 1, Table 1—source code 3, Table 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action**: This error indicates the labelling for a table-level source code file does not match the asset with which it is associated. For example, this will fire if Table 1—source code 1 is placed as a child of Table 2. Either the label will need to be updated or the file will need to be moved to be related to the correct video.
 
 #### supplementary-material-child-conformance
 
