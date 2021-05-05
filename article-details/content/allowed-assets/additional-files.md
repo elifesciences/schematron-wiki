@@ -452,7 +452,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### table-code-label
 
-**Error**: _Table source code label \(XXXXXX\) is incorrect based on its position. Either it has been placed iunder the wrong table, or the label is incorrect. Should the label be XXXXXX instead?_
+**Error**: _Table source code label \(XXXXXX\) is incorrect based on its position. Either it has been placed under the wrong table, or the label is incorrect. Should the label be XXXXXX instead?_
 
 **Action**: This error indicates the labelling for a table-level source code file does not match the asset with which it is associated. For example, this will fire if Table 1—source code 1 is placed as a child of Table 2. Either the label will need to be updated or the file will need to be moved to be related to the correct video.
 
