@@ -360,6 +360,12 @@ If it is more than one, this will need support intervention to remove the extra 
 
 **Action**: This error indicates a figure-level source data file has an ID that does not conform to the standard format 'fig0sdata0'. That is, Figure 1—source data 1 should have an ID 'fig1sdata1', Figure 2—source data 1 should have an ID 'fig2sdata1', Figure 2—source data 2 should have an ID 'fig2sdata2', and so on. This will need to be corrected by the production vendor's support team.
 
+#### fig-data-label
+
+**Error**: _Figure source data label \(XXXXXX\) is incorrect based on its position. Either it has been placed in the incorrect place, or the label is incorrect. Should the label be XXXXXX instead?_
+
+Action: This error indicates 
+
 #### fig-code-test-2
 
 **Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
