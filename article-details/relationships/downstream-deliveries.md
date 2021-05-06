@@ -357,7 +357,7 @@ Dom Mitchell \(dom@doaj.org\)
 
 ### Google Scholar
 
-Google Scholar pull eLife content directly from [**elifesciences.org**](https://elifesciences.org/). The process is a quite esoteric; understanding the cause of any issues is almost impossible to determine on our end. However, typically an eLife article should appear on Google Scholar approximately 2 weeks after publication.
+Google Scholar pull eLife content directly from [**elifesciences.org**](https://elifesciences.org/). The process is a quite esoteric; the cause of any issues is almost impossible to determine on our end. However, typically an eLife article should appear on Google Scholar approximately 2 weeks after publication.
 
 #### Contacts
 
