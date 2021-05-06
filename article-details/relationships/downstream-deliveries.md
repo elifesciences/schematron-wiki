@@ -372,7 +372,7 @@ Gidon Junge \(Gidon@tdnet.com\)
 
 ### PubMed
 
-\*\*\*\*[**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) is a free bibliographic database of \(ostensibly\) biomedical and life science content. In reality they hold records for varying other types of content as well. PubMed is not to be confused with PubMed Central, which is a separate digital repository \(more on that [**below**](downstream-deliveries.md#pubmed-central-pmc)\).
+\*\*\*\*[**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) is a free bibliographic database containing \(ostensibly\) biomedical and life science content. In reality they hold records for varying other types of content as well. PubMed is not to be confused with PubMed Central, which is a separate digital repository \(more on that [**below**](downstream-deliveries.md#pubmed-central-pmc)\).
 
 PubMed holds a record for each eLife article. This is sent to them via FTP. Content is sent in the [**PubMed XML tagged format**](https://www.ncbi.nlm.nih.gov/books/NBK3828/#publisherhelp.PubMed_XML_Tagged_Format)**,** which is derived from the JATS XML for an article. Help on the PubMed XML can be found [**here**](https://www.ncbi.nlm.nih.gov/books/NBK3828/).
 
