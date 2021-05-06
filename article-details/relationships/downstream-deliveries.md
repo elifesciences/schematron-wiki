@@ -109,6 +109,13 @@ description: Places we send eLife content to.
       <td style="text-align:left">FTP</td>
     </tr>
     <tr>
+      <td style="text-align:left">Google Scholar</td>
+      <td style="text-align:left">PoA and VoR</td>
+      <td style="text-align:left">Taken from eLife website</td>
+      <td style="text-align:left">?</td>
+      <td style="text-align:left">Pulled directly from the eLife site</td>
+    </tr>
+    <tr>
       <td style="text-align:left">OVID</td>
       <td style="text-align:left">
         <p>Every PoA and VoR</p>
@@ -347,6 +354,14 @@ Dom Mitchell \(dom@doaj.org\)
 ### GoOA
 
 
+
+### Google Scholar
+
+Google Scholar pull eLife content directly from [**elifesciences.org**](https://elifesciences.org/). The process is a quite esoteric; understanding the cause of any issues is almost impossible to determine on our end. However, typically an eLife article should appear on Google Scholar approximately 2 weeks after publication.
+
+#### Contacts
+
+The relationship with Google Scholar is dealt with by Maël Plaine. Any issues reported by authors to Production should be referred to Maël who will contact Google Scholar 
 
 ### OVID
 
