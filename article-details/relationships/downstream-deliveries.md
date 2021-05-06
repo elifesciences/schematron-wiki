@@ -372,9 +372,9 @@ Gidon Junge \(Gidon@tdnet.com\)
 
 ### PubMed
 
-\*\*\*\*[**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) is a free bibliographic database containing \(ostensibly\) biomedical and life science content. In reality they hold records for varying other types of content as well. PubMed is not to be confused with PubMed Central, which is a separate digital repository \(more on that [**below**](downstream-deliveries.md#pubmed-central-pmc)\).
+\*\*\*\*[**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) is a free bibliographic database containing biomedical and life science content. PubMed is not to be confused with PubMed Central, which is a separate digital repository \(more on that [**below**](downstream-deliveries.md#pubmed-central-pmc)\).
 
-PubMed holds a record for each eLife article. This is sent to them via FTP. Content is sent in the [**PubMed XML tagged format**](https://www.ncbi.nlm.nih.gov/books/NBK3828/#publisherhelp.PubMed_XML_Tagged_Format)**,** which is derived from the JATS XML for an article. Help on the PubMed XML can be found [**here**](https://www.ncbi.nlm.nih.gov/books/NBK3828/).
+PubMed holds a record for each eLife article. This is sent to them via SFTP. Content is sent in the [**PubMed XML tagged format**](https://www.ncbi.nlm.nih.gov/books/NBK3828/#publisherhelp.PubMed_XML_Tagged_Format)**,** which is derived from the JATS XML for an article. Help on the PubMed XML can be found [**here**](https://www.ncbi.nlm.nih.gov/books/NBK3828/).
 
 For each article the following information \(where present\) is sent to PubMed:
 
@@ -415,6 +415,10 @@ Errors on PubMed can be corrected via the [**PubMed Data Management System**](ht
 There are no contacts for PubMed. The data management system can be used to ask for help.
 
 ### PubMed Central \(PMC\)
+
+\*\*\*\*[**PubMed Central**](https://www.ncbi.nlm.nih.gov/pmc/) is a digital repository that containing biomedical and life sciences journal literature. 
+
+Journal articles are supplied to PubMed in JATS XML format. A zip for every eLife article VoR is delivered to them via FTP. There are many different version of JATS they accept,  eLife currently uses Archiving and Interchange version 1.1 \(this is subject to change in the future\). 
 
 
 
