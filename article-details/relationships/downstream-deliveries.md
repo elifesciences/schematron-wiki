@@ -361,7 +361,7 @@ Google Scholar pull eLife content directly from [**elifesciences.org**](https://
 
 #### Contacts
 
-The relationship with Google Scholar is dealt with by Maël Plaine. Any issues reported by authors to Production should be referred to Maël who will contact Google Scholar 
+The relationship with Google Scholar is dealt with by Maël Plaine at eLife. Any issues reported by authors to Production should be referred to Maël who will contact Google Scholar.
 
 ### OVID
 
