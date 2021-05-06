@@ -111,7 +111,7 @@ description: Places we send eLife content to.
     <tr>
       <td style="text-align:left">Google Scholar</td>
       <td style="text-align:left">PoA and VoR</td>
-      <td style="text-align:left">Taken from eLife website</td>
+      <td style="text-align:left"></td>
       <td style="text-align:left">?</td>
       <td style="text-align:left">Pulled directly from the eLife site</td>
     </tr>
