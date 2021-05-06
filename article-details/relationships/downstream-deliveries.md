@@ -410,7 +410,9 @@ Finally, note that the PubMed files are placed under `batch/` within the particu
 
 Errors on PubMed can be corrected via the [**PubMed Data Management System**](https://www.ncbi.nlm.nih.gov/pubmed/management/publisher/), which requires a login. Contact the Production team if you need these details.
 
+#### Contacts
 
+There are no contacts for PubMed. The data management system can be used to ask for help.
 
 ### PubMed Central \(PMC\)
 
