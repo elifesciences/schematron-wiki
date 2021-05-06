@@ -419,7 +419,7 @@ The files that were sent to PubMed can be found in the following Amazon S3 bucke
 
 `s3://elife-poa-packaging/pubmed/published/`
 
-The files are placed based on the date they are sent, so if you are looking to find a particular file for a particular article, ensure you know the publication date for the _version_ you are looking for. Version here is important, because PubMed is supplied XML for both PoA and VoR. If you are checking what was sent for the VoR, you will need to look for the VoR publication date.
+The files are placed based on the date they are sent, so if you are looking to find a particular file for a particular article, ensure you know the publication date for the _version_ you are looking for. Version here is important, because PubMed is supplied XML for both PoA and VoR. If you are checking what was sent for the VoR, you will need to look for the VoR publication date. Note that silent corrections are not sent to PubMed. Any changes to content which is presented on PubMed and is corrected via Silent Correction, will not automatically update on PubMed, because the files will not be passed to them. Instead these changes will have to be made in their data management system. 
 
 Finally, note that the PubMed files are placed under `batch/` within the particular folder. They will be named something like `elife-pubmed-66165-20210504164509.xml`
 
@@ -433,7 +433,7 @@ There are no contacts for PubMed. The data management system can be used to ask 
 
 \*\*\*\*[**PubMed Central**](https://www.ncbi.nlm.nih.gov/pmc/) is a digital repository that containing biomedical and life sciences journal literature. 
 
-Journal articles are supplied to PubMed in JATS XML format. A zip for every eLife article VoR is delivered to them via FTP. There are many different version of JATS they accept,  eLife currently uses Archiving and Interchange version 1.1 \(this is subject to change in the future\). 
+Journal articles are supplied to PubMed in JATS XML format. A zip for every eLife article VoR is delivered to them via FTP. There are many different version of JATS they accept,  eLife currently uses Archiving and Interchange version 1.1 \(this is subject to change in the future\). The zip contains JATS XML 
 
 
 
