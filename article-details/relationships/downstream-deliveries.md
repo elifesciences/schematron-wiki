@@ -237,7 +237,9 @@ description: Places we send eLife content to.
 
 ### Cengage
 
-Cengage are sent the first VoR version of every eLife article. They are sent just the XML and PDF. 
+Cengage is a proprietary content aggregator. For subscribed users, they provide access to digital content.
+
+They are sent the first VoR version of every eLife article. They are sent just the XML and PDF. 
 
 They render eLife content on their site, in an article page. Since we don't provide them with image files, these are omitted.
 
@@ -303,6 +305,8 @@ The information sent to Crossref for eLife PoAs is a subset of the information s
 
 Information on the Crossref Schema can be found [**here**](https://data.crossref.org/reports/help/schema_doc/4.4.2/index.html). 
 
+To access the files that have been provided to crossref \(and manually upload files to fix any issues, as required\), you must first login to [**their administration portal**](https://doi.crossref.org/servlet/useragent?func=showHome). You can then search for the article.
+
 #### Contacts
 
 There are no specific contacts at Crossref. See the documentation above. Any problems need to be raised in the Support portal [**here**](https://support.crossref.org/hc/en-us).
@@ -319,14 +323,18 @@ There are no specific contacts at Crossref. See the documentation above. Any pro
   * \(For Group authors, only the group name will be provided, not the individual members of the group\)
 * Article title
 * Abstract
-* Keywords
+* Keywords \(6 max\)
 * Volume number
 * eLocation ID
 * eISSN
 * Month and year of publication
 * Link to full text HTML
 
+Note that formatting \(subscript, superscript, italics, maths etc.\) cannot be supplied to DOAJ. Content is sent as plain text. Maths in abstracts are replaced with the text '\[Formula: see text\]'. 
+
 Every eLife article is sent to DOAJ, however not all version of that article. PoAs are not sent. This is because some downstream services may pick up \(from DOAJ\)  the first version and not update until 6 months later. All new versions \(after VoR publication\) are sent to DOAJ.
+
+Since the content is posted via API to DOAJ, there is no place to check what we have sent them, other than the page for that article on DOAJ. If there are issues with the content sent to them, Graham Nott should be contacted first, who will then be able to check what we sent them \(by regenerating the data locally\).
 
 #### Contacts
 
@@ -363,6 +371,44 @@ Gidon Junge \(Gidon@tdnet.com\)
 
 
 ### PubMed
+
+\*\*\*\*[**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) is a free bibliographic database of \(ostensibly\) biomedical and life science content. In reality they hold records for varying other types of content as well. PubMed is not to be confused with PubMed Central, which is a separate digital repository \(more on that [**below**](downstream-deliveries.md#pubmed-central-pmc)\).
+
+PubMed holds a record for each eLife article. This is sent to them via FTP. Content is sent in the [**PubMed XML tagged format**](https://www.ncbi.nlm.nih.gov/books/NBK3828/#publisherhelp.PubMed_XML_Tagged_Format)**,** which is derived from the JATS XML for an article. Help on the PubMed XML can be found [**here**](https://www.ncbi.nlm.nih.gov/books/NBK3828/).
+
+For each article the following information \(where present\) is sent to PubMed:
+
+* DOI
+* Authors 
+  * names \(as one string\)
+  * affiliations \(as one string\)
+  * ORCIDs
+  * \(Group authors and individual members of that group will be provided\)
+  * Equal contribution status \(note that this is not as sophisticated as elsewhere, it's not possible to denote more than one group of authors who equally contributed\)
+* Article title
+* Abstract
+* Keywords
+* Volume number
+* eLocation ID
+* eISSN
+* Full publication date
+* History dates
+  * Received date
+  * Accepted date
+* Copyright information
+* Funding
+  * Funder
+  * Award ID
+
+The files that were sent to PubMed can be found in the following Amazon S3 bucket:
+
+`s3://elife-poa-packaging/pubmed/published/`
+
+The files are placed based on the date they are sent, so if you are looking to find a particular file for a particular article, ensure you know the publication date for the _version_ you are looking for. Version here is important, because PubMed is supplied XML for both PoA and VoR. If you are checking what was sent for the VoR, you will need to look for the VoR publication date.
+
+Finally note, that the PubMed files are placed under `batch/` within the particular folder. They will be named something like `elife-pubmed-66165-20210504164509.xml`
+
+Errors on PubMed can be corrected via the [**PubMed Data Management System**](https://www.ncbi.nlm.nih.gov/pubmed/management/publisher/), which requires a login. Contact the Production team if you need these details.
 
 
 
