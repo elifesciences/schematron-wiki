@@ -43,16 +43,16 @@ Figure files should be:
 * in portrait, not landscape orientation. We can accommodate figures of different aspect ratios \(e.g. wide, tall etc\) but they will always be presented in portrait orientation in the PDF \(see more [**here**](figures.md#figure-orientation)\)
 * a single figure in a single file \(multiple figures in a figure file is not allowed, for example a PDF file with images across numerous pages\)
 * comprised of a single layer \(multiple layers should be avoided\)
-* without figure legends in the image \(they may be included in the image file by the authors for the purposes of peer review/PoA, but these should then be removed by Exeter during processing\)
+* without figure legends in the image \(they may be included in the image file by the authors for the purposes of peer review/PoA, but these should then be removed by the production vendors during processing\)
 * with whitespace trimmed around the image.
 
 For more information about how figures are processed during production, see [**here**](figures.md#elife-figure-processing). 
 
 ## Common author queries
 
-The main queries we receive from authors about figures are to do with replacing figures. This may be because the wrong figure was uploaded, or something went wrong during typesetting to cause figures to be switched. If the changes are minor, the replacement figures can be passed on to Exeter via Kriya notes or email. If the changes are substantive \(i.e. there are changes to data or the figures look very different from the original submitted versions\), let the authors know that we need to run the updated figures by our editorial team.The editorial team may choose to run the changes by the editors and reviewers for their approval. 
+The main queries we receive from authors about figures are to do with replacing figures. This may be because the wrong figure was uploaded, or something went wrong during typesetting to cause figures to be switched. If the changes are minor, the replacement figures can be passed on to the production vendors via Kriya notes or email. If the changes are substantive \(i.e. there are changes to data or the figures look very different from the original submitted versions\), let the authors know that we need to run the updated figures by our editorial team.The editorial team may choose to run the changes by the editors and reviewers for their approval. 
 
-If authors have queries or complaints about the resolution of their figures, we first need to check the files they have submitted follow the requirements [**above**](figures.md#figure-files). If not, share the requirements with them and ask for updated figure files. If they have already followed the guidelines, Exeter will need to be consulted to see if the resolution can be improved further - although in some cases this will not be possible. If the figure is very high resolution, it may be appropriate for the figure to be included as source data or uploaded to a dedicated repository. 
+If authors have queries or complaints about the resolution of their figures, we first need to check the files they have submitted follow the requirements [**above**](figures.md#figure-files). If not, share the requirements with them and ask for updated figure files. If they have already followed the guidelines, the production vendors will need to be consulted to see if the resolution can be improved further - although in some cases this will not be possible. If the figure is very high resolution, it may be appropriate for the figure to be included as source data or uploaded to a dedicated repository. 
 
 ## Resolution of figures
 
@@ -303,13 +303,13 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 **Error:** _fig must have a label._
 
-**Action:** All figures and figure supplements in research content should be numbered sequentially and thus have a label 'Figure 0' or 'Figure supplement 0' \(where 0 is one or more digits, based on the sequence of the numbered figure\). This error will fire if a figure does not have a label and will need to be corrected by Exeter.
+**Action:** All figures and figure supplements in research content should be numbered sequentially and thus have a label 'Figure 0' or 'Figure supplement 0' \(where 0 is one or more digits, based on the sequence of the numbered figure\). This error will fire if a figure does not have a label and will need to be corrected by the production vendors.
 
 #### feat-fig-test-3
 
 **Warning:** _fig doesn't have a label. Is this correct?_
 
-**Action:** [**Feature content**](../feature-content.md) figures do not always require labels. However, there is a warning if a figure does not have the label 'Figure 0' \(where 0 is one or more digits, based on the sequence of the numbered figure\). Check the original submitted document to see whether there should be a label. If so, this will need to be added by Exeter. If the original version does not have a label, this is ok to leave. For example, in 58965:
+**Action:** [**Feature content**](../feature-content.md) figures do not always require labels. However, there is a warning if a figure does not have the label 'Figure 0' \(where 0 is one or more digits, based on the sequence of the numbered figure\). Check the original submitted document to see whether there should be a label. If so, this will need to be added by the production vendors. If the original version does not have a label, this is ok to leave. For example, in 58965:
 
 ![An example of a figure with no label in Feature content](../../../.gitbook/assets/screenshot-2020-07-08-at-16.12.34.png)
 
@@ -321,19 +321,19 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 * Please provide the title for this figure.
 
-Compare with the original submission on EJP - If the caption element was present in the figure file or original manuscript submitted but missing in the XML this will need to be added. Exeter support will need to fix this.
+Compare with the original submission on EJP - If the caption element was present in the figure file or original manuscript submitted but missing in the XML this will need to be added. The production vendor support team will need to fix this.
 
 #### final-fig-test-4
 
 **Error:** _XXXXXX has no title or caption \(caption element\)._
 
-**Action:** This warning will appear at the post-author stages if a figure has no title or caption element. Check whether an author query was added at pre-editing requesting this from the author. If this author query was not present, check the submitted manuscript file or figure file for the figure title. If this was not provided, the authors will need to be asked for this. Exeter support will need to fix this when the information is provided.
+**Action:** This warning will appear at the post-author stages if a figure has no title or caption element. Check whether an author query was added at pre-editing requesting this from the author. If this author query was not present, check the submitted manuscript file or figure file for the figure title. If this was not provided, the authors will need to be asked for this. The production vendor support team will need to fix this when the information is provided.
 
 #### pre-fig-test-5
 
 **Warning:** _XXXXXX does not have a title._
 
-**Action:** This warning will fire at the pre-author stages if a figure has no title. Compare with the original submission on EJP - If the caption element was present in the figure file or original manuscript submitted but missing in the XML this will need to be added. Exeter support will need to fix this.
+**Action:** This warning will fire at the pre-author stages if a figure has no title. Compare with the original submission on EJP - If the caption element was present in the figure file or original manuscript submitted but missing in the XML this will need to be added. The production vendor support team will need to fix this.
 
  If this has not been provided, the following author query should be left:
 
@@ -345,7 +345,7 @@ Compare with the original submission on EJP - If the caption element was present
 
 **Action:** This warning will appear at the post-author stages if a figure has no title. Check whether an author query was added at pre-editing requesting this from the author. If this author query was not present, check the submitted manuscript file or figure file for the figure title. If this was not provided, the authors will need to be asked for this.
 
-Exeter support will need to fix this when the information is provided.
+The production vendor support team will need to fix this when the information is provided.
 
 #### fig-test-6
 
@@ -368,7 +368,7 @@ If no file is present because the figure was provided as a multi-page file, and 
 
 **Error:** _fig must have a graphic._
 
-**Action:** This warning will fire at the post-author stages if no file has been provided for a figure or figure supplement. Check on eJP to see whether this figure was originally provided - if so, Exeter will need to add it back in. If not, the authors will need to be asked for the file. 
+**Action:** This warning will fire at the post-author stages if no file has been provided for a figure or figure supplement. Check on eJP to see whether this figure was originally provided - if so, the production vendors will need to add it back in. If not, the authors will need to be asked for the file. 
 
 #### pre-fig-specific-test-2
 
@@ -392,7 +392,7 @@ If multiple figures are out of sequence, leave the following query for the autho
 
 **Error:** _XXXXXX does not appear in sequence which is incorrect. Relative to the other figures it is placed in position XXXXXX._
 
-**Action:** Figures are automatically placed directly after their first citation. ****This error usually appears if the authors have cited figures out of order. For example, if they refer to Figure 3 before Figure 2, this results in Figure 3 being placed before Figure 2. The authors will need to be asked to provide in-sequence citations or confirm the figures can be renumbered. If the citations are not out of order, Exeter support will need to fix this.
+**Action:** Figures are automatically placed directly after their first citation. ****This error usually appears if the authors have cited figures out of order. For example, if they refer to Figure 3 before Figure 2, this results in Figure 3 being placed before Figure 2. The authors will need to be asked to provide in-sequence citations or confirm the figures can be renumbered. If the citations are not out of order, the production vendor support team will need to fix this.
 
 #### fig-specific-test-3
 
@@ -446,31 +446,31 @@ Make sure the 'Appendix 0—figure 0' text in the query is updated with the appe
 
 **Error:** _fig in the body of the article which has a @specific-use='child-fig' must have a label in the format 'Figure 0—figure supplement 0.' \(where 0 is one or more digits\)._
 
-**Action:** __All figure supplements in research content should have the label 'Figure 0—figure supplement 0' \(where 0 is one or more digits, based on the sequence of the numbered figure\). This error will fire if a figure supplement does not have this label. Exeter support will need to fix this. 
+**Action:** __All figure supplements in research content should have the label 'Figure 0—figure supplement 0' \(where 0 is one or more digits, based on the sequence of the numbered figure\). This error will fire if a figure supplement does not have this label. The production vendors support team will need to fix this. 
 
 #### fig-sup-test-3
 
 **Error:** _XXXXXX does not start with the main figure number it is associated with - XXXXXX._
 
-**Action:** __All figure supplements in research content should have the label 'Figure 0—figure supplement 0' \(where 0 is one or more digits, based on the sequence of the numbered figure\). This error will fire if a figure supplement has a label which doesn't begin with the figure number it is associated with \(for example if Figure 2—figure supplement 1 is associated with Figure 1\). Exeter will need to check the original submission to see which figure the supplement should be associated and fix accordingly. If it is unclear in the original submission, the production team should be queried.
+**Action:** __All figure supplements in research content should have the label 'Figure 0—figure supplement 0' \(where 0 is one or more digits, based on the sequence of the numbered figure\). This error will fire if a figure supplement has a label which doesn't begin with the figure number it is associated with \(for example if Figure 2—figure supplement 1 is associated with Figure 1\). The production vendors will need to check the original submission to see which figure the supplement should be associated and fix accordingly. If it is unclear in the original submission, the production team should be queried.
 
 #### fig-sup-test-4
 
 **Error:** _XXXXXX does not appear in sequence which is incorrect. Relative to the other figures it is placed in position XXXXXX._
 
-**Action:** This warning usually appears if the authors have added citations for figure supplements during proofing. Exeter will need to re-order the figures so they appear in sequence. 
+**Action:** This warning usually appears if the authors have added citations for figure supplements during proofing. The production vendors will need to re-order the figures so they appear in sequence. 
 
 #### fig-sup-test-5
 
 **Error:** _XXXXXX is in position XXXXXX, which means either the label or the placement incorrect._
 
-**Action:** This warning usually appears if the authors have added citations for figure supplements during proofing. Exeter will need to re-order the figures so they appear in sequence. 
+**Action:** This warning usually appears if the authors have added citations for figure supplements during proofing. The production vendors will need to re-order the figures so they appear in sequence. 
 
 #### fig-sup-test-6
 
 **Error:** _XXXXXX label ends with XXXXXX, but the id \(XXXXXX\) ends with XXXXXX, so one must be incorrect._
 
-**Action:** This error will fire if a figure's ID and its label do not match. For example in the XML below, the figure ID is fig6s1 but the label is Figure 6_—_figure supplement 6. If this appears at pre-editing, check whether the figure ID or label is correct by comparing against the submission from eJP - Exeter will need to correct the XML. If this is at post-author stages, compare against the submission from eJP, and check for any correspondence with the authors in case they have asked for figures to be relabelled. Exeter will need to correct the XML.
+**Action:** This error will fire if a figure's ID and its label do not match. For example in the XML below, the figure ID is fig6s1 but the label is Figure 6_—_figure supplement 6. If this appears at pre-editing, check whether the figure ID or label is correct by comparing against the submission from eJP - the production vendors will need to correct the XML. If this is at post-author stages, compare against the submission from eJP, and check for any correspondence with the authors in case they have asked for figures to be relabelled. The production vendors will need to correct the XML.
 
 ```markup
 <fig-group>
@@ -489,13 +489,13 @@ Make sure the 'Appendix 0—figure 0' text in the query is updated with the appe
 
 **Error:** _Author Response fig must have a label._
 
-**Action:** Author response images must have the label 'Author response image X'. This error will fire if an author response image does not have a label and will need to be corrected by Exeter.
+**Action:** Author response images must have the label 'Author response image X'. This error will fire if an author response image does not have a label and will need to be corrected by the production vendors.
 
 #### pre-ar-fig-test-3
 
 **Warning:** _Author Response fig does not have graphic. Ensure author query is added asking for file._
 
-**Action:** This warning will fire at the pre-author stages if no file has been provided for an author response image. Production will need to be queried to check the AWS bucket to see if this was provided in the decision letter, and will send the image to Exeter if so. If it wasn't, please leave the following query.
+**Action:** This warning will fire at the pre-author stages if no file has been provided for an author response image. Production will need to be queried to check the AWS bucket to see if this was provided in the decision letter, and will send the image to the production vendors if so. If it wasn't, please leave the following query.
 
 * Please provide the image file for this figure.
 
@@ -503,7 +503,7 @@ Make sure the 'Appendix 0—figure 0' text in the query is updated with the appe
 
 **Error:** _Author Response fig must have a graphic._
 
-**Action:** This error will fire at the post-author stages if no file has been provided for an author response image. Check the AWS bucket to see if this was provided in the decision letter and send the image to Exeter to replace if so. If it wasn't, editorial will need to be asked for this.
+**Action:** This error will fire at the post-author stages if no file has been provided for an author response image. Check the AWS bucket to see if this was provided in the decision letter and send the image to the production vendors to replace if so. If it wasn't, editorial will need to be asked for this.
 
 #### pre-ar-fig-position-test
 
@@ -515,65 +515,65 @@ Make sure the 'Appendix 0—figure 0' text in the query is updated with the appe
 
 **Error:** _XXXXXX does not appear in sequence which is incorrect. Relative to the other AR images it is placed in position XXXXXX._
 
-**Action:** This error will fire if the author response images in the author response letter are placed out of sequence. This may happen if the authors have cited the figures out of order. If it is clear that the authors are trying to change the order of figures, the production team will consult editorial to confirm this is ok. The figures will then need to be re-ordered according to what the authors have requested. However if the authors haven't indicated that the figures should be re-ordered, Exeter will need to correct the sequence of author response images. 
+**Action:** This error will fire if the author response images in the author response letter are placed out of sequence. This may happen if the authors have cited the figures out of order. If it is clear that the authors are trying to change the order of figures, the production team will consult editorial to confirm this is ok. The figures will then need to be re-ordered according to what the authors have requested. However if the authors haven't indicated that the figures should be re-ordered, the production vendors will need to correct the sequence of author response images. 
 
 #### resp-fig-test-2
 
 **Error:** _fig must have a label._
 
-**Action:** This error will fire __if an author response image has no label. Figures in the author response letter should have a label in the format 'Author response image X.' or 'Chemical Structure X.' or 'Scheme X.' Check what the correct label should be by comparing with the decision letter/author response document from the AWS bucket. This will need to be corrected by Exeter.
+**Action:** This error will fire __if an author response image has no label. Figures in the author response letter should have a label in the format 'Author response image X.' or 'Chemical Structure X.' or 'Scheme X.' Check what the correct label should be by comparing with the decision letter/author response document from the AWS bucket. This will need to be corrected by the production vendors.
 
 #### reply-fig-test-2
 
 **Error:** _fig label in author response must be in the format 'Author response image 1.', or 'Chemical Structure 1.', or 'Scheme 1.'._
 
-**Action:** This error will fire __if an author response image has a label other than 'Author response image 0.' or 'Chemical Structure 0.' or 'Scheme 0.' Correct any typos and if needed, check what the correct label should be by comparing with the decision letter/author response document from the AWS bucket. This will need to be corrected by Exeter.
+**Action:** This error will fire __if an author response image has a label other than 'Author response image 0.' or 'Chemical Structure 0.' or 'Scheme 0.' Correct any typos and if needed, check what the correct label should be by comparing with the decision letter/author response document from the AWS bucket. This will need to be corrected by the production vendors.
 
 #### dec-fig-test-1
 
 **Error:** _fig must have a label._
 
-**Action:** This error will fire __if a figure in the decision letter has no label. Figures in the decision letter should have a label in the format 'Decision letter image X.' This will need to be corrected by Exeter.
+**Action:** This error will fire __if a figure in the decision letter has no label. Figures in the decision letter should have a label in the format 'Decision letter image X.' This will need to be corrected by the production vendors.
 
 #### dec-fig-test-2
 
 **Error:** _fig label in author response must be in the format 'Decision letter image 1.'._
 
-**Action:** This error will fire __if a figure in the decision letter has a label other than 'Decision letter image X.' This will need to be corrected by Exeter.
+**Action:** This error will fire __if a figure in the decision letter has a label other than 'Decision letter image X.' This will need to be corrected by the production vendors.
 
 #### box-fig-test-1
 
 **Error:** _label for fig inside boxed-text must be in the format 'Box 1—figure 1.', or 'Chemical structure 1.', or 'Scheme 1'._
 
-**Action:** This error will fire __if a figure in a box has a label other than 'Box 0—figure 0.', 'Chemical structure 0.' or 'Scheme 0.'.This will need to be corrected by Exeter.
+**Action:** This error will fire __if a figure in a box has a label other than 'Box 0—figure 0.', 'Chemical structure 0.' or 'Scheme 0.'.This will need to be corrected by the production vendors.
 
 #### app-fig-test-1
 
 **Error:** _label for fig inside appendix must be in the format 'Appendix 1—figure 1.', 'Appendix A—figure 1.', or 'Appendix 1—chemical structure 1.', or 'Appendix A—scheme 1'._
 
-**Action:** This error will fire __if a figure in an appendix has an ID app0fig0 \(where 0 is a number\) and a label other than 'Appendix 1—figure 1.', 'Appendix A—figure 1.', or 'Appendix 1—chemical structure 1.', or 'Appendix A—scheme 1'. This will need to be corrected by Exeter.
+**Action:** This error will fire __if a figure in an appendix has an ID app0fig0 \(where 0 is a number\) and a label other than 'Appendix 1—figure 1.', 'Appendix A—figure 1.', or 'Appendix 1—chemical structure 1.', or 'Appendix A—scheme 1'. This will need to be corrected by the production vendors.
 
 #### app-fig-test-2
 
 **Error:** _label for XXXXXX does not start with the correct appendix prefix. Either the figure is placed in the incorrect appendix or the label is incorrect._
 
-**Action:** This error will fire __if a figure in an appendix doesn't match the appendix it is in - for example, if Appendix 1—figure 1 is placed in Appendix 9. Check the original submission to see whether the figure needs to be moved to another appendix or the label needs to be changed. Exeter will need to make this change. 
+**Action:** This error will fire __if a figure in an appendix doesn't match the appendix it is in - for example, if Appendix 1—figure 1 is placed in Appendix 9. Check the original submission to see whether the figure needs to be moved to another appendix or the label needs to be changed. The production vendors will need to make this change. 
 
-If this error appears at post-author stages, check whether the authors asked for the figure to be moved or relabelled before asking Exeter to fix this.
+If this error appears at post-author stages, check whether the authors asked for the figure to be moved or relabelled before asking the production vendors to fix this.
 
 #### app-fig-sup-test-1
 
 **Error:** _label for fig inside appendix must be in the format 'Appendix 1—figure 1—figure supplement 1.'._
 
-**Action:** This error will fire __if a figure supplement in an appendix has a label other than 'Appendix 0—figure 0—figure supplement 0.' \(following this capitalisation exactly i.e. 'Appendix 0—Figure 0—Figure Supplement 0.' is incorrect\). If the full stop is missing, try adding this in. Otherwise, this will need to be corrected by Exeter.
+**Action:** This error will fire __if a figure supplement in an appendix has a label other than 'Appendix 0—figure 0—figure supplement 0.' \(following this capitalisation exactly i.e. 'Appendix 0—Figure 0—Figure Supplement 0.' is incorrect\). If the full stop is missing, try adding this in. Otherwise, this will need to be corrected by the production vendors.
 
 #### app-fig-sup-test-2
 
 **Error:** _label for XXXXXX does not start with the correct appendix prefix. Either the figure is placed in the incorrect appendix or the label is incorrect._
 
-**Action:** This error will fire __if a figure __supplement in an appendix doesn't match the appendix it is in - for example, if Appendix 1—figure 1—figure supplement 1 is placed in Appendix 9. Check the original submission to see whether the figure needs to be moved to another appendix or the label needs to be changed. Exeter will need to make this change. 
+**Action:** This error will fire __if a figure __supplement in an appendix doesn't match the appendix it is in - for example, if Appendix 1—figure 1—figure supplement 1 is placed in Appendix 9. Check the original submission to see whether the figure needs to be moved to another appendix or the label needs to be changed. The production vendors will need to make this change. 
 
-If this error appears at post-author stages, check whether the authors asked for the figure to be moved or relabelled before asking Exeter to fix this.
+If this error appears at post-author stages, check whether the authors asked for the figure to be moved or relabelled before asking the production vendors to fix this.
 
 #### fig-title-test-1
 
@@ -616,7 +616,7 @@ Move the relevant part of text out of the legend into the title.
 
 **Error:** _title for XXXXXX begins with a space, which is not allowed._
 
-**Action:** This error will fire if a title begins with a space. Make sure the space is deleted \(Exeter may have to do this if the space is not apparent in Kriya\). 
+**Action:** This error will fire if a title begins with a space. Make sure the space is deleted \(the production vendors may have to do this if the space is not apparent in Kriya\). 
 
 #### fig-title-test-5
 
@@ -672,13 +672,13 @@ These checks relate to the XML structure of figures and figure supplements. ‌X
 
 * Please provide an in-text citation for this figure.
 
-If the figure has been cited in the text and this error still appears, Exeter support will need to fix this.
+If the figure has been cited in the text and this error still appears, the production vendors support will need to fix this.
 
 #### fig-group-test-1
 
 **Error:** _fig-group must have one and only one main figure._
 
-**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element should only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a fig-group element has more than one or no main figures. Double check which main figure should be present in this fig-group and correct accordingly \(Exeter support will need to fix this\).
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element should only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a fig-group element has more than one or no main figures. Double check which main figure should be present in this fig-group and correct accordingly \(the production vendor support team will need to fix this\).
 
 XML of a figure with a figure supplement wrapped in the fig-group element.
 
@@ -717,7 +717,7 @@ XML of a figure with no figure supplements or videos \(and therefore, no fig-gro
 
 **Error:** _fig-group does not contain a figure supplement or a figure-level video, which must be incorrect._
 
-**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element should only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a fig-group element has no figure supplements or figure-level videos. Double check whether the figure does indeed have no linked figure supplements or videos - if so this element should be removed by Exeter. If the figure should have figure supplements or videos, Exeter will need to add these to the fig-group.
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element should only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a fig-group element has no figure supplements or figure-level videos. Double check whether the figure does indeed have no linked figure supplements or videos - if so this element should be removed by the production vendors. If the figure should have figure supplements or videos, the production vendors will need to add these to the fig-group.
 
 XML of a figure with a figure supplement wrapped in the fig-group element.
 
@@ -756,97 +756,97 @@ XML of a figure with no figure supplements or videos \(and therefore, no fig-gro
 
 **Error:** _XXXXXX_ _is not allowed as a child of fig-group._
 
-**Action:** The only elements allowed as a child of `<fig-group>` are `<fig>` or `<media>`. This test will fire at all stages for an element contained directly under `<fig-group>` that is not `<fig>` or `<media>`. The XXXXXX will be the name of the offending element. This likely means that either this element is placed incorrectly in the XML, or there is an unnecessary element in the XML. Exeter will need to correct this.
+**Action:** The only elements allowed as a child of `<fig-group>` are `<fig>` or `<media>`. This test will fire at all stages for an element contained directly under `<fig-group>` that is not `<fig>` or `<media>`. The XXXXXX will be the name of the offending element. This likely means that either this element is placed incorrectly in the XML, or there is an unnecessary element in the XML. The production vendors will need to correct this.
 
 #### fig-group-child-test-2
 
 **Error:** _XXXXXX which is a child of fig-group, must have an @mimetype='video' - i.e. only video type media is allowed as a child of fig-group._
 
-**Action:** This will fire for any `<media>` element, which is a child of `<fig-group>`, that does not have a `mimetype="video"` attribute, meaning that it is a _not_ a video. If it is a video, then the `mimetype="video"` attribute needs to be added by Exeter. If it is not a video, then it is likely that this is placed incorrectly in the XML, and this will need to be fixed by Exeter.
+**Action:** This will fire for any `<media>` element, which is a child of `<fig-group>`, that does not have a `mimetype="video"` attribute, meaning that it is a _not_ a video. If it is a video, then the `mimetype="video"` attribute needs to be added by the production vendors. If it is not a video, then it is likely that this is placed incorrectly in the XML, and this will need to be fixed by the production vendors.
 
 #### fig-id-test-1
 
 **Error:** _fig must have an @id in the format fig0 \(or C0 for chemical structures, or S0 for Schemes\). XXXXXX does not conform to this._
 
-**Action:** This error will fire __if a figure __has an ID in a format other than fig0, C0 or S0 \(where 0 is a number\) - for example FigA. Exeter support will need to fix this.
+**Action:** This error will fire __if a figure __has an ID in a format other than fig0, C0 or S0 \(where 0 is a number\) - for example FigA. The production vendor support team will need to fix this.
 
 #### fig-id-test-2
 
 **Error:** _fig must have an @id in the format fig0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if a figure __has a label 'Figure 0' and an ID in a format other than fig0 \(where 0 is a number\) - for example if a figure has the label 'Figure 1' but the ID 'S1'_._ Exeter support will need to fix this.
+**Action:** This error will fire __if a figure __has a label 'Figure 0' and an ID in a format other than fig0 \(where 0 is a number\) - for example if a figure has the label 'Figure 1' but the ID 'S1'_._ The production vendor support team will need to fix this.
 
 #### fig-sup-id-test
 
 **Error:** _figure supplement must have an @id in the format fig0s0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if a figure __supplement __has an ID in a format other than fig0s0 \(where 0 is one or more digits\). Exeter support will need to fix this.
+**Action:** This error will fire __if a figure __supplement __has an ID in a format other than fig0s0 \(where 0 is one or more digits\). The production vendor support team will need to fix this.
 
 #### box-fig-id-1
 
 **Error:** _fig must have @id in the format box0fig0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if a figure __in a box __has an ID in a format other than box0fig0 \(where 0 is one or more digits\). Exeter support will need to fix this.
+**Action:** This error will fire __if a figure __in a box __has an ID in a format other than box0fig0 \(where 0 is one or more digits\). The production vendor support team will need to fix this.
 
 #### box-fig-id-2
 
 **Error:** _fig id \(XXXXXX\) does not contain its ancestor boxed-text id. Please ensure the first part of the id contains 'XXXXXX'._
 
-**Action:** This error will fire __if the ID of a figure __in a box doesn't contain the correct box number - for example if Box 1 has a figure with the ID box2fig1. Check the original submission to ensure the figure is in the correct box - if not, Exeter will need to move this. If the figure is in the correct box, Exeter support will need to fix the figure ID.
+**Action:** This error will fire __if the ID of a figure __in a box doesn't contain the correct box number - for example if Box 1 has a figure with the ID box2fig1. Check the original submission to ensure the figure is in the correct box - if not, the production vendors will need to move this. If the figure is in the correct box, the production vendor support team will need to fix the figure ID.
 
 #### app-fig-id-test-1
 
 **Error:** _figures in appendices must have an @id in the format app0fig0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if an appendix figure has an ID in a format other than app0fig0 \(where 0 is one or more digits\). Exeter support will need to fix this.
+**Action:** This error will fire __if an appendix figure has an ID in a format other than app0fig0 \(where 0 is one or more digits\). The production vendor support team will need to fix this.
 
 #### app-fig-id-test-2
 
 **Warning**: _Chemical structures must have an @id in the format app0chem0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if an appendix figure has an ID in a format other than app0chem0 \(where 0 is one or more digits\). Exeter support will need to fix this.
+**Action:** This error will fire __if an appendix figure has an ID in a format other than app0chem0 \(where 0 is one or more digits\). The production vendor support team will need to fix this.
 
 #### app-fig-id-test-3
 
 **Warning**: _Schemes must have an @id in the format app0scheme0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if an appendix figure has an ID in a format other than app0scheme0 \(where 0 is one or more digits\). Exeter support will need to fix this.
+**Action:** This error will fire __if an appendix figure has an ID in a format other than app0scheme0 \(where 0 is one or more digits\). The production vendor support team will need to fix this.
 
 #### app-fig-sup-id-test
 
 **Error:** _figure supplements in appendices must have an @id in the format app0fig0s0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if an appendix figure supplement __has an ID in a format other than app0fig0s0 \(where 0 is one or more digits\). Exeter support will need to fix this.
+**Action:** This error will fire __if an appendix figure supplement __has an ID in a format other than app0fig0s0 \(where 0 is one or more digits\). The production vendor support team will need to fix this.
 
 #### resp-fig-id-test
 
 **Error:** _fig in decision letter/author response must have @id in the format respfig0, or sa0fig0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if a figure in the decision letter or author response section has an ID in a format other than respfig0 \(for legacy content\) or sa0fig0 \(where 0 is one or more digits\). Exeter support will need to fix this.
+**Action:** This error will fire __if a figure in the decision letter or author response section has an ID in a format other than respfig0 \(for legacy content\) or sa0fig0 \(where 0 is one or more digits\). The production vendor support team will need to fix this.
 
 #### resp-fig-sup-id-test
 
 **Error:** _figure supplement in decision letter/author response must have @id in the format respfig0s0 or sa0fig0s0. XXXXXX does not conform to this._
 
-**Action:** This error will fire __if a figure __supplement in the decision letter or author response section has an ID in a format other than respfig0s0 \(for legacy content\) or sa0fig0s0  \(where 0 is one or more digits\). Exeter support will need to fix this.
+**Action:** This error will fire __if a figure __supplement in the decision letter or author response section has an ID in a format other than respfig0s0 \(for legacy content\) or sa0fig0s0  \(where 0 is one or more digits\). The production vendor support team will need to fix this.
 
 #### fig-specific-test-1
 
 **Error:** _fig label contains 'supplement', but it does not have a @specific-use='child-fig'. If it is a figure supplement it needs the attribute, if it isn't then it cannot contain 'supplement' in the label._
 
-**Action:** This error will fire __if a figure label contains the word 'supplement' but doesn't have the attribute 'child-fig'. Check whether the figure should be a figure supplement - if so Exeter need to add the attribute. If it shouldn't be a supplement, the label will need to be updated.
+**Action:** This error will fire __if a figure label contains the word 'supplement' but doesn't have the attribute 'child-fig'. Check whether the figure should be a figure supplement - if so the production vendors need to add the attribute. If it shouldn't be a supplement, the label will need to be updated.
 
 #### fig-label-test-1
 
 **Error:** _fig label must be in the format 'Figure 0.', 'Chemical structure 0.', or 'Scheme 0'._
 
-**Action:** This error will fire if a figure has a label other than Figure 0, Chemical structure 0 or Scheme 0. Exeter support will need to fix this.
+**Action:** This error will fire if a figure has a label other than Figure 0, Chemical structure 0 or Scheme 0. The production vendor support team will need to fix this.
 
 #### fig-sup-test-1
 
 **Error:** _fig supplement is not a child of fig-group. This cannot be correct._
 
-**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element should only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a figure __supplement is not wrapped within a fig-group element. This should be corrected by Exeter.
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element should only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a figure __supplement is not wrapped within a fig-group element. This should be corrected by the production vendors.
 
 XML of a figure with a figure supplement wrapped in the fig-group element.
 
@@ -893,7 +893,7 @@ XML of a figure with no figure supplements or videos \(and therefore, no fig-gro
 
 **Error:** _XXXXXX is not placed in a &lt;fig-group&gt; element, which is incorrect. Either the label needs updating, or it needs moving into the &lt;fig-group&gt;._
 
-**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element should only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a figure has a figure supplement label \(e.g. Figure 1_—_Figure supplement 1\) but it is not placed in the fig-group element. This should be corrected by Exeter.
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element should only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will fire if a figure has a figure supplement label \(e.g. Figure 1_—_Figure supplement 1\) but it is not placed in the fig-group element. This should be corrected by the production vendors.
 
 XML of a figure with a figure supplement wrapped in the fig-group element.
 
@@ -1078,8 +1078,6 @@ Figure with attributions:
 ```
 
 ## Changelog
-
-After Exeter have fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent.
 
 ### 09/09/2020
 
