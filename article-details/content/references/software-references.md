@@ -51,15 +51,23 @@ If the authors have provided the RRID for a software, this does not need to be a
 
 ## **When to add software references**
 
-As far as possible, any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference \(unless the authors have already included RRIDs\). Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references in accordance with the [**FAIR principles**](https://peerj.com/articles/cs-86/). Please note, this only needs to be done if the software is not already in the reference list. If any of the mandatory information required for a software reference is missing, please leave the following author query, deleting as appropriate the information that has already been provided:
+As far as possible, any mentions of tools or packages that were used for analysing data or generating figures should be cited as a software reference \(unless the authors have already included RRIDs\). Often, authors will include URL links to software they have used in their studies either in the main text or in the key resources table. These need to be added as software references in accordance with the [**FAIR principles**](https://peerj.com/articles/cs-86/). Please note, this only needs to be done if the software is not already in the reference list. If any of the mandatory information required for a software reference is missing, search for the software online to see whether the information can be found on the software website. Once these details have been added as a software reference, please leave the following query:
+
+* Please confirm the details have been added correctly for this software reference.
+
+If the details can't be found online, please leave the following author query, deleting as appropriate the information that has already been provided:
 
 * eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). If known, please provide ****the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list. Alternatively, please provide the RRID and version number for this software.
 
-If the authors cannot provide this information, the text should be left as is.
+If the authors cannot provide this information, the text can be left as is.
 
 ![All software here should be added as software references and cited properly as far as possible.](../../../.gitbook/assets/screenshot-2020-04-29-at-12.38.17%20%281%29.png)
 
 ![The software entries here do not need software references as they already have RRIDs](../../../.gitbook/assets/screenshot-2020-05-01-at-16.32.22.png)
+
+{% hint style="info" %}
+If the authors haven't cited the software as a software reference or provided an RRID, it is preferable to add a software reference.
+{% endhint %}
 
 ## How to add a software reference
 
@@ -102,9 +110,50 @@ An example of correctly entered fields for a GitHub repository reference is give
 
 ### R software and packages
 
-R is a commonly used statistical software package. As it has an [**RRID**](https://scicrunch.org/resolver/RRID:SCR_001905), this should be used instead of adding a software reference. Many packages for R also have RRIDs, so these can also be used when mentioned. If an RRID is not provided by the authors, please leave the following query:
+R is a commonly used statistical software package. Guidance on how to cite it and its packages can sometimes be found on the software website, for example:
 
-* If known, please provide ****the RRID and version number for this package.
+![](../../../.gitbook/assets/picture1.png)
+
+To add a reference for R software, add a new software reference as above. The information above needs to be entered into Kriya in the order shown below:
+
+| Kriya field | Value |
+| :--- | :--- |
+| Collaboration | R Development Core Team |
+| Year | 2014 |
+| Software title | R: A Language and Environment for Statistical Computing |
+| Software version | 3.1.0 |
+| Publisher city | Vienna |
+| Publisher country | Austria |
+| Publisher | R Foundation for Statistical Computing |
+| Website | http://www.R-project.org |
+
+If authors refer to software packages, these will also need to be cited properly. For example:
+
+> Modelling was executed in the R environment \(R Development Core Team, 2019\) using the biomod2 package \(version 3.3-7.1\)
+
+Looking up [**biomod2**](https://cran.r-project.org/web/packages/biomod2/index.html) shows this is a package for R. The information from the CRAN website where this is hosted can be entered as below:
+
+| Kriya field | Value |
+| :--- | :--- |
+| Author	 | Thuiller W |
+| Author	 | Georges D |
+| Author	 | Engler R |
+| Author	 | Breiner F |
+| Year | 2020 |
+| Software title | biomod2: Ensemble Platform for Species Distribution Modeling |
+| Source | CRAN |
+| Software version | 3.2-7.1 |
+| Website | https://CRAN.R-project.org/package=biomod2 |
+
+Note the CRAN website gives instructions for the correct link to include when citing software packages:
+
+![](../../../.gitbook/assets/picture2.png)
+
+The citation can then be updated as below, removing the version details:
+
+> Modelling was executed in the R environment \(R Development Core Team, 2019\) using the biomod2 package \(Thuiller et al., 2020\)
+
+R software also has an [**RRID**](https://scicrunch.org/resolver/RRID:SCR_001905) which can be used instead of adding a software reference. Many packages for R also have RRIDs, and these can be kept if mentioned. If the authors haven't cited the software as a software reference or provided an RRID, it is preferable to add a software reference.
 
 ### Software Heritage
 
