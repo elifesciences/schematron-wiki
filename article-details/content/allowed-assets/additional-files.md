@@ -263,7 +263,7 @@ If this happens post-author, the author should be contacted by email to provide 
 
 **Warning**: _title for XXXXXX is longer than 250 characters. Is it a caption instead?_
 
-**Action**: This warning fires if a title exceeds 250 characters. This might indicated that it should be part of the caption. However, in most cases it will simply be a very long file title. Likely, this will only be an issue if the title consists of multiple sentences \(see supplementary-material-title-test-8\).
+**Action**: This warning fires if a title exceeds 250 characters. This might indicate that it should be part of the caption. However, in most cases it will simply be a very long file title. Likely, this will only be an issue if the title consists of multiple sentences \(see supplementary-material-title-test-8\).
 
 #### supplementary-material-title-test-8
 
