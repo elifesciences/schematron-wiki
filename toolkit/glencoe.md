@@ -8,17 +8,17 @@ Videos in eLife articles are hosted by Glencoe software Inc.
 
 ## When are videos supplied
 
-Videos are uploaded to the Glencoe FTP once during the production process at pre-editing by Exeter. If there are any changes required to the videos during proofing, then this is done at post-author validation.
+Videos are uploaded to the Glencoe FTP once during the production process at pre-editing by the production vendors. If there are any changes required to the videos during proofing, then this is done at post-author validation.
 
 ## How are videos supplied 
 
-Exeter supply videos and metadata to the Glencoe FTP. This is an automated process, except in cases where the videos for an article are cumulatively large enough in file size, that they need to be manually uploaded.
+The production vendors supply videos and metadata to the Glencoe FTP. This is an automated process, except in cases where the videos for an article are cumulatively large enough in file size, that they need to be manually uploaded.
 
 Videos are added to a folder, the name of which is the tracking number for the respective article in the Glencoe FTP. 
 
 ![](../.gitbook/assets/screenshot-2020-11-19-at-13.00.22.png)
 
-Inside the folder two zips are placed \(this isn't actually a requirement from Glencoe, it could just be one zip, this is simply how Exeter have implemented it using an older workflow and continue to do so for legacy reasons\). 
+Inside the folder two zips are placed \(this isn't actually a requirement from Glencoe, it could just be one zip, this is simply how the production vendors have implemented it using an older workflow and continue to do so for legacy reasons\). 
 
 ![](../.gitbook/assets/screenshot-2020-11-19-at-14.19.51.png)
 
@@ -30,7 +30,7 @@ The XML is a simple JATS file, which has a publication date \(which is actually 
 
 Typically we don't receive notifications from Glencoe when video processing has failed \(although in some cases we may\). This is simply because the metadata or videos themselves have been provided in such a way that they cannot be processed to begin with. Glencoe only provide video transcoding error messages, so if the videos cannot be found \(due to problems with the way they are provided\), then there is no message indicating this from Glencoe. The only indication that something is not correct, is that there is no confirmation email at all.
 
-If Exeter are unsure of the reason why videos have failed processing, they will contact the eLife production team.
+If the production vendors are unsure of the reason why videos have failed processing, they will contact the eLife production team.
 
 Contact Fred in the eLife production team if you need access to the FTP.
 
@@ -80,7 +80,7 @@ Archive:  /Users/fredatherden/Desktop/elife_Nov_16.video.zip
   * A `mimetype="video"` attribute.
 * Video filenames must be unique for the entire journal. In other words, they need to contain the manuscript tracking number. 
 
-If you have identified that any of these are the cause of the problem, then this should be fed back to Exeter so that they can correct the package and re-upload. 
+If you have identified that any of these are the cause of the problem, then this should be fed back to the production vendors so that they can correct the package and re-upload. 
 
 If, after checking that all of these are correct, you are still unsure of the cause of video failures, then Glencoe should be contacted.
 
@@ -123,7 +123,7 @@ This http://movie-usa.glencoesoftware.com/video/10.7554/eLife.61467 returns the 
 
 Whereas this http://movie-usa.glencoesoftware.com/video/10.7554/eLife.61467/video1 returns a page containing the video for video 1.
 
-Once the videos have been processed by Glencoe, Exeter then embed the links in Kriya, so that the videos are displayed for proofing.
+Once the videos have been processed by Glencoe, the production vendors then embed the links in Kriya, so that the videos are displayed for proofing.
 
 ## Why pub dates are included in the XML
 
