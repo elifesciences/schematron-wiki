@@ -82,7 +82,7 @@ Our tags:
 * Author Complaint - for any negative emails/complaints from unhappy authors.
 * Author Compliment - for any complimentary emails from happy authors.
 * Author Correspondence - for any and all emails from authors.
-* eLife Query - for queries sent to us from Exeter.
+* eLife Query - for queries sent to us from the production vendors \(Exeter\).
 * Exeter Delivery - for the delivery note we receive from Exeter every morning.
 * Exeter Problem - for any problem emails we send to Exeter.
 * Exeter Question - for any questions/requests we ask of Exeter.

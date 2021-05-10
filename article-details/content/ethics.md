@@ -38,7 +38,7 @@ During the submission process, authors need to answer the ethics section of the 
 
 ![Ethics form in eJP.](../../.gitbook/assets/image%20%283%29.png)
 
-Authors are expected to fill this in accurately as this information will be exported from eJP to Exeter in the XML. Exeter do not make any changes to this section during typesetting, unless it is to correct an obvious error such as a duplication of statement text 'Animal experimentation: and Human subjects:' which the authors may add in themselves. This is not required as they are generated automatically depending on the statement included. 
+Authors are expected to fill this in accurately as this information will be exported from eJP to the production vendors in the XML. The production vendors do not make any changes to this section during typesetting, unless it is to correct an obvious error such as a duplication of statement text 'Animal experimentation: and Human subjects:' which the authors may add in themselves. This is not required as they are generated automatically depending on the statement included. 
 
 ![Example of an ethics statement in the proofing system.](../../.gitbook/assets/screen-shot-2021-01-08-at-14.06.35.png)
 
@@ -64,7 +64,7 @@ Clinical trial registration Clinical Trials.gov no. NCT02752672.
 
 **Error:** _fn-group\[@content-type='ethics-information'\] must have a title that contains 'Ethics'. Currently it is 'XXXXXX'._
 
-**Action:** This error will show if the title is anything but 'Ethics', the title should be corrected to 'Ethics'. This test is looking for an exact match so 'Ethic' or any other spelling mistake is not allowed. As this is in the meta data, Exeter's support team would need to fix this. 
+**Action:** This error will show if the title is anything but 'Ethics', the title should be corrected to 'Ethics'. This test is looking for an exact match so 'Ethic' or any other spelling mistake is not allowed. As this is in the meta data, the production vendor support team would need to fix this. 
 
 #### ethics-broken-unicode-test
 
@@ -98,7 +98,7 @@ Clinical trial registration Clinical Trials.gov no. NCT02752672.
 
 **Error:** _Ethics fn-group can only be captured as a child of a sec \[@sec-type='additional-information'\]_
 
-**Action:** The Ethics fn-group should be captured within the 'additional-information' in the XML. Exeter will need to fix this. 
+**Action:** The Ethics fn-group should be captured within the 'additional-information' in the XML. The production vendors will need to fix this. 
 
 #### ethics-test-2
 
@@ -116,7 +116,7 @@ Clinical trial registration Clinical Trials.gov no. NCT02752672.
 
 **Error:** _This fn must have an @fn-type='other'_
 
-**Action:** If the fn-type is not 'other' this will need to be corrected by Exeter. 
+**Action:** If the fn-type is not 'other' this will need to be corrected by the production vendors. 
 
 ## XML structure
 

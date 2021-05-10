@@ -6,7 +6,7 @@ description: XQuery processor and Database management system
 
 ## Offline Schematron validation
 
-If, for whatever reason, the [**Schematron validator**](https://basex-validator--staging.elifesciences.org/schematron) is not working for a particular article, offline validation reports can be provided to Exeter using BaseX.
+If, for whatever reason, the [**Schematron validator**](https://basex-validator--staging.elifesciences.org/schematron) is not working for a particular article, offline validation reports can be provided to the production vendors using BaseX.
 
 * Open BaseX
 * Install the schematron for BaseX module using the following XQuery \(this only needs to be done once, not each time\):
@@ -118,5 +118,5 @@ let $schema := doc($src||'final-JATS-schematron.sch')
 
 * Run the query \(cmd + enter\).
 
-An XML and HTML report file will be output in the same folder as the XML file being validated, and both of these can be sent to Exeter.
+An XML and HTML report file will be output in the same folder as the XML file being validated, and both of these can be sent to the production vendors.
 

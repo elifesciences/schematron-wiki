@@ -97,7 +97,7 @@ Some failures alert us to issues within the proof such as a duplicate ORCID ID. 
 
 ![](../.gitbook/assets/screen-shot-2020-11-20-at-14.08.50.png)
 
-In the case above, the proof had to be sent back to Exeter so they could remove the duplicated ORCID ID. You may wish to email the author in case they would like to add in the correct ORCID ID. The article can then be resent to Continuum and we should receive a success email from Crossref. 
+In the case above, the proof had to be sent back to the production vendors so they could remove the duplicated ORCID ID. You may wish to email the author in case they would like to add in the correct ORCID ID. The article can then be resent to Continuum and we should receive a success email from Crossref. 
 
 Other failures can be a result of a non-Dryad dataset which is not yet live. This often occurs when an article is PoA'd and has included a DOI to a dataset that has been held for publication.
 

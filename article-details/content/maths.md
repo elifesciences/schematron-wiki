@@ -30,7 +30,7 @@ For example below, inline equations are marked in blue, and the display equation
 
 Display equations can \(but don't have to\) have a label. Inline equations cannot have a label. They both must contain some math markup, MathML. 
 
-Equations should not be provided as images. If an author manuscript contains maths captured as images, either Exeter need to typeset the maths themselves, or eLife production staff need to go back to authors and ask them to provide it in a machine readable format.
+Equations should not be provided as images. If an author manuscript contains maths captured as images, either the production vendors need to typeset the maths themselves, or eLife production staff need to go back to authors and ask them to provide it in a machine readable format.
 
 Equations should not be split up into numerous separate equations for example like this:
 
@@ -286,7 +286,7 @@ $$\hspace{10pt}\cong\hspace{15pt}\neq\hspace{15pt}\equiv\hspace{19pt}\prec\hspac
 
 Equations are rendered on the eLife website using [**MathJax**](https://www.mathjax.org/). Note that there are certain space limitations on the eLife website for equations, if they are particularly long they may be wrapped across numerous lines in order to fit within the content container, and since they are an object which is separate from the normal text in the page, the wrapping may not correspond with the text \(see also [**inline-formula-length-test-1**](maths.md#inline-formula-length-test-1) ****and the example therein\).
 
-eLife have an arrangement with Exeter whereby they are paid more for LaTeX articles, and expected to carefully check the maths against the original files at pre-editing. LaTeX articles also have an extended turn-around time \(compared with non-LaTeX articles\).
+eLife have an arrangement with the production vendors whereby they are paid more for LaTeX articles, and expected to carefully check the maths against the original files at pre-editing. LaTeX articles also have an extended turn-around time \(compared with non-LaTeX articles\).
 
 During pre-publication checks, special care should be given to equations by eLife production staff, to ensure that there is no discrepancy between the equations as they appear on Continuum and the equations as they appear in the PDF.
 
@@ -309,7 +309,7 @@ Here is an example of a case where the warning could be ignored, taken from [**h
 
 The underlined mathematical fraktur 'R' must be tagged as an inline equation to match the font used for that term used elsewhere.
 
-If Exeter are unsure, they can query the eLife production team via slack for instruction.
+If the production vendors are unsure, they can query the eLife production team via slack for instruction.
 
 #### **inline-formula-test-3**
 
@@ -326,7 +326,7 @@ Here is an example of a case where the warning could be ignored taken from [**ht
 
 The underlined mathematical fraktur 'R' must be tagged as an inline equation to match the font used for that term used elsewhere..
 
-If Exeter are unsure, they can query the eLife production team via slack for instruction.
+If the production vendors are unsure, they can query the eLife production team via slack for instruction.
 
 #### **math-test-14**
 
@@ -466,7 +466,7 @@ To fix this open up the equation editor in Kriya and replace any spaces used wit
 
 **Warning**: _math \(XXXXXX element\) containing 'XXXXXX' has a colour style which is not red, blue or purple - 'XXXXXX' - which is not allowed. If it is clear that colours are supposed to be used, but you are not sure which ones, then please query the authors - 'eLife only supports the following colours for text and maths - 'red', 'blue' and 'purple'. Please confirm how you would like the colour\(s\) here captured given this information.'._
 
-**Action**: The only colours eLife permit for text is red, blue or purple and this is still the case for maths. As the message suggests, this will fire at pre-author stages when maths contains a colour which is not permitted. Exeter should add the following author query:
+**Action**: The only colours eLife permit for text is red, blue or purple and this is still the case for maths. As the message suggests, this will fire at pre-author stages when maths contains a colour which is not permitted. The production vendors should add the following author query:
 
 * eLife only supports the following colours for text and maths - 'red', 'blue' and 'purple'. Please confirm how you would like the colour\(s\) here captured given this information.
 
@@ -474,13 +474,13 @@ To fix this open up the equation editor in Kriya and replace any spaces used wit
 
 **Error**: _math \(XXXXXX element\) containing 'XXXXXX' has a color style which is not red, blue or purple - 'XXXXXX' - which is not allowed. Only 'red', 'blue' and 'purple' are allowed._
 
-**Action**: The only colours eLife permit for text is red, blue or purple and this is still the case for maths. As the message suggests, this will fire at post-author stages when maths contains a colour which is not permitted. Exeter should check the response the authors had to the query which was \(hopefully\) added before they proofed. If the authors suggest a suitable solution \(such as removing the colours, adding different forms of emphasis such as bold, or by asking for the colours to be changed to the permitted ones\), then Exeter can implement their suggestion. If the query was missed or if the authors did not provide a suitable solution, then Exeter should add a note to the article for the attention of the Production team at Publisher Review. The Production team can then determine the correct course of action, which likely will be to go back to the authors and clarify their options.
+**Action**: The only colours eLife permit for text is red, blue or purple and this is still the case for maths. As the message suggests, this will fire at post-author stages when maths contains a colour which is not permitted. The production vendors should check the response the authors had to the query which was \(hopefully\) added before they proofed. If the authors suggest a suitable solution \(such as removing the colours, adding different forms of emphasis such as bold, or by asking for the colours to be changed to the permitted ones\), then the production vendors can implement their suggestion. If the query was missed or if the authors did not provide a suitable solution, then the production vendors should add a note to the article for the attention of the Production team at Publisher Review. The Production team can then determine the correct course of action, which likely will be to go back to the authors and clarify their options.
 
 #### **mathcolor-test-2**
 
 **Warning**: _math \(XXXXXX element\) containing 'XXXXXX' has XXXXXX colour formatting. Is this OK?_
 
-**Action**: This warning will fire at all stages when maths is formatted with one of the permitted colours for text \(red, blue or purple\). At pre-author stages, Exeter should add the following author query:
+**Action**: This warning will fire at all stages when maths is formatted with one of the permitted colours for text \(red, blue or purple\). At pre-author stages, the production vendors should add the following author query:
 
 * Where possible, we prefer that colours are not used in text in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). Would it be possible to capture the same meaning in this equation with more common forms of emphasis \(such as bold, italic or underline\)? If so please stipulate below how the equation should be revised. Please note that this is a suggestion and these permitted colours can be published if required.
 
@@ -490,7 +490,7 @@ At post-author stages, this warning can be ignored.
 
 **Warning**: _math \(XXXXXX element\) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. Please check this carefully against the original manuscript. If it's not a mistake, and the background colour is deliberate, then please add the following author query -&gt; 'Where possible, we prefer that colours are not used in text in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). eLife does not support background colours for text, however we do support the following colours for text itself - 'red', 'blue' and 'purple'. Please confirm how you would like the colour\(s\) captured here given this information, and note that our preference would be to use more common forms of emphasis \(such as bold, italic or underline\) if possible to still convey the same meaning.'._
 
-**Action**: This warning will fire at pre-author stages for maths in the text, which has background colour formatting \(similar to highlighting\). eLife does not permit this for text, and only permit certain colours for text \(red, blue, or purple\). Exeter should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP, and if it isn't a processing error, then they should add the following author query:
+**Action**: This warning will fire at pre-author stages for maths in the text, which has background colour formatting \(similar to highlighting\). eLife does not permit this for text, and only permit certain colours for text \(red, blue, or purple\). The production vendors should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP, and if it isn't a processing error, then they should add the following author query:
 
 * Where possible, we prefer that colours are not used in text in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). eLife does not support background colours for text, however we do support the following colours for text itself - 'red', 'blue' and 'purple'. Please confirm how you would like the colour\(s\) captured here given this information, and note that our preference would be to use more common forms of emphasis \(such as bold, italic or underline\) if possible to still convey the same meaning.'
 
@@ -498,19 +498,19 @@ At post-author stages, this warning can be ignored.
 
 **Warning**: _math \(XXXXXX element\) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. Please check this carefully against the original manuscript. If it's not a mistake, and the background colour is deliberate, then please ensure that the background colour is captured for the table cell \(rather than the maths\)._
 
-**Action**: This warning will fire at pre-author stages for maths in a table, which has background colour formatting \(similar to highlighting\). eLife do not permit background colouring for text, and only permit certain colours for text itself \(red, blue, or purple\), and [**certain colours for table cells**](allowed-assets/tables.md#allowed-colours-in-tables). Exeter should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP. If the colours were present for the table cell\(s\) in the original manuscript then that formatting should be removed from the equation and added to the cell; then the steps required for colours in tables cells should be followed, as directed by the Schematron messages after re-validating \(see also the [**Tables page**](allowed-assets/tables.md)\). If, in the original manuscript, there was background colour for the maths, then it should be changed as colour for the text of the maths. 
+**Action**: This warning will fire at pre-author stages for maths in a table, which has background colour formatting \(similar to highlighting\). eLife do not permit background colouring for text, and only permit certain colours for text itself \(red, blue, or purple\), and [**certain colours for table cells**](allowed-assets/tables.md#allowed-colours-in-tables). The production vendors should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP. If the colours were present for the table cell\(s\) in the original manuscript then that formatting should be removed from the equation and added to the cell; then the steps required for colours in tables cells should be followed, as directed by the Schematron messages after re-validating \(see also the [**Tables page**](allowed-assets/tables.md)\). If, in the original manuscript, there was background colour for the maths, then it should be changed as colour for the text of the maths. 
 
 #### **final-mathbackground-test-1**
 
 **Error**: _math \(XXXXXX element\) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. If it's not a mistake, and the background colour is deliberate, then this will need to removed._
 
-**Action**: This warning will fire at post-author stages for maths in the text, which has background colour formatting \(similar to highlighting\). eLife do not permit this for text, and only permit certain colours for text \(red, blue, or purple\). Exeter should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP, and if it isn't a processing error, then they should check the response from an author if an author query was added relating to this at pre-editing. If there was no author query, they should flag it to the eLife Production staff, who at Pub Review stage should contact the authors, letting them know about the constraints and asking them how they would like to proceed.
+**Action**: This warning will fire at post-author stages for maths in the text, which has background colour formatting \(similar to highlighting\). eLife do not permit this for text, and only permit certain colours for text \(red, blue, or purple\). The production vendors should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP, and if it isn't a processing error, then they should check the response from an author if an author query was added relating to this at pre-editing. If there was no author query, they should flag it to the eLife Production staff, who at Pub Review stage should contact the authors, letting them know about the constraints and asking them how they would like to proceed.
 
 #### **final-mathbackground-test-2**
 
 **Error**: _math \(XXXXXX element\) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. If it's not a mistake, and the background colour is deliberate, then either the background colour will need to added to the table cell \(rather than the maths\), or it needs to be removed._
 
-**Action**: This warning will fire at post-author stages for maths in a table, which has background colour formatting \(similar to highlighting\). eLife do not permit background colouring for text, and only permit certain colours for text itself \(red, blue, or purple\), and [**certain colours for table cells**](allowed-assets/tables.md#allowed-colours-in-tables). Exeter should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP. If the colours were present for the table cell\(s\) in the original manuscript then that formatting should be removed from the equation and added to the cell; then the steps required for colours in tables cells should be followed, as directed by the Schematron messages after re-validating \(see also the [**Tables page**](allowed-assets/tables.md)\). If, in the original manuscript, there was background colour for the maths, then it should be changed as colour for the text of the maths. 
+**Action**: This warning will fire at post-author stages for maths in a table, which has background colour formatting \(similar to highlighting\). eLife do not permit background colouring for text, and only permit certain colours for text itself \(red, blue, or purple\), and [**certain colours for table cells**](allowed-assets/tables.md#allowed-colours-in-tables). The production vendors should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP. If the colours were present for the table cell\(s\) in the original manuscript then that formatting should be removed from the equation and added to the cell; then the steps required for colours in tables cells should be followed, as directed by the Schematron messages after re-validating \(see also the [**Tables page**](allowed-assets/tables.md)\). If, in the original manuscript, there was background colour for the maths, then it should be changed as colour for the text of the maths. 
 
 #### **mtext-test-1**
 
@@ -544,7 +544,7 @@ At post-author stages, if the above query has been added, then action should be 
 
 **Error**: _Duplicated display formula labels - XXXXXX is present more than once in the same appendix._
 
-**Action**: This will fire at all stages if two or more equations in a single appendix have the same label. Exeter should query the eLife Production team, who will determine the best course of action. If this is an obvious typo, then the equations can be renumbered so that they are sequential. Note that we can have equations 1a, 1b and so on, so it may be appropriate to renumber in that fashion. If the authors have included an equation from a different paper \(for example Equation 1 from Smith et al.\), and retained the numbering from that paper, as well as including their own equation 1, then the label in the equation taken from the other paper can be removed, and references to it in the text can be updated to reflect that \(any citations for Equation 1 changed to Equation 1 from Smith et al., 2020\) etc. An author query should be added so that the authors are aware of the change and can suggest an alternative if desired:
+**Action**: This will fire at all stages if two or more equations in a single appendix have the same label. The production vendors should query the eLife Production team, who will determine the best course of action. If this is an obvious typo, then the equations can be renumbered so that they are sequential. Note that we can have equations 1a, 1b and so on, so it may be appropriate to renumber in that fashion. If the authors have included an equation from a different paper \(for example Equation 1 from Smith et al.\), and retained the numbering from that paper, as well as including their own equation 1, then the label in the equation taken from the other paper can be removed, and references to it in the text can be updated to reflect that \(any citations for Equation 1 changed to Equation 1 from Smith et al., 2020\) etc. An author query should be added so that the authors are aware of the change and can suggest an alternative if desired:
 
 * Please note that we have re-labelled/removed the label from this equation as we do not permit more than one equation with the same label within an appendix.
 
@@ -552,7 +552,7 @@ At post-author stages, if the above query has been added, then action should be 
 
 **Error**: _Duplicated display formula labels - XXXXXX is present more than once in the main body of the text._
 
-**Action**: This will fire at all stages if two or more equations in a single appendix have the same label. Exeter should query the eLife Production team, who will determine the best course of action. If this is an obvious typo, then the equations can be renumbered so that they are sequential. Note that we can have equations 1a, 1b and so on, so it may be appropriate to renumber in that fashion. 
+**Action**: This will fire at all stages if two or more equations in a single appendix have the same label. The production vendors should query the eLife Production team, who will determine the best course of action. If this is an obvious typo, then the equations can be renumbered so that they are sequential. Note that we can have equations 1a, 1b and so on, so it may be appropriate to renumber in that fashion. 
 
 If the authors are referring to an equation from a different paper \(for example Equation 1 from Smith et al. and there is also an equation 1 from the authors\), then the label in the equation taken from the other paper can be removed, and references to it in the text can be updated to reflect that \(any citations for Equation 1 changed to Equation 1 from Smith et al., 2020\) etc. An author query should be added so that the authors are aware of the change and can suggest an alternative if desired:
 
@@ -564,13 +564,13 @@ If the authors are referring to an equation from a different paper \(for example
 
 **Error**: _disp-formula must contain an mml:math element._
 
-**Action**: This will fire at all stages if there is no mml:math element as a child of the disp-formula element. If this has fired, it means something has gone awry in Kriya, and will likely need to be looked into by the Exeter support team. 
+**Action**: This will fire at all stages if there is no mml:math element as a child of the disp-formula element. If this has fired, it means something has gone awry in Kriya, and will likely need to be looked into by the production vendor support team. 
 
 #### **disp-formula-test-3**
 
 **Warning**: _In the vast majority of cases disp-formula should be a child of p. XXXXXX is a child of XXXXXX. Is that correct?_
 
-**Action**: This warning will fire at all stages if an display formula is not placed as a child of a `<p>` element. The only case where this can be ignored \(and note that these are very rare occurrences\), is when a display formula appears as the first piece of content within a section, in which case it will be a child of `<sec>` \(it cannot be placed as the first item in a paragraph, see [**disp-formula-test-4**](maths.md#disp-formula-test-4) below\). The Exeter support team will likely need to correct this.
+**Action**: This warning will fire at all stages if an display formula is not placed as a child of a `<p>` element. The only case where this can be ignored \(and note that these are very rare occurrences\), is when a display formula appears as the first piece of content within a section, in which case it will be a child of `<sec>` \(it cannot be placed as the first item in a paragraph, see [**disp-formula-test-4**](maths.md#disp-formula-test-4) below\). The production vendor support team will likely need to correct this.
 
 \*\*\*\*[**Here is an example**](https://elifesciences.org/articles/62105#s16-5-1) of when a display formula appears as the first piece of content within a section, and in this particular instance this warning would fire, but can be ignored.
 
@@ -586,19 +586,19 @@ If the authors are referring to an equation from a different paper \(for example
 
 **Error**: _inline-formula must contain an mml:math element._
 
-**Action**: This will fire at all stages if there is no mml:math element as a child of the inline-formula element. If this has fired, it means something has gone awry in Kriya, and will likely need to be looked into by the Exeter support team. 
+**Action**: This will fire at all stages if there is no mml:math element as a child of the inline-formula element. If this has fired, it means something has gone awry in Kriya, and will likely need to be looked into by the production vendor support team. 
 
 #### **inline-formula-test-4**
 
 **Error**: _XXXXXX must be a child of p, td, th or title. The formula containing XXXXXX is a child of XXXXXX_
 
-**Action**: This will fire at all stages if an inline-formula element is not a child of either a p, title, td or th element. If this has fired, it means something has gone awry in Kriya, and will likely need to be looked into by the Exeter support team. 
+**Action**: This will fire at all stages if an inline-formula element is not a child of either a p, title, td or th element. If this has fired, it means something has gone awry in Kriya, and will likely need to be looked into by the production vendor support team. 
 
 #### **math-test-1**
 
 **Error**: _mml:math must not be empty._
 
-**Action**: This will fire at all stages if an mml:math element contains no content. In Kriya this will essentially be an empty formula. The action should be to attempt to delete, the extra equation, or add in the missing content \(as appropriate\). If this does not work, then it will need to be looked into by the Exeter support team.
+**Action**: This will fire at all stages if an mml:math element contains no content. In Kriya this will essentially be an empty formula. The action should be to attempt to delete, the extra equation, or add in the missing content \(as appropriate\). If this does not work, then it will need to be looked into by the production vendor support team.
 
 #### **math-test-2**
 
@@ -608,43 +608,43 @@ If the authors are referring to an equation from a different paper \(for example
 
 ![](../../.gitbook/assets/screenshot-2021-03-09-at-13.40.36.png)
 
-Try re-entering the LaTeX for the equation in the equation editor in Kriya. If you do not know how to capture it in LaTeX, try using a tool such as Mathpix snip. Save the equation, download the latest XML and revalidate. If that has not solved the problem, then the Exeter support team will need to look into the issue.
+Try re-entering the LaTeX for the equation in the equation editor in Kriya. If you do not know how to capture it in LaTeX, try using a tool such as Mathpix snip. Save the equation, download the latest XML and revalidate. If that has not solved the problem, then the production vendor support team will need to look into the issue.
 
 #### **disp-formula-child-test-1**
 
 **Error**: _XXXXXX element is not allowed as a child of disp-formula._
 
-**Action**: This error will fire at all stages for any element which is a child of `<disp-formula>` that is not either `<label>` or `<mml:math>`. The Exeter support team will need to fix this.
+**Action**: This error will fire at all stages for any element which is a child of `<disp-formula>` that is not either `<label>` or `<mml:math>`. The production vendor support team will need to fix this.
 
 #### **inline-formula-child-test-1**
 
 **Error**: _XXXXXX element is not allowed as a child of inline-formula._
 
-**Action**: This error will fire at all stages for any element which is a child of `<inline-formula>` that is `<mml:math>`. The Exeter support team will need to fix this.
+**Action**: This error will fire at all stages for any element which is a child of `<inline-formula>` that is `<mml:math>`. The production vendor support team will need to fix this.
 
 #### **mml-math-id-test**
 
 **Error**: _mml:math @id in disp-formula must be in the format 'm0'. XXXXXX does not conform to this._
 
-**Action**: This error will fire at any stage __if an mml:math element in the main body or an appendix has an id which is not in the format `m0`. The Exeter support team will need to fix this.
+**Action**: This error will fire at any stage __if an mml:math element in the main body or an appendix has an id which is not in the format `m0`. The production vendor support team will need to fix this.
 
 #### **sub-mml-math-id-test**
 
 **Error**: _mml:math @id in disp-formula must be in the format 'sa0m0'. XXXXXX does not conform to this._
 
-**Action**: This error will fire at any stage __if an mml:math element within a sub-article which is not in the format `sa0m0`. The Exeter support team will need to fix this.
+**Action**: This error will fire at any stage __if an mml:math element within a sub-article which is not in the format `sa0m0`. The production vendor support team will need to fix this.
 
 #### **disp-formula-id-test**
 
 **Error**: _disp-formula @id must be in the format 'equ0'._
 
-**Action**: This error will fire at any stage __if an disp-formula element in the main body or an appendix has an id which is not in the format `equ0`. The Exeter support team will need to fix this.
+**Action**: This error will fire at any stage __if an disp-formula element in the main body or an appendix has an id which is not in the format `equ0`. The production vendor support team will need to fix this.
 
 #### **sub-disp-formula-id-test**
 
 **Error**: _disp-formula @id must be in the format 'sa0equ0' when in a sub-article. XXXXXX does not conform to this._
 
-**Action**: This error will fire at any stage __if a disp-formula element within a sub-article which is not in the format `sa0equ0`. The Exeter support team will need to fix this.
+**Action**: This error will fire at any stage __if a disp-formula element within a sub-article which is not in the format `sa0equ0`. The production vendor support team will need to fix this.
 
 ## XML structure
 

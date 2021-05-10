@@ -179,17 +179,5 @@ These images and any captions highlighted to us will need to be uploaded to the 
 
 
 
-## Changelog
-
-### dd/mm/yyyy
-
-#### Changes
-
-* 
-### dd/mm/yyyy
-
-#### Changes
-
-* 
 
 
