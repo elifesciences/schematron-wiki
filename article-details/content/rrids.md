@@ -45,14 +45,7 @@ These checks relate to RRIDs. X or XXXXXX refers to quoted text which will chang
 
 **Action:** RRIDs should be in the format 'RRID:XXXXXX' where XXXXXX is the ID and there is no space between the colon and the ID. Make sure the formatting is corrected accordingly. 
 
-## Changelog
 
-After Exeter has fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent.
 
-### dd/mm/yyyy
-
-#### Changes
-
-* 
 
 
