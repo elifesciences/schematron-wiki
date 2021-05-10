@@ -14,7 +14,7 @@ Note: eLife does not issue new versions of articles in order to indicate that an
 
 ## What needs to be added?
 
-To add a deceased footnote to an author, Exeter will need to add the attribute `deceased="yes"` to the`contrib` element, and a footnote also needs to be added in the `author-notes` section with an appropriate footnote symbol in the label. On the eLife website the attribute on the `contrib` element drives the necessary display. However, some sites, such as PMC, require the additional footnote as well to display the deceased status. For an XML example of deceased status, see [**below**](deceased-status.md#xml-structure). 
+To add a deceased footnote to an author, the production vendor's support team will need to add the attribute `deceased="yes"` to the`contrib` element, and a footnote also needs to be added in the `author-notes` section with an appropriate footnote symbol in the label. On the eLife website the attribute on the `contrib` element drives the necessary display. However, some sites, such as PMC, require the additional footnote as well to display the deceased status. For an XML example of deceased status, see [**below**](deceased-status.md#xml-structure). 
 
 ## Schematron checks
 
@@ -26,13 +26,13 @@ These checks relate to deceased status. X or XXXXXX refers to quoted text which 
 
 **Error**: _XXXXXX has a linked footnote 'XXXXXX', but not @deceased="yes" which is incorrect._
 
-**Action:** This error will fire if an author has a linked footnote which indicates that the author is deceased but the `contrib` element does not have a `deceased="yes"` attribute. Check which author \(if any\) should have the footnote and ask Exeter to correct accordingly. 
+**Action:** This error will fire if an author has a linked footnote which indicates that the author is deceased but the `contrib` element does not have a `deceased="yes"` attribute. Check which author \(if any\) should have the footnote and ask the production vendors to correct accordingly. 
 
 #### deceased-test-2
 
 **Error**: _XXXXXX has the attribute deceased="yes", but no footnote which contains the text 'Deceased', which is incorrect._
 
-**Action:** This error will fire if an author has a `deceased="yes"` attribute but no linked footnote in the `author-notes` section. Check which author \(if any\) should have the footnote and ask Exeter to correct accordingly. 
+**Action:** This error will fire if an author has a `deceased="yes"` attribute but no linked footnote in the `author-notes` section. Check which author \(if any\) should have the footnote and ask the production vendors to correct accordingly. 
 
 ## XML structure
 
@@ -53,17 +53,7 @@ These checks relate to deceased status. X or XXXXXX refers to quoted text which 
 </author-notes>
 ```
 
-## Changelog
 
-After Exeter has fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent.
 
-### dd/mm/yyyy
 
-#### Changes
 
-* 
-### dd/mm/yyyy
-
-#### Changes
-
-* 
