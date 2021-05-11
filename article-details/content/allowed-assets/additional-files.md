@@ -12,7 +12,7 @@ Besides the figures, figure supplements, tables and videos that are presented th
 
 ### Audio files
 
-At present, eLife cannot support inline audio-only playback so audio files \(as distinct from videos\) should be included as additional files. These are treated in all respects like [**Supplementary files**](additional-files.md#supplementary-files), but are labelled as Audio file 1, Audio file 2, etc.
+At present, eLife cannot support audio-only playback online so audio files \(as distinct from videos\) should be included as additional files. These are treated in all respects like [**Supplementary files**](additional-files.md#supplementary-files), but are labelled as Audio file 1, Audio file 2, etc. Please note that because of this, audio files cannot be associated with main assets in the way that videos can be. If authors require an audio file to be associated with a main figure or table, it will need to be handled as [**asset-level source data**](additional-files.md#source-files-asset-level).
 
 They are published in the Additional files section. A descriptive title should be provided for each file and a legend may be present as well. 
 
@@ -82,11 +82,11 @@ Supplementary files are published in the Additional files section and should hav
 
 ### Transparent reporting form
 
-To facilitate the interpretation and replication of experiments, authors are asked during full submission to provide information relating to sample-size estimation, replicates, and statistical reporting. They are then encouraged to fill out a template form \(available as a [**PDF**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.pdf) ****or a [**Word file**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.docx)\) describing the places within their article where this information has been included. This transparent reporting form will be published alongside the final version of record.
+To facilitate the interpretation and replication of experiments, authors are asked during full submission to provide information relating to sample-size estimation, replicates, and statistical reporting. They are then encouraged to fill out a template form \(available as a [**PDF**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.pdf) ****or a [**Word file**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.docx)\) describing the places within their article where this information has been included. This transparent reporting form \(TRF\) will be published alongside the final version of record.
 
 It is important to note that while TRFs accompany most articles, they are not mandatory. If, for example, an article does not describe experiments or the analysis of data \(as might be the case in a Tools and Resources submission\), the form would not be needed.
 
-Transparent reporting forms do not require a title or legend and are published at the end of the Additional files section.
+TRFs do not require a title or legend and are published at the end of the Additional files section.
 
 ![](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.45.35.png)
 
