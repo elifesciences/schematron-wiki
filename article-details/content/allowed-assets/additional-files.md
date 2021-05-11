@@ -134,7 +134,7 @@ Occasionally, authors will provide a LaTex \(.tex\) file as an additional file \
 
 * We noticed that you have provided a .tex file as an additional file. Please could you provide a typeset PDF version of this file that we can use for final publication?
 
-One final case is when authors provide an appendix as a supplementary file. That is, they refer to the file as an appendix in their text or file name and had intended for it to be typeset as such. If this occurs, the file should usually be incorporated into the main text. It may be necessary to query the author for full-resolution images or an editable version of the appendix file. Ideally, the content processors should alert the eLife production team if they encounter an additional file named as an appendix so that this can be sorted out before the proof goes to the authors.
+One final case is when authors provide an appendix as a supplementary file. That is, they refer to the file as an appendix in their text or file name and had intended for it to be typeset as such. If this occurs, the file should usually be incorporated into the main text. It may be necessary to query the author for full-resolution images or an editable version of the appendix file. Ideally, the production vendor should alert the eLife production team if they encounter an additional file named as an appendix so that this can be sorted out before the proof goes to the authors.
 
 The production team should take care to check the submission system prior to contacting the authors as sometimes there may be reasons it would be more appropriate to include this as an additional file, such as there being complex graphical components that cannot be rendered in an appendix section. Furthermore, the editorial team may have previously requested that the content be moved to an additional file and contradictory requests to the author should be avoided or explained.
 
@@ -142,7 +142,7 @@ The production team should take care to check the submission system prior to con
 
 It should be confirmed as far as possible that all additional files are intact/valid documents. This should be done by downloading the file and seeing if there are any issues when it is opened in the appropriate program. ZIP packages should also be expanded to make sure they are complete. If a file is corrupted, check the submission system to see if this is true of the original and either replace the document with the uncorrupted version or go to the authors to request one.
 
-This should be checked after the article is loaded to the journal website. In the event that it appears the creation of the final package is responsible for the corruption of a file \(that is, the file is fine in the proofing system and in the original submission\), the content processors should be asked to resolve the issue.
+This should be checked after the article is loaded to the journal website. In the event that it appears the creation of the final package is responsible for the corruption of a file \(that is, the file is fine in the proofing system and in the original submission\), the production vendor should be asked to resolve the issue.
 
 Please note there will be some additional files we cannot check as they are intended for use with propitiatory software we do not have access to. In these cases, there is unfortunately little we can do beyond making sure the files do not have an arbitrarily low size \(e.g. in the range of bytes rather than at least kilobytes\). If this is case, it is possible the file has been corrupted and it should be compared to the originally submitted version.
 
@@ -572,7 +572,7 @@ Supplementary files in the additional files section.
 </sec>
 ```
 
-Supplementary file followed by audio files in the additional files section. Note that the IDs for these follow the same pattern at present, so Audio file 1 is supp2, Audio file 2 is supp 3 etc.
+Supplementary file followed by audio files in the additional files section. Note that the IDs for these follow the same pattern at present, so Audio file 1 is supp2, Audio file 2 is supp3 etc.
 
 ```markup
 <sec id="s6" sec-type="supplementary-material">
