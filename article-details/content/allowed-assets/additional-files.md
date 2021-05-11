@@ -30,6 +30,8 @@ They are labelled as Reporting standard 1, Reporting standard 2, etc. A descript
 
 ![Reporting standard file in the PDF](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.51.33.png)
 
+![Example of the contents of a reporting standard file](../../../.gitbook/assets/screen-shot-2021-05-11-at-15.57.13.png)
+
 ### Source files \(article-level\)
 
 Source data and source code may be provided to allow readers access to the raw data and any scripts that were used to process it. During submission, authors are encouraged to provide these files to aid the reviewers and, in the event of acceptance, to allow other groups to easily reproduce the work.
@@ -52,11 +54,11 @@ These files are labelled respectively Source data 1, Source data 2, etc. and Sou
 
 ### Source files \(asset-level\)
 
-Figures \(and their supplements\), videos and tables may be accompanied by the source data and/or source code that was used to generate them. The source data will usually consist of tables of raw data but may also include unprocessed images, editable version of charts provided as flat images, or multiple-page documents that cannot be typeset as single figures/figure supplements. Source code will usually comprise scripts that were used to process the data or to generate the graphs shown in figures.
+Figures \(and their supplements\), videos and tables may be accompanied by the source data and/or source code that was used to generate them. The source data will usually consist of tables of raw data but may also include unprocessed images, editable version of charts presented in the figure, or multiple-page documents that cannot be typeset as single figures/figure supplements. Source code will usually comprise scripts that were used to process the data or to generate the graphs shown in figures.
 
 To indicate that they are associated with a display asset, these files will be named Figure 1—source data 1, Figure 2—figure supplement 1—source data 1, Table 3—source data 1, Video 4—source data 1, etc. and Figure 1—source code 1, Figure 2—figure supplement 1—source code 1, Table 3—source code 1, Video 4—source code 1, etc. The numbering restarts for each asset e.g. Figure 1—source data 1, Figure 2—source data 1, Figure 2—source data 2, Figure 3—source data 1. Like article-level source data and source code files, they should have a descriptive title and may be accompanied by a legend. They are displayed in context with the main asset to which they relate.
 
-Asset-level source files may accompany figures, videos and tables in an appendix as well as those in the main text. Schema and Chemical structures, however, cannot support associated source files.
+Asset-level source files may accompany figures, videos, and tables in an appendix as well as those in the main text. Schema and chemical structures, however, cannot support associated source files.
 
 ![Figure-level source data file in the online view](../../../.gitbook/assets/screen-shot-2021-04-20-at-13.00.34.png)
 
@@ -104,7 +106,7 @@ TRFs do not require a title or legend and are published at the end of the Additi
 
 Sometimes, authors will submit files using one additional file type where it would have been better for them to use another. For instance, a Supplementary file 1 with the title 'Source data for first experiment' should really have been Source data 1 and should be updated accordingly. Likewise if a source data file's title or legend indicate it in fact contains code, this should be changed to source code.
 
-Occasionally, this kind of issue can affect transparent reporting forms, with authors uploading them as reporting standards instead. If no title has been provided for a reporting standard, it is worth downloading the file and comparing it to the TRF template mentioned [**above**](additional-files.md#transparent-reporting-form). If it is clearly a transparent reporting form, it should be relabelled accordingly.
+Occasionally, this kind of issue can affect transparent reporting forms, with authors uploading them as reporting standards instead. If no title has been provided for a reporting standard, it is worth downloading the file and comparing it to the TRF template mentioned [**above**](additional-files.md#transparent-reporting-form). If it is clearly a transparent reporting form, it should be relabelled accordingly. For comparison, an example of what a reporting standard should look like can be found in the [**corresponding section**](additional-files.md#reporting-standards) of this page.
 
 ### Relationship to asset \(where applicable\)
 
@@ -128,19 +130,19 @@ Another issue that can occur during submission is that authors include additiona
 
 Where it is unclear whether the file is required for final publication, the author should be asked to double check that it is needed and provide a title where appropriate.
 
-Occasionally, authors will provide a LaTex \(.tex\) file as an additional file, under the assumption that we will typeset it for them. If they do so, they must be asked to provide a PDF version of this file so that it will be available in an easy-to-read format for publication.
+Occasionally, authors will provide a LaTex \(.tex\) file as an additional file \(most likely as a supplementary file\), under the assumption that we will typeset this document for them. Unfortunately this is not part of our processes, so when this happens they must be asked to provide a PDF version of the file for publication.
 
 * We noticed that you have provided a .tex file as an additional file. Please could you provide a typeset PDF version of this file that we can use for final publication?
 
-One final case of this kind of issue is when authors provide an appendix as a supplementary file. That is, they refer to the file as an appendix in their text or file name and had intended for it to be typeset as such. If this occurs, the file should usually be incorporated into the main text. It may be necessary to query the author for full-resolution images or an editable version of the appendix file. Ideally, the content processors should alert the eLife production team if they encounter an additional file named as an appendix so that this can be sorted out before the proof goes to the authors.
+One final case is when authors provide an appendix as a supplementary file. That is, they refer to the file as an appendix in their text or file name and had intended for it to be typeset as such. If this occurs, the file should usually be incorporated into the main text. It may be necessary to query the author for full-resolution images or an editable version of the appendix file. Ideally, the content processors should alert the eLife production team if they encounter an additional file named as an appendix so that this can be sorted out before the proof goes to the authors.
 
 The production team should take care to check the submission system prior to contacting the authors as sometimes there may be reasons it would be more appropriate to include this as an additional file, such as there being complex graphical components that cannot be rendered in an appendix section. Furthermore, the editorial team may have previously requested that the content be moved to an additional file and contradictory requests to the author should be avoided or explained.
 
 ### Corrupted files
 
-It should be confirmed as far as possible that all additional files are intact/valid documents. This should be done by downloading the file from the proof \(or staged article\) and seeing if there are any issues when it is opened in the appropriate program. ZIP packages should also be expanded to make sure they are complete. If a file is corrupted, check the submission system to see if this is true of the original and either replace the document with the uncorrupted version or go to the authors to request one.
+It should be confirmed as far as possible that all additional files are intact/valid documents. This should be done by downloading the file and seeing if there are any issues when it is opened in the appropriate program. ZIP packages should also be expanded to make sure they are complete. If a file is corrupted, check the submission system to see if this is true of the original and either replace the document with the uncorrupted version or go to the authors to request one.
 
-This should definitely be checked after the article is loaded to the journal website as conversions may occur at this stage. In the unlikely event that it appears the creation of the final package is responsible for the corruption of a file, the content processors should be advised and requested to resolve the issue.
+This should be checked after the article is loaded to the journal website. In the event that it appears the creation of the final package is responsible for the corruption of a file \(that is, the file is fine in the proofing system and in the original submission\), the content processors should be asked to resolve the issue.
 
 Please note there will be some additional files we cannot check as they are intended for use with propitiatory software we do not have access to. In these cases, there is unfortunately little we can do beyond making sure the files do not have an arbitrarily low size \(e.g. in the range of bytes rather than at least kilobytes\). If this is case, it is possible the file has been corrupted and it should be compared to the originally submitted version.
 
@@ -176,7 +178,7 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Warning**: _XXXXXX is missing a file \(supplementary-material missing a media element\) - please ensure that this is queried with the author._
 
-**Action**: This warning indicates at the pre-author stage that no file is present for an additional file entry. The author should be queried to provide the missing document.
+**Action**: This warning indicates at the pre-author stage that no file is present for an additional file entry. The author should be queried to provide the missing document, using whichever of the following queries is appropriate.
 
 * Please provide the file for this source data.
 * Please provide the file for this source code.
@@ -295,7 +297,7 @@ Please note, however, that this warning may fire in cases where full stops are i
 
 #### supplementary-material-test-7
 
-**Error**: _supplementary-material in additional files sections cannot have the a media element with the attribute mimetype='video'. This should be mimetype='application'_
+**Error**: _supplementary-material in additional files sections cannot have a media element with the attribute mimetype='video'. This should be mimetype='application'_
 
 **Action**: This error indicates an additional file has been given the attribute `mimetype='video'`. This is incorrect. Even if a video file is included as, for example, a supplementary file, it should be assigned a mimetype of `'application'`. This will require support team intervention to fix.
 
