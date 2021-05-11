@@ -169,8 +169,7 @@ The following points should be addressed during copy-editing:
    * Gene/protein names can be kept in abbreviated form throughout the article \(the authors may spell them out on the first use, but this does not need to be added in if missing\).
 7. Use of italics:
    * Latin terms such as et al., in vivo, in vitro, bona fide etc. should not be italicised.
-   * Species names should be in italics \(e.g. _Mus musculus_, _H. sapiens_\), except where they are part of an institution name \(e.g. Caenorhabditis Genetics Center, FlyBase:Drosophila Network Resources\).
-   * If only a genus is provided, rather than a specific species, it should not be in italics.
+   * Species and genus names should be in italics \(e.g. _Mus musculus_, _H. sapiens_\), except where they are part of an institution name \(e.g. Caenorhabditis Genetics Center, FlyBase:Drosophila Network Resources\).
    * For other terms, the authors' use of italics should be followed as far as is reasonable.
 8. Number use:
    * Numbers with five or more digits should have a comma separator e.g. 42,980. Numbers with four or less digits should not, e.g. 2400.
@@ -218,4 +217,5 @@ The following points should be addressed during copy-editing:
 
 * Updated 2020-11-13 to provide guidance on titles for Review articles.
 * Updated 2021-03-03 to increase Impact Statement length to 40 words
+* Updated 2021-05-10 to correct guidance on genus names.
 
