@@ -443,9 +443,27 @@ There are no contacts for PubMed. The data management system can be used to ask 
 
 \*\*\*\*[**PubMed Central**](https://www.ncbi.nlm.nih.gov/pmc/) is a digital repository that containing biomedical and life sciences journal literature. 
 
-Journal articles are supplied to PubMed in JATS XML format. A zip for every eLife article VoR is delivered to them via FTP. There are many different version of JATS they accept,  eLife currently uses Archiving and Interchange version 1.1 \(this is subject to change in the future\). The zip contains JATS XML 
+Journal articles are supplied to PubMed in JATS XML format. A zip for every eLife article VoR is delivered to them via FTP. There are many different version of JATS they accept, eLife currently uses Archiving and Interchange version 1.1 \(this is subject to change in the future\). The zip contains JATS XML, and any accompanying assets. File submission specifications for PMC can be found [**here**](https://www.ncbi.nlm.nih.gov/pmc/pub/filespec/).
 
+PMC send a daily summary email to production@elifesciences.org, which details the articles they have received that day, and their status. If any articles have failed, then a subsequent email will be sent with more information on which article and why. Further information can be found on [**PMC's Deposit Tracking System**](https://www.ncbi.nlm.nih.gov/pmc/dts/publishers/17/) \(DTS\) \(contact members of the Production team to get credentials\).
 
+Any failures will initially be under 'Packages Failed: Need Publisher Attention' in the DTS. 
+
+Usually a failure is caused by one of three things:
+
+1. The article has an animation \(or animations\). PMC's system treats `.gif`  files as if they were XML by default. As a result it tries to parse the file and fails. The error message will look something like:
+
+> elife-57012-video3.gif: There is no DOCTYPE Declaration or other schema reference.
+
+This will result in the package failing. Contact Jenny at PMC \(see below for details\), and ask them to correct the issue.
+
+2. 
+
+#### Contacts
+
+Jenny Hoops \(pmc@ncbi.nlm.nih.gov\) - for general queries
+
+Rebecca Orris \(rebecca.orris@nih.gov\) - keep her in the loop for any major changes to eLife XML, and for any feedback/queries about display on PMC \(Jenny should be included in the same correspondence\).
 
 ### Scopus
 
