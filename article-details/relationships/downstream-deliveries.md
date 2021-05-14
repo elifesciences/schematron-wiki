@@ -457,7 +457,25 @@ Usually a failure is caused by one of three things:
 
 This will result in the package failing. Contact Jenny at PMC \(see below for details\), and ask them to correct the issue.
 
-2. 
+2. Because the XML is not valid against the DTD. This occurs when there is an issue packaging a file in Kriya. The PMC error message will look something like:
+
+> elife-57101.xml: Invalid XML. -:1: element article: validity error : Element article content does not follow the DTD, ...
+
+\(In the above `...` will be the specific DTD message\). 
+
+Exeter will need to fix this. You can verify that the XML was invalid by finding it on the following places:
+
+ `s3://elife-production-final/`
+
+If the XML is invalid in the package in this bucket, this confirms that Exeter need to fix the issue.
+
+ `s3://elife-poa-packaging/pmc/zip/`
+
+If the XML is valid in `s3://elife-production-final/` but invalid in `s3://elife-poa-packaging/pmc/zip/` this indicates that something has gone wrong in creating the zip package to send to PMC. This will need to be brought to Graham's attention.
+
+3. Because the zip or contents within it are missing or corrupt. A missing/corrupted file will be easy to determine on our side. The PMC error message would indicate that a file was missing, and then checking the corresponding file in the zip in `s3://elife-production-final/` would likely confirm the same. If this is the case, then Exeter will need to resolve the issue and send through a silent correct to resupply a correct package to PMC. 
+
+If the cause is a corrupted package, then this will be difficult to determine on our end. It may be because of an issue with the FTP file transfer. If PMC confirm the error is due to a corrupt file, then this will need to be brought to the attention of Graham, who can investigate further \(the action may simply be to try sending it again\).
 
 #### Contacts
 
