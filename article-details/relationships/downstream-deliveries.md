@@ -469,5 +469,3 @@ Victoria Gevärsdotter \(v.gevarsdotter@zendy.io\)
 
 Stephen Lavery \(s.lavery@zendy.io\)
 
-
-
