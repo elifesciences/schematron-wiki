@@ -385,6 +385,14 @@ Gidon Junge \(Gidon@tdnet.com\)
 
 ### Publication Router \(HEFCE\)
 
+Publications Router provides feeds of content to institutions' systems \(such as repositories or current research information systems \[CHRISs\]\). It alerts those that have subscribed to the service with notifications when research articles have been published \(and includes the article and its metadata\) You can see the current subscribing institutions [**here**](https://pubrouter.jisc.ac.uk/about/recipientlist/). 
+
+You can find more information [**here**](https://pubrouter.jisc.ac.uk/about/#).
+
+eLife sends Pub Router the first version of every VoR.
+
+#### Contacts
+
 
 
 ### PubMed
