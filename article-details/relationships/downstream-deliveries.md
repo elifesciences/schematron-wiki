@@ -479,7 +479,7 @@ If the cause is a corrupted package, then this will be difficult to determine on
 
 #### Contacts
 
-Jenny Hoops \(pmc@ncbi.nlm.nih.gov\) - for general queries
+Jenny Hoops \(pmc@ncbi.nlm.nih.gov\) - for general queries.
 
 Rebecca Orris \(rebecca.orris@nih.gov\) - keep her in the loop for any major changes to eLife XML, and for any feedback/queries about display on PMC \(Jenny should be included in the same correspondence\).
 
