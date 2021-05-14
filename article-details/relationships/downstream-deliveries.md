@@ -359,11 +359,11 @@ Dom Mitchell \(dom@doaj.org\)
 
 Google Scholar pull eLife content directly from [**elifesciences.org**](https://elifesciences.org/). The process is a quite esoteric; the cause of any issues is almost impossible to determine on our end. However, typically an eLife article should appear on Google Scholar approximately a month or so after publication.
 
-One indication of a bug \(that would need to be brought to Maël's attention\) is that an article appears in search results, but does not appear on that authors profile. 
+One indication of a bug \(that would need to be brought to Maël's attention if raised by an author\) is if an article appears in search results, but does not appear on that author's profile. 
 
 #### Contacts
 
-The relationship with Google Scholar is dealt with by Maël Plaine at eLife. Any issues reported by authors to Production should be referred to Maël who has semi-regular meetings with them, and will  will contact Google Scholar.
+The relationship with Google Scholar is dealt with by Maël Plaine at eLife. Any issues reported by authors to Production should be referred to Maël who has semi-regular meetings with them Google Scholar.
 
 ### OVID
 
