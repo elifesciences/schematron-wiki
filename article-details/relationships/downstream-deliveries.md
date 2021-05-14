@@ -485,11 +485,11 @@ Rebecca Orris \(rebecca.orris@nih.gov\) - keep her in the loop for any major cha
 
 ### Scopus
 
-
+Scopus is an abstract and citation database owned by Elsevier.
 
 ### Web of Science
 
-
+Web of Science \(WOS\) is a website that provides subscription-based access to databases with citation data for academic content. It is maintained by Clarivate.
 
 ### Zendy
 
