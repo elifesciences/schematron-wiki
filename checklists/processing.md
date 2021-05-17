@@ -109,7 +109,7 @@ The following checks should be carried out during the copy-editing of an article
 2. Words following em-dashes, en-dashes and hyphens should be in lower case unless there are proper nouns.
 3. Acronyms and abbreviations can be left in the title as the author provides them.
 4. Colons and semi-colons are not allowed in the article title except within scientific terms and for Review articles. If one is present, please check the production notes and if no instructions are provided on this matter, a query should be raised with the eLife Production team.
-5. Check that the impact statement is a single, complete, grammatically correct sentence of no more than 40 words in length \(see the [**Impact statement**](../article-details/content/impact-statement.md) page for more details\).
+5. Check that the impact statement is a single, complete, grammatically correct sentence of no more than 40 words in length \(see the [**Impact statement**](../article-details/content/article-structure/impact-statement.md) page for more details\).
 6. Check that the spelling of author names matches the exported manuscript file.
 7. Make sure that any special characters, accents or diacritics in author names have transferred correctly compared to the manuscript file.
 8. Check that allowed suffixes \(Snr, Jnr, I, II, III, IV etc.\) have been retained and that prefixes have not been included.
