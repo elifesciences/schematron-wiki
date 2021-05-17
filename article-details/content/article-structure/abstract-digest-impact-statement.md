@@ -1,5 +1,7 @@
 # Abstracts, digests and impact statements
 
+## Abstracts
+
 In scientific articles, an abstract provides a clear and concise summary of the work. Abstracts allow readers to have a quick overview before reading the whole article. For eLife articles, abstracts are usually 150-200 words \(except medical submissions which can be around 250 words\). Subheadings are discouraged, except for medical submissions, which should contain the following subheadings: Background; Methods; Results; Conclusions; Funding; Clinical trial number \(for submissions reporting results of a trial only\). 
 
 {% hint style="info" %}
@@ -182,6 +184,290 @@ In this case, simply removing 'identified here' was sufficient to provide a corr
 
 These checks relate to the content of abstracts, digests and impact statements. X or XXXXXX refers to quoted text which will change depending on the article.
 
+#### test-abstracts
+
+**Error**: _There must either be only one abstract or one abstract and one abstract\[@abstract-type="executive-summary\]. No other variations are allowed._
+
+**Action**: 
+
+#### abstract-test-2
+
+**Error**: _At least 1 p element or sec element \(with descendant p\) must be present in abstract._
+
+**Action**: 
+
+#### abstract-test-2
+
+**Error**: _At least 1 p element or sec element \(with descendant p\) must be present in abstract._
+
+**Action**: 
+
+#### abstract-test-4
+
+**Error**: _abstracts cannot contain display formulas._
+
+**Action**: 
+
+#### abstract-test-5
+
+**Error**: _If an abstract is structured, then it must have 5 or 6 sections depending on whether it is a clinical trial. An article without a clinical trial should have 5 sections, whereas one with a clinical trial should have 6._
+
+**Action**: 
+
+#### abstract-test-6
+
+**Warning**: _Abstract starts with the word 'Abstract', which is almost certainly incorrect - XXXXXX_
+
+**Action**: 
+
+#### abstract-test-7
+
+**Warning**: _Abstract looks like it should instead be captured as a structured abstract \(using sections\) - XXXXXX_
+
+**Action**: 
+
+#### pre-abstract-word-count-restriction
+
+**Warning**: _The abstract contains XXXXXX words, when the usual upper limit is 280. Exeter: Please check with the eLife production team who will need to contact the eLife Editorial team._
+
+**Action**: 
+
+#### final-abstract-word-count-restriction
+
+**Warning**: _The abstract contains XXXXXX words, when the usual upper limit is 280. Abstracts with more than 280 words should be checked with the eLife Editorial team._
+
+**Action**: 
+
+#### medicine-abstract-conformance
+
+**Warning**: _Medicine articles with a colon in their title must have a structured abstract. Either the colon in the title is incorrect, or the abstract should be changed to a structured format._
+
+**Action**: 
+
+#### clintrial-conformance-1
+
+**Error**: _First section title is 'XXXXXX' - but the only allowed value is 'Background:'._
+
+**Action**: 
+
+#### clintrial-conformance-2
+
+**Error**: _Second section title is 'XXXXXX' - but the only allowed value is 'Methods:'._
+
+**Action**: 
+
+#### clintrial-conformance-3
+
+**Error**: _Third section title is 'XXXXXX' - but the only allowed value is 'Results:'._
+
+**Action**: 
+
+#### clintrial-conformance-4
+
+**Error**: _Fourth section title is 'XXXXXX' - but the only allowed value is 'Conclusions:'._
+
+**Action**: 
+
+#### clintrial-conformance-5
+
+**Error**: _Sixth section title is 'XXXXXX' - but the only allowed value is 'Clinical trial number:'._
+
+**Action**: 
+
+#### clintrial-conformance-6
+
+**Error**: _Fifth section title is 'XXXXXX' - but the only allowed value is 'Funding:'._
+
+**Action**: 
+
+#### clintrial-conformance-7
+
+**Error**: _Nested secs are not allowed in abstracts. Sec with the id XXXXXX and title 'XXXXXX' has child sections._
+
+**Action**: 
+
+#### clintrial-conformance-8
+
+**Error**: _XXXXXX must have an @id in the format 'abs1'. XXXXXX does not conform to this convention._
+
+**Action**: 
+
+#### clintrial-related-object-1
+
+**Error**: _XXXXXX in abstract must be placed in a section whose title is 'Clinical trial number:'_
+
+**Action**: 
+
+#### clintrial-related-object-2
+
+**Error**: _XXXXXX must have an @source-type='clinical-trials-registry'._
+
+**Action**: 
+
+#### clintrial-related-object-3
+
+**Error**: _XXXXXX must have an @source-id._
+
+**Action**: 
+
+#### clintrial-related-object-4
+
+**Error**: _XXXXXX must have an @source-id-type='registry-name'._
+
+**Action**: 
+
+#### clintrial-related-object-5
+
+**Error**: _XXXXXX must have an @source-type='clinical-trials-registry'._
+
+**Action**: 
+
+#### clintrial-related-object-6
+
+**Error**: _XXXXXX must have an @document-id._
+
+**Action**: 
+
+#### clintrial-related-object-7
+
+**Error**: _XXXXXX must have an @xlink:href._
+
+**Action**: 
+
+#### clintrial-related-object-8
+
+**Warning**: _XXXXXX has an @document-id 'XXXXXX'. But this is not in the text, which is likely incorrect - XXXXXX._
+
+**Action**: 
+
+#### clintrial-related-object-9
+
+**Error**: _XXXXXX must have an @id in the format 'RO1'. 'XXXXXX' does not conform to this convention._
+
+**Action**: 
+
+#### clintrial-related-object-10
+
+**Error**: _XXXXXX in abstract must be a child of a  element._
+
+**Action**: 
+
+#### clintrial-related-object-11
+
+**Error**: _XXXXXX @source-id value must be one of the subtitles of the Crossref clinical trial registries. "XXXXXX" is not one of the following XXXXXX_
+
+**Action**: 
+
+#### clintrial-related-object-12
+
+**Error**: _ClinicalTrials.gov trial links are in the format_ [https://clinicaltrials.gov/show/{number}](https://clinicaltrials.gov/show/{number})_. This XXXXXX has the link 'XXXXXX', which based on the clinical trial registry \(XXXXXX\) and @document-id \(XXXXXX\) is not right. Either the xlink:href is wrong \(should it be XXXXXX instead?\) or the @document-id value is wrong, or the @source-id value is incorrect \(or all/some combination of these\)._
+
+**Action**: 
+
+#### clintrial-related-object-13
+
+**Warning**: _There are XXXXXX clinical trial numbers tagged in the structured abstract, which seems like a large number. Please check that this is correct and has not been mistagged._
+
+**Action**: 
+
+#### clintrial-related-object-12
+
+**Error**: _ClinicalTrials.gov trial links are in the format_ [https://clinicaltrials.gov/show/{number}](https://clinicaltrials.gov/show/{number})_. This XXXXXX has the link 'XXXXXX', which based on the clinical trial registry \(XXXXXX\) and @document-id \(XXXXXX\) is not right. Either the xlink:href is wrong \(should it be XXXXXX instead?\) or the @document-id value is wrong, or the @source-id value is incorrect \(or all/some combination of these\)._
+
+**Action**: 
+
+#### related-object-ancestor
+
+**Error**: _XXXXXX is not allowed outside of the main abstract \(abstract\[not\(@abstract-type\)\]\)._
+
+**Action**: 
+
+#### xref-bibr-presence
+
+**Warning**: _Abstract contains a citation - 'XXXXXX' - which isn't usually allowed. Check that this is correct._
+
+**Action**: 
+
+#### pre-res-comm-test
+
+**Warning**: _'XXXXXX' has only one paragraph in its abstract or the second paragraph does not begin with 'Editorial note', which is incorrect. Please ensure to check with eLife staff for the required wording._
+
+**Action**: 
+
+#### xref-bibr-presence
+
+**Warning**: _Abstract contains a citation - 'XXXXXX' - which isn't usually allowed. Check that this is correct._
+
+**Action**: 
+
+#### final-res-comm-test
+
+**Error**: _'XXXXXX' has only one paragraph in its abstract or the second paragraph does not begin with 'Editorial note', which is incorrect._
+
+**Action**: 
+
+#### res-art-test
+
+**Warning**: _'XXXXXX' has more than one paragraph in its abstract, is this correct?_
+
+**Action**: 
+
+#### corr-abstract-presence
+
+**Error**: _Correction notices should not contain abstracts._
+
+**Action**: 
+
+#### retr-abstract-presence
+
+**Error**: _XXXXXX notices should not contain abstracts._
+
+**Action**: 
+
+#### insight-abstract-impact-test-1
+
+**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract reads "XXXXXX", whereas the impact statement reads "XXXXXX"._
+
+#### insight-abstract-impact-test-2
+
+**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract has XXXXXX child element\(s\), whereas the impact statement has XXXXXX child element\(s\). Check for possible missing formatting._
+
+**Action**: 
+
+#### insight-abstract-impact-test-1
+
+**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract reads "XXXXXX", whereas the impact statement reads "XXXXXX"._
+
+#### feature-abstract-test-1
+
+**Error**: _abstract must contain one and only one title._
+
+**Action**: 
+
+#### feature-abstract-test-2
+
+**Error**: _abstract title must contain 'eLife digest'. Possible superfluous characters - XXXXXX_
+
+**Action**: 
+
+#### test-no-digest
+
+**Error**: _'XXXXXX' cannot have a digest._
+
+**Action**: 
+
+#### digest-test-1
+
+**Warning**: _digest paragraph starts with a lowercase letter. Is that correct? Or has a paragraph been incorrect split into two?_
+
+**Action**: 
+
+#### final-digest-test-2
+
+**Error**: _digest paragraph contains \[OK\] or \[OK?\] which should be removed - XXXXXX_
+
+**Action**: 
+
 #### custom-meta-test-5
 
 **Warning**: _Impact statement contains more than 40 words. This is not allowed._
@@ -350,4 +636,8 @@ These checks relate to the XML structure of impact statements. X or XXXXXX refer
 ### 23/04/2021
 
 * Updated to add the 40 word limit to an author query.
+
+### 17/05/2021
+
+* Incorporated abstract and digest information.
 
