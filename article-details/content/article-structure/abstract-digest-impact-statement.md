@@ -30,7 +30,7 @@ An impact statement is a succinct summary of an article, intended for display on
 
 Impact statements do not display on the main article page on the website or the PDF.
 
-An impact statement should be a single complete sentence, no more than 40 words in length. Multiple sentences or multiple statements joined with semi-colons are not allowed. Colons are similarly not allowed, except when the article is a [Replication study](impact-statement.md#impact-statements-in-replication-studies). The statement should be properly punctuated and end in a full stop. Bold text is not allowed but italics and superscript should be retained as the author provides, and as in the title, species names \(e.g. _Homo sapiens_\) should be in italics.
+An impact statement should be a single complete sentence, no more than 40 words in length. Multiple sentences or multiple statements joined with semi-colons are not allowed. Colons are similarly not allowed, except when the article is a [Replication study](abstract-digest-impact-statement.md#impact-statements-in-replication-studies). The statement should be properly punctuated and end in a full stop. Bold text is not allowed but italics and superscript should be retained as the author provides, and as in the title, species names \(e.g. _Homo sapiens_\) should be in italics.
 
 The statement should not repeat the title and it should not be written in the first-person. It should not use acronyms without defining them, although commonly used terms \(such as RNA\) are OK. It should match the main text in terms of whether UK or US spelling is used.
 
@@ -214,7 +214,7 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 **Warning**: _Impact statement contains a colon or semi-colon, which is likely incorrect. It needs to be a proper sentence._
 
-**Action**: If possible, rephrase the impact statement to remove the need for a colon or semi-colon. See [above](impact-statement.md#semi-colon-removal). If it is not clear how to do this, please query the authors:
+**Action**: If possible, rephrase the impact statement to remove the need for a colon or semi-colon. See [above](abstract-digest-impact-statement.md#semi-colon-removal). If it is not clear how to do this, please query the authors:
 
 * The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement that clearly explains the main results of your study.
 
@@ -222,13 +222,13 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 **Warning**: _Impact statement contains a possessive phrase. This is not allowed_
 
-**Action**: The impact statement should be rephrased to avoid using 'We show', 'We prove', 'This work shows' or any other similar phrase. See [above](impact-statement.md#removing-possessive-phrases). This is a warning at the pre-author stages.
+**Action**: The impact statement should be rephrased to avoid using 'We show', 'We prove', 'This work shows' or any other similar phrase. See [above](abstract-digest-impact-statement.md#removing-possessive-phrases). This is a warning at the pre-author stages.
 
 #### final-custom-meta-test-9
 
 **Error**: _Impact statement contains a possessive phrase. This is not allowed_
 
-**Action**: The impact statement should be rephrased to avoid using 'We show', 'We prove', 'This work shows' or any other similar phrase. See [above](impact-statement.md#removing-possessive-phrases). This is an error at the post-author stages.
+**Action**: The impact statement should be rephrased to avoid using 'We show', 'We prove', 'This work shows' or any other similar phrase. See [above](abstract-digest-impact-statement.md#removing-possessive-phrases). This is an error at the post-author stages.
 
 #### custom-meta-test-10
 
@@ -242,25 +242,25 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 **Warning**: _Impact statement contains 'our'. Is this possessive language relating to the article or research itself \(which should be removed\)?_
 
-**Action**: The impact statement should be rephrased to avoid using 'We show', 'Our work proves', 'This work shows' or any other similar phrase. See [above](impact-statement.md#removing-possessive-phrases).
+**Action**: The impact statement should be rephrased to avoid using 'We show', 'Our work proves', 'This work shows' or any other similar phrase. See [above](abstract-digest-impact-statement.md#removing-possessive-phrases).
 
 #### custom-meta-test-13
 
 **Warning**: _Impact statement contains 'study'. Is this a third person description of this article? If so, it should be changed to not include this._
 
-**Action**: Check to see if the statement contains a phrase such as 'This study shows' or ' In this study'. If it does, the statement must be rephrased. See [above](impact-statement.md#this-study-removal).
+**Action**: Check to see if the statement contains a phrase such as 'This study shows' or ' In this study'. If it does, the statement must be rephrased. See [above](abstract-digest-impact-statement.md#this-study-removal).
 
 #### pre-rep-study-custom-meta-test
 
 **Warning**: _Impact statement in Replication studies must begin with 'Editors' summary: '. This does not - 'XXXXXX'._
 
-**Action**: XXXXXX will be the current impact statement. In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [above](impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, please alert the Production team so that they can get the correct text from the Editorial team. The article should not go to the authors until this is resolved, but can be moved to waiting for assets. This is a warning at the pre-author stages. 
+**Action**: XXXXXX will be the current impact statement. In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [above](abstract-digest-impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, please alert the Production team so that they can get the correct text from the Editorial team. The article should not go to the authors until this is resolved, but can be moved to waiting for assets. This is a warning at the pre-author stages. 
 
 #### final-rep-study-custom-meta-test
 
 **Error**: _Impact statement in Replication studies must begin with 'Editors' summary: '. This does not - 'XXXXXX'_
 
-**Action**: XXXXXX will be the current impact statement. In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [above](impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, the Production team will need to check with the Editorial team to get the correct text for the impact statement. This is an error at the pre-author stages.
+**Action**: XXXXXX will be the current impact statement. In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [above](abstract-digest-impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, the Production team will need to check with the Editorial team to get the correct text for the impact statement. This is an error at the pre-author stages.
 
 #### custom-meta-child-test-1
 
@@ -282,7 +282,7 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 ### XML structure checks
 
-These checks relate to the XML structure of impact statements. X or XXXXXX refers to quoted text which will change depending on the article.For more information about what the XML should look like, [**see below**](impact-statement.md#xml-structure).
+These checks relate to the XML structure of impact statements. X or XXXXXX refers to quoted text which will change depending on the article.For more information about what the XML should look like, [**see below**](abstract-digest-impact-statement.md#xml-structure).
 
 #### custom-meta-test-1
 
@@ -300,7 +300,7 @@ These checks relate to the XML structure of impact statements. X or XXXXXX refer
 
 **Error**: _One meta-value must be present in custom-meta._
 
-**Action**: For each instance of `<custom-meta>` in the [XML](impact-statement.md#xml-structure), there should be one and only one `<meta-value>` element. Ensure this is the case and remove extra elements of this type.
+**Action**: For each instance of `<custom-meta>` in the [XML](abstract-digest-impact-statement.md#xml-structure), there should be one and only one `<meta-value>` element. Ensure this is the case and remove extra elements of this type.
 
 #### custom-meta-test-14
 
@@ -318,7 +318,7 @@ These checks relate to the XML structure of impact statements. X or XXXXXX refer
 
 **Error**: _The value of meta-value cannot be empty_
 
-**Action**: If a `<meta-value>` element is present in the XML, it must contain some content. This should contain the text for the impact statement \(see [below](impact-statement.md#xml-structure)\). If this error fires, check that an impact statement is present. If it is, this problem will likely require intervention from technical support to fix the XML conversion. If there is no impact statement, the Production team will need to be alerted so they can check the submitted article details. In the event of an export bug, they should provide the submitted impact statement that should be entered. In the unlikely event that no statement was provided in the first place, the author should be queried:
+**Action**: If a `<meta-value>` element is present in the XML, it must contain some content. This should contain the text for the impact statement \(see [below](abstract-digest-impact-statement.md#xml-structure)\). If this error fires, check that an impact statement is present. If it is, this problem will likely require intervention from technical support to fix the XML conversion. If there is no impact statement, the Production team will need to be alerted so they can check the submitted article details. In the event of an export bug, they should provide the submitted impact statement that should be entered. In the unlikely event that no statement was provided in the first place, the author should be queried:
 
 * The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement that clearly explains the main results of your study.
 

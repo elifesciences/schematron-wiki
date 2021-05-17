@@ -20,7 +20,7 @@
     * [Figures and figure supplements](article-details/content/allowed-assets/figures.md)
     * [Tables](article-details/content/allowed-assets/tables.md)
   * [Article structure](article-details/content/article-structure/README.md)
-    * [Abstracts, digests and impact statements](article-details/content/article-structure/impact-statement.md)
+    * [Abstracts, digests and impact statements](article-details/content/article-structure/abstract-digest-impact-statement.md)
     * [Appendices](article-details/content/article-structure/appendices.md)
   * [Licensing and copyright](article-details/content/licensing-and-copyright.md)
   * [Country names](article-details/content/country-names.md)
