@@ -8,7 +8,9 @@ description: >-
 
 ## What are additional files?
 
-Besides the figures, figure supplements, tables and videos that are presented throughout an article, eLife also allows authors to include files that can be downloaded to support their findings. These can be uploaded at the level of the entire article \(in which case they sit in an 'Additional files' section at the back of the article\) or to accompany particular display assets \(that is, they will be associated with a figure, table or video\). eLife allows the following varieties of additional file.
+Besides the figures, figure supplements, tables and videos that are presented throughout an article, eLife also allows authors to include files that can be downloaded to support their findings. These can be uploaded at the level of the entire article \(in which case they sit in an 'Additional files' section at the back of the article\) or to accompany particular display assets \(that is, they will be associated with a figure, table or video\).
+
+eLife allows the following varieties of additional file.
 
 ### Audio files
 
