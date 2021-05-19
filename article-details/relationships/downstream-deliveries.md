@@ -431,7 +431,9 @@ The files that were sent to PubMed can be found in the following Amazon S3 bucke
 
 The files are placed based on the date they are sent, so if you are looking to find a particular file for a particular article, ensure you know the publication date for the _version_ you are looking for. Version here is important, because PubMed is supplied XML for both PoA and VoR. If you are checking what was sent for the VoR, you will need to look for the VoR publication date. Note that silent corrections are not sent to PubMed. Any changes to content which is presented on PubMed and is corrected via Silent Correction, will not automatically update on PubMed, because the files will not be passed to them. Instead these changes will have to be made in their data management system. 
 
-Finally, note that the PubMed files are placed under `batch/` within the particular folder. They will be named something like `elife-pubmed-66165-20210504164509.xml`
+Finally, note that the PubMed files are placed under `batch/` within the particular folder. They will be named something like `elife-pubmed-66165-20210504164509.xml`.
+
+An eLife article will typically appear on PubMed 48 hours after it is sent to them, but it can take up to 2 weeks. 
 
 Errors on PubMed can be corrected via the [**PubMed Data Management System**](https://www.ncbi.nlm.nih.gov/pubmed/management/publisher/), which requires a login. Contact the Production team if you need these details.
 
