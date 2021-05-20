@@ -479,7 +479,7 @@ If the XML is valid in `s3://elife-production-final/` but invalid in `s3://elife
 
 If the cause is a corrupted package, then this will be difficult to determine on our end. It may be because of an issue with the FTP file transfer. If PMC confirm the error is due to a corrupt file, then this will need to be brought to the attention of Graham, who can investigate further \(the action may simply be to try sending it again\).
 
-It will typically take around 2 weeks for an article to appear on PubMed Central
+It will typically take around 2 weeks for an article to appear on PubMed Central.
 
 #### Contacts
 
