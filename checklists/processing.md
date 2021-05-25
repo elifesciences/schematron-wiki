@@ -191,6 +191,7 @@ The following points should be addressed during copy-editing:
    * Weight: wt
    * Repetition of units: this should be left as the author provides, excepting use of % and °C which should only be retained for the final number, e.g. 80–100%, 5–10°C
    * Ranges: use en-dash to indicate a range of values
+   * Centrifugation factor: should be \[number\] × _g_
 10. Statistics:
     * Probability: lowercase roman p, with leading zero, e.g. p=0.01
 11. Punctuation:
@@ -218,4 +219,5 @@ The following points should be addressed during copy-editing:
 * Updated 2020-11-13 to provide guidance on titles for Review articles.
 * Updated 2021-03-03 to increase Impact Statement length to 40 words
 * Updated 2021-05-10 to correct guidance on genus names.
+* Updated 2021-05-25 to add additional guidance on manufacturer names and centrifugation factors.
 
