@@ -353,7 +353,7 @@ Dom Mitchell \(dom@doaj.org\)
 
 ### GoOA
 
-
+GoOA is a content aggregator run by the the National Science Library of the Chinese Academy of Sciences. It provides \(Chinese\) institutional access to literature that has been indexed on its platform.
 
 ### Google Scholar
 
