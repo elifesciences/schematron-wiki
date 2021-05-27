@@ -264,11 +264,11 @@ Technical questions - Brian Newman \(Brian.Newman@cengage.com\)
 
 ### CNKI
 
-
+\*\*\*\*[**China National Knowledge Infrastructure**](https://oversea.cnki.net/index/) \(CNKI\) is a large literature database.
 
 ### CNPIEC
 
-
+China National Publications Import and Export \(Group\) Corporation CNPIEC is a large literature database.
 
 ### Crossref
 
