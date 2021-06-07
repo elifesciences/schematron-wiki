@@ -26,7 +26,7 @@ The following information can be added for software references:
 | Collaboration | Yes \(or authors must be entered instead\) | &lt;person-group person-group-type="author"&gt; &lt;collab&gt; | R Development Core Team |
 | Year | Yes | &lt;year iso-8601-date="XXXXXX"&gt; where XXXXXX is the year | 2020 |
 | Software title | Yes | &lt;data-title&gt; | Slice display |
-| Source | Yes \(or Publisher must be entered instead\) | &lt;source&gt; | GitHub |
+| Software name \(Source in Kriya 2\) | Yes \(or Publisher must be entered instead\) | &lt;source&gt; | GitHub |
 | Software version | No | &lt;version designator="XXXXXX"&gt; where XXXXXX is the version | 3.1.0 |
 | Publisher city | No | &lt;publisher-loc&gt; | Vienna |
 | Publisher country | No | &lt;publisher-loc&gt; | Austria |
@@ -39,7 +39,7 @@ Where the optional information is available, this should also be added in.
 * **Collaboration:** If the software was made by a team this should be entered as a collaboration instead of authors ****e.g. ****R Development Core Team.
 * **Year**: This should be the year that the software being cited was released. 
 * **Software title**: The name of the software.
-* **Source**: Where the software is hosted \(this does not necessarily mean the host owns the software\), if applicable.
+* **Software name \(Source in Kriya 2\)**: Where the software is hosted \(this does not necessarily mean the host owns the software\), if applicable.
 * **Software version:** The version of software that was used. This is often mentioned in the article text - if it is not, it does not need to be added in. However, if it is provided it should be added and tagged correctly as a software version.
 * **Publisher location:** The location of the publishers of the software. This is separated into city and country fields in Kriya.
 * **Publisher**: The company or organisation that created the software and has ownership rights over it, if applicable.
@@ -82,7 +82,7 @@ The default fields in Kriya will need to be altered to include the appropriate i
 * Author - If the repository includes information about the authors, these should be added. If not, just use the GitHub User IDs of the collaborators.
 * Year - the year of the latest commit number \(outlined in red below\).
 * Software title - the name of the repository.
-* Source \(currently Software name on Kriya 1.5\) - GitHub.
+* Software name \(Source in Kriya 2\) - GitHub.
 * Software version - the ID of the latest commit number.
 * Website - the URL for the repository.
 
@@ -104,7 +104,7 @@ An example of correctly entered fields for a GitHub repository reference is give
 | Author | Colijn CC |
 | Year | 2020 |
 | Software title | Analysis of novel Coronavirus Disease \(COVID-19\) Singapore and Tianjin outbreak clusters |
-| Source | GitHub |
+| Software name \(Source in Kriya 2\) | GitHub |
 | Software version | 9e78826 |
 | Website | https://github.com/carolinecolijn/ClustersCOVID19 |
 
@@ -141,7 +141,7 @@ Looking up [**biomod2**](https://cran.r-project.org/web/packages/biomod2/index.h
 | Author	 | Breiner F |
 | Year | 2020 |
 | Software title | biomod2: Ensemble Platform for Species Distribution Modeling |
-| Source | CRAN |
+| Software name \(Source in Kriya 2\) | CRAN |
 | Software version | 3.2-7.1 |
 | Website | https://CRAN.R-project.org/package=biomod2 |
 
@@ -159,14 +159,43 @@ R software also has an [**RRID**](https://scicrunch.org/resolver/RRID:SCR_001905
 
 After archiving code in Software Heritage \(see how to do this [**here**](../../../toolkit/archiving-code.md)\), a software reference needs to be added in the main text. The website should be the full directory link with contextual information \(see [**here**](../../../toolkit/archiving-code.md#in-the-main-text) for how to obtain this\). An example of a correctly entered Software Heritage software reference is below:
 
-| Fields | Values |
-| :--- | :--- |
-| Author | Zhan N |
-| Year | 2020 |
-| Software title |  Zhan-Fan-et-al-2019-scRNAseq |
-| Source | Software Heritage |
-| Software version | swh:1:rev:c008b3ff49d567a1abe9d9eed42afed4e9a27b42 |
-| Website | https://archive.softwareheritage.org/browse/directory/89513b41bd021137c72fa7cf3e57bcef4bf6c933/?origin\_url=https://github.com/lifan36/Zhan-Fan-et-al-2019-scRNAseq&revision=c008b3ff49d567a1abe9d9eed42afed4e9a27b42&snapshot=7166156ca6702a41990236e9da386c44440b6609 |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Fields</th>
+      <th style="text-align:left">Values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Author</td>
+      <td style="text-align:left">Zhan N</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Year</td>
+      <td style="text-align:left">2020</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Software title</td>
+      <td style="text-align:left">Zhan-Fan-et-al-2019-scRNAseq</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>Software name (Source in Kriya 2)</p>
+        <p></p>
+      </td>
+      <td style="text-align:left">Software Heritage</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Software version</td>
+      <td style="text-align:left">swh:1:rev:c008b3ff49d567a1abe9d9eed42afed4e9a27b42</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Website</td>
+      <td style="text-align:left">https://archive.softwareheritage.org/browse/directory/89513b41bd021137c72fa7cf3e57bcef4bf6c933/?origin_url=https://github.com/lifan36/Zhan-Fan-et-al-2019-scRNAseq&amp;revision=c008b3ff49d567a1abe9d9eed42afed4e9a27b42&amp;snapshot=7166156ca6702a41990236e9da386c44440b6609</td>
+    </tr>
+  </tbody>
+</table>
 
 ### **figshare** 
 
@@ -177,7 +206,7 @@ An example of a figshare software reference is below. The authors may have provi
 | Author | Zandbelt B |
 | Year | 2017 |
 | Software title | Slice display |
-| Source | figshare |
+| Software name \(Source in Kriya 2\) | figshare |
 | Website | http://doi.org/10.6084/m9.figshare.4742866.v1 |
 
 Note, figshare can also be used for [**data references**](data-references.md) - double-check whether the link is for software or data and add the reference accordingly. If you cannot determine this, leave the following author query: 
@@ -199,7 +228,7 @@ An example of a Zenodo software reference is below. The authors may have provide
 | Author | Testa I |
 | Year | 2020 |
 | Software title | Lens-free scanning |
-| Source | Zenodo |
+| Software name \(Source in Kriya 2\) | Zenodo |
 | Software version | 0.0.2 |
 | Website | https://doi.org/10.5281/zenodo.3653386 |
 
@@ -320,7 +349,7 @@ If the link in the reference is to a blog post by GitHub however, as the example
 
 **Error**: _software ref 'XXXXXX' has a source - XXXXXX - but this is the data-title._
 
-**Action:** This error will appear if a software reference has a source which contains the text ’R: A Language and Environment for Statistical Computing’. This should be entered as a data title instead.
+**Action:** This error will appear if a software reference has a Software name \(Source in Kriya 2\) which contains the text ’R: A Language and Environment for Statistical Computing’. This should be entered as a data title instead.
 
 **R-test-6**
 
@@ -344,7 +373,7 @@ If the link in the reference is to a blog post by GitHub however, as the example
 
 **Warning**: _XXXXXX is a software ref with a host \(XXXXXX\) known to register dois starting with '10.5281/zenodo'. Should it have a link in the format 'https://doi.org/10.5281/zenodo...'?_
 
-**Action:** If a software reference has a source containing 'Zenodo', there needs to be a URL that contains '10.5281/zenodo'. Make sure the DOI URL \(including https://\) is present in the website field in the reference. This is because Continuum does not currently allow DOIs for software references.
+**Action:** If a software reference has a Software name \(Source in Kriya 2\) containing 'Zenodo', there needs to be a URL that contains '10.5281/zenodo'. Make sure the DOI URL \(including https://\) is present in the website field in the reference. This is because Continuum does not currently allow DOIs for software references.
 
 To get the full URL for a Zenodo dataset, on the dataset page, click on the 'DOI' button:
 
@@ -360,7 +389,7 @@ Finally, just paste the URL into the Website field in Kriya.
 
 **Warning**: _XXXXXX is a software ref with a host \(XXXXXX\) known to register dois starting with '10.6084/m9.figshare'. Should it have a link in the format 'https://doi.org/10.6084/m9.figshare...'?_
 
-**Action:** If a software reference has a source containing 'figshare', there needs to be a URL that contains '10.6084/m9.figshare'. This is because Continuum does not currently allow DOIs for software references. Make sure the DOI URL \(including https://\) is present in the website field in the reference.
+**Action:** If a software reference has a Software name \(Source in Kriya 2\) containing 'figshare', there needs to be a URL that contains '10.6084/m9.figshare'. This is because Continuum does not currently allow DOIs for software references. Make sure the DOI URL \(including https://\) is present in the website field in the reference.
 
 To get the full URL for a figshare dataset, on the dataset page, click on the 'Cite' button:
 
@@ -410,25 +439,25 @@ These checks relate to the XML structure of software references. X or XXXXXX ref
 
 **Error**: _software ref 'XXXXXX' has both a source \(Software name\) - XXXXXX - and a publisher-name \(Software host\) - XXXXXX - which is incorrect. It should have either one or the other._
 
-**Action:** Software references can only have a source or a publisher - not both. This error will appear if the Source and Publisher fields have both been filled out. Make sure this is fixed - for more information about what these fields should contain, see [here](software-references.md#what-needs-to-be-added). 
+**Action:** Software references can only have a source or a publisher - not both. This error will appear if the Software name \(Source in Kriya 2\) and Publisher fields have both been filled out. Make sure this is fixed - for more information about what these fields should contain, see [here](software-references.md#what-needs-to-be-added). 
 
 #### **ref-software-test-2**
 
 **Error**: _software ref 'XXXXXX' with the title - XXXXXX - must contain either one source element \(Software name\) or one publisher-name element \(Software host\)._
 
-**Action:** Software references must have either a source or a publisher. This error will appear if the Source and Publisher fields have not been filled out. Make sure this is fixed - for more information about what these fields should contain, see [here](software-references.md#what-needs-to-be-added). 
+**Action:** Software references must have either a source or a publisher. This error will appear if the Software name \(Source in Kriya 2\) and Publisher fields have not been filled out. Make sure this is fixed - for more information about what these fields should contain, see [here](software-references.md#what-needs-to-be-added). 
 
 #### **ref-software-test-3**
 
 **Error**: _software ref 'XXXXXX' has a publisher-name \(Software host\) - XXXXXX. Since this is a software source, it should be captured in a source element. Please move into the Software name field \(rather than Software host\)._
 
-**Action:** This error will appear if the source of a software reference has incorrectly been entered as the publisher. XXXXXX in this case will be the reference id and whatever has been entered in the 'Publisher' field respectively. To fix this, move whatever has been entered in the Publisher field into the Source field, and delete the \(now empty\) Publisher field.
+**Action:** This error will appear if the source of a software reference has incorrectly been entered as the publisher. XXXXXX in this case will be the reference id and whatever has been entered in the 'Publisher' field respectively. To fix this, move whatever has been entered in the Publisher field into the Software name \(Source in Kriya 2\) field, and delete the \(now empty\) Publisher field.
 
 #### **ref-software-test-4**
 
 **Error**: _software ref 'XXXXXX' has a source \(Software name\) - XXXXXX. Since this is a software publisher, it should be captured in a publisher-name element. Please move into the Software host field._
 
-**Action:** This error will appear if the publisher of a software reference has incorrectly been entered as the source. XXXXXX in this case will be the reference id and whatever has been entered in the 'Source' field respectively. To fix this, move whatever has been entered in the Source field into the Publisher field, and delete the \(now empty\) Source field.
+**Action:** This error will appear if the publisher of a software reference has incorrectly been entered as the source. XXXXXX in this case will be the reference id and whatever has been entered in the 'Software name \(Source in Kriya 2\)' field respectively. To fix this, move whatever has been entered in the Software name field into the Publisher field, and delete the \(now empty\) Source field.
 
 #### **ref-software-test-5**
 
