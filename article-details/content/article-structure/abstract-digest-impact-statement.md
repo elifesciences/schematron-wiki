@@ -188,55 +188,51 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 **Error**: _There must either be only one abstract or one abstract and one abstract\[@abstract-type="executive-summary\]. No other variations are allowed._
 
-**Action**: 
+**Action**: This error will appear if an article has zero or more than one abstract. Check the original submission to see whether an abstract was provided and add it in if so. If no abstract was provided \(this will be a rare occurence\), the authors should be queried for this:
+
+* Please provide an abstract for your article \(no more than 280 words\). 
 
 #### abstract-test-2
 
 **Error**: _At least 1 p element or sec element \(with descendant p\) must be present in abstract._
 
-**Action**: 
-
-#### abstract-test-2
-
-**Error**: _At least 1 p element or sec element \(with descendant p\) must be present in abstract._
-
-**Action**: 
+**Action**: This error will appear if an abstract has no &lt;p&gt; elements. The text of an abstract must be contained within a &lt;p&gt; element - if this is not the case, it needs to be fixed by the production vendors. 
 
 #### abstract-test-4
 
 **Error**: _abstracts cannot contain display formulas._
 
-**Action**: 
+**Action**: This needs to be discussed in production meeting - should display formulae be allowed in abstracts? Formulae are allowed in Continuum but converted to placeholder text in pubmed. 
 
 #### abstract-test-5
 
 **Error**: _If an abstract is structured, then it must have 5 or 6 sections depending on whether it is a clinical trial. An article without a clinical trial should have 5 sections, whereas one with a clinical trial should have 6._
 
-**Action**: 
+**Action**: Structured abstracts must the following sections: Background, Methods, Results, Conclusions, Funding and Clinical trial number if the article is a clinical trial. If a structured abstract has a number of sections other than 5 \(or 6 if a clinical trial\), this is incorrect. Check the original submission to see whether all section headings were provided and add them in if so \(the production vendors may need to format these appropriately\). See [**here**](abstract-digest-impact-statement.md#structured-abstract) for an example of XML for a structured abstract. If the authors did not provide these sections, the editorial team should be consulted about this. 
 
 #### abstract-test-6
 
 **Warning**: _Abstract starts with the word 'Abstract', which is almost certainly incorrect - XXXXXX_
 
-**Action**: 
+**Action**: If an abstract begins with the text 'abstract', this should be deleted. 
 
 #### abstract-test-7
 
 **Warning**: _Abstract looks like it should instead be captured as a structured abstract \(using sections\) - XXXXXX_
 
-**Action**: 
+**Action**: This warning will appear if any of the structured abstract headings \(Background, Methods, Results, Conclusions, Funding and Clinical trial number if the article is a clinical trial\) are present in an abstract, but the abstract is not formatted correctly \(i.e. using &lt;sec&gt; elements\). If these headings are present they should be formatted as [**here**](abstract-digest-impact-statement.md#structured-abstract).
 
 #### pre-abstract-word-count-restriction
 
 **Warning**: _The abstract contains XXXXXX words, when the usual upper limit is 280. Exeter: Please check with the eLife production team who will need to contact the eLife Editorial team._
 
-**Action**: 
+**Action**: This warning will fire at pre-author stages if an abstract has more than 280 words. The production team will need to check with the editorial team about whether the authors need to be asked to edit the abstract to 280 words or fewer.
 
 #### final-abstract-word-count-restriction
 
 **Warning**: _The abstract contains XXXXXX words, when the usual upper limit is 280. Abstracts with more than 280 words should be checked with the eLife Editorial team._
 
-**Action**: 
+**Action**: This warning will fire at post-author stages if an abstract has more than 280 words. The production team will need to check with the editorial team about whether the authors need to be asked to edit the abstract to 280 words or fewer.
 
 #### medicine-abstract-conformance
 
@@ -380,7 +376,19 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 **Error**: _XXXXXX is not allowed outside of the main abstract \(abstract\[not\(@abstract-type\)\]\)._
 
-**Action**: 
+**Action**: For clinical trial articles which have clinical trial numbers in the abstract, these should be added as a `<related-object>`, for example:
+
+```markup
+<related-object document-id="NCT02836002" 
+document-id-type="clinical-trial-number" 
+id="RO1" source-id="ClinicalTrials.gov" 
+source-id-type="registry-name" 
+source-type="clinical-trials-registry" 
+xlink:href="https://clinicaltrials.gov/show/NCT02836002">
+NCT02836002</related-object>
+```
+
+This test checks that the `<related-object>` element is located within the abstract. This element is not currently used elsewhere so if this message appears, the production vendors will need to fix this. 
 
 #### xref-bibr-presence
 
@@ -610,19 +618,63 @@ These checks relate to the XML structure of impact statements. X or XXXXXX refer
 
 ## XML structure
 
+#### Structured abstract
+
 ```markup
-<front>
-  . . .
-  <article-meta>
-    . . .
-    <custom-meta-group>
-      <custom-meta specific-use="meta-only">
-        <meta-name>Author impact statement</meta-name>
-        <meta-value>How to tag an eLife article using JATS XML.</meta-value>
-      </custom-meta>
-    </custom-meta-group>
-  </article-meta>
-</front>
+<article>
+  <front>
+    <abstract>
+    <sec>
+      <title>Background:</title>
+      <p>Recently, loss-of-function variants in TLR7 were 
+      identified in two families in which COVID-19 segregates 
+      like an X-linked recessive disorder environmentally 
+      conditioned by SARS-CoV-2. We investigated whether the two 
+      families represent the tip of the iceberg of a subset of 
+      COVID-19 male patients.</p>
+    </sec>
+    <sec>
+      <title>Methods:</title>
+      <p>This is a nested case-control study in which we compared
+      male participants with extreme phenotype selected from the 
+      Italian GEN-COVID cohort of SARS-CoV-2-infected 
+      participants (<60 y, 79 severe cases versus 77 control 
+      cases). We applied the LASSO Logistic Regression analysis, 
+      considering only rare variants on young male subsets with 
+      extreme phenotype, picking up TLR7 as the most important 
+      susceptibility gene.</p>
+    </sec>
+      <sec>
+      <title>Results:</title>
+      <p>Overall, we found TLR7 deleterious variants in 2.1% of 
+      severely affected males and in none of the asymptomatic 
+      participants. The functional gene expression profile 
+      analysis demonstrated a reduction in TLR7-related gene 
+      expression in patients compared with controls demonstrating
+     an impairment in type I and II IFN responses.</p>
+    </sec>
+    <sec>
+      <title>Conclusion:</title>
+      <p>Young males with TLR7 loss-of-function variants and 
+      severe COVID-19 represent a subset of male patients 
+      contributing to disease susceptibility in up to 2% of 
+      severe COVID-19.</p>
+    </sec>
+    <sec>
+      <title>Funding:</title>
+      <p>Funded by private donors for the Host Genetics Research 
+      Project, the Intesa San Paolo for 2020 charity fund, and 
+      the Host Genetics Initiative.</p>
+    </sec>
+    <sec>
+      <title>Clinical trial number:</title>
+      <p><ext-link ext-link-type="uri" 
+      xlink:href="https://www.clinicaltrials.gov/">
+      ClinicalTrials.gov</ext-link>NCT04549831.</p>
+    </sec>
+    </abstract>
+  </front>
+</article>
 ```
 
 ## Changelog
