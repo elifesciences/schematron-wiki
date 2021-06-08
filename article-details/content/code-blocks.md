@@ -12,7 +12,7 @@ Authors will sometimes include snippets of code in their articles. This is usual
 
 ![Example of a code-block in the PDF ](../../.gitbook/assets/screen-shot-2021-06-08-at-14.22.25.png)
 
-Within a code block, all text is rendered in a monospace font and the spacing and line-breaks are preserved. Anything that would normally be treated as XML tagging will be rendered as provided, rather than as formatting or links \(e.g. '&lt;bold&gt;some text&lt;/bold&gt;' instead of '**some text'**\). As a result, it is not possible to place hyperlinks, formatting or coloured text within a code block. Please note that some authors do provide colour-coding within their code, so it may need to be explained to them that this cannot be preserved.
+Within a code block, all text is rendered in a monospace font and the spacing and line-breaks are preserved. It is not possible to place hyperlinks, formatting or coloured text within a code block. Please note that some authors do provide colour-coding within their code, so it may need to be explained to them that this cannot be preserved.
 
 ## Inline code
 
@@ -56,11 +56,13 @@ While it is not absolutely the case that multiple stacked code blocks always nee
 
 * Unfortunately, we are not able to preserve style formatting or coloured text in code blocks. Please confirm the updated display is acceptable.
 
+If the XML tagging needs to be preserved - for example, if it _is_ the content that is being displayed in the code blcok - the angle brackets around the tags will need to be escaped in the XML as &gt; \(&lt;\) and &lt; \(&gt;\) to ensure that they display corrected on the website.
+
 #### code-parent-test
 
-**Error**: code element \(containing the content XXXXXX\) is directly preceded by another code element \(containing the content XXXXXX\). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks \(uncommon, but possible\), then this markup is fine.
+**Error**: A code element must be contained in a p element. The code element \(containing the content XXXXXX\) is contained in a XXXXXX element.
 
-**Action**: This error indicates that 
+**Action**: All code blocks should be placed within the same paragraph element &lt;p&gt; as the text that precedes them. This error indicates that a code block element &lt;code&gt; is contained within another kind of element. 
 
 #### code-sibling-test	
 
