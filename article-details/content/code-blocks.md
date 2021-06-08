@@ -55,7 +55,7 @@ While it is not absolutely the case that multiple stacked code blocks always nee
 **Action**: This error indicates that XML tagging is present within a code block. If this is the result of formatting present in the original article file \(e.g. bold `<bold>,` italic `<italic>`, coloured text `<named-content content-type="author-callout-style-a1">`\), the tags will need to be removed and the following author query added:
 
 * Unfortunately, we are not able to preserve style formatting or coloured text in code blocks. Please confirm the updated display is acceptable.
-* 
+
 #### code-parent-test
 
 **Error**: code element \(containing the content XXXXXX\) is directly preceded by another code element \(containing the content XXXXXX\). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks \(uncommon, but possible\), then this markup is fine.
