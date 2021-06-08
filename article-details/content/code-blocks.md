@@ -58,27 +58,29 @@ While it is not absolutely the case that multiple stacked code blocks always nee
 
 If the XML tagging needs to be preserved - for example, if it _is_ the content that is being displayed in the code blcok - the angle brackets around the tags will need to be escaped in the XML as &gt; \(&lt;\) and &lt; \(&gt;\) to ensure that they display corrected on the website.
 
-#### code-parent-test
-
-**Error**: A code element must be contained in a p element. The code element \(containing the content XXXXXX\) is contained in a XXXXXX element.
-
-**Action**: All code blocks should be placed within the same paragraph element &lt;p&gt; as the text that precedes them. This error indicates that a code block element &lt;code&gt; is contained within another kind of element. 
-
 #### code-sibling-test	
 
-**Warning**: code element \(containing the content XXXXXX\) is directly preceded by another code element \(containing the content XXXXXX\). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks \(uncommon, but possible\), then this markup is fine.
+**Warning**: _code element \(containing the content XXXXXX\) is directly preceded by another code element \(containing the content XXXXXX\). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks \(uncommon, but possible\), then this markup is fine._
 
-**Action**: This warning indicates that 
+**Action**: This warning indicates that two or more code blocks have been placed one after the other with no text between them. As mentioned above, this is most likely a mistake as one continuous section of code should be tagged as a single code block. Unless it is certain from the authors' original article file that multiple code blocks are required \(e.g. they use multiple text boxes or provide a delimiter between two sections of code\), the content processor will need to tag this section of code in one code block.
 
 #### code-sibling-test-2
 
-Warning: code element \(containing the content XXXXXX\) is directly preceded by another code element \(containing the content XXXXXX\). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks \(uncommon, but possible\), then this markup is fine.
+**Warning**: _code element \(containing the content XXXXXX\) is directly preceded by another code element \(containing the content XXXXXX\). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks \(uncommon, but possible\), then this markup is fine._
 
-**Action**: This warning indicates 
+**Action**: This warning indicates that two or more code blocks have been placed one after the other with no text between them. As mentioned above, this is most likely a mistake as one continuous section of code should be tagged as a single code block. Unless it is certain from the authors' original article file that multiple code blocks are required \(e.g. they use multiple text boxes or provide a delimiter between two sections of code\), the content processor will need to tag this section of code in one code block.
 
 #### code-test
 
-**Warning**: XXXXXX element contains what looks like unformatted code - 'XXXXXX' - does this need tagging with &lt;monospace/&gt; or &lt;code/&gt;?
+**Warning**: _XXXXXX element contains what looks like unformatted code - 'XXXXXX' - does this need tagging with &lt;monospace/&gt; or &lt;code/&gt;?_
 
 **Action**: This warning indicates a piece of text that appears to be unformatted code. An example would be "--no-discordant", a parameter for the software bowtie2 that may have been intended as part of a code block or as inline code. Check against the original article file and ensure that the appropriate formatting is applied.
+
+### XML structure
+
+#### code-parent-test
+
+**Error**: _A code element must be contained in a p element. The code element \(containing the content XXXXXX\) is contained in a XXXXXX element._
+
+**Action**: All code blocks should be placed within the same paragraph element &lt;p&gt; as the text that precedes them. This error indicates that a code block element &lt;code&gt; is contained within another kind of element. The code block will need to be moved so that it is a child of the correct element. This may require intervention from the content processor's support team if it cannot be resolved through the system interface.
 
