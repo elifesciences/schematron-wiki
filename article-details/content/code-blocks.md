@@ -86,3 +86,33 @@ If the XML tagging needs to be preserved - for example, if it _is_ the content t
 
 ## XML structure
 
+Example of a code block in an article paragraph. Note that the spacing is preserved in the XML as shown here:
+
+```markup
+<p>The DeepLabCut-live package provides a DLCLive class that facilitates loading DeepLabCut
+models and performing inference on single images. The DLC-Live class also has built in image
+pre-processing methods to reduce the size of images for faster inference: image cropping,
+dynamic image cropping around detected keypoints, and image downsizing. DLC-Live objects can be
+instantiated in the following manner:
+<code xml:space="preserve">
+from dlclive import DLCLive
+my_live_object = DLCLive(”/path/to/exported/model/directory’)
+
+# base instantiation
+my_live_object = DLCLive(”/path/to/exported/model/directory’)
+
+# use only the first 200 pixels in both width and height dimensions of image
+my_live_object = DLCLive(”/path/to/exported/model/directory’,
+                             cropping=[0, 200, 0, 200])
+
+# dynamically crop image around detected keypoints, with 20 pixel buffer
+my_live_object = DLCLive(”/path/to/exported/model/directory’,
+                             dynamic=(True, 0.5, 20))
+
+# resize height and width of image to 1/2 its original size
+my_live_object = DLCLive(”/path/to/exported/model/directory’,
+                          resize    = 0.5)
+</code>
+</p>
+```
+
