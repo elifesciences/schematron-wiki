@@ -18,9 +18,11 @@ Within a code block, all text is rendered in a monospace font and the spacing an
 
 Not all code provided in eLife articles will be intended for presentation in a code block. Sometimes authors will provide code snippets or even just the names of particular commands inline as part of a normal paragraph. In these cases, the code may be rendered in monospace so that it is visually distinct from the surrounding text.
 
+![Monospace text presented inline with a paragraph](../../.gitbook/assets/screen-shot-2021-06-08-at-15.25.01.png)
 
+Note that monospace formatting can be used for purposes other than highlighting code and it is not required that authors use it to denote code in their text. They may prefer that it be left as plain text and, in general, the original article file should be followed for styling inline code.
 
-
+## What needs to be checked?
 
 
 
