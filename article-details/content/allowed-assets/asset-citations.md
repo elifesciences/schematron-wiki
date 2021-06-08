@@ -1,3 +1,7 @@
+---
+description: Citations of article assets
+---
+
 # Asset citations
 
 {% hint style="info" %}
