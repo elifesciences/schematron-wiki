@@ -23,6 +23,7 @@
     * [Abstracts, digests and impact statements](article-details/content/article-structure/abstract-digest-impact-statement.md)
     * [Appendices](article-details/content/article-structure/appendices.md)
   * [Licensing and copyright](article-details/content/licensing-and-copyright.md)
+  * [Code blocks](article-details/content/code-blocks.md)
   * [Country names](article-details/content/country-names.md)
   * [Data availability](article-details/content/data-availability.md)
   * [Decision letters and Author responses](article-details/content/decision-letters-and-author-responses.md)
