@@ -76,11 +76,13 @@ If the XML tagging needs to be preserved - for example, if it _is_ the content t
 
 **Action**: This warning indicates a piece of text that appears to be unformatted code. An example would be "--no-discordant", a parameter for the software bowtie2 that may have been intended as part of a code block or as inline code. Check against the original article file and ensure that the appropriate formatting is applied.
 
-### XML structure
+### XML structure checks
 
 #### code-parent-test
 
 **Error**: _A code element must be contained in a p element. The code element \(containing the content XXXXXX\) is contained in a XXXXXX element._
 
 **Action**: All code blocks should be placed within the same paragraph element &lt;p&gt; as the text that precedes them. This error indicates that a code block element &lt;code&gt; is contained within another kind of element. The code block will need to be moved so that it is a child of the correct element. This may require intervention from the content processor's support team if it cannot be resolved through the system interface.
+
+## XML structure
 
