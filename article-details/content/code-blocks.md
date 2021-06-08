@@ -24,6 +24,8 @@ Note that monospace formatting can be used for purposes other than highlighting 
 
 ## What needs to be checked?
 
+### Code block layout
+
 Generally speaking, the main thing to ensure with code blocks is that they have been captured - as far as possible - as the authors originally intended. Consider the following example:
 
 ![Code block in submitted article file for 61909](../../.gitbook/assets/screen-shot-2021-06-08-at-15.41.35.png)
@@ -34,23 +36,45 @@ The authors included specific spacing to ensure that the code can be read correc
 
 The Production team had to send the article back to the content processors to fix this so that the spacing was presented as in the original file.
 
+### Multiple stacked code blocks
+
 A related issue is that each set of code should be presented in a single code block; multiple lines/paragraphs should not be split into multiple code blocks. For maximum readability, the stacked blocks in this published example should ideally have been combined so that each piece of code was presented in a single block.
 
 ![Multiple code blocks in 35684 that should have been combined ](../../.gitbook/assets/screen-shot-2021-06-08-at-15.54.52.png)
 
+While it is not absolutely the case that multiple stacked code blocks always need to be combined, it is extremely unusual for this not to be required. Unless the authors' original article file makes it clear that two pieces of code are entirely separate \(e.g. through the use of boxes or some other obvious delimiter\), stacked code blocks should be combined into one with the line breaks between them preserved inside.
 
+## Schematron checks
 
+### Content checks
 
+#### code-child-test
 
-code-child-test	code	\*\*Error\*\*: \_code contains a child element, which will display in HTML with its tagging, i.e. '&lt;XXXXXXXXXXXX&gt;XXXXXX&lt;/XXXXXX&gt;'. Strip any child elements.\_
+**Error**: _code contains a child element, which will display in HTML with its tagging, i.e. '&lt;XXXXXXXXXXXX&gt;XXXXXX&lt;/XXXXXX&gt;'. Strip any child elements._
 
-code-parent-test	code	\*\*Error\*\*: \_code element \(containing the content XXXXXX\) is directly preceded by another code element \(containing the content XXXXXX\). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks \(uncommon, but possible\), then this markup is fine.\_
+**Action**: This error indicates that XML tagging is present within a code block. 
 
-code-sibling-test	p\[count\(code\) gt 1\]/code\[2\]	\*\*Warning\*\*: \_code element \(containing the content XXXXXX\) is directly preceded by another code element \(containing the content XXXXXX\). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks \(uncommon, but possible\), then this markup is fine.\_
+#### code-parent-test
 
-code-sibling-test-2	p\[count\(code\) = 1\]/code	\*\*Warning\*\*: \_code element \(containing the content XXXXXX\) is directly preceded by another code element \(containing the content XXXXXX\). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks \(uncommon, but possible\), then this markup is fine.\_
+**Error**: code element \(containing the content XXXXXX\) is directly preceded by another code element \(containing the content XXXXXX\). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks \(uncommon, but possible\), then this markup is fine.
 
-code-test	p\|td\|th	\*\*Warning\*\*: \_XXXXXX element contains what looks like unformatted code - 'XXXXXX' - does this need tagging with &lt;monospace/&gt; or &lt;code/&gt;?\_
+**Action**: This error indicates that 
 
-empty-parentheses-presence	p\|td\|th\|title\|xref\|bold\|italic\|sub\|sc\|named-content\|monospace\|code\|underline\|fn\|institution\|ext-link	\*\*Warning\*\*: \_XXXXXX element contains empty parentheses \('\[\]', or '\(\)'\). Is there a missing citation within the parentheses? Or perhaps this is a piece of code that needs formatting?\_
+#### code-sibling-test	
+
+**Warning**: code element \(containing the content XXXXXX\) is directly preceded by another code element \(containing the content XXXXXX\). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks \(uncommon, but possible\), then this markup is fine.
+
+**Action**: This warning indicates that 
+
+#### code-sibling-test-2
+
+Warning: code element \(containing the content XXXXXX\) is directly preceded by another code element \(containing the content XXXXXX\). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks \(uncommon, but possible\), then this markup is fine.
+
+**Action**: This warning indicates 
+
+#### code-test
+
+**Warning**: XXXXXX element contains what looks like unformatted code - 'XXXXXX' - does this need tagging with &lt;monospace/&gt; or &lt;code/&gt;?
+
+**Action**: This warning indicates a piece of text that appears to be unformatted code. An example would be "--no-discordant", a parameter for the software bowtie2 that may have been intended as part of a code block or as inline code. Check against the original article file and ensure that the appropriate formatting is applied.
 
