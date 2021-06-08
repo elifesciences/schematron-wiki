@@ -24,6 +24,20 @@ Note that monospace formatting can be used for purposes other than highlighting 
 
 ## What needs to be checked?
 
+Generally speaking, the main thing to ensure with code blocks is that they have been captured - as far as possible - as the authors originally intended. Consider the following example:
+
+![Code block in submitted article file for 61909](../../.gitbook/assets/screen-shot-2021-06-08-at-15.41.35.png)
+
+The authors included specific spacing to ensure that the code can be read correctly. However, when this was processed, this spacing was lost, even though the code block itself was retained.
+
+![Pre-edited PDF version of code block in article 61909](../../.gitbook/assets/screen-shot-2021-06-08-at-15.43.00.png)
+
+The Production team had to send the article back to the content processors to fix this so that the spacing was presented as in the original file.
+
+A related issue is that each set of code should be presented in a single code block; multiple lines/paragraphs should not be split into multiple code blocks. For maximum readability, the stacked blocks in this published example should ideally have been combined so that each piece of code was presented in a single block.
+
+![Multiple code blocks in 35684 that should have been combined ](../../.gitbook/assets/screen-shot-2021-06-08-at-15.54.52.png)
+
 
 
 
