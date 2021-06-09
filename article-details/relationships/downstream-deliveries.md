@@ -274,7 +274,7 @@ pub-director@clockss.org
 
 ### CNKI
 
-\*\*\*\*[**China National Knowledge Infrastructure**](https://oversea.cnki.net/index/) \(CNKI\) is a large literature database.
+\*\*\*\*[**China National Knowledge Infrastructure**](https://oversea.cnki.net/index/) \(CNKI\) is a large literature database. It is a key national research and information publishing institution in China, led by Tsinghua University, and supported by PRC Ministry of Education, PRC Ministry of Science, Propaganda Department of the Chinese Communist Party and PRC General Administration of Press and Publication.
 
 #### Contact
 
@@ -282,7 +282,11 @@ Fang Zhang, Co-operation Project Manager \(FangZhang\_@outlook.com\)
 
 ### CNPIEC
 
-China National Publications Import and Export \(Group\) Corporation CNPIEC is a large literature database.
+China National Publications Import and Export \(Group\) Corporation CNPIEC is a large state owned literature database. 
+
+#### Contact
+
+Lihui Cao \(caolihui@cnpiec.com.cn\)
 
 ### Crossref
 
@@ -311,7 +315,7 @@ For each eLife VoR the following information \(where present\) is sent to Crossr
 * Subject area\(s\)
 * Datasets \(including id and id-type\)
 
-For each eLife peer review material \(Decision letter an Author response\), the following is provided to Crossref:
+For each eLife peer review material \(Decision letter an Author response\), a peer review DOI is minted and the following is provided to Crossref:
 
 * Title \(which is the article title prefixed by 'Decision letter: ' or 'Author response: '\)
 * Authors \(authors of the peer review material, not the article\)
