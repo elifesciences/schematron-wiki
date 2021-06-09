@@ -1,7 +1,7 @@
 ---
 description: >-
-  Final eLife content is delivered to many other end points at or just after
-  publication. This page lists those locations.
+  Final eLife content is delivered to many endpoints at or just after
+  publication on the eLife website. This page lists those locations.
 ---
 
 # Downstream Deliveries
