@@ -1,5 +1,7 @@
 ---
-description: Places we send eLife content to.
+description: >-
+  Final eLife content is delivered to many other end points at or just after
+  publication. This page lists those locations.
 ---
 
 # Downstream Deliveries
