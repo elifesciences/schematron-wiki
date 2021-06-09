@@ -6,6 +6,8 @@ description: >-
 
 # Downstream Deliveries
 
+The workflows for downstream deliveries are managed by Fred and Graham via the eLife Bot process.
+
 ## Where we send eLife content
 
 <table>
@@ -273,6 +275,10 @@ pub-director@clockss.org
 ### CNKI
 
 \*\*\*\*[**China National Knowledge Infrastructure**](https://oversea.cnki.net/index/) \(CNKI\) is a large literature database.
+
+#### Contact
+
+Fang Zhang, Co-operation Project Manager \(FangZhang\_@outlook.com\)
 
 ### CNPIEC
 
