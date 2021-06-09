@@ -14,6 +14,10 @@ Authors will sometimes include snippets of code in their articles. This is usual
 
 Within a code block, all text is rendered in a monospace font and the spacing and line-breaks are preserved. It is not possible to place hyperlinks, formatting or coloured text within a code block. Please note that some authors do provide colour-coding within their code, so it may need to be explained to them that this cannot be preserved.
 
+Code blocks can be added using the following controls in Kriya 2.0:
+
+![](../../.gitbook/assets/screen-shot-2021-06-09-at-15.55.13.png)
+
 ## Inline code
 
 Not all code provided in eLife articles will be intended for presentation in a code block. Sometimes authors will provide code snippets or even just the names of particular commands inline as part of a normal paragraph. In these cases, the code may be rendered in monospace so that it is visually distinct from the surrounding text.
@@ -21,6 +25,10 @@ Not all code provided in eLife articles will be intended for presentation in a c
 ![Monospace text presented inline with a paragraph](../../.gitbook/assets/screen-shot-2021-06-08-at-15.25.01.png)
 
 Note that monospace formatting can be used for purposes other than highlighting code and it is not required that authors use it to denote code in their text. They may prefer that it be left as plain text and, in general, the original article file should be followed for styling inline code.
+
+Monospace styling can be added using the following control in Kriya 2.0:
+
+![](../../.gitbook/assets/screen-shot-2021-06-09-at-15.55.03.png)
 
 ## What needs to be checked?
 
