@@ -373,9 +373,13 @@ Dom Mitchell \(dom@doaj.org\)
 
 GoOA is a content aggregator run by the the National Science Library of the Chinese Academy of Sciences. It provides \(Chinese\) institutional access to literature that has been indexed on its platform.
 
+#### Contacts
+
+ Jingyu Liu \(openresources@mail.las.ac.cn\)
+
 ### Google Scholar
 
-Google Scholar pull eLife content directly from [**elifesciences.org**](https://elifesciences.org/). The process is a quite esoteric; the cause of any issues is almost impossible to determine on our end. However, typically an eLife article should appear on Google Scholar approximately a month or so after publication.
+Google Scholar pulls eLife content directly from [**elifesciences.org**](https://elifesciences.org/). The process is quite esoteric; the cause of any issues is almost impossible to determine on our end. However, typically an eLife article should appear on Google Scholar approximately a month or so after publication.
 
 One indication of a bug \(that would need to be brought to Maël's attention if raised by an author\) is if an article appears in search results, but does not appear on that author's profile. 
 
