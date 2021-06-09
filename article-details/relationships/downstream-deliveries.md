@@ -250,7 +250,7 @@ Cengage is a proprietary content aggregator. For subscribed users, they provide 
 
 They are sent the first VoR version of every eLife article. They are sent just the XML and PDF. 
 
-They render eLife content on their site, in an article page. Since we don't provide them with image files, these are omitted.
+They render eLife content on their site, on an article page. Since we don't provide them with image files, these are omitted.
 
 #### Contacts
 
