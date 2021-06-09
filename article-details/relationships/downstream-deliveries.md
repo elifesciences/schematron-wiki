@@ -415,6 +415,14 @@ eLife sends Pub Router the first version of every VoR.
 
 #### Contacts
 
+Steve Byford, Scholarly Communications Services Manager \(Steve.Byford@jisc.ac.uk\)
+
+|  |
+| :--- |
+
+
+|  |
+| :--- |
 
 
 ### PubMed
