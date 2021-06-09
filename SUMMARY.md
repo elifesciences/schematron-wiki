@@ -48,7 +48,7 @@
   * [Deceased status](article-details/people/deceased-status.md)
 * [Peer review](article-details/peer-review.md)
 * [Relationships](article-details/relationships/README.md)
-  * [Downstream Deliveries](article-details/relationships/downstream-deliveries.md)
+  * [Downstream deliveries](article-details/relationships/downstream-deliveries.md)
 * [History](article-details/history.md)
 
 ## Toolkit

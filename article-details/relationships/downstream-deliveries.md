@@ -4,7 +4,7 @@ description: >-
   publication on the eLife website. This page lists those locations.
 ---
 
-# Downstream Deliveries
+# Downstream deliveries
 
 The workflows for downstream deliveries are managed by Fred and Graham via the eLife Bot process.
 
