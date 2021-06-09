@@ -417,14 +417,6 @@ eLife sends Pub Router the first version of every VoR.
 
 Steve Byford, Scholarly Communications Services Manager \(Steve.Byford@jisc.ac.uk\)
 
-|  |
-| :--- |
-
-
-|  |
-| :--- |
-
-
 ### PubMed
 
 \*\*\*\*[**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) is a free bibliographic database containing biomedical and life science content. PubMed is not to be confused with PubMed Central, which is a separate digital repository \(more on that [**below**](downstream-deliveries.md#pubmed-central-pmc)\).
@@ -469,7 +461,7 @@ Errors on PubMed can be corrected via the [**PubMed Data Management System**](ht
 
 #### Contacts
 
-There are no contacts for PubMed. The data management system can be used to ask for help.
+There are no specific contacts for PubMed. The data management system can be used to ask for help, or emailing by publisher@ncbi.nlm.nih.gov.
 
 ### PubMed Central \(PMC\)
 
