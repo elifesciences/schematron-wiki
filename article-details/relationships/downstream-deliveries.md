@@ -7,7 +7,7 @@ description: >-
 
 # Downstream deliveries
 
-The workflows for downstream deliveries are managed by Fred and Graham via the eLife Bot process.
+The workflows for downstream deliveries are managed by Fred and Graham via the eLife Bot process. There are a number of GitHub repositories associated with these workflows, and there are specific repositories where feature requests and enhancements for [PubMed](https://github.com/elifesciences/elife-pubmed-feed/issues) and [Crossref](https://github.com/elifesciences/elife-crossref-feed/issues) are listed. We work the most closely with Crossref, PubMed and PMC and update our deliveries based on new releases from them. 
 
 ## Where we send eLife content
 
