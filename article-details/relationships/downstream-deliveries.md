@@ -7,7 +7,13 @@ description: >-
 
 # Downstream deliveries
 
-The workflows for downstream deliveries are managed by Fred and Graham via the eLife Bot process. There are a number of GitHub repositories associated with these workflows, and there are specific repositories where feature requests and enhancements for [PubMed](https://github.com/elifesciences/elife-pubmed-feed/issues) and [Crossref](https://github.com/elifesciences/elife-crossref-feed/issues) are listed. We work the most closely with Crossref, PubMed and PMC and update our deliveries based on new releases from them. 
+The workflows for downstream deliveries are managed by Fred and Graham via the eLife Bot process. There are a number of GitHub repositories associated with these workflows, and there are specific repositories where feature requests and enhancements for [PubMed](https://github.com/elifesciences/elife-pubmed-feed/issues) and [Crossref](https://github.com/elifesciences/elife-crossref-feed/issues) are listed. We work the most closely with Crossref, PubMed and PMC and update our deliveries based on new releases from them.
+
+PubMedCentral tagging guidelines can be found [here](https://www.ncbi.nlm.nih.gov/pmc/pmcdoc/tagging-guidelines/article/style.html). They also have tools to test your [XML](https://www.ncbi.nlm.nih.gov/pmc/tools/stylechecker/) and [preview](https://www.ncbi.nlm.nih.gov/pmc/tools/article-previewer-intro/) content on their site.
+
+PubMed documentation can be found [here](https://www.ncbi.nlm.nih.gov/books/NBK3828/). 
+
+Information about Crossref's schema can be found [here](https://www.crossref.org/documentation/content-registration/metadata-deposit-schema/).
 
 ## Where we send eLife content
 
@@ -253,7 +259,7 @@ Cengage is a proprietary content aggregator. For subscribed users, they provide 
 
 They are sent the first VoR version of every eLife article. They are sent just the XML and PDF. 
 
-They render eLife content on their site, on an article page. Since we don't provide them with image files, these are omitted.
+They render eLife content on their site, on an article page. Since we don't provide them with image files, these are omitted. Traffic from their site to ours is limited because they present their users with our content on their site.
 
 #### Contacts
 
