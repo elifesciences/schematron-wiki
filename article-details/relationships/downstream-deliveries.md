@@ -7,9 +7,7 @@ description: >-
 
 # Downstream deliveries
 
-The workflows for downstream deliveries are managed by Fred and Graham via the eLife Bot process. There are a number of GitHub repositories associated with these workflows, wihich Graham maintains, There are specific repositories where feature requests and enhancements for [PubMed](https://github.com/elifesciences/elife-pubmed-feed/issues) and [Crossref](https://github.com/elifesciences/elife-crossref-feed/issues) are listed. We work the most closely with Crossref, PubMed and PMC and update our deliveries based on new releases from them.
-
-PubMed documentation can be found [here](https://www.ncbi.nlm.nih.gov/books/NBK3828/). 
+The workflows for downstream deliveries are managed by Fred and Graham via the eLife Bot process. There are a number of GitHub repositories associated with these workflows, which Graham maintains. We work the most closely with Crossref, PubMed, and PMC and update our deliveries based on new releases from them.
 
 ## Where we send eLife content
 
@@ -431,6 +429,8 @@ Steve Byford, Scholarly Communications Services Manager \(Steve.Byford@jisc.ac.u
 \*\*\*\*[**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) is a free bibliographic database containing biomedical and life science content. PubMed is not to be confused with PubMed Central, which is a separate digital repository \(more on that [**below**](downstream-deliveries.md#pubmed-central-pmc)\).
 
 PubMed holds a record for each eLife article. This is sent to them via SFTP. Content is sent in the [**PubMed XML tagged format**](https://www.ncbi.nlm.nih.gov/books/NBK3828/#publisherhelp.PubMed_XML_Tagged_Format)**,** which is derived from the JATS XML for an article. Help on the PubMed XML can be found [**here**](https://www.ncbi.nlm.nih.gov/books/NBK3828/).
+
+There is a specific repository on the eLife GitHub repo where feature requests and enhancements for [**PubMed**](https://github.com/elifesciences/elife-pubmed-feed/issues)**.** We keep a close eye on their schema updates and update our deliveries to correspond with any new options and requirements.
 
 For each article the following information \(where present\) is sent to PubMed:
 
