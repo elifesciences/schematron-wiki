@@ -1,7 +1,8 @@
 ---
 description: >-
-  Final eLife content is delivered to many endpoints at or just after
-  publication on the eLife website. This page lists those locations.
+  PoA and final VoR eLife content is delivered to many endpoints at or just
+  after publication on the eLife website. This page lists those locations and
+  what each service receives and how.
 ---
 
 # Downstream deliveries
