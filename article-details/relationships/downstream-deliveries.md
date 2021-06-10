@@ -41,7 +41,11 @@ Information about Crossref's schema can be found [here](https://www.crossref.org
     <tr>
       <td style="text-align:left">CLOCKSS</td>
       <td style="text-align:left">Every VoR version</td>
-      <td style="text-align:left">JATS XML and PDF</td>
+      <td style="text-align:left">
+        <p>JATS XML, PDF(s),</p>
+        <p>all files (figures, videos,</p>
+        <p>supplementary files etc.)</p>
+      </td>
       <td style="text-align:left">
         <p>Daily</p>
         <p>22:00 UTC</p>
