@@ -337,7 +337,7 @@ The information sent to Crossref for eLife PoAs is a subset of the information s
 
 Information on the Crossref Schema can be found [**here**](https://data.crossref.org/reports/help/schema_doc/4.4.2/index.html). Feature requests and enhancements for eLife deliveries to Crossref are listed [**here**](https://github.com/elifesciences/elife-crossref-feed/issues). We keep a close eye on their schema updates and update our deliveries to correspond with any new options and requirements.
 
-To access the files that have been provided to crossref \(and manually upload files to fix any issues, as required\), you must first login to [**their administration portal**](https://doi.crossref.org/servlet/useragent?func=showHome). You can then search for the article.
+To access the files that have been provided to Crossref \(and manually upload files to fix any issues, as required\), you must first login to [**their administration portal**](https://doi.crossref.org/servlet/useragent?func=showHome). You can then search for the article.
 
 #### Contacts
 
