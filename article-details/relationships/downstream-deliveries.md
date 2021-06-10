@@ -430,7 +430,7 @@ Steve Byford, Scholarly Communications Services Manager \(Steve.Byford@jisc.ac.u
 
 PubMed holds a record for each eLife article. This is sent to them via SFTP. Content is sent in the [**PubMed XML tagged format**](https://www.ncbi.nlm.nih.gov/books/NBK3828/#publisherhelp.PubMed_XML_Tagged_Format)**,** which is derived from the JATS XML for an article. Help on the PubMed XML can be found [**here**](https://www.ncbi.nlm.nih.gov/books/NBK3828/).
 
-There is a specific repository on the eLife GitHub repo where feature requests and enhancements for [**PubMed**](https://github.com/elifesciences/elife-pubmed-feed/issues)**.** We keep a close eye on their schema updates and update our deliveries to correspond with any new options and requirements.
+There is a specific repository on the eLife GitHub repo where feature requests and enhancements for [**PubMed**](https://github.com/elifesciences/elife-pubmed-feed/issues) ****deliveries are listed**.** We keep a close eye on their schema updates and update our deliveries to correspond with any new options and requirements.
 
 For each article the following information \(where present\) is sent to PubMed:
 
@@ -438,7 +438,7 @@ For each article the following information \(where present\) is sent to PubMed:
 * Authors 
   * names \(as one string\)
   * affiliations \(as one string\)
-  * ORCIDs
+  * ORCIDs \(note ORCIDs are not displayed on PubMed, but can be used to search for an author's work\)
   * \(Group authors and individual members of that group will be provided\)
   * Equal contribution status \(note that this is not as sophisticated as elsewhere, it's not possible to denote more than one group of authors who equally contributed\)
 * Article title
@@ -460,7 +460,7 @@ The files that were sent to PubMed can be found in the following Amazon S3 bucke
 
 `s3://elife-poa-packaging/pubmed/published/`
 
-The files are placed based on the date they are sent, so if you are looking to find a particular file for a particular article, ensure you know the publication date for the _version_ you are looking for. Version here is important, because PubMed is supplied XML for both PoA and VoR. If you are checking what was sent for the VoR, you will need to look for the VoR publication date. Note that silent corrections are not sent to PubMed. Any changes to content which is presented on PubMed and is corrected via Silent Correction, will not automatically update on PubMed, because the files will not be passed to them. Instead these changes will have to be made in their data management system. 
+The files are placed based on the date they are sent, so if you are looking to find a particular file for a particular article, ensure you know the publication date for the _version_ you are looking for. Version here is important, because PubMed is supplied XML for both PoA and VoR. If you are checking what was sent for the VoR, you will need to look for the VoR publication date. Note that silent corrections are not sent to PubMed. Any changes to content which is presented on PubMed and is corrected via silent correction, will not automatically update on PubMed, because the files will not be passed to them. Instead these changes will have to be made in their data management system. 
 
 Finally, note that the PubMed files are placed under `batch/` within the particular folder. They will be named something like `elife-pubmed-66165-20210504164509.xml`.
 
@@ -470,7 +470,7 @@ Errors on PubMed can be corrected via the [**PubMed Data Management System**](ht
 
 #### Contacts
 
-There are no specific contacts for PubMed. The data management system can be used to ask for help, or emailing by publisher@ncbi.nlm.nih.gov.
+There are no specific contacts for PubMed. The data management system can be used to ask for help, or emailing publisher@ncbi.nlm.nih.gov.
 
 ### PubMed Central \(PMC\)
 
