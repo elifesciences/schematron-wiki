@@ -14,9 +14,13 @@ Authors will sometimes include snippets of code in their articles. This is usual
 
 Within a code block, all text is rendered in a monospace font and the spacing and line-breaks are preserved. It is not possible to place hyperlinks, formatting or coloured text within a code block. Please note that some authors do provide colour-coding within their code, so it may need to be explained to them that this cannot be preserved.
 
-Code blocks can be added using the following controls in Kriya 2.0:
+Code blocks can be formatted by selecting the required text and then picking the following options from the Style\(s\) menu:
 
-![](../../.gitbook/assets/screen-shot-2021-06-09-at-15.55.13.png)
+![Option to make text a code block in Kriya 1.0](../../.gitbook/assets/screen-shot-2021-06-10-at-15.20.41.png)
+
+![Option to make text a code block in Kriya 2.0](../../.gitbook/assets/screen-shot-2021-06-09-at-15.55.13.png)
+
+Please note however that you may need to ask the content processors to add the correct spacing.
 
 ## Inline code
 
@@ -26,9 +30,11 @@ Not all code provided in eLife articles will be intended for presentation in a c
 
 Note that monospace formatting can be used for purposes other than highlighting code and it is not required that authors use it to denote code in their text. They may prefer that it be left as plain text and, in general, the original article file should be followed for styling inline code.
 
-Monospace styling can be added using the following control in Kriya 2.0:
+Monospace styling can be added by selecting the required text and picking the following option from the Style\(s\) menu:
 
-![](../../.gitbook/assets/screen-shot-2021-06-09-at-15.55.03.png)
+![Option to make text monospace in Kriya 1.0](../../.gitbook/assets/screen-shot-2021-06-10-at-15.20.52.png)
+
+![Option to make text monospace in Kriya 2.0](../../.gitbook/assets/screen-shot-2021-06-09-at-15.55.03.png)
 
 ## What needs to be checked?
 
@@ -64,7 +70,7 @@ While it is not absolutely the case that multiple stacked code blocks always nee
 
 * Unfortunately, we are not able to preserve style formatting or coloured text in code blocks. Please confirm the updated display is acceptable.
 
-If the XML tagging needs to be preserved - for example, if it _is_ the content that is being displayed in the code blcok - the angle brackets around the tags will need to be escaped in the XML as &gt; \(&lt;\) and &lt; \(&gt;\) to ensure that they display corrected on the website.
+If the XML tagging needs to be preserved - for example, if it _is_ the content that is being displayed in the code block - the angle brackets around the tags will need to be escaped in the XML as &gt; \(&lt;\) and &lt; \(&gt;\) to ensure that they display corrected on the website. The content processor will need to do this to ensure that the correct characters are used in the XML.
 
 #### code-sibling-test	
 
