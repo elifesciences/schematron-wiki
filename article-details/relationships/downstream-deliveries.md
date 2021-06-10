@@ -277,6 +277,8 @@ Technical questions - Brian Newman \(Brian.Newman@cengage.com\)
 
 CLOCKSS is a dark archive that ensures the long-term preservation of digital scholarly content. This means if eLife stops for any reason, all our published content will become available to any user with internet access via CLOCKSS. 
 
+When deliveries are sent, the Bot also emails the list to: delivery-elife@clockss.org 
+
 #### Contacts
 
 Kim Smilay, Director, Publisher and Library Relation \(ksmilay@clockss.org\)
