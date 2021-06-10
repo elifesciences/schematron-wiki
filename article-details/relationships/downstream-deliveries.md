@@ -7,13 +7,9 @@ description: >-
 
 # Downstream deliveries
 
-The workflows for downstream deliveries are managed by Fred and Graham via the eLife Bot process. There are a number of GitHub repositories associated with these workflows, and there are specific repositories where feature requests and enhancements for [PubMed](https://github.com/elifesciences/elife-pubmed-feed/issues) and [Crossref](https://github.com/elifesciences/elife-crossref-feed/issues) are listed. We work the most closely with Crossref, PubMed and PMC and update our deliveries based on new releases from them.
-
-PubMedCentral tagging guidelines can be found [here](https://www.ncbi.nlm.nih.gov/pmc/pmcdoc/tagging-guidelines/article/style.html). They also have tools to test your [XML](https://www.ncbi.nlm.nih.gov/pmc/tools/stylechecker/) and [preview](https://www.ncbi.nlm.nih.gov/pmc/tools/article-previewer-intro/) content on their site.
+The workflows for downstream deliveries are managed by Fred and Graham via the eLife Bot process. There are a number of GitHub repositories associated with these workflows, wihich Graham maintains, There are specific repositories where feature requests and enhancements for [PubMed](https://github.com/elifesciences/elife-pubmed-feed/issues) and [Crossref](https://github.com/elifesciences/elife-crossref-feed/issues) are listed. We work the most closely with Crossref, PubMed and PMC and update our deliveries based on new releases from them.
 
 PubMed documentation can be found [here](https://www.ncbi.nlm.nih.gov/books/NBK3828/). 
-
-Information about Crossref's schema can be found [here](https://www.crossref.org/documentation/content-registration/metadata-deposit-schema/).
 
 ## Where we send eLife content
 
@@ -341,7 +337,7 @@ For each eLife peer review material \(Decision letter an Author response\), a pe
 
 The information sent to Crossref for eLife PoAs is a subset of the information sent at VoR, derived from the submission in eJP.
 
-Information on the Crossref Schema can be found [**here**](https://data.crossref.org/reports/help/schema_doc/4.4.2/index.html). 
+Information on the Crossref Schema can be found [**here**](https://data.crossref.org/reports/help/schema_doc/4.4.2/index.html). Feature requests and enhancements for eLife deliveries to Crossref are listed [**here**](https://github.com/elifesciences/elife-crossref-feed/issues). We keep a close eye on their schema updates and update our deliveries to correspond with any new options and requirements.
 
 To access the files that have been provided to crossref \(and manually upload files to fix any issues, as required\), you must first login to [**their administration portal**](https://doi.crossref.org/servlet/useragent?func=showHome). You can then search for the article.
 
@@ -515,6 +511,8 @@ If the XML is valid in `s3://elife-production-final/` but invalid in `s3://elife
 If the cause is a corrupted package, then this will be difficult to determine on our end. It may be because of an issue with the FTP file transfer. If PMC confirm the error is due to a corrupt file, then this will need to be brought to the attention of Graham, who can investigate further \(the action may simply be to try sending it again\).
 
 It will typically take around 2 weeks for an article to appear on PubMed Central.
+
+PubMedCentral tagging guidelines can be found [**here**](https://www.ncbi.nlm.nih.gov/pmc/pmcdoc/tagging-guidelines/article/style.html). They also have tools to test your [**XML**](https://www.ncbi.nlm.nih.gov/pmc/tools/stylechecker/) and [**preview**](https://www.ncbi.nlm.nih.gov/pmc/tools/article-previewer-intro/) ****content on their site.
 
 #### Contacts
 
