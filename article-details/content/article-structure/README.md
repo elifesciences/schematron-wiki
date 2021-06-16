@@ -414,3 +414,5 @@ Correct the title to match the `@sec-type` value.
 
 ## Changelog
 
+* Updated 16/06/2021 to add two missing schematron rules.
+
