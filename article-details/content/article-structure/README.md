@@ -287,6 +287,18 @@ XXXXXX will indicate the styled content at the start of a paragraph; X will be t
 
 In cases where the authors have included a top-level heading that is similar to a permitted Level 1 heading \(e.g. 'Experimental results' or 'Discussion and conclusions'\) this should be corrected to match eLife style \('Results' and 'Discussion' in this case\).
 
+#### conclusion-test-1
+
+**Error**: _Top level section with title - XXXXXX - should either be made a level 2 section. Probably as a child of the XXXXXX section._
+
+**Action**: This error indicates that a heading containing the word 'Conclusion' has been tagged as Level 1. This heading should be changed to a Level 2 heading, usually in the Discussion section. Pleaase note this rule does not apply to all article types.
+
+#### conclusion-test-2
+
+**Warning**: Level XXXXXX section with the title 'XXXXXX' should very likely be made a level 2 section.
+
+**Action**: This error indicates that a heading containing the word 'Conclusion' has been tagged as Level 1. This heading should be changed to a Level 2 heading, usually in the Discussion section. Pleaase note this rule does not apply to all article types.
+
 ### XML checks
 
 #### ra-sec-test-1
