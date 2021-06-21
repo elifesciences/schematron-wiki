@@ -2,7 +2,7 @@
 
 ## Abstracts
 
-In scientific articles, an abstract provides a clear and concise summary of the work. Abstracts allow readers to have a quick overview before reading the whole article. For eLife articles, abstracts are usually 150-200 words \(except medical submissions which can be around 250 words\). Subheadings are discouraged, except for medical submissions, which should contain the following subheadings: Background; Methods; Results; Conclusions; Funding; Clinical trial number \(for submissions reporting results of a trial only\). 
+In scientific articles, an abstract provides a clear and concise summary of the work. Abstracts allow readers to have a quick overview before reading the whole article. For eLife articles, abstracts are usually 150-200 words \(except medical submissions which can be around 250 words\).
 
 {% hint style="info" %}
 If the biological system \(species names or broader taxonomic groups if appropriate\) is not mentioned in the title, it must be included in the abstract.
@@ -13,6 +13,10 @@ In eLife articles, the abstract is the first section in the article, appearing a
 ![Position of the abstract in the PDF](../../../.gitbook/assets/screenshot-2021-05-17-at-10.14.37.png)
 
 ![Position of the abstract on the eLife website](../../../.gitbook/assets/screenshot-2021-05-17-at-10.16.56.png)
+
+### Structured abstracts
+
+Subheadings are discouraged in abstracts, except for medical submissions. If an article has the major subject areas 'Medicine' or 'Epidemiology and Global Health' and a colon in the article title \(e.g. 'Association of Toll-like receptor 7 variants with life-threatening COVID-19 disease in males: findings from a nested case-control study'\), the abstract should also contain the following subheadings: Background; Methods; Results; Conclusions; Funding; Clinical trial number \(for submissions reporting results of a trial only\). These headings should be tagged in the underlying XML using `<sec>` and `<title>` tags \(not `<bold>` tags\).
 
 ## Digests
 
@@ -188,7 +192,7 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 **Error**: _There must either be only one abstract or one abstract and one abstract\[@abstract-type="executive-summary\]. No other variations are allowed._
 
-**Action**: This error will appear if an article has zero or more than one abstract. Check the original submission to see whether an abstract was provided and add it in if so. If no abstract was provided \(this will be a rare occurence\), the authors should be queried for this:
+**Action**: This error will appear if an article has zero or more than one abstract. Check the original submission to see whether an abstract was provided and add it in if so. If no abstract was provided \(this will be a rare occurrence\), the authors should be queried for this:
 
 * Please provide an abstract for your article \(no more than 280 words\). 
 
@@ -202,25 +206,25 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 **Error**: _abstracts cannot contain display formulas._
 
-**Action**: This needs to be discussed in production meeting - should display formulae be allowed in abstracts? Formulae are allowed in Continuum but converted to placeholder text in pubmed. 
+**Action**: This needs to be discussed in production meeting - should display formulae be allowed in abstracts? Formulae are allowed in Continuum but converted to placeholder text in pubmed. Needs to be discussed in production meeting.
 
 #### abstract-test-5
 
 **Error**: _If an abstract is structured, then it must have 5 or 6 sections depending on whether it is a clinical trial. An article without a clinical trial should have 5 sections, whereas one with a clinical trial should have 6._
 
-**Action**: Structured abstracts must the following sections: Background, Methods, Results, Conclusions, Funding and Clinical trial number if the article is a clinical trial. If a structured abstract has a number of sections other than 5 \(or 6 if a clinical trial\), this is incorrect. Check the original submission to see whether all section headings were provided and add them in if so \(the production vendors may need to format these appropriately\). See [**here**](abstract-digest-impact-statement.md#structured-abstract) for an example of XML for a structured abstract. If the authors did not provide these sections, the editorial team should be consulted about this. 
+**Action**: Structured abstracts must the following sections: Background, Methods, Results, Conclusions, Funding and Clinical trial number if the article is a clinical trial. If a structured abstract has a number of sections other than 5 \(or 6 if a clinical trial\), this is incorrect. Check the original submission to see whether all section headings were provided and add them in if so \(the production vendors may need to format these appropriately as [**here**](abstract-digest-impact-statement.md#structured-abstract)**\).** If the authors did not provide these sections, the Editorial team should be consulted about this. 
 
 #### abstract-test-6
 
 **Warning**: _Abstract starts with the word 'Abstract', which is almost certainly incorrect - XXXXXX_
 
-**Action**: If an abstract begins with the text 'abstract', this should be deleted. 
+**Action**: If an abstract begins with the text 'abstract', this text should be deleted. 
 
 #### abstract-test-7
 
 **Warning**: _Abstract looks like it should instead be captured as a structured abstract \(using sections\) - XXXXXX_
 
-**Action**: This warning will appear if any of the structured abstract headings \(Background, Methods, Results, Conclusions, Funding and Clinical trial number if the article is a clinical trial\) are present in an abstract, but the abstract is not formatted correctly \(i.e. using &lt;sec&gt; elements\). If these headings are present they should be formatted as [**here**](abstract-digest-impact-statement.md#structured-abstract).
+**Action**: This warning will appear if any of the structured abstract headings \(Background, Methods, Results, Conclusions, Funding and Clinical trial number if the article is a clinical trial\) are present in an abstract, but the abstract is not formatted correctly \(i.e. using  `<sec>` and `<title>` tags\). If these headings are present they should be formatted as [**here**](abstract-digest-impact-statement.md#structured-abstract).
 
 #### pre-abstract-word-count-restriction
 
@@ -238,55 +242,67 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 **Warning**: _Medicine articles with a colon in their title must have a structured abstract. Either the colon in the title is incorrect, or the abstract should be changed to a structured format._
 
-**Action**: 
+**Action**: If an article is classed under the major subject areas 'Medicine' or 'Epidemiology and Global Health' and has a colon in the article title \(e.g. 'Association of Toll-like receptor 7 variants with life-threatening COVID-19 disease in males: findings from a nested case-control study'\), it should have a structured abstract. Check the original submission to see whether a structured abstract is present - if so, it should be tagged accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract) \(see more [**here**](abstract-digest-impact-statement.md#structured-abstracts)\). If not, the Editorial team will need to be consulted. 
 
 #### clintrial-conformance-1
 
 **Error**: _First section title is 'XXXXXX' - but the only allowed value is 'Background:'._
 
-**Action**: 
+**Action**: This error will appear if the first section in a structured abstract is titled anything other than 'Background:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Background'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the abstract is not a structured abstract, it shouldn't have section titles at all. 
 
 #### clintrial-conformance-2
 
 **Error**: _Second section title is 'XXXXXX' - but the only allowed value is 'Methods:'._
 
-**Action**: 
+**Action**: This error will appear if the first section in a structured abstract is titled anything other than 'Methods:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Methods'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the abstract is not a structured abstract, it shouldn't have section titles at all. 
 
 #### clintrial-conformance-3
 
 **Error**: _Third section title is 'XXXXXX' - but the only allowed value is 'Results:'._
 
-**Action**: 
+**Action**: This error will appear if the first section in a structured abstract is titled anything other than 'Results:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Result'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the abstract is not a structured abstract, it shouldn't have section titles at all. 
 
 #### clintrial-conformance-4
 
 **Error**: _Fourth section title is 'XXXXXX' - but the only allowed value is 'Conclusions:'._
 
-**Action**: 
+**Action**: This error will appear if the first section in a structured abstract is titled anything other than 'Conclusions:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Conclusions'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the abstract is not a structured abstract, it shouldn't have section titles at all. 
 
 #### clintrial-conformance-5
 
 **Error**: _Sixth section title is 'XXXXXX' - but the only allowed value is 'Clinical trial number:'._
 
-**Action**: 
+**Action**: This error will appear if the first section in a structured abstract is titled anything other than 'Clinical trial number:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Clinical trial number'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the article does not have a clinical trial number, there should only be 5 sections in the structured abstract. If the abstract is not a structured abstract, it shouldn't have section titles at all. 
 
 #### clintrial-conformance-6
 
 **Error**: _Fifth section title is 'XXXXXX' - but the only allowed value is 'Funding:'._
 
-**Action**: 
+**Action**: This error will appear if the first section in a structured abstract is titled anything other than 'Funding:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Funding'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the abstract is not a structured abstract, it shouldn't have section titles at all. 
 
 #### clintrial-conformance-7
 
 **Error**: _Nested secs are not allowed in abstracts. Sec with the id XXXXXX and title 'XXXXXX' has child sections._
 
-**Action**: 
+**Action**: This error will appear if there are `<sec>` tags nested within `<sec>` tags in the XML of an abstract, e.g.:
+
+```markup
+<sec id="abs4">
+ <title>Conclusions:</title>
+ <sec>
+    <p>Conclusions text.</p>
+    <p>Funded by X, Y and Z.</p>
+ </sec>
+</sec>
+```
+
+This is not allowed and needs to be corrected by the production vendors. 
 
 #### clintrial-conformance-8
 
 **Error**: _XXXXXX must have an @id in the format 'abs1'. XXXXXX does not conform to this convention._
 
-**Action**: 
+**Action**: This error will appear if a structured abstract section element has 
 
 #### clintrial-related-object-1
 
@@ -618,13 +634,13 @@ These checks relate to the XML structure of impact statements. X or XXXXXX refer
 
 ## XML structure
 
-#### Structured abstract
+#### Structured abstract \(including clinical trial number section\)
 
 ```markup
 <article>
   <front>
     <abstract>
-    <sec>
+    <sec id="abs1">
       <title>Background:</title>
       <p>Recently, loss-of-function variants in TLR7 were 
       identified in two families in which COVID-19 segregates 
@@ -633,7 +649,7 @@ These checks relate to the XML structure of impact statements. X or XXXXXX refer
       families represent the tip of the iceberg of a subset of 
       COVID-19 male patients.</p>
     </sec>
-    <sec>
+    <sec id="abs2">
       <title>Methods:</title>
       <p>This is a nested case-control study in which we compared
       male participants with extreme phenotype selected from the 
@@ -644,7 +660,7 @@ These checks relate to the XML structure of impact statements. X or XXXXXX refer
       extreme phenotype, picking up TLR7 as the most important 
       susceptibility gene.</p>
     </sec>
-      <sec>
+    <sec id="abs3">
       <title>Results:</title>
       <p>Overall, we found TLR7 deleterious variants in 2.1% of 
       severely affected males and in none of the asymptomatic 
@@ -653,20 +669,20 @@ These checks relate to the XML structure of impact statements. X or XXXXXX refer
       expression in patients compared with controls demonstrating
      an impairment in type I and II IFN responses.</p>
     </sec>
-    <sec>
+    <sec id="abs4">
       <title>Conclusion:</title>
       <p>Young males with TLR7 loss-of-function variants and 
       severe COVID-19 represent a subset of male patients 
       contributing to disease susceptibility in up to 2% of 
       severe COVID-19.</p>
     </sec>
-    <sec>
+    <sec id="abs5">
       <title>Funding:</title>
       <p>Funded by private donors for the Host Genetics Research 
       Project, the Intesa San Paolo for 2020 charity fund, and 
       the Host Genetics Initiative.</p>
     </sec>
-    <sec>
+    <sec id="abs6">
       <title>Clinical trial number:</title>
       <p><ext-link ext-link-type="uri" 
       xlink:href="https://www.clinicaltrials.gov/">
