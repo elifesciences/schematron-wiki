@@ -16,7 +16,7 @@ In eLife articles, the abstract is the first section in the article, appearing a
 
 ### Structured abstracts
 
-Subheadings are discouraged in abstracts, except for medical submissions. If an article has the major subject areas 'Medicine' or 'Epidemiology and Global Health' and a colon in the article title \(e.g. 'Association of Toll-like receptor 7 variants with life-threatening COVID-19 disease in males: findings from a nested case-control study'\), the abstract should also contain the following subheadings: Background; Methods; Results; Conclusions; Funding; Clinical trial number \(for submissions reporting results of a trial only\). These headings should be tagged in the underlying XML using `<sec>` and `<title>` tags \(not `<bold>` tags\).
+Subheadings are discouraged in abstracts, except for medical submissions. If an article has the major subject areas 'Medicine' or 'Epidemiology and Global Health' and a colon in the article title \(e.g. 'Association of Toll-like receptor 7 variants with life-threatening COVID-19 disease in males: findings from a nested case-control study'\), the abstract should be structured, and include the following subheadings: Background; Methods; Results; Conclusions; Funding; Clinical trial number \(for submissions reporting results of a trial only\). These headings should be tagged in the underlying XML using `<sec>` and `<title>` tags \(not `<bold>` tags\).
 
 | **Section** | **XML tag** |
 | :--- | :--- |
@@ -29,7 +29,7 @@ Subheadings are discouraged in abstracts, except for medical submissions. If an 
 
 ## Digests
 
-eLife digests explain the findings of eLife papers to a broader audience. They are managed by the Features team and written by editors and writers working together with authors. In eLife PDFs, the digest appears as soon as possible after the abstract, on page two - often within the Introduction section. On the eLife website, the digest appears after the abstract. 
+eLife digests explain the findings of eLife papers to a broader audience. They are managed by the Features team and written by editors and writers working together with authors. In eLife PDFs, the digest appears as soon as possible after the abstract, on page two - often within the Introduction section. On the eLife website, the digest appears after the abstract. In the XML, digests are marked up as a type of abstract \(see [**here**](abstract-digest-impact-statement.md#digest)\). The following article types should never have a digest: Scientific Correspondence, Replication Study, Research Advance, Registered Report, Correction, Retraction, Expression of Concern, Feature Article, Insight, Editorial.
 
 ![Position of the digest in the PDF](../../../.gitbook/assets/screenshot-2021-05-17-at-10.13.23%20%281%29.png)
 
@@ -205,12 +205,6 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 * Please provide an abstract for your article \(no more than 280 words\). 
 
-#### abstract-test-2
-
-**Error**: _At least 1 p element or sec element \(with descendant p\) must be present in abstract._
-
-**Action**: This error will appear if an abstract has no &lt;p&gt; elements. The text of an abstract must be contained within a &lt;p&gt; element - if this is not the case, it needs to be fixed by the production vendors. 
-
 #### abstract-test-4
 
 **Error**: _abstracts cannot contain display formulas._
@@ -288,6 +282,194 @@ These checks relate to the content of abstracts, digests and impact statements. 
 **Error**: _Fifth section title is 'XXXXXX' - but the only allowed value is 'Funding:'._
 
 **Action**: This error will appear if the first section in a structured abstract is titled anything other than 'Funding:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Funding'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the abstract is not a structured abstract, it shouldn't have section titles at all. 
+
+#### clintrial-related-object-13
+
+**Warning**: _There are XXXXXX clinical trial numbers tagged in the structured abstract, which seems like a large number. Please check that this is correct and has not been mistagged._
+
+**Action**: This warning will appear for a structured abstract if there are more than 3 clinical trial numbers tagged. This will usually be a result of mis-tagging - double-check the original submission to see what the correct clinical trial numbers should be. If you are unsure, check with the Production team who may need to consult the Editorial team about this. 
+
+#### xref-bibr-presence
+
+**Warning**: _Abstract contains a citation - 'XXXXXX' - which isn't usually allowed. Check that this is correct._
+
+**Action**: Linked citations are not allowed in abstracts - if there are any, these should be changed to plain text citations instead. If the reference is only cited in the abstract, leave this query for the authors: 
+
+* Unfortunately we cannot support linked citations in eLife abstracts. Please add a citation of this reference in the main text of your article so we can add it to the reference list. 
+
+#### pre-res-comm-test
+
+**Warning**: _'XXXXXX' has only one paragraph in its abstract or the second paragraph does not begin with 'Editorial note', which is incorrect. Please ensure to check with eLife staff for the required wording._
+
+**Action**: This warning will appear if a Research Communication article only has one paragraph in the abstract or the second paragraph doesn't begin with 'Editorial note'. Research Communications should have this note as a second paragraph in the abstract:
+
+> Editorial note: This article has been through an editorial process in which the authors decide how to respond to the issues raised during peer review. The Reviewing Editor's assessment is that all the issues have been addressed \(see decision letter\).
+
+#### final-res-comm-test
+
+**Error**: _'XXXXXX' has only one paragraph in its abstract or the second paragraph does not begin with 'Editorial note', which is incorrect._
+
+**Action**: This warning will appear if a Research Communication article only has one paragraph in the abstract or the second paragraph doesn't begin with 'Editorial note'. Research Communications should have this note as a second paragraph in the abstract:
+
+> Editorial note: This article has been through an editorial process in which the authors decide how to respond to the issues raised during peer review. The Reviewing Editor's assessment is that all the issues have been addressed \(see decision letter\).
+
+#### res-art-test
+
+**Warning**: _'XXXXXX' has more than one paragraph in its abstract, is this correct?_
+
+**Action**: This warning will appear if an abstract has multiple paragraphs. Most eLife articles should only have single-paragraph abstracts \(exceptions are articles with structured abstracts and Research Communications\). Check the original submission to see whether the abstract has multiple paragraphs - if it does and it shouldn't, please leave the following query for the authors:
+
+* Please edit your abstract so it is only one paragraph. 
+
+#### corr-abstract-presence
+
+**Error**: _Correction notices should not contain abstracts._
+
+**Action**: Correction notices do not have abstracts - if this error appears, it is likely that some text has incorrectly been tagged as an abstract. The production vendors will need to correct this. 
+
+#### retr-abstract-presence
+
+**Error**: _XXXXXX notices should not contain abstracts._
+
+**Action**: Retraction notices do not have abstracts - if this error appears, it is likely that some text has incorrectly been tagged as an abstract. The production vendors will need to correct this. 
+
+#### insight-abstract-impact-test-1
+
+**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract reads "XXXXXX", whereas the impact statement reads "XXXXXX"._
+
+**Action**_:_ The majority of Insight articles will have abstracts that match the impact statement. If this warning appears, check there are no typos in either the abstract or impact statement. If there are major differences between the two, check with the Production team who will clarify this with the Features team.
+
+#### insight-abstract-impact-test-2
+
+**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract has XXXXXX child element\(s\), whereas the impact statement has XXXXXX child element\(s\). Check for possible missing formatting._
+
+**Action**: The majority of Insight articles will have abstracts that match the impact statement. This warning will appear if there is a mismatch and a formatting element in the abstract \(such as italicisation\). This can be resolved by adding the missing formatting element in the impact statement as well. If there are major differences between the two, check with the Production team who will clarify this with the Features team.
+
+#### test-no-digest
+
+**Error**: _'XXXXXX' cannot have a digest._
+
+**Action**: This error will appear if any of these article types have a digest: Scientific Correspondence, Replication Study, Research Advance, Registered Report, Correction, Retraction, Expression of Concern, Feature Article, Insight, Editorial. Double-check the article type is definitely correct - if it is, the digest section will need to be removed from the XML by the production vendors. If the article type is incorrect, this will need to be corrected by the production vendors.
+
+#### digest-test-1
+
+**Warning**: _digest paragraph starts with a lowercase letter. Is that correct? Or has a paragraph been incorrect split into two?_
+
+**Action**: This warning will appear if a paragraph in a digest section begins with a lowercase letter. Double-check whether this is due to a paragraph incorrectly being split into two, or due to a typo and correct accordingly. If the word should be lowercase because it is a gene name, for example, this can be left as is. If you are unsure, check with the Production team who will check with Features if needed.
+
+#### final-digest-test-2
+
+**Error**: _digest paragraph contains \[OK\] or \[OK?\] which should be removed - XXXXXX_
+
+**Action**: The Features team will sometimes check the wording of a digest with the authors by adding '\[OK\]' or '\[OK?\]' into the text of the digest. These indicators should be removed at pub review \(before final publication\). 
+
+#### custom-meta-test-5
+
+**Warning**: _Impact statement contains more than 40 words. This is not allowed._
+
+**Action**: When an impact statement is more than 40 words in length, it should be shortened if this is possible without changing the scientific meaning of the text. If this is not possible, the author should be asked to rephrase it to bring it under the word limit:
+
+* Please rephrase this impact statement so that it is no more than 40 words in length.
+
+#### pre-custom-meta-test-6
+
+**Warning**: _Impact statement must end with a full stop or question mark._
+
+**Action**: Add a full-stop to the end of the impact statement.
+
+#### final-custom-meta-test-6
+
+**Error**: _Impact statement must end with a full stop or question mark._
+
+**Action**: Add a full-stop to the end of the impact statement.
+
+#### custom-meta-test-7
+
+**Warning**: _Impact statement appears to be made up of more than one sentence. Please check, as more than one sentence is not allowed._
+
+**Action**: If possible, rephrase the impact statement to combine the multiple sentences into one. If it is not clear how to do this, please query the authors:
+
+* The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement that clearly explains the main results of your study.
+
+#### custom-meta-test-8
+
+**Warning**: _Impact statement contains a colon or semi-colon, which is likely incorrect. It needs to be a proper sentence._
+
+**Action**: If possible, rephrase the impact statement to remove the need for a colon or semi-colon. See [above](abstract-digest-impact-statement.md#semi-colon-removal). If it is not clear how to do this, please query the authors:
+
+* The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement that clearly explains the main results of your study.
+
+#### pre-custom-meta-test-9
+
+**Warning**: _Impact statement contains a possessive phrase. This is not allowed_
+
+**Action**: The impact statement should be rephrased to avoid using 'We show', 'We prove', 'This work shows' or any other similar phrase. See [above](abstract-digest-impact-statement.md#removing-possessive-phrases). This is a warning at the pre-author stages.
+
+#### final-custom-meta-test-9
+
+**Error**: _Impact statement contains a possessive phrase. This is not allowed_
+
+**Action**: The impact statement should be rephrased to avoid using 'We show', 'We prove', 'This work shows' or any other similar phrase. See [above](abstract-digest-impact-statement.md#removing-possessive-phrases). This is an error at the post-author stages.
+
+#### custom-meta-test-10
+
+**Error**: _Impact statement is comprised entirely of numbers, which must be incorrect._
+
+**Action**: If the impact statement has been provided as a string of numbers, the authors must be asked to provide a proper statement:
+
+* The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement that clearly explains the main results of your study.
+
+#### custom-meta-test-11
+
+**Warning**: _Impact statement contains 'our'. Is this possessive language relating to the article or research itself \(which should be removed\)?_
+
+**Action**: The impact statement should be rephrased to avoid using 'We show', 'Our work proves', 'This work shows' or any other similar phrase. See [above](abstract-digest-impact-statement.md#removing-possessive-phrases).
+
+#### custom-meta-test-13
+
+**Warning**: _Impact statement contains 'study'. Is this a third person description of this article? If so, it should be changed to not include this._
+
+**Action**: Check to see if the statement contains a phrase such as 'This study shows' or ' In this study'. If it does, the statement must be rephrased. See [above](abstract-digest-impact-statement.md#this-study-removal).
+
+#### pre-rep-study-custom-meta-test
+
+**Warning**: _Impact statement in Replication studies must begin with 'Editors' summary: '. This does not - 'XXXXXX'._
+
+**Action**: XXXXXX will be the current impact statement. In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [**above**](abstract-digest-impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, please alert the Production team so that they can get the correct text from the Editorial team. The article should not go to the authors until this is resolved, but can be moved to waiting for assets. This is a warning at the pre-author stages. 
+
+#### final-rep-study-custom-meta-test
+
+**Error**: _Impact statement in Replication studies must begin with 'Editors' summary: '. This does not - 'XXXXXX'_
+
+**Action**: XXXXXX will be the current impact statement. In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [above](abstract-digest-impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, the Production team will need to check with the Editorial team to get the correct text for the impact statement. This is an error at the pre-author stages.
+
+#### custom-meta-child-test-1
+
+**Error**: _&lt;XXX&gt; is not allowed in impact statement._
+
+**Action**: `<XXX>` will be a disallowed XML element\(s\) currently present in the impact statement. The only XML elements allowed within the impact statement are `<italic>`, `<sup>` or `<sub>`. To address this warning, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks. For example, if the warning reads "&lt;bold&gt; is not allowed in impact statement", bold formatting is present and should be removed; similarly, "&lt;ext-link&gt; is not allowed in impact statement" indicates a hyperlink.
+
+#### insight-abstract-impact-test-1
+
+**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract reads "XXXXXX", whereas the impact statement reads "XXXXXX"._
+
+**Action**: As this warning states, the impact statements in an Insight article should match exactly to the abstract. The eLife Features team will need to be alerted when this is not the case so that they can make a decision about which text is correct.
+
+#### insight-abstract-impact-test-2
+
+**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract has XXXXXX child element\(s\), whereas the impact statement has XXXXXX child element\(s\). Check for possible missing formatting._
+
+**Action**: The impact statements in an Insight article should match exactly to the abstract. This warning will fire if there are different numbers of child elements in the abstract and impact statement, indicating that there may be different formatting in the two places. Update the text so that the formatting is consistent - species names should be placed in italics, bold formatting should be removed. The eLife Features team should be queried if it is unclear which style is correct.
+
+### XML structure checks
+
+These checks relate to the XML structure of impact statements. X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, [**see below**](abstract-digest-impact-statement.md#xml-structure).
+
+#### abstract-test-2
+
+**Error**: _At least 1 p element or sec element \(with descendant p\) must be present in abstract._
+
+**Action**: This error will appear if an abstract has no &lt;p&gt; elements. The text of an abstract must be contained within a &lt;p&gt; element - if this is not the case, it needs to be fixed by the production vendors. 
 
 #### clintrial-conformance-7
 
@@ -549,43 +731,95 @@ This should be corrected by the production vendors, for example:
 
 **Warning**: _XXXXXX has an @document-id 'XXXXXX'. But this is not in the text, which is likely incorrect - XXXXXX._
 
-**Action**: 
+**Action**: This error will appear for a structured abstract if the value within the `document-id` attribute doesn't match the text within the `<related-object>` element.
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">bjirpebwivtprbwuip
+      </related-object>.</p>
+</sec>
+```
+
+The value in the `document-id` attribute should match the text within the `<related-object>` element. This should be corrected by the production vendors, for example: 
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
 
 #### clintrial-related-object-9
 
 **Error**: _XXXXXX must have an @id in the format 'RO1'. 'XXXXXX' does not conform to this convention._
 
-**Action**: 
+**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have an `id` in the exact format 'RO1' for example: 
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="ro1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
+
+This should be corrected by the production vendors, for example: 
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
 
 #### clintrial-related-object-10
 
-**Error**: _XXXXXX in abstract must be a child of a  element._
+**Error**: _XXXXXX in abstract must be a child of a &lt;p&gt; element._
 
-**Action**: 
+**Action**: This error will appear for a structured abstract if the `<related-object>` element isn't contained within a `<p>` element. This should be corrected by the production vendors.
 
 #### clintrial-related-object-11
 
 **Error**: _XXXXXX @source-id value must be one of the subtitles of the Crossref clinical trial registries. "XXXXXX" is not one of the following XXXXXX_
 
-**Action**: 
+**Action**: This error will appear for a structured abstract if the `source-id` does not match any of the [**Crossref clinical trial registries**](https://github.com/elifesciences/eLife-JATS-schematron/blob/master/src/clinical-trial-registries.xml). Check and correct any typos - if the value in the `source-id` element is completely different from any of the registries on the list, the Production team will need to investigate further. 
 
 #### clintrial-related-object-12
 
 **Error**: _ClinicalTrials.gov trial links are in the format_ [https://clinicaltrials.gov/show/{number}](https://clinicaltrials.gov/show/{number})_. This XXXXXX has the link 'XXXXXX', which based on the clinical trial registry \(XXXXXX\) and @document-id \(XXXXXX\) is not right. Either the xlink:href is wrong \(should it be XXXXXX instead?\) or the @document-id value is wrong, or the @source-id value is incorrect \(or all/some combination of these\)._
 
-**Action**: 
+**Action**: This error will appear for a structured abstract if there is a mismatch between the `document-id` value and the link in the `xlink:href` element. For example, if the link is https://clinicaltrials.gov/show/NCT04549831, the expected document-id would be NCT04549831. If these values don't match \(as in the example below\) then there is either an error in the link or the document-id \(or the source-id value itself is incorrect, which will cause the schematron to compare against an incorrect format\). Check the original submission and fix any typos that may have been made. If there are no typos, the Production team will need to check this with the Editorial team. 
 
-#### clintrial-related-object-13
-
-**Warning**: _There are XXXXXX clinical trial numbers tagged in the structured abstract, which seems like a large number. Please check that this is correct and has not been mistagged._
-
-**Action**: 
-
-#### clintrial-related-object-12
-
-**Error**: _ClinicalTrials.gov trial links are in the format_ [https://clinicaltrials.gov/show/{number}](https://clinicaltrials.gov/show/{number})_. This XXXXXX has the link 'XXXXXX', which based on the clinical trial registry \(XXXXXX\) and @document-id \(XXXXXX\) is not right. Either the xlink:href is wrong \(should it be XXXXXX instead?\) or the @document-id value is wrong, or the @source-id value is incorrect \(or all/some combination of these\)._
-
-**Action**: 
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549832" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
 
 #### related-object-ancestor
 
@@ -607,193 +841,17 @@ This should be corrected by the production vendors, for example:
 
 This test checks that the `<related-object>` element is located within the abstract. This element is not currently used elsewhere so if this message appears, the production vendors will need to fix this. 
 
-#### xref-bibr-presence
-
-**Warning**: _Abstract contains a citation - 'XXXXXX' - which isn't usually allowed. Check that this is correct._
-
-**Action**: 
-
-#### pre-res-comm-test
-
-**Warning**: _'XXXXXX' has only one paragraph in its abstract or the second paragraph does not begin with 'Editorial note', which is incorrect. Please ensure to check with eLife staff for the required wording._
-
-**Action**: 
-
-#### xref-bibr-presence
-
-**Warning**: _Abstract contains a citation - 'XXXXXX' - which isn't usually allowed. Check that this is correct._
-
-**Action**: 
-
-#### final-res-comm-test
-
-**Error**: _'XXXXXX' has only one paragraph in its abstract or the second paragraph does not begin with 'Editorial note', which is incorrect._
-
-**Action**: 
-
-#### res-art-test
-
-**Warning**: _'XXXXXX' has more than one paragraph in its abstract, is this correct?_
-
-**Action**: 
-
-#### corr-abstract-presence
-
-**Error**: _Correction notices should not contain abstracts._
-
-**Action**: 
-
-#### retr-abstract-presence
-
-**Error**: _XXXXXX notices should not contain abstracts._
-
-**Action**: 
-
-#### insight-abstract-impact-test-1
-
-**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract reads "XXXXXX", whereas the impact statement reads "XXXXXX"._
-
-#### insight-abstract-impact-test-2
-
-**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract has XXXXXX child element\(s\), whereas the impact statement has XXXXXX child element\(s\). Check for possible missing formatting._
-
-**Action**: 
-
-#### insight-abstract-impact-test-1
-
-**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract reads "XXXXXX", whereas the impact statement reads "XXXXXX"._
-
 #### feature-abstract-test-1
 
 **Error**: _abstract must contain one and only one title._
 
-**Action**: 
+**Action**: This error will appear if an article with a digest section doesn't have a `<title>` tag. The production vendors will need to add this in, and the title should be 'eLife digest'. 
 
 #### feature-abstract-test-2
 
 **Error**: _abstract title must contain 'eLife digest'. Possible superfluous characters - XXXXXX_
 
-**Action**: 
-
-#### test-no-digest
-
-**Error**: _'XXXXXX' cannot have a digest._
-
-**Action**: 
-
-#### digest-test-1
-
-**Warning**: _digest paragraph starts with a lowercase letter. Is that correct? Or has a paragraph been incorrect split into two?_
-
-**Action**: 
-
-#### final-digest-test-2
-
-**Error**: _digest paragraph contains \[OK\] or \[OK?\] which should be removed - XXXXXX_
-
-**Action**: 
-
-#### custom-meta-test-5
-
-**Warning**: _Impact statement contains more than 40 words. This is not allowed._
-
-**Action**: When an impact statement is more than 40 words in length, it should be shortened if this is possible without changing the scientific meaning of the text. If this is not possible, the author should be asked to rephrase it to bring it under the word limit:
-
-* Please rephrase this impact statement so that it is no more than 40 words in length.
-
-#### pre-custom-meta-test-6
-
-**Warning**: _Impact statement must end with a full stop or question mark._
-
-**Action**: Add a full-stop to the end of the impact statement.
-
-#### final-custom-meta-test-6
-
-**Error**: _Impact statement must end with a full stop or question mark._
-
-**Action**: Add a full-stop to the end of the impact statement.
-
-#### custom-meta-test-7
-
-**Warning**: _Impact statement appears to be made up of more than one sentence. Please check, as more than one sentence is not allowed._
-
-**Action**: If possible, rephrase the impact statement to combine the multiple sentences into one. If it is not clear how to do this, please query the authors:
-
-* The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement that clearly explains the main results of your study.
-
-#### custom-meta-test-8
-
-**Warning**: _Impact statement contains a colon or semi-colon, which is likely incorrect. It needs to be a proper sentence._
-
-**Action**: If possible, rephrase the impact statement to remove the need for a colon or semi-colon. See [above](abstract-digest-impact-statement.md#semi-colon-removal). If it is not clear how to do this, please query the authors:
-
-* The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement that clearly explains the main results of your study.
-
-#### pre-custom-meta-test-9
-
-**Warning**: _Impact statement contains a possessive phrase. This is not allowed_
-
-**Action**: The impact statement should be rephrased to avoid using 'We show', 'We prove', 'This work shows' or any other similar phrase. See [above](abstract-digest-impact-statement.md#removing-possessive-phrases). This is a warning at the pre-author stages.
-
-#### final-custom-meta-test-9
-
-**Error**: _Impact statement contains a possessive phrase. This is not allowed_
-
-**Action**: The impact statement should be rephrased to avoid using 'We show', 'We prove', 'This work shows' or any other similar phrase. See [above](abstract-digest-impact-statement.md#removing-possessive-phrases). This is an error at the post-author stages.
-
-#### custom-meta-test-10
-
-**Error**: _Impact statement is comprised entirely of numbers, which must be incorrect._
-
-**Action**: If the impact statement has been provided as a string of numbers, the authors must be asked to provide a proper statement:
-
-* The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement that clearly explains the main results of your study.
-
-#### custom-meta-test-11
-
-**Warning**: _Impact statement contains 'our'. Is this possessive language relating to the article or research itself \(which should be removed\)?_
-
-**Action**: The impact statement should be rephrased to avoid using 'We show', 'Our work proves', 'This work shows' or any other similar phrase. See [above](abstract-digest-impact-statement.md#removing-possessive-phrases).
-
-#### custom-meta-test-13
-
-**Warning**: _Impact statement contains 'study'. Is this a third person description of this article? If so, it should be changed to not include this._
-
-**Action**: Check to see if the statement contains a phrase such as 'This study shows' or ' In this study'. If it does, the statement must be rephrased. See [above](abstract-digest-impact-statement.md#this-study-removal).
-
-#### pre-rep-study-custom-meta-test
-
-**Warning**: _Impact statement in Replication studies must begin with 'Editors' summary: '. This does not - 'XXXXXX'._
-
-**Action**: XXXXXX will be the current impact statement. In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [above](abstract-digest-impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, please alert the Production team so that they can get the correct text from the Editorial team. The article should not go to the authors until this is resolved, but can be moved to waiting for assets. This is a warning at the pre-author stages. 
-
-#### final-rep-study-custom-meta-test
-
-**Error**: _Impact statement in Replication studies must begin with 'Editors' summary: '. This does not - 'XXXXXX'_
-
-**Action**: XXXXXX will be the current impact statement. In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [above](abstract-digest-impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, the Production team will need to check with the Editorial team to get the correct text for the impact statement. This is an error at the pre-author stages.
-
-#### custom-meta-child-test-1
-
-**Error**: _&lt;XXX&gt; is not allowed in impact statement._
-
-**Action**: `<XXX>` will be a disallowed XML element\(s\) currently present in the impact statement. The only XML elements allowed within the impact statement are `<italic>`, `<sup>` or `<sub>`. To address this warning, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks. For example, if the warning reads "&lt;bold&gt; is not allowed in impact statement", bold formatting is present and should be removed; similarly, "&lt;ext-link&gt; is not allowed in impact statement" indicates a hyperlink.
-
-#### insight-abstract-impact-test-1
-
-**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract reads "XXXXXX", whereas the impact statement reads "XXXXXX"._
-
-**Action**: As this warning states, the impact statements in an Insight article should match exactly to the abstract. The eLife Features team will need to be alerted when this is not the case so that they can make a decision about which text is correct.
-
-#### insight-abstract-impact-test-2
-
-**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract has XXXXXX child element\(s\), whereas the impact statement has XXXXXX child element\(s\). Check for possible missing formatting._
-
-**Action**: The impact statements in an Insight article should match exactly to the abstract. This warning will fire if there are different numbers of child elements in the abstract and impact statement, indicating that there may be different formatting in the two places. Update the text so that the formatting is consistent - species names should be placed in italics, bold formatting should be removed. The eLife Features team should be queried if it is unclear which style is correct.
-
-### XML structure checks
-
-These checks relate to the XML structure of impact statements. X or XXXXXX refers to quoted text which will change depending on the article.For more information about what the XML should look like, [**see below**](abstract-digest-impact-statement.md#xml-structure).
+**Action**: This error will appear if an article with a digest section has a `<title>` other than 'eLife digest'. This will need to be corrected by the production vendors.
 
 #### custom-meta-test-1
 
@@ -895,6 +953,93 @@ These checks relate to the XML structure of impact statements. X or XXXXXX refer
     </abstract>
   </front>
 </article>
+```
+
+#### Digest 
+
+```markup
+<abstract abstract-type="executive-summary">
+    <title>eLife digest</title>
+    <p>Hair greying is a visible sign of aging that affects everyone. The loss of 
+    hair color is due to the loss of melanin, a pigment found in the skin, eyes and 
+    hair. Research in mice suggests stress may accelerate hair greying, but there 
+    is no definitive research on this in humans. This is because there are no 
+    research tools to precisely map stress and hair color over time. But, just 
+    like tree rings hold information about past decades, and rocks hold 
+    information about past centuries, hairs hold information about past months and 
+    years.</p>
+    <p>Hair growth is an active process that happens under the skin inside hair 
+    follicles. It demands lots of energy, supplied by structures inside cells 
+    called mitochondria. While hairs are growing, cells receive chemical and 
+    electrical signals from inside the body, including stress hormones. It is 
+    possible that these exposures change proteins and other molecules laid down in
+    the growing hair shaft. As the hair grows out of the scalp, it hardens, 
+    preserving these molecules into a stable form. This preservation is visible as 
+    patterns of pigmentation. Examining single-hairs and matching the patterns to 
+    life events could allow researchers to look back in time through a person’s 
+    biological history.</p>
+    <p>Rosenberg et al. report a new way to digitize and measure small changes in 
+    color along single human hairs. This method revealed that some white hairs 
+    naturally regain their color, something that had not been reported in a cohort 
+    of healthy individuals before. Aligning the hair pigmentation patterns with 
+    recent reports of stress in the hair donors’ lives showed striking 
+    associations. When one donor reported an increase in stress, a hair lost its 
+    pigment. When the donor reported a reduction in stress, the same hair regained
+    its pigment. Rosenberg et al. mapped hundreds of proteins inside the hairs to 
+    show that white hairs contained more proteins linked to mitochondria and energy
+     use. This suggests that metabolism and mitochondria may play a role in hair 
+     greying. To explore these observations in more detail Rosenberg et al. 
+     developed a mathematical model that simulates the greying of a whole head of 
+     hair over a lifetime, an experiment impossible to do with living people. The 
+     model suggested that there might be a threshold for temporary greying; if 
+     hairs are about to go grey anyway, a stressful event might trigger that 
+     change earlier. And when the stressful event ends, if a hair is just above 
+     the threshold, then it could revert back to dark.</p>
+    <p>The new method for measuring small changes in hair coloring opens up the 
+    possibility of using hair pigmentation patterns like tree rings. This could 
+    track the influence of past life events on human biology. In the future, 
+    monitoring hair pigmentation patterns could provide a way to trace the 
+    effectiveness of treatments aimed at reducing stress or slowing the aging 
+    process. Understanding how ‘old’ white hairs regain their ‘young’ pigmented 
+    state could also reveal new information about the malleability of human aging
+    more generally.</p>
+</abstract>
+```
+
+#### Impact statement
+
+```markup
+<article>
+<article-meta>
+  <front>
+    <custom-meta-group>
+      <custom-meta specific-use="meta-only">
+        <meta-name>Author impact statement</meta-name>
+        <meta-value>A method to profile hair pigmentation patterns establishes a 
+        new approach for psychobiological studies and links metabolic changes to 
+        greying in humans.</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+</article-meta>
+</front>
+```
+
+#### Impact statement for a replication study
+
+```markup
+<article>
+<article-meta>
+  <front>
+    <custom-meta-group>
+      <custom-meta specific-use="meta-only">
+        <meta-name>Author impact statement</meta-name>
+        <meta-value>Editors' Summary: This Replication Study did not reproduce 
+        those experiments in the original paper that it attempted to reproduce.
+        </meta-value>
+      </custom-meta>
+    </custom-meta-group>
+</article-meta>
+</front>
 ```
 
 ## Changelog
