@@ -18,6 +18,15 @@ In eLife articles, the abstract is the first section in the article, appearing a
 
 Subheadings are discouraged in abstracts, except for medical submissions. If an article has the major subject areas 'Medicine' or 'Epidemiology and Global Health' and a colon in the article title \(e.g. 'Association of Toll-like receptor 7 variants with life-threatening COVID-19 disease in males: findings from a nested case-control study'\), the abstract should also contain the following subheadings: Background; Methods; Results; Conclusions; Funding; Clinical trial number \(for submissions reporting results of a trial only\). These headings should be tagged in the underlying XML using `<sec>` and `<title>` tags \(not `<bold>` tags\).
 
+| **Section** | **XML tag** |
+| :--- | :--- |
+| Background | &lt;sec id="abs1"&gt; |
+| Methods | &lt;sec id="abs2"&gt; |
+| Results | &lt;sec id="abs3"&gt; |
+| Conclusions | &lt;sec id="abs4"&gt; |
+| Funding | &lt;sec id="abs5"&gt; |
+| Clinical trial number \(optional\) | &lt;sec id="abs6"&gt; |
+
 ## Digests
 
 eLife digests explain the findings of eLife papers to a broader audience. They are managed by the Features team and written by editors and writers working together with authors. In eLife PDFs, the digest appears as soon as possible after the abstract, on page two - often within the Introduction section. On the eLife website, the digest appears after the abstract. 
@@ -302,49 +311,239 @@ This is not allowed and needs to be corrected by the production vendors.
 
 **Error**: _XXXXXX must have an @id in the format 'abs1'. XXXXXX does not conform to this convention._
 
-**Action**: This error will appear if a structured abstract section element has 
+**Action**: This error will appear if a structured abstract section element has an ID in a format other than 'abs1' where the number corresponds to the section e.g.:
+
+```markup
+<sec id="sec2">
+    <title>Methods:</title>
+    <p>Methods text.</p>
+</sec>
+```
+
+This is incorrect and the ID should be changed accordingly by the production vendors \(see [**here**](abstract-digest-impact-statement.md#structured-abstracts) for correct IDs\). 
 
 #### clintrial-related-object-1
 
 **Error**: _XXXXXX in abstract must be placed in a section whose title is 'Clinical trial number:'_
 
-**Action**: 
+**Action**: This error will appear if a structured abstract has a `<related-object>` element \(which contains a link to the clinicaltrials.gov record for a clinical trial\) in a section other than 'Clinical trial number':
+
+```markup
+<sec id="abs4">
+      <title>Conclusions:</title>
+      <p>Conclusions text.</p>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
+
+This is incorrect - the `<related-object>` element should be placed under the 'Clinical trial number' section instead. The production vendors will need to do this:
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
 
 #### clintrial-related-object-2
 
 **Error**: _XXXXXX must have an @source-type='clinical-trials-registry'._
 
-**Action**: 
+**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have a `source-type` that is 'clinical-trials-registry', for example: 
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
+
+This should be corrected by the production vendors, for example: 
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
 
 #### clintrial-related-object-3
 
 **Error**: _XXXXXX must have an @source-id._
 
-**Action**: 
+**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have a `source-id`, for example: 
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
+
+This should be corrected by the production vendors, for example: 
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
 
 #### clintrial-related-object-4
 
 **Error**: _XXXXXX must have an @source-id-type='registry-name'._
 
-**Action**: 
+**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have a `source-id-type` with the value 'registry-name' for example: 
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov"  
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
+
+This should be corrected by the production vendors, for example: 
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
 
 #### clintrial-related-object-5
 
 **Error**: _XXXXXX must have an @source-type='clinical-trials-registry'._
 
-**Action**: 
+**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have a `source-type` with the value 'clinical-trials-registry' for example: 
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name"  
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
+
+This should be corrected by the production vendors, for example: 
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
 
 #### clintrial-related-object-6
 
 **Error**: _XXXXXX must have an @document-id._
 
-**Action**: 
+**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have a `document-id` with the clinical trial number for example: 
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
+
+This should be corrected by the production vendors, for example: 
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
 
 #### clintrial-related-object-7
 
 **Error**: _XXXXXX must have an @xlink:href._
 
-**Action**: 
+**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have an `xlink:href` with the clinical trial number for example: 
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
+
+This should be corrected by the production vendors, for example: 
+
+```markup
+<sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
+```
 
 #### clintrial-related-object-8
 
@@ -392,16 +591,18 @@ This is not allowed and needs to be corrected by the production vendors.
 
 **Error**: _XXXXXX is not allowed outside of the main abstract \(abstract\[not\(@abstract-type\)\]\)._
 
-**Action**: For clinical trial articles which have clinical trial numbers in the abstract, these should be added as a `<related-object>`, for example:
+**Action**: For clinical trial articles which have clinical trial numbers in the abstract, these should be added as a `<related-object>` in the 'Clinical trial number' section for example:
 
 ```markup
-<related-object document-id="NCT02836002" 
-document-id-type="clinical-trial-number" 
-id="RO1" source-id="ClinicalTrials.gov" 
-source-id-type="registry-name" 
-source-type="clinical-trials-registry" 
-xlink:href="https://clinicaltrials.gov/show/NCT02836002">
-NCT02836002</related-object>
+ <sec id="abs6">
+      <title>Clinical trial number:</title>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
+</sec>
 ```
 
 This test checks that the `<related-object>` element is located within the abstract. This element is not currently used elsewhere so if this message appears, the production vendors will need to fix this. 
@@ -684,9 +885,12 @@ These checks relate to the XML structure of impact statements. X or XXXXXX refer
     </sec>
     <sec id="abs6">
       <title>Clinical trial number:</title>
-      <p><ext-link ext-link-type="uri" 
-      xlink:href="https://www.clinicaltrials.gov/">
-      ClinicalTrials.gov</ext-link>NCT04549831.</p>
+      <p><related-object document-id="NCT04549831" 
+      document-id-type="clinical-trial-number" id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
+      xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
+      </related-object>.</p>
     </sec>
     </abstract>
   </front>
