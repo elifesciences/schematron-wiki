@@ -79,7 +79,7 @@ The workflows for downstream deliveries are managed by Fred and Graham via the e
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://data.crossref.org/reports/help/schema_doc/4.4.2/index.html"><b>Crossref XML</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">
-        <p>On Publication</p>
+        <p>On ingestion to Continuum</p>
         <p>(or Midnight the</p>
         <p>day of publication</p>
         <p>for Press)</p>
