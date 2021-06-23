@@ -12,7 +12,9 @@ Authors will sometimes include snippets of code in their articles. This is usual
 
 ![Example of a code-block in the PDF ](../../.gitbook/assets/screen-shot-2021-06-08-at-14.22.25.png)
 
-Within a code block, all text is rendered in a monospace font and the spacing and line-breaks are preserved. It is not possible to place hyperlinks, formatting or coloured text within a code block. Please note that some authors do provide colour-coding within their code, so it may need to be explained to them that this cannot be preserved.
+Within a code block, all text is rendered in a monospace font and the spacing and line-breaks are preserved. Since the publishing platform \(Continuum\) will display any XML tags inside code blocks, is not possible to place hyperlinks, formatting or coloured text within them. Please note that some authors do provide colour-coding within their code, so it may need to be explained to them that this cannot be preserved.
+
+![Example of Continuum displaying XML tags within a code block, rather than applying bold formatting](../../.gitbook/assets/screen-shot-2021-06-23-at-10.24.35.png)
 
 Code blocks can be formatted by selecting the required text and then picking the following options from the Style\(s\) menu:
 
