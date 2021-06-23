@@ -98,6 +98,12 @@ If the XML tagging needs to be preserved - for example, if it _is_ the content t
 
 **Action**: All code blocks should be placed within the same paragraph element &lt;p&gt; as the text that precedes them. This error indicates that a code block element &lt;code&gt; is contained within another kind of element. The code block will need to be moved so that it is a child of the correct element. This may require intervention from the content processor's support team if it cannot be resolved through the system interface.
 
+#### line-count
+
+**Error**: _Articles without code blocks must only have one line in the xml. The xml for this article has XXXXXX._
+
+**Action**: This error indicates that an article has multiple lines in its XML but no code blocks. Multiple lines are only permitted if contained within code blocks so this error will need to be addressed by removing the XML line breaks. This will likely need intervention from the content processor's support team.
+
 ## XML structure
 
 Example of a code block in an article paragraph. Note that the spacing is preserved in the XML as shown here:
