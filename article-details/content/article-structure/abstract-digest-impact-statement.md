@@ -193,7 +193,7 @@ In this case, simply removing 'identified here' was sufficient to provide a corr
 
 ### A note on full submissions
 
-Articles accepted at full submission \(for example articles accepted through Review Commons\) do not have impact statements on the submission system. The Editorial team will need to query the authors for this before the article is exported to Production, however if this is missed the authors should be queried for this: 
+Articles accepted at full submission \(for example articles accepted through Review Commons\) do not have impact statements on the submission system. The Editorial team will need to query the authors for this before the article is exported to Production; however if this is missed the authors should be queried for this: 
 
 * Please provide an impact statement \(a single sentence, no longer than 40 words, that summarises the key findings of the work\).
 
