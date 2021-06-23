@@ -4,7 +4,7 @@ description: >-
   eLife
 ---
 
-# eToc
+# eTOC
 
 Twice a week an email is sent out to subscribers listing all the articles eLife has published in a certain time period.
 

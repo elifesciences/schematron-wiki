@@ -59,7 +59,7 @@
 * [eLife Glossary](toolkit/elife-glossary.md)
 * [eLife website and communication house style](toolkit/elife-website-and-communication-house-style.md)
 * [ERA](toolkit/era.md)
-* [eToc](toolkit/etoc.md)
+* [eTOC](toolkit/etoc.md)
 * [Fixing Crossref/Dryad failures](toolkit/fixing-crossref-dryad-failures.md)
 * [Glencoe](toolkit/glencoe.md)
 * [Homepage images](toolkit/homepage-images.md)
