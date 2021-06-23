@@ -221,7 +221,7 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 **Error**: _If an abstract is structured, then it must have 5 or 6 sections depending on whether it is a clinical trial. An article without a clinical trial should have 5 sections, whereas one with a clinical trial should have 6._
 
-**Action**: Structured abstracts must the following sections: Background, Methods, Results, Conclusions, Funding and Clinical trial number if the article is a clinical trial. If a structured abstract has a number of sections other than 5 \(or 6 if a clinical trial\), this is incorrect. Check the original submission to see whether all section headings were provided and add them in if so \(the production vendors may need to format these appropriately as [**here**](abstract-digest-impact-statement.md#structured-abstract)**\).** If the authors did not provide these sections, the Editorial team should be consulted about this. 
+**Action**: Structured abstracts must include the following sections: Background, Methods, Results, Conclusions, Funding and Clinical trial number if the article is a clinical trial. If a structured abstract has a number of sections other than 5 \(or 6 if a clinical trial\), this is incorrect. Check the original submission to see whether all section headings were provided and add them in if so \(the production vendors may need to format these appropriately as [**here**](abstract-digest-impact-statement.md#structured-abstract)**\).** If the authors did not provide these sections, the Editorial team should be consulted about this. 
 
 #### abstract-test-6
 
