@@ -16,6 +16,10 @@ A preprint reference provides the bibliographic details for a preprint in the re
 
 ![The same preprint reference on the eLife website](../../../.gitbook/assets/screen-shot-2020-06-25-at-15.24.15.png)
 
+For eLife articles, each part of the reference is formatted specifically: 
+
+![Formatting display for a preprint reference in eLife articles](../../../.gitbook/assets/pre-print-reference.png)
+
 ## What needs to be added?
 
 The following information can be added for preprint references:

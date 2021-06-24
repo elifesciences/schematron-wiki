@@ -12,6 +12,14 @@ For change log, click [**here**](data-references.md#changelog).
 
 A data reference gives bibliographic details for a dataset deposited in a structured repository, database or other data-sharing platform. These may be in addition to those in the [**data availability section**](../data-availability.md), or they may repeat those listed in that section, where the authors wish to directly cite them in the text.
 
+![Example of a data reference on the eLife website](../../../.gitbook/assets/screenshot-2021-06-24-at-12.07.58.png)
+
+For eLife articles, each part of the reference is formatted specifically: 
+
+![Formatting display for a data reference in eLife articles ](../../../.gitbook/assets/data-reference-in-ref-list.png)
+
+![Formatting display for a data reference in the data availability section in eLife articles](../../../.gitbook/assets/data-reference-in-data-availability.png)
+
 ## What needs to be added?
 
 The following information can be added for data references:
