@@ -20,6 +20,8 @@ For eLife articles, each part of the reference is formatted specifically:
 
 ![Formatting display for a preprint reference in eLife articles](../../../.gitbook/assets/pre-print-reference.png)
 
+![An example of a preprint citation](../../../.gitbook/assets/screenshot-2021-06-24-at-12.15.56.png)
+
 ## What needs to be added?
 
 The following information can be added for preprint references:

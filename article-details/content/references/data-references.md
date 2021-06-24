@@ -20,6 +20,8 @@ For eLife articles, each part of the reference is formatted specifically:
 
 ![Formatting display for a data reference in the data availability section in eLife articles](../../../.gitbook/assets/data-reference-in-data-availability.png)
 
+![An example of a data citation](../../../.gitbook/assets/screenshot-2021-06-24-at-12.14.06.png)
+
 ## What needs to be added?
 
 The following information can be added for data references:
