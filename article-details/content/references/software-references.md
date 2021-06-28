@@ -77,7 +77,7 @@ To add a software reference in Kriya, right-click where you want to add the cita
 
 The default fields in Kriya will need to be altered to include the appropriate information. The fields we capture will differ slightly depending on the type of software reference. Make sure a citation is added whenever the software is mentioned in the text or in the key resources table. 
 
-### GitHub
+### GitHub/GitLab
 
 * Author - If the repository includes information about the authors, these should be added. If not, just use the GitHub User IDs of the collaborators.
 * Year - the year of the latest commit number \(outlined in red below\).
@@ -107,6 +107,8 @@ An example of correctly entered fields for a GitHub repository reference is give
 | Software name \(Source in Kriya 2\) | GitHub |
 | Software version | 9e78826 |
 | Website | https://github.com/carolinecolijn/ClustersCOVID19 |
+
+The same instructions can be followed for GitLab links.
 
 ### R software and packages
 
@@ -237,6 +239,30 @@ Note, Zenodo can also be used for [**data references**](data-references.md) – 
 * Please confirm whether this link refers to software or a dataset so we can capture it correctly in your reference list. 
 
 Authors may upload a mixture of software and data to Zenodo. The Production team will liaise with the authors as necessary to decide how to capture this in these cases. 
+
+### Other
+
+Any other links provided for software should also be added as software references as far as possible. For example, in the Key Resources Table of 66954, [**this**](https://cab.spbu.ru/software/rnaspades/) link was included:
+
+![](../../../.gitbook/assets/screenshot-2021-06-28-at-08.26.24.png)
+
+Using a combination of the information already provided and the link for the software, a software reference can be generated:
+
+| Kriya field | Value |
+| :--- | :--- |
+| Author | Bushmanova E |
+| Author | Antipov D |
+| Author | Lapidus A |
+| Author | Prjibelski AD |
+| Year | 2019 |
+| Software title | rnaSPAdes |
+| Software name \(Source in Kriya 2\) | Center for Algorithmic Biotechnology |
+| Software version | v3.14.1 |
+| Website | https://cab.spbu.ru/software/rnaspades/ |
+
+This may not always be possible if the complete information is not available. The authors should also be asked to provide the rest of the required details if these are not available, using the following query \(deleting as appropriate the information that has already been provided\):
+
+* Please provide the authors, year, software name, version used, and URL for this software so that we can add it to the reference list.
 
 ## **Schematron checks**
 
@@ -631,4 +657,11 @@ Zenodo
 
 * Added examples of more software references, updated guidance about when to query authors and updated author query.
 * Changed instances of &lt;publisher-name&gt; in XML structure examples to &lt;source&gt; for all but R reference.
+
+### 28/06/2021
+
+#### Changes
+
+* Changed 'GitHub' heading to '[**GitHub/GitLab**](software-references.md#github-gitlab)' 
+* Added information about how to add software references which don't fall into the given categories under '[**Other**](software-references.md#other)'.
 
