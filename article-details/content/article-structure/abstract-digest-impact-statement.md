@@ -16,20 +16,20 @@ In eLife articles, the abstract is the first section in the article, appearing a
 
 ### Structured abstracts
 
-Subheadings are discouraged in abstracts, except for medical submissions. If an article has the major subject areas 'Medicine' or 'Epidemiology and Global Health' and a colon in the article title \(e.g. 'Association of Toll-like receptor 7 variants with life-threatening COVID-19 disease in males: findings from a nested case-control study'\), the abstract should be structured, and include the following subheadings: Background; Methods; Results; Conclusions; Funding; Clinical trial number \(for submissions reporting results of a trial only\). These headings should be tagged in the underlying XML using `<sec>` and `<title>` tags \(not `<bold>` tags\).
+Subheadings are not allowed in abstracts, except for medical submissions. All articles in the major subject areas 'Medicine' or 'Epidemiology and Global Health' with a received date after 04/04/2021 should have a structured abstract. Structured abstracts should have all the following subheadings: Background; Methods; Results; Conclusions; Funding; Clinical trial number \(for submissions reporting results of a trial only - see more [**here**](../ethics.md#clinical-trials)\). These headings should be tagged in the underlying XML using `<sec>` and `<title>` tags \(not `<bold>` tags\). See [**here**](abstract-digest-impact-statement.md#structured-abstract-including-clinical-trial-number-section) for an example of XML for a structured abstract. 
 
-| **Section** | **XML tag** |
+| **Section** | **XML formatting** |
 | :--- | :--- |
-| Background | &lt;sec id="abs1"&gt; |
-| Methods | &lt;sec id="abs2"&gt; |
-| Results | &lt;sec id="abs3"&gt; |
-| Conclusions | &lt;sec id="abs4"&gt; |
-| Funding | &lt;sec id="abs5"&gt; |
-| Clinical trial number \(optional\) | &lt;sec id="abs6"&gt; |
+| Background | `<sec id="abs1">  <title>Background:</title>` |
+| Methods | `<sec id="abs2">  <title>Methods:</title>` |
+| Results | `<sec id="abs3">  <title>Results:</title>` |
+| Conclusions | `<sec id="abs4">  <title>Conclusions:</title>` |
+| Funding | `<sec id="abs5">  <title>Funding:</title>` |
+| Clinical trial number \(optional\) | `<sec id="abs6">  <title>Clinical trial number:</title>` |
 
 ## Digests
 
-eLife digests explain the findings of eLife papers to a broader audience. They are managed by the Features team and written by editors and writers working together with authors. In eLife PDFs, the digest appears as soon as possible after the abstract, on page two - often within the Introduction section. On the eLife website, the digest appears after the abstract. In the XML, digests are marked up as a type of abstract \(see [**here**](abstract-digest-impact-statement.md#digest)\). The following article types should never have a digest: Scientific Correspondence, Replication Study, Research Advance, Registered Report, Correction, Retraction, Expression of Concern, Feature Article, Insight, Editorial.
+eLife digests explain the findings of eLife papers to a broader audience. They are managed by the Features team and written by editors and writers working together with authors. Digests should not be edited during any production processes - the wording of these is up to the Features team and any author edits to this section will need to be approved by them. In eLife PDFs, the digest appears as soon as possible after the abstract, on page two - often within the Introduction section. On the eLife website, the digest appears after the abstract. In the XML, digests are marked up as a type of abstract \(see [**here**](abstract-digest-impact-statement.md#digest)\). Not all articles will have a digest - The Features team will send emails every week to indicate which articles are not getting one \(see more [**here**](../../../toolkit/managing-production-queries.md#no-digest-emails)\). The following article types should never have a digest: Scientific Correspondence, Replication Study, Research Advance, Registered Report, Correction, Retraction, Expression of Concern, Feature Article, Insight, Editorial.
 
 ![Position of the digest in the PDF](../../../.gitbook/assets/screenshot-2021-05-17-at-10.13.23%20%281%29.png)
 
@@ -39,7 +39,7 @@ eLife digests explain the findings of eLife papers to a broader audience. They a
 
 ### What is an impact statement?
 
-An impact statement is a succinct summary of an article, intended for display on the contents views of the eLife website:
+An impact statement is a succinct summary of an article, intended for display on the eLife website and in the [**eTOC**](https://elifesciences.gitbook.io/productionhowto/-M1eY9ikxECYR-0OcnGt/toolkit/etoc):
 
 ![](../../../.gitbook/assets/screen-shot-2020-03-11-at-16.08.19.png)
 
@@ -74,7 +74,7 @@ If the statement is longer than 40 words, it should be shortened if this is poss
 
 * Please rephrase this impact statement so that it is no more than 40 words in length.
 
-In extreme cases, where it is not possible to create an acceptable impact statement from the text provided \(e.g. they have provided multiple sentences and  it is unclear how they should be combined\), the following query may be used to ask the authors to start again:
+In extreme cases, where it is not possible to create an acceptable impact statement from the text provided \(e.g. they have provided multiple sentences and it is unclear how they should be combined\), the following query may be used to ask the authors to start again:
 
 * The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement, no longer than 40 words, that clearly explains the main results of your study.
 
@@ -211,6 +211,26 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 * Please provide an abstract for your article \(no more than 280 words\). 
 
+#### abstract-child-test-1
+
+**Error**: _XXXXXX is not allowed as a child of abstract._
+
+**Action**: This error will appear if an abstract has any elements other than `<p>` , `<sec>` or `<title>`. For example: 
+
+```markup
+<abstract>
+   <object-id pub-id-type="doi">10.7554/eLife.12572.001</object-id>
+   <sec id="abs1">
+     <title>Background:</title>
+     <p>Background text.</p>
+   </sec>
+   ...
+   <fig/>
+</abstract>
+```
+
+Check where these additional elements may have come from by comparing against the original submission. The production vendors will need to correct the XML accordingly - if the additional elements should be somewhere else in the article, they will need to be moved, if they have been included in error and shouldn't be there at all they should be removed. 
+
 #### abstract-test-4
 
 **Error**: _abstracts cannot contain display formulas._
@@ -227,25 +247,25 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 **Warning**: _Abstract starts with the word 'Abstract', which is almost certainly incorrect - XXXXXX_
 
-**Action**: If an abstract begins with the text 'abstract', this text should be deleted. 
+**Action**: If an abstract begins with the text 'abstract', and this is not part of the first sentence \(e.g. 'Abstract thinking is an interesting aspect of human intelligence'\) this text should be deleted. 
 
 #### abstract-test-7
 
 **Warning**: _Abstract looks like it should instead be captured as a structured abstract \(using sections\) - XXXXXX_
 
-**Action**: This warning will appear if any of the structured abstract headings \(Background, Methods, Results, Conclusions, Funding and Clinical trial number if the article is a clinical trial\) are present in an abstract, but the abstract is not formatted correctly \(i.e. using  `<sec>` and `<title>` tags\). If these headings are present they should be formatted as [**here**](abstract-digest-impact-statement.md#structured-abstract).
+**Action**: This warning will appear if any of the structured abstract headings \(Background, Methods, Results, Conclusions, Funding and Clinical trial number if the article is a clinical trial\) are present in an abstract, but the abstract is not formatted correctly \(i.e. using `<sec>` and `<title>` tags\). If these headings are present they should be formatted as [**here**](abstract-digest-impact-statement.md#structured-abstract).
 
 #### pre-abstract-word-count-restriction
 
 **Warning**: _The abstract contains XXXXXX words, when the usual upper limit is 280. Exeter: Please check with the eLife production team who will need to contact the eLife Editorial team._
 
-**Action**: This warning will fire at pre-author stages if an abstract has more than 280 words. The production team will need to check with the editorial team about whether the authors need to be asked to edit the abstract to 280 words or fewer.
+**Action**: This warning will fire at pre-author stages if an abstract has more than 280 words. The Production team will need to check with the Editorial team about whether the authors need to be asked to edit the abstract to 280 words or fewer. This message will not appear for structured abstracts.
 
 #### final-abstract-word-count-restriction
 
 **Warning**: _The abstract contains XXXXXX words, when the usual upper limit is 280. Abstracts with more than 280 words should be checked with the eLife Editorial team._
 
-**Action**: This warning will fire at post-author stages if an abstract has more than 280 words. The production team will need to check with the editorial team about whether the authors need to be asked to edit the abstract to 280 words or fewer.
+**Action**: This warning will fire at post-author stages if an abstract has more than 280 words. If it hasn't been done already, the Production team will need to check with the Editorial team about whether the authors need to be asked to edit the abstract to 280 words or fewer. If Editorial have already approved the extended length, or if the authors have already been queried and are unable to reduce the word count, the message can be ignored. This message will not appear for structured abstracts.
 
 #### medicine-abstract-conformance
 
@@ -253,41 +273,47 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 **Action**: If an article is classed under the major subject areas 'Medicine' or 'Epidemiology and Global Health' and has a colon in the article title \(e.g. 'Association of Toll-like receptor 7 variants with life-threatening COVID-19 disease in males: findings from a nested case-control study'\), it should have a structured abstract. Check the original submission to see whether a structured abstract is present - if so, it should be tagged accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract) \(see more [**here**](abstract-digest-impact-statement.md#structured-abstracts)\). If not, the Editorial team will need to be consulted. 
 
+#### medicine-abstract-conformance-2
+
+**Error**: _XXXXXX articles submitted after 4th April 2021 should have a structured abstract, but this one does not. eLife please check this with Editorial. Exeter: Please flag this to the eLife Production team._
+
+**Action**: All articles submitted after 04/04/2021 and classed under the major subject areas 'Medicine' or 'Epidemiology and Global Health' should have structured abstracts. Check the original submission to see whether a structured abstract is present - if so, it should be tagged accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract) \(see more [**here**](abstract-digest-impact-statement.md#structured-abstracts)\). If not, the Editorial team will need to be consulted. 
+
 #### clintrial-conformance-1
 
 **Error**: _First section title is 'XXXXXX' - but the only allowed value is 'Background:'._
 
-**Action**: This error will appear if the first section in a structured abstract is titled anything other than 'Background:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Background'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the abstract is not a structured abstract, it shouldn't have section titles at all. 
+**Action**: This error will appear if the first section in a structured abstract is titled anything other than 'Background:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Background'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the abstract is not a structured abstract, it shouldn't have section titles at all. Double-check with the Editorial team about whether the article should have a structured abstract.
 
 #### clintrial-conformance-2
 
 **Error**: _Second section title is 'XXXXXX' - but the only allowed value is 'Methods:'._
 
-**Action**: This error will appear if the first section in a structured abstract is titled anything other than 'Methods:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Methods'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the abstract is not a structured abstract, it shouldn't have section titles at all. 
+**Action**: This error will appear if the second section in a structured abstract is titled anything other than 'Methods:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Methods'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the abstract is not a structured abstract, it shouldn't have section titles at all. Double-check with the Editorial team about whether the article should have a structured abstract.
 
 #### clintrial-conformance-3
 
 **Error**: _Third section title is 'XXXXXX' - but the only allowed value is 'Results:'._
 
-**Action**: This error will appear if the first section in a structured abstract is titled anything other than 'Results:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Result'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the abstract is not a structured abstract, it shouldn't have section titles at all. 
+**Action**: This error will appear if the third section in a structured abstract is titled anything other than 'Results:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Result'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the abstract is not a structured abstract, it shouldn't have section titles at all. Double-check with the Editorial team about whether the article should have a structured abstract.
 
 #### clintrial-conformance-4
 
 **Error**: _Fourth section title is 'XXXXXX' - but the only allowed value is 'Conclusions:'._
 
-**Action**: This error will appear if the first section in a structured abstract is titled anything other than 'Conclusions:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Conclusions'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the abstract is not a structured abstract, it shouldn't have section titles at all. 
+**Action**: This error will appear if the fourth section in a structured abstract is titled anything other than 'Conclusions:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Conclusions'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the abstract is not a structured abstract, it shouldn't have section titles at all. Double-check with the Editorial team about whether the article should have a structured abstract.
 
 #### clintrial-conformance-5
 
 **Error**: _Sixth section title is 'XXXXXX' - but the only allowed value is 'Clinical trial number:'._
 
-**Action**: This error will appear if the first section in a structured abstract is titled anything other than 'Clinical trial number:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Clinical trial number'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the article does not have a clinical trial number, there should only be 5 sections in the structured abstract. If the abstract is not a structured abstract, it shouldn't have section titles at all. 
+**Action**: This error will appear if the sixth section in a structured abstract is titled anything other than 'Clinical trial number:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Clinical trial number'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the article does not have a clinical trial number, there should only be 5 sections in the structured abstract. If the abstract is not a structured abstract, it shouldn't have section titles at all. Double-check with the Editorial team about whether the article should have a structured abstract.
 
 #### clintrial-conformance-6
 
 **Error**: _Fifth section title is 'XXXXXX' - but the only allowed value is 'Funding:'._
 
-**Action**: This error will appear if the first section in a structured abstract is titled anything other than 'Funding:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Funding'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the abstract is not a structured abstract, it shouldn't have section titles at all. 
+**Action**: This error will appear if the fifth section in a structured abstract is titled anything other than 'Funding:'. Double-check that the original submission has a structured one and that there is indeed a section titled 'Funding'. If so, the production vendors will need to correct the section title accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract). If the abstract is not a structured abstract, it shouldn't have section titles at all. Double-check with the Editorial team about whether the article should have a structured abstract.
 
 #### clintrial-related-object-13
 
@@ -343,25 +369,25 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 **Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract reads "XXXXXX", whereas the impact statement reads "XXXXXX"._
 
-**Action**_:_ The majority of Insight articles will have abstracts that match the impact statement. If this warning appears, check there are no typos in either the abstract or impact statement. If there are major differences between the two, check with the Production team who will clarify this with the Features team.
+**Action**_:_ Except in very rare cases, Insight articles will have abstracts that match the impact statement. If this warning appears, check there are no typos in either the abstract or impact statement. If there are major differences between the two, check with the Production team who will clarify this with the Features team.
 
 #### insight-abstract-impact-test-2
 
 **Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract has XXXXXX child element\(s\), whereas the impact statement has XXXXXX child element\(s\). Check for possible missing formatting._
 
-**Action**: The majority of Insight articles will have abstracts that match the impact statement. This warning will appear if there is a mismatch and a formatting element in the abstract \(such as italicisation\). This can be resolved by adding the missing formatting element in the impact statement as well. If there are major differences between the two, check with the Production team who will clarify this with the Features team.
+**Action**: Except in very rare cases, Insight articles will have abstracts that match the impact statement. This warning will appear if there is a mismatch and a formatting element in the abstract \(such as italicisation\). This can be resolved by adding the missing formatting element in the impact statement as well. If there are major differences between the two, check with the Production team who will clarify this with the Features team.
 
 #### test-no-digest
 
 **Error**: _'XXXXXX' cannot have a digest._
 
-**Action**: This error will appear if any of these article types have a digest: Scientific Correspondence, Replication Study, Research Advance, Registered Report, Correction, Retraction, Expression of Concern, Feature Article, Insight, Editorial. Double-check the article type is definitely correct - if it is, the digest section will need to be removed from the XML by the production vendors. If the article type is incorrect, this will need to be corrected by the production vendors.
+**Action**: This error will appear if any of these article types have a digest: Scientific Correspondence, Replication Study, Research Advance, Registered Report, Correction, Retraction, Expression of Concern, Feature Article, Insight, Editorial. Double-check the article type is definitely correct - if it is, the digest section will need to be removed from the XML by the production vendors. If the article type is incorrect, this will need to be corrected by the production vendors. The production team should investigate which article the digest was intended for, in case it wasn't sent to the correct one. The Features team can be consulted on this.
 
 #### digest-test-1
 
-**Warning**: _digest paragraph starts with a lowercase letter. Is that correct? Or has a paragraph been incorrect split into two?_
+**Warning**: _digest paragraph starts with a lowercase letter. Is that correct? Or has a paragraph been incorrectly split into two?_
 
-**Action**: This warning will appear if a paragraph in a digest section begins with a lowercase letter. Double-check whether this is due to a paragraph incorrectly being split into two, or due to a typo and correct accordingly. If the word should be lowercase because it is a gene name, for example, this can be left as is. If you are unsure, check with the Production team who will check with Features if needed.
+**Action**: This warning will appear if a paragraph in a digest section begins with a lowercase letter. Double-check whether this is due to a paragraph incorrectly being split into two, or due to a typo, and correct accordingly. If the word should be lowercase because it is a gene name, for example, this can be left as is. If you are unsure, check with the Production team who will check with Features if needed.
 
 #### final-digest-test-2
 
@@ -455,18 +481,6 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 **Action**: `<XXX>` will be a disallowed XML element\(s\) currently present in the impact statement. The only XML elements allowed within the impact statement are `<italic>`, `<sup>` or `<sub>`. To address this warning, remove any formatting that is not italic, superscript or subscript, and remove any hyperlinks. For example, if the warning reads "&lt;bold&gt; is not allowed in impact statement", bold formatting is present and should be removed; similarly, "&lt;ext-link&gt; is not allowed in impact statement" indicates a hyperlink.
 
-#### insight-abstract-impact-test-1
-
-**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract reads "XXXXXX", whereas the impact statement reads "XXXXXX"._
-
-**Action**: As this warning states, the impact statements in an Insight article should match exactly to the abstract. The eLife Features team will need to be alerted when this is not the case so that they can make a decision about which text is correct.
-
-#### insight-abstract-impact-test-2
-
-**Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract has XXXXXX child element\(s\), whereas the impact statement has XXXXXX child element\(s\). Check for possible missing formatting._
-
-**Action**: The impact statements in an Insight article should match exactly to the abstract. This warning will fire if there are different numbers of child elements in the abstract and impact statement, indicating that there may be different formatting in the two places. Update the text so that the formatting is consistent - species names should be placed in italics, bold formatting should be removed. The eLife Features team should be queried if it is unclear which style is correct.
-
 ### XML structure checks
 
 These checks relate to the XML structure of impact statements. X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, [**see below**](abstract-digest-impact-statement.md#xml-structure).
@@ -514,7 +528,7 @@ This is incorrect and the ID should be changed accordingly by the production ven
 
 **Error**: _XXXXXX in abstract must be placed in a section whose title is 'Clinical trial number:'_
 
-**Action**: This error will appear if a structured abstract has a `<related-object>` element \(which contains a link to the clinicaltrials.gov record for a clinical trial\) in a section other than 'Clinical trial number':
+**Action**: This error will appear if a structured abstract has a `<related-object>` element \(which contains a link to the record for a clinical trial\) in a section other than 'Clinical trial number':
 
 ```markup
 <sec id="abs4">
@@ -640,16 +654,17 @@ This should be corrected by the production vendors, for example:
 
 #### clintrial-related-object-5
 
-**Error**: _XXXXXX must have an @source-type='clinical-trials-registry'._
+**Error**: _XXXXXX must have an @document-id-type='clinical-trial-number'._
 
-**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have a `source-type` with the value 'clinical-trials-registry' for example: 
+**Action**: This error will appear for a structured abstract if the `<document-id-type>` element doesn't have the value `clinical-trial-number` \(or if this is missing\) for example: 
 
 ```markup
 <sec id="abs6">
       <title>Clinical trial number:</title>
       <p><related-object document-id="NCT04549831" 
-      document-id-type="clinical-trial-number" id="RO1" 
-      source-id="ClinicalTrials.gov" source-id-type="registry-name"  
+      id="RO1" 
+      source-id="ClinicalTrials.gov" source-id-type="registry-name" 
+      source-type="clinical-trials-registry" 
       xlink:href="https://clinicaltrials.gov/show/NCT04549831">NCT04549831
       </related-object>.</p>
 </sec>
@@ -705,7 +720,7 @@ This should be corrected by the production vendors, for example:
 
 **Error**: _XXXXXX must have an @xlink:href._
 
-**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have an `xlink:href` with the clinical trial number for example: 
+**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have an `xlink:href` with a link to the clinical trial information at its registry, for example: 
 
 ```markup
 <sec id="abs6">
@@ -807,7 +822,7 @@ This should be corrected by the production vendors, for example:
 
 **Error**: _XXXXXX @source-id value must be one of the subtitles of the Crossref clinical trial registries. "XXXXXX" is not one of the following XXXXXX_
 
-**Action**: This error will appear for a structured abstract if the `source-id` does not match any of the [**Crossref clinical trial registries**](https://github.com/elifesciences/eLife-JATS-schematron/blob/master/src/clinical-trial-registries.xml). Check and correct any typos - if the value in the `source-id` element is completely different from any of the registries on the list, the Production team will need to investigate further. 
+**Action**: This error will appear for a structured abstract if the `source-id` does not match any of the [**clinical trial registries permitted by eLife**](https://github.com/elifesciences/eLife-JATS-schematron/blob/master/src/clinical-trial-registries.xml). Check and correct any typos - if the value in the `source-id` element is completely different from any of the registries on the list, the Production team will need to investigate further. 
 
 #### clintrial-related-object-12
 
