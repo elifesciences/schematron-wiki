@@ -4,6 +4,10 @@ description: This is a page about entries for software in the reference list.
 
 # Software references
 
+{% hint style="info" %}
+For changelog, click [here](software-references.md#changelog). Updated 28/06/2021
+{% endhint %}
+
 ## What is a software reference?
 
 A software reference gives bibliographic details for a piece of software or computer code. These are hosted on various websites, and are captured in eLife articles as software references. Any code that has been specifically written as part of the work reported in an eLife paper should be archived at Software Heritage \(see more about how to do this [**here**](../../../toolkit/archiving-code.md)\).
@@ -651,7 +655,7 @@ Zenodo
 
 * Updated guidance on what to use as version number for GitHub references.
 
-### /04/2021
+### 20[22/07/2020](https://app.gitbook.com/@elifesciences/s/schematron/~/drafts/-MdGYbWH8VFLbTJ1_qTB/article-details/content/references/software-references#22-07-2020)/04/2021
 
 #### Changes
 
