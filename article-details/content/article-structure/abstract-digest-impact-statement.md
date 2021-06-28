@@ -2,7 +2,7 @@
 
 ## Abstracts
 
-In scientific articles, an abstract provides a clear and concise summary of the work. Abstracts allow readers to have a quick overview before reading the whole article. For eLife articles, abstracts are usually 150-200 words \(except medical submissions which can be around 250 words\).
+An abstract provides a clear and concise summary of the work described in an article. Abstracts allow readers to have a quick overview before reading the whole article. For eLife articles, abstracts are usually 150-200 words \(except medical submissions which can be around 250 words\).
 
 {% hint style="info" %}
 If the biological system \(species names or broader taxonomic groups if appropriate\) is not mentioned in the title, it must be included in the abstract.
