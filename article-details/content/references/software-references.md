@@ -5,7 +5,7 @@ description: This is a page about entries for software in the reference list.
 # Software references
 
 {% hint style="info" %}
-For changelog, click [here](software-references.md#changelog). Updated 28/06/2021
+For changelog, click [**here**](software-references.md#changelog). Updated 28/06/2021
 {% endhint %}
 
 ## What is a software reference?
