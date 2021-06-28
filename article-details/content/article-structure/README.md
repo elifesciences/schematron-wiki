@@ -5,7 +5,7 @@ description: The article structure for different article types.
 # Article structure
 
 {% hint style="info" %}
-For the changelog, click [**here**](./#changelog).
+For the changelog, click [**here**](./#changelog). Updated 28/06/2021
 {% endhint %}
 
 ## What is article structure?
