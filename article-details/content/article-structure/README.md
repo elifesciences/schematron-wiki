@@ -79,8 +79,9 @@ In other cases, if an article is more methodological rather than experimental, '
   * **Introduction**
   * **Methods**
   * **Results**
+  * **Discussion**
 
-    **Discussion**
+This is the standard structure for all articles with 'Medicine' or 'Epidemiology and Global Health' subject areas.
 
 Finally, for modelling articles, the following structure is allowed. This will be more commonly used in tools and resources articles.
 
@@ -180,6 +181,10 @@ On rare occasions, a review article may contain numbering at all levels. This wi
 The correct style for a numbered heading in an eLife articles is '1.1 Cube density and coverage', '1.2 Percolation threshold of cube mazes' etc.
 
 ![Example of numbered sub-sections in an appendix](../../../.gitbook/assets/screen-shot-2020-08-11-at-16.02.57.png)
+
+### List of abbreviations
+
+eLife articles do not have 'List of abbreviations' sections - if the authors have provided these, the abbreviations should be expanded the first time they are used in the main text and display elements \(e.g. figures, tables\). The section should then be deleted.  
 
 ## Schematron checks
 
@@ -414,5 +419,18 @@ Correct the title to match the `@sec-type` value.
 
 ## Changelog
 
-* Updated 16/06/2021 to add two missing schematron rules.
+### 16/06/2021
+
+#### Changes
+
+* Updated to add two missing schematron rules.
+
+### 28/06/2021
+
+#### Changes
+
+* Added information about medicine article structure in [**research article**](./#research-article) section.
+* Added [**List of abbreviations**](./#list-of-abbreviations) section
+
+
 
