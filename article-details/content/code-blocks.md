@@ -60,6 +60,8 @@ A related issue is that each set of code should be presented in a single code bl
 
 While it is not absolutely the case that multiple stacked code blocks always need to be combined, it is extremely unusual for this not to be required. Unless the authors' original article file makes it clear that two pieces of code are entirely separate \(e.g. through the use of boxes or some other obvious delimiter\), stacked code blocks should be combined into one with the line breaks between them preserved inside.
 
+Ideally, any issues with this should be sorted during the initial processing of the article. If multiple blocks need to be combined at later stages, the content processors will need to be asked to make the changes.
+
 ## Schematron checks
 
 ### Content checks
