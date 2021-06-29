@@ -42,7 +42,7 @@ Monospace styling can be added by selecting the required text and picking the fo
 
 ### Code block layout
 
-Generally speaking, the main thing to ensure with code blocks is that they have been captured - as far as possible - as the authors originally intended. Consider the following example:
+Generally speaking, the main thing to ensure with code blocks is that they have been captured - as far as possible - as the authors originally intended. While we cannot replicate formatting such as bold or colour text, the line-by-line layout of the code must be retained. Consider the following example:
 
 ![Code block in submitted article file for 61909](../../.gitbook/assets/screen-shot-2021-06-08-at-15.41.35.png)
 
