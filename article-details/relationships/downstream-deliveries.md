@@ -498,7 +498,7 @@ This will result in the package failing. Contact Jenny at PMC \(see below for de
 
 \(In the above `...` will be the specific DTD message\). 
 
-The typesetters will need to fix this. You can verify that the XML was invalid by finding it on the following places:
+The typesetters will need to fix this. You can verify that the XML was invalid by finding it in the following places:
 
  `s3://elife-production-final/`
 
