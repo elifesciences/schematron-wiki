@@ -476,7 +476,9 @@ There are no specific contacts for PubMed. The data management system can be use
 
 \*\*\*\*[**PubMed Central**](https://www.ncbi.nlm.nih.gov/pmc/) is a digital repository that containing biomedical and life sciences journal literature. 
 
-Journal articles are supplied to PubMed in JATS XML format. A zip for every eLife article VoR is delivered to them via FTP. There are many different version of JATS \(and other XML\) they accept, eLife currently uses Archiving and Interchange version 1.1 \(this is subject to change in the future\). The zip contains JATS XML, and any accompanying assets. File submission specifications for PMC can be found [**here**](https://www.ncbi.nlm.nih.gov/pmc/pub/filespec/).
+PubMed Central is not to be confused with PubMed, which is a separate digital repository \(more on that above\).
+
+Journal articles are supplied to PMC in JATS XML format. A zip for every eLife article VoR is delivered to them via FTP. There are many different version of JATS \(and other XML\) they accept, eLife currently uses Archiving and Interchange version 1.1 \(this is subject to change in the future\). The zip contains JATS XML, and any accompanying assets. File submission specifications for PMC can be found [**here**](https://www.ncbi.nlm.nih.gov/pmc/pub/filespec/).
 
 PMC send a daily summary email to production@elifesciences.org, which details the articles they have received that day, and their status. If any articles have failed, then a subsequent email will be sent with more information on which article and why. Further information can be found on [**PMC's Deposit Tracking System**](https://www.ncbi.nlm.nih.gov/pmc/dts/publishers/17/) \(DTS\) \(contact members of the Production team to get credentials\).
 
