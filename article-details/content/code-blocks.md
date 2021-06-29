@@ -12,7 +12,7 @@ Authors will sometimes include snippets of code in their articles. This is usual
 
 ![Example of a code-block in the PDF ](../../.gitbook/assets/screen-shot-2021-06-08-at-14.22.25.png)
 
-Within a code block, all text is rendered in a monospace font and the spacing and line-breaks are preserved. Since the publishing platform \(Continuum\) will display any XML tags inside code blocks, is not possible to place hyperlinks, formatting or coloured text within them. Please note that some authors do provide colour-coding within their code, so it may need to be explained to them that this cannot be preserved.
+Within a code block, all text is rendered in a monospace font and the spacing and line-breaks are preserved. Since the publishing platform \(Continuum\) will display any XML tags inside code blocks, it is not possible to place hyperlinks, formatting or coloured text within them. Please note that some authors do provide colour-coding within their code, so it may need to be explained to them that this cannot be preserved.
 
 ![Example of Continuum displaying XML tags within a code block, rather than applying bold formatting](../../.gitbook/assets/screen-shot-2021-06-23-at-10.24.35.png)
 
@@ -78,13 +78,13 @@ If the XML tagging needs to be preserved - for example, if it _is_ the content t
 
 **Warning**: _code element \(containing the content XXXXXX\) is directly preceded by another code element \(containing the content XXXXXX\). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks \(uncommon, but possible\), then this markup is fine._
 
-**Action**: This warning indicates that two or more code blocks have been placed one after the other with no text between them. As mentioned above, this is most likely a mistake as one continuous section of code should be tagged as a single code block. Unless it is certain from the authors' original article file that multiple code blocks are required \(e.g. they use multiple text boxes or provide a delimiter between two sections of code\), the content processor will need to tag this section of code in one code block.
+**Action**: This warning indicates that two or more code blocks have been placed one after the other with no text between them. As mentioned [**above**](code-blocks.md#multiple-stacked-code-blocks), this is most likely a mistake as one continuous section of code should be tagged as a single code block. Unless it is certain from the authors' original article file that multiple code blocks are required \(e.g. they use multiple text boxes or provide a delimiter between two sections of code\), the content processor will need to tag this section of code in one code block.
 
 #### code-sibling-test-2
 
 **Warning**: _code element \(containing the content XXXXXX\) is directly preceded by another code element \(containing the content XXXXXX\). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks \(uncommon, but possible\), then this markup is fine._
 
-**Action**: This warning indicates that two or more code blocks have been placed one after the other with no text between them. As mentioned above, this is most likely a mistake as one continuous section of code should be tagged as a single code block. Unless it is certain from the authors' original article file that multiple code blocks are required \(e.g. they use multiple text boxes or provide a delimiter between two sections of code\), the content processor will need to tag this section of code in one code block.
+**Action**: This warning indicates that two or more code blocks have been placed one after the other with no text between them. As mentioned [**above**](code-blocks.md#multiple-stacked-code-blocks), this is most likely a mistake as one continuous section of code should be tagged as a single code block. Unless it is certain from the authors' original article file that multiple code blocks are required \(e.g. they use multiple text boxes or provide a delimiter between two sections of code\), the content processor will need to tag this section of code in one code block.
 
 #### code-test
 
