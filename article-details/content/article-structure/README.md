@@ -304,6 +304,30 @@ In cases where the authors have included a top-level heading that is similar to 
 
 **Action**: This error indicates that a heading containing the word 'Conclusion' has been tagged as Level 1. This heading should be changed to a Level 2 heading, usually in the Discussion section. Pleaase note this rule does not apply to all article types.
 
+#### medicine-introduction
+
+**Error**: The first top level section in a Medicine article should be 'Introduction'. This one is 'XXXXXX'.
+
+**Action**: This error indicates that the first section title in the body of an article with the MSA Medicine and/or Epidemiology and Global Health has a title which is not Introduction. If the title is misspelt or contains a typo \(e.g. Intoduction\), then it can simply be corrected. If the first section title is Methods, but there are paragraphs of text before it which are introductory, then the section title is simply missing and can be added in. If neither of these are the case, Exeter should inform Production, who will contact the Editorial team to check whether the unorthodox structure is permitted. 
+
+#### medicine-methods
+
+**Error**: The second top level section in a Medicine article should be 'Methods' or 'Materials and methods'. This one is 'XXXXXX'.
+
+**Action**: This error indicates that the second section title in the body of an article with the MSA Medicine and/or Epidemiology and Global Health has a title which is not Methods or Materials and Methods. If the title is misspelt or contains a typo \(e.g. Method\), then it can simply be corrected. If the section title is simply missing then it can be added in. If neither of these are the case, Exeter should inform Production, who will contact the Editorial team to check whether the unorthodox structure is permitted. 
+
+#### medicine-results
+
+**Error**: The third top level section in a Medicine article should be 'Results'. This one is 'XXXXXX'.
+
+**Action**: This error indicates that the third section title in the body of an article with the MSA Medicine and/or Epidemiology and Global Health has a title which is not Results. If the title is misspelt or contains a typo \(e.g. Result\), then it can simply be corrected. If the section title is simply missing then it can be added in. If neither of these are the case, Exeter should inform Production, who will contact the Editorial team to check whether the unorthodox structure is permitted. 
+
+#### medicine-discussion
+
+**Error**: The fourth top level section in a Medicine article should be 'Discussion'. This one is 'XXXXXX'.
+
+**Action**: This error indicates that the fourth section title in the body of an article with the MSA Medicine and/or Epidemiology and Global Health has a title which is not Discussion. If the title is misspelt or contains a typo \(e.g. Discussio\), then it can simply be corrected. If the section title is simply missing then it can be added in. If neither of these are the case, Exeter should inform Production, who will contact the Editorial team to check whether the unorthodox structure is permitted. 
+
 ### XML checks
 
 #### ra-sec-test-1
