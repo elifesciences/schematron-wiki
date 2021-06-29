@@ -58,6 +58,7 @@
 * [BaseX](toolkit/basex.md)
 * [eLife Glossary](toolkit/elife-glossary.md)
 * [eLife website and communication house style](toolkit/elife-website-and-communication-house-style.md)
+* [Email templates](toolkit/email-templates.md)
 * [ERA](toolkit/era.md)
 * [eTOC](toolkit/etoc.md)
 * [Fixing Crossref/Dryad failures](toolkit/fixing-crossref-dryad-failures.md)
