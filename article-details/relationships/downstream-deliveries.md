@@ -253,7 +253,7 @@ The workflows for downstream deliveries are managed by Fred and Graham via the e
 
 ### Cengage
 
-Cengage is a proprietary content aggregator. For subscribed users, they provide access to digital content.
+\*\*\*\*[**Cengage**](https://www.cengage.co.uk/) is a proprietary content aggregator. For subscribed users, they provide access to digital content.
 
 They are sent the first VoR version of every eLife article. They are sent just the XML and PDF. 
 
@@ -269,7 +269,7 @@ Technical questions - Brian Newman \(Brian.Newman@cengage.com\)
 
 ### CLOCKSS
 
-CLOCKSS is a dark archive that ensures the long-term preservation of digital scholarly content. This means if eLife stops for any reason, all our published content will become available to any user with internet access via CLOCKSS. 
+\*\*\*\*[**CLOCKSS**](https://clockss.org/) is a dark archive that ensures the long-term preservation of digital scholarly content. This means if eLife stops for any reason, all our published content will become available to any user with internet access via CLOCKSS. 
 
 When deliveries are sent, the Bot also emails the list to: delivery-elife@clockss.org 
 
@@ -289,7 +289,7 @@ Fang Zhang, Co-operation Project Manager \(FangZhang\_@outlook.com\)
 
 ### CNPIEC
 
-China National Publications Import and Export \(Group\) Corporation CNPIEC is a large state owned literature database. 
+China National Publications Import and Export \(Group\) Corporation \(CNPIEC\) is a large state owned literature database. 
 
 #### Contact
 
