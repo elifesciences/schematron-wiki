@@ -2,7 +2,7 @@
 
 ## Abstracts
 
-An abstract provides a clear and concise summary of the work described in an article. Abstracts allow readers to have a quick overview before reading the whole article. For eLife articles, abstracts are usually 150-200 words \(except medical submissions which can be around 250 words\).
+An abstract provides a clear and concise summary of the work described in an article. Abstracts allow readers to have a quick overview before reading the whole article. For eLife articles, abstracts are usually 150-200 words \(except medical submissions which can be around 250 words\). If a non-medical abstract is over the word limit, this should be checked with Editorial \(see more [**here**](https://elifesciences.gitbook.io/productionhowto/-M1eY9ikxECYR-0OcnGt/article-details/content/article-structure/abstract-digest-impact-statement#pre-abstract-word-count-restriction) and [**here**](https://elifesciences.gitbook.io/productionhowto/-M1eY9ikxECYR-0OcnGt/article-details/content/article-structure/abstract-digest-impact-statement#final-abstract-word-count-restriction)\). 
 
 {% hint style="info" %}
 If the biological system \(species names or broader taxonomic groups if appropriate\) is not mentioned in the title, it must be included in the abstract.
@@ -29,7 +29,7 @@ Subheadings are not allowed in abstracts, except for medical submissions. All ar
 
 ## Digests
 
-eLife digests explain the findings of eLife papers to a broader audience. They are managed by the Features team and written by editors and writers working together with authors. Digests should not be edited during any production processes - the wording of these is up to the Features team and any author edits to this section will need to be approved by them. In eLife PDFs, the digest appears as soon as possible after the abstract, on page two - often within the Introduction section. On the eLife website, the digest appears after the abstract. In the XML, digests are marked up as a type of abstract \(see [**here**](abstract-digest-impact-statement.md#digest)\). Not all articles will have a digest - The Features team will send emails every week to indicate which articles are not getting one \(see more [**here**](../../../toolkit/managing-production-queries.md#no-digest-emails)\). The following article types should never have a digest: Scientific Correspondence, Replication Study, Research Advance, Registered Report, Correction, Retraction, Expression of Concern, Feature Article, Insight, Editorial.
+eLife digests explain the findings of eLife papers to a broader audience. They are managed by the Features team and written by editors and writers working together with authors. Digests should not be edited by copyeditors or production staff, and any author edits to this section will need to be approved by the Features team. In eLife PDFs, the digest appears as soon as possible after the abstract, on page two - often within the Introduction section. On the eLife website, the digest appears after the abstract. In the XML, digests are marked up as a type of abstract \(see [**here**](abstract-digest-impact-statement.md#digest)\). Not all articles will have a digest - The Features team will send emails every week to indicate which articles are not getting one \(see more [**here**](../../../toolkit/managing-production-queries.md#no-digest-emails)\). The following article types should never have a digest: Scientific Correspondence, Replication Study, Research Advance, Registered Report, Correction, Retraction, Expression of Concern, Feature Article, Insight, Editorial.
 
 ![Position of the digest in the PDF](../../../.gitbook/assets/screenshot-2021-05-17-at-10.13.23%20%281%29.png)
 
@@ -235,7 +235,9 @@ Check where these additional elements may have come from by comparing against th
 
 **Error**: _abstracts cannot contain display formulas._
 
-**Action**: This needs to be discussed in production meeting - should display formulae be allowed in abstracts? Formulae are allowed in Continuum but converted to placeholder text in pubmed. Needs to be discussed in production meeting.
+**Action**: This will appear if an abstract contains display formulae - although these are allowed in Continuum, they are converted to placeholder text for downstream deliverables. As a result, these should not be included in abstracts - if an article has display formulae in the abstract, please remove them and leave the following author query: 
+
+* eLife does not support display formulae in abstracts so these have been removed. Please edit your abstract if necessary and include the formulae in the main text if required. 
 
 #### abstract-test-5
 
@@ -427,7 +429,7 @@ Check where these additional elements may have come from by comparing against th
 
 **Warning**: _Impact statement contains a colon or semi-colon, which is likely incorrect. It needs to be a proper sentence._
 
-**Action**: If possible, rephrase the impact statement to remove the need for a colon or semi-colon. See [above](abstract-digest-impact-statement.md#semi-colon-removal). If it is not clear how to do this, please query the authors:
+**Action**: If possible, rephrase the impact statement to remove the need for a colon or semi-colon. See [**above**](abstract-digest-impact-statement.md#semi-colon-removal). If it is not clear how to do this, please query the authors:
 
 * The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement that clearly explains the main results of your study.
 
@@ -435,13 +437,13 @@ Check where these additional elements may have come from by comparing against th
 
 **Warning**: _Impact statement contains a possessive phrase. This is not allowed_
 
-**Action**: The impact statement should be rephrased to avoid using 'We show', 'We prove', 'This work shows' or any other similar phrase. See [above](abstract-digest-impact-statement.md#removing-possessive-phrases). This is a warning at the pre-author stages.
+**Action**: The impact statement should be rephrased to avoid using 'We show', 'We prove', 'This work shows' or any other similar phrase. See [**above**](abstract-digest-impact-statement.md#removing-possessive-phrases). This is a warning at the pre-author stages.
 
 #### final-custom-meta-test-9
 
 **Error**: _Impact statement contains a possessive phrase. This is not allowed_
 
-**Action**: The impact statement should be rephrased to avoid using 'We show', 'We prove', 'This work shows' or any other similar phrase. See [above](abstract-digest-impact-statement.md#removing-possessive-phrases). This is an error at the post-author stages.
+**Action**: The impact statement should be rephrased to avoid using 'We show', 'We prove', 'This work shows' or any other similar phrase. See [**above**](abstract-digest-impact-statement.md#removing-possessive-phrases). This is an error at the post-author stages.
 
 #### custom-meta-test-10
 
@@ -455,25 +457,25 @@ Check where these additional elements may have come from by comparing against th
 
 **Warning**: _Impact statement contains 'our'. Is this possessive language relating to the article or research itself \(which should be removed\)?_
 
-**Action**: The impact statement should be rephrased to avoid using 'We show', 'Our work proves', 'This work shows' or any other similar phrase. See [above](abstract-digest-impact-statement.md#removing-possessive-phrases).
+**Action**: The impact statement should be rephrased to avoid using 'We show', 'Our work proves', 'This work shows' or any other similar phrase. See [**above**](abstract-digest-impact-statement.md#removing-possessive-phrases).
 
 #### custom-meta-test-13
 
 **Warning**: _Impact statement contains 'study'. Is this a third person description of this article? If so, it should be changed to not include this._
 
-**Action**: Check to see if the statement contains a phrase such as 'This study shows' or ' In this study'. If it does, the statement must be rephrased. See [above](abstract-digest-impact-statement.md#this-study-removal).
+**Action**: Check to see if the statement contains a phrase such as 'This study shows' or ' In this study'. If it does, the statement must be rephrased. See [**above**](abstract-digest-impact-statement.md#this-study-removal).
 
 #### pre-rep-study-custom-meta-test
 
 **Warning**: _Impact statement in Replication studies must begin with 'Editors' summary: '. This does not - 'XXXXXX'._
 
-**Action**: XXXXXX will be the current impact statement. In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [**above**](abstract-digest-impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, please alert the Production team so that they can get the correct text from the Editorial team. The article should not go to the authors until this is resolved, but can be moved to waiting for assets. This is a warning at the pre-author stages. 
+**Action**: XXXXXX will be the current impact statement. In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [**above**](abstract-digest-impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, please alert the Production team so that they can get the correct text from the Editorial team. The production vendors should hold the article until the correct impact statement is added in.
 
 #### final-rep-study-custom-meta-test
 
 **Error**: _Impact statement in Replication studies must begin with 'Editors' summary: '. This does not - 'XXXXXX'_
 
-**Action**: XXXXXX will be the current impact statement. In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [above](abstract-digest-impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, the Production team will need to check with the Editorial team to get the correct text for the impact statement. This is an error at the pre-author stages.
+**Action**: XXXXXX will be the current impact statement. In replication studies, impact statements act as a summary of the editor’s assessment of how successful the work was in replicating the previous work. The text must begin 'Editors' summary: ' \(see [**above**](abstract-digest-impact-statement.md#impact-statements-in-replication-studies)\). If this has been misspelled, please correct it. If this prefix is not present, the Production team will need to check with the Editorial team to get the correct text for the impact statement.
 
 #### custom-meta-child-test-1
 
