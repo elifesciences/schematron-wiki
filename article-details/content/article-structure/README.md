@@ -182,7 +182,7 @@ The correct style for a numbered heading in an eLife articles is '1.1 Cube densi
 
 ![Example of numbered sub-sections in an appendix](../../../.gitbook/assets/screen-shot-2020-08-11-at-16.02.57.png)
 
-### List of abbreviations
+## List of abbreviations
 
 eLife articles do not have 'List of abbreviations' sections - if the authors have provided these, the abbreviations should be expanded the first time they are used in the main text and display elements \(e.g. figures, tables\). The section should then be deleted.  
 
