@@ -405,11 +405,19 @@ Correct the title to match the `@sec-type` value.
 
 **Action**: Each section should have a title. Check whether the text for the title has been captured as part of the first paragraph of this section and, if so, style it as a section heading. If the content looks correct, this error is likely an issue in the XML and the Exeter support team should be contacted in order to fix the issue.
 
-#### sec-test-2
+#### pre-sec-test-2
+
+**Warning**: _sec appears to contain no content. This cannot be correct. If the heading is correct and the content is missing, please ensure to query the authors asking for them to update accordingly._
+
+**Action**: This will fire at pre-author stages. Each section should contain a title and either one or more paragraphs, or one or more sub-sections. This error possibly indicates that the content of a section was deleted or moved but the section was retained. In this case, the empty section should be removed. The Exeter support team may need to resolve this if it cannot be corrected through the proofing interface. If the section title is known and the authors need to add content to it, please add the following author query:
+
+* Please add the missing content for this section.
+
+#### final-sec-test-2
 
 **Error**: _sec appears to contain no content. This cannot be correct._
 
-**Action**: Each section should contain a title and either one or more paragraphs, or one or more sub-sections. This error possibly indicates that the content of a section was deleted or moved but the section was retained. In this case, the empty section should be removed. The Exeter support team may need to resolve this if it cannot be corrected through the proofing interface.
+**Action**: This will fire at post-author stages. Each section should contain a title and either one or more paragraphs, or one or more sub-sections. This error possibly indicates that the content of a section was deleted or moved but the section was retained. In this case, the empty section should be removed. The Exeter support team may need to resolve this if it cannot be corrected through the proofing interface.
 
 ## XML structure
 
@@ -456,5 +464,9 @@ Correct the title to match the `@sec-type` value.
 * Added information about medicine article structure in [**research article**](./#research-article) section.
 * Added [**List of abbreviations**](./#list-of-abbreviations) section
 
+### 29/06/2021
 
+#### Changes
+
+* Added medicine structure Schematron checks, and replaced sec-test-2 with its pre- and final- versions.
 
