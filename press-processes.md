@@ -8,7 +8,7 @@ description: >-
 
 ## What is press content? 
 
-In the event that a paper has potentially broad public significance, authors may consider a press release. To coordinate this, they may discuss this with their institutional press officer and then get in touch with eLife directly, or they may be contacted by eLife's Press Officer, Emily Packer. Both PoA and VoR articles can be associated with a press release, which will be written prior to publication, either in-house at eLife, by a freelance writer or by the author's institution. Press articles at eLife are always scheduled for Tuesday publication and this content must be prioritised by both the content processors and the Production team. The Production team has a weekly meeting with Emily to schedule and to track the progress of upcoming press articles. 
+In the event that a paper has potentially broad public significance, authors may consider a press release. To coordinate this, they may discuss this with their institutional press officer and then get in touch with eLife directly, or they may be contacted by eLife's Press Officer, Emily Packer. Both PoA and VoR articles can be associated with a press release, which will be written prior to publication, either in-house at eLife, by a freelance writer or by the author's press department. Press articles at eLife are always scheduled for Tuesday publication and this content must be prioritised by both the content processors and the Production team. The Production team has a weekly meeting with Emily to schedule and to track the progress of upcoming press articles. 
 
 ## Press meetings 
 
