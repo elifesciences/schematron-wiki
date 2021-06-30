@@ -1,7 +1,7 @@
 ---
 description: >-
-  Process for managing the production of press content, attending press meetings
-  and dealing with press enquiries
+  Outlines the process for managing the production of press content, attending
+  press meetings and dealing with press enquiries
 ---
 
 # Press processes
