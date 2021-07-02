@@ -48,7 +48,7 @@ On Kriya 1, press articles can be scheduled by clicking the press icon and choos
 
 ### Press enquiries 
 
-Emails arriving in the Production inbox which relate to press content must be categorised as such using the 'press' Hiver tag. When authors enquire about press, Emily should be copied into the response using the template shown below. It is advisable to take the same course of action when an author enquires about a publication date, as often this means that they are considering press. You will need to provide Emily with an estimated publication date so she can propose a date to them. Emily will then follow up with the authors directly, and let you know when the press date has been confirmed. You can then schedule this on Kriya as outlined [above](press-processes.md#marking-articles-in-kriya). 
+Emails arriving in the Production inbox which relate to press content must be categorised as such using the 'Press' Hiver tag. When authors enquire about press, Emily should be copied into the response using the template shown below. It is advisable to take the same course of action when an author enquires about a publication date, as often this means that they are considering press. You will need to provide Emily with an estimated publication date so she can propose a date to them. Emily will then follow up with the authors directly, and let you know when the press date has been confirmed. You can then schedule this on Kriya as outlined [above](press-processes.md#marking-articles-in-kriya). 
 
 ![Email template in response to press queries](.gitbook/assets/screenshot-2021-06-24-at-15.17.39.png)
 
