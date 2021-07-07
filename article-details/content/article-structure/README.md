@@ -312,19 +312,19 @@ In cases where the authors have included a top-level heading that is similar to 
 
 #### medicine-methods
 
-**Error**: The second top level section in a Medicine article should be 'Methods' or 'Materials and methods'. This one is 'XXXXXX'.
+**Warning**: The second top level section in a Medicine article should be 'Methods' or 'Materials and methods'. This one is 'XXXXXX'.
 
 **Action**: This error indicates that the second section title in the body of an article with the MSA Medicine and/or Epidemiology and Global Health has a title which is not Methods or Materials and Methods. If the title is misspelt or contains a typo \(e.g. Method\), then it can simply be corrected. If the section title is simply missing then it can be added in. If neither of these are the case, check whether there are any notes from eJP relating to the article structure - there are exceptions to this rule - if there is a note indicating that the structure is fine, then this can be ignored. Otherwise Exeter should inform Production, who will contact the Editorial team to check whether the unorthodox structure is permitted. 
 
 #### medicine-results
 
-**Error**: The third top level section in a Medicine article should be 'Results'. This one is 'XXXXXX'.
+**Warning**: The third top level section in a Medicine article should be 'Results'. This one is 'XXXXXX'.
 
 **Action**: This error indicates that the third section title in the body of an article with the MSA Medicine and/or Epidemiology and Global Health has a title which is not Results. If the title is misspelt or contains a typo \(e.g. Result\), then it can simply be corrected. If the section title is simply missing then it can be added in. If neither of these are the case, check whether there are any notes from eJP relating to the article structure - there are exceptions to this rule - if there is a note indicating that the structure is fine, then this can be ignored. Otherwise Exeter should inform Production, who will contact the Editorial team to check whether the unorthodox structure is permitted. 
 
 #### medicine-discussion
 
-**Error**: The fourth top level section in a Medicine article should be 'Discussion'. This one is 'XXXXXX'.
+**Warning**: The fourth top level section in a Medicine article should be 'Discussion'. This one is 'XXXXXX'.
 
 **Action**: This error indicates that the fourth section title in the body of an article with the MSA Medicine and/or Epidemiology and Global Health has a title which is not Discussion. If the title is misspelt or contains a typo \(e.g. Discussio\), then it can simply be corrected. If the section title is simply missing then it can be added in. If neither of these are the case, check whether there are any notes from eJP relating to the article structure - there are exceptions to this rule - if there is a note indicating that the structure is fine, then this can be ignored. Otherwise Exeter should inform Production, who will contact the Editorial team to check whether the unorthodox structure is permitted. 
 
