@@ -5,7 +5,7 @@ description: Managing the production inbox and slack
 # Managing production queries
 
 {% hint style="info" %}
-For changelog, click [**here**](managing-production-queries.md#changelog). Updated 22/03/2021
+For changelog, click [**here**](managing-production-queries.md#changelog). Updated 12/07/2021
 {% endhint %}
 
 ## Production q**ueries**
