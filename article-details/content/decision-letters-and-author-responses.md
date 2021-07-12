@@ -61,7 +61,7 @@ A Macro is run on the content which normalises it \(italicises certain words and
 
 3. In eJP, the accepted version of the manuscript is opened, and the Acceptance summary from the 'Decision Summary' section is copied into the template document under the Acceptance Summary heading. If there is no Acceptance Summary the heading is removed from the letter. The summary itself is proofread for typos/grammar/spelling.
 
-4. Next, the full submission version of the manuscript is opened in eJP. The decision letter \(in the Decision Summary section\) is copied from "Thank you…" to the end of Major comments. In other words, the minor comments are not included. All major comments are included. This text is copied into the template file under "Decision letter".
+4. Next, the full submission version of the manuscript \(i.e. R0\) is opened in eJP. The decision letter \(in the Decision Summary section\) is copied from "Thank you…" to the end of Major comments. In other words, the minor comments are not included. All major comments are included. This text is copied into the template file under "Decision letter".
 
 5. The [**Public Review tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd_STqhP7x0/edit#gid=0) is then checked, to see if the preprint has public reviews. If it does \(the article is present in that spreadsheet\), then the links in the preamble at the top of that template are edited to the specific Sciety and preprint links. If there is no public review for the article, then the preamble \(including the '**Preamble**' heading\) is removed. When the decision letter is processed by the elife-bot, the default template text will be instead added to the beginning of the decision letter. 
 
@@ -70,7 +70,20 @@ A Macro is run on the content which normalises it \(italicises certain words and
 * The opening paragraph is changed to read correctly for the number of reviewers and editors identity.
 * Any mention of timeframe for submitting a revision i.e. “We hope you will submit within 2 months” is removed, but anything which refers to the eLife Covid-19 policy is left in.
 * If Essential revision or Summary are all in capitals they are changed to sentence case.
-* 
+* “\(General assessment…..\)” is removed after the reviewer heading. If the article is a Public Review article the reviewer headings should be titled “Reviewer \#1 \(Recommendations for the authors\):”
+* All words used as numbers must be in full, i.e 2nd should be changed to second, 1 reviewer should be one reviewer.
+* Any HTML code showing must be removed and the actual formatting applied, i.e for Italics within the manuscript title itself \(&lt;em&gt;\).
+
+10. Once all changes are made, tracked changes are turned off and all the text is copied and pasted into the Author response. Then all that text is italicised. These serve as the quotes from the Decision letter that the authors respond to. 
+
+11. The next version of the manuscript in eJP \(i.e. R1\) is opened and in the section 'Response to reviewers', each response is pasted under the relevant section in the document. 
+
+
+
+
+
+
+
 ## Decision letter QC
 
 Editorial office carry out a series of on Decision letters.
