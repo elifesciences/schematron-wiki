@@ -24,11 +24,11 @@ In Kriya 2, this can be done by selecting the list view and ticking 'Yes' under 
 
 ![Kriya 2 dashboard in list view filtered for &apos;Press release date&apos;](.gitbook/assets/screenshot-2021-06-30-at-10.30.08.png)
 
-When checking the status of press articles, if any of those marked for next Tuesday are still at the Author Review stage, they do not need to be pushed back at this point, and Emily can be updated on these in the [Press Update email](press-processes.md#press-update-email) on Monday. Emily will then enquire about the status of potential press articles. To come up with a press date, you can consult the due dates for each article by clicking the 'detailed' section on Kriya 1 \(the calendar icon the top right hand corner of the panel\).
+When checking the status of press articles, if any of those marked for next Tuesday are still at the Author Review stage, they do not need to be pushed back at this point, and Emily can be updated on these in the [**Press Update email**](press-processes.md#press-update-email) ****on Monday. Emily will then enquire about the status of potential press articles. To come up with a press date, you can consult the due dates for each article by clicking the 'detailed' section on Kriya 1 \(the calendar icon the top right hand corner of the panel\).
 
 ![&apos;Detailed&apos; section on Kriya 1](.gitbook/assets/screenshot-2021-06-30-at-09.17.19.png)
 
-If an article has been marked as getting a digest, you should refer to the [digest tracker](https://docs.google.com/spreadsheets/d/17Llag-aEnbuARu5ORDJFki4K73xzy1fz2B2XG_QHQPI/edit#gid=1376331906) which will give you a due date for the digest. 
+If an article has been marked as getting a digest, you should refer to the [**digest tracker**](https://docs.google.com/spreadsheets/d/17Llag-aEnbuARu5ORDJFki4K73xzy1fz2B2XG_QHQPI/edit#gid=1376331906) ****which will give you a due date for the digest. 
 
 ![Digest tracker displaying the due dates for digests](.gitbook/assets/screenshot-2021-06-30-at-09.38.57.png)
 
@@ -58,7 +58,7 @@ The Production team is also copied into emails from Emily to Editorial Office, a
 
 ### Press update email 
 
-On Mondays at around 3.30pm, the Production team sends an email to Emily, updating her on the status of the press articles for the next day. It is important that the person sending the email cross-checks the press articles listed under the relevant date on the [actions spreadsheet](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5), with those listed on the [manuscript tracker](https://docs.google.com/spreadsheets/d/1TVgTAUijt9pVa_d8TRFcpPvipE31zcgBh0r9M5dFn4Q/edit#gid=2075183460) and those on [Continuum](https://prod--ppp-dash.elifesciences.org/current). These articles should appear under the ['Scheduled'](https://prod--ppp-dash.elifesciences.org/scheduled?view=list&start=30-06-2021&end=30-06-2022) section on the Continuum dashboard. 
+On Mondays at around 3.30pm, the Production team sends an email to Emily, updating her on the status of the press articles for the next day. It is important that the person sending the email cross-checks the press articles listed under the relevant date on the ****[**actions spreadsheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5), with those listed on the [**manuscript tracker**](https://docs.google.com/spreadsheets/d/1TVgTAUijt9pVa_d8TRFcpPvipE31zcgBh0r9M5dFn4Q/edit#gid=2075183460) ****and those on [Continuum](https://prod--ppp-dash.elifesciences.org/current). These articles should appear under the ****[**'Scheduled'**](https://prod--ppp-dash.elifesciences.org/scheduled?view=list&start=30-06-2021&end=30-06-2022) ****section on the Continuum dashboard. 
 
 ![Manuscript tracker outlining the expected press articles for the upcoming Tuesday ](.gitbook/assets/screenshot-2021-06-24-at-16.26.56.png)
 
