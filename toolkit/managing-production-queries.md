@@ -223,15 +223,19 @@ This is an automatic email that notifies us when the post-acceptance check has b
 
 Our Press Officer Emily will sometimes email us to ask about publication dates. Often she will cc in Editorial and Features, if the article’s progress is dependent upon post-acceptance checks or a digest. 
 
-Emily will also cc us in if she asks Sue at Editorial Office to put any recently accepted papers on hold, whilst she looks into potential press for them. 
+Emily will also cc us in if she asks Editorial Office to put any recently accepted papers on hold, whilst she looks into potential press for them. 
 
 ![](../.gitbook/assets/screenshot-2021-03-22-at-11.56.32.png)
 
-A 'Press' tag should be added to these emails. The initial request email \(and hold confirmation response from Editorial Office\) can just be closed. Once Emily decides a PoA article is getting press, she will ask Editorial Office to schedule the article and CC us in. 
+A 'Press' tag should be added to these emails. Add the article number to the [**Production team actions sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) under the 'PoAs on hold for possible press' heading.
+
+![](../.gitbook/assets/screenshot-2021-07-12-at-12.26.52.png)
+
+The initial request email \(and hold confirmation response from Editorial Office\) can then be closed. If Emily subsequently confirms the article is not getting press, the number can be removed from the actions sheet. If she decides a PoA article is getting press, she will ask Editorial Office to schedule the article and CC us in. 
 
 ![](../.gitbook/assets/screenshot-2021-03-22-at-12.00.05.png)
 
-At this point, the manuscript number should be added to the [**Production team actions sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) under the relevant press date section. The email can be closed once this is done. 
+At this point, move the manuscript number to the relevant press date section. The email can be closed once this is done. 
 
 ![](../.gitbook/assets/screenshot-2021-03-22-at-12.03.03.png)
 
@@ -306,4 +310,10 @@ This email notifies us that articles have been exported from eJP. If they have a
 ### 29/03/2021
 
 * Added some additional info \(colouring notes in Hiver, pubmed loader failure emails\).
+
+### 12/07/2021
+
+* Updated [**press emails**](managing-production-queries.md#press-emails) section to add info about PoAs on hold
+
+
 
