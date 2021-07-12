@@ -4,6 +4,10 @@ description: Mathematical content in eLife articles
 
 # Maths
 
+{% hint style="info" %}
+For changelog, click [**here**](maths.md#changelog). Updated 12/07/2021
+{% endhint %}
+
 Many eLife articles contain maths. It can be rendered inline \(inline with the text in a paragraph/list item/table cell or similar\) or as display equations \(equations which are given extra emphasis by being distinct from the text and, in some cases labelled and cited elsewhere in the text\). eLife captures math content either as plain text \(for simple maths\) or as [**MathML**](https://en.wikipedia.org/wiki/MathML) which is a mathematical markup language. Similarly, in their original files, authors can capture maths in varying ways - either as plain text, as MathML \(by using an equation editor in Word or similar word processors\), in [**LaTeX**](https://en.wikipedia.org/wiki/LaTeX), or in other ways \(see also [**What can equations contain**](maths.md#what-can-equations-contain)\).
 
 The equation editor in Kriya uses LaTeX notation, which is then converted to MathML for inclusion in the XML.
@@ -444,7 +448,7 @@ $$Br^{-}\quad F^{-}\quad N^{3-}\quad O^{2-}\quad S^{-}$$
 
 **Action**: This will fire for any equation in an abstract. If an article has display formulae in the abstract, please capture them in normal characters if possible. If this can’t be done, convert the display formulae into inline formulae and leave the following author query for the authors:
 
-* eLife does not support formulae in abstracts as these do not display correctly further downstream \(e.g. on PubMed etc.\). If possible, please rephrase your abstract accordingly and indicate where the formula\(e\) should be included in the main text instead.
+* We strongly advise against including formulae in abstracts since these are sent to various places downstream which are unable to render the maths. If possible, please rephrase your abstract accordingly and indicate where the formula\(e\) should be included in the main text instead.
 
 If the article has inline formulae in the abstract, the above query should still be left. If the authors are unable to remove the inline formula\(e\) from their abstract, this warning can be ignored. 
 
@@ -798,4 +802,12 @@ A display equation without a label:
 </p>
 
 ```
+
+## Changelog
+
+### 12/07/2021
+
+#### Changes
+
+* Edited text of [**math-test-18**](maths.md#math-test-18) to add information about equations in abstracts. 
 

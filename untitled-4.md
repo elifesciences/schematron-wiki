@@ -66,7 +66,7 @@ Where applicable, give links to related pages and external sites.
 
 ## Changelog
 
-After Exeter has fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent.
+After Exeter has fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent. Ensure the date heading is entered as a level 2 heading and the changes heading is entered as a level 3 heading.
 
 ### dd/mm/yyyy
 

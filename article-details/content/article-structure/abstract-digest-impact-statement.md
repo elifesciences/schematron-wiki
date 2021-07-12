@@ -1,5 +1,9 @@
 # Abstracts, digests and impact statements
 
+{% hint style="info" %}
+For changelog, click [**here**](abstract-digest-impact-statement.md#changelog). Updated 17/05/2021
+{% endhint %}
+
 ## Abstracts
 
 An abstract provides a clear and concise summary of the work described in an article. Abstracts allow readers to have a quick overview before reading the whole article. For eLife articles, abstracts are usually 150-200 words \(except medical submissions which can be around 250 words\). If a non-medical abstract is over the word limit, this should be checked with Editorial \(see more [**here**](https://elifesciences.gitbook.io/productionhowto/-M1eY9ikxECYR-0OcnGt/article-details/content/article-structure/abstract-digest-impact-statement#pre-abstract-word-count-restriction) and [**here**](https://elifesciences.gitbook.io/productionhowto/-M1eY9ikxECYR-0OcnGt/article-details/content/article-structure/abstract-digest-impact-statement#final-abstract-word-count-restriction)\). 
