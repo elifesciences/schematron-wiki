@@ -273,13 +273,13 @@ If the authors are unable to remove the inline formula\(e\) from their abstract,
 
 **Warning**: _Medicine articles with a colon in their title must have a structured abstract. Either the colon in the title is incorrect, or the abstract should be changed to a structured format._
 
-**Action**: If an article is classed under the major subject areas 'Medicine' or 'Epidemiology and Global Health' and has a colon in the article title \(e.g. 'Association of Toll-like receptor 7 variants with life-threatening COVID-19 disease in males: findings from a nested case-control study'\), it should have a structured abstract. Check the original submission to see whether a structured abstract is present - if so, it should be tagged accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract) \(see more [**here**](abstract-digest-impact-statement.md#structured-abstracts)\). If not, the Editorial team will need to be consulted. 
+**Action**: If an article is classed under the major subject areas 'Medicine' or 'Epidemiology and Global Health' and has a colon in the article title \(e.g. 'Association of Toll-like receptor 7 variants with life-threatening COVID-19 disease in males: findings from a nested case-control study'\), it should have a structured abstract. If there is a sticky note indicating the article does not require a structured abstract, this warning can be ignored. Check the original submission to see whether a structured abstract is present - if so, it should be tagged accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract) \(see more [**here**](abstract-digest-impact-statement.md#structured-abstracts)\). If not, the Editorial team will need to be consulted. 
 
 #### medicine-abstract-conformance-2
 
 **Warning**: _XXXXXX articles submitted after 4th April 2021 should have a structured abstract, but this one does not. eLife please check this with Editorial. Exeter: Please flag this to the eLife Production team._
 
-**Action**: All articles submitted after 04/04/2021 and classed under the major subject areas 'Medicine' or 'Epidemiology and Global Health' should have structured abstracts. Check the original submission to see whether a structured abstract is present - if so, it should be tagged accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract) \(see more [**here**](abstract-digest-impact-statement.md#structured-abstracts)\). If not, the Editorial team will need to be consulted. 
+**Action**: All articles submitted after 04/04/2021 and classed under the major subject areas 'Medicine' or 'Epidemiology and Global Health' should have structured abstracts. If there is a sticky note indicating the article does not require a structured abstract, this warning can be ignored. Otherwise, check the original submission to see whether a structured abstract is present - if so, it should be tagged accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract) \(see more [**here**](abstract-digest-impact-statement.md#structured-abstracts)\). If not, the Editorial team will need to be consulted. 
 
 #### clintrial-conformance-1
 
