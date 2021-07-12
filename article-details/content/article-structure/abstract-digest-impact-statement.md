@@ -4,10 +4,6 @@
 
 An abstract provides a clear and concise summary of the work described in an article. Abstracts allow readers to have a quick overview before reading the whole article. For eLife articles, abstracts are usually 150-200 words \(except medical submissions which can be around 250 words\). If a non-medical abstract is over the word limit, this should be checked with Editorial \(see more [**here**](https://elifesciences.gitbook.io/productionhowto/-M1eY9ikxECYR-0OcnGt/article-details/content/article-structure/abstract-digest-impact-statement#pre-abstract-word-count-restriction) and [**here**](https://elifesciences.gitbook.io/productionhowto/-M1eY9ikxECYR-0OcnGt/article-details/content/article-structure/abstract-digest-impact-statement#final-abstract-word-count-restriction)\). 
 
-{% hint style="info" %}
-If the biological system \(species names or broader taxonomic groups if appropriate\) is not mentioned in the title, it must be included in the abstract.
-{% endhint %}
-
 In eLife articles, the abstract is the first section in the article, appearing after the author list and affiliations in the PDFs and on the website. 
 
 ![Position of the abstract in the PDF](../../../.gitbook/assets/screenshot-2021-05-17-at-10.14.37.png)
@@ -16,7 +12,9 @@ In eLife articles, the abstract is the first section in the article, appearing a
 
 ### Structured abstracts
 
-Subheadings are not allowed in abstracts, except for medical submissions. All articles in the major subject areas 'Medicine' or 'Epidemiology and Global Health' with a received date after 04/04/2021 should have a structured abstract. Structured abstracts should have all the following subheadings: Background; Methods; Results; Conclusions; Funding; Clinical trial number \(for submissions reporting results of a trial only - see more [**here**](../ethics.md#clinical-trials)\). These headings should be tagged in the underlying XML using `<sec>` and `<title>` tags \(not `<bold>` tags\). See [**here**](abstract-digest-impact-statement.md#structured-abstract-including-clinical-trial-number-section) for an example of XML for a structured abstract. 
+Subheadings are not allowed in abstracts, except for medical submissions. All articles in the major subject areas 'Medicine' or 'Epidemiology and Global Health' with a received date after 04/04/2021 should have a structured abstract unless the sticky note from Editorial indicates otherwise. In rare cases, some articles outside these major subject areas will be clinical trials and so will require structured abstracts - these will also be indicated in the sticky notes. 
+
+Structured abstracts should have all the following subheadings: Background; Methods; Results; Conclusions; Funding; Clinical trial number \(for submissions reporting results of a trial only - see more [**here**](../ethics.md#clinical-trials)\). These headings should be tagged in the underlying XML using `<sec>` and `<title>` tags \(not `<bold>` tags\). See [**here**](abstract-digest-impact-statement.md#structured-abstract-including-clinical-trial-number-section) for an example of XML for a structured abstract. 
 
 | **Section** | **XML formatting** |
 | :--- | :--- |
