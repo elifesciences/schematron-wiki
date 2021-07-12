@@ -74,9 +74,9 @@ A Macro is run on the content which normalises it \(italicises certain words and
 * All words used as numbers must be in full, i.e 2nd should be changed to second, 1 reviewer should be one reviewer.
 * Any HTML code showing must be removed and the actual formatting applied, i.e for Italics within the manuscript title itself \(&lt;em&gt;\).
 
-10. Once all changes are made, tracked changes are turned off and all the text is copied and pasted into the Author response. Then all that text is italicised. These serve as the quotes from the Decision letter that the authors respond to. 
+7. Once all changes are made, tracked changes are turned off and all the text is copied and pasted into the Author response. Then all that text is italicised. These serve as the quotes from the Decision letter that the authors respond to. 
 
-11. The next version of the manuscript in eJP \(i.e. R1\) is opened and in the section 'Response to reviewers', each response is pasted under the relevant section in the document. 
+8. The next version of the manuscript in eJP \(i.e. R1\) is opened and in the section 'Response to reviewers', each response is pasted under the relevant section in the document. 
 
 
 
