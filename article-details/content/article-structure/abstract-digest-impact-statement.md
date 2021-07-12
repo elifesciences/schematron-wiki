@@ -235,7 +235,7 @@ Check where these additional elements may have come from by comparing against th
 
 **Action**: This will appear if an abstract contains display formulae - although these are allowed in Continuum, they are converted to placeholder text for downstream deliverables. As a result, these should not be included in abstracts - if an article has display formulae in the abstract, please capture them in normal characters if possible. If this can't be done, convert the display formula into an inline formula and leave the following author query for the authors: 
 
-* eLife does not support formulae in abstracts as these do not display correctly further downstream \(e.g. on PubMed etc.\). If possible, please rephrase your abstract accordingly and indicate where the formula\(e\) should be included in the main text instead.
+* We strongly advise against including formulae in abstracts since these are sent to various places downstream which are unable to render the maths. If possible, please rephrase your abstract accordingly and indicate where the formula\(e\) should be included in the main text instead.
 
 If the authors are unable to remove the inline formula\(e\) from their abstract, [**math-test-18**](../maths.md#math-test-18) will still fire, but this warning can be ignored.
 
