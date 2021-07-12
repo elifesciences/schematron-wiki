@@ -442,7 +442,11 @@ $$Br^{-}\quad F^{-}\quad N^{3-}\quad O^{2-}\quad S^{-}$$
 
 **Warning**: _abstract contains MathML \(XXXXXX\). Is this necessary? MathML in abstracts may not render downstream, so if it can be represented using normal text/unicode, then please do so instead._
 
-**Action**: This will fire for any equation in an abstract. If the equation can be represented with plain text alternatives, then it should be changed to that. If it cannot, then the message can be ignored.
+**Action**: This will fire for any equation in an abstract. If an article has display formulae in the abstract, please capture them in normal characters if possible. If this can’t be done, convert the display formulae into inline formulae and leave the following author query for the authors:
+
+* eLife does not support formulae in abstracts as these do not display correctly further downstream \(e.g. on PubMed etc.\). If possible, please rephrase your abstract accordingly and indicate where the formula\(e\) should be included in the main text instead.
+
+If the article has inline formulae in the abstract, the above query should still be left. If the authors are unable to remove the inline formula\(e\) from their abstract, this warning can be ignored. 
 
 #### **math-test-19**
 
