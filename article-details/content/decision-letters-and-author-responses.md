@@ -51,6 +51,26 @@ Decision letters and Author responses are collated from the peer review correspo
 
 A Macro is run on the content which normalises it \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This resultant word document is then QC'd by Ed Office, and uploaded to the S3 bucket.
 
+### Creating Decision letters
+
+1. The DL is selected from the [**DL tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1oy8TIwsedSYdy6n3_SFuqUcJ4Ljeg7tXnTS6q2CsNI8/edit#gid=0).
+
+{% file src="../../.gitbook/assets/3.-template-2021.docx" caption="DL Template" %}
+
+2. The file above is a template, from which content is copied into.
+
+3. In eJP, the accepted version of the manuscript is opened, and the Acceptance summary from the 'Decision Summary' section is copied into the template document under the Acceptance Summary heading. If there is no Acceptance Summary the heading is removed from the letter. The summary itself is proofread for typos/grammar/spelling.
+
+4. Next, the full submission version of the manuscript is opened in eJP. The decision letter \(in the Decision Summary section\) is copied from "Thank you…" to the end of Major comments. In other words, the minor comments are not included. All major comments are included. This text is copied into the template file under "Decision letter".
+
+5. The [**Public Review tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd_STqhP7x0/edit#gid=0) is then checked, to see if the preprint has public reviews. If it does \(the article is present in that spreadsheet\), then the links in the preamble at the top of that template are edited to the specific Sciety and preprint links. If there is no public review for the article, then the preamble \(including the '**Preamble**' heading\) is removed. When the decision letter is processed by the elife-bot, the default template text will be instead added to the beginning of the decision letter. 
+
+6. After the content is pasted into the document, tracked changes are turned on, and the following amendments are made:
+
+* The opening paragraph is changed to read correctly for the number of reviewers and editors identity.
+* Any mention of timeframe for submitting a revision i.e. “We hope you will submit within 2 months” is removed, but anything which refers to the eLife Covid-19 policy is left in.
+* If Essential revision or Summary are all in capitals they are changed to sentence case.
+* 
 ## Decision letter QC
 
 Editorial office carry out a series of on Decision letters.
