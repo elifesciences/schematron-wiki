@@ -145,7 +145,7 @@ In the Author response, the original comments from the editor/reviewers are in i
 * Where words in the title are wrapped in `<i>` tags, the tags are removed and text is italicised.
 * Where words are marked with asterisks or capitalised for emphasis, they are replaced with italics for emphasis.
 * If there are equations, they are checked if they are editable, and re-typed if necessary.
-* Long quotations are be abbreviated using ellipses:
+* Long quotations are abbreviated using ellipses:
 
 {% hint style="info" %}
 In the Discussion we now say: “Blah, blah, blah. \[...\] Blah de blah, blah”
