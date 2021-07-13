@@ -446,7 +446,7 @@ The decision letter content needs to be zipped into a single zip with a filename
 
 The 00000 above should be changed to the manuscript's 5 digit tracking number.
 
-The zip **should not** contain sub-folders \(otherwise the bot will be unable to find the files\). In order to always ensure this happens, select the object\(s\) that require zipping, and right-click and zip using your OSs preferred method. Do not simply right click the folder containing the objects and zip this up, as it will always zip the contents in a sub folder within the zip.
+The zip **should not** contain sub-folders \(otherwise the bot will be unable to find the files\). In order to always ensure this happens, select the object\(s\) that require zipping, and right-click and zip using your Operating Systems' preferred method. Do not simply right click the folder containing the objects and zip this up, as it will always zip the contents in a sub folder within the zip.
 
 If required, Mac users can check the contents of a zip using the following bash command \(in the command line\):
 
