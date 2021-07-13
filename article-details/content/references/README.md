@@ -37,13 +37,105 @@ eLife permits references to the following items, for which type-specific guidanc
 
 ## Schematron warnings
 
-The following rules apply to all references.
-
-Add info about years \(a, b\) if two references are the same
-
 ### Content warnings
 
-List of errors and warnings that can occur, with guidance on how to solve each problem or on when it is OK to let the warning go by and not change anything.
+#### ref-list-title-test
+
+**Warning**: _reference list usually has a title that is 'References', but currently it is 'XXXXXX' - is that correct?_
+
+**Action**:
+
+
+
+#### ref-list-distinct-1
+
+**Error**: _In the reference list, each reference must be unique in its citation style \(combination of authors and year\). If a reference's citation is the same as anothers, a lowercase letter should be suffixed to the year \(e.g. Smith et al., 2020a\). XXXXXX does not meet this requirement._
+
+**Action**:
+
+
+
+#### err-elem-cit-gen-date-1-2
+
+**Warning**: _The numeric value of the first 4 digits of the &lt;year&gt; element must be between 1700 and the current year + 5 years \(inclusive\). Reference 'XXXXXX' does not meet this requirement as it contains the value 'XXXXXX'._
+
+**Action**:
+
+
+
+#### err-elem-cit-gen-date-1-3
+
+**Error**: _All &lt;year&gt; elements must have @iso-8601-date attributes. Reference 'XXXXXX' does not._
+
+**Action**:
+
+
+
+#### err-elem-cit-gen-date-1-4
+
+**Warning**: _The numeric value of the first 4 digits of the @iso-8601-date attribute on the &lt;year&gt; element must be between 1700 and the current year + 5 years \(inclusive\). Reference 'XXXXXX' does not meet this requirement as the attribute contains the value 'XXXXXX'._
+
+**Action**:
+
+
+
+#### err-elem-cit-gen-date-1-6
+
+**Error**: _If the &lt;year&gt; element contains the letter 'a' after the digits, there must be another reference with the same first author surname \(or collab\) with a letter "b" after the year. Reference 'XXXXXX' does not fulfill this requirement._
+
+**Action**:
+
+
+
+#### err-elem-cit-gen-date-1-7
+
+**Error**: _If the &lt;year&gt; element contains any letter other than 'a' after the digits, there must be another reference with the same first author surname \(or collab\) with the preceding letter after the year. Reference 'XXXXXX' does not fulfill this requirement._
+
+**Action:**
+
+\*\*\*\*
+
+#### elem-cit-source
+
+**Error**: _A &lt;source&gt; element within a XXXXXX type &lt;element-citation&gt; must contain at least two characters. - XXXXXX. See Ref 'XXXXXX'._
+
+**Action**:
+
+ext-link-attribute-content-match	ref/element-citation/ext-link	\*\*Error\*\*: \_&lt;ext-link&gt; must contain content and have an @xlink:href, the value of which must be the same as the content of &lt;ext-link&gt;. The &lt;ext-link&gt; element in Reference 'XXXXXX' has @xlink:href='XXXXXX' and content 'XXXXXX'.\_
+
+link-href-conformance	ref/element-citation/ext-link	\*\*Error\*\*: \_@xlink:href must start with either "http://", "https://", or "ftp://". The &lt;ext-link&gt; element in Reference 'XXXXXX' is 'XXXXXX', which does not.\_
+
+err-elem-cit-high-2-2	ref\[preceding-sibling::ref\]	\*\*Error\*\*: \_The order of &lt;element-citation&gt;s in the reference list should be name and date, arranged alphabetically by the first author’s surname, or by the value of the first &lt;collab&gt; element. In the case of two authors, the sequence should be arranged by both authors' surnames, then date. For three or more authors, the sequence should be the first author's surname, then date. Reference 'XXXXXX' appears to be in a different order.\_
+
+err-elem-cit-high-1	ref	\*\*Error\*\*: \_The only element that is allowed as a child of &lt;ref&gt; is &lt;element-citation&gt;. Reference 'XXXXXX' has other elements.\_
+
+err-elem-cit-high-3-1	ref	\*\*Error\*\*: \_Each &lt;ref&gt; element must have an @id attribute.\_
+
+err-elem-cit-high-3-2	ref	\*\*Error\*\*: \_Each &lt;ref&gt; element must have an @id attribute that starts with 'bib' and ends with a number. Reference 'XXXXXX' has the value 'XXXXXX', which is incorrect.\_
+
+err-elem-cit-high-3-3	ref	\*\*Error\*\*: \_The sequence of ids in the &lt;ref&gt; elements must increase monotonically \(e.g. 1,2,3,4,5, . . . ,50,51,52,53, . . . etc\). Reference 'XXXXXX' has the value 'XXXXXX', which does not fit this pattern.\_
+
+err-xref-high-2-1	xref\[@ref-type='bibr' and matches\(normalize-space\(.\),'\[b-z\]$'\)\]	\*\*Error\*\*: \_Citations in the text to references with the same author\(s\) in the same year must be arranged in the same order as the reference list. The xref with the value 'XXXXXX' is in the wrong order in the text. Check all the references to citations for the same authors to determine which need to be changed.\_
+
+err-elem-cit-high-6-2	element-citation	\*\*Error\*\*: \_element-citation must have a publication-type attribute with one of these values: 'journal', 'book', 'data', 'patent', 'software', 'preprint', 'web', 'periodical', 'report', 'confproc', or 'thesis'. Reference 'XXXXXX' has 'XXXXXX'.\_
+
+pre-element-cite-year	element-citation	\*\*Warning\*\*: \_'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the year of publication.\_
+
+final-element-cite-year	element-citation	\*\*Error\*\*: \_'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the year of publication.\_
+
+pre-element-cite-string-date	element-citation	\*\*Warning\*\*: \_'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the year of publication.\_
+
+final-element-cite-string-date	element-citation	\*\*Error\*\*: \_'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the year of publication.\_
+
+pre-empty-elem-cit-des	element-citation//\*	\*\*Warning\*\*: \_XXXXXX element is empty - this is not allowed. It must contain content. If the details are missing and cannot be determined, please query the authors.\_
+
+final-empty-elem-cit-des	element-citation//\*	\*\*Error\*\*: \_XXXXXX element is empty - this is not allowed. It must contain content.\_
+
+tagging-elem-cit-des	element-citation//\*	\*\*Error\*\*: \_XXXXXX element contains tagging, which should be removed - 'XXXXXX'.\_
+
+
+
+ist of errors and warnings that can occur, with guidance on how to solve each problem or on when it is OK to let the warning go by and not change anything.
 
 These warnings relate to the content of XXXXXX.
 
@@ -59,11 +151,17 @@ These warnings relate to the content of XXXXXX.
 
 ### XML structure warnings
 
-These warnings relate to the XML structure of XXXXXX. For more information about what the XML should look like, see below \(include link to XML structure\).
+#### pre-err-elem-cit-gen-date-1-5
 
-#### id-x
+**Warning**: _The numeric value of the first 4 digits of the @iso-8601-date attribute must match the first 4 digits on the &lt;year&gt; element. Reference 'XXXXXX' does not meet this requirement as the element contains the value 'XXXXXX' and the attribute contains the value 'XXXXXX'. If there is no year, and you are unable to determine this, please query with the authors._
 
-**Warning/Error:** content of message
+**Action**:
 
-**Action:** What to do if this message fires
+
+
+#### final-err-elem-cit-gen-date-1-5
+
+**Error**: _The numeric value of the first 4 digits of the @iso-8601-date attribute must match the first 4 digits on the &lt;year&gt; element. Reference 'XXXXXX' does not meet this requirement as the element contains the value 'XXXXXX' and the attribute contains the value 'XXXXXX'. If there is no year, and you are unable to determine this, please query with the authors._
+
+**Action**:
 
