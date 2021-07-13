@@ -105,33 +105,103 @@ eLife permits references to the following items, for which type-specific guidanc
 
 **Action**:
 
-#### 
+#### err-elem-cit-high-3-3
 
-err-elem-cit-high-3-3	ref	\*\*Error\*\*: \_The sequence of ids in the &lt;ref&gt; elements must increase monotonically \(e.g. 1,2,3,4,5, . . . ,50,51,52,53, . . . etc\). Reference 'XXXXXX' has the value 'XXXXXX', which does not fit this pattern.\_
+**Error**: _The sequence of ids in the &lt;ref&gt; elements must increase monotonically \(e.g. 1,2,3,4,5, . . . ,50,51,52,53, . . . etc\). Reference 'XXXXXX' has the value 'XXXXXX', which does not fit this pattern._
 
-err-xref-high-2-1	xref\[@ref-type='bibr' and matches\(normalize-space\(.\),'\[b-z\]$'\)\]	\*\*Error\*\*: \_Citations in the text to references with the same author\(s\) in the same year must be arranged in the same order as the reference list. The xref with the value 'XXXXXX' is in the wrong order in the text. Check all the references to citations for the same authors to determine which need to be changed.\_
+**Action**:
 
-err-elem-cit-high-6-2	element-citation	\*\*Error\*\*: \_element-citation must have a publication-type attribute with one of these values: 'journal', 'book', 'data', 'patent', 'software', 'preprint', 'web', 'periodical', 'report', 'confproc', or 'thesis'. Reference 'XXXXXX' has 'XXXXXX'.\_
+#### err-xref-high-2-1
 
-pre-element-cite-year	element-citation	\*\*Warning\*\*: \_'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the year of publication.\_
+**Error**: _Citations in the text to references with the same author\(s\) in the same year must be arranged in the same order as the reference list. The xref with the value 'XXXXXX' is in the wrong order in the text. Check all the references to citations for the same authors to determine which need to be changed._
 
-final-element-cite-year	element-citation	\*\*Error\*\*: \_'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the year of publication.\_
+**Action**:
 
-pre-element-cite-string-date	element-citation	\*\*Warning\*\*: \_'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the year of publication.\_
+#### err-elem-cit-high-6-2
 
-final-element-cite-string-date	element-citation	\*\*Error\*\*: \_'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the year of publication.\_
+**Error**: _element-citation must have a publication-type attribute with one of these values: 'journal', 'book', 'data', 'patent', 'software', 'preprint', 'web', 'periodical', 'report', 'confproc', or 'thesis'. Reference 'XXXXXX' has 'XXXXXX'._
 
-pre-empty-elem-cit-des	element-citation//\*	\*\*Warning\*\*: \_XXXXXX element is empty - this is not allowed. It must contain content. If the details are missing and cannot be determined, please query the authors.\_
+**Action**:
 
-final-empty-elem-cit-des	element-citation//\*	\*\*Error\*\*: \_XXXXXX element is empty - this is not allowed. It must contain content.\_
+#### pre-element-cite-year
 
-tagging-elem-cit-des	element-citation//\*	\*\*Error\*\*: \_XXXXXX element contains tagging, which should be removed - 'XXXXXX'.\_
+**Warning**: _'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the year of publication._
+
+**Action**:
+
+#### final-element-cite-year
+
+**Error**: _'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the year of publication._
+
+**Action**:
+
+#### pre-element-cite-string-date
+
+**Warning**: '_XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the year of publication._
+
+**Action**:
+
+#### final-element-cite-string-date
+
+**Error**: _'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the year of publication._
+
+**Action**:
+
+#### pre-pub-id-test-1
+
+**Warning**: _@xlink:href must start with an http:// or ftp:// protocol. - XXXXXX does not. If this information is missing, please ensure to query it with the authors._
+
+**Action**:
+
+#### final-pub-id-test-1
+
+**Error**: _@xlink:href must start with an http:// or ftp:// protocol. - XXXXXX does not._
+
+**Action**:
+
+#### pre-pub-id-test-2
+
+**Warning**: _pub-id is tagged as a doi, but it is not one - XXXXXX. If this information is missing, please ensure to query it with the authors._
+
+**Action**:
+
+#### final-pub-id-test-2
+
+**Error**: _pub-id is tagged as a doi, but it is not one - XXXXXX_
+
+**Action**:
+
+#### pub-id-test-3
+
+**Error**: _pub-id is tagged as a pmid, but it contains a character\(s\) which is not a digit - XXXXXX_
+
+**Action**:
+
+#### pub-id-doi-test-1
+
+**Error**: _pub-id has a doi link - XXXXXX - but its pub-id-type is XXXXXX instead of doi._
+
+**Action**:
+
+#### pub-id-doi-test-2
+
+**Error**: _pub id has a doi link - XXXXXX - but the identifier is not the doi - 'XXXXXX', which is incorrect. Either the doi link is correct, and the identifier needs changing, or the identifier is correct and needs adding after 'https://doi.org/' in order to create the real doi link._
+
+**Action**:
+
+#### pub-id-test-4
+
+**Warning**: _pub id contains whitespace - XXXXXX - which is very likely to be incorrect._
+
+**Action**:
+
+#### pub-id-test-5
+
+**Error**: _XXXXXX pub-id ends with a full stop - XXXXXX - which is not correct. Please remove the full stop._
+
+**Action**:
 
 
-
-ist of errors and warnings that can occur, with guidance on how to solve each problem or on when it is OK to let the warning go by and not change anything.
-
-These warnings relate to the content of XXXXXX.
 
 #### duplicate-ref-test-4
 
@@ -174,4 +244,22 @@ These warnings relate to the content of XXXXXX.
 **Error**: _Each &lt;ref&gt; element must have an @id attribute that starts with 'bib' and ends with a number. Reference 'XXXXXX' has the value 'XXXXXX', which is incorrect._
 
 **Action**: 
+
+#### pre-empty-elem-cit-des
+
+**Warning**: _XXXXXX element is empty - this is not allowed. It must contain content. If the details are missing and cannot be determined, please query the authors._
+
+**Action**:
+
+#### final-empty-elem-cit-des
+
+**Error**: _XXXXXX element is empty - this is not allowed. It must contain content._
+
+**Action**:
+
+#### tagging-elem-cit-des
+
+**Error**: _XXXXXX element contains tagging, which should be removed - 'XXXXXX'._
+
+**Action**:
 
