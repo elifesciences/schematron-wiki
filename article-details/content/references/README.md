@@ -247,6 +247,14 @@ eLife permits references to the following items, for which type-specific guidanc
 
 **Action**:
 
+#### ref-given-names-test-1
+
+**Warning**: _Given names should always be initialised. Ref 'XXXXXX' contains a given names with a string longer than 4 characters - 'XXXXXX' in XXXXXX. Is this a surname captured as given names? Or a fully spelt out given names?_
+
+**Action**:
+
+
+
 
 
 bssubtilis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'B. subtilis' - but there is no italic element with that correct capitalisation or spacing.\_
