@@ -132,7 +132,7 @@ In the Author response, the original comments from the editor/reviewers are in i
 > Response, response, response
 {% endhint %}
 
-10. Once all of these are added, tracked changes are turned back on and the macro is run. After that has finished running the following edits are made:
+10. Once all of these are added, tracked changes are turned back on and the macro is run ****\(see [**Setting up the Macro**](decision-letters-and-author-responses.md#setting-up-the-macro)\). After that has finished running the following edits are made:
 
 * Any reference to a Movie is changed to Video. 
 * References - if the decision letter or author response contains a numbered or unnumbered reference list this is included at the end of the document under the heading “References”. No formatting changes are required, but any endnote formatting is removed.
@@ -215,6 +215,218 @@ Here is an example of a video without a title/caption \(note the full stop at th
 Here is an example of a video with a title/caption:
 
 ![](../../.gitbook/assets/screenshot-2020-12-01-at-09.12.21.png)
+
+### Review commons
+
+Decision letters for articles received from Review Commons should be prepped as usual however these will typically not have an eLife decision letter. They will still have a decision letter however, which commonly just contains an Editor note, and an acceptance summary if there is one. An example of a review commons decision letter is [**here**](https://elifesciences.org/articles/64415#sa1).
+
+### Reviews from other journals
+
+If an article has reviews from other Journals, and the editors would like to include comments from them in the peer review material, there will be a red sticky in eJP indicating as such. The comments should be placed at the end of the Author response with the appropriate Editor note.
+
+Examples can be found here:
+
+\*\*\*\*[**https://elifesciences.org/articles/61488\#sa1**](https://elifesciences.org/articles/61488#sa1)\*\*\*\*
+
+\*\*\*\*[**https://elifesciences.org/articles/51593\#sa1**](https://elifesciences.org/articles/51593#sa1)
+
+### **Setting up the Macro**
+
+* Download this file onto your local machine
+
+{% file src="../../.gitbook/assets/findreplacetable.docx" %}
+
+* Open Word. Under 'View' or 'Developer' \(depending on your version of word\), click Macros
+
+![](https://lh3.googleusercontent.com/NmBoxzJhZ4RmO4DIhou3ciXinP9nKsynU94HAgZlrRp4Xr2rC6hgAPm1hp6pn7m7L1UGEWCxsBXw-b4uPN9Sf-Y0nPZXGOKmgrKtVYmFdkd89qp6szXfBzSMqbWbQIrMUttJdgc)
+
+* Click on 'Record Macro'
+
+![](https://lh5.googleusercontent.com/5ToRcZjCG5-9kDt0UdsFuV4GGrpzgagqf1e9TObISTjEiecSVo6yPBcXNqrsHUbyEJ3O6FaOdIia96wGaLG2wx45MsKVOi2pG-wzuF2GbPZHny0KAAlLjNmg5DGlL8RhqB-j19I)
+
+* Leave the name of the Macro as Macro1 \(this will be automatically updated once the macro has been recorded\). Ensure the option “All documents \(Normal.dotm\)” under “Store macro in:” is selected. Click OK.
+
+![](https://lh6.googleusercontent.com/riR9FVjKdtBYjJAiTWzLZVMHVaoQgAV7qHUkCJv_dRknlYfVRu4vh5NFp9JTkH0e3PeIDCnkZpDal4KBXNLZgNgXCDqIRV8rowL8ZXdGK1ARQ6KB_F-k-5fajLogpfKQFvnGKoA)
+
+* A little cassette symbol will show up. Type something random, such as “eLife” and go again to the Macro drop down list and press “Stop recording”.
+
+![](https://lh3.googleusercontent.com/9456OUlbVDF-Ol7OOBVjv_-SlBtKuuEOaU6npyUM4nrFWJVFr9KrlgDE1u2KYSb-W9HzDN82rxPsrF0IlYCBfpyzg08OVbCrn8_UoL5DarCr09gZA0tEt04dRW4RLX24TuYOsw4)
+
+* Click again on Macros, and then on “View Macros”.
+
+![](https://lh4.googleusercontent.com/MEoo1cRFxMUdcD_sNmNHSh0S-56CUmPAYx5HQWhE5rPoivOOtDhguBHBIu3jWMySDnE08J9O8u0_vO-uIAHWJ6X3hWQoTmvUFVyZENvpHHJYxhi17iM-spvA8hBsPZX7P8WEqh0)
+
+* In the resulting window, select “Macro1” and click on “Edit” on the right sidebar. This will allow you to edit the code.
+
+![](https://lh4.googleusercontent.com/FPQXBLzyaEvDC9YoItKC0vCneVnVeqhy1P7fE1ar5UnC0a-xxOrt2l0twzTXJa_Ih4TRWlI3UpJK4NbsMQOi68rC7kpbtWRDima0vp2K-q-RRfPOc85NpDhmF6HKo5x9Pt3L6Dg)
+
+* You will see something like the below, a terminal where you can edit the code.
+
+![](https://lh3.googleusercontent.com/lJyDYEaqRJ6LcximtoZ6LQudgKnPUPdQJIr-XkZTHwfENQZDVgVXrEeT5LXqmte4fzoPBckzuE9kNfFCYgZc4IClM7YGHRHmbcYTStwgp0u300Eil2smhag6tKKQeq-rGNW_VgI)
+
+* **Delete all the code** in there, and replace with the following:
+
+```markup
+Sub ReplaceFromWordTable()
+    ' Variable declaration
+        ' Word manipulation
+    Dim oWordApplication    As Word.Application
+    Dim oWordDocument       As Word.Document
+        ' Application variables
+    Dim sFilePath           As String
+    Dim oRow                As Row
+    Dim oCell               As Cell
+    Dim sCellText           As String
+    
+    Dim bHeaderRow          As Boolean
+    
+    Dim sFind               As String
+    Dim sReplace            As String
+    Dim sItalics            As String
+    Dim sBold               As String
+    Dim sCase               As String
+    Dim sStrikeThrough      As String
+    Dim sUnderline          As String
+    
+    
+    sFilePath = "C:\Users\Maria\Dropbox\Decision letters and author responses_Macro\FindReplaceTable.docx"
+
+    ' Configuration
+    On Error Resume Next
+    Set oWordApplication = GetObject(, "Word.Application")
+        
+    If oWordApplication Is Nothing Then
+        Set oWordApplication = CreateObject("Word.Application")
+    End If
+      
+    Set oWordDocument = oWordApplication.Documents.Open(sFilePath, ReadOnly:=True, Visible:=False)
+    
+    bHeaderRow = False
+    
+    For Each oRow In oWordDocument.Tables(1).Rows
+        If bHeaderRow = False Then
+            bHeaderRow = True
+        Else
+            sFind = Left$(oRow.Cells(1).Range, Len(oRow.Cells(1).Range) - 2)
+            sReplace = Left$(oRow.Cells(2).Range, Len(oRow.Cells(2).Range) - 2)
+            
+            sItalics = Left$(oRow.Cells(3).Range, Len(oRow.Cells(3).Range) - 2)
+            sBold = Left$(oRow.Cells(4).Range, Len(oRow.Cells(4).Range) - 2)
+            
+            sCase = Left$(oRow.Cells(5).Range, Len(oRow.Cells(5).Range) - 2)
+            sStrikeThrough = Left$(oRow.Cells(6).Range, Len(oRow.Cells(6).Range) - 2)
+            
+            sUnderline = Left$(oRow.Cells(7).Range, Len(oRow.Cells(7).Range) - 2)
+            
+            Selection.HomeKey wdStory
+            
+            With Selection.Find
+                .Text = sFind
+                .Forward = True
+                .Wrap = wdFindStop
+                .Format = False
+                .MatchCase = False
+                .MatchWholeWord = True
+                .MatchWildcards = False
+                .MatchSoundsLike = False
+                .MatchAllWordForms = False
+                
+                With .Replacement
+                    .ClearFormatting
+                    .Text = sReplace
+
+                    
+                    With .Font
+                        If sItalics = "True" Then
+                            .Italic = True
+                        ElseIf sItalics = "False" Then
+                            .Italic = False
+                        End If
+                        
+                        If sBold = "True" Then
+                            .Bold = True
+                        ElseIf sBold = "False" Then
+                            .Bold = False
+                        End If
+                        
+                        If sStrikeThrough = "True" Then
+                            .StrikeThrough = True
+                        ElseIf sStrikeThrough = "False" Then
+                            .StrikeThrough = False
+                        End If
+                        
+                        If sUnderline = "True" Then
+                            .Underline = True
+                        ElseIf sUnderline = "False" Then
+                            .Underline = False
+                        End If
+                    End With
+                End With
+            End With
+            
+            Selection.Find.Execute Replace:=wdReplaceAll
+            
+            Do While Selection.Find.Execute = True
+                'Selection.Find.Replacement.Highlight = True
+                    
+                If sCase = "Lower" Then
+                    Selection.Range.Case = wdLowerCase
+                ElseIf sCase = "Upper" Then
+                    Selection.Range.Case = wdUpperCase
+                ElseIf sCase = "Title" Then
+                    Selection.Range.Case = wdTitleWord
+                End If
+                
+                ' Loop through each character and find which ones are superscript
+                For i = 1 To oRow.Cells(2).Range.Characters.Count
+                    If oRow.Cells(2).Range.Characters(i).Font.Superscript = True Then
+                        Selection.Range.Characters(i).Font.Superscript = True
+                    End If
+                    If oRow.Cells(2).Range.Characters(i).Font.Subscript = True Then
+                        Selection.Range.Characters(i).Font.Subscript = True
+                    End If
+                Next
+            Loop
+        End If
+    Next oRow
+    
+    oWordDocument.Close wdDoNotSaveChanges
+    ‘oWordApplication.Quit
+    
+    Set oWordDocument = Nothing
+    Set oWordApplication = Nothing
+End Sub
+
+```
+
+* Save \(Ctrl + S\).
+* In the code that you have just pasted search for `SFilePath =`. You will find this:
+
+```markup
+sFilePath = "C:\Users\Maria\Dropbox\Decision letters and author responses_Macro\FindReplaceTable.docx"
+```
+
+The string `C:\Users\Maria\Dropbox\Decision letters and author responses_Macro\FindReplaceTable.docx` needs to be replaced with the location of the local copy of the file above on your machine. Ensure that the location is a full location, i.e. it also contains the specific name of the file with its extension.
+
+* Save and click "Reset"
+
+![](https://lh5.googleusercontent.com/upkar0tbk0A4urIs3ZiuWb1HrJbnjP9ILK4XS9H5_KS6CdlHSiHhMWaD8VYZOW9UzayrXy9qwHujc_hkSJ8-Fz5pkluhWdFeRt5Je_amZ4vDLtHf6FBNOKOcF1vOt6tV_bUaHQQ)
+
+* Close the macro window and word. The macro has not been set up.
+
+### How to run the macro
+
+Once set up \(see [**Setting up the Macro**](decision-letters-and-author-responses.md#setting-up-the-macro)\), the Macro can be run on a word document, by opening it in word, and going to "View Macros"
+
+![](https://lh5.googleusercontent.com/99BOZdu8n52-uELxZLfZz_jdHiuYXRvvlawIFhr5sAzk6BIL_X6CZaUQ_of5d52GPY3t71Qh7pJtyAawL8cGhB5AZu80uceZuNOwwvaploGTZIOBhilCeZqVtdNM9TBrH6yaIV0)
+
+Select the macro and click Run
+
+![](https://lh6.googleusercontent.com/xlU0uo6YGoMt83Pyw3D3nhSd0aX0SJ1VUiBg2tFniXPvECayYHYXuIrb2GmW4Au-BgA_kJLAkHe8mQmhxBsoqnI05LZHnd1xu_CNcLi6_sfdkCKIb0z5Slni15eltd7KL1PCMug)
+
+{% hint style="danger" %}
+The macro should only be run once. Running it numerous times will introduce errors into the document.
+{% endhint %}
 
 ## Packaging up a decision letter
 
