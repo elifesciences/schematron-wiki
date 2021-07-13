@@ -45,15 +45,11 @@ eLife permits references to the following items, for which type-specific guidanc
 
 **Action**:
 
-
-
 #### ref-list-distinct-1
 
 **Error**: _In the reference list, each reference must be unique in its citation style \(combination of authors and year\). If a reference's citation is the same as anothers, a lowercase letter should be suffixed to the year \(e.g. Smith et al., 2020a\). XXXXXX does not meet this requirement._
 
 **Action**:
-
-
 
 #### err-elem-cit-gen-date-1-2
 
@@ -61,15 +57,11 @@ eLife permits references to the following items, for which type-specific guidanc
 
 **Action**:
 
-
-
 #### err-elem-cit-gen-date-1-3
 
 **Error**: _All &lt;year&gt; elements must have @iso-8601-date attributes. Reference 'XXXXXX' does not._
 
 **Action**:
-
-
 
 #### err-elem-cit-gen-date-1-4
 
@@ -77,15 +69,11 @@ eLife permits references to the following items, for which type-specific guidanc
 
 **Action**:
 
-
-
 #### err-elem-cit-gen-date-1-6
 
 **Error**: _If the &lt;year&gt; element contains the letter 'a' after the digits, there must be another reference with the same first author surname \(or collab\) with a letter "b" after the year. Reference 'XXXXXX' does not fulfill this requirement._
 
 **Action**:
-
-
 
 #### err-elem-cit-gen-date-1-7
 
@@ -93,25 +81,31 @@ eLife permits references to the following items, for which type-specific guidanc
 
 **Action:**
 
-\*\*\*\*
-
 #### elem-cit-source
 
 **Error**: _A &lt;source&gt; element within a XXXXXX type &lt;element-citation&gt; must contain at least two characters. - XXXXXX. See Ref 'XXXXXX'._
 
 **Action**:
 
-ext-link-attribute-content-match	ref/element-citation/ext-link	\*\*Error\*\*: \_&lt;ext-link&gt; must contain content and have an @xlink:href, the value of which must be the same as the content of &lt;ext-link&gt;. The &lt;ext-link&gt; element in Reference 'XXXXXX' has @xlink:href='XXXXXX' and content 'XXXXXX'.\_
+#### ext-link-attribute-content-match
 
-link-href-conformance	ref/element-citation/ext-link	\*\*Error\*\*: \_@xlink:href must start with either "http://", "https://", or "ftp://". The &lt;ext-link&gt; element in Reference 'XXXXXX' is 'XXXXXX', which does not.\_
+**Error**: &lt;ext-link&gt; must contain content and have an @xlink:href, the value of which must be the same as the content of &lt;ext-link&gt;. The &lt;ext-link&gt; element in Reference 'XXXXXX' has @xlink:href='XXXXXX' and content 'XXXXXX'.
 
-err-elem-cit-high-2-2	ref\[preceding-sibling::ref\]	\*\*Error\*\*: \_The order of &lt;element-citation&gt;s in the reference list should be name and date, arranged alphabetically by the first author’s surname, or by the value of the first &lt;collab&gt; element. In the case of two authors, the sequence should be arranged by both authors' surnames, then date. For three or more authors, the sequence should be the first author's surname, then date. Reference 'XXXXXX' appears to be in a different order.\_
+**Action**:
 
-err-elem-cit-high-1	ref	\*\*Error\*\*: \_The only element that is allowed as a child of &lt;ref&gt; is &lt;element-citation&gt;. Reference 'XXXXXX' has other elements.\_
+#### link-href-conformance
 
-err-elem-cit-high-3-1	ref	\*\*Error\*\*: \_Each &lt;ref&gt; element must have an @id attribute.\_
+**Error**: _@xlink:href must start with either "http://", "https://", or "ftp://". The &lt;ext-link&gt; element in Reference 'XXXXXX' is 'XXXXXX', which does not._
 
-err-elem-cit-high-3-2	ref	\*\*Error\*\*: \_Each &lt;ref&gt; element must have an @id attribute that starts with 'bib' and ends with a number. Reference 'XXXXXX' has the value 'XXXXXX', which is incorrect.\_
+**Action:**
+
+#### err-elem-cit-high-2-2
+
+**Error**: _The order of &lt;element-citation&gt;s in the reference list should be name and date, arranged alphabetically by the first author’s surname, or by the value of the first &lt;collab&gt; element. In the case of two authors, the sequence should be arranged by both authors' surnames, then date. For three or more authors, the sequence should be the first author's surname, then date. Reference 'XXXXXX' appears to be in a different order._
+
+**Action**:
+
+#### 
 
 err-elem-cit-high-3-3	ref	\*\*Error\*\*: \_The sequence of ids in the &lt;ref&gt; elements must increase monotonically \(e.g. 1,2,3,4,5, . . . ,50,51,52,53, . . . etc\). Reference 'XXXXXX' has the value 'XXXXXX', which does not fit this pattern.\_
 
@@ -157,11 +151,27 @@ These warnings relate to the content of XXXXXX.
 
 **Action**:
 
-
-
 #### final-err-elem-cit-gen-date-1-5
 
 **Error**: _The numeric value of the first 4 digits of the @iso-8601-date attribute must match the first 4 digits on the &lt;year&gt; element. Reference 'XXXXXX' does not meet this requirement as the element contains the value 'XXXXXX' and the attribute contains the value 'XXXXXX'. If there is no year, and you are unable to determine this, please query with the authors._
 
 **Action**:
+
+#### err-elem-cit-high-1
+
+**Error**: _The only element that is allowed as a child of &lt;ref&gt; is &lt;element-citation&gt;. Reference 'XXXXXX' has other elements._
+
+**Action**:
+
+#### err-elem-cit-high-3-1
+
+**Error**: _Each &lt;ref&gt; element must have an @id attribute._
+
+**Action**: 
+
+#### err-elem-cit-high-3-2
+
+**Error**: _Each &lt;ref&gt; element must have an @id attribute that starts with 'bib' and ends with a number. Reference 'XXXXXX' has the value 'XXXXXX', which is incorrect._
+
+**Action**: 
 
