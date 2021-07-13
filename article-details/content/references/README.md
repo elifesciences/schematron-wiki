@@ -1,3 +1,9 @@
+---
+description: >-
+  A guide to reference lists and general rules about references in eLife
+  articles
+---
+
 # References
 
 ## What is a reference list?
@@ -9,6 +15,19 @@ The reference list is included at the end of the article, in the back matter. Re
 ![A typical eLife reference list in the online view](../../../.gitbook/assets/screen-shot-2021-07-13-at-17.06.53.png)
 
 ![A reference list in the article PDF](../../../.gitbook/assets/screen-shot-2021-07-13-at-17.07.27.png)
+
+The style used for references in articles - that is, the way the details are formatted and ordered - is derived from the APA style but is unique to eLife. Full author lists are presented online, but where there are more than 20 authors listed, 'et al.' will be used to truncate the list in the PDF \(compare Axten et al., 2021 in the two lists shown above\). This is in order to save space; some journal articles have over 100 authors!
+
+eLife permits references to the following items, for which type-specific guidance has been provided on dedicated pages:
+
+* \*\*\*\*[**Books**](book-references.md)\*\*\*\*
+* \*\*\*\*[**Conference papers**](conference-reference.md)\*\*\*\*
+* \*\*\*\*[**Data**](data-references.md)\*\*\*\*
+* \*\*\*\*[**Journal articles**](journal-references.md)\*\*\*\*
+* \*\*\*\*[**Preprints**](preprint-references.md)\*\*\*\*
+* \*\*\*\*[**Reports**](report-references.md)\*\*\*\*
+* \*\*\*\*[**Software**](software-references.md)\*\*\*\*
+* \*\*\*\*[**Theses**](thesis-references.md)\*\*\*\*
 
 
 
