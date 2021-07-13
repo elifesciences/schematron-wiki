@@ -154,7 +154,7 @@ In the Discussion we now say: “Blah, blah, blah. \[...\] Blah de blah, blah”
 * Hyphens \(-\) are changed to dashes \(–\) when appropriate.
 * "MS" is changed to "manuscript".
 * Obvious spelling errors are corrected.
-* Check for any images which are reproduced
+* Check for any images which are reproduced.
 
 {% hint style="info" %}
 Ed office will flag any reproduced images to Production, and won't upload the DL. If the image will require permissions tagging, Production will then place the article on hold in Kriya \(so that the article is not automatically sent out to the authors\). After it's been placed on hold the DL can be loaded, and the Production team can send the article to the production vendors, as appropriate.
@@ -472,7 +472,7 @@ Note how all the files are inside a folder called `elife-54591`. This would be t
 
 ## Kitchen sink Decision letter zip
 
-A 'Kitchen sink' decision letter zip can be found here - [**https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test\_data/elife-00666.zip**](https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test_data/elife-00666.zip). This contains all the kinds of content we can expect in Decision letters, and how to capture them in the word file so that they are converted and sent correctly.
+A 'Kitchen sink' decision letter zip can be found here - [**https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test\_data/elife-00666.zip**](https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test_data/elife-00666.zip). This contains all the kinds of content we can expect in Decision letters, and how to capture them in the Word file so that they are converted and sent correctly.
 
 ## How are Decision letters and Author responses loaded?
 
@@ -576,7 +576,7 @@ The following tests are run on Decision Letters and Author responses.
 
 **Action**: This will fire is a paragraph in a Decision letter or Author response contains the text `</author response` , `</author response>` or similar. This type of pseudo-code is included in the original Word document by the eLife editorial team as flags for the decision-letter-parser to correctly recognise what a certain object in the document should be captured as. If this text is in the JATS, however, that means that the content has not been correctly recognised by the parser. The production vendors should flag this error with the eLife production team.
 
-The eLife production team should check the original word file, in order to determine how this should have been captured, and act accordingly \(it may be that you just have to remove the superfluous text, or it may be the case that an author response image or table needs to be added, in which case the production vendors will have to make this change\). It is also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
+The eLife production team should check the original Word file, in order to determine how this should have been captured, and act accordingly \(it may be that you just have to remove the superfluous text, or it may be the case that an author response image or table needs to be added, in which case the production vendors will have to make this change\). It is also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reply-test-6
 
@@ -584,7 +584,7 @@ The eLife production team should check the original word file, in order to deter
 
 **Action**: This will fire is a paragraph in a Decision letter or Author response contains text such as `<italic>` or `</author response image title>` or  similar. This type of pseudo-code is included in the original Word document by the eLife editorial team as flags for the decision-letter-parser to correctly recognise what a certain object in the document should be captured as. If this text is in the JATS, however, that means that the content has not been correctly recognised by the parser. The production vendors should flag this error with the eLife production team.
 
-The eLife production team should check the original word file, in order to determine how this should have been captured, and act accordingly \(it may be that you just have to remove the superfluous text, or it may be the case that an author response image or table needs to be added, in which case the production vendors will have to make this change\). It is also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
+The eLife production team should check the original Word file, in order to determine how this should have been captured, and act accordingly \(it may be that you just have to remove the superfluous text, or it may be the case that an author response image or table needs to be added, in which case the production vendors will have to make this change\). It is also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-front-test-1
 
