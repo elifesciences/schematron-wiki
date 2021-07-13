@@ -201,7 +201,23 @@ eLife permits references to the following items, for which type-specific guidanc
 
 **Action**:
 
+#### duplicate-ref-test-1
 
+**Error**: _ref 'XXXXXX' has the same doi as another reference, which is incorrect. Is it a duplicate?_
+
+**Action**:
+
+#### duplicate-ref-test-2
+
+**Warning**: _ref 'XXXXXX' has the same doi as another reference, which might be incorrect. If they are not different chapters from the same book, then this is incorrect._
+
+**Action**:
+
+#### duplicate-ref-test-3
+
+**Warning**: _ref 'XXXXXX' has the same title and source as another reference, which is almost certainly incorrect - 'XXXXXX', 'XXXXXX'._
+
+**Action**:
 
 #### duplicate-ref-test-4
 
@@ -212,6 +228,12 @@ eLife permits references to the following items, for which type-specific guidanc
 ![](../../../.gitbook/assets/screenshot-2020-06-12-at-09.39.00.png)
 
 ![](../../../.gitbook/assets/screenshot-2020-06-12-at-09.39.52.png)
+
+#### duplicate-ref-test-6
+
+**Error**: _ref 'XXXXXX' has a doi which is the same as the article itself 'XXXXXX' which must be incorrect._
+
+**Action**:
 
 ### XML structure warnings
 
