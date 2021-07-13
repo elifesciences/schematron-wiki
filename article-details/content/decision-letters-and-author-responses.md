@@ -51,6 +51,8 @@ Decision letters and Author responses are collated from the peer review correspo
 
 A Macro is run on the content which normalises it \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This resultant word document is then QC'd by Ed Office, and uploaded to the S3 bucket.
 
+## Decision letter QC
+
 ### Creating Decision letters
 
 1. The DL is selected from the [**DL tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1oy8TIwsedSYdy6n3_SFuqUcJ4Ljeg7tXnTS6q2CsNI8/edit#gid=0).
@@ -68,6 +70,20 @@ A Macro is run on the content which normalises it \(italicises certain words and
 6. After the content is pasted into the document, tracked changes are turned on, and the following amendments are made:
 
 * The opening paragraph is changed to read correctly for the number of reviewers and editors identity.
+
+{% hint style="info" %}
+Here are the common options:
+
+1. ...has been reviewed by three peer reviewers, including X as the Reviewing Editor and Reviewer \#1, and the evaluation has been overseen by a Senior Editor. \[if the BRE has agreed to reveal their names\]   .
+2. …. has been reviewed by three peer reviewers, one of whom is a member of our Board of Reviewing Editors, and the evaluation has been overseen by a Senior Editor. \[if the BRE did NOT disclose their identity\].
+3. ...reviewed by a Senior Editor, a Reviewing Editor, and three reviewers. \[when the Reviewing Editor ISN’T one of the three reviewers\]   .
+4. ...reviewed by a Senior Editor, a Reviewing Editor, and two reviewers. \[when the Reviewing editor ISN’T one of the two reviewers\]   .
+
+If the Reviewing Editor decided to share their identity, the respective sentence should be edited to say: 
+
+> Your article has been reviewed by three peer reviewers, including X as the Reviewing Editor and Reviewer \#1, and the evaluation has been overseen by a Senior Editor.
+{% endhint %}
+
 * Any mention of timeframe for submitting a revision i.e. “We hope you will submit within 2 months” is removed, but anything which refers to the eLife Covid-19 policy is left in.
 * If Essential revision or Summary are all in capitals they are changed to sentence case.
 * “\(General assessment…..\)” is removed after the reviewer heading. If the article is a Public Review article the reviewer headings should be titled “Reviewer \#1 \(Recommendations for the authors\):”
@@ -78,18 +94,9 @@ A Macro is run on the content which normalises it \(italicises certain words and
 
 8. The next version of the manuscript in eJP \(i.e. R1\) is opened and in the section 'Response to reviewers', each response is pasted under the relevant section in the document. 
 
+9. The first 2 opening paragraphs of the decision letter are removed from the author response, and if there is no response to the acceptance summary, this is removed from the response as well.
 
-
-
-
-
-
-## Decision letter QC
-
-Editorial office carry out a series of on Decision letters.
-
-### General formatting
-
+{% hint style="info" %}
 In the Author response, the original comments from the editor/reviewers are in italics whereas the author replies are not:
 
 > **Decision letter**
@@ -123,19 +130,27 @@ In the Author response, the original comments from the editor/reviewers are in i
 > _Text, text, text_
 >
 > Response, response, response
+{% endhint %}
 
-### Editor/Reviewer details
+10. Once all of these are added, tracked changes are turned back on and the macro is run. After that has finished running the following edits are made:
 
-If needed, correct the sentence about the number of reviewers. Here are the common options:
-
-1. ...has been reviewed by three peer reviewers, including X as the Reviewing Editor and Reviewer \#1, and the evaluation has been overseen by a Senior Editor. \[if the BRE has agreed to reveal their names\]   .
-2. …. has been reviewed by three peer reviewers, one of whom is a member of our Board of Reviewing Editors, and the evaluation has been overseen by a Senior Editor. \[if the BRE did NOT disclose their identity\].
-3. ...reviewed by a Senior Editor, a Reviewing Editor, and three reviewers. \[when the Reviewing Editor ISN’T one of the three reviewers\]   .
-4. ...reviewed by a Senior Editor, a Reviewing Editor, and two reviewers. \[when the Reviewing editor ISN’T one of the two reviewers\]   .
-
-If the Reviewing Editor decided to share their identity, the respective sentence should be edited to say: 
-
-> Your article has been reviewed by three peer reviewers, including X as the Reviewing Editor and Reviewer \#1, and the evaluation has been overseen by a Senior Editor.
+* Any reference to a Movie is changed to Video. 
+* References - if the decision letter or author response contains a numbered or unnumbered reference list this is included at the end of the document under the heading “References”. No formatting changes are required, but any endnote formatting is removed.
+* _eLife_ is capitalised correctly and italicised.
+* Species names are italicised and latin phrases are made roman. The macro should pick most of these up.
+* Super/subscript is added where appropriate. The macro will pick some of these up. 
+* Replace hyphens with en dashes where they don’t concatenate a word.
+* Add in Greek symbols where appropriate, i.e., where a should be α, or b should be β. \(Macro should pick most up\)
+* Language/comments that could be construed as inappropriate or offensive.
+* Where words in the title are wrapped in &lt;i&gt; tags, remove the tags and italicize the text.
+* Where words are marked with asterisks or capitalised for emphasis, please replace and italicise them instead.
+* If there are equations, please check that they are editable, and re-type if necessary.
+* Long quotations can be abbreviated using ellipses, e.g.,,  In the
+* Discussion we now say: “Blah, blah, blah. \[...\] Blah de blah, blah”
+* Change hyphens \(-\) to dashes \(–\) but not to semi colons \(;\)  A good use of hyphens is: well-known actor \(leave as is\)
+* MS should be changed to read manuscript
+* Obvious spelling errors can be corrected
+* Ensure if you split a paragraph in the Author response section that you capitalise the start of the newly created paragraph.
 
 ### General checks
 
