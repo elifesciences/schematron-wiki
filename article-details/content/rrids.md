@@ -8,14 +8,14 @@ A condition of publication at eLife is that authors must make the materials and 
 
 Here are some example RRIDs:
 
-* Antibody: [**RRID:AB\_2178887**](https://scicrunch.org/resolver/RRID:AB_2178887)\*\*\*\*
-* Model organism: [**RRID:MGI:3840442**](https://scicrunch.org/resolver/RRID:MGI:3840442)\*\*\*\*
-* Cell line: [**RRID:CVCL\_1H60**](https://scicrunch.org/resolver/RRID:CVCL_1H60)\*\*\*\*
-* Tools: [**RRID:SCR\_007358**](https://scicrunch.org/resolver/RRID:SCR_007358)\*\*\*\*
+* Antibody: [**RRID:AB\_2178887**](https://identifiers.org/RRID/RRID:AB_2178887)\*\*\*\*
+* Model organism: [**RRID:MGI:3840442**](https://identifiers.org/RRID/RRID:MGI:3840442)\*\*\*\*
+* Cell line: [**RRID:CVCL\_1H60**](https://identifiers.org/RRID/RRID:CVCL_1H60)\*\*\*\*
+* Tools: [**RRID:SCR\_007358**](https://identifiers.org/RRID/RRID:SCR_007358)\*\*\*\*
 
 ## What needs to be checked?
 
-RRIDs are most commonly listed in the key resources table but can also appear in the main text of an article. They should be displayed in the format 'RRID:XXXXXX' where XXXXXX is the unique RRID as described above, and there is no space between the colon and the ID. Each RRID should also be hyperlinked to its respective entry in SciCrunch. To find the entry, search for the RRID using the [**SciCrunch resolver**](https://scicrunch.org/resolver) ****and use the resulting URL to add a hyperlink to the RRID. Alternatively, add the provided ID string to the end of 'https://scicrunch.org/resolver/' - for example, if the RRID is 'RRID:AB\_217', the link can be generated as follows: https://scicrunch.org/resolver/RRID:AB\_2178887. Check the link goes to the correct resource once the hyperlink has been added. If the authors have provided an RRID that does not resolve, leave the following query:
+RRIDs are most commonly listed in the key resources table but can also appear in the main text of an article. They should be displayed in the format 'RRID:XXXXXX' where XXXXXX is the unique RRID as described above, and there is no space between the colon and the ID. Each RRID should also be hyperlinked to its respective entry in SciCrunch. To find the entry, search for the RRID using the [**SciCrunch resolver**](https://scicrunch.org/resolver) ****and use the resulting URL to add a hyperlink to the RRID. Alternatively, add the provided ID string to the end of 'https://identifiers.org/RRID/RRID:' - for example, if the RRID is 'RRID:AB\_217', the link can be generated as follows: https://identifiers.org/RRID/RRID:AB\_2178887. Check the link goes to the correct resource once the hyperlink has been added. If the authors have provided an RRID that does not resolve, leave the following query:
 
 * This RRID does not resolve. Please check and provide the correct ID.
 
@@ -27,7 +27,7 @@ These checks relate to RRIDs. X or XXXXXX refers to quoted text which will chang
 
 #### rrid-test
 
-**Warning**: _'XXXXXX' element contains what looks like XXXXXX unlinked RRID\(s\). These should always be linked using '_[https://scicrunch.org/resolver/](https://scicrunch.org/resolver/)_'. Element begins with XXXXXX._
+**Warning**: _'XXXXXX' element contains what looks like XXXXXX unlinked RRID\(s\). These should always be linked using '_https://identifiers.org/RRID/RRID:_'. Element begins with XXXXXX._
 
 **Action:** This warning will fire if there is text that looks like an RRID that isn't hyperlinked to a SciCrunch URL. For example if the text 'RRID:SCR\_003070' is appearing in plain text, this should be corrected. Search for the RRID using the [**SciCrunch resolver**](https://scicrunch.org/resolver) ****and use the resulting URL to add a hyperlink to the RRID.
 
