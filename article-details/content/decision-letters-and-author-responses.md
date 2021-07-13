@@ -172,7 +172,7 @@ When jpegs turn out to be too small and with reduced quality, a good solution is
 
 #### Decision letter images
 
-Decision letter images should be added to the Word doc in the following way:
+Decision letter images should be added to the Word doc in the following way \(the yellow highlighting should also be added in the document itself\):
 
 ![](../../.gitbook/assets/screenshot-2020-12-01-at-09.02.15.png)
 
