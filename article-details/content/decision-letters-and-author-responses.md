@@ -63,7 +63,7 @@ A Macro is run on the content which normalises it \(italicises certain words and
 
 3. In eJP, the accepted version of the manuscript is opened, and the Acceptance summary from the 'Decision Summary' section is copied into the template document under the Acceptance Summary heading. If there is no Acceptance Summary the heading is removed from the letter. The summary itself is proofread for typos/grammar/spelling.
 
-4. Next, the full submission version of the manuscript \(i.e. R0\) is opened in eJP. The decision letter \(in the Decision Summary section\) is copied from "Thank you…" to the end of Major comments. In other words, the minor comments are not included. All major comments are included. This text is copied into the template file under "Decision letter".
+4. Next, the full submission version of the manuscript is opened in eJP. The decision letter \(in the Decision Summary section\) is copied from "Thank you…" to the end of Major comments. In other words, the minor comments are not included. All major comments are included. This text is copied into the template file under "Decision letter".
 
 5. The [**Public Review tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd_STqhP7x0/edit#gid=0) is then checked, to see if the preprint has public reviews. If it does \(the article is present in that spreadsheet\), then the links in the preamble at the top of that template are edited to the specific Sciety and preprint links. If there is no public review for the article, then the preamble \(including the '**Preamble**' heading\) is removed. When the decision letter is processed by the elife-bot, the default template text will be instead added to the beginning of the decision letter. 
 
@@ -92,7 +92,7 @@ If the Reviewing Editor decided to share their identity, the respective sentence
 
 7. Once all changes are made, tracked changes are turned off and all the text is copied and pasted into the Author response. Then all that text is italicised. These serve as the quotes from the Decision letter that the authors respond to. 
 
-8. The next version of the manuscript in eJP \(i.e. R1\) is opened and in the section 'Response to reviewers', each response is pasted under the relevant section in the document. 
+8. The next version of the manuscript \(after full sub\) in eJP is opened and in the section 'Response to reviewers', each response is pasted under the relevant section in the document. 
 
 9. The first 2 opening paragraphs of the decision letter are removed from the author response, and if there is no response to the acceptance summary, this is removed from the response as well.
 
