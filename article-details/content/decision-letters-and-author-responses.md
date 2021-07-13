@@ -164,7 +164,7 @@ Ed office will flag any reproduced images to Production, and won't upload the DL
 
 ### Images
 
-Images should be captured as separate `.jpg` files \(see below for formatting in Word doc for images\). For images in PDFs, in Reader, take a snap shot, paste in Paint \(or similar\) and save as `.jpg`. For images in Word, right click, save as `.jpg`.
+Images should be captured as separate `.jpg` files \(see below for formatting in Word doc for images - the images are not included inside the actual Word file\). For images in PDFs, in Reader, take a snap shot, paste in Paint \(or similar\) and save as `.jpg`. For images in Word, right click, save as `.jpg`.
 
 {% hint style="info" %}
 When jpegs turn out to be too small and with reduced quality, a good solution is to enhance the size of the PDF file and take a screenshot of the figures \(Alt+Print Screen in Windows, Command-Shift-4 in OS X\). Please make sure to crop the images as appropriate \(e.g. if the screenshot captures the whole screen\).
