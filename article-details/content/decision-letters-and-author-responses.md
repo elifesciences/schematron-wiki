@@ -49,7 +49,7 @@ The following articles will never have a Decision letter or Author response:
 
 Decision letters and Author responses are collated from the peer review correspondence as indicated above. The eLife Editorial team \(Ed Office\) collate this content \(which may have originally been taken from various sources, e.g. emails, PDFs etc.\) into one Word file. Each Word file contains both the Decision letter and Author response \(provided there _are_ both, which is typical for any research article\).
 
-A Macro is run on the content which normalises it \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This resultant word document is then QC'd by Ed Office, and uploaded to the S3 bucket.
+A Macro is run on the content which normalises it \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This resultant Word document is then QC'd by Ed Office, and uploaded to the S3 bucket.
 
 ## Decision letter QC
 
@@ -164,7 +164,7 @@ Ed office will flag any reproduced images to Production, and won't upload the DL
 
 ### Images
 
-Images should be captured as separate `.jpg` files \(see below for formatting in word doc for images\). For images in PDFs, in Reader, take a snap shot, paste in Paint \(or similar\) and save as `.jpg`. For images in Word, right click, save as `.jpg`.
+Images should be captured as separate `.jpg` files \(see below for formatting in Word doc for images\). For images in PDFs, in Reader, take a snap shot, paste in Paint \(or similar\) and save as `.jpg`. For images in Word, right click, save as `.jpg`.
 
 {% hint style="info" %}
 When PNGs turn out to be too small and with reduced quality, a good solution is to enhance the size of the PDF file and take a screenshot of the figures \(Alt+Print Screen in Windows, Command-Shift-4 in OS X\). Please make sure to crop the images as appropriate \(e.g. if the screenshot captures the whole screen\).
@@ -172,11 +172,11 @@ When PNGs turn out to be too small and with reduced quality, a good solution is 
 
 #### Decision letter images
 
-Decision letter images should be added to the word doc in the following way:
+Decision letter images should be added to the Word doc in the following way:
 
 ![](../../.gitbook/assets/screenshot-2020-12-01-at-09.02.15.png)
 
-If there is no title or legend, the the full stop in the tag must be present in order for the label to be correctly captured.
+If there is no title or legend, the full stop in the tag must be present in order for the label to be correctly captured.
 
 Any titles or legends should be placed after a `<Decision letter image 1 title/legend>` tag \(which is also yellow highlighted\) and bolded text containing the label for that image \(for example, **Decision letter image 1.** - note that the full stop should be present\). It should then end with a `</Decision letter image 1 title/legend>` tag \(see also image for Author response legends [**below**](decision-letters-and-author-responses.md#author-response-images)\). 
 
@@ -194,7 +194,7 @@ Any titles or legends should be placed after a `<Author response image 1 title/l
 
 ### Tables
 
-Table can be included in the word document. They must be preceded by their label which is **formatted in bold**:
+Table can be included in the Word document. They must be preceded by their label which is **formatted in bold**:
 
 ![](../../.gitbook/assets/screenshot-2020-12-01-at-09.05.34.png)
 
@@ -222,7 +222,7 @@ Decision letters for articles received from Review Commons should be prepped as 
 
 ### Reviews from other journals
 
-If an article has reviews from other Journals, and the editors would like to include comments from them in the peer review material, there will be a red sticky in eJP indicating as such. The comments should be placed at the end of the Author response with the appropriate Editor note.
+If an article has reviews from other journals, and the editors would like to include comments from them in the peer review material, there will be a red sticky in eJP indicating as such. The comments should be placed at the end of the Author response with the appropriate Editor note.
 
 Examples can be found here:
 
@@ -472,7 +472,7 @@ Note how all the files are inside a folder called `elife-54591`. This would be t
 
 ## Kitchen sink Decision letter zip
 
-A 'Kitchen sink' decision letter zip can be found here - [**https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test\_data/elife-00666.zip**](https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test_data/elife-00666.zip). This contains all the kinds of content we can expect in Decision letters, and how to capture them in the Word file so that they are converted and sent correctly.
+A 'Kitchen sink' Decision letter zip can be found here - [**https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test\_data/elife-00666.zip**](https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test_data/elife-00666.zip). This contains all the kinds of content we can expect in Decision letters, and how to capture them in the Word file so that they are converted and sent correctly.
 
 ## How are Decision letters and Author responses loaded?
 
@@ -485,12 +485,12 @@ Any assets \(such as figures, and videos\) are placed on an FTP for the producti
 Any figures are automatically included in the article in Kriya \(due to them being placed on the FTP\). However, any videos will need to be processed manually, since they require uploading to the Glencoe FTP, along with accompanying requisite metadata.
 
 {% hint style="info" %}
-Reloading a Decision letter is as simple as downloading the zip file from the `elife/decision-letter-input` aws bucket and then re-uploading it \(which will overwrite the file\).
+Reloading a Decision letter is as simple as downloading the zip file from the `elife/decision-letter-input` AWS bucket and then re-uploading it \(which will overwrite the file\).
 {% endhint %}
 
 ## Decision letter workflow
 
-eLife production will be made aware of any Decision letters being loaded by an automated email appearing in the Production Inbox. Certain actions may be required depending on whether the email indicates that the Decision Letter was posted successfully or not \(see also [**Decision letter loading**](../../toolkit/managing-production-queries.md#decision-letter-loading) for more information on how to handle this email\). In the event that a Decision letter/Author response contains videos, Ed Office will inform Production prior to uploading, see [**below**](decision-letters-and-author-responses.md#dl-with-author-response-videos) on what to do when this occurs. 
+eLife production will be made aware of any Decision letters being loaded by an automated email appearing in the Production Inbox. Certain actions may be required depending on whether the email indicates that the Decision letter was posted successfully or not \(see also [**Decision letter loading**](../../toolkit/managing-production-queries.md#decision-letter-loading) for more information on how to handle this email\). In the event that a Decision letter/Author response contains videos, Ed Office will inform Production prior to uploading, see [**below**](decision-letters-and-author-responses.md#dl-with-author-response-videos) on what to do when this occurs. 
 
 ### The Decision letter was posted successfully
 
@@ -516,7 +516,7 @@ There are two cases here either a success email was received, but the Decision l
 
 ![An example of a Decision letter failure email](../../.gitbook/assets/screenshot-2020-07-20-at-17.26.28.png)
 
-A decision letter may fail to load for the following reasons:
+A Decision letter may fail to load for the following reasons:
 
 * Kriya is down \(we should still receive a success email\).
 * The article has not yet been sent to Kriya \(we will receive a success email for this - not a failure one\). The decision letter should be reloaded once the article has been loaded to Kriya - this can be done by downloading and then re-uploading the zip on the AWS bucket \(`decision-letter-input`\).
@@ -544,9 +544,11 @@ See below for the workflow
 ## General guidance for Decision letter proofing queries
 
 * Acceptance summaries aren't strictly compulsory, but are strongly encouraged.
-* Articles accepted at full submission will not include a 'Your article has been reviewed by ...' introduction paragraph in the decision letter.
+* Articles accepted at full submission will not include a 'Your article has been reviewed by ...' introduction paragraph in the Decision letter.
 * We include peer review information, for example that the decision was appealed.
 * We tend to retain the original/previous article titles, as the changes are often at the behest of the editors and so should be included in the decision letter \(references to these changes are not essential, but would be nice\).
+* We tend to retain the original figure/asset numbering from various steps of revision, rather than updating them to the current numbering in the proofs. However if the authors request that these are updated during proofing, then this is fine to do, provided they indicate to the Production team what needs changing.
+* With the exception of Decision letter and Author response assets, figures/assets and citations are not linked in the Decision letter.
 * Usual best practice is to not change what the editors wrote.
 * Any missing information \(such as missing characters\) can be queried with Editorial Office, since they will have access to the original files.
 * Articles reviewed by Review commons will only have an acceptance summary as the Decision letter. The Author response will still contain responses to specific points however.
@@ -665,19 +667,19 @@ In order to determine which of these is the case, the production vendors should 
 
 **Error**: _author response doesn't contain a p. This has to be incorrect._
 
-**Action**: This warning indicates that there is either no content in the Author response, or that the content has been captured incorrectly. If the content is missing, eLife Production should check the original word document to see if it's also missing from there \(if it is, query with Editorial\). If there is content in the original, add this content into Kriya. If there is content present in Kriya, this means that something has gone wrong with the XML generation and the production vendors will have to fix this.
+**Action**: This warning indicates that there is either no content in the Author response, or that the content has been captured incorrectly. If the content is missing, eLife Production should check the original Word document to see if it's also missing from there \(if it is, query with Editorial\). If there is content in the original, add this content into Kriya. If there is content present in Kriya, this means that something has gone wrong with the XML generation and the production vendors will have to fix this.
 
 #### reply-missing-disp-quote-test-1
 
 **Warning**: _para in author response is entirely in italics, but not in a display quote. Is this a quote which has been processed incorrectly?_
 
-**Action**: In the original word document \(which the XML is generated from\) quotations in the Author response are captured entirely in italics \(as an indicator that they are quotations\). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision letter quote since the content, in part or in its entirety, will also be present in the Decision letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya. If it is not a quote from the Decision letter, and the text was italic in the original word document, then the text should be left as italics \(a relatively common use-case is quoting from the article itself, rather than from the Decision letter\).
+**Action**: In the original Word document \(which the XML is generated from\) quotations in the Author response are captured entirely in italics \(as an indicator that they are quotations\). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision letter quote since the content, in part or in its entirety, will also be present in the Decision letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya. If it is not a quote from the Decision letter, and the text was italic in the original Word document, then the text should be left as italics \(a relatively common use-case is quoting from the article itself, rather than from the Decision letter\).
 
 #### reply-missing-disp-quote-test-2
 
 **Warning**: _A long piece of text is in italics in an Author response paragraph. Should it be captured as a display quote in a separate paragraph? 'XXXXXX' in 'XXXXXX'_
 
-**Action**: In the original word document \(which the XML is generated from\) quotations in the Author response are captured entirely in italics \(as an indicator that they are quotations\). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision letter quote since the content, in part or in its entirety, will also be present in the Decision letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya. If it is not a quote from the Decision letter, and the text was italic in the original word document, then the text should be left as italics \(a relatively common use-case is quoting from the article itself, rather than from the Decision letter\).
+**Action**: In the original Word document \(which the XML is generated from\) quotations in the Author response are captured entirely in italics \(as an indicator that they are quotations\). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision letter quote since the content, in part or in its entirety, will also be present in the Decision letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya. If it is not a quote from the Decision letter, and the text was italic in the original Word document, then the text should be left as italics \(a relatively common use-case is quoting from the article itself, rather than from the Decision letter\).
 
 #### decision-missing-table-test
 
@@ -690,7 +692,7 @@ In order to determine which of these is the case, the production vendors should 
 
 If this has been flagged **after** author proofing then:
 
-* If there is no table, then the word document should be sent to the production vendors so that they can include it. \(This has to be done because the author may have made changes to the author response which would be overwritten if the decision letter was reposted.\)
+* If there is no table, then the Word document should be sent to the production vendors so that they can include it. \(This has to be done because the author may have made changes to the author response which would be overwritten if the decision letter was reposted.\)
 * If this is flagged after author proofing, and the table is present without a label, then the production vendors should be asked to label the table.
 
 #### reply-missing-table-test
@@ -704,14 +706,14 @@ If this has been flagged **after** author proofing then:
 
 If this has been flagged **after** author proofing then:
 
-* If there is no table, then the word document should be sent to the production vendors so that they can include it. \(This has to be done because the author may have made changes to the author response which would be overwritten if the decision letter was reposted.\)
+* If there is no table, then the Word document should be sent to the production vendors so that they can include it. \(This has to be done because the author may have made changes to the author response which would be overwritten if the decision letter was reposted.\)
 * If this is flagged after author proofing, and the table is present without a label, then the production vendors should be asked to label the table.
 
 #### paper-pile-test
 
 **Error**: _In the XXXXXX the text 'XXXXXX' has an embedded hyperlink to XXXXXX. The hyperlink should be removed \(but the text retained\)._
 
-**Action**: This error will fire for any paperpile links in a Decision Letter or Author response. These links are legacy reference manager links, retained from the original word document. As the message suggests, the link should be removed, but the text retained. The first XXXXXX will indicate whether the problem is in the Decision letter or Author response. The second will be the text, and the third will be the link embedded in the text.
+**Action**: This error will fire for any paperpile links in a Decision Letter or Author response. These links are legacy reference manager links, retained from the original Word document. As the message suggests, the link should be removed, but the text retained. The first XXXXXX will indicate whether the problem is in the Decision letter or Author response. The second will be the text, and the third will be the link embedded in the text.
 
 **unicode-test-1**
 
@@ -1577,6 +1579,6 @@ An example of a Decision letter with figures:
 
 * Updated 2020-10-19 to include decision-missing-table-test, reply-missing-table-test, and paper-pile-test.
 * Updated 2020-11-11 to include the formatting changes that are made prior to upload.
-* Updated 2020-12-01 to include latest guidance on word doc and kitchen sink zip.
+* Updated 2020-12-01 to include latest guidance on Word doc and kitchen sink zip.
 * Updated 2021-03-08 to include boilerplate schematron checks.
 
