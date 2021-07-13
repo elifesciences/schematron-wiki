@@ -412,7 +412,7 @@ The string `C:\Users\Maria\Dropbox\Decision letters and author responses_Macro\F
 
 ![](https://lh5.googleusercontent.com/upkar0tbk0A4urIs3ZiuWb1HrJbnjP9ILK4XS9H5_KS6CdlHSiHhMWaD8VYZOW9UzayrXy9qwHujc_hkSJ8-Fz5pkluhWdFeRt5Je_amZ4vDLtHf6FBNOKOcF1vOt6tV_bUaHQQ)
 
-* Close the macro window and word. The macro has not been set up.
+* Close the macro window and word. The macro has been set up.
 
 ### How to run the macro
 
