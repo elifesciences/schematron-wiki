@@ -138,65 +138,29 @@ In the Author response, the original comments from the editor/reviewers are in i
 * References - if the decision letter or author response contains a numbered or unnumbered reference list this is included at the end of the document under the heading “References”. No formatting changes are required, but any endnote formatting is removed.
 * _eLife_ is capitalised correctly and italicised.
 * Species names are italicised and latin phrases are made roman. The macro should pick most of these up.
-* Super/subscript is added where appropriate. The macro will pick some of these up. 
-* Replace hyphens with en dashes where they don’t concatenate a word.
-* Add in Greek symbols where appropriate, i.e., where a should be α, or b should be β. \(Macro should pick most up\)
-* Language/comments that could be construed as inappropriate or offensive.
-* Where words in the title are wrapped in &lt;i&gt; tags, remove the tags and italicize the text.
-* Where words are marked with asterisks or capitalised for emphasis, please replace and italicise them instead.
-* If there are equations, please check that they are editable, and re-type if necessary.
-* Long quotations can be abbreviated using ellipses, e.g.,,  In the
-* Discussion we now say: “Blah, blah, blah. \[...\] Blah de blah, blah”
-* Change hyphens \(-\) to dashes \(–\) but not to semi colons \(;\)  A good use of hyphens is: well-known actor \(leave as is\)
-* MS should be changed to read manuscript
-* Obvious spelling errors can be corrected
-* Ensure if you split a paragraph in the Author response section that you capitalise the start of the newly created paragraph.
-
-### General checks
-
-* Use TNR point size 12.
-* Reviewer numbers can include hash or not: either is fine but be consistent within the file.
-* Headings are changed to sentence case.
-* Numbered points are changed to a number and a bracket \(e.g. `1.` -&gt; `1)`\).
-* Check for language/comments that could be construed as inappropriate or offensive.
-* Check for any images which are reproduced.
+* Super/subscript is added where appropriate, e.g. Ca2+ → Ca²+. The macro will pick some of these up.
+* Hyphens are replaced with en dashes where they don’t concatenate a word.
+* Greek symbols are added where appropriate, i.e., where a should be α, or b should be β. \(Macro should pick most up\)
+* Language/comments that could be construed as inappropriate or offensive are removed.
+* Where words in the title are wrapped in `<i>` tags, the tags are removed and text is italicised.
+* Where words are marked with asterisks or capitalised for emphasis, they are replaced with italics for emphasis.
+* If there are equations, they are checked if they are editable, and re-typed if necessary.
+* Long quotations are be abbreviated using ellipses:
 
 {% hint style="info" %}
-Ed office to flag any reproduced images to Production, and not upload the DL. If the image will need permissions tagging, Production will then place the article on hold in Kriya \(so that the article is not automatically sent out to the authors\). After it's been placed on hold the DL can be loaded, and the Production team can send the article to the production vendors, as appropriate.
+In the Discussion we now say: “Blah, blah, blah. \[...\] Blah de blah, blah”
 {% endhint %}
 
-* ‘_eLife_’ should be italicised.
-* Species names should be italicized \(where obvious, e.g., _Drosophila_, _D. melanogaster_, _C. elegans_, _E. coli_\)
-* Latin phrases such as ‘in vivo’ or ‘et al’ should not be italicised. 
-* Journal names not italicised.
-* Italicise gene names, where possible. If in doubt, leave what the authors provided.
-* Change to Figure X—figure supplement Y – NOT ‘Figure 1 S1’, ‘Fig 1 supplement 1’ or ‘Figure 1—supplemental figure 1’. Use em dashes.
-* Edit out references to page numbers and replace with appropriate references where possible e.g., section heading or abbreviated quotation. There is no need to include a detailed reference to the paragraph itself \(e.g. “eighth paragraph”\).
+* Hyphens \(-\) are changed to dashes \(–\) when appropriate.
+* "MS" is changed to "manuscript".
+* Obvious spelling errors are corrected.
+* Check for any images which are reproduced
 
 {% hint style="info" %}
-Sometimes it is more beneficial to substitute a reference for a quotation or truncated quote, for instance, when the reviewers or authors allude to a specific sentence in the text. E.g.: “In the last paragraph of the Discussion” -&gt; In the Discussion, the authors state: “\[quote/truncated quote\]”
+Ed office will flag any reproduced images to Production, and won't upload the DL. If the image will require permissions tagging, Production will then place the article on hold in Kriya \(so that the article is not automatically sent out to the authors\). After it's been placed on hold the DL can be loaded, and the Production team can send the article to the production vendors, as appropriate.
 {% endhint %}
 
-* Add in super/sub-scripts where appropriate \(match up decision letter to author response\), e.g. Ca2+ → Ca²+.
-* Replace hyphens with en dashes where they don’t concatenate a word.
-* Add in Greek symbols where appropriate, i.e., where a should be α, or b should be β.
-* Where words in the title are wrapped in `<i>` tags, remove the tags and italicise the text.
-* Where words are marked with asterisks or capitalised for emphasis, replace and italicise them instead.
-* Words italicised in the Decision letter do not need to be reversed to roman in the corresponding portion of text in the Author response, unless they have been used for emphasis.
-* If there are equations, check that they are editable \(an example of an non editable equation is when the equation is actually in an image format\).
-* For long quotations, abbreviate using ellipses, e.g., `In the Discussion we now say: “Blah, blah, blah. [...] Blah de blah, blah”`
 
-### References
-
-Don’t include references from the end of the Author response, unless the authors have used in text numbered referencing \[1-3\] and have these numbered at the end.
-
-Where authors refer to numbered references \[36\] from the main article reference list \[13\], look them up and change to \(Name, year\)
-
-Do not delete the “et al.” abbreviation. 'et al.' should not be italicised.
-
-When the reference lists between one to three authors, include all surnames in the citation: e.g. Sheckman, 2014; Malhotra and Marder, 2015; Schekman, Watt and Weigel, 2012.
-
-When there are four or more authors, write the last name of the first author, followed by et al. whenever you cite the source: e.g. Berger et al., 2015.
 
 ### Images
 
@@ -228,7 +192,7 @@ Any titles or legends should be placed after a `<Author response image 1 title/l
 
 ![](../../.gitbook/assets/screenshot-2020-11-06-at-14.34.13.png)
 
-#### Tables
+### Tables
 
 Table can be included in the word document. They must be preceded by their label which is **formatted in bold**:
 
@@ -240,7 +204,7 @@ Any titles or legends should be placed after a `<Author response table 1 title/l
 
 ![](../../.gitbook/assets/screenshot-2020-12-01-at-09.08.21.png)
 
-#### Videos
+### Videos
 
 Videos should be marked up in the same way as images, but with the word `image` replaced with `video` in the tag.
 
