@@ -142,6 +142,15 @@ In the Author response, the original comments from the editor/reviewers are in i
 * Hyphens are replaced with en dashes where they don’t concatenate a word.
 * Greek symbols are added where appropriate, i.e., where a should be α, or b should be β. \(Macro should pick most up\)
 * Language/comments that could be construed as inappropriate or offensive are removed.
+
+{% hint style="info" %}
+It's context dependent and obviously a judgement call as to what constitutes inappropriate or offensive language, but there are some signals, such as: 
+
+* use of words such as "offensive", "offended", "unprofessional", "rude", "dismissive", "conflict of interest", "shocked", "strongly disagree".
+* use of exclamation marks may be a sign of enthusiasm \(in which case this is okay\) or a sign of an unsavoury disagreement \(in which case the section should be read for context and edited as appropriate\).
+* inappropriate language from either a reviewer or author is more likely in the case of very long decision letters, especially those accepted after one or more rounds of appeal.
+{% endhint %}
+
 * Where words in the title are wrapped in `<i>` tags, the tags are removed and text is italicised.
 * Where words are marked with asterisks or capitalised for emphasis, they are replaced with italics for emphasis.
 * If there are equations, they are checked if they are editable, and re-typed if necessary.
