@@ -47,7 +47,7 @@ The following articles will never have a Decision letter or Author response:
 
 ## How are Decision letters and Author responses created?
 
-Decision letters and Author responses are collated from the peer review correspondence as indicated above. The eLife Editorial team \(Ed Office\) collate this content \(which may have originally been taken from various sources, e.g. emails, PDFs etc.\) into one Word file. Each Word file contains both the Decision letter and Author response \(provided there _are_ both, which is typical for any research article\).
+Decision letters and Author responses are collated from the peer review correspondence as indicated above. Editorial Office collate this content \(which may have originally been taken from various sources, e.g. emails, PDFs etc.\) into one Word file. Each Word file contains both the Decision letter and Author response \(provided there _are_ both, which is typical for any research article\).
 
 A Macro is run on the content which normalises it \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This resultant Word document is then QC'd by Ed Office, and uploaded to the S3 bucket.
 
