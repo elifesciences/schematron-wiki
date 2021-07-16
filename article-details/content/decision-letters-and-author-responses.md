@@ -601,7 +601,7 @@ The eLife production team should check the original Word file, in order to deter
 
 **Warning**: _XXXXXX paragraph contains what might be inflammatory or offensive language. eLife: please check it to see if it is language that should be removed - XXXXXX._
 
-**Action**: This will fire is a paragraph in a Decision letter or Author response contains one or more of the following strings:
+**Action**: This will fire if a paragraph in a Decision letter or Author response contains one or more of the following strings:
 
 * ... offensive ...
 * ... offended ...
