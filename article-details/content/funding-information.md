@@ -5,7 +5,7 @@ description: How to manage funding information for eLife's articles
 # Funding
 
 {% hint style="info" %}
-For the changelog, click [**here**](funding-information.md#changelog). Updated 15/03/2021
+For the changelog, click [**here**](funding-information.md#changelog). Updated 19/07/2021
 {% endhint %}
 
 ## What is the funding section?
@@ -254,6 +254,20 @@ The following tests are run on the funding section. X or XXXXXX refers to quoted
 ### Content checks
 
 These warnings relate to the content of the funding section.
+
+#### test-funding-group-presence
+
+**Error**: _There must be one and only one funding-group element in the article-meta. Currently there are XXXXXX._
+
+**Action:** This error will fire if there is 0 or more than 1 funding statements for an article. If there are no funding statements and the acknowledgements section mentions funding for the work, add the funders into the table, and the funding statement 'The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.' and leave the following author query: 
+
+* We have added the additional funding information from your acknowledgements. Please check the changes to your funding details and confirm they are correct.
+
+If no funders are mentioned, the funding statement should be 'No external funding was received for this work.' If this statement is not already present, please leave the following author query for the authors to confirm that no external funding was received:
+
+* Please confirm whether any funding was received for this work.
+
+If there is more than one funding statement, the Production team may need to liaise with the Editorial team to determine which is correct. 
 
 #### funding-group-test-3
 
@@ -547,5 +561,7 @@ Article with no funding
 
 * Added other-xref-target-test.
 
-\*\*\*\*
+**19/07/2021**
+
+* Added test-funding-group-presence.
 
