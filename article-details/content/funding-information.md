@@ -267,7 +267,7 @@ If no funders are mentioned, the funding statement should be 'No external fundin
 
 * Please confirm whether any funding was received for this work.
 
-If there is more than one funding statement, the Production team may need to liaise with the Editorial team to determine which is correct. 
+If there is more than one funding statement, this suggests something has gone wrong in Kriya. The Production team will need to determine which is the correct statement \(e.g. by comparing the funding statement with the acknowledgements section and funding table or by liaising with the authors\).
 
 #### funding-group-test-3
 
