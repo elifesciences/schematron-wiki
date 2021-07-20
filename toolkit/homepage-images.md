@@ -109,7 +109,17 @@ To do this, follow the steps below.
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-13.32.37.png)
 
-* In the 'Title' field, enter the words that Peter has provided. **Note:** There should be no full stop at the end of the sentence. 
+* In the 'Title' field, enter the words that Peter has provided. 
+
+{% hint style="danger" %}
+There should be no full stop at the end of the sentence.
+{% endhint %}
+
+{% hint style="info" %}
+Italics should be added using `<i>` tags. For example
+
+> This is some text, and here is some &lt;i&gt;italics&lt;/i&gt;
+{% endhint %}
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-13.34.27.png)
 
