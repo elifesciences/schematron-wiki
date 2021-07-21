@@ -46,7 +46,7 @@ Generally, a no-digest article will take \(best case scenario\) 4 days to get to
 
 ### Press articles with related content 
 
-Sometimes co-publishing VoRs will be press-released. In this case, when providing Emily with a date, you should check the status of both articles to find a date that both should be realistically ready for. For VoRs which are being accompanied by an Insight, you must aim for a date which coincides with the due date of the Insight. Emily may have been copied into an email letting her know of the due date \(an example of which is shown below\) or you can consult the \#thisweek channel on Slack to see the due date of the Insight, which will be coordinated with the press publication. 
+Sometimes co-publishing VoRs will be press-released. In this case, when providing Emily with a date, you should check the status of both articles to find a date that both should be realistically ready for. For VoRs which are being accompanied by an Insight, you must aim for a date which coincides with the due date of the Insight. Emily may have been copied into an email letting her know of the Insight's due date \(an example of which is shown [**below**](press-processes.md#press-correspondence)\) or you can consult the \#thisweek channel on Slack where Peter Rogers \(Features Editor\) regularly sends out updates about Insights. Read more about Insights and feature content [**here**](https://elifesciences.gitbook.io/productionhowto/-M1eY9ikxECYR-0OcnGt/article-details/content/feature-content). 
 
 ### Marking articles as press in Kriya 
 
