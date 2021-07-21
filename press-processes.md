@@ -8,7 +8,7 @@ description: >-
 
 ## What is press content? 
 
-In the event that a paper has potentially broad public significance, authors may consider a press release. To coordinate this, they may discuss this with their institutional press officer and then get in touch with eLife directly, or they may be contacted by eLife's Media Relations Manager, Emily Packer. Both PoA and VoR articles can be associated with a press release, which will be written prior to publication, either in-house at eLife, by a freelance writer, or by the author's institution. You can find examples of eLife \(or freelance\)-written press packs ****[**here**](https://elifesciences.org/for-the-press). Press articles at eLife are almost always scheduled for Tuesday publication, but if authors insist on a different press publication date, this might be accommodated. Press content must be prioritised by both the content processors and the Production team. The Production team has a weekly meeting with Emily to schedule and to track the progress of upcoming press articles. 
+In the event that a paper has potentially broad public significance, authors may consider a press release. To coordinate this, they may discuss this with their institutional press officer and then get in touch with eLife directly, or they may be contacted by eLife's Media Relations Manager, Emily Packer. Both PoA and VoR articles can be associated with a press release, which will be written prior to publication, either in-house at eLife, by a freelance writer, or by the author's institution. The Production team has a weekly meeting with Emily to schedule and to track the progress of upcoming press articles. They are almost always scheduled for Tuesday publication, but if authors insist on a different press publication date, this might be accommodated. Press content must be prioritised by both the content processors and the Production team. You can find examples of eLife \(or freelance\)-written press packs ****[**here**](https://elifesciences.org/for-the-press).  
 
 ## Press meetings 
 
@@ -42,7 +42,11 @@ If an article has been marked as getting a digest, you should refer to the [**di
 
 ![Digest tracker displaying the due dates for digests](.gitbook/assets/screenshot-2021-06-30-at-09.38.57.png)
 
-Generally, a no-digest article will take \(best case scenario\) 4 days to get to the author review stage and a week and a half in total to get to publication. If the article is due to reach the author for review on either a Monday or a Tuesday, then it can be scheduled for the following Tuesday. If it's due to go out to the author later in the week, it should be scheduled for the Tuesday of the week after. Sometimes co-publishing VoRs will be press-released. In this case, when providing Emily with a date, you should check the status of both articles. **Put info about insights.** If the article in question has not yet reached Kriya, Emily will make a note to check this in next week's meeting. 
+Generally, a no-digest article will take \(best case scenario\) 4 days to get to the author review stage and a week and a half in total to get to publication. If the article is due to reach the author for review on either a Monday or a Tuesday, then it can be scheduled for the following Tuesday. If it's due to go out to the author later in the week, it should be scheduled for the Tuesday of the week after. If the article in question has not yet reached Kriya, Emily will make a note to check this in next week's meeting. 
+
+### Press articles with related content 
+
+Sometimes co-publishing VoRs will be press-released. In this case, when providing Emily with a date, you should check the status of both articles to find a date that both should be realistically ready for. For VoRs which are being accompanied by an Insight, you must aim for a date which coincides with the due date of the Insight. Emily may have been copied into an email letting her know of the due date \(an example of which is shown below\) or you can consult the \#thisweek channel on Slack to see the due date of the Insight, which will be coordinated with the press publication. 
 
 ### Marking articles as press in Kriya 
 
