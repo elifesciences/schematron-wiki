@@ -34,7 +34,7 @@ When checking the status of press articles, if any of those marked for next Tues
 
 ### Estimate press dates for upcoming articles
 
-Emily will then enquire about the status of potential press articles. To come up with a press date, you can consult the due dates for each article by clicking the 'detailed' section on Kriya 1 \(the calendar icon the top right hand corner of the panel\).
+Emily will then enquire about the status of potential press articles. To come up with a press date, you can consult the due dates for each article by clicking the 'detailed' section on Kriya 1 \(the calendar icon the top right hand corner of the panel\).This is only a rough guide, however, and can be used alongside consulting the notes on Kriya and email correspondence. You will need to allow more time if there has been communication with the author that indicates a delay. 
 
 ![&apos;Detailed&apos; section on Kriya 1](.gitbook/assets/screenshot-2021-06-30-at-09.17.19.png)
 
@@ -42,11 +42,11 @@ If an article has been marked as getting a digest, you should refer to the [**di
 
 ![Digest tracker displaying the due dates for digests](.gitbook/assets/screenshot-2021-06-30-at-09.38.57.png)
 
-If the article is due to reach Author Review on either a Monday or a Tuesday, then it can be scheduled for the following Tuesday. If it's due to go out to the author later in the week, it should be scheduled for the following Tuesday. For instance, in the screenshot above, the proof goes out to the authors on a Wednesday \(7th July\), so should be scheduled for the next week's Tuesday \(20th July\). You will need to allow more time, however, if there has been communication with the author that indicates a delay. Sometimes co-publishing VoRs will be press-released. In this case, when providing Emily with a date, you should check the status of both articles. If the article in question has not yet reached Kriya, Emily will make a note to check this in next week's meeting. 
+Generally, a no-digest article will take \(best case scenario\) 4 days to get to the author review stage and a week and a half in total to get to publication. If the article is due to reach the author for review on either a Monday or a Tuesday, then it can be scheduled for the following Tuesday. If it's due to go out to the author later in the week, it should be scheduled for the Tuesday of the week after. Sometimes co-publishing VoRs will be press-released. In this case, when providing Emily with a date, you should check the status of both articles. **Put info about insights.** If the article in question has not yet reached Kriya, Emily will make a note to check this in next week's meeting. 
 
 ### Marking articles as press in Kriya 
 
-Emily will supply you with a date and time for a prospective press article. The times vary from article to article, usually due to the corresponding authors institutional time zone. Press articles can be marked in Kriya 2 by clicking on the relevant article and then the pen and paper icon next to 'Press Release Date'. You can then choose a date and time. You must specify whether this date is confirmed by selecting from the drop-down menu next to 'Confirmed'. 
+Emily will supply you with a date and time for a prospective press article. The times vary from article to article, usually due to the corresponding author's time zone. Press articles can be marked in Kriya 2 by clicking on the relevant article and then the pen and paper icon next to 'Press Release Date'. You can then choose a date and time. You must specify whether this date is confirmed by selecting from the drop-down menu next to 'Confirmed'. 
 
 ![Scheduling a press article on Kriya 2](.gitbook/assets/screenshot-2021-06-24-at-15.54.34%20%281%29.png)
 
@@ -56,7 +56,7 @@ On Kriya 1, press articles can be scheduled by clicking the press icon and choos
 
 ## Continuum workflow for press articles 
 
-Sometimes the VoR will catch up with a press-released PoA, and instead the former will take its place for the press release. If this is expected to be the case, Emily does not need to be notified. Before sending the VoR through to Continuum, you do need to un-schedule the PoA. To do this, you locate the relevant article, then press the 'cancel' button. 
+Sometimes the VoR will catch up with a press-released PoA, and instead the former will take its place for the press release. If this is expected to be the case, Emily does not need to be notified. Before sending the VoR through to Continuum, you need to un-schedule the PoA. To do this, you locate the relevant article, then press the 'cancel' button. 
 
 ![PoA article scheduled on Continuum](.gitbook/assets/screenshot-2021-07-14-at-16.15.04.png)
 
@@ -68,7 +68,7 @@ The VoR can then be sent through to Continuum and scheduled as usual. This is do
 
 ### Press enquiries 
 
-Emails arriving in the Production inbox which relate to press content must be categorised as such using the 'Press' Hiver tag. When authors enquire about press, Emily should be copied into the response using the template shown below. It is advisable to take the same course of action when an author enquires about a publication date, as often this means that they are considering press. You will need to provide Emily with an estimated publication date so she can propose a date to them. Emily will then follow up with the authors directly, and let you know when the press date has been confirmed. You can then schedule this on Kriya as outlined [**above**](press-processes.md#marking-articles-in-kriya). 
+Emails arriving in the Production inbox which relate to press content must be categorised as such using the 'Press' Hiver tag. When authors enquire about press, Emily should be copied into the response \(press@elifesciences.org\) using the template shown below. You will need to provide Emily with an estimated publication date so she can propose a date to them. Emily will then follow up with the authors directly, and let you know when the press date has been confirmed. You can then schedule this on Kriya as outlined [**above**](press-processes.md#marking-articles-in-kriya). 
 
 ![Email template in response to press queries](.gitbook/assets/screenshot-2021-06-24-at-15.17.39.png)
 
@@ -80,7 +80,7 @@ The Production team is also copied in to emails from Features to Emily informing
 
 ![](.gitbook/assets/screenshot-2021-07-14-at-16.24.24.png)
 
-In their correspondence relating to press, authors sometimes enquire about embargo periods. In your reply, you can outline that because authors are completely free to release their content ahead of publication and to talk with the media at any stage, we do not release content under embargo, except under exceptional circumstances. Instead, we generally aim to promote an article as widely as possible at the time of publication. You should link to our media policy [**here**](https://elifesciences.org/media-policy)**.** 
+In their correspondence relating to press, authors sometimes enquire about embargo periods. In your reply, you can outline that we do not release content under embargo, except under exceptional circumstances. Authors are completely free to release their content ahead of publication and to talk with the media at any stage. You should link to our media policy [**here**](https://elifesciences.org/media-policy)**.** 
 
 ![Author enquiring about an embargo](.gitbook/assets/screenshot-2021-07-14-at-09.53.52.png)
 
@@ -99,4 +99,12 @@ As can be seen in the screenshot below, the email should clearly list all of the
 If an article still isn't scheduled on Monday afternoon but it has a press time of 12pm or later, depending on the scale of edits still needed, the article may still be able to make its press time. If a press article has not yet been scheduled, but it is expected that it will still make the press date, Emily should be sent a second email at the end of the day updating her on its status. 
 
 ![Email sent to Emily later on Monday, updating her on an outstanding press article](.gitbook/assets/screenshot-2021-06-24-at-16.17.05.png)
+
+## Schematron checks
+
+#### press-pub-date-check
+
+**Warning:** _The publication date for this article is in the future \(XXXX-XX-XX\), but the day of publication is not a Tuesday \(for Press\). Is that correct?_
+
+**Action:** This will fire if the publication date is in the future and is not on a Tuesday. Consult the dashboard in Kriya and/or the [**manuscript tracker**](https://docs.google.com/spreadsheets/d/1TVgTAUijt9pVa_d8TRFcpPvipE31zcgBh0r9M5dFn4Q/edit#gid=2075183460) to check whether the article is marked as press. If so, ensure you have the correct publication date. This will likely be a Tuesday, but there are some exceptions when other days are accommodated. Feature content will also be scheduled in advance for any day of the week. 
 
