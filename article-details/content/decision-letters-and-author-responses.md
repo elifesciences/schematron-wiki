@@ -1617,4 +1617,5 @@ An example of a Decision letter with figures:
 * Updated 2020-11-11 to include the formatting changes that are made prior to upload.
 * Updated 2020-12-01 to include latest guidance on Word doc and kitchen sink zip.
 * Updated 2021-03-08 to include boilerplate schematron checks.
+* Updated 2021-07022 to include more information on the DL creation process.
 
