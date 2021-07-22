@@ -563,6 +563,14 @@ See below for the workflow
 * Articles reviewed by Review commons will only have an acceptance summary as the Decision letter. The Author response will still contain responses to specific points however.
 * We are happy to include the minor comments if the authors wish to.
 
+### Public reviews
+
+Public reviews are reviews that are posted alongside the Preprint for an article. They are posted on the preprint server using hypothesis, and are **distinct** from the Decision letter/Author response.
+
+Authors may wish to add responses to the Public reviews in the Decision Letter/Author response. This is not permitted, as they are separate peer review materials. Any responses to the Public review should be added as an author response \(hypothesis comment\) **to the Public review on the preprint server**.
+
+During revised QC checks, Ed Office flag any responses to the Public review that are sent through in the Author response. These are then removed from the Author response that's added to the article in production.
+
 ## Schematron checks
 
 The following tests are run on Decision Letters and Author responses. 
