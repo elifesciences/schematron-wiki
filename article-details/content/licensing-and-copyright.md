@@ -234,6 +234,24 @@ This will not fire for CC0 articles as these do not have copyright statements. S
 
 **Action**: This error will fire if the copyright statement for the article is incorrect. The copyright statement must be made up of the copyright symbol © followed by the correct copyright year, and the correct copyright holder \(e.g. © 2019, Smith et al\). This test checks whether the contents of the copyright statement match the values indicated in the copyright year and copyright holder fields. If any of these are incorrect, they will need to be fixed by the production vendors. 
 
+#### cc-0-test-1
+
+**Error**: _This is a CC0 licensed article \(XXXXXX\), but there is a copyright-statement \(XXXXXX\) which is not correct._
+
+**Action**: This error will fire if the article is CC0 licensed but has a copyright statement. First check whether the article is **supposed** to be CC0 licensed. Exeter can check the export from eJP, and eLife can check in eJP itself. If it should be CC BY instead, then Exeter will need to update accordingly. If it a CC0 article, then Exeter will need to remove the copyright-statement. 
+
+#### cc-0-test-2
+
+**Error**: _This is a CC0 licensed article \(XXXXXX\), but there is a copyright-year \(XXXXXX\) which is not correct._
+
+**Action**: This error will fire if the article is CC0 licensed but has a copyright year. First check whether the article is **supposed** to be CC0 licensed. Exeter can check the export from eJP, and eLife can check in eJP itself. If it should be CC BY instead, then Exeter will need to update accordingly. If it a CC0 article, then Exeter will need to remove the copyright-year. 
+
+#### cc-0-test-3
+
+**Error**: _This is a CC0 licensed article \(XXXXXX\), but there is a copyright-holder \(XXXXXX\) which is not correct._
+
+**Action**: This error will fire if the article is CC0 licensed but has a copyright holder. First check whether the article is **supposed** to be CC0 licensed. Exeter can check the export from eJP, and eLife can check in eJP itself. If it should be CC BY instead, then Exeter will need to update accordingly. If it a CC0 article, then Exeter will need to remove the copyright-holder. 
+
 #### permissions-test-9
 
 **Error**: _license does not have an @xlink:href which is equal to '_[http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/)_' or '_[http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/)_'._
@@ -559,4 +577,10 @@ These checks relate to the XML structure of licensing tagging.
 #### Changes
 
 * Added [**licensing flowchart**](licensing-and-copyright.md#figure-adaptations-and-reproductions) and clarifications about adding XML. 
+
+### 28/07/2021
+
+#### Changes
+
+* Added CC0 specific tests `cc-0-test-1`, `cc-0-test-2`, and `cc-0-test-3`.
 
