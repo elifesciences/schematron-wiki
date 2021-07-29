@@ -110,5 +110,5 @@ If an article still isn't scheduled on Monday afternoon but it has a press time 
 
 **Warning:** _The publication date for this article is in the future \(XXXX-XX-XX\), but the day of publication is not a Tuesday \(for Press\). Is that correct?_
 
-**Action:** This will fire if the publication date is in the future and is not on a Tuesday. Consult the dashboard in Kriya and/or the [**manuscript tracker**](https://docs.google.com/spreadsheets/d/1TVgTAUijt9pVa_d8TRFcpPvipE31zcgBh0r9M5dFn4Q/edit#gid=2075183460) to check whether the article is marked as press. If so, ensure you have the correct publication date. This will likely be a Tuesday, but there are some exceptions when other days are accommodated. Feature content will also be scheduled in advance for any day of the week. 
+**Action:** This will fire if the publication date is in the future and is not on a Tuesday. Consult the dashboard in Kriya and/or the [**manuscript tracker**](https://docs.google.com/spreadsheets/d/1TVgTAUijt9pVa_d8TRFcpPvipE31zcgBh0r9M5dFn4Q/edit#gid=2075183460) to check whether the article is marked as press. If so, ensure you have the correct publication date. This will likely be a Tuesday, but there are some exceptions when other days are accommodated. Feature content will also be scheduled in advance for any day of the week. Exeter, please ignore this warning. 
 
