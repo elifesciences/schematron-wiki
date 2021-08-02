@@ -271,7 +271,9 @@ Technical questions - Brian Newman \(Brian.Newman@cengage.com\)
 
 \*\*\*\*[**CLOCKSS**](https://clockss.org/) is a dark archive that ensures the long-term preservation of digital scholarly content. This means if eLife stops for any reason, all our published content will become available to any user with internet access via CLOCKSS. 
 
-When deliveries are sent, the Bot also emails the list to: delivery-elife@clockss.org 
+When deliveries are sent, the Bot also emails the list to: delivery-elife@clockss.org.
+
+Documentation on setting up deliveries to CLOCKSS and their requirements can be found [**here**](https://lockss.github.io/clockss-file-transfer-guidelines).
 
 #### Contacts
 
