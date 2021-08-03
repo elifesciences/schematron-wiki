@@ -34,7 +34,7 @@ When checking the status of press articles, if any of those marked for next Tues
 
 ### Estimate press dates for upcoming articles
 
-Emily will then enquire about the status of potential press articles. To come up with a press date, you can consult the due dates for each article by clicking the 'detailed' section on Kriya 1 \(the calendar icon the top right hand corner of the panel\).This is only a rough guide, however, and can be used alongside consulting the notes on Kriya and email correspondence. You will need to allow more time if there has been communication with the author that indicates a delay. 
+Emily will then enquire about the status of potential press articles. To come up with a press date, you can consult the due dates for each article by clicking the 'detailed' section on Kriya 1 \(the calendar icon the top right hand corner of the panel\). This is only a rough guide, however, and can be used alongside consulting the notes on Kriya and email correspondence. You will need to allow more time if there has been communication with the author that indicates a delay. 
 
 ![&apos;Detailed&apos; section on Kriya 1](.gitbook/assets/screenshot-2021-06-30-at-09.17.19.png)
 
