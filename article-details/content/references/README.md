@@ -53,7 +53,7 @@ So, for example, consider the following selection of references:
 
 As you can see, the first author provides the main ordering criterion, followed by the publication date in cases where the first surnames for separate references are the same. In cases where the first surname and date are the same, the second and then third author surnames provide the next level of ordering \(here, Keeley and Soldati are followed by Keeleym Soldati and Smith\).
 
-An additional layer of ordering comes from the necessity of distinguishing references with identical citation details. This refers not to to the reference details themselves but the string that is used to cite them. Consider:
+An additional layer of ordering comes from handling references with identical citations. This refers not to to the reference details themselves but the string that is used to cite them. Consider:
 
 * Keeley A, Soldati D. 2004
 * Keeley A, Soldati D, Smith J, Bloggs M. 2004
