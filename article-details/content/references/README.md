@@ -24,6 +24,7 @@ eLife permits references to the following items, for which type-specific guidanc
 * \*\*\*\*[**Conference papers**](conference-reference.md)\*\*\*\*
 * \*\*\*\*[**Data**](data-references.md)\*\*\*\*
 * \*\*\*\*[**Journal articles**](journal-references.md)\*\*\*\*
+* **Patents**
 * \*\*\*\*[**Preprints**](preprint-references.md)\*\*\*\*
 * \*\*\*\*[**Reports**](report-references.md)\*\*\*\*
 * \*\*\*\*[**Software**](software-references.md)\*\*\*\*
@@ -32,6 +33,12 @@ eLife permits references to the following items, for which type-specific guidanc
 
 
 ## What needs to be checked?
+
+Reference ordering
+
+Combining multiple reference lists
+
+General reference formating
 
 
 
