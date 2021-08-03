@@ -30,8 +30,6 @@ eLife permits references to the following items, for which type-specific guidanc
 * \*\*\*\*[**Software**](software-references.md)\*\*\*\*
 * \*\*\*\*[**Theses**](thesis-references.md)\*\*\*\*
 
-
-
 ## What needs to be checked?
 
 ### Reference ordering
@@ -39,10 +37,50 @@ eLife permits references to the following items, for which type-specific guidanc
 References in eLife are ordered by the following criteria:
 
 * Surname of the first author
-* Date of publication
-* Surname of second, third, etc authors
+* then date of publication
+* then, if necessary, surname of second, third, etc authors
 
-So, for example, 
+So, for example, consider the following selection of references:
+
+* Gilson PR, Nebl T, Vukcevic D, Moritz RL, Sargeant T, Speed TP, Schofield L, Crabb BS. 2006
+* Gilson PR, Crabb BS. 2009
+* Hillringhaus S, Dasanna AK, Gompper G, Fedosov DA. 2019
+* Hillringhaus S, Dasanna AK, Gompper G, Fedosov DA. 2020
+* Hoogerbrugge PJ, Koelman JMVA. 1992
+* Keeley A, Soldati D. 2004
+* Keeley A, Soldati D, Smith J, Bloggs M. 2004
+* Koch M, . 2016
+
+As you can see, the first author provides the main ordering criterion, followed by the publication date in cases where the first surnames for separate references are the same. In cases where the first surname and date are the same, the second and then third author surnames provide the next level of ordering \(here, Keeley and Soldati are followed by Keeleym Soldati and Smith\).
+
+An additional layer of ordering comes from the necessity of distinguishing references with identical citation details. This refers not to to the reference details themselves but the string that is used to cite them. Consider:
+
+* Keeley A, Soldati D. 2004
+* Keeley A, Soldati D, Smith J, Bloggs M. 2004
+
+In the text, these will be cited as 'Keeley and Soldati, 2004' and 'Keeley et al., 2004', respectively, and are therefore easily distinguished. However, if both references were
+
+* Keeley A, Soldati D. 2004
+* Keeley A, Soldati D. 2004
+
+then they would both be cited as  'Keeley and Soldati, 2004'. Similarly, if two or more references included the same first surname and date, with the same or different author lists, e.g.
+
+* Keeley A, Smith J, Baum J. 2004
+* Keeley A, Soldati D, Smith J, Bloggs M. 2004
+* Keeley A, Soldati D, Smith J, Bloggs M. 2004
+
+all of them would be cited as 'Keeley et al., 2004'. In order to prevent confusion, references with identical citation strings are distguished by added a letter to the year. This means the first example becomes
+
+* Keeley A, Soldati D. 2004a
+* Keeley A, Soldati D. 2004b
+
+and the second
+
+* Keeley A, Smith J, Baum J. 2004a
+* Keeley A, Soldati D, Smith J, Bloggs M. 2004b
+* Keeley A, Soldati D, Smith J, Bloggs M. 2004c
+
+resulting in citations of 'Keeley and Soldati, 2004a' and 'Keeley and Soldati, 2004b', and 'Keeley et al., 2004a', 'Keeley et al., 2004b' and 'Keeley et al., 2004c'. The dates are then treated in alphabetical sequence, so '2004b' must appear after '2004a'.
 
 ### Combining multiple reference lists
 
@@ -62,7 +100,7 @@ This will be carried out during initial processing of the article files so there
 
 **Warning**: _reference list usually has a title that is 'References', but currently it is 'XXXXXX' - is that correct?_
 
-**Action**:
+**Action**: This warning indicates that the reference list has a title other than 'References'. This should be corrected to use the standard heading.
 
 #### ref-list-distinct-1
 
