@@ -36,11 +36,19 @@ eLife permits references to the following items, for which type-specific guidanc
 
 ### Reference ordering
 
+References in eLife are ordered by the following criteria:
 
+* Surname of the first author
+* Date of publication
+* Surname of second, third, etc authors
+
+So, for example, 
 
 ### Combining multiple reference lists
 
-In some instances, authors will provide multiple reference lists in their submitted article files. This usually involves a split between the main text and one or more appendices. 
+In some instances, authors will provide multiple reference lists in their submitted article files. This will usually entail providing the reference list for an appendix separately from the reference list for the main text, perhaps because these are in separate documents. In these cases, all the reference lists should be combined and any duplicate entries removed.
+
+This will be carried out during initial processing of the article files so there should be nothing to check 
 
 ### General reference formatting
 
