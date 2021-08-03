@@ -49,7 +49,7 @@ So, for example, consider the following selection of references:
 * Hoogerbrugge PJ, Koelman JMVA. 1992
 * Keeley A, Soldati D. 2004
 * Keeley A, Soldati D, Smith J, Bloggs M. 2004
-* Koch M, . 2016
+* Koch M. 2016
 
 As you can see, the first author provides the main ordering criterion, followed by the publication date in cases where the first surnames for separate references are the same. In cases where the first surname and date are the same, the second and then third author surnames provide the next level of ordering \(here, Keeley and Soldati are followed by Keeleym Soldati and Smith\).
 
