@@ -34,11 +34,15 @@ eLife permits references to the following items, for which type-specific guidanc
 
 ## What needs to be checked?
 
-Reference ordering
+### Reference ordering
 
-Combining multiple reference lists
 
-General reference formating
+
+### Combining multiple reference lists
+
+
+
+### General reference formating
 
 
 
