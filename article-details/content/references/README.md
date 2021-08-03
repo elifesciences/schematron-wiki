@@ -48,7 +48,7 @@ So, for example,
 
 In some instances, authors will provide multiple reference lists in their submitted article files. This will usually entail providing the reference list for an appendix separately from the reference list for the main text, perhaps because these are in separate documents. In these cases, all the reference lists should be combined and any duplicate entries removed.
 
-This will be carried out during initial processing of the article files so there should be nothing to check 
+This will be carried out during initial processing of the article files so there should be nothing to check at the subsequent stages. 
 
 ### General reference formatting
 
