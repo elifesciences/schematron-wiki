@@ -40,7 +40,7 @@ eLife permits references to the following items, for which type-specific guidanc
 
 ### Combining multiple reference lists
 
-
+In some instances, authors will provide multiple reference lists in their submitted article files. This usually involves a split between the main text and one or more appendicies. 
 
 ### General reference formating
 
