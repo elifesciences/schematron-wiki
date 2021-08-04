@@ -42,7 +42,7 @@ If an article has been marked as getting a digest, you should refer to the [**di
 
 ![Digest tracker displaying the due dates for digests](.gitbook/assets/screenshot-2021-06-30-at-09.38.57.png)
 
-Generally, a no-digest article will take \(best case scenario\) 4 days to get to the author review stage and a week and a half in total to get to publication. If the article is due to reach the author for review on either a Monday or a Tuesday, then it can be scheduled for the following Tuesday. If it's due to go out to the author later in the week, it should be scheduled for the Tuesday of the week after. If the article in question has not yet reached Kriya, Emily will make a note to check this in next week's meeting. 
+Generally, the best-case scenario is that a no-digest article will take 4 days to get to the author review stage and a week and a half in total to get to publication. If the article is due to reach the author for review on either a Monday or a Tuesday, then it can be scheduled for the following Tuesday. If it's due to go out to the author later in the week, it should be scheduled for the Tuesday of the week after. If the article in question has not yet reached Kriya, Emily will make a note to check this in next week's meeting. 
 
 ### Press articles with related content 
 
@@ -50,7 +50,7 @@ Sometimes co-publishing VoRs will be press-released. In this case, when providin
 
 ### Marking articles as press in Kriya 
 
-Emily will supply you with a date and time for a prospective press article. The times vary from article to article, usually due to the corresponding author's time zone. Press articles can be marked in Kriya 2 by clicking on the relevant article and then the pen and paper icon next to 'Press Release Date'. You can then choose a date and time. You must specify whether this date is confirmed by selecting from the drop-down menu next to 'Confirmed'. 
+After a date has been agreed, Emily will supply you with a publication time for the prospective press article. The times vary from article to article, usually due to the corresponding author's time zone. Press articles can be marked in Kriya 2 by clicking on the relevant article and then the pen and paper icon next to 'Press Release Date'. You can then choose a date and time. You must specify whether this date is confirmed by selecting from the drop-down menu next to 'Confirmed'. 
 
 ![Scheduling a press article on Kriya 2](.gitbook/assets/screenshot-2021-06-24-at-15.54.34%20%281%29.png)
 
@@ -79,6 +79,18 @@ Emails arriving in the Production inbox which relate to press content must be ca
 The Production team is also copied into emails from both Emily and freelancers to Editorial Office, asking them to put recently accepted articles on hold whilst she looks into potential press, or for them to be scheduled if she has decided on press. You can read more about how to process these emails [**here**](toolkit/managing-production-queries.md#press-emails)**.** 
 
 ![Email requesting that a PoA be put on hold for potential press](.gitbook/assets/screenshot-2021-06-24-at-15.13.34.png)
+
+Once an email comes through from Editorial Office saying that the PoA has indeed been put on hold, you can add it to the [**actions sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit) ****under 'PoAs on hold for possible press'. 
+
+![Actions sheet listing the PoAs that are currently on hold for potential press](.gitbook/assets/screenshot-2021-08-04-at-08.40.20.png)
+
+{% hint style="info" %}
+If you send a VoR to Continuum and notice that it is listed in the 'PoAs on hold for possible press' section, let Editorial Office know that the VoR has caught up. This is to prevent Editorial Office sending the PoA once the VoR has already been scheduled and overwriting it. 
+{% endhint %}
+
+We are also copied into emails asking for Editorial Office to release the hold on certain PoAs previously held for press. This is because either Emily or the freelancers have decided not to do press work on it. The article that has been released can then be deleted from the [**actions spreadsheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit) under the  'PoAs on hold for possible press' heading. 
+
+![](.gitbook/assets/screenshot-2021-08-04-at-08.42.00.png)
 
 The Production team is also copied in to emails from Features to Emily informing her of publication dates for prospective insights, should she want to coordinate a press-release with the related article. 
 
