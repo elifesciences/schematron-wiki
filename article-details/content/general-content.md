@@ -276,7 +276,7 @@ An example of a figure video correctly placed in the fig-group element:
 
 **Error:** _XXXXXX element contains private use character\(s\). They either need removing or changing to the correct character. Private characters:  XXXXXX._
 
-**Action:** This error will appear if a paragraph or table cell contains a character that has a unicode reserved for private use. These characters are not widely supported, and therefore no use within the article; the inclusion of them will cause the article to fail loading to PMC. It's most likely an error when copying/converting the content from the original text format.
+**Action:** This error will appear if a paragraph or table cell contains a character that has a unicode reserved for private use. These characters are not widely supported, and therefore of no use within the article; the inclusion of them will also cause the article to fail loading to PMC. It's almost certainly the result of an error when copying/converting the content from the original text format.
 
-The original intended character will need to be checked \(see [**Decision letters and Author responses**](decision-letters-and-author-responses.md) to see how to get the original documents if the character is within them\). Replace the character with its intended glyph/character or delete, as necessary.
+The original intended character will need to be checked \(see [**Decision letters and Author responses**](decision-letters-and-author-responses.md) to see how to get the original documents if the character is within that content\). Replace the character with its intended glyph/character or delete, as necessary.
 
