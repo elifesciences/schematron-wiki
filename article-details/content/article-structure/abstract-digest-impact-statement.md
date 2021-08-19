@@ -37,6 +37,12 @@ eLife digests explain the findings of eLife papers to a broader audience. They a
 
 ![Position of the digest on the eLife website](../../../.gitbook/assets/screenshot-2021-05-17-at-10.19.24%20%281%29.png)
 
+{% hint style="info" %}
+Linked citations are not allowed in abstracts or digests. However, an unlinked citation must be present in research advances \(citing the article being built upon\).
+{% endhint %}
+
+![An unlinked citation of the earlier work in the abstract of a research advance \(69676\).](../../../.gitbook/assets/screenshot-2021-08-19-at-15.14.34.png)
+
 ## Impact statements
 
 ### What is an impact statement?
@@ -1084,4 +1090,8 @@ This test checks that the `<related-object>` element is located within the abstr
 ### 17/05/2021
 
 * Incorporated abstract and digest information.
+
+### 19/08/2021
+
+* Added info about unlinked citations in research advance abstracts.
 
