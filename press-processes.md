@@ -30,7 +30,7 @@ In Kriya 2, this can be done by selecting the list view and ticking 'Yes' under 
 
 ![Kriya 2 dashboard in list view filtered for &apos;Press release date&apos;](.gitbook/assets/screenshot-2021-06-30-at-10.30.08.png)
 
-When checking the status of press articles, if any of those marked for next Tuesday are still at the Author Review stage, they may not need to be pushed back at this point, and Emily can be updated on these in the [**Press Update email**](press-processes.md#press-update-email) ****on Monday. In the case that we have already corresponded with the authors and they have requested extensive edits and/or second round of review, it may be more appropriate to push the press date to the following Tuesday. 
+When checking the status of press articles, if any of those marked for the upcoming Tuesday are still at the Author Review stage, they may not need to be pushed back at this point, and Emily can be updated on these in the [**Press Update email**](press-processes.md#press-update-email) ****on Monday. However, if we have already corresponded with the authors and they have requested extensive edits and/or a second round of review, the press date should be pushed back by a week. Articles that have passed the Author Review stage should be on track for publication on the upcoming Tuesday unless something goes wrong - if it looks like an article will not make its press date, Emily should be informed via Slack. 
 
 ### Estimate press dates for upcoming articles
 
@@ -46,7 +46,7 @@ Generally, the best-case scenario is that a no-digest article will take 4 days t
 
 ### Press articles with related content 
 
-Sometimes co-publishing VoRs will be press-released. In this case, when providing Emily with a date, you should check the status of both articles to find a date that both should be realistically ready for. For VoRs which are being accompanied by an Insight, you must aim for a date which coincides with the due date of the Insight. Emily may have been copied into an email letting her know of the Insight's due date \(an example of which is shown [**below**](press-processes.md#press-correspondence)\) or you can consult the \#thisweek channel on Slack where Peter Rogers \(Features Editor\) regularly sends out updates about Insights. Read more about Insights and feature content [**here**](https://elifesciences.gitbook.io/productionhowto/-M1eY9ikxECYR-0OcnGt/article-details/content/feature-content). 
+Sometimes co-publishing VoRs will be press-released. In this case, when providing Emily with a date, you should check the status of both articles to find a date that both should be realistically ready for. For VoRs which are being accompanied by an Insight, you must aim for a date which coincides with the due date of the Insight. Emily should have already been copied into an email letting her know of the Insight's due date \(an example of which is shown [**below**](press-processes.md#press-correspondence)\), or you can consult the \#thisweek channel on Slack where Peter Rogers \(Features Editor\) regularly sends out updates about Insights. Read more about Insights and feature content [**here**](https://elifesciences.gitbook.io/productionhowto/-M1eY9ikxECYR-0OcnGt/article-details/content/feature-content). 
 
 ### Marking articles as press in Kriya 
 
@@ -88,7 +88,7 @@ Once an email comes through from Editorial Office saying that the PoA has indeed
 If you send a VoR to Continuum and notice that it is listed in the 'PoAs on hold for possible press' section, let Editorial Office know that the VoR has caught up. This is to prevent Editorial Office sending the PoA once the VoR has already been scheduled and overwriting it. 
 {% endhint %}
 
-We are also copied into emails asking for Editorial Office to release the hold on certain PoAs previously held for press. This is because either Emily or the freelancers have decided not to do press work on it. The article that has been released can then be deleted from the [**actions spreadsheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit) under the  'PoAs on hold for possible press' heading. 
+We are also copied into emails asking for Editorial Office to release the hold on certain PoAs previously held for press. This is because either Emily or the freelancers have decided not to do press work on it. The article that has been released can then be deleted from the 'PoAs on hold for possible press' heading in the [**actions spreadsheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit) . 
 
 ![](.gitbook/assets/screenshot-2021-08-04-at-08.42.00.png)
 
@@ -108,7 +108,7 @@ On Mondays at around 3.30pm, the Production team sends an email to Emily, updati
 
 ![Scheduled press article appearing under the &apos;Scheduled&apos; tab in Continuum](.gitbook/assets/screenshot-2021-06-30-at-12.22.37.png)
 
-As can be seen in the screenshot below, the email should clearly list all of the articles that have been scheduled, specifying the time and date and whether they have any related content such as an Insight. A press article will not be pushed back in the event that its related Insight is not ready. If a related co-publishing VoR is not ready, however, both articles will likely need to be pushed back. It would be advisable to check with the authors as to whether they would like to go ahead with press or wait for the other paper. In the event that any articles need to be pushed back, this should be indicated here, giving a clear reason for the delay so that Emily can inform the authors. 
+As can be seen in the screenshot below, the email should clearly list all of the articles that have been scheduled, specifying the time and date and whether they have any related content such as an Insight. If a press article has a related Insight which is not ready, the article should still be published on the agreed date. If a related co-publishing VoR is not ready, however, both articles will likely need to be pushed back. Emily should be informed of this in the first instance, either via email or Slack. She will then check with the authors or ask Production to do so, to see whether they would like to go ahead with press or wait for the other paper. In the event that any articles need to be pushed back, this should be indicated here, giving a clear reason for the delay so that Emily can inform the authors. 
 
 ![](.gitbook/assets/screenshot-2021-07-14-at-08.46.44.png)
 
