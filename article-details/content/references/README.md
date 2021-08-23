@@ -86,7 +86,7 @@ resulting in citations of 'Keeley and Soldati, 2004a' and 'Keeley and Soldati, 2
 
 In some instances, authors will provide multiple reference lists in their submitted article files. This will usually entail providing the reference list for an appendix separately from the reference list for the main text, perhaps because these are in separate documents. In these cases, all the reference lists should be combined and any duplicate entries removed.
 
-This will be carried out during initial processing of the article files so there should be nothing to check at the subsequent stages. 
+This will be carried out during initial processing of the article files so there usually will not be nothing to check at the subsequent stages. If an appendix is missed or otherwise needs to be added in later, any references included exclusively in that section should be added to the main reference list.
 
 ### General reference formatting
 
