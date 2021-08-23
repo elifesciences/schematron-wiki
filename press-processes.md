@@ -60,11 +60,11 @@ On Kriya 1, press articles can be scheduled by clicking the press icon and choos
 
 ## Continuum workflow for press articles 
 
-Sometimes the VoR will catch up with a press-released PoA, and instead the former will take its place for the press release. If this is expected to be the case, Emily does not need to be notified. Before sending the VoR through to Continuum, you need to un-schedule the PoA. To do this, you locate the relevant article, then press the 'cancel' button. 
+Sometimes the VoR of an article will be ready to publish before the PoA has been press-released. If the PoA has already been scheduled, you need to un-schedule it just before sending the VoR to Continuum. To do this, you locate the relevant article, then press the 'cancel' button. If the PoA hasn't been scheduled yet, you can send the VoR to Continuum as usual. However, be sure to email Editorial Office and CC Emily in to let them know the VoR has caught up and the PoA no longer needs to be scheduled \(as this would result in overwriting the VoR\).
 
 ![PoA article scheduled on Continuum](.gitbook/assets/screenshot-2021-07-14-at-16.15.04.png)
 
-The VoR can then be sent through to Continuum and scheduled as usual. This is done by locating the relevant article on the dashboard and clicking the 'schedule' button. You will then have the option to select the date and time, after which you click 'schedule'. The article should then be visible under the 'scheduled' tab on the dashboard. 
+The VoR can then be sent through to Continuum and checked and scheduled as usual. This is done by locating the relevant article on the dashboard and clicking the 'schedule' button. You will then have the option to select the date and time, after which you click 'schedule'. The article should then be visible under the 'scheduled' tab on the dashboard. 
 
 ![](.gitbook/assets/screenshot-2021-07-14-at-16.18.24.png)
 
