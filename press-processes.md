@@ -34,13 +34,20 @@ When checking the status of press articles, if any of those marked for the upcom
 
 ### Estimate press dates for upcoming articles
 
-Emily will then enquire about the status of potential press articles. To come up with a press date, you can consult the due dates for each article by clicking the 'detailed' section on Kriya 1 \(the calendar icon the top right hand corner of the panel\). This is only a rough guide, however, and can be used alongside consulting the notes on Kriya and email correspondence. You will need to allow more time if there has been communication with the author that indicates a delay. 
+Emily will then enquire about the status of potential press articles. The estimated due date will depend on the stage an article is currently at. Unless there are problems, this is how long articles spend at each stage: 
 
-![&apos;Detailed&apos; section on Kriya 1](.gitbook/assets/screenshot-2021-06-30-at-09.17.19.png)
+* Pre-editing - 2 days \(4 for LaTex\) 
+* Copyediting - 2 days 
+* Typesetter QA - 1 day 
+* Waiting for assets \(if relevant\) - check due date of digest on the [**digest tracker**](https://docs.google.com/spreadsheets/d/17Llag-aEnbuARu5ORDJFki4K73xzy1fz2B2XG_QHQPI/edit#gid=1376331906)**.** \(if it is only waiting for a decision letter this will usually be loaded within a couple of days\)
+* Author review - 2 days 
+* PAV - 1 day 
+* Publisher review - 1 day
 
-If an article has been marked as getting a digest, you should refer to the [**digest tracker**](https://docs.google.com/spreadsheets/d/17Llag-aEnbuARu5ORDJFki4K73xzy1fz2B2XG_QHQPI/edit#gid=1376331906) ****which will give you a due date for the digest. 
+  
+If an article has been marked as getting a digest, you should refer to the [**digest tracker**](https://docs.google.com/spreadsheets/d/17Llag-aEnbuARu5ORDJFki4K73xzy1fz2B2XG_QHQPI/edit#gid=1376331906) which will give you a due date for the digest.
 
-![Digest tracker displaying the due dates for digests](.gitbook/assets/screenshot-2021-06-30-at-09.38.57.png)
+![Digest tracker displaying the due dates for digests](.gitbook/assets/screenshot-2021-06-30-at-09.38.57%20%281%29.png)
 
 Generally, the best-case scenario is that a no-digest article will take 4 days to get to the author review stage and a week and a half in total to get to publication. If the article is due to reach the author for review on either a Monday or a Tuesday, then it can be scheduled for the following Tuesday. If it's due to go out to the author later in the week, it should be scheduled for the Tuesday of the week after. If the article in question has not yet reached Kriya, Emily will make a note to check this in next week's meeting. 
 
