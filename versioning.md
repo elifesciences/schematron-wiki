@@ -55,7 +55,11 @@ Click on the pen icon to enter the article, and then select 'Approve'. If any sc
 
 ![](.gitbook/assets/screenshot-2021-09-06-at-08.32.58.png)
 
-The article will then appear at the publisher review stage and you can assign it to yourself and make the required changes, sending it to Exeter if needed. Once the change has been made, send the article to Continuum and check and publish as usual. After doing so, update the Production actions sheet with the correct tag:
+The article will then appear at the publisher review stage and you can assign it to yourself and make the required changes, sending it to Exeter if needed. Make sure to validate the XML against the Schematron as usual. If the article is older, there may be some error messages, as the Schematron may have been updated since the article was published. Most can be ignored, but double-check whether any should be actioned. For example, the old MSA, 'Human Biology and Medicine' was updated to 'Medicine' in 2020. Any updates to articles with the MSA 'Human Biology and Medicine' would therefore need to include a change to the MSA as well. 
+
+If there are no Schematron errors, send the article to Continuum and check and publish as usual. However if there are Schematron error messages that can't or don't need to be resolved, Exeter will need to turn off the validator so the article can be sent to Continuum - ask them to do this in Slack, noting in the Production channel that this has been done. Once the article is on Continuum, ask Exeter to turn the validator back on \(and let the Production channel know when this has been done\). 
+
+Once the new version has been published, update the Production actions sheet with the correct tag:
 
 ![](.gitbook/assets/screenshot-2021-08-23-at-15.08.12.png)
 
@@ -83,7 +87,7 @@ Once this is done, email the authors to let them know their article has been upd
 
 ## Processing silent corrections
 
-Silent corrections can be issued if a change does not affect the scientific content. These are processed in a similar manner to new versions - except there is no Continuum check step. Instead, after checking the relevant changes have been made, the article is sent straight to the website and published automatically via the silent-corrections AWS bucket. 
+Silent corrections can be issued if a change does not affect the scientific content. These are processed in a similar manner to [**new versions**](versioning.md#processing-new-versions) - except there is no Continuum check step. Instead, after checking the relevant changes have been made, the article is sent straight to the website and published automatically via the silent-corrections AWS bucket. 
 
 ![](.gitbook/assets/screenshot-2021-09-06-at-08.35.11.png)
 
@@ -199,6 +203,10 @@ For retractions
 * Send the article to Exeter to add the retraction header to the article and figures PDFs. No other changes should be made.
 * Once the required changes have been made to the article, check everything over again, and then update the pub-date of the correction notice to today's date. 
 * Send correction notice and corrected article to Continuum for final checks and publish both together once this is done
+
+Make sure to validate the XML against the Schematron as usual. If the article is older, there may be some error messages, as the Schematron may have been updated since the article was published. Most can be ignored, but double-check whether any should be actioned. For example, the old MSA, 'Human Biology and Medicine' was updated to 'Medicine' in 2020. Any updates to articles with the MSA 'Human Biology and Medicine' would therefore need to include a change to the MSA as well. 
+
+If there are no Schematron errors, send the article to Continuum and check and publish as usual. However if there are Schematron error messages that can't or don't need to be resolved, Exeter will need to turn off the validator so the article can be sent to Continuum - ask them to do this in Slack, noting in the Production channel that this has been done. Once the article is on Continuum, ask Exeter to turn the validator back on \(and let the Production channel know when this has been done\). 
 
 Once the required changes have been made to the article, check everything over again, and then update the pub-date of the correction or retraction notice to today's date. Both the notice and the article can then be sent to Continuum for final checks. 
 
