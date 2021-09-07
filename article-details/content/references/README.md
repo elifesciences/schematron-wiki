@@ -114,43 +114,39 @@ This will be carried out during initial processing of the article files so there
 
 **Warning**: _The numeric value of the first 4 digits of the &lt;year&gt; element must be between 1700 and the current year + 5 years \(inclusive\). Reference 'XXXXXX' does not meet this requirement as it contains the value 'XXXXXX'.–_
 
-**Action**: This warning indicates a reference has a date that is outside the range 1700 to the current year. Any reference that has a year pre-1700 or after the current year will be flagged by this test. The reference should be checked to ensure that no error has occured in processing the details provided by the author; for example, has a volume number been accidentally input as the year?
+**Action**: This warning indicates a reference has a date that is outside the range 1700 to five years past the current year. Any reference that has a year pre-1700 or after the current year+5 will be flagged by this test. The reference should be checked to ensure that no error has occured in processing the details provided by the author; for example, has a volume number been accidentally input as the year?
 
 If the year is correct and pre-1700, check to ensure that publication details have been provided \(publisher name must be present for books, journal name must be present for articles etc\). Please note that for books, the reference should be to the specific edition used and this will usually have a modern publication date that should be used.
 
-If the year is in the future, please confirm that the reference is marked as in press. If not, the authors should be queried to check the reference details:
+If the year is more than five years in the future, the authors should be queried to check the reference details:
 
-Please confirm that this reference is in press as the year of publication is in the future.
-
-#### err-elem-cit-gen-date-1-3
-
-**Error**: _All &lt;year&gt; elements must have @iso-8601-date attributes. Reference 'XXXXXX' does not._
-
-**Action**:
+* Please confirm that this reference is in press as the year provided is more than five years in the future.
 
 #### err-elem-cit-gen-date-1-4
 
 **Warning**: _The numeric value of the first 4 digits of the @iso-8601-date attribute on the &lt;year&gt; element must be between 1700 and the current year + 5 years \(inclusive\). Reference 'XXXXXX' does not meet this requirement as the attribute contains the value 'XXXXXX'._
 
-**Action**:
+**Action**: 
 
 #### err-elem-cit-gen-date-1-6
 
 **Error**: _If the &lt;year&gt; element contains the letter 'a' after the digits, there must be another reference with the same first author surname \(or collab\) with a letter "b" after the year. Reference 'XXXXXX' does not fulfill this requirement._
 
-**Action**:
+**Action**: This error indicates that a reference has a year value with a letter 'a' at the end but that there is no subsequent reference with 'b' at the end. Letter suffixes to years should only be added if there are multiple references with the same details that need their citations distinguished. Either the letter must be removed from the indicated reference, or a subsequent reference with the same author/year combindation must be updated to add a 'b' suffice to the year.
 
 #### err-elem-cit-gen-date-1-7
 
 **Error**: _If the &lt;year&gt; element contains any letter other than 'a' after the digits, there must be another reference with the same first author surname \(or collab\) with the preceding letter after the year. Reference 'XXXXXX' does not fulfill this requirement._
 
-**Action:**
+**Action**: This error indicates that a reference has a year value with a letter 'a' at the end but that there is no subsequent reference with 'b' at the end. Letter suffixes to years should only be added if there are multiple references with the same details that need their citations distinguished. Either the letter must be removed from the indicated reference, or a subsequent reference with the same author/year combindation must be updated to add a 'b' suffix to the year.
 
 #### elem-cit-source
 
 **Error**: _A &lt;source&gt; element within a XXXXXX type &lt;element-citation&gt; must contain at least two characters. - XXXXXX. See Ref 'XXXXXX'._
 
-**Action**:
+**Action**: The error indicates a reference's source field \(journal name, book title, database name etc.\) contains zero or one characters only. This will certainly be a mistake as virtually every source for a reference will consist of at least two characters. Check that the details have been captured correctly from the original article file and correct as necessary. If it is unclear what the source for the reference is, please query the author:
+
+* Please provide the source for this reference \(e.g. book, journal, webiste, or database\).
 
 #### ext-link-attribute-content-match
 
@@ -731,6 +727,12 @@ xenopus-article-title-check	article//article-meta/title-group/article-title \| a
 
 
 ### XML structure warnings
+
+#### err-elem-cit-gen-date-1-3
+
+**Error**: _All &lt;year&gt; elements must have @iso-8601-date attributes. Reference 'XXXXXX' does not._
+
+**Action**: This error indicates that the `iso-8601-date` attribute is missing from a year element. Every `<year>` element should have 
 
 #### pre-err-elem-cit-gen-date-1-5
 
