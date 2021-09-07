@@ -166,7 +166,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Warning**: _'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the year of publication._
 
-**Action**: This warning indicates, at the pre-author stage, that a reference does not contain a year. This is incorrect as every reference must include a year. Check that the reference details have been corrrectly processed from the provided article file and if no date was provided, please query the authors:
+**Action**: This warning indicates, at the pre-author stage, that a reference does not contain a year. This is incorrect as every reference must include a year. Check that the reference details have been correctly processed from the provided article file and if no date was provided, please query the authors:
 
 * Please provide the year for this reference.
 
@@ -174,7 +174,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Error**: _'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the year of publication._
 
-**Action**: This error indicates, at the post-author stage, that a reference does not contain a year. This is incorrect as every reference must include a year. Check that the reference details have been corrrectly processed from the provided article file and whether the author was queried about this during proofing. If no date was provided, the Production team will need to follow up with the authors to determine the correct date.
+**Action**: This error indicates, at the post-author stage, that a reference does not contain a year. This is incorrect as every reference must include a year. Check that the reference details have been correctly processed from the provided article file and whether the author was queried about this during proofing. If no date was provided, the Production team will need to follow up with the authors to determine the correct date.
 
 #### pre-element-cite-string-date
 
@@ -228,25 +228,13 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Error**: _pub-id is tagged as a pmid, but it contains a character\(s\) which is not a digit - XXXXXX_
 
-**Action**:
-
-#### pub-id-doi-test-1
-
-**Error**: _pub-id has a doi link - XXXXXX - but its pub-id-type is XXXXXX instead of doi._
-
-**Action**:
-
-#### pub-id-doi-test-2
-
-**Error**: _pub id has a doi link - XXXXXX - but the identifier is not the doi - 'XXXXXX', which is incorrect. Either the doi link is correct, and the identifier needs changing, or the identifier is correct and needs adding after 'https://doi.org/' in order to create the real doi link._
-
-**Action**:
+**Action**: This error indicates that a PubMed ID has been entered with non-numerical characters \(e.g. letters, symbols etc\). These will need to be removed. Find the correct ID by revalidating the reference or searching for it on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/). Since PMIDs are usualy added via validation, this issue may require intervention from the content processors to fix.
 
 #### pub-id-test-4
 
 **Warning**: _pub id contains whitespace - XXXXXX - which is very likely to be incorrect._
 
-**Action**:
+**Action**: This warning indicates that a pub id \(DOI or PubMed ID\) has been entered that includes a space. If this is present at the beginning or end of the ID, it should be removed. If it is in the middle of the ID, this will need to be double-checked against the 
 
 #### pub-id-test-5
 
@@ -983,6 +971,18 @@ Info: _ref XXXXXX references an organism - 'S. rosetta' - but there is no italic
 #### tagging-elem-cit-des
 
 **Error**: _XXXXXX element contains tagging, which should be removed - 'XXXXXX'._
+
+**Action**:
+
+#### pub-id-doi-test-1
+
+**Error**: _pub-id has a doi link - XXXXXX - but its pub-id-type is XXXXXX instead of doi._
+
+**Action**:
+
+#### pub-id-doi-test-2
+
+**Error**: _pub id has a doi link - XXXXXX - but the identifier is not the doi - 'XXXXXX', which is incorrect. Either the doi link is correct, and the identifier needs changing, or the identifier is correct and needs adding after 'https://doi.org/' in order to create the real doi link._
 
 **Action**:
 
