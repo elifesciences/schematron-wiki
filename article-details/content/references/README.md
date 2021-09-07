@@ -318,71 +318,203 @@ If the year is more than five years in the future, the authors should be queried
 
 
 
-bssubtilis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'B. subtilis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### bssubtilis-ref-article-title-check
 
-bacillusssubtilis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Bacillus subtilis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'B. subtilis' - but there is no italic element with that correct capitalisation or spacing._
 
-dsmelanogaster-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'D. melanogaster' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-drosophilasmelanogaster-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Drosophila melanogaster' - but there is no italic element with that correct capitalisation or spacing.\_
+#### bacillusssubtilis-ref-article-title-check
 
-escoli-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'E. coli' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Bacillus subtilis' - but there is no italic element with that correct capitalisation or spacing._
 
-escherichiascoli-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Escherichia coli' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-sspombe-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'S. pombe' - but there is no italic element with that correct capitalisation or spacing.\_
+#### dsmelanogaster-ref-article-title-check
 
-schizosaccharomycesspombe-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Schizosaccharomyces pombe' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'D. melanogaster' - but there is no italic element with that correct capitalisation or spacing._
 
-sscerevisiae-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'S. cerevisiae' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-saccharomycesscerevisiae-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Saccharomyces cerevisiae' - but there is no italic element with that correct capitalisation or spacing.\_
+#### drosophilasmelanogaster-ref-article-title-check
 
-cselegans-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'C. elegans' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Drosophila melanogaster' - but there is no italic element with that correct capitalisation or spacing._
 
-caenorhabditisselegans-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Caenorhabditis elegans' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-asthaliana-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'A. thaliana' - but there is no italic element with that correct capitalisation or spacing.\_
+#### escoli-ref-article-title-check
 
-arabidopsissthaliana-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Arabidopsis thaliana' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'E. coli' - but there is no italic element with that correct capitalisation or spacing._
 
-msthermophila-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'M. thermophila' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-myceliophthorasthermophila-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Myceliophthora thermophila' - but there is no italic element with that correct capitalisation or spacing.\_
+#### escherichiascoli-ref-article-title-check
 
-dictyostelium-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Dictyostelium' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Escherichia coli' - but there is no italic element with that correct capitalisation or spacing._
 
-psfalciparum-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'P. falciparum' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**:
 
-plasmodiumsfalciparum-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Plasmodium falciparum' - but there is no italic element with that correct capitalisation or spacing.\_
+#### sspombe-ref-article-title-check
 
-ssenterica-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'S. enterica' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'S. pombe' - but there is no italic element with that correct capitalisation or spacing._
 
-salmonellasenterica-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Salmonella enterica' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**:
 
-sspyogenes-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'S. pyogenes' - but there is no italic element with that correct capitalisation or spacing.\_
+#### schizosaccharomycesspombe-ref-article-title-check
 
-streptococcusspyogenes-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Streptococcus pyogenes' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Schizosaccharomyces pombe' - but there is no italic element with that correct capitalisation or spacing._
 
-psdumerilii-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'P. dumerilii' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**:
 
-platynereissdumerilii-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Platynereis dumerilii' - but there is no italic element with that correct capitalisation or spacing.\_
+#### sscerevisiae-ref-article-title-check
 
-pscynocephalus-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'P. cynocephalus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'S. cerevisiae' - but there is no italic element with that correct capitalisation or spacing._
 
-papioscynocephalus-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Papio cynocephalus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**:
 
-osfasciatus-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'O. fasciatus' - but there is no italic element with that correct capitalisation or spacing.\_
+#### saccharomycesscerevisiae-ref-article-title-check
 
-oncopeltussfasciatus-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Oncopeltus fasciatus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Saccharomyces cerevisiae' - but there is no italic element with that correct capitalisation or spacing._
 
-nscrassa-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'N. crassa' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**:
 
-neurosporascrassa-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Neurospora crassa' - but there is no italic element with that correct capitalisation or spacing.\_
+#### cselegans-ref-article-title-check
 
-csintestinalis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'C. intestinalis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'C. elegans' - but there is no italic element with that correct capitalisation or spacing._
 
-cionasintestinalis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Ciona intestinalis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**:
+
+#### caenorhabditisselegans-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'Caenorhabditis elegans' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### asthaliana-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'A. thaliana' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### arabidopsissthaliana-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'Arabidopsis thaliana' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### msthermophila-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'M. thermophila' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### myceliophthorasthermophila-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'Myceliophthora thermophila' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### dictyostelium-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'Dictyostelium' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### psfalciparum-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'P. falciparum' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### plasmodiumsfalciparum-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'Plasmodium falciparum' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### ssenterica-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'S. enterica' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### salmonellasenterica-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'Salmonella enterica' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### sspyogenes-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'S. pyogenes' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### streptococcusspyogenes-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'Streptococcus pyogenes' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### psdumerilii-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'P. dumerilii' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action:**
+
+#### platynereissdumerilii-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'Platynereis dumerilii' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### pscynocephalus-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'P. cynocephalus' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### papioscynocephalus-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'Papio cynocephalus' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### osfasciatus-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'O. fasciatus' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### oncopeltussfasciatus-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'Oncopeltus fasciatus' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### nscrassa-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'N. crassa' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### neurosporascrassa-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'Neurospora crassa' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
+
+#### csintestinalis-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'C. intestinalis' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action:**
+
+#### cionasintestinalis-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'Ciona intestinalis' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**:
 
 escuniculi-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'E. cuniculi' - but there is no italic element with that correct capitalisation or spacing.\_
 
