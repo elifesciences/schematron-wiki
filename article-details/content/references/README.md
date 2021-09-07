@@ -53,6 +53,8 @@ So, for example, consider the following selection of references:
 
 As you can see, the first author provides the main ordering criterion, followed by the publication date in cases where the first surnames for separate references are the same. In cases where the first surname and date are the same, the second and then third author surnames provide the next level of ordering \(here, Keeley and Soldati are followed by Keeleym Soldati and Smith\).
 
+#### References with the same citation
+
 An additional layer of ordering comes from handling references with identical citations. This refers not to to the reference details themselves but the string that is used to cite them. Consider:
 
 * Keeley A, Soldati D. 2004
@@ -106,13 +108,19 @@ This will be carried out during initial processing of the article files so there
 
 **Error**: _In the reference list, each reference must be unique in its citation style \(combination of authors and year\). If a reference's citation is the same as anothers, a lowercase letter should be suffixed to the year \(e.g. Smith et al., 2020a\). XXXXXX does not meet this requirement._
 
-**Action**:
+**Action**: This error indicates that two or more references have the same citation string e.g. Smith et al., 2020 and Smith et al., 2020. The references will need to be updated to distinguish the citations by applying a a letter to the year field. The first reference cited should have the year updated to e.g. 2020a, the second to 2020b and so on. See [**above**](./#references-with-the-same-citation) for more details on this.
 
 #### err-elem-cit-gen-date-1-2
 
-**Warning**: _The numeric value of the first 4 digits of the &lt;year&gt; element must be between 1700 and the current year + 5 years \(inclusive\). Reference 'XXXXXX' does not meet this requirement as it contains the value 'XXXXXX'._
+**Warning**: _The numeric value of the first 4 digits of the &lt;year&gt; element must be between 1700 and the current year + 5 years \(inclusive\). Reference 'XXXXXX' does not meet this requirement as it contains the value 'XXXXXX'.–_
 
-**Action**:
+**Action**: This warning indicates a reference has a date that is outside the range 1700 to the current year. Any reference that has a year pre-1700 or after the current year will be flagged by this test. The reference should be checked to ensure that no error has occured in processing the details provided by the author; for example, has a volume number been accidentally input as the year?
+
+If the year is correct and pre-1700, check to ensure that publication details have been provided \(publisher name must be present for books, journal name must be present for articles etc\). Please note that for books, the reference should be to the specific edition used and this will usually have a modern publication date that should be used.
+
+If the year is in the future, please confirm that the reference is marked as in press. If not, the authors should be queried to check the reference details:
+
+Please confirm that this reference is in press as the year of publication is in the future.
 
 #### err-elem-cit-gen-date-1-3
 
