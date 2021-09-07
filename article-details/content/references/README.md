@@ -166,7 +166,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Warning**: _'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the year of publication._
 
-**Action**: This warning indicates, at the pre-author stage, that a reference does not contain a year. This is incorrect as every reference must include a year. Check that the reference details have been correctly processed from the provided article file and if no date was provided, please query the authors:
+**Action**: This warning will fire, at the pre-author stage if a reference does not contain a year. This is incorrect as every reference must include a year. Check that the reference details have been correctly processed from the provided article file and if no date was provided, please query the authors:
 
 * Please provide the year for this reference.
 
@@ -174,7 +174,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Error**: _'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the year of publication._
 
-**Action**: This error indicates, at the post-author stage, that a reference does not contain a year. This is incorrect as every reference must include a year. Check that the reference details have been correctly processed from the provided article file and whether the author was queried about this during proofing. If no date was provided, the Production team will need to follow up with the authors to determine the correct date.
+**Action**: This error will fire at the post-author stage if a reference does not contain a year. This is incorrect as every reference must include a year. Check that the reference details have been correctly processed from the provided article file and whether the author was queried about this during proofing. If no date was provided, the Production team will need to follow up with the authors to determine the correct date.
 
 #### pre-element-cite-string-date
 
@@ -234,19 +234,19 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Warning**: _pub id contains whitespace - XXXXXX - which is very likely to be incorrect._
 
-**Action**: This warning indicates that a pub id \(DOI or PubMed ID\) has been entered that includes a space. If this is present at the beginning or end of the ID, it should be removed. If it is in the middle of the ID, this will need to be double-checked against the 
+**Action**: This warning indicates that a pub id \(DOI or PubMed ID\) has been entered that includes a space. If the space\(s\) is present at the beginning or end of the ID, it should be removed. PMIDs should not have spaces in the middle, so if one is present, double-check the correct ID by revalidating the reference or searching for it on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/). A DOI may include a space, although this is extremely unusual. Look the reference up online to confirm the DOI and correct if necessary.
 
 #### pub-id-test-5
 
 **Error**: _XXXXXX pub-id ends with a full stop - XXXXXX - which is not correct. Please remove the full stop._
 
-**Action**:
+**Action**: Remove the full stop from the end of the indicated pub id \(DOI or PubMed ID\).
 
 #### duplicate-ref-test-1
 
 **Error**: _ref 'XXXXXX' has the same doi as another reference, which is incorrect. Is it a duplicate?_
 
-**Action**:
+**Action**: This error means that two or more references \(that are not books\) have the same DOI. This will be incorrect as DOIs are unique for each publication. Check whether the same reference has been mistakenly entered twice, or with minor variation between entires \(e.g. the same article is listed in two places with different author lists\). 
 
 #### duplicate-ref-test-2
 
