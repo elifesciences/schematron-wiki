@@ -976,13 +976,13 @@ Re-add the year for the affected reference, ensuring no spaces or formatting are
 
 **Error**: _Each &lt;ref&gt; element must have an @id attribute._
 
-**Action**: Every `<ref>` element should be assigned an `id` attribute equal to 'bibX' where X is the numerical position of the reference in the preference list. That is, the first reference should have the ID 'bib1', the second 'bib2', the third 'bib3' and so on. This error indicates that the `id` attribute is missing from the indicated reference. The XML will need to be corrected to ensure the ID is correctly included.
+**Action**: Every `<ref>` element should be assigned an `id` attribute equal to 'bibX' where X is the numerical position of the reference in the preference list. That is, the first reference should have the ID 'bib1', the second 'bib2', the third 'bib3' and so on. This error indicates that the `id` attribute is missing from the indicated reference. The XML will need to be corrected to ensure the ID is included.
 
 #### err-elem-cit-high-3-2
 
 **Error**: _Each &lt;ref&gt; element must have an @id attribute that starts with 'bib' and ends with a number. Reference 'XXXXXX' has the value 'XXXXXX', which is incorrect._
 
-**Action**: Every `<ref>` element should be assigned an `id` attribute equal to 'bibX' where X is the numerical position of the reference in the preference list. That is, the first reference should have the ID 'bib1', the second 'bib2', the third 'bib3' and so on. This error indicates that an id is present with a value that does not conform to this pattern.
+**Action**: Every `<ref>` element should be assigned an `id` attribute equal to 'bibX' where X is the numerical position of the reference in the preference list. That is, the first reference should have the ID 'bib1', the second 'bib2', the third 'bib3' and so on. This error indicates that an `id` is present with a value that does not conform to this pattern \(e.g. bib4O, bb4 etc\). The XML will need to be corrected to replace the value with a proper ID.
 
 #### pre-empty-elem-cit-des
 
