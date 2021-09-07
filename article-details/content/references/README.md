@@ -922,6 +922,12 @@ Info: _ref XXXXXX references an organism - 'S. rosetta' - but there is no italic
 
 **Action**: This error indicates that the attribute `xlink:href` on an `<ext-link>` element within a reference does not contain the same value as the content of the element. For example, it will fire on the following:
 
+```markup
+<ext-link ext-link-type="uri" xlink:href="https://awww.pymol.org/">https://www.pymol.org/</ext-link>  
+```
+
+The `xlink:href` must be corrected to match the contents of the &lt;ext-link&gt; element. This will likely require the content processors to intervene as the attribute value should be generated automatically from the provided URL.
+
 #### err-elem-cit-high-3-3
 
 **Error**: _The sequence of ids in the &lt;ref&gt; elements must increase monotonically \(e.g. 1,2,3,4,5, . . . ,50,51,52,53, . . . etc\). Reference 'XXXXXX' has the value 'XXXXXX', which does not fit this pattern._
