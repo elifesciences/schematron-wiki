@@ -246,19 +246,23 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Error**: _ref 'XXXXXX' has the same doi as another reference, which is incorrect. Is it a duplicate?_
 
-**Action**: This error means that two or more references \(that are not books\) have the same DOI. This will be incorrect as DOIs are unique for each publication. Check whether the same reference has been mistakenly entered twice, or with minor variation between entires \(e.g. the same article is listed in two places with different author lists\). 
+**Action**: This error means that two or more references \(that are not books\) have the same DOI. This will be incorrect as DOIs are unique for each publication. Check whether the same reference has been mistakenly entered twice, or with minor variation between entires \(e.g. the same article is listed in two places with different author lists\). The duplication should be removed and all citations updated to point to a single instance of the reference. If the details for the references with the same DOI are different, this likely means that the DOI is for one of references only. Double-check by looking up the DOI and seeing which reference it resolves to. The DOI should then be removed from the other reference\(s\) and where possible, the correct DOI\(s\) added instead.
 
 #### duplicate-ref-test-2
 
 **Warning**: _ref 'XXXXXX' has the same doi as another reference, which might be incorrect. If they are not different chapters from the same book, then this is incorrect._
 
-**Action**:
+**Action**: This warning indicates that a book reference has the same DOI as another reference. This is possible if the references indicate different chapters in the same book, since a DOI might only have been registered for the whole book rather than individual parts. Confirm whether this is the case and if DOIs are available for the individual chapters, update each reference accordingly. If the book reference has the same DOI as a non-book reference, this will be incorrect and likely means the DOI is for one of references only. Double-check by looking up the DOI and seeing which reference it resolves to. The DOI should then be removed from the other reference\(s\) and where possible, the correct DOI\(s\) added instead.
 
 #### duplicate-ref-test-3
 
 **Warning**: _ref 'XXXXXX' has the same title and source as another reference, which is almost certainly incorrect - 'XXXXXX', 'XXXXXX'._
 
-**Action**:
+**Action**: This warning will fire if two or more references have the same title and source \(journal title, book title, database name etc\). This may not be a mistake as sometimes journals will publish articles with the same title on multiple occasions, or the authors may be citing mutliple editions of the same work. Check to see whether the reference details match beyond the title and source. If they have different authors or a different version/edition number is given, nothing needs to be changed. If the other reference details are identical, this likely indicates reference duplication. Exact duplicates should be removed and all citations updated to point to a single instance of the reference.
+
+If it is unclear what action needs to be taken, the authors should be queried:
+
+* This reference has the same title and source as another in the reference list. Please confirm whether all instances should be retained or if this is a duplicate and should be removed.
 
 #### duplicate-ref-test-4
 
@@ -274,25 +278,31 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Error**: _ref 'XXXXXX' has a doi which is the same as the article itself 'XXXXXX' which must be incorrect._
 
-**Action**:
+**Action**: This will indicate a reference that has the same DOI as the current article. Since an article should not cite itself, this must be an error. Check the details for the reference and try to confirm the correct DOI. For example, did the authors intend to cite a preprint version of their article, or a dataset associated with it? It may be possible to determine this by checking the original article file.
+
+If it is unclear how to proceed, the authors should be queried:
+
+* This reference has the same DOI as the current article. Please could you provide the correct DOI and update the reference details if necessary.
 
 #### pre-ref-link-presence
 
 **Warning**: _'XXXXXX' has no linked citations. Either the reference should be removed or a citation linking to it needs to be added._
 
-**Action**:
+**Action**: At the pre-author stage, this warning indicates that a reference is not cited in the text. All reference listed must be cited at least once. The author should be queried to provide the missing citation.
 
 #### final-ref-link-presence
 
 **Error**: _'XXXXXX' has no linked citations. Either the reference should be removed or a citation linking to it needs to be added._
 
-**Action**:
+**Action**: At the post-author stage, this error indicates that a reference is not cited in the text. All reference listed must be cited at least once. The author should be queried to provide the missing citation.
+
+In the event that a reference is only cited in a supporting file or in a figure image, a citation should ideally be added to the legend for that file/figure. If this is not possible for a supporting file, the reference will need to be removed from the reference list and the details placed in the file itself instead.
 
 #### ref-given-names-test-1
 
 **Warning**: _Given names should always be initialised. Ref 'XXXXXX' contains a given names with a string longer than 4 characters - 'XXXXXX' in XXXXXX. Is this a surname captured as given names? Or a fully spelt out given names?_
 
-**Action**:
+**Action**: This warning will fire if a given name field contains more than four characters. This may indicate that a surname has been mistakenly included as a given name. The reference should be looked up and the details corrected where necessary. If an author in a reference does in fact have more than four initials, this warning can be ignored.
 
 #### bssubtilis-ref-article-title-check
 
