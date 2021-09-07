@@ -114,7 +114,7 @@ This will be carried out during initial processing of the article files so there
 
 **Warning**: _The numeric value of the first 4 digits of the &lt;year&gt; element must be between 1700 and the current year + 5 years \(inclusive\). Reference 'XXXXXX' does not meet this requirement as it contains the value 'XXXXXX'.–_
 
-**Action**: This warning indicates a reference has a date that is outside the range 1700 to five years past the current year. Any reference that has a year pre-1700 or after the current year+5 will be flagged by this test. The reference should be checked to ensure that no error has occured in processing the details provided by the author; for example, has a volume number been accidentally input as the year?
+**Action**: This warning indicates a reference has a date that is outside the range 1700 to five years past the current year. Any reference that has a year pre-1700 or after the current year+5 will be flagged by this test. The reference should be checked to ensure that no error has occurred in processing the details provided by the author; for example, has a volume number been accidentally input as the year?
 
 If the year is correct and pre-1700, check to ensure that publication details have been provided \(publisher name must be present for books, journal name must be present for articles etc\). Please note that for books, the reference should be to the specific edition used and this will usually have a modern publication date that should be used.
 
@@ -132,13 +132,13 @@ If the year is more than five years in the future, the authors should be queried
 
 **Error**: _If the &lt;year&gt; element contains the letter 'a' after the digits, there must be another reference with the same first author surname \(or collab\) with a letter "b" after the year. Reference 'XXXXXX' does not fulfill this requirement._
 
-**Action**: This error indicates that a reference has a year value with a letter 'a' at the end but that there is no subsequent reference with 'b' at the end. Letter suffixes to years should only be added if there are multiple references with the same details that need their citations distinguished. Either the letter must be removed from the indicated reference, or a subsequent reference with the same author/year combindation must be updated to add a 'b' suffice to the year.
+**Action**: This error indicates that a reference has a year value with a letter 'a' at the end but that there is no subsequent reference with 'b' at the end. Letter suffixes to years should only be added if there are multiple references with the same details that need their citations distinguished. Either the letter must be removed from the indicated reference, or a subsequent reference with the same author/year combination must be updated to add a 'b' suffice to the year.
 
 #### err-elem-cit-gen-date-1-7
 
 **Error**: _If the &lt;year&gt; element contains any letter other than 'a' after the digits, there must be another reference with the same first author surname \(or collab\) with the preceding letter after the year. Reference 'XXXXXX' does not fulfill this requirement._
 
-**Action**: This error indicates that a reference has a year value with a letter 'a' at the end but that there is no subsequent reference with 'b' at the end. Letter suffixes to years should only be added if there are multiple references with the same details that need their citations distinguished. Either the letter must be removed from the indicated reference, or a subsequent reference with the same author/year combindation must be updated to add a 'b' suffix to the year.
+**Action**: This error indicates that a reference has a year value with a letter 'a' at the end but that there is no subsequent reference with 'b' at the end. Letter suffixes to years should only be added if there are multiple references with the same details that need their citations distinguished. Either the letter must be removed from the indicated reference, or a subsequent reference with the same author/year combination must be updated to add a 'b' suffix to the year.
 
 #### elem-cit-source
 
@@ -148,29 +148,13 @@ If the year is more than five years in the future, the authors should be queried
 
 * Please provide the source for this reference \(e.g. book, journal, webiste, or database\).
 
-#### ext-link-attribute-content-match
-
-**Error**: &lt;ext-link&gt; must contain content and have an @xlink:href, the value of which must be the same as the content of &lt;ext-link&gt;. The &lt;ext-link&gt; element in Reference 'XXXXXX' has @xlink:href='XXXXXX' and content 'XXXXXX'.
-
-**Action**:
-
-#### link-href-conformance
-
-**Error**: _@xlink:href must start with either "http://", "https://", or "ftp://". The &lt;ext-link&gt; element in Reference 'XXXXXX' is 'XXXXXX', which does not._
-
-**Action:**
-
 #### err-elem-cit-high-2-2
 
 **Error**: _The order of &lt;element-citation&gt;s in the reference list should be name and date, arranged alphabetically by the first author’s surname, or by the value of the first &lt;collab&gt; element. In the case of two authors, the sequence should be arranged by both authors' surnames, then date. For three or more authors, the sequence should be the first author's surname, then date. Reference 'XXXXXX' appears to be in a different order._
 
-**Action**:
+**Action**: This error indicates that the order of the reference list does not match eLife style. See above for more details on the preferred ordering. In Kriya 1.5, a 'reorder references in alphabetical order' option can be found under the 'edit' menu. Clicking this will place the references in the correct sequence but the article must be saved and the page refreshed before this shows correctly in the display. In Kriya 2.0, ordering should update automatically following edits or additions to the reference list.
 
-#### err-elem-cit-high-3-3
-
-**Error**: _The sequence of ids in the &lt;ref&gt; elements must increase monotonically \(e.g. 1,2,3,4,5, . . . ,50,51,52,53, . . . etc\). Reference 'XXXXXX' has the value 'XXXXXX', which does not fit this pattern._
-
-**Action**:
+Check that the sequence of references is indeed incorrect, accounting for any special characters \(these should be treated as the equivalent standard letters for the purposes of ordering e.g. ë would be treated as e\). It is possible for an author's name to include characters not accounted for by the rules and this must be fed back to the Production team member responsible for maintaining the schematron. If the order is wrong and the system tools do not automatically correct this, the article will need to go back to the production vendor to resolve the problem.
 
 #### err-xref-high-2-1
 
@@ -178,23 +162,19 @@ If the year is more than five years in the future, the authors should be queried
 
 **Action**:
 
-#### err-elem-cit-high-6-2
-
-**Error**: _element-citation must have a publication-type attribute with one of these values: 'journal', 'book', 'data', 'patent', 'software', 'preprint', 'web', 'periodical', 'report', 'confproc', or 'thesis'. Reference 'XXXXXX' has 'XXXXXX'._
-
-**Action**:
-
 #### pre-element-cite-year
 
 **Warning**: _'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the year of publication._
 
-**Action**:
+**Action**: This warning indicates, at the pre-author stage, that a reference does not contain a year. This is incorrect as every reference must include a year. Check that the reference details have been corrrectly processed from the provided article file and if no date was provided, please query the authors:
+
+* Please provide the year for this reference.
 
 #### final-element-cite-year
 
 **Error**: _'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the year of publication._
 
-**Action**:
+**Action**: This error indicates, at the post-author stage, that a reference does not contain a year. This is incorrect as every reference must include a year. Check that the reference details have been corrrectly processed from the provided article file and whether the author was queried about this during proofing. If no date was provided, the Production team will need to follow up with the authors to determine the correct date.
 
 #### pre-element-cite-string-date
 
@@ -208,29 +188,41 @@ If the year is more than five years in the future, the authors should be queried
 
 **Action**:
 
+#### link-href-conformance
+
+**Error**: _@xlink:href must start with either "http://", "https://", or "ftp://". The &lt;ext-link&gt; element in Reference 'XXXXXX' is 'XXXXXX', which does not._
+
+**Action:** This error indicates that a provided link does not begin with "http://", "https://", or "ftp://". A URL that does not begin with one of these is invalid, so this will need to be corrected. If the link is provided in the form www.google.com, navigate to the website in a browser and replace the link with the full URL - in this case, https://www.google.com/. If the URL does not resolve, query the authors as follows:
+
+* Please provide the full URL for this reference \(including the http, https or ftp prefix\).
+
 #### pre-pub-id-test-1
 
 **Warning**: _@xlink:href must start with an http:// or ftp:// protocol. - XXXXXX does not. If this information is missing, please ensure to query it with the authors._
 
-**Action**:
+**Action:** This error indicates that a provided link does not begin with "http://", "https://", or "ftp://". A URL that does not begin with one of these is invalid, so this will need to be corrected. If the link is provided in the form www.google.com, navigate to the website in a browser and replace the link with the full URL - in this case, https://www.google.com/. If the URL does not resolve, query the authors as follows:
+
+* Please provide the full URL for this reference \(including the http, https or ftp prefix\).
 
 #### final-pub-id-test-1
 
 **Error**: _@xlink:href must start with an http:// or ftp:// protocol. - XXXXXX does not._
 
-**Action**:
+**Action:** This error indicates that a provided link does not begin with "http://", "https://", or "ftp://". A URL that does not begin with one of these is invalid, so this will need to be corrected. If the link is provided in the form www.google.com, navigate to the website in a browser and replace the link with the full URL - in this case, https://www.google.com/. If the URL does not resolve, check whether the authors have been queried to provide the full link. If this has not been given, the Production team will need to follow up with the authors.
 
 #### pre-pub-id-test-2
 
 **Warning**: _pub-id is tagged as a doi, but it is not one - XXXXXX. If this information is missing, please ensure to query it with the authors._
 
-**Action**:
+**Action**: This warning indicates, at the pre-author stage, that a DOI field contains content that does not match the standard format for a DOI. Check whether this is an error in processing the original article file; for example, has a DOI such as 10.7554/eLife.27621 been processed without the standard formatting \(e.g. 107554eLife27621\)? Alternatively, has a URL been added as a DOI by mistake \(e.g. https://elifesciences.org/articles/27621\)? If it is not possible to determine the correct DOI either from the provided content or validating the reference against PubMed or CrossRef, the authors should be queried to provide the missing details:
+
+* Please confirm the DOI for this reference.
 
 #### final-pub-id-test-2
 
 **Error**: _pub-id is tagged as a doi, but it is not one - XXXXXX_
 
-**Action**:
+**Action**: This error indicates, at the pre-author stage, that a DOI field contains content that does not match the standard format for a DOI. Check whether the authors have been asked to provide the correct DOI and if they have not done so, and if it is not possible to determine the correct DOI either from a web search or validating the reference against PubMed or CrossRef, the Production team will need to follow up with the authors to determine whether a DOI exists for this reference.
 
 #### pub-id-test-3
 
@@ -921,6 +913,24 @@ Info: _ref XXXXXX references an organism - 'S. rosetta' - but there is no italic
 **Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 ### XML structure warnings
+
+#### ext-link-attribute-content-match
+
+**Error**: &lt;ext-link&gt; must contain content and have an @xlink:href, the value of which must be the same as the content of &lt;ext-link&gt;. The &lt;ext-link&gt; element in Reference 'XXXXXX' has @xlink:href='XXXXXX' and content 'XXXXXX'.
+
+**Action**: This error indicates that the attribute `xlink:href` on an `<ext-link>` element within a reference does not contain the same value as the content of the element. For example, it will fire on the following:
+
+#### err-elem-cit-high-3-3
+
+**Error**: _The sequence of ids in the &lt;ref&gt; elements must increase monotonically \(e.g. 1,2,3,4,5, . . . ,50,51,52,53, . . . etc\). Reference 'XXXXXX' has the value 'XXXXXX', which does not fit this pattern._
+
+**Action**: This error indicates that a reference ID \(e.g. bib3, bib45 etc.\) does not appear in numerical order. The ID for each reference should match the order in which it appears in the reference list. That is, the first reference should be bib1, the second bib2, the third bib3 and so on.
+
+#### err-elem-cit-high-6-2
+
+**Error**: _element-citation must have a publication-type attribute with one of these values: 'journal', 'book', 'data', 'patent', 'software', 'preprint', 'web', 'periodical', 'report', 'confproc', or 'thesis'. Reference 'XXXXXX' has 'XXXXXX'._
+
+**Action**:
 
 #### err-elem-cit-gen-date-1-3
 
