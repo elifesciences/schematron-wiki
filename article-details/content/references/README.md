@@ -314,10 +314,6 @@ If the year is more than five years in the future, the authors should be queried
 
 **Action**:
 
-
-
-
-
 #### bssubtilis-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'B. subtilis' - but there is no italic element with that correct capitalisation or spacing._
@@ -352,511 +348,577 @@ If the year is more than five years in the future, the authors should be queried
 
 **Info**: _ref XXXXXX references an organism - 'Escherichia coli' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### sspombe-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'S. pombe' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### schizosaccharomycesspombe-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'Schizosaccharomyces pombe' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### sscerevisiae-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'S. cerevisiae' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### saccharomycesscerevisiae-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'Saccharomyces cerevisiae' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### cselegans-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'C. elegans' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### caenorhabditisselegans-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'Caenorhabditis elegans' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### asthaliana-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'A. thaliana' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### arabidopsissthaliana-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'Arabidopsis thaliana' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### msthermophila-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'M. thermophila' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### myceliophthorasthermophila-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'Myceliophthora thermophila' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### dictyostelium-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'Dictyostelium' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### psfalciparum-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'P. falciparum' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### plasmodiumsfalciparum-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'Plasmodium falciparum' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### ssenterica-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'S. enterica' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### salmonellasenterica-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'Salmonella enterica' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### sspyogenes-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'S. pyogenes' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### streptococcusspyogenes-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'Streptococcus pyogenes' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### psdumerilii-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'P. dumerilii' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action:**
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### platynereissdumerilii-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'Platynereis dumerilii' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### pscynocephalus-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'P. cynocephalus' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### papioscynocephalus-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'Papio cynocephalus' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### osfasciatus-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'O. fasciatus' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### oncopeltussfasciatus-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'Oncopeltus fasciatus' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### nscrassa-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'N. crassa' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### neurosporascrassa-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'Neurospora crassa' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### csintestinalis-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'C. intestinalis' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action:**
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 #### cionasintestinalis-ref-article-title-check
 
 **Info**: _ref XXXXXX references an organism - 'Ciona intestinalis' - but there is no italic element with that correct capitalisation or spacing._
 
-**Action**:
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-escuniculi-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'E. cuniculi' - but there is no italic element with that correct capitalisation or spacing.\_
+#### escuniculi-ref-article-title-check
 
-encephalitozoonscuniculi-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Encephalitozoon cuniculi' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'E. cuniculi' - but there is no italic element with that correct capitalisation or spacing._
 
-hssalinarum-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'H. salinarum' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-halobacteriumssalinarum-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Halobacterium salinarum' - but there is no italic element with that correct capitalisation or spacing.\_
+#### encephalitozoonscuniculi-ref-article-title-check
 
-sssolfataricus-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'S. solfataricus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Encephalitozoon cuniculi' - but there is no italic element with that correct capitalisation or spacing._
 
-sulfolobusssolfataricus-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Sulfolobus solfataricus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-ssmediterranea-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'S. mediterranea' - but there is no italic element with that correct capitalisation or spacing.\_
+#### hssalinarum-ref-article-title-check
 
-schmidteasmediterranea-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Schmidtea mediterranea' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'H. salinarum' - but there is no italic element with that correct capitalisation or spacing._
 
-ssrosetta-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'S. rosetta' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-salpingoecasrosetta-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Salpingoeca rosetta' - but there is no italic element with that correct capitalisation or spacing.\_
+#### halobacteriumssalinarum-ref-article-title-check
 
-nsvectensis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'N. vectensis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Halobacterium salinarum' - but there is no italic element with that correct capitalisation or spacing._
 
-nematostellasvectensis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Nematostella vectensis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-ssaureus-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'S. aureus' - but there is no italic element with that correct capitalisation or spacing.\_
+#### sssolfataricus-ref-article-title-check
 
-staphylococcussaureus-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Staphylococcus aureus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'S. solfataricus' - but there is no italic element with that correct capitalisation or spacing._
 
-vscholerae-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'V. cholerae' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-vibrioscholerae-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Vibrio cholerae' - but there is no italic element with that correct capitalisation or spacing.\_
+#### sulfolobusssolfataricus-ref-article-title-check
 
-tsthermophila-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'T. thermophila' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Sulfolobus solfataricus' - but there is no italic element with that correct capitalisation or spacing._
 
-tetrahymenasthermophila-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Tetrahymena thermophila' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-csreinhardtii-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'C. reinhardtii' - but there is no italic element with that correct capitalisation or spacing.\_
+#### ssmediterranea-ref-article-title-check
 
-chlamydomonassreinhardtii-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Chlamydomonas reinhardtii' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'S. mediterranea' - but there is no italic element with that correct capitalisation or spacing._
 
-nsattenuata-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'N. attenuata' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-nicotianasattenuata-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Nicotiana attenuata' - but there is no italic element with that correct capitalisation or spacing.\_
+#### schmidteasmediterranea-ref-article-title-check
 
-escarotovora-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'E. carotovora' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Schmidtea mediterranea' - but there is no italic element with that correct capitalisation or spacing._
 
-erwiniascarotovora-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Erwinia carotovora' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-esfaecalis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'E. faecalis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### ssrosetta-ref-article-title-check
 
-hsapiens-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'H. sapiens' - but there is no italic element with that correct capitalisation or spacing.\_
+Info: _ref XXXXXX references an organism - 'S. rosetta' - but there is no italic element with that correct capitalisation or spacing._
 
-homosapiens-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Homo sapiens' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-ctrachomatis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'C. trachomatis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### salpingoecasrosetta-ref-article-title-check
 
-chlamydiatrachomatis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Chlamydia trachomatis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Salpingoeca rosetta' - but there is no italic element with that correct capitalisation or spacing._
 
-enterococcussfaecalis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Enterococcus faecalis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-xlaevis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'X. laevis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### nsvectensis-ref-article-title-check
 
-xenopuslaevis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Xenopus laevis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'N. vectensis' - but there is no italic element with that correct capitalisation or spacing._
 
-xtropicalis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'X. tropicalis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-xenopustropicalis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Xenopus tropicalis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### nematostellasvectensis-ref-article-title-check
 
-mmusculus-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'M. musculus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Nematostella vectensis' - but there is no italic element with that correct capitalisation or spacing._
 
-musmusculus-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Mus musculus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-dimmigrans-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'D. immigrans' - but there is no italic element with that correct capitalisation or spacing.\_
+#### ssaureus-ref-article-title-check
 
-drosophilaimmigrans-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Drosophila immigrans' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'S. aureus' - but there is no italic element with that correct capitalisation or spacing._
 
-dsubobscura-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'D. subobscura' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-drosophilasubobscura-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Drosophila subobscura' - but there is no italic element with that correct capitalisation or spacing.\_
+#### staphylococcussaureus-ref-article-title-check
 
-daffinis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'D. affinis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Staphylococcus aureus' - but there is no italic element with that correct capitalisation or spacing._
 
-drosophilaaffinis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Drosophila affinis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-dobscura-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'D. obscura' - but there is no italic element with that correct capitalisation or spacing.\_
+#### vscholerae-ref-article-title-check
 
-drosophilaobscura-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Drosophila obscura' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'V. cholerae' - but there is no italic element with that correct capitalisation or spacing._
 
-ftularensis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'F. tularensis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-francisellatularensis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Francisella tularensis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### vibrioscholerae-ref-article-title-check
 
-pplantaginis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'P. plantaginis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Vibrio cholerae' - but there is no italic element with that correct capitalisation or spacing._
 
-podosphaeraplantaginis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Podosphaera plantaginis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-planceolata-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'P. lanceolata' - but there is no italic element with that correct capitalisation or spacing.\_
+#### tsthermophila-ref-article-title-check
 
-plantagolanceolata-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Plantago lanceolata' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'T. thermophila' - but there is no italic element with that correct capitalisation or spacing._
 
-mtrossulus-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'M. trossulus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-mytilustrossulus-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Mytilus trossulus' - but there is no italic element with that correct capitalisation or spacing.\_
+#### tetrahymenasthermophila-ref-article-title-check
 
-medulis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'M. edulis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Tetrahymena thermophila' - but there is no italic element with that correct capitalisation or spacing._
 
-mytilusedulis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Mytilus edulis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-mchilensis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'M. chilensis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### csreinhardtii-ref-article-title-check
 
-mytiluschilensis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Mytilus chilensis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'C. reinhardtii' - but there is no italic element with that correct capitalisation or spacing._
 
-umaydis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'U. maydis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-ustilagomaydis-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Ustilago maydis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### chlamydomonassreinhardtii-ref-article-title-check
 
-pknowlesi-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'P. knowlesi' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Chlamydomonas reinhardtii' - but there is no italic element with that correct capitalisation or spacing._
 
-plasmodiumknowlesi-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Plasmodium knowlesi' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-paeruginosa-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'P. aeruginosa' - but there is no italic element with that correct capitalisation or spacing.\_
+#### nsattenuata-ref-article-title-check
 
-pseudomonasaeruginosa-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Pseudomonas aeruginosa' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'N. attenuata' - but there is no italic element with that correct capitalisation or spacing._
 
-tbrucei-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'T. brucei' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-trypanosomabrucei-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Trypanosoma brucei' - but there is no italic element with that correct capitalisation or spacing.\_
+#### nicotianasattenuata-ref-article-title-check
 
-drerio-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'D. rerio' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Nicotiana attenuata' - but there is no italic element with that correct capitalisation or spacing._
 
-daniorerio-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_XXXXXX contains an organism - 'Danio rerio' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-drosophila-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Drosophila' - but there is no italic element with that correct capitalisation or spacing.\_
+#### escarotovora-ref-article-title-check
 
-xenopus-ref-article-title-check	element-citation/article-title\|element-citation/chapter-title\|element-citation/source\|element-citation/data-title	\*\*Info\*\*: \_ref XXXXXX references an organism - 'Xenopus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'E. carotovora' - but there is no italic element with that correct capitalisation or spacing._
 
-bssubtilis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'B. subtilis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-bacillusssubtilis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Bacillus subtilis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### erwiniascarotovora-ref-article-title-check
 
-dsmelanogaster-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'D. melanogaster' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Erwinia carotovora' - but there is no italic element with that correct capitalisation or spacing._
 
-drosophilasmelanogaster-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Drosophila melanogaster' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-escoli-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'E. coli' - but there is no italic element with that correct capitalisation or spacing.\_
+#### esfaecalis-ref-article-title-check
 
-escherichiascoli-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Escherichia coli' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'E. faecalis' - but there is no italic element with that correct capitalisation or spacing._
 
-sspombe-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'S. pombe' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-schizosaccharomycesspombe-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Schizosaccharomyces pombe' - but there is no italic element with that correct capitalisation or spacing.\_
+#### hsapiens-ref-article-title-check
 
-sscerevisiae-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'S. cerevisiae' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'H. sapiens' - but there is no italic element with that correct capitalisation or spacing._
 
-saccharomycesscerevisiae-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Saccharomyces cerevisiae' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-cselegans-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'C. elegans' - but there is no italic element with that correct capitalisation or spacing.\_
+#### homosapiens-ref-article-title-check
 
-caenorhabditisselegans-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Caenorhabditis elegans' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Homo sapiens' - but there is no italic element with that correct capitalisation or spacing._
 
-asthaliana-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'A. thaliana' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-arabidopsissthaliana-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Arabidopsis thaliana' - but there is no italic element with that correct capitalisation or spacing.\_
+#### ctrachomatis-ref-article-title-check
 
-msthermophila-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'M. thermophila' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'C. trachomatis' - but there is no italic element with that correct capitalisation or spacing._
 
-myceliophthorasthermophila-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Myceliophthora thermophila' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-dictyostelium-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Dictyostelium' - but there is no italic element with that correct capitalisation or spacing.\_
+#### chlamydiatrachomatis-ref-article-title-check
 
-psfalciparum-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'P. falciparum' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Chlamydia trachomatis' - but there is no italic element with that correct capitalisation or spacing._
 
-plasmodiumsfalciparum-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Plasmodium falciparum' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-ssenterica-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'S. enterica' - but there is no italic element with that correct capitalisation or spacing.\_
+#### enterococcussfaecalis-ref-article-title-check
 
-salmonellasenterica-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Salmonella enterica' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _ref XXXXXX references an organism - 'Enterococcus faecalis' - but there is no italic element with that correct capitalisation or spacing._
 
-sspyogenes-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'S. pyogenes' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-streptococcusspyogenes-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Streptococcus pyogenes' - but there is no italic element with that correct capitalisation or spacing.\_
+#### xlaevis-ref-article-title-check
 
-psdumerilii-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'P. dumerilii' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'X. laevis' - but there is no italic element with that correct capitalisation or spacing._
 
-platynereissdumerilii-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Platynereis dumerilii' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-pscynocephalus-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'P. cynocephalus' - but there is no italic element with that correct capitalisation or spacing.\_
+#### xenopuslaevis-ref-article-title-check
 
-papioscynocephalus-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Papio cynocephalus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'Xenopus laevis' - but there is no italic element with that correct capitalisation or spacing._
 
-osfasciatus-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'O. fasciatus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-oncopeltussfasciatus-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Oncopeltus fasciatus' - but there is no italic element with that correct capitalisation or spacing.\_
+#### xtropicalis-ref-article-title-check
 
-nscrassa-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'N. crassa' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'X. tropicalis' - but there is no italic element with that correct capitalisation or spacing._
 
-neurosporascrassa-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Neurospora crassa' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-csintestinalis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'C. intestinalis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### xenopustropicalis-ref-article-title-check
 
-cionasintestinalis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Ciona intestinalis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'Xenopus tropicalis' - but there is no italic element with that correct capitalisation or spacing._
 
-escuniculi-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'E. cuniculi' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-encephalitozoonscuniculi-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Encephalitozoon cuniculi' - but there is no italic element with that correct capitalisation or spacing.\_
+#### mmusculus-ref-article-title-check
 
-hssalinarum-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'H. salinarum' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'M. musculus' - but there is no italic element with that correct capitalisation or spacing._
 
-halobacteriumssalinarum-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Halobacterium salinarum' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-sssolfataricus-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'S. solfataricus' - but there is no italic element with that correct capitalisation or spacing.\_
+#### musmusculus-ref-article-title-check
 
-sulfolobusssolfataricus-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Sulfolobus solfataricus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'Mus musculus' - but there is no italic element with that correct capitalisation or spacing._
 
-ssmediterranea-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'S. mediterranea' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-schmidteasmediterranea-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Schmidtea mediterranea' - but there is no italic element with that correct capitalisation or spacing.\_
+#### dimmigrans-ref-article-title-check
 
-ssrosetta-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'S. rosetta' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'D. immigrans' - but there is no italic element with that correct capitalisation or spacing._
 
-salpingoecasrosetta-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Salpingoeca rosetta' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-nsvectensis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'N. vectensis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### drosophilaimmigrans-ref-article-title-check
 
-nematostellasvectensis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Nematostella vectensis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'Drosophila immigrans' - but there is no italic element with that correct capitalisation or spacing._
 
-ssaureus-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'S. aureus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-staphylococcussaureus-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Staphylococcus aureus' - but there is no italic element with that correct capitalisation or spacing.\_
+#### dsubobscura-ref-article-title-check
 
-vscholerae-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'V. cholerae' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'D. subobscura' - but there is no italic element with that correct capitalisation or spacing._
 
-vibrioscholerae-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Vibrio cholerae' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-tsthermophila-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'T. thermophila' - but there is no italic element with that correct capitalisation or spacing.\_
+#### drosophilasubobscura-ref-article-title-check
 
-tetrahymenasthermophila-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Tetrahymena thermophila' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'Drosophila subobscura' - but there is no italic element with that correct capitalisation or spacing._
 
-csreinhardtii-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'C. reinhardtii' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-chlamydomonassreinhardtii-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Chlamydomonas reinhardtii' - but there is no italic element with that correct capitalisation or spacing.\_
+#### daffinis-ref-article-title-check
 
-nsattenuata-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'N. attenuata' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'D. affinis' - but there is no italic element with that correct capitalisation or spacing._
 
-nicotianasattenuata-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Nicotiana attenuata' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-escarotovora-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'E. carotovora' - but there is no italic element with that correct capitalisation or spacing.\_
+#### drosophilaaffinis-ref-article-title-check
 
-erwiniascarotovora-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Erwinia carotovora' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'Drosophila affinis' - but there is no italic element with that correct capitalisation or spacing._
 
-hsapiens-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'H. sapiens' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-homosapiens-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Homo sapiens' - but there is no italic element with that correct capitalisation or spacing.\_
+#### dobscura-ref-article-title-check
 
-ctrachomatis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'C. trachomatis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'D. obscura' - but there is no italic element with that correct capitalisation or spacing._
 
-chlamydiatrachomatis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Chlamydia trachomatis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-esfaecalis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'E. faecalis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### drosophilaobscura-ref-article-title-check
 
-enterococcussfaecalis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Enterococcus faecalis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'Drosophila obscura' - but there is no italic element with that correct capitalisation or spacing._
 
-xlaevis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'X. laevis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-xenopuslaevis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Xenopus laevis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### ftularensis-ref-article-title-check
 
-xtropicalis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'X. tropicalis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'F. tularensis' - but there is no italic element with that correct capitalisation or spacing._
 
-xenopustropicalis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Xenopus tropicalis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-mmusculus-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'M. musculus' - but there is no italic element with that correct capitalisation or spacing.\_
+#### francisellatularensis-ref-article-title-check
 
-musmusculus-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Mus musculus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'Francisella tularensis' - but there is no italic element with that correct capitalisation or spacing._
 
-dimmigrans-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'D. immigrans' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-drosophilaimmigrans-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Drosophila immigrans' - but there is no italic element with that correct capitalisation or spacing.\_
+#### pplantaginis-ref-article-title-check
 
-dsubobscura-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'D. subobscura' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'P. plantaginis' - but there is no italic element with that correct capitalisation or spacing._
 
-drosophilasubobscura-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Drosophila subobscura' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-daffinis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'D. affinis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### podosphaeraplantaginis-ref-article-title-check
 
-drosophilaaffinis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Drosophila affinis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'Podosphaera plantaginis' - but there is no italic element with that correct capitalisation or spacing._
 
-dobscura-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'D. obscura' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-drosophilaobscura-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Drosophila obscura' - but there is no italic element with that correct capitalisation or spacing.\_
+#### planceolata-ref-article-title-check
 
-ftularensis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'F. tularensis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'P. lanceolata' - but there is no italic element with that correct capitalisation or spacing._
 
-francisellatularensis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Francisella tularensis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-pplantaginis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'P. plantaginis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### plantagolanceolata-ref-article-title-check
 
-podosphaeraplantaginis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Podosphaera plantaginis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'Plantago lanceolata' - but there is no italic element with that correct capitalisation or spacing._
 
-planceolata-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'P. lanceolata' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-plantagolanceolata-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Plantago lanceolata' - but there is no italic element with that correct capitalisation or spacing.\_
+#### mtrossulus-ref-article-title-check
 
-mtrossulus-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Info\*\*: \_XXXXXX contains an organism - 'M. trossulus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'M. trossulus' - but there is no italic element with that correct capitalisation or spacing._
 
-mytilustrossulus-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Info\*\*: \_XXXXXX contains an organism - 'Mytilus trossulus' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-medulis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Info\*\*: \_XXXXXX contains an organism - 'M. edulis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### mytilustrossulus-ref-article-title-check
 
-mytilusedulis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Info\*\*: \_XXXXXX contains an organism - 'Mytilus edulis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'Mytilus trossulus' - but there is no italic element with that correct capitalisation or spacing._
 
-mchilensis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Info\*\*: \_XXXXXX contains an organism - 'M. chilensis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-mytiluschilensis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Info\*\*: \_XXXXXX contains an organism - 'Mytilus chilensis' - but there is no italic element with that correct capitalisation or spacing.\_
+#### medulis-ref-article-title-check
 
-umaydis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Info\*\*: \_XXXXXX contains an organism - 'U. maydis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'M. edulis' - but there is no italic element with that correct capitalisation or spacing._
 
-ustilagomaydis-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Info\*\*: \_XXXXXX contains an organism - 'Ustilago maydis' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-pknowlesi-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Info\*\*: \_XXXXXX contains an organism - 'P. knowlesi' - but there is no italic element with that correct capitalisation or spacing.\_
+#### mytilusedulis-ref-article-title-check
 
-plasmodiumknowlesi-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Info\*\*: \_XXXXXX contains an organism - 'Plasmodium knowlesi' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'Mytilus edulis' - but there is no italic element with that correct capitalisation or spacing._
 
-paeruginosa-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Info\*\*: \_XXXXXX contains an organism - 'P. aeruginosa' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-pseudomonasaeruginosa-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Info\*\*: \_XXXXXX contains an organism - 'Pseudomonas aeruginosa' - but there is no italic element with that correct capitalisation or spacing.\_
+#### mchilensis-ref-article-title-check
 
-tbrucei-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'T. brucei' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'M. chilensis' - but there is no italic element with that correct capitalisation or spacing._
 
-trypanosomabrucei-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Trypanosoma brucei' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-drerio-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'D. rerio' - but there is no italic element with that correct capitalisation or spacing.\_
+#### mytiluschilensis-ref-article-title-check
 
-daniorerio-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Danio rerio' - but there is no italic element with that correct capitalisation or spacing.\_
+**Info**: _XXXXXX contains an organism - 'Mytilus chilensis' - but there is no italic element with that correct capitalisation or spacing._
 
-drosophila-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Drosophila' - but there is no italic element with that correct capitalisation or spacing.\_
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
-xenopus-article-title-check	article//article-meta/title-group/article-title \| article/body//sec/title \| article//article-meta//kwd	\*\*Warning\*\*: \_XXXXXX contains an organism - 'Xenopus' - but there is no italic element with that correct capitalisation or spacing.\_
+#### umaydis-ref-article-title-check
 
+**Info**: _XXXXXX contains an organism - 'U. maydis' - but there is no italic element with that correct capitalisation or spacing._
 
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
+#### ustilagomaydis-ref-article-title-check
 
+**Info**: _XXXXXX contains an organism - 'Ustilago maydis' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
+
+#### pknowlesi-ref-article-title-check
+
+**Info**: _XXXXXX contains an organism - 'P. knowlesi' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
+
+#### plasmodiumknowlesi-ref-article-title-check
+
+**Info**: _XXXXXX contains an organism - 'Plasmodium knowlesi' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
+
+#### paeruginosa-ref-article-title-check
+
+**Info**: _XXXXXX contains an organism - 'P. aeruginosa' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
+
+#### pseudomonasaeruginosa-ref-article-title-check
+
+**Info**: _XXXXXX contains an organism - 'Pseudomonas aeruginosa' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
+
+#### tbrucei-ref-article-title-check
+
+**Info**: _XXXXXX contains an organism - 'T. brucei' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
+
+#### trypanosomabrucei-ref-article-title-check
+
+**Info**: _XXXXXX contains an organism - 'Trypanosoma brucei' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
+
+#### drerio-ref-article-title-check
+
+**Info**: _XXXXXX contains an organism - 'D. rerio' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
+
+#### daniorerio-ref-article-title-check
+
+**Info**: _XXXXXX contains an organism - 'Danio rerio' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
+
+#### drosophila-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'Drosophila' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
+
+#### xenopus-ref-article-title-check
+
+**Info**: _ref XXXXXX references an organism - 'Xenopus' - but there is no italic element with that correct capitalisation or spacing._
+
+**Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting \(this formatting may not have been supplied when the article was sent to PubMed or Crossref\). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
 ### XML structure warnings
 
