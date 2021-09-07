@@ -82,7 +82,9 @@ and the second
 * Keeley A, Soldati D, Smith J, Bloggs M. 2004b
 * Keeley A, Soldati D, Smith J, Bloggs M. 2004c
 
-resulting in citations of 'Keeley and Soldati, 2004a' and 'Keeley and Soldati, 2004b', and 'Keeley et al., 2004a', 'Keeley et al., 2004b' and 'Keeley et al., 2004c'. The dates are then treated in alphabetical sequence, so '2004b' must appear after '2004a'.
+resulting in citations of 'Keeley and Soldati, 2004a' and 'Keeley and Soldati, 2004b', and 'Keeley et al., 2004a', 'Keeley et al., 2004b' and 'Keeley et al., 2004c'. The dates are then treated in alphabetical sequence, so '2004b' must appear after '2004a' in the reference list.
+
+Letters should be assigned on the basis of which reference is cited first in the text. So, the first reference citation should have the year suffic a, the second b, the third c and so on.
 
 ### Combining multiple reference lists
 
@@ -160,7 +162,9 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Error**: _Citations in the text to references with the same author\(s\) in the same year must be arranged in the same order as the reference list. The xref with the value 'XXXXXX' is in the wrong order in the text. Check all the references to citations for the same authors to determine which need to be changed._
 
-**Action**:
+**Action**: This error indicates that two or more references whose citations need to be distinguished using letter suffixes are being cited in an order that does not match the order of the suffixes. For example, Smith et al., 1999b is cited before Smith et al., 1999a. The order of the suffixes will therefore need to be changed to match the citation order. **DO NOT** change the citation order as this will likely introduce errors.
+
+For the current example, Smith et al., 1999b would need to be changed to Smith et al., 1999a and vice versa.
 
 #### pre-element-cite-year
 
