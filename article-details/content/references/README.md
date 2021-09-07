@@ -932,7 +932,7 @@ Info: _ref XXXXXX references an organism - 'S. rosetta' - but there is no italic
 
 **Error**: _element-citation must have a publication-type attribute with one of these values: 'journal', 'book', 'data', 'patent', 'software', 'preprint', 'web', 'periodical', 'report', 'confproc', or 'thesis'. Reference 'XXXXXX' has 'XXXXXX'._
 
-**Action**:
+**Action**: This error will fire if the `publication-type` attribute on an `<element-citation>` element does not conform to the allowed values.
 
 #### err-elem-cit-gen-date-1-3
 
