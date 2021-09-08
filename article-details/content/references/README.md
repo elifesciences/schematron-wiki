@@ -1006,7 +1006,7 @@ Re-add the year for the affected reference, ensuring no spaces or formatting are
 
 **Error**: _pub-id has a doi link - XXXXXX - but its pub-id-type is XXXXXX instead of doi._
 
-**Action**:
+**Action**: This error indicates that a `<pub-id>` element contains a DOI but the attribute `pub-id-type` has not been set to 'doi'.
 
 #### pub-id-doi-test-2
 
