@@ -1024,7 +1024,7 @@ If the authors have not provided the year for the affected reference, the Produc
 
 **Error**: _pub-id has a doi link - XXXXXX - but its pub-id-type is XXXXXX instead of doi._
 
-**Action**: This error indicates that a `<pub-id>` element contains a DOI but the attribute `pub-id-type` has not been set to 'doi'.
+**Action**: This error indicates that a `<pub-id>` element contains a DOI but the attribute `pub-id-type` has not been set to 'doi'. Check the details for the indicated reference and ensure that the 
 
 #### pub-id-doi-test-2
 
