@@ -1022,7 +1022,7 @@ If the empty element cannot be fixed or removed using the proofing interface fie
 
 **Error**: _XXXXXX element contains tagging, which should be removed - 'XXXXXX'._
 
-**Action**:
+**Action**: 
 
 #### pub-id-doi-test-1
 
