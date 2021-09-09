@@ -958,13 +958,31 @@ Re-add the year for the affected reference, ensuring no spaces or formatting are
 
 **Warning**: _The numeric value of the first 4 digits of the @iso-8601-date attribute must match the first 4 digits on the &lt;year&gt; element. Reference 'XXXXXX' does not meet this requirement as the element contains the value 'XXXXXX' and the attribute contains the value 'XXXXXX'. If there is no year, and you are unable to determine this, please query with the authors._
 
-**Action**:
+**Action**: At the pre-author stage, this warning indicates that the `iso-8601-date` attribute on a`<year>` element does not match the first four digits of the contents of that element. For example, this could mean the following kind of mismatch:
+
+```markup
+<year iso-8601-date="2003">2013</year>
+```
+
+Re-add the year for the affected reference, ensuring no spaces or formatting are present in the entered value. If this does not clear the error, the content processor support team will need to fix the attribute to match the contents of the year field.
+
+If the authors have not provided the year for the affected reference, they should be queried to provide this:
+
+* Please provide the year for this reference.
 
 #### final-err-elem-cit-gen-date-1-5
 
 **Error**: _The numeric value of the first 4 digits of the @iso-8601-date attribute must match the first 4 digits on the &lt;year&gt; element. Reference 'XXXXXX' does not meet this requirement as the element contains the value 'XXXXXX' and the attribute contains the value 'XXXXXX'. If there is no year, and you are unable to determine this, please query with the authors._
 
-**Action**:
+**Action**: At the post-author stage, this error indicates that the `iso-8601-date` attribute on a`<year>` element does not match the first four digits of the contents of that element. For example, this could mean the following kind of mismatch:
+
+```markup
+<year iso-8601-date="2003">2013</year>
+```
+
+Re-add the year for the affected reference, ensuring no spaces or formatting are present in the entered value. If this does not clear the error, the content processor support team will need to fix the attribute to match the contents of the year field.
+
+If the authors have not provided the year for the affected reference, the Production team should ask them to provide this.
 
 #### err-elem-cit-high-1
 
