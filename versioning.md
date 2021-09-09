@@ -20,9 +20,9 @@ Add info about feature content here
 ![New version annotation on the eLife website](.gitbook/assets/screenshot-2021-08-23-at-14.37.26.png)
 
 * Silent corrections
-  * Issued if the correction does not affect scientific content or result in a visible change in the article, for example, if the error is in the XML. No annotations are added on the website - the article is silently updated. 
+  * Issued for formatting errors is in the XML. No annotations are added on the website - the new version replaces the version present on the site and no change history is available to the viewer. Feature content can also be silently corrected for content changes
 * Official corrections
-  * Issued if an error affects or impacts upon the scientific content of the article, for example, major corrections to figures \(e.g. incorrect/duplicated western blot panels, changes to p values or any other data changes\) or text edits affecting some scientific conclusions. The corrected article has a red banner heading on the eLife website to link readers to the correction notice. 
+  * Issued if an error impacts the scientific content of the article, for example, major corrections to figures \(e.g. incorrect/duplicated western blot panels, changes to p values or any other data changes\) or text edits affecting some scientific conclusions. The corrected article has a red banner heading on the eLife website to link readers to the correction notice. 
 
 ![Correction notice banner on the eLife website](.gitbook/assets/screenshot-2021-08-23-at-14.38.20.png)
 
@@ -73,7 +73,7 @@ Highlight the most recent 'Version of Record updated' text and click on 'Annotat
 
 ![](.gitbook/assets/screenshot-2021-08-23-at-14.36.34.png)
 
-The first time you do this, you will need to sign in to ORCID. Then, copy and paste the following text and edit accordingly:
+You need to be logged in to ORCID to annotate an article. Then, copy and paste the following text and edit accordingly:
 
 > A new version of this article was issued to \[insert reason here\]
 >
@@ -91,19 +91,19 @@ Once this is done, email the authors to let them know their article has been upd
 
 ## Processing silent corrections
 
-Silent corrections can be issued if a change does not affect the scientific content. These are processed in a similar manner to [**new versions**](versioning.md#processing-new-versions) - except there is no Continuum check step. Instead, after checking the relevant changes have been made, the article is sent straight to the website and published automatically via the silent-corrections AWS bucket. 
+Silent corrections can be issued if a change does not change the content. These are processed in a similar manner to  [**new versions**](versioning.md#processing-new-versions) - except there is no Continuum check step. Instead, after checking the relevant changes have been made, the article is sent straight to the website and published automatically via the silent-corrections AWS bucket. Silent corrections replace the current version on the website by overwriting it.
 
 ![](.gitbook/assets/screenshot-2021-09-06-at-08.35.11.png)
 
-No annotations should be left to indicate the change as this is a silent correction. Because of this, silent corrections should only be used when absolutely necessary. 
+No annotations should be left to indicate the change because the reader cannot see an old version to verify against. Silent corrections should only be used for XML issues and not content changes \(with the exception of Features content\).
 
 ## Processing official corrections and retractions 
 
-An official correction is required when an author wishes to make changes to the scientific content of their work after publication. This is the chief difference between this kind of correction and a new version: the changes affect the scientific content and potentially the conclusions presented in the article, therefore readers must be informed that the article has changed.
+An official correction is required when an author wishes to make changes to the scientific content of their work after publication and this needs to be clear to all readers wherever they may access the content. Official correction notices are published and linked to the research content on other sites such as PMC, Scopus and Web of Science, as well as the eLife website and this is a historic scholarly publication process that all publishers adhere to \(publishing correction notices\).
 
 Official corrections consist of a new version of the article and a related ‘correction notice’ giving a description of the edits made and, where appropriate, the reasons why. These two items are published simultaneously.
 
-When an author requests a change to their article that constitutes an edit to the scientific content, Editorial will need to be informed. It will usually be clear from the author’s message to what extent the changes affect the content of the article but if there is any uncertainty, correspond with Editorial to make the decision. The editors who handled the article will need to be informed of the required correction. Editorial will then work with the authors and editors to draft and approve the text for the correction notice. This will then be emailed to the Production team for processing. 
+When an author requests a change to their article that constitutes an edit to the scientific content, Editorial will need to be informed. It will usually be clear from the author’s message to what extent the changes affect the content of the article but if there is any uncertainty, correspond with Editorial to make the decision. The editors who handled the article will need to be informed of the required correction. Editorial will then work with the authors and editors to draft and approve the text for the correction notice. This will then be emailed to the Production team for processing. Note, this is a subjective decision sometimes.
 
 Retractions are issued when the findings of an article are found to be incorrect. eLife publishes retraction notices alongside articles that have been retracted, but the content of the articles remain on the website for transparency. The Editorial team will contact Production when a retraction is required and provide the retraction notice. 
 
