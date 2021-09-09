@@ -1006,13 +1006,17 @@ If the authors have not provided the year for the affected reference, the Produc
 
 **Warning**: _XXXXXX element is empty - this is not allowed. It must contain content. If the details are missing and cannot be determined, please query the authors._
 
-**Action**:
+**Action**: At the pre-author stage, this warning indicates that an element in a reference is empty. It may be possible to fix this via the proofing interface; if a field is present and required for the reference type but contains no content, the author should be queried to provide the missing information. If the field is not required for the reference type, it can simply be removed.
+
+If the empty element cannot be fixed or removed using the proofing interface fields, the content processor's support team will likely have to intervene to correct the XML by removing the empty element\(s\).
 
 #### final-empty-elem-cit-des
 
 **Error**: _XXXXXX element is empty - this is not allowed. It must contain content._
 
-**Action**:
+**Action**: At the post-author stage, this error indicates that an element in a reference is empty. It may be possible to fix this via the proofing interface; if a field is present and required for the reference type but contains no content, the author should be queried to provide the missing information. If the field is not required for the reference type, it can simply be removed.
+
+If the empty element cannot be fixed or removed using the proofing interface fields, the content processor's support team will likely have to intervene to correct the XML by removing the empty element\(s\).
 
 #### tagging-elem-cit-des
 
@@ -1024,7 +1028,7 @@ If the authors have not provided the year for the affected reference, the Produc
 
 **Error**: _pub-id has a doi link - XXXXXX - but its pub-id-type is XXXXXX instead of doi._
 
-**Action**: This error indicates that a `<pub-id>` element contains a DOI but the attribute `pub-id-type` has not been set to 'doi'. Check the details for the indicated reference and ensure that the 
+**Action**: This error indicates that a `<pub-id>` element contains a DOI but the attribute `pub-id-type` has not been set to 'doi'. Check the details for the indicated reference and ensure that the DOI has been entered in the correct field \(e.g. is set to 'DOI', not 'PMID'\). If this does not solve the problem, the content processor's support team will need to be asked to fix the attribute on the `<pub-id>` element.
 
 #### pub-id-doi-test-2
 
