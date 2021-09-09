@@ -8,10 +8,14 @@ description: >-
 
 Despite everyone's best efforts, some articles will require correcting/updating because of errors. eLife aims to make this process as open and transparent as possible, preserving links to earlier versions of articles for readers and making clear what has changed and why. Some updates are not delivered to downstream services - to find out more, see [**here**](article-details/relationships/downstream-deliveries.md#where-we-send-elife-content). 
 
+{% hint style="info" %}
+Add info about feature content here
+{% endhint %}
+
 ## Types of versions
 
-* New versions \(also known as V2\)
-  * Issued if the error is visible, but does not affect the scientific content of the research, for example, typos in names, incorrect funding or affiliation information, minor figure edits \(without changing the data itself\) etc. An annotation is added to the article on the eLife website to alert readers to the change. If there are errors in PoAs, new versions of these can also be issued before the VoR if appropriate \(see more here\). 
+* New versions \(also known as V2s\)
+  * Issued if the error is in the content \(not XML formatting\), but does not affect the scientific content of the research, for example, typos in names, incorrect funding or affiliation information, minor figure edits \(without changing the data itself\) etc. Exception: Feature content \(see [**here**](article-details/content/feature-content.md) for Feature content\).
 
 ![New version annotation on the eLife website](.gitbook/assets/screenshot-2021-08-23-at-14.37.26.png)
 
