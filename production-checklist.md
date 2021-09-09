@@ -98,6 +98,10 @@ Sometimes affiliations need to be split up i.e., if there are two departments li
 
 ### Funding
 
+All funding received by authors in the process of researching and creating the article needs to be referenced here. Open each funding reference individually in order to check the details. Ideally, we want every funder to be validated against the CrossRef Funder Registry. Validated funders are indicated by a green tick. If it is not validated, try retyping the funder. If this doesn’t work, open the CrossRef Funder Registry spreadsheet \(available to download here\) and check if it is on there. If you still cannot find the funder, then conduct a google search and attempt to determine whether the funder is an accredited body or not. Sometimes the name may need correcting slightly, or may be translated into English when it is registered in the original language. French affiliations are notoriously difficult to untangle.
+
+Every funder must have at least one author associated with it or the system will throw an error and you will be unable to proceed from this screen. Grant references, however, are optional.
+
 ![](.gitbook/assets/screenshot-2021-09-08-at-09.15.34.png)
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-09.15.41.png)
