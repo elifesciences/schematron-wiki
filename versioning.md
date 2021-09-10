@@ -71,7 +71,11 @@ Click on the pen icon to enter the article, and then select 'Approve'. If any sc
 
 ![](.gitbook/assets/screenshot-2021-09-06-at-08.32.58.png)
 
-The article will then appear at the publisher review stage and you can assign it to yourself and make the required changes, sending it to Exeter if needed. Make sure to validate the XML against the Schematron as usual. If the article is older, there may be some error messages, as the Schematron may have been updated since the article was published. Most can be ignored, but double-check whether any should be actioned. For example, the old MSA, 'Human Biology and Medicine' was updated to 'Medicine' in 2020. Any updates to articles with the MSA 'Human Biology and Medicine' would therefore need to include a change to the MSA as well. 
+The article will then appear at the publisher review stage and you can assign it to yourself and make the required changes, sending it to Exeter if needed. Make sure to validate the XML against the Schematron as usual. If the article is older, there may be some error messages, as the Schematron may have been updated since the article was published. Most can be ignored, but double-check whether any should be actioned. For example, the old Major Subject Area \(MSA\), 'Human Biology and Medicine' was updated to 'Medicine' in 2020. Therefore, when updating these articles, the old MSA 'Human Biology and Medicine' needs to be changed to 'Medicine'.
+
+{% hint style="info" %}
+When updates were made to MSAs, these were batch-updated, bypassing Kriya. Some articles also had additional MSAs added at this point. Therefore when making changes to these articles, you will need to check the current MSAs of the article on the eLife website and ensure these are all present in Kriya.
+{% endhint %}
 
 If there are no Schematron errors, send the article to Continuum and check and publish as usual. However if there are Schematron error messages that can't or don't need to be resolved, Exeter will need to turn off the validator so the article can be sent to Continuum - ask them to do this in Slack, noting in the Production channel that this has been done. Once the article is on Continuum, ask Exeter to turn the validator back on \(and let the Production channel know when this has been done\). 
 
@@ -246,18 +250,16 @@ To prevent retracted articles being redelivered to PMC, the retraction notice an
 
 ## Correcting older articles
 
-Updates to content that was produced by TNQ \(eLife’s previous typesetter\), will need to be handled slightly differently. 
+Updates to content that was produced by TNQ \(eLife’s previous typesetter\) will need to be handled slightly differently. 
 
 * Download the required article package from the publishing archive, \(AWS bucket ‘elife-publishing-archive’\). 
-* Upload the package to the ‘Input’ sub-folder of the ‘Correction Article’ folder on the Exeter Premedia FTP site.
-* Email Exeter:
-  * Subject line: TNQ correction: Article number/ - silent/new version/official correction
-  * Detail in the message the change that needs to be made and whether it is XML or XML and PDF
-* Exeter will process the article and copy it to the Output folder for review and respond on OS ticket email thread.
-* Further communication and revisions follow above pattern and communicated on OS ticket.
-* eLife approve via OS ticket thread.
-* For V2’s - Exeter will deliver the article to Continuum via the elife-final bucket. 
-* For Silent Corrections -  upload the corrected article to the silent-correction bucket.
+* If the change only involves the XML and not the PDF, unzip the package, edit the XML accordingly and then re-zip the folder and upload it to the prod-elife-silent-corrections AWS bucket \(changing the r number if necessary\).
+* If the change affects the PDF, attach the package in an email to Exeter:
+  * Subject line: TNQ correction: Article number - silent correction/new version/official correction
+  * Detail in the message the change that needs to be made and whether it needs to change just in the PDF or both the XML and PDF
+* Exeter will then process the article and share it for approval. 
+* For V2s - Exeter will deliver the article to Continuum via the elife-production-final bucket. 
+* For Silent Corrections -  upload the corrected article to the prod-elife-silent-corrections bucket.
 
 
 
