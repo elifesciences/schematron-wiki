@@ -11,7 +11,7 @@ Despite everyone's best efforts, some articles will require correcting/updating 
 ## Types of versions
 
 {% hint style="info" %}
-All post-publication changes to content are processed by the Production team. For changes to Feature content \(including Digests\), the Features team make the decision about what type of update to issue - usually preferring silent corrections over V2s.
+All post-publication changes to content are processed by the Production team. For changes to Feature content \(including Digests\), the Features team make the decision about what type of update to issue, usually preferring silent corrections over V2s.
 {% endhint %}
 
 * New versions \(also known as V2s\)
@@ -33,11 +33,13 @@ All post-publication changes to content are processed by the Production team. Fo
 
 ![Retraction notice heading on the article PDF](.gitbook/assets/screenshot-2021-08-23-at-14.38.07.png)
 
-It can be tricky to figure out whether an error affects the scientific meaning/conclusions of the article. If there is any doubt, this should be discussed with the Production team in the first instance, and the Editorial team as well if required. 
+When an author gets in touch to ask for a change to their article, it can sometimes be difficult to figure out whether an error affects the scientific meaning/conclusions of the article \(and whether a V2 or silent correction is more appropriate\). If there is any doubt, this should be discussed with the Production team in the first instance, and the Editorial team as well if required. 
 
 For minor errors such as typos that do not affect scientific content, authors should be encouraged to leave annotations on the eLife website instead of issuing a new version. Authors can do this by highlighting the appropriate text, selecting 'Annotate' and then typing and posting the replacement text. 
 
 ![Adding an annotation on the eLife website](.gitbook/assets/screenshot-2021-09-06-at-12.11.11.png)
+
+The Editorial team will usually decide if an article requires a correction/retraction. See more [**here**](versioning.md#processing-official-corrections-and-retractions). 
 
 {% hint style="info" %}
 New versions, silent corrections and retractions can be issued for both VoRs and PoAs. Only VoRs tend to have official corrections. 
@@ -83,13 +85,13 @@ Once the new version has been published, update the Production actions sheet wit
 
 ![](.gitbook/assets/screenshot-2021-08-23-at-15.08.12.png)
 
-Once the updated article is live, add an annotation using hypothesis:
+Once the updated article is live, add an annotation using Hypothesis \(the website annotation feature used by eLife\):
 
-Highlight the most recent 'Version of Record updated' text and click on 'Annotate'.
+Ensure you are logged in to ORCID so you can annotate the article. Highlight the most recent 'Version of Record updated' text and click on 'Annotate'.
 
 ![](.gitbook/assets/screenshot-2021-08-23-at-14.36.34.png)
 
-You need to be logged in to ORCID to annotate an article. Then, copy and paste the following text and edit accordingly:
+Then, copy and paste the following text and edit accordingly:
 
 > A new version of this article was issued to \[insert reason here\]
 >
@@ -214,20 +216,19 @@ The notice will then be sent to Kriya in the next export cycle.
 
 ### Processing corrections/retractions in Kriya
 
-Once the notice has been exported, the article to be corrected or retracted can be resupplied from the archive. For corrections: 
+Once the notice has been exported, the article to be corrected or retracted can be resupplied from the archive. 
+
+For corrections: 
 
 * Replace the figures and make any text edits according to the notice. If there are extensive edits, the article may need to be sent back to Exeter to correct. 
 * Once the required changes have been made to the article, check everything over again, and then update the pub-date of the **correction notice** \(not the research article itself\) to today's date. 
-* Send correction notice and corrected article to Continuum for final checks and publish both together once this is done.
+* Send the correction notice and corrected article to Continuum for final checks, and once these are done, publish the article and the notice simultaneously via the batch publishing option on the Continuum dashboard. 
 
-For retractions
+For retractions:
 
 * Send the article to Exeter to add the retraction header to the article and figures PDFs. **No other changes should be made to the research article.**
-* Once the retraction header has been added, check everything over again, and then update the pub-date of the **retraction notice** \(not the research article itself\)
-
-  to today's date. 
-
-* Send retraction notice and corrected article to Continuum for final checks and publish both together once this is done.
+* Once the retraction header has been added, check everything over again, and then update the pub-date of the **retraction notice** \(not the research article itself\) to today's date. 
+* Send the retraction notice to Continuum for final checks, and once these are done, send the research article for a silent correction and publish the retraction notice. The two pieces should be published as simultaneously as possible. 
 
 Make sure to validate the XML against the Schematron as usual. If the article is older, there may be some error messages, as the Schematron may have been updated since the article was published. Most can be ignored, but double-check whether any should be actioned. For example, the old MSA, 'Human Biology and Medicine' was updated to 'Medicine' in 2020. Any updates to articles with the MSA 'Human Biology and Medicine' would therefore need to include a change to the MSA as well.
 
@@ -246,6 +247,10 @@ Once the required changes have been made to the article, check everything over a
 
 {% hint style="info" %}
 To prevent retracted articles being redelivered to PMC, the retraction notice and corresponding article must be published on the same day.
+{% endhint %}
+
+{% hint style="info" %}
+No annotations are required for official corrections and retractions - the corresponding notice outlines the changes that were made. 
 {% endhint %}
 
 ## Correcting older articles
