@@ -38,7 +38,7 @@ Most checks required on references will be covered on the individual pages liste
 
 Reference formatting is automatically derived from the tagging of the content; that is, the reference list itself does not capture formatting elements beyond italics and sub/superscript where it is present in the reference title. The italics for journal or books titles, the bolding for volume numbers and so on is all provided by the platform on which the reference list is being displayed.
 
-Where the formatting of a reference appears incorrect in the proofing system or the PDF — such as there being misplaced full-stops, italics applied to the wrong piece of text etc — this will usually indicate that the content has been mistagged.
+Where the formatting of a reference appears incorrect in the proofing system or the PDF — such as there being misplaced full-stops, italics applied to the wrong piece of text etc — this will usually indicate that the content has been mis-tagged.
 
 ### Reference ordering
 
