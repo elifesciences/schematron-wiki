@@ -86,7 +86,7 @@ and the second
 
 resulting in citations of 'Keeley and Soldati, 2004a' and 'Keeley and Soldati, 2004b', and 'Keeley et al., 2004a', 'Keeley et al., 2004b' and 'Keeley et al., 2004c'. The dates are then treated in alphabetical sequence, so '2004b' must appear after '2004a' in the reference list.
 
-Letters should be assigned on the basis of which reference is cited first in the text. So, the first reference citation should have the year suffic a, the second b, the third c and so on.
+Letters should be assigned on the basis of which reference is cited first in the text. So, the first reference citation should have the year suffix a, the second b, the third c and so on.
 
 ### Combining multiple reference lists
 
@@ -96,7 +96,7 @@ This will be carried out during initial processing of the article files so there
 
 ### General reference formatting
 
-
+Reference formatting is automatically derrived from the tagging of the content; that is, the reference list itself does not capture formating elements beyond italics and sub/superscript where it is present in the reference title. The italics for journal or books titles, the bolding for volume numbers and so on is all provided by the platform on which the reference list is being displayed.
 
 ## Schematron warnings
 
