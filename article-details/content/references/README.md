@@ -16,9 +16,9 @@ The reference list is placed at the end of the article, in the back matter. Refe
 
 ![A reference list in the article PDF](../../../.gitbook/assets/screen-shot-2021-07-13-at-17.07.27.png)
 
-The style used for references in articles - that is, the way the details are formatted and ordered - is derived from the APA style but is unique to eLife. Full author lists are presented online, but where there are more than 20 authors listed, 'et al.' will be used to truncate the list in the PDF \(compare Axten et al., 2021 in the two lists shown above\). This is in order to save space; some journal articles have over 100 authors!
+The style used for references — that is, the way the details are formatted and ordered — is derived from the APA style but is unique to eLife. It was developed in order to ensure that full details could be captured for a wide variety of publications. Full author lists are presented online, but where there are more than 20 authors listed, 'et al.' will be used to truncate the list in the PDF \(compare Axten et al., 2021 in the two lists shown above\). This is in order to save space; some journal articles have over 100 authors!
 
-eLife permits references to the following items, for which type-specific guidance has been provided on dedicated pages:
+eLife permits references to the following kinds of publication, for which type-specific guidance has been provided on dedicated pages:
 
 * \*\*\*\*[**Books**](book-references.md)\*\*\*\*
 * \*\*\*\*[**Conference papers**](conference-reference.md)\*\*\*\*
@@ -31,6 +31,8 @@ eLife permits references to the following items, for which type-specific guidanc
 * \*\*\*\*[**Theses**](thesis-references.md)\*\*\*\*
 
 ## What needs to be checked?
+
+Most checks required on references will be covered on the individual pages listed in the previous section. This section will cover topics related to the reference list as a whole.
 
 ### Reference ordering
 
