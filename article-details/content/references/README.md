@@ -34,6 +34,12 @@ eLife permits references to the following kinds of publication, for which type-s
 
 Most checks required on references will be covered on the individual pages listed in the previous section. This section will cover topics related to the reference list as a whole.
 
+### General reference formatting
+
+Reference formatting is automatically derived from the tagging of the content; that is, the reference list itself does not capture formatting elements beyond italics and sub/superscript where it is present in the reference title. The italics for journal or books titles, the bolding for volume numbers and so on is all provided by the platform on which the reference list is being displayed.
+
+Where the formatting of a reference appears incorrect in the proofing system or the PDF — such as there being misplaced full-stops, italics applied to the wrong piece of text etc — this will usually indicate that the content has been mistagged.
+
 ### Reference ordering
 
 References in eLife are ordered by the following criteria:
@@ -93,12 +99,6 @@ Letters should be assigned on the basis of which reference is cited first in the
 In some instances, authors will provide multiple reference lists in their submitted article files. This will usually entail providing the reference list for an appendix separately from the reference list for the main text, perhaps because these are in separate documents. In these cases, all the reference lists should be combined and any duplicate entries removed.
 
 This will be carried out during initial processing of the article files so there usually will not be nothing to check at the subsequent stages. If an appendix is missed or otherwise needs to be added in later, any references included exclusively in that section should be added to the main reference list.
-
-### General reference formatting
-
-Reference formatting is automatically derived from the tagging of the content; that is, the reference list itself does not capture formatting elements beyond italics and sub/superscript where it is present in the reference title. The italics for journal or books titles, the bolding for volume numbers and so on is all provided by the platform on which the reference list is being displayed.
-
-Where the formatting of a reference appears incorrect in the proofing system or the PDF — such as there being misplaced full-stops, italics applied to the wrong piece of text etc — this will usually indicate that the content has been mistagged.
 
 ## Schematron warnings
 
