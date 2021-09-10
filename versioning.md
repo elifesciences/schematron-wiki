@@ -6,11 +6,9 @@ description: >-
 
 # Versioning
 
-Despite everyone's best efforts, some articles will require correcting/updating because of errors. eLife aims to make this process as open and transparent as possible, preserving links to earlier versions of articles for readers and making clear what has changed and why. Some updates are not delivered to downstream services - to find out more, see [**here**](article-details/relationships/downstream-deliveries.md#where-we-send-elife-content). 
+Despite everyone's best efforts, some articles will require correcting/updating because of errors. eLife aims to make this process as open and transparent as possible, preserving links to earlier versions of articles for readers and making clear what has changed and why. Some updates are not delivered to all downstream services - to find out more, see [**here**](article-details/relationships/downstream-deliveries.md#where-we-send-elife-content).
 
-{% hint style="info" %}
-Add info about feature content here
-{% endhint %}
+
 
 ## Types of versions
 
@@ -42,6 +40,10 @@ It can be tricky to figure out whether an error affects the scientific meaning/c
 For minor errors such as typos that do not affect scientific content, authors should be encouraged to leave annotations on the eLife website instead of issuing a new version. Authors can do this by highlighting the appropriate text, selecting 'Annotate' and then typing and posting the replacement text. 
 
 ![Adding an annotation on the eLife website](.gitbook/assets/screenshot-2021-09-06-at-12.11.11.png)
+
+{% hint style="info" %}
+All post-publication changes to content are processed by the Production team. For corrections to Feature content \(including Digests\), the Features team make the decision about what type of update to issue.
+{% endhint %}
 
 ## Processing new versions
 
