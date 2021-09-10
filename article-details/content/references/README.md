@@ -1038,3 +1038,7 @@ If the empty element cannot be fixed or removed using the proofing interface fie
 
 **Action**:
 
+## XML Structure <a id="xml-structure"></a>
+
+
+
