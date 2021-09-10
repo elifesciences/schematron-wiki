@@ -1040,5 +1040,76 @@ If the empty element cannot be fixed or removed using the proofing interface fie
 
 ## XML Structure <a id="xml-structure"></a>
 
+Example reference list structure:
 
+```markup
+<ref-list>
+    <title>References</title>
+        <ref id="bib1">
+            <element-citation publication-type="journal">
+                <person-group person-group-type="author">
+                    <name><surname>A&#x00EF;t-Ali</surname><given-names>N</given-names></name>
+                    .
+                    .
+                    .
+                </person-group>
+                <year iso-8601-date="2015">2015</year>
+                <article-title>Rod-derived cone viability factor promotes cone survival by stimulating aerobic glycolysis</article-title>
+                <source>Cell</source>
+                <volume>161</volume>
+                <fpage>817</fpage>
+                <lpage>832</lpage>
+                <pub-id pub-id-type="doi">10.1016/j.cell.2015.03.023</pub-id>
+                <pub-id pub-id-type="pmid">25957687</pub-id>
+            </element-citation>
+        </ref>
+    <ref id="bib2">
+        <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+                <name><surname>Angueyra</surname><given-names>JM</given-names></name>
+                <name><surname>Kindt</surname><given-names>KS</given-names></name>
+            </person-group>
+            <year iso-8601-date="2018">2018</year>
+            <article-title>Leveraging zebrafish to study retinal degenerations</article-title>
+            <source>Frontiers in Cell and Developmental Biology</source>
+            <volume>6</volume>
+            <elocation-id>110</elocation-id>
+            <pub-id pub-id-type="doi">10.3389/fcell.2018.00110</pub-id>
+            <pub-id pub-id-type="pmid">30283779</pub-id>
+        </element-citation>
+    </ref>
+    <ref id="bib3">
+        <element-citation publication-type="journal">
+            <person-group person-group-type="author">
+                <name><surname>Ansari</surname><given-names>B</given-names></name>
+                .
+                .
+                .
+            </person-group>
+            <year iso-8601-date="1993">1993</year>
+            <article-title>In situ end-labelling detects DNA strand breaks in apoptosis and other physiological and pathological states</article-title>
+            <source>The Journal of Pathology</source>
+            <volume>170</volume>
+            <fpage>1</fpage>
+            <lpage>8</lpage>
+            <pub-id pub-id-type="doi">10.1002/path.1711700102</pub-id>
+        </element-citation>
+    </ref>
+    .
+    .
+    .
+    <ref id="bib154">
+        <element-citation publication-type="book">
+            <person-group person-group-type="author">
+                <name><surname>Zhang</surname><given-names>XD</given-names></name>
+            </person-group>
+            <year iso-8601-date="2011">2011</year>
+            <source>Optimal High-Throughput Screening : Practical Experimental Design and Data Analysis for Genome-Scale RNAi Research</source>
+            <publisher-loc>Cambridge, United Kingdom</publisher-loc>
+            <publisher-name>Cambridge University Press</publisher-name>
+            <pub-id pub-id-type="doi">10.1017/CBO9780511973888</pub-id>
+        </element-citation>
+    </ref>
+ </ref-list>
+```
 
