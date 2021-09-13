@@ -246,7 +246,7 @@ This test has two possible messages:
 
 **Error:** _Preprint ref 'XXXXXX' has a source 'XXXXXX'. Should it be captured as a book type reference instead?_
 
-**Action**: This error will appear if a preprint reference has a preprint server \(Journal field in Kriya, source element in the XML\) that includes the word 'handbook'. This indicates that the reference should actually be a book reference instead of a preprint reference. Change the reference to a book reference \(hyperlink to be added\) and update the fields accordingly.
+**Action**: This error will appear if a preprint reference has a preprint server \(Journal field in Kriya, source element in the XML\) that includes the word 'handbook'. This indicates that the reference should actually be a book reference instead of a preprint reference. Change the reference to a [**book reference**](book-references.md) and update the fields accordingly.
 
 ### XML Structure checks
 
