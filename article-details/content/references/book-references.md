@@ -41,6 +41,14 @@ The following information can be added for journal references:
 
 ### Content checks
 
+These checks relate to the content of \[insert name of page\]. X or XXXXXX refers to quoted text which will change depending on the article.
+
+#### id-x - make sure this is tagged as a level 3 header
+
+**Warning/Error/Info:** _content of message_
+
+**Action:** What to do if this message fires
+
 ### XML Structure checks
 
 ## Change log
