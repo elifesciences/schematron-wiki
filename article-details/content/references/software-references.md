@@ -5,7 +5,7 @@ description: This is a page about entries for software in the reference list.
 # Software references
 
 {% hint style="info" %}
-For changelog, click [**here**](software-references.md#changelog). Updated 28/06/2021
+For changelog, click [**here**](software-references.md#changelog). Updated 13/09/2021
 {% endhint %}
 
 ## What is a software reference?
@@ -505,6 +505,18 @@ These checks relate to the XML structure of software references. X or XXXXXX ref
 
 * Please provide the URL for this software so that we can add it to the reference list. Alternatively, please provide the RRID for this software if available.
 
+#### **github-no-citation**
+
+**Warning**: _This GitHub link - XXXXXX - is included in the text, but there is no software reference for it. Please add a software reference or, in the event that all the information is not available, query the authors for the reference details._
+
+**Action:** This warning will appear if there is a GitHub link in the article but no software reference for it. This can be ignored if the GitHub link has been saved in Software Heritage \(see [**here**](../../../toolkit/archiving-code.md#overview) ****for more about this\). If not, a software reference should be added for it, following the instructions [**here**](software-references.md#github-gitlab).
+
+#### **gitlab-no-citation**
+
+**Warning**: _This GitLab link - XXXXXX - is included in the text, but there is no software reference for it. Please add a software reference or, in the event that all the information is not available, query the authors for the reference details._
+
+**Action:** This warning will appear if there is a GitLab link in the article but no software reference for it. This can be ignored if the GitLab link has been saved in Software Heritage \(see [**here**](../../../toolkit/archiving-code.md#overview) ****for more about this\). If not, a software reference should be added for it, following the instructions [**here**](software-references.md#github-gitlab).
+
 ## XML Structure
 
 Here are some examples of how the XML will look for various software references.
@@ -668,4 +680,10 @@ Zenodo
 
 * Changed 'GitHub' heading to '[**GitHub/GitLab**](software-references.md#github-gitlab)' 
 * Added information about how to add software references which don't fall into the given categories under '[**Other**](software-references.md#other)'.
+
+### 13/09/2021
+
+#### Changes
+
+* Added [**github-no-citation**](software-references.md#github-no-citation) and [**gitlab-no-citation**](software-references.md#gitlab-no-citation) tests
 
