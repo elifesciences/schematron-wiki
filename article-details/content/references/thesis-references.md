@@ -70,7 +70,7 @@ The following information can be added for thesis references:
     </tr>
     <tr>
       <td style="text-align:left">Website</td>
-      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Yes if available</td>
       <td style="text-align:left">&lt;ext-link ext-link-type=&quot;uri&quot; xlink:href=&quot;https://ore.exeter.ac.uk/repository/handle/10036/4181#JprXt3mbeIqSFbao.99&quot;&gt;https://ore.exeter.ac.uk/repository/handle/10036/4181#JprXt3mbeIqSFbao.99&lt;/ext-link&gt;</td>
       <td
       style="text-align:left">https://ore.exeter.ac.uk/repository/handle/10036/41</td>
@@ -83,6 +83,16 @@ The following information can be added for thesis references:
     </tr>
   </tbody>
 </table>
+
+Schematron warnings may pick up incomplete references, and these should be checked at the source of the reference.
+
+* **Authors**: A thesis reference should only have one author and no collaborations or editors etc.
+* **Year**: This should be the year the thesis was completed.
+* **Article title**: The title of the thesis. Can contain italics, superscript and subscript as required.
+* **Publisher name**: The name of the institution where the thesis was produced.
+* **Publisher location:** The city/country of the institution.
+* **Website:** If available, a URL to the thesis. 
+* **DOI:** The Digital Object Identifier for the thesis \(if applicable\).
 
 ## Schematron checks
 
