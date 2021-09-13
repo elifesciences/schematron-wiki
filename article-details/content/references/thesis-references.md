@@ -104,7 +104,7 @@ These checks relate to the content of Thesis references. X or XXXXXX refers to q
 
 **Error**: _\[err-elem-cit-thesis-13\] The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="thesis" are: &lt;person-group&gt;, &lt;year&gt;, &lt;article-title&gt;, &lt;source&gt;, &lt;publisher-loc&gt;, &lt;publisher-name&gt;, &lt;ext-link&gt;, and &lt;pub-id&gt;. Reference 'XXXXXX' has other elements_
 
-**Action:** This error will appear if a thesis reference has any element other than &lt;person-group&gt;, &lt;year&gt;, &lt;article-title&gt;, &lt;source&gt;, &lt;publisher-loc&gt;, &lt;publisher-name&gt;, &lt;ext-link&gt;, and &lt;pub-id&gt;. These are the only allowed elements for a thesis reference. Check the original submission to see whether the reference is definitely a thesis reference - if so, any additional elements should be deleted. If not, the reference should likely be another type \(e.g. journal, book etc\). If you are unsure, check with the Production team. 
+**Action:** This error will appear if a thesis reference has any element other than &lt;person-group&gt;, &lt;year&gt;, &lt;article-title&gt;, &lt;source&gt;, &lt;publisher-loc&gt;, &lt;publisher-name&gt;, &lt;ext-link&gt;, and &lt;pub-id&gt;. These are the only allowed elements for a thesis reference. Check the original submission to see whether the reference is definitely a thesis reference—if so, any additional elements should be deleted. If not, the reference is  likely to be another type \(e.g. journal, book etc\). If you are unsure, check with the Production team. 
 
 #### err-elem-cit-thesis-8-2
 
@@ -174,7 +174,7 @@ These checks relate to the XML structure of thesis references. ‌X or XXXXXX re
 
 **Error**: _\[err-elem-cit-thesis-2-2\] Each &lt;person-group&gt; must have a @person-group-type attribute of type 'author'. Reference 'XXXXXX' has a &lt;person-group&gt; element with @person-group-type attribute 'XXXXXX'._
 
-**Action:** This error will appear if a thesis reference has a person-group element with a type other than 'author'. The only allowed type for this element in a thesis reference is 'author' - double check the original submission to see whether the reference is definitely a thesis reference. If so, the author should be captured as such. If there is another type of person-group e.g. editor, this would suggest the reference should be a book instead. Double check with the Production team if unsure.  
+**Action:** This error will appear if a thesis reference has a person-group element with a type other than 'author'. The only allowed type for this element in a thesis reference is 'author'—double check the original submission to see whether the reference is definitely a thesis reference. If so, the author should be captured as such. If there is another type of person-group e.g. editor, this would suggest the reference should be a book instead. Double check with the Production team if unsure.  
 
 #### err-elem-cit-thesis-2-3
 
