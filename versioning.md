@@ -8,6 +8,8 @@ description: >-
 
 Despite everyone's best efforts, some articles will require correcting/updating because of errors. eLife aims to make this process as open and transparent as possible, preserving links to earlier versions of articles for readers and making clear what has changed and why. Some updates are not delivered to all downstream services - to find out more, see [**here**](article-details/relationships/downstream-deliveries.md#where-we-send-elife-content).
 
+
+
 ## Types of versions
 
 {% hint style="info" %}
@@ -119,13 +121,13 @@ For Digest corrections, once the article has been resupplied from the archive, t
 
 ## Processing official corrections and retractions 
 
-An official correction is required when an author wishes to make changes to the scientific content of their work after publication and this needs to be clear to all readers wherever they may access the content. Official correction notices are published and linked to the research content on other sites such as PMC, Scopus and Web of Science, as well as the eLife website and this is a historic scholarly publication process that all publishers adhere to \(publishing correction notices\).
+An official correction is required when an author wishes to make changes to the scientific content of their work after publication and this needs to be clear to all readers wherever they may access the content. Official correction notices are published and linked to the research content on other sites such as PMC, Scopus and Web of Science, as well as the eLife website. Publishing correction notices is a historic scholarly publication process that all publishers adhere to.
 
 Official corrections consist of a new version of the article and a related ‘correction notice’ giving a description of the edits made and, where appropriate, the reasons why. These two items are published simultaneously.
 
-When an author requests a change to their article that constitutes an edit to the scientific content, Editorial will need to be informed. It will usually be clear from the author’s message to what extent the changes affect the content of the article but if there is any uncertainty, correspond with Editorial to make the decision. The editors who handled the article will need to be informed of the required correction. Editorial will then work with the authors and editors to draft and approve the text for the correction notice. This will then be emailed to the Production team for processing. Note, this is a subjective decision sometimes.
+The Editorial team will usually alert the Production team about required correction notices. They will work with the editors who handled the article and the authors to draft and approve text for the correction notice. This will then be emailed to the Production team for processing. Note, this is a subjective decision sometimes.
 
-Retractions are issued when the findings of an article are found to be incorrect. eLife publishes retraction notices alongside articles that have been retracted, but the content of the articles remain on the website for transparency. The Editorial team will contact Production when a retraction is required and provide the retraction notice. 
+Retractions are issued when the findings of an article are found to be incorrect. eLife publishes retraction notices alongside articles that have been retracted, but the content of the articles remain on the website for transparency. As with corrections, the Editorial team will contact Production when a retraction is required and provide the retraction notice. 
 
 ### Issuing a correction or retraction notice in eJP
 
@@ -133,7 +135,7 @@ The steps to issue a correction or retraction notice in eJP are the same - the o
 
 **Starting off**
 
-* Add the number of the article to the Production actions sheet under your name with the prefix OC 
+* Add the number of the article to the Production actions sheet under your name with the prefix OC or RC
 * Download the correction notice to your desktop along with any figures to be updated
 * If there are figures to update, download these from the email and also download the current published versions from the article on the eLife website. 
   * Label them clearly e.g.: Figure1\_original, Figure1\_new, Figure2\_original, Figure2\_new. 
@@ -159,7 +161,7 @@ The steps to issue a correction or retraction notice in eJP are the same - the o
 
 * Open the original article in EJP
 * Click ‘Title’ and have the original EJP article open side-by-side with the new notice
-* Add author names in the order they appear on the eLife websitein original order → ‘Find user’ → ‘Save/Hide’ 
+* Add author names in the order they appear on the eLife website in original order → ‘Find user’ → ‘Save/Hide’ 
 * Tick the box for the corresponding author
 * Cross check author info
 * Answer ‘No’ to group authorship
