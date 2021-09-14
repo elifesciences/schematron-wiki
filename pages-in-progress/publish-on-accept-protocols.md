@@ -16,7 +16,13 @@ Prior to publication of an article where the authors have chosen the PoA option,
 
 ## **PoA timing**
 
+PoA articles are exported from the submission system, processed, and delivered to the journal website at set times each day. Currently the timing is as follows:
 
+| Time | Event |
+| :--- | :--- |
+| 10 minutes past each hour | Article files \(PDF, supplementary materials\) are exported from the submission system. |
+| 20 minutes past each hour | Processing of the PoA articles begins. This is carried out by the 'eLife bot', an automated process hosted on eLife's Amazon Web Service \(AWS\) instance. |
+| 10:00, 12:00, 14:00, 16:00 | Processed article packages are delivered to the publication platform, Continuum. |
 
 10 past the hour - export from eJP \(timing may vary depending on system processing time\)
 
