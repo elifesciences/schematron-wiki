@@ -228,7 +228,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Warning**: _pub-id is tagged as a doi, but it is not one - XXXXXX. If this information is missing, please ensure to query it with the authors._
 
-**Action**: This warning indicates, at the pre-author stage, that a DOI field contains content that does not match the standard format for a DOI. Check whether this is an error in processing the original article file; for example, has a DOI such as 10.7554/eLife.27621 been processed without the standard formatting \(e.g. 107554eLife27621\)? Alternatively, has a URL been added as a DOI by mistake \(e.g. https://elifesciences.org/articles/27621\)? If it is not possible to determine the correct DOI either from the provided content or validating the reference against PubMed or CrossRef, the authors should be queried to provide the missing details:
+**Action**: This warning indicates, at the pre-author stage, that a DOI field contains content that does not match the standard format for a DOI. Check whether this is an error in processing the original article file; for example, has a DOI such as 10.7554/eLife.27621 been processed without the standard formatting \(e.g. as 107554eLife27621\)? Alternatively, has a URL been added as a DOI by mistake \(e.g. https://elifesciences.org/articles/27621\)? If it is not possible to determine the correct DOI either from the provided content or validating the reference against PubMed or CrossRef, the authors should be queried to provide the missing details:
 
 * Please confirm the DOI for this reference.
 
@@ -242,7 +242,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Error**: _pub-id is tagged as a pmid, but it contains a character\(s\) which is not a digit - XXXXXX_
 
-**Action**: This error indicates that a PubMed ID has been entered with non-numerical characters \(e.g. letters, symbols etc\). These will need to be removed. Find the correct ID by revalidating the reference or searching for it on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/). Since PMIDs are usualy added via validation, this issue may require intervention from the content processors to fix.
+**Action**: This error indicates that a PubMed ID has been entered with non-numerical characters \(e.g. letters, symbols etc\). These will need to be removed. Find the correct ID by revalidating the reference or searching for it on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/). Since PMIDs are usually added via validation, this issue may require intervention from the content processors to fix.
 
 #### pub-id-test-4
 
@@ -254,13 +254,13 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Error**: _XXXXXX pub-id ends with a full stop - XXXXXX - which is not correct. Please remove the full stop._
 
-**Action**: Remove the full stop from the end of the indicated pub id \(DOI or PubMed ID\).
+**Action**: Remove the full stop from the end of the indicated pub ID \(DOI or PubMed ID\).
 
 #### duplicate-ref-test-1
 
 **Error**: _ref 'XXXXXX' has the same doi as another reference, which is incorrect. Is it a duplicate?_
 
-**Action**: This error means that two or more references \(that are not books\) have the same DOI. This will be incorrect as DOIs are unique for each publication. Check whether the same reference has been mistakenly entered twice, or with minor variation between entires \(e.g. the same article is listed in two places with different author lists\). The duplication should be removed and all citations updated to point to a single instance of the reference. If the details for the references with the same DOI are different, this likely means that the DOI is for one of references only. Double-check by looking up the DOI and seeing which reference it resolves to. The DOI should then be removed from the other reference\(s\) and where possible, the correct DOI\(s\) added instead.
+**Action**: This error means that two or more references \(that are not books\) have the same DOI. This will be incorrect as DOIs are unique for each publication. Check whether the same reference has been mistakenly entered twice, or with minor variation between entries \(e.g. the same article is listed in two places with different author lists\). The duplication should be removed and all citations updated to point to a single instance of the reference. If the details for the references with the same DOI are different, this likely means that the DOI is for one of the references only. Double-check by looking up the DOI and seeing which reference it resolves to. The DOI should then be removed from the other reference\(s\) and where possible, the correct DOI\(s\) added instead.
 
 #### duplicate-ref-test-2
 
@@ -272,7 +272,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Warning**: _ref 'XXXXXX' has the same title and source as another reference, which is almost certainly incorrect - 'XXXXXX', 'XXXXXX'._
 
-**Action**: This warning will fire if two or more references have the same title and source \(journal title, book title, database name etc\). This may not be a mistake as sometimes journals will publish articles with the same title on multiple occasions, or the authors may be citing mutliple editions of the same work. Check to see whether the reference details match beyond the title and source. If they have different authors or a different version/edition number is given, nothing needs to be changed. If the other reference details are identical, this likely indicates reference duplication. Exact duplicates should be removed and all citations updated to point to a single instance of the reference.
+**Action**: This warning will fire if two or more references have the same title and source \(journal title, book title, database name etc\). This may not be a mistake as sometimes journals will publish multiple articles with the same title, or the authors may be citing multiple editions of the same work. Check to see whether the reference details match beyond the title and source. If they have different authors or a different version/edition number is given, nothing needs to be changed. If the other reference details are identical, this likely indicates reference duplication. Exact duplicates should be removed and all citations updated to point to a single instance of the reference.
 
 If it is unclear what action needs to be taken, the authors should be queried:
 
@@ -282,7 +282,7 @@ If it is unclear what action needs to be taken, the authors should be queried:
 
 **Warning:** _ref 'XXXXXX' has the same title as another reference, but a different source. Is this correct? - 'XXXXXX'_
 
-**Action:** This warning will appear if two references have the same titles. This may happen if the authors include two separate reference lists which have been collated into one, leaving duplicate references. Check the details of both references and if the information is exactly the same, delete one of the duplicates. If the other details of the references differ \(e.g. year, author list, where the article was published\), then both references should be kept. For example, this warning will fire if the two references below are in the same article. However, as the other details of the references differ, both should be kept in the reference list. 
+**Action:** This warning will appear if two references have the same title. This may happen if the authors include two separate reference lists which have been collated into one, leaving duplicate references. Check the details of both references and if the information is exactly the same, delete one of the duplicates. If the other details of the references differ \(e.g. year, author list, where the article was published\), then both references should be kept as they are to difference publications. For example, this warning will fire if the two references below are in the same article. However, as the other details of the references differ, both should be kept in the reference list. 
 
 ![](../../../.gitbook/assets/screenshot-2020-06-12-at-09.39.00.png)
 
@@ -292,7 +292,7 @@ If it is unclear what action needs to be taken, the authors should be queried:
 
 **Error**: _ref 'XXXXXX' has a doi which is the same as the article itself 'XXXXXX' which must be incorrect._
 
-**Action**: This will indicate a reference that has the same DOI as the current article. Since an article should not cite itself, this must be an error. Check the details for the reference and try to confirm the correct DOI. For example, did the authors intend to cite a preprint version of their article, or a dataset associated with it? It may be possible to determine this by checking the original article file.
+**Action**: This will indicate a reference that has the same DOI as the current article. Since an article should not cite itself, this must be an error. Check the details for the reference and try to confirm the correct DOI. For example, did the authors intend to cite a preprint version of their article, or an associated dataset? It may be possible to determine this by checking the original article file.
 
 If it is unclear how to proceed, the authors should be queried:
 
