@@ -96,7 +96,7 @@ Letters should be assigned on the basis of which reference is cited first in the
 
 ### Combining multiple reference lists
 
-In some instances, authors will provide multiple reference lists in their submitted article files. This will usually entail providing the reference list for an appendix separately from the reference list for the main text, perhaps because these are in separate documents. In these cases, all the reference lists should be combined and any duplicate entries removed.
+In some instances, authors will provide multiple reference lists in their submitted article files. This will usually entail providing the reference list for an appendix separately from the reference list for the main text, perhaps because these are submitted in separate documents. In these cases, all the reference lists should be combined and any duplicate entries removed.
 
 This will be carried out during initial processing of the article files so there usually will not be nothing to check at the subsequent stages. If an appendix is missed or otherwise needs to be added in later, any references included exclusively in that section should be added to the main reference list.
 
@@ -114,7 +114,7 @@ This will be carried out during initial processing of the article files so there
 
 **Error**: _In the reference list, each reference must be unique in its citation style \(combination of authors and year\). If a reference's citation is the same as anothers, a lowercase letter should be suffixed to the year \(e.g. Smith et al., 2020a\). XXXXXX does not meet this requirement._
 
-**Action**: This error indicates that two or more references have the same citation string e.g. Smith et al., 2020 and Smith et al., 2020. The references will need to be updated to distinguish the citations by applying a a letter to the year field. The first reference cited should have the year updated to e.g. 2020a, the second to 2020b and so on. See [**above**](./#references-with-the-same-citation) for more details on this.
+**Action**: This error indicates that two or more references have the same citation string e.g. Smith et al., 2020 and Smith et al., 2020. The references will need to be updated to distinguish the citations by applying a a letter to the year field. The first reference cited should have the year updated to e.g. '2020a', the second to '2020b' and so on. See [**above**](./#references-with-the-same-citation) for more details on this.
 
 #### err-elem-cit-gen-date-1-2
 
@@ -132,11 +132,17 @@ If the year is more than five years in the future, the authors should be queried
 
 **Warning**: _The numeric value of the first 4 digits of the @iso-8601-date attribute on the &lt;year&gt; element must be between 1700 and the current year + 5 years \(inclusive\). Reference 'XXXXXX' does not meet this requirement as the attribute contains the value 'XXXXXX'._
 
-**Action**: 
+**Action**: This warning indicates a reference has a date that is outside the range 1700 to five years past the current year. Any reference that has a year pre-1700 or after the current year+5 will be flagged by this test. The reference should be checked to ensure that no error has occurred in processing the details provided by the author; for example, has a volume number been accidentally input as the year?
+
+If the year is correct and pre-1700, check to ensure that publication details have been provided \(publisher name must be present for books, journal name must be present for articles etc\). Please note that for books, the reference should be to the specific edition used and this will usually have a modern publication date that should be used.
+
+If the year is more than five years in the future, the authors should be queried to check the reference details:
+
+* Please confirm that this reference is in press as the year provided is more than five years in the future.
 
 #### err-elem-cit-gen-date-1-6
 
-**Error**: _If the &lt;year&gt; element contains the letter 'a' after the digits, there must be another reference with the same first author surname \(or collab\) with a letter "b" after the year. Reference 'XXXXXX' does not fulfill this requirement._
+**Error**: _If the &lt;year&gt; element contains the letter 'a' after the digits, there must be another reference with the same first author surname \(or collab\) with a letter "b" after the year. Reference 'XXXXXX' does not fulfil this requirement._
 
 **Action**: This error indicates that a reference has a year value with a letter 'a' at the end but that there is no subsequent reference with 'b' at the end. Letter suffixes to years should only be added if there are multiple references with the same details that need their citations distinguished. Either the letter must be removed from the indicated reference, or a subsequent reference with the same author/year combination must be updated to add a 'b' suffice to the year.
 
@@ -144,7 +150,7 @@ If the year is more than five years in the future, the authors should be queried
 
 **Error**: _If the &lt;year&gt; element contains any letter other than 'a' after the digits, there must be another reference with the same first author surname \(or collab\) with the preceding letter after the year. Reference 'XXXXXX' does not fulfill this requirement._
 
-**Action**: This error indicates that a reference has a year value with a letter 'a' at the end but that there is no subsequent reference with 'b' at the end. Letter suffixes to years should only be added if there are multiple references with the same details that need their citations distinguished. Either the letter must be removed from the indicated reference, or a subsequent reference with the same author/year combination must be updated to add a 'b' suffix to the year.
+**Action**: This error indicates that a reference has a year value with a letter 'b', 'c', 'd', etc at the end but that there is no reference with the preceding letter at the end. Letter suffixes to years should only be added if there are multiple references with the same details that need their citations distinguished. Either the letter must be removed from the indicated reference, or a preceding reference with the same author/year combination must be updated to add the prior letter suffix to the year.
 
 #### elem-cit-source
 
