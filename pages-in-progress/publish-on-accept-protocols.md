@@ -20,15 +20,9 @@ PoA articles are exported from the submission system, processed, and delivered t
 
 | Time | Event |
 | :--- | :--- |
-| 10 minutes past each hour | Article files \(PDF, supplementary materials\) are exported from the submission system. |
+| 10 minutes past each hour | Article files \(PDF, supplementary materials\) and metadata are exported from the submission system |
 | 20 minutes past each hour | Processing of the PoA articles begins. This is carried out by the 'eLife bot', an automated process hosted on eLife's Amazon Web Service \(AWS\) instance. |
 | 10:00, 12:00, 14:00, 16:00 | Processed article packages are delivered to the publication platform, Continuum. |
-
-10 past the hour - export from eJP \(timing may vary depending on system processing time\)
-
-20 past the hour - package generation starts \(usually takes about 10 minutes to process all articles\)
-
-10:00, 12:00, 14:00, 16:00 - delivery to Continuum
 
 Files can be edited in the bucket elife-poa-packaging until delivery to Continuum is completed.
 
