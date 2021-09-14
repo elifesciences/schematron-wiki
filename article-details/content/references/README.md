@@ -208,7 +208,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Action:** This error indicates that a provided link does not begin with "http://", "https://", or "ftp://". A URL that does not begin with one of these is invalid, so this will need to be corrected. If the link is provided in the form www.google.com, navigate to the website in a browser and replace the link with the full URL - in this case, https://www.google.com/. If the URL does not resolve, query the authors as follows:
 
-* Please provide the full URL for this reference \(including the http, https or ftp prefix\).
+* Please provide the full URL for this reference \(including the http://, https:// or ftp:// prefix\).
 
 #### pre-pub-id-test-1
 
@@ -216,7 +216,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Action:** This error indicates that a provided link does not begin with "http://", "https://", or "ftp://". A URL that does not begin with one of these is invalid, so this will need to be corrected. If the link is provided in the form www.google.com, navigate to the website in a browser and replace the link with the full URL - in this case, https://www.google.com/. If the URL does not resolve, query the authors as follows:
 
-* Please provide the full URL for this reference \(including the http, https or ftp prefix\).
+* Please provide the full URL for this reference \(including the http://, https:// or ftp:// prefix\).
 
 #### final-pub-id-test-1
 
@@ -228,7 +228,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Warning**: _pub-id is tagged as a doi, but it is not one - XXXXXX. If this information is missing, please ensure to query it with the authors._
 
-**Action**: This warning indicates, at the pre-author stage, that a DOI field contains content that does not match the standard format for a DOI. Check whether this is an error in processing the original article file; for example, has a DOI such as 10.7554/eLife.27621 been processed without the standard formatting \(e.g. as 107554eLife27621\)? Alternatively, has a URL been added as a DOI by mistake \(e.g. https://elifesciences.org/articles/27621\)? If it is not possible to determine the correct DOI either from the provided content or validating the reference against PubMed or CrossRef, the authors should be queried to provide the missing details:
+**Action**: This warning indicates, at the pre-author stage, that a DOI field contains content that does not match the standard format for a DOI. Check whether this is an error in processing the original article file; for example, has a DOI such as 10.7554/eLife.27621 been processed without the standard formatting \(e.g. as 107554eLife27621\)? Alternatively, has a URL been added as a DOI by mistake \(e.g. https://elifesciences.org/articles/27621\)? If it is not possible to determine the correct DOI either from the provided content or validating the reference against PubMed or Crossref, the authors should be queried to provide the missing details:
 
 * Please confirm the DOI for this reference.
 
@@ -236,7 +236,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Error**: _pub-id is tagged as a doi, but it is not one - XXXXXX_
 
-**Action**: This error indicates, at the pre-author stage, that a DOI field contains content that does not match the standard format for a DOI. Check whether the authors have been asked to provide the correct DOI and if they have not done so, and if it is not possible to determine the correct DOI either from a web search or validating the reference against PubMed or CrossRef, the Production team will need to follow up with the authors to determine whether a DOI exists for this reference.
+**Action**: This error indicates, at the pre-author stage, that a DOI field contains content that does not match the standard format for a DOI. Check whether the authors have been asked to provide the correct DOI and if they have not done so, and if it is not possible to determine the correct DOI either from a web search or validating the reference against PubMed or Crossref, the Production team will need to follow up with the authors to determine whether a DOI exists for this reference.
 
 #### pub-id-test-3
 
@@ -304,6 +304,8 @@ If it is unclear how to proceed, the authors should be queried:
 
 **Action**: At the pre-author stage, this warning indicates that a reference is not cited in the text. All reference listed must be cited at least once. The author should be queried to provide the missing citation.
 
+* Please provide an in-text citation for reference XXXX.
+
 #### final-ref-link-presence
 
 **Error**: _'XXXXXX' has no linked citations. Either the reference should be removed or a citation linking to it needs to be added._
@@ -314,7 +316,7 @@ In the event that a reference is only cited in a supporting file or in a figure 
 
 #### ref-given-names-test-1
 
-**Warning**: _Given names should always be initialised. Ref 'XXXXXX' contains a given names with a string longer than 4 characters - 'XXXXXX' in XXXXXX. Is this a surname captured as given names? Or a fully spelt out given names?_
+**Warning**: _Given names should always be initialised. Ref 'XXXXXX' contains a given names with a string longer than 4 characters - 'XXXXXX' in XXXXXX. Is this a surname captured as given names? Or a fully spelt out given name?_
 
 **Action**: This warning will fire if a given name field contains more than four characters. This may indicate that a surname has been mistakenly included as a given name. The reference should be looked up and the details corrected where necessary. If an author in a reference does in fact have more than four initials, this warning can be ignored.
 
@@ -1032,7 +1034,7 @@ If the empty element cannot be fixed or removed using the proofing interface fie
 
 **Error**: _XXXXXX element contains tagging, which should be removed - 'XXXXXX'._
 
-**Action**: This error indicates that an element contains tagging captured as text. This will usually be the result of bad data being supplied to CrossRef or PubMed. So, for example, this would fire on an article title that the validator returned as:
+**Action**: This error indicates that an element contains tagging captured as text. This will usually be the result of bad data being supplied to Crossref or PubMed. So, for example, this would fire on an article title that the validator returned as:
 
 `&lt;em&gt;in vitro&lt;/em&gt; scratch assay to demonstrate effects of arsenic on skin cell migration`
 
