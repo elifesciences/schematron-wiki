@@ -6,7 +6,7 @@ description: This is a page about entries for theses in the reference list.
 
 ## What is a thesis reference?
 
-A thesis, or dissertation is a document submitted by an individual for an academic degree or professional qualification presenting the author's research and findings. These can be cited in scientific literature in the same way as other references. 
+A thesis, or dissertation, is a document submitted by an individual for an academic degree or professional qualification presenting the author's research and findings. These can be cited in scientific literature in the same way as other references. 
 
 ![](../../../.gitbook/assets/screenshot-2021-09-13-at-12.43.42%20%281%29.png)
 
