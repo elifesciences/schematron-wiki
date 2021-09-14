@@ -2,9 +2,9 @@
 description: Checking publish on accept articles
 ---
 
-# Publish on accept protocols
+# Publish on accept
 
-**Publish on Accept**
+## What is **Publish on Accept \(PoA\)?**
 
 When authors submit their revised articles following a positive peer review, they have the option to choose to ‘publish on acceptance’. This means that once their article has been accepted, eLife will publish a PDF version of the current submission \(accepted manuscript\) on eLife’s website before the full production process. The official publication date will then be the date the accepted PDF is published, allowing authors to get their work out earlier than if they had waited for the fully typeset article. This can be particularly important where the authors anticipate related or competing works to appear imminently.
 
@@ -12,7 +12,7 @@ While the option states that the article will be published in its accepted form,
 
 The following describes the checks that must be undertaken on Publish on Accept \(PoA\) content prior to being sent for publication.
 
-**Timing**
+## **Timing**
 
 It is vital that checks on new PoA content are completed and the articles sent for publication **BEFORE 11:00AM UK TIME** each day. The submission system runs on an hourly export cycle at nine minutes past the hour and the eLife PoA processing runs daily at 11:30M, so any PoA content not sent out by 11:09AM will not be processed.
 
