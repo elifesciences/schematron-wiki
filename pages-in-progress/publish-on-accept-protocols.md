@@ -18,6 +18,16 @@ Prior to publication of an article where the authors have chosen the PoA option,
 
 
 
+10 past the hour - export from eJP \(timing may vary depending on system processing time\)
+
+20 past the hour - package generation starts \(usually takes about 10 minutes to process all articles\)
+
+10:00, 12:00, 14:00, 16:00 - delivery to Continuum
+
+Files can be edited in the bucket elife-poa-packaging until delivery to Continuum is completed.
+
+
+
 
 
 It is vital that checks on new PoA content are completed and the articles sent for publication **BEFORE 11:00AM UK TIME** each day. The submission system runs on an hourly export cycle at nine minutes past the hour and the eLife PoA processing runs daily at 11:30M, so any PoA content not sent out by 11:09AM will not be processed.
