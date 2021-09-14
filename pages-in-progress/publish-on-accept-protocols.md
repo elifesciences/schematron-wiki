@@ -14,7 +14,11 @@ A PoA article consists of a downloadable PDF containing the accepted article tex
 
 Prior to publication of an article where the authors have chosen the PoA option, a set of checks must be carried out to ensure the quality of the submitted materials and metadata are suitable for release. This page will detail those checks and provide general information on the PoA process.
 
-## **Timing**
+## **PoA timing**
+
+
+
+
 
 It is vital that checks on new PoA content are completed and the articles sent for publication **BEFORE 11:00AM UK TIME** each day. The submission system runs on an hourly export cycle at nine minutes past the hour and the eLife PoA processing runs daily at 11:30M, so any PoA content not sent out by 11:09AM will not be processed.
 
