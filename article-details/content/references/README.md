@@ -158,7 +158,7 @@ If the year is more than five years in the future, the authors should be queried
 
 **Action**: The error indicates a reference's source field \(journal name, book title, database name etc.\) contains zero or one characters only. This will certainly be a mistake as virtually every source for a reference will consist of at least two characters \(abbreviations and acronyms should be spelt out wherever possible\). Check that the details have been captured correctly from the original article file and correct as necessary. If it is unclear what the source for the reference is, please query the author:
 
-* Please provide the source for this reference \(e.g. book, journal, webiste, or database\).
+* Please provide the source for this reference \(e.g. book, journal, website, or database\).
 
 #### err-elem-cit-high-2-2
 
