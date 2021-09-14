@@ -39,9 +39,8 @@ The following information can be added for thesis references:
     <tr>
       <td style="text-align:left">Year</td>
       <td style="text-align:left">Yes</td>
-      <td style="text-align:left">&lt;year iso-8601-date=&quot;2012&quot;&gt;20212&lt;/year&gt;</td>
-      <td
-      style="text-align:left">2012</td>
+      <td style="text-align:left">&lt;year iso-8601-date=&quot;2012&quot;&gt;2012&lt;/year&gt;</td>
+      <td style="text-align:left">2012</td>
     </tr>
     <tr>
       <td style="text-align:left">Article title</td>
