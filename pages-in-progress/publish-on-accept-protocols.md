@@ -6,11 +6,13 @@ description: Checking publish on accept articles
 
 ## What is **Publish on Accept \(PoA\)?**
 
-When authors submit their revised articles following a positive peer review, they have the option to choose to ‘publish on acceptance’. This means that once their article has been accepted, eLife will publish a PDF version of the current submission \(accepted manuscript\) on eLife’s website before the full production process. The official publication date will then be the date the accepted PDF is published, allowing authors to get their work out earlier than if they had waited for the fully typeset article. This can be particularly important where the authors anticipate related or competing works to appear imminently.
+When authors resubmit their articles after making revisions following peer review, they are given the option to choose to ‘publish on acceptance’. This means that once their article has been accepted, eLife will publish the accepted version of their submission on before beginning the full production process.
 
-While the option states that the article will be published in its accepted form, a set of checks must be performed before it is sent for publication, to ensure the quality of the submitted materials and the integrity of the metadata.
+![Example of a published PoA article](../.gitbook/assets/screenshot-2021-09-14-at-17.05.17.png)
 
-The following describes the checks that must be undertaken on Publish on Accept \(PoA\) content prior to being sent for publication.
+A PoA article consists of a downloadable PDF containing the accepted article text and figures, a ZIP package containing any supplementary material, and a webpage showing the article title, author list, abstract, and a stripped-down selection of metadata \(one affiliation per author, funding, data availability, competing interests\). For the purposes of the scientific record, this counts as the official publication of the article, allowing authors to get their work out earlier than would be possible if they waited for the final typeset version. This can be particularly important where the authors anticipate related or competing works to appear imminently, or who are publishing work in a rapidly changing field.
+
+Prior to publication of an article where the authors have chosen the PoA option, a set of checks must be carried out to ensure the quality of the submitted materials and metadata are suitable for release. This page will detail those checks and provide general information on the PoA process.
 
 ## **Timing**
 
