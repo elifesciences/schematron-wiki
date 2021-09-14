@@ -164,23 +164,21 @@ If the year is more than five years in the future, the authors should be queried
 
 **Error**: _The order of &lt;element-citation&gt;s in the reference list should be name and date, arranged alphabetically by the first author’s surname, or by the value of the first &lt;collab&gt; element. In the case of two authors, the sequence should be arranged by both authors' surnames, then date. For three or more authors, the sequence should be the first author's surname, then date. Reference 'XXXXXX' appears to be in a different order._
 
-**Action**: This error indicates that the order of the reference list does not match eLife style. See above for more details on the preferred ordering. In Kriya 1.5, a 'reorder references in alphabetical order' option can be found under the 'edit' menu. Clicking this will place the references in the correct sequence but the article must be saved and the page refreshed before this shows correctly in the display. In Kriya 2.0, ordering should update automatically following edits or additions to the reference list.
+**Action**: This error indicates that the order of the reference list does not match eLife style. See [**above**](./#reference-ordering) for more details on the preferred ordering. In Kriya 1.5, a 'reorder references in alphabetical order' option can be found under the 'edit' menu. Clicking this will place the references in the correct sequence but the article must be saved and the page refreshed before this shows correctly in the display. In Kriya 2.0, ordering should update automatically following edits or additions to the reference list.
 
-Check that the sequence of references is indeed incorrect, accounting for any special characters \(these should be treated as the equivalent standard letters for the purposes of ordering e.g. ë would be treated as e\). It is possible for an author's name to include characters not accounted for by the rules and this must be fed back to the Production team member responsible for maintaining the schematron. If the order is wrong and the system tools do not automatically correct this, the article will need to go back to the production vendor to resolve the problem.
+Check that the sequence of references is indeed incorrect, accounting for any special characters \(these should be treated as the equivalent standard letters for the purposes of ordering, e.g. ë would be treated as e\). It is possible for an author's name to include characters not accounted for by the rules and this must be fed back to the Production team member responsible for maintaining the schematron. If the order is wrong and the system tools do not automatically correct this, the article will need to go back to the production vendor to resolve the problem.
 
 #### err-xref-high-2-1
 
 **Error**: _Citations in the text to references with the same author\(s\) in the same year must be arranged in the same order as the reference list. The xref with the value 'XXXXXX' is in the wrong order in the text. Check all the references to citations for the same authors to determine which need to be changed._
 
-**Action**: This error indicates that two or more references whose citations need to be distinguished using letter suffixes are being cited in an order that does not match the order of the suffixes. For example, Smith et al., 1999b is cited before Smith et al., 1999a. The order of the suffixes will therefore need to be changed to match the citation order. **DO NOT** change the citation order as this will likely introduce errors.
-
-For the current example, Smith et al., 1999b would need to be changed to Smith et al., 1999a and vice versa.
+**Action**: This error indicates that two or more references whose citations need to be distinguished using letter suffixes are being cited in an order that does not match the order of the suffixes. For example, if Smith et al., 1999b is cited before Smith et al., 1999a, this rule will fire. The order of the suffixes will need to be changed to match the citation order. **DO NOT** change the citation order as this will likely introduce errors. For the current example, Smith et al., 1999b would need to be changed to Smith et al., 1999a and vice versa.
 
 #### pre-element-cite-year
 
 **Warning**: _'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the year of publication._
 
-**Action**: This warning will fire, at the pre-author stage if a reference does not contain a year. This is incorrect as every reference must include a year. Check that the reference details have been correctly processed from the provided article file and if no date was provided, please query the authors:
+**Action**: This warning will fire, at the pre-author stage if a reference does not contain a year. This is incorrect as every reference must include a date. Check that the reference details have been correctly processed from the submitted article file and if no date was provided, please query the authors:
 
 * Please provide the year for this reference.
 
@@ -188,7 +186,7 @@ For the current example, Smith et al., 1999b would need to be changed to Smith e
 
 **Error**: _'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the year of publication._
 
-**Action**: This error will fire at the post-author stage if a reference does not contain a year. This is incorrect as every reference must include a year. Check that the reference details have been correctly processed from the provided article file and whether the author was queried about this during proofing. If no date was provided, the Production team will need to follow up with the authors to determine the correct date.
+**Action**: This error will fire at the post-author stage if a reference does not contain a year. This is incorrect as every reference must include a date. Check that the reference details have been correctly processed from the submitted article file and whether the author was queried about this during proofing. If no date was provided, the Production team will need to follow up with the authors to determine the correct date.
 
 #### pre-element-cite-string-date
 
