@@ -1028,7 +1028,13 @@ If the empty element cannot be fixed or removed using the proofing interface fie
 
 **Error**: _XXXXXX element contains tagging, which should be removed - 'XXXXXX'._
 
-**Action**: 
+**Action**: This error indicates that an element contains tagging captured as text. This will usually be the result of bad data being supplied to CrossRef or PubMed. So, for example, this would fire on an article title that the validator returned as:
+
+`&lt;em&gt;in vitro&lt;/em&gt; scratch assay to demonstrate effects of arsenic on skin cell migration`
+
+To fix this, either strip out  the tags or convert them to proper formatting. In this case, &lt;em&gt; is a unicode version of &lt;em&gt;, the HTML tag for italics. So to correct this, delete the characters and update the title to "_In vitro_ scratch assay to demonstrate effects of arsenic on skin cell migration", which would be tagged as:
+
+`<italic>In vitro</italic> scratch assay to demonstrate effects of arsenic on skin cell migration`
 
 #### pub-id-doi-test-1
 
