@@ -131,7 +131,7 @@ These checks relate to the XML structure of thesis references. ‌X or XXXXXX re
 
 **Error:** _One and only one person-group element is allowed. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements._
 
-**Action:** Thesis references can only have one person-group element, and these should be of the 'author' type. This error will fire if a reference has 0 or more than one person group element. Check the reference is definitely a thesis reference, and ensure there are no empty person-group elements. If there is more than one author, this suggests the reference is the wrong type, \(e.g. journal or book reference\). Query the Production team if unsure. If it definitely is a thesis reference but no author names have been provided, leave the following author query:
+**Action:** Thesis references can only have one person-group element, and this should be of the 'author' type. This error will fire if a reference has 0 or more than one person group element. Check the reference is definitely a thesis reference, and ensure there are no empty person-group elements. If there is more than one author, this suggests the reference is the wrong type, \(e.g. journal or book reference\). Query the Production team if unsure. If it definitely is a thesis reference but no author names have been provided, leave the following author query:
 
 * Please provide the name of the author of this thesis.
 
