@@ -36,7 +36,7 @@ Most checks required on references will be covered on the reference type-specifi
 
 ### General reference formatting
 
-Reference formatting is automatically derived from the tagging of the content; that is, the reference list itself does not capture formatting elements beyond italics and sub/superscript where it is present in the reference title. The italics for journal or books titles, the bolding for volume numbers and so on is all provided by the platform on which the reference list is being displayed.
+Reference formatting is automatically derived from the tagging of the content; that is, the reference list itself does not capture formatting elements beyond italics and sub/superscript where it is present in the reference title. The italics for journal or books titles, the bolding for volume numbers, and so on is all provided by the platform on which the reference list is being displayed.
 
 Where the formatting of a reference appears incorrect in the proofing system or the PDF — such as there being misplaced full-stops, italics applied to the wrong piece of text etc — this will usually indicate that the content has been mistagged. In most cases this can be resolved by editing the reference in the proofing system and re-entering the details in the correct fields, as per the guidance on the type-specific pages.
 
