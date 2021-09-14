@@ -186,15 +186,17 @@ For the current example, Smith et al., 1999b would need to be changed to Smith e
 
 #### pre-element-cite-string-date
 
-**Warning**: '_XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the year of publication._
+**Warning**: '_XXXXXX' type references must have a string-date. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the date of publication._
 
-**Action**:
+**Action**: This warning indicates at the pre-author stage that a reference is missing a publication date \(this will fire on reference types that use the `<string-date>` element in place of `<year>`\). Check that the reference details have been correctly processed from the provided article file and if no date \(day, month, year\) was provided, please query the authors:
+
+* Please provide the publication date for this reference \(day, month, year\).
 
 #### final-element-cite-string-date
 
-**Error**: _'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the year of publication._
+**Error**: _'XXXXXX' type references must have a string-date. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the date of publication._
 
-**Action**:
+**Action**: This error indicates at the post-author stage that a reference is missing a publication date \(this will fire on reference types that use the `<string-date>` element in place of `<year>`\). Check that the reference details have been correctly processed from the provided article file and whether the author was queried about this during proofing. If no date \(day, month, year\) was provided, the Production team will need to follow up with the authors to determine the correct date.
 
 #### link-href-conformance
 
@@ -1033,12 +1035,6 @@ If the empty element cannot be fixed or removed using the proofing interface fie
 **Error**: _pub-id has a doi link - XXXXXX - but its pub-id-type is XXXXXX instead of doi._
 
 **Action**: This error indicates that a `<pub-id>` element contains a DOI but the attribute `pub-id-type` has not been set to 'doi'. Check the details for the indicated reference and ensure that the DOI has been entered in the correct field \(e.g. is set to 'DOI', not 'PMID'\). If this does not solve the problem, the content processor's support team will need to be asked to fix the attribute on the `<pub-id>` element.
-
-#### pub-id-doi-test-2
-
-**Error**: _pub id has a doi link - XXXXXX - but the identifier is not the doi - 'XXXXXX', which is incorrect. Either the doi link is correct, and the identifier needs changing, or the identifier is correct and needs adding after 'https://doi.org/' in order to create the real doi link._
-
-**Action**:
 
 ## XML Structure <a id="xml-structure"></a>
 
