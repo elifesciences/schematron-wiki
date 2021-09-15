@@ -12,6 +12,14 @@ Once an author has made all the required revisions to their manuscript, it is si
 
 ## Checks prior to starting 
 
+### Prioritising articles 
+
+Articles that should be given priority at publisher review include:
+
+* Press articles for an imminent date 
+* Insights 
+* Feature content
+
 ### Notes 
 
 * Notes can be added by both Production and the content processors. To view these on Kriya 2, click on the article in question on the dashboard, then on the 'messages' tab and then the 'notes' tab, as illustrated below. 
@@ -19,7 +27,7 @@ Once an author has made all the required revisions to their manuscript, it is si
 * It is important at Publisher Review to check that any notes left previously have received a positive response and the correct action has been taken. 
 * Whilst carrying out a Publisher Review, if there are changes to be made they generally should be  communicated to the content processors via a Typesetter Query as opposed to through the notes. 
 
-![Correspondence between the content processors and the Production team](.gitbook/assets/screenshot-2021-07-14-at-10.18.23.png)
+![Correspondence between the content processors and members of the Production team](.gitbook/assets/screenshot-2021-09-15-at-09.40.03.png)
 
 ### Emails 
 
@@ -33,17 +41,9 @@ You will also want to check whether the article is marked for press. This will b
 
 ### Linked articles 
 
-Some articles will be linked to other articles, indicating that they might need to be published together. If there is one or more linked article, they will be displayed in the 'related articles' section, under the 'document details' and 'info' tabs. Under 'article type', on the 'Document details' page, you can see what kind of related article it is \('commentary’ means it is an Insight\). The colour of the label indicates its progress through the system. Red means it is not in the system yet, yellow means that it is in progress in the system and green means it has been published. Sometimes they have previous submissions linked. This can be checked on EJP and the link deleted. 
+Some articles will be linked to other articles, indicating that they might need to be published together. If there is one or more linked article, they will be displayed in the 'related articles' section, under the 'document details' and 'info' tabs. Under 'article type', on the 'Document details' page, you can see what kind of related article it is. The colour of the label indicates its progress through the system. Red means it is not in the system yet, yellow means that it is in progress in the system and green means it has been published. Sometimes the related article is just a previously submitted earlier version of the article. This can be checked by entering the number on EJP. If this is so, the related article can be un-linked via the 'Related article' section in the Publisher Review. \(add screenshot\). 
 
-![Article with two linked articles ](.gitbook/assets/screenshot-2021-07-14-at-12.19.54.png)
-
-### Prioritising articles 
-
-Articles that should be given priority at publisher review include:
-
-* Press articles for an imminent date 
-* Insights 
-* Feature content
+![Article with two linked research articles ](.gitbook/assets/screenshot-2021-07-14-at-12.19.54.png)
 
 ### Assigning articles 
 
@@ -69,7 +69,7 @@ Once you have assigned an article to yourself, to enter an article, click the pe
 * Only italic formatting is allowed.
 * Check that it avoids unexplained acronyms. 
 * For latin words, the general rule is that genes, bacteria and species such as ‘S. pombe’ should be italicised, and that phrases such as ‘in vivo’ or ‘in vitro’ should not be italicised. However continuity between the title, impact statement and article content is most important, so please check that italics are consistent.
-* Check the capitalisation - sentence case?
+* The capitalisation should be sentence case, but proper nouns can be capitalised. 
 
 ![Title showing tracked changes to correct capitalisation](.gitbook/assets/screenshot-2021-09-08-at-08.40.27.png)
 
@@ -103,13 +103,13 @@ Sometimes affiliations need to be split up i.e., if there are two departments li
 
 * The received, accepted, PoA \(if relevant\) and preprint dates will be pre-filled from the submission system.
 * You don't need to check that these dates are correct at this point, they will be validated when you run the XML through the ****[**validator**](https://basex-validator.elifesciences.org/)**.** Read about this [**here.** ](production-checklist.md#xml)\*\*\*\*
-* If the article has not been published as an accepted manuscript and is only going to be published as a version of record \(VoR\), you will need to add a pu                                                                          blication date. Use the current date if the article will be published that day, or apply the planned press release date.
+* If the article has not been published as an accepted manuscript and is only going to be published as a version of record \(VoR\), you will need to add a publication date. Apply the planned press date if relevant, or use the current date if you know you are will be published that day. Otherwise, leave it blank for it to be filled in later. 
 
 ![When you click on the &apos;Publication History&apos; button, this pop up is generated](.gitbook/assets/screenshot-2021-09-10-at-10.57.11.png)
 
 ### Funding
 
-All funding received by authors in the process of researching and creating the article needs to be referenced here. Open each funding reference individually in order to check the details. Ideally, we want every funder to be validated against the CrossRef Funder Registry. Validated funders are indicated by a green tick. If it is not validated, try retyping the funder. If this doesn’t work, open the CrossRef Funder Registry spreadsheet \(available to download here\) and check if it is on there. If you still cannot find the funder, then conduct a Google search and attempt to determine whether the funder is an accredited body or not. Sometimes the name may need correcting slightly, or may be translated into English when it is registered in the original language. 
+All funding received by authors in the process of researching and creating the article needs to be referenced here. Open each funding reference individually in order to check the details. Ideally, we want every funder to be validated against the CrossRef Funder Registry. Validated funders are indicated by a green tick. If it is not validated, try retyping the funder. If this doesn’t work, navigate to the [**CrossRef Funder Registry**](https://www.crossref.org/services/funder-registry/) and check if it is on there. If you still cannot find the funder, then conduct a Google search and attempt to determine whether the funder is an accredited body or not. Sometimes the name may need correcting slightly, or may be translated into English when it is registered in the original language. 
 
 Every funder must have at least one author associated with it or the system will throw an error and you will be unable to proceed from this screen. Grant references, however, are optional.
 
@@ -119,11 +119,11 @@ Every funder must have at least one author associated with it or the system will
 
 ### Data availability 
 
-The Data availability statement \(DAS\) should ideally be at least one sentence and should end in a full-stop. If there are any GitHub links in the DAS, these may need to be archived. You can find out [**here**](toolkit/archiving-code.md#check-whether-the-repo-contains-code-and-is-public) ****whether this is necessary. Generated datasets mentioned in this statement should be included in the ‘Major Datasets - generated’ field below. 
+The Data availability statement \(DAS\) should ideally be at least one sentence and should end in a full-stop. If there are any GitHub links in the DAS, these may need to be archived. You can find out [**here**](toolkit/archiving-code.md#check-whether-the-repo-contains-code-and-is-public) ****whether this is necessary. Generated datasets mentioned in this statement should be included in the ‘Major Datasets - Generated’ field below. 
 
 ![Dataset referenced in the DAS entered into the datasets generated section](.gitbook/assets/screenshot-2021-09-10-at-16.16.44.png)
 
-All datasets provided need to be publicly available at the point of publication. The author must provide a direct URL to the dataset, not the URL for the entire database. You will need to query the authors if either of these is the case. Follow this link and check that you are able to access the dataset. If you need to create a free account in order to view the data then that is okay as it is still technically publicly available. 
+All datasets provided need to be publicly available at the point of publication. The author must provide a direct URL to the dataset, not the URL for the entire database. Follow this link and check that you are able to access the dataset. If you need to create a free account in order to view the data then that is okay as it is still technically publicly available. You may need to query the authors to make their datasets public or to provide you with more information. Read in more detail about checking DAS and 'Major Datasets -Generated' sections [**here**](article-details/content/data-availability.md#what-is-the-data-availability-section)**.** 
 
 ### Impact Statement 
 
@@ -162,7 +162,7 @@ Now navigate to the ‘Changes’ tab. Recorded here is every edit made by the a
 
 ### Figures, Tables and Additional Files tabs
 
-Open each of these tabs and scroll through each item. 
+Open each of these tabs and scroll through each item. Find out more about article level assets in their respective pages: figures, tables, additional files. \(Link\) 
 
 * Check that each item is labelled with the correct category, either as a ‘Figure’, ‘Video’, ‘Table’, ‘Equation’ or ‘Figure Supplement’. 
 * Check that each item has a label and title \(legend optional\) and check that the numbering on the items is correct. 
@@ -171,7 +171,7 @@ Open each of these tabs and scroll through each item.
 
 ### References 
 
-Check that all the journal references have DOIs. If a reference does not have a DOI, it will be highlighted with a red line. \(Link to the reference list page?\) 
+Check that all the journal references have DOIs. If a reference does not have a DOI, it will be highlighted with a red line. The DOI or any other missing information can be found from a web search. \(Link to the reference list page\) 
 
 ### XML
 
@@ -214,7 +214,11 @@ If the article is scheduled for press, this should be captured in the following 
 
 This is the stage prior to content being sent to authors and it is aimed to catch and resolve issues before it's sent out to them. The majority of research content will skip this stage, that is, unless they require a higher copyediting level. If this is the case, Publisher Check will be carried out before it is sent out to an external copyeditor. Feature content, however, will always come into this stage. 
 
-The article will come into the 'Publisher Check' section, and you will assign it to yourself as shown [**above**](production-checklist.md#assigning-articles)**.** The process for carrying out a Publisher Check is then largely similar to the process for a [**Publisher Review**](production-checklist.md#publisher-review), with the exception of Feature content, for which you will have to carry out some additional checks. You can find out how to carry out pre-author checks for feature content ****[**here**](article-details/content/feature-content.md#pre-author-checks)**.** On completion of a Publisher Check, the content will not be sent to Continuum to be scheduled, and instead it will be sent to the typesetter \(if there are edits to be made\), to the author \(if it is ready for them to review it\), or to the 'waiting for assets queue' if it is waiting for a digest or decision letter. 
+The article will come into the 'Publisher Check' section, and you will assign it to yourself as shown [**above**](production-checklist.md#assigning-articles)**.** The process for carrying out a Publisher Check is then largely similar to the process for a [**Publisher Review**](production-checklist.md#publisher-review), with the exception of Feature content, for which you will have to carry out some additional checks. You can find out how to carry out pre-author checks for feature content ****[**here**](article-details/content/feature-content.md#pre-author-checks)**.** 
 
-If the 
+On completion of a Publisher Check, the content will not be sent to Continuum to be scheduled, and instead it will be sent to the typesetter \(if there are edits to be made\), to the author \(if it is ready for them to review it\), or to the 'waiting for assets queue' if it is waiting for a digest or decision letter. If a feature article is waiting for a decision letter, instead of sending it to the 'waiting for assets queue', we put it on hold under our name. To do this, you locate the 'state' section under the 'document details' tab on the dashboard and change it to 'on hold'. You will be prompted to select a reason and input a comment. 
+
+![](.gitbook/assets/screenshot-2021-09-15-at-09.34.59.png)
+
+
 
