@@ -8,7 +8,7 @@ description: >-
 
 ## Publisher Review 
 
-Once an author has made all the required revisions to their manuscript, it is signed off and comes back to the Production team ready for its Publisher Review. This stage of the process is to check over all revisions made by the content editors and the author, and to provide a broader check on the article to make sure it is up to standard for publication - this involves validating the XML and reviewing the PDFs. 
+Once an author has made all the required revisions to their manuscript, it is signed off and comes back to the Production team ready for its Publisher Review. This stage of the process is to check over all revisions made by the content processors and the author, and to provide a broader check on the article to make sure it is up to standard for publication - this involves validating the XML and reviewing the PDFs. 
 
 ## Checks prior to starting 
 
