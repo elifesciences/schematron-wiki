@@ -4,7 +4,7 @@ description: Tabulated content in an article. Updated 21/10/2020
 
 # Tables
 
-## What needs to be checked?
+What needs to be checked?
 
 The following should be checked for Tables:
 

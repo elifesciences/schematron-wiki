@@ -46,9 +46,11 @@ Some articles will be linked to other articles, indicating that they might need 
 * **Yellow** means that it is in progress in the system 
 * **Green** means it has been published
 
-Sometimes the related article is just a previously submitted earlier version of the article. This can be checked by entering the number on EJP. If this is so, the related article can be un-linked via the 'Related article' section in the Publisher Review. \(add screenshot\). 
-
 ![Article with two linked research articles ](.gitbook/assets/screenshot-2021-07-14-at-12.19.54.png)
+
+Sometimes the related article is just a previously submitted, earlier version of the article. This can be checked by entering the number on EJP. If this is so, the related article can be un-linked via the 'Related article' section in the Publisher Review. 
+
+![Click the &apos;x&apos; button to remove the related article](.gitbook/assets/screenshot-2021-09-16-at-12.19.50.png)
 
 ### Assigning articles 
 
@@ -152,7 +154,7 @@ All datasets provided need to be publicly available at the point of publication.
 
 ### Queries 
 
-This is where your queries to the author from the content processors and queries to the typesetter from Production will appear. Authors will also raise queries to the content processors in this section. You should check the 'open queries' section to see if there is any action that needs to be taken. You should also check the 'resolved queries' section to double check that all of the necessary action has been taken to address these. 
+This is where your queries from the content processors to the author and to Production \(and vice versa\) will appear. Authors will also raise queries to the content processors in this section. You should check the 'open queries' section to see if there is any action that needs to be taken. You should also check the 'resolved queries' section to double check that all of the necessary action has been taken to address these. 
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-09.17.41.png)
 
@@ -167,13 +169,13 @@ Now navigate to the ‘Changes’ tab. Recorded here is every edit made by the a
 * Pay attention to cases where the author has reverted or change substantial sections of the copy-editor’s changes to make sure the text still makes sense and so that we are aware of anything that needs feeding back. 
 * Author changes need to be checked one at a time and any mistakes they may have introduced \(stray letters, missing or extra spaces etc\) should be corrected. 
 * At this stage, the author should NOT be rewriting large sections of their text. If they have done so, raise the changes with Editorial to check whether the editors need to approve them. Rewording a sentence is OK as long as the content is largely the same. Rewriting the entire discussion is not!
-* If the author has made edits in the Decision letter or Author response sections, you may want to consult with the Production team as to whether these should be accepted. Read about which changes are generally acceptable here **\(link to decision letter page\)**. You can also check to see if an explanation for the edits has been provided by email or in the notes/response to queries. 
+* If the author has made edits in the Decision letter or Author response sections, you may want to consult with the Production team as to whether these should be accepted. You can also check to see if an explanation for the edits has been provided by email or in the notes/response to queries. Guidance on decision letters can be found [**here**](article-details/content/decision-letters-and-author-responses.md#general-guidance-for-decision-letter-proofing-queries)**.** 
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-09.20.15.png)
 
 ### Figures, Tables and Additional Files tabs
 
-Open each of these tabs and scroll through each item. Find out more about article level assets in their respective pages: figures, tables, additional files. **\(Link\)** 
+Open each of these tabs and scroll through each item. Find out more about article level assets in their respective pages: ****[**figures and figure supplements**](article-details/content/allowed-assets/figures.md)**,** [**tables**](article-details/content/allowed-assets/tables.md)**,** [**additional files.**](article-details/content/allowed-assets/additional-files.md) 
 
 * Check that each item is labelled with the correct category, either as a ‘Figure’, ‘Video’, ‘Table’, ‘Equation’ or ‘Figure Supplement’. 
 * Check that each item has a label and title \(legend optional\) and check that the numbering on the items is correct. 
@@ -182,7 +184,7 @@ Open each of these tabs and scroll through each item. Find out more about articl
 
 ### References 
 
-Check that all the journal references have DOIs. If a reference does not have a DOI, it will be highlighted with a red line. The DOI or any other missing information can be found from a web search. \(Link to the reference list page\) 
+Check that all the journal references have DOIs. If a reference does not have a DOI, it will be highlighted with a red line. The DOI or any other missing information can be found from a web search. 
 
 ### XML
 
@@ -192,7 +194,7 @@ We then validate the XML using our [**XML Validator**](https://basex-validator.e
 
 You also need to click 'Validate Pub Date'. This will prompt a pop up which will notify you if any of these values are unexpected and need looking into. 
 
-![](.gitbook/assets/screenshot-2021-09-08-at-12.28.02.png)
+![](.gitbook/assets/screenshot-2021-09-16-at-12.31.10.png)
 
 ### Download PDFs
 
@@ -202,9 +204,9 @@ Scroll down the PDFs, paying particular attention to the figures and tables, ens
 
 To do this, click on the 'Approve' tab at the top of the page. This will prompt the pop up below, where you should select the appropriate option depending on the state of the article:
 
-* Send back to the Typesetter for correction: If there are changes that need to be made that you cannot implement yourself, you will need to send it back to the content processors so you will choose 
-* Send back to the author for revision: If the author has requested to see another round of proofs.
-* Send to Continuum: If you believe the content is now ready to be published. 
+* **Send back to the Typesetter for correction:** If there are changes that need to be made that you cannot implement yourself.
+* **Send back to the author for revision:** If the author has requested to see another round of proofs.
+* **Send to Continuum:** If you believe the content is now ready to be published. 
 
 ![Options you are given upon clicking &apos;Approve&apos;](.gitbook/assets/screenshot-2021-09-08-at-12.21.34.png)
 
