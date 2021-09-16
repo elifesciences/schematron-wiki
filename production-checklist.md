@@ -16,8 +16,7 @@ Once an author has made all the required revisions to their manuscript, it is si
 
 Articles that should be given priority at publisher review include:
 
-* Press articles for an imminent date 
-* Insights 
+* Press articles
 * Feature content
 
 ### Notes 
@@ -25,7 +24,7 @@ Articles that should be given priority at publisher review include:
 * Notes can be added by both Production and the content processors. To view these on Kriya 2, click on the article in question on the dashboard, then on the 'messages' tab and then the 'notes' tab, as illustrated below. 
 * This is where the Production team can add any pieces of relevant information from their correspondence with the author, and where they can correspond with Exeter. 
 * It is important at Publisher Review to check that any notes left previously have received a positive response and the correct action has been taken. 
-* Whilst carrying out a Publisher Review, if there are changes to be made they generally should be  communicated to the content processors via a Typesetter Query as opposed to through the notes. 
+* Whilst carrying out a Publisher Review, if there are changes to be made they generally should be  communicated to the content processors via a Typesetter Query, as opposed to through the notes. 
 
 ![Correspondence between the content processors and members of the Production team](.gitbook/assets/screenshot-2021-09-15-at-09.40.03.png)
 
@@ -41,7 +40,13 @@ You will also want to check whether the article is marked for press. This will b
 
 ### Linked articles 
 
-Some articles will be linked to other articles, indicating that they might need to be published together. If there is one or more linked article, they will be displayed in the 'related articles' section, under the 'document details' and 'info' tabs. Under 'article type', on the 'Document details' page, you can see what kind of related article it is. The colour of the label indicates its progress through the system. Red means it is not in the system yet, yellow means that it is in progress in the system and green means it has been published. Sometimes the related article is just a previously submitted earlier version of the article. This can be checked by entering the number on EJP. If this is so, the related article can be un-linked via the 'Related article' section in the Publisher Review. \(add screenshot\). 
+Some articles will be linked to other articles, indicating that they might need to be published together. If there is one or more linked article, they will be displayed in the 'related articles' section, under the 'document details' and 'info' tabs. Under 'article type', on the 'Document details' page, you can see what kind of related article it is. The colour of the label indicates its progress through the system. 
+
+* **Red** means it is not in the system yet
+* **Yellow** means that it is in progress in the system 
+* **Green** means it has been published
+
+Sometimes the related article is just a previously submitted earlier version of the article. This can be checked by entering the number on EJP. If this is so, the related article can be un-linked via the 'Related article' section in the Publisher Review. \(add screenshot\). 
 
 ![Article with two linked research articles ](.gitbook/assets/screenshot-2021-07-14-at-12.19.54.png)
 
@@ -109,9 +114,11 @@ Sometimes affiliations need to be split up i.e., if there are two departments li
 
 ### Funding
 
-All funding received by authors in the process of researching and creating the article needs to be referenced here. Open each funding reference individually in order to check the details. Ideally, we want every funder to be validated against the CrossRef Funder Registry. Validated funders are indicated by a green tick. If it is not validated, try retyping the funder. If this doesn’t work, navigate to the [**CrossRef Funder Registry**](https://www.crossref.org/services/funder-registry/) and check if it is on there. If you still cannot find the funder, then conduct a Google search and attempt to determine whether the funder is an accredited body or not. Sometimes the name may need correcting slightly, or may be translated into English when it is registered in the original language. 
+All funding received by authors in the process of researching and creating the article needs to be referenced here. Open each funding reference individually in order to check the details.
 
-Every funder must have at least one author associated with it or the system will throw an error and you will be unable to proceed from this screen. Grant references, however, are optional.
+Ideally, we want every funder to be validated against the CrossRef Funder Registry. Validated funders are indicated by a green tick. If it is not validated, try retyping the funder. If this doesn’t work, navigate to the [**CrossRef Funder Registry**](https://www.crossref.org/services/funder-registry/) and check if it is on there. If you still cannot find the funder, then conduct a Google search and attempt to determine whether the funder is an accredited body or not. Sometimes the name may need correcting slightly, or may be translated into English when it is registered in the original language. 
+
+Every funder must have at least one author associated with it. Grant references, however, are optional.
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-09.15.34.png)
 
@@ -127,7 +134,11 @@ All datasets provided need to be publicly available at the point of publication.
 
 ### Impact Statement 
 
-* Needs to end in a full stop. 
+* Check that it ends in a full stop. 
+* Check that it is clear and concise \(30 words or less\).
+* Check that it does not simply repeat the title.
+* Check that it is written in the third person.
+* If the author was requested to provide a new impact statement during proofing, check that the new version is acceptable.
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-08.41.37.png)
 
@@ -141,13 +152,13 @@ All datasets provided need to be publicly available at the point of publication.
 
 ### Queries 
 
-This is where your queries to the author from the content processors and queries to the typesetter from Production will appear. Authors will also raise queries to the content processors in this section. You should check the 'open queries' section to see if there is any action that needs to be taken. You should also check the 'resolved queries' section to ensure that all of the necessary action has been taken to address these. 
+This is where your queries to the author from the content processors and queries to the typesetter from Production will appear. Authors will also raise queries to the content processors in this section. You should check the 'open queries' section to see if there is any action that needs to be taken. You should also check the 'resolved queries' section to double check that all of the necessary action has been taken to address these. 
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-09.17.41.png)
 
 ### Changes 
 
-Now navigate to the ‘Changes’ tab. Recorded here is every edit made by the author, Exeter and Crossref. These changes will be automatically approved unless you reject them. When reviewing the changes, you can toggle between viewing the main article text with and without tracked  changes by clicking on the eye symbol at the top of the window.
+Now navigate to the ‘Changes’ tab. Recorded here is every edit made by the author, the content processors and Crossref. These changes will be automatically approved unless you reject them. When reviewing the changes, you can toggle between viewing the main article text with and without tracked  changes by clicking on the eye symbol at the top of the window.
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-09.20.08.png)
 
@@ -156,13 +167,13 @@ Now navigate to the ‘Changes’ tab. Recorded here is every edit made by the a
 * Pay attention to cases where the author has reverted or change substantial sections of the copy-editor’s changes to make sure the text still makes sense and so that we are aware of anything that needs feeding back. 
 * Author changes need to be checked one at a time and any mistakes they may have introduced \(stray letters, missing or extra spaces etc\) should be corrected. 
 * At this stage, the author should NOT be rewriting large sections of their text. If they have done so, raise the changes with Editorial to check whether the editors need to approve them. Rewording a sentence is OK as long as the content is largely the same. Rewriting the entire discussion is not!
-* If the author has made edits in the Decision letter or Author response sections, you may want to consult with the Production team as to whether these should be accepted. Read about which changes are generally acceptable here. You can also check to see if an explanation for the edits has been provided by email or in the notes/response to queries. 
+* If the author has made edits in the Decision letter or Author response sections, you may want to consult with the Production team as to whether these should be accepted. Read about which changes are generally acceptable here **\(link to decision letter page\)**. You can also check to see if an explanation for the edits has been provided by email or in the notes/response to queries. 
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-09.20.15.png)
 
 ### Figures, Tables and Additional Files tabs
 
-Open each of these tabs and scroll through each item. Find out more about article level assets in their respective pages: figures, tables, additional files. \(Link\) 
+Open each of these tabs and scroll through each item. Find out more about article level assets in their respective pages: figures, tables, additional files. **\(Link\)** 
 
 * Check that each item is labelled with the correct category, either as a ‘Figure’, ‘Video’, ‘Table’, ‘Equation’ or ‘Figure Supplement’. 
 * Check that each item has a label and title \(legend optional\) and check that the numbering on the items is correct. 
