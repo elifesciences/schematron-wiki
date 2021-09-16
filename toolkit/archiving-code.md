@@ -337,9 +337,9 @@ If the text is unrelated to any code archiving process \(for example if it was p
 
 #### software-heritage-test-2
 
-**Error**: _Software heritage links in the main text must be the directory link with contextual information. 'XXXXXX is not a directory link with contextual information._
+**Error**: _Software heritage links in the main text or references must be the directory link with contextual information. 'XXXXXX is not a directory link with contextual information._
 
-**Action**: This error will appear if a software heritage link in the main text is not correct. As detailed [**above**](archiving-code.md#in-the-main-text), any software heritage link in the main text should be the directory link with contextual information. Here is an example of what it looks like and how it is found:
+**Action**: This error will appear if a software heritage link in the main text or in a reference is not correct. As detailed [**above**](archiving-code.md#in-the-main-text), any software heritage link in the main text or in references should be the directory link with contextual information. Here is an example of what it looks like and how it is found:
 
 ![Click Copy permalink to get the actual link](../.gitbook/assets/screenshot-2020-11-09-at-11.23.10.png)
 
