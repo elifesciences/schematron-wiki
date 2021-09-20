@@ -105,7 +105,7 @@ Click on 'Post to eLife' and the annotation will be saved.
 
 ![](.gitbook/assets/screenshot-2021-08-23-at-14.37.26%20%281%29.png)
 
-Once this is done, email the authors to let them know their article has been updated and cross the article off the actions sheet.
+Once this is done, email the authors to let them know their article has been updated and cross the article off the actions sheet. The article should be automatically moved  from the Kriya dashboard back to the archive within 24 hours.
 
 ![](.gitbook/assets/screenshot-2021-08-23-at-15.10.28.png)
 
