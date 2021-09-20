@@ -10,7 +10,9 @@ A thesis, or dissertation, is a document submitted by an individual for an acade
 
 ![](../../../.gitbook/assets/screenshot-2021-09-13-at-12.43.42%20%281%29.png)
 
-![Formatting display for different thesis references in eLife articles](../../../.gitbook/assets/screenshot-2021-09-13-at-12.43.54.png)
+![](../../../.gitbook/assets/screenshot-2021-09-13-at-12.43.54.png)
+
+![Formatting display for different thesis references in eLife articles](../../../.gitbook/assets/screenshot-2021-09-20-at-09.57.29.png)
 
 ## What needs to be added?
 
@@ -93,6 +95,32 @@ Schematron warnings may pick up incomplete references, and these should be check
 * **Website:** If available, a URL to the thesis. 
 * **DOI:** The Digital Object Identifier for the thesis \(if applicable\).
 
+## How to add a thesis reference
+
+To add a thesis reference in Kriya, click on the 'Insert' menu and then on 'Reference'.
+
+![](../../../.gitbook/assets/screenshot-2021-09-20-at-11.26.02.png)
+
+You can insert a reference using a DOI or PMID, or alternatively just by pasting the title. Click on Next.
+
+![](../../../.gitbook/assets/screenshot-2021-09-20-at-11.26.47.png)
+
+Select 'Thesis' as reference type, and then add the required fields in this order:
+
+* Author
+* Issued Year
+* Title
+* Publisher
+* Publisher location
+* 
+  Then, click on 'Validate'.
+
+![](../../../.gitbook/assets/screenshot-2021-09-20-at-11.30.14.png)
+
+Then, click on 'Insert Reference' and follow the Kriya prompt to add a citation for the reference where needed.
+
+![](../../../.gitbook/assets/screenshot-2021-09-20-at-11.30.32.png)
+
 ## Schematron checks
 
 ### Content checks
@@ -167,7 +195,7 @@ These checks relate to the XML structure of thesis references. ‌X or XXXXXX re
 
 **Error**: _\[err-elem-cit-thesis-11-1\] A maximum of one &lt;pub-id&gt; element is allowed. Reference 'XXXXXX' has XXXXXX  elements._
 
-**Action:** This error will fire if a thesis reference has more than one pub-id element. Check the original submission to see whether the thesis reference has a DOI - if so it should be entered in the pub-id field. If not, this field is not necessary. 
+**Action:** This error will fire if a thesis reference has more than one pub-id element \(DOI field in Kriya\). Check the original submission to see whether the thesis reference has a DOI - if so it should be entered in the DOI field. If not, this field is not necessary. 
 
 #### err-elem-cit-thesis-2-2
 
@@ -193,7 +221,7 @@ These checks relate to the XML structure of thesis references. ‌X or XXXXXX re
 
 Here are some examples of how the XML will look for various thesis references.
 
-Thesis with no URL:
+#### Thesis with no URL:
 
 ```markup
 <element-citation publication-type="thesis">
@@ -211,7 +239,7 @@ Thesis with no URL:
 </element-citation>
 ```
 
-Thesis with a URL:
+#### Thesis with a URL:
 
 ```markup
 <element-citation publication-type="thesis">
@@ -227,6 +255,23 @@ Thesis with a URL:
   <publisher-name>University of Exeter</publisher-name>
   <publisher-loc>Exeter, United Kingdom</publisher-loc>
   <ext-link ext-link-type="uri" xlink:href="https://ore.exeter.ac.uk/repository/handle/10036/4181#JprXt3mbeIqSFbao.99">https://ore.exeter.ac.uk/repository/handle/10036/4181#JprXt3mbeIqSFbao.99</ext-link>
+</element-citation>
+```
+
+#### Thesis with a DOI:
+
+```markup
+<element-citation publication-type="thesis">
+    <person-group person-group-type="author">
+    <name>
+        <surname>Schaffter</surname>
+        <given-names>T</given-names>
+    </name>
+    </person-group>
+    <year iso-8601-date="2014">2014</year>
+    <article-title>From genes to organisms: bioinformatics system models and software</article-title>
+    <source>École Polytechnique Fédérale De Lausanne</source>
+    <pub-id pub-id-type="doi">10.5075/epfl-thesis-6081</pub-id>
 </element-citation>
 ```
 
