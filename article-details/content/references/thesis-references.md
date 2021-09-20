@@ -97,7 +97,7 @@ Schematron warnings may pick up incomplete references, and these should be check
 
 ## How to add a thesis reference
 
-To add a thesis reference in Kriya, click on the 'Insert' menu and then on 'Reference'.
+To add a thesis reference in Kriya, click on a section of text, and then on the 'Insert' menu and 'Reference'.
 
 ![](../../../.gitbook/assets/screenshot-2021-09-20-at-11.26.02.png)
 
@@ -112,12 +112,14 @@ Select 'Thesis' as reference type, and then add the required fields in this orde
 * Title
 * Publisher
 * Publisher location
-* 
+* URL
+* DOI \(if available\)
+
   Then, click on 'Validate'.
 
 ![](../../../.gitbook/assets/screenshot-2021-09-20-at-11.30.14.png)
 
-Then, click on 'Insert Reference' and follow the Kriya prompt to add a citation for the reference where needed.
+Finally, click on 'Insert Reference' and follow the Kriya prompt to add a citation for the reference where needed.
 
 ![](../../../.gitbook/assets/screenshot-2021-09-20-at-11.30.32.png)
 
@@ -270,8 +272,10 @@ Here are some examples of how the XML will look for various thesis references.
     </person-group>
     <year iso-8601-date="2014">2014</year>
     <article-title>From genes to organisms: bioinformatics system models and software</article-title>
-    <source>École Polytechnique Fédérale De Lausanne</source>
+    <publisher-name>École Polytechnique Fédérale De Lausanne</publisher-name>
     <pub-id pub-id-type="doi">10.5075/epfl-thesis-6081</pub-id>
 </element-citation>
 ```
+
+
 
