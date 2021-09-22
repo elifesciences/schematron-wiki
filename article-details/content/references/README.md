@@ -12,6 +12,8 @@ Most eLife articles include a reference list \(otherwise known as a bibliography
 
 The reference list is placed at the end of the article, in the back matter. References are ordered alphabetically by the surname of the first author for each entry, then by year, and then by the surnames of the second, third, fourth etc authors as necessary. Each reference list applies to the entire article in which it appears; references cited in appendices are not treated separately from those in the main text.
 
+References in sub-articles \(Decision letter, Author response\) are excluded on the basis that they relate to peer review rather than to the work being reported in the main article. Any reference details provided in these documents will be left as plain text.
+
 ![A typical eLife reference list in the online view](../../../.gitbook/assets/screen-shot-2021-07-13-at-17.06.53.png)
 
 ![A reference list in the article PDF](../../../.gitbook/assets/screen-shot-2021-07-13-at-17.07.27.png)
@@ -25,10 +27,12 @@ eLife permits references to the following kinds of publication, for which type-s
 * \*\*\*\*[**Data**](data-references.md)\*\*\*\*
 * \*\*\*\*[**Journal articles**](journal-references.md)\*\*\*\*
 * **Patents**
+* **Periodicals**
 * \*\*\*\*[**Preprints**](preprint-references.md)\*\*\*\*
 * \*\*\*\*[**Reports**](report-references.md)\*\*\*\*
 * \*\*\*\*[**Software**](software-references.md)\*\*\*\*
 * \*\*\*\*[**Theses**](thesis-references.md)\*\*\*\*
+* **Websites**
 
 ## What needs to be checked?
 
@@ -79,7 +83,7 @@ then they would both be cited as  'Keeley and Soldati, 2004'. Similarly, if two 
 * Keeley A, Soldati D, Smith J, Bloggs M. 2004
 * Keeley A, Soldati D, Smith J, Bloggs M. 2004
 
-all of them would be cited as 'Keeley et al., 2004'. In order to prevent confusion, references with identical citation strings are distguished by added a letter to the year. This means the first example becomes
+all of them would be cited as 'Keeley et al., 2004'. In order to prevent confusion, references with identical citation strings are distinguished by added a letter to the year. This means the first example becomes
 
 * Keeley A, Soldati D. 2004a
 * Keeley A, Soldati D. 2004b
@@ -236,7 +240,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Error**: _pub-id is tagged as a doi, but it is not one - XXXXXX_
 
-**Action**: This error indicates, at the pre-author stage, that a DOI field contains content that does not match the standard format for a DOI. Check whether the authors have been asked to provide the correct DOI and if they have not done so, and if it is not possible to determine the correct DOI either from a web search or validating the reference against PubMed or Crossref, the Production team will need to follow up with the authors to determine whether a DOI exists for this reference.
+**Action**: This error indicates, at the post-author stage, that a DOI field contains content that does not match the standard format for a DOI. Check whether the authors have been asked to provide the correct DOI and if they have not done so, and if it is not possible to determine the correct DOI either from a web search or validating the reference against PubMed or Crossref, the Production team will need to follow up with the authors to determine whether a DOI exists for this reference.
 
 #### pub-id-test-3
 
