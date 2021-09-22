@@ -120,6 +120,42 @@ This will be carried out during initial processing of the article files so there
 
 **Action**: This error indicates that two or more references have the same citation string e.g. Smith et al., 2020 and Smith et al., 2020. The references will need to be updated to distinguish the citations by applying a a letter to the year field. The first reference cited should have the year updated to e.g. '2020a', the second to '2020b' and so on. See [**above**](./#references-with-the-same-citation) for more details on this.
 
+#### err-elem-cit-gen-name-5
+
+Error: The &lt;etal&gt; element in a reference is not allowed. Reference 'XXXXXX' contains it.
+
+Action:
+
+#### err-elem-cit-gen-date-1-9
+
+Error: There may be at most one &lt;year&gt; element. Reference 'XXXXXX' has XXXXXX &lt;year&gt; elements.
+
+Action:
+
+#### fpage-lpage-test-1
+
+**Warning**: _XXXXXX has a first page XXXXXX, but no last page. Is this correct? Should it be an elocation-id instead?_
+
+**Action**:
+
+#### err-elem-cit-gen-name-3-1
+
+**Error**: _\[err-elem-cit-gen-name-3-1\] Each &lt;person-group&gt; element in a reference must contain at least one &lt;name&gt; or, if allowed, &lt;collab&gt; element. Reference 'XXXXXX' does not._
+
+**Action**:
+
+#### err-elem-cit-gen-name-3-2
+
+**Error**: _\[err-elem-cit-gen-name-3-2\] A &lt;collab&gt; element in a reference may contain characters and &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' contains additional elements._
+
+**Action**:
+
+#### err-elem-cit-gen-name-4
+
+**Error**: _\[err-elem-cit-gen-name-4\] The &lt;suffix&gt; element in a reference may only contain one of the specified values Jnr, Snr, I, II, III, VI, V, VI, VII, VIII, IX, X. Reference 'XXXXXX' does not meet this requirement as it contains the value 'XXXXXX'._
+
+**Action**:
+
 #### err-elem-cit-gen-date-1-2
 
 **Warning**: _The numeric value of the first 4 digits of the &lt;year&gt; element must be between 1700 and the current year + 5 years \(inclusive\). Reference 'XXXXXX' does not meet this requirement as it contains the value 'XXXXXX'.–_
