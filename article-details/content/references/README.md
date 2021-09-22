@@ -208,9 +208,9 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 #### link-href-conformance
 
-**Error**: _@xlink:href must start with either "http://", "https://", or "ftp://". The &lt;ext-link&gt; element in Reference 'XXXXXX' is 'XXXXXX', which does not._
+**Error**: _@xlink:href must start with either "http://", "https://", "sftp://", or "ftp://". The &lt;ext-link&gt; element in Reference 'XXXXXX' is 'XXXXXX', which does not._
 
-**Action:** This error indicates that a provided link does not begin with "http://", "https://", or "ftp://". A URL that does not begin with one of these is invalid, so this will need to be corrected. If the link is provided in the form www.google.com, navigate to the website in a browser and replace the link with the full URL - in this case, https://www.google.com/. If the URL does not resolve, query the authors as follows:
+**Action:** This error indicates that a provided link does not begin with "http://", "https://", sftp://", or "ftp://". A URL that does not begin with one of these will not be universally supported by web browsers, so this will need to be corrected. If the link is provided in the form www.google.com, navigate to the website in a browser and replace the link with the full URL - in this case, https://www.google.com/. If the URL does not resolve, query the authors as follows:
 
 * Please provide the full URL for this reference \(including the http://, https:// or ftp:// prefix\).
 
@@ -218,7 +218,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Warning**: _@xlink:href must start with an http:// or ftp:// protocol. - XXXXXX does not. If this information is missing, please ensure to query it with the authors._
 
-**Action:** This error indicates that a provided link does not begin with "http://", "https://", or "ftp://". A URL that does not begin with one of these is invalid, so this will need to be corrected. If the link is provided in the form www.google.com, navigate to the website in a browser and replace the link with the full URL - in this case, https://www.google.com/. If the URL does not resolve, query the authors as follows:
+**Action:** This error indicates that a provided link does not begin with "http://", "https://", sftp://", or "ftp://". A URL that does not begin with one of these will not be universally supported by web browsers, so this will need to be corrected. If the link is provided in the form www.google.com, navigate to the website in a browser and replace the link with the full URL - in this case, https://www.google.com/. If the URL does not resolve, query the authors as follows:
 
 * Please provide the full URL for this reference \(including the http://, https:// or ftp:// prefix\).
 
@@ -226,7 +226,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Error**: _@xlink:href must start with an http:// or ftp:// protocol. - XXXXXX does not._
 
-**Action:** This error indicates that a provided link does not begin with "http://", "https://", or "ftp://". A URL that does not begin with one of these is invalid, so this will need to be corrected. If the link is provided in the form www.google.com, navigate to the website in a browser and replace the link with the full URL - in this case, https://www.google.com/. If the URL does not resolve, check whether the authors have been queried to provide the full link. If this has not been given, the Production team will need to follow up with the authors.
+**Action:** This error indicates that a provided link does not begin with "http://", "https://", sftp://", or "ftp://". A URL that does not begin with one of these will not be universally supported by web browsers, so this will need to be corrected. If the link is provided in the form www.google.com, navigate to the website in a browser and replace the link with the full URL - in this case, https://www.google.com/. If the URL does not resolve, check whether the authors have been queried to provide the full link. If this has not been given, the Production team will need to follow up with the authors.
 
 #### pre-pub-id-test-2
 
