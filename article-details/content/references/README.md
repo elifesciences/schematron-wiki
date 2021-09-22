@@ -156,6 +156,108 @@ Action:
 
 **Action**:
 
+#### pre-year-element-citation-conformity
+
+**Warning**: _year in reference must contain content which matches the regular expression '^\[1\]\[6-9\]\[0-9\]\[0-9\]\[a-z\]?$\|^\[2\]0\[0-2\]\[0-9\]\[a-z\]?$' - 'XXXXXX' doesn't meet this requirement. If there is no year, and this cannot be determined yourself, please query this with the authors._
+
+**Action**:
+
+#### final-year-element-citation-conformity
+
+**Error**: _year in reference must contain content which matches the regular expression '^\[1\]\[6-9\]\[0-9\]\[0-9\]\[a-z\]?$\|^\[2\]0\[0-2\]\[0-9\]\[a-z\]?$' - 'XXXXXX' doesn't meet this requirement. If there is no year, and this cannot be determined yourself, please query this with the authors._
+
+**Action**:
+
+#### publisher-name-colon
+
+**Warning**: _ref 'XXXXXX' has a publisher-name containing a colon - XXXXXX. Should the text preceding the colon instead be captured as publisher-loc?_
+
+**Action**: 
+
+#### publisher-name-inc
+
+**Warning**: _ref 'XXXXXX' has a publisher-name containing the text 'Inc.' Should the fullstop be removed? XXXXXX_
+
+**Action**: 
+
+#### pub-name-replacement-character-presence
+
+**Error**: _XXXXXX contains the replacement character '�' which is unallowed - XXXXXX_
+
+**Action**: 
+
+#### pub-name-newspaper
+
+**Warning**: _XXXXXX contains the text 'guardian', 'independent', 'times' or 'post' - XXXXXX - is it a newspaper reference? If so, it should be captured as a web or a periodical reference._
+
+**Action**: 
+
+#### author-test-1
+
+**Warning**: _name in ref 'XXXXXX' contans the text 'Author'. Is this correct?_
+
+**Action**: 
+
+#### author-test-2
+
+**Warning**: _name in ref 'XXXXXX' contans the text 'Editor'. Is this correct?_
+
+**Action**: 
+
+#### author-test-3
+
+**Warning**: _name in ref 'XXXXXX' contans the text 'Press'. Is this correct?_
+
+**Action**: 
+
+#### all-caps-surname
+
+**Warning**: _surname in ref 'XXXXXX' is composed of only capitalised letters - XXXXXX. Should this be captured as a collab? If not, Should it be - XXXXXX?_
+
+**Action**: 
+
+#### surname-number-check
+
+**Warning**: _name in ref 'XXXXXX' contains numbers - XXXXXX. Should this be captured as a collab?_
+
+**Action**: 
+
+#### surname-ellipsis-check
+
+**Error**: _surname in ref 'XXXXXX' begins with an ellipsis which is wrong - XXXXXX. Are there preceding author missing from the list?_
+
+**Action**: 
+
+#### surname-count
+
+**Error**: _ref 'XXXXXX' has an XXXXXX with XXXXXX surnames - XXXXXX - which is incorrect._
+
+**Action**: 
+
+#### given-names-count
+
+**Error**: _ref 'XXXXXX' has an XXXXXX with XXXXXX given-names - XXXXXX - which is incorrect._
+
+**Action**: 
+
+#### given-names-count-2
+
+**Warning**: _ref 'XXXXXX' has an XXXXXX with XXXXXX given-names - XXXXXX - is this incorrect?_
+
+**Action**: 
+
+#### doi-in-display-test
+
+**Error**: _XXXXXX element contains a doi - XXXXXX. The doi must be moved to the appropriate field, and the correct information should be included in this element \(or queried if the information is missing\)._
+
+**Action**:
+
+#### link-in-display-test
+
+**Error**: _XXXXXX element contains a url - XXXXXX. The url must be moved to the appropriate field \(if it is a doi, then it should be captured as a doi without the 'https://doi.org/' prefix\), and the correct information should be included in this element \(or queried if the information is missing\)._
+
+**Action**: 
+
 #### err-elem-cit-gen-date-1-2
 
 **Warning**: _The numeric value of the first 4 digits of the &lt;year&gt; element must be between 1700 and the current year + 5 years \(inclusive\). Reference 'XXXXXX' does not meet this requirement as it contains the value 'XXXXXX'.–_
