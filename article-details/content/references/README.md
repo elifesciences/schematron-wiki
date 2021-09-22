@@ -196,7 +196,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Warning**: '_XXXXXX' type references must have a string-date. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the date of publication._
 
-**Action**: This warning indicates at the pre-author stage that a reference is missing a publication date \(this will fire on reference types that use the `<string-date>` element in place of `<year>`\). Check that the reference details have been correctly processed from the provided article file and if no date \(day, month, year\) was provided, please query the authors:
+**Action**: This warning indicates at the pre-author stage that a reference is missing a publication date \(this will fire on periodical references which use the `<string-date>` element in place of `<year>`\). Check that the reference details have been correctly processed from the provided article file and if no date \(day, month, year\) was provided, please query the authors:
 
 * Please provide the publication date for this reference \(day, month, year\).
 
@@ -204,7 +204,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Error**: _'XXXXXX' type references must have a string-date. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the date of publication._
 
-**Action**: This error indicates at the post-author stage that a reference is missing a publication date \(this will fire on reference types that use the `<string-date>` element in place of `<year>`\). Check that the reference details have been correctly processed from the provided article file and whether the author was queried about this during proofing. If no date \(day, month, year\) was provided, the Production team will need to follow up with the authors to determine the correct date.
+**Action**: This error indicates at the post-author stage that a reference is missing a publication date \(this will fire on periodical references which use the `<string-date>` element in place of `<year>`\). Check that the reference details have been correctly processed from the provided article file and whether the author was queried about this during proofing. If no date \(day, month, year\) was provided, the Production team will need to follow up with the authors to determine the correct date.
 
 #### link-href-conformance
 
