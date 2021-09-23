@@ -50,7 +50,7 @@ References in eLife are ordered by the following criteria:
 
 * Surname of the first author
 * then date of publication
-* then, if necessary, surname of second, third, etc authors
+* then surname of second, third, etc authors as necessary
 
 So, for example, consider the following selection of references:
 
@@ -63,7 +63,7 @@ So, for example, consider the following selection of references:
 * Keeley A, Soldati D, Smith J, Bloggs M. 2004
 * Koch M. 2016
 
-As you can see, the first author provides the main ordering criterion, followed by the publication date in cases where the first surnames for separate references are the same. In cases where the first surname and date are the same, the second and then third author surnames provide the next level of ordering \(here, Keeley and Soldati are followed by Keeleym Soldati and Smith\).
+As you can see, the first author provides the main ordering criterion, followed by the publication date in cases where the first surnames for separate references are the same. In cases where the first surname and date are the same, the second and then third author surnames provide the next level of ordering \(here, Keeley and Soldati are followed by Keeleym, Soldati and Smith\).
 
 #### References with the same citation
 
@@ -94,7 +94,7 @@ and the second
 * Keeley A, Soldati D, Smith J, Bloggs M. 2004b
 * Keeley A, Soldati D, Smith J, Bloggs M. 2004c
 
-resulting in citations of 'Keeley and Soldati, 2004a' and 'Keeley and Soldati, 2004b', and 'Keeley et al., 2004a', 'Keeley et al., 2004b' and 'Keeley et al., 2004c'. The dates are then treated in alphabetical sequence, so '2004b' must appear after '2004a' in the reference list.
+resulting in citations of 'Keeley and Soldati, 2004a' and 'Keeley and Soldati, 2004b', and 'Keeley et al., 2004a', 'Keeley et al., 2004b' and 'Keeley et al., 2004c'. The dates are then treated in alphabetical sequence, so '2004b' must appear after '2004a' in the reference list. The year of publication is preserved without the letter using the `@iso-8601-date` attribute in the XML. That is, if the year has been changed to 2004a, `@iso-8601-date` for that reference will still be '2004'. 
 
 Letters should be assigned on the basis of which reference is cited first in the text. So, the first reference citation should have the year suffix a, the second b, the third c and so on.
 
