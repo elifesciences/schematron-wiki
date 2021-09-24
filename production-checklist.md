@@ -37,7 +37,7 @@ However, the following content can be de-prioritised on days in which there is a
 
 ### Emails 
 
-In addition to checking an article’s history in Notes, you must also check for any emails associated with it. Start by searching the Production inbox using the article reference number and look for the thread marked ‘Author Correspondence’. Sometimes authors may not respond to the proofing email so the title of the email thread may be non-standard or different. For instance, we need to search with the number followed by 'r' \(e.g. 70146r\), in order for certain editorial/eJP emails to be returned in the search result. If there are emails from the author read this for actions they have asked for. If they have asked to see second proofs in their correspondence, ensure that this is added into the Notes section on Kriya. 
+In addition to checking an article’s history in Notes, you must also check for any emails associated with it. Start by searching the Production inbox using the article reference number and look for the thread marked ‘Author Correspondence’. Sometimes authors may not respond to the proofing email so the title of the email thread may be non-standard or different. For instance, we need to search with the number followed by 'r' \(e.g. 70146r\), in order for certain editorial/eJP emails to be returned in the search result. If there are emails from the author, read this for actions they have asked for. If they have asked to see second proofs in their correspondence, ensure that this is added into the Notes section on Kriya. 
 
 ![In this situation, it was necessary to add &apos;r&apos; onto the end of the article number  ](.gitbook/assets/screenshot-2021-09-23-at-15.45.01.png)
 
@@ -108,9 +108,7 @@ Please be aware that this will not flag POAs that have been scheduled for press 
 
 ![](.gitbook/assets/screenshot-2021-09-16-at-12.31.10.png)
 
-**Check the pre-print date!**
-
-Once the XML has been validated, you can perform more general checks on the article, listed below. 
+Once the XML has been validated, you can perform more general checks on the article, as listed below. 
 
 ### Title 
 
@@ -142,7 +140,7 @@ Open the details for each author individually and conduct the following checks:
 
 ![Author details section displaying 3 authors they have equally contributed with](.gitbook/assets/screenshot-2021-09-23-at-16.28.51.png)
 
-* Author contributions will be listed here - check that they are formatted correctly and that any free-form contributions at the end are sensibly phrased and are not repetitive. **\(provide an example of this\)**
+* Author contributions will be listed here - check that they are formatted correctly and that any free-form contributions at the end are sensibly phrased and are not repetitive **\(provide an example of this\).**
 * Any competing interests that an author may have, e.g. if they work as an editor for eLife or another journal, need to be listed here. If they have ticked the ‘None’ box, ensure that nothing is listed. 
 
 ![When you click on an author, a window will pop up displaying the editable items](.gitbook/assets/screenshot-2021-09-08-at-08.25.36.png)
@@ -205,7 +203,7 @@ This is where queries from the content processors to the author and/or productio
 
 #### Querying authors at publisher review
 
-If you have a query for the authors, the best way to contact them is via email. You must endeavour to keep all the correspondence to as few threads as possible. If a thread has not yet been started, locate the proofing email sent out to the authors and start your correspondence on that thread. \(Mention that you can send PDFs, or print screens to illustrate the issue. 
+If you have a query for the authors, the best way to contact them is via email. You must endeavour to keep all the correspondence to as few threads as possible. If a thread has not yet been started, locate the proofing email sent out to the authors and start your correspondence on that thread. \(Mention that you can send PDFs, or print screens to illustrate the issue\). 
 
 ### Changes 
 
@@ -262,7 +260,7 @@ To do this, click on the 'Approve' tab at the top of the page. This will prompt 
 * **Send back to the Typesetter for correction:** If there are changes that need to be made that you will need the content processors to carry out. 
 * **Send back to the author for revision:** If the author has requested to see another round of proofs.
 * **Send to Continuum:** If you believe the content is now ready to be published. 
-* **Ready for Publication:** If the article is waiting for related content to be finalised \(and so might need a publication date inputting\), but is ready to publish otherwise. This will keep the article in the publisher review section in Kriya until you send it to Continuum. 
+* **Ready for Publication:** If the article is waiting for related content to be finalised \(i.e., you need to wait for this content to input the publication date\), but is ready to publish otherwise. This will keep the article in the publisher review section in Kriya until you send it to Continuum. 
 
 ![Options you are given upon clicking &apos;Approve&apos;](.gitbook/assets/screenshot-2021-09-08-at-12.21.34.png)
 
