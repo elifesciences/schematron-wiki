@@ -81,7 +81,7 @@
 ---
 
 * [Press processes](press-processes.md)
-* [Production Checklist](production-checklist.md)
+* [Production checklist](production-checklist.md)
 * [Versioning](versioning.md)
 * [New Starter Guide](new-starter-guide.md)
 
