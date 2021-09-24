@@ -103,7 +103,7 @@ You also need to click 'Validate Pub Date'. This will prompt a pop up which will
 ![This error will generate if the article has not yet been published in any form](.gitbook/assets/screenshot-2021-09-23-at-16.47.13.png)
 
 {% hint style="info" %}
-Please be aware that this will not flag POAs that have been scheduled for press \(since that information is not available anyway in any API. 
+Please be aware that this will not flag POAs that have been scheduled for press \(since that information is not available anyway in any API\). 
 {% endhint %}
 
 ![](.gitbook/assets/screenshot-2021-09-16-at-12.31.10.png)
