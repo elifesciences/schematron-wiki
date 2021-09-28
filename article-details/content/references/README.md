@@ -160,7 +160,7 @@ In cases where there are no authorship details for a reference, a collaboration 
 
 **Warning**: _year in reference must contain content which matches the regular expression '^\[1\]\[6-9\]\[0-9\]\[0-9\]\[a-z\]?$\|^\[2\]0\[0-2\]\[0-9\]\[a-z\]?$' - 'XXXXXX' doesn't meet this requirement. If there is no year, and this cannot be determined yourself, please query this with the authors._
 
-**Action**:
+**Action**: This warning indicates that a year field contains text other than numbers or letters. This could mean that the authors have provided a date range \(e.g. 2002–2005\) or simply that other characters have been included by accident \(e.g. '2001a.' or '\(1999\)'\). In the latter case, any punctuation should be removed to just leave a four digit year with a letter suffic if applicable. Where a range has been provided, 
 
 #### final-year-element-citation-conformity
 
