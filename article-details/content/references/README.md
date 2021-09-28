@@ -454,7 +454,7 @@ If it is unclear how to proceed, the authors should be queried:
 
 **Error**: _'XXXXXX' has no linked citations. Either the reference should be removed or a citation linking to it needs to be added._
 
-**Action**: At the post-author stage, this error indicates that a reference is not cited in the text. All reference listed must be cited at least once. The author should be queried to provide the missing citation.
+**Action**: At the post-author stage, this error indicates that a reference is not cited in the text. All reference listed must be cited at least once. Search the article for the first author of the indicated reference to ensure that it has not accidentally been left as plain text \(e.g. a citation string such as 'Smith et al., 1999' is present but has not been linked as a live citation\). If it is present, add a proper citation link. If not, the author should be queried to provide the missing citation.
 
 In the event that a reference is only cited in a supporting file or in a figure image, a citation should ideally be added to the legend for that file/figure. If this is not possible for a supporting file, the reference will need to be removed from the reference list and the details placed in the file itself instead.
 
