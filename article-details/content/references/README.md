@@ -264,7 +264,7 @@ Action:
 
 **Warning**: _The numeric value of the first 4 digits of the &lt;year&gt; element must be between 1700 and the current year + 5 years \(inclusive\). Reference 'XXXXXX' does not meet this requirement as it contains the value 'XXXXXX'.–_
 
-**Action**: This warning indicates a reference has a date that is outside the range 1700 to five years past the current year. Any reference that has a year pre-1700 or after the current year+5 will be flagged by this test. The reference should be checked to ensure that no error has occurred in processing the details provided by the author; for example, has a volume number been accidentally input as the year?
+**Action**: This warning indicates a reference has a date that is outside the range 1700 to five years into the future. Any reference that has a year pre-1700 or after the current year+5 will be flagged by this test. The reference should be checked to ensure that no error has occurred in processing the details provided by the author; for example, has a volume number been accidentally input as the year?
 
 If the year is correct and pre-1700, check to ensure that publication details have been provided \(publisher name must be present for books, journal name must be present for articles etc\). Please note that for books, the reference should be to the specific edition used and this will usually have a modern publication date that should be used.
 
@@ -276,7 +276,7 @@ If the year is more than five years in the future, the authors should be queried
 
 **Warning**: _The numeric value of the first 4 digits of the @iso-8601-date attribute on the &lt;year&gt; element must be between 1700 and the current year + 5 years \(inclusive\). Reference 'XXXXXX' does not meet this requirement as the attribute contains the value 'XXXXXX'._
 
-**Action**: This warning indicates a reference has a date that is outside the range 1700 to five years past the current year. Any reference that has a year pre-1700 or after the current year+5 will be flagged by this test. The reference should be checked to ensure that no error has occurred in processing the details provided by the author; for example, has a volume number been accidentally input as the year?
+**Action**: This warning indicates a reference has a date that is outside the range 1700 to five years into the future. Any reference that has a year pre-1700 or after the current year+5 will be flagged by this test. The reference should be checked to ensure that no error has occurred in processing the details provided by the author; for example, has a volume number been accidentally input as the year?
 
 If the year is correct and pre-1700, check to ensure that publication details have been provided \(publisher name must be present for books, journal name must be present for articles etc\). Please note that for books, the reference should be to the specific edition used and this will usually have a modern publication date that should be used.
 
@@ -392,13 +392,13 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Warning**: _pub id contains whitespace - XXXXXX - which is very likely to be incorrect._
 
-**Action**: This warning indicates that a pub id \(DOI or PubMed ID\) has been entered that includes a space. If the space\(s\) is present at the beginning or end of the ID, it should be removed. PMIDs should not have spaces in the middle, so if one is present, double-check the correct ID by revalidating the reference or searching for it on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/). A DOI may include a space, although this is extremely unusual. Look the reference up online to confirm the DOI and correct if necessary.
+**Action**: This warning indicates that a pub-id \(DOI or PubMed ID\) has been entered that includes a space. If the space\(s\) is present at the beginning or end of the ID, it should be removed. PMIDs should not have spaces in the middle, so if one is present, double-check the correct ID by revalidating the reference or searching for it on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/). A DOI may include a space, although this is extremely unusual. Look the reference up online to confirm the DOI and correct if necessary.
 
 #### pub-id-test-5
 
 **Error**: _XXXXXX pub-id ends with a full stop - XXXXXX - which is not correct. Please remove the full stop._
 
-**Action**: Remove the full stop from the end of the indicated pub ID \(DOI or PubMed ID\).
+**Action**: Remove the full stop from the end of the indicated pub-id \(DOI or PubMed ID\).
 
 #### duplicate-ref-test-1
 
