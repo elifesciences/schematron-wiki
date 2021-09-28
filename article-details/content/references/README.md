@@ -226,31 +226,15 @@ In cases where it is not possible to determine a valid year, the authors should 
 
 **Warning**: _name in ref 'XXXXXX' contains numbers - XXXXXX. Should this be captured as a collab?_
 
-**Action**: 
+**Action**: This warning will fire if a name contains numbers. This could indicate that a collaboration has been mistakenly entered as an author name and needs to be re-entered using the correct field \(e.g. if 'JATS4R' has been put in a name field, it will need to be deleted and moved to a collab field\).
 
 #### surname-ellipsis-check
 
 **Error**: _surname in ref 'XXXXXX' begins with an ellipsis which is wrong - XXXXXX. Are there preceding author missing from the list?_
 
-**Action**: 
+**Action**: This error will fire if an author surname in a reference begins with a form of elipsis \('...', '. . .', etc\). This could indicate that the author list in the original submission was provided as e.g. 'Smith JT, . . . Bloggs JM' and the reference has not been validated correctly. Delete the elipsis then, if possible, locate the reference online using the details provided and update the author list accordingly. If the full author list cannot be located, query the author:
 
-#### surname-count
-
-**Error**: _ref 'XXXXXX' has an XXXXXX with XXXXXX surnames - XXXXXX - which is incorrect._
-
-**Action**: 
-
-#### given-names-count
-
-**Error**: _ref 'XXXXXX' has an XXXXXX with XXXXXX given-names - XXXXXX - which is incorrect._
-
-**Action**: 
-
-#### given-names-count-2
-
-**Warning**: _ref 'XXXXXX' has an XXXXXX with XXXXXX given-names - XXXXXX - is this incorrect?_
-
-**Action**: 
+* Please provide the full author list for this reference.
 
 #### doi-in-display-test
 
@@ -1203,6 +1187,24 @@ To fix this, either strip out  the tags or convert them to proper formatting. In
 **Action**: This error indicates that a `<collab>` \(group author/collaboration\) contains elements other than `<italic>`, `<sub>`, and `<sup>`. Most likely this means there is disallowed formatting present such as bold text or hyperlinking. Update the text of the collaboration to remove all formatting that is not italic, sub- or superscript. If this does not correct the error, remove the field entirely and re-add it.
 
 If this does not clear the error, the content processor's support team will need to remove the disallowed elements from the XML.
+
+#### surname-count
+
+**Error**: _ref 'XXXXXX' has an XXXXXX with XXXXXX surnames - XXXXXX - which is incorrect._
+
+**Action**: 
+
+#### given-names-count
+
+**Error**: _ref 'XXXXXX' has an XXXXXX with XXXXXX given-names - XXXXXX - which is incorrect._
+
+**Action**: 
+
+#### given-names-count-2
+
+**Warning**: _ref 'XXXXXX' has an XXXXXX with XXXXXX given-names - XXXXXX - is this incorrect?_
+
+**Action**: 
 
 ## XML Structure <a id="xml-structure"></a>
 
