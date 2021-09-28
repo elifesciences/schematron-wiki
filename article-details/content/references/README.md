@@ -65,6 +65,8 @@ So, for example, consider the following selection of references:
 
 As you can see, the first author provides the main ordering criterion, followed by the publication date in cases where the first surnames for separate references are the same. In cases where the first surname and date are the same, the second and then third author surnames provide the next level of ordering \(here, Keeley and Soldati are followed by Keeleym, Soldati and Smith\).
 
+Authors may submit their article using different reference styles \(e.g. numbered references\) or ordering. Their reference lists will be converted to eLife style during the creation of their proofs. Thereafter, the proofing system will order refererences following the set criteria; that is, any new or edited reference should automatically be placed at the correct point in the list.
+
 #### References with the same citation
 
 An additional layer of ordering comes from handling references with identical citations. This refers not to to the reference details themselves but the string that is used to cite them. Consider:
