@@ -124,27 +124,31 @@ This will be carried out during initial processing of the article files so there
 
 #### err-elem-cit-gen-name-5
 
-Error: The &lt;etal&gt; element in a reference is not allowed. Reference 'XXXXXX' contains it.
+**Error**: _The &lt;etal&gt; element in a reference is not allowed. Reference 'XXXXXX' contains it._
 
-Action:
+**Action**: This error indicates that the `<etal>` element is present in a reference. This element is not allowed; for each reference, the full author list should be provided. Edit the reference to add in the complete author list and then revalidate it. If the `<etal>` element remains, the content processor's support team should be asked to fix the XML.
 
 #### err-elem-cit-gen-date-1-9
 
-Error: There may be at most one &lt;year&gt; element. Reference 'XXXXXX' has XXXXXX &lt;year&gt; elements.
+**Error**: _There may be at most one &lt;year&gt; element. Reference 'XXXXXX' has XXXXXX &lt;year&gt; elements._
 
-Action:
+**Action**: Multiple years are not allowed in a reference. This error indicates that more than one &lt;year&gt; element is present in the indicated reference. The extra year\(s\) should be removed to leave only a single entry for the year of publication.
 
 #### fpage-lpage-test-1
 
 **Warning**: _XXXXXX has a first page XXXXXX, but no last page. Is this correct? Should it be an elocation-id instead?_
 
-**Action**:
+**Action**: This wanring indicates that a first page value has been provided for a reference but there is no corresponding last page. For book chapters and journal references, it is likely that they will consist of more than one page. However, this is not certain. Look up the details of the reference online and ascertain if there is a last page that needs to be added. If not, double check whether the first page provided is actually an elocation ID and, if so, update the reference accordingly.
 
 #### err-elem-cit-gen-name-3-1
 
 **Error**: _\[err-elem-cit-gen-name-3-1\] Each &lt;person-group&gt; element in a reference must contain at least one &lt;name&gt; or, if allowed, &lt;collab&gt; element. Reference 'XXXXXX' does not._
 
-**Action**:
+**Action**: This error will fire if the &lt;person-group&gt; element in a reference is empty. Every reference must contain at least one author name or the name of a group author \(collaboration\). Update the reference with the missing information. If it cannot be determined by checking the authors' original article file or looking up the reference using the other details provided, query the author:
+
+* Please provide the author list for this reference.
+
+In cases where there are no authorship details for a reference, a collaboration of 'Anon' should be added to indicate that the references is from an anonymous author.
 
 #### err-elem-cit-gen-name-3-2
 
@@ -196,7 +200,7 @@ Action:
 
 #### author-test-1
 
-**Warning**: _name in ref 'XXXXXX' contans the text 'Author'. Is this correct?_
+**Warning**: _name in ref 'XXXXXX' contains the text 'Author'. Is this correct?_
 
 **Action**: 
 
@@ -208,7 +212,7 @@ Action:
 
 #### author-test-3
 
-**Warning**: _name in ref 'XXXXXX' contans the text 'Press'. Is this correct?_
+**Warning**: _name in ref 'XXXXXX' contains the text 'Press'. Is this correct?_
 
 **Action**: 
 
