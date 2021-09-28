@@ -152,9 +152,9 @@ In cases where there are no authorship details for a reference, a collaboration 
 
 #### err-elem-cit-gen-name-4
 
-**Error**: _\[err-elem-cit-gen-name-4\] The &lt;suffix&gt; element in a reference may only contain one of the specified values Jnr, Snr, I, II, III, VI, V, VI, VII, VIII, IX, X. Reference 'XXXXXX' does not meet this requirement as it contains the value 'XXXXXX'._
+**Error**: _The &lt;suffix&gt; element in a reference may only contain one of the specified values Jnr, Snr, I, II, III, VI, V, VI, VII, VIII, IX, X. Reference 'XXXXXX' does not meet this requirement as it contains the value 'XXXXXX'._
 
-**Action**:
+**Action**: This error indicates that the suffix on an author in a reference contains a value that is not on the list given in the above message. If a variant of an allowed suffix has been used \(e.g. 'Jr' rather than 'Jnr', 'Sr' rather than 'Snr', '2nd' rather than 'II'\), correct the text to the allowed term. If another kind of suffix is present \(e.g. a qualification such as 'MD', 'PhD', 'Rev' etc.\) it should be removed entirely.
 
 #### pre-year-element-citation-conformity
 
