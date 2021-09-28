@@ -240,13 +240,13 @@ In cases where it is not possible to determine a valid year, the authors should 
 
 **Error**: _XXXXXX element contains a doi - XXXXXX. The doi must be moved to the appropriate field, and the correct information should be included in this element \(or queried if the information is missing\)._
 
-**Action**:
+**Action**: This error will fire if a DOI is present in the title or source fields for a reference. The DOI should be moved to a DOI field and replaced with the correct title or source.
 
 #### link-in-display-test
 
 **Error**: _XXXXXX element contains a url - XXXXXX. The url must be moved to the appropriate field \(if it is a doi, then it should be captured as a doi without the 'https://doi.org/' prefix\), and the correct information should be included in this element \(or queried if the information is missing\)._
 
-**Action**: 
+**Action**: This error will fire if a URL is present in the title or source fields for a reference. The URL should be moved to a URL field or, if it is a DOI link \(e.g. https://doi.org/10.7554/eLife.27621\), to a DOI field with the prefix stripped out \(10.7554/eLife.27621 for this example\).
 
 #### err-elem-cit-gen-date-1-2
 
