@@ -178,7 +178,7 @@ In cases where it is not possible to determine a valid year, the authors should 
 
 **Warning**: _ref 'XXXXXX' has a publisher-name containing a colon - XXXXXX. Should the text preceding the colon instead be captured as publisher-loc?_
 
-**Action**: This warning indicates that a publisher name in a reference contains a colon. This may mean that a publisher location has been included in the field \(e.g. 'Springer: Berlin, Germany'\). If this is the case, the location information should be removed an add to a publisher location field instead. In cases where a publisher name itself includes a colon, this warning can be ignored.
+**Action**: This warning indicates that a publisher name in a reference contains a colon. This may mean that a publisher location has been included in the field \(e.g. 'Springer: Berlin, Germany'\). If this is the case, the location information should be removed and added to a publisher location field instead. In cases where a publisher name itself includes a colon, this warning can be ignored.
 
 #### publisher-name-inc
 
