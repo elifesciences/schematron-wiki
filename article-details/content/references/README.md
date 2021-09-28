@@ -150,12 +150,6 @@ This will be carried out during initial processing of the article files so there
 
 In cases where there are no authorship details for a reference, a collaboration of 'Anon' should be added to indicate that the references is from an anonymous author.
 
-#### err-elem-cit-gen-name-3-2
-
-**Error**: _\[err-elem-cit-gen-name-3-2\] A &lt;collab&gt; element in a reference may contain characters and &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' contains additional elements._
-
-**Action**:
-
 #### err-elem-cit-gen-name-4
 
 **Error**: _\[err-elem-cit-gen-name-4\] The &lt;suffix&gt; element in a reference may only contain one of the specified values Jnr, Snr, I, II, III, VI, V, VI, VII, VIII, IX, X. Reference 'XXXXXX' does not meet this requirement as it contains the value 'XXXXXX'._
@@ -1195,6 +1189,14 @@ To fix this, either strip out  the tags or convert them to proper formatting. In
 **Error**: _pub-id has a doi link - XXXXXX - but its pub-id-type is XXXXXX instead of doi._
 
 **Action**: This error indicates that a `<pub-id>` element contains a DOI but the attribute `pub-id-type` has not been set to 'doi'. Check the details for the indicated reference and ensure that the DOI has been entered in the correct field \(e.g. is set to 'DOI', not 'PMID'\). If this does not solve the problem, the content processor's support team will need to be asked to fix the attribute on the `<pub-id>` element.
+
+#### err-elem-cit-gen-name-3-2
+
+**Error**: _\[err-elem-cit-gen-name-3-2\] A &lt;collab&gt; element in a reference may contain characters and &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' contains additional elements._
+
+**Action**: This error indicates that a `<collab>` \(group author/collaboration\) contains elements other than `<italic>`, `<sub>`, and `<sup>`. Most likely this means there is disallowed formatting present such as bold text or hyperlinking. Update the text of the collaboration to remove all formatting that is not italic, sub- or superscript. If this does not correct the error, remove the field entirely and re-add it.
+
+If this does not clear the error, the content processor's support team will need to remove the disallowed elements from the XML.
 
 ## XML Structure <a id="xml-structure"></a>
 
