@@ -8,7 +8,7 @@ description: >-
 
 ## What is a reference list?
 
-Most eLife articles include a reference list \(otherwise known as a bibliography\) containing details for all the previous works being cited in the text. These will usually consist mostly of journal articles and books but may also cover websites, papers presented at conferences, software, data, and other published material. The number of references cited will vary considerably between different article types. Insights will typically only have 10–15 references, while research content will usually have at least three times as many. We have had many articles with over 100 references and some review articles, which survey the available literature on a subject, may reach as high as 200+ references.
+Most eLife articles include a reference list \(otherwise known as a bibliography\) containing details for all the previous works being cited in the text. These will usually consist mostly of journal articles and books but may also cover websites, papers presented at conferences, software, data, and other published material. The number of references cited will vary considerably between different article types. Insights will typically only have 10–15 references, while research content will usually have at least three times as many. We have had many articles with over 100 references and some review articles, which survey the available literature on a subject, may reach as high as 200+ references. Currently, eLife has no upper limit on the number of references authors may include.
 
 The reference list is placed at the end of the article, in the back matter. References are ordered alphabetically by the surname of the first author for each entry, then by year, and then by the surnames of the second, third, fourth etc authors as necessary. Each reference list applies to the entire article in which it appears; references cited in appendices are not treated separately from those in the main text.
 
@@ -310,7 +310,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Warning**: _'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the year of publication._
 
-**Action**: This warning will fire, at the pre-author stage if a reference does not contain a year. This is incorrect as every reference must include a date. Check that the reference details have been correctly processed from the submitted article file and if no date was provided, please query the authors:
+**Action**: This warning will fire, at the pre-author stage if a non-periodical reference does not contain a year. This is incorrect as every reference must include a date. Check that the reference details have been correctly processed from the submitted article file and if no date was provided, please query the authors:
 
 * Please provide the year for this reference.
 
@@ -318,13 +318,13 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Error**: _'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the year of publication._
 
-**Action**: This error will fire at the post-author stage if a reference does not contain a year. This is incorrect as every reference must include a date. Check that the reference details have been correctly processed from the submitted article file and whether the author was queried about this during proofing. If no date was provided, the Production team will need to follow up with the authors to determine the correct date.
+**Action**: This error will fire at the post-author stage if a non-periodical reference does not contain a year. This is incorrect as every reference must include a date. Check that the reference details have been correctly processed from the submitted article file and whether the author was queried about this during proofing. If no date was provided, the Production team will need to follow up with the authors to determine the correct date.
 
 #### pre-element-cite-string-date
 
 **Warning**: '_XXXXXX' type references must have a string-date. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the date of publication._
 
-**Action**: This warning indicates at the pre-author stage that a reference is missing a publication date \(this will fire on periodical references which use the `<string-date>` element in place of `<year>`\). Check that the reference details have been correctly processed from the provided article file and if no date \(day, month, year\) was provided, please query the authors:
+**Action**: This warning indicates at the pre-author stage that a periodical reference is missing a publication date \(this will fire on periodical references which use the `<string-date>` element in place of `<year>`\). Check that the reference details have been correctly processed from the provided article file and if no date \(day, month, year\) was provided, please query the authors:
 
 * Please provide the publication date for this reference \(day, month, year\).
 
@@ -332,7 +332,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Error**: _'XXXXXX' type references must have a string-date. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the date of publication._
 
-**Action**: This error indicates at the post-author stage that a reference is missing a publication date \(this will fire on periodical references which use the `<string-date>` element in place of `<year>`\). Check that the reference details have been correctly processed from the provided article file and whether the author was queried about this during proofing. If no date \(day, month, year\) was provided, the Production team will need to follow up with the authors to determine the correct date.
+**Action**: This error indicates at the post-author stage that a periodical reference is missing a publication date \(this will fire on periodical references which use the `<string-date>` element in place of `<year>`\). Check that the reference details have been correctly processed from the provided article file and whether the author was queried about this during proofing. If no date \(day, month, year\) was provided, the Production team will need to follow up with the authors to determine the correct date.
 
 #### link-href-conformance
 
