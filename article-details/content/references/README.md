@@ -65,7 +65,7 @@ So, for example, consider the following selection of references:
 
 As you can see, the first author provides the main ordering criterion, followed by the publication date in cases where the first surnames for separate references are the same. In cases where the first surname and date are the same, the second and then third author surnames provide the next level of ordering \(here, Keeley and Soldati are followed by Keeleym, Soldati and Smith\).
 
-Authors may submit their article using different reference styles \(e.g. numbered references\) or ordering. Their reference lists will be converted to eLife style during the creation of their proofs. Thereafter, the proofing system will order refererences following the set criteria; that is, any new or edited reference should automatically be placed at the correct point in the list.
+Authors may submit their article using different reference styles \(e.g. numbered references\) or ordering. Their reference lists will be converted to eLife style during the creation of their proofs. Thereafter, the proofing system will order references following the set criteria; that is, any new or edited reference should automatically be placed at the correct point in the list.
 
 #### References with the same citation
 
@@ -138,7 +138,7 @@ This will be carried out during initial processing of the article files so there
 
 **Warning**: _XXXXXX has a first page XXXXXX, but no last page. Is this correct? Should it be an elocation-id instead?_
 
-**Action**: This wanring indicates that a first page value has been provided for a reference but there is no corresponding last page. For book chapters and journal references, it is likely that they will consist of more than one page. However, this is not certain. Look up the details of the reference online and ascertain if there is a last page that needs to be added. If not, double check whether the first page provided is actually an elocation ID and, if so, update the reference accordingly.
+**Action**: This warning indicates that a first page value has been provided for a reference but there is no corresponding last page. For book chapters and journal references, it is likely that they will consist of more than one page. However, this is not certain. Look up the details of the reference online and ascertain if there is a last page that needs to be added. If not, double check whether the first page provided is actually an elocation ID and, if so, update the reference accordingly.
 
 #### err-elem-cit-gen-name-3-1
 
@@ -160,7 +160,7 @@ In cases where there are no authorship details for a reference, a collaboration 
 
 **Warning**: _year in reference must contain content which matches the regular expression '^\[1\]\[6-9\]\[0-9\]\[0-9\]\[a-z\]?$\|^\[2\]0\[0-2\]\[0-9\]\[a-z\]?$' - 'XXXXXX' doesn't meet this requirement. If there is no year, and this cannot be determined yourself, please query this with the authors._
 
-**Action**: This warning indicates at that pre-author stage that a year field in a reference contains text other than numbers or letters. This could mean that the authors have provided a date range \(e.g. 2002–2005\) or simply that other characters have been included by accident \(e.g. '2001a.' or '\(1999\)'\). In the latter case, any punctuation should be removed to just leave a four digit year with a letter suffic if applicable. Where a range has been provided, check the original article file to make sure the 'year' is not actually part of the title that has mis-tagged. If the authors have indeed provided a date range, correct this to use only the later date \(2005 in the above example\) as the year of publication.
+**Action**: This warning indicates at that pre-author stage that a year field in a reference contains text other than numbers or letters. This could mean that the authors have provided a date range \(e.g. 2002–2005\) or simply that other characters have been included by accident \(e.g. '2001a.' or '\(1999\)'\). In the latter case, any punctuation should be removed to just leave a four digit year with a letter suffix if applicable. Where a range has been provided, check the original article file to make sure the 'year' is not actually part of the title that has mistagged. If the authors have indeed provided a date range, correct this to use only the later date \(2005 in the above example\) as the year of publication.
 
 In cases where it is not possible to determine a valid year, the authors should be queried to provide one:
 
@@ -170,7 +170,7 @@ In cases where it is not possible to determine a valid year, the authors should 
 
 **Error**: _year in reference must contain content which matches the regular expression '^\[1\]\[6-9\]\[0-9\]\[0-9\]\[a-z\]?$\|^\[2\]0\[0-2\]\[0-9\]\[a-z\]?$' - 'XXXXXX' doesn't meet this requirement. If there is no year, and this cannot be determined yourself, please query this with the authors._
 
-**Action**: This error indicates at that post-author stage that a year field in a reference contains text other than numbers or letters. This could mean that the authors have provided a date range \(e.g. 2002–2005\) or simply that other characters have been included by accident \(e.g. '2001a.' or '\(1999\)'\). In the latter case, any punctuation should be removed to just leave a four digit year with a letter suffic if applicable. Where a range has been provided, look the reference up online to make sure the 'year' is not actually part of the title that has mis-tagged. If the authors have indeed provided a date range, correct this to use only the later date \(2005 in the above example\) as the year of publication.
+**Action**: This error indicates at that post-author stage that a year field in a reference contains text other than numbers or letters. This could mean that the authors have provided a date range \(e.g. 2002–2005\) or simply that other characters have been included by accident \(e.g. '2001a.' or '\(1999\)'\). In the latter case, any punctuation should be removed to just leave a four digit year with a letter suffix if applicable. Where a range has been provided, look the reference up online to make sure the 'year' is not actually part of the title that has mistagged. If the authors have indeed provided a date range, correct this to use only the later date \(2005 in the above example\) as the year of publication.
 
 In cases where it is not possible to determine a valid year, the authors should be queried to provide one.
 
