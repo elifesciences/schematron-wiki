@@ -138,7 +138,7 @@ This will be carried out during initial processing of the article files so there
 
 **Warning**: _XXXXXX has a first page XXXXXX, but no last page. Is this correct? Should it be an elocation-id instead?_
 
-**Action**: This warning indicates that a first page value has been provided for a reference but there is no corresponding last page. For book chapters and journal references, it is likely that they will consist of more than one page. However, this is not certain. Look up the details of the reference online and ascertain if there is a last page that needs to be added. If not, double check whether the first page provided is actually an elocation ID and, if so, update the reference accordingly.
+**Action**: This warning indicates that a first page value has been provided for a reference but there is no corresponding last page. For book chapters and journal references, it is likely that they will be more than one page in length. However, this is not universally true. Look up the details of the reference online and ascertain if there is a last page that needs to be added. If not, double check whether the first page provided is actually an elocation ID and, if so, update the reference accordingly.
 
 #### err-elem-cit-gen-name-3-1
 
