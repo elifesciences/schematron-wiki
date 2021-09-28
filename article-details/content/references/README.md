@@ -160,19 +160,25 @@ In cases where there are no authorship details for a reference, a collaboration 
 
 **Warning**: _year in reference must contain content which matches the regular expression '^\[1\]\[6-9\]\[0-9\]\[0-9\]\[a-z\]?$\|^\[2\]0\[0-2\]\[0-9\]\[a-z\]?$' - 'XXXXXX' doesn't meet this requirement. If there is no year, and this cannot be determined yourself, please query this with the authors._
 
-**Action**: This warning indicates that a year field contains text other than numbers or letters. This could mean that the authors have provided a date range \(e.g. 2002–2005\) or simply that other characters have been included by accident \(e.g. '2001a.' or '\(1999\)'\). In the latter case, any punctuation should be removed to just leave a four digit year with a letter suffic if applicable. Where a range has been provided, 
+**Action**: This warning indicates at that pre-author stage that a year field in a reference contains text other than numbers or letters. This could mean that the authors have provided a date range \(e.g. 2002–2005\) or simply that other characters have been included by accident \(e.g. '2001a.' or '\(1999\)'\). In the latter case, any punctuation should be removed to just leave a four digit year with a letter suffic if applicable. Where a range has been provided, check the original article file to make sure the 'year' is not actually part of the title that has mis-tagged. If the authors have indeed provided a date range, correct this to use only the later date \(2005 in the above example\) as the year of publication.
+
+In cases where it is not possible to determine a valid year, the authors should be queried to provide one:
+
+* Please provide the year of publication for this reference.
 
 #### final-year-element-citation-conformity
 
 **Error**: _year in reference must contain content which matches the regular expression '^\[1\]\[6-9\]\[0-9\]\[0-9\]\[a-z\]?$\|^\[2\]0\[0-2\]\[0-9\]\[a-z\]?$' - 'XXXXXX' doesn't meet this requirement. If there is no year, and this cannot be determined yourself, please query this with the authors._
 
-**Action**:
+**Action**: This error indicates at that post-author stage that a year field in a reference contains text other than numbers or letters. This could mean that the authors have provided a date range \(e.g. 2002–2005\) or simply that other characters have been included by accident \(e.g. '2001a.' or '\(1999\)'\). In the latter case, any punctuation should be removed to just leave a four digit year with a letter suffic if applicable. Where a range has been provided, look the reference up online to make sure the 'year' is not actually part of the title that has mis-tagged. If the authors have indeed provided a date range, correct this to use only the later date \(2005 in the above example\) as the year of publication.
+
+In cases where it is not possible to determine a valid year, the authors should be queried to provide one.
 
 #### publisher-name-colon
 
 **Warning**: _ref 'XXXXXX' has a publisher-name containing a colon - XXXXXX. Should the text preceding the colon instead be captured as publisher-loc?_
 
-**Action**: 
+**Action**: This warning indicates that a publisher name in a reference contains a colon. This may mean that a publisher location has been included in the field \(e.g. 'Springer: Berlin, Germany'\). If this is the case, the location information should be removed an add to a publisher location field instead. In cases where a publisher name itself includes a colon, this warning can be ignored.
 
 #### publisher-name-inc
 
