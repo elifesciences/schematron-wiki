@@ -196,31 +196,31 @@ In cases where it is not possible to determine a valid year, the authors should 
 
 **Warning**: _XXXXXX contains the text 'guardian', 'independent', 'times' or 'post' - XXXXXX - is it a newspaper reference? If so, it should be captured as a web or a periodical reference._
 
-**Action**: This warning indicates that a publisher name field in a reference may contain the name of a newspaper such as The Times, The Washington Post, The Guardian, The Indepedent, etc. If this is the case, the reference type may need to be changed to a web or periodical \(this warning will only fire on references containing a publisher name e.g. books, theses, or reports\).
+**Action**: This warning indicates that a publisher name field in a reference may contain the name of a newspaper such as The Times, The Washington Post, The Guardian, The Independent, etc. If this is the case, the reference type may need to be changed to a web or periodical \(this warning will only fire on references containing a publisher name e.g. books, theses, or reports\). If a URL is provided, a web reference would be most appropriate; if not, periodical would be suitable. It may be necessary to ask the author to provide the accessed date or full date of publication if this is not already provided.
 
 #### author-test-1
 
 **Warning**: _name in ref 'XXXXXX' contains the text 'Author'. Is this correct?_
 
-**Action**: 
+**Action**: This warning indicates that an author name in a reference contains 'Author'. Check that the indicated reference does not contain a group author captured as name rather than a collab. For example, 'The Consortium Authors' might have been input as 'Authors TC' in a name field by mistake and should be corrected to the full name in a collab field. Any fields containing boilerplate text such as 'First Author' should also be removed.
 
 #### author-test-2
 
 **Warning**: _name in ref 'XXXXXX' contans the text 'Editor'. Is this correct?_
 
-**Action**: 
+**Action**: This warning indicates that an author name in a reference contains 'Editor'. Check that the indicated reference does not contain a group author captured as name rather than a collab. For example, 'The eLife Editors' might have been input as 'Editors TE' in a name field by mistake and should be corrected to the full name in a collab field. Any fields containing boilerplate text such as 'First Editor' should also be removed.
 
 #### author-test-3
 
 **Warning**: _name in ref 'XXXXXX' contains the text 'Press'. Is this correct?_
 
-**Action**: 
+**Action**: This warning indicates that an author name in a reference contains 'Press'. Check that the phrase 'In press' has not been mistakenly captured as an author. If it has, the reference will need to be updated to include the correct in press label. Please note that this warning will fire on author names such as 'Pressley' and, indeed, the name 'Press' itself. In these cases, it can be ignored.
 
 #### all-caps-surname
 
 **Warning**: _surname in ref 'XXXXXX' is composed of only capitalised letters - XXXXXX. Should this be captured as a collab? If not, Should it be - XXXXXX?_
 
-**Action**: 
+**Action**: This warning fires if an author's surname contains only capital letters. Check whether this is actually the acroynym for a group author that should be captured as a collaboration \(`<collab>`\). Alternatively, this warning may indicate that the author's initials have been captured as the surname. If this is the case, re-enter the author's name with the initials and surname the correct way around \(Smith JT rather than JT Smith\). Where the surname is in the correct place and fully capitalised, it should be converted to the correct case \(Smith rather than SMITH\).
 
 #### surname-number-check
 
