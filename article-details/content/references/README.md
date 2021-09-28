@@ -148,7 +148,7 @@ This will be carried out during initial processing of the article files so there
 
 * Please provide the author list for this reference.
 
-In cases where there are no authorship details for a reference, a collaboration of 'Anon' should be added to indicate that the references is from an anonymous author.
+In cases where there are no authorship details for a reference, a collaboration of 'Anon' should be added to indicate that the reference is attributed to an anonymous author.
 
 #### err-elem-cit-gen-name-4
 
