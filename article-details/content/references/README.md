@@ -184,7 +184,7 @@ In cases where it is not possible to determine a valid year, the authors should 
 
 **Warning**: _ref 'XXXXXX' has a publisher-name containing the text 'Inc.' Should the fullstop be removed? XXXXXX_
 
-**Action**: 
+**Action**: eLife's style is not to follow 'Inc' with a fullstop. This warning indicates that the text 'Inc.' is present in a publisher name field; this should be corrected to 'Inc'.
 
 #### pub-name-replacement-character-presence
 
