@@ -1192,19 +1192,19 @@ If this does not clear the error, the content processor's support team will need
 
 **Error**: _ref 'XXXXXX' has an XXXXXX with XXXXXX surnames - XXXXXX - which is incorrect._
 
-**Action**: 
+**Action**: A `<name>` element should contain one and only one `<surname>` element. Delete and re-enter the name and revalidate the reference. If this does not solve the issue, the content processor's support team will need to correct the XML to remove any extra `<surname>` elements or add the appropriate tagging.
 
 #### given-names-count
 
 **Error**: _ref 'XXXXXX' has an XXXXXX with XXXXXX given-names - XXXXXX - which is incorrect._
 
-**Action**: 
+**Action**: A `<name>` element should zero or one and only one `<given-names>` element. Delete and re-enter the name and revalidate the reference. If this does not solve the issue, the content processor's support team will need to correct the XML to remove any extra `<given-name>` elements.
 
 #### given-names-count-2
 
 **Warning**: _ref 'XXXXXX' has an XXXXXX with XXXXXX given-names - XXXXXX - is this incorrect?_
 
-**Action**: 
+**Action**: A `<name>` element should zero or one and only one `<given-names>` element. Delete and re-enter the name and revalidate the reference. If this does not solve the issue, the content processor's support team will need to correct the XML to remove any extra `<given-name>` elements.
 
 ## XML Structure <a id="xml-structure"></a>
 
