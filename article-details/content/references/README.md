@@ -190,13 +190,13 @@ In cases where it is not possible to determine a valid year, the authors should 
 
 **Error**: _XXXXXX contains the replacement character '�' which is unallowed - XXXXXX_
 
-**Action**: 
+**Action**: This error will fire if a reference contains the replacement character '�', which indicates a broken character. This must be change to a valid character. Look up the reference details online or in the authors' original submission to determine what text should replace �.
 
 #### pub-name-newspaper
 
 **Warning**: _XXXXXX contains the text 'guardian', 'independent', 'times' or 'post' - XXXXXX - is it a newspaper reference? If so, it should be captured as a web or a periodical reference._
 
-**Action**: 
+**Action**: This warning indicates that a publisher name field in a reference may contain the name of a newspaper such as The Times, The Washington Post, The Guardian, The Indepedent, etc. If this is the case, the reference type may need to be changed to a web or periodical \(this warning will only fire on references containing a publisher name e.g. books, theses, or reports\).
 
 #### author-test-1
 
