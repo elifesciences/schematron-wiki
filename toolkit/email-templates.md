@@ -13,9 +13,11 @@ The following automated emails are sent by the eLife bot:
 * Related Insight Publication
 * Feature Publication
 
-They are all sent from production@elifesciences.org. Emails are sent to every author in the article. The authors emails are taken from eJP outputs \(because non-corresponding author emails are not included in the data for an article\).
+They are all sent from production@elifesciences.org. Emails are sent to every author in the article. The authors emails are taken from eJP outputs \(because non-corresponding author emails are not included in the data for a published article\).
 
 The email templates are all defined at [**https://github.com/elifesciences/elife-email-templates**](https://github.com/elifesciences/elife-email-templates), and can be edited, as necessary, so that the correct information is included.
+
+Information on what needs to be edited can be found in the README for the above repo.
 
 ### PoA emails
 
