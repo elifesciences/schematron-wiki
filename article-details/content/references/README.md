@@ -1184,7 +1184,7 @@ To fix this, either strip out  the tags or convert them to proper formatting. In
 
 **Error**: _\[err-elem-cit-gen-name-3-2\] A &lt;collab&gt; element in a reference may contain characters and &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' contains additional elements._
 
-**Action**: This error indicates that a `<collab>` \(group author/collaboration\) contains elements other than `<italic>`, `<sub>`, and `<sup>`. Most likely this means there is disallowed formatting present such as bold text or hyperlinking. Update the text of the collaboration to remove all formatting that is not italic, sub- or superscript. If this does not correct the error, remove the field entirely and re-add it.
+**Action**: This error indicates that a `<collab>` \(group author/collaboration\) contains elements other than `<italic>`, `<sub>`, and `<sup>`. Most likely this means there is disallowed formatting present such as bold text or a hyperlink. Update the text of the collaboration to remove all formatting that is not italic, sub- or superscript. This may require removing the field entirely and re-adding it.
 
 If this does not clear the error, the content processor's support team will need to remove the disallowed elements from the XML.
 
