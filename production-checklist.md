@@ -178,11 +178,11 @@ Every funder must have at least one author associated with it. Award IDs, howeve
 
 ### Data availability 
 
-The Data availability statement \(DAS\) should ideally be at least one sentence and should end in a full-stop. If there are any GitHub links in the DAS, these may need to be archived. You can find out [**here**](toolkit/archiving-code.md#check-whether-the-repo-contains-code-and-is-public) ****whether this is necessary. Generated datasets mentioned in this statement should be included in the ‘Major Datasets - Generated’ field below. 
+The Data availability statement \(DAS\) should ideally be at least one sentence and should end in a full-stop. If there are any GitHub links in the DAS, these may need to be archived. You can find out [**here**](toolkit/archiving-code.md#check-whether-the-repo-contains-code-and-is-public) ****whether this is necessary. Generated datasets mentioned in this statement should be included in the ‘Major Datasets - Generated’ field below. Sometimes data will be mentioned in the DAS but not entered in the Major Datasets - Generated table. Read more about what to do in this situation [**here**](article-details/content/data-availability.md#what-is-the-data-availability-section)**.** 
 
 ![Dataset referenced in the DAS entered into the datasets generated section](.gitbook/assets/screenshot-2021-09-10-at-16.16.44.png)
 
-All datasets provided need to be publicly available at the point of publication. The author must provide a direct URL to the dataset, not the URL for the entire database. Follow any links and check that you are able to access the dataset\(s\). You may need to query the authors to make their datasets public or to provide you with more information. Sometimes data will be mentioned in the DAS but not entered in the Major Datasets - Generated table. Read more about what to do in this situation [**here**](article-details/content/data-availability.md#what-is-the-data-availability-section)**.** 
+All datasets provided need to be publicly available at the point of publication. The author must provide a direct URL to the dataset, not the URL for the entire database. Follow any links and check that you are able to access the dataset\(s\). You may need to query the authors to make their datasets public or to provide you with more information. Read about data available on request [**here.** ](article-details/content/data-availability.md#data-available-on-request)\*\*\*\*
 
 ### Impact Statement 
 
