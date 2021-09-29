@@ -37,7 +37,13 @@ However, the following content can be de-prioritised on days in which there is a
 
 ### Emails 
 
-In addition to checking an article’s history in Notes, you must also check for any emails associated with it. Start by searching the Production inbox using the article reference number and look for the thread marked ‘Author Correspondence’. Sometimes authors may not respond to the proofing email so the title of the email thread may be non-standard or different. For instance, we need to search with the number followed by 'r' \(e.g. 70146r\), in order for certain editorial/eJP emails to be returned in the search result. 
+In addition to checking an article’s history in Notes, you must also check for any emails associated with it. 
+
+Start by searching the Production inbox using the article reference number and look for the thread marked ‘Author Correspondence’. 
+
+{% hint style="info" %}
+Sometimes authors may not respond to the proofing email so the title of the email thread may be non-standard or different. For instance, we need to search with the number followed by 'r' \(e.g. 70146r\), in order for certain editorial/eJP emails to be returned in the search result. 
+{% endhint %}
 
 If there are emails from the author, read this for actions they have asked for. If they have asked to see second proofs in their correspondence, ensure that this is added into the Notes section on Kriya. 
 
