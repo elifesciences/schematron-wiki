@@ -182,7 +182,7 @@ The Data availability statement \(DAS\) should ideally be at least one sentence 
 
 ![Dataset referenced in the DAS entered into the datasets generated section](.gitbook/assets/screenshot-2021-09-10-at-16.16.44.png)
 
-All datasets provided need to be publicly available at the point of publication. The author must provide a direct URL to the dataset, not the URL for the entire database. Follow any links and check that you are able to access the dataset\(s\). You may need to query the authors to make their datasets public or to provide you with more information. Read in more detail about checking DAS and 'Major Datasets - Generated' sections [**here**](article-details/content/data-availability.md#what-is-the-data-availability-section)**.** 
+All datasets provided need to be publicly available at the point of publication. The author must provide a direct URL to the dataset, not the URL for the entire database. Follow any links and check that you are able to access the dataset\(s\). You may need to query the authors to make their datasets public or to provide you with more information. Sometimes data will be mentioned in the DAS but not entered in the Major Datasets - Generated table. Read more about what to do in this situation [**here**](article-details/content/data-availability.md#what-is-the-data-availability-section)**.** 
 
 ### Impact Statement 
 
@@ -258,7 +258,7 @@ To do this, click on the 'Approve' tab at the top of the page. This will prompt 
 * **Send back to the Typesetter for correction:** If there are changes that need to be made that you will need the content processors to carry out. 
 * **Send back to the author for revision:** If the author has requested to see another round of proofs.
 * **Send to Continuum:** If you believe the content is now ready to be published. 
-* **Ready for Publication:** If the article is waiting for related content to be finalised \(i.e., you need to wait for this content to input the publication date\), but is ready to publish otherwise. This will keep the article in the publisher review section in Kriya until you send it to Continuum. 
+* **Ready for Publication:** If the article is waiting for related content to be finalised \(i.e., you need to wait for this other content to be ready to update the pub date\), but is ready to publish otherwise. This will keep the article in the publisher review section in Kriya until you send it to Continuum. 
 
 ![Options you are given upon clicking &apos;Approve&apos;](.gitbook/assets/screenshot-2021-09-08-at-12.21.34.png)
 
