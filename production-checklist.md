@@ -93,9 +93,15 @@ Once you have assigned an article to yourself, to enter an article, click the pe
 
 ### XML
 
-Firstly, we need to validate the XML using our [**XML Validator**](https://basex-validator.elifesciences.org/)**.** Download the XML file from the tab along the top of the page on Kriya and then drag it onto the 'Upload XML' box on the validator webpage. Then click the 'Final' button. This will highlight any errors or style issues that might need fixing in the article. Items highlighted as warnings should be checked and then addressed if necessary. Errors will need to be fixed. Clicking on the hyperlinked warning/error message will take you to its relevant entry on the production GitBook which should help you rectify the issue if action is required. 
+Firstly, we need to validate the XML using our [**XML Validator**](https://basex-validator.elifesciences.org/)**.** Download the XML file from the tab along the top of the page on Kriya and then drag it onto the 'Upload XML' box on the validator webpage. 
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-10.28.02.png)
+
+Then click the 'Final' button. This will highlight any errors or style issues that might need fixing in the article. Items highlighted as warnings should be checked and then addressed if necessary. 
+
+![Validated XML with error, info, and warning messages](.gitbook/assets/screenshot-2021-09-29-at-09.49.42.png)
+
+Errors will need to be fixed. Clicking on the hyperlinked warning/error message will take you to its relevant entry on the production GitBook which should help you rectify the issue if action is required. 
 
 You also need to click 'Validate Pub Date'. This will prompt a pop up which will notify you if any of these values are unexpected and need looking into. 
 
@@ -134,7 +140,7 @@ There should be at least one major subject area present. Ensure to consult EJP i
 
 Open the details for each author individually and conduct the following checks:
 
-* If an author has an ORCID ID, follow the link to ensure that it leads to the correct page \(e.g. one with the same name as given in the manuscript\).
+* If an author has an ORCID ID, follow the link to ensure that it leads to the correct page \(sometimes the names will differ slightly and that is okay\).
 * Check that the name is split correctly: ensure that forenames and surnames are in the correct place, and any surname prefixes such as ‘von’ are in the ‘surname’ box. Initials should go after the first name in the ‘Given name, initials’ box, not the ‘Initials:’ field - this second field is just an override for the PDF and is usually left empty.
 * If the 'Corresponding Email' box is ticked, their email address should be present. Add if not. 
 * Check that they have at least one affiliation, but do not check the affiliations themselves, this will be done at the next [**stage**](production-checklist.md#affiliations)**.**
@@ -197,6 +203,10 @@ All datasets provided need to be publicly available at the point of publication.
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-08.42.18.png)
 
+* We also have guest editors and these will often not have affiliations in Kriya. This can be queried with editorial via the \#prod-editorial channel on Slack. 
+
+![Querying editorial for the affiliation of a guest editor](.gitbook/assets/screenshot-2021-09-29-at-10.01.25%20%281%29.png)
+
 ### Queries 
 
 This is where queries from the content processors to the author and/or production \(and vice versa\) will appear. You should check the 'open queries' section to see if there is any action that needs to be taken, but you should also check the 'resolved queries' section to ensure that all of the necessary action has been taken here too. 
@@ -235,25 +245,11 @@ Find out more about article level assets in their respective pages: ****[**Figur
 
 ### References 
 
-Check that all the journal references have DOIs. If a reference does not have a DOI, it will be highlighted with a red line. The DOI or any other missing information generally be found through a Google search. 
-
-### XML
-
-Firstly, we need to validate the XML using our [**XML Validator**](https://basex-validator.elifesciences.org/)**.** Download the XML file from the tab along the top of the page on Kriya and then drag it onto the 'Upload XML' box on the validator webpage. Then click the 'Final' button. This will highlight any errors or style issues that might need fixing in the article. Items highlighted as warnings should be checked and then addressed if necessary. Errors will need to be fixed. Clicking on the hyperlinked warning/error message will take you to its relevant entry on the production GitBook which should help you rectify the issue if action is required. 
-
-![](.gitbook/assets/screenshot-2021-09-08-at-10.28.02.png)
-
-You also need to click 'Validate Pub Date'. This will prompt a pop up which will notify you if any of these values are unexpected and need looking into. 
-
-{% hint style="info" %}
-Please be aware that this will not flag POAs that have been scheduled for press \(since that information is not available anyway in any API. 
-{% endhint %}
-
-![](.gitbook/assets/screenshot-2021-09-16-at-12.31.10.png)
+The references will be checked by the Schematron when you validate the XML. One possible issue is that a reference does not have a DOI or PubMed ID. These will be highlighted with a red line. Any missing information generally be found through a Google search.
 
 ### Download PDFs
 
-Download the PDFs and scroll down them, paying particular attention to the figures and tables, ensuring that there are no rendering issues. Only do this when everything else is done, and aim to do another task while this is being done. **If you need to make any other edits following this, ensure that you regenerate the PDF so that these changes are incorporated into the final package sent to Continuum.** 
+Download the PDFs and scroll down them, paying particular attention to the figures and tables, ensuring that there are no rendering issues. Aim to do another task while this is being done, because the generation process can take up to 10 minutes for each PDF file. If you need to make any other edits following this, ensure that you regenerate the PDF so that these changes are incorporated into the final package sent to Continuum. 
 
 ### Signing off 
 
