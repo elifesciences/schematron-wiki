@@ -162,9 +162,12 @@ Sometimes affiliations need to be split up i.e., if there are two departments li
 ### Publication History 
 
 * The received, accepted, PoA \(if relevant\) and preprint dates will be pre-filled from the submission system.
-* You can check whether the article was PoD'd via the validator, see here. You do not need to check the other history dates, but there is a Schematron message if there is a preprint date and please check the preprint site to confirm the date used is correct.
 
 ![When you click on the &apos;Publication History&apos; button, this pop up is generated](.gitbook/assets/screenshot-2021-09-10-at-10.57.11.png)
+
+* You can check whether the article was PoD'd via the validator, see [**here**](production-checklist.md#xml)**.** You do not need to check the other history dates, apart from the preprint date. Copy the DOI from the box next to the one with the preprint date in it. This should take you to the preprint site. Click on the 'History' tab and compare the date to that in the proofing system. Change if wrong. 
+
+![](.gitbook/assets/screenshot-2021-09-29-at-10.53.33.png)
 
 ### Funding
 
@@ -245,7 +248,7 @@ Find out more about article level assets in their respective pages: ****[**Figur
 
 ### References 
 
-The references will be checked by the Schematron when you validate the XML. One possible issue is that a reference does not have a DOI or PubMed ID. These will be highlighted with a red line. Any missing information generally be found through a Google search.
+The references will be checked by the Schematron when you validate the XML. One possible issue is that a reference does not have a DOI or PMID. These will be highlighted with a red line. Any missing information generally be found through a Google search.
 
 ### Download PDFs
 
@@ -279,7 +282,7 @@ If the article is scheduled for press, this should be captured in the following 
 
 ## Publisher Check 
 
-This is the stage prior to content being sent to authors and it is aimed to catch and resolve issues before it's sent out to them. The majority of research content will skip this stage, that is, unless they require a higher copyediting level. If this is the case, Publisher Check will be carried out before it is sent out to an external copyeditor. Feature content, however, will always come into this stage. 
+This is the stage prior to content being sent to authors and it is aimed to catch and resolve issues before it's sent out to them. The majority of research content will skip this stage, that is, unless they require a higher copyediting level - if this is the case, the article will need to be assigned to a copyeditor. Feature content, however, will always come into this stage. 
 
 The article will come into the 'Publisher Check' section, and you will assign it to yourself as shown [**above**](production-checklist.md#assigning-articles)**.** The process for carrying out a Publisher Check is then largely similar to the process for a [**Publisher Review**](production-checklist.md#publisher-review), except that you need to use the Pre- version of the Schematron validator instead of the Final one. Pre-author checks for Feature content, also entail some **additional checks.** You can find out how to carry out pre-author checks for feature content ****[**here**](article-details/content/feature-content.md#pre-author-checks)**.** 
 
