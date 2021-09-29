@@ -224,7 +224,7 @@ This is where queries from the content processors to the author and/or productio
 
 #### Querying authors at publisher review
 
-If you have a query for the authors, the best way to contact them is via email. You must endeavour to keep all the correspondence to as few threads as possible. If a thread has not yet been started, locate the proofing email sent out to the authors and start your correspondence on that thread. \(Mention that you can send PDFs, or print screens to illustrate the issue\). 
+If you have a query for the authors, the best way to contact them is via email. You must endeavour to keep all the correspondence to as few threads as possible. If a thread has not yet been started, locate the proofing email sent out to the authors and start your correspondence on that thread. Guidance on corresponding with authors can be found [**here.** ](toolkit/interacting-with-authors.md)\*\*\*\*
 
 ### Changes 
 
@@ -271,6 +271,12 @@ To do this, click on the 'Approve' tab at the top of the page. This will prompt 
 
 ![Options you are given upon clicking &apos;Approve&apos;](.gitbook/assets/screenshot-2021-09-08-at-12.21.34.png)
 
+### Putting articles on 'Hold'
+
+If, for example, you are waiting for a query relating to this article to be answered by the authors or by editorial, you will most likely need to put the article on hold until you are able to proceed with it. To do this, locate the 'state' section under the 'document details' tab on the dashboard and change it to 'on hold'. You will be prompted to select a reason and input a comment.  
+
+![](.gitbook/assets/screenshot-2021-09-29-at-16.26.30.png)
+
 ### Updating the actions sheet 
 
 It is important that all articles in Continuum are recorded on the production actions document. Underneath your name, add your article in the following format:
@@ -294,9 +300,13 @@ The article will come into the 'Publisher Check' section, and you will assign it
 
 **\(Explain how to assign to a freelancer\).** 
 
-On completion of a Publisher Check, the content will not be sent to Continuum to be scheduled, and instead it will be sent to the typesetter \(if there are edits to be made\), to the author \(if it is ready for them to review it\), or to the 'waiting for assets' queue if it is waiting for a digest or decision letter. If a feature article is waiting for a decision letter, instead of sending it to the 'waiting for assets' queue, we put it on hold under our name. To do this, you locate the 'state' section under the 'document details' tab on the dashboard and change it to 'on hold'. You will be prompted to select a reason and input a comment. 
+On completion of a Publisher Check, the content will not be sent to Continuum to be scheduled, and instead it will either be sent 
 
-![](.gitbook/assets/screenshot-2021-09-15-at-09.34.59.png)
+* to the typesetter \(if there are edits to be made\)
+* to the author \(if it is ready for them to review it\), or 
+* to the 'waiting for assets' queue if it is waiting for a digest or decision letter. 
+
+Alternatively, if a feature article is waiting for a decision letter, instead of sending it to the 'Waiting for Assets' queue, we put it on hold under our name. See [**above**](production-checklist.md#putting-articles-on-hold) ****for how to do this. 
 
 
 
