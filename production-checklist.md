@@ -39,7 +39,7 @@ However, the following content can be de-prioritised on days in which there is a
 
 In addition to checking an article’s history in Notes, you must also check for any emails associated with it. 
 
-Start by searching the Production inbox using the article reference number and look for the thread marked ‘Author Correspondence’. 
+Start by searching the production inbox using the article reference number and look for the thread marked ‘Author Correspondence’. 
 
 {% hint style="info" %}
 Sometimes authors may not respond to the proofing email so the title of the email thread may be non-standard or different. For instance, we need to search with the number followed by 'r' \(e.g. 70146r\), in order for certain editorial/eJP emails to be returned in the search result. 
@@ -59,11 +59,11 @@ You will also want to check whether the article is marked for press. This will b
 
 Some articles will be linked to other articles, indicating that they might need to be published together. If there is one or more linked article, they will be displayed in the 'Related articles' section, under the 'Document details' and 'Info' tabs. Under 'Article type', on the 'Document details' page, you can see what kind of article it is. The colour of the label indicates its progress through the system. 
 
-* **Red** means it is not in Kriya yet, it is still within EJP and not yet exported
+* **Red** means it is not in Kriya yet - it is still within EJP and not yet exported
 * **Yellow** means that it is in progress within Kriya 
 * **Green** means it has been published
 
-Often the stage of the linked article will depend on the type of article that it is linked with. Articles linked to Advances will have been published as an Advance builds upon the research of a previously published article by the same authors. Insights, on the other hand, usually come in to production some time after the research article because they are commissioned at the time of acceptance. 
+Often the stage of the linked article will depend on the type of article that it is linked with. Articles linked to Advances will have already been published \(this is because an Advance builds upon the research of a previously published article by the same authors\). Insights, on the other hand, usually come into production some time after the research article because they are commissioned at the time of acceptance. 
 
 ![Article with two linked research articles ](.gitbook/assets/screenshot-2021-07-14-at-12.19.54.png)
 
@@ -81,11 +81,9 @@ If the article appears to be a previously submitted, earlier version, or a co-su
 
 In order to assign an article, click on the relevant article in the 'Publisher Review' column. This will prompt a pop-up, displaying the 'Document details' for that article. You then click on the pen and paper button next to 'Assignee'.
 
-This will generate a drop down menu, displaying the available users. Choose the person's name from the list.
-
 ![Document details page](.gitbook/assets/screenshot-2021-09-08-at-08.33.28.png)
 
-This will generate a drop down menu, displaying the available users. Choose your name from the list. 
+This will generate a drop down menu, displaying the available users. Choose the person's name from the list. 
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-08.30.43.png)
 
@@ -103,16 +101,14 @@ Firstly, we need to validate the XML using our [**XML Validator**](https://basex
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-10.28.02.png)
 
-Then click the 'Final' button. This will highlight any errors or style issues that might need fixing in the article. Items highlighted as warnings should be checked and then addressed if necessary. 
+Then click the 'Final' button. This will highlight any errors or style issues that might need fixing in the article. Items highlighted as warnings should be checked and then addressed if necessary. Errors will need to be fixed. Clicking on the hyperlinked warning/error message will take you to its relevant entry on the production GitBook which should help you rectify the issue if action is required. 
 
 ![Validated XML with error, info, and warning messages](.gitbook/assets/screenshot-2021-09-29-at-09.49.42.png)
 
-Errors will need to be fixed. Clicking on the hyperlinked warning/error message will take you to its relevant entry on the production GitBook which should help you rectify the issue if action is required. 
-
 You also need to click 'Validate Pub Date'. This will prompt a pop up which will notify you if any of these values are unexpected and need looking into. 
 
-* If the publication date does not match the POA already published, then ensure that the correct date is entered into the PoA-v1 field under [**Publication History.** ](production-checklist.md#publication-history)\*\*\*\*
-* If the article has not been PoA-d and you have not yet entered a VoR date, the validator will generate the following message. Ensure that a publication date is added - this will be today's date if you are going to publish the article today. 
+* If the publication date does not match that of the POA version of the article, then ensure that the correct date is entered into the PoA-v1 field under [**Publication History.** ](production-checklist.md#publication-history)\*\*\*\*
+* If the article has not been PoA-d and you have not yet entered a VoR date, the validator will generate the message below. A date will ultimately need to be added in this section \(if the article has not been POA-d\). Consult the [**Publication History**](production-checklist.md#publication-history) ****if you are unsure what would be most appropriate in this field.
 
 ![This error will generate if the article has not yet been published in any form](.gitbook/assets/screenshot-2021-09-23-at-16.47.13.png)
 
@@ -136,9 +132,11 @@ Once the XML has been validated, you can perform more general checks on the arti
 
 ### Major subject areas
 
-There should be at least one major subject area present. Ensure to consult EJP if these are missing. Click on 'Find Manuscript' on the homepage and entering the manuscript number on the following page. Then, scroll down the page to view the article's 'Major Subject Area\(s\)', and add them in using the 'Add Major Subject Area' button. 
+There should be at least one major subject area present. Ensure to consult EJP if these are missing. Click on 'Find Manuscript' on the homepage and entering the manuscript number on the following page. Then, scroll down the page to view the article's 'Major Subject Area\(s\)' to see what they should be. 
 
 ![](.gitbook/assets/screenshot-2021-09-23-at-16.20.52.png)
+
+Add any missing items in using the 'Add Major Subject Area' button. 
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-08.40.34%20%281%29.png)
 
@@ -146,7 +144,7 @@ There should be at least one major subject area present. Ensure to consult EJP i
 
 Open the details for each author individually and conduct the following checks:
 
-* If an author has an ORCID ID, follow the link to ensure that it leads to the correct page \(sometimes the names will differ slightly and that is okay\).
+* If an author has an ORCID ID, follow the link to ensure that it leads to the correct page \(sometimes the names will differ slightly - this is not an issue\). 
 * Check that the name is split correctly: ensure that forenames and surnames are in the correct place, and any surname prefixes such as ‘von’ are in the ‘surname’ box. Initials should go after the first name in the ‘Given name, initials’ box, not the ‘Initials:’ field - this second field is just an override for the PDF and is usually left empty.
 * If the 'Corresponding Email' box is ticked, their email address should be present. Add if not. 
 * Check that they have at least one affiliation, but do not check the affiliations themselves, this will be done at the next [**stage**](production-checklist.md#affiliations)**.**
@@ -171,9 +169,11 @@ Sometimes affiliations need to be split up i.e., if there are two departments li
 
 ![When you click on the &apos;Publication History&apos; button, this pop up is generated](.gitbook/assets/screenshot-2021-09-10-at-10.57.11.png)
 
-* You can check whether the article was PoD'd via the validator, see [**here**](production-checklist.md#xml)**.** You do not need to check the other history dates, apart from the preprint date. Copy the DOI from the box next to the one with the preprint date in it. This should take you to the preprint site. Click on the 'History' tab and compare the date to that in the proofing system. Change if wrong. 
+* You can check whether the article was PoA'd via the validator, see [**here**](production-checklist.md#xml)**.** You do not need to check the other history dates, apart from the preprint date. Copy the DOI from the 'Link' box to navigate to the preprint site. 
 
 ![](.gitbook/assets/screenshot-2021-09-29-at-10.53.33.png)
+
+Click on the 'History' tab and compare the date to that in the proofing system. Change if this has been entered incorrectly.
 
 ### Funding
 
@@ -191,7 +191,7 @@ The Data availability statement \(DAS\) should ideally be at least one sentence 
 
 ![Dataset referenced in the DAS entered into the datasets generated section](.gitbook/assets/screenshot-2021-09-10-at-16.16.44.png)
 
-All datasets provided need to be publicly available at the point of publication. The author must provide a direct URL to the dataset, not the URL for the entire database. Follow any links and check that you are able to access the dataset\(s\). You may need to query the authors to make their datasets public or to provide you with more information. Read about data available on request [**here.** ](article-details/content/data-availability.md#data-available-on-request)\*\*\*\*
+All datasets provided need to be publicly available at the point of publication. The author must provide a direct URL to the dataset, not the URL for the entire database. Follow any links and check that you are able to access the dataset\(s\). You may need to query the authors to make their datasets public or to provide you with more information. Sometimes data will be described as 'available on request'. Read about what to do in this situation [**here.** ](article-details/content/data-availability.md#data-available-on-request)\*\*\*\*
 
 ### Impact Statement 
 
@@ -212,7 +212,7 @@ All datasets provided need to be publicly available at the point of publication.
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-08.42.18.png)
 
-* We also have guest editors and these will often not have affiliations in Kriya. This can be queried with editorial via the \#prod-editorial channel on Slack. 
+* We also have guest editors and these will often not have affiliations in Kriya. Missing affiliations can be queried with editorial via the \#prod-editorial channel on Slack. 
 
 ![Querying editorial for the affiliation of a guest editor](.gitbook/assets/screenshot-2021-09-29-at-10.01.25%20%281%29.png)
 
