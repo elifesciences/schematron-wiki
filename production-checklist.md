@@ -224,7 +224,7 @@ This is where queries from the content processors to the author and/or productio
 
 #### Querying authors at publisher review
 
-If you have a query for the authors, the best way to contact them is via email. You must endeavour to keep all the correspondence to as few threads as possible. If a thread has not yet been started, locate the proofing email sent out to the authors and start your correspondence on that thread. Guidance on corresponding with authors can be found [**here.** ](toolkit/interacting-with-authors.md)\*\*\*\*
+If you have a query for the authors, the best way to contact them is via email. You must endeavour to keep all the correspondence to as few threads as possible. If a thread has not yet been started, locate the proofing email sent out to the authors and start your correspondence on that thread. Guidance on corresponding with authors can be found [**here.** ](toolkit/interacting-with-authors.md)You may need to put the article on 'Hold' while waiting for a response to your query. Find out how to do that ****[**here**](production-checklist.md#putting-articles-on-hold)**.** 
 
 ### Changes 
 
@@ -296,7 +296,7 @@ If the article is scheduled for press, this should be captured in the following 
 
 This is the stage prior to content being sent to authors and it is aimed to catch and resolve issues before it's sent out to them. The majority of research content will skip this stage, that is, unless they require a higher copyediting level - if this is the case, the article will need to be assigned to a copyeditor. Feature content, however, will always come into this stage. 
 
-The article will come into the 'Publisher Check' section, and you will assign it to yourself as shown [**above**](production-checklist.md#assigning-articles)**.** The process for carrying out a Publisher Check is then largely similar to the process for a [**Publisher Review**](production-checklist.md#publisher-review), except that you need to use the Pre- version of the Schematron validator instead of the Final one. Pre-author checks for Feature content, also entail some **additional checks.** You can find out how to carry out pre-author checks for feature content ****[**here**](article-details/content/feature-content.md#pre-author-checks)**.** 
+The article will come into the 'Publisher Check' section, and you will assign it to yourself as shown [**above**](production-checklist.md#assigning-articles)**.** The process for carrying out a Publisher Check is then largely similar to the process for a [**Publisher Review**](production-checklist.md#publisher-review), except that you need to use the Pre- version of the Schematron validator instead of the Final one. Pre-author checks for Feature content, also entail some additional checks. You can find out how to carry out pre-author checks for feature content ****[**here**](article-details/content/feature-content.md#pre-author-checks)**.** 
 
 **\(Explain how to assign to a freelancer\).** 
 
