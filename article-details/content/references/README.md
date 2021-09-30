@@ -342,6 +342,12 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 * Please provide the full URL for this reference \(including the http://, https:// or ftp:// prefix\).
 
+#### isbn-conformity-test
+
+**Error**: _pub-id contains an invalid ISBN - 'XXXXXX'. Should it be captured as another type of pub-id?_
+
+**Action**:
+
 #### pre-pub-id-test-1
 
 **Warning**: _@xlink:href must start with an http:// or ftp:// protocol. - XXXXXX does not. If this information is missing, please ensure to query it with the authors._
