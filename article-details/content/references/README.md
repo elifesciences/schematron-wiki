@@ -346,7 +346,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Error**: _pub-id contains an invalid ISBN - 'XXXXXX'. Should it be captured as another type of pub-id?_
 
-**Action**:
+**Action**: This error indicates that an ISBN field contains content that is not a valid ISBN. First confirm that the content is actually an ISBN rather than a DOI \(DOIs will have the form 10.7554/eLife.27621, that is, 10 followed by a fullstop, then a numeric string following by a slash, then an string of letters and numbers\). If it is, change the field type to a DOI. Otherwise, look up the reference online to confirm the correct ISBN. If one cannot be found, the invalid ISBN should simply be deleted.
 
 #### pre-pub-id-test-1
 
