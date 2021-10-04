@@ -509,13 +509,13 @@ These checks relate to the XML structure of software references. X or XXXXXX ref
 
 **Warning**: _This GitHub link - XXXXXX - is included in the text, but there is no software reference for it. Please add a software reference or, in the event that all the information is not available, query the authors for the reference details._
 
-**Action:** This warning will appear if there is a GitHub link in the article but no software reference for it. This can be ignored if the GitHub link has been saved in Software Heritage \(see [**here**](../../../toolkit/archiving-code.md#overview) ****for more about this\). If not, a software reference should be added for it, following the instructions [**here**](software-references.md#github-gitlab).
+**Action:** This warning will appear if there is a GitHub link in the article but no software reference for it. Make sure a software reference is added, following the instructions [**here**](software-references.md#github-gitlab).
 
 #### **gitlab-no-citation**
 
 **Warning**: _This GitLab link - XXXXXX - is included in the text, but there is no software reference for it. Please add a software reference or, in the event that all the information is not available, query the authors for the reference details._
 
-**Action:** This warning will appear if there is a GitLab link in the article but no software reference for it. This can be ignored if the GitLab link has been saved in Software Heritage \(see [**here**](../../../toolkit/archiving-code.md#overview) ****for more about this\). If not, a software reference should be added for it, following the instructions [**here**](software-references.md#github-gitlab).
+**Action:** This warning will appear if there is a GitLab link in the article but no software reference for it. Make sure a software reference is added, following the instructions [**here**](software-references.md#github-gitlab).
 
 ## XML Structure
 
@@ -686,4 +686,12 @@ Zenodo
 #### Changes
 
 * Added [**github-no-citation**](software-references.md#github-no-citation) and [**gitlab-no-citation**](software-references.md#gitlab-no-citation) tests
+
+### 04/10/2021
+
+#### Changes
+
+* Updated [**github-no-citation**](software-references.md#github-no-citation) and [**gitlab-no-citation**](software-references.md#gitlab-no-citation) tests
+
+### 
 
