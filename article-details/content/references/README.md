@@ -18,7 +18,7 @@ References in sub-articles \(Decision letter, Author response\) are excluded on 
 
 ![A reference list in the article PDF](../../../.gitbook/assets/screen-shot-2021-07-13-at-17.07.27.png)
 
-The style used for references — that is, the way the details are formatted and ordered — is derived from the APA style but is unique to eLife. It was developed in order to ensure that full details could be captured for a wide variety of publications. Full author lists are presented online, but where there are more than 20 authors listed, 'et al.' will be used to truncate the list in the PDF \(compare Axten et al., 2021 in the two lists shown above\). This is in order to save space; some journal articles have over 100 authors!
+The style used for references — that is, the way the details are formatted and ordered — is derived from the APA style but is unique to eLife. It was developed in order to ensure that full details could be captured for a wide variety of publications. Full author lists are presented online, but where there are more than 20 authors listed, 'et al.' will be used to truncate the list in the PDF \(compare Axten et al., 2012 in the two lists shown above\). This is in order to save space; some journal articles have over 100 authors!
 
 eLife permits references to the following kinds of publication, for which type-specific guidance has been provided on dedicated pages:
 
@@ -69,7 +69,7 @@ Authors may submit their article using different reference styles \(e.g. numbere
 
 #### References with the same citation
 
-An additional layer of ordering comes from handling references with identical citations. This refers not to to the reference details themselves but the string that is used to cite them. Consider:
+An additional layer of ordering comes from handling references with identical citations. This refers not to the reference details themselves but the string that is used to cite them. Consider:
 
 * Keeley A, Soldati D. 2004
 * Keeley A, Soldati D, Smith J, Bloggs M. 2004
@@ -104,7 +104,7 @@ Letters should be assigned on the basis of which reference is cited first in the
 
 In some instances, authors will provide multiple reference lists in their submitted article files. This will usually entail providing the reference list for an appendix separately from the reference list for the main text, perhaps because these are submitted in separate documents. In these cases, all the reference lists should be combined and any duplicate entries removed.
 
-This will be carried out during initial processing of the article files so there usually will not be nothing to check at the subsequent stages. If an appendix is missed or otherwise needs to be added in later, any references included exclusively in that section should be added to the main reference list.
+This will be carried out during initial processing of the article files so there usually will be nothing to check at the subsequent stages. If an appendix is missed or otherwise needs to be added in later, any references included exclusively in that section should be added to the main reference list.
 
 ## Schematron warnings
 
