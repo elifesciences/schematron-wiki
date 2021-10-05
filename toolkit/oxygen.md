@@ -72,7 +72,7 @@ Clicking the book symbol will open a link to the relevant section of the relevan
 
 1. Download the zip below, unzip it \(inside should be a file called `crossref.xsl`\) and place it somewhere on your local machine such as your desktop.
 
-{% file src="../.gitbook/assets/crossref.xsl \(2\).zip" caption="crossref.xsl.zip" %}
+{% file src="../.gitbook/assets/crossref.xsl \(3\).zip" %}
 
 2. Open any XML file in Oxygen.
 
