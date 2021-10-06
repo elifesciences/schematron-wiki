@@ -817,7 +817,7 @@ A display equation without a label:
 
 * Edited text of [**math-test-18**](maths.md#math-test-18) to add information about equations in abstracts. 
 
-### 12/07/2021
+### 06/10/2021
 
 #### Changes
 
