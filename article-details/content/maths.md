@@ -566,6 +566,12 @@ If the authors are referring to an equation from a different paper \(for example
 
 * Please note that we have re-labelled/removed the label from this equation as we do not permit more than one equation with the same label within the main body of the article.
 
+#### **math-broken-unicode-test**
+
+**Warning**: _Equation likely contains a broken unicode - XXXXXX._
+
+**Action**: This warning will fire at all stages for maths in the text, which contains broken unicode. Typically this is because the ampersand at the beginning of some unicode for a symbol has been escaped, for example $$&amp;lt;$$ instead of $$&lt;$$for the less than symbol. If the character looks correct in the equation editor in Kriya, then this will need to fixed by the vendors, because the XML has not been generated correctly.
+
 ### XML structure checks
 
 #### **disp-formula-test-2**
