@@ -1,5 +1,7 @@
 # RRIDs
 
+> For the [changelog](rrids.md#changelog), click here. Updated Oct 7, 2021
+
 ## What is an RRID?
 
 Research Resource Identifiers \(RRIDs\) are persistent and unique identifiers for referencing a research resource \(e.g. plasmids, antibodies, software\). Identifiers are prefixed with 'RRID:', followed by a second string that indicates the source authority that provided it \(e.g. 'AB' for the Antibody Registry, 'CVCL' for the Cellosaurus, 'MMRRC' for Mutant Mouse Regional Resource Centers, 'SCR' for the SciCrunch registry of tools\) and the unique identifier string itself. 
@@ -50,6 +52,10 @@ These checks relate to RRIDs. X or XXXXXX refers to quoted text which will chang
 **Warning**: _td element containing - 'XXXXXX' - looks like it contains an addgene number. Should this be changed to an RRID with a_ https://identifiers.org/RRID:addgene{number} link?
 
 **Action:** This warning will fire if there is text that looks like an addgene that isn't hyperlinked to an identifiers.org URL. For example if the text 'Addgene\_45215' is appearing in plain text, this should be corrected. Search for the RRID using [identifers.org](https://identifiers.org/) ****and use the resulting URL to add a hyperlink to the RRID.
+
+## changelog
+
+Oct 7, 2021 - Added new warning for addgene numbers and changed hyperlinks and references to creating hyperlinks from scicrunch to identifiers.org
 
 
 
