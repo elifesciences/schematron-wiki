@@ -61,7 +61,7 @@ As far as possible, any mentions of tools or packages that were used for analysi
 
 If the details can't be found online, please leave the following author query, deleting as appropriate the information that has already been provided:
 
-* eLife's policy is to include full software reference details in accordance with FAIR principles \([https://peerj.com/articles/cs-86/](https://peerj.com/articles/cs-86/)\). If known, please provide ****the authors, year, software name, version used, and URL \(if not provided already\) for this software so that we can add it to the reference list. Alternatively, please provide the RRID and version number for this software.
+* eLife follows the FAIR principles for software and data citation. Please provide the full details for this software \(author\(s\), year, software name, version, URL\) so that it can be added to the reference list. Alternatively, please provide the RRID and version number for this software.
 
 If the authors cannot provide this information, the text can be left as is.
 
@@ -693,5 +693,9 @@ Zenodo
 
 * Updated [**github-no-citation**](software-references.md#github-no-citation) and [**gitlab-no-citation**](software-references.md#gitlab-no-citation) tests
 
-### 
+### 07/10/2021
+
+#### Changes
+
+* Updated software information author query in the '[**When to add software references**](software-references.md#when-to-add-software-references)' section.
 
