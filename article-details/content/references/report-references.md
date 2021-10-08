@@ -25,7 +25,7 @@ The following information can be added for report references:
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Kriya field</th>
+      <th style="text-align:left">Kriya 2 field</th>
       <th style="text-align:left">Mandatory?</th>
       <th style="text-align:left">XML element</th>
       <th style="text-align:left">Example</th>
