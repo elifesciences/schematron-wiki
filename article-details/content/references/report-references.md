@@ -105,11 +105,11 @@ Because reports are not standard references, the best option is to paste the ent
 
 ### Content checks
 
-These checks relate to the content of Report references. X or XXXXXX refers to quoted text which will change depending on the article.
+These checks relate to the content of report references. X or XXXXXX refers to quoted text which will change depending on the article.
 
 ### **XML structure checks**
 
-These checks relate to the XML structure of software references. X or XXXXXX refers to quoted text which will change depending on the article. For examples of what the XML should look like, [**see below**](report-references.md#xml-examples).
+These checks relate to the XML structure of report references. X or XXXXXX refers to quoted text which will change depending on the article. For examples of what the XML should look like, [**see below**](report-references.md#xml-examples).
 
 **err-elem-cit-report-2-1**
 
