@@ -6,6 +6,36 @@ description: >-
 
 # Production checklist
 
+## Publisher Check 
+
+This is the stage prior to content being sent to authors and it is aimed to catch and resolve issues before it's sent out to them. The majority of research content will skip this stage, that is, unless they require a higher copyediting level**,** or if it is feature content, which always comes into this stage. 
+
+The article will come into the 'Publisher Check' section, and you will assign it to yourself as shown [**above**](production-checklist.md#assigning-articles)**.** The process for carrying out a Publisher Check is then largely similar to the process for a [**Publisher Review**](production-checklist.md#publisher-review), except that you need to use the Pre- version of the Schematron validator instead of the Final one. Pre-author checks for Feature content will also entail some additional checks. 
+
+### Feature content 
+
+You can find out how to carry out pre-author checks for feature content ****[**here**](article-details/content/feature-content.md#pre-author-checks)**. Add in info about queries** 
+
+### **Copyediting** 
+
+All research content is at the same copyediting level \(and the copyediting is carried out by the content processors\), unless editorial notifies production that the article requires a more rigorous copyedit. If this is the case, the article will need to be sent to one of our external copyeditors, and we will need to ask Exeter for the article to come into the publisher check stage. Following this, the first step would be to email one of the external level 3 copyeditors to enquire as to whether they have the capacity to copyedit the article. 
+
+![Email to Sharon asking if she has capacity to copyedit an article](.gitbook/assets/screenshot-2021-10-08-at-11.41.40.png)
+
+#### Assigning to a copyeditor  
+
+* Log into publisher check, and proceed to the 'Approve' button.
+* Sign to one of the copyeditors \(this will appear as once of the options\) \(add a screenshot when you next do this\). 
+* After copyediting, the article will come back into publisher check, when you will carry out a publisher check on it. 
+
+On completion of a Publisher Check, the content will not be sent to Continuum to be scheduled, and instead it will either be sent 
+
+* to the typesetter \(if there are edits to be made\)
+* to the author \(if it is ready for them to review it\), or 
+* to the 'waiting for assets' queue if it is waiting for a digest or decision letter. 
+
+Alternatively, if a feature article is waiting for a decision letter, instead of sending it to the 'Waiting for Assets' queue, we put it on hold under our name. See [**above**](production-checklist.md#putting-articles-on-hold) ****for how to do this. 
+
 ## Publisher Review 
 
 Once an author has made all the required revisions to their manuscript, it is signed off and comes back to the production team ready for its Publisher Review. This stage of the process is to check over all revisions made by the content processors and the author, and to provide a broader check on the article to make sure it is up to standard for publication – this involves validating the XML and reviewing the PDFs. 
@@ -23,6 +53,22 @@ However, the following content can be de-prioritised on days in which there is a
 
 * Press for a few weeks' time
 * Articles with related content that is not yet in production \(for example, Insights or related articles\)
+
+### Assigning articles 
+
+In order to assign an article, click on the relevant article in the 'Publisher Review' column. This will prompt a pop-up, displaying the 'Document details' for that article. You then click on the pen and paper button next to 'Assignee'.
+
+![Document details page](.gitbook/assets/screenshot-2021-09-08-at-08.33.28.png)
+
+This will generate a drop down menu, displaying the available users. Choose the person's name from the list. 
+
+![](.gitbook/assets/screenshot-2021-09-08-at-08.30.43.png)
+
+#### Entering the article 
+
+Once you have assigned an article to yourself, to enter an article, click the pen and paper button to the left of the panel. 
+
+![](.gitbook/assets/screenshot-2021-09-08-at-08.38.49.png)
 
 ### Notes 
 
@@ -47,11 +93,11 @@ Sometimes authors may not respond to the proofing email so the title of the emai
 
 If there are emails from the author, read this for actions they have asked for. If they have asked to see second proofs in their correspondence, ensure that this is added into the Notes section on Kriya. 
 
-![In this situation, it was necessary to add &apos;r&apos; onto the end of the article number  ](.gitbook/assets/screenshot-2021-09-23-at-15.45.01.png)
+![Here, it was necessary to add &apos;r&apos; onto the end of the article number to find the thread in the email inbox ](.gitbook/assets/screenshot-2021-09-23-at-15.45.01.png)
 
 ### **Press** 
 
-You will also want to check whether the article is marked for press. This will be indicated in the 'Custom' section, under the 'Document details' and 'Info' tabs. As mentioned before, if the press date is imminent, these articles should be prioritised at Publisher Review and the press date indicated should be added in the [**Publication History**](production-checklist.md#publication-history) ****section within the article. 
+You will also want to check whether the article is marked for press. This will be indicated in the 'Custom' section, under the 'Document details' and 'Info' tabs. As mentioned before, if the press date is imminent, these articles should be prioritised at Publisher Review and the press date indicated should be added in the [**Publication History**](production-checklist.md#publication-history) ****section within the article.
 
 ![Article marked for press](.gitbook/assets/screenshot-2021-07-14-at-10.55.42.png)
 
@@ -67,7 +113,7 @@ Often the stage of the linked article will depend on the type of article that it
 
 ![Article with two linked research articles ](.gitbook/assets/screenshot-2021-07-14-at-12.19.54.png)
 
-Sometimes the article that is displayed as linked is just a previously submitted, earlier version of the article. Or a co-submission that has been deleted. This can be checked by navigating to ****[**EJP**](https://submit.elifesciences.org/cgi-bin/main.plex?form_type=display_home_dt&j_id=415&ms_id_key=939ftdnExAd7Sp1L0RMdP2ZlOqdw&ft_key=hWPdklIQy6iZaZp8bgLQ&old_form_type=&from_ms_id=&from_ms_rev_no=)**,** clicking 'Find Manuscript' on the homepage and entering the manuscript number on the following page. Then, scroll down the page to view the article's 'Related Manuscripts'.
+Sometimes the article that is displayed as linked is just a previously submitted, earlier version of the article, or a co-submission that has been deleted. This can be checked by navigating to ****[**EJP**](https://submit.elifesciences.org/cgi-bin/main.plex?form_type=display_home_dt&j_id=415&ms_id_key=939ftdnExAd7Sp1L0RMdP2ZlOqdw&ft_key=hWPdklIQy6iZaZp8bgLQ&old_form_type=&from_ms_id=&from_ms_rev_no=)**,** clicking 'Find Manuscript' on the homepage and entering the manuscript number on the following page. Then, scroll down the page to view the article's 'Related Manuscripts'.
 
 ![The EJP homepage](.gitbook/assets/screenshot-2021-09-23-at-16.05.49.png)
 
@@ -77,55 +123,15 @@ If the article appears to be a previously submitted, earlier version, or a co-su
 
 ![Click the &apos;x&apos; button to remove the related article](.gitbook/assets/screenshot-2021-09-16-at-12.19.50.png)
 
-### Assigning articles 
-
-In order to assign an article, click on the relevant article in the 'Publisher Review' column. This will prompt a pop-up, displaying the 'Document details' for that article. You then click on the pen and paper button next to 'Assignee'.
-
-![Document details page](.gitbook/assets/screenshot-2021-09-08-at-08.33.28.png)
-
-This will generate a drop down menu, displaying the available users. Choose the person's name from the list. 
-
-![](.gitbook/assets/screenshot-2021-09-08-at-08.30.43.png)
-
-#### Entering the article 
-
-Once you have assigned an article to yourself, to enter an article, click the pen and paper button to the left of the panel. 
-
-![](.gitbook/assets/screenshot-2021-09-08-at-08.38.49.png)
-
 ## Article details checks 
 
-### XML
-
-Firstly, we need to validate the XML using our [**XML Validator**](https://basex-validator.elifesciences.org/)**.** Download the XML file from the tab along the top of the page on Kriya and then drag it onto the 'Upload XML' box on the validator webpage. 
-
-![](.gitbook/assets/screenshot-2021-09-08-at-10.28.02.png)
-
-Then click the 'Final' button. This will highlight any errors or style issues that might need fixing in the article. Items highlighted as warnings should be checked and then addressed if necessary. Errors will need to be fixed. Clicking on the hyperlinked warning/error message will take you to its relevant entry on the production GitBook which should help you rectify the issue if action is required. 
-
-![Validated XML with error, info, and warning messages](.gitbook/assets/screenshot-2021-09-29-at-09.49.42.png)
-
-You also need to click 'Validate Pub Date'. This will prompt a pop up which will notify you if any of these values are unexpected and need looking into. 
-
-* If the publication date does not match that of the POA version of the article, then ensure that the correct date is entered into the PoA-v1 field under [**Publication History.** ](production-checklist.md#publication-history)\*\*\*\*
-* If the article has not been PoA-d and you have not yet entered a VoR date, the validator will generate the message below. A date will ultimately need to be added in this section \(if the article has not been POA-d\). Consult the [**Publication History**](production-checklist.md#publication-history) ****if you are unsure what would be most appropriate in this field.
-
-![This error will generate if the article has not yet been published in any form](.gitbook/assets/screenshot-2021-09-23-at-16.47.13.png)
-
-{% hint style="info" %}
-Please be aware that this will not flag POAs that have been scheduled for press \(since that information is not available anyway in any API\). 
-{% endhint %}
-
-![](.gitbook/assets/screenshot-2021-09-16-at-12.31.10.png)
-
-Once the XML has been validated, you can perform more general checks on the article, as listed below. 
+**The following checks — from checking over the title, to the editors and reviewers should only take a few minutes.** 
 
 ### Title 
 
 * Check that the title makes sense.
 * Only italic formatting is allowed.
 * Check that it avoids unexplained acronyms. 
-* For latin words, the general rule is that genes, bacteria and species such as ‘S. pombe’ should be italicised, and that phrases such as ‘in vivo’ or ‘in vitro’ should not be italicised. However continuity between the title, impact statement and article content is most important, so please check that italics are consistent.
 * The capitalisation should be sentence case, but proper nouns can be capitalised. 
 
 ![Title showing tracked changes to correct capitalisation](.gitbook/assets/screenshot-2021-09-08-at-08.40.27.png)
@@ -146,7 +152,7 @@ Open the details for each author individually and conduct the following checks:
 
 * If an author has an ORCID ID, follow the link to ensure that it leads to the correct page \(sometimes the names will differ slightly - this is not an issue\). 
 * Check that the name is split correctly: ensure that forenames and surnames are in the correct place, and any surname prefixes such as ‘von’ are in the ‘surname’ box. Initials should go after the first name in the ‘Given name, initials’ box, not the ‘Initials:’ field - this second field is just an override for the PDF and is usually left empty.
-* If the 'Corresponding Email' box is ticked, their email address should be present. Add if not. 
+* If the 'Corresponding Email' box is ticked, their email address should be present. Add from EJP if not. 
 * Check that they have at least one affiliation, but do not check the affiliations themselves, this will be done at the next [**stage**](production-checklist.md#affiliations)**.**
 * If an author contributed equally with another author, in the 'Equal contributor with:' section, at least one other author name will be tagged. 
 
@@ -159,7 +165,8 @@ Open the details for each author individually and conduct the following checks:
 
 ### Affiliations 
 
-Sometimes affiliations need to be split up i.e., if there are two departments listed. A centre, within a department, within an institution, is okay. Two departments within an institution is not. Sometimes, authors belonging to two departments at the same institution will try to merge them into one affiliation, they need to be separated into two distinct affiliations. 
+* Ensure that there are no spelling errors and that the capitalisation is correct. 
+* Ensure that states and postal details aren't included. 
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-08.40.49.png)
 
@@ -169,17 +176,24 @@ Sometimes affiliations need to be split up i.e., if there are two departments li
 
 ![When you click on the &apos;Publication History&apos; button, this pop up is generated](.gitbook/assets/screenshot-2021-09-10-at-10.57.11.png)
 
-* You can check whether the article was PoA'd via the validator, see [**here**](production-checklist.md#xml)**.** You do not need to check the other history dates, apart from the preprint date. Copy the DOI from the 'Link' box to navigate to the preprint site. 
+* You can check whether the article was PoAed via the validator, see [**here**](production-checklist.md#xml)**.** You do not need to check the other history dates, apart from the preprint date. Copy the DOI from the 'Link' box to navigate to the preprint site. 
+* Click on the 'History' tab and compare the date to that in the proofing system. Change if this has been entered incorrectly.
 
 ![](.gitbook/assets/screenshot-2021-09-29-at-10.53.33.png)
 
-Click on the 'History' tab and compare the date to that in the proofing system. Change if this has been entered incorrectly.
+* If an article has not been PoAed, a VOR publication date will need to be added. If you are sure that the article will be published, add in today's date, if not, leave it blank for the date to be entered later. At this point, you will need to refer back to the dashboard to check if the article has been marked for press. If so, you will need to enter the press date. Click the 'Add New Date' button to do so and enter the relevant date. 
+
+![](.gitbook/assets/screenshot-2021-10-08-at-08.41.59.png)
 
 ### Funding
 
-All funding received by authors in the process of researching and creating the article needs to be referenced here. Ideally, we want every funder to be validated against the Crossref Funder Registry. Validated funders are indicated by a green tick. If it is not validated, try retyping the funder. If this doesn’t work, navigate to the [**Crossref Funder Registry**](https://www.crossref.org/services/funder-registry/) and check if it is on there. If you still cannot find the funder, then conduct a Google search and attempt to determine whether the funder is an accredited body or not. Sometimes the name may need correcting slightly, or may be translated into English when it is registered in the original language. 
-
-Every funder must have at least one author associated with it. Award IDs, however, are optional.
+* Every funder must have at least one author associated with it.
+* Only one grant number should be displayed per entry in the funding table. If two or more grants are present in one entry, they should be split into multiple funding entries.
+* Whenever the funding section is edited, an author query must be added so the authors can approve the change.
+* The funding statement may differ depending on the article. 
+* Ideally, each funder should be validated against the Crossref Funder Registry. Validated funders are indicated by a green tick. If it is not validated, try retyping the funder. If this doesn’t work, navigate to the [**Crossref Funder Registry**](https://www.crossref.org/services/funder-registry/) and check if it is on there. If you still cannot find the funder, then conduct a Google search and attempt to determine whether the funder is an accredited body or not. Sometimes the name may need correcting slightly, or may be translated into English when it is registered in the original language. 
+* Award IDs are optional.
+* To read more about funding, consult this [**page.** ](article-details/content/funding-information.md)\*\*\*\*
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-09.15.34.png)
 
@@ -195,19 +209,26 @@ All datasets provided need to be publicly available at the point of publication.
 
 ### Impact Statement 
 
-* Check that it ends in a full stop. 
-* Check that it is clear and concise \(30 words or less\).
-* Check that it does not simply repeat the title.
-* Check that it is written in the third person.
-* If the author was requested to provide a new impact statement during proofing, check that the new version is acceptable.
-* Read in more detail about checking Impact Statements [**here**](article-details/content/article-structure/abstract-digest-impact-statement.md#impact-statements)**.** 
+* A full stop should be added to the end if missing.
+* General spelling errors or missing spaces between words should be corrected.
+* Italics should be applied to any species names if not already present.
+* Any possessive phrases \('we show', 'this study shows' etc.\) should be removed or replaced with third-person alternatives.
+* Excepting their use in scientific terms \(e.g. ratios 1:800\), if a colon or semi-colon is present, the statement should be rephrased \(unless the article is a Replication study, in which case the statement should begin 'Editors' summary:'\).
+* Uncommon abbreviations should be spelled out per the article text.
+* Brackets are not forbidden but should be removed if not required for clarity. 
+* If the statement repeats the article title at length, it should be rephrased to avoid this.
+
+  Whenever an impact statement is edited, the author must be notified about this. 
+
+* In extreme cases, where it is not possible to create an acceptable impact statement from the text provided \(e.g. they have provided multiple sentences and it is unclear how they should be combined\), the author must be queried to start again. 
+* Read in more detail about checking Impact Statements and the appropriate queries for authors [**here**](article-details/content/article-structure/abstract-digest-impact-statement.md#impact-statements)**.** 
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-08.41.37.png)
 
 ### Editors and reviewers 
 
 * The senior and reviewing editors need to have their full name, institution and country listed.
-* Reviewers require a full name, but institution and country are optional. If a country is listed without an institution, remove the country.
+* Reviewers require a full name, but institution and country are optional. If a country is listed without an institution, remove the affiliation. 
 * For both sets of names, the same rules as for authors apply - names split properly, no full-stops after initials etc.
 
 ![](.gitbook/assets/screenshot-2021-09-08-at-08.42.18.png)
@@ -215,6 +236,29 @@ All datasets provided need to be publicly available at the point of publication.
 * We also have guest editors and these will often not have affiliations in Kriya. Missing affiliations can be queried with editorial via the \#prod-editorial channel on Slack. 
 
 ![Querying editorial for the affiliation of a guest editor](.gitbook/assets/screenshot-2021-09-29-at-10.01.25%20%281%29.png)
+
+### XML
+
+Firstly, we need to validate the XML using our [**XML Validator**](https://basex-validator.elifesciences.org/)**.** Download the XML file from the tab along the top of the page on Kriya and then drag it onto the 'Upload XML' box on the validator webpage. 
+
+![](.gitbook/assets/screenshot-2021-09-08-at-10.28.02.png)
+
+Then click the 'Final' button. This will highlight any errors or style issues that might need fixing in the article. Items highlighted as warnings should be checked and then addressed if necessary. Errors will need to be fixed. Clicking on the hyperlinked warning/error message will take you to its relevant entry on the production GitBook which should help you rectify the issue if action is required. 
+
+![Validated XML with error, info, and warning messages](.gitbook/assets/screenshot-2021-09-29-at-09.49.42.png)
+
+You also need to click 'Validate Pub Date'. This will prompt a pop up which will notify you if any of these values are unexpected and need looking into. 
+
+* If the publication date does not match that of the POA version of the article, then ensure that the correct date is entered into the PoA-v1 field under [**Publication History.** ](production-checklist.md#publication-history)\*\*\*\*
+* If the article has not been PoA-d and you have not yet entered a VoR date, the validator will generate the message below. A date will ultimately need to be added in this section \(if the article has not been POA-d\). Consult the [**Publication History**](production-checklist.md#publication-history) ****section ****if you are unsure what would be most appropriate in this field.
+
+![This error will generate if the article has not yet been published in any form](.gitbook/assets/screenshot-2021-09-23-at-16.47.13.png)
+
+{% hint style="info" %}
+Please be aware that this will not flag POAs that have been scheduled for press \(since that information is not available anywhere in any API\). 
+{% endhint %}
+
+![](.gitbook/assets/screenshot-2021-09-16-at-12.31.10.png)
 
 ### Queries 
 
@@ -232,7 +276,7 @@ Now navigate to the ‘Changes’ tab. Recorded here is every edit made by the a
 
 ![](.gitbook/assets/screenshot-2021-09-16-at-13.50.14.png)
 
-* Use the drop down menu to select the role that you would like to filter for. 
+* Use the drop down menu to select the role that you would like to filter for \(this will default to just showing just the author's changes otherwise\). 
 * You will need to filter for those made by the content processors, to ensure that no errors have been introduced. 
 * Pay attention to cases where the author has reverted or change substantial sections of the copy-editor’s changes to make sure the text still makes sense and so that we are aware of anything that needs feeding back. 
 * Author changes need to be checked one at a time and any mistakes they may have introduced \(stray letters, missing or extra spaces etc\) should be corrected. 
@@ -258,7 +302,7 @@ The references will be checked by the Schematron when you validate the XML. One 
 
 ### Download PDFs
 
-Download the PDFs and scroll down them, paying particular attention to the figures and tables, ensuring that there are no rendering issues. Aim to do another task while this is being done, because the generation process can take up to 10 minutes for each PDF file. If you need to make any other edits following this, ensure that you regenerate the PDF so that these changes are incorporated into the final package sent to Continuum. 
+Click on 'Export PDF' to generate the article PDFs \(aim to do another task at this point as the generation process can take up to 10 minutes\). Scroll through the PDFs, paying particular attention to the figures and tables, ensuring that there are no rendering issues. Then, if the article has figure supplements, you will need to do the same for the figures PDF - click on 'Export Figures PDF' to generate the figures PDF.
 
 ### Signing off 
 
@@ -292,21 +336,58 @@ If the article is scheduled for press, this should be captured in the following 
 
 ![Press article marked as scheduled on the actions sheet](.gitbook/assets/screenshot-2021-09-10-at-11.50.13.png)
 
-## Publisher Check 
+## Continuum Check
 
-This is the stage prior to content being sent to authors and it is aimed to catch and resolve issues before it's sent out to them. The majority of research content will skip this stage, that is, unless they require a higher copyediting level - if this is the case, the article will need to be assigned to a copyeditor. Feature content, however, will always come into this stage. 
+This is our final pre-publication check, which is done on our eLife's platform [**Continuum.** ](https://prod--ppp-dash.elifesciences.org/current)Once an article has been sent to Continuum from Kriya, it should arrive around 5 minutes. If it does not arrive, you will need to contact Exeter via email to ask them to investigate and push it through. If it is an article with today's date as the publication date, and you believe that Exeter might not be able to push the article through before the end of the day, you will need to ask them to change the date to the next working day. Occasionally articles will fail on Continuum due to errors. These need to be investigated \(**how**?\) 
 
-The article will come into the 'Publisher Check' section, and you will assign it to yourself as shown [**above**](production-checklist.md#assigning-articles)**.** The process for carrying out a Publisher Check is then largely similar to the process for a [**Publisher Review**](production-checklist.md#publisher-review), except that you need to use the Pre- version of the Schematron validator instead of the Final one. Pre-author checks for Feature content, also entail some additional checks. You can find out how to carry out pre-author checks for feature content ****[**here**](article-details/content/feature-content.md#pre-author-checks)**.** 
+* On the dashboard, locate the article that is ready to check using the Ctrl-F buttons. Click the preview button on the article that is ready to check - this will take you to a preview of the HTML version of the article. 
 
-**\(Explain how to assign to a freelancer\).** 
+![](.gitbook/assets/screenshot-2021-10-08-at-09.45.32.png)
 
-On completion of a Publisher Check, the content will not be sent to Continuum to be scheduled, and instead it will either be sent 
+* Download the main PDF via the dropdown ‘arrow’ icon on the right-hand side.
 
-* to the typesetter \(if there are edits to be made\)
-* to the author \(if it is ready for them to review it\), or 
-* to the 'waiting for assets' queue if it is waiting for a digest or decision letter. 
+![](.gitbook/assets/screenshot-2021-10-08-at-09.55.05.png)
 
-Alternatively, if a feature article is waiting for a decision letter, instead of sending it to the 'Waiting for Assets' queue, we put it on hold under our name. See [**above**](production-checklist.md#putting-articles-on-hold) ****for how to do this. 
+* Reduce the size of the three versions so that you can have all open at once \(this will require two screens\). 
+* Check the figures first by selecting the ‘Figures and Data’ tab on the HTML view. 
+
+![](.gitbook/assets/screenshot-2021-10-08-at-09.57.31.png)
 
 
+
+* Cross-check each figure and figure supplement across all three versions, to ensure that there are no colour shifts. If colour shifting has occurred, this article will need to be resupplied and sent back to Exeter so that they can fix it. Find out more about resupplying here. 
+
+![Article with colour shift on Continuum](.gitbook/assets/screenshot-2021-03-23-at-13.21.19.png)
+
+* Check that any Source data or supplementary files download correctly from this page.
+* Check that the dataset information is correct and that the URL links correctly. All data should be publicly available by this point. 
+* Close the figures PDF and return to the main ‘Article’ tab.
+* Scroll down the PDF, checking carefully for any errors - in particular, check:
+  * that the tables and figures are correct
+  * that there are no rendering issues
+  * the funding table matches up to the acknowledgments
+  * that all RRIDs are linked
+  * the date
+* Now close the PDF, and do the same for the HTML version.
+* When this is done, open the inbox and search the article number - make sure to also search with 'r' in front of the article number, as outlined [**above.** ](production-checklist.md#emails)\*\*\*\*
+  * Check that it has a successful Crossref report, i.e that there are no failures \(find out how to fix these here\). 
+  * Check that everything was resolved with the author\
+  * Check that there are no emails relating to Press for this article
+  * Now open Kriya and find the article.
+  * Check that all notes have been resolved
+  * Check that there are no linked articles
+  * Check that there is no press
+* If everything is satisfactory, then you can return to Continuum and publish the article. 
+
+![](.gitbook/assets/screenshot-2021-10-08-at-10.20.09.png)
+
+
+
+* Strike-through the article on the Actions sheet
+
+![](.gitbook/assets/screenshot-2021-10-08-at-10.28.08.png)
+
+### Resupplying to Kriya 
+
+If you find a problem with an article whilst doing the continuum check, it will need to be resupplied to Kriya in order to fix it. 
 
