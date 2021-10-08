@@ -12,10 +12,6 @@ This is the stage prior to content being sent to authors and it is aimed to catc
 
 The article will come into the 'Publisher Check' section, and you will assign it to yourself as shown [**above**](production-checklist.md#assigning-articles)**.** The process for carrying out a Publisher Check is then largely similar to the process for a [**Publisher Review**](production-checklist.md#publisher-review), except that you need to use the Pre- version of the Schematron validator instead of the Final one. Pre-author checks for Feature content will also entail some additional checks. 
 
-### Feature content 
-
-* **Read about some of the unique features of feature conent** [**here**](article-details/content/feature-content.md#pre-author-checks)**. Add in info about queries** 
-
 ### **Copyediting** 
 
 All research content is at the same copyediting level \(and the copyediting is carried out by the content processors\), unless editorial notifies production that the article requires a more rigorous copyedit. If this is the case, the article will need to be sent to one of our external copyeditors, and we will need to ask Exeter for the article to come into the publisher check stage. Following this, the first step would be to email one of the external level 3 copyeditors to enquire as to whether they have the capacity to copyedit the article. 
@@ -27,6 +23,14 @@ All research content is at the same copyediting level \(and the copyediting is c
 * Log into publisher check, and proceed to the 'Approve' button.
 * Sign to one of the copyeditors \(this will appear as once of the options\) \(add a screenshot when you next do this\). 
 * After copyediting, the article will come back into publisher check, when you will carry out a publisher check on it. 
+
+### Feature content 
+
+As indicated above, feature content requires some additional checks to be carried out. You can read about some of the unique features of feature content here. One of these is the in-text queries left by the Features team for the authors. These queries are entered into the file before it is submitted to eJP, so they will be present in the file there. These will be raised when the Features team want to make an edit, but want to ensure the authors are happy with it prior to publication. These are done using the format \[OK\] or \[QUERY\]. These need to be removed at publisher review. 
+
+There are two schematron checks for these - make sure they are added in. 
+
+### Signing off 
 
 On completion of a Publisher Check, the content will not be sent to Continuum to be scheduled, and instead it will either be sent 
 
@@ -389,5 +393,9 @@ This is our final pre-publication check, which is done on our eLife's platform [
 
 ### Resupplying to Kriya 
 
-If you find a problem with an article whilst doing the continuum check, it will need to be resupplied to Kriya in order to fix it. 
+If you find a problem with an article whilst doing the Continuum check, it will need to be resupplied to Kriya in order to fix it. To do this, you need to search for the article number in the search bar at the top of the dashboard in Kriya. You then can enter the article number, as shown [**above**](production-checklist.md#assigning-articles)**.** Within the article, if you click the 'Approve' button you will have the option to resupply it. 
+
+![](.gitbook/assets/screenshot-2021-10-08-at-15.33.21.png)
+
+This will then move the article to Publisher Review where you can either make the relevant changes yourself, or if this is not possible, you can send the article to the content processors.  Once the changes have been made, you will then need to send to Continuum and proceed as usual. 
 
