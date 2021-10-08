@@ -14,7 +14,7 @@ The article will come into the 'Publisher Check' section, and you will assign it
 
 ### Feature content 
 
-You can find out how to carry out pre-author checks for feature content ****[**here**](article-details/content/feature-content.md#pre-author-checks)**. Add in info about queries** 
+* **Read about some of the unique features of feature conent** [**here**](article-details/content/feature-content.md#pre-author-checks)**. Add in info about queries** 
 
 ### **Copyediting** 
 
