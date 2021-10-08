@@ -4,19 +4,23 @@ description: This is a page about entries for reports in the reference list.
 
 # Report references
 
-## What is a report?
-
-A report is any document produced by an organisation that is issued on its own rather than in a journal or as a book. It covers things like white papers, instructions from manufacturers etc.
-
 ## What is a report reference?
 
-A report reference provides the bibliographic details for a report in the reference list.
+A report reference provides the bibliographic details for a report in the reference list. A report is any document produced by an organisation that is issued on its own rather than in a journal or as a book. It covers things like white papers, instructions from manufacturers etc.
+
+## 
+
+![Report references on the eLife website](../../../.gitbook/assets/screenshot-2021-10-08-at-13.44.38.png)
+
+For eLife articles, each part of the reference is formatted specifically:
+
+![](../../../.gitbook/assets/report-example_gitbook.png)
 
 
 
 ## What needs to be added?
 
-The following information can be added for preprint references:
+The following information can be added for report references:
 
 <table>
   <thead>
@@ -38,7 +42,7 @@ The following information can be added for preprint references:
         style="text-align:left">Davies NG</td>
     </tr>
     <tr>
-      <td style="text-align:left">Collaboration(s)</td>
+      <td style="text-align:left">Collaboration Author(s)</td>
       <td style="text-align:left">At least one author or collaboration is required; both can be present</td>
       <td
       style="text-align:left">
@@ -48,7 +52,7 @@ The following information can be added for preprint references:
         <td style="text-align:left">World Healt Organization</td>
     </tr>
     <tr>
-      <td style="text-align:left">Year</td>
+      <td style="text-align:left">Issued year</td>
       <td style="text-align:left">Yes</td>
       <td style="text-align:left">&lt;year iso-8601-date=&quot;2020&quot;&gt;2020&lt;/year&gt;</td>
       <td style="text-align:left">2020</td>
@@ -63,7 +67,7 @@ The following information can be added for preprint references:
         of Surveillance (2010&#x2013;2019) Geneva</td>
     </tr>
     <tr>
-      <td style="text-align:left">Publisher name</td>
+      <td style="text-align:left">Publisher</td>
       <td style="text-align:left">Yes</td>
       <td style="text-align:left">&lt;publisher-name&gt;World Health Organization&lt;/publisher-name&gt;</td>
       <td
@@ -81,9 +85,31 @@ The following information can be added for preprint references:
   </tbody>
 </table>
 
-###  Schematron checks
+Where the optional information is available, this should also be added in. Even though a URL is optional, it is prefereable.
+
+### **How to add a report reference**
+
+From the top tool bar click on Insert and select Reference:
+
+![Kriya 2 interface to insert](../../../.gitbook/assets/screenshot-2021-10-08-at-13.57.17.png)
+
+You will be presented with the following interface:
+
+![](../../../.gitbook/assets/screenshot-2021-10-08-at-13.59.11.png)
+
+Because reports are not standard references, the best option is to paste the entire reference into the interface and select Paste entire reference. The press Next. Once this is done select the Report type and change the fields on the left to match what we require:
+
+![Kriya 2 interface to add reference](../../../.gitbook/assets/screenshot-2021-10-08-at-14.09.33.png)
+
+## Schematron checks
+
+### Content checks
 
 These checks relate to the content of Report references. X or XXXXXX refers to quoted text which will change depending on the article.
+
+### **XML structure checks**
+
+These checks relate to the XML structure of software references. X or XXXXXX refers to quoted text which will change depending on the article. For examples of what the XML should look like, [**see below**](report-references.md#xml-examples).
 
 **err-elem-cit-report-2-1**
 
