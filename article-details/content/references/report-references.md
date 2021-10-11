@@ -31,6 +31,7 @@ The following information can be added for report references:
 | Publisher               | Yes                                                                   | \<publisher-name>World Health Organization\</publisher-name>                                                                                                                              | World Health Organization                                                                                  |
 | Publisher place         | Optional                                                              | \<publisher-loc>Geneva, Switzerland\</publisher-loc>                                                                                                                                      | Geneva, Switzerland                                                                                        |
 | URL                     | Optional                                                              | <p>&#x3C;ext-link ext-link-type=“uri” xlink:href="https://www.who.int/publications/i/item/9789240012813"></p><p>https://www.who.int/publications/i/item/9789240012813&#x3C;/ext-link></p> | https://www.who.int/publications/i/item/9789240012813                                                      |
+| DOI, PMID, ISBN         | Option                                                                | \<pub-id pub-id-type="isbn">978-92-4-001281-3\</pub-id>                                                                                                                                   | 978-92-4-001281-3                                                                                          |
 
 Where the optional information is available, this should also be added in. Even though a URL is optional, it is prefereable.
 
@@ -80,11 +81,11 @@ These checks relate to the XML structure of report references. X or XXXXXX refer
 
 **Warning**: _\[warning-elem-cit-report-11-3] The content of \<publisher-name> may not end with a publisher location. Reference 'XXXXXX' contains the string XXXXXX, which ends with a publisher location._
 
-**Action**: This error will appear if a report reference has a publisher name that appears to have a geographical location at the end of it. If it does, remove the location and retag this information as \<publisher-loc>
+**Action**: This error will appear if a report reference has a publisher name that appears to have a geographical location at the end of it. If it does, remove the location and retag this information as \<publisher-loc> (Publisher place).
 
 **err-elem-cit-report-15**
 
-**Error**: _\[err-elem-cit-report-15] The only tags that are allowed as children of  with the publication-type="report" are: , , , , , , and . Reference 'XXXXXX' has other elements._
+**Error**: _\[err-elem-cit-report-15] The only tags that are allowed as children of \<element-citation>  with the publication-type="report" are: \<person-group> , \<year>, \<source>, \<publisher-loc>, \<publisher-name>, \<ext-link>, and \<pub-id>. Reference 'XXXXXX' has other elements._
 
 **Action**:
 
