@@ -29,6 +29,7 @@ The following information can be added for report references:
 | Issued year             | Yes                                                                   | \<year iso-8601-date="2020">2020\</year>                                                                                                                                                  | 2020                                                                                                       |
 | Source                  | Yes                                                                   | \<source>Report on Antimalarial Drug Efficacy, Resistance and Response: 10 Years of Surveillance (2010–2019) Geneva\</source>                                                             | Report on Antimalarial Drug Efficacy, Resistance and Response: 10 Years of Surveillance (2010–2019) Geneva |
 | Publisher               | Yes                                                                   | \<publisher-name>World Health Organization\</publisher-name>                                                                                                                              | World Health Organization                                                                                  |
+| Publisher place         | Optional                                                              | \<publisher-loc>Geneva, Switzerland\</publisher-loc>                                                                                                                                      | Geneva, Switzerland                                                                                        |
 | URL                     | Optional                                                              | <p>&#x3C;ext-link ext-link-type=“uri” xlink:href="https://www.who.int/publications/i/item/9789240012813"></p><p>https://www.who.int/publications/i/item/9789240012813&#x3C;/ext-link></p> | https://www.who.int/publications/i/item/9789240012813                                                      |
 
 Where the optional information is available, this should also be added in. Even though a URL is optional, it is prefereable.
@@ -67,19 +68,19 @@ These checks relate to the XML structure of report references. X or XXXXXX refer
 
 **Error**: **Error**: _\[err-elem-report-report-9-1] Each \<element-citation> of type 'report' must contain one and only one \<source> element. Reference 'XXXXXX' has XXXXXX  elements._
 
-**Action**: This error will appear if a report reference has more than one or no source. Check that the source has not been accidentally captured as a title. 
+**Action**: This error will appear if a report reference has more than one or no source. Check that the source has not been accidentally captured as a title or the publisher name. A source is required for report references so if it is missing raise an author query on the proof for the missing information.
 
 **err-elem-cit-report-11-1**
 
-**Error**: _\[err-elem-cit-report-11-1]  is required. Reference 'XXXXXX' has XXXXXX  elements._
+**Error**: _\[err-elem-cit-report-11-1] \<publisher-name> is required. Reference 'XXXXXX' has XXXXXX \<publisher-name> elements._
 
-**Action**:
+**Action**: This error will appear if a report reference has more than one or no publisher name. Check that the publisher name has not been accidentally captured as a title, source or author. A publisher name is required for report references so if it is missing raise an author query on the proof for the missing information.
 
 **warning-elem-cit-report-11-3**
 
-**Warning**: _\[warning-elem-cit-report-11-3] The content of  may not end with a publisher location. Reference 'XXXXXX' contains the string XXXXXX, which ends with a publisher location._
+**Warning**: _\[warning-elem-cit-report-11-3] The content of \<publisher-name> may not end with a publisher location. Reference 'XXXXXX' contains the string XXXXXX, which ends with a publisher location._
 
-**Action**:
+**Action**: This error will appear if a report reference has a publisher name that appears to have a geographical location at the end of it. If it does, remove the location and retag this information as \<publisher-loc>
 
 **err-elem-cit-report-15**
 
