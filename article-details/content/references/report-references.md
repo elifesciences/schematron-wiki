@@ -31,7 +31,7 @@ The following information can be added for report references:
 | Publisher               | Yes                                                                   | \<publisher-name>World Health Organization\</publisher-name>                                                                                                                              | World Health Organization                                                                                  |
 | Publisher place         | Optional                                                              | \<publisher-loc>Geneva, Switzerland\</publisher-loc>                                                                                                                                      | Geneva, Switzerland                                                                                        |
 | URL                     | Optional                                                              | <p>&#x3C;ext-link ext-link-type=“uri” xlink:href="https://www.who.int/publications/i/item/9789240012813"></p><p>https://www.who.int/publications/i/item/9789240012813&#x3C;/ext-link></p> | https://www.who.int/publications/i/item/9789240012813                                                      |
-| DOI, PMID, ISBN         | Option                                                                | \<pub-id pub-id-type="isbn">978-92-4-001281-3\</pub-id>                                                                                                                                   | 978-92-4-001281-3                                                                                          |
+| DOI, ISBN               | Option                                                                | \<pub-id pub-id-type="isbn">978-92-4-001281-3\</pub-id>                                                                                                                                   | 978-92-4-001281-3                                                                                          |
 
 Where the optional information is available, this should also be added in. Even though a URL is optional, it is prefereable.
 
@@ -51,10 +51,6 @@ Because reports are not standard references, the best option is to paste the ent
 
 ## Schematron checks
 
-### Content checks
-
-These checks relate to the content of report references. X or XXXXXX refers to quoted text which will change depending on the article.
-
 ### **XML structure checks**
 
 These checks relate to the XML structure of report references. X or XXXXXX refers to quoted text which will change depending on the article. For examples of what the XML should look like, [**see below**](report-references.md#xml-examples).
@@ -67,7 +63,7 @@ These checks relate to the XML structure of report references. X or XXXXXX refer
 
 **err-elem-cit-report-9-1**
 
-**Error**: **Error**: _\[err-elem-report-report-9-1] Each \<element-citation> of type 'report' must contain one and only one \<source> element. Reference 'XXXXXX' has XXXXXX  elements._
+**Error**: _\[err-elem-report-report-9-1] Each \<element-citation> of type 'report' must contain one and only one \<source> element. Reference 'XXXXXX' has XXXXXX  elements._
 
 **Action**: This error will appear if a report reference has more than one or no source. Check that the source has not been accidentally captured as a title or the publisher name. A source is required for report references so if it is missing raise an author query on the proof for the missing information.
 
@@ -87,37 +83,37 @@ These checks relate to the XML structure of report references. X or XXXXXX refer
 
 **Error**: _\[err-elem-cit-report-15] The only tags that are allowed as children of \<element-citation>  with the publication-type="report" are: \<person-group> , \<year>, \<source>, \<publisher-loc>, \<publisher-name>, \<ext-link>, and \<pub-id>. Reference 'XXXXXX' has other elements._
 
-**Action**:
+**Action**: This error will appear if a report reference has any xml elements other than the ones in the message (e.g. article title). Check the XML and remove the extra elements from the reference in Kriya.
 
 **err-elem-cit-report-14**
 
 **Error**: _Report reference cannot have both a doi and a URL. Reference 'XXXXXX' has a doi (XXXXXX) and a URL (XXXXXX)._
 
-**Action**:
+**Action**: A DOI is a persistent identifier and turns into a resolvable link, so is a preferred reference element. It is not necessary to have a URL too, so this should be removed if present when there is also a DOI.
 
 **err-elem-cit-report-2-2**
 
-**Error**: _\[err-elem-cit-report-2-2] Each  must have a @person-group-type attribute of type 'author'. Reference 'XXXXXX' has a  element with @person-group-type attribute 'XXXXXX'._
+**Error**: _\[err-elem-cit-report-2-2] Each \<person-group> must have a @person-group-type attribute of type 'author'. Reference 'XXXXXX' has a \<person-group> element with @person-group-type attribute 'XXXXXX'._
 
-**Action**:
+**Action**: If another label for this attribute is used (eg "curator") for reports it must be changed to "author". If this happens there has been an error in processing - Exeter will need to fix this.
 
 **err-elem-cit-report-9-2-2**
 
-**Error**: _\[err-elem-cit-report-9-2-2] A  element within a  of type 'report' may only contain the child elements: , , and . No other elements are allowed. Reference 'XXXXXX' has child elements that are not allowed._
+**Error**: _\[err-elem-cit-report-9-2-2] A \<source> element within a \<element-citation> of type 'report' may only contain the child elements: \<italics>, \<sub>, and \<super>. No other elements are allowed. Reference 'XXXXXX' has child elements that are not allowed._
 
-**Action**:
+**Action**: The only formatting of the source allowed is superscript, subscript or italics. If something else (eg \<bold>) has been used this will need to be removed. If you cannot change this via the interface there has been an error in processing - Exeter will need to fix this.
 
 **err-elem-cit-report-11-2**
 
-**Error**: _\[err-elem-cit-report-11-2] No elements are allowed inside . Reference 'XXXXXX' has child elements within the  element._
+**Error**: _\[err-elem-cit-report-11-2] No elements are allowed inside \<publisher-name>. Reference 'XXXXXX' has child elements within the \<publisher-name> element._
 
-**Action**:
+**Action**: This indicates an XML processing error OR that formatting has been applied to a publisher name, which is not allowed. If formatting (eg bold or italics) has been used this will need to be removed. If you cannot change this via the interface there has been an error in processing - Exeter will need to fix this.
 
 **err-elem-cit-report-12-2**
 
 **Error**: _\[err-elem-cit-report-12-2] The only allowed pub-id types are 'doi' and 'isbn'. Reference 'XXXXXX' has a pub-id type of 'XXXXXX'._
 
-**Action**:
+**Action**: This indicates a pub-id that is not an ISBN or DOI has been used or one of these has been mislabelled in the XML. Retag the field correctly to fix this error or remove the content if it is not requir
 
 ### XML examples
 
