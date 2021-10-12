@@ -25,15 +25,15 @@ The following information can be added for report references:
 | Kriya 2 field           | Mandatory?                                                            | XML element                                                                                                                                                                               | Example                                                                                                    |
 | ----------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | Author(s)               | At least one author or collaboration is required; both can be present | \<person-group person-group-type="author">\<name>\<surname>Davies\</surname> \<given-names>NG\</given-names>\</name>\</person-group>                                                      | Davies NG                                                                                                  |
-| Collaboration Author(s) | At least one author or collaboration is required; both can be present | <p>&#x3C;person-group person-group-type="author"></p><p>World Health Organization &#x3C;/person-group></p>                                                                                | World Healt Organization                                                                                   |
+| Collaboration Author(s) | At least one author or collaboration is required; both can be present | <p>&#x3C;person-group person-group-type="author"></p><p>World Health Organization &#x3C;/person-group></p>                                                                                | World Health Organization                                                                                  |
 | Issued year             | Yes                                                                   | \<year iso-8601-date="2020">2020\</year>                                                                                                                                                  | 2020                                                                                                       |
 | Source                  | Yes                                                                   | \<source>Report on Antimalarial Drug Efficacy, Resistance and Response: 10 Years of Surveillance (2010–2019) Geneva\</source>                                                             | Report on Antimalarial Drug Efficacy, Resistance and Response: 10 Years of Surveillance (2010–2019) Geneva |
 | Publisher               | Yes                                                                   | \<publisher-name>World Health Organization\</publisher-name>                                                                                                                              | World Health Organization                                                                                  |
 | Publisher place         | Optional                                                              | \<publisher-loc>Geneva, Switzerland\</publisher-loc>                                                                                                                                      | Geneva, Switzerland                                                                                        |
 | URL                     | Optional                                                              | <p>&#x3C;ext-link ext-link-type=“uri” xlink:href="https://www.who.int/publications/i/item/9789240012813"></p><p>https://www.who.int/publications/i/item/9789240012813&#x3C;/ext-link></p> | https://www.who.int/publications/i/item/9789240012813                                                      |
-| DOI, ISBN               | Option                                                                | \<pub-id pub-id-type="isbn">978-92-4-001281-3\</pub-id>                                                                                                                                   | 978-92-4-001281-3                                                                                          |
+| DOI, ISBN               | Optional                                                              | \<pub-id pub-id-type="isbn">978-92-4-001281-3\</pub-id>                                                                                                                                   | 978-92-4-001281-3                                                                                          |
 
-Where the optional information is available, this should also be added in. Even though a URL is optional, it is prefereable.
+Where the optional information is available, this should also be added in. If a DOI is available it should be added, but if not a URL should be present. A DOI is prefered over a URL link.
 
 ### **How to add a report reference**
 
@@ -45,7 +45,7 @@ You will be presented with the following interface:
 
 ![](../../../.gitbook/assets/screenshot-2021-10-08-at-13.59.11.png)
 
-Because reports are not standard references, the best option is to paste the entire reference into the interface and select 'Paste entire reference'. Then press Next. Once this is done select the Report type and change the fields on the left to match what we require:
+If a DOI is present, use this option. However, because reports are not standard references (and if they don't have a DOI), the best option is to paste the entire reference into the interface and select 'Paste entire reference'. Then press Next. Once this is done select the Report type and change the fields on the left to match what we require:
 
 ![Kriya 2 interface to add reference](../../../.gitbook/assets/screenshot-2021-10-08-at-14.09.33.png)
 
@@ -77,7 +77,7 @@ These checks relate to the XML structure of report references. X or XXXXXX refer
 
 **Warning**: _\[warning-elem-cit-report-11-3] The content of \<publisher-name> may not end with a publisher location. Reference 'XXXXXX' contains the string XXXXXX, which ends with a publisher location._
 
-**Action**: This error will appear if a report reference has a publisher name that appears to have a geographical location at the end of it. If it does, remove the location and retag this information as \<publisher-loc> (Publisher place).
+**Action**: This error will appear if a report reference has a publisher name that appears to have a geographical location at the end of it. If the location has accidentally been tagged as part of the publisher name retag this information as \<publisher-loc> (Publisher place). However, some publisher names include a location so do not update these, for example, Royal College of Physicians of London or University of Cambridge.
 
 **err-elem-cit-report-15**
 
