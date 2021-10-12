@@ -50,3 +50,22 @@ These are the footers on the page, below the content. They are built from metada
 * The DOI is formatted as a link and contains the full https:// URL
 * The right contains the page numbers, this page of however many pages there are in the PDF, eg 1 of 15, 2 of 15 etc. 
 
+### Gutters
+
+There is a gutter on the left-hand side of the PDF page. This contains metadata on the first page, but therearfter it remains but is empty. The original design concept was based on feedback from the editors who use PDFs - this was a space for annotation. Also, the original PDF design specification was to have plenty of white space to escape the legacy of cramped PDFs to reduce pagination costs for publishers. 
+
+### Article title
+
+The article title is presented in blue text under the headers on the first page
+
+![](<../.gitbook/assets/Screenshot 2021-10-12 at 10.59.29.png>)
+
+### Author details
+
+Author names are printed in bold, comma-separated, under the title. The link to their affiliations is indicated using a superscript number before the comma. The affiliations are listed directly below and the superscript number proceeds the affiliation; each affiliation is semicolon separated. Any other footnotes concerning the authors use the standardised symbols: \*, †, ‡, §, ¶ 
+
+![](<../.gitbook/assets/Screenshot 2021-10-12 at 10.58.28.png>)
+
+* The affiliation order follows the author order. For instance, if author 3 has two affiliations and one is shared with the first with author 1, this will be their first affiliation listed. 
+* Every article has corresponding author(s) so this is denoted using the \* footnote and the corresponding author details are listed as the first item in the gutter. This means the usual order of \*, †, ‡, §, ¶  for footnotes is sometimes wrong because often the corresponding author is the last author and so any other footnotes attached to the authors preceed it (for instance authors contributing equally)
+* If there are two sets of authors contributing equally, and they are distinct sets, this is indicated with two different footnotes:
