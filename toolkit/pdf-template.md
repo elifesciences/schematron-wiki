@@ -38,9 +38,15 @@ These are the footers on the page, below the content. They are built from metada
 ![](<../.gitbook/assets/Screenshot 2021-10-12 at 10.26.43.png>)
 
 * A line separates the footer from the main text of the article
-* The left contains some citations details: the authors, journal title (eLife), publication year, publication volume, elocation id and the DOI. 
+* The left contains some citations details: the authors. journal title (eLife) publication year; publication volume: elocation id. DOI:
 * The author details follow a specific format
-*
-  1.
+
+1. If there is one author just their surname is listed
+2. If there are 2 authors both their surnames are listed with an & separating the names
+3. If there are more than 3 authors the first author surname is followed by et al (italics) 
+4. Exception to point 3 - if successive authors (first 3 authors only) contribute equally to the work they are all listed in the footer (see the screenshot above - the first 2 authors contributed equally and so are both listed)
+
+* The punctuation of this line is specific, as indicated in the second bullet above
+* The DOI is formatted as a link and contains the full https:// URL
 * The right contains the page numbers, this page of however many pages there are in the PDF, eg 1 of 15, 2 of 15 etc. 
 
