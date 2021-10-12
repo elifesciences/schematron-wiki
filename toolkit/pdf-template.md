@@ -12,7 +12,7 @@ The PDF is built from the underlying XML and is one of the main outputs of the p
 
 ### Running heads
 
-These are the headers on the page, above the content. They are built from key metadata in the XML.
+These are the headers on the page, above the content. They are built from metadata in the XML.
 
 #### First page running heads
 
@@ -30,3 +30,17 @@ On the follow-on pages the headers change, but remain the same for all follow on
 
 * **Follow-on page left**: This is a standardised eLife "logo" followed by the article type, in this case 'Research article". Sentence case is used for this text
 * **Follow-on page right**: The major subject area(s) in blue colour. If there is more than one major subject area they are seperated using a pipe symbol.
+
+### Page footers
+
+These are the footers on the page, below the content. They are built from metadata in the XML. They are the same for every PDF page and do not differ on the first page.
+
+![](<../.gitbook/assets/Screenshot 2021-10-12 at 10.26.43.png>)
+
+* A line separates the footer from the main text of the article
+* The left contains some citations details: the authors, journal title (eLife), publication year, publication volume, elocation id and the DOI. 
+* The author details follow a specific format
+*
+  1.
+* The right contains the page numbers, this page of however many pages there are in the PDF, eg 1 of 15, 2 of 15 etc. 
+
