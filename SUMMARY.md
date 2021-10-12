@@ -73,6 +73,7 @@
 * [Toggl](toolkit/toggl.md)
 * [XML Glossary](toolkit/xml-glossary.md)
 * [Article content house style](toolkit/untitled-4.md)
+* [PDF template](toolkit/pdf-template.md)
 
 ## Pages in progress
 
