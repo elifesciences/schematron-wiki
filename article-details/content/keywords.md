@@ -6,7 +6,7 @@ description: Tools to aid in the discovery and representation of an article
 
 ## What are keywords?
 
-Keywords are one-word \(or two\) terms that allow articles to be searchable on the journal's website and through online search engines, such as PMC and Google Scholar. These also provide an accurate representation of what the study was about. These should not be confused with research organisms which you can read about [**below**](keywords.md#research-organisms). 
+Keywords are one-word (or two) terms that allow articles to be searchable on the journal's website and through online search engines, such as PMC and Google Scholar. These also provide an accurate representation of what the study was about. These should not be confused with research organisms which you can read about [**below**](keywords.md#research-organisms). 
 
 ## Examples of keywords
 
@@ -18,7 +18,7 @@ Here is an example of keywords for the following article:
 
 **Subject area:** Structural Biology And Molecular Biophysics
 
-**Keywords:** molecular dynamics, simulation, statistics, thermodynamics, kinetics
+**Keywords: **molecular dynamics, simulation, statistics, thermodynamics, kinetics
 
 Keywords are not visible in the PDF but are included within the XML. These are present at the bottom of the article's webpage, alongside the research category. The eLife website changes these to capitals but in the XML these should be in lowercase as shown above.
 
@@ -31,9 +31,9 @@ Keywords are decided by the authors and entered into eJP during the submission p
 Please check these are: 
 
 * In lower case only, with the exception of proper nouns
-* In italics if appropriate \(e.g. _E. coli_\)
-* For species name the Genus should be reduced to first letter and full stop \(eg _Escherichia coli_ should be _E. coli_\)
-* One-word \(or two\) terms
+* In italics if appropriate (e.g. _E. coli_)
+* For species name the Genus should be reduced to first letter and full stop (eg _Escherichia coli _should be _E. coli_)
+* One-word (or two) terms
 
 In eJP, authors are only allowed to enter a maximum of 6 separate keywords. During proofing, authors may request to add more. If these seem reasonable, this is fine to do but you may wish to run this past Editorial if you are unsure.
 
@@ -93,7 +93,7 @@ Note that those captured in italics below, should _always_ be in italics in the 
 
 **Warning**: _XXXXXX does not contain a Research Organism keyword group. Is this correct?_
 
-**Action**: This will fire if any one of the following article types does not contain a research organism keyword - Research Article, Research Advance, Replication Study, Research Communication. Even in the case where no research organisms were used in a work a keyword containing 'None' should be added. Check in eJP if one has been selected \(Exeter should check the output from eJP\). If not, then add 'None' as a keyword and add the following author query:
+**Action**: This will fire if any one of the following article types does not contain a research organism keyword - Research Article, Research Advance, Replication Study, Research Communication. Even in the case where no research organisms were used in a work a keyword containing 'None' should be added. Check in eJP if one has been selected (Exeter should check the output from eJP). If not, then add 'None' as a keyword and add the following author query:
 
 * Please confirm whether any research organisms were used for this work.
 
@@ -101,7 +101,7 @@ Note that those captured in italics below, should _always_ be in italics in the 
 
 **Error**: _kwd-group title is XXXXXX, which is wrong. It should be 'Research organism'._
 
-**Action**: The title for a keyword group containing research organisms \(`<kwd-group kwd-group-type="research-organism">`\) should be 'Research organism'. This is boilerplate text, so if this fires it means something has gone awry in Kriya and will need to be correct by Exeter or Exeter's support team.
+**Action**: The title for a keyword group containing research organisms (`<kwd-group kwd-group-type="research-organism">`) should be 'Research organism'. This is boilerplate text, so if this fires it means something has gone awry in Kriya and will need to be correct by Exeter or Exeter's support team.
 
 **kwd-upper-case**
 
@@ -119,7 +119,7 @@ Note that those captured in italics below, should _always_ be in italics in the 
 
 **Warning**: _Keyword - 'XXXXXX' - does not appear in the article text with this capitalisation. Should it be XXXXXX instead?_
 
-**Action**: This will fire if an author keyword is not entirely in lower case, and does not appear in the article with that capitalisation. This may mean that the capitalisation for that keyword is incorrect \(that it should perhaps be made entirely lower case\). Search the word\(s\) in the article to see if it is used with different capitalisation, and if it is then update the keyword accordingly. If it doesn't appear in the article, then google it to determine whether it is a proper noun \(in which case the capitalisation can be left\) or not \(in which case it should still be made entirely lower case\).
+**Action**: This will fire if an author keyword is not entirely in lower case, and does not appear in the article with that capitalisation. This may mean that the capitalisation for that keyword is incorrect (that it should perhaps be made entirely lower case). Search the word(s) in the article to see if it is used with different capitalisation, and if it is then update the keyword accordingly. If it doesn't appear in the article, then google it to determine whether it is a proper noun (in which case the capitalisation can be left) or not (in which case it should still be made entirely lower case).
 
 **auth-kwd-check-2**
 
@@ -129,15 +129,15 @@ Note that those captured in italics below, should _always_ be in italics in the 
 
 **auth-kwd-check-3**
 
-**Error**: _Keyword contains markup captured as text - XXXXXX. Please remove it and ensure that it is marked up properly \(if necessary\)._
+**Error**: _Keyword contains markup captured as text - XXXXXX. Please remove it and ensure that it is marked up properly (if necessary)._
 
 **Action**: This will fire for keywords containing markup as text such as `<italic>E. coli`. Remove the unnecessary tags and, if necessary, ensure that the keyword is in italics.
 
 **auth-kwd-check-4**
 
-**Warning**: _Keyword contains brackets - XXXXXX.  These should either simply be removed, or added as two keywords \(with the brackets still removed\)._
+**Warning**: _Keyword contains brackets - XXXXXX.  These should either simply be removed, or added as two keywords (with the brackets still removed)._
 
-**Action**: This will fire if a keyword contains any of the following characters '\(', '\)', '\[', '\]', '{', '}'. If this is a scientific term which contains brackets such as `poly(A)-tail` or `(p)ppGpp` then it can be ignored. Check the rest of the text or search the term online to determine whether it is a common scientific term which contains brackets. If this isn't the case, then any text in the brackets should be added as a separate keyword, and the brackets removed. Quite often these will be terms followed by an abbreviation. For example `electron cryo-microscopy (cryoEM)` should be changed to `electron cryo-microscopy`, `cryoEM`.
+**Action**: This will fire if a keyword contains any of the following characters '(', ')', '\[', ']', '{', '}'. If this is a scientific term which contains brackets such as `poly(A)-tail` or `(p)ppGpp` then it can be ignored. Check the rest of the text or search the term online to determine whether it is a common scientific term which contains brackets. If this isn't the case, then any text in the brackets should be added as a separate keyword, and the brackets removed. Quite often these will be terms followed by an abbreviation. For example `electron cryo-microscopy (cryoEM)` should be changed to `electron cryo-microscopy`, `cryoEM`.
 
 **auth-kwd-check-5**
 
@@ -149,7 +149,7 @@ Note that those captured in italics below, should _always_ be in italics in the 
 
 **Warning**: _Keyword contains more than 4 words - XXXXXX. Should these should be split out into separate keywords?_
 
-**Action**: This will fire for keywords containing more than 4 words in them \(it will not fire in feature content\). This indicates that the keyword contains a phrase which can be split up. Use your judgement as to whether this can be split up into multiple keywords or not.
+**Action**: This will fire for keywords containing more than 4 words in them (it will not fire in feature content). This indicates that the keyword contains a phrase which can be split up. Use your judgement as to whether this can be split up into multiple keywords or not.
 
 **auth-kwd-check-7**
 
@@ -161,7 +161,7 @@ Note that those captured in italics below, should _always_ be in italics in the 
 
 **Error**: _One author keyword group must be present in article-meta._
 
-**Action**: This will fire if more than 1 or no author keyword group element \(`<kwd-group kwd-group-type="author-keywords">`\) is present in any article which is not a correction or retraction notice. Check the article in eJP \(Exeter should check the eJP output\) to see if there are any keywords for that article. If there are, then they should be added in. If there are none, then the following author query should be added:
+**Action**: This will fire if more than 1 or no author keyword group element (`<kwd-group kwd-group-type="author-keywords">`) is present in any article which is not a correction or retraction notice. Check the article in eJP (Exeter should check the eJP output) to see if there are any keywords for that article. If there are, then they should be added in. If there are none, then the following author query should be added:
 
 * Please provide keywords for use in PMC and other downstream services.
 
@@ -169,7 +169,7 @@ Note that those captured in italics below, should _always_ be in italics in the 
 
 **Warning**: _kwd-group must contain at least one kwd_
 
-**Action**: This will fire if there is an author keyword group which contains no actual keywords. Check the article in eJP \(Exeter should check the eJP output\) to see if there are any keywords for that article. If there are, then they should be added in. If there are none, then the following author query should be added:
+**Action**: This will fire if there is an author keyword group which contains no actual keywords. Check the article in eJP (Exeter should check the eJP output) to see if there are any keywords for that article. If there are, then they should be added in. If there are none, then the following author query should be added:
 
 * Please provide keywords for use in PMC and other downstream services.
 
@@ -177,7 +177,7 @@ Note that those captured in italics below, should _always_ be in italics in the 
 
 **Warning**: _kwd-group must contain at least one kwd_
 
-**Action**: This will fire if there is an author keyword group which contains no actual keywords. Check in eJP if one has been selected \(Exeter should check the output from eJP\). If not, then add 'None' as a keyword and add the following author query:
+**Action**: This will fire if there is an author keyword group which contains no actual keywords. Check in eJP if one has been selected (Exeter should check the output from eJP). If not, then add 'None' as a keyword and add the following author query:
 
 * Please confirm whether any research organisms were used for this work.
 
@@ -219,6 +219,4 @@ Note that those captured in italics below, should _always_ be in italics in the 
 ```
 
 ## Changes
-
-
 

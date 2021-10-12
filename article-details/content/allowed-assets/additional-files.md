@@ -8,19 +8,19 @@ description: >-
 
 ## What are additional files?
 
-Besides the figures, figure supplements, tables and videos that are presented throughout an article, eLife also allows authors to include files that can be downloaded to support their findings. These can be uploaded at the level of the entire article \(in which case they sit in an 'Additional files' section at the back of the article\) or to accompany particular display assets \(that is, they will be associated with a figure, table or video\).
+Besides the figures, figure supplements, tables and videos that are presented throughout an article, eLife also allows authors to include files that can be downloaded to support their findings. These can be uploaded at the level of the entire article (in which case they sit in an 'Additional files' section at the back of the article) or to accompany particular display assets (that is, they will be associated with a figure, table or video).
 
 eLife allows the following varieties of additional file.
 
 ### Audio files
 
-At present, eLife cannot support audio-only playback online so audio files \(as distinct from videos\) should be included as additional files. These are treated in all respects like [**Supplementary files**](additional-files.md#supplementary-files), but are labelled as Audio file 1, Audio file 2, etc. Please note that because of this, audio files cannot be associated with main assets in the way that videos can be. If authors require an audio file to be associated with a main figure or table, it will need to be handled as [**asset-level source data**](additional-files.md#source-files-asset-level).
+At present, eLife cannot support audio-only playback online so audio files (as distinct from videos) should be included as additional files. These are treated in all respects like [**Supplementary files**](additional-files.md#supplementary-files), but are labelled as Audio file 1, Audio file 2, etc. Please note that because of this, audio files cannot be associated with main assets in the way that videos can be. If authors require an audio file to be associated with a main figure or table, it will need to be handled as [**asset-level source data**](additional-files.md#source-files-asset-level).
 
 They are published in the Additional files section. A descriptive title should be provided for each file and a legend may be present as well. 
 
 ![Display for audio files online](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.35.49.png)
 
-![Display for audio files in the PDF](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.38.06%20%281%29.png)
+![Display for audio files in the PDF](<../../../.gitbook/assets/screen-shot-2021-04-20-at-12.38.06 (1).png>)
 
 ### Reporting standards
 
@@ -34,15 +34,15 @@ They are labelled as Reporting standard 1, Reporting standard 2, etc. A descript
 
 ![Example of the contents of a reporting standard file](../../../.gitbook/assets/screen-shot-2021-05-11-at-15.57.13.png)
 
-### Source files \(article-level\)
+### Source files (article-level)
 
 Source data and source code may be provided to allow readers access to the raw data and any scripts that were used to process it. During submission, authors are encouraged to provide these files to aid the reviewers and, in the event of acceptance, to allow other groups to easily reproduce the work.
 
 In the event that the data is too large or extensive to be captured within one or two Excel files, it may be uploaded as a generated dataset to an external repository. In such cases, it should not be listed as a source data file but instead described in the [**Data availability section**](../data-availability.md). See [**below**](additional-files.md#additional-files-hosted-outside-the-article) for how to deal with cases where authors become confused on this point.
 
-Source code may also be uploaded to an external repository, such as GitHub, and this is often preferable to inclusion as an additional file as it permits proper licensing of the code \(see [**Archiving code**](../../../toolkit/archiving-code.md) for more on this\). Again, if source code is hosted away from the article, it should not be listed as a source code file.
+Source code may also be uploaded to an external repository, such as GitHub, and this is often preferable to inclusion as an additional file as it permits proper licensing of the code (see [**Archiving code**](../../../toolkit/archiving-code.md) for more on this). Again, if source code is hosted away from the article, it should not be listed as a source code file.
 
-Where it is included in an article, source code should be zipped or otherwise compressed so the original filenames are preserved. This is to account for dependency between multiple files \(e.g. where one script includes a call to an accompanying one, though if this is the case the authors will usually have zipped the different files together in one archive\). 
+Where it is included in an article, source code should be zipped or otherwise compressed so the original filenames are preserved. This is to account for dependency between multiple files (e.g. where one script includes a call to an accompanying one, though if this is the case the authors will usually have zipped the different files together in one archive). 
 
 These files are labelled respectively Source data 1, Source data 2, etc. and Source code 1, Source code 2, etc. Each source data and source code file should have a descriptive title and may be accompanied by a legend. They are published in the Additional files section at the back of the article.
 
@@ -54,9 +54,9 @@ These files are labelled respectively Source data 1, Source data 2, etc. and Sou
 
 ![Article-level source data file in the PDF](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.43.41.png)
 
-### Source files \(asset-level\)
+### Source files (asset-level)
 
-Figures \(and their supplements\), videos and tables may be accompanied by the source data and/or source code that was used to generate them. The source data will usually consist of tables of raw data but may also include unprocessed images, editable version of charts presented in the figure, or multiple-page documents that cannot be typeset as single figures/figure supplements. Source code will usually comprise scripts that were used to process the data or to generate the graphs shown in figures.
+Figures (and their supplements), videos and tables may be accompanied by the source data and/or source code that was used to generate them. The source data will usually consist of tables of raw data but may also include unprocessed images, editable version of charts presented in the figure, or multiple-page documents that cannot be typeset as single figures/figure supplements. Source code will usually comprise scripts that were used to process the data or to generate the graphs shown in figures.
 
 To indicate that they are associated with a display asset, these files will be named Figure 1—source data 1, Figure 2—figure supplement 1—source data 1, Table 3—source data 1, Video 4—source data 1, etc. and Figure 1—source code 1, Figure 2—figure supplement 1—source code 1, Table 3—source code 1, Video 4—source code 1, etc. The numbering restarts for each asset e.g. Figure 1—source data 1, Figure 2—source data 1, Figure 2—source data 2, Figure 3—source data 1. Like article-level source data and source code files, they should have a descriptive title and may be accompanied by a legend. They are displayed in context with the main asset to which they relate.
 
@@ -86,9 +86,9 @@ Supplementary files are published in the Additional files section and should hav
 
 ### Transparent reporting form
 
-To facilitate the interpretation and replication of experiments, authors are asked during full submission to provide information relating to sample-size estimation, replicates, and statistical reporting. They are then encouraged to fill out a template form \(available as a [**PDF**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.pdf) ****or a [**Word file**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.docx)\) describing the places within their article where this information has been included. This transparent reporting form \(TRF\) will be published alongside the final version of record.
+To facilitate the interpretation and replication of experiments, authors are asked during full submission to provide information relating to sample-size estimation, replicates, and statistical reporting. They are then encouraged to fill out a template form (available as a [**PDF**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.pdf)** **or a [**Word file**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.docx)) describing the places within their article where this information has been included. This transparent reporting form (TRF) will be published alongside the final version of record.
 
-It is important to note that while TRFs accompany most articles, they are not mandatory. If, for example, an article does not describe experiments or the analysis of data \(as might be the case in a Tools and Resources submission\), the form would not be needed.
+It is important to note that while TRFs accompany most articles, they are not mandatory. If, for example, an article does not describe experiments or the analysis of data (as might be the case in a Tools and Resources submission), the form would not be needed.
 
 TRFs do not require a title or legend and are published at the end of the Additional files section.
 
@@ -99,7 +99,7 @@ TRFs do not require a title or legend and are published at the end of the Additi
 ## What needs to be checked?
 
 * Appropriateness of the file-type
-* Relationship to asset \(where applicable\)
+* Relationship to asset (where applicable)
 * Additional files hosted outside the article
 * Inappropriate/mistaken inclusion of an additional file
 * Corrupted files
@@ -110,11 +110,11 @@ Sometimes, authors will submit files using one additional file type where it wou
 
 Occasionally, this kind of issue can affect transparent reporting forms, with authors uploading them as reporting standards instead. If no title has been provided for a reporting standard, it is worth downloading the file and comparing it to the TRF template mentioned [**above**](additional-files.md#transparent-reporting-form). If it is clearly a transparent reporting form, it should be relabelled accordingly. For comparison, an example of what a reporting standard should look like can be found in the [**corresponding section**](additional-files.md#reporting-standards) of this page.
 
-### Relationship to asset \(where applicable\)
+### Relationship to asset (where applicable)
 
-As indicated by the relevant schematron tests, asset-level source data and code should relate directly to the asset with which it is associated. That is to say, if Figure 1—source data 1 relates only to Figure 1—figure supplement 2, it should be changed to Figure 1—figure supplement 2—source data 1. Likewise, if the title for source data at the article level indicates a relationship to a figure \(e.g. "Source data 1. Original data for Figure 5"\) it should be changed to asset-level source data for that figure.
+As indicated by the relevant schematron tests, asset-level source data and code should relate directly to the asset with which it is associated. That is to say, if Figure 1—source data 1 relates only to Figure 1—figure supplement 2, it should be changed to Figure 1—figure supplement 2—source data 1. Likewise, if the title for source data at the article level indicates a relationship to a figure (e.g. "Source data 1. Original data for Figure 5") it should be changed to asset-level source data for that figure.
 
-This being said, when a source file covers multiple assets, it may be more appropriate to leave it as provided. For example, if Figure 2—source data 1 relates to both Figure 2 and Figure 2—figure supplement 1, it should remain associated directly with Figure 2. If a source code file \(at the article level\) relates to multiple figures, it is appropriate as Source code 1 since it would not be accurate to label it as source code for any one of the figures covered.
+This being said, when a source file covers multiple assets, it may be more appropriate to leave it as provided. For example, if Figure 2—source data 1 relates to both Figure 2 and Figure 2—figure supplement 1, it should remain associated directly with Figure 2. If a source code file (at the article level) relates to multiple figures, it is appropriate as Source code 1 since it would not be accurate to label it as source code for any one of the figures covered.
 
 ### Additional files hosted outside the article
 
@@ -122,17 +122,17 @@ Occasionally, authors will list titles and legends in their article file for add
 
 Since we cannot list entries for additional files without including an actual file, the titles and legends provided need to be either removed or incorporated into the text wherever is appropriate. The dataset can be added to the main reference list and cited in the context of the related asset. The details from the orphaned legend can then be added to that asset's own legend. For one example, see article [**10.7554/eLife.54350**](https://doi.org/10.7554/eLife.54350).
 
-![Originally supplied legend for Figure 1&#x2014;source data 1, with files hosted on Dryad](../../../.gitbook/assets/screen-shot-2021-04-27-at-13.01.50.png)
+![Originally supplied legend for Figure 1—source data 1, with files hosted on Dryad](../../../.gitbook/assets/screen-shot-2021-04-27-at-13.01.50.png)
 
 ![Legend for Figure 1, revised for publication to incorporate the source data legend with a citation](../../../.gitbook/assets/screen-shot-2021-04-27-at-13.02.01.png)
 
 ### Inappropriate/mistaken inclusion of an additional file
 
-Another issue that can occur during submission is that authors include additional files that should have been either a 'Related Manuscript File' \(file uploaded for peer review that is not required for final publication\) or a 'LaTex Support File' \(a supporting file for a LaTex submission e.g. a .sty style file or a .bib bibliography file\). Examples of this would include a marked-up PDF of the article showing tracked changes for reviewers, a copy of the article provided for the publication on acceptance, or a .bib file providing the article's reference list. It is usually clear when this is the case as no title or legend will have been provided for the additional file and its author-provided file name will indicate its purpose as one of the given examples. In these situations, the additional file should be removed from the proof.
+Another issue that can occur during submission is that authors include additional files that should have been either a 'Related Manuscript File' (file uploaded for peer review that is not required for final publication) or a 'LaTex Support File' (a supporting file for a LaTex submission e.g. a .sty style file or a .bib bibliography file). Examples of this would include a marked-up PDF of the article showing tracked changes for reviewers, a copy of the article provided for the publication on acceptance, or a .bib file providing the article's reference list. It is usually clear when this is the case as no title or legend will have been provided for the additional file and its author-provided file name will indicate its purpose as one of the given examples. In these situations, the additional file should be removed from the proof.
 
 Where it is unclear whether the file is required for final publication, the author should be asked to double check that it is needed and provide a title where appropriate.
 
-Occasionally, authors will provide a LaTex \(.tex\) file as an additional file \(most likely as a supplementary file\), under the assumption that we will typeset this document for them. Unfortunately this is not part of our processes, so when this happens they must be asked to provide a PDF version of the file for publication.
+Occasionally, authors will provide a LaTex (.tex) file as an additional file (most likely as a supplementary file), under the assumption that we will typeset this document for them. Unfortunately this is not part of our processes, so when this happens they must be asked to provide a PDF version of the file for publication.
 
 * We noticed that you have provided a .tex file as an additional file. Please could you provide a typeset PDF version of this file that we can use for final publication?
 
@@ -144,9 +144,9 @@ The production team should take care to check the submission system prior to con
 
 It should be confirmed as far as possible that all additional files are intact/valid documents. This should be done by downloading the file and seeing if there are any issues when it is opened in the appropriate program. ZIP packages should also be expanded to make sure they are complete. If a file is corrupted, check the submission system to see if this is true of the original and either replace the document with the uncorrupted version or go to the authors to request one.
 
-This should be checked after the article is loaded to the journal website. In the event that it appears the creation of the final package is responsible for the corruption of a file \(that is, the file is fine in the proofing system and in the original submission\), the production vendor should be asked to resolve the issue.
+This should be checked after the article is loaded to the journal website. In the event that it appears the creation of the final package is responsible for the corruption of a file (that is, the file is fine in the proofing system and in the original submission), the production vendor should be asked to resolve the issue.
 
-Please note there will be some additional files we cannot check as they are intended for use with propitiatory software we do not have access to. In these cases, there is unfortunately little we can do beyond making sure the files do not have an arbitrarily low size \(e.g. in the range of bytes rather than at least kilobytes\). If this is case, it is possible the file has been corrupted and it should be compared to the originally submitted version.
+Please note there will be some additional files we cannot check as they are intended for use with propitiatory software we do not have access to. In these cases, there is unfortunately little we can do beyond making sure the files do not have an arbitrarily low size (e.g. in the range of bytes rather than at least kilobytes). If this is case, it is possible the file has been corrupted and it should be compared to the originally submitted version.
 
 ## Schematron checks
 
@@ -154,13 +154,13 @@ Please note there will be some additional files we cannot check as they are inte
 
 #### supplementary-material-test-2
 
-**Warning**: _XXXXXX is missing a title/caption - is this correct? \(supplementary-material should have a child caption.\)_
+**Warning**: _XXXXXX is missing a title/caption - is this correct? (supplementary-material should have a child caption.)_
 
 **Action**: This warning indicates an additional file does not have a title or legend. The author should be queried to provide one if possible.
 
-* Please provide a single-sentence title \(and legend, if appropriate\) describing the contents of this file.
+* Please provide a single-sentence title (and legend, if appropriate) describing the contents of this file.
 
-If this is at the post-author stage, check whether the author was previously queried about this. If they provided a title, add this in. If not, please contact them and reiterate the request. Note that in the case of asset-level source data, it is acceptable to proceed without a title if this is the author's preference as the label \(e.g. Figure 1—source data 1\) is largely descriptive of what the file contains.
+If this is at the post-author stage, check whether the author was previously queried about this. If they provided a title, add this in. If not, please contact them and reiterate the request. Note that in the case of asset-level source data, it is acceptable to proceed without a title if this is the author's preference as the label (e.g. Figure 1—source data 1) is largely descriptive of what the file contains.
 
 #### pre-supplementary-material-test-3
 
@@ -168,17 +168,17 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Action**:  This warning indicates, at the pre-author stage, that an additional file does not have a title or legend. The author should be queried to provide one:
 
-* Please provide a single-sentence title \(and legend, if appropriate\) describing the contents of this file.
+* Please provide a single-sentence title (and legend, if appropriate) describing the contents of this file.
 
 #### final-supplementary-material-test-3
 
 **Warning**: _XXXXXX doesn't have a title. Is this correct?_
 
-**Action**: This warning indicates, at the post-author stage, that an additional file does not have a title or legend. Check whether the author was previously queried about this. If they provided a title, add this in. If not, please contact them and reiterate the request. Note that in the case of asset-level source data, it is acceptable to proceed without a title if this is the author's preference as the label \(e.g. Figure 1—source data 1\) is largely descriptive of what the file contains.
+**Action**: This warning indicates, at the post-author stage, that an additional file does not have a title or legend. Check whether the author was previously queried about this. If they provided a title, add this in. If not, please contact them and reiterate the request. Note that in the case of asset-level source data, it is acceptable to proceed without a title if this is the author's preference as the label (e.g. Figure 1—source data 1) is largely descriptive of what the file contains.
 
 #### pre-supplementary-material-test-5
 
-**Warning**: _XXXXXX is missing a file \(supplementary-material missing a media element\) - please ensure that this is queried with the author._
+**Warning**: _XXXXXX is missing a file (supplementary-material missing a media element) - please ensure that this is queried with the author._
 
 **Action**: This warning indicates at the pre-author stage that no file is present for an additional file entry. The author should be queried to provide the missing document, using whichever of the following queries is appropriate.
 
@@ -189,7 +189,7 @@ If this is at the post-author stage, check whether the author was previously que
 
 #### final-supplementary-material-test-5
 
-**Error**: _XXXXXX is missing a file \(supplementary-material must have a media\)._
+**Error**: _XXXXXX is missing a file (supplementary-material must have a media)._
 
 **Action**: This error indicates no file present for an additional file entry at the post-author stage. Check to see if the file was provided by email or in the notes in the proofing system and, if so, upload it. If no file was provided, query the authors via email.
 
@@ -197,7 +197,7 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Warning**: _Article contains XXXXXX Please check with eLife - is this actually a reporting standard?_
 
-**Action**: This warning indicates that an additional file is present with the label 'Reporting standard'. Please check that the indicated file is in fact a reporting standard and not a transparent reporting form \(see [**above**](additional-files.md#appropriateness-of-the-file-type)\).
+**Action**: This warning indicates that an additional file is present with the label 'Reporting standard'. Please check that the indicated file is in fact a reporting standard and not a transparent reporting form (see [**above**](additional-files.md#appropriateness-of-the-file-type)).
 
 #### source-code-test-1
 
@@ -217,29 +217,29 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Warning**: _Source code files should always be zipped. The file type for XXXXXX is 'XXXXXX'. Please zip this file, and replace it with the zipped version._
 
-**Action**: In order to preserve the original filename for source code, it should be zipped where it is not already compressed into an archive format \(e.g. .zip, .rar, .tar.gz etc.\).
+**Action**: In order to preserve the original filename for source code, it should be zipped where it is not already compressed into an archive format (e.g. .zip, .rar, .tar.gz etc.).
 
 #### fig-data-test-1
 
 **Warning**: _XXXXXX is figure level source data, but contains 1 figure citation which is a link to a figure supplement - should it be figure supplement level source data?_
 
-**Action**: This warning indicates the description for a source data file associated with a main figure contains a citation to a figure supplement. In cases where the source data title or legend mentions both the main figure and one or more figure supplements \(e.g. "Source data for Figure 3A and Figure 3—figure supplement 1"\) this warning can be ignored. In cases where only a figure supplement is mentioned \(e.g. "Source data for Figure 4—figure supplement 1D"\) the source data should be moved so that it is associated with the cited figure supplement.
+**Action**: This warning indicates the description for a source data file associated with a main figure contains a citation to a figure supplement. In cases where the source data title or legend mentions both the main figure and one or more figure supplements (e.g. "Source data for Figure 3A and Figure 3—figure supplement 1") this warning can be ignored. In cases where only a figure supplement is mentioned (e.g. "Source data for Figure 4—figure supplement 1D") the source data should be moved so that it is associated with the cited figure supplement.
 
-In cases where the source data title or legend mentions multiple figure supplements \(e.g. Source data for Figure 1–figure supplements 1–4"\) it is appropriate to leave it associated with the main figure \(Figure 1 in this example\) since it wouldn't be correct to associate it with any single figure supplement.
+In cases where the source data title or legend mentions multiple figure supplements (e.g. Source data for Figure 1–figure supplements 1–4") it is appropriate to leave it associated with the main figure (Figure 1 in this example) since it wouldn't be correct to associate it with any single figure supplement.
 
 #### fig-code-test-1
 
 **Warning**: _XXXXXX is figure level source code, but contains 1 figure citation which is a link to a figure supplement - should it be figure supplement level source code?_
 
-**Action**: This warning indicates the description for a source code file associated with a main figure contains a citation to a figure supplement. In cases where the source code title or legend mentions both the main figure and one or more figure supplements \(e.g. "Source code for Figure 3A and Figure 3—figure supplement 1"\) this warning can be ignored. In cases where only a figure supplement is mentioned \(e.g. "Source code for Figure 4—figure supplement 1D"\) the source code should be moved so that it is associated with the cited figure supplement.
+**Action**: This warning indicates the description for a source code file associated with a main figure contains a citation to a figure supplement. In cases where the source code title or legend mentions both the main figure and one or more figure supplements (e.g. "Source code for Figure 3A and Figure 3—figure supplement 1") this warning can be ignored. In cases where only a figure supplement is mentioned (e.g. "Source code for Figure 4—figure supplement 1D") the source code should be moved so that it is associated with the cited figure supplement.
 
-In cases where the source code title or legend mentions multiple figure supplements \(e.g. Source code for Figure 1–figure supplements 1–4"\) it is appropriate to leave it associated with the main figure \(Figure 1 in this example\) since it wouldn't be correct to associate it with any single figure supplement.
+In cases where the source code title or legend mentions multiple figure supplements (e.g. Source code for Figure 1–figure supplements 1–4") it is appropriate to leave it associated with the main figure (Figure 1 in this example) since it wouldn't be correct to associate it with any single figure supplement.
 
 #### supplementary-material-title-test-1
 
-**Warning**: _'XXXXXX' appears to have a title which is the beginning of a caption. Is this correct?_
+**Warning**:_ 'XXXXXX' appears to have a title which is the beginning of a caption. Is this correct?_
 
-**Action**: This warning will fire if a letter in brackets is present at the start of a file's title, e.g. "\(a\) Overview of number of samples . . ." This usually means that no actual title has been provided by the authors and the first line of the legend \(usually a definition of part A/a if the file has multiple parts\) has been picked up as the title. If this warning appears pre-author, please ask the author to provide an overall title:
+**Action**: This warning will fire if a letter in brackets is present at the start of a file's title, e.g. "(a) Overview of number of samples . . ." This usually means that no actual title has been provided by the authors and the first line of the legend (usually a definition of part A/a if the file has multiple parts) has been picked up as the title. If this warning appears pre-author, please ask the author to provide an overall title:
 
 * Please provide a single-sentence title describing the contents of this file.
 
@@ -267,15 +267,15 @@ If this happens post-author, the author should be contacted by email to provide 
 
 **Warning**: _title for XXXXXX is longer than 250 characters. Is it a caption instead?_
 
-**Action**: This warning fires if a title exceeds 250 characters. This might indicate that it should be part of the caption. However, in most cases it will simply be a very long file title. Likely, this will only be an issue if the title consists of multiple sentences \(see supplementary-material-title-test-8\).
+**Action**: This warning fires if a title exceeds 250 characters. This might indicate that it should be part of the caption. However, in most cases it will simply be a very long file title. Likely, this will only be an issue if the title consists of multiple sentences (see supplementary-material-title-test-8).
 
 #### supplementary-material-title-test-8
 
-**Warning**: _title for XXXXXX contains XXXXXX sentences. Should the sentence\(s\) after the first be moved into the caption? Or is the title itself a caption \(in which case, please ask the authors for a title\)?_
+**Warning**: _title for XXXXXX contains XXXXXX sentences. Should the sentence(s) after the first be moved into the caption? Or is the title itself a caption (in which case, please ask the authors for a title)?_
 
 **Action**: This warning indicates that the title for an additional file contains multiple full stops. This may be because multiple sentences have been included in the title, e.g. "Python script for determining relaxation parameters for two state model. Representative python script used to read in a table of peak heights as output from the sparky ‘rh’ or ‘Relaxation Peak Heights’ command, where the number of cycles has been entered as the time parameter." The second sentence should be moved to the start of the legend.
 
-Please note, however, that this warning may fire in cases where full stops are included in the title as part of species names or abbreviations \(such as 'vs.', see supplementary-material-title-test-3\). In these cases, the warning may be ignored.
+Please note, however, that this warning may fire in cases where full stops are included in the title as part of species names or abbreviations (such as 'vs.', see supplementary-material-title-test-3). In these cases, the warning may be ignored.
 
 ### Structure checks
 
@@ -287,7 +287,7 @@ Please note, however, that this warning may fire in cases where full stops are i
 
 #### supplementary-material-test-6
 
-**Error**: _supplementary-material label \(XXXXXX\) does not conform to eLife's usual label format._
+**Error**: _supplementary-material label (XXXXXX) does not conform to eLife's usual label format._
 
 **Action**: This error indicates an additional file label does not match the usual pattern of Audio file X, Reporting standard X, Source data X, Source code X, Figure X—source data Y, Figure X—source code Y, Supplementary file X, or Transparent reporting form. The label should be corrected to match the correct format for the type of file being indicated. This may require support team intervention.
 
@@ -307,7 +307,7 @@ Please note, however, that this warning may fire in cases where full stops are i
 
 **Error**: _XXXXXX has XXXXXX media elements which is incorrect._
 
-**Action**: Additional files should have one and only one &lt;media&gt; element. This error indicates that zero or more &lt;media&gt; elements are present for a file. If it is zero, the missing file should be requested from the author:
+**Action**: Additional files should have one and only one \<media> element. This error indicates that zero or more \<media> elements are present for a file. If it is zero, the missing file should be requested from the author:
 
 * Please provide the file for this source data.
 * Please provide the file for this source code.
@@ -324,7 +324,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### back-supplementary-file-id
 
-**Error**: _The id \(XXXXXX\) for XXXXXX is not in the correct format. Supplementary files need to have ids in the format 'supp0'._
+**Error**: _The id (XXXXXX) for XXXXXX is not in the correct format. Supplementary files need to have ids in the format 'supp0'._
 
 **Action**: This error indicates a supplementary file has an ID that does not conform to the standard format 'supp0'. That is, Supplementary file 1 should usually have an ID 'supp1', Supplementary file 2 should usually have an ID 'supp2' and so on. This will need to be corrected by the production vendor's support team.
 
@@ -336,7 +336,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### back-source-data-id
 
-**Error**: _The id \(XXXXXX\) for XXXXXX is not in the correct format. Source data need to have ids in the format 'sdata0'._
+**Error**: _The id (XXXXXX) for XXXXXX is not in the correct format. Source data need to have ids in the format 'sdata0'._
 
 **Action**: This error indicates an article-level source data file has an ID that does not conform to the standard format 'sdata0'. That is, Source data 1 should have an ID 'sdata1', Source data 2 should have an ID 'sdata2', and so on. This will need to be corrected by the production vendor's support team.
 
@@ -348,7 +348,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### back-source-code-id
 
-**Error**: _The id \(XXXXXX\) for XXXXXX is not in the correct format. Source code needs to have ids in the format 'scode0'._
+**Error**: _The id (XXXXXX) for XXXXXX is not in the correct format. Source code needs to have ids in the format 'scode0'._
 
 **Action**: This error indicates an article-level source code file has an ID that does not conform to the standard format 'scode0'. That is, Source code 1 should have an ID 'scode1', Source code 2 should have an ID 'scode2', and so on. This will need to be corrected by the production vendor's support team.
 
@@ -366,7 +366,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### fig-data-label
 
-**Error**: _Figure source data label \(XXXXXX\) is incorrect based on its position. Either it has been placed under the wrong figure or the label is incorrect. Should the label be XXXXXX instead?_
+**Error**: _Figure source data label (XXXXXX) is incorrect based on its position. Either it has been placed under the wrong figure or the label is incorrect. Should the label be XXXXXX instead?_
 
 **Action**: This error indicates the labelling for a figure-level source data file does not match the asset with which it is associated. For example, this will fire if Figure 1—source data 1 is placed as a child of Figure 1—figure supplement 1. Either the label will need to be updated or the file will need to be moved to be related to the correct figure/figure supplement.
 
@@ -374,7 +374,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 **Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
 
-**Action:** This error indicates the labelling for a figure-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Figure 1—source code 1, Figure 1—source code 3, Figure 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action: **This error indicates the labelling for a figure-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Figure 1—source code 1, Figure 1—source code 3, Figure 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### fig-code-id
 
@@ -384,7 +384,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### fig-code-label
 
-**Error**: _Figure source data label \(XXXXXX\) is incorrect based on its position. Either it has been placed under the wrong figure, or the label is incorrect. Should the label be XXXXXX instead?_
+**Error**: _Figure source data label (XXXXXX) is incorrect based on its position. Either it has been placed under the wrong figure, or the label is incorrect. Should the label be XXXXXX instead?_
 
 **Action**: This error indicates the labelling for a figure-level source code file does not match the asset with which it is associated. For example, this will fire if Figure 1—source code 1 is placed as a child of Figure 1—figure supplement 1. Either the label will need to be updated or the file will need to be moved to be related to the correct figure/figure supplement.
 
@@ -392,7 +392,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 **Error**: 'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position.
 
-**Action:** This error indicates the labelling for a video-level source data file does not match the sequence in which the other files of that type have been placed. An example would be Video 1—source data 1, Video 1—source data 3, Video 1—source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action: **This error indicates the labelling for a video-level source data file does not match the sequence in which the other files of that type have been placed. An example would be Video 1—source data 1, Video 1—source data 3, Video 1—source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### vid-data-id
 
@@ -402,15 +402,15 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### vid-data-label
 
-**Error**: _Video source data label \(XXXXXX\) is incorrect based on its position. Either it has been placed under the wrong video, or the label is incorrect. Should the label be XXXXXX instead?_
+**Error**: _Video source data label (XXXXXX) is incorrect based on its position. Either it has been placed under the wrong video, or the label is incorrect. Should the label be XXXXXX instead?_
 
 **Action**: This error indicates the labelling for a video-level source data file does not match the asset with which it is associated. For example, this will fire if Video 1—source data 1 is placed as a child of Video 2. Either the label will need to be updated or the file will need to be moved to be related to the correct video.
 
 #### vid-code-test-2
 
-**Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
+**Error**:_ 'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
 
-**Action:** This error indicates the labelling for a video-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Video 1—source code 1, Video 1—source code 3, Video 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action: **This error indicates the labelling for a video-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Video 1—source code 1, Video 1—source code 3, Video 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### vid-code-id
 
@@ -420,15 +420,15 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### vid-code-label
 
-**Error**: _Video source code label \(XXXXXX\) is incorrect based on its position. Either it has been placed under the wrong video, or the label is incorrect. Should the label be XXXXXX instead?_
+**Error**: _Video source code label (XXXXXX) is incorrect based on its position. Either it has been placed under the wrong video, or the label is incorrect. Should the label be XXXXXX instead?_
 
 **Action**: This error indicates the labelling for a video-level source code file does not match the asset with which it is associated. For example, this will fire if Video 1—source code 1 is placed as a child of Video 2. Either the label will need to be updated or the file will need to be moved to be related to the correct video.
 
 #### table-data-test-2
 
-**Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
+**Error**:_ 'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
 
-**Action:** This error indicates the labelling for a table-level source data file does not match the sequence in which the other files of that type have been placed. An example would be Table 1—source data 1, Table 1—source data 3, Table 1—source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action: **This error indicates the labelling for a table-level source data file does not match the sequence in which the other files of that type have been placed. An example would be Table 1—source data 1, Table 1—source data 3, Table 1—source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### table-data-id
 
@@ -438,7 +438,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### table-data-label
 
-**Error**: _Table source data label \(XXXXXX\) is incorrect based on its position. Either it has been placed under the wrong table, or the label is incorrect. Should the label be XXXXXX instead?_
+**Error**: _Table source data label (XXXXXX) is incorrect based on its position. Either it has been placed under the wrong table, or the label is incorrect. Should the label be XXXXXX instead?_
 
 **Action**: This error indicates the labelling for a table-level source data file does not match the asset with which it is associated. For example, this will fire if Table 1—source data 1 is placed as a child of Table 2. Either the label will need to be updated or the file will need to be moved to be related to the correct video.
 
@@ -446,7 +446,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 **Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
 
-**Action:** This error indicates the labelling for a table-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Table 1—source code 1, Table 1—source code 3, Table 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action: **This error indicates the labelling for a table-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Table 1—source code 1, Table 1—source code 3, Table 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### table-code-id
 
@@ -456,7 +456,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### table-code-label
 
-**Error**: _Table source code label \(XXXXXX\) is incorrect based on its position. Either it has been placed under the wrong table, or the label is incorrect. Should the label be XXXXXX instead?_
+**Error**: _Table source code label (XXXXXX) is incorrect based on its position. Either it has been placed under the wrong table, or the label is incorrect. Should the label be XXXXXX instead?_
 
 **Action**: This error indicates the labelling for a table-level source code file does not match the asset with which it is associated. For example, this will fire if Table 1—source code 1 is placed as a child of Table 2. Either the label will need to be updated or the file will need to be moved to be related to the correct video.
 
@@ -464,7 +464,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 **Error**: _XXXXXX is not allowed as a child of supplementary-material._
 
-**Action**: This error indicates that a disallowed element has been included within an additional file's XML \(`<supplementary-material>`\). The only permitted child elements are as follows: `<label>, <caption>, <media>, <permissions>`. If another element is present, it should be removed. This will likely need intervention by the support team.
+**Action**: This error indicates that a disallowed element has been included within an additional file's XML (`<supplementary-material>`). The only permitted child elements are as follows: `<label>, <caption>, <media>, <permissions>`. If another element is present, it should be removed. This will likely need intervention by the support team.
 
 ## XML
 
@@ -607,6 +607,4 @@ Supplementary file followed by audio files in the additional files section. Note
     </supplementary-material>
 </sec>
 ```
-
-
 

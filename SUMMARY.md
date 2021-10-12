@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Template](untitled-4.md)
 
 ## Checklists
 
@@ -69,20 +68,20 @@
 * [Oxygen](toolkit/oxygen.md)
 * [Managing production queries](toolkit/managing-production-queries.md)
 * [Name change requests](toolkit/name-change-requests.md)
-* [s3 \(AWS\) buckets](toolkit/s3-aws-buckets.md)
+* [s3 (AWS) buckets](toolkit/s3-aws-buckets.md)
 * [Striking images](toolkit/striking-images-1.md)
 * [Toggl](toolkit/toggl.md)
 * [XML Glossary](toolkit/xml-glossary.md)
+* [Article content house style](toolkit/untitled-4.md)
 
 ## Pages in progress
 
 * [Kriya](pages-in-progress/kriya-1.md)
 * [Publish on accept](pages-in-progress/publish-on-accept-protocols.md)
 
----
+***
 
 * [Press processes](press-processes.md)
 * [Production checklist](production-checklist.md)
 * [Versioning](versioning.md)
 * [New Starter Guide](new-starter-guide.md)
-

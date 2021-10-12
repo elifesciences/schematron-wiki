@@ -8,14 +8,14 @@ What needs to be checked?
 
 The following should be checked for Tables:
 
-* Appropriate capture of heading\(s\) \(see [**Tables with multiple headers**](tables.md#tables-with-multiple-headers)\).
+* Appropriate capture of heading(s) (see [**Tables with multiple headers**](tables.md#tables-with-multiple-headers)).
 * Appropriate alignment and line breaks in cells.
-* The presence of colours \(should be flagged by Schematron; see [**colour-check-table**](tables.md#colour-check-table) and [**Allowed colours in tables**](tables.md#allowed-colours-in-tables)\).
+* The presence of colours (should be flagged by Schematron; see [**colour-check-table**](tables.md#colour-check-table) and [**Allowed colours in tables**](tables.md#allowed-colours-in-tables)).
 * Missing links for RRIDs, DOIs, PMIDs and PMCIDs.
 * That links for RRIDs, DOIs, PMIDs and PMCIDs resolve.
-* References to software that requires forking or adding a citation \(see [**Archiving code**](../../../toolkit/archiving-code.md) and [**Software references**](../references/software-references.md)\).
-* A corresponding citation in the text \(note this is not necessary for Key resources tables, tables in Decision letters or Author responses, and for certain Appendix tables\).
-* That a title is present \(note this is not necessary for Key resources tables, tables in Decision letters or Author responses\).
+* References to software that requires forking or adding a citation (see [**Archiving code**](../../../toolkit/archiving-code.md) and [**Software references**](../references/software-references.md)).
+* A corresponding citation in the text (note this is not necessary for Key resources tables, tables in Decision letters or Author responses, and for certain Appendix tables).
+* That a title is present (note this is not necessary for Key resources tables, tables in Decision letters or Author responses).
 * Footnotes use the correct indicators, and follow the correct sequence.
 
 ## Where are tables allowed?
@@ -26,13 +26,13 @@ Tables display in both the HTML and in the PDF. Decision letters and Author resp
 
 ## What can tables contain?
 
-Tables can be with or without labels \(tables without labels are referred to as inline tables\). Those with labels outside of Decision Letters and Author responses _must_ have a title. In Decision letters and Author responses the title is optional. All tables can also have an optional caption, however if there is a caption there _must_ be a title \(this is also true of tables in Decision Letter and Author responses\).
+Tables can be with or without labels (tables without labels are referred to as inline tables). Those with labels outside of Decision Letters and Author responses _must_ have a title. In Decision letters and Author responses the title is optional. All tables can also have an optional caption, however if there is a caption there _must_ be a title (this is also true of tables in Decision Letter and Author responses).
 
-Tables should never be provided as an image \(or images\).
+Tables should never be provided as an image (or images).
 
 Any abbreviations should be included in a single footnote in the table - they should _not_ be included in the caption or title. See [**Table footers**](tables.md#table-footers).
 
-Note that an object labelled as one table \(with one label and optional title/caption\), can actually be made up of multiple tables. This is avoided, where possible in eLife content \(see also [**Tables with multiple headers**](tables.md#tables-with-multiple-headers) and [**XML structure**](tables.md#xml-structure)\).
+Note that an object labelled as one table (with one label and optional title/caption), can actually be made up of multiple tables. This is avoided, where possible in eLife content (see also [**Tables with multiple headers**](tables.md#tables-with-multiple-headers) and [**XML structure**](tables.md#xml-structure)).
 
 The content of a table can be broken down into three sections:
 
@@ -56,23 +56,23 @@ Tables should have an appropriate label based on their placement in the content.
 * Decision letter table 1.
 * Author response table 1.
 
-\(Note that those with full stops at the end must have these within the label\)
+(Note that those with full stops at the end must have these within the label)
 
 #### What to do when an author has not used one of the preferred labels
 
-If an author's manuscript contains tables with labels that are not in one of the formats above \(or very similar\), then Exeter should query the eLife production team to determine hoe they would like this captured.
+If an author's manuscript contains tables with labels that are not in one of the formats above (or very similar), then Exeter should query the eLife production team to determine hoe they would like this captured.
 
-Where possible, the eLife production team should determine what the labels should be based on its placement in the text \(for example a table in a box has to be in the format Box X—table X, and a table in an appendix must be in the format Appendix X—table X\). It may be that the authors intended to capture the content as a supplementary file as well. If it is still not clear how this should be captured, then eLife production should contact the authors with the ways in which tables can be captured, and ask their preference.
+Where possible, the eLife production team should determine what the labels should be based on its placement in the text (for example a table in a box has to be in the format Box X—table X, and a table in an appendix must be in the format Appendix X—table X). It may be that the authors intended to capture the content as a supplementary file as well. If it is still not clear how this should be captured, then eLife production should contact the authors with the ways in which tables can be captured, and ask their preference.
 
 Any major changes to labelling which have not been queried to the authors, should be followed up with an author query in the proofs:
 
-* We do not allow the label \[insert original table label\] in eLife content. Therefore, we have captured this as \[insert updated label\]. Please confirm whether you are happy with this capture.
+* We do not allow the label \[insert original table label] in eLife content. Therefore, we have captured this as \[insert updated label]. Please confirm whether you are happy with this capture.
 
 ### Table header
 
-A table can technically only have one table header \(in the XML this is the `<thead>` element, of which every `<table>` element is only allowed 1\). The header is the top row\(s\) of a table and serves as an indication of the content in the rows below it. If a table splits across multiple pages in the PDF, then this header is also displayed at the top of each subsequent page that is is split across.
+A table can technically only have one table header (in the XML this is the `<thead>` element, of which every `<table>` element is only allowed 1). The header is the top row(s) of a table and serves as an indication of the content in the rows below it. If a table splits across multiple pages in the PDF, then this header is also displayed at the top of each subsequent page that is is split across.
 
-If a table has multiple headings throughout it, then, if necessary these can be tagged within the table body \(and depending on the table it may also be appropriate to move the header down into the body; more on this [**below**](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)\).
+If a table has multiple headings throughout it, then, if necessary these can be tagged within the table body (and depending on the table it may also be appropriate to move the header down into the body; more on this [**below**](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)).
 
 The text in table headers is rendered with bold formatting. On the eLife site, headers are also given a grey shading:
 
@@ -80,7 +80,7 @@ The text in table headers is rendered with bold formatting. On the eLife site, h
 
 Every table cell in the header can contain the following content:
 
-* Text \(with various different kinds of formatting\)
+* Text (with various different kinds of formatting)
 * Hyperlinks
 * Inline images
 * Code blocks
@@ -91,27 +91,27 @@ See also [**th-child-test**](tables.md#th-child-test) below.
 
 A cell can be merged with cells in rows above and below it, and can be merged with cells in the columns left and right of it.
 
-Cells can be horizontally and vertically aligned \(see [**Table cell alignment**](tables.md#table-cell-alignment)\).
+Cells can be horizontally and vertically aligned (see [**Table cell alignment**](tables.md#table-cell-alignment)).
 
 ### Tables with multiple headers
 
-What actually determines the formatting of the cells is whether each cell is formatted as a heading cell or as a normal table cell \(in the XML these are `<th>` and `<td>` elements, respectively\). The table header must contain table header cells, but the table body can contain either \(table header and normal table cells\). It is relatively common for a table body to contain header cells.
+What actually determines the formatting of the cells is whether each cell is formatted as a heading cell or as a normal table cell (in the XML these are `<th>` and `<td>` elements, respectively). The table header must contain table header cells, but the table body can contain either (table header and normal table cells). It is relatively common for a table body to contain header cells.
 
-If a table has multiple headings throughout, then the cells in the table body should be captured as header cells \(`<th>`\). This has to be done by Exeter \(it currently cannot be done by eLife staff in Kriya\).
+If a table has multiple headings throughout, then the cells in the table body should be captured as header cells (`<th>`). This has to be done by Exeter (it currently cannot be done by eLife staff in Kriya).
 
 Typically an entire row should be captured as a header, although there are exceptions. See the action for [**th-row-test**](tables.md#th-row-test) for some examples.
 
-If a table has multiple headers, spans numerous pages in the PDF, and each header is of equal importance \(or those in the body are more important than the top one\), it _might_ be appropriate to include **no** table header. This is because \(as stated in [the Table Header section](tables.md#table-header)\), the PDF will display the top heading at the top of each subsequent page, and this would be inappropriate.
+If a table has multiple headers, spans numerous pages in the PDF, and each header is of equal importance (or those in the body are more important than the top one), it _might_ be appropriate to include **no** table header. This is because (as stated in [the Table Header section](tables.md#table-header)), the PDF will display the top heading at the top of each subsequent page, and this would be inappropriate.
 
-\*\*\*\*[**Here is an example**](https://elifesciences.org/articles/54090#table1). 
+****[**Here is an example**](https://elifesciences.org/articles/54090#table1). 
 
 ![](../../../.gitbook/assets/screen-shot-2020-06-05-at-15.27.58.png)
 
 ![](../../../.gitbook/assets/screen-shot-2020-06-05-at-15.28.10.png)
 
-This is a relatively simple table with two headers. In the screenshots above it has been captured correctly. However, if the first heading 'Induced \(278 genes\)' was captured in the table header, then it would display at the top of the 2nd page in the PDF, which would not be appropriate, since the header for that section should instead be 'Repressed \(195 genes\)':
+This is a relatively simple table with two headers. In the screenshots above it has been captured correctly. However, if the first heading 'Induced (278 genes)' was captured in the table header, then it would display at the top of the 2nd page in the PDF, which would not be appropriate, since the header for that section should instead be 'Repressed (195 genes)':
 
-![&apos;Induced \(278 genes\)&apos; appears at the top of the page](../../../.gitbook/assets/screen-shot-2020-05-27-at-09.47.41%20%281%29.png)
+!['Induced (278 genes)' appears at the top of the page](<../../../.gitbook/assets/screen-shot-2020-05-27-at-09.47.41 (1).png>)
 
 Similarly though, there are cases where it might be appropriate for there to be an overall header, despite there being multiple headers in the table. [**Here for example**](https://elifesciences.org/articles/51662#table1):
 
@@ -121,15 +121,15 @@ Similarly though, there are cases where it might be appropriate for there to be 
 
 The Schematron check [**th-row-test**](tables.md#th-row-test) will fire if a table header cell is accompanied by normal table cells in the same row. See the action for examples of what to do when this fires.
 
-A single labelled table containing multiple tables \(multiple `<table>` elements in a `<table-wrap>`\) should be avoided where possible. The only case it should be used is where a single table has multiple sections each with different numbers of columns and this cannot be represented in a single table, or where the authors have explicitly labelled a table with multiple parts, e.g. Table 1a, Table 1b etc.
+A single labelled table containing multiple tables (multiple `<table>` elements in a `<table-wrap>`) should be avoided where possible. The only case it should be used is where a single table has multiple sections each with different numbers of columns and this cannot be represented in a single table, or where the authors have explicitly labelled a table with multiple parts, e.g. Table 1a, Table 1b etc.
 
 #### Multiple tables within a single labelled table
 
 As stated above, it is possible for there to actually be numerous tables in and object with a single label. This is usually unnecessary and should be avoided where possible however there are cases where this might be appropriate.
 
-If an author has labelled different sections of their table, then multiple tables can be used \(numerous `<table>` elements within one `<table-wrap>`\).
+If an author has labelled different sections of their table, then multiple tables can be used (numerous `<table>` elements within one `<table-wrap>`).
 
-\*\*\*\*[**Here**](https://elifesciences.org/articles/49679#table1) the author has explicitly labelled their table as table 1a and table 1b. Since we only allow Table 1, Table 2 and so on as, as table labels, and this shares a single title/caption, it is necessary to use two tables to capture the separate labelling:
+****[**Here**](https://elifesciences.org/articles/49679#table1) the author has explicitly labelled their table as table 1a and table 1b. Since we only allow Table 1, Table 2 and so on as, as table labels, and this shares a single title/caption, it is necessary to use two tables to capture the separate labelling:
 
 ![](../../../.gitbook/assets/screen-shot-2020-06-05-at-15.41.44.png)
 
@@ -137,17 +137,17 @@ In this case, in the original manuscript, the author has captured this as two se
 
 ![](../../../.gitbook/assets/screen-shot-2020-06-05-at-15.45.40.png)
 
-Similarly, if it is simply not possible to represent the content in one table \(i.e. because there are varying different numbers of columns, alignment, etc.\) then, provided that it is a table with multiple headers, it would be acceptable to capture it using multiple tables.
+Similarly, if it is simply not possible to represent the content in one table (i.e. because there are varying different numbers of columns, alignment, etc.) then, provided that it is a table with multiple headers, it would be acceptable to capture it using multiple tables.
 
 ### Table body
 
-The table body is any row and cells which are not in the header. They are usually marked up as normal cells meaning that they display with no shading on the eLife site, and the text only carries the formatting which has been applied to it \(by default, roman formatting\).
+The table body is any row and cells which are not in the header. They are usually marked up as normal cells meaning that they display with no shading on the eLife site, and the text only carries the formatting which has been applied to it (by default, roman formatting).
 
 A cell can be merged with cells in rows above and below it, and can be merged with cells in the columns left and right of it.
 
 Every table cell in the body can contain the following content:
 
-* Text \(with various different kinds of formatting\)
+* Text (with various different kinds of formatting)
 * Hyperlinks
 * Inline images
 * Code blocks
@@ -156,23 +156,23 @@ Every table cell in the body can contain the following content:
 
 See also [td-child-test](tables.md#td-child-test) below.
 
-Cells can be horizontally and vertically aligned \(see [**Table cell alignment**](tables.md#table-cell-alignment)\).
+Cells can be horizontally and vertically aligned (see [**Table cell alignment**](tables.md#table-cell-alignment)).
 
 If a cell in the table body is entirely bold formatted, it may be appropriate to format it as a header instead of as a normal table cell. This should be clear based on what content is inside the cell and the content in the rest of the table.
 
 ### Table footers
 
-Table footers appear at the bottom of a table. They are intended to only contain extra relevant information \(such as footnotes or attributions\), and will not contain tabulated content. eLife use the footer to contain footnotes to the table. Often these are simple paragraphs which apply to the whole table. They can however be referred to from specific cells in the table, and this is done by including an indicator at the specific place in the cell/text and at the start of the footnote in the footer.
+Table footers appear at the bottom of a table. They are intended to only contain extra relevant information (such as footnotes or attributions), and will not contain tabulated content. eLife use the footer to contain footnotes to the table. Often these are simple paragraphs which apply to the whole table. They can however be referred to from specific cells in the table, and this is done by including an indicator at the specific place in the cell/text and at the start of the footnote in the footer.
 
-All footnotes that have indicators should follow this sequence \*, †, ‡, §, ¶, \*\***, ††, ‡‡, §§, ¶¶,** \*\*\*, †††, ‡‡‡, §§§, ¶¶¶, \*\*\*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. in accordance with house style. Footnotes with numbers or letters as their indicators are not allowed.
+All footnotes that have indicators should follow this sequence \*, †, ‡, §, ¶, \*\***, ††, ‡‡, §§, ¶¶, **\*\*\*, †††, ‡‡‡, §§§, ¶¶¶, \*\*\*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. in accordance with house style. Footnotes with numbers or letters as their indicators are not allowed.
 
 For example a footnote labelled with 1, followed by 2, followed by 3 should be relabelled using †, ‡,  and § respectively.
 
-\*\*\*\*[**Here is an example**](https://elifesciences.org/articles/53886/figures#table2):
+****[**Here is an example**](https://elifesciences.org/articles/53886/figures#table2):
 
 ![Footnotes following the sequence set out above](../../../.gitbook/assets/screen-shot-2020-06-05-at-12.40.40.png)
 
-In the future we would like to be able to link footnote indicators in table cells to their respective footnotes, but currently this is not done, merely the symbol is included as \(usually superscripted\) text in both places. 
+In the future we would like to be able to link footnote indicators in table cells to their respective footnotes, but currently this is not done, merely the symbol is included as (usually superscripted) text in both places. 
 
 Table footers can also contain more general footnotes that are not specifically referred to from cells within the table, such as a list of abbreviations or more general notes on the table. This is also fine.
 
@@ -180,10 +180,10 @@ Abbreviations should be included in a single footnote. If the authors originally
 
 Footnotes should be placed in the following order:
 
-1. Footnotes with labels \(if present; see above\).
-2. p value footnotes \(e.g. \*p&lt;0.05; \*\*p&lt;0.01; \*\*\*p&lt;0.001\) \(if present\).
-3. Undesignated footnotes \(e.g. general notes\) \(if present\). 
-4. Abbreviations \(if present\).
+1. Footnotes with labels (if present; see above).
+2. p value footnotes (e.g. \*p<0.05; \*\*p<0.01; \*\*\*p<0.001) (if present).
+3. Undesignated footnotes (e.g. general notes) (if present). 
+4. Abbreviations (if present).
 
 ### Table cell alignment
 
@@ -193,7 +193,7 @@ If a header spans more than one column, it is likely that central horizontal ali
 
 ### Supporting source data/code files
 
-Like figures, tables can have supporting source data and source code files. These should be labelled in the format **\[Table label\]—source data 1.** and **\[Table label\]—source code 1**, for example **Table 1—source data 1.**
+Like figures, tables can have supporting source data and source code files. These should be labelled in the format **\[Table label]—source data 1.** and **\[Table label]—source code 1**, for example **Table 1—source data 1.**
 
 As with figure level source data, the label and title should be displayed underneath the table in the PDF. [**Here is an example**](https://elifesciences.org/articles/46883/figures#table1sdata1) from published content:
 
@@ -212,7 +212,7 @@ eLife allow the following colours as background shading for Table cells:
 * Pink
 * Grey
 
-eLife allow the following colours for text \(in this case text inside table cells\):
+eLife allow the following colours for text (in this case text inside table cells):
 
 * Blue
 * Purple
@@ -222,35 +222,35 @@ eLife allow the following colours for text \(in this case text inside table cell
 
 These colours have been selected with accessibility in mind. The eLife site will not support other colours.
 
-Colours will not display downstream \(in places other than the eLife website where the content will display - for example PMC\).
+Colours will not display downstream (in places other than the eLife website where the content will display - for example PMC).
 
 As a result colours should be avoided where possible. There are two author queries relating to this, which should be added if the tests [**colour-check-table**](tables.md#colour-check-table) and [**pre-colour-check-table-2**](tables.md#pre-colour-check-table-2) fire respectively:
 
-* Where possible, we prefer that colours are not used in tables in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). Would it be possible to capture the same meaning in this table with more common forms of emphasis \(such as bold, italic or underline\)? If so please stipulate below how the table should be revised. Please note that this is a suggestion and supported colours in tables can be published.
+* Where possible, we prefer that colours are not used in tables in the interests of accessibility and because they will not display in downstream HTML (for example in PMC). Would it be possible to capture the same meaning in this table with more common forms of emphasis (such as bold, italic or underline)? If so please stipulate below how the table should be revised. Please note that this is a suggestion and supported colours in tables can be published.
 
 
 
-* Where possible, we prefer that colours are not used in tables in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). However, eLife does support the following colours for table cells - blue, green orange, yellow, purple, red, pink and grey. Please confirm how you would like the colour\(s\) captured here given this information, and note that our preference would be to use more common forms of emphasis \(such as bold, italic or underline\) if possible to still convey the same meaning.
+* Where possible, we prefer that colours are not used in tables in the interests of accessibility and because they will not display in downstream HTML (for example in PMC). However, eLife does support the following colours for table cells - blue, green orange, yellow, purple, red, pink and grey. Please confirm how you would like the colour(s) captured here given this information, and note that our preference would be to use more common forms of emphasis (such as bold, italic or underline) if possible to still convey the same meaning.
 
-But ultimately, the decision about whether to include \(supported\) colours is made by the authors.
+But ultimately, the decision about whether to include (supported) colours is made by the authors.
 
 ### Inline images
 
-Each table cell can contain one \(or more\) 'inline' images. These are images which render inline with the content \(as opposed to the images in figures, which are blocks themselves\).
+Each table cell can contain one (or more) 'inline' images. These are images which render inline with the content (as opposed to the images in figures, which are blocks themselves).
 
-\*\*\*\*[**Here**](https://elifesciences.org/articles/56416#table2) is an example of a table with images in table cells. Note that the table header is made up of one single cell, which spans all columns, and contains one image.
+****[**Here**](https://elifesciences.org/articles/56416#table2) is an example of a table with images in table cells. Note that the table header is made up of one single cell, which spans all columns, and contains one image.
 
 ![](../../../.gitbook/assets/screenshot-2020-09-08-at-12.23.12.png)
 
-\*\*\*\*[**Here**](https://elifesciences.org/articles/17092#A5-tbl2) is an example of a different table containing inline images. In the first row, the cell on the right contains two separate images stacked on top of each other.
+****[**Here**](https://elifesciences.org/articles/17092#A5-tbl2) is an example of a different table containing inline images. In the first row, the cell on the right contains two separate images stacked on top of each other.
 
 ![](../../../.gitbook/assets/screenshot-2020-09-08-at-12.23.50.png)
 
 #### Inline images in the XML
 
-Inline images are captured using the `<inline-graphic>` element. This element has the same attributes as the `<graphic>` element \(see also [Figures and figure supplements](figures.md#xml-structure)\), a `mimetype`, a `mime-subtype` , and an `xlink:href`; the latter points to the image file itself.
+Inline images are captured using the `<inline-graphic>` element. This element has the same attributes as the `<graphic>` element (see also [Figures and figure supplements](figures.md#xml-structure)), a `mimetype`, a `mime-subtype` , and an `xlink:href`; the latter points to the image file itself.
 
-This element is placed as a child of the relevant cell \(`<td>` or `<th>`\).
+This element is placed as a child of the relevant cell (`<td>` or `<th>`).
 
 ```markup
 <tr>
@@ -267,15 +267,15 @@ This element is placed as a child of the relevant cell \(`<td>` or `<th>`\).
 
 ## Key resources tables
 
-Key resources tables contain a list of resources \(such as Genes, Strains, Antibodies, Reagents, Chemical compounds, Software etc.\) that were used in generating the research communicated in an article. 
+Key resources tables contain a list of resources (such as Genes, Strains, Antibodies, Reagents, Chemical compounds, Software etc.) that were used in generating the research communicated in an article. 
 
-They are always placed at the start of the Materials and methods \(or equivalent sections, such as Model and materials\), except for those placed in an appendices.
+They are always placed at the start of the Materials and methods (or equivalent sections, such as Model and materials), except for those placed in an appendices.
 
 They have a label in the format 'Key resources table' or 'Appendix 1—key resources table', and no title or caption.
 
 They have a specific structure which must be followed - there will always be 5 columns, each with a header. When creating these tables, authors should use [**this template**](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). If the structure is not adhered to, then this has to be fixed during proofing. There are Schematron tests which will flag Key resources tables with the incorrect headers or number of columns.
 
-In some articles, Key resources tables will be captured in a supplementary file instead. This is currently acceptable and no action needs to be taken \(although in the future we will likely not allow this, and will instead mandate that these are captured in appendices\).
+In some articles, Key resources tables will be captured in a supplementary file instead. This is currently acceptable and no action needs to be taken (although in the future we will likely not allow this, and will instead mandate that these are captured in appendices).
 
 Guidance for authors on Key resources tables can also be found [**here**](https://elife-cdn.s3.amazonaws.com/author-guide/elifeKRTtemplatev2.docx).
 
@@ -287,7 +287,7 @@ Guidance for authors on Key resources tables can also be found [**here**](https:
 
 These are tables without labels. This means that they are not cited from elsewhere in the text, and should be placed in the flow of text that they have been in the original manuscript. Aside from a label, title and caption, they can contain the same content as any other table.
 
-\*\*\*\*[**Here**](https://elifesciences.org/articles/55246#s4-24) ****is an example of two inline tables:
+****[**Here**](https://elifesciences.org/articles/55246#s4-24)** **is an example of two inline tables:
 
 ![](../../../.gitbook/assets/screen-shot-2020-06-05-at-12.53.03.png)
 
@@ -311,19 +311,19 @@ Correction and retraction notices may possibly contain tables. In these, it is n
 
 ## Table citations
 
-Labelled tables, which are not Key resources tables, within the main text of an article _must_ have a citation \(the exception to this is tables in [corrections or retractions](tables.md#tables-in-corrections-and-retractions) and [feature content](tables.md#tables-in-feature-content)\). Citations are optional for tables placed anywhere else in an article \(appendices, boxes, and Decision letters/Author responses\), but citations for tables in appendices should also be sought after where appropriate. 
+Labelled tables, which are not Key resources tables, within the main text of an article _must_ have a citation (the exception to this is tables in [corrections or retractions](tables.md#tables-in-corrections-and-retractions) and [feature content](tables.md#tables-in-feature-content)). Citations are optional for tables placed anywhere else in an article (appendices, boxes, and Decision letters/Author responses), but citations for tables in appendices should also be sought after where appropriate. 
 
 In the XML/HTML, tables should be placed directly after their first citation in the text.
 
 In the PDF, tables should be placed as close to their first citation as appropriately possible, unless otherwise specified by authors.
 
-Inline tables \(that is tables with no label, title or caption\) cannot have citations and so do not require any.
+Inline tables (that is tables with no label, title or caption) cannot have citations and so do not require any.
 
 ### Tables cited out of sequence
 
-If tables are cited out of sequence, i.e. Table 2 is cited in the text before Table 1, and there is still a citation for each \(and these citation _are_ in sequence\), then at pre-author stages the tables should be set and placed in the order according to their label, and the out of sequence citation\(s\) left as plain text. The following query should be added on the plain text citation:
+If tables are cited out of sequence, i.e. Table 2 is cited in the text before Table 1, and there is still a citation for each (and these citation _are_ in sequence), then at pre-author stages the tables should be set and placed in the order according to their label, and the out of sequence citation(s) left as plain text. The following query should be added on the plain text citation:
 
-* This citation is out of sequence with the other table citations and has therefore been left unlinked \(table placement is determined by first live citation\). Please confirm this is acceptable.
+* This citation is out of sequence with the other table citations and has therefore been left unlinked (table placement is determined by first live citation). Please confirm this is acceptable.
 
 If the citations are out of sequence and there are no other in sequence citations, then, at pre-author stages, the following query should be added:
 
@@ -341,14 +341,14 @@ These checks relate to the content of tables. X or XXXXXX refers to quoted text 
 
 **Error**: _XXXXXX - Table label does not conform to the usual format._
 
-**Action**: This will fire when a table \(outside of appendices\) has a label which is not in one of the following formats:
+**Action**: This will fire when a table (outside of appendices) has a label which is not in one of the following formats:
 
 * Table 1.
 * Key resources table.
 * Author response table 1.
 * Decision letter 1.
 
-Please ensure that the table label is either in one of these formats or \(in the case where it _should not_ have a label\), the label is removed. Please note that the label _must_ end with a full stop. Please also check for [no-break spaces](https://www.fileformat.info/info/unicode/char/00a0/index.htm) in the table label text. This error will fire if any are present, and they should always be replaced with normal spacing.
+Please ensure that the table label is either in one of these formats or (in the case where it _should not_ have a label), the label is removed. Please note that the label _must_ end with a full stop. Please also check for [no-break spaces](https://www.fileformat.info/info/unicode/char/00a0/index.htm) in the table label text. This error will fire if any are present, and they should always be replaced with normal spacing.
 
 #### app-table-label-test-1
 
@@ -370,89 +370,89 @@ Depending on the case, the table will either need to be moved into its appropria
 
 **Warning**: _Footnote starts with what might be a label which is not in line with house style - XXXXXX. If it is a label, then it should changed to one of the allowed symbols, so that the order of labels in the footnotes follows this sequence \*, †, ‡, §, ¶, \*\*, ††, ‡‡, §§, ¶¶, etc._
 
-**Action**: Footnote indicators should be in the following sequence \*_,_ †, ‡, §, ¶, \*\***, ††, ‡‡, §§, ¶¶, \*\*\***, †††, ‡‡‡, §§§, ¶¶¶, \*\*\*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. If this warning fires, it is because a footnote starts with what looks like a label which isn't one of the allowed symbols. If it is a label for the footnote, then it should be changed in line with the sequence above. If it is not a label, then the message should be ignored.
+**Action**: Footnote indicators should be in the following sequence \*_, _†, ‡, §, ¶, \*\***, ††, ‡‡, §§, ¶¶, \*\*\***, †††, ‡‡‡, §§§, ¶¶¶, \*\*\*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. If this warning fires, it is because a footnote starts with what looks like a label which isn't one of the allowed symbols. If it is a label for the footnote, then it should be changed in line with the sequence above. If it is not a label, then the message should be ignored.
 
 #### pre-body-table-report
 
 **Warning**: _XXXXXX_ _does not appear in sequence. Relative to the other numbered tables it is placed in position XX._
 
-**Action**: This will fire at pre-author stages when a table is placed out of sequence in the body of an article \(such as Table 1 being placed after Table 2\). If this warning fires, and there is no citation for that table, please add the following author query:
+**Action**: This will fire at pre-author stages when a table is placed out of sequence in the body of an article (such as Table 1 being placed after Table 2). If this warning fires, and there is no citation for that table, please add the following author query:
 
 * Please provide an in-text citation for this table.
 
-If there is an in-text citation, but the citations are out of sequence \(i.e. Table 1 being cited after Table 2\), then please add the following author query:
+If there is an in-text citation, but the citations are out of sequence (i.e. Table 1 being cited after Table 2), then please add the following author query:
 
-* This citation is out of sequence with the other table citations and has therefore been left unlinked \(table placement is determined by first live citation\). Please confirm this is acceptable.
+* This citation is out of sequence with the other table citations and has therefore been left unlinked (table placement is determined by first live citation). Please confirm this is acceptable.
 
 #### final-body-table-report
 
 **Error**: _XXXXXX_ _does not appear in sequence which is incorrect. Relative to the other numbered tables it is placed in position XX._
 
-**Action**: This will fire at post-author stages when a table is placed out of sequence in the body of an article \(such as Table 1 being placed after Table 2\). If this error fires, Production will need to contact the authors in order to determine how they would like their tables to be labelled/presented.
+**Action**: This will fire at post-author stages when a table is placed out of sequence in the body of an article (such as Table 1 being placed after Table 2). If this error fires, Production will need to contact the authors in order to determine how they would like their tables to be labelled/presented.
 
 #### pre-app-table-report
 
 **Warning**: _XXXXXX_ _does not appear in sequence. Relative to the other numbered tables it is placed in position XX._
 
-**Action**: This will fire at pre-author stages when a table is placed out of sequence in an appendix \(such as Appendix 1—table 1 being placed after Appendix 1—table 2\). If this warning fires, and there is no citation for that table, please add the following author query:
+**Action**: This will fire at pre-author stages when a table is placed out of sequence in an appendix (such as Appendix 1—table 1 being placed after Appendix 1—table 2). If this warning fires, and there is no citation for that table, please add the following author query:
 
 * Please provide an in-text citation for this table.
 
-If there is an in-text citation, but the citations are out of sequence \(i.e. Appendix 1—table 1 being cited after Appendix 1—table 2\), then please add the following author query:
+If there is an in-text citation, but the citations are out of sequence (i.e. Appendix 1—table 1 being cited after Appendix 1—table 2), then please add the following author query:
 
-* This citation is out of sequence with the other table citations and has therefore been left unlinked \(table placement is determined by first live citation\). Please confirm this is acceptable.
+* This citation is out of sequence with the other table citations and has therefore been left unlinked (table placement is determined by first live citation). Please confirm this is acceptable.
 
 #### final-app-table-report
 
 **Error**: _XXXXXX_ _does not appear in sequence which is incorrect. Relative to the other numbered tables it is placed in position XX._
 
-**Action**: This will fire at post-author stages when a table is placed out of sequence in an appendix \(such as Appendix 1—table 1 being placed after Appendix 1—table 2\). If this error fires, Production will need to contact the authors in order to determine how they would like their tables to be labelled/presented.
+**Action**: This will fire at post-author stages when a table is placed out of sequence in an appendix (such as Appendix 1—table 1 being placed after Appendix 1—table 2). If this error fires, Production will need to contact the authors in order to determine how they would like their tables to be labelled/presented.
 
 #### xref-column-test
 
 **Warning**: '_XXXXXX' citation is in a column in the Key Resources Table which usually does not include references. Is it correct?_
 
-**Action**: This will fire if a citation is present in the 1st, 2nd or 4th column in a Key resources table \(these are headed 'Reagent type \(species\) or resource', 'Designation', and 'Identifiers', respectively\). If it's clear, based on the content of the rest of the table, that the citation should be moved in the 3rd \(headed 'Source/reference'\) or 5th \(headed 'Additional information'\) column, then ensure that it is moved to one of these columns. If it is not clear, and the article is at a pre-author stage, then the following query should be added:
+**Action**: This will fire if a citation is present in the 1st, 2nd or 4th column in a Key resources table (these are headed 'Reagent type (species) or resource', 'Designation', and 'Identifiers', respectively). If it's clear, based on the content of the rest of the table, that the citation should be moved in the 3rd (headed 'Source/reference') or 5th (headed 'Additional information') column, then ensure that it is moved to one of these columns. If it is not clear, and the article is at a pre-author stage, then the following query should be added:
 
 * Please confirm, is this citation in the correct column?
 
-If the article is post-author, then the authors should be queried to check that this is correct \(if they haven't been already\).
+If the article is post-author, then the authors should be queried to check that this is correct (if they haven't been already).
 
 #### doi-link-test
 
 **Error**: _td element containing - 'XXXXXX' - looks like it contains a doi, but it contains no link with 'doi.org', which is incorrect._
 
-**Action**: This will fire if a table cell in a Key resources table contains an unlinked doi. All dois should be linked in the Key resources table, so action should be taken to ensure that the doi text has an embedded link \(https://doi.org/{doi}\).
+**Action**: This will fire if a table cell in a Key resources table contains an unlinked doi. All dois should be linked in the Key resources table, so action should be taken to ensure that the doi text has an embedded link (https://doi.org/{doi}).
 
 #### PMID-link-test
 
 **Error**: _td element containing - 'XXXXXX' - looks like it contains a PMID, but it contains no link pointing to PubMed, which is incorrect._
 
-**Action**: This will fire if a table cell in a Key resources table contains an unlinked PMID. All PMIDs should be linked in the Key resources table, so action should be taken to ensure that the PMID text has an embedded link \(https://www.pubmed.ncbi.nlm.nih.gov/{PMID}\).
+**Action**: This will fire if a table cell in a Key resources table contains an unlinked PMID. All PMIDs should be linked in the Key resources table, so action should be taken to ensure that the PMID text has an embedded link (https://www.pubmed.ncbi.nlm.nih.gov/{PMID}).
 
 #### PMCID-link-test
 
 **Error**: _td element containing - 'XXXXXX' - looks like it contains a PMCID, but it contains no link pointing to PMC, which is incorrect._
 
-**Action**: This will fire if a table cell in a Key resources table contains an unlinked PMCID. All PMCIDs should be linked in the Key resources table, so action should be taken to ensure that the PMCID text has an embedded link \(https://www.ncbi.nlm.nih.gov/pmc/{PMCID}\).
+**Action**: This will fire if a table cell in a Key resources table contains an unlinked PMCID. All PMCIDs should be linked in the Key resources table, so action should be taken to ensure that the PMCID text has an embedded link (https://www.ncbi.nlm.nih.gov/pmc/{PMCID}).
 
 #### colour-check-table
 
 **Warning**: _XXXXXX element has colour background. Is this correct? It contains XXXXXX._
 
-**Action**: This will fire if a table cell in a table has colour formatting \(a style attribute beginning with 'author-callout'\). eLife only allow the following colours in table cells -  blue, green orange, yellow, purple, red, pink and grey. When this fires \(and [**pre-colour-check-table-2**](tables.md#pre-colour-check-table-2) does not fire\) an author query should be added to the table \(only 1 per table\):
+**Action**: This will fire if a table cell in a table has colour formatting (a style attribute beginning with 'author-callout'). eLife only allow the following colours in table cells -  blue, green orange, yellow, purple, red, pink and grey. When this fires (and [**pre-colour-check-table-2**](tables.md#pre-colour-check-table-2) does not fire) an author query should be added to the table (only 1 per table):
 
-* Where possible, we prefer that colours are not used in tables in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). Would it be possible to capture the same meaning in this table with more common forms of emphasis \(such as bold, italic or underline\)? If so please stipulate below how the table should be revised. Please note that this is a suggestion and supported colours in tables can be published.
+* Where possible, we prefer that colours are not used in tables in the interests of accessibility and because they will not display in downstream HTML (for example in PMC). Would it be possible to capture the same meaning in this table with more common forms of emphasis (such as bold, italic or underline)? If so please stipulate below how the table should be revised. Please note that this is a suggestion and supported colours in tables can be published.
 
 #### pre-colour-check-table-2
 
-**Warning**: _element containing 'XXXXXX' has an @style with an unallowed value - 'XXXXXX'. The only allowed values are 'author-callout-style-b1', 'author-callout-style-b2', 'author-callout-style-b3', 'author-callout-style-b4', 'author-callout-style-b5', 'author-callout-style-b6', 'author-callout-style-b7', 'author-callout-style-b8' for blue, green orange, yellow, purple, red, pink and grey respectively. Please ensure one of these is used. If it is clear that colours are supposed to be used, but you are not sure which ones, then please query the authors - 'eLife only supports the following colours for table cells - blue, green orange, yellow, purple, red, pink and grey. Please confirm how you would like the colour\(s\) here captured given this information.'._
+**Warning**: _element containing 'XXXXXX' has an @style with an unallowed value - 'XXXXXX'. The only allowed values are 'author-callout-style-b1', 'author-callout-style-b2', 'author-callout-style-b3', 'author-callout-style-b4', 'author-callout-style-b5', 'author-callout-style-b6', 'author-callout-style-b7', 'author-callout-style-b8' for blue, green orange, yellow, purple, red, pink and grey respectively. Please ensure one of these is used. If it is clear that colours are supposed to be used, but you are not sure which ones, then please query the authors - 'eLife only supports the following colours for table cells - blue, green orange, yellow, purple, red, pink and grey. Please confirm how you would like the colour(s) here captured given this information.'._
 
 **Action**: This will fire at a pre-author stage if a table cell in a table has a style attribute with an unallowed value. Usually this will be because the colour formatting is not a supported colour. If it _is_ one of the supported colours and this message fires this is a problem - it means that the content has not been tagged correctly.
 
-In the case where it is a colour that is not supported \(brown for example\), then as the message suggests the following author query should be added:
+In the case where it is a colour that is not supported (brown for example), then as the message suggests the following author query should be added:
 
-* Where possible, we prefer that colours are not used in tables in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). However, eLife does support the following colours for table cells - blue, green orange, yellow, purple, red, pink and grey. Please confirm how you would like the colour\(s\) captured here given this information, and note that our preference would be to use more common forms of emphasis \(such as bold, italic or underline\) if possible to still convey the same meaning.
+* Where possible, we prefer that colours are not used in tables in the interests of accessibility and because they will not display in downstream HTML (for example in PMC). However, eLife does support the following colours for table cells - blue, green orange, yellow, purple, red, pink and grey. Please confirm how you would like the colour(s) captured here given this information, and note that our preference would be to use more common forms of emphasis (such as bold, italic or underline) if possible to still convey the same meaning.
 
 See also [**Allowed colours in table cells**](tables.md#allowed-colours-in-tables).
 
@@ -460,7 +460,7 @@ See also [**Allowed colours in table cells**](tables.md#allowed-colours-in-table
 
 **Error**: _element containing 'XXXXXX' has an @style with an unallowed value - 'XXXXXX'. The only allowed values are 'author-callout-style-b1', 'author-callout-style-b2', 'author-callout-style-b3', 'author-callout-style-b4', 'author-callout-style-b5', 'author-callout-style-b6', 'author-callout-style-b7', 'author-callout-style-b8' for blue, green orange, yellow, purple, red, pink and grey respectively._
 
-**Action**: This will fire at a post-author stage if a table cell in a table has a style attribute with an unallowed value. Usually this will be because the colour formatting is not a supported colour. If it _is_ one of the supported colours and this message fires this is a problem - it means that the content has not been tagged correctly. If it is not a supported colour, ensure to check the author's response to the query which should have been added pre-author. If the response isn't clear about how to proceed \(or the query was mistakenly not left\), then Production will need to contact the author to ask how they would like to proceed.
+**Action**: This will fire at a post-author stage if a table cell in a table has a style attribute with an unallowed value. Usually this will be because the colour formatting is not a supported colour. If it _is_ one of the supported colours and this message fires this is a problem - it means that the content has not been tagged correctly. If it is not a supported colour, ensure to check the author's response to the query which should have been added pre-author. If the response isn't clear about how to proceed (or the query was mistakenly not left), then Production will need to contact the author to ask how they would like to proceed.
 
 See also [**Allowed colours in table cells**](tables.md#allowed-colours-in-tables).
 
@@ -472,10 +472,10 @@ See also [**Allowed colours in table cells**](tables.md#allowed-colours-in-table
 
 **Action**: This will fire if a table has an id which is not correct based on its label. There are two possible scenarios here:
 
-1. A labelled table \(e.g. Table 1\) with the incorrect id.
-2. An inline \(un-labelled\) table with the correct id, but an unnecessary label.
+1. A labelled table (e.g. Table 1) with the incorrect id.
+2. An inline (un-labelled) table with the correct id, but an unnecessary label.
 
-Check against the original manuscript in order to determine whether the table should be labelled or not. This can be determined if the author has included a label or if they have included a title and/or caption \(if they have included a title and/or caption but no label in the original manuscript then one will have to provided\). If \(after having checked the manuscript\) it should be a labelled table, then Exeter will have to correct the id. A table with a label must have an id in the format `table1`.  
+Check against the original manuscript in order to determine whether the table should be labelled or not. This can be determined if the author has included a label or if they have included a title and/or caption (if they have included a title and/or caption but no label in the original manuscript then one will have to provided). If (after having checked the manuscript) it should be a labelled table, then Exeter will have to correct the id. A table with a label must have an id in the format `table1`.  
 
 If the second scenario is the case, the erroneous label should be removed, and the id left as it is.
 
@@ -486,9 +486,9 @@ If the second scenario is the case, the erroneous label should be removed, and t
 **Action**: This is the inverse of [table-wrap-test-3](tables.md#table-wrap-test-3). It will fire if a table without a label has a label which is in the format `table1`. There are two scenarios here:
 
 1. A table with the correct id which is missing its label.
-2. An inline \(un-labelled\) table with the incorrect id.
+2. An inline (un-labelled) table with the incorrect id.
 
-Check against the original manuscript in order to determine whether the table should be labelled or not. This can be determined if the author has included a label, or if they have included a title and/or caption. If \(after having checked the manuscript\) it should be a labelled table, then ensure the correct label is added \(Exeter will have to do this\). A table with id in the format `table1`, must have a label in the format 'Table 1.' 
+Check against the original manuscript in order to determine whether the table should be labelled or not. This can be determined if the author has included a label, or if they have included a title and/or caption. If (after having checked the manuscript) it should be a labelled table, then ensure the correct label is added (Exeter will have to do this). A table with id in the format `table1`, must have a label in the format 'Table 1.' 
 
 If the second scenario is the case, the id will need to be corrected so that it is in the format `inlinetable1`. 
 
@@ -508,51 +508,51 @@ If the second scenario is the case, the id will need to be corrected so that it 
 
 **Warning**: _There is no citation to XXXXXX. Ensure to query the author asking for a citation._
 
-**Action**: This will fire at pre-author stages for tables \(which are not Key resources tables\) with labels. If this fires \(and there are no issues with labelling or the table id\), then the following author query should be added:
+**Action**: This will fire at pre-author stages for tables (which are not Key resources tables) with labels. If this fires (and there are no issues with labelling or the table id), then the following author query should be added:
 
 * Please provide an in-text citation for this table.
 
-The only exception to this is where the article contains an appendix and there is no appropriate place to cite the tables in the appendix \(for example if it is _only_ made up of tables\). In such cases, adding a query is not necessary.
+The only exception to this is where the article contains an appendix and there is no appropriate place to cite the tables in the appendix (for example if it is _only_ made up of tables). In such cases, adding a query is not necessary.
 
 #### final-table-wrap-cite-1
 
 **Warning**: _There is no citation to XXXXXX. Ensure this is added._
 
-**Action**: This will fire at post-author stages for tables \(which are not Key resources tables\) with labels, in articles which are not corrections or retractions. If this fires \(and there are no issues with labelling or the table id\), and the authors have not indicated in response to a query where the citation should be, then eLife production should contact the authors to get an appropriate citation.
+**Action**: This will fire at post-author stages for tables (which are not Key resources tables) with labels, in articles which are not corrections or retractions. If this fires (and there are no issues with labelling or the table id), and the authors have not indicated in response to a query where the citation should be, then eLife production should contact the authors to get an appropriate citation.
 
-The only exception to this is where the article contains an appendix and there is no appropriate place to cite the tables in the appendix \(for example if it is _only_ made up of tables\).
+The only exception to this is where the article contains an appendix and there is no appropriate place to cite the tables in the appendix (for example if it is _only_ made up of tables).
 
 #### feat-table-wrap-cite-1
 
 **Warning**: _There is no citation to XXXXXX. Is this correct?_
 
-**Action**: This will fire at all stages for tables \(which are not Key resources tables\) with labels, in feature content \(insights or feature articles\). 
+**Action**: This will fire at all stages for tables (which are not Key resources tables) with labels, in feature content (insights or feature articles). 
 
-If this fires at a **pre-author stage** \(and there are no issues with labelling or the table id\), then the following author query should be added:
+If this fires at a **pre-author stage** (and there are no issues with labelling or the table id), then the following author query should be added:
 
 * Please provide an in-text citation for this table.
 
-If this fires at a **post-author stage**, this should be **ignored** by Exeter and eLife production should check with Features as to whether there should be a citation \(if it isn't already clear\).
+If this fires at a **post-author stage**, this should be **ignored** by Exeter and eLife production should check with Features as to whether there should be a citation (if it isn't already clear).
 
 #### kr-table-not-tagged
 
 **Warning**: _XXXXXX has headings that are for a Key resources table, but it does not have an @id the format 'keyresource' or 'app0keyresource'._
 
-**Action**: This will at all stages fire if a table has all the Key resources table headings but does not have an id in the format `keyresource` or _`app0keyresource`._ If this fires, ensure that the Table is captured as a Key resources table \(with the correct id and label depending on where it is placed and no title or caption\).
+**Action**: This will at all stages fire if a table has all the Key resources table headings but does not have an id in the format `keyresource` or _`app0keyresource`._ If this fires, ensure that the Table is captured as a Key resources table (with the correct id and label depending on where it is placed and no title or caption).
 
 #### kr-table-not-tagged-2
 
 **Warning**: _XXXXXX has the title XXXXXX but it is not tagged as a key resources table. Is this correct?_
 
-**Action**: This will fire at all stages if a table has a title containing the text 'Key resource'. If it _is_ a key resources table, then this should be captured as a Key resources table \(with the correct id, label and no title or caption\). If it is not \(i.e. just a normal table, without the standard Key resources table headings, which happens to have the text 'Key resource' in it's title\), then this message can be ignored.
+**Action**: This will fire at all stages if a table has a title containing the text 'Key resource'. If it _is_ a key resources table, then this should be captured as a Key resources table (with the correct id, label and no title or caption). If it is not (i.e. just a normal table, without the standard Key resources table headings, which happens to have the text 'Key resource' in it's title), then this message can be ignored.
 
 #### kr-table-header-1
 
-**Warning**: _Key resources tables should have 5 column headings \(th elements\) but this one has X. Either it is incorrectly typeset or the author will need to be queried in order to provide the table in the correct format._
+**Warning**: _Key resources tables should have 5 column headings (th elements) but this one has X. Either it is incorrectly typeset or the author will need to be queried in order to provide the table in the correct format._
 
-**Action**: This will fire at all stages if a Key resources table does not have the correct number of headings. All Key resources tables should have 5 headings/columns. If the table is typeset correctly \(**please check this carefully**\), as the author provided it, then the following author query should be added:
+**Action**: This will fire at all stages if a Key resources table does not have the correct number of headings. All Key resources tables should have 5 headings/columns. If the table is typeset correctly (**please check this carefully**), as the author provided it, then the following author query should be added:
 
-* This Key resource table is not in the correct format. Please provide a revised table as a Word or Excel file in response to the proofing email. A template for the table can be found at https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+* This Key resource table is not in the correct format. Please provide a revised table as a Word or Excel file in response to the proofing email. A template for the table can be found at https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
 #### kr-table-header-2
 
@@ -560,13 +560,13 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Action**: This will fire at all stages if a Key resources table has more than one row in it's header. It is **very** likely that this means the table has been incorrectly typeset. If this is the case please correct. If this has been checked very carefully and the table is as the author provided it, then the following author query should be added:
 
-* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file (such as word or excel) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
 #### kr-table-header-3
 
 **Warning**: _Key resources table has no rows in its header, which is incorrect._
 
-**Action**: This will fire at all stages if a Key resources table has no rows in it's header. It is **very** likely that this means the table has been incorrectly typeset. Action should be taken to include the required headings for Key resources tables \(see [Key resources tables](tables.md#key-resources-tables)\).
+**Action**: This will fire at all stages if a Key resources table has no rows in it's header. It is **very** likely that this means the table has been incorrectly typeset. Action should be taken to include the required headings for Key resources tables (see [Key resources tables](tables.md#key-resources-tables)).
 
 For example, the header may be present as a row in the body of the table, rather than captured as a proper header.
 
@@ -574,109 +574,115 @@ For example, the header may be present as a row in the body of the table, rather
 
 #### kr-table-header-4
 
-**Warning**: _The first column header in a Key resources table is usually 'Reagent type \(species\) or resource' but this one has 'XXXXXX'._
+**Warning**: _The first column header in a Key resources table is usually 'Reagent type (species) or resource' but this one has 'XXXXXX'._
 
-**Action**: This will fire at all stages if the first header in a Key resources table is not 'Reagent type \(species\) or resource'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](tables.md#key-resources-tables)\), then please add the following author query:
+**Action**: This will fire at all stages if the first header in a Key resources table is not 'Reagent type (species) or resource'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be (see [above](tables.md#key-resources-tables)), then please add the following author query:
 
-* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file (such as word or excel) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
 #### kr-table-header-5
 
 **Warning**: _The second column header in a Key resources table is usually 'Designation' but this one has 'XXXXXX'._
 
-**Action**: This will fire at all stages if the second header in a Key resources table is not 'Designation'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
+**Action**: This will fire at all stages if the second header in a Key resources table is not 'Designation'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be (see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)), then please add the following author query:
 
-* This Key resource table is not in the correct format. Please provide a revised table as a Word or Excel file in response to the proofing email. A template for the table can be found at https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+* This Key resource table is not in the correct format. Please provide a revised table as a Word or Excel file in response to the proofing email. A template for the table can be found at https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
 #### kr-table-header-6
 
 **Warning**: _The third column header in a Key resources table is usually 'Source or reference' but this one has 'XXXXXX'._
 
-**Action**: This will fire at all stages if the third header in a Key resources table is not 'Source or reference'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
+**Action**: This will fire at all stages if the third header in a Key resources table is not 'Source or reference'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be (see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)), then please add the following author query:
 
-* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file (such as word or excel) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
 #### kr-table-header-7
 
 **Warning**: _The fourth column header in a Key resources table is usually 'Identifiers' but this one has 'XXXXXX'._
 
-**Action**: This will fire at all stages if the fourth header in a Key resources table is not 'Identifiers'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
+**Action**: This will fire at all stages if the fourth header in a Key resources table is not 'Identifiers'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be (see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)), then please add the following author query:
 
-* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file (such as word or excel) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
 #### kr-table-header-8
 
 **Warning**: _The fifth column header in a Key resources table is usually 'Additional information' but this one has 'XXXXXX'._
 
-**Action**: This will fire at all stages if the fifth header in a Key resources table is not 'Additional information'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be \(see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)\), then please add the following author query:
+**Action**: This will fire at all stages if the fifth header in a Key resources table is not 'Additional information'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be (see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)), then please add the following author query:
 
-* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file \(such as word or excel\) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file (such as word or excel) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
 #### kr-table-body-1
 
-**Error**: _Table cell in_ Key resources _table containing 'XXXXXX' is captured as a table header cell \(th\), which is not allowed. Ensure that this is changed to a normal table cell \(td\)._
+**Error**: _Table cell in _Key resources_ table containing 'XXXXXX' is captured as a table header cell (th), which is not allowed. Ensure that this is changed to a normal table cell (td)._
 
-**Action**: This will fire for any table cell in the body of a Key Resources table which is captured with heading formatting \(as a `<th>` element\). This should always be changed to a normal table cell \(`<td>` element\).
+**Action**: This will fire for any table cell in the body of a Key Resources table which is captured with heading formatting (as a `<th>` element). This should always be changed to a normal table cell (`<td>` element).
 
 #### kr-table-first-column-1
 
 **Warning**: _A cell in the first column of the body of a key resources table should start with one of the standard values. 'XXXXXX' does not start with one of Gene; Strain, strain background; Genetic reagent; Cell line; Transfected construct; Biological sample; Antibody; Recombinant DNA reagent; Sequence-based reagent; Peptide, recombinant protein; Commercial assay or kit; Chemical compound, drug; Software; Algorithm; Other._
 
-**Action**: This warning will fire for any table cell in the first column of the body of a Key Resources table which does not start with one of the standard categories \(listed in the message above\). If it's clear this is a typo, then the typo can simply be corrected. Otherwise this warning should be ignored.
+**Action**: This warning will fire for any table cell in the first column of the body of a Key Resources table which does not start with one of the standard categories (listed in the message above). If it's clear this is a typo, then the typo can simply be corrected. Otherwise this warning should be ignored.
 
 #### table-test-2
 
-**Warning**: _table doesn't have a header \(thead\). Is this correct?_
+**Warning**: _table doesn't have a header (thead). Is this correct?_
 
-**Action**: This will fire if a table does not have a header \(the `<table>` element does not have a child `<thead>` element\). This could either mean that the table has been incorrectly typeset without headers, or there could be a good reason that it does not have a header \(see [Tables with multiple headers](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)\). Checking against the original manuscript should give an indication of how this table should be captured. If it is an error then this should be fixed by Exeter, otherwise the message can be ignored.
+**Action**: This will fire if a table does not have a header (the `<table>` element does not have a child `<thead>` element). This could either mean that the table has been incorrectly typeset without headers, or there could be a good reason that it does not have a header (see [Tables with multiple headers](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#tables-with-multiple-headers)). Checking against the original manuscript should give an indication of how this table should be captured. If it is an error then this should be fixed by Exeter, otherwise the message can be ignored.
 
 #### table-test-3
 
-**Warning**: _XXXXXX has a main header \(thead\), but it also has a header or headers in the body and contains 45 or more rows. The main \(first\) header will as a result appear at the start of any new pages in the PDF. Is this correct? Or should the main header be moved down into the body \(but still captured with &lt;th&gt; instead of &lt;td&gt;\) so that this header does not appear on the subsequent pages?_
+**Warning**: _XXXXXX has a main header (thead), but it also has a header or headers in the body and contains 45 or more rows. The main (first) header will as a result appear at the start of any new pages in the PDF. Is this correct? Or should the main header be moved down into the body (but still captured with \<th> instead of \<td>) so that this header does not appear on the subsequent pages?_
 
-**Action**: This will fire if a table has multiple headers \(one of which is captured in a `<thead>` element\) and is long enough to span multiple pages. As described [**above**](tables.md#tables-with-multiple-headers), headers captured in a `<thead>` element will appear at the top of any subsequent page the Table spans onto. Depending on the content of the table this may or may not be suitable. If the headings in the body of the table are intended to supersede the preceding heading\(s\), then the first heading will need to be moved from `<thead>` into `<tbody>` \(while still being captured in `<th>` elements\). Here are two examples where it would be appropriate to make this change:
+**Action**: This will fire if a table has multiple headers (one of which is captured in a `<thead>` element) and is long enough to span multiple pages. As described [**above**](tables.md#tables-with-multiple-headers), headers captured in a `<thead>` element will appear at the top of any subsequent page the Table spans onto. Depending on the content of the table this may or may not be suitable. If the headings in the body of the table are intended to supersede the preceding heading(s), then the first heading will need to be moved from `<thead>` into `<tbody>` (while still being captured in `<th>` elements). Here are two examples where it would be appropriate to make this change:
 
-{% file src="../../../.gitbook/assets/57381.pdf" caption="Tables 1 and 2 with heading issues" %}
+{% file src="../../../.gitbook/assets/57381.pdf" %}
+Tables 1 and 2 with heading issues
+{% endfile %}
 
-{% file src="../../../.gitbook/assets/56816.pdf" caption="Table 17 with heading issues" %}
+{% file src="../../../.gitbook/assets/56816.pdf" %}
+Table 17 with heading issues
+{% endfile %}
 
 And here is an example where it is fine to ignore the warning:
 
-{% file src="../../../.gitbook/assets/44656.pdf" caption="Table 1 headings are fine" %}
+{% file src="../../../.gitbook/assets/44656.pdf" %}
+Table 1 headings are fine
+{% endfile %}
 
 #### tbody-test-1
 
-**Error**: _tbody must have at least one row \(tr\)._
+**Error**: _tbody must have at least one row (tr)._
 
 **Action**: This will fire if the body of a table does not have a row. This is unlikely to occur and if it does, would indicate that the table has been typeset incorrectly, which will need to be fixed by Exeter.
 
 #### thead-test-1
 
-**Error**: _thead must have at least one row \(tr\)._
+**Error**: _thead must have at least one row (tr)._
 
 **Action**: This will fire if the header of a table does not have a row. This is unlikely to occur and if it does, would indicate that the table has been typeset incorrectly, which will need to be fixed by Exeter.
 
 #### tr-test-1
 
-**Error**: _row \(tr\) must contain at least one heading cell \(th\) or data cell \(td\)._
+**Error**: _row (tr) must contain at least one heading cell (th) or data cell (td)._
 
 **Action**: This will fire if the a row does not have any table cells. This is unlikely to occur and if it does, would indicate that the table has been typeset incorrectly, which will need to be fixed by Exeter.
 
 #### tr-test-2
 
-**Warning**: _table row in body contains a th element \(a header\). Please check that this is correct._
+**Warning**: _table row in body contains a th element (a header). Please check that this is correct._
 
-**Action**: This will fire for table cells which are styled as headers, but are in the table body. If the table has numerous headers throughout it \(and is supposed to\), then this can be ignored. Otherwise Exeter will have to change this to a normal table cell.
+**Action**: This will fire for table cells which are styled as headers, but are in the table body. If the table has numerous headers throughout it (and is supposed to), then this can be ignored. Otherwise Exeter will have to change this to a normal table cell.
 
 #### tr-test-3
 
-**Error**: _table row in header contains a td element \(table data\), which is not allowed. Only th elements \(table heading cells\) are allowed in a row in the table header._
+**Error**: _table row in header contains a td element (table data), which is not allowed. Only th elements (table heading cells) are allowed in a row in the table header._
 
 **Action**: This will fire for table cells which are not styled as headers, but are in the header of the table. The cell should be given heading formatting.
 
 #### th-row-test
 
-**Warning**: _Table header cell containing 'XXXXXX' has table data \(not header\) cells next to it on the same row. Is this correct? Should the whole row be header cells, or should this cell extend across the whole row?_
+**Warning**: _Table header cell containing 'XXXXXX' has table data (not header) cells next to it on the same row. Is this correct? Should the whole row be header cells, or should this cell extend across the whole row?_
 
 **Action**: This will fire if a table row contains a mixture of table header cells and normal table cells. This is relatively unusual, although there are a some cases where this would be appropriate. Checking the table in the original manuscript will give some indication of how the headings in a table should look like, and if any changes are required these will need to be implemented by Exeter.
 
@@ -684,13 +690,13 @@ In a case like [this](https://elifesciences.org/articles/53910#table1)
 
 ![](../../../.gitbook/assets/screen-shot-2020-05-29-at-13.02.24.png)
 
-all the table cells next to 'Refinement \(Phenix\)' and 'Validation' \(in their rows\) should be given table header formatting.
+all the table cells next to 'Refinement (Phenix)' and 'Validation' (in their rows) should be given table header formatting.
 
 In a case like [this](https://elifesciences.org/articles/52505#table1) 
 
 ![](../../../.gitbook/assets/screen-shot-2020-05-29-at-12.58.10.png)
 
-'Map resolution' should be made into one cell spanning across its entire row \(formatted as a header\). This change should be made to achieve consistency with all of the other headings in this table.
+'Map resolution' should be made into one cell spanning across its entire row (formatted as a header). This change should be made to achieve consistency with all of the other headings in this table.
 
 In a case like [this](https://elifesciences.org/articles/53498#table1)
 
@@ -702,7 +708,7 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 **Warning**: _'XXXXXXX' citation is in a column in the Key Resources Table which usually does not include references. Is it correct?_
 
-**Action**: This will fire at all stages if a citation in a Key resources table is not in the third or fifth row \(the commonly used ones for citations\). If it is clear that this needs to moved to a different column or is a mistake \(for example a superscript number converted to a citation which should have been left as a number\), then it should be corrected. If not clear, and at a pre-author stage please add this author query:
+**Action**: This will fire at all stages if a citation in a Key resources table is not in the third or fifth row (the commonly used ones for citations). If it is clear that this needs to moved to a different column or is a mistake (for example a superscript number converted to a citation which should have been left as a number), then it should be corrected. If not clear, and at a pre-author stage please add this author query:
 
 * Please confirm whether this citation is in the correct column in the Key resources table.
 
@@ -724,17 +730,17 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 #### table-cell-1
 
-**Warning**: _Table cell in XXXXXX contains 'XXXXXX'. Are the brackets around the citation\(s\) unnecessary?_
+**Warning**: _Table cell in XXXXXX contains 'XXXXXX'. Are the brackets around the citation(s) unnecessary?_
 
-**Example:** _'Table cell in Key resources table contains ' \(Monk et al., 2012\) '. Are the brackets around the citation\(s\) unnecessary?_
+**Example:** _'Table cell in Key resources table contains ' (Monk et al., 2012) '. Are the brackets around the citation(s) unnecessary?_
 
-**Action**: This will fire at all stages is a table cell contains a reference citation or reference citations and the text other than the citation\(s\) does not contain letters or numbers. In a case where, the content of the cell is just citations, then the brackets around them should be removed. If there is other text, which makes the brackets necessary, then they can be left. 
+**Action**: This will fire at all stages is a table cell contains a reference citation or reference citations and the text other than the citation(s) does not contain letters or numbers. In a case where, the content of the cell is just citations, then the brackets around them should be removed. If there is other text, which makes the brackets necessary, then they can be left. 
 
 #### pre-table-title-test-1
 
 **Warning**: _XXXXXX does not have a title. Please ensure to query the authors for one._
 
-**Action**: This will fire at all pre-author stages if a table with a label \(which is not a Key resources table\) does not have a title. First check that the title has not been included as part of a caption. If it hasn't, then an author query should be added to obtain a title:
+**Action**: This will fire at all pre-author stages if a table with a label (which is not a Key resources table) does not have a title. First check that the title has not been included as part of a caption. If it hasn't, then an author query should be added to obtain a title:
 
 * Please provide a title for this table.
 
@@ -742,7 +748,7 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 **Error**: _XXXXXX does not have a title. Please ensure to query the authors for one._
 
-**Action**: This will fire at all post-author stages if a table with a label \(which is not a Key resources table\) does not have a title. eLife production will have to query the authors asking for one at Pub Review.
+**Action**: This will fire at all post-author stages if a table with a label (which is not a Key resources table) does not have a title. eLife production will have to query the authors asking for one at Pub Review.
 
 #### table-title-test-3
 
@@ -768,7 +774,7 @@ If this warning appears at post-author stages, the author will need to be asked 
 
 #### table-title-test-6
 
-**Warning**: _The title for XXXXXX contains XXXXXX sentences. Should the sentence\(s\) after the first be moved into the caption? Or is the title itself a caption \(in which case, please ask the authors for a title\)?_
+**Warning**: _The title for XXXXXX contains XXXXXX sentences. Should the sentence(s) after the first be moved into the caption? Or is the title itself a caption (in which case, please ask the authors for a title)?_
 
 **Action**: This warning will fire at all stages if a title has more than one sentence. This will usually happen if the table caption has been pulled into the table title. Compare with the submission to see whether this is the case, and correct accordingly. At pre author stages, if no title has been provided for the table in the submission, leave the following query:
 
@@ -784,13 +790,13 @@ These checks relate to the XML structure of tables. X or XXXXXX refers to quoted
 
 **Error**: _table-wrap @id in 'app0table0' for normal tables, or 'app0keyresource' for key resources tables in appendices. XXXXXX does not conform to this._
 
-**Action**: This will fire when the value if the `id` attribute for a table \(with a label\) in the appendix is not in the format `app0table0` or `app0keyresource`. If this fires, it either means that the Table is in the incorrect appendix, or the id needs to be corrected.
+**Action**: This will fire when the value if the `id` attribute for a table (with a label) in the appendix is not in the format `app0table0` or `app0keyresource`. If this fires, it either means that the Table is in the incorrect appendix, or the id needs to be corrected.
 
 #### app-table-wrap-id-test-2
 
 **Error**: _table-wrap @id must start with XXXXXX._
 
-**Action**: This will fire when the value if the `id` attribute for a table \(with a label\) in the appendix does not start with `app` and the appendix number. For example, the ids for any tables in Appendix 1 should start with `app1`. If this fires, it either means that the Table is in the incorrect appendix, or the id needs to be corrected.
+**Action**: This will fire when the value if the `id` attribute for a table (with a label) in the appendix does not start with `app` and the appendix number. For example, the ids for any tables in Appendix 1 should start with `app1`. If this fires, it either means that the Table is in the incorrect appendix, or the id needs to be corrected.
 
 #### resp-table-wrap-id-test
 
@@ -814,7 +820,7 @@ Exeter will need to correct this issue if it fires.
 
 **Error**: _table-wrap @id must be in the format 'table0', unless it doesn't have a label, in which case it must be 'inlinetable0' or it is the key resource table which must be 'keyresource'._
 
-**Action**: This will fire when the value if the `id` attribute for a table in the body of an article \(i.e. not in appendices or decision letters or author responses\) is incorrect. If it is a Key resources table, the id must be `keyresource`_._ If the table has a label, it must be in the format `table0`. It it does not have a label, it needs to be in the format `inlinetable0`.
+**Action**: This will fire when the value if the `id` attribute for a table in the body of an article (i.e. not in appendices or decision letters or author responses) is incorrect. If it is a Key resources table, the id must be `keyresource`_._ If the table has a label, it must be in the format `table0`. It it does not have a label, it needs to be in the format `inlinetable0`.
 
 #### table-wrap-test-1
 
@@ -826,11 +832,11 @@ Exeter will need to correct this issue if it fires.
 
 **Warning**: _table-wrap has more than one table - Is this correct?_
 
-**Action**: This will fire if a `<table-wrap>` element more than one a child `<table>` element. If the table has two or more sections in it with differing numbers of columns, but it has the same label \(and title\), then this warning can be ignored. If it does not, the table should be collated so that there is only one table element - only Exeter are able to do this.
+**Action**: This will fire if a `<table-wrap>` element more than one a child `<table>` element. If the table has two or more sections in it with differing numbers of columns, but it has the same label (and title), then this warning can be ignored. If it does not, the table should be collated so that there is only one table element - only Exeter are able to do this.
 
 #### table-test-1
 
-**Error**: _table must have at least one body \(tbody\)._
+**Error**: _table must have at least one body (tbody)._
 
 **Action**: This will fire if a `<table>` element does not have a child `<tbody>` element. This means that something has gone wrong with the typesetting - there may just be a header, or there may be no content at all. The table will need to be corrected.
 
@@ -844,7 +850,7 @@ Exeter will need to correct this issue if it fires.
 
 **Error**: _th cannot contain XXXXXX. Only the following elements are allowed - 'bold', 'italic', 'sup', 'sub', 'sc', 'ext-link', 'xref', 'break', 'named-content', 'monospace',  'code', 'inline-graphic', and 'inline-formula'._
 
-**Action**: The list of allowed elements correspond to the following types of content respectively - bold, italics, superscript, subscript, small caps, citations, hyperlinks, line breaks, colour formatting, monospace, code, inline images, and inline formulae. \(Note that while underline is allowed in table data cells, it is not allowed in header cells.\) This will fire if a table header cell contains any other type of content, and will likely need to be corrected by Exeter.
+**Action**: The list of allowed elements correspond to the following types of content respectively - bold, italics, superscript, subscript, small caps, citations, hyperlinks, line breaks, colour formatting, monospace, code, inline images, and inline formulae. (Note that while underline is allowed in table data cells, it is not allowed in header cells.) This will fire if a table header cell contains any other type of content, and will likely need to be corrected by Exeter.
 
 #### th-child-test-2
 
@@ -856,19 +862,19 @@ Exeter will need to correct this issue if it fires.
 
 **Error**: _PMID link should be preceding by 'PMID:' with no space but instead it is preceded by 'XXXXXX'_
 
-**Action**: This will fire if a link which points to [PubMed](https://pubmed.ncbi.nlm.nih.gov/) is preceded by 'PMID:' or 'PMID' followed by a space. As the message suggest the space between PMID: and the link should be removed.
+**Action**: This will fire if a link which points to [PubMed](https://pubmed.ncbi.nlm.nih.gov) is preceded by 'PMID:' or 'PMID' followed by a space. As the message suggest the space between PMID: and the link should be removed.
 
 #### final-pmid-spacing-table
 
 **Warning**: _PMID link should be preceding by 'PMID:' with no space but instead it is preceded by 'XXXXXX'_
 
-**Action**: This will fire if a link which points to [PubMed](https://pubmed.ncbi.nlm.nih.gov/) is preceded by 'PMID:' or 'PMID' followed by a space. As the message suggest the space between PMID: and the link should be removed. This is warning, because of a possible edge case, where an author would want to include some content which is not a PMID, but points to PubMed and requires a space before it.
+**Action**: This will fire if a link which points to [PubMed](https://pubmed.ncbi.nlm.nih.gov) is preceded by 'PMID:' or 'PMID' followed by a space. As the message suggest the space between PMID: and the link should be removed. This is warning, because of a possible edge case, where an author would want to include some content which is not a PMID, but points to PubMed and requires a space before it.
 
 #### table-title-test-2
 
 **Error**: _The title for XXXXXX empty which is not allowed._
 
-**Action**: This will fire at all stages if the title for a table is empty. This means that either a title is missing, in which case it should be added \(or queried with the authors if it is not available\), or that something has gone wrong with XML generation, in which case the Exeter support team will need to be contacted.
+**Action**: This will fire at all stages if the title for a table is empty. This means that either a title is missing, in which case it should be added (or queried with the authors if it is not available), or that something has gone wrong with XML generation, in which case the Exeter support team will need to be contacted.
 
 ## XML structure
 
@@ -882,7 +888,7 @@ The body of a table is wrapped in a `<tbody>` element.
 
 Table footers should be captured using the `<table-wrap-foot>` element, which is captured as a child of `<table-wrap>`.
 
-Each table row is captured in a `<tr>` element, which can contain either table data cells \(`<td>`\) or table header cells \(`<th>`\).
+Each table row is captured in a `<tr>` element, which can contain either table data cells (`<td>`) or table header cells (`<th>`).
 
 An empty `<break/>` element should be used to break text between two lines in a table cell.
 
@@ -1438,4 +1444,3 @@ Vertical cell alignment is defined using the `valign` attribute.
 * Updated 2020-09-09 to include table-title-test-5 and table-title-test-6.
 * Updated 2020-10-21 to move table-xref-conformity-1 to 4 and table-xref-test-1 to 6 to asset citations page.  
 * Updated 2020-11-30 to account for kr-table-not-tagged changing to warning.
-

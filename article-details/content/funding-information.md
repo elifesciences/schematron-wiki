@@ -10,7 +10,7 @@ For the changelog, click [**here**](funding-information.md#changelog). Updated 1
 
 ## What is the funding section?
 
-The funding section is where all funding received by authors in the process of researching and publishing the article is listed. The name of the funder, the reference number of the grant \(if appropriate\), the author\(s\) who received the funding, and a funding statement are included in the funding table.
+The funding section is where all funding received by authors in the process of researching and publishing the article is listed. The name of the funder, the reference number of the grant (if appropriate), the author(s) who received the funding, and a funding statement are included in the funding table.
 
 * Every funder must have at least one author associated with it.
 * Grant references are optional. 
@@ -27,10 +27,10 @@ The funding section is where all funding received by authors in the process of r
 
 The details of each funding reference need to be checked individually. Ideally, every funder should be validated against the Funder Registry.
 
-Validated funders are indicated by a green tick at the end of the funder name.   
-If a funder is not validated, check whether it is on the[ **Funder Registry**](https://gitlab.com/crossref/open_funder_registry) list \(note: this list is updated sporadically so please re-download it every time you need to check it\).   
-Try re-typing the funder name if it is in the registry, this can make it "stick".    
-If the funder is not in the registry, conduct an online search. Sometimes the name may need correcting slightly, or what the author has listed as the funder is funded by another organisation that is in the Funder Registry \(see [**here**](funding-information.md#splitting-out-parent-and-sub-funders) for examples of how to capture this information\).
+Validated funders are indicated by a green tick at the end of the funder name. \
+If a funder is not validated, check whether it is on the[ **Funder Registry**](https://gitlab.com/crossref/open_funder_registry) list (note: this list is updated sporadically so please re-download it every time you need to check it). \
+Try re-typing the funder name if it is in the registry, this can make it "stick".  \
+If the funder is not in the registry, conduct an online search. Sometimes the name may need correcting slightly, or what the author has listed as the funder is funded by another organisation that is in the Funder Registry (see [**here**](funding-information.md#splitting-out-parent-and-sub-funders) for examples of how to capture this information).
 
 The Funder Registry contains variants of funder names. For example, the following all refer to the same [funder](http://data.crossref.org/fundingdata/funder/10.13039/501100004792):
 
@@ -47,20 +47,20 @@ Please check the acknowledgements section of the article for additional funders 
 
 ## Examples
 
-* \*\*\*\*[**Funder details in acknowledgements section but not in funding section**](funding-information.md#funder-details-in-acknowledgements-section-but-not-in-funding-section)\*\*\*\*
-* \*\*\*\*[**Multiple grant references in one entry**](funding-information.md#multiple-grant-references-in-one-entry)\*\*\*\*
-* \*\*\*\*[**Third-party funding vs funding to authors**](funding-information.md#third-party-funding-vs-funding-to-authors)\*\*\*\*
-* \*\*\*\*[**Splitting out parent and sub-funders**](funding-information.md#splitting-out-parent-and-sub-funders)\*\*\*\*
-* \*\*\*\*[**Funders that are in Funder Registry but hard to track down - non-English funder names that require translation**](funding-information.md#funders-that-are-in-funder-registry-but-hard-to-track-down-non-english-funder-names-that-require-translation)\*\*\*\*
-* \*\*\*\*[**Funders not in the Funder Registry**](funding-information.md#funders-not-in-the-funder-registry)\*\*\*\*
-* \*\*\*\*[**Examples of when to ignore/pay attention to the schematron message**](funding-information.md#examples-of-when-to-ignore-pay-attention-to-the-schematron-messages)\*\*\*\*
-* \*\*\*\*[**No funding information given**](funding-information.md#no-funding-information-given)\*\*\*\*
+* ****[**Funder details in acknowledgements section but not in funding section**](funding-information.md#funder-details-in-acknowledgements-section-but-not-in-funding-section)****
+* ****[**Multiple grant references in one entry**](funding-information.md#multiple-grant-references-in-one-entry)****
+* ****[**Third-party funding vs funding to authors**](funding-information.md#third-party-funding-vs-funding-to-authors)****
+* ****[**Splitting out parent and sub-funders**](funding-information.md#splitting-out-parent-and-sub-funders)****
+* ****[**Funders that are in Funder Registry but hard to track down - non-English funder names that require translation**](funding-information.md#funders-that-are-in-funder-registry-but-hard-to-track-down-non-english-funder-names-that-require-translation)****
+* ****[**Funders not in the Funder Registry**](funding-information.md#funders-not-in-the-funder-registry)****
+* ****[**Examples of when to ignore/pay attention to the schematron message**](funding-information.md#examples-of-when-to-ignore-pay-attention-to-the-schematron-messages)****
+* ****[**No funding information given**](funding-information.md#no-funding-information-given)****
 
 ### Funder details in acknowledgements section but not in funding section
 
 In article 51144, the acknowledgements section states:
 
-> We thank Shellee Cunnington, Mark Cafaro, and Jim Kuchenbecker for technical assistance. Tissue was provided by the Tissue Distribution Program at the Washington National Primate Research Center \(WaNPRC; supported through NIH grant P51 OD-010425\), and we thank the WaNPRC staff, particularly Chris English and Audrey Baldessari, for making these experiments possible. Fred Rieke and Chris Chen assisted in tissue preparation. We thank Fred Rieke for helpful discussions. We also thank Ione Fine, Phil Mardoum, Christian Puller, and Greg Schwartz for feedback on a previous version of this manuscript. This work was supported in part by grants from the NIH \(NEI R01-EY027323 to MBM; NEI R01-EY029247 to EJC, FR, and MBM.; NEI P30-EY001730 to the Vision Core\), Research to Prevent Blindness Unrestricted Grant \(to the University of Washington Department of Ophthalmology\), **Latham Vision Research Innovation Award \(to MBM\), and the Alcon Young Investigator Award \(to MBM\).**
+> We thank Shellee Cunnington, Mark Cafaro, and Jim Kuchenbecker for technical assistance. Tissue was provided by the Tissue Distribution Program at the Washington National Primate Research Center (WaNPRC; supported through NIH grant P51 OD-010425), and we thank the WaNPRC staff, particularly Chris English and Audrey Baldessari, for making these experiments possible. Fred Rieke and Chris Chen assisted in tissue preparation. We thank Fred Rieke for helpful discussions. We also thank Ione Fine, Phil Mardoum, Christian Puller, and Greg Schwartz for feedback on a previous version of this manuscript. This work was supported in part by grants from the NIH (NEI R01-EY027323 to MBM; NEI R01-EY029247 to EJC, FR, and MBM.; NEI P30-EY001730 to the Vision Core), Research to Prevent Blindness Unrestricted Grant (to the University of Washington Department of Ophthalmology), **Latham Vision Research Innovation Award (to MBM), and the Alcon Young Investigator Award (to MBM).**
 
 When this article came out of pre-editing, the information for the Latham Vision Research Innovation Award had not been added, and the Alcon Research Institute did not have grant reference details added. The following steps should have been taken:
 
@@ -76,15 +76,17 @@ When this article came out of pre-editing, the information for the Latham Vision
 
 ![](../../.gitbook/assets/2.png)
 
-1. Enter the funder as ‘University of Washington’ and ‘Latham Vision Research Innovation Award’ as the grant reference, and assign the correct author to this funder \(in this case, it would be ‘MBM’ i.e. Michael B Manookin\)
-2. Leave the following author query for the authors to confirm this information has been entered correctly.
+1. Enter the funder as ‘University of Washington’ and ‘Latham Vision Research Innovation Award’ as the grant reference, and assign the correct author to this funder (in this case, it would be ‘MBM’ i.e. Michael B Manookin)
+2.  Leave the following author query for the authors to confirm this information has been entered correctly.
 
-   * Please check that the edited funding details are still correct.
+    * Please check that the edited funding details are still correct.
+
+
 
 #### For the Alcon Research Institute
 
 1. Search for ‘Alcon Young Investigator Award’ online - which brings up [**this page**](https://www.alcon.com/alcon-research-institute), suggesting the funder is called Alcon Research Institute, and the award itself is the Alcon Young Investigator Award
-2. Enter this information in the funding table and assign the correct author \(in this case, it would be ‘MBM’ i.e. Michael B Manookin\)
+2. Enter this information in the funding table and assign the correct author (in this case, it would be ‘MBM’ i.e. Michael B Manookin)
 
 ![](../../.gitbook/assets/3.png)
 
@@ -92,20 +94,20 @@ In article 50927, the acknowledgements section states:
 
 > This work was supported by the National Institutes of Health through **National Institute of Neurological Disorders and Stroke grants R01-NS084142, R01-NS095368, and R01-NS110669**, the Gatsby Charitable Trust, the Simons Foundation, and NSF NeuroNex Award DBI-1707398. We thank Steven Siegelbaum, Kenneth Miller, Sean Escola, Ning Qian, and colleagues at Columbia Neurotheory Center for their useful discussions and suggestions.
 
-The authors had added the National Institute of Neurological Disorders and Stroke as a funder - which validated against the Funder Registry registry. However, only one grant reference was entered \(R01-NS084142\), although the acknowledgements section mentions three. This is also a good example of parent and sub-funders - click [here](funding-information.md#splitting-out-parent-and-sub-funders) for more information about splitting these out.
+The authors had added the National Institute of Neurological Disorders and Stroke as a funder - which validated against the Funder Registry registry. However, only one grant reference was entered (R01-NS084142), although the acknowledgements section mentions three. This is also a good example of parent and sub-funders - click [here](funding-information.md#splitting-out-parent-and-sub-funders) for more information about splitting these out.
 
 ![](../../.gitbook/assets/4.png)
 
 The steps to take in this case are:
 
 1. Add a new funder and enter ‘National Institute of Neurological Disorders and Stroke’ in the funder field
-2. Add the grant reference R01-NS095368 and assign the same authors as in the first entry \(Jyun-you Liou, Elliot H Smith, Catherine Schevon\)
+2. Add the grant reference R01-NS095368 and assign the same authors as in the first entry (Jyun-you Liou, Elliot H Smith, Catherine Schevon)
 3. Add a new funder and do the same again for the grant reference R01-NS110669
 4. Leave the following author query asking the authors to confirm the edits to both funder entries:
 
 * Please check that the edited funding details are still correct.
 
-![](../../.gitbook/assets/4%20%284%29.png)
+![](<../../.gitbook/assets/4 (4).png>)
 
 Some funders can be tricky to track down. For example, the acknowledgements section of 51440 states:
 
@@ -125,15 +127,15 @@ Note that this is a complicated example, and the authors should be asked to conf
 
 ### Joint funders
 
-Some funding is provided through multiple funding agencies. For example, the [**SFI-HRB-Wellcome Research Partnership**](https://wellcome.ac.uk/funding/sfi-hrb-wellcome-research-partnership) ****is funded jointly by the Science Foundation Ireland, Health Research Board and the Wellcome Trust. The acknowledgements section of 58925 stated:
+Some funding is provided through multiple funding agencies. For example, the [**SFI-HRB-Wellcome Research Partnership**](https://wellcome.ac.uk/funding/sfi-hrb-wellcome-research-partnership)** **is funded jointly by the Science Foundation Ireland, Health Research Board and the Wellcome Trust. The acknowledgements section of 58925 stated:
 
-> CJR’s work on this study was funded by the HRB/SFI/Wellcome Trust partnership \(grant number 103049/Z/13/Z\)
+>  CJR’s work on this study was funded by the HRB/SFI/Wellcome Trust partnership (grant number 103049/Z/13/Z)
 
 This was added to the funding table as below:
 
 ![](../../.gitbook/assets/screenshot-2020-06-24-at-14.44.33.png)
 
-Usually it is possible to tell  joint funders because the names are separated by a hyphen. If funders entered in this form do not validate, try entering each institution separately \(i.e. Science Foundation Ireland, Health Research Board and Wellcome should be separate entries\) with the same grant reference if one has been provided. If the authors have given information about who received this funding, make sure this is the same for all the entries. Add the following query once you have added joint funders:
+Usually it is possible to tell  joint funders because the names are separated by a hyphen. If funders entered in this form do not validate, try entering each institution separately (i.e. Science Foundation Ireland, Health Research Board and Wellcome should be separate entries) with the same grant reference if one has been provided. If the authors have given information about who received this funding, make sure this is the same for all the entries. Add the following query once you have added joint funders:
 
 * To ensure all funders are credited in the Open Funder Registry, we have added one entry per funder for this joint grant. Please check that the edited funding details are still correct.
 
@@ -143,7 +145,7 @@ If the article is at pub review, these entries can be left as-is.
 
 Sometimes, multiple grant references will be entered under the same funder. In the example below, the first entry for the funder 'Cancerfonden' has the grant reference 'CAN2011/1180; CAN 2018/793'. If grant references include semi-colons or commas, this usually indicates multiple grants from the same funder. If you need to split funding entries, cross-check with the acknowledgements to see if they have specified different authors for each of the grants, and add an author query if you are unsure the split is correct.
 
-![](../../.gitbook/assets/6%20%284%29.png)
+![](<../../.gitbook/assets/6 (4).png>)
 
 In this case, split the grant references into two entries, enter the same author for both, and leave the following author query:
 
@@ -171,11 +173,11 @@ It can be tricky to work out when grants should be split into multiple entries i
 
 Sometimes authors will include information about third-party funders in their acknowledgements. Third party funding is any funding that did not go directly to the authors but to the institutes or labs they work at. These funders do not need to be listed in the funding table as they did not directly fund the work presented in the paper. For example, the acknowledgements section of 51915 states:
 
-> The authors thank Drs. Silvia Arber, Ruth Ashery-Padan, James Li, Andrew McMahon, Michael Robinson, David Ornitz, Xin Sun and Stephen Tsang for mice, Drs. Bridget Hogan, Gord Fishell, Suzanne Mansour and Gail Martin for in situ probes. We also thank Drs. Carlo Maurer and Kenneth Olive for help with Laser Capture Microscopy, Drs. Howard Worman and Ji-Yeon Shin for advice on Lamin A/C antibody, Dr. Mukesh Bansal for bioinformatics analysis, Joseph Ryo for critical reading of the manuscript. The work was supported by NIH \(EY017061 and EY025933 to XZ\). **The Columbia Ophthalmology Core Facility is supported by NIH Core grant 5P30EY019007 and unrestricted funds from Research to Prevent Blindness \(RPB\).** XZ is supported by Jules and Doris Stein Research to Prevent Blindness Professorship. AG was a recipient of STARR fellowship. QW is supported by a Postdoctoral Fellowship from Natural Sciences and Engineering Research Council of Canada.
+> The authors thank Drs. Silvia Arber, Ruth Ashery-Padan, James Li, Andrew McMahon, Michael Robinson, David Ornitz, Xin Sun and Stephen Tsang for mice, Drs. Bridget Hogan, Gord Fishell, Suzanne Mansour and Gail Martin for in situ probes. We also thank Drs. Carlo Maurer and Kenneth Olive for help with Laser Capture Microscopy, Drs. Howard Worman and Ji-Yeon Shin for advice on Lamin A/C antibody, Dr. Mukesh Bansal for bioinformatics analysis, Joseph Ryo for critical reading of the manuscript. The work was supported by NIH (EY017061 and EY025933 to XZ). **The Columbia Ophthalmology Core Facility is supported by NIH Core grant 5P30EY019007 and unrestricted funds from Research to Prevent Blindness (RPB).** XZ is supported by Jules and Doris Stein Research to Prevent Blindness Professorship. AG was a recipient of STARR fellowship. QW is supported by a Postdoctoral Fellowship from Natural Sciences and Engineering Research Council of Canada.
 
-This information does not need to be added to the funding table as it refers to the Columbia Ophthalmology Core Facility and not a specific author. Note that the schematron validator would show the following [warning](funding-information.md#fundref-test-1) \(with the doi for NIH listed\): 
+This information does not need to be added to the funding table as it refers to the Columbia Ophthalmology Core Facility and not a specific author. Note that the schematron validator would show the following [warning](funding-information.md#fundref-test-1) (with the doi for NIH listed): 
 
-> Acknowledgements contains funder\(s\) in the open funder registry, but their doi is not listed in the funding section. Please check -
+> Acknowledgements contains funder(s) in the open funder registry, but their doi is not listed in the funding section. Please check - 
 
 However, this is okay to ignore in this case.
 
@@ -191,17 +193,17 @@ The funder to enter in this case is the National Institute of Neurological Disor
 
 Another example of this is the Horizon 2020 funding given out by the European Commission. In this article, the acknowledgements section states:
 
-> We thank D Thomas Rutkowski for providing Atf6-/- MEFs and Svenja Siebels for helpful advice on the DPI-ELISA. This study was supported by the Deutsche Forschungsgemeinschaft \(BR 1730/6-1 to WB\), the **EU Horizon 2020 Marie Sklodowska-Curie ITN-TREATMENT** \(Grant 721236 to BT\), the German-Israeli Foundation \(Grant I-1471–414.13/2018 to BT\), and Giovanni Armenise-Harvard Foundation \(Career Development Award to EvA\).
+> We thank D Thomas Rutkowski for providing Atf6-/- MEFs and Svenja Siebels for helpful advice on the DPI-ELISA. This study was supported by the Deutsche Forschungsgemeinschaft (BR 1730/6-1 to WB), the **EU Horizon 2020 Marie Sklodowska-Curie ITN-TREATMENT** (Grant 721236 to BT), the German-Israeli Foundation (Grant I-1471–414.13/2018 to BT), and Giovanni Armenise-Harvard Foundation (Career Development Award to EvA).
 
 The parent funder here is Horizon 2020, which is listed in the Funder Registry. However, to be as specific as possible, H2020 Marie Skłodowska-Curie Actions should be entered, as this is also in the Funder Registry.
 
-Sometimes, authors will enter programs as main funders. If the authors have entered a details for specific program as a funder \(e.g. 'Lois Pope LIFE Fellows Program'\), check whether this is an award issued by a funding body which is in the registry \(in this case, that would be the [**University of Miami**](http://biomed.med.miami.edu/graduate-programs/neuroscience/events/lois-pope-life-fellowship-awards)\). The program name should then be moved to the grant reference column and the funding body's name entered in its place:
+Sometimes, authors will enter programs as main funders. If the authors have entered a details for specific program as a funder (e.g. 'Lois Pope LIFE Fellows Program'), check whether this is an award issued by a funding body which is in the registry (in this case, that would be the [**University of Miami**](http://biomed.med.miami.edu/graduate-programs/neuroscience/events/lois-pope-life-fellowship-awards)). The program name should then be moved to the grant reference column and the funding body's name entered in its place:
 
 ![](../../.gitbook/assets/screenshot-2020-04-07-at-12.21.02.png)
 
 ### Funders that are in Funder Registry but hard to track down - non-English funder names that require translation
 
-Some funders in the Funder Registry will not validate unless they are entered in a non-English language. For example, the Spanish Ministry of Economy and Competitiveness \(MINECO\) will not validate unless it is entered in Spanish, or entered in English as the 'Ministry of Economy and Competitiveness':
+Some funders in the Funder Registry will not validate unless they are entered in a non-English language. For example, the Spanish Ministry of Economy and Competitiveness (MINECO) will not validate unless it is entered in Spanish, or entered in English as the 'Ministry of Economy and Competitiveness':
 
 ![](../../.gitbook/assets/screenshot-2020-03-19-at-12.50.50.png)
 
@@ -211,7 +213,7 @@ Some funders in the Funder Registry will not validate unless they are entered in
 
 In article 51928, the acknowledgements section states:
 
-> This work was supported by Baylor College of Medicine, Texas Children’s Hospital, the National Institute of Neurological Disorders and Stroke \(AMB: F31NS101891, JJW: F31NS092264, RVS: R01NS089664 and R01NS100874\), the Eunice Kennedy Shriver National Institute of Child Health and Human Development \(U54HD083092\), a BCM IDDRC Project Development Award, **the Hamill Foundation**, the Mrs. Clifford Elder White Graham Endowed Research Fund, and the Bachmann-Strauss Dystonia and Parkinson Foundation, Inc. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Center for Research Resources or the National Institutes of Health.
+> This work was supported by Baylor College of Medicine, Texas Children’s Hospital, the National Institute of Neurological Disorders and Stroke (AMB: F31NS101891, JJW: F31NS092264, RVS: R01NS089664 and R01NS100874), the Eunice Kennedy Shriver National Institute of Child Health and Human Development (U54HD083092), a BCM IDDRC Project Development Award, **the Hamill Foundation**, the Mrs. Clifford Elder White Graham Endowed Research Fund, and the Bachmann-Strauss Dystonia and Parkinson Foundation, Inc. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Center for Research Resources or the National Institutes of Health.
 
 When adding the Hamill Foundation as a funder, it did not validate against the Funder Registry.
 
@@ -219,7 +221,7 @@ When adding the Hamill Foundation as a funder, it did not validate against the F
 
 The following schematron [warning](funding-information.md#institution-id-test) was present: 
 
-> Whenever possible, a funder should have a doi - please check whether there is an appropriate doi in the open funder registry. \(institution-id\[@institution-id-type="FundRef"\] is not present in institution-wrap\).
+> Whenever possible, a funder should have a doi - please check whether there is an appropriate doi in the open funder registry. (institution-id\[@institution-id-type="FundRef"] is not present in institution-wrap).
 
 An online search for 'Hamill Foundation' leads to [this page](https://www.guidestar.org/profile/23-7028238). As this looks like a legitimate funder, we can ignore the schematron warning in this case.  
 
@@ -227,17 +229,17 @@ The funding table may also already have unvalidated funders in it. For example, 
 
 ![](../../.gitbook/assets/screenshot-2020-04-07-at-12.58.29.png)
 
-An online search for the 'Triad Foundation' leads to [this page](https://fconline.foundationcenter.org/fdo-grantmaker-profile?collection=grantmakers&key=TRIA018). As this looks like a legitimate funder, the schematron warning can be ignored. 
+An online search for the 'Triad Foundation' leads to [this page](https://fconline.foundationcenter.org/fdo-grantmaker-profile?collection=grantmakers\&key=TRIA018). As this looks like a legitimate funder, the schematron warning can be ignored. 
 
 ### Examples of when to ignore/pay attention to the schematron messages
 
 In article 49392, the acknowledgements section states:
 
-> This work was supported by Grants-in-aid for Scientific Research from the Ministry of Education, Culture, Sports, Science and Technology \(MEXT\) of Japan \(26221005\); the Project for Development of Innovative Research on Cancer Therapeutics \(P-DIRECT\) \(14069014\) and the Project for Cancer Research And Therapeutic Evolution \(P-CREATE\) from **Japan Agency for Medical Research and Development \(AMED\)**; a grant from Tokyo Biochemical Research Foundation; a Keio Gijuku Academic Development Funds. We would like to thank Miyuki Saito for technical assistance and JeongHoon Park, Misako Horikawa, and Ryoko Suzuki for preparation of the manuscript.
+> This work was supported by Grants-in-aid for Scientific Research from the Ministry of Education, Culture, Sports, Science and Technology (MEXT) of Japan (26221005); the Project for Development of Innovative Research on Cancer Therapeutics (P-DIRECT) (14069014) and the Project for Cancer Research And Therapeutic Evolution (P-CREATE) from **Japan Agency for Medical Research and Development (AMED)**; a grant from Tokyo Biochemical Research Foundation; a Keio Gijuku Academic Development Funds. We would like to thank Miyuki Saito for technical assistance and JeongHoon Park, Misako Horikawa, and Ryoko Suzuki for preparation of the manuscript.
 
 The following [schematron warning](funding-information.md#fundref-test-1) fired:
 
-> Acknowledgements contains funder\(s\) in the open funder registry, but their doi is not listed in the funding section. Please check - Research and Development - http://dx.doi.org/10.13039/100006190.
+> Acknowledgements contains funder(s) in the open funder registry, but their doi is not listed in the funding section. Please check - Research and Development - http://dx.doi.org/10.13039/100006190.
 
 This warning fired because the phrase 'Research and Development' was present in the acknowledgments. However, in this case, this phrase is part of the name of another funder - Japan Agency for Medical Research and Development. Therefore, this warning can be ignored.
 
@@ -259,7 +261,7 @@ These warnings relate to the content of the funding section.
 
 **Error**: _There must be one and only one funding-group element in the article-meta. Currently there are XXXXXX._
 
-**Action:** This error will fire if there is 0 or more than 1 funding statements for an article. If there are no funding statements and the acknowledgements section mentions funding for the work, add the funders into the table, and the funding statement 'The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.' and leave the following author query: 
+**Action: **This error will fire if there is 0 or more than 1 funding statements for an article. If there are no funding statements and the acknowledgements section mentions funding for the work, add the funders into the table, and the funding statement 'The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.' and leave the following author query: 
 
 * We have added the additional funding information from your acknowledgements. Please check the changes to your funding details and confirm they are correct.
 
@@ -267,7 +269,7 @@ If no funders are mentioned, the funding statement should be 'No external fundin
 
 * Please confirm whether any funding was received for this work.
 
-If there is more than one funding statement, this suggests something has gone wrong in Kriya. The Production team will need to determine which is the correct statement \(e.g. by comparing the funding statement with the acknowledgements section and funding table or by liaising with the authors\).
+If there is more than one funding statement, this suggests something has gone wrong in Kriya. The Production team will need to determine which is the correct statement (e.g. by comparing the funding statement with the acknowledgements section and funding table or by liaising with the authors).
 
 #### funding-group-test-3
 
@@ -285,9 +287,9 @@ If no funders are mentioned, the funding statement should be 'No external fundin
 
 **Warning:** _Is the funding-statement correct? There are funders, but the statement is 'XXXXXX'. If there are funders it should usually be 'The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.'_
 
-**Action:** This will fire if there are funding entries and the funding statement does not state 'The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.' \(with the 's' in 'funders' being optional\). If the statement is 'No external funding was received for this work.', then it should be changed to the above which is eLife's standard statement for funding. If the funding statement is something different \(perhaps if it refers to a specific funder\), such as:
+**Action:** This will fire if there are funding entries and the funding statement does not state 'The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.' (with the 's' in 'funders' being optional). If the statement is 'No external funding was received for this work.', then it should be changed to the above which is eLife's standard statement for funding. If the funding statement is something different (perhaps if it refers to a specific funder), such as:
 
-> The funder \(HHMI\) provided technical support for study design, and data collection.
+> The funder (HHMI) provided technical support for study design, and data collection.
 
 Then it should be left as is, and the warning ignored. If the funding statement is substantively the same, but simply reworded in a different way:
 
@@ -297,9 +299,9 @@ or if it refers to a particular piece of funding that is included in the funding
 
 > This work was supported by the FRM, grant DBF20160635740. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
 
-Then it should be changed to the default statement \(The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.\). In the last example, if the funding is not present in the funding table, then it should also be added to the funding table, and if it is unclear which author\(s\) benefitted from the funding then the following query should be added:
+Then it should be changed to the default statement (The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.). In the last example, if the funding is not present in the funding table, then it should also be added to the funding table, and if it is unclear which author(s) benefitted from the funding then the following query should be added:
 
-* Please confirm which author\(s\) benefitted from this funding.
+* Please confirm which author(s) benefitted from this funding.
 
 #### award-id-test-1
 
@@ -331,33 +333,33 @@ For more information on splitting out grant references, see [here](funding-infor
 
 ![](../../.gitbook/assets/screenshot-2020-04-07-at-12.52.40.png)
 
-The character / is appearing as broken unicode. Doing an online search for &\#x2215 will show what the correct character should be.
+The character / is appearing as broken unicode. Doing an online search for \&#x2215 will show what the correct character should be.
 
 #### institution-id-test
 
-**Warning:** _Whenever possible, a funder should have a doi - please check whether there is an appropriate doi in the open funder registry. \(institution-id\[@institution-id-type="FundRef"\] is not present in institution-wrap\)._
+**Warning:** _Whenever possible, a funder should have a doi - please check whether there is an appropriate doi in the open funder registry. (institution-id\[@institution-id-type="FundRef"] is not present in institution-wrap)._
 
 **Action:** This warning will fire if a funder does not have a Funder Registry DOI associated with it. In these cases, first check that the funder name has been entered correctly by looking it up in the [**Funder Registry**](https://gitlab.com/crossref/open_funder_registry). Try searching for partial matches to the provided text. If no matches are returned, search for the entered funder online.
 
-If an online search shows that the funder is legitimate \(e.g. returns a website for the mentioned organisation\) but it is not on the Funder Registry and has no parent funding body, this warning can be ignored \(see [**above**](funding-information.md#funders-not-in-the-funder-registry)\).
+If an online search shows that the funder is legitimate (e.g. returns a website for the mentioned organisation) but it is not on the Funder Registry and has no parent funding body, this warning can be ignored (see [**above**](funding-information.md#funders-not-in-the-funder-registry)).
 
-If the authors have entered a details for specific program \(e.g. 'Lois Pope LIFE Fellows Program'\), check whether this is an award issued by a funding body which is in the registry \(in this case, that would be the [**University of Miami**](http://biomed.med.miami.edu/graduate-programs/neuroscience/events/lois-pope-life-fellowship-awards)\). The program name should then be moved to the grant reference column and the funding body's name entered in its place. See also how to [**split parent and sub-funders**](funding-information.md#splitting-out-parent-and-sub-funders).
+If the authors have entered a details for specific program (e.g. 'Lois Pope LIFE Fellows Program'), check whether this is an award issued by a funding body which is in the registry (in this case, that would be the [**University of Miami**](http://biomed.med.miami.edu/graduate-programs/neuroscience/events/lois-pope-life-fellowship-awards)). The program name should then be moved to the grant reference column and the funding body's name entered in its place. See also how to [**split parent and sub-funders**](funding-information.md#splitting-out-parent-and-sub-funders).
 
 For more information on the Funder Registry, see [**here**](funding-information.md#funder-registry).
 
 #### fundref-test-1
 
-**Warning:** _Acknowledgements contains funder\(s\) in the open funder registry, but their doi is not listed in the funding section. Please check - 'XXXXXX'._
+**Warning:** _Acknowledgements contains funder(s) in the open funder registry, but their doi is not listed in the funding section. Please check - 'XXXXXX'._
 
 **Action:** This will fire if funders are mentioned in the acknowledgements section, but have not been added to the funding table. You may need to add funders into the table, but this may not be necessary - if for example, it refers to [third-party funding](funding-information.md#third-party-funding-vs-funding-to-authors). It may also not be necessary if the acknowledgements section mentions institutions of the individuals they are thanking, e.g.:
 
-> The authors thank \[...\] Dr. Evan Reid \(University of Cambridge\) \[...\] The Leica SP8 microscope used in this study was purchased by the University of Manchester Strategic Fund.
+> The authors thank \[...] Dr. Evan Reid (University of Cambridge) \[...] The Leica SP8 microscope used in this study was purchased by the University of Manchester Strategic Fund.
 
 The University of Cambridge should not be listed in the funding table because it is not mentioned as a funder but as the institution of one of the authors. The University of Manchester should also not be listed in the funding table because it is listed here as a third-party funder - i.e. it did not provide funding to the authors. For more guidance on adding funders into the table, see examples [**here**](funding-information.md#examples).
 
 #### pre-award-group-test-7
 
-**Warning:** _There is no author associated with the funding for 'XXXXXX', which is incorrect. \(There is no xref from a contrib pointing to this &lt;award-group id="fundX"&gt;\). If you are unable to determine which author\(s\) are associated with this funding, please add an author query._
+**Warning:** _There is no author associated with the funding for 'XXXXXX', which is incorrect. (There is no xref from a contrib pointing to this \<award-group id="fundX">). If you are unable to determine which author(s) are associated with this funding, please add an author query._
 
 **Action:** This will fire at pre-author stages. Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, please leave the following author query: 
 
@@ -365,7 +367,7 @@ The University of Cambridge should not be listed in the funding table because it
 
 **final-award-group-test-7**
 
-**Error:** _There is no author associated with the funding for 'XXXXXX', which is incorrect. \(There is no xref from a contrib pointing to this &lt;award-group id="fundX"&gt;\)_
+**Error:** _There is no author associated with the funding for 'XXXXXX', which is incorrect. (There is no xref from a contrib pointing to this \<award-group id="fundX">)_
 
 **Action:** This will fire at post-author stages. Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, the eLife team will have to contact the authors in order to determine who the funding should be attributed to.
 
@@ -373,7 +375,7 @@ The University of Cambridge should not be listed in the funding table because it
 
 **Error:** _Author name in funding entry contains a full stop - XXXXXX. Please remove the full stop._
 
-**Action:** This will fire at all stages if an author name in the funding table contains a full stop. These are taken from the proper author names, but do not update automatically when an author name is changed. The most likely scenario is that the article was processed, and then subsequently the full stop\(s\) were removed from the author name \(in the authors section in article details\), leaving the full stop in the respective name in the funding table \(because it didn't automatically update after the change\). In the event that the author's name is correct \(without full stops\) in the authors section, to resolve this error, simply re-enter the name in the funding entry. If the authors name \(in the authors section in article details\) also has a full stop, then correct it first there, and then in the funding section.
+**Action:** This will fire at all stages if an author name in the funding table contains a full stop. These are taken from the proper author names, but do not update automatically when an author name is changed. The most likely scenario is that the article was processed, and then subsequently the full stop(s) were removed from the author name (in the authors section in article details), leaving the full stop in the respective name in the funding table (because it didn't automatically update after the change). In the event that the author's name is correct (without full stops) in the authors section, to resolve this error, simply re-enter the name in the funding entry. If the authors name (in the authors section in article details) also has a full stop, then correct it first there, and then in the funding section.
 
 ### XML structure checks
 
@@ -417,11 +419,11 @@ If the authors confirm no funding was received, make sure the funding statement 
 
 **Error:** _award-group must contain a funding-source._
 
-**Action:** Make sure a funder name is present in the award group element \(see [below](funding-information.md#xml-structure) for XML structure\). It should be impossible for this error to occur - please contact the Production team if you see it. 
+**Action: **Make sure a funder name is present in the award group element (see [below](funding-information.md#xml-structure) for XML structure). It should be impossible for this error to occur - please contact the Production team if you see it. 
 
 #### pre-award-group-test-3
 
-**Warning:** _award-group must contain a principal-award-recipient. If it is not clear which author\(s\) are associated with this funding, please add an author query._
+**Warning:** _award-group must contain a principal-award-recipient. If it is not clear which author(s) are associated with this funding, please add an author query._
 
 **Action:** This will fire at pre-author stages. Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, please leave the following author query: 
 
@@ -443,49 +445,49 @@ If the authors confirm no funding was received, make sure the funding statement 
 
 **Error:** _funding-source must contain an institution-wrap._
 
-**Action:** Make sure the institution-wrap element \(containing the funder doi and funder name\) is present in the xml \(see [**below**](funding-information.md#xml-structure) for XML structure\). It should be impossible for this error to occur - please contact the Production team if you see it. 
+**Action:** Make sure the institution-wrap element (containing the funder doi and funder name) is present in the xml (see [**below**](funding-information.md#xml-structure) for XML structure). It should be impossible for this error to occur - please contact the Production team if you see it. 
 
 #### award-group-test-6
 
-**Error:** _Every piece of funding must have an institution. &lt;award-group id="XXXXXX"&gt; does not have one._
+**Error:** _Every piece of funding must have an institution. \<award-group id="XXXXXX"> does not have one._
 
-**Action:** Make sure there is an institution element in the xml per award group \(see [below](funding-information.md#xml-structure) for XML structure\). It should be impossible for this error to occur - please contact the Production team if you see it. 
+**Action:** Make sure there is an institution element in the xml per award group (see [below](funding-information.md#xml-structure) for XML structure). It should be impossible for this error to occur - please contact the Production team if you see it. 
 
 #### award-group-test-8
 
-**Error:** _Every piece of funding must only have 1 institution. &lt;award-group id="XXXXXX"&gt; has XXXXXX - XXXXXX_
+**Error:** _Every piece of funding must only have 1 institution. \<award-group id="XXXXXX"> has XXXXXX - XXXXXX_
 
-**Action:** Make sure there is only institution element in the xml per award group \(see [below](funding-information.md#xml-structure) for XML structure\). It should be impossible for this error to occur - please contact the Production team if you see it. 
+**Action: **Make sure there is only institution element in the xml per award group (see [below](funding-information.md#xml-structure) for XML structure). It should be impossible for this error to occur - please contact the Production team if you see it. 
 
 #### institution-id-test-2
 
 **Error:** _institution-id element must have the attribute institution-id-type="FundRef"._
 
-**Action:** This will fire if an institution-id element does not have the attribute institution-id-type="FundRef". It means that something has gone wrong with XML generation and Exeter will have to contact the support team to fix the issue.
+**Action: **This will fire if an institution-id element does not have the attribute institution-id-type="FundRef". It means that something has gone wrong with XML generation and Exeter will have to contact the support team to fix the issue.
 
 #### institution-id-test-3
 
 **Error:** _The funding entry for XXXXXX has an empty institution-id element, which is not allowed._
 
-**Action:** Every institution-id element must contain content, and empty one will cause the article to fail loading to Continuum. This may occur sometimes due to a bug in Kriya. If it does, it can usually be fixed by re-validating the funder against the Funder registry in Kriya, and saving. This usually resolves the error. If it persists then Exeter will need to contact the support team in order to fix the problem.
+**Action: **Every institution-id element must contain content, and empty one will cause the article to fail loading to Continuum. This may occur sometimes due to a bug in Kriya. If it does, it can usually be fixed by re-validating the funder against the Funder registry in Kriya, and saving. This usually resolves the error. If it persists then Exeter will need to contact the support team in order to fix the problem.
 
 #### institution-id-test-4
 
-**Error:** _The institution-id element in funding entry for XXXXXX contains child element\(s\) \(XXXXXX\) which is not allowed._
+**Error:** _The institution-id element in funding entry for XXXXXX contains child element(s) (XXXXXX) which is not allowed._
 
-**Action:** institution-id elements cannot contain child elements. If this fires, it means that something has gone wrong with XML generation and Exeter will have to contact the support team to fix the issue.
+**Action: **institution-id elements cannot contain child elements. If this fires, it means that something has gone wrong with XML generation and Exeter will have to contact the support team to fix the issue.
 
 #### institution-id-test-5
 
 **Error:** _The institution-id element in funding entry for XXXXXX contains the following text - XXXXXX - which is not a fundref doi._
 
-**Action:** institution-id elements should only contain fundref dois. It should be impossible for this error to occur - please contact the Production team if you see it. 
+**Action: **institution-id elements should only contain fundref dois. It should be impossible for this error to occur - please contact the Production team if you see it. 
 
 #### other-xref-target-test
 
 **Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
 
-**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to an award group, then the `ref-type` attribute value must be 'other'. If the link is meant to point to something else, which is not an award group, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
+**Action: **This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to an award group, then the `ref-type` attribute value must be 'other'. If the link is meant to point to something else, which is not an award group, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
 
 ## XML structure
 
@@ -564,4 +566,3 @@ Article with no funding
 **19/07/2021**
 
 * Added test-funding-group-presence.
-

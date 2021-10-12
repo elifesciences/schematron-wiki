@@ -10,7 +10,7 @@ For the changelog, click [**here**](toggl.md#changelog).
 
 ## What is Toggl?
 
-[**Toggl track**](https://toggl.com/) is a time-tracking application that the eLife production team uses to monitor how much time is spent on different tasks. This information will be used to monitor the effect of changes to workflows, to track the distribution of work compared to article volumes, to monitor the team's availability to work on projects outside the day-to-day tasks, and so on.
+[**Toggl track**](https://toggl.com) is a time-tracking application that the eLife production team uses to monitor how much time is spent on different tasks. This information will be used to monitor the effect of changes to workflows, to track the distribution of work compared to article volumes, to monitor the team's availability to work on projects outside the day-to-day tasks, and so on.
 
 The Toggl interface works via self-reporting, with the user required to start and stop the timer. The user can add a manual description of the task, assign it to a preset ‘project’ and add one or more preset tags.
 
@@ -30,111 +30,23 @@ Tags can be appended to the task to provide further details about what is being 
 
 The following is a full list of projects and the associated tags currently in use by the production team.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Project</th>
-      <th style="text-align:left">Associated tags</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#continuum-checks"><b>Continuum checks</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left">New version</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#emails"><b>Emails</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left">
-        <p>Emails: author details</p>
-        <p>Emails: datasets</p>
-        <p>Emails: figures</p>
-        <p>Emails: math</p>
-        <p>Emails: morning</p>
-        <p>Emails: permissions</p>
-        <p>Emails: press</p>
-        <p>Emails: proof access</p>
-        <p>Emails: proof edits</p>
-        <p>Emails: proof return delay</p>
-        <p>Emails: pub date query</p>
-        <p>Emails: software</p>
-        <p>Emails: striking images</p>
-        <p>Emails: typesetting</p>
-        <p>New version</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#gitbook"><b>GitBook</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left">
-        <p>Reviewing</p>
-        <p>Updating</p>
-        <p>Writing</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#gitlab"><b>GitLab</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#home-page"><b>Homepage</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#kriya-dashboard"><b>Kriya - dashboard</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#libero-editor"><b>Libero Editor</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#meetings"><b>Meetings</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#misc"><b>Misc</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#poa"><b>PoA</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left">New version</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#pub-check"><b>Pub check</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#pub-review"><b>Pub review</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left">New version</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#schematron"><b>Schematron</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#slack"><b>Slack</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left">New version</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="toggl.md#training"><b>Training</b></a>&lt;b&gt;&lt;/b&gt;</td>
-      <td
-      style="text-align:left"></td>
-    </tr>
-  </tbody>
-</table>
+| Project                                                   | Associated tags                                                                                                                                                                                                                                                                                                                                                                       |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ****[**Continuum checks**](toggl.md#continuum-checks)**** | New version                                                                                                                                                                                                                                                                                                                                                                           |
+| ****[**Emails**](toggl.md#emails)****                     | <p>Emails: author details</p><p>Emails: datasets</p><p>Emails: figures</p><p>Emails: math</p><p>Emails: morning</p><p>Emails: permissions</p><p>Emails: press</p><p>Emails: proof access</p><p>Emails: proof edits</p><p>Emails: proof return delay</p><p>Emails: pub date query</p><p>Emails: software</p><p>Emails: striking images</p><p>Emails: typesetting</p><p>New version</p> |
+| ****[**GitBook**](toggl.md#gitbook)****                   | <p>Reviewing</p><p>Updating</p><p>Writing</p>                                                                                                                                                                                                                                                                                                                                         |
+| ****[**GitLab**](toggl.md#gitlab)****                     |                                                                                                                                                                                                                                                                                                                                                                                       |
+| ****[**Homepage**](toggl.md#home-page)****                |                                                                                                                                                                                                                                                                                                                                                                                       |
+| ****[**Kriya - dashboard**](toggl.md#kriya-dashboard)**** |                                                                                                                                                                                                                                                                                                                                                                                       |
+| ****[**Libero Editor**](toggl.md#libero-editor)****       |                                                                                                                                                                                                                                                                                                                                                                                       |
+| ****[**Meetings**](toggl.md#meetings)****                 |                                                                                                                                                                                                                                                                                                                                                                                       |
+| ****[**Misc**](toggl.md#misc)****                         |                                                                                                                                                                                                                                                                                                                                                                                       |
+| ****[**PoA**](toggl.md#poa)****                           | New version                                                                                                                                                                                                                                                                                                                                                                           |
+| ****[**Pub check**](toggl.md#pub-check)****               |                                                                                                                                                                                                                                                                                                                                                                                       |
+| ****[**Pub review**](toggl.md#pub-review)****             | New version                                                                                                                                                                                                                                                                                                                                                                           |
+| ****[**Schematron**](toggl.md#schematron)****             |                                                                                                                                                                                                                                                                                                                                                                                       |
+| ****[**Slack**](toggl.md#slack)****                       | New version                                                                                                                                                                                                                                                                                                                                                                           |
+| ****[**Training**](toggl.md#training)****                 |                                                                                                                                                                                                                                                                                                                                                                                       |
 
 ### Continuum Checks
 
@@ -148,7 +60,7 @@ The following is a full list of projects and the associated tags currently in us
 
 This is used to track time spent checking articles on the journal preview site. The description should be the five-digit article number. Where the check is being carried out on a new or corrected version of an article, the **New version** tag should be applied.
 
-![](../.gitbook/assets/3%20%282%29.png)
+![](<../.gitbook/assets/3 (2).png>)
 
 ### **Emails** 
 
@@ -180,7 +92,7 @@ This project is used for time spent working on emails and managing the productio
 
 When an email task is related to a specific article, the number should be included as the description. If it relates to the regular notifications from the Features team regarding articles that will not receive a digest, 'No digest email' should be used as the description.
 
-Please note that the time recorded under 'email' is all the time required to complete whatever tasks are prompted by that email, that is, reading, investigation, system updates, sending queries to third parties and responding to the email should all be included in the one time recording. Correspondingly, if an email is consulted as part of another task \(e.g. [**Pub review**](toggl.md#pub-review)\), the time taken should be recorded as part of that task, rather than 'Emails'.
+Please note that the time recorded under 'email' is all the time required to complete whatever tasks are prompted by that email, that is, reading, investigation, system updates, sending queries to third parties and responding to the email should all be included in the one time recording. Correspondingly, if an email is consulted as part of another task (e.g. [**Pub review**](toggl.md#pub-review)), the time taken should be recorded as part of that task, rather than 'Emails'.
 
 ![](../.gitbook/assets/screen-shot-2021-03-02-at-16.39.36.png)
 
@@ -215,7 +127,7 @@ This is used to track time spent on GitLab tickets opened with the production ve
 * Choosing homepage image
 * Changing homepage image
 
-This is for recording time spent on updating the eLife homepage image. It covers both choosing the homepage from available options \(in which case the description entered should be 'Choosing homepage image'\) and changing the image on the homepage \(in which case, the description should be 'Changing homepage image'\).
+This is for recording time spent on updating the eLife homepage image. It covers both choosing the homepage from available options (in which case the description entered should be 'Choosing homepage image') and changing the image on the homepage (in which case, the description should be 'Changing homepage image').
 
 ### Kriya - dashboard
 
@@ -238,15 +150,15 @@ This is used to track time spent working on the Libero Editor project - that is,
 
 * The name/purpose of the meeting
 
-This is used to track time spent in meetings \(which can add up quite a lot on some days!\).
+This is used to track time spent in meetings (which can add up quite a lot on some days!).
 
-![](../.gitbook/assets/4%20%282%29.png)
+![](<../.gitbook/assets/4 (2).png>)
 
 ### Misc
 
 **Recommended description**:
 
-* Article number \(if applicable\)
+* Article number (if applicable)
 * Otherwise, the description of the task
 
 This category is used for any task not covered by the other projects. If a miscellaneous task is used often enough, it may be considered for being promoted to a project label in Toggl.
@@ -269,7 +181,7 @@ The PoA project covers time spent working on Publish on Accept articles. This ca
 
 * Article number
 
-This task tracks time spent on the 'Publisher Check' stage in the proofing system.  This should be tracked from when the user begins looking at the article \(either by opening the article or checking the notes on it\) to when they stop working on it, by either logging out of the proof or signing it off to the next stage.
+This task tracks time spent on the 'Publisher Check' stage in the proofing system.  This should be tracked from when the user begins looking at the article (either by opening the article or checking the notes on it) to when they stop working on it, by either logging out of the proof or signing it off to the next stage.
 
 ![](../.gitbook/assets/screen-shot-2021-03-02-at-16.37.39.png)
 
@@ -283,7 +195,7 @@ This task tracks time spent on the 'Publisher Check' stage in the proofing syste
 
 * New version - _where this is carried out for a new version, silent correction or official correction to an article_
 
-This task tracks time spent on the 'Publisher Review' stage in the proofing system.  This should be tracked from when the user begins looking at the article \(either by opening the article or checking the notes/emails on it\) to when they stop working on it, by either logging out of the proof or signing it off to the next stage. Where the check is being carried out on a new or corrected version of an article, the **New version** tag should be applied.
+This task tracks time spent on the 'Publisher Review' stage in the proofing system.  This should be tracked from when the user begins looking at the article (either by opening the article or checking the notes/emails on it) to when they stop working on it, by either logging out of the proof or signing it off to the next stage. Where the check is being carried out on a new or corrected version of an article, the **New version** tag should be applied.
 
 ![](../.gitbook/assets/screen-shot-2021-03-02-at-16.36.01.png)
 
@@ -293,19 +205,18 @@ This task tracks time spent on the 'Publisher Review' stage in the proofing syst
 
 **Recommended description**:
 
-* Article number \(if applicable\)
+* Article number (if applicable)
 
-This tracks time spent communicating on slack, either in relation to a specific article \(e.g. answering questions from the content processors, discussing with the editorial team\) or general communication \(such as assisting another member of the team\).
+This tracks time spent communicating on slack, either in relation to a specific article (e.g. answering questions from the content processors, discussing with the editorial team) or general communication (such as assisting another member of the team).
 
-![](../.gitbook/assets/6%20%282%29.png)
+![](<../.gitbook/assets/6 (2).png>)
 
 ### **Training**
 
 Time spent training other members of the team should be recorded using the Training project.
 
-![](../.gitbook/assets/5%20%281%29.png)
+![](<../.gitbook/assets/5 (1).png>)
 
 ## Changelog
 
 * Updated 2021-03-24 - text and labels updated for full accounting of current processes
-

@@ -8,7 +8,7 @@ description: Mathematical content in eLife articles
 For changelog, click [**here**](maths.md#changelog). Updated 12/07/2021
 {% endhint %}
 
-Many eLife articles contain maths. It can be rendered inline \(inline with the text in a paragraph/list item/table cell or similar\) or as display equations \(equations which are given extra emphasis by being distinct from the text and, in some cases labelled and cited elsewhere in the text\). eLife captures math content either as plain text \(for simple maths\) or as [**MathML**](https://en.wikipedia.org/wiki/MathML) which is a mathematical markup language. Similarly, in their original files, authors can capture maths in varying ways - either as plain text, as MathML \(by using an equation editor in Word or similar word processors\), in [**LaTeX**](https://en.wikipedia.org/wiki/LaTeX), or in other ways \(see also [**What can equations contain**](maths.md#what-can-equations-contain)\).
+Many eLife articles contain maths. It can be rendered inline (inline with the text in a paragraph/list item/table cell or similar) or as display equations (equations which are given extra emphasis by being distinct from the text and, in some cases labelled and cited elsewhere in the text). eLife captures math content either as plain text (for simple maths) or as [**MathML**](https://en.wikipedia.org/wiki/MathML) which is a mathematical markup language. Similarly, in their original files, authors can capture maths in varying ways - either as plain text, as MathML (by using an equation editor in Word or similar word processors), in [**LaTeX**](https://en.wikipedia.org/wiki/LaTeX), or in other ways (see also [**What can equations contain**](maths.md#what-can-equations-contain)).
 
 The equation editor in Kriya uses LaTeX notation, which is then converted to MathML for inclusion in the XML.
 
@@ -16,9 +16,9 @@ The equation editor in Kriya uses LaTeX notation, which is then converted to Mat
 
 * Equations include the same information as in the original manuscript.
 * That there are no Schematron errors for equations.
-* Font use is consistent in the text \(see [**maths as plain text**](maths.md#maths-as-plain-text)\).
-* There are no unnecessary equations in the text for content which should be captured as plain text \(but err on the side of caution; see [**maths as plain text**](maths.md#maths-as-plain-text)\).
-* The labels for display equations are consistent \(see [**display equation labelling**](maths.md#display-equation-labelling)\).
+* Font use is consistent in the text (see [**maths as plain text**](maths.md#maths-as-plain-text)).
+* There are no unnecessary equations in the text for content which should be captured as plain text (but err on the side of caution; see [**maths as plain text**](maths.md#maths-as-plain-text)).
+* The labels for display equations are consistent (see [**display equation labelling**](maths.md#display-equation-labelling)).
 * Equations appear the same in the HTML and in the PDF.
 * Equations are not inappropriately split up into numerous separate equations.
 
@@ -28,11 +28,11 @@ Equations can be captured in two ways, inline or as a display equation. Inline e
 
 For example below, inline equations are marked in blue, and the display equation is marked in red:
 
-![https://elifesciences.org/articles/65878\#fig5](../../.gitbook/assets/screenshot-2021-03-12-at-15.01.30.png)
+![https://elifesciences.org/articles/65878#fig5](../../.gitbook/assets/screenshot-2021-03-12-at-15.01.30.png)
 
 ## What can equations contain
 
-Display equations can \(but don't have to\) have a label. Inline equations cannot have a label. They both must contain some math markup, MathML. 
+Display equations can (but don't have to) have a label. Inline equations cannot have a label. They both must contain some math markup, MathML. 
 
 Equations should not be provided as images. If an author manuscript contains maths captured as images, either the production vendors need to typeset the maths themselves, or eLife production staff need to go back to authors and ask them to provide it in a machine readable format.
 
@@ -44,17 +44,17 @@ If there are other equations with little or truncated content directly preceding
 
 ## Maths as plain text
 
-Equations slow the load time of content in web pages, and may not appear in downstream locations. Therefore, certain maths content \(single operators \[+, –, ±\], numbers alone, some individual characters\) should be converted to plain text where possible. However, this should be done with caution, equations should not be changed to text at the expense of meaning. Equations appear in a different font \(Stix\) to plain text in the PDF. If a symbol is used in a display equation, and then referenced in a preceding or subsequent paragraph \(typically defining or expounding what that symbol represents\), the symbol in the paragraph should be tagged as an inline equation, so that the fonts match, and the reader can easily discern that it is the same symbol from the equation.
+Equations slow the load time of content in web pages, and may not appear in downstream locations. Therefore, certain maths content (single operators \[+, –, ±], numbers alone, some individual characters) should be converted to plain text where possible. However, this should be done with caution, equations should not be changed to text at the expense of meaning. Equations appear in a different font (Stix) to plain text in the PDF. If a symbol is used in a display equation, and then referenced in a preceding or subsequent paragraph (typically defining or expounding what that symbol represents), the symbol in the paragraph should be tagged as an inline equation, so that the fonts match, and the reader can easily discern that it is the same symbol from the equation.
 
 ### An example where changing equations to plain text is inappropriate
 
-![The pink highlighted text should be captured as equations instead](../../.gitbook/assets/image%20%285%29.png)
+![The pink highlighted text should be captured as equations instead](<../../.gitbook/assets/image (5).png>)
 
 For example, the first _i_ is present in the inline equation that precedes it, and therefore it needs to be captured as an equation to match the formatting/font, so that the reader can tell it is the same symbol.
 
 ### An example where changing equations to plain text is appropriate
 
-The author of this example has provided their manuscript as LaTeX. The delta symbol has been included \(and processed\) as an equation:
+The author of this example has provided their manuscript as LaTeX. The delta symbol has been included (and processed) as an equation:
 
 ![Example taken from 64348](../../.gitbook/assets/screenshot-2021-03-25-at-12.23.39.png)
 
@@ -70,7 +70,7 @@ At content loading and/or pre-editing the following instances of maths should be
 
 * Superscript and Subscript for content which are not references to parts of a display formula. For example n$$^{2}$$ should be changed to n².
 * Expressions captured partially in maths, for example x$$=10$$, should be changed to x=10.
-* Symbols which are not referenced in a display equation, which do not need to be captured in maths - for example degree symbols \($$\degree$$ changed to °\), and greek symbols \($$\Delta$$ changed to Δ\).
+* Symbols which are not referenced in a display equation, which do not need to be captured in maths - for example degree symbols ($$\degree$$ changed to °), and greek symbols ($$\Delta$$ changed to Δ).
 * Just numbers only - for example $$123$$ changed to 123.
 
 All other instances should be retained as equations, unless specified by eLife Production staff.
@@ -81,7 +81,7 @@ At post-author stages, any author feedback relating to equations should be addre
 
 ### Equations in abstracts
 
-Abstracts are sent to many downstream services, and some of these are not able to render maths if provided as MathML \(or LaTeX, or images\). Therefore, if it is possible to capture an equation in an abstract as plain text, then it should be done. 
+Abstracts are sent to many downstream services, and some of these are not able to render maths if provided as MathML (or LaTeX, or images). Therefore, if it is possible to capture an equation in an abstract as plain text, then it should be done. 
 
 For example, until recently PubMed were unable to render mathML in abstracts. As a result eLife currently replace any equation in an abstract with the text `[Formula: see text]` in the content that we send them.
 
@@ -89,7 +89,7 @@ For example, until recently PubMed were unable to render mathML in abstracts. As
 
 Display equation labels do not need to be distinct throughout the entire article, but they **do** need to be distinct within the main body, and within an appendix. This means that the label numbering can begin again in an appendix, i.e. there can be an equation with the label `(1)` in the main body, in Appendix 1, Appendix 2 and so on, but there cannot be more than one equation with the label `(1)` within the main body of an article, or within a single appendix.
 
-Note that eLife permits different styles of labels, for example, \(1\), 1, 1a, 1b, A1, 1.1, A1.1 etc.
+Note that eLife permits different styles of labels, for example, (1), 1, 1a, 1b, A1, 1.1, A1.1 etc.
 
 ## Adding maths in Kriya
 
@@ -111,11 +111,11 @@ There is an issue in Kriya 1.5 whereby if an equation which just contains 0 alon
 
 ## Mathpix Snip
 
-If you are unfamiliar with LaTeX notation, then you can use a tool such as [**Mathpix snip**](https://mathpix.com/) to screenshot a picture of the maths, it will then provide you with the latex notation. Note that this is free for up to 50 pictures a month.
+If you are unfamiliar with LaTeX notation, then you can use a tool such as [**Mathpix snip**](https://mathpix.com) to screenshot a picture of the maths, it will then provide you with the latex notation. Note that this is free for up to 50 pictures a month.
 
 ## LaTeX cheatsheet
 
-Below contains some simple LaTeX instructions which are standard and included in Kriya \(as well as most packages\). It is by no means an exhaustive list. Kriya's equation editor has instructions on how to capture certain markup that is helpful. 
+Below contains some simple LaTeX instructions which are standard and included in Kriya (as well as most packages). It is by no means an exhaustive list. Kriya's equation editor has instructions on how to capture certain markup that is helpful. 
 
 ### Subscript and superscript
 
@@ -127,7 +127,7 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 `\overset{x}{y} = \underset{x}{y}`  $$\overset{x}{y} = \underset{x}{y}$$
 
-`\overset{x}{\underset{z}{y}}` $$\overset{x}{\underset{y}{z}} $$
+`\overset{x}{\underset{z}{y}}` $$\overset{x}{\underset{y}{z}}$$
 
 ### Fractions
 
@@ -206,7 +206,7 @@ $$\overrightarrow{AB}\hspace{90pt} \underleftarrow{AB}\hspace{90pt} \underleftri
 
 `\int\limits_{^{x}{y}}^{z}{\Delta}` $$\int\limits_{^{x}{y}}^{z}{\Delta}$$
 
-`\int_{x=1}^{n}{x}\;dx` $$\int_{x=1}^{n}{x}\;dx $$
+`\int_{x=1}^{n}{x}\;dx` $$\int_{x=1}^{n}{x}\;dx$$
 
 `\oint{x}` $$\oint{x}$$
 
@@ -246,9 +246,9 @@ $$\overrightarrow{AB}\hspace{90pt} \underleftarrow{AB}\hspace{90pt} \underleftri
 
 `\mathcal{AaBbCcDdEe}` $$\mathcal{AaBbCcDdEe}$$
 
-### Fences \(brackets\)
+### Fences (brackets)
 
-`() [] \Big[\Big] \{\} \langle \rangle \lfloor \rfloor \lceil \rceil | \|` 
+`() [] \Big[\Big] \{\} \langle \rangle \lfloor \rfloor \lceil \rceil | \| `
 
 $$\;()\hspace{5pt} []\hspace{20pt} \Big[\Big]\hspace{25pt} \{\}\hspace{15pt} \langle\hspace{30pt} \rangle\hspace{30pt} \lfloor\hspace{30pt} \rfloor\hspace{30pt} \lceil\hspace{25pt} \rceil\hspace{17pt} |\hspace{8pt} \|$$
 
@@ -288,9 +288,9 @@ $$\hspace{10pt}\cong\hspace{15pt}\neq\hspace{15pt}\equiv\hspace{19pt}\prec\hspac
 
 ## Equations on the eLife website
 
-Equations are rendered on the eLife website using [**MathJax**](https://www.mathjax.org/). Note that there are certain space limitations on the eLife website for equations, if they are particularly long they may be wrapped across numerous lines in order to fit within the content container, and since they are an object which is separate from the normal text in the page, the wrapping may not correspond with the text \(see also [**inline-formula-length-test-1**](maths.md#inline-formula-length-test-1) ****and the example therein\).
+Equations are rendered on the eLife website using [**MathJax**](https://www.mathjax.org). Note that there are certain space limitations on the eLife website for equations, if they are particularly long they may be wrapped across numerous lines in order to fit within the content container, and since they are an object which is separate from the normal text in the page, the wrapping may not correspond with the text (see also [**inline-formula-length-test-1**](maths.md#inline-formula-length-test-1)** **and the example therein).
 
-eLife have an arrangement with the production vendors whereby they are paid more for LaTeX articles, and expected to carefully check the maths against the original files at pre-editing. LaTeX articles also have an extended turn-around time \(compared with non-LaTeX articles\).
+eLife have an arrangement with the production vendors whereby they are paid more for LaTeX articles, and expected to carefully check the maths against the original files at pre-editing. LaTeX articles also have an extended turn-around time (compared with non-LaTeX articles).
 
 During pre-publication checks, special care should be given to equations by eLife production staff, to ensure that there is no discrepancy between the equations as they appear on Continuum and the equations as they appear in the PDF.
 
@@ -304,8 +304,8 @@ During pre-publication checks, special care should be given to equations by eLif
 
 **Action**: In almost all cases this warning fires, a space will need to be added before the inline equation. The only exception would be if both of the following two conditions are satisfied:
 
-1.  A particular character or characters need to be captured as an inline equation so that the font matches how those characters appear elsewhere in the article \(see above\).
-2. This character \(or characters\) should be placed directly after the preceding text without any space. 
+1.  A particular character or characters need to be captured as an inline equation so that the font matches how those characters appear elsewhere in the article (see above).
+2. This character (or characters) should be placed directly after the preceding text without any space. 
 
 Here is an example of a case where the warning could be ignored, taken from [**https://elifesciences.org/articles/56942.pdf**](https://elifesciences.org/articles/56942.pdf).
 
@@ -321,8 +321,8 @@ If the production vendors are unsure, they can query the eLife production team v
 
 **Action**: In almost all cases this warning fires, a space will need to be added after the inline equation. The only exception would be if both of the following two conditions are satisfied:
 
-1.  A particular character or characters need to be captured as an inline equation so that the font matches how those characters appear elsewhere in the article \(see above\).
-2. This character \(or characters\) should be placed directly before the following text without any space. 
+1.  A particular character or characters need to be captured as an inline equation so that the font matches how those characters appear elsewhere in the article (see above).
+2. This character (or characters) should be placed directly before the following text without any space. 
 
 Here is an example of a case where the warning could be ignored taken from [**https://elifesciences.org/articles/56942.pdf**](https://elifesciences.org/articles/56942.pdf).
 
@@ -336,7 +336,7 @@ If the production vendors are unsure, they can query the eLife production team v
 
 **Warning**: _mml:math only contains numbers and/or operators - 'XXXXXX'. Is it necessary for this to be set as a formula, or can it be captured with as normal text instead?_
 
-**Action**: This warning will fire at all stages if there is maths which only contains numbers and/or operators \(such as +, ±, ~, × etc.\). At pre-author stages, unless these symbols or numbers are used in an inline formula and referring to particular parts of a display formula, then they can be changed to plain text. At post-author stages, if the authors have deliberately added these as equations, then they should be left as equations.  Otherwise they can be changed to plain text.
+**Action**: This warning will fire at all stages if there is maths which only contains numbers and/or operators (such as +, ±, \~, × etc.). At pre-author stages, unless these symbols or numbers are used in an inline formula and referring to particular parts of a display formula, then they can be changed to plain text. At post-author stages, if the authors have deliberately added these as equations, then they should be left as equations.  Otherwise they can be changed to plain text.
 
 #### **math-test-3**
 
@@ -348,31 +348,31 @@ If the production vendors are unsure, they can query the eLife production team v
 
 **Error**: _mml:math only contains '±' followed by digits, which is unnecessary. Capture this as a normal text instead._
 
-**Action**: As the message suggests, the action here should be to delete the equation in Kriya, and add the '±' and digits as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
+**Action**: As the message suggests, the action here should be to delete the equation in Kriya, and add the '±' and digits as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol (and whatever else, as required) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
 
 #### **math-test-5**
 
 **Error**: _mml:math only contains '×', which is unnecessary. Capture this as a normal text '×' instead._
 
-**Action**: As the message suggests, the action here should be to delete the equation in Kriya, and add the '×' as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
+**Action**: As the message suggests, the action here should be to delete the equation in Kriya, and add the '×' as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol (and whatever else, as required) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
 
 #### **math-test-6**
 
-**Error**: _mml:math only contains '~', which is unnecessary. Capture this as a normal text '~' instead._
+**Error**: _mml:math only contains '\~', which is unnecessary. Capture this as a normal text '\~' instead._
 
-**Action**: As the message suggests, the action here should be to delete the equation in Kriya, and add the '~' as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
+**Action**: As the message suggests, the action here should be to delete the equation in Kriya, and add the '\~' as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol (and whatever else, as required) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
 
 #### **math-test-7**
 
-**Error**: _mml:math only contains '~' and digits, which is unnecessary. Capture this as a normal text instead._
+**Error**: _mml:math only contains '\~' and digits, which is unnecessary. Capture this as a normal text instead._
 
-**Action**: As the message suggests, the action here should be to delete the equation in Kriya, and add the '~' and digits as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
+**Action**: As the message suggests, the action here should be to delete the equation in Kriya, and add the '\~' and digits as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol (and whatever else, as required) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
 
 #### **math-test-8**
 
 **Warning**: _mml:math only contains 'μ', which is likely unnecessary. Should this be captured as a normal text 'μ' instead?_
 
-**Action**: Typically in scientific articles this character is used to denote micro. However, it may also \(or instead\) be used as a constant or variable in an equation which represents a certain value. Depending on it's usage in an article, it may be appropriate to retain this as an equation or to delete it and instead capture the character as plain text. 
+**Action**: Typically in scientific articles this character is used to denote micro. However, it may also (or instead) be used as a constant or variable in an equation which represents a certain value. Depending on it's usage in an article, it may be appropriate to retain this as an equation or to delete it and instead capture the character as plain text. 
 
 Check if the character has been used in a display equation elsewhere. If it has, and this is being used to denote that same variable, then it _must_ be left as an inline equation to retain consistent font throughout the article.
 
@@ -382,13 +382,13 @@ Typically, if this character has been used to communicate micro, such as in 'μm
 
 **Error**: _mml:math only contains '%' and digits, which is unnecessary. Capture this as a normal text instead._
 
-**Action**: As the message suggests, the action here should be to delete the equation in Kriya, and add the percentage symbol and numbers as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
+**Action**: As the message suggests, the action here should be to delete the equation in Kriya, and add the percentage symbol and numbers as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol (and whatever else, as required) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
 
 #### **math-test-12**
 
 **Error**: _mml:math only contains '%', which is unnecessary. Capture this as a normal text instead._
 
-**Action**: As the message suggests, the action here should be to delete the equation in Kriya, and add the percentage symbol as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol \(and whatever else, as required\) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
+**Action**: As the message suggests, the action here should be to delete the equation in Kriya, and add the percentage symbol as plain text. In rare cases, where a single equation may have been split into multiple when processing the article, it may instead be appropriate to add this symbol (and whatever else, as required) to a single inline equation. If there are other equations with little or truncated content directly preceding or following this equation then check the source file to determine if this course of action is more appropriate.
 
 #### **math-test-10**
 
@@ -398,7 +398,7 @@ Typically, if this character has been used to communicate micro, such as in 'μm
 
 #### **math-test-11**
 
-**Warning**: _mml:math contains '○' \(the white circle symbol\). Should this be the degree symbol instead - '°', or '∘' \(the ring operator symbol\)?_
+**Warning**: _mml:math contains '○' (the white circle symbol). Should this be the degree symbol instead - '°', or '∘' (the ring operator symbol)?_
 
 **Action**: Check the context in which this symbol is used. If it follows numbers and/or is used in the context of discussing temperature, rotation or angles, then replace the inline equation with a plain text degree symbol. If it is definitely supposed to be a white circle symbol, then check how it's been used elsewhere - if the character is present in a display equation, then it will need to remain as an inline equation to keep the font consistent. The aim here is to remove unnecessary math markup, but not to the detriment of keeping fonts/meaning consistent in the article.
 
@@ -406,7 +406,7 @@ Typically, if this character has been used to communicate micro, such as in 'μm
 
 **Warning**: _mml:math only contains 'XXXXXX', which is likely unnecessary. Should this be captured as normal text instead?_
 
-**Action**: This warning will fire at all stages if there is maths which only contains numbers and/or operators \(such as +, ±, ~, × etc.\). At pre-author stages, unless these symbols or numbers are used in an inline formula and referring to particular parts of a display formula, then they can be changed to plain text. At post-author stages, if the authors have deliberately added these as equations, then they should be left as equations.  Otherwise they can be changed to plain text.
+**Action**: This warning will fire at all stages if there is maths which only contains numbers and/or operators (such as +, ±, \~, × etc.). At pre-author stages, unless these symbols or numbers are used in an inline formula and referring to particular parts of a display formula, then they can be changed to plain text. At post-author stages, if the authors have deliberately added these as equations, then they should be left as equations.  Otherwise they can be changed to plain text.
 
 #### **math-test-15**
 
@@ -416,7 +416,7 @@ Typically, if this character has been used to communicate micro, such as in 'μm
 
 At pre-author stages, unless these symbols or numbers are used in an inline formula and referring to particular parts of a display formula, then they can be changed to plain text. At post-author stages, if the authors have deliberately added these as equations, then they should be left as equations. Otherwise they can be changed to plain text.
 
-A cation is a positively charged ion \(which would be attracted to the cathode in electrolysis\). It can be identified in the text as it will look like a chemical element followed by a superscript plus \(+\) sign and superscript or subscript numbers.
+A cation is a positively charged ion (which would be attracted to the cathode in electrolysis). It can be identified in the text as it will look like a chemical element followed by a superscript plus (+) sign and superscript or subscript numbers.
 
 Here are some more examples of cations:
 
@@ -430,7 +430,7 @@ $$Al^{+3}\quad Ba^{+2}\quad Cs^{+}\quad K^{+}\quad Zn^{+2}$$
 
 At pre-author stages, unless the anion is used in an inline formula and referring in the text to particular parts of a display formula, then they can be changed to plain text. At post-author stages, if the authors have deliberately added these as equations, then they should be left as equations. Otherwise they can be changed to plain text.
 
-An anion is a negatively charged ion \(which would be attracted to the anode in electrolysis\). It can be identified in the text as it will look like a chemical element followed by a superscript minus \(-\) sign and superscript or subscript numbers.
+An anion is a negatively charged ion (which would be attracted to the anode in electrolysis). It can be identified in the text as it will look like a chemical element followed by a superscript minus (-) sign and superscript or subscript numbers.
 
 Here are some more examples of anions:
 
@@ -438,29 +438,29 @@ $$Br^{-}\quad F^{-}\quad N^{3-}\quad O^{2-}\quad S^{-}$$
 
 #### **math-test-17**
 
-**Warning**: _mml:math only contains number\(s\) and square root symbol\(s\) 'XXXXXX', which is likely unnecessary. Should this be captured as normal text instead? Such as XXXXXX?_
+**Warning**: _mml:math only contains number(s) and square root symbol(s) 'XXXXXX', which is likely unnecessary. Should this be captured as normal text instead? Such as XXXXXX?_
 
 **Action**: This warning will fire if a equation contains only numbers accompanied by a square root symbol. It's likely that it can be replaced with plain text '√' and the numbers, but check how this and similar content has been captured elsewhere in the article and ensure that it's consistent.
 
 #### **math-test-18**
 
-**Warning**: _abstract contains MathML \(XXXXXX\). Is this necessary? MathML in abstracts may not render downstream, so if it can be represented using normal text/unicode, then please do so instead._
+**Warning**: _abstract contains MathML (XXXXXX). Is this necessary? MathML in abstracts may not render downstream, so if it can be represented using normal text/unicode, then please do so instead._
 
 **Action**: This will fire for any equation in an abstract. If an article has display formulae in the abstract, please capture them in normal characters if possible. If this can’t be done, convert the display formulae into inline formulae and leave the following author query for the authors:
 
-* We strongly advise against including formulae in abstracts since these are sent to various places downstream which are unable to render the maths. If possible, please rephrase your abstract accordingly and indicate where the formula\(e\) should be included in the main text instead.
+* We strongly advise against including formulae in abstracts since these are sent to various places downstream which are unable to render the maths. If possible, please rephrase your abstract accordingly and indicate where the formula(e) should be included in the main text instead.
 
-If the article has inline formulae in the abstract, the above query should still be left. If the authors are unable to remove the inline formula\(e\) from their abstract, this warning can be ignored. 
+If the article has inline formulae in the abstract, the above query should still be left. If the authors are unable to remove the inline formula(e) from their abstract, this warning can be ignored. 
 
 #### **math-test-19**
 
-**Warning**: _Maths containing 'XXXXXX' has what looks like words or terms which need separating with a space. With it's current markup the space will not be preserved on the eLife website. Please add in the space\(s\) using the latext '\;' in the appropriate place\(s\), so that the space is preserved in the HTML._
+**Warning**: _Maths containing 'XXXXXX' has what looks like words or terms which need separating with a space. With it's current markup the space will not be preserved on the eLife website. Please add in the space(s) using the latext '\\;' in the appropriate place(s), so that the space is preserved in the HTML._
 
-**Action**: This warning will fire for equations that contain words or letters which may be missing the required spacing in the MathML \(in the XML\) in order for the spacing to render on our site. Check the rest of the article or the source manuscript to determine whether authors intended the word\(s\)/term\(s\) to include a space or not.
+**Action**: This warning will fire for equations that contain words or letters which may be missing the required spacing in the MathML (in the XML) in order for the spacing to render on our site. Check the rest of the article or the source manuscript to determine whether authors intended the word(s)/term(s) to include a space or not.
 
 Here is a published example to illustrate case where intervention would be needed. 
 
-\*\*\*\*[**https://elifesciences.org/articles/47602\#equ7**](https://elifesciences.org/articles/47602#equ7)\*\*\*\*
+****[**https://elifesciences.org/articles/47602#equ7**](https://elifesciences.org/articles/47602#equ7)****
 
 ![](../../.gitbook/assets/screenshot-2021-02-26-at-16.05.09.png)
 
@@ -468,69 +468,69 @@ Here, you can see that on the eLife website, there is no space between 'Multivar
 
 ![](../../.gitbook/assets/screenshot-2021-02-26-at-16.06.22.png)
 
-To fix this open up the equation editor in Kriya and replace any spaces used with `\;` so that the space is retained in the XML/on the website \(see also [**Spacing**](maths.md#spacing) above\).
+To fix this open up the equation editor in Kriya and replace any spaces used with `\;` so that the space is retained in the XML/on the website (see also [**Spacing**](maths.md#spacing) above).
 
 #### **pre-mathcolor-test-1**
 
-**Warning**: _math \(XXXXXX element\) containing 'XXXXXX' has a colour style which is not red, blue or purple - 'XXXXXX' - which is not allowed. If it is clear that colours are supposed to be used, but you are not sure which ones, then please query the authors - 'eLife only supports the following colours for text and maths - 'red', 'blue' and 'purple'. Please confirm how you would like the colour\(s\) here captured given this information.'._
+**Warning**: _math (XXXXXX element) containing 'XXXXXX' has a colour style which is not red, blue or purple - 'XXXXXX' - which is not allowed. If it is clear that colours are supposed to be used, but you are not sure which ones, then please query the authors - 'eLife only supports the following colours for text and maths - 'red', 'blue' and 'purple'. Please confirm how you would like the colour(s) here captured given this information.'._
 
 **Action**: The only colours eLife permit for text is red, blue or purple and this is still the case for maths. As the message suggests, this will fire at pre-author stages when maths contains a colour which is not permitted. The production vendors should add the following author query:
 
-* eLife only supports the following colours for text and maths - 'red', 'blue' and 'purple'. Please confirm how you would like the colour\(s\) here captured given this information.
+* eLife only supports the following colours for text and maths - 'red', 'blue' and 'purple'. Please confirm how you would like the colour(s) here captured given this information.
 
 #### **final-mathcolor-test-1**
 
-**Error**: _math \(XXXXXX element\) containing 'XXXXXX' has a color style which is not red, blue or purple - 'XXXXXX' - which is not allowed. Only 'red', 'blue' and 'purple' are allowed._
+**Error**: _math (XXXXXX element) containing 'XXXXXX' has a color style which is not red, blue or purple - 'XXXXXX' - which is not allowed. Only 'red', 'blue' and 'purple' are allowed._
 
-**Action**: The only colours eLife permit for text is red, blue or purple and this is still the case for maths. As the message suggests, this will fire at post-author stages when maths contains a colour which is not permitted. The production vendors should check the response the authors had to the query which was \(hopefully\) added before they proofed. If the authors suggest a suitable solution \(such as removing the colours, adding different forms of emphasis such as bold, or by asking for the colours to be changed to the permitted ones\), then the production vendors can implement their suggestion. If the query was missed or if the authors did not provide a suitable solution, then the production vendors should add a note to the article for the attention of the Production team at Publisher Review. The Production team can then determine the correct course of action, which likely will be to go back to the authors and clarify their options.
+**Action**: The only colours eLife permit for text is red, blue or purple and this is still the case for maths. As the message suggests, this will fire at post-author stages when maths contains a colour which is not permitted. The production vendors should check the response the authors had to the query which was (hopefully) added before they proofed. If the authors suggest a suitable solution (such as removing the colours, adding different forms of emphasis such as bold, or by asking for the colours to be changed to the permitted ones), then the production vendors can implement their suggestion. If the query was missed or if the authors did not provide a suitable solution, then the production vendors should add a note to the article for the attention of the Production team at Publisher Review. The Production team can then determine the correct course of action, which likely will be to go back to the authors and clarify their options.
 
 #### **mathcolor-test-2**
 
-**Warning**: _math \(XXXXXX element\) containing 'XXXXXX' has XXXXXX colour formatting. Is this OK?_
+**Warning**: _math (XXXXXX element) containing 'XXXXXX' has XXXXXX colour formatting. Is this OK?_
 
-**Action**: This warning will fire at all stages when maths is formatted with one of the permitted colours for text \(red, blue or purple\). At pre-author stages, the production vendors should add the following author query:
+**Action**: This warning will fire at all stages when maths is formatted with one of the permitted colours for text (red, blue or purple). At pre-author stages, the production vendors should add the following author query:
 
-* Where possible, we prefer that colours are not used in text in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). Would it be possible to capture the same meaning in this equation with more common forms of emphasis \(such as bold, italic or underline\)? If so please stipulate below how the equation should be revised. Please note that this is a suggestion and these permitted colours can be published if required.
+* Where possible, we prefer that colours are not used in text in the interests of accessibility and because they will not display in downstream HTML (for example in PMC). Would it be possible to capture the same meaning in this equation with more common forms of emphasis (such as bold, italic or underline)? If so please stipulate below how the equation should be revised. Please note that this is a suggestion and these permitted colours can be published if required.
 
 At post-author stages, this warning can be ignored.
 
 #### **pre-mathbackground-test-1**
 
-**Warning**: _math \(XXXXXX element\) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. Please check this carefully against the original manuscript. If it's not a mistake, and the background colour is deliberate, then please add the following author query -&gt; 'Where possible, we prefer that colours are not used in text in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). eLife does not support background colours for text, however we do support the following colours for text itself - 'red', 'blue' and 'purple'. Please confirm how you would like the colour\(s\) captured here given this information, and note that our preference would be to use more common forms of emphasis \(such as bold, italic or underline\) if possible to still convey the same meaning.'._
+**Warning**: _math (XXXXXX element) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. Please check this carefully against the original manuscript. If it's not a mistake, and the background colour is deliberate, then please add the following author query -> 'Where possible, we prefer that colours are not used in text in the interests of accessibility and because they will not display in downstream HTML (for example in PMC). eLife does not support background colours for text, however we do support the following colours for text itself - 'red', 'blue' and 'purple'. Please confirm how you would like the colour(s) captured here given this information, and note that our preference would be to use more common forms of emphasis (such as bold, italic or underline) if possible to still convey the same meaning.'._
 
-**Action**: This warning will fire at pre-author stages for maths in the text, which has background colour formatting \(similar to highlighting\). eLife does not permit this for text, and only permit certain colours for text \(red, blue, or purple\). The production vendors should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP, and if it isn't a processing error, then they should add the following author query:
+**Action**: This warning will fire at pre-author stages for maths in the text, which has background colour formatting (similar to highlighting). eLife does not permit this for text, and only permit certain colours for text (red, blue, or purple). The production vendors should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP, and if it isn't a processing error, then they should add the following author query:
 
-* Where possible, we prefer that colours are not used in text in the interests of accessibility and because they will not display in downstream HTML \(for example in PMC\). eLife does not support background colours for text, however we do support the following colours for text itself - 'red', 'blue' and 'purple'. Please confirm how you would like the colour\(s\) captured here given this information, and note that our preference would be to use more common forms of emphasis \(such as bold, italic or underline\) if possible to still convey the same meaning.'
+* Where possible, we prefer that colours are not used in text in the interests of accessibility and because they will not display in downstream HTML (for example in PMC). eLife does not support background colours for text, however we do support the following colours for text itself - 'red', 'blue' and 'purple'. Please confirm how you would like the colour(s) captured here given this information, and note that our preference would be to use more common forms of emphasis (such as bold, italic or underline) if possible to still convey the same meaning.'
 
 #### **pre-mathbackground-test-2**
 
-**Warning**: _math \(XXXXXX element\) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. Please check this carefully against the original manuscript. If it's not a mistake, and the background colour is deliberate, then please ensure that the background colour is captured for the table cell \(rather than the maths\)._
+**Warning**: _math (XXXXXX element) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. Please check this carefully against the original manuscript. If it's not a mistake, and the background colour is deliberate, then please ensure that the background colour is captured for the table cell (rather than the maths)._
 
-**Action**: This warning will fire at pre-author stages for maths in a table, which has background colour formatting \(similar to highlighting\). eLife do not permit background colouring for text, and only permit certain colours for text itself \(red, blue, or purple\), and [**certain colours for table cells**](allowed-assets/tables.md#allowed-colours-in-tables). The production vendors should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP. If the colours were present for the table cell\(s\) in the original manuscript then that formatting should be removed from the equation and added to the cell; then the steps required for colours in tables cells should be followed, as directed by the Schematron messages after re-validating \(see also the [**Tables page**](allowed-assets/tables.md)\). If, in the original manuscript, there was background colour for the maths, then it should be changed as colour for the text of the maths. 
+**Action**: This warning will fire at pre-author stages for maths in a table, which has background colour formatting (similar to highlighting). eLife do not permit background colouring for text, and only permit certain colours for text itself (red, blue, or purple), and [**certain colours for table cells**](allowed-assets/tables.md#allowed-colours-in-tables). The production vendors should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP. If the colours were present for the table cell(s) in the original manuscript then that formatting should be removed from the equation and added to the cell; then the steps required for colours in tables cells should be followed, as directed by the Schematron messages after re-validating (see also the [**Tables page**](allowed-assets/tables.md)). If, in the original manuscript, there was background colour for the maths, then it should be changed as colour for the text of the maths. 
 
 #### **final-mathbackground-test-1**
 
-**Error**: _math \(XXXXXX element\) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. If it's not a mistake, and the background colour is deliberate, then this will need to removed._
+**Error**: _math (XXXXXX element) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. If it's not a mistake, and the background colour is deliberate, then this will need to removed._
 
-**Action**: This warning will fire at post-author stages for maths in the text, which has background colour formatting \(similar to highlighting\). eLife do not permit this for text, and only permit certain colours for text \(red, blue, or purple\). The production vendors should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP, and if it isn't a processing error, then they should check the response from an author if an author query was added relating to this at pre-editing. If there was no author query, they should flag it to the eLife Production staff, who at Pub Review stage should contact the authors, letting them know about the constraints and asking them how they would like to proceed.
+**Action**: This warning will fire at post-author stages for maths in the text, which has background colour formatting (similar to highlighting). eLife do not permit this for text, and only permit certain colours for text (red, blue, or purple). The production vendors should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP, and if it isn't a processing error, then they should check the response from an author if an author query was added relating to this at pre-editing. If there was no author query, they should flag it to the eLife Production staff, who at Pub Review stage should contact the authors, letting them know about the constraints and asking them how they would like to proceed.
 
 #### **final-mathbackground-test-2**
 
-**Error**: _math \(XXXXXX element\) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. If it's not a mistake, and the background colour is deliberate, then either the background colour will need to added to the table cell \(rather than the maths\), or it needs to be removed._
+**Error**: _math (XXXXXX element) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. If it's not a mistake, and the background colour is deliberate, then either the background colour will need to added to the table cell (rather than the maths), or it needs to be removed._
 
-**Action**: This warning will fire at post-author stages for maths in a table, which has background colour formatting \(similar to highlighting\). eLife do not permit background colouring for text, and only permit certain colours for text itself \(red, blue, or purple\), and [**certain colours for table cells**](allowed-assets/tables.md#allowed-colours-in-tables). The production vendors should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP. If the colours were present for the table cell\(s\) in the original manuscript then that formatting should be removed from the equation and added to the cell; then the steps required for colours in tables cells should be followed, as directed by the Schematron messages after re-validating \(see also the [**Tables page**](allowed-assets/tables.md)\). If, in the original manuscript, there was background colour for the maths, then it should be changed as colour for the text of the maths. 
+**Action**: This warning will fire at post-author stages for maths in a table, which has background colour formatting (similar to highlighting). eLife do not permit background colouring for text, and only permit certain colours for text itself (red, blue, or purple), and [**certain colours for table cells**](allowed-assets/tables.md#allowed-colours-in-tables). The production vendors should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP. If the colours were present for the table cell(s) in the original manuscript then that formatting should be removed from the equation and added to the cell; then the steps required for colours in tables cells should be followed, as directed by the Schematron messages after re-validating (see also the [**Tables page**](allowed-assets/tables.md)). If, in the original manuscript, there was background colour for the maths, then it should be changed as colour for the text of the maths. 
 
 #### **mtext-test-1**
 
-**Warning**: _math \(XXXXXX element\) contains 'XXXXXX' which looks suspiciously like LaTeX markup. Is it correct? Or is there missing content or content which has been processed incompletely?_
+**Warning**: _math (XXXXXX element) contains 'XXXXXX' which looks suspiciously like LaTeX markup. Is it correct? Or is there missing content or content which has been processed incompletely?_
 
-**Action**: This warning will fire in cases where an equation contains what may be LaTeX markup, meaning that the maths may not be processed correctly. Check against the original manuscript to determine what the equation is supposed to look like, and compare. It may be the case that the equation appears OK in Kriya and in the PDF, but it may still be incorrect on the eLife website. In most cases, this warning should not be ignored. Only in cases where the authors have used rather strange notation or a backslash should this be ignored. It will fire for text content in an equation containing a backslash \(`\`\). Here is an example of when it needs to be fixed:
+**Action**: This warning will fire in cases where an equation contains what may be LaTeX markup, meaning that the maths may not be processed correctly. Check against the original manuscript to determine what the equation is supposed to look like, and compare. It may be the case that the equation appears OK in Kriya and in the PDF, but it may still be incorrect on the eLife website. In most cases, this warning should not be ignored. Only in cases where the authors have used rather strange notation or a backslash should this be ignored. It will fire for text content in an equation containing a backslash (`\`). Here is an example of when it needs to be fixed:
 
 ![](../../.gitbook/assets/screenshot-2021-03-09-at-12.02.53.png)
 
-Taken from [**https://elifesciences.org/articles/51207**](https://elifesciences.org/articles/51207). In this case, when comparing against the original manuscript, it's clear that `\Updelta` simply needs to be removed. But in other cases the LaTeX notation that the authors used may not be supported, and alternative LaTeX notation should be used to render the desired character\(s\). Tools such as Mathpix snip may be useful here since they will use relatively standard LaTeX notation \(where possible\), or you can use the help in the equation editor in Kriya or use the [**cheatsheet**](maths.md#latex-cheatsheet) above.
+Taken from [**https://elifesciences.org/articles/51207**](https://elifesciences.org/articles/51207). In this case, when comparing against the original manuscript, it's clear that `\Updelta` simply needs to be removed. But in other cases the LaTeX notation that the authors used may not be supported, and alternative LaTeX notation should be used to render the desired character(s). Tools such as Mathpix snip may be useful here since they will use relatively standard LaTeX notation (where possible), or you can use the help in the equation editor in Kriya or use the [**cheatsheet**](maths.md#latex-cheatsheet) above.
 
-\*\*\*\*[**Here**](https://elifesciences.org/articles/51260#equ13) is an example of where it can be ignored \(because there is a backslash in the equation\):
+****[**Here**](https://elifesciences.org/articles/51260#equ13) is an example of where it can be ignored (because there is a backslash in the equation):
 
 ![](../../.gitbook/assets/screenshot-2021-03-17-at-11.12.53.png)
 
@@ -552,7 +552,7 @@ At post-author stages, if the above query has been added, then action should be 
 
 **Error**: _Duplicated display formula labels - XXXXXX is present more than once in the same appendix._
 
-**Action**: This will fire at all stages if two or more equations in a single appendix have the same label. The production vendors should query the eLife Production team, who will determine the best course of action. If this is an obvious typo, then the equations can be renumbered so that they are sequential. Note that we can have equations 1a, 1b and so on, so it may be appropriate to renumber in that fashion. If the authors have included an equation from a different paper \(for example Equation 1 from Smith et al.\), and retained the numbering from that paper, as well as including their own equation 1, then the label in the equation taken from the other paper can be removed, and references to it in the text can be updated to reflect that \(any citations for Equation 1 changed to Equation 1 from Smith et al., 2020\) etc. An author query should be added so that the authors are aware of the change and can suggest an alternative if desired:
+**Action**: This will fire at all stages if two or more equations in a single appendix have the same label. The production vendors should query the eLife Production team, who will determine the best course of action. If this is an obvious typo, then the equations can be renumbered so that they are sequential. Note that we can have equations 1a, 1b and so on, so it may be appropriate to renumber in that fashion. If the authors have included an equation from a different paper (for example Equation 1 from Smith et al.), and retained the numbering from that paper, as well as including their own equation 1, then the label in the equation taken from the other paper can be removed, and references to it in the text can be updated to reflect that (any citations for Equation 1 changed to Equation 1 from Smith et al., 2020) etc. An author query should be added so that the authors are aware of the change and can suggest an alternative if desired:
 
 * Please note that we have re-labelled/removed the label from this equation as we do not permit more than one equation with the same label within an appendix.
 
@@ -562,7 +562,7 @@ At post-author stages, if the above query has been added, then action should be 
 
 **Action**: This will fire at all stages if two or more equations in a single appendix have the same label. The production vendors should query the eLife Production team, who will determine the best course of action. If this is an obvious typo, then the equations can be renumbered so that they are sequential. Note that we can have equations 1a, 1b and so on, so it may be appropriate to renumber in that fashion. 
 
-If the authors are referring to an equation from a different paper \(for example Equation 1 from Smith et al. and there is also an equation 1 from the authors\), then the label in the equation taken from the other paper can be removed, and references to it in the text can be updated to reflect that \(any citations for Equation 1 changed to Equation 1 from Smith et al., 2020\) etc. An author query should be added so that the authors are aware of the change and can suggest an alternative if desired:
+If the authors are referring to an equation from a different paper (for example Equation 1 from Smith et al. and there is also an equation 1 from the authors), then the label in the equation taken from the other paper can be removed, and references to it in the text can be updated to reflect that (any citations for Equation 1 changed to Equation 1 from Smith et al., 2020) etc. An author query should be added so that the authors are aware of the change and can suggest an alternative if desired:
 
 * Please note that we have re-labelled/removed the label from this equation as we do not permit more than one equation with the same label within the main body of the article.
 
@@ -584,17 +584,17 @@ If the authors are referring to an equation from a different paper \(for example
 
 **Warning**: _In the vast majority of cases disp-formula should be a child of p. XXXXXX is a child of XXXXXX. Is that correct?_
 
-**Action**: This warning will fire at all stages if an display formula is not placed as a child of a `<p>` element. The only case where this can be ignored \(and note that these are very rare occurrences\), is when a display formula appears as the first piece of content within a section, in which case it will be a child of `<sec>` \(it cannot be placed as the first item in a paragraph, see [**disp-formula-test-4**](maths.md#disp-formula-test-4) below\). The production vendor support team will likely need to correct this.
+**Action**: This warning will fire at all stages if an display formula is not placed as a child of a `<p>` element. The only case where this can be ignored (and note that these are very rare occurrences), is when a display formula appears as the first piece of content within a section, in which case it will be a child of `<sec>` (it cannot be placed as the first item in a paragraph, see [**disp-formula-test-4**](maths.md#disp-formula-test-4) below). The production vendor support team will likely need to correct this.
 
-\*\*\*\*[**Here is an example**](https://elifesciences.org/articles/62105#s16-5-1) of when a display formula appears as the first piece of content within a section, and in this particular instance this warning would fire, but can be ignored.
+****[**Here is an example**](https://elifesciences.org/articles/62105#s16-5-1) of when a display formula appears as the first piece of content within a section, and in this particular instance this warning would fire, but can be ignored.
 
 ![Equations appear directly after the section heading](../../.gitbook/assets/screenshot-2021-03-17-at-11.24.28.png)
 
 #### **disp-formula-test-4**
 
-**Error**: _disp-formula cannot be placed as the first child of a p element with no content before it \(ie. &lt;disp-formula ...\). Either capture it at the end of the previous paragraph or capture it as a child of XXXXXX_
+**Error**: _disp-formula cannot be placed as the first child of a p element with no content before it (ie. \<disp-formula ...). Either capture it at the end of the previous paragraph or capture it as a child of XXXXXX_
 
-**Action**: This error will fire at all stages when a `<disp-formula>` element has been placed at the start of a `<p>` element \(with no text or other elements before it\). This tagging will cause the article to fail on Continuum. If the display formula is the first piece of content in a section, or directly placed after a table or figure \(for example\), then it should be captured as a child of `<sec>`. If it comes after a paragraph of text, then it should be placed at the end of that `<p>` tag.
+**Action**: This error will fire at all stages when a `<disp-formula>` element has been placed at the start of a `<p>` element (with no text or other elements before it). This tagging will cause the article to fail on Continuum. If the display formula is the first piece of content in a section, or directly placed after a table or figure (for example), then it should be captured as a child of `<sec>`. If it comes after a paragraph of text, then it should be placed at the end of that `<p>` tag.
 
 #### **inline-formula-test-1**
 
@@ -612,7 +612,7 @@ If the authors are referring to an equation from a different paper \(for example
 
 **Error**: _mml:math must not be empty._
 
-**Action**: This will fire at all stages if an mml:math element contains no content. In Kriya this will essentially be an empty formula. The action should be to attempt to delete, the extra equation, or add in the missing content \(as appropriate\). If this does not work, then it will need to be looked into by the production vendor support team.
+**Action**: This will fire at all stages if an mml:math element contains no content. In Kriya this will essentially be an empty formula. The action should be to attempt to delete, the extra equation, or add in the missing content (as appropriate). If this does not work, then it will need to be looked into by the production vendor support team.
 
 #### **math-test-2**
 
@@ -640,25 +640,25 @@ Try re-entering the LaTeX for the equation in the equation editor in Kriya. If y
 
 **Error**: _mml:math @id in disp-formula must be in the format 'm0'. XXXXXX does not conform to this._
 
-**Action**: This error will fire at any stage __if an mml:math element in the main body or an appendix has an id which is not in the format `m0`. The production vendor support team will need to fix this.
+**Action**: This error will fire at any stage_ _if an mml:math element in the main body or an appendix has an id which is not in the format `m0`. The production vendor support team will need to fix this.
 
 #### **sub-mml-math-id-test**
 
 **Error**: _mml:math @id in disp-formula must be in the format 'sa0m0'. XXXXXX does not conform to this._
 
-**Action**: This error will fire at any stage __if an mml:math element within a sub-article which is not in the format `sa0m0`. The production vendor support team will need to fix this.
+**Action**: This error will fire at any stage_ _if an mml:math element within a sub-article which is not in the format `sa0m0`. The production vendor support team will need to fix this.
 
 #### **disp-formula-id-test**
 
 **Error**: _disp-formula @id must be in the format 'equ0'._
 
-**Action**: This error will fire at any stage __if an disp-formula element in the main body or an appendix has an id which is not in the format `equ0`. The production vendor support team will need to fix this.
+**Action**: This error will fire at any stage_ _if an disp-formula element in the main body or an appendix has an id which is not in the format `equ0`. The production vendor support team will need to fix this.
 
 #### **sub-disp-formula-id-test**
 
 **Error**: _disp-formula @id must be in the format 'sa0equ0' when in a sub-article. XXXXXX does not conform to this._
 
-**Action**: This error will fire at any stage __if a disp-formula element within a sub-article which is not in the format `sa0equ0`. The production vendor support team will need to fix this.
+**Action**: This error will fire at any stage_ _if a disp-formula element within a sub-article which is not in the format `sa0equ0`. The production vendor support team will need to fix this.
 
 ## XML structure
 
@@ -668,7 +668,7 @@ Display equations are captured using `<disp-formula>`.
 
 ### MathML basics
 
-The top level element containing the equation is `<math>`. This element and any of its descendants must be bound to the namespace http://www.w3.org/1998/Math/MathML. In JATS this namespace is typically declared on the root element for the document \(`<article>`\) as `mml`, and as a result, mathML elements will have the prefix `mml:` before their name in the XML \(in line with Clark notation\).
+The top level element containing the equation is `<math>`. This element and any of its descendants must be bound to the namespace http://www.w3.org/1998/Math/MathML. In JATS this namespace is typically declared on the root element for the document (`<article>`) as `mml`, and as a result, mathML elements will have the prefix `mml:` before their name in the XML (in line with Clark notation).
 
 The most common, basic elements are listed below. More information on MathML can be found [**here**](https://developer.mozilla.org/en-US/docs/Web/MathML).
 
@@ -822,4 +822,3 @@ A display equation without a label:
 #### Changes
 
 * Added math-broken-unicode-test.
-

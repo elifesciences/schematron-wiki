@@ -16,9 +16,9 @@ There are two main types of studies, clinical trials and observational studies.
 
 Clinical trials involve human participants that receive certain interventions such as medical products, medical procedures, changes to environment, and diet. It is the researchers' aim to determine if the approach or product will have different outcomes to those that are currently used. For example, testing a new medication for heart conditions. 
 
-eLife follows the recommendations of the ****[**ICMJE**](http://www.icmje.org/about-icmje/faqs/clinical-trials-registration/) that all trials must have been prospectively registered to be considered for publication, and the clinical trial registration number will be requested during submission.
+eLife follows the recommendations of the** **[**ICMJE**](http://www.icmje.org/about-icmje/faqs/clinical-trials-registration/) that all trials must have been prospectively registered to be considered for publication, and the clinical trial registration number will be requested during submission.
 
-There are numerous clinical trial registries that are accepted by eLife, see here for more information about the [**ICMJE**](http://www.icmje.org/about-icmje/faqs/clinical-trials-registration/) ****as an example. Clinical trials are identified with a trial registration number, which is unique to that particular registry. Typically this information will be included in a structured abstract, however if the scope of an article is not purely clinical, but a clinical trial has nevertheless been undertaken, this information will need to be included in the ethics statement instead. This statement will include both the clinical trial registry and the clinical trial number, so that it can be accurately identified by readers.
+There are numerous clinical trial registries that are accepted by eLife, see here for more information about the [**ICMJE**](http://www.icmje.org/about-icmje/faqs/clinical-trials-registration/)** **as an example. Clinical trials are identified with a trial registration number, which is unique to that particular registry. Typically this information will be included in a structured abstract, however if the scope of an article is not purely clinical, but a clinical trial has nevertheless been undertaken, this information will need to be included in the ethics statement instead. This statement will include both the clinical trial registry and the clinical trial number, so that it can be accurately identified by readers.
 
 ### Observational studies
 
@@ -36,7 +36,7 @@ Not all articles need these statements and are only included if the study involv
 
 During the submission process, authors need to answer the ethics section of the submission information page. 
 
-![Ethics form in eJP.](../../.gitbook/assets/image%20%283%29.png)
+![Ethics form in eJP.](<../../.gitbook/assets/image (3).png>)
 
 Authors are expected to fill this in accurately as this information will be exported from eJP to the production vendors in the XML. The production vendors do not make any changes to this section during typesetting, unless it is to correct an obvious error such as a duplication of statement text 'Animal experimentation: and Human subjects:' which the authors may add in themselves. This is not required as they are generated automatically depending on the statement included. 
 
@@ -44,15 +44,15 @@ Authors are expected to fill this in accurately as this information will be expo
 
 ## Examples
 
-**Ethics statement for animal subjects:** 
+**Ethics statement for animal subjects: **
 
-Animal experimentation: All training and experimental procedures were in accordance with the National Institutes of Health Guide for the Care and Use of Laboratory Animals and were approved by the University of Pennsylvania Institutional Animal Care and Use Committee \(protocol \#804726\). Details about monkey training, behavioral tasks, and caudate recording were reported previously \(Fan et al., 2018; Doi et al., 2020\).
+Animal experimentation: All training and experimental procedures were in accordance with the National Institutes of Health Guide for the Care and Use of Laboratory Animals and were approved by the University of Pennsylvania Institutional Animal Care and Use Committee (protocol #804726). Details about monkey training, behavioral tasks, and caudate recording were reported previously (Fan et al., 2018; Doi et al., 2020).
 
 **Ethics statement for human participants:**
 
-Human subjects: Mothers provided informed consent for their infants to be included in the PreSSMat birth cohort and to have clinical data, cord blood and newborn heel prick samples collected and analysed. The study was approved by the Research Review and Ethical Review Committees of the International Centre for Diarrhoeal Disease Research, Bangladesh \(PR-16039\) on July 10, 2016. Approvals were also obtained from the Research Ethics Boards of the Ottawa Health Science Network \(20160219-01H\) on June 10, 2016, and the Children's Hospital of Eastern Ontario \(16/20E\) on June 8, 2016.
+Human subjects: Mothers provided informed consent for their infants to be included in the PreSSMat birth cohort and to have clinical data, cord blood and newborn heel prick samples collected and analysed. The study was approved by the Research Review and Ethical Review Committees of the International Centre for Diarrhoeal Disease Research, Bangladesh (PR-16039) on July 10, 2016. Approvals were also obtained from the Research Ethics Boards of the Ottawa Health Science Network (20160219-01H) on June 10, 2016, and the Children's Hospital of Eastern Ontario (16/20E) on June 8, 2016.
 
-**Ethics statement for clinical trials:** 
+**Ethics statement for clinical trials: **
 
 Clinical trial registration Clinical Trials.gov no. NCT02752672.
 
@@ -62,7 +62,7 @@ Clinical trial registration Clinical Trials.gov no. NCT02752672.
 
 #### ethics-title-test
 
-**Error:** _fn-group\[@content-type='ethics-information'\] must have a title that contains 'Ethics'. Currently it is 'XXXXXX'._
+**Error:**_ fn-group\[@content-type='ethics-information'] must have a title that contains 'Ethics'. Currently it is 'XXXXXX'._
 
 **Action:** This error will show if the title is anything but 'Ethics', the title should be corrected to 'Ethics'. This test is looking for an exact match so 'Ethic' or any other spelling mistake is not allowed. As this is in the meta data, the production vendor support team would need to fix this. 
 
@@ -74,9 +74,9 @@ Clinical trial registration Clinical Trials.gov no. NCT02752672.
 
 #### sec-test-4
 
-**Warning:** _Section has a title 'XXXXXX'. Is it a duplicate of, or very similar to, the ethics statement \(in the article details page\)? If so, it should be removed. If not, then which statement is correct? The one in this section or 'XXXXXX'?_
+**Warning: **_Section has a title 'XXXXXX'. Is it a duplicate of, or very similar to, the ethics statement (in the article details page)? If so, it should be removed. If not, then which statement is correct? The one in this section or 'XXXXXX'?_
 
-**Action:** Sometimes authors include the ethics statement within the main text as well as in eJP, these can often be removed if they are duplicates. If the text looks very similar, Editorial should be contacted to determine which is the correct statement to use. This warning may appear if the word 'ethics' are used within the main text, for example "Results: Editors' views on publication ethics". In this case, the warning should be ignored. 
+**Action: **Sometimes authors include the ethics statement within the main text as well as in eJP, these can often be removed if they are duplicates. If the text looks very similar, Editorial should be contacted to determine which is the correct statement to use. This warning may appear if the word 'ethics' are used within the main text, for example "Results: Editors' views on publication ethics". In this case, the warning should be ignored. 
 
 #### ethics-info-conformity
 
@@ -96,9 +96,9 @@ Clinical trial registration Clinical Trials.gov no. NCT02752672.
 
 #### ethics-test-1
 
-**Error:** _Ethics fn-group can only be captured as a child of a sec \[@sec-type='additional-information'\]_
+**Error:** _Ethics fn-group can only be captured as a child of a sec \[@sec-type='additional-information']_
 
-**Action:** The Ethics fn-group should be captured within the 'additional-information' in the XML. The production vendors will need to fix this. 
+**Action: **The Ethics fn-group should be captured within the 'additional-information' in the XML. The production vendors will need to fix this. 
 
 #### ethics-test-2
 
@@ -134,6 +134,4 @@ Clinical trial registration Clinical Trials.gov no. NCT02752672.
   </fn>
 </fn-group>
 ```
-
-
 

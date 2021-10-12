@@ -6,25 +6,25 @@ description: Description of common terms used at eLife
 
 #### **Assets**
 
-All separate files associated with an article. Includes videos, images, source code, source data, supplementary files. Anything that is delivered outside of the main Word doc \(except the metadata XML file\).
+All separate files associated with an article. Includes videos, images, source code, source data, supplementary files. Anything that is delivered outside of the main Word doc (except the metadata XML file).
 
 #### **Fragments**
 
-Any part of an article that has a sub DOI. These are similar to assets as they each have sub article DOIs, but also include content embedded within the main XML \(ie tables, boxes, Digest, Abstract, Decision letter, Author response\)
+Any part of an article that has a sub DOI. These are similar to assets as they each have sub article DOIs, but also include content embedded within the main XML (ie tables, boxes, Digest, Abstract, Decision letter, Author response)
 
 #### **PoA**
 
-Publish on accept. This is an eLife term for author accepted manuscripts published on acceptance before full production processing. In file naming terms the abbreviation is all lower case \(poa\) but generally in descriptions it is PoA.
+Publish on accept. This is an eLife term for author accepted manuscripts published on acceptance before full production processing. In file naming terms the abbreviation is all lower case (poa) but generally in descriptions it is PoA.
 
 #### **VoR**
 
-Version of record. This is standard term for the final full text version of an article that is published in full \(in HTML on the eLife website\). 
+Version of record. This is standard term for the final full text version of an article that is published in full (in HTML on the eLife website). 
 
 #### **Versions**
 
 Each time a published article is changed and published it has a new version number attached to it.
 
-In the back end systems we define the versions according to whether they are PoA or VoR but at the front end versioning will be maintained across both versions \(ie PoA 1= version 1, PoA 2= version 2, VoR 1= version 3, VoR 2= version 4\)
+In the back end systems we define the versions according to whether they are PoA or VoR but at the front end versioning will be maintained across both versions (ie PoA 1= version 1, PoA 2= version 2, VoR 1= version 3, VoR 2= version 4)
 
 #### ORCID
 
@@ -36,9 +36,9 @@ Stands for 'Research Resource Identifier'. Resources in this context are researc
 
 #### **DOI**
 
-Digital Object Identifier. This is composed of a generic to eLife string \(10.7554/eLife.\), followed by the manuscript number \(00013\) and a further suffix for subsidiary DOIs where relevant \(eg 10.7554/eLife.00013.001\)
+Digital Object Identifier. This is composed of a generic to eLife string (10.7554/eLife.), followed by the manuscript number (00013) and a further suffix for subsidiary DOIs where relevant (eg 10.7554/eLife.00013.001)
 
-**Potential additional** attribute \(@pub-id-type\):
+**Potential additional** attribute (@pub-id-type):
 
 #### **PMID**
 
@@ -46,7 +46,7 @@ PubMed identifier. This is currently not stored in the XML or displayed on the w
 
 #### **PubMed**
 
-This is a database of article metadata \(including abstracts\) with links to full articles at the publisher's website. It accepts PoA citations, which can be updated by the publisher until the VoR is published. Then no more updates are allowed without manual intervention by the PubMed team. Submissions to PubMed are via XML and using the PubMed DTD
+This is a database of article metadata (including abstracts) with links to full articles at the publisher's website. It accepts PoA citations, which can be updated by the publisher until the VoR is published. Then no more updates are allowed without manual intervention by the PubMed team. Submissions to PubMed are via XML and using the PubMed DTD
 
 #### **PMCID**
 
@@ -56,7 +56,7 @@ _Proposal_: added to the article. Workflow TBD
 
 #### **PubMedCentral**
 
-This is a free full-text archive of biomedical and life sciences journal literature. eLife deposits all VoRs in PMC. They do not accept PoA content from the publisher \(currently\). We can make updates to the VoR content and redeliver to PMC. PMC uses JATS xml.
+This is a free full-text archive of biomedical and life sciences journal literature. eLife deposits all VoRs in PMC. They do not accept PoA content from the publisher (currently). We can make updates to the VoR content and redeliver to PMC. PMC uses JATS xml.
 
 **medline** – NLM Medline identifier. This is currently not stored in the XML or displayed on the website
 
@@ -96,13 +96,13 @@ eLife digests explain the findings of eLife papers to a broader audience. Digest
 
 #### **elife-bot**
 
-This is the automatic system that runs various workflows at set times daily \(e.g. the PoA workflow\), or in response to a trigger \(e.g. uploading a package to the final bucket\).
+This is the automatic system that runs various workflows at set times daily (e.g. the PoA workflow), or in response to a trigger (e.g. uploading a package to the final bucket).
 
 #### **AWS bucket**
 
-eLife uses Amazon S3 buckets \(a public cloud storage resource\) to store objects consisting of data and its descriptive metadata
+eLife uses Amazon S3 buckets (a public cloud storage resource) to store objects consisting of data and its descriptive metadata
 
-#### **Crossref** 
+#### **Crossref **
 
 An agency that registers DOIs for articles
 
@@ -121,4 +121,3 @@ Editorial
 Production
 
 Features
-

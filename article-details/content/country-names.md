@@ -1,6 +1,6 @@
 # Country names
 
-This is a page about country names. If you want to know about affiliations instead, please go [here]().
+This is a page about country names. If you want to know about affiliations instead, please go [here](broken-reference).
 
 ## Description
 
@@ -8,9 +8,9 @@ Country names are used in a number of ways in an article including affiliations,
 
 ## Structure
 
-| Component | Contains | XML | Required? |
-| :--- | :--- | :--- | :---: |
-| `<countries>` | 1 or more `<country>` tags | `<xml-tagging>` | Yes |
+| Component     | Contains                   | XML             | Required? |
+| ------------- | -------------------------- | --------------- | :-------: |
+| `<countries>` | 1 or more `<country>` tags | `<xml-tagging>` |    Yes    |
 
 ## Examples
 
@@ -60,5 +60,4 @@ List of errors and warnings that can occur, with guidance on how to solve each p
 
 ## Further reading and links
 
-For the full list of country names - [https://github.com/elifesciences/eLife-JATS-schematron/blob/master/src/countries.xml]().
-
+For the full list of country names - [https://github.com/elifesciences/eLife-JATS-schematron/blob/master/src/countries.xml](broken-reference).

@@ -1,12 +1,12 @@
-# s3 \(AWS\) buckets
+# s3 (AWS) buckets
 
 ## How to access s3 buckets using cyberduck
 
 * Ensure you have AWS credentials setup to access the required buckets.
-* Download ****[**cyberduck**](https://cyberduck.io/)**.**
+* Download** **[**cyberduck**](https://cyberduck.io)**.**
 * Open cyberduck and click 'Open connection':
 
-![](https://lh4.googleusercontent.com/hfpVGVExjhoVs_5BeEC_uoKCNu6pxmvZRkHuBgmuVAHWzCPFYoxRFtx8vAUZt-BFWWyXhsJ5J7JHQT4sgbSEk5zalRm3ud3F58a-b8B_nifPUsY9bGzcsnH-05K7q9T2TYq48C8)
+![](https://lh4.googleusercontent.com/hfpVGVExjhoVs\_5BeEC_uoKCNu6pxmvZRkHuBgmuVAHWzCPFYoxRFtx8vAUZt-BFWWyXhsJ5J7JHQT4sgbSEk5zalRm3ud3F58a-b8B_nifPUsY9bGzcsnH-05K7q9T2TYq48C8)
 
 * You should now see this pop-up:
 
@@ -16,11 +16,11 @@
 
 ![](https://lh3.googleusercontent.com/lmAh088HZlbkdsOHZBA244OFh0Og456e_F1JVHnd-F_WWRW9cQHJ7lv7-MKzEUX2bpfCcejKX19YHCscuIuFHwqwlHTzAekOVcFaLlm0PnzMPE0Gf9pwlhqqMaPsRQmPiGdss9I)
 
-* Add your Access Key ID and Secret Access Key \(these are the credentials that will have been sent through to you\) into the fields:
+* Add your Access Key ID and Secret Access Key (these are the credentials that will have been sent through to you) into the fields:
 
 
 
-![](https://lh6.googleusercontent.com/2fN0u3EjAmiIRRSazZOvauYXWySPeHVwUUaRyKbT_0TWHAsjtzSyw9VNcOu69x-BQG7v8vbIAWeji_VkjpFGVsB-IWkDmvIxJLV1_LhxTbtwt81t4QwzClU3NQxjX8NM4LR7CMg)
+![](https://lh6.googleusercontent.com/2fN0u3EjAmiIRRSazZOvauYXWySPeHVwUUaRyKbT\_0TWHAsjtzSyw9VNcOu69x-BQG7v8vbIAWeji_VkjpFGVsB-IWkDmvIxJLV1\_LhxTbtwt81t4QwzClU3NQxjX8NM4LR7CMg)
 
 and click connect.
 
@@ -28,19 +28,19 @@ and click connect.
 
 ### Bookmarking s3 buckets in cyberduck
 
-* Navigate to the bucket you want to bookmark, In this example we'll use one called `prod-elife-bot-decision-letter-input` \(you can search for it in the top-right\).
+* Navigate to the bucket you want to bookmark, In this example we'll use one called `prod-elife-bot-decision-letter-input` (you can search for it in the top-right).
 
-![](https://lh5.googleusercontent.com/0zaNx4ZKEZqrO-oLkMKJj8I99LfLfNNBXAP4CrxoeesCO45jtaPjGJXjTaXv5_Jqm-DNEdKGpztEb_0hBA7P8IaYIfhDvNX9vZ3KIllqmUkLew4m0XfHZMvDghtnAJUUqmqDcjA)
+![](https://lh5.googleusercontent.com/0zaNx4ZKEZqrO-oLkMKJj8I99LfLfNNBXAP4CrxoeesCO45jtaPjGJXjTaXv5\_Jqm-DNEdKGpztEb\_0hBA7P8IaYIfhDvNX9vZ3KIllqmUkLew4m0XfHZMvDghtnAJUUqmqDcjA)
 
 * Right-click on the bucket and click New bookmark:
 
 ![](https://lh6.googleusercontent.com/uV4QItocL1chXVHyGj58YcDaiStAcXKA7XEm1XIgxivaUQXU1tYPlbzi17hYw-66CQdF_vJfpERauEBofVNXSYdlh2sSFwSlMRzUq3JtejkpKhBXvup2xHaPyI9ZogU8Kw-B-H8)
 
-*  In the pop-up, give it an appropriate nickname, then close the tab. 
+*  In the pop-up, give it an appropriate nickname, then close the tab.\
 
-![](https://lh6.googleusercontent.com/epOAzQ1zoqeZWrOHdHs3LOuIzey1Ur_6Dqmx4VFdOQbveO8UGf_-kURVqI7zcyKxOE3U4VDb-thXx4ZXyBXf5kXHTfjIW7B9P60vIhAtYij9SH8L_3xJL1c1sjZTQn4Uf23Uk8o)
 
-* Now you've set it up as a bookmark. When you open cyberduck, if you show bookmarks \(using the highlighted affordance below\) it should appear, and you will be able to access the bucket by double-clicking the bookmark.
+![](https://lh6.googleusercontent.com/epOAzQ1zoqeZWrOHdHs3LOuIzey1Ur\_6Dqmx4VFdOQbveO8UGf\_-kURVqI7zcyKxOE3U4VDb-thXx4ZXyBXf5kXHTfjIW7B9P60vIhAtYij9SH8L\_3xJL1c1sjZTQn4Uf23Uk8o)
 
-![](https://lh3.googleusercontent.com/o7vxs2C8wuisvhh5hAzmBY9yBJyw93Xdcl-qnAxtqGfWT1RpsQvYhM_2mRJeYoxFaXzJgeZ8r1vuA2XzkK31J_vV2WgY7GWgo1HAROtnD73Gfzz6cJPNtexMlmLl28KET7er5ho)
+* Now you've set it up as a bookmark. When you open cyberduck, if you show bookmarks (using the highlighted affordance below) it should appear, and you will be able to access the bucket by double-clicking the bookmark.
 
+![](https://lh3.googleusercontent.com/o7vxs2C8wuisvhh5hAzmBY9yBJyw93Xdcl-qnAxtqGfWT1RpsQvYhM\_2mRJeYoxFaXzJgeZ8r1vuA2XzkK31J_vV2WgY7GWgo1HAROtnD73Gfzz6cJPNtexMlmLl28KET7er5ho)

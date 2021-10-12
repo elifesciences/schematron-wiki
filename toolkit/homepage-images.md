@@ -10,15 +10,15 @@ For changelog, click [**here**](homepage-images.md#changelog). Updated 24/03/202
 
 ## What are homepage images?
 
-On eLife's [**homepage**](https://elifesciences.org/), we feature three [**striking images**](striking-images-1.md) on an image carousel, with one new image being added each Tuesday. Each image will stay on the carousel for three weeks, which offers the chance of promoting the article during this time. Only VoR articles are selected for the homepage, not PoA articles.
+On eLife's [**homepage**](https://elifesciences.org), we feature three [**striking images**](striking-images-1.md) on an image carousel, with one new image being added each Tuesday. Each image will stay on the carousel for three weeks, which offers the chance of promoting the article during this time. Only VoR articles are selected for the homepage, not PoA articles.
 
-![](../.gitbook/assets/captured-4-%20%281%29.gif)
+![](<../.gitbook/assets/captured-4- (1).gif>)
 
 ## What makes a great homepage image?
 
 When looking through the possible striking images, it is important to keep in mind that the image will be in landscape orientation with white text overlaying the image. The image should have a strong visual impact and ideally not contain more than one panel. As mentioned in the striking image [**guidance**](striking-images-1.md#requirements), there should be no graphs, text, or summary figures. The best choices are colour photographs, microscopy images, and illustrations. It is also good practise to look at the other images on the carousel and try to vary the theme of the images if you can. 
 
-The file requirements for Journal CMS \(the content management system used to change the homepage image\) are as follows: 
+The file requirements for Journal CMS (the content management system used to change the homepage image) are as follows: 
 
 * Maximum of 32MB 
 * Image size larger than 1800x900 pixels
@@ -45,9 +45,9 @@ You can pick the new homepage image from the striking images associated with VoR
 
 As the words are requested on Monday mornings, it can be hard to be sure that an article will be published by the Tuesday afternoon, when the image is changed, if it is still in the Production workflow.  To avoid having to select a new image at the last minute, it is best practise to only use press papers that are already scheduled for that Tuesday, if selecting an unpublished paper. 
 
-You can use the Production team action [**sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) to look for articles that have been scheduled, and/or use the eLife's website to find VoR articles that have been published in the previous week. As you view each article, you will need to search the striking image bucket to see if it has a suitable image \(please see the 'Uploading via the striking images AWS bucket' section [**here**](striking-images-1.md#uploading-via-the-striking-images-aws-bucket) on how to access this\). Once you have found an image, you will then need to send this to Peter as outlined below. On the rare occasion that you do not find a suitable image, you should email Peter to let him know. Then either send an image later in the day when more articles have been published or at the very latest, Tuesday morning. 
+You can use the Production team action [**sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) to look for articles that have been scheduled, and/or use the eLife's website to find VoR articles that have been published in the previous week. As you view each article, you will need to search the striking image bucket to see if it has a suitable image (please see the 'Uploading via the striking images AWS bucket' section [**here**](striking-images-1.md#uploading-via-the-striking-images-aws-bucket) on how to access this). Once you have found an image, you will then need to send this to Peter as outlined below. On the rare occasion that you do not find a suitable image, you should email Peter to let him know. Then either send an image later in the day when more articles have been published or at the very latest, Tuesday morning. 
 
-Ideally, a PoA should not be used but in the rare cases that you cannot find a suitable image for a VoR article, Peter \(the Features editor\) should be emailed to discuss this. 
+Ideally, a PoA should not be used but in the rare cases that you cannot find a suitable image for a VoR article, Peter (the Features editor) should be emailed to discuss this. 
 
 ## Editing an image
 
@@ -57,7 +57,7 @@ The striking image that was provided for 50645 was too narrow but would make a g
 
 ![Striking image for 50645](../.gitbook/assets/screen-shot-2020-08-27-at-12.23.51.png)
 
-To make this more suitable for the homepage image, in Photoshop we extended the black background to at least our minimum image size \(1800x900 pixels\). Another change we made was to crop the image slightly so that the Jerboa's head is the main focus on the picture. In its current format, the image carousel would focus on the Jerboa's body, cutting off some of it's head. Sadly the funky feet had to go. 
+To make this more suitable for the homepage image, in Photoshop we extended the black background to at least our minimum image size (1800x900 pixels). Another change we made was to crop the image slightly so that the Jerboa's head is the main focus on the picture. In its current format, the image carousel would focus on the Jerboa's body, cutting off some of it's head. Sadly the funky feet had to go. 
 
 ![The final edit to 50645 for the homepage](../.gitbook/assets/50645-a_striking_image.jpg)
 
@@ -67,7 +67,7 @@ However, you should not make any significant changes to the photo that aren't fo
 
 ## Homepage image wording
 
-The homepage image is selected by a nominated member of the Production team on a Monday morning. This image is emailed to Peter \(the Features Editor\) asking him to provide the wording which overlays the image. This text is a short description of the article, which you can see on the carousel at the top of this page.
+The homepage image is selected by a nominated member of the Production team on a Monday morning. This image is emailed to Peter (the Features Editor) asking him to provide the wording which overlays the image. This text is a short description of the article, which you can see on the carousel at the top of this page.
 
 To ensure this is not forgotten, a reminder email is sent to the Production inbox and a reminder will appear in Slack. 
 
@@ -89,13 +89,13 @@ The homepage image is changed on Tuesday afternoon, an email reminder will be se
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-12.08.38.png)
 
-A reminder will also appear on Slack in the 'eLife\_production' channel.
+A reminder will also appear on Slack in the 'eLife_production' channel.
 
 ![](../.gitbook/assets/screen-shot-2020-09-10-at-11.57.55.png)
 
 To do this, follow the steps below. 
 
-* Go to [**https://prod--journal-cms.elifesciences.org/**](https://prod--journal-cms.elifesciences.org/)\*\*\*\*
+* Go to [**https://prod--journal-cms.elifesciences.org/**](https://prod--journal-cms.elifesciences.org)****
 * Log in. If you do not have login credentials, please speak to a member of the Production team. 
 * Hover over the 'Structure' tab at the top of the page and click on 'Entityqueues'.
 
@@ -118,20 +118,20 @@ There should be no full stop at the end of the sentence.
 {% hint style="info" %}
 Italics should be added using `<i>` tags. For example
 
-> This is some text, and here is some &lt;i&gt;italics&lt;/i&gt;
+> This is some text, and here is some \<i>italics\</i>
 {% endhint %}
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-13.34.27.png)
 
-* Now 'Choose file' under the 'Image \(banner\) field. It may help to already have the chosen image saved to your desktop. After you have selected the image, the system will alert you if there are any problems with the image. Typically, this is due to size or file type. **Reminder:** the images must be a maximum of 32MB, larger than 1800x900 pixels, and only in the three following formats: png, jpg, or jpeg. Leave the field 'Alternative text' blank.
+* Now 'Choose file' under the 'Image (banner) field. It may help to already have the chosen image saved to your desktop. After you have selected the image, the system will alert you if there are any problems with the image. Typically, this is due to size or file type. **Reminder: **the images must be a maximum of 32MB, larger than 1800x900 pixels, and only in the three following formats: png, jpg, or jpeg. Leave the field 'Alternative text' blank.
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-13.41.18.png)
 
 * If there is an image attribution, this should be entered in the field below. If provided, the attribution can be found in the .txt file which you can download from the AWS bucket, see [**here**](striking-images-1.md#uploading-via-the-striking-images-aws-bucket) for more information. Where possible, try to keep the attribution fewer than 50 characters long, as if it is longer then it will be shortened with an ellipsis on the site. You will also need to enter the string 'Image credit:' before the attribution to ensure this is consistent as the carousel will display whatever is entered into the field below.
 
-![](../.gitbook/assets/screen-shot-2021-03-24-at-08.56.31%20%281%29.png)
+![](<../.gitbook/assets/screen-shot-2021-03-24-at-08.56.31 (1).png>)
 
-* The image attribution will be displayed in the righthand corner of the carousel \(see below\).
+* The image attribution will be displayed in the righthand corner of the carousel (see below).
 
 ![](../.gitbook/assets/screen-shot-2020-11-24-at-15.32.17.png)
 
@@ -157,15 +157,13 @@ Italics should be added using `<i>` tags. For example
 
 * This process is now done. To ensure the homepage has updated correctly, check the eLife homepage after at least 15 minutes. 
 
-If there are any issues with the Journal CMS website, Nathan can be contacted through the \#journal-cms Slack channel. 
+If there are any issues with the Journal CMS website, Nathan can be contacted through the #journal-cms Slack channel. 
 
 ## Changelog
 
 ### **24/03/2021**
 
 * Updated how the image attribution is entered into Journal CMS and how it displays on the homepage.
-
-
 
 
 

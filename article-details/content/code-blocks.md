@@ -12,11 +12,11 @@ Authors will sometimes include snippets of code in their articles. This is usual
 
 ![Example of a code-block in the PDF ](../../.gitbook/assets/screen-shot-2021-06-08-at-14.22.25.png)
 
-Within a code block, all text is rendered in a monospace font and the spacing and line-breaks are preserved. Since the publishing platform \(Continuum\) will display any XML tags inside code blocks, it is not possible to place hyperlinks, formatting or coloured text within them. Please note that some authors do provide colour-coding within their code, so it may need to be explained to them that this cannot be preserved.
+Within a code block, all text is rendered in a monospace font and the spacing and line-breaks are preserved. Since the publishing platform (Continuum) will display any XML tags inside code blocks, it is not possible to place hyperlinks, formatting or coloured text within them. Please note that some authors do provide colour-coding within their code, so it may need to be explained to them that this cannot be preserved.
 
 ![Example of Continuum displaying XML tags within a code block, rather than applying bold formatting](../../.gitbook/assets/screen-shot-2021-06-23-at-10.24.35.png)
 
-Code blocks can be formatted by selecting the required text and then picking the following options from the Style\(s\) menu:
+Code blocks can be formatted by selecting the required text and then picking the following options from the Style(s) menu:
 
 ![Option to make text a code block in Kriya 1.0](../../.gitbook/assets/screen-shot-2021-06-10-at-15.20.41.png)
 
@@ -32,7 +32,7 @@ Not all code provided in eLife articles will be intended for presentation in a c
 
 Note that monospace formatting can be used for purposes other than highlighting code and it is not required that authors use it to denote code in their text. They may prefer that it be left as plain text and, in general, the original article file should be followed for styling inline code.
 
-Monospace styling can be added by selecting the required text and picking the following option from the Style\(s\) menu:
+Monospace styling can be added by selecting the required text and picking the following option from the Style(s) menu:
 
 ![Option to make text monospace in Kriya 1.0](../../.gitbook/assets/screen-shot-2021-06-10-at-15.20.52.png)
 
@@ -58,7 +58,7 @@ A related issue is that each set of code should be presented in a single code bl
 
 ![Multiple code blocks in 35684 that should have been combined ](../../.gitbook/assets/screen-shot-2021-06-08-at-15.54.52.png)
 
-While it is not absolutely the case that multiple stacked code blocks always need to be combined, it is extremely unusual for this not to be required. Unless the authors' original article file makes it clear that two pieces of code are entirely separate \(e.g. through the use of boxes or some other obvious delimiter\), stacked code blocks should be combined into one with the line breaks between them preserved inside.
+While it is not absolutely the case that multiple stacked code blocks always need to be combined, it is extremely unusual for this not to be required. Unless the authors' original article file makes it clear that two pieces of code are entirely separate (e.g. through the use of boxes or some other obvious delimiter), stacked code blocks should be combined into one with the line breaks between them preserved inside.
 
 Ideally, any issues with this should be sorted during the initial processing of the article. If multiple blocks need to be combined at later stages, the content processors will need to be asked to make the changes.
 
@@ -68,29 +68,29 @@ Ideally, any issues with this should be sorted during the initial processing of 
 
 #### code-child-test
 
-**Error**: _code contains a child element, which will display in HTML with its tagging, i.e. '&lt;XXXXXXXXXXXX&gt;XXXXXX&lt;/XXXXXX&gt;'. Strip any child elements._
+**Error**: _code contains a child element, which will display in HTML with its tagging, i.e. '\<XXXXXXXXXXXX>XXXXXX\</XXXXXX>'. Strip any child elements._
 
-**Action**: This error indicates that XML tagging is present within a code block. If this is the result of formatting present in the original article file \(e.g. bold `<bold>,` italic `<italic>`, coloured text `<named-content content-type="author-callout-style-a1">`\), the tags will need to be removed and the following author query added:
+**Action**: This error indicates that XML tagging is present within a code block. If this is the result of formatting present in the original article file (e.g. bold `<bold>,` italic `<italic>`, coloured text `<named-content content-type="author-callout-style-a1">`), the tags will need to be removed and the following author query added:
 
 * Unfortunately, we are not able to preserve style formatting or coloured text in code blocks. Please confirm the updated display is acceptable.
 
-If the XML tagging needs to be preserved - for example, if it _is_ the content that is being displayed in the code block - the angle brackets around the tags will need to be escaped in the XML as &gt; \(&lt;\) and &lt; \(&gt;\) to ensure that they display corrected on the website. The content processor will need to do this to ensure that the correct characters are used in the XML.
+If the XML tagging needs to be preserved - for example, if it _is_ the content that is being displayed in the code block - the angle brackets around the tags will need to be escaped in the XML as \&gt; (<) and \&lt; (>) to ensure that they display corrected on the website. The content processor will need to do this to ensure that the correct characters are used in the XML.
 
 #### code-sibling-test	
 
-**Warning**: _code element \(containing the content XXXXXX\) is directly preceded by another code element \(containing the content XXXXXX\). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks \(uncommon, but possible\), then this markup is fine._
+**Warning**: _code element (containing the content XXXXXX) is directly preceded by another code element (containing the content XXXXXX). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks (uncommon, but possible), then this markup is fine._
 
-**Action**: This warning indicates that two or more code blocks have been placed one after the other with no text between them. As mentioned [**above**](code-blocks.md#multiple-stacked-code-blocks), this is most likely a mistake as one continuous section of code should be tagged as a single code block. Unless it is certain from the authors' original article file that multiple code blocks are required \(e.g. they use multiple text boxes or provide a delimiter between two sections of code\), the content processor will need to tag this section of code in one code block.
+**Action**: This warning indicates that two or more code blocks have been placed one after the other with no text between them. As mentioned [**above**](code-blocks.md#multiple-stacked-code-blocks), this is most likely a mistake as one continuous section of code should be tagged as a single code block. Unless it is certain from the authors' original article file that multiple code blocks are required (e.g. they use multiple text boxes or provide a delimiter between two sections of code), the content processor will need to tag this section of code in one code block.
 
 #### code-sibling-test-2
 
-**Warning**: _code element \(containing the content XXXXXX\) is directly preceded by another code element \(containing the content XXXXXX\). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks \(uncommon, but possible\), then this markup is fine._
+**Warning**: _code element (containing the content XXXXXX) is directly preceded by another code element (containing the content XXXXXX). If the content is part of the same code block, then it should be captured using only 1 code element and line breaks added in the xml. If these are separate code blocks (uncommon, but possible), then this markup is fine._
 
-**Action**: This warning indicates that two or more code blocks have been placed one after the other with no text between them. As mentioned [**above**](code-blocks.md#multiple-stacked-code-blocks), this is most likely a mistake as one continuous section of code should be tagged as a single code block. Unless it is certain from the authors' original article file that multiple code blocks are required \(e.g. they use multiple text boxes or provide a delimiter between two sections of code\), the content processor will need to tag this section of code in one code block.
+**Action**: This warning indicates that two or more code blocks have been placed one after the other with no text between them. As mentioned [**above**](code-blocks.md#multiple-stacked-code-blocks), this is most likely a mistake as one continuous section of code should be tagged as a single code block. Unless it is certain from the authors' original article file that multiple code blocks are required (e.g. they use multiple text boxes or provide a delimiter between two sections of code), the content processor will need to tag this section of code in one code block.
 
 #### code-test
 
-**Warning**: _XXXXXX element contains what looks like unformatted code - 'XXXXXX' - does this need tagging with &lt;monospace/&gt; or &lt;code/&gt;?_
+**Warning**: _XXXXXX element contains what looks like unformatted code - 'XXXXXX' - does this need tagging with \<monospace/> or \<code/>?_
 
 **Action**: This warning indicates a piece of text that appears to be unformatted code. An example would be "--no-discordant", a parameter for the software bowtie2 that may have been intended as part of a code block or as inline code. Check against the original article file and ensure that the appropriate formatting is applied.
 
@@ -98,9 +98,9 @@ If the XML tagging needs to be preserved - for example, if it _is_ the content t
 
 #### code-parent-test
 
-**Error**: _A code element must be contained in a p element. The code element \(containing the content XXXXXX\) is contained in a XXXXXX element._
+**Error**: _A code element must be contained in a p element. The code element (containing the content XXXXXX) is contained in a XXXXXX element._
 
-**Action**: All code blocks should be placed within the same paragraph element &lt;p&gt; as the text that precedes them. This error indicates that a code block element &lt;code&gt; is contained within another kind of element. The code block will need to be moved so that it is a child of the correct element. This may require intervention from the content processor's support team if it cannot be resolved through the system interface.
+**Action**: All code blocks should be placed within the same paragraph element \<p> as the text that precedes them. This error indicates that a code block element \<code> is contained within another kind of element. The code block will need to be moved so that it is a child of the correct element. This may require intervention from the content processor's support team if it cannot be resolved through the system interface.
 
 #### line-count
 
@@ -139,4 +139,3 @@ my_live_object = DLCLive(”/path/to/exported/model/directory’,
 </code>
 </p>
 ```
-

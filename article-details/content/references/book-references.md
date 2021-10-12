@@ -8,44 +8,44 @@ For change log, click [**here**](book-references.md#change-log).
 
 A book reference gives bibliographic details for any electronic or in print books referred to in an article. 
 
-&lt;insert book ref example&gt;
+\<insert book ref example>
 
 For eLife articles, each part of the reference is formatted specifically:
 
-&lt;insert book ref example including doi with formatting labels&gt;
+\<insert book ref example including doi with formatting labels>
 
 ## What needs to be added?
 
 The following information can be added for journal references:
 
-| Kriya field | Mandatory? | XML element | Example |
-| :--- | :--- | :--- | :--- |
-| Author\(s\) | At least one author or collaboration is required; both can be present | &lt;person-group person-group-type="author"&gt;&lt;name&gt;&lt;surname&gt;Coyne&lt;/surname&gt;&lt;given-names&gt;JA&lt;/given-names&gt;&lt;/name&gt; | Coyne JA |
-| Editor\(s\) | At least one author or editor is required; both can be present | &lt;person-group person-group-type="editor"&gt;&lt;name&gt;&lt;surname&gt;Otte&lt;/surname&gt;&lt;given-names&gt;D&lt;/given-names&gt;&lt;/name&gt; | Otte D |
-| Year | Yes | &lt;year iso-8601-date="1989"&gt;1989&lt;/year&gt; | 1989 |
-| Chapter title | No | &lt;chapter-title&gt;Two rules of speciation&lt;/chapter-title&gt; | Two rules of speciation |
-| Book title | Yes | &lt;source&gt;Speciation and its consequences&lt;/source&gt; | Speciation and its consequences |
-| Volume | No | &lt;volume&gt;173&lt;/volume&gt; | 173 |
-| e-location ID | No \(if first/last pages are present, there can be no e-location ID\) | &lt;elocation-id&gt;e51381&lt;/elocation-id&gt; | e51381 |
-| First page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;fpage&gt;917&lt;/fpage&gt; | 917 |
-| Last page | No \(if an e-location ID is present, there can be no first/last pages\) | &lt;lpage&gt;926&lt;/lpage&gt; | 926 |
-| DOI | Yes \(if there is one\) | &lt;pub-id pub-id-type="doi"&gt; | 10.1083/jcb.200510010 |
-| PMID | Yes \(if there is one\) | &lt;pub-id pub-id-type="pmid"&gt; | 16769818 |
-| InPress | No | &lt;comment&gt;In press&lt;/comment&gt; | In press |
+| Kriya field   | Mandatory?                                                            | XML element                                                                                                        | Example                         |
+| ------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------- |
+| Author(s)     | At least one author or collaboration is required; both can be present | \<person-group person-group-type="author">\<name>\<surname>Coyne\</surname>\<given-names>JA\</given-names>\</name> | Coyne JA                        |
+| Editor(s)     | At least one author or editor is required; both can be present        | \<person-group person-group-type="editor">\<name>\<surname>Otte\</surname>\<given-names>D\</given-names>\</name>   | Otte D                          |
+| Year          | Yes                                                                   | \<year iso-8601-date="1989">1989\</year>                                                                           | 1989                            |
+| Chapter title | No                                                                    | \<chapter-title>Two rules of speciation\</chapter-title>                                                           | Two rules of speciation         |
+| Book title    | Yes                                                                   | \<source>Speciation and its consequences\</source>                                                                 | Speciation and its consequences |
+| Volume        | No                                                                    | \<volume>173\</volume>                                                                                             | 173                             |
+| e-location ID | No (if first/last pages are present, there can be no e-location ID)   | \<elocation-id>e51381\</elocation-id>                                                                              | e51381                          |
+| First page    | No (if an e-location ID is present, there can be no first/last pages) | \<fpage>917\</fpage>                                                                                               | 917                             |
+| Last page     | No (if an e-location ID is present, there can be no first/last pages) | \<lpage>926\</lpage>                                                                                               | 926                             |
+| DOI           | Yes (if there is one)                                                 | \<pub-id pub-id-type="doi">                                                                                        | 10.1083/jcb.200510010           |
+| PMID          | Yes (if there is one)                                                 | \<pub-id pub-id-type="pmid">                                                                                       | 16769818                        |
+| InPress       | No                                                                    | \<comment>In press\</comment>                                                                                      | In press                        |
 
 Non-mandatory fields are required if they exist. Validation of references via PubMed or Crossref API tools should pull them in if the author did not provide them. Schematron warnings may also pick up incomplete references, and these should be checked at the source of the reference.
 
-* **Authors**: Enter each author name as a surname\(s\) followed by initials. 
-* **Collaboration:** Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
-* **Year**: This should be the year the book was published. This field can include a letter suffix \(e.g. 2020a\) if needed to distinguish between citations \(see more [here](../reference-citations.md#what-is-a-reference-citation)\).
+* **Authors**: Enter each author name as a surname(s) followed by initials. 
+* **Collaboration: **Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
+* **Year**: This should be the year the book was published. This field can include a letter suffix (e.g. 2020a) if needed to distinguish between citations (see more [here](../reference-citations.md#what-is-a-reference-citation)).
 * **Article title**: The title of the book. Can contain italics, superscript and subscript as required.
-* **Journal name**: The full \(not abbreviated\) name of the journal in which the article was published.
-* **Volume:** The volume of the journal in which the article was published \(if applicable\). eLife does not include issue numbers in journal references, so this information does not need to be added.
-* **e-location ID:** The e-location identifier for the article \(if applicable; most journal references will have either page numbers or an e-location ID\).
-* **First page:** The page number on which the article starts \(if applicable; most journal references will have either page numbers or an e-location ID\). Some page numbers will be prefixed with letters.
-* **Last page:** The page number on which the article ends \(if applicable; some articles are one-page long and so a last page is not required as it is the same as the first page\). Some page numbers will be prefixed with letters.
-* **DOI:** The Digital Object Identifier for the article \(if applicable\).
-* **PMID:** The PubMed Identifier for the article \(if applicable\). This will not be supplied by the author but is added during pre-editing via the PubMed API tool.
+* **Journal name**: The full (not abbreviated) name of the journal in which the article was published.
+* **Volume: **The volume of the journal in which the article was published (if applicable). eLife does not include issue numbers in journal references, so this information does not need to be added.
+* **e-location ID:** The e-location identifier for the article (if applicable; most journal references will have either page numbers or an e-location ID).
+* **First page: **The page number on which the article starts (if applicable; most journal references will have either page numbers or an e-location ID). Some page numbers will be prefixed with letters.
+* **Last page:** The page number on which the article ends (if applicable; some articles are one-page long and so a last page is not required as it is the same as the first page). Some page numbers will be prefixed with letters.
+* **DOI:** The Digital Object Identifier for the article (if applicable).
+* **PMID: **The PubMed Identifier for the article (if applicable). This will not be supplied by the author but is added during pre-editing via the PubMed API tool.
 * **InPress**: If a paper has been accepted for publication but the final publication details are not yet known, this field should have the text 'In press'. 
 
 If any of the mandatory information is not provided, look up the book online. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
@@ -64,19 +64,19 @@ These checks relate to the content of book references. X or XXXXXX refers to quo
 
 #### book-doi-test-1
 
-**Warning**: _XXXXXX is a book ref without a doi, but its publisher \(XXXXXX\) is known to register dois with some books/chapters. Should it have one?_
+**Warning**: _XXXXXX is a book ref without a doi, but its publisher (XXXXXX) is known to register dois with some books/chapters. Should it have one?_
 
 **Action:** This warning will appear if a book reference has no DOI and its publisher is known to register these in some cases. Look up the book online to see whether it should have a DOI and add one if so. If not, the warning can be ignored. 
 
 #### err-elem-cit-book-2-2
 
-**Error**: ****The only values allowed for @person-group-type in book references are "author" and "editor". Reference 'XXXXXX' has a &lt;person-group&gt; type of 'XXXXXX'.
+**Error**:** **The only values allowed for @person-group-type in book references are "author" and "editor". Reference 'XXXXXX' has a \<person-group> type of 'XXXXXX'.
 
-**Action:** This error will fire if a book reference has a person-group with a type other than 'author' or 'editor'. These are the only allowed types - if another type is present \(e.g. 'translator'\) this should be removed. Double-check the reference details and update accordingly. If there is any confusion, check with the Production team.
+**Action:** This error will fire if a book reference has a person-group with a type other than 'author' or 'editor'. These are the only allowed types - if another type is present (e.g. 'translator') this should be removed. Double-check the reference details and update accordingly. If there is any confusion, check with the Production team.
 
 #### pre-err-elem-cit-book-2-3
 
-**Warning**: _In a book reference, there should be a single person-group element \(either author or editor\) or one person-group with @person-group-type="author" and one person-group with @person-group-type=editor. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements. If this finromation is missing, please query it with the authors._
+**Warning**: _In a book reference, there should be a single person-group element (either author or editor) or one person-group with @person-group-type="author" and one person-group with @person-group-type=editor. Reference 'XXXXXX' has XXXXXX \<person-group> elements. If this finromation is missing, please query it with the authors._
 
 **Action:** This will appear as a warning at pre-author stages if a book reference has multiple person-group elements of the same type e.g.: 
 
@@ -124,15 +124,15 @@ In the XML, authors should all be captured under the person-group type 'author' 
 ...
 ```
 
-If you are unsure of the correct details, please leave the following query \(deleting as appropriate\): 
+If you are unsure of the correct details, please leave the following query (deleting as appropriate): 
 
 * Please provide the author/editor list for this reference.
 
 #### final-err-elem-cit-book-2-3
 
-**Error**: _In a book reference, there should be a single person-group element \(either author or editor\) or one person-group with @person-group-type="author" and one person-group with @person-group-type=editor. Reference 'XXXXXX' has XXXXXX &lt;person-group&gt; elements._
+**Error**: _In a book reference, there should be a single person-group element (either author or editor) or one person-group with @person-group-type="author" and one person-group with @person-group-type=editor. Reference 'XXXXXX' has XXXXXX \<person-group> elements._
 
-**Action:** This will appear as an error at post-author stages if a book reference has multiple person-group elements of the same type e.g.: 
+**Action: **This will appear as an error at post-author stages if a book reference has multiple person-group elements of the same type e.g.: 
 
 ```markup
 <element-citation publication-type="book">
@@ -182,9 +182,9 @@ If you are unsure of the correct details, email the authors to clarify.
 
 #### pre-err-elem-cit-book-10-1
 
-**Warning**: _Each &lt;element-citation&gt; of type 'book' must contain one and only one &lt;source&gt; element. Reference 'XXXXXX' has XXXXXX &lt;source&gt; elements. If this information is missing, please query it with the authors._
+**Warning**: _Each \<element-citation> of type 'book' must contain one and only one \<source> element. Reference 'XXXXXX' has XXXXXX \<source> elements. If this information is missing, please query it with the authors._
 
-**Action:** This warning will appear at pre-author stages if a book reference has zero or more than one source elements \(i.e. the tag capturing the book title\).
+**Action:** This warning will appear at pre-author stages if a book reference has zero or more than one source elements (i.e. the tag capturing the book title).
 
 ```markup
 ...
@@ -213,9 +213,9 @@ If no title has been provided or you are unsure of the correct details, leave th
 
 #### final-err-elem-cit-book-10-1
 
-**Error**: _Each &lt;element-citation&gt; of type 'book' must contain one and only one &lt;source&gt; element. Reference 'XXXXXX' has XXXXXX &lt;source&gt; elements._
+**Error**: _Each \<element-citation> of type 'book' must contain one and only one \<source> element. Reference 'XXXXXX' has XXXXXX \<source> elements._
 
-**Action:** This error will appear at post-author stages if a book reference has zero or more than one source elements \(i.e. the tag capturing the book title\).
+**Action:** This error will appear at post-author stages if a book reference has zero or more than one source elements (i.e. the tag capturing the book title).
 
 ```markup
 ...
@@ -242,25 +242,25 @@ If no title has been provided or you are unsure of the correct details, email th
 
 #### err-elem-cit-book-10-2-2
 
-**Error**: _A &lt;source&gt; element within a &lt;element-citation&gt; of type 'book' may only contain the child elements &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' has child elements that are not allowed._
+**Error**: _A \<source> element within a \<element-citation> of type 'book' may only contain the child elements \<italic>, \<sub>, and \<sup>. No other elements are allowed. Reference 'XXXXXX' has child elements that are not allowed._
 
-**Action:** This error will fire if there are formatting elements \(e.g. bold text\) in a book reference title. Only italics, superscripts and subscripts are allowed - check the original submission to see what the title should look like and correct accordingly. 
+**Action:** This error will fire if there are formatting elements (e.g. bold text) in a book reference title. Only italics, superscripts and subscripts are allowed - check the original submission to see what the title should look like and correct accordingly. 
 
 #### pre-err-elem-cit-book-13-1
 
-**Warning**: _One and only one &lt;publisher-name&gt; is required in a book reference. Reference 'XXXXXX' has XXXXXX &lt;publisher-name&gt; elements. If this information is missing, please query it with the authors._
+**Warning**: _One and only one \<publisher-name> is required in a book reference. Reference 'XXXXXX' has XXXXXX \<publisher-name> elements. If this information is missing, please query it with the authors._
 
 **Action:** What to do if this message fires
 
 #### final-err-elem-cit-book-13-1
 
-**Error**: _One and only one &lt;publisher-name&gt; is required in a book reference. Reference 'XXXXXX' has XXXXXX &lt;publisher-name&gt; elements._
+**Error**: _One and only one \<publisher-name> is required in a book reference. Reference 'XXXXXX' has XXXXXX \<publisher-name> elements._
 
 **Action:** What to do if this message fires
 
 #### warning-elem-cit-book-13-3
 
-**Warning**: _The content of &lt;publisher-name&gt; should not end with a publisher location. Reference 'XXXXXX' contains the string XXXXXX, which ends with a publisher location._
+**Warning**: _The content of \<publisher-name> should not end with a publisher location. Reference 'XXXXXX' contains the string XXXXXX, which ends with a publisher location._
 
 **Action:** What to do if this message fires
 
@@ -272,91 +272,91 @@ If no title has been provided or you are unsure of the correct details, email th
 
 #### err-elem-cit-book-36
 
-**Error**: _If both &lt;lpage&gt; and &lt;fpage&gt; are present, the value of &lt;fpage&gt; must be less than the value of &lt;lpage&gt;. Reference 'XXXXXX' has &lt;lpage&gt; XXXXXX, which is less than or equal to &lt;fpage&gt; XXXXXX._
+**Error**: _If both \<lpage> and \<fpage> are present, the value of \<fpage> must be less than the value of \<lpage>. Reference 'XXXXXX' has \<lpage> XXXXXX, which is less than or equal to \<fpage> XXXXXX._
 
 **Action:** What to do if this message fires
 
 #### err-elem-cit-book-36-2
 
-**Error**: _If &lt;lpage&gt; is present, &lt;fpage&gt; must also be present. Reference 'XXXXXX' has &lt;lpage&gt; but not &lt;fpage&gt;._
+**Error**: _If \<lpage> is present, \<fpage> must also be present. Reference 'XXXXXX' has \<lpage> but not \<fpage>._
 
 **Action:** What to do if this message fires
 
 #### err-elem-cit-book-36-6
 
-**Error**: _At most one &lt;lpage&gt; and one &lt;fpage&gt; are allowed. Reference 'XXXXXX' has XXXXXX &lt;lpage&gt; elements and XXXXXX &lt;fpage&gt; elements._
+**Error**: _At most one \<lpage> and one \<fpage> are allowed. Reference 'XXXXXX' has XXXXXX \<lpage> elements and XXXXXX \<fpage> elements._
 
 **Action:** What to do if this message fires
 
 #### err-elem-cit-book-40
 
-**Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="book" are: &lt;person-group&gt;, &lt;year&gt;, &lt;source&gt;, &lt;chapter-title&gt;, &lt;publisher-loc&gt;, &lt;publisher-name&gt;, &lt;volume&gt;, &lt;edition&gt;, &lt;fpage&gt;, &lt;lpage&gt;, &lt;pub-id&gt;, and &lt;comment&gt;. Reference 'XXXXXX' has other elements._
+**Error**: _The only tags that are allowed as children of \<element-citation> with the publication-type="book" are: \<person-group>, \<year>, \<source>, \<chapter-title>, \<publisher-loc>, \<publisher-name>, \<volume>, \<edition>, \<fpage>, \<lpage>, \<pub-id>, and \<comment>. Reference 'XXXXXX' has other elements._
 
 **Action:** What to do if this message fires
 
 #### err-elem-cit-book-2-1
 
-**Error**: _Each &lt;person-group&gt; must have a @person-group-type attribute. Reference 'XXXXXX' has a &lt;person-group&gt; element with no @person-group-type attribute._
+**Error**: _Each \<person-group> must have a @person-group-type attribute. Reference 'XXXXXX' has a \<person-group> element with no @person-group-type attribute._
 
 **Action:** What to do if this message fires
 
 #### pre-err-elem-cit-book-22
 
-**Warning**: _If there is a &lt;chapter-title&gt; element there must be one and only one &lt;person-group person-group-type="author"&gt;. Reference 'XXXXXX' does not meet this requirement. If this information is missing, please query the authors for it._
+**Warning**: _If there is a \<chapter-title> element there must be one and only one \<person-group person-group-type="author">. Reference 'XXXXXX' does not meet this requirement. If this information is missing, please query the authors for it._
 
 **Action:** What to do if this message fires
 
 #### final-err-elem-cit-book-22
 
-**Error**: _If there is a &lt;chapter-title&gt; element there must be one and only one &lt;person-group person-group-type="author"&gt;. Reference 'XXXXXX' does not meet this requirement._
+**Error**: _If there is a \<chapter-title> element there must be one and only one \<person-group person-group-type="author">. Reference 'XXXXXX' does not meet this requirement._
 
 **Action:** What to do if this message fires
 
 #### err-elem-cit-book-28-1
 
-**Error**: _If there is a &lt;chapter-title&gt; element there may be a maximum of one &lt;person-group person-group-type="editor"&gt;. Reference 'XXXXXX' does not meet this requirement._
+**Error**: _If there is a \<chapter-title> element there may be a maximum of one \<person-group person-group-type="editor">. Reference 'XXXXXX' does not meet this requirement._
 
 **Action:** What to do if this message fires
 
 #### err-elem-cit-book-31
 
-**Error**: _A &lt;chapter-title&gt; element in a reference may contain characters and &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' does not meet this requirement._
+**Error**: _A \<chapter-title> element in a reference may contain characters and \<italic>, \<sub>, and \<sup>. No other elements are allowed. Reference 'XXXXXX' does not meet this requirement._
 
 **Action:** What to do if this message fires
 
 #### err-elem-cit-book-13-2
 
-**Error**: _No elements are allowed inside &lt;publisher-name&gt;. Reference 'XXXXXX' has child elements within the &lt;publisher-name&gt; element._
+**Error**: _No elements are allowed inside \<publisher-name>. Reference 'XXXXXX' has child elements within the \<publisher-name> element._
 
 **Action:** What to do if this message fires
 
 #### err-elem-cit-book-15
 
-**Error**: _No elements are allowed inside &lt;edition&gt;. Reference 'XXXXXX' has child elements within the &lt;edition&gt; element._
+**Error**: _No elements are allowed inside \<edition>. Reference 'XXXXXX' has child elements within the \<edition> element._
 
 **Action:** What to do if this message fires
 
 #### err-elem-cit-book-18
 
-**Error**: _If &lt;pub-id pub-id-type="pmid"&gt; is present, the content must be all numeric. The content of &lt;pub-id pub-id-type="pmid"&gt; in Reference 'XXXXXX' is XXXXXX._
+**Error**: _If \<pub-id pub-id-type="pmid"> is present, the content must be all numeric. The content of \<pub-id pub-id-type="pmid"> in Reference 'XXXXXX' is XXXXXX._
 
 **Action:** What to do if this message fires
 
 #### err-elem-cit-book-17
 
-**Error**: _Each &lt;pub-id&gt;, if present in a book reference, must have a @pub-id-type of one of these values: doi, pmid, isbn. The pub-id-type attribute on &lt;pub-id&gt; in Reference 'XXXXXX' is XXXXXX._
+**Error**: _Each \<pub-id>, if present in a book reference, must have a @pub-id-type of one of these values: doi, pmid, isbn. The pub-id-type attribute on \<pub-id> in Reference 'XXXXXX' is XXXXXX._
 
 **Action:** What to do if this message fires
 
 #### err-elem-cit-book-6-4
 
-**Error**: _If &lt;pub-id pub-id-type="pmid"&gt; is present, the content must be all numeric. The content of &lt;pub-id pub-id-type="pmid"&gt; in Reference 'XXXXXX' is XXXXXX._
+**Error**: _If \<pub-id pub-id-type="pmid"> is present, the content must be all numeric. The content of \<pub-id pub-id-type="pmid"> in Reference 'XXXXXX' is XXXXXX._
 
 **Action:** What to do if this message fires
 
 #### err-elem-cit-book-13
 
-**Error**: _Comment elements with content other than 'In press' are not allowed. Reference 'XXXXXX' has such a &lt;comment&gt; element._
+**Error**: _Comment elements with content other than 'In press' are not allowed. Reference 'XXXXXX' has such a \<comment> element._
 
 **Action:** What to do if this message fires
 
@@ -368,13 +368,13 @@ If no title has been provided or you are unsure of the correct details, email th
 
 #### book-chapter-test-1
 
-**Warning**: _ref 'XXXXXX' \(XXXXXX\) is tagged as a book reference with a chapter title, but there are no editors. Is this correct, or are these details missing?_
+**Warning**: _ref 'XXXXXX' (XXXXXX) is tagged as a book reference with a chapter title, but there are no editors. Is this correct, or are these details missing?_
 
 **Action:** What to do if this message fires
 
 #### book-chapter-test-2
 
-**Warning**: _ref 'XXXXXX' \(XXXXXX\) is tagged as a book reference with a chapter title, but there is not a first page and last page. Is this correct, or are these details missing?_
+**Warning**: _ref 'XXXXXX' (XXXXXX) is tagged as a book reference with a chapter title, but there is not a first page and last page. Is this correct, or are these details missing?_
 
 **Action:** What to do if this message fires
 
@@ -397,6 +397,4 @@ These checks relate to the XML structure of book references. ‌X or XXXXXX refe
 ## XML structure
 
 ## Change log
-
-
 

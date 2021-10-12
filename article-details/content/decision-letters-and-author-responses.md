@@ -6,25 +6,25 @@ description: eLife's published peer review material
 
 ## What needs to be checked?
 
-* Both a Decision letter and Author response are present prior to publication \(an Author response may not be included in cases where the review was carried out by Review Commons, or in other very rare cases, but having both is the norm\).
+* Both a Decision letter and Author response are present prior to publication (an Author response may not be included in cases where the review was carried out by Review Commons, or in other very rare cases, but having both is the norm).
 * All Figures, Tables, and Videos display in the same way as in the main article.
 * There are no unaddressed Schematron messages which require action.
 
 ## What is a Decision letter?
 
-The Decision letter is a collation of the Peer Review correspondence sent to the authors of a paper that has been accepted for publication by eLife. As such they can contain various information, including but not limited to, mandatory and non-mandatory requests for revisions, request\(s\) for further experimentation or analysis, conformance to house style, and general comments of the importance, novelty etc. of the research which is communicated in an article.
+The Decision letter is a collation of the Peer Review correspondence sent to the authors of a paper that has been accepted for publication by eLife. As such they can contain various information, including but not limited to, mandatory and non-mandatory requests for revisions, request(s) for further experimentation or analysis, conformance to house style, and general comments of the importance, novelty etc. of the research which is communicated in an article.
 
 For the purposes of the production workflow, they are typically quite simple pieces of content, made up of just paragraphs of text; however in rare instances, they can contain more complex items such as figures, tables and videos.
 
 ## What is an Author response?
 
-An Author response is a formal response to the Decision letter by the authors of a paper. As with Decision letters, they can contain various types of information including, for example, rebuttals to criticism or requests, clarifications on the choice of method\(s\) or terminology, and thanks for pointing out omissions, oversights, inaccuracies etc.
+An Author response is a formal response to the Decision letter by the authors of a paper. As with Decision letters, they can contain various types of information including, for example, rebuttals to criticism or requests, clarifications on the choice of method(s) or terminology, and thanks for pointing out omissions, oversights, inaccuracies etc.
 
 Typically they are relatively simple, although often more complex than the Decision letter. They will always contain quotes taken from the Decision letter, will commonly contain figures, and in rare instances may contain tables and/or videos.
 
 ## Which article types have Decision letters and Author responses
 
-The following article types typically contain both a Decision letter and an Author response \(although the Author response is still optional, and article reviewed via Review commons will likely not have an author response\).
+The following article types typically contain both a Decision letter and an Author response (although the Author response is still optional, and article reviewed via Review commons will likely not have an author response).
 
 * Research Article
 * Short Report
@@ -34,76 +34,78 @@ The following article types typically contain both a Decision letter and an Auth
 * Replication Study
 * Research Communication
 * Scientific Correspondence
-* Feature Article \(Template 5 only\)
+* Feature Article (Template 5 only)
 
 The following articles will never have a Decision letter or Author response:
 
 * Review article
 * Insight
-* Feature contribution \(Templates 3-4\)
+* Feature contribution (Templates 3-4)
 * Editorial
 * Correction
 * Retraction
 
 ## How are Decision letters and Author responses created?
 
-Decision letters and Author responses are collated from the peer review correspondence as indicated above. Editorial Office collate this content \(which may have originally been taken from various sources, e.g. emails, PDFs etc.\) into one Word file. Each Word file contains both the Decision letter and Author response \(provided there _are_ both, which is typical for any research article\).
+Decision letters and Author responses are collated from the peer review correspondence as indicated above. Editorial Office collate this content (which may have originally been taken from various sources, e.g. emails, PDFs etc.) into one Word file. Each Word file contains both the Decision letter and Author response (provided there _are_ both, which is typical for any research article).
 
-A Macro is run on the content which normalises it \(italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.\). This resultant Word document is then QC'd by Ed Office, and uploaded to the S3 bucket.
+A Macro is run on the content which normalises it (italicises certain words and phrases, normalises word styles, corrects the capitalisation of 'eLife' and other words, etc.). This resultant Word document is then QC'd by Ed Office, and uploaded to the S3 bucket.
 
 ## Decision letter QC
 
 ### Creating Decision letters
 
-1. The DL is selected from the [**DL tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1oy8TIwsedSYdy6n3_SFuqUcJ4Ljeg7tXnTS6q2CsNI8/edit#gid=0).
+1. The DL is selected from the [**DL tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1oy8TIwsedSYdy6n3\_SFuqUcJ4Ljeg7tXnTS6q2CsNI8/edit#gid=0).
 
-{% file src="../../.gitbook/assets/3.-template-2021.docx" caption="DL Template" %}
+{% file src="../../.gitbook/assets/3.-template-2021.docx" %}
+DL Template
+{% endfile %}
 
-2. The file above is a template, from which content is copied into.
+2\. The file above is a template, from which content is copied into.
 
-3. In eJP, the accepted version of the manuscript is opened, and the Acceptance summary from the 'Decision Summary' section is copied into the template document under the Acceptance Summary heading. If there is no Acceptance Summary the heading is removed from the letter. The summary itself is proofread for typos/grammar/spelling.
+3\. In eJP, the accepted version of the manuscript is opened, and the Acceptance summary from the 'Decision Summary' section is copied into the template document under the Acceptance Summary heading. If there is no Acceptance Summary the heading is removed from the letter. The summary itself is proofread for typos/grammar/spelling.
 
-4. Next, the full submission version of the manuscript is opened in eJP. The decision letter \(in the Decision Summary section\) is copied from "Thank you…" to the end of Major comments. In other words, the minor comments are not included. All major comments are included. This text is copied into the template file under "Decision letter".
+4\. Next, the full submission version of the manuscript is opened in eJP. The decision letter (in the Decision Summary section) is copied from "Thank you…" to the end of Major comments. In other words, the minor comments are not included. All major comments are included. This text is copied into the template file under "Decision letter".
 
-5. The [**Public Review tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd_STqhP7x0/edit#gid=0) is then checked, to see if the preprint has public reviews. If it does \(the article is present in that spreadsheet\), then the links in the preamble at the top of that template are edited to the specific Sciety and preprint links. If there is no public review for the article, then the preamble \(including the '**Preamble**' heading\) is removed. When the decision letter is processed by the elife-bot, the default template text will be instead added to the beginning of the decision letter. 
+5\. The [**Public Review tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd_STqhP7x0/edit#gid=0) is then checked, to see if the preprint has public reviews. If it does (the article is present in that spreadsheet), then the links in the preamble at the top of that template are edited to the specific Sciety and preprint links. If there is no public review for the article, then the preamble (including the '**Preamble**' heading) is removed. When the decision letter is processed by the elife-bot, the default template text will be instead added to the beginning of the decision letter. 
 
-6. After the content is pasted into the document, tracked changes are turned on, and the following amendments are made:
+6\. After the content is pasted into the document, tracked changes are turned on, and the following amendments are made:
 
 * The opening paragraph is changed to read correctly for the number of reviewers and editors identity.
 
 {% hint style="info" %}
 Here are the common options:
 
-1. ...has been reviewed by three peer reviewers, including X as the Reviewing Editor and Reviewer \#1, and the evaluation has been overseen by a Senior Editor. \[if the BRE has agreed to reveal their names\]   .
-2. …. has been reviewed by three peer reviewers, one of whom is a member of our Board of Reviewing Editors, and the evaluation has been overseen by a Senior Editor. \[if the BRE did NOT disclose their identity\].
-3. ...reviewed by a Senior Editor, a Reviewing Editor, and three reviewers. \[when the Reviewing Editor ISN’T one of the three reviewers\]   .
-4. ...reviewed by a Senior Editor, a Reviewing Editor, and two reviewers. \[when the Reviewing editor ISN’T one of the two reviewers\]   .
+1. ...has been reviewed by three peer reviewers, including X as the Reviewing Editor and Reviewer #1, and the evaluation has been overseen by a Senior Editor. \[if the BRE has agreed to reveal their names]   .
+2. …. has been reviewed by three peer reviewers, one of whom is a member of our Board of Reviewing Editors, and the evaluation has been overseen by a Senior Editor. \[if the BRE did NOT disclose their identity].
+3. ...reviewed by a Senior Editor, a Reviewing Editor, and three reviewers. \[when the Reviewing Editor ISN’T one of the three reviewers]   .
+4. ...reviewed by a Senior Editor, a Reviewing Editor, and two reviewers. \[when the Reviewing editor ISN’T one of the two reviewers]   .
 
 If the Reviewing Editor decided to share their identity, the respective sentence should be edited to say: 
 
-> Your article has been reviewed by three peer reviewers, including X as the Reviewing Editor and Reviewer \#1, and the evaluation has been overseen by a Senior Editor.
+> Your article has been reviewed by three peer reviewers, including X as the Reviewing Editor and Reviewer #1, and the evaluation has been overseen by a Senior Editor.
 {% endhint %}
 
 * Any mention of timeframe for submitting a revision i.e. “We hope you will submit within 2 months” is removed, but anything which refers to the eLife Covid-19 policy is left in.
 * If Essential revision or Summary are all in capitals they are changed to sentence case.
-* “\(General assessment…..\)” is removed after the reviewer heading. If the article is a Public Review article the reviewer headings should be titled “Reviewer \#1 \(Recommendations for the authors\):”
+* “(General assessment…..)” is removed after the reviewer heading. If the article is a Public Review article the reviewer headings should be titled “Reviewer #1 (Recommendations for the authors):”
 * All words used as numbers must be in full, i.e 2nd should be changed to second, 1 reviewer should be one reviewer.
-* Any HTML code showing must be removed and the actual formatting applied, i.e for Italics within the manuscript title itself \(&lt;em&gt;\).
+* Any HTML code showing must be removed and the actual formatting applied, i.e for Italics within the manuscript title itself (\<em>).
 
-7. Once all changes are made, tracked changes are turned off and all the text is copied and pasted into the Author response. Then all that text is italicised. These serve as the quotes from the Decision letter that the authors respond to. 
+7\. Once all changes are made, tracked changes are turned off and all the text is copied and pasted into the Author response. Then all that text is italicised. These serve as the quotes from the Decision letter that the authors respond to. 
 
-8. The next version of the manuscript \(after full sub\) in eJP is opened and in the section 'Response to reviewers', each response is pasted under the relevant section in the document. 
+8\. The next version of the manuscript (after full sub) in eJP is opened and in the section 'Response to reviewers', each response is pasted under the relevant section in the document. 
 
-9. The first 2 opening paragraphs of the decision letter are removed from the author response, and if there is no response to the acceptance summary, this is removed from the response as well.
+9\. The first 2 opening paragraphs of the decision letter are removed from the author response, and if there is no response to the acceptance summary, this is removed from the response as well.
 
 {% hint style="info" %}
 In the Author response, the original comments from the editor/reviewers are in italics whereas the author replies are not:
 
-> **Decision letter**
+> **Decision letter> **
 >
 > Text, text, text
 >
-> _Reviewer 1:_
+> _Reviewer 1:> _
 >
 > Text, text, text
 >
@@ -111,28 +113,28 @@ In the Author response, the original comments from the editor/reviewers are in i
 >
 > Text, text, text
 >
-> \[...\]
+> \[...]
 >
-> **Author response**
+> **Author response> **
 >
-> _Text, text, text_
+> _Text, text, text> _
 >
 > Response, response, response
 >
 > Reviewer 1:
 >
-> _Text, text, text_
+> _Text, text, text> _
 >
 > Response, response, response
 >
 > Reviewer 2:
 >
-> _Text, text, text_
+> _Text, text, text> _
 >
 > Response, response, response
 {% endhint %}
 
-10. Once all of these are added, tracked changes are turned back on and the macro is run ****\(see [**Setting up the Macro**](decision-letters-and-author-responses.md#setting-up-the-macro)\). After that has finished running the following edits are made:
+10\. Once all of these are added, tracked changes are turned back on and the macro is run** **(see [**Setting up the Macro**](decision-letters-and-author-responses.md#setting-up-the-macro)). After that has finished running the following edits are made:
 
 * Any reference to a Movie is changed to Video. 
 * References - if the decision letter or author response contains a numbered or unnumbered reference list this is included at the end of the document under the heading “References”. No formatting changes are required, but any endnote formatting is removed.
@@ -140,14 +142,14 @@ In the Author response, the original comments from the editor/reviewers are in i
 * Species names are italicised and latin phrases are made roman. The macro should pick most of these up.
 * Super/subscript is added where appropriate, e.g. Ca2+ → Ca²+. The macro will pick some of these up.
 * Hyphens are replaced with en dashes where they don’t concatenate a word.
-* Greek symbols are added where appropriate, i.e., where a should be α, or b should be β. \(Macro should pick most up\)
+* Greek symbols are added where appropriate, i.e., where a should be α, or b should be β. (Macro should pick most up)
 * Language/comments that could be construed as inappropriate or offensive are removed.
 
 {% hint style="info" %}
 It's context dependent and obviously a judgement call as to what constitutes inappropriate or offensive language, but there are some signals, such as: 
 
 * use of words such as "offensive", "offended", "unprofessional", "rude", "dismissive", "conflict of interest", "shocked", "strongly disagree".
-* use of exclamation marks may be a sign of enthusiasm \(in which case this is okay\) or a sign of an unsavoury disagreement \(in which case the section should be read for context and edited as appropriate\).
+* use of exclamation marks may be a sign of enthusiasm (in which case this is okay) or a sign of an unsavoury disagreement (in which case the section should be read for context and edited as appropriate).
 * inappropriate language from either a reviewer or author is more likely in the case of very long decision letters, especially those accepted after one or more rounds of appeal.
 {% endhint %}
 
@@ -157,37 +159,37 @@ It's context dependent and obviously a judgement call as to what constitutes ina
 * Long quotations are abbreviated using ellipses:
 
 {% hint style="info" %}
-In the Discussion we now say: “Blah, blah, blah. \[...\] Blah de blah, blah”
+In the Discussion we now say: “Blah, blah, blah. \[...] Blah de blah, blah”
 {% endhint %}
 
-* Hyphens \(-\) are changed to dashes \(–\) when appropriate.
+* Hyphens (-) are changed to dashes (–) when appropriate.
 * "MS" is changed to "manuscript".
 * Obvious spelling errors are corrected.
 * Check for any images which are reproduced.
 
 {% hint style="info" %}
-Ed office will flag any reproduced images to Production, and won't upload the DL. If the image will require permissions tagging, Production will then place the article on hold in Kriya \(so that the article is not automatically sent out to the authors\). After it's been placed on hold the DL can be loaded, and the Production team can send the article to the production vendors, as appropriate.
+Ed office will flag any reproduced images to Production, and won't upload the DL. If the image will require permissions tagging, Production will then place the article on hold in Kriya (so that the article is not automatically sent out to the authors). After it's been placed on hold the DL can be loaded, and the Production team can send the article to the production vendors, as appropriate.
 {% endhint %}
 
 
 
 ### Images
 
-Images should be captured as separate `.jpg` files \(see below for formatting in Word doc for images - the images are not included inside the actual Word file\). For images in PDFs, in Reader, take a snap shot, paste in Paint \(or similar\) and save as `.jpg`. For images in Word, right click, save as `.jpg`.
+Images should be captured as separate `.jpg` files (see below for formatting in Word doc for images - the images are not included inside the actual Word file). For images in PDFs, in Reader, take a snap shot, paste in Paint (or similar) and save as `.jpg`. For images in Word, right click, save as `.jpg`.
 
 {% hint style="info" %}
-When jpegs turn out to be too small and with reduced quality, a good solution is to enhance the size of the PDF file and take a screenshot of the figures \(Alt+Print Screen in Windows, Command-Shift-4 in OS X\). Please make sure to crop the images as appropriate \(e.g. if the screenshot captures the whole screen\).
+When jpegs turn out to be too small and with reduced quality, a good solution is to enhance the size of the PDF file and take a screenshot of the figures (Alt+Print Screen in Windows, Command-Shift-4 in OS X). Please make sure to crop the images as appropriate (e.g. if the screenshot captures the whole screen).
 {% endhint %}
 
 #### Decision letter images
 
-Decision letter images should be added to the Word doc in the following way \(the yellow highlighting should also be added in the document itself\):
+Decision letter images should be added to the Word doc in the following way (the yellow highlighting should also be added in the document itself):
 
 ![](../../.gitbook/assets/screenshot-2020-12-01-at-09.02.15.png)
 
 If there is no title or legend, the full stop in the tag must be present in order for the label to be correctly captured.
 
-Any titles or legends should be placed after a `<Decision letter image 1 title/legend>` tag \(which is also yellow highlighted\) and bolded text containing the label for that image \(for example, **Decision letter image 1.** - note that the full stop should be present\). It should then end with a `</Decision letter image 1 title/legend>` tag \(see also image for Author response legends [**below**](decision-letters-and-author-responses.md#author-response-images)\). 
+Any titles or legends should be placed after a `<Decision letter image 1 title/legend>` tag (which is also yellow highlighted) and bolded text containing the label for that image (for example, **Decision letter image 1.** - note that the full stop should be present). It should then end with a `</Decision letter image 1 title/legend>` tag (see also image for Author response legends [**below**](decision-letters-and-author-responses.md#author-response-images)). 
 
 #### Author response images
 
@@ -197,7 +199,7 @@ Author response images should be added in the following way:
 
 If there is no title or legend, the the full stop in the tag must be present in order for the label to be correctly captured.
 
-Any titles or legends should be placed after a `<Author response image 1 title/legend>` tag \(which is also yellow highlighted\) and bolded text containing the label for that image \(for example, **Author response image 1.** - note that the full stop should be present\). It should then end with a `</Author response image 1 title/legend>` tag. See below for an example:
+Any titles or legends should be placed after a `<Author response image 1 title/legend>` tag (which is also yellow highlighted) and bolded text containing the label for that image (for example, **Author response image 1.** - note that the full stop should be present). It should then end with a `</Author response image 1 title/legend>` tag. See below for an example:
 
 ![](../../.gitbook/assets/screenshot-2020-11-06-at-14.34.13.png)
 
@@ -207,9 +209,9 @@ Table can be included in the Word document. They must be preceded by their label
 
 ![](../../.gitbook/assets/screenshot-2020-12-01-at-09.05.34.png)
 
-Tables in the decision letter should be labelled 'Decision letter table 1.', and those in the author response should be labelled 'Author response table 1.' \(with 1 being changed to the appropriate number if there is more than 1\).
+Tables in the decision letter should be labelled 'Decision letter table 1.', and those in the author response should be labelled 'Author response table 1.' (with 1 being changed to the appropriate number if there is more than 1).
 
-Any titles or legends should be placed after a `<Author response table 1 title/legend>` tag \(which is also yellow highlighted\) and in this case there is no need for bolded text containing the label for that table. It should then end with a `</Author response table 1 title/legend>` tag. See below for an example:
+Any titles or legends should be placed after a `<Author response table 1 title/legend>` tag (which is also yellow highlighted) and in this case there is no need for bolded text containing the label for that table. It should then end with a `</Author response table 1 title/legend>` tag. See below for an example:
 
 ![](../../.gitbook/assets/screenshot-2020-12-01-at-09.08.21.png)
 
@@ -217,7 +219,7 @@ Any titles or legends should be placed after a `<Author response table 1 title/l
 
 Videos should be marked up in the same way as images, but with the word `image` replaced with `video` in the tag.
 
-Here is an example of a video without a title/caption \(note the full stop at the end of the tag\):
+Here is an example of a video without a title/caption (note the full stop at the end of the tag):
 
 ![](../../.gitbook/assets/screenshot-2020-12-01-at-09.11.13.png)
 
@@ -235,9 +237,9 @@ If an article has reviews from other journals, and the editors would like to inc
 
 Examples can be found here:
 
-\*\*\*\*[**https://elifesciences.org/articles/61488\#sa1**](https://elifesciences.org/articles/61488#sa1)\*\*\*\*
+****[**https://elifesciences.org/articles/61488#sa1**](https://elifesciences.org/articles/61488#sa1)****
 
-\*\*\*\*[**https://elifesciences.org/articles/51593\#sa1**](https://elifesciences.org/articles/51593#sa1)
+****[**https://elifesciences.org/articles/51593#sa1**](https://elifesciences.org/articles/51593#sa1)
 
 ### **Setting up the Macro**
 
@@ -245,7 +247,7 @@ Examples can be found here:
 
 {% file src="../../.gitbook/assets/findreplacetable.docx" %}
 
-* Open Word. Under 'View' or 'Developer' \(depending on your version of word\), click Macros
+* Open Word. Under 'View' or 'Developer' (depending on your version of word), click Macros
 
 ![](https://lh3.googleusercontent.com/NmBoxzJhZ4RmO4DIhou3ciXinP9nKsynU94HAgZlrRp4Xr2rC6hgAPm1hp6pn7m7L1UGEWCxsBXw-b4uPN9Sf-Y0nPZXGOKmgrKtVYmFdkd89qp6szXfBzSMqbWbQIrMUttJdgc)
 
@@ -253,17 +255,17 @@ Examples can be found here:
 
 ![](https://lh5.googleusercontent.com/5ToRcZjCG5-9kDt0UdsFuV4GGrpzgagqf1e9TObISTjEiecSVo6yPBcXNqrsHUbyEJ3O6FaOdIia96wGaLG2wx45MsKVOi2pG-wzuF2GbPZHny0KAAlLjNmg5DGlL8RhqB-j19I)
 
-* Leave the name of the Macro as Macro1 \(this will be automatically updated once the macro has been recorded\). Ensure the option “All documents \(Normal.dotm\)” under “Store macro in:” is selected. Click OK.
+* Leave the name of the Macro as Macro1 (this will be automatically updated once the macro has been recorded). Ensure the option “All documents (Normal.dotm)” under “Store macro in:” is selected. Click OK.
 
 ![](https://lh6.googleusercontent.com/riR9FVjKdtBYjJAiTWzLZVMHVaoQgAV7qHUkCJv_dRknlYfVRu4vh5NFp9JTkH0e3PeIDCnkZpDal4KBXNLZgNgXCDqIRV8rowL8ZXdGK1ARQ6KB_F-k-5fajLogpfKQFvnGKoA)
 
 * A little cassette symbol will show up. Type something random, such as “eLife” and go again to the Macro drop down list and press “Stop recording”.
 
-![](https://lh3.googleusercontent.com/9456OUlbVDF-Ol7OOBVjv_-SlBtKuuEOaU6npyUM4nrFWJVFr9KrlgDE1u2KYSb-W9HzDN82rxPsrF0IlYCBfpyzg08OVbCrn8_UoL5DarCr09gZA0tEt04dRW4RLX24TuYOsw4)
+![](https://lh3.googleusercontent.com/9456OUlbVDF-Ol7OOBVjv\_-SlBtKuuEOaU6npyUM4nrFWJVFr9KrlgDE1u2KYSb-W9HzDN82rxPsrF0IlYCBfpyzg08OVbCrn8\_UoL5DarCr09gZA0tEt04dRW4RLX24TuYOsw4)
 
 * Click again on Macros, and then on “View Macros”.
 
-![](https://lh4.googleusercontent.com/MEoo1cRFxMUdcD_sNmNHSh0S-56CUmPAYx5HQWhE5rPoivOOtDhguBHBIu3jWMySDnE08J9O8u0_vO-uIAHWJ6X3hWQoTmvUFVyZENvpHHJYxhi17iM-spvA8hBsPZX7P8WEqh0)
+![](https://lh4.googleusercontent.com/MEoo1cRFxMUdcD_sNmNHSh0S-56CUmPAYx5HQWhE5rPoivOOtDhguBHBIu3jWMySDnE08J9O8u0\_vO-uIAHWJ6X3hWQoTmvUFVyZENvpHHJYxhi17iM-spvA8hBsPZX7P8WEqh0)
 
 * In the resulting window, select “Macro1” and click on “Edit” on the right sidebar. This will allow you to edit the code.
 
@@ -408,7 +410,7 @@ End Sub
 
 ```
 
-* Save \(Ctrl + S\).
+* Save (Ctrl + S).
 * In the code that you have just pasted search for `SFilePath =`. You will find this:
 
 ```markup
@@ -419,19 +421,19 @@ The string `C:\Users\Maria\Dropbox\Decision letters and author responses_Macro\F
 
 * Save and click "Reset"
 
-![](https://lh5.googleusercontent.com/upkar0tbk0A4urIs3ZiuWb1HrJbnjP9ILK4XS9H5_KS6CdlHSiHhMWaD8VYZOW9UzayrXy9qwHujc_hkSJ8-Fz5pkluhWdFeRt5Je_amZ4vDLtHf6FBNOKOcF1vOt6tV_bUaHQQ)
+![](https://lh5.googleusercontent.com/upkar0tbk0A4urIs3ZiuWb1HrJbnjP9ILK4XS9H5\_KS6CdlHSiHhMWaD8VYZOW9UzayrXy9qwHujc_hkSJ8-Fz5pkluhWdFeRt5Je_amZ4vDLtHf6FBNOKOcF1vOt6tV_bUaHQQ)
 
 * Close the macro window and word. The macro has been set up.
 
 ### How to run the macro
 
-Once set up \(see [**Setting up the Macro**](decision-letters-and-author-responses.md#setting-up-the-macro)\), the Macro can be run on a word document, by opening it in word, and going to "View Macros"
+Once set up (see [**Setting up the Macro**](decision-letters-and-author-responses.md#setting-up-the-macro)), the Macro can be run on a word document, by opening it in word, and going to "View Macros"
 
 ![](https://lh5.googleusercontent.com/99BOZdu8n52-uELxZLfZz_jdHiuYXRvvlawIFhr5sAzk6BIL_X6CZaUQ_of5d52GPY3t71Qh7pJtyAawL8cGhB5AZu80uceZuNOwwvaploGTZIOBhilCeZqVtdNM9TBrH6yaIV0)
 
 Select the macro and click Run
 
-![](https://lh6.googleusercontent.com/xlU0uo6YGoMt83Pyw3D3nhSd0aX0SJ1VUiBg2tFniXPvECayYHYXuIrb2GmW4Au-BgA_kJLAkHe8mQmhxBsoqnI05LZHnd1xu_CNcLi6_sfdkCKIb0z5Slni15eltd7KL1PCMug)
+![](https://lh6.googleusercontent.com/xlU0uo6YGoMt83Pyw3D3nhSd0aX0SJ1VUiBg2tFniXPvECayYHYXuIrb2GmW4Au-BgA_kJLAkHe8mQmhxBsoqnI05LZHnd1xu_CNcLi6\_sfdkCKIb0z5Slni15eltd7KL1PCMug)
 
 {% hint style="danger" %}
 The macro should only be run once. Running it numerous times will introduce errors into the document.
@@ -455,9 +457,9 @@ The decision letter content needs to be zipped into a single zip with a filename
 
 The 00000 above should be changed to the manuscript's 5 digit tracking number.
 
-The zip **should not** contain sub-folders \(otherwise the bot will be unable to find the files\). In order to always ensure this happens, select the object\(s\) that require zipping, and right-click and zip using your Operating Systems' preferred method. Do not simply right click the folder containing the objects and zip this up, as it will always zip the contents in a sub folder within the zip.
+The zip **should not** contain sub-folders (otherwise the bot will be unable to find the files). In order to always ensure this happens, select the object(s) that require zipping, and right-click and zip using your Operating Systems' preferred method. Do not simply right click the folder containing the objects and zip this up, as it will always zip the contents in a sub folder within the zip.
 
-If required, Mac users can check the contents of a zip using the following bash command \(in the command line, which is called 'terminal' on a Mac\):
+If required, Mac users can check the contents of a zip using the following bash command (in the command line, which is called 'terminal' on a Mac):
 
 ```bash
 unzip -l path-to-zip.zip
@@ -481,7 +483,7 @@ Note how all the files are inside a folder called `elife-54591`. This would be t
 
 ## Kitchen sink Decision letter zip
 
-A 'Kitchen sink' Decision letter zip can be found here - [**https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test\_data/elife-00666.zip**](https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test_data/elife-00666.zip). This contains all the kinds of content we can expect in Decision letters, and how to capture them in the Word file so that they are converted and sent correctly.
+A 'Kitchen sink' Decision letter zip can be found here - [**https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test_data/elife-00666.zip**](https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test_data/elife-00666.zip). This contains all the kinds of content we can expect in Decision letters, and how to capture them in the Word file so that they are converted and sent correctly.
 
 ## How are Decision letters and Author responses loaded?
 
@@ -489,17 +491,17 @@ The Word document containing both the Decision letter and Author response, and a
 
 At this point the eLife bot will notice the zip and process the content in order to send it to Kriya.
 
-Any assets \(such as figures, and videos\) are placed on an FTP for the production vendors to download when processing the Decision letter. The Word document is parsed as JATS \(using the [**decision-letter-parser**](https://github.com/elifesciences/decision-letter-parser)\), and posted via API to Kriya, where it is ingested in the accompanying article.
+Any assets (such as figures, and videos) are placed on an FTP for the production vendors to download when processing the Decision letter. The Word document is parsed as JATS (using the [**decision-letter-parser**](https://github.com/elifesciences/decision-letter-parser)), and posted via API to Kriya, where it is ingested in the accompanying article.
 
-Any figures are automatically included in the article in Kriya \(due to them being placed on the FTP\). However, any videos will need to be processed manually, since they require uploading to the Glencoe FTP, along with accompanying requisite metadata.
+Any figures are automatically included in the article in Kriya (due to them being placed on the FTP). However, any videos will need to be processed manually, since they require uploading to the Glencoe FTP, along with accompanying requisite metadata.
 
 {% hint style="info" %}
-Reloading a Decision letter is as simple as downloading the zip file from the `elife/decision-letter-input` AWS bucket and then re-uploading it \(which will overwrite the file\).
+Reloading a Decision letter is as simple as downloading the zip file from the `elife/decision-letter-input` AWS bucket and then re-uploading it (which will overwrite the file).
 {% endhint %}
 
 ## Decision letter workflow
 
-eLife production will be made aware of any Decision letters being loaded by an automated email appearing in the Production Inbox. Certain actions may be required depending on whether the email indicates that the Decision letter was posted successfully or not \(see also [**Decision letter loading**](../../toolkit/managing-production-queries.md#decision-letter-loading) for more information on how to handle this email\). In the event that a Decision letter/Author response contains videos, Ed Office will inform Production prior to uploading, see [**below**](decision-letters-and-author-responses.md#dl-with-author-response-videos) on what to do when this occurs. 
+eLife production will be made aware of any Decision letters being loaded by an automated email appearing in the Production Inbox. Certain actions may be required depending on whether the email indicates that the Decision letter was posted successfully or not (see also [**Decision letter loading**](../../toolkit/managing-production-queries.md#decision-letter-loading) for more information on how to handle this email). In the event that a Decision letter/Author response contains videos, Ed Office will inform Production prior to uploading, see [**below**](decision-letters-and-author-responses.md#dl-with-author-response-videos) on what to do when this occurs. 
 
 ### The Decision letter was posted successfully
 
@@ -517,7 +519,7 @@ Note that [**a separate workflow**](decision-letters-and-author-responses.md#dec
 
 #### Note
 
-Do not load Decision letter after author review unless specifically asked by Editorial \(because of correspondence with the authors or for some other reason\). This is because doing so would overwrite any changes that were made at or after author proofing.
+Do not load Decision letter after author review unless specifically asked by Editorial (because of correspondence with the authors or for some other reason). This is because doing so would overwrite any changes that were made at or after author proofing.
 
 ### The Decision letter was not posted successfully
 
@@ -527,18 +529,18 @@ There are two cases here either a success email was received, but the Decision l
 
 A Decision letter may fail to load for the following reasons:
 
-* Kriya is down \(we should still receive a success email\).
-* The article has not yet been sent to Kriya \(we will receive a success email for this - not a failure one\). The decision letter should be reloaded once the article has been loaded to Kriya - this can be done by downloading and then re-uploading the zip on the AWS bucket \(`decision-letter-input`\).
+* Kriya is down (we should still receive a success email).
+* The article has not yet been sent to Kriya (we will receive a success email for this - not a failure one). The decision letter should be reloaded once the article has been loaded to Kriya - this can be done by downloading and then re-uploading the zip on the AWS bucket (`decision-letter-input`).
 * An article is currently in the 'Content loading' stage in Kriya. This will result in a failure email. Leave this email open and once the article has loaded to Kriya, re-upload the decision letter to the AWS bucket as above.
 * The files have been zipped up incorrectly. The failure message might say something like:
 
-> \[No articles to check\]
+> \[No articles to check]
 
-Check that the files have been included as direct children of the zip, i.e. that a folder hasn't been included in the zip \(see [**above**](decision-letters-and-author-responses.md#zipping-up-the-items) for how to do this\). If all the files are zipped correctly, then contact Fred in the Production team who will investigate further \(if Fred is not available, raise a GitHub issue in the [**eLife issues repository**](https://github.com/elifesciences/issues), and assign to Graham to investigate\).
+Check that the files have been included as direct children of the zip, i.e. that a folder hasn't been included in the zip (see [**above**](decision-letters-and-author-responses.md#zipping-up-the-items) for how to do this). If all the files are zipped correctly, then contact Fred in the Production team who will investigate further (if Fred is not available, raise a GitHub issue in the [**eLife issues repository**](https://github.com/elifesciences/issues), and assign to Graham to investigate).
 
-* Other. If a failure message comes through and you are unsure what it means, it's possible that the content hasn't been parsed correctly by the parser. Contact Fred in the Production team who will investigate further \(if Fred is not available, raise a GitHub issue in the [**eLife issues repository**](https://github.com/elifesciences/issues), and assign to Graham to investigate\).
+* Other. If a failure message comes through and you are unsure what it means, it's possible that the content hasn't been parsed correctly by the parser. Contact Fred in the Production team who will investigate further (if Fred is not available, raise a GitHub issue in the [**eLife issues repository**](https://github.com/elifesciences/issues), and assign to Graham to investigate).
 
-\[Question for review - where should these be outlined? They are already explained in detail [**here**](../../toolkit/managing-production-queries.md#decision-letter-loading). Should they be here instead? In Both places? Or should we just link to [**here**](../../toolkit/managing-production-queries.md#decision-letter-loading)?\]
+\[Question for review - where should these be outlined? They are already explained in detail [**here**](../../toolkit/managing-production-queries.md#decision-letter-loading). Should they be here instead? In Both places? Or should we just link to [**here**](../../toolkit/managing-production-queries.md#decision-letter-loading)?]
 
 ### Decision letters/Author responses with videos
 
@@ -555,11 +557,11 @@ See below for the workflow
 * Acceptance summaries aren't strictly compulsory, but are strongly encouraged.
 * Articles accepted at full submission will not include a 'Your article has been reviewed by ...' introduction paragraph in the Decision letter.
 * We include peer review information, for example that the decision was appealed.
-* We tend to retain the original/previous article titles, as the changes are often at the behest of the editors and so should be included in the decision letter \(references to these changes are not essential, but would be nice\).
+* We tend to retain the original/previous article titles, as the changes are often at the behest of the editors and so should be included in the decision letter (references to these changes are not essential, but would be nice).
 * We tend to retain the original figure/asset numbering from various steps of revision, rather than updating them to the current numbering in the proofs. However if the authors request that these are updated during proofing, then this is fine to do, provided they indicate to the Production team what needs changing.
 * With the exception of Decision letter and Author response assets, figures/assets and citations are not linked in the Decision letter.
 * Usual best practice is to not change what the editors wrote.
-* Any missing information \(such as missing characters\) can be queried with Editorial Office, since they will have access to the original files.
+* Any missing information (such as missing characters) can be queried with Editorial Office, since they will have access to the original files.
 * Articles reviewed by Review commons will only have an acceptance summary as the Decision letter. The Author response will still contain responses to specific points however.
 * We are happy to include the minor comments if the authors wish to.
 
@@ -567,7 +569,7 @@ See below for the workflow
 
 Public reviews are reviews that are posted alongside the Preprint for an article. They are posted on the preprint server using hypothesis, and are **distinct** from the Decision letter/Author response.
 
-Authors may wish to add responses to the Public reviews in the Decision Letter/Author response. This is not permitted, as they are separate peer review materials. Any responses to the Public review should be added as an author response \(hypothesis comment\) **to the Public review on the preprint server**.
+Authors may wish to add responses to the Public reviews in the Decision Letter/Author response. This is not permitted, as they are separate peer review materials. Any responses to the Public review should be added as an author response (hypothesis comment) **to the Public review on the preprint server**.
 
 During revised QC checks, Ed Office flag any responses to the Public review that are sent through in the Author response. These are then removed from the Author response that's added to the article in production.
 
@@ -595,7 +597,7 @@ The following tests are run on Decision Letters and Author responses.
 
 **Action**: This will fire is a paragraph in a Decision letter or Author response contains the text `</author response` , `</author response>` or similar. This type of pseudo-code is included in the original Word document by the eLife editorial team as flags for the decision-letter-parser to correctly recognise what a certain object in the document should be captured as. If this text is in the JATS, however, that means that the content has not been correctly recognised by the parser. The production vendors should flag this error with the eLife production team.
 
-The eLife production team should check the original Word file, in order to determine how this should have been captured, and act accordingly \(it may be that you just have to remove the superfluous text, or it may be the case that an author response image or table needs to be added, in which case the production vendors will have to make this change\). It is also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
+The eLife production team should check the original Word file, in order to determine how this should have been captured, and act accordingly (it may be that you just have to remove the superfluous text, or it may be the case that an author response image or table needs to be added, in which case the production vendors will have to make this change). It is also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reply-test-6
 
@@ -603,7 +605,7 @@ The eLife production team should check the original Word file, in order to deter
 
 **Action**: This will fire is a paragraph in a Decision letter or Author response contains text such as `<italic>` or `</author response image title>` or  similar. This type of pseudo-code is included in the original Word document by the eLife editorial team as flags for the decision-letter-parser to correctly recognise what a certain object in the document should be captured as. If this text is in the JATS, however, that means that the content has not been correctly recognised by the parser. The production vendors should flag this error with the eLife production team.
 
-The eLife production team should check the original Word file, in order to determine how this should have been captured, and act accordingly \(it may be that you just have to remove the superfluous text, or it may be the case that an author response image or table needs to be added, in which case the production vendors will have to make this change\). It is also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
+The eLife production team should check the original Word file, in order to determine how this should have been captured, and act accordingly (it may be that you just have to remove the superfluous text, or it may be the case that an author response image or table needs to be added, in which case the production vendors will have to make this change). It is also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reply-test-7
 
@@ -622,35 +624,35 @@ The eLife production team should check the original Word file, in order to deter
 
 Exeter can ignore this warning. 
 
-eLife should check to see whether the text \(or perhaps the snippet from the Decision letter copied above\) contains inflammatory or offensive language. If it seems that it is offensive, confer with other members of the Production team to decide whether it should be removed. It's a judgement call and there are no strict guidance or rules for this. If the Production team are still unsure, they may confer with Ed Office and Editorial to determine if this is the kind of language that should be removed.
+eLife should check to see whether the text (or perhaps the snippet from the Decision letter copied above) contains inflammatory or offensive language. If it seems that it is offensive, confer with other members of the Production team to decide whether it should be removed. It's a judgement call and there are no strict guidance or rules for this. If the Production team are still unsure, they may confer with Ed Office and Editorial to determine if this is the kind of language that should be removed.
 
 #### dec-letter-front-test-1
 
-**Error**: _sub-article front-stub must contain article-id\[@pub-id-type='doi'\]._
+**Error**: _sub-article front-stub must contain article-id\[@pub-id-type='doi']._
 
-**Action**: This will fire if a Decision letter does not contain a doi. The production vendors will need to correct this problem when it arises. For legacy content \(new versions\), the pre-existing doi should be used. For new content these are always in the format 10.7554/eLife.{article-number}.sa1.
+**Action**: This will fire if a Decision letter does not contain a doi. The production vendors will need to correct this problem when it arises. For legacy content (new versions), the pre-existing doi should be used. For new content these are always in the format 10.7554/eLife.{article-number}.sa1.
 
 #### dec-letter-front-test-4
 
-**Warning**: _decision letter front-stub has only 1 contrib-group element. Is this correct? i.e. were all of the reviewers \(aside from the reviewing editor\) anonymous? The text 'The reviewers have opted to remain anonymous' or 'The reviewer has opted to remain anonymous' is not present and there is no link to Review commons in the decision letter._
+**Warning**: _decision letter front-stub has only 1 contrib-group element. Is this correct? i.e. were all of the reviewers (aside from the reviewing editor) anonymous? The text 'The reviewers have opted to remain anonymous' or 'The reviewer has opted to remain anonymous' is not present and there is no link to Review commons in the decision letter._
 
 **Action**: This will fire if all of the following conditions are met:
 
 * There are no reviewers in the information for the Decision letter.
 * The text 'The reviewers have opted to remain anonymous' or 'The reviewer has opted to remain anonymous' is not present in the decision letter
-* There is no link to Review commons \([https://www.reviewcommons.org/](https://www.reviewcommons.org/)\).
+* There is no link to Review commons ([https://www.reviewcommons.org/](https://www.reviewcommons.org)).
 
-Every Decision letter should have at least 1 reviewer, unless the reviewers opted to be anonymous, or if the paper was reviewed via Review commons. If this warning fires, the production vendors should inform eLife Production. eLife Production should query the eLife Editorial team, asking whether Reviewers need to be included and, if so, what their details are \(name and optional affiliation\). If this information has been provided by Editorial, then these details will need to be added in Kriya.
+Every Decision letter should have at least 1 reviewer, unless the reviewers opted to be anonymous, or if the paper was reviewed via Review commons. If this warning fires, the production vendors should inform eLife Production. eLife Production should query the eLife Editorial team, asking whether Reviewers need to be included and, if so, what their details are (name and optional affiliation). If this information has been provided by Editorial, then these details will need to be added in Kriya.
 
-One common cause/case for this may be that the reviewers opted to be anonymous on the first round of review yet chose to have their name revealed in a subsequent round of review. This could mean that Editorial include their name in the letter \(rather than 'choosing to remain anonymous'\), but they aren't listed in the XML because eJP only outputs non-anonymous reviewers from the full submission.
+One common cause/case for this may be that the reviewers opted to be anonymous on the first round of review yet chose to have their name revealed in a subsequent round of review. This could mean that Editorial include their name in the letter (rather than 'choosing to remain anonymous'), but they aren't listed in the XML because eJP only outputs non-anonymous reviewers from the full submission.
 
 #### dec-letter-editor-test-1
 
-**Warning**: _First contrib-group in decision letter must contain 1 and only 1 editor \(contrib\[@contrib-type='editor'\]\)._
+**Warning**: _First contrib-group in decision letter must contain 1 and only 1 editor (contrib\[@contrib-type='editor'])._
 
 **Action**: If this warning fires, it means that there is no Reviewing Editor in the details for the Decision letter. The production vendors should checking the eJP output and if this information was not included there, then inform the eLife Production team.
 
-The eLife production team should check the article in eJP \(it might be that the editor details were added subsequent to the article being exported to Kriya\). If the information is not available in eJP, then this should be queried with the eLife Editorial team in order to get the details for the Reviewing Editor \(name and affiliation - both are mandatory\). Note that this test is a warning \(instead of an error\) for the purposes of dealing with old eLife content - if it fires in current content \(i.e. not new versions\), it should _**always**_ be resolved prior to publication.
+The eLife production team should check the article in eJP (it might be that the editor details were added subsequent to the article being exported to Kriya). If the information is not available in eJP, then this should be queried with the eLife Editorial team in order to get the details for the Reviewing Editor (name and affiliation - both are mandatory). Note that this test is a warning (instead of an error) for the purposes of dealing with old eLife content - if it fires in current content (i.e. not new versions), it should _**always**_ be resolved prior to publication.
 
 #### dec-letter-editor-test-3
 
@@ -665,7 +667,7 @@ The eLife production team should check the article in eJP \(it might be that the
 **Action**: If this error fires, it means the content of the `<role>` element for a reviewer in the Decision letter is not 'Reviewer'. There are two possibilities:
 
 1. A reviewer simply has the wrong role provided, which needs correcting to 'Reviewer' by the production vendors.
-2. A 'Reviewing Editor' or 'Senior and Reviewing Editor' has been incorrectly captured as a Reviewer \(`contrib[@contrib-type='reviewer']`\).
+2. A 'Reviewing Editor' or 'Senior and Reviewing Editor' has been incorrectly captured as a Reviewer (`contrib[@contrib-type='reviewer']`).
 
 In order to determine which of these is the case, the production vendors should check the output from eJP, and eLife should check eJP itself. If it is still unclear from these details, the eLife production team should contact the editorial team in order to verify what role that contributor played, and update their details accordingly. 
 
@@ -673,7 +675,7 @@ In order to determine which of these is the case, the production vendors should 
 
 **Warning**: _Second contrib-group in decision letter contains more than five reviewers. Is this correct? Exeter: Please check with eLife. eLife: check eJP to ensure this is correct._
 
-**Action**: The vast majority of eLife articles will have been reviewed by three reviewers or fewer. However, occasionally, more than 3 reviewers were required for peer review \(for example, when specialists are required\). This warning will fire if there are more than 5 reviewers in the Decision letter details \(which would be extremely unusual, and possibly incorrect\), and as the message suggests, the production vendors should flag this with eLife Production, who should check eJP to ensure that this is correct and not a mistake. If it is unclear from eJP, then eLife Production should query the Editorial team.
+**Action**: The vast majority of eLife articles will have been reviewed by three reviewers or fewer. However, occasionally, more than 3 reviewers were required for peer review (for example, when specialists are required). This warning will fire if there are more than 5 reviewers in the Decision letter details (which would be extremely unusual, and possibly incorrect), and as the message suggests, the production vendors should flag this with eLife Production, who should check eJP to ensure that this is correct and not a mistake. If it is unclear from eJP, then eLife Production should query the Editorial team.
 
 #### dec-letter-body-test-1
 
@@ -685,37 +687,37 @@ In order to determine which of these is the case, the production vendors should 
 
 **Error**: _The text 'Review Commons' in 'XXXXXX' must contain an embedded link pointing to https://www.reviewcommons.org/._
 
-**Action**: If a paper was reviewed by Review Commons then there will be a statement to this effect in the decision letter \(it will essentially be the only content in the decision letter\). As the message suggests, the link should be embedded in the text 'Review Commons'.
+**Action**: If a paper was reviewed by Review Commons then there will be a statement to this effect in the decision letter (it will essentially be the only content in the decision letter). As the message suggests, the link should be embedded in the text 'Review Commons'.
 
 #### reply-front-test-1
 
-**Error**: _sub-article front-stub must contain article-id\[@pub-id-type='doi'\]._
+**Error**: _sub-article front-stub must contain article-id\[@pub-id-type='doi']._
 
-**Action**: This will fire if an Author response does not contain a doi. The production vendors will need to correct this problem when it arises. For legacy content \(new versions\), the pre-existing doi should be used. For new content these are always in the format 10.7554/eLife.{article-number}.sa2.
+**Action**: This will fire if an Author response does not contain a doi. The production vendors will need to correct this problem when it arises. For legacy content (new versions), the pre-existing doi should be used. For new content these are always in the format 10.7554/eLife.{article-number}.sa2.
 
 #### reply-body-test-1
 
 **Error**: _author response doesn't contain a disp-quote. This is very likely to be incorrect. Please check the original file._
 
-**Action**: disp-quote is the element which holds quotations. In the Author response, these will be quotations from the Decision letter. Almost every Author response will have some kind of quotation from the Decision letter, so if this fires, it means that there is 1 or more quotation in the Author response missing this tagging. In the original document, quotations are supplied in italics, so scan the Author response for any paragraph\(s\) entirely in italics, un-italicise them and mark them as display quotes in Kriya. In the very rare case that there are no quotations from the decision letter, this check can be ignored. 
+**Action**: disp-quote is the element which holds quotations. In the Author response, these will be quotations from the Decision letter. Almost every Author response will have some kind of quotation from the Decision letter, so if this fires, it means that there is 1 or more quotation in the Author response missing this tagging. In the original document, quotations are supplied in italics, so scan the Author response for any paragraph(s) entirely in italics, un-italicise them and mark them as display quotes in Kriya. In the very rare case that there are no quotations from the decision letter, this check can be ignored. 
 
 #### reply-body-test-2
 
 **Error**: _author response doesn't contain a p. This has to be incorrect._
 
-**Action**: This warning indicates that there is either no content in the Author response, or that the content has been captured incorrectly. If the content is missing, eLife Production should check the original Word document to see if it's also missing from there \(if it is, query with Editorial\). If there is content in the original, add this content into Kriya. If there is content present in Kriya, this means that something has gone wrong with the XML generation and the production vendors will have to fix this.
+**Action**: This warning indicates that there is either no content in the Author response, or that the content has been captured incorrectly. If the content is missing, eLife Production should check the original Word document to see if it's also missing from there (if it is, query with Editorial). If there is content in the original, add this content into Kriya. If there is content present in Kriya, this means that something has gone wrong with the XML generation and the production vendors will have to fix this.
 
 #### reply-missing-disp-quote-test-1
 
 **Warning**: _para in author response is entirely in italics, but not in a display quote. Is this a quote which has been processed incorrectly?_
 
-**Action**: In the original Word document \(which the XML is generated from\) quotations in the Author response are captured entirely in italics \(as an indicator that they are quotations\). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision letter quote since the content, in part or in its entirety, will also be present in the Decision letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya. If it is not a quote from the Decision letter, and the text was italic in the original Word document, then the text should be left as italics \(a relatively common use-case is quoting from the article itself, rather than from the Decision letter\).
+**Action**: In the original Word document (which the XML is generated from) quotations in the Author response are captured entirely in italics (as an indicator that they are quotations). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision letter quote since the content, in part or in its entirety, will also be present in the Decision letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya. If it is not a quote from the Decision letter, and the text was italic in the original Word document, then the text should be left as italics (a relatively common use-case is quoting from the article itself, rather than from the Decision letter).
 
 #### reply-missing-disp-quote-test-2
 
 **Warning**: _A long piece of text is in italics in an Author response paragraph. Should it be captured as a display quote in a separate paragraph? 'XXXXXX' in 'XXXXXX'_
 
-**Action**: In the original Word document \(which the XML is generated from\) quotations in the Author response are captured entirely in italics \(as an indicator that they are quotations\). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision letter quote since the content, in part or in its entirety, will also be present in the Decision letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya. If it is not a quote from the Decision letter, and the text was italic in the original Word document, then the text should be left as italics \(a relatively common use-case is quoting from the article itself, rather than from the Decision letter\).
+**Action**: In the original Word document (which the XML is generated from) quotations in the Author response are captured entirely in italics (as an indicator that they are quotations). If this warning fires, it likely means that a display quote has not been processed correctly. You can easily determine whether this is a Decision letter quote since the content, in part or in its entirety, will also be present in the Decision letter. If it is a quote, then the text will need to be un-italicised and captured as a display quote in Kriya. If it is not a quote from the Decision letter, and the text was italic in the original Word document, then the text should be left as italics (a relatively common use-case is quoting from the article itself, rather than from the Decision letter).
 
 #### decision-missing-table-test
 
@@ -728,7 +730,7 @@ In order to determine which of these is the case, the production vendors should 
 
 If this has been flagged **after** author proofing then:
 
-* If there is no table, then the Word document should be sent to the production vendors so that they can include it. \(This has to be done because the author may have made changes to the author response which would be overwritten if the decision letter was reposted.\)
+* If there is no table, then the Word document should be sent to the production vendors so that they can include it. (This has to be done because the author may have made changes to the author response which would be overwritten if the decision letter was reposted.)
 * If this is flagged after author proofing, and the table is present without a label, then the production vendors should be asked to label the table.
 
 #### reply-missing-table-test
@@ -742,12 +744,12 @@ If this has been flagged **after** author proofing then:
 
 If this has been flagged **after** author proofing then:
 
-* If there is no table, then the Word document should be sent to the production vendors so that they can include it. \(This has to be done because the author may have made changes to the author response which would be overwritten if the decision letter was reposted.\)
+* If there is no table, then the Word document should be sent to the production vendors so that they can include it. (This has to be done because the author may have made changes to the author response which would be overwritten if the decision letter was reposted.)
 * If this is flagged after author proofing, and the table is present without a label, then the production vendors should be asked to label the table.
 
 #### paper-pile-test
 
-**Error**: _In the XXXXXX the text 'XXXXXX' has an embedded hyperlink to XXXXXX. The hyperlink should be removed \(but the text retained\)._
+**Error**: _In the XXXXXX the text 'XXXXXX' has an embedded hyperlink to XXXXXX. The hyperlink should be removed (but the text retained)._
 
 **Action**: This error will fire for any paperpile links in a Decision Letter or Author response. These links are legacy reference manager links, retained from the original Word document. As the message suggests, the link should be removed, but the text retained. The first XXXXXX will indicate whether the problem is in the Decision letter or Author response. The second will be the text, and the third will be the link embedded in the text.
 
@@ -755,551 +757,551 @@ If this has been flagged **after** author proofing then:
 
 **Warning**: _XXXXXX element contains 'â‚¬' - this should instead be the character '€'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â‚¬' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '€'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'â‚¬' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '€'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-2**
 
 **Warning**: _XXXXXX element contains 'Ã€' - this should instead be the character 'À'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã€' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'À'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã€' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'À'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-3**
 
 **Warning**: _XXXXXX element contains 'Ã' - this should instead be the character 'Á'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Á'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Á'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-4**
 
 **Warning**: _XXXXXX element contains 'â€š' - this should instead be the character '‚'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€š' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‚'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'â€š' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‚'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-5**
 
 **Warning**: _XXXXXX element contains 'Ã‚' - this should instead be the character 'Â'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã‚' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Â'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã‚' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Â'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-6**
 
 **Warning**: _XXXXXX element contains 'Æ’' - this should instead be the character 'ƒ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Æ’' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ƒ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Æ’' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ƒ'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-7**
 
 **Warning**: _XXXXXX element contains 'Ãƒ' - this should instead be the character 'Ã'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãƒ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ã'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ãƒ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ã'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-8**
 
 **Warning**: _XXXXXX element contains 'â€ž' - this should instead be the character '„'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€ž' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '„'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'â€ž' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '„'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-9**
 
 **Warning**: _XXXXXX element contains 'Ã„' - this should instead be the character 'Ä'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã„' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ä'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã„' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ä'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-10**
 
 **Warning**: _XXXXXX element contains 'â€¦' - this should instead be the character '…'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€¦' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '…'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'â€¦' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '…'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-11**
 
 **Warning**: _XXXXXX element contains 'Ã…' - this should instead be the character 'Å'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã…' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Å'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã…' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Å'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-13**
 
 **Warning**: _XXXXXX element contains 'Ã†' - this should instead be the character 'Æ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã†' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Æ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã†' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Æ'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-14**
 
 **Warning**: _XXXXXX element contains 'â€¡' - this should instead be the character '‡'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€¡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‡'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'â€¡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‡'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-15**
 
 **Warning**: _XXXXXX element contains 'Ã‡' - this should instead be the character 'Ç'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã‡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ç'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã‡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ç'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-16**
 
 **Warning**: _XXXXXX element contains 'Ë†' - this should instead be the character 'ˆ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ë†' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ˆ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ë†' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ˆ'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-17**
 
 **Warning**: _XXXXXX element contains 'Ãˆ' - this should instead be the character 'È'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãˆ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'È'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ãˆ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'È'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-18**
 
 **Warning**: _XXXXXX element contains 'â€°' - this should instead be the character '‰'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€°' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‰'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'â€°' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‰'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-19**
 
 **Warning**: _XXXXXX element contains 'Ã‰' - this should instead be the character 'É'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã‰' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'É'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã‰' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'É'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-21**
 
 **Warning**: _XXXXXX element contains 'ÃŠ' - this should instead be the character 'Ê'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'ÃŠ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ê'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'ÃŠ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ê'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-22**
 
 **Warning**: _XXXXXX element contains 'â€¹' - this should instead be the character '‹'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€¹' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‹'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'â€¹' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‹'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-23**
 
 **Warning**: _XXXXXX element contains 'Ã‹' - this should instead be the character 'Ë'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã‹' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ë'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã‹' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ë'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-24**
 
 **Warning**: _XXXXXX element contains 'Å’' - should this instead be the character 'Œ'? - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å’' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Œ'? The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Å’' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Œ'? The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-25**
 
 **Warning**: _XXXXXX element contains 'ÃŒ' - this should instead be the character 'Ì'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'ÃŒ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ì'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'ÃŒ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ì'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-26**
 
 **Warning**: _XXXXXX element contains 'Ã' - this should instead be the character 'Í'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Í'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Í'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-27**
 
 **Warning**: _XXXXXX element contains 'Å½' - this should instead be the character 'Ž'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å½' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ž'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Å½' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ž'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-28**
 
 **Warning**: _XXXXXX element contains 'ÃŽ' - this should instead be the character 'Î'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'ÃŽ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Î'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'ÃŽ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Î'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-29**
 
 **Warning**: _XXXXXX element contains 'Ã' - this should instead be the character 'Ï'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ï'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ï'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-30**
 
 **Warning**: _XXXXXX element contains 'Ã' - this should instead be the character 'Ð'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ð'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ð'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-31**
 
 **Warning**: _XXXXXX element contains 'â€˜' - this should instead be the character '‘'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€˜' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‘'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'â€˜' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '‘'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-32**
 
 **Warning**: _XXXXXX element contains 'Ã‘' - this should instead be the character 'Ñ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã‘' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ñ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã‘' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ñ'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-33**
 
 **Warning**: _XXXXXX element contains 'â€™' - this should instead be the character '’'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€™' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '’'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'â€™' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '’'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-34**
 
 **Warning**: _XXXXXX element contains 'Ã’' - this should instead be the character 'Ò'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã’' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ò'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã’' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ò'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-35**
 
 **Warning**: _XXXXXX element contains 'â€œ' - this should instead be the character '“'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€œ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '“'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'â€œ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '“'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-36**
 
 **Warning**: _XXXXXX element contains 'Ã“' - this should instead be the character 'Ó'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã“' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ó'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã“' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ó'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-37**
 
 **Warning**: _XXXXXX element contains 'â€' - this should instead be the character '”'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '”'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'â€' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '”'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-38**
 
 **Warning**: _XXXXXX element contains 'Ã”' - this should instead be the character 'Ô'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã”' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ô'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã”' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ô'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-39**
 
 **Warning**: _XXXXXX element contains 'Ã•' - this should instead be the character 'Õ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã•' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Õ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã•' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Õ'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-40**
 
 **Warning**: _XXXXXX element contains 'â€“' - this should instead be the character '–'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€“' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '–'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'â€“' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '–'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-41**
 
 **Warning**: _XXXXXX element contains 'Ã–' - this should instead be the character 'Ö'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã–' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ö'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã–' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ö'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-42**
 
 **Warning**: _XXXXXX element contains 'â€”' - this should instead be the character '—'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€”' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '—'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'â€”' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '—'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-43**
 
 **Warning**: _XXXXXX element contains 'Ã—' - this should instead be the character '×'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã—' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '×'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã—' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '×'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-44**
 
 **Warning**: _XXXXXX element contains 'Ëœ' - this should instead be the character '˜'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ëœ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '˜'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ëœ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '˜'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-45**
 
 **Warning**: _XXXXXX element contains 'Ã˜' - this should instead be the character 'Ø'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã˜' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ø'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã˜' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ø'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-46**
 
 **Warning**: _XXXXXX element contains 'Ã™' - this should instead be the character 'Ù'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã™' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ù'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã™' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ù'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-47**
 
 **Warning**: _XXXXXX element contains 'Å¡' - this should instead be the character 'š'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å¡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'š'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Å¡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'š'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-48**
 
 **Warning**: _XXXXXX element contains 'Ãš' - this should instead be the character 'Ú'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãš' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ú'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ãš' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ú'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-49**
 
 **Warning**: _XXXXXX element contains 'â€º' - this should instead be the character '›'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'â€º' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '›'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'â€º' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '›'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-50**
 
 **Warning**: _XXXXXX element contains 'Ã›' - this should instead be the character 'Û'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã›' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Û'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã›' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Û'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-51**
 
 **Warning**: _XXXXXX element contains 'Å“' - this should instead be the character 'œ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å“' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'œ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Å“' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'œ'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-52**
 
 **Warning**: _XXXXXX element contains 'Ãœ' - this should instead be the character 'Ü'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãœ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ü'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ãœ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ü'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-53**
 
 **Warning**: _XXXXXX element contains 'Ã' - this should instead be the character 'Ý'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ý'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ý'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-54**
 
 **Warning**: _XXXXXX element contains 'Å¾' - this should instead be the character 'ž'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å¾' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ž'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Å¾' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ž'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-55**
 
 **Warning**: _XXXXXX element contains 'Ãž' - this should instead be the character 'Þ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãž' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Þ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ãž' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Þ'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-56**
 
 **Warning**: _XXXXXX element contains 'Å¸' - this should instead be the character 'Ÿ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Å¸' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ÿ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Å¸' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'Ÿ'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-57**
 
 **Warning**: _XXXXXX element contains 'ÃŸ' - this should instead be the character 'ß'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'ÃŸ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ß'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'ÃŸ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ß'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-58**
 
 **Warning**: _XXXXXX element contains 'Â¡' - this should instead be the character '¡'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¡'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Â¡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¡'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-59**
 
 **Warning**: _XXXXXX element contains 'Ã¡' - this should instead be the character 'á'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'á'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã¡' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'á'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-60**
 
 **Warning**: _XXXXXX element contains 'Â¢' - this should instead be the character '¢'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¢' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¢'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Â¢' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¢'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-61**
 
 **Warning**: _XXXXXX element contains 'Ã¢' - this should instead be the character 'â'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¢' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'â'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã¢' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'â'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-62**
 
 **Warning**: _XXXXXX element contains 'Â£' - this should instead be the character '£'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â£' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '£'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Â£' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '£'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-63**
 
 **Warning**: _XXXXXX element contains 'Ã£' - this should instead be the character 'ã'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã£' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ã'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã£' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ã'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-64**
 
 **Warning**: _XXXXXX element contains 'Â¤' - this should instead be the character '¤'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¤' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¤'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Â¤' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¤'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-65**
 
 **Warning**: _XXXXXX element contains 'Ã¤' - this should instead be the character 'ä'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¤' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ä'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã¤' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ä'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-66**
 
 **Warning**: _XXXXXX element contains 'Ã¥' - this should instead be the character 'å'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¥' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'å'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã¥' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'å'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-67**
 
 **Warning**: _XXXXXX element contains 'Â¨' - this should instead be the character '¨'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¨' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¨'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Â¨' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¨'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-68**
 
 **Warning**: _XXXXXX element contains 'Ã¨' - this should instead be the character 'è'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¨' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'è'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã¨' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'è'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-69**
 
 **Warning**: _XXXXXX element contains 'Âª' - this should instead be the character 'ª'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Âª' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ª'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Âª' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ª'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-70**
 
 **Warning**: _XXXXXX element contains 'Ãª' - this should instead be the character 'ê'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãª' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ê'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ãª' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ê'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-71**
 
 **Warning**: _XXXXXX element contains 'Â­' - this should instead be the character '­'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â­' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '­'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Â­' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '­'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-72**
 
 **Warning**: _XXXXXX element contains 'Ã­' - this should instead be the character 'í'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã­' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'í'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã­' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'í'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-73**
 
 **Warning**: _XXXXXX element contains 'Â¯' - this should instead be the character '¯'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¯' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¯'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Â¯' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¯'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-74**
 
 **Warning**: _XXXXXX element contains 'Ã¯' - this should instead be the character 'ï'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¯' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ï'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã¯' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ï'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-75**
 
 **Warning**: _XXXXXX element contains 'Â°' - this should instead be the character '°'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â°' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '°'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Â°' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '°'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-76**
 
 **Warning**: _XXXXXX element contains 'Ã°' - this should instead be the character 'ð'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã°' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ð'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã°' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ð'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-77**
 
 **Warning**: _XXXXXX element contains 'Â±' - this should instead be the character '±'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â±' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '±'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Â±' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '±'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-78**
 
 **Warning**: _XXXXXX element contains 'Ã±' - this should instead be the character 'ñ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã±' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ñ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã±' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ñ'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-79**
 
 **Warning**: _XXXXXX element contains 'Â´' - this should instead be the character '´'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â´' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '´'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Â´' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '´'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-80**
 
 **Warning**: _XXXXXX element contains 'Ã´' - this should instead be the character 'ô'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã´' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ô'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã´' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ô'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-81**
 
 **Warning**: _XXXXXX element contains 'Âµ' - this should instead be the character 'µ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Âµ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'µ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Âµ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'µ'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-82**
 
 **Warning**: _XXXXXX element contains 'Ãµ' - this should instead be the character 'õ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãµ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'õ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ãµ' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'õ'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-83**
 
 **Warning**: _XXXXXX element contains 'Â¶' - this should instead be the character '¶'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¶' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¶'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Â¶' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¶'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-84**
 
 **Warning**: _XXXXXX element contains 'Ã¶' - this should instead be the character 'ö'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¶' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ö'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã¶' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ö'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-85**
 
 **Warning**: _XXXXXX element contains 'Â·' - this should instead be the character '·'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â·' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '·'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Â·' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '·'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-86**
 
 **Warning**: _XXXXXX element contains 'Ã·' - this should instead be the character '÷'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã·' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '÷'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã·' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '÷'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-87**
 
 **Warning**: _XXXXXX element contains 'Â¸' - this should instead be the character '¸'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¸' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¸'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Â¸' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¸'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-88**
 
 **Warning**: _XXXXXX element contains 'Ã¸' - this should instead be the character 'ø'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¸' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ø'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã¸' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ø'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-89**
 
 **Warning**: _XXXXXX element contains 'Ã¹' - this should instead be the character 'ù'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¹' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ù'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã¹' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ù'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-90**
 
 **Warning**: _XXXXXX element contains 'Âº' - this should instead be the character 'º'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Âº' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'º'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Âº' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'º'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-91**
 
 **Warning**: _XXXXXX element contains 'Ãº' - this should instead be the character 'ú'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ãº' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ú'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ãº' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ú'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-92**
 
 **Warning**: _XXXXXX element contains 'Â¿' - this should instead be the character '¿'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Â¿' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¿'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Â¿' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, '¿'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **unicode-test-93**
 
 **Warning**: _XXXXXX element contains 'Ã¿' - this should instead be the character 'ÿ'. - XXXXXX._
 
-**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character\(s\) 'Ã¿' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ÿ'. The first XXXXXX will be the name of the element \(e.g. 'p'\), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
+**Action**: This message suggests that something has gone wrong with the unicode parsing of the JATS posted to Kriya, and will fire if the character(s) 'Ã¿' are present in a Decision letter or Author response. To resolve this replace those characters with the one suggested in the message, in this case, 'ÿ'. The first XXXXXX will be the name of the element (e.g. 'p'), and the second XXXXXX is the content within that element. If there are a large number of errors relating to incorrect unicode characters, then the eLife Production team should send the article back to the production vendors to fix them all.
 
 **dec-letter-box-test-1**
 
-**Error**: _The text at the top of the decision letter is not correct - 'XXXXXX'. It has to be one of the three paragraphs which are permitted \(see the GitBook page for these paragraphs\)._
+**Error**: _The text at the top of the decision letter is not correct - 'XXXXXX'. It has to be one of the three paragraphs which are permitted (see the GitBook page for these paragraphs)._
 
 **Action**: This message will fire if the boxed text at the top of the decision letter is incorrect. It can be one of three paragraphs depending on whether a public review has been posted and whether there is an acceptance summary.
 
@@ -1309,11 +1311,11 @@ If a public review has not been posted on the article's preprint then the text s
 
 If a public review has been posted, and there is an acceptance summary in the decision letter then it should be:
 
-> Our editorial process produces two outputs: i\) public reviews designed to be posted alongside the preprint for the benefit of readers; ii\) feedback on the manuscript for the authors, including requests for revisions, shown below. We also include an acceptance summary that explains what the editors found interesting or important about the work.
+> Our editorial process produces two outputs: i) public reviews designed to be posted alongside the preprint for the benefit of readers; ii) feedback on the manuscript for the authors, including requests for revisions, shown below. We also include an acceptance summary that explains what the editors found interesting or important about the work.
 
 If a public review has been posted, and there is _**not**_ an acceptance summary in the decision letter then it should be:
 
-> Our editorial process produces two outputs: i\) public reviews designed to be posted alongside the preprint for the benefit of readers; ii\) feedback on the manuscript for the authors, including requests for revisions, shown below.
+> Our editorial process produces two outputs: i) public reviews designed to be posted alongside the preprint for the benefit of readers; ii) feedback on the manuscript for the authors, including requests for revisions, shown below.
 
 If the production vendors notice this error fires, they should contact the eLife production team. The eLife production team should check [**this spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd_STqhP7x0/edit#gid=0) to determine whether a public review has been posted for that article, and use the correct text, as specified above, depending on whether a public review has been posted or not.
 
@@ -1321,7 +1323,7 @@ If the production vendors notice this error fires, they should contact the eLife
 
 **Error**: _At the top of the decision letter, the text 'public reviews' must contain an embedded link to Sciety where the public review for this article's preprint is located._
 
-**Action**: This message will fire if the boxed text at the top of the decision letter indicates that there is a public review for that article's preprint, but there is no link to Sciety in the correct part of the text. First check that there isn't already a link to Sciety which is embedded in the wrong text, and if so, then change it so that 'public reviews' has the link embedded. If that's not the case, and the preprint doi is known \(for example if there is a link to the preprint in the text elsewhere\), then the Sciety link can be added, it will be [`https://sciety.org/articles/activity/`](https://sciety.org/articles/activity/) followed by the doi of the preprint. Finally, if the preprint is not known, then the eLife production team should check [**this spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd_STqhP7x0/edit#gid=0) to determine whether a public review has been posted for that article. If there is an entry in there, the add the Sciety link from that spreadsheet. If there is not, then the text at the top of the decision letter should be changed to:
+**Action**: This message will fire if the boxed text at the top of the decision letter indicates that there is a public review for that article's preprint, but there is no link to Sciety in the correct part of the text. First check that there isn't already a link to Sciety which is embedded in the wrong text, and if so, then change it so that 'public reviews' has the link embedded. If that's not the case, and the preprint doi is known (for example if there is a link to the preprint in the text elsewhere), then the Sciety link can be added, it will be [`https://sciety.org/articles/activity/`](https://sciety.org/articles/activity/) followed by the doi of the preprint. Finally, if the preprint is not known, then the eLife production team should check [**this spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd_STqhP7x0/edit#gid=0) to determine whether a public review has been posted for that article. If there is an entry in there, the add the Sciety link from that spreadsheet. If there is not, then the text at the top of the decision letter should be changed to:
 
 > In the interests of transparency, eLife publishes the most substantive revision requests and the accompanying author responses.
 
@@ -1343,9 +1345,9 @@ If the production vendors notice this error fires, they should contact the eLife
 
 #### dec-letter-reply-test-2
 
-**Error**: _sub-article id must be in the format 'sa0', where '0' is its position \(1 or 2\)._
+**Error**: _sub-article id must be in the format 'sa0', where '0' is its position (1 or 2)._
 
-**Action**: This test will fire if the id for a `<sub-article>` is not in the format `sa1` __or __`sa2` , and indicates that something has gone wrong with the processing of the Decision letter/Author response. It will likely need correcting by the production vendors, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
+**Action**: This test will fire if the id for a `<sub-article>` is not in the format `sa1`_ _or_ _`sa2` , and indicates that something has gone wrong with the processing of the Decision letter/Author response. It will likely need correcting by the production vendors, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reply-test-3
 
@@ -1361,33 +1363,33 @@ If the production vendors notice this error fires, they should contact the eLife
 
 #### dec-letter-editor-test-2
 
-**Warning**: _First contrib-group in decision letter contains a contrib which is not marked up as an editor \(contrib\[@contrib-type='editor'\]\)._
+**Warning**: _First contrib-group in decision letter contains a contrib which is not marked up as an editor (contrib\[@contrib-type='editor'])._
 
-**Action**: This test will fire if the first `<contrib-group>` in  `<front-stub>` in  the Decision letter `<sub-article>` contains a contributor who is not tagged as an editor \(`<contrib contrib-type='editor'>`\). This will need to be corrected by the production vendors.
+**Action**: This test will fire if the first `<contrib-group>` in  `<front-stub>` in  the Decision letter `<sub-article>` contains a contributor who is not tagged as an editor (`<contrib contrib-type='editor'>`). This will need to be corrected by the production vendors.
 
 #### dec-letter-front-test-2
 
 **Error**: _decision letter front-stub must contain at least 1 contrib-group element._
 
-**Action**: This test will fire if the `<front-stub>` in  a `<sub-article>` does not contain a `<contrib-group>` element \(the container for reviewing editors and reviewers\), and indicates that either this information is entirely missing or that something has gone wrong with the processing of the Decision letter/Author response. eLife Production should check the details for this article in eJP. If there is information for these contributors then they can be added in by the production vendors, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser. If there is no information, then the eLife Editorial team should be queried in order to find it out.
+**Action**: This test will fire if the `<front-stub>` in  a `<sub-article>` does not contain a `<contrib-group>` element (the container for reviewing editors and reviewers), and indicates that either this information is entirely missing or that something has gone wrong with the processing of the Decision letter/Author response. eLife Production should check the details for this article in eJP. If there is information for these contributors then they can be added in by the production vendors, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser. If there is no information, then the eLife Editorial team should be queried in order to find it out.
 
 #### dec-letter-front-test-3
 
 **Error**: _decision letter front-stub contains more than 2 contrib-group elements._
 
-**Action**: This test will fire if the `<front-stub>` in  a `<sub-article>` has more than two `<contrib-group>` elements \(the container for reviewing editors and reviewers\), and indicates that something has gone wrong with the processing of the Decision letter/Author response. It will likely need correcting by the production vendors, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
+**Action**: This test will fire if the `<front-stub>` in  a `<sub-article>` has more than two `<contrib-group>` elements (the container for reviewing editors and reviewers), and indicates that something has gone wrong with the processing of the Decision letter/Author response. It will likely need correcting by the production vendors, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reviewer-test-1
 
-**Error**: _Second contrib-group in decision letter must contain a reviewer \(contrib\[@contrib-type='reviewer'\]\)._
+**Error**: _Second contrib-group in decision letter must contain a reviewer (contrib\[@contrib-type='reviewer'])._
 
-**Action**: If this fires, it means that there is a second `<contrib-group>` in the Decision letter `<front-stub>` element, which does not contain any reviewers. Either the second `<contrib-group>` should be removed or the reviewer information needs to be added. If the text 'The reviewers have opted to remain anonymous' or 'The reviewer has opted to remain anonymous' is present in the decision letter, or there is a link to Review commons \(https://www.reviewcommons.org/\), then the second `<contrib-group>` should be removed by the production vendors. Otherwise eLife production will have to check with the Editorial team in order to determine whether this article should have reviewers or not, and add this information in Kriya or remove the second `<contrib-group>` as necessary.
+**Action**: If this fires, it means that there is a second `<contrib-group>` in the Decision letter `<front-stub>` element, which does not contain any reviewers. Either the second `<contrib-group>` should be removed or the reviewer information needs to be added. If the text 'The reviewers have opted to remain anonymous' or 'The reviewer has opted to remain anonymous' is present in the decision letter, or there is a link to Review commons (https://www.reviewcommons.org/), then the second `<contrib-group>` should be removed by the production vendors. Otherwise eLife production will have to check with the Editorial team in order to determine whether this article should have reviewers or not, and add this information in Kriya or remove the second `<contrib-group>` as necessary.
 
-One common cause/case for this may be that the reviewers opted to be anonymous on the first round of review yet chose to have their name revealed in a subsequent round of review. This could mean that Editorial include their name in the letter \(rather than 'choosing to remain anonymous'\), but they aren't listed in the XML because eJP only outputs non-anonymous reviewers from the full submission.
+One common cause/case for this may be that the reviewers opted to be anonymous on the first round of review yet chose to have their name revealed in a subsequent round of review. This could mean that Editorial include their name in the letter (rather than 'choosing to remain anonymous'), but they aren't listed in the XML because eJP only outputs non-anonymous reviewers from the full submission.
 
 #### dec-letter-reviewer-test-2
 
-**Error**: _Second contrib-group in decision letter contains a contrib which is not marked up as a reviewer \(contrib\[@contrib-type='reviewer'\]\)._
+**Error**: _Second contrib-group in decision letter contains a contrib which is not marked up as a reviewer (contrib\[@contrib-type='reviewer'])._
 
 **Action**: The second `<contrib-group>` element in a decision letter should contain the details for Reviewers only. Reviewers are captured as `<contrib contrib-type='reviewer'>` elements. This error indicates that there is another kind of contributor in the second `<contrib-group>`. Either a Reviewer has been incorrectly captured, or a Reviewing Editor has been included in the incorrect location in the XML. Check the details in eJP to determine which is the case. The production vendors should then correct this in the XML.
 
@@ -1449,7 +1451,7 @@ An example of a typical Decision letter:
 </sub-article>
 ```
 
-An example of a \(short\) Author response:
+An example of a (short) Author response:
 
 ```markup
 <sub-article article-type="reply" id="sa2">
@@ -1618,4 +1620,3 @@ An example of a Decision letter with figures:
 * Updated 2020-12-01 to include latest guidance on Word doc and kitchen sink zip.
 * Updated 2021-03-08 to include boilerplate schematron checks.
 * Updated 2021-07022 to include more information on the DL creation process.
-

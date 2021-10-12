@@ -26,24 +26,24 @@ For eLife articles, each part of the reference is formatted specifically:
 
 The following information can be added for data references:
 
-| Kriya field | Mandatory? | XML element | Example |
-| :--- | :--- | :--- | :--- |
-| Author\(s\) | At least one author or collaboration is required; both can be present | &lt;person-group person-group-type="author"&gt;&lt;name&gt;&lt;surname&gt;Bloggs&lt;/surname&gt;&lt;given-names&gt;J&lt;/given-names&gt;&lt;/name&gt;&lt;/person-group&gt; | Bloggs J |
-| Collaboration\(s\) | At least one author or collaboration is required; both can be present | &lt;person-group person-group-type="author"&gt;&lt;collab&gt;Tulsa 1000 Investigators&lt;/collab&gt;&lt;/person-group&gt; | Tulsa 1000 Investigators |
-| Year | Yes | &lt;year iso-8601-date="2008"&gt;2008&lt;/year&gt; | 2008 |
-| Dataset title | Yes | &lt;data-title&gt;Transcriptomes of the hybrid mouse diversity panel subjected to Isoproterenol challenge&lt;/data-title&gt; | Transcriptomes of the hybrid mouse diversity panel subjected to Isoproterenol challenge |
-| Publisher | Yes | &lt;source&gt;NCBI Gene Expression Omnibus&lt;/source&gt; | NCBI Gene Expression Omnibus |
-| Accession | No | &lt;pub-id assigning-authority="NCBI" pub-id-type="accession" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760"&gt;GSE48760&lt;/pub-id&gt; | GSE48760 |
-| DOI | No | &lt;pub-id assigning-authority="Dryad" pub-id-type="doi"&gt;10.5061/dryad.zcrjdfn8n&lt;/pub-id&gt; | 10.5061/dryad.zcrjdfn8n |
-| Website | Yes unless a DOI is present | &lt;ext-link ext-link-type="uri" xlink:href="https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline"&gt;                 https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline&lt;/ext-link&gt; | https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline |
+| Kriya field      | Mandatory?                                                            | XML element                                                                                                                                                                                                                          | Example                                                                                 |
+| ---------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
+| Author(s)        | At least one author or collaboration is required; both can be present | \<person-group person-group-type="author">\<name>\<surname>Bloggs\</surname>\<given-names>J\</given-names>\</name>\</person-group>                                                                                                   | Bloggs J                                                                                |
+| Collaboration(s) | At least one author or collaboration is required; both can be present | \<person-group person-group-type="author">\<collab>Tulsa 1000 Investigators\</collab>\</person-group>                                                                                                                                | Tulsa 1000 Investigators                                                                |
+| Year             | Yes                                                                   | \<year iso-8601-date="2008">2008\</year>                                                                                                                                                                                             | 2008                                                                                    |
+| Dataset title    | Yes                                                                   | \<data-title>Transcriptomes of the hybrid mouse diversity panel subjected to Isoproterenol challenge\</data-title>                                                                                                                   | Transcriptomes of the hybrid mouse diversity panel subjected to Isoproterenol challenge |
+| Publisher        | Yes                                                                   | \<source>NCBI Gene Expression Omnibus\</source>                                                                                                                                                                                      | NCBI Gene Expression Omnibus                                                            |
+| Accession        | No                                                                    | \<pub-id assigning-authority="NCBI" pub-id-type="accession" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760">GSE48760\</pub-id>                                                                              | GSE48760                                                                                |
+| DOI              | No                                                                    | \<pub-id assigning-authority="Dryad" pub-id-type="doi">10.5061/dryad.zcrjdfn8n\</pub-id>                                                                                                                                             | 10.5061/dryad.zcrjdfn8n                                                                 |
+| Website          | Yes unless a DOI is present                                           | \<ext-link ext-link-type="uri" xlink:href="https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline">                 https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline\</ext-link> | https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline           |
 
 Non-mandatory fields are required if they exist.
 
-* **Authors**: Enter each author name as a surname\(s\) followed by initials. 
-* **Collaboration:** Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
-* **Year**: This should be the year the article was published. This field can include a letter suffix \(e.g. 2020a\) if needed to distinguish between citations \(see more [here](../reference-citations.md#what-is-a-reference-citation)\).
+* **Authors**: Enter each author name as a surname(s) followed by initials. 
+* **Collaboration: **Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
+* **Year**: This should be the year the article was published. This field can include a letter suffix (e.g. 2020a) if needed to distinguish between citations (see more [here](../reference-citations.md#what-is-a-reference-citation)).
 * **Dataset title**: The title of the dataset. Can contain italics, superscript and subscript as required.
-* **Publisher**: The full \(not abbreviated\) name of the database in which the dataset is stored.
+* **Publisher**: The full (not abbreviated) name of the database in which the dataset is stored.
 * **Accession**: A unique identifier for the dataset. Usually an alphanumeric string e.g. GSE48760, EMD-22286, MSV000086293 etc. Must be accompanied by a website for the dataset, which may or may not contain the accession number as well. Must not be included if DOI used.
 * **DOI:** The Digital Object Identifier for the dataset. Must not be included if Accession used.
 * **Website**: If a dataset has a DOI, a website URL is not required. Otherwise, every dataset must have a URL. Note that if this is accompanied by an accession number, it will be tagged as an attribute on a `<pub-id>` element. If not, it will be included as an `<ext-link>` element. This will not affect display but will affect the underlying XML.
@@ -54,17 +54,17 @@ If any of the mandatory information is not provided, look up the dataset online 
 
 ## How to add a data reference
 
-Right-click where you want to add the citation and click on Add New &gt; Add New Reference and select Data under Reference Type.
+Right-click where you want to add the citation and click on Add New > Add New Reference and select Data under Reference Type.
 
-The default fields in Kriya will need to be altered to include the following information in the order below. To delete an unnecessary field click the red 'bin' button \(if this doesn't work, try re-validating after all fields have been filled out, or change the field type to the one you need\). To add a field click the green '+' button to the entry above where you need to add it.
+The default fields in Kriya will need to be altered to include the following information in the order below. To delete an unnecessary field click the red 'bin' button (if this doesn't work, try re-validating after all fields have been filled out, or change the field type to the one you need). To add a field click the green '+' button to the entry above where you need to add it.
 
 * Author 
-* Collaboration \(if applicable\)
+* Collaboration (if applicable)
 * Year 
 * Data title
 * Publisher
-* DOI \[OR\] Accession \(where applicable\)
-* Website \[must be added if using accession; must not be added if using DOI\]
+* DOI \[OR] Accession (where applicable)
+* Website \[must be added if using accession; must not be added if using DOI]
 
 ![Adding data reference with DOI](../../../.gitbook/assets/screen-shot-2021-01-08-at-15.12.19.png)
 
@@ -80,11 +80,11 @@ In most cases, where a dataset is cited, a URL will have been provided that will
 
 ![](../../../.gitbook/assets/screen-shot-2020-11-24-at-14.40.56.png)
 
-The NCBI Gene Expression Omnibus \(GEO\) has highly structured landing pages that clearly show the title and contributors \(authors\) for each dataset. So with a GEO URL, it is easy to locate the full details.
+The NCBI Gene Expression Omnibus (GEO) has highly structured landing pages that clearly show the title and contributors (authors) for each dataset. So with a GEO URL, it is easy to locate the full details.
 
 ![](../../../.gitbook/assets/screen-shot-2020-11-24-at-14.43.37.png)
 
-The Mass Spectrometry Interactive Virtual Environment \(MassIVE\), however, only clearly shows the title for the article. Author details are limited to the citation associated with the data and the primary contact \(effectively corresponding author\) for the dataset. Since the authors for the dataset may differ from those on the associated publication and the contact is unlikely to be solely responsible for collecting the data, an author query may be required to seek the full author list for the reference.
+The Mass Spectrometry Interactive Virtual Environment (MassIVE), however, only clearly shows the title for the article. Author details are limited to the citation associated with the data and the primary contact (effectively corresponding author) for the dataset. Since the authors for the dataset may differ from those on the associated publication and the contact is unlikely to be solely responsible for collecting the data, an author query may be required to seek the full author list for the reference.
 
 In cases where no URL has been provided but an accession number is available, it should be possible to find the URL either by searching in the indicated database or by plugging the accession number into known URL structures. See [**here**](../data-availability.md#database-examples) for a table of commonly used databases and their associated URL structures.
 
@@ -94,15 +94,15 @@ In cases where no URL has been provided but an accession number is available, it
 
 #### err-elem-cit-data-3-1
 
-**Error**: _Data references must have one and only one &lt;person-group person-group-type='author'&gt;. Reference 'XXXXXX' has XXXXXX._
+**Error**: _Data references must have one and only one \<person-group person-group-type='author'>. Reference 'XXXXXX' has XXXXXX._
 
-**Action**: This error indicates either that there is more than one `<person-group>` element with the attribute `person-group-type` equal to "author" or that there is one or more `<person-group>` element with another value for this attribute. Multiple author lists should be combined and any `<person-group>` elements with incorrect attributes should be corrected. The latter will likely require support team intervention.
+**Action**: This error indicates either that there is more than one `<person-group>` element with the attribute `person-group-type` equal to "author" or that there is one or more `<person-group> `element with another value for this attribute. Multiple author lists should be combined and any `<person-group>` elements with incorrect attributes should be corrected. The latter will likely require support team intervention.
 
 Please note that while eLife allows compliers and curators in addition or instead of authors on datasets, the systems are not set up to allow this at present.
 
 #### pre-err-elem-cit-data-3-2
 
-**Warning**: _Data references must have one and only one &lt;person-group person-group-type='author'&gt;. Reference 'XXXXXX' has 0. If this information is missing, please query the authors asking for it._
+**Warning**: _Data references must have one and only one \<person-group person-group-type='author'>. Reference 'XXXXXX' has 0. If this information is missing, please query the authors asking for it._
 
 **Action**: This warning will fire at pre-author stages, indicating that a data reference has zero `<person-group>` elements. If possible, look the dataset up online to identify the correct author list. If there are no authors given or the dataset cannot be found, please raise an author query on the proof for the missing information.
 
@@ -110,7 +110,7 @@ Please note that while eLife allows compliers and curators in addition or instea
 
 #### final-err-elem-cit-data-3-2	
 
-**Error**: _Data references must have one and only one &lt;person-group person-group-type='author'&gt;. Reference 'XXXXXX' has 0._
+**Error**: _Data references must have one and only one \<person-group person-group-type='author'>. Reference 'XXXXXX' has 0._
 
 **Action**: This error will fire at final stages, indicating that a data reference has zero `<person-group>` elements. If possible, look the dataset up online to identify the correct author list. If there are no authors given or the dataset cannot be found, please query the authors for the missing information.
 
@@ -118,7 +118,7 @@ Please note that while eLife allows compliers and curators in addition or instea
 
 **Warning**: _Data reference 'XXXXXX' has XXXXXX data-title elements, when it should contain one. If this information is missing, please query it with the authors._
 
-**Action**: This warning will fire at pre-author stages, indicating that a data reference either has no title or more than one title. If the title is missing and cannot be located online using the other details provided \(accession, DOI\), please add the following author query:
+**Action**: This warning will fire at pre-author stages, indicating that a data reference either has no title or more than one title. If the title is missing and cannot be located online using the other details provided (accession, DOI), please add the following author query:
 
 * Please provide the title for this reference.
 
@@ -126,9 +126,9 @@ If the reference has more than one title, it may indicate a processing error. Co
 
 #### final-err-elem-cit-data-10
 
-**Error**: Data reference 'XXXXXX' has XXXXXX data-title elements. It must contain one \(and only one\).
+**Error**: Data reference 'XXXXXX' has XXXXXX data-title elements. It must contain one (and only one).
 
-**Action**: This error will fire at final stages, indicating that a data reference either has no title or more than one title. If the title is missing and cannot be located online using the other details provided \(accession, DOI\), please query the authors.
+**Action**: This error will fire at final stages, indicating that a data reference either has no title or more than one title. If the title is missing and cannot be located online using the other details provided (accession, DOI), please query the authors.
 
 If the reference has more than one title, it may indicate a processing error and should be corrected, combining the multiple titles into one field.
 
@@ -136,25 +136,25 @@ If the reference has more than one title, it may indicate a processing error and
 
 **Warning**: _Data reference 'XXXXXX' has XXXXXX source elements, when it should contain one. If this information is missing, please query it with the authors._
 
-**Action**: This warning will fire at pre-author stages, indicating that more than one `<source>` element \(database name\) is present in a data reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
+**Action**: This warning will fire at pre-author stages, indicating that more than one `<source>` element (database name) is present in a data reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
 
 #### final-err-elem-cit-data-11-2
 
-**Error**: _Data reference 'XXXXXX' has XXXXXX source elements. It must contain one \(and only one\)._
+**Error**: _Data reference 'XXXXXX' has XXXXXX source elements. It must contain one (and only one)._
 
-**Action**: This error will fire at final stages, indicating that more than one `<source>` element \(database name\) is present in a data reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
+**Action**: This error will fire at final stages, indicating that more than one `<source>` element (database name) is present in a data reference. The extra `<source>` elements should be removed — however please check whether the contents should be moved to the dataset title or the database name fields first. If possible locate the dataset online to check for the correct details.
 
 #### err-elem-cit-data-11-3-2
 
-**Error**: _A &lt;source&gt; element within a &lt;element-citation&gt; of type 'data' may only contain the child elements &lt;italic&gt;, &lt;sub&gt;, and &lt;sup&gt;. No other elements are allowed. Reference 'XXXXXX' has disallowed child elements._
+**Error**: _A \<source> element within a \<element-citation> of type 'data' may only contain the child elements \<italic>, \<sub>, and \<sup>. No other elements are allowed. Reference 'XXXXXX' has disallowed child elements._
 
-**Action**: This error will appear if there are formatting elements in the article title other than italics, superscripts and subscripts \(e.g. bold, underline\). Make sure any disallowed formatting is removed from the article title.
+**Action**: This error will appear if there are formatting elements in the article title other than italics, superscripts and subscripts (e.g. bold, underline). Make sure any disallowed formatting is removed from the article title.
 
 #### pre-err-elem-cit-data-13-1
 
-**Warning**_:_ _There should be one \(and only one\) pub-id or one \(and only one\) ext-link. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements. If this information is missing, please query it with the authors._
+**Warning**_:_ _There should be one (and only one) pub-id or one (and only one) ext-link. Reference 'XXXXXX' has XXXXXX \<pub-id> elements and XXXXXX \<ext-link> elements. If this information is missing, please query it with the authors._
 
-**Action**: One pub-id \(`<pub-id>`, DOI or accession number\) or one URL \(`<ext-link>`\) must be present in a data reference. This error indicates \(at pre-author stages\) that none or more than one of these is present in the reference. If more than one URL is present, check whether the provided URL has been mistagged e.g. split into two fields and correct accordingly. Extra URLs will need to be removed; if more than one URL has been provided per data reference, the Production team should be alerted and they will need to investigate the issue \(e.g. maybe the author is citing multiple datasets at once\).
+**Action**: One pub-id (`<pub-id>`, DOI or accession number) or one URL (`<ext-link>`) must be present in a data reference. This error indicates (at pre-author stages) that none or more than one of these is present in the reference. If more than one URL is present, check whether the provided URL has been mistagged e.g. split into two fields and correct accordingly. Extra URLs will need to be removed; if more than one URL has been provided per data reference, the Production team should be alerted and they will need to investigate the issue (e.g. maybe the author is citing multiple datasets at once).
 
 If no DOI, accession number, or URL has been provided, query the author for the required information:
 
@@ -162,43 +162,43 @@ If no DOI, accession number, or URL has been provided, query the author for the 
 
 #### final-err-elem-cit-data-13-1
 
-**Error**: T_here must be one \(and only one\) pub-id or one \(and only one\) ext-link. Reference 'XXXXXX' has XXXXXX &lt;pub-id&gt; elements and XXXXXX &lt;ext-link&gt; elements._
+**Error**: T_here must be one (and only one) pub-id or one (and only one) ext-link. Reference 'XXXXXX' has XXXXXX \<pub-id> elements and XXXXXX \<ext-link> elements._
 
-**Action**: One pub-id \(`<pub-id>`, DOI or accession number\) or one URL \(`<ext-link>`\) must be present in a data reference. This error indicates \(at final stages\) that none or more than one of these is present in the reference. Where applicable, locate the missing information and add it in, or remove the extra elements. The author may need to be queried if no identifier or URL has been provided, or multiple URLs have been provided for one dataset.
+**Action**: One pub-id (`<pub-id>`, DOI or accession number) or one URL (`<ext-link>`) must be present in a data reference. This error indicates (at final stages) that none or more than one of these is present in the reference. Where applicable, locate the missing information and add it in, or remove the extra elements. The author may need to be queried if no identifier or URL has been provided, or multiple URLs have been provided for one dataset.
 
 #### elem-cit-data-pub-id-ext-link
 
-**Error**: _Dataset reference 'XXXXXX' has both &lt;pub-id&gt; &lt;ext-link&gt; elements. There can only be one or the other, not both._
+**Error**: _Dataset reference 'XXXXXX' has both \<pub-id> \<ext-link> elements. There can only be one or the other, not both._
 
-**Action**: One pub-id \(`<pub-id>`, DOI or accession number\) or one URL \(`<ext-link>`\) must be present in a data reference. This error indicates that both are present. If the reference contains a DOI, edit it to remove any website field present in the system; only the DOI is required. if the reference has an accession number, this is likely a tagging error. Try revalidating the reference and if this does not resolve the problem, it will need to be escalated to the support team.
+**Action**: One pub-id (`<pub-id>`, DOI or accession number) or one URL (`<ext-link>`) must be present in a data reference. This error indicates that both are present. If the reference contains a DOI, edit it to remove any website field present in the system; only the DOI is required. if the reference has an accession number, this is likely a tagging error. Try revalidating the reference and if this does not resolve the problem, it will need to be escalated to the support team.
 
 #### err-elem-cit-data-18
 
-**Error**: _The only tags that are allowed as children of &lt;element-citation&gt; with the publication-type="data" are: &lt;person-group&gt;, &lt;data-title&gt;, &lt;source&gt;, &lt;year&gt;, &lt;pub-id&gt;, &lt;ext-link&gt; and &lt;version&gt;. Reference 'XXXXXX' has other elements._
+**Error**: _The only tags that are allowed as children of \<element-citation> with the publication-type="data" are: \<person-group>, \<data-title>, \<source>, \<year>, \<pub-id>, \<ext-link> and \<version>. Reference 'XXXXXX' has other elements._
 
-**Action**: This error will appear if a data reference has any XML elements other than the ones in the message \(e.g. string date\). Check the XML and remove the extra elements from the reference. This may require support team intervention if the elements cannot be removed by deleting unwanted fields in the user interface.
+**Action**: This error will appear if a data reference has any XML elements other than the ones in the message (e.g. string date). Check the XML and remove the extra elements from the reference. This may require support team intervention if the elements cannot be removed by deleting unwanted fields in the user interface.
 
 #### data-cite-person-group
 
-**Error**: _The person-group for a data reference must have the attribute person-group-type="author". This one in reference 'XXXXXX' has either no person-group attribute or the value is incorrect \(XXXXXX\)._
+**Error**: _The person-group for a data reference must have the attribute person-group-type="author". This one in reference 'XXXXXX' has either no person-group attribute or the value is incorrect (XXXXXX)._
 
-**Action**: Correct the &lt;person-group&gt; element so that it has the attribute `person-group-type="author"`. This will either need to be done by removing all current authors and re-adding them, or by contacting the proofing system support team.
+**Action**: Correct the \<person-group> element so that it has the attribute `person-group-type="author"`. This will either need to be done by removing all current authors and re-adding them, or by contacting the proofing system support team.
 
 #### err-elem-cit-data-14-2
 
-**Error**: _If the pub-id is of pub-id-type doi, it may not have an @xlink:href. Reference 'XXXXXX' has a &lt;pub-id element with type doi and an @link-href with value 'XXXXXX'._
+**Error**: _If the pub-id is of pub-id-type doi, it may not have an @xlink:href. Reference 'XXXXXX' has a \<pub-id element with type doi and an @link-href with value 'XXXXXX'._
 
 **Action**: If a data reference has a DOI, it should not have a website URL as well. This error indicates a reference has both a DOI and a URL. Remove the URL.
 
 #### err-elem-cit-data-13-2
 
-**Error**: _Each pub-id element must have a pub-id-type which is either accession or doi. Reference 'XXXXXX' has a &lt;pub-id element with the type 'XXXXXX'._
+**Error**: _Each pub-id element must have a pub-id-type which is either accession or doi. Reference 'XXXXXX' has a \<pub-id element with the type 'XXXXXX'._
 
 **Action**: Only `<pub-id>` elements of `pub-id-type="doi"` or `pub-id-type="accession"` are allowed in data references. This error indicates a reference has a `<pub-id>` element with another type. This may mean a DOI or an accession number has been tagged incorrectly. The incorrect pub-id should be removed and the contents moved to either a DOI or accession field.
 
 #### err-elem-cit-data-14-1
 
-**Error**: _If the pub-id is of any pub-id-type except doi, it must have an @xlink:href. Reference 'XXXXXX' has a &lt;pub-id element with type 'XXXXXX' but no @xlink-href._
+**Error**: _If the pub-id is of any pub-id-type except doi, it must have an @xlink:href. Reference 'XXXXXX' has a \<pub-id element with type 'XXXXXX' but no @xlink-href._
 
 **Action**: This error indicates a URL has not been provided for a dataset with an accession number. Please locate the URL for the dataset using the database name and accession/identifier, or query the author for the missing information if this is not possible.
 
@@ -272,6 +272,4 @@ Data reference with website only:
 ```
 
 ## Changelog
-
-
 

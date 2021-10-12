@@ -8,7 +8,7 @@ The following tests are run on general content.
 
 #### rrid-test
 
-**Warning**: _'XXXXXXX' element contains what looks like XX unlinked RRID\(s\). These should always be linked using 'https://scicrunch.org/resolver/'. Element begins with XXXXXXX._
+**Warning**: _'XXXXXXX' element contains what looks like XX unlinked RRID(s). These should always be linked using 'https://scicrunch.org/resolver/'. Element begins with XXXXXXX._
 
 **Action**: This will fire at all stages if a table cell or paragraph contains more instances of the text `RRID:` than there are links containing https://scicrunch.org/resolver/, meaning that there are unlinked RRIDs. All RRIDs should linked by adding the RRID to the end of https://scicrunch.org/resolver/. For example for the text `RRID:CVCL_0063`, `CVCL_0063` should have an embedded link - https://scicrunch.org/resolver/CVCL\_0063. If the author has not actually provided the RRID, i.e. the cell contains just `RRID:`, then the following author query should be added:
 
@@ -22,7 +22,7 @@ The following tests are run on general content.
 
 #### code-test
 
-**Warning**: _'XXXXXXX' element contains what looks like unformatted code - 'XXXXXX' - does this need tagging with &lt;monospace/&gt; or &lt;code/&gt;?_
+**Warning**: _'XXXXXXX' element contains what looks like unformatted code - 'XXXXXX' - does this need tagging with \<monospace/> or \<code/>?_
 
 **Action**: This will fire at all stages if a table cell or paragraph contains text which is preceded by two hyphens, such as `--render`. In a table cell this should be given monospace formatting if it is just a snippet of code. If it is a full block of code going over multiple lines, then this should be captured as a code block.
 
@@ -30,19 +30,19 @@ The following tests are run on general content.
 
 **Warning**: _'XXXXXXX' element contains an equal sign with content directly next to one side, but a space on the other, is this correct? - XXXXXX._
 
-**Action**: This will fire at all stages if a table cell or paragraph contains an equal sign which has a space on one side, but not the other, for example `p= 6`. The spacing should be made to be consistent either `p=6` or `p = 6`. Check how this has been done elsewhere in the article \(with spaces or without spaces\), and update the text so that it is consistent in the article.
+**Action**: This will fire at all stages if a table cell or paragraph contains an equal sign which has a space on one side, but not the other, for example `p= 6`. The spacing should be made to be consistent either `p=6` or `p = 6`. Check how this has been done elsewhere in the article (with spaces or without spaces), and update the text so that it is consistent in the article.
 
 #### equal-spacing-test
 
 **Warning**: _'XXXXXXX' element contains the text '+cells' or '±cells' which is very likely to be incorrect spacing - XXXXXX._
 
-**Action**: This will fire at all stages if a table cell or paragraph contains the text `+cell` or `±cell`. If this fires, it's almost certain that a space needs adding between the plus sign and the word cell. It may also be necessary to remove the space \(if there is one\) before the plus sign depending on the content. For example `Ly6G +cells` should be changed to `Ly6G+ cells`.
+**Action**: This will fire at all stages if a table cell or paragraph contains the text `+cell` or `±cell`. If this fires, it's almost certain that a space needs adding between the plus sign and the word cell. It may also be necessary to remove the space (if there is one) before the plus sign depending on the content. For example `Ly6G +cells `should be changed to `Ly6G+ cells`.
 
 #### ring-diacritic-symbol-test
 
-**Warning**: _'XXXXXXX' element contains the ring above symbol, '∘'. Should this be a \(non-superscript\) degree symbol - ° - instead?_
+**Warning**: _'XXXXXXX' element contains the ring above symbol, '∘'. Should this be a (non-superscript) degree symbol - ° - instead?_
 
-**Action**: This will fire at all stages if a table cell or paragraph contains this symbol - ∘. Sometimes this symbol is included \(and given superscript formatting\) instead of a degree symbol. If it's clear that the authors have intended to use the degree symbol, then this should be replaced with °.
+**Action**: This will fire at all stages if a table cell or paragraph contains this symbol - ∘. Sometimes this symbol is included (and given superscript formatting) instead of a degree symbol. If it's clear that the authors have intended to use the degree symbol, then this should be replaced with °.
 
 #### diabetes-1-test
 
@@ -60,13 +60,13 @@ The following tests are run on general content.
 
 **Warning**: _'XXXXXXX' element contains possible unlinked urls. Check - XXXXXX._
 
-**Action**: This will fire at all stages if a table cell or paragraph \(which is not in a decision letter or author response or the ethics information\) includes what is likely a URL. If it is a URL, then it should always be formatted as a link rather than plain text.
+**Action**: This will fire at all stages if a table cell or paragraph (which is not in a decision letter or author response or the ethics information) includes what is likely a URL. If it is a URL, then it should always be formatted as a link rather than plain text.
 
 #### year-style-test
 
-**Warning**: _'XXXXXXX' element contains the following string\(s\) - XXXXXX. If this refers to years, then the space should be removed after the number, i.e XXXXXXX. If the text is referring to a unit then this is fine._
+**Warning**: _'XXXXXXX' element contains the following string(s) - XXXXXX. If this refers to years, then the space should be removed after the number, i.e XXXXXXX. If the text is referring to a unit then this is fine._
 
-**Action**: This will fire at all stages if a table cell or paragraph contains text like `1990 s`. If the authors intended to refer to decades then the space between the s.and number should be removed - `1990s`. If it a number an unit \(as in 1990 seconds\) then the space should be retained and the message ignored.
+**Action**: This will fire at all stages if a table cell or paragraph contains text like `1990 s`. If the authors intended to refer to decades then the space between the s.and number should be removed - `1990s`. If it a number an unit (as in 1990 seconds) then the space should be retained and the message ignored.
 
 #### copyright-symbol
 
@@ -90,31 +90,31 @@ The following tests are run on general content.
 
 **Warning**: _'XXXXXXX' element contains 'Inc.' with a full stop. Remove the full stop._
 
-**Action**: This will fire at all stages if a table cell contains the text 'Inc' or 'inc' followed by a full stop. If it is a shorthand for incorporated, and not at the end of a sentence, such a `McDonalds Inc. sell 'food'`, then the full stop should be removed `McDonalds Inc sell 'food'`. If it is at the end of a sentence \(`'Food' is sold by McDonalds Inc.`\) or not a shorthand for incorporated, then the full stop can be left.
+**Action**: This will fire at all stages if a table cell contains the text 'Inc' or 'inc' followed by a full stop. If it is a shorthand for incorporated, and not at the end of a sentence, such a `McDonalds Inc. sell 'food'`, then the full stop should be removed `McDonalds Inc sell 'food'`. If it is at the end of a sentence (`'Food' is sold by McDonalds Inc.`) or not a shorthand for incorporated, then the full stop can be left.
 
 #### andand-presence
 
 **Warning**: _'XXXXXXX' element contains ' and and ' which is very likely to be incorrect._
 
-**Action**: This will fire at all stages if a table cell contains the text ' and and ' \(or similar capitalised variations\). It almost certainly a mistake, so the extra 'and' can be removed.
+**Action**: This will fire at all stages if a table cell contains the text ' and and ' (or similar capitalised variations). It almost certainly a mistake, so the extra 'and' can be removed.
 
 #### figurefigure-presence
 
 **Warning**: _'XXXXXXX' element contains ' figure figure ' which is very likely to be incorrect._
 
-**Action**: This will fire at all stages if a table cell contains the text ' and and ' \(or similar capitalised variations\). It almost certainly a mistake and the extra 'figure' can be removed.
+**Action**: This will fire at all stages if a table cell contains the text ' and and ' (or similar capitalised variations). It almost certainly a mistake and the extra 'figure' can be removed.
 
 #### plus-minus-presence
 
-**Warning**: _'XXXXXXX' element contains two plus or minus signs separate by a space and a forward slash \(such as '+ /-'\). Should the space be removed? - XXXXXX._
+**Warning**: _'XXXXXXX' element contains two plus or minus signs separate by a space and a forward slash (such as '+ /-'). Should the space be removed? - XXXXXX._
 
-**Action**: This will fire at all stages if a table cell contains two plus or minus signs separated by a space and a forward slash \(such as '+ /-'\). It almost certainly a mistake and the extra space can be removed.
+**Action**: This will fire at all stages if a table cell contains two plus or minus signs separated by a space and a forward slash (such as '+ /-'). It almost certainly a mistake and the extra space can be removed.
 
 #### supplementalfigure-presence
 
 **Warning**: _'XXXXXXX' element contains the phrase ' Supplemental figure ' which almost certainly needs updating. XXXXXX starts with - XXXXXX._
 
-**Action**: This will fire at all stages if a table cell contains ' Supplemental figure '. If it is clear which figure supplement this refers to then it should be updated accordingly \(such as Figure 1-figure supplement 1\). If it is not, then the following author query:
+**Action**: This will fire at all stages if a table cell contains ' Supplemental figure '. If it is clear which figure supplement this refers to then it should be updated accordingly (such as Figure 1-figure supplement 1). If it is not, then the following author query:
 
 * Supplemental figure X is cited in the text but has not been provided. Please either correct the citation, provide the figure file and a title and legend, or confirm that this citation refers to another article.
 
@@ -122,7 +122,7 @@ The following tests are run on general content.
 
 **Warning**: _'XXXXXXX' element contains the phrase ' Supplemental file ' which almost certainly needs updating. XXXXXX starts with - XXXXXX._
 
-**Action**: This will fire at all stages if a table cell contains ' Supplemental file '. If it is clear which Supplementary file this refers to then it should be updated accordingly \(such as Supplementary file 1\). If it is not, then the following author query:
+**Action**: This will fire at all stages if a table cell contains ' Supplemental file '. If it is clear which Supplementary file this refers to then it should be updated accordingly (such as Supplementary file 1). If it is not, then the following author query:
 
 * Supplemental file X is cited in the text but has not been provided. Please either correct the citation, provide the figure file and a title and legend, or confirm that this citation refers to another article.
 
@@ -158,9 +158,9 @@ The following tests are run on general content.
 
 #### empty-parentheses-presence
 
-**Warning**: _'XXXXXXX' element contains empty parentheses \('\[\]', or '\(\)'\). Is there a missing citation within the parentheses? Or perhaps this is a piece of code that needs formatting?_
+**Warning**: _'XXXXXXX' element contains empty parentheses ('\[]', or '()'). Is there a missing citation within the parentheses? Or perhaps this is a piece of code that needs formatting?_
 
-**Action**: This will fire at all stages if a table cell contains empty parentheses \('\[\]', or '\(\)'\). The original manuscript should be checked to ensure that the content was not incorrectly converted. If it has been correctly converted, then if it is code \(such as `regex()`\), then the code text should be given monospace formatting. If it is not code, the the following author query should be added:
+**Action**: This will fire at all stages if a table cell contains empty parentheses ('\[]', or '()'). The original manuscript should be checked to ensure that the content was not incorrectly converted. If it has been correctly converted, then if it is code (such as `regex()`), then the code text should be given monospace formatting. If it is not code, the the following author query should be added:
 
 * Please add in the missing text here or remove the brackets, as necessary.
 
@@ -168,15 +168,15 @@ The following tests are run on general content.
 
 **Warning**: _'XXXXXXX' element contains what looks like a broken unicode - XXXXXX._
 
-**Action**: This will fire at all stages if a table cell contains what looks like broken unicode characters, such as `&amp;#x21;`. The original manuscript should be checked to see what the intended character should be. If it is still not clear, then do a web search for that text \(followed by unicode\). If it's then clear what symbol it should be, then this should be added. Finally if it is still not clear, then add the following author query:
+**Action**: This will fire at all stages if a table cell contains what looks like broken unicode characters, such as `&amp;#x21;`. The original manuscript should be checked to see what the intended character should be. If it is still not clear, then do a web search for that text (followed by unicode). If it's then clear what symbol it should be, then this should be added. Finally if it is still not clear, then add the following author query:
 
 * Please confirm what this symbol should be here or delete the text, as necessary.
 
 #### extra-full-stop-presence
 
-**Warning**: _'XXXXXXX' element contains what looks two full stops right next to each other \(..\) - Is that correct? - XXXXXX._
+**Warning**: _'XXXXXXX' element contains what looks two full stops right next to each other (..) - Is that correct? - XXXXXX._
 
-**Action**: This will fire at all stages if a table cell contains two full stops right next to each other \(..\). If it is clearly a typo, the extra full stop should be removed. If it is not clear, then this warning can be ignored.
+**Action**: This will fire at all stages if a table cell contains two full stops right next to each other (..). If it is clearly a typo, the extra full stop should be removed. If it is not clear, then this warning can be ignored.
 
 #### extra-space-presence
 
@@ -188,7 +188,7 @@ The following tests are run on general content.
 
 **Error**: _'XXXXXXX' element contains a operating system command character '' which should very likely be replaced/removed. - XXXXXX._
 
-**Action**: This will fire at all stages if a table cell contains a specific character, the operating system command character \(unicode `&#x9d;`\). If this fires, the character _must_ be removed, because otherwise the article will fail PMC ingestion.
+**Action**: This will fire at all stages if a table cell contains a specific character, the operating system command character (unicode `&#x9d;`). If this fires, the character _must_ be removed, because otherwise the article will fail PMC ingestion.
 
 #### distinct-label-conformance
 
@@ -200,10 +200,10 @@ The following tests are run on general content.
 
 **Warning**: _XXXXXX has possible unlinked citations in the text._
 
-**Action**: This will fire if a table's label text is found elsewhere in the article without citation formatting \(for example the text 'Table 1' is present in paragraph in the Introduction\). The following actions should be taken:
+**Action**: This will fire if a table's label text is found elsewhere in the article without citation formatting (for example the text 'Table 1' is present in paragraph in the Introduction). The following actions should be taken:
 
 * If the table citation is deliberately left unlinked due to citations which are out of sequence, this warning can be ignored, since the text has been deliberately left unlinked.
-* If the table citation is obviously a reference to a table from another article or piece of work \(e.g. Table 1 from Smith et al., 2020\), then this should be ignored.
+* If the table citation is obviously a reference to a table from another article or piece of work (e.g. Table 1 from Smith et al., 2020), then this should be ignored.
 * If neither of the above two conditions is the case, then the text should be changed to a linked citation.
 
 #### missing-ref-in-text-test
@@ -218,7 +218,7 @@ Otherwise the text should be captured as a proper citation.
 
 #### graphic-test-1
 
-**Error:** _has tif mime-subtype but filename does not end with '.tif' or '.tiff'. This cannot be correct._
+**Error: **_has tif mime-subtype but filename does not end with '.tif' or '.tiff'. This cannot be correct._
 
 #### graphic-test-2
 
@@ -226,7 +226,7 @@ Otherwise the text should be captured as a proper citation.
 
 #### graphic-test-3
 
-**Error:** _has jpeg mime-subtype but filename does not end with '.jpg' or '.jpeg'. This cannot be correct._
+**Error: **_has jpeg mime-subtype but filename does not end with '.jpg' or '.jpeg'. This cannot be correct._
 
 #### graphic-test-4
 
@@ -234,11 +234,11 @@ Otherwise the text should be captured as a proper citation.
 
 #### graphic-test-5
 
-**Error:** _must have an @xlink:href which contains a file reference._
+**Error: **_must have an @xlink:href which contains a file reference._
 
 #### graphic-test-6
 
-**Error:** _Image file for XXXXXX \(XXXXXX\) is the same as the one used for XXXXXX._
+**Error:** _Image file for XXXXXX (XXXXXX) is the same as the one used for XXXXXX._
 
 #### figurefigure-presence
 
@@ -250,9 +250,9 @@ Otherwise the text should be captured as a proper citation.
 
 #### label-fig-group-conformance-2
 
-**Error:** _XXXXXX contains the string 'Figure' but it's not placed in a &lt;fig-group&gt; element, which is incorrect. Either the label needs updating, or it needs moving into the &lt;fig-group&gt;._
+**Error: **_XXXXXX contains the string 'Figure' but it's not placed in a \<fig-group> element, which is incorrect. Either the label needs updating, or it needs moving into the \<fig-group>._
 
-**Action:** In the XML, the fig-group element contains a figure and its figure supplement\(s\) and/or figure video\(s\). This element will only be present if the figure has figure supplement\(s\) and/or figure video\(s\). This error will appear if a video is linked to a figure but not included in the fig-group element in the XML. This should be corrected by Exeter. 
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement(s) and/or figure video(s). This element will only be present if the figure has figure supplement(s) and/or figure video(s). This error will appear if a video is linked to a figure but not included in the fig-group element in the XML. This should be corrected by Exeter. 
 
 An example of a figure video correctly placed in the fig-group element:
 
@@ -268,15 +268,14 @@ An example of a figure video correctly placed in the fig-group element:
 
 #### distinct-label-conformance
 
-**Error:** _Duplicated labels - XXXXXX is present more than once in the text._
+**Error: **_Duplicated labels - XXXXXX is present more than once in the text._
 
-**Action:** This error will appear if multiple assets have the same label. All assets should have distinct labels which are numbered in the order they are first cited in the text. Check the manuscript to see what the correct labels should be - Exeter will need to fix this.
+**Action: **This error will appear if multiple assets have the same label. All assets should have distinct labels which are numbered in the order they are first cited in the text. Check the manuscript to see what the correct labels should be - Exeter will need to fix this.
 
 #### private-char-test
 
-**Error:** _XXXXXX element contains private use character\(s\). They either need removing or changing to the correct character. Private characters:  XXXXXX._
+**Error: **_XXXXXX element contains private use character(s). They either need removing or changing to the correct character. Private characters:  XXXXXX._
 
-**Action:** This error will appear if a paragraph or table cell contains a character that has a unicode reserved for private use. These characters are not widely supported, and therefore of no use within the article; the inclusion of them will also cause the article to fail loading to PMC. It's almost certainly the result of an error when copying/converting the content from the original text format.
+**Action: **This error will appear if a paragraph or table cell contains a character that has a unicode reserved for private use. These characters are not widely supported, and therefore of no use within the article; the inclusion of them will also cause the article to fail loading to PMC. It's almost certainly the result of an error when copying/converting the content from the original text format.
 
-The original intended character will need to be checked \(see [**Decision letters and Author responses**](decision-letters-and-author-responses.md) to see how to get the original documents if the character is within that content\). Replace the character with its intended glyph/character or delete, as necessary.
-
+The original intended character will need to be checked (see [**Decision letters and Author responses**](decision-letters-and-author-responses.md) to see how to get the original documents if the character is within that content). Replace the character with its intended glyph/character or delete, as necessary.
