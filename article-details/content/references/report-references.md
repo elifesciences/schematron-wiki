@@ -113,7 +113,7 @@ These checks relate to the XML structure of report references. X or XXXXXX refer
 
 **Error**: _\[err-elem-cit-report-12-2] The only allowed pub-id types are 'doi' and 'isbn'. Reference 'XXXXXX' has a pub-id type of 'XXXXXX'._
 
-**Action**: This indicates a pub-id that is not an ISBN or DOI has been used or one of these has been mislabelled in the XML. Retag the field correctly to fix this error or remove the content if it is not requir
+**Action**: This indicates a pub-id that is not an ISBN or DOI has been used or one of these has been mislabelled in the XML. Retag the field correctly to fix this error or remove the content if it is not required.
 
 ### XML examples
 
