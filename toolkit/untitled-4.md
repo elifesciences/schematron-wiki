@@ -13,25 +13,21 @@ Add an info link to the changelog at the top of the page with the text below (en
 For changelog, click here. Updated dd/mm/yyy
 {% endhint %}
 
-## What is the \[insert subject of page]?
+## What is article content house style?
 
-Give a brief description of the subject being addressed in the page. 
+The production vendors work with a lot of different clients and most of them have a house style. Therefore, they request each of their publishers lets them know what their house style is. As an online-only journal, we wanted for each article to be allowed to be a unit in-of itself and for the author not be subject to arbitrary changes to their content dictated by the publisher (in a printed edition it's understandable that publishers would want a consistent feel across the publication). However, authors are inconsistent within their own article and it is hard for vendors to spot this if there is not a set of rules to conform to. Therefore, we created a house style as guidance. This is also useful to indicate where we don't want things to be changed if a copy editor is applying another publisher's rules to our content.
 
 ## What needs to be checked?
 
-Outline the main things that need to be checked. Include a checklist if possible.
+Nothing needs to be specifically checked by production staff, but the below is the guidance for vendor staff and where possible Schematron rules have been created to help guide them.
 
-## Examples
+#### Article title
 
-Give specific examples of everything that needs to be checked/any common problems. Add sub-sections where needed, but be as succinct as possible. Include screenshots as required.
+This should be one sentence without colons and em dashes. Exceptions: Colons are allowed for...
 
-This section should also list any issues that can be spotted without the need to run Schematron tests such as low figure quality, broken paragraphs, badly formatted tables etc. Crosscheck against the protocol documents in [this folder](https://drive.google.com/drive/folders/0B2wDI5EMHiJ-UzctZnVBdWFwbzA).
+Sentence case should be used (ie only the first letter of the first word is capitalised). Exceptions: proper nouns and genuses
 
-> Any quotes from articles should be formatted as quotes
 
-* Any Kriya queries should be formatted as a bullet point
-
-Any [**hyperlinks**](untitled-4.md) to other pages or websites should be bolded to make sure they are more visible. 
 
 ## Schematron checks
 
