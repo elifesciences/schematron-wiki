@@ -23,11 +23,10 @@ Nothing needs to be specifically checked by production staff, but the below is t
 
 #### Article title
 
-This should be one sentence without colons and em dashes. Exceptions: Colons are allowed for...
-
-Sentence case should be used (ie only the first letter of the first word is capitalised). Exceptions: proper nouns and genuses
-
-
+* This should be one sentence without colons and em dashes. Exceptions: medicine articles, Registered reports, Replication studies and Correction articles will all contain colons in their titles. Check with the Features team if a feature article contains a colon. The first word after the colon should start with a capital letter.
+* Sentence case should be used (ie only the first letter of the first word is capitalised). Exceptions: proper nouns and genuses
+* Titles should not end with fullstops.
+*
 
 ## Schematron checks
 
@@ -35,59 +34,85 @@ Sentence case should be used (ie only the first letter of the first word is capi
 
 These checks relate to the content of \[insert name of page]. X or XXXXXX refers to quoted text which will change depending on the article.
 
-**article-title-test-1**
+#### **article-title-test-1**
 
 **Error**: _Article title must not end with a full stop - 'XXXXXX'._
 
 **Action**: A title cannot end with a fullstop. Please remove the fullstop from the title.
 
-**article-title-test-2**
+#### **article-title-test-2**
 
 **Warning**: _Article title is entirely in lower case, is this correct? - XXXXXX._
 
 **Action**: It is very unusual for a title to start with a lower case letter. It is possible if, for instance, if a title begins with 'acyl carrier protein (ACP)' the A in acyl should not be capitalised.
 
-**article-title-test-3**
+#### **article-title-test-3**
 
 **Error**: _Article title must not be entirely in upper case - XXXXXX._
 
 **Action**: We use sentence case so during preediting any manuscript submitted that uses all caps for the title should be changed to sentence case. Update this if this has not been done by the typesetter.
 
-**article-title-test-5**
+#### **article-title-test-5**
 
 **Warning**: _Article title contains maths. Is this correct?_
 
 **Action**: Downstream services that receive eLife metadata usually cannot process MathML so we avoid using it in the title. Usually, if a title contains MathML characters these can be replaced with normal font special character.
 
-**article-title-test-6**
+#### **article-title-test-6**
 
 **Error**: _Article title must not contain bold._
 
 **Action**: Bold font is not allowed in titles. Please convert to Roman.
 
-**article-title-test-7**
+#### **article-title-test-7**
 
 **Error**: _Article title must not contain underline._
 
 **Action**: Underlined text is not allowed in a title. Please remove the underlining
 
-**article-title-test-9**
+#### **article-title-test-9**
 
 **Error**: _Article title contains the string '-Based '. this should be lower-case, '-based '. - XXXXXX_
 
-**Action**:
+**Action**: If an upper case letter is used for a hyphenated word -based, the B should be lowercase.
 
-**article-title-test-10**
+#### **article-title-test-10**
 
 **Warning**: _Article title contains a colon. This almost never allowed. - XXXXXX_
 
-**Action**:
+**Action**: Colons are not allowed in eLife article titles and should be removed (check the context and replace with a comma or ask the author to reword the title if this is not possible). Exceptions to this rule: Registered reports, Replication studies, Review articles and Correction articles will all contain colons in their titles. The first word after the colon should start with a capital letter.
 
-**article-title-test-11**
+#### **article-title-test-11**
 
 **Warning**: _Article title contains a capitalised word(s) which is not capitalised in the body of the article - XXXXXX - is this correct? - XXXXXX_
 
-**Action**:
+**Action**: This warning will fire if a capital letter is used for a word in the title but the capitalisation is not used for the same word in the article text. This usually indicates it should not be capitalised in the title either and has been left there by mistake. However, be careful not to remove the capitalisation if it is referring to a gene name rather than a protein.
+
+#### **article-title-test-12**
+
+**Warning**: _Article title contains the string ' based'. Should the preceding space be replaced by a hyphen - '-based'. - XXXXXX_
+
+**Action**: This warning will fire if the word 'based' is not preceded by a hyphen. Check the context, if it should be added please do so because it would be unusual for this to not be hyphenated.
+
+#### **review-article-title-1**
+
+**Error**: _The first character in the title for a review article should be upper case. 'XXXXXX' in 'XXXXXX'_
+
+**Action**: It is very unusual for a title to start with a lower case letter. It is possible if, for instance, if a title begins with 'acyl carrier protein (ACP)' the A in acyl should not be capitalised.
+
+#### **review-article-title-2**
+
+**Error**: _The first character after the colon in the title for a review article should be upper case. 'XXXXXX' in 'XXXXXX'_
+
+**Action**: The first word after a colon in a title should start with a capital letter.
+
+#### **medicine-abstract-conformance**
+
+**Warning**: _Medicine articles with a colon in their title should likely have a structured abstract. If there is no note in eJP about this, either the colon in the title is incorrect, or the abstract should be changed to a structured format._
+
+**Action**: If a medicine article has a colon in the abstract this is an indicator that it should have a structured abstract. Either a colon
+
+
 
 ### XML structure checks
 
@@ -126,12 +151,6 @@ These checks relate to the XML structure of \[insert name of page]. ‌X or XXXX
 **Action**: If the XML contains a line break in the title this needs to be removed. You can do this by removing the space between the words in the Kriya interface and then creating a space again using the space bar.
 
 ****
-
-**article-title-test-12**
-
-**Warning**: _Article title contains the string ' based'. Should the preceding space be replaced by a hyphen - '-based'. - XXXXXX_
-
-**Action**:
 
 XML structure
 
