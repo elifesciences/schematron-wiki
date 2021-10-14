@@ -19,7 +19,7 @@ The production vendors work with a lot of different clients and most of them hav
 
 ## What needs to be checked?
 
-Nothing needs to be specifically checked by production staff, but the below is the guidance for vendor staff and where possible Schematron rules have been created to help guide them.
+Nothing needs to be specifically checked by production staff, but the below is the guidance for vendor staff and, where possible, Schematron rules have been created to help guide.
 
 #### Article title
 
@@ -31,13 +31,27 @@ Nothing needs to be specifically checked by production staff, but the below is t
 
 #### Authors
 
-
+* Author names are left as the authors have provided (we do not reduce first names to initials or ask authors for full names if initials are provided and we allow middle names or initials, as provided).
+* No fullstops are allowed in author names, so remove when provided.
+* Suffixes such as Jr, Snr or roman numerals are allowed, but qualifications are not (eg PhD, MD, Mphil).
+* There must be at least 1 corresponding author, but mutliple are allowed.
+* Authors can be listed as contributing equally and there can be more than one group of authors that contribute equally with one another.
+* If an author is deceased this is indicated.
 
 #### Affiliations
 
+* Department and institution, followed by city and country.
+* We do not allow street names, postcodes or counties/states (US).
+* Authors can have more than one affiliation
+* Present addresses (ie the author did the work associated with this paper elsewhere but has since moved to a new position) are listed separately in the present address field. The same rules apply, department and institution, followed by city and country only.
+
 #### Abstract
 
+See [Abstracts, digest and impact statements](../article-details/content/article-structure/abstract-digest-impact-statement.md).
+
 #### Keywords
+
+*
 
 #### Headings
 
