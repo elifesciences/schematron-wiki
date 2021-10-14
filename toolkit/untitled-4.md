@@ -26,7 +26,8 @@ Nothing needs to be specifically checked by production staff, but the below is t
 * This should be one sentence without colons and em dashes. Exceptions: medicine articles, Registered reports, Replication studies and Correction articles will all contain colons in their titles. Check with the Features team if a feature article contains a colon. The first word after the colon should start with a capital letter.
 * Sentence case should be used (ie only the first letter of the first word is capitalised). Exceptions: proper nouns and genuses
 * Titles should not end with fullstops.
-*
+* Abbreviations are discouraged in the title (but most common allowed, eg DNA, RNA, JAK-STAT).
+* Numeral numbers should be changed to text (e.g. one case) unless in chemicals and genes.
 
 ## Schematron checks
 
