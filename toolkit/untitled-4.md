@@ -29,6 +29,22 @@ Nothing needs to be specifically checked by production staff, but the below is t
 * Abbreviations are discouraged in the title (but most common allowed, eg DNA, RNA, JAK-STAT).
 * Numeral numbers should be changed to text (e.g. one case) unless in chemicals and genes.
 
+#### Authors
+
+
+
+#### Affiliations
+
+#### Abstract
+
+#### Keywords
+
+#### Headings
+
+#### General content
+
+
+
 ## Schematron checks
 
 ### Content checks
