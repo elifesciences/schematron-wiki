@@ -49,7 +49,13 @@ Nothing needs to be specifically checked by production staff, but the below is t
 
 See [Abstracts, digest and impact statements](../article-details/content/article-structure/abstract-digest-impact-statement.md).
 
-#### Keywords
+#### Author keywords
+
+* Sentence case, with the exception of proper nouns
+* Whole phrases should be avoided
+* Corrections, Retractions (and Expressions of Concern)** **do not have author keywords
+
+**Research organsim**
 
 *
 
@@ -143,9 +149,65 @@ These checks relate to the content of \[insert name of page]. X or XXXXXX refers
 
 **Action**: If a medicine article has a colon in the abstract this is an indicator that it should have a structured abstract. Either a colon
 
+#### **test-auth-kwd-group-presence-1**
 
+**Error**: _One author keyword group must be present in article-meta._
 
-### XML structure checks
+**Action**: If author keywords are missing this indicates they have not been transferred from EJP correctly. Check the submission on EJP and add from there. If there are none in EJP ask the author to provide 3-6 keywords.
+
+#### **test-auth-kwd-group-presence-2**
+
+**Error**: _XXXXXX articles must not have any author keywords_
+
+**Action**: Corrections, Retractions (and Expressions of Concern)** **do not have author keywords. Please remove if present for these article types.
+
+#### **test-ro-kwd-group-presence-1**
+
+**Error**: _More than 1 Research organism keyword group is present in article-meta. This is incorrect._
+
+**Action**: Articles are only allowed to contain one research organism. If there is more than one either remove one that is obviously incorrect or ask the author which should be removed. 
+
+#### **test-ro-kwd-group-presence-2**
+
+**Warning**: _XXXXXX does not contain a Research Organism keyword group. Is this correct?_
+
+**Action**: If an author has indicated there is no research organism, this should be 'none', not absent.
+
+#### **kwd-group-type**
+
+**Error**: _kwd-group must have a @kwd-group-type 'research-organism', or 'author-keywords'._
+
+**Action**:
+
+**non-ro-kwd-presence-test**
+
+**Warning**: _kwd-group must contain at least one kwd_
+
+**Action**:
+
+**kwd-group-title**
+
+**Error**: _kwd-group title is XXXXXX, which is wrong. It should be 'Research organism'._
+
+**Action**:
+
+**ro-kwd-presence-test**
+
+**Warning**: _kwd-group must contain at least one kwd_
+
+**Action**:
+
+**kwd-upper-case**
+
+**Error**: _research-organism kwd elements should start with an upper-case letter._
+
+**Action**:
+
+**kwd-child-test**
+
+**Error**: _research-organism keywords cannot have child elements such as XXXXXX._
+
+**Action**:XML structure checks
 
 These checks relate to the XML structure of \[insert name of page]. ‌X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see below (include link to XML structure).
 
