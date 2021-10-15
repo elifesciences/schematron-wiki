@@ -24,7 +24,7 @@ As mentioned above, a publish on accept article consists of three parts:
 
 At present, the PDF and supplementary files are transmitted to the eLife AWS separately from the metadata. File exports can be found in the elife-ejp-poa-delivery bucket while the metadata CSV files are sent to the elife-ejp-ftp bucket.
 
-![](broken-reference)
+![Export packages for PoA articles in the  elife-ejp-poa-delivery bucket](<../.gitbook/assets/Screenshot 2021-10-15 at 16.19.38 (1).png>)
 
 ![PoA metadata files in the elife-ejp-ftp bucket](<../.gitbook/assets/Screenshot 2021-10-15 at 16.10.52.png>)
 
