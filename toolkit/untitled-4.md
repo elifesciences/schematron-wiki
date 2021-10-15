@@ -8,9 +8,7 @@ description: >-
 # Article content house style
 
 {% hint style="info" %}
-Add an info link to the changelog at the top of the page with the text below (ensure the 'here' has a link to the changelog at the bottom of the page): 
-
-For changelog, click here. Updated dd/mm/yyy
+For changelog, click [here](untitled-4.md#changelog). 
 {% endhint %}
 
 ## What is article content house style?
@@ -57,9 +55,14 @@ See [Abstracts, digest and impact statements](../article-details/content/article
 
 **Research organsim**
 
-*
+
+
+#### Major subject areas
 
 #### Headings
+
+* eLife allows 4 levels of headings
+*
 
 #### General content
 
@@ -143,7 +146,463 @@ These checks relate to the content of \[insert name of page]. X or XXXXXX refers
 
 **Action**: The first word after a colon in a title should start with a capital letter.
 
-#### **medicine-abstract-conformance**
+#### **author-xref-test-1**
+
+**Error**: _Affiliation footnote links (xrefs) from authors must be the first type of link. For XXXXXX, their affiliation link - XXXXXX - appears after another non-affiliation link, when it should appear before it._
+
+**Action**:
+
+**author-xref-test-2**
+
+**Error**: _Equal contribution links from authors must appear after affiliation footnote links. For XXXXXX, their equal contribution link (to XXXXXX) appears after another non-affiliation link, when it should appear before it._
+
+**Action**:
+
+**author-xref-test-3**
+
+**Error**: _Present address type footnote links from authors must appear after affiliation and equal contribution links (if there is one). For XXXXXX, their present address link (to XXXXXX) appears before an affiliation link or equal contribution link._
+
+**Action**:
+
+**author-xref-test-4**
+
+**Error**: _Author footnote links to datasets are not needed. Please remove this -_
+
+**Action**:
+
+**surname-test-1**
+
+**Error**: _Each name must contain only one surname._
+
+**Action**:
+
+**given-names-test-1**
+
+**Error**: _Each name must contain only one given-names element._
+
+**Action**:
+
+**given-names-test-2**
+
+**Warning**: _This name - XXXXXX - does not contain a given-name. Please check with eLife staff that this is correct._
+
+**Action**:
+
+**surname-test-2**
+
+**Error**: _surname must not be empty._
+
+**Action**:
+
+**surname-test-3**
+
+**Error**: _surname must not contain any formatting (bold, or italic emphasis, or smallcaps, superscript or subscript)._
+
+**Action**:
+
+**surname-test-4**
+
+**Error**: _surname should usually only contain letters, spaces, or hyphens. XXXXXX contains other characters._
+
+**Action**:
+
+**surname-test-5**
+
+**Warning**: _surname doesn't begin with a capital letter - XXXXXX. Is this correct?_
+
+**Action**:
+
+**surname-test-6**
+
+**Error**: _surname starts with a space, which cannot be correct - 'XXXXXX'._
+
+**Action**:
+
+**surname-test-7**
+
+**Error**: _surname ends with a space, which cannot be correct - 'XXXXXX'._
+
+**Action**:
+
+**surname-test-8**
+
+**Warning**: _surname looks to start with initial - 'XXXXXX'. Should 'XXXXXX' be placed in the given-names field?_
+
+**Action**:
+
+**surname-test-9**
+
+**Warning**: _surname contains brackets - 'XXXXXX'. Should the brakceted text be placed in the given-names field instead?_
+
+**Action**:
+
+**given-names-test-3**
+
+**Error**: _given-names must not be empty._
+
+**Action**:
+
+**given-names-test-4**
+
+**Error**: _given-names must not contain any formatting (bold, or italic emphasis, or smallcaps, superscript or subscript) - 'XXXXXX'._
+
+**Action**:
+
+**given-names-test-5**
+
+**Error**: _given-names should usually only contain letters, spaces, or hyphens. XXXXXX contains other characters._
+
+**Action**:
+
+**given-names-test-6**
+
+**Warning**: _given-names doesn't begin with a capital letter - 'XXXXXX'. Is this correct?_
+
+**Action**:
+
+**given-names-test-7**
+
+**Error**: _given-names contains initialised full stop(s) which is incorrect - XXXXXX_
+
+**Action**:
+
+**given-names-test-8**
+
+**Error**: _given-names starts with a space, which cannot be correct - 'XXXXXX'._
+
+**Action**:
+
+**given-names-test-9**
+
+**Error**: _given-names ends with a space, which cannot be correct - 'XXXXXX'._
+
+**Action**:
+
+**given-names-test-10**
+
+**Warning**: _given-names ends with de, der, or den - should this be captured as the beginning of the surname instead? - 'XXXXXX'._
+
+**Action**:
+
+**given-names-test-11**
+
+**Warning**: _given-names ends with ' van' - should this be captured as the beginning of the surname instead? - 'XXXXXX'._
+
+**Action**:
+
+**given-names-test-12**
+
+**Warning**: _given-names ends with ' von' - should this be captured as the beginning of the surname instead? - 'XXXXXX'._
+
+**Action**:
+
+**given-names-test-13**
+
+**Warning**: _given-names ends with ' el' - should this be captured as the beginning of the surname instead? - 'XXXXXX'._
+
+**Action**:
+
+**given-names-test-14**
+
+**Warning**: _given-names ends with te, ter, or ten - should this be captured as the beginning of the surname instead? - 'XXXXXX'._
+
+**Action**:
+
+**given-names-test-15**
+
+**Info**: _given-names contains initials with spaces. Ensure that the space(s) is removed between initials - 'XXXXXX'._
+
+**Action**:
+
+**pre-given-names-test-16**
+
+**Warning**: _given-names contains brackets - 'XXXXXX'. This will be flagged by Crossref (although will not actually cause any significant problems). Please add the following author query: Please confirm whether you are happy to remove the brackets around (one of) your given names - 'XXXXXX'. This will cause minor issues at Crossref, although they can be retained if desired._
+
+**Action**:
+
+**final-given-names-test-16**
+
+**Warning**: _given-names contains brackets - 'XXXXXX'. This will be flagged by Crossref (although will not actually cause any significant problems)._
+
+**Action**:
+
+**suffix-assert**
+
+**Error**: _suffix can only have one of these values - 'Jr', 'Jnr', 'Sr', 'Snr', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'._
+
+**Action**:
+
+**suffix-child-test**
+
+**Error**: _suffix cannot have any child elements - XXXXXX_
+
+**Action**:
+
+**disallowed-child-assert**
+
+**Error**: _XXXXXX is not allowed as a child of name._
+
+**Action**:
+
+**contrib-test-1**
+
+**Error**: _Authors should have at least 1 link to an affiliation. XXXXXX does not._
+
+**Action**:
+
+**contrib-test-5**
+
+**Warning**: _Group author members should very likely have an affiliation. XXXXXX does not. Is this OK?_
+
+**Action**:
+
+**contrib-test-2**
+
+**Warning**: _The XXXXXX doesn't have an affiliation - XXXXXX - is this correct?_
+
+**Action**:
+
+**contrib-test-4**
+
+**Error**: _The XXXXXX (XXXXXX) must have an affiliation. Exeter: If it is not present in the eJP ouput, please check with eLife production. Production: Please check eJP or ask Editorial for the correct affiliation. - is this correct?_
+
+**Action**:
+
+**contrib-test-3**
+
+**Error**: _author contains both a child name and a child collab. This is not correct._
+
+**Action**:
+
+**name-test**
+
+**Error**: _Contrib contains no collab but has XXXXXX name(s). This is not correct._
+
+**Action**:
+
+**contrib-email-1**
+
+**Error**: _Corresponding authors must have an email._
+
+**Action**:
+
+**contrib-email-2**
+
+**Error**: _Non-corresponding authors must not have an email._
+
+**pre-auth-aff-test-1**
+
+**Warning**: _Author affiliations must have a country. This one does not - XXXXXX. Please query with the authors._
+
+**Action**:
+
+**final-auth-aff-test-1**
+
+**Error**: _Author affiliations must have a country. This one does not - XXXXXX._
+
+**Action**:
+
+**pre-auth-aff-test-2**
+
+**Warning**: _Author affiliations must have a city. This one does not - XXXXXX. Please query the authors._
+
+**Action**:
+
+**final-auth-aff-test-2**
+
+**Error**: _Author affiliations must have a city. This one does not - XXXXXX_
+
+**Action**:
+
+**pre-auth-aff-test-3**
+
+**Warning**: _Author affiliations must have a top level institution. This one (with the id XXXXXX) does not - XXXXXX. Please query the authors._
+
+**Action**:
+
+**final-auth-aff-test-3**
+
+**Error**: _Author affiliations must have a top level institution. This one (with the id XXXXXX) does not - XXXXXX_
+
+**Action**:
+
+**gen-aff-test-1**
+
+**Error**: _Affiliations cannot have more than 1 top level institutions. XXXXXX has XXXXXX._
+
+**Action**:
+
+**gen-aff-test-2**
+
+**Warning**: _Affiliation has XXXXXX department field(s) - XXXXXX. Is this correct?_
+
+**Action**:
+
+**gen-aff-test-3**
+
+**Error**: _Affiliations cannot have more than 1 label. XXXXXX has XXXXXX._
+
+**Action**:
+
+**gen-aff-test-4**
+
+**Error**: _Affiliations cannot have more than 1 addr-line elements. XXXXXX has XXXXXX._
+
+**Action**:
+
+**gen-aff-test-5**
+
+**Error**: _Affiliations cannot have more than 1 country elements. XXXXXX has XXXXXX._
+
+**Action**:
+
+**gen-aff-test-6**
+
+**Error**: _aff elements cannot contain text. They can only contain elements (label, institution, addr-line, country). This one (XXXXXX) contains the text 'XXXXXX'_
+
+**Action**:
+
+**aff-child-conformity**
+
+**Error**: _XXXXXX is not allowed as a child of ._
+
+**Action**:
+
+**addr-line-parent**
+
+**Error**: _XXXXXX is not allowed as a child of ._
+
+**Action**:
+
+**addr-line-child-1**
+
+**Error**: _XXXXXX is not allowed as a child of ._
+
+**Action**:
+
+**addr-line-child-2**
+
+**Error**: _XXXXXX in must have the attribute content-type="city". XXXXXX does not._
+
+**aff-label-conformance-1**
+
+**Error**: _Duplicated affiliation labels - XXXXXX is present more than once._
+
+**corr-aff-presence**
+
+**Error**: _Correction notices should not contain affiliations._
+
+**Action**:
+
+#### **retr-aff-presence**
+
+**Error**: _XXXXXX notices should not contain affiliations._
+
+**Action**:
+
+**gen-country-test**
+
+**Error**: _affiliation contains a country which is not in the allowed list - XXXXXX. For a list of allowed countries, refer to https://github.com/elifesciences/eLife-JATS-schematron/blob/master/src/countries.xml._
+
+**Action**:
+
+**singapore-test-1**
+
+**Error**: _XXXXXX has 'Singapore' as its country but 'XXXXXX' as its city, which must be incorrect._
+
+**Action**:
+
+**taiwan-test**
+
+**Warning**: _Affiliation has a Taiwanese city - XXXXXX - but its country is 'XXXXXX'. Please check the original manuscript. If it has 'Taiwan' as the country in the original manuscript then ensure it is changed to 'Taiwan'._
+
+**Action**:
+
+**s-korea-test**
+
+**Warning**: _Affiliation has a South Korean city - XXXXXX - but its country is 'XXXXXX', instead of 'Republic of Korea'._
+
+**Action**:
+
+**n-korea-test**
+
+**Warning**: _Affiliation has 'XXXXXX' as its country which is very likely to be incorrect._
+
+**Action**:
+
+**pre-US-states-test**
+
+**Warning**: _city contains a US state (or an abbreviation for it) - XXXXXX. Please raise with eLife production staff._
+
+**Action**:
+
+**final-US-states-test**
+
+**Error**: _city contains a US state (or an abbreviation for it) - XXXXXX._
+
+**Action**:
+
+**singapore-test-2**
+
+**Error**: _XXXXXX has 'Singapore' as its city but 'XXXXXX' as its country, which must be incorrect._
+
+**Action**:
+
+**city-replacement-character-presence**
+
+**Error**: _XXXXXX element contains the replacement character '�' which is unallowed._
+
+**Action**:
+
+**city-number-presence**
+
+**Warning**: _city contains a number, which is almost certainly incorrect - XXXXXX._
+
+**Action**:
+
+**city-street-presence**
+
+**Warning**: _city likely contains a street or building name, which is almost certainly incorrect - XXXXXX._
+
+**Action**:
+
+**UC-no-test1**
+
+**Error**: _XXXXXX is not allowed as insitution name, since this is always followed by city name. This should very likely be XXXXXX (provided there is a city tagged)._
+
+**Action**:
+
+**UC-no-test-2**
+
+**Warning**: _XXXXXX has 'XXXXXX' as its campus name in the institution field, but 'XXXXXX' is the city. Which is correct? Should it end with 'XXXXXX' instead?_
+
+**Action**:
+
+**UC-no-test-3**
+
+**Warning**: _XXXXXX has 'XXXXXX' as its campus name in the institution field, but 'XXXXXX' is the city. Should the institution end with 'University of California, San Diego' instead?_
+
+**Action**:
+
+**institution-replacement-character-presence**
+
+**Error**: _XXXXXX element contains the replacement character '�' which is unallowed._
+
+**Action**:
+
+**institution-street-presence**
+
+**Warning**: _institution likely contains a street or building name, which is likely to be incorrect - XXXXXX._
+
+**Action**:
+
+**dept-replacement-character-presence**
+
+**Error**: _XXXXXX element contains the replacement character '�' which is unallowed._
+
+**Action**:
+
+**medicine-abstract-conformance**
 
 **Warning**: _Medicine articles with a colon in their title should likely have a structured abstract. If there is no note in eJP about this, either the colon in the title is incorrect, or the abstract should be changed to a structured format._
 
@@ -179,31 +638,31 @@ These checks relate to the content of \[insert name of page]. X or XXXXXX refers
 
 **Action**:
 
-**non-ro-kwd-presence-test**
+#### **non-ro-kwd-presence-test**
 
 **Warning**: _kwd-group must contain at least one kwd_
 
 **Action**:
 
-**kwd-group-title**
+#### **kwd-group-title**
 
 **Error**: _kwd-group title is XXXXXX, which is wrong. It should be 'Research organism'._
 
 **Action**:
 
-**ro-kwd-presence-test**
+#### **ro-kwd-presence-test**
 
 **Warning**: _kwd-group must contain at least one kwd_
 
 **Action**:
 
-**kwd-upper-case**
+#### **kwd-upper-case**
 
 **Error**: _research-organism kwd elements should start with an upper-case letter._
 
 **Action**:
 
-**kwd-child-test**
+#### **kwd-child-test**
 
 **Error**: _research-organism keywords cannot have child elements such as XXXXXX._
 
@@ -211,7 +670,41 @@ These checks relate to the content of \[insert name of page]. X or XXXXXX refers
 
 These checks relate to the XML structure of \[insert name of page]. ‌X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see below (include link to XML structure).
 
-#### **covid-processing-instruction**
+#### **auth-kwd-check-2**
+
+**Warning**: _Keyword contains what looks like a broken unicode - XXXXXX._
+
+**Action**:
+
+**auth-kwd-check-3**
+
+**Error**: _Keyword contains markup captured as text - XXXXXX. Please remove it and ensure that it is marked up properly (if necessary)._
+
+**Action**:
+
+#### **auth-kwd-check-4**
+
+**Warning**: _Keyword contains brackets - XXXXXX. These should either simply be removed, or added as two keywords (with the brackets still removed)._
+
+**Action**:
+
+#### **auth-kwd-check-5**
+
+**Warning**: _Keyword contains 'and' - XXXXXX. These should be split out into two keywords._
+
+**Action**:
+
+#### **auth-kwd-check-6**
+
+**Warning**: _Keyword contains more than 4 words - XXXXXX. Should these be split out into separate keywords?_
+
+**Action**:
+
+#### **auth-kwd-check-7**
+
+**Warning**: _Keyword contains an organism name which is not in italics - XXXXXX. Please italicise the organism name in the keyword._
+
+**Action**:**covid-processing-instruction**
 
 **Warning**: _The article title (XXXXXX) suggests that this article should probably have the covid processing instruction - '_\<?covid-19-tdm?>_' - but it does not. Should it?_
 
@@ -245,28 +738,169 @@ These checks relate to the XML structure of \[insert name of page]. ‌X or XXXX
 
 ****
 
+**disp-subj-test**
+
+**Error**: _There must be one subj-group\[@subj-group-type='display-channel'] which is a child of article-categories. Currently there are XXXXXX._
+
+**Action**:
+
+**disp-subj-test2**
+
+**Error**: _subj-group\[@subj-group-type='display-channel'] must contain only one subject. Currently there are XXXXXX._
+
+**Action**:
+
+**head-subj-test1**
+
+**Error**: _article-categories must contain 0-2 subj-group\[@subj-group-type='heading'] elements. Currently there are XXXXXX._
+
+**Action**:
+
+**head-subj-test2**
+
+**Error**: _article-categories must contain one and or two subj-group\[@subj-group-type='heading'] elements. Currently there are 0._
+
+**Action**:
+
+**head-subj-test3**
+
+**Warning**: _article-categories does not contain a subj-group\[@subj-group-type='heading']. Is this correct?_
+
+**Action**:
+
+**head-subj-distinct-test**
+
+**Error**: _Where there are two headings, the content of one must not match the content of the other (each heading should be unique)_
+
+**Action**:
+
+**disp-subj-value-test-1**
+
+**Error**: _Content of the display channel should be one of the following: Research Article, Short Report, Tools and Resources, Research Advance, Registered Report, Replication Study, Research Communication, Feature Article, Insight, Editorial, Correction, Retraction . Currently it is XXXXXX._
+
+**Action**:
+
+**disp-subj-value-test-2**
+
+**Error**: _Article is an @article-type="XXXXXX" but the display channel is XXXXXX. It should be one of 'Research Article', 'Short Report', 'Tools and Resources', 'Research Advance', 'Registered Report', 'Replication Study', 'Research Communication', or 'Scientific Correspondence' according to the article-type._
+
+**Action**:
+
+**disp-subj-value-test-3**
+
+**Error**: _Article is an @article-type="XXXXXX" but the display channel is XXXXXX. It should be 'Insight' according to the article-type._
+
+**Action**:
+
+**disp-subj-value-test-4**
+
+**Error**: _Article is an @article-type="XXXXXX" but the display channel is XXXXXX. It should be 'Editorial' according to the article-type._
+
+**Action**:
+
+**disp-subj-value-test-5**
+
+**Error**: _Article is an @article-type="XXXXXX" but the display channel is XXXXXX. It should be 'Correction' according to the article-type._
+
+**Action**:
+
+**disp-subj-value-test-6**
+
+**Error**: _Article is an @article-type="XXXXXX" but the display channel is XXXXXX. It should be 'Feature Article' according to the article-type._
+
+**Action**:
+
+**disp-subj-value-test-7**
+
+**Error**: _Article is an @article-type="XXXXXX" but the display channel is XXXXXX. It should be 'Review Article' according to the article-type._
+
+**Action**:
+
+**disp-subj-value-test-8**
+
+**Error**: _Article is an @article-type="XXXXXX" but the display channel is XXXXXX. It should be 'Retraction' according to the article-type._
+
+**Action**:
+
+**disp-subj-value-test-9**
+
+**Error**: _Article is an @article-type="XXXXXX" but the display channel is XXXXXX. It should be 'Expression of Concern' according to the article-type._
+
+**Action**:
+
+**head-subj-MSA-test**
+
+**Error**: _Content of the heading must match one of the MSAs._
+
+**Action**:
+
+**head-subj-test-1**
+
+**Error**: _Each subj-group\[@subj-group-type='heading'] must contain one and only one subject. This one contains XXXXXX._
+
+**Action**:
+
+**head-subj-test2**
+
+**Error**: _article-categories must contain one and or two subj-group\[@subj-group-type='heading'] elements. Currently there are 0._
+
+**Action**:
+
+**head-subj-test3**
+
+**Warning**: _article-categories does not contain a subj-group\[@subj-group-type='heading']. Is this correct?_
+
+**Action**:
+
+**head-subj-distinct-test**
+
+**Error**: _Where there are two headings, the content of one must not match the content of the other (each heading should be unique)_
+
+**Action**:
+
+****
+
+**pre-sec-test-2**
+
+**Warning**: _sec appears to contain no content. This cannot be correct. If the heading is correct and the content is missing, please ensure to query the authors asking for them to update accordingly._
+
+**Action**:
+
+**final-sec-test-2**
+
+**Error**: _sec appears to contain no content. This cannot be correct._
+
+**Action**:
+
+**sec-test-5**
+
+**Error**: _Level XXXXXX sections are not allowed. Please either make this a level 5 heading, or capture the title as a bolded paragraph in its parent section._
+
+**Action**:
+
+**sec-test-3**
+
+**Warning**: _Section has a title 'XXXXXX'. Is it a duplicate of the data availability section (and therefore should be removed)?_
+
+**Action**:
+
+**sec-test-4**
+
+**Warning**: _Section has a title 'XXXXXX'. Is it a duplicate of, or very similar to, the ethics statement (in the article details page)? If so, it should be removed. If not, then which statement is correct? The one in this section or 'XXXXXX'?_
+
+**Action**:
+
+**section-title-test-1**
+
+**Warning**: _XXXXXX text begins a paragraph - XXXXXX - Should it be marked up as a section title (Heading level XXXXXX)?_
+
+**Action**:
+
 XML structure
 
 ```
 Include an example of the xml with variations if appropriate. 
 ```
 
-## Further reading
-
-Where applicable, give links to related pages and external sites.
-
 ## Changelog
 
-After Exeter has fed back on the page and it has been updated, any further changes to the page should be listed in order from oldest to most recent. Ensure the date heading is entered as a level 2 heading and the changes heading is entered as a level 3 heading.
-
-### dd/mm/yyyy
-
-#### Changes
-
-*
-
-### dd/mm/yyyy
-
-#### Changes
-
-*
