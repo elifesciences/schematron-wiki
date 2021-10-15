@@ -27,7 +27,6 @@ eLife permits references to the following kinds of publication, for which type-s
 * ****[**Data**](data-references.md)****
 * ****[**Journal articles**](journal-references.md)****
 * **Patents**
-* **Periodicals**
 * ****[**Preprints**](preprint-references.md)****
 * ****[**Reports**](report-references.md)****
 * ****[**Software**](software-references.md)****
@@ -198,12 +197,6 @@ In cases where it is not possible to determine a valid year, the authors should 
 
 **Action**: This error will fire if a reference contains the replacement character '�', which indicates a broken character. This must be changed to a valid character. Look up the reference details online or in the authors' original submission to determine what text should replace �.
 
-#### pub-name-newspaper
-
-**Warning**: _XXXXXX contains the text 'guardian', 'independent', 'times' or 'post' - XXXXXX - is it a newspaper reference? If so, it should be captured as a web or a periodical reference._
-
-**Action**: This warning indicates a publisher name field in a reference may contain the name of a newspaper such as The Times, The Washington Post, The Guardian, The Independent, etc. If this is the case, the reference type may need to be changed to a web or periodical (this warning will only fire on references containing a publisher name e.g. books, theses, or reports). If a URL is provided, a web reference would be most appropriate; if not, periodical would be suitable. It may be necessary to ask the author to provide the accessed date or full date of publication if this is not already given.
-
 #### author-test-1
 
 **Warning**: _name in ref 'XXXXXX' contains the text 'Author'. Is this correct?_
@@ -316,7 +309,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Warning**: _'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the year of publication._
 
-**Action**: This warning will fire, at the pre-author stage if a non-periodical reference does not contain a year. This is incorrect as every reference must include a date. Check that the reference details have been correctly processed from the submitted article file and if no date was provided, please query the authors:
+**Action**: This warning will fire, at the pre-author stage if a reference does not contain a year. This is incorrect as every reference must include a date. Check that the reference details have been correctly processed from the submitted article file and if no date was provided, please query the authors:
 
 * Please provide the year for this reference.
 
@@ -324,21 +317,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 **Error**: _'XXXXXX' type references must have a year. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the year of publication._
 
-**Action**: This error will fire at the post-author stage if a non-periodical reference does not contain a year. This is incorrect as every reference must include a date. Check that the reference details have been correctly processed from the submitted article file and whether the author was queried about this during proofing. If no date was provided, the Production team will need to follow up with the authors to determine the correct date.
-
-#### pre-element-cite-string-date
-
-**Warning**: '_XXXXXX' type references must have a string-date. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to add an author query asking for the date of publication._
-
-**Action**: This warning indicates at the pre-author stage that a periodical reference is missing a publication date (this will fire on periodical references which use the `<string-date>` element in place of `<year>`). Check that the reference details have been correctly processed from the provided article file and if no date (day, month, year) was provided, please query the authors:
-
-* Please provide the publication date for this reference (day, month, year).
-
-#### final-element-cite-string-date
-
-**Error**: _'XXXXXX' type references must have a string-date. Reference 'XXXXXX' does not. If you are unable to determine this, please ensure to query the authors for the date of publication._
-
-**Action**: This error indicates at the post-author stage that a periodical reference is missing a publication date (this will fire on periodical references which use the `<string-date>` element in place of `<year>`). Check that the reference details have been correctly processed from the provided article file and whether the author was queried about this during proofing. If no date (day, month, year) was provided, the Production team will need to follow up with the authors to determine the correct date.
+**Action**: This error will fire at the post-author stage if a reference does not contain a year. This is incorrect as every reference must include a date. Check that the reference details have been correctly processed from the submitted article file and whether the author was queried about this during proofing. If no date was provided, the Production team will need to follow up with the authors to determine the correct date.
 
 #### link-href-conformance
 
@@ -1094,7 +1073,7 @@ Since these IDs are automatically generated by the system, this error will likel
 
 #### err-elem-cit-high-6-2
 
-**Error**: _element-citation must have a publication-type attribute with one of these values: 'journal', 'book', 'data', 'patent', 'software', 'preprint', 'web', 'periodical', 'report', 'confproc', or 'thesis'. Reference 'XXXXXX' has 'XXXXXX'._
+**Error**: _element-citation must have a publication-type attribute with one of these values: 'journal', 'book', 'data', 'patent', 'software', 'preprint', 'web', 'report', 'confproc', or 'thesis'. Reference 'XXXXXX' has 'XXXXXX'._
 
 **Action**: This error will fire if the `publication-type` attribute on an `<element-citation>` element is not does not one of the allowed values. The reference should be edited to ensure that it is set to one of the allowed reference types. If this does not resolve the problem, the content processors will need to send the article to the support team. 
 
