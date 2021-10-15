@@ -47,17 +47,13 @@ Nothing needs to be specifically checked by production staff, but the below is t
 
 See [Abstracts, digest and impact statements](../article-details/content/article-structure/abstract-digest-impact-statement.md).
 
-#### Author keywords
+#### Author keywords and research organisms
 
-* Sentence case, with the exception of proper nouns
-* Whole phrases should be avoided
-* Corrections, Retractions (and Expressions of Concern)** **do not have author keywords
-
-**Research organsim**
-
-
+See [Keywords and research organisms](../article-details/content/keywords.md).
 
 #### Major subject areas
+
+
 
 #### Headings
 
@@ -79,6 +75,18 @@ See [Abstracts, digest and impact statements](../article-details/content/article
 
 1. Genus and species shuold be italicised. Capital with full stop, italics, e.g. E. coli. Genus should be provided on first use in main text and thereafter abbreviated to first letter and full stop. If only Genus is provided, still use italics \[this is applicable for Table and Figure captions). If both genus and species are given, use only abbreviated genus names with species in tables and figures (exceptions: For S. Typhi, S. Typhimurium, Drosophila, and Arabidopsis add an author query as to whether some or all instances should be Roman or italicised, but we should not autocorrect to italic (since on some occasions the change will be wrong - genus or species).
 2. Do not italicise latin terms (eg in vitro, in vivo)
+
+* Language - follow the author, as long as consistent. \[In an article, if the author used US spelling in majority through out the article, but for one of the word if he has used UK spelling in majority, please change the UK spelling to US spelling for that particular word, as the whole article consistency is US.]
+* Quotation marks - single for emphasis, double for direct quote
+* Abbreviations - Lower case with full stops, (e.g., i.e.). Exception: etc (e.g., i.e. and etc only allowed in parentheses; in main text must spell out (for example, that is, and so on)) Do not automatically change that is to i.e. in parentheses during preediting. Change italic (e.g., i.e.,) to roman. Define, with abbreviation in brackets. Redefine if abbreviation used in abstract, figure, tables, etc (ie anything with it's own DOI)
+
+1. First use Define, with abbreviation in brackets. Redefine if abbreviation used in abstract, figure, tables, etc (ie anything with it’s own DOI) In Headings Allowed At the beginning of sentence Allowed In Figures Allowed. Define in legend. Redefine previously used abbreviations in legends. e.g., i.e. and etc allowed in abbreviated form in legends In Table Allowed but define in footnotes Commonly used abbreviations No defined list, but standard STM abbreviations allowed with no definition Latin abbreviations Lower case with full stops, (e.g., i.e.). Exception: etc (e.g., i.e. and etc only allowed in parentheses; in main text must spell out (for example, that is, and so on)). Do not automatically change that is to i.e. in parentheses during preediting Chemical compounds As author provides Concentrations As author provides Organization Names Follow author
+2.
+
+*
+* Parentheses - round with square if within the round brackets (\[])
+* Time and date - UK version 19 August 1995; US version August 19, 1995. To be used according to style of article – US or UK English. Not '97
+*
 
 
 
@@ -622,101 +630,7 @@ These checks relate to the content of \[insert name of page]. X or XXXXXX refers
 
 **Action**: If a medicine article has a colon in the abstract this is an indicator that it should have a structured abstract. Either a colon
 
-#### **test-auth-kwd-group-presence-1**
-
-**Error**: _One author keyword group must be present in article-meta._
-
-**Action**: If author keywords are missing this indicates they have not been transferred from EJP correctly. Check the submission on EJP and add from there. If there are none in EJP ask the author to provide 3-6 keywords.
-
-#### **test-auth-kwd-group-presence-2**
-
-**Error**: _XXXXXX articles must not have any author keywords_
-
-**Action**: Corrections, Retractions (and Expressions of Concern)** **do not have author keywords. Please remove if present for these article types.
-
-#### **test-ro-kwd-group-presence-1**
-
-**Error**: _More than 1 Research organism keyword group is present in article-meta. This is incorrect._
-
-**Action**: Articles are only allowed to contain one research organism. If there is more than one either remove one that is obviously incorrect or ask the author which should be removed. 
-
-#### **test-ro-kwd-group-presence-2**
-
-**Warning**: _XXXXXX does not contain a Research Organism keyword group. Is this correct?_
-
-**Action**: If an author has indicated there is no research organism, this should be 'none', not absent.
-
-#### **kwd-group-type**
-
-**Error**: _kwd-group must have a @kwd-group-type 'research-organism', or 'author-keywords'._
-
-**Action**:
-
-#### **non-ro-kwd-presence-test**
-
-**Warning**: _kwd-group must contain at least one kwd_
-
-**Action**:
-
-#### **kwd-group-title**
-
-**Error**: _kwd-group title is XXXXXX, which is wrong. It should be 'Research organism'._
-
-**Action**:
-
-#### **ro-kwd-presence-test**
-
-**Warning**: _kwd-group must contain at least one kwd_
-
-**Action**:
-
-#### **kwd-upper-case**
-
-**Error**: _research-organism kwd elements should start with an upper-case letter._
-
-**Action**:
-
-#### **kwd-child-test**
-
-**Error**: _research-organism keywords cannot have child elements such as XXXXXX._
-
-**Action**:XML structure checks
-
-These checks relate to the XML structure of \[insert name of page]. ‌X or XXXXXX refers to quoted text which will change depending on the article. For more information about what the XML should look like, see below (include link to XML structure).
-
-#### **auth-kwd-check-2**
-
-**Warning**: _Keyword contains what looks like a broken unicode - XXXXXX._
-
-**Action**:
-
-**auth-kwd-check-3**
-
-**Error**: _Keyword contains markup captured as text - XXXXXX. Please remove it and ensure that it is marked up properly (if necessary)._
-
-**Action**:
-
-#### **auth-kwd-check-4**
-
-**Warning**: _Keyword contains brackets - XXXXXX. These should either simply be removed, or added as two keywords (with the brackets still removed)._
-
-**Action**:
-
-#### **auth-kwd-check-5**
-
-**Warning**: _Keyword contains 'and' - XXXXXX. These should be split out into two keywords._
-
-**Action**:
-
-#### **auth-kwd-check-6**
-
-**Warning**: _Keyword contains more than 4 words - XXXXXX. Should these be split out into separate keywords?_
-
-**Action**:
-
-#### **auth-kwd-check-7**
-
-**Warning**: _Keyword contains an organism name which is not in italics - XXXXXX. Please italicise the organism name in the keyword._
+#### ****
 
 **Action**:**covid-processing-instruction**
 
