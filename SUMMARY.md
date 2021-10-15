@@ -43,7 +43,6 @@
     * [Report references](article-details/content/references/report-references.md)
     * [Software references](article-details/content/references/software-references.md)
     * [Thesis references](article-details/content/references/thesis-references.md)
-    * [Periodical references](article-details/content/references/periodical-references.md)
 * [People](article-details/people/README.md)
   * [Deceased status](article-details/people/deceased-status.md)
 * [Peer review](article-details/peer-review.md)
