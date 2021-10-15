@@ -6,7 +6,7 @@ description: This is a page about entries for reports in the reference list.
 
 ## What is a report reference?
 
-A report reference provides the bibliographic details for a report in the reference list. A report is any document produced by an organisation that is issued on its own rather than in a journal or as a book. It covers things like white papers and instructions from manufacturers.
+A report reference provides the bibliographic details for a report in the reference list. A report is any document produced by an organisation that is issued on its own rather than in a journal or as a book. It covers things like annual reports, equipment specifications, manufacturer instructions, white papers, and so on.
 
 ##
 
@@ -51,6 +51,14 @@ If a DOI is present, use this option. However, because reports are not standard 
 
 ## Schematron checks
 
+### **Content checks **
+
+**warning-elem-cit-report-11-3**
+
+**Warning**: _\[warning-elem-cit-report-11-3] The content of \<publisher-name> may not end with a publisher location. Reference 'XXXXXX' contains the string XXXXXX, which ends with a publisher location._
+
+**Action**: This error will appear if a report reference has a publisher name that appears to have a geographical location at the end of it. If the location has accidentally been tagged as part of the publisher name retag this information as \<publisher-loc> (Publisher place). However, some publisher names include a location so do not update these, for example, Royal College of Physicians of London or University of Cambridge.
+
 ### **XML structure checks**
 
 These checks relate to the XML structure of report references. X or XXXXXX refers to quoted text which will change depending on the article. For examples of what the XML should look like, [**see below**](report-references.md#xml-examples).
@@ -73,11 +81,7 @@ These checks relate to the XML structure of report references. X or XXXXXX refer
 
 **Action**: This error will appear if a report reference has more than one or no publisher name. Check that the publisher name has not been accidentally captured as a title, source or author. A publisher name is required for report references so if it is missing raise an author query on the proof for the missing information.
 
-**warning-elem-cit-report-11-3**
-
-**Warning**: _\[warning-elem-cit-report-11-3] The content of \<publisher-name> may not end with a publisher location. Reference 'XXXXXX' contains the string XXXXXX, which ends with a publisher location._
-
-**Action**: This error will appear if a report reference has a publisher name that appears to have a geographical location at the end of it. If the location has accidentally been tagged as part of the publisher name retag this information as \<publisher-loc> (Publisher place). However, some publisher names include a location so do not update these, for example, Royal College of Physicians of London or University of Cambridge.
+****
 
 **err-elem-cit-report-15**
 
