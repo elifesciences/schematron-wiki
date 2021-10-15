@@ -20,31 +20,27 @@ PoA articles are exported from the submission system, processed, and delivered t
 
 | Time                       | Event                                                                                                                                                    |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 10 minutes past each hour  | Article files (PDF, supplementary materials) and metadata are exported from the submission system                                                        |
+| 10 minutes past each hour  | Article files (PDF, supplementary materials) and metadata are exported from the submission system.                                                       |
 | 20 minutes past each hour  | Processing of the PoA articles begins. This is carried out by the 'eLife bot', an automated process hosted on eLife's Amazon Web Service (AWS) instance. |
 | 10:00, 12:00, 14:00, 16:00 | Processed article packages are delivered to the publication platform, Continuum.                                                                         |
 
-Files can be edited in the bucket elife-poa-packaging until delivery to Continuum is completed.
+Files can be edited in the bucket elife-poa-packaging until delivery to Continuum commences. This means that articles exported at \~10:10, which will appear in the bucket at \~10:20, have a window of 1 hour, 40 minutes in which they can be updated post-export, while articles exported at \~11:10 will only have a 40 minute window for editing.
+
+Email notifications are sent for the following events:
+
+|       |              |
+| ----- | ------------ |
+| Event | Email header |
+|       |              |
+|       |              |
 
 
 
 
 
-It is vital that checks on new PoA content are completed and the articles sent for publication **BEFORE 11:00AM UK TIME** each day. The submission system runs on an hourly export cycle at nine minutes past the hour and the eLife PoA processing runs daily at 11:30M, so any PoA content not sent out by 11:09AM will not be processed.
 
-PoA content can be sent at any time before 11:00AM and will appear in that day’s delivery to the Continuum publishing platform. Any content sent after 11:09AM will not appear on Continuum until the following day.
 
-|                                                          |                                                                                                                                                                                                                                                                                                                                                              |
-| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <p><strong>11:00</strong></p><p><strong>BST</strong></p> | Deadline for PoA approval on EJP. All PoA articles must be exported by this point. Any metadata updated in eJP after this point will not be up to date in the files used to generate the content for the website. Any manuscripts that miss this deadline should not be approved until after 12.30, so they will be picked up for the following day’s batch. |
-| **11:09 BST**                                            | eJP exports new CSV files built from SQL queries hourly into the AWS folder “elife-ejp-ftp”. CSV files are created from the PoA SQL queries, which extract metadata from eJP database (author/manuscript info, abstract, title, ethics statement, license info etc, ie the information input into the submission screens).                                   |
-| **11:09 BST**                                            | eJP automatically transfers files approved for PoA to the AWS bucket “elife-ejp-poa-delivery” as zipped packages.                                                                                                                                                                                                                                            |
-| **11:30 BST**                                            | eLife bot discovers the new files in “elife-ejp-poa-delivery”.                                                                                                                                                                                                                                                                                               |
-| **11:45 BST**                                            | New files are processed by the PoA Packaging system and the results sent to the outbox in “elife-poa-packaging”.                                                                                                                                                                                                                                             |
-| **11:50 BST**                                            | Email notifications for workflow success/failures are sent to the Production account, copied to Editorial Office.                                                                                                                                                                                                                                            |
-| **12:30 BST**                                            | PoA files are packaged and moved to the Continuum delivery bucket. Prior to this point, any of the files in the outbox are available to be replaced or deleted. As part of packaging the files for delivery to Continuum, the current date will be added to the XML as the published date UNLESS a published date already exists in the XML.                 |
-| **12:35 BST**                                            | Email notification of completed and delivered PublishPoA workflows sent.                                                                                                                                                                                                                                                                                     |
-| **13:00 BST**                                            | PoA content should ideally be published by this point, via the dashboard on Continuum.                                                                                                                                                                                                                                                                       |
+
 
 **Accessing ‘PoA = yes’ articles in the submission system**![](<../.gitbook/assets/0 (2).png>)
 
