@@ -66,6 +66,20 @@ See [Abstracts, digest and impact statements](../article-details/content/article
 
 #### General content
 
+* Hyphenation - rule is to leave as author provided as long as it's consistent within an article
+* Dashes - use for compound words, eg user-friendly, six-year-old
+* en-rules - use for words that carry equal weight (e.g. Mann–Whitney), relationship, and interactions (e.g. Plant–host interactions); ranges (e.g. 5–6); new clause in a sentence (space either side of the en-rule)
+* Footnote designators - \*,†, ‡, §,#, ¶,\*\*,††, ‡‡,§§,##,¶¶ Order: Designated footnotes, p value footnotes (\*p<0.05; \*\*p<0.01; \*\*\*p<0.001), undesignated footnotes and abbreviations last. All abbreviations used in tables must be defined in footnotes (unless on list of not required definition).
+* Sereal commas (Oxford comma), follow the author as long as it's consistent
+* Capitalisation
+*
+  1. After a colon - not allowed (exceptions listed above for titles)
+  2. Do not capitalise w in Western blot, but do for Southern blot
+*  Italicisation - follow author, except
+
+1. Genus and species shuold be italicised. Capital with full stop, italics, e.g. E. coli. Genus should be provided on first use in main text and thereafter abbreviated to first letter and full stop. If only Genus is provided, still use italics \[this is applicable for Table and Figure captions). If both genus and species are given, use only abbreviated genus names with species in tables and figures (exceptions: For S. Typhi, S. Typhimurium, Drosophila, and Arabidopsis add an author query as to whether some or all instances should be Roman or italicised, but we should not autocorrect to italic (since on some occasions the change will be wrong - genus or species).
+2. Do not italicise latin terms (eg in vitro, in vivo)
+
 
 
 ## Schematron checks
@@ -896,7 +910,119 @@ These checks relate to the XML structure of \[insert name of page]. ‌X or XXXX
 
 **Action**:
 
-XML structure
+**table-fn-label-test-1**
+
+**Warning**: _Footnote starts with what might be a label which is not in line with house style - XXXXXX. If it is a label, then it should changed to one of the allowed symbols, so that the order of labels in the footnotes follows this sequence \*, †, ‡, §, ¶, \*\*, ††, ‡‡, §§, ¶¶, etc._
+
+**Action**:
+
+**pre-in-vitro-italic-test**
+
+**Error**: _XXXXXX element contains 'in vitro' - this should not be in italics (eLife house style)._
+
+**Action**:
+
+**pre-in-vivo-italic-test**
+
+**Error**: _XXXXXX element contains 'in vivo' - this should not be in italics (eLife house style)._
+
+**Action**:
+
+**pre-ex-vivo-italic-test**
+
+**Error**: _XXXXXX element contains 'ex vivo' - this should not be in italics (eLife house style)._
+
+**Action**:
+
+**pre-a-priori-italic-test**
+
+**Error**: _XXXXXX element contains 'a priori' - this should not be in italics (eLife house style)._
+
+**Action**:
+
+**pre-a-posteriori-italic-test**
+
+**Error**: _XXXXXX element contains 'a posteriori' - this should not be in italics (eLife house style)._
+
+**Action**:
+
+**pre-de-novo-italic-test**
+
+**Error**: _XXXXXX element contains 'de novo' - this should not be in italics (eLife house style)._
+
+**Action**:
+
+**pre-in-utero-italic-test**
+
+**Error**: _XXXXXX element contains 'in utero' - this should not be in italics (eLife house style)._
+
+**Action**:
+
+**pre-in-natura-italic-test**
+
+**Error**: _XXXXXX element contains 'in natura' - this should not be in italics (eLife house style)._
+
+**Action**:
+
+**pre-in-situ-italic-test**
+
+**Error**: _XXXXXX element contains 'in situ' - this should not be in italics (eLife house style)._
+
+**Action**:
+
+**pre-in-planta-italic-test**
+
+**Error**: _XXXXXX element contains 'in planta' - this should not be in italics (eLife house style)._
+
+**Action**:
+
+**pre-rete-mirabile-italic-test**
+
+**Error**: _XXXXXX element contains 'rete mirabile' - this should not be in italics (eLife house style)._
+
+**Action**:
+
+**pre-nomen-novum-italic-test**
+
+**Error**: _XXXXXX element contains 'nomen novum' - this should not be in italics (eLife house style)._
+
+**Action**:
+
+**pre-sensu-italic-test**
+
+**Error**: _XXXXXX element contains 'sensu' - this should not be in italics (eLife house style)._
+
+**Action**:
+
+**pre-ad-libitum-italic-test**
+
+**Error**: _XXXXXX element contains 'ad libitum' - this should not be in italics (eLife house style)._
+
+**Action**:
+
+**pre-in-ovo-italic-test**
+
+**Error**: _XXXXXX element contains 'In Ovo' - this should not be in italics (eLife house style)._
+
+**Action**:
+
+**latin-italic-info**
+
+**Warning**: _Latin terms are not consistenly either roman or italic. There are XXXXXX roman terms which is more common, and XXXXXX italic term(s). The following terms should be unitalicised: XXXXXX._
+
+**Action**:
+
+**latin-roman-info**
+
+**Warning**: _Latin terms are not consistenly either roman or italic. There are XXXXXX italic terms which is more common, and XXXXXX roman term(s). The following terms should be italicised: XXXXXX._
+
+**Action**:
+
+**latin-conformance-info**
+
+**Warning**: _Latin terms are not consistenly either roman or italic. There are an equal number of italic (XXXXXX) and roman (XXXXXX) terms. The following terms are italicised: XXXXXX. The following terms are unitalicised: XXXXXX._
+
+**Action**:XML structure
 
 ```
 Include an example of the xml with variations if appropriate. 
