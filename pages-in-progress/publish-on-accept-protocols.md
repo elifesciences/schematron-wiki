@@ -10,6 +10,8 @@ When authors resubmit their articles after making revisions following peer revie
 
 ![Example of a published PoA article](../.gitbook/assets/screenshot-2021-09-14-at-17.05.17.png)
 
+This will eventually be superseded by the final processed 'Version of Record' (VoR) following production and proofing of the article.
+
 A PoA article consists of a downloadable PDF containing the accepted article text and figures, a ZIP package containing any supplementary material, and a webpage showing the article title, author list, abstract, and a stripped-down selection of metadata (one affiliation per author, funding, data availability, competing interests). For the purposes of the scientific record, this counts as the official publication of the article, allowing authors to get their work out earlier than would be possible if they waited for the final typeset version. This can be particularly important where the authors anticipate related or competing works to appear imminently, or who are publishing work in a rapidly changing field.
 
 Prior to publication of an article where the authors have chosen the PoA option, a set of checks must be carried out to ensure the quality of the submitted materials and metadata are suitable for release. This page will detail those checks and provide general information on the PoA process.
@@ -33,6 +35,8 @@ The processing of PoA articles is handled automatically by the 'eLife bot'. Once
 
 
 From here, the files will be compiled further into a single ZIP package and delivered to Continuum for checking and publication.
+
+![PoA packages in the final delivery bucket; note name different from Version of Record packages](<../.gitbook/assets/Screenshot 2021-10-15 at 16.27.20 (1).png>)
 
 ## **PoA timing**
 
