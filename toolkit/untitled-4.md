@@ -168,95 +168,47 @@ These checks relate to the content of \[insert name of page]. X or XXXXXX refers
 
 **Action**: The first word after a colon in a title should start with a capital letter.
 
-#### **author-xref-test-1**
-
-**Error**: _Affiliation footnote links (xrefs) from authors must be the first type of link. For XXXXXX, their affiliation link - XXXXXX - appears after another non-affiliation link, when it should appear before it._
-
-**Action**:
-
-**author-xref-test-2**
-
-**Error**: _Equal contribution links from authors must appear after affiliation footnote links. For XXXXXX, their equal contribution link (to XXXXXX) appears after another non-affiliation link, when it should appear before it._
-
-**Action**:
-
-**author-xref-test-3**
-
-**Error**: _Present address type footnote links from authors must appear after affiliation and equal contribution links (if there is one). For XXXXXX, their present address link (to XXXXXX) appears before an affiliation link or equal contribution link._
-
-**Action**:
-
-**author-xref-test-4**
-
-**Error**: _Author footnote links to datasets are not needed. Please remove this -_
-
-**Action**:
-
-**surname-test-1**
-
-**Error**: _Each name must contain only one surname._
-
-**Action**:
-
-**given-names-test-1**
-
-**Error**: _Each name must contain only one given-names element._
-
-**Action**:
-
-**given-names-test-2**
-
-**Warning**: _This name - XXXXXX - does not contain a given-name. Please check with eLife staff that this is correct._
-
-**Action**:
-
-**surname-test-2**
-
-**Error**: _surname must not be empty._
-
-**Action**:
-
-**surname-test-3**
+#### **surname-test-3**
 
 **Error**: _surname must not contain any formatting (bold, or italic emphasis, or smallcaps, superscript or subscript)._
 
-**Action**:
+**Action**: Author names are not allowed to contain certain formatting (bold, italics, smallcaps or supe or- sub-script), which is present. Please remove this.
 
 **surname-test-4**
 
 **Error**: _surname should usually only contain letters, spaces, or hyphens. XXXXXX contains other characters._
 
-**Action**:
+**Action**: This test indicates there are characters present in the surname field that are not allowed and shuold be removed. For example, there is a full stop or a comma.
 
 **surname-test-5**
 
 **Warning**: _surname doesn't begin with a capital letter - XXXXXX. Is this correct?_
 
-**Action**:
+**Action**: Not all surnames start with a capital letter, but this test indicates a surname that does not and needs checking against the original submission to ensure this is intentional.
 
 **surname-test-6**
 
 **Error**: _surname starts with a space, which cannot be correct - 'XXXXXX'._
 
-**Action**:
+**Action**: A space as the start of the surname field is not allowed and so must be removed.
 
 **surname-test-7**
 
 **Error**: _surname ends with a space, which cannot be correct - 'XXXXXX'._
 
-**Action**:
+**Action**: A space as the end of the surname field is not allowed and so must be removed.
 
 **surname-test-8**
 
 **Warning**: _surname looks to start with initial - 'XXXXXX'. Should 'XXXXXX' be placed in the given-names field?_
 
-**Action**:
+**Action**: During conversion it is possible for middle initials to be mistagged in the surname field. If this has happened remove the initial(s) and add to the given-name field. If you are unsure ask eLife staff.
 
 **surname-test-9**
 
 **Warning**: _surname contains brackets - 'XXXXXX'. Should the brakceted text be placed in the given-names field instead?_
 
-**Action**:
+**Action**: Authors can supply During conversion it is possible for middle initials to be mistagged in the surname field. If this has happened remove the initial(s) and add to the given-name field. If you are unsure ask eLife staff.
 
 **given-names-test-3**
 
@@ -936,7 +888,57 @@ These checks relate to the content of \[insert name of page]. X or XXXXXX refers
 
 **Warning**: _Latin terms are not consistenly either roman or italic. There are an equal number of italic (XXXXXX) and roman (XXXXXX) terms. The following terms are italicised: XXXXXX. The following terms are unitalicised: XXXXXX._
 
-**Action**:XML structure
+**Action**:
+
+### XML structure
+
+#### **author-xref-test-1**
+
+**Error**: _Affiliation footnote links (xrefs) from authors must be the first type of link. For XXXXXX, their affiliation link - XXXXXX - appears after another non-affiliation link, when it should appear before it._
+
+**Action**: In the structure of the XML the first footnote link from an author must be to their affiliation. This test indicates it is another link that is first. The typesetter will need to fix this.
+
+**author-xref-test-2**
+
+**Error**: _Equal contribution links from authors must appear after affiliation footnote links. For XXXXXX, their equal contribution link (to XXXXXX) appears after another non-affiliation link, when it should appear before it._
+
+**Action**: In the structure of the XML the first footnote link from an author must be to their affiliation. This test indicates an equal contribution link is first, which is wrong. The typesetter will need to fix this.
+
+**author-xref-test-3**
+
+**Error**: _Present address type footnote links from authors must appear after affiliation and equal contribution links (if there is one). For XXXXXX, their present address link (to XXXXXX) appears before an affiliation link or equal contribution link._
+
+**Action**: In the structure of the XML there is an order for the footnote linking from an author. The first must be to their affiliation. If there are equal contributions this must be next. This test indicates a present address link proceeds an affiliation +/- equal contribution link, which is wrong. The typesetter will need to fix this.
+
+**author-xref-test-4**
+
+**Error**: _Author footnote links to datasets are not needed. Please remove this -_
+
+**Action**: eLife used to link datasets to authors if the article authors were listed as authors of a dataset. This is no longer done, so this test indicates there has been a regression in the code and this link has reappeared, which is wrong. The typesetter will need to fix this.
+
+**surname-test-1**
+
+**Error**: _Each name must contain only one surname._
+
+**Action**: This test indicates there are two \<surname> tags for a single author. This is wrong, there should only be one. Check the original content on EJP as it is likely the author name has been miss tagged somehow. Delete the content on Kriya and re-add it correctly. If this does not fix the XML  the typesetter will need to fix this.
+
+**given-names-test-1**
+
+**Error**: _Each name must contain only one given-names element._
+
+**Action**: This test indicates there are two \<given-name> tags for a single author. This is wrong, there should only be one. Check the original content on EJP as it is likely the author name has been miss tagged somehow. Delete the content on Kriya and re-add it correctly. If this does not fix the XML  the typesetter will need to fix this.
+
+**given-names-test-2**
+
+**Warning**: _This name - XXXXXX - does not contain a given-name. Please check with eLife staff that this is correct._
+
+**Action**: This test indicates there is no \<given-name> tag for a single author. This is allowed, but very rare. Check the original content on EJP and consult eLife staff if it is missing from EJP too.
+
+**surname-test-2**
+
+**Error**: _surname must not be empty._
+
+**Action**: This test indicates there is no \<surname> tag for a single author. This is not allowed. Check the original content on EJP - it is possible an author can have no \<given-name> and this has been tagged incorrectly as a \<given-name> rather than \<surname>.
 
 ```
 Include an example of the xml with variations if appropriate. 
