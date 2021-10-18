@@ -172,151 +172,133 @@ These checks relate to the content of \[insert name of page]. X or XXXXXX refers
 
 **Error**: _surname must not contain any formatting (bold, or italic emphasis, or smallcaps, superscript or subscript)._
 
-**Action**: Author names are not allowed to contain certain formatting (bold, italics, smallcaps or supe or- sub-script), which is present. Please remove this.
+**Action**: Author names are not allowed to contain certain formatting (bold, italics, smallcaps or super- or subscript), which is present. Please remove this.
 
-**surname-test-4**
+#### **surname-test-4**
 
 **Error**: _surname should usually only contain letters, spaces, or hyphens. XXXXXX contains other characters._
 
-**Action**: This test indicates there are characters present in the surname field that are not allowed and shuold be removed. For example, there is a full stop or a comma.
+**Action**: This test indicates there are characters present in the surname field that are not allowed and should be removed. For example, there is a full stop or a comma.
 
-**surname-test-5**
+#### **surname-test-5**
 
 **Warning**: _surname doesn't begin with a capital letter - XXXXXX. Is this correct?_
 
 **Action**: Not all surnames start with a capital letter, but this test indicates a surname that does not and needs checking against the original submission to ensure this is intentional.
 
-**surname-test-6**
+#### **surname-test-6**
 
 **Error**: _surname starts with a space, which cannot be correct - 'XXXXXX'._
 
 **Action**: A space as the start of the surname field is not allowed and so must be removed.
 
-**surname-test-7**
+#### **surname-test-7**
 
 **Error**: _surname ends with a space, which cannot be correct - 'XXXXXX'._
 
 **Action**: A space as the end of the surname field is not allowed and so must be removed.
 
-**surname-test-8**
+#### **surname-test-8**
 
 **Warning**: _surname looks to start with initial - 'XXXXXX'. Should 'XXXXXX' be placed in the given-names field?_
 
 **Action**: During conversion it is possible for middle initials to be mistagged in the surname field. If this has happened remove the initial(s) and add to the given-name field. If you are unsure ask eLife staff.
 
-**surname-test-9**
+#### **surname-test-9**
 
 **Warning**: _surname contains brackets - 'XXXXXX'. Should the brakceted text be placed in the given-names field instead?_
 
 **Action**: Authors can supply During conversion it is possible for middle initials to be mistagged in the surname field. If this has happened remove the initial(s) and add to the given-name field. If you are unsure ask eLife staff.
 
-**given-names-test-3**
-
-**Error**: _given-names must not be empty._
-
-**Action**:
-
-**given-names-test-4**
+#### **given-names-test-4**
 
 **Error**: _given-names must not contain any formatting (bold, or italic emphasis, or smallcaps, superscript or subscript) - 'XXXXXX'._
 
-**Action**:
+**Action**: Author given-names are not allowed to contain certain formatting (bold, italics, smallcaps or super or- subscript), which is present. Please remove this.
 
-**given-names-test-5**
+#### **given-names-test-5**
 
 **Error**: _given-names should usually only contain letters, spaces, or hyphens. XXXXXX contains other characters._
 
-**Action**:
+**Action**: This test indicates there are characters present in the given-name field that are not allowed and should be removed. For example, there is a full stop or a comma.
 
-**given-names-test-6**
+#### **given-names-test-6**
 
 **Warning**: _given-names doesn't begin with a capital letter - 'XXXXXX'. Is this correct?_
 
-**Action**:
+**Action**: Not all given-names start with a capital letter, but this test indicates a given-name that does not and needs checking against the original submission to ensure this is intentional.
 
-**given-names-test-7**
+#### **given-names-test-7**
 
 **Error**: _given-names contains initialised full stop(s) which is incorrect - XXXXXX_
 
-**Action**:
+**Action**: This test indicates the given-names could be initials only and the author has used fullstops to differentiate the letters. This is not allowed and the full stops should be removed.
 
-**given-names-test-8**
+#### **given-names-test-8**
 
 **Error**: _given-names starts with a space, which cannot be correct - 'XXXXXX'._
 
-**Action**:
+**Action**: A space at the start of the given-name field is not allowed and so must be removed.
 
-**given-names-test-9**
+#### **given-names-test-9**
 
 **Error**: _given-names ends with a space, which cannot be correct - 'XXXXXX'._
 
-**Action**:
+**Action**: A space at the end of the given-name field is not allowed and so must be removed.
 
-**given-names-test-10**
+#### **given-names-test-10**
 
 **Warning**: _given-names ends with de, der, or den - should this be captured as the beginning of the surname instead? - 'XXXXXX'._
 
-**Action**:
+**Action**: de, der and den are usually prefixes to surnames and may have been mistagged as a given-name. Check the original submission or with eLife staff as to whether this should be moved to the surname field.
 
-**given-names-test-11**
+#### **given-names-test-11**
 
 **Warning**: _given-names ends with ' van' - should this be captured as the beginning of the surname instead? - 'XXXXXX'._
 
-**Action**:
+**Action**: van is usually a prefix to a surname and may have been mistagged as a given-name. Check the original submission or with eLife staff as to whether this should be moved to the surname field.
 
-**given-names-test-12**
+#### **given-names-test-12**
 
 **Warning**: _given-names ends with ' von' - should this be captured as the beginning of the surname instead? - 'XXXXXX'._
 
-**Action**:
+**Action**: von is usually a prefix to a surname and may have been mistagged as a given-name. Check the original submission or with eLife staff as to whether this should be moved to the surname field.
 
-**given-names-test-13**
+#### **given-names-test-13**
 
 **Warning**: _given-names ends with ' el' - should this be captured as the beginning of the surname instead? - 'XXXXXX'._
 
-**Action**:
+**Action**: el is usually a prefix to a surname and may have been mistagged as a given-name. Check the original submission or with eLife staff as to whether this should be moved to the surname field.
 
-**given-names-test-14**
+#### **given-names-test-14**
 
 **Warning**: _given-names ends with te, ter, or ten - should this be captured as the beginning of the surname instead? - 'XXXXXX'._
 
-**Action**:
+**Action**: te, ter and ten are usually prefixes to surnames and may have been mistagged as a given-name. Check the original submission or with eLife staff as to whether this should be moved to the surname field.
 
-**given-names-test-15**
+#### **given-names-test-15**
 
 **Info**: _given-names contains initials with spaces. Ensure that the space(s) is removed between initials - 'XXXXXX'._
 
-**Action**:
+**Action**: This test indicates the given-names could be initials with spaces in between each initial, which is not allowed. Remove any spaces between letters that are clearly author initials.
 
-**pre-given-names-test-16**
+#### **pre-given-names-test-16**
 
 **Warning**: _given-names contains brackets - 'XXXXXX'. This will be flagged by Crossref (although will not actually cause any significant problems). Please add the following author query: Please confirm whether you are happy to remove the brackets around (one of) your given names - 'XXXXXX'. This will cause minor issues at Crossref, although they can be retained if desired._
 
-**Action**:
+**Action**: given-names contains brackets - 'XXXXXX'. This will be flagged by Crossref (although will not actually cause any significant problems). Please add the following author query: Please confirm whether you are happy to remove the brackets around (one of) your given names - 'XXXXXX'. This will cause minor issues at Crossref, although they can be retained if desired
 
-**final-given-names-test-16**
+#### **final-given-names-test-16**
 
 **Warning**: _given-names contains brackets - 'XXXXXX'. This will be flagged by Crossref (although will not actually cause any significant problems)._
 
-**Action**:
+**Action**: given-names contains brackets - 'XXXXXX'. This will be flagged by Crossref (although will not actually cause any significant problems). Check whether the following author query was added before the article went to the author. Please confirm whether you are happy to remove the brackets around (one of) your given names - 'XXXXXX'. If the author was not asked, ask the author. This will cause minor issues at Crossref, although they can be retained if desired. 
 
-**suffix-assert**
+#### **suffix-assert**
 
 **Error**: _suffix can only have one of these values - 'Jr', 'Jnr', 'Sr', 'Snr', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'._
 
-**Action**:
-
-**suffix-child-test**
-
-**Error**: _suffix cannot have any child elements - XXXXXX_
-
-**Action**:
-
-**disallowed-child-assert**
-
-**Error**: _XXXXXX is not allowed as a child of name._
-
-**Action**:
+**Action**: The list of allowed suffixes is 'Jr', 'Jnr', 'Sr', 'Snr', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'. Any other suffixes must be removed. Check what has been tagged as a suffix and either retag as appropriate or let the author know it will be removed.
 
 **contrib-test-1**
 
@@ -616,8 +598,6 @@ These checks relate to the content of \[insert name of page]. X or XXXXXX refers
 
 **Action**: If the XML contains a line break in the title this needs to be removed. You can do this by removing the space between the words in the Kriya interface and then creating a space again using the space bar.
 
-****
-
 **disp-subj-test**
 
 **Error**: _There must be one subj-group\[@subj-group-type='display-channel'] which is a child of article-categories. Currently there are XXXXXX._
@@ -898,47 +878,67 @@ These checks relate to the content of \[insert name of page]. X or XXXXXX refers
 
 **Action**: In the structure of the XML the first footnote link from an author must be to their affiliation. This test indicates it is another link that is first. The typesetter will need to fix this.
 
-**author-xref-test-2**
+#### **author-xref-test-2**
 
 **Error**: _Equal contribution links from authors must appear after affiliation footnote links. For XXXXXX, their equal contribution link (to XXXXXX) appears after another non-affiliation link, when it should appear before it._
 
 **Action**: In the structure of the XML the first footnote link from an author must be to their affiliation. This test indicates an equal contribution link is first, which is wrong. The typesetter will need to fix this.
 
-**author-xref-test-3**
+#### **author-xref-test-3**
 
 **Error**: _Present address type footnote links from authors must appear after affiliation and equal contribution links (if there is one). For XXXXXX, their present address link (to XXXXXX) appears before an affiliation link or equal contribution link._
 
 **Action**: In the structure of the XML there is an order for the footnote linking from an author. The first must be to their affiliation. If there are equal contributions this must be next. This test indicates a present address link proceeds an affiliation +/- equal contribution link, which is wrong. The typesetter will need to fix this.
 
-**author-xref-test-4**
+#### **author-xref-test-4**
 
 **Error**: _Author footnote links to datasets are not needed. Please remove this -_
 
 **Action**: eLife used to link datasets to authors if the article authors were listed as authors of a dataset. This is no longer done, so this test indicates there has been a regression in the code and this link has reappeared, which is wrong. The typesetter will need to fix this.
 
-**surname-test-1**
+#### **surname-test-1**
 
 **Error**: _Each name must contain only one surname._
 
 **Action**: This test indicates there are two \<surname> tags for a single author. This is wrong, there should only be one. Check the original content on EJP as it is likely the author name has been miss tagged somehow. Delete the content on Kriya and re-add it correctly. If this does not fix the XML  the typesetter will need to fix this.
 
-**given-names-test-1**
+#### **given-names-test-1**
 
 **Error**: _Each name must contain only one given-names element._
 
 **Action**: This test indicates there are two \<given-name> tags for a single author. This is wrong, there should only be one. Check the original content on EJP as it is likely the author name has been miss tagged somehow. Delete the content on Kriya and re-add it correctly. If this does not fix the XML  the typesetter will need to fix this.
 
-**given-names-test-2**
+#### **given-names-test-2**
 
 **Warning**: _This name - XXXXXX - does not contain a given-name. Please check with eLife staff that this is correct._
 
 **Action**: This test indicates there is no \<given-name> tag for a single author. This is allowed, but very rare. Check the original content on EJP and consult eLife staff if it is missing from EJP too.
 
-**surname-test-2**
+#### **given-names-test-3**
+
+**Error**: _given-names must not be empty._
+
+**Action**: This test indicates there is a \<given-name> tag for a single author but it is empty. This is not allowed. very rare. Check the original content on EJP and consult eLife staff if there is no given-name. If there is none, this field should be removed from the XML.
+
+#### **surname-test-2**
 
 **Error**: _surname must not be empty._
 
 **Action**: This test indicates there is no \<surname> tag for a single author. This is not allowed. Check the original content on EJP - it is possible an author can have no \<given-name> and this has been tagged incorrectly as a \<given-name> rather than \<surname>.
+
+#### **suffix-child-test**
+
+**Error**: _suffix cannot have any child elements - XXXXXX_
+
+**Action**: This test indicates something has gone wrong with the XML tagging and the suffix tag contains other tags within it, which is not allowed. The typesetter will have to fix this.
+
+#### **disallowed-child-assert**
+
+**Error**: _XXXXXX is not allowed as a child of name._
+
+**Action**: This test indicates something has gone wrong with the XML tagging and the suffix tag contains other tags within it, which is not allowed. The typesetter will have to fix this.
+
+****
 
 ```
 Include an example of the xml with variations if appropriate. 
