@@ -8,7 +8,7 @@ description: >-
 # Article content house style
 
 {% hint style="info" %}
-For changelog, click [here](untitled-4.md#changelog). 
+ For changelog, click [here](untitled-4.md#changelog). 
 {% endhint %}
 
 ## What is article content house style?
@@ -300,57 +300,59 @@ These checks relate to the content of \[insert name of page]. X or XXXXXX refers
 
 **Action**: The list of allowed suffixes is 'Jr', 'Jnr', 'Sr', 'Snr', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'. Any other suffixes must be removed. Check what has been tagged as a suffix and either retag as appropriate or let the author know it will be removed.
 
-**contrib-test-1**
+#### **contrib-test-1**
 
 **Error**: _Authors should have at least 1 link to an affiliation. XXXXXX does not._
 
-**Action**:
+**Action**: This test indicates there is an author that does not have a linked affiliation in the XML. This is either an error between the interface and the XML, which will require the typesetter to fix, or an author does not have an affiliation associated with them. If it is the latter, check the submission on EJP and add the affiliation via the interface.
 
-**contrib-test-5**
+#### **contrib-test-5**
 
 **Warning**: _Group author members should very likely have an affiliation. XXXXXX does not. Is this OK?_
 
-**Action**:
+**Action**: It is not required for a group author to have an affiliation, but this test indicates there is not one. Check the original submission to ensure this has not dropped off during processing.
 
-**contrib-test-2**
+#### **contrib-test-2**
 
 **Warning**: _The XXXXXX doesn't have an affiliation - XXXXXX - is this correct?_
 
-**Action**:
+**Action**: This indicates an author or group author does not have an affiliation. Check the original submission to ensure this has not dropped off during processing.
 
-**contrib-test-4**
+#### **contrib-test-4**
 
 **Error**: _The XXXXXX (XXXXXX) must have an affiliation. Exeter: If it is not present in the eJP ouput, please check with eLife production. Production: Please check eJP or ask Editorial for the correct affiliation. - is this correct?_
 
-**Action**:
+**Action**: This indicates an author does not have an affiliation. Check the original submission to ensure this has not dropped off during processing. If it is not present there, consult eLife staff.
 
-**contrib-test-3**
+#### **contrib-test-3**
 
 **Error**: _author contains both a child name and a child collab. This is not correct._
 
-**Action**:
+**Action**: An author tag can only contain given-name and surname OR collab. If both are present there is an error in the XML and this needs to be fixed. Check the original submission and either delete the colab tagging or author tagging and move the contents to the right place.
 
-**name-test**
+#### **name-test**
 
 **Error**: _Contrib contains no collab but has XXXXXX name(s). This is not correct._
 
 **Action**:
 
-**contrib-email-1**
+#### **contrib-email-1**
 
 **Error**: _Corresponding authors must have an email._
 
-**Action**:
+**Action**: All corresponding authors must have an email address according to eLife style. If an author is tagged as a corresponding author check whether this is correct. If it is either add the email address or ask the author for the email address. If it is wrong unclick the corresponding author box.
 
-**contrib-email-2**
+#### **contrib-email-2**
 
 **Error**: _Non-corresponding authors must not have an email._
 
-**pre-auth-aff-test-1**
+**Action**: Only corresponding authors can have an email address according to eLife style. If an author is not tagged as a corresponding author but has an email associated with them, check whether this is correct. If it is click the corresponding author box, if it is not, remove the email address.
+
+#### **pre-auth-aff-test-1**
 
 **Warning**: _Author affiliations must have a country. This one does not - XXXXXX. Please query with the authors._
 
-**Action**:
+**Action**: All affiliations must contain a country. If it is missing it needs to be added. Ask the authors to provide it.
 
 **final-auth-aff-test-1**
 
