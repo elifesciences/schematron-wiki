@@ -8,12 +8,12 @@ description: >-
 # Article content house style
 
 {% hint style="info" %}
- For changelog, click [here](untitled-4.md#changelog). 
+&#x20;For changelog, click [here](untitled-4.md#changelog).&#x20;
 {% endhint %}
 
 ## What is article content house style?
 
-The production vendors work with a lot of different clients and most of them have a house style. Therefore, they request each of their publishers lets them know what their house style is. As an online-only journal, we wanted for each article to be allowed to be a unit in-of itself and for the author not be subject to arbitrary changes to their content dictated by the publisher (in a printed edition it's understandable that publishers would want a consistent feel across the publication). However, authors are inconsistent within their own article and it is hard for vendors to spot this if there is not a set of rules to conform to. Therefore, we created a house style as guidance. This is also useful to indicate where we don't want things to be changed if a copy editor is applying another publisher's rules to our content.
+The production vendors work with a lot of different clients and most of them have their own house style. Therefore, the vendor requests each of their publishers provide their house style so the vendor can automate checks and changes and their copy editors can check anything not automatable. As an online-only journal, we thought each article should be allowed to be a unit in-of itself and for the author to not be subject to arbitrary changes to their content dictated by the publisher (in a printed edition it's understandable that publishers would want a consistent feel across the publication). However, authors are inconsistent within their own article and it is hard for vendors to spot this if there is not a set of rules to follow. Therefore, we created a house style as guidance. This is also a useful reference point if a copy editor applies another publisher's rules to our content so we can feedback if inappropriate.
 
 ## What needs to be checked?
 
@@ -71,7 +71,7 @@ See [Keywords and research organisms](../article-details/content/keywords.md).
 *
   1. After a colon - not allowed (exceptions listed above for titles)
   2. Do not capitalise w in Western blot, but do for Southern blot
-*  Italicisation - follow author, except
+* &#x20;Italicisation - follow author, except
 
 1. Genus and species shuold be italicised. Capital with full stop, italics, e.g. E. coli. Genus should be provided on first use in main text and thereafter abbreviated to first letter and full stop. If only Genus is provided, still use italics \[this is applicable for Table and Figure captions). If both genus and species are given, use only abbreviated genus names with species in tables and figures (exceptions: For S. Typhi, S. Typhimurium, Drosophila, and Arabidopsis add an author query as to whether some or all instances should be Roman or italicised, but we should not autocorrect to italic (since on some occasions the change will be wrong - genus or species).
 2. Do not italicise latin terms (eg in vitro, in vivo)
@@ -292,7 +292,7 @@ These checks relate to the content of \[insert name of page]. X or XXXXXX refers
 
 **Warning**: _given-names contains brackets - 'XXXXXX'. This will be flagged by Crossref (although will not actually cause any significant problems)._
 
-**Action**: given-names contains brackets - 'XXXXXX'. This will be flagged by Crossref (although will not actually cause any significant problems). Check whether the following author query was added before the article went to the author. Please confirm whether you are happy to remove the brackets around (one of) your given names - 'XXXXXX'. If the author was not asked, ask the author. This will cause minor issues at Crossref, although they can be retained if desired. 
+**Action**: given-names contains brackets - 'XXXXXX'. This will be flagged by Crossref (although will not actually cause any significant problems). Check whether the following author query was added before the article went to the author. Please confirm whether you are happy to remove the brackets around (one of) your given names - 'XXXXXX'. If the author was not asked, ask the author. This will cause minor issues at Crossref, although they can be retained if desired.&#x20;
 
 #### **suffix-assert**
 
