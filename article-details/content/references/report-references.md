@@ -14,7 +14,7 @@ A report reference provides the bibliographic details for a report in the refere
 
 For eLife articles, each part of the reference is formatted specifically:
 
-![](../../../.gitbook/assets/report-example_gitbook.png)
+![](../../../.gitbook/assets/report-example\_gitbook.png)
 
 
 
@@ -73,17 +73,15 @@ These checks relate to the XML structure of report references. X or XXXXXX refer
 
 **Error**: _\[err-elem-report-report-9-1] Each \<element-citation> of type 'report' must contain one and only one \<source> element. Reference 'XXXXXX' has XXXXXX  elements._
 
-**Action**: This error will appear if a report reference has more than one or no source. Check that the source has not been accidentally captured as a title or the publisher name. A source is required for report references so if it is missing raise an author query on the proof for the missing information.
+**Action**: A source is required for report references so if it is missing, look the article up online or raise an author query on the proof for the missing information.
 
 **err-elem-cit-report-11-1**
 
 **Error**: _\[err-elem-cit-report-11-1] \<publisher-name> is required. Reference 'XXXXXX' has XXXXXX \<publisher-name> elements._
 
-**Action**: This error will appear if a report reference has more than one or no publisher name. Check that the publisher name has not been accidentally captured as a title, source or author. A publisher name is required for report references so if it is missing raise an author query on the proof for the missing information.
+**Action**: A publisher name is required for report references so if it is missing, look the article up online or raise an author query on the proof for the missing information.
 
-****
-
-**err-elem-cit-report-15**
+#### **err-elem-cit-report-15**
 
 **Error**: _\[err-elem-cit-report-15] The only tags that are allowed as children of \<element-citation>  with the publication-type="report" are: \<person-group> , \<year>, \<source>, \<publisher-loc>, \<publisher-name>, \<ext-link>, and \<pub-id>. Reference 'XXXXXX' has other elements._
 
