@@ -52,11 +52,11 @@ Files can be edited in the bucket elife-poa-packaging until delivery to Continuu
 
 Email notifications are sent for the following events:
 
-|       |              |
-| ----- | ------------ |
-| Event | Email header |
-|       |              |
-|       |              |
+| Event                         | Email header                                                                                                                                                      |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Successful package generation | PackagePOA Success! doi: 10.7554/eLife.64812, 2021-10-28 10:20, PackagePOA FAILED. doi: 10.7554/eLife.64615, 2021-10-05 10:20, eLife SWF domain: Publish: Publish |
+| Failed package generation     | PackagePOA FAILED. doi: 10.7554/eLife.64615, 2021-10-05 10:20, eLife SWF domain: Publish                                                                          |
+| Delivery to Continuum         | PublishFinalPOA Success! files: 9, 2021-10-28 11:00, eLife SWF domain: Publish                                                                                    |
 
 
 
@@ -206,7 +206,7 @@ If it is unclear whether the source data is associated with a figure or not, ple
 
 **Source code files**
 
-These follow the same pattern as Source code. It is slightly more likely that authors may label these files incorrectly. For example, they may use the name of the file (e.g python_code.py). Again, this must be changed to Source code 1, Source code 2 and so on.
+These follow the same pattern as Source code. It is slightly more likely that authors may label these files incorrectly. For example, they may use the name of the file (e.g python\_code.py). Again, this must be changed to Source code 1, Source code 2 and so on.
 
 **Supplementary files**
 
@@ -367,8 +367,8 @@ The following should be checked:
 * If any of the information described above is completely missing, the authors should be queried to provide the missing details, UNLESS a working direct URL is present and the information can be taken directly from the dataset (e.g. GEO datasets such as [http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE14308](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE14308) list the full author list, year and title on the summary page)
 * All provided URLs must be functional and the data must be publicly available. For any URLs that return ‘this data is not public’ or ‘not found’ pages, the author must be asked to make the data public (you can proceed once the author has agreed to make the data publicly available).
 * If the URL redirects to some form of login page, please alert Production.
-* Any URL provided must be a **direct link** to the dataset being cited. Links to the database are not specific enough. If an accession number is provided, it may be possible to derive the specific URL. Please see the [Common Changes guide](https://docs.google.com/document/d/1iKUW353vySZd8lqkW_d7W7Ys21BpEWLXvOCYe62Ei5c/edit#bookmark=id.ebet0mx8eux1) for common dataset URL structures.
-* If a review link is given for a dataset, this must be updated to the final URL. Review links can usually be identified because they contain ‘token’ or ‘review(er)’. Again, see the [Common Changes guide](https://docs.google.com/document/d/1iKUW353vySZd8lqkW_d7W7Ys21BpEWLXvOCYe62Ei5c/edit#bookmark=id.ebet0mx8eux1) for examples common review URL structures.
+* Any URL provided must be a **direct link** to the dataset being cited. Links to the database are not specific enough. If an accession number is provided, it may be possible to derive the specific URL. Please see the [Common Changes guide](https://docs.google.com/document/d/1iKUW353vySZd8lqkW\_d7W7Ys21BpEWLXvOCYe62Ei5c/edit#bookmark=id.ebet0mx8eux1) for common dataset URL structures.
+* If a review link is given for a dataset, this must be updated to the final URL. Review links can usually be identified because they contain ‘token’ or ‘review(er)’. Again, see the [Common Changes guide](https://docs.google.com/document/d/1iKUW353vySZd8lqkW\_d7W7Ys21BpEWLXvOCYe62Ei5c/edit#bookmark=id.ebet0mx8eux1) for examples common review URL structures.
 * For Dryad and figshare datasets, a DOI link should be given as the URL rather than the direct URL for the dataset (e.g. [http://dx.doi.org/10.5061/dryad.50410](http://dx.doi.org/10.5061/dryad.50410)). If the author has just provided the DOI itself (e.g. DOI: 10.5061/dryad.50410) this needs to be updated to a URL in the above style.
 * When checking that the URL provided works and gives access to a publicly available dataset, check that the title on the resulting page matches the title given in the system. Alert Production if this is not the case.
 * For all publicly available datasets with an accession number, the Accessibility information should take the form ‘Publicly available at XXXX (accession no. XXXXX)’. This should be updated if the authors have only provided the accession number or the database name in this field. The accession number can be derived from most dataset URLs.
@@ -407,7 +407,7 @@ There are two options: **CCBY 4.0 Creative Commons license** and **CC0 1.0 Publi
 
 Once the article is ready to send for PoA publication, click ‘Post Acceptance Checklist’ under ‘Manuscript Workflow Tasks.
 
-![https://lh6.googleusercontent.com/Ay1RPfxbpl_kQ-DdM1Xmi9GDtUsgRuWMaWNDuodVjlG6OyFufRZrTqfnYCnc9nnTCITbF_G9LpssC5SH83cAF57HOdyaW79cx0SkgHiH1syFuX_cY8b\_9kmt7zkbzEjqP7YqGW4](<../.gitbook/assets/18 (1).png>)
+![https://lh6.googleusercontent.com/Ay1RPfxbpl\_kQ-DdM1Xmi9GDtUsgRuWMaWNDuodVjlG6OyFufRZrTqfnYCnc9nnTCITbF\_G9LpssC5SH83cAF57HOdyaW79cx0SkgHiH1syFuX\_cY8b\_9kmt7zkbzEjqP7YqGW4](<../.gitbook/assets/18 (1).png>)
 
 This will bring up the following screen. Click ‘View Checklist’ then, ensuring that ‘Yes’ is selected, click ‘Save Changes’.
 
@@ -457,7 +457,7 @@ To fix this, Production staff will need to download the merged PDF from the subm
 
 ![](../.gitbook/assets/23.png)
 
-Once this has been done, rename the file to decap_elife_poa_eXXXXX.pdf (where XXXXX is the article number) and upload it into the elife-poa-packaging/outbox folder.
+Once this has been done, rename the file to decap\_elife\_poa\_eXXXXX.pdf (where XXXXX is the article number) and upload it into the elife-poa-packaging/outbox folder.
 
 * **XML generation failure:** When this happens, the problems will usually be because something is missing from the CSV output (e.g. Editor name) or because the Bot has encountered something in the CSV file it cannot process (e.g. an unusual character). If the problem is not immediately obvious from examining the article metadata, contact Graham Nott ([gnott@starglobal.ca](mailto:gnott@starglobal.ca)). An XML generation failure will mean that it is unlikely the article can be PoAed on the day of the failure. It will need to be re-exported once the issue has been fixed (see below).
 
@@ -509,7 +509,7 @@ It may take a few minutes for the article to show up online on the front page. P
 
 If it is necessary to send an article again for PoA, either because the XML failed to generate or because it was put on hold after being exported, the article will need to be re-exported**.**
 
-![https://lh6.googleusercontent.com/v16asXlL7g64LOUvpJ7LbcOma18QiNFUfz1wexpe17JhVxdj_sD8rA2RiP0uir1Oylj1QTvlu8CvaVB18xZ63oddg29PLzq1AhMSFe-TP2XKqld45C9FFCW97J5W_ZWLBfTM-Gw](../.gitbook/assets/32.png)
+![https://lh6.googleusercontent.com/v16asXlL7g64LOUvpJ7LbcOma18QiNFUfz1wexpe17JhVxdj\_sD8rA2RiP0uir1Oylj1QTvlu8CvaVB18xZ63oddg29PLzq1AhMSFe-TP2XKqld45C9FFCW97J5W\_ZWLBfTM-Gw](../.gitbook/assets/32.png)
 
 Once any necessary edits have been made to the article files and metadata, go to the Tasks tab and select the ‘Resend PoA files’ button. This will bring up a list of the files to be resent and the option to do so. Once send has been clicked, the article will be exported with the rest of the PoA batch for that day at 11:09AM. Please note that there will be no repeat of the ‘Post Acceptance Checklist Completed’ email, as there is no checklist to complete when re-sending an article.
 
@@ -579,4 +579,4 @@ Open the XML and locate the publication date. This will be tagged as follows (th
 
 Update the publication date, save and then replace the XML file in the outbox with the new version. On ingest to Continuum, the article page will now show the intended future publication date.
 
-Once the article has been checked, it can then be scheduled using the same process outlined [below](https://docs.google.com/document/d/12ujE_DbG4euaI1-1m7kJHaEYBNAVbGUJ5SYYa2ZT65M/edit#bookmark=id.hhw6p99grrt1) for the full versions of articles.
+Once the article has been checked, it can then be scheduled using the same process outlined [below](https://docs.google.com/document/d/12ujE\_DbG4euaI1-1m7kJHaEYBNAVbGUJ5SYYa2ZT65M/edit#bookmark=id.hhw6p99grrt1) for the full versions of articles.
