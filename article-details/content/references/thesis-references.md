@@ -6,7 +6,7 @@ description: This is a page about entries for theses in the reference list.
 
 ## What is a thesis reference?
 
-A thesis, or dissertation, is a document submitted by an individual for an academic degree or professional qualification presenting the author's research and findings. These can be cited in scientific literature in the same way as other references. 
+A thesis, or dissertation, is a document submitted by an individual for an academic degree or professional qualification presenting the author's research and findings. These can be cited in scientific literature in the same way as other references.&#x20;
 
 ![](<../../../.gitbook/assets/screenshot-2021-09-13-at-12.43.42 (1).png>)
 
@@ -35,7 +35,7 @@ Schematron warnings may pick up incomplete references, and these should be check
 * **Article title**: The title of the thesis. Can contain italics, superscript and subscript as required.
 * **Publisher name**: The name of the institution where the thesis was produced.
 * **Publisher location: **The city/country of the institution.
-* **Website:** If available, a URL to the thesis. 
+* **Website:** If available, a URL to the thesis.&#x20;
 * **DOI:** The Digital Object Identifier for the thesis (if applicable).
 
 ## How to add a thesis reference
@@ -58,7 +58,7 @@ Select 'Thesis' as reference type, and then add the required fields in this orde
 * URL
 * DOI (if available)
 
-  Then, click on 'Validate'.
+&#x20; Then, click on 'Validate'.
 
 ![](../../../.gitbook/assets/screenshot-2021-09-20-at-11.30.14.png)
 
@@ -76,25 +76,25 @@ These checks relate to the content of Thesis references. X or XXXXXX refers to q
 
 **Error**: _\[err-elem-cit-thesis-13] The only tags that are allowed as children of \<element-citation> with the publication-type="thesis" are: \<person-group>, \<year>, \<article-title>, \<source>, \<publisher-loc>, \<publisher-name>, \<ext-link>, and \<pub-id>. Reference 'XXXXXX' has other elements_
 
-**Action:** This error will appear if a thesis reference has any element other than \<person-group>, \<year>, \<article-title>, \<source>, \<publisher-loc>, \<publisher-name>, \<ext-link>, and \<pub-id>. These are the only allowed elements for a thesis reference. Check the original submission to see whether the reference is definitely a thesis reference—if so, any additional elements should be deleted. If not, the reference is  likely to be another type (e.g. journal, book etc). If you are unsure, check with the Production team. 
+**Action:** This error will appear if a thesis reference has any element other than \<person-group>, \<year>, \<article-title>, \<source>, \<publisher-loc>, \<publisher-name>, \<ext-link>, and \<pub-id>. These are the only allowed elements for a thesis reference. Check the original submission to see whether the reference is definitely a thesis reference—if so, any additional elements should be deleted. If not, the reference is  likely to be another type (e.g. journal, book etc). If you are unsure, check with the Production team.&#x20;
 
 #### err-elem-cit-thesis-8-2
 
 **Error**: _\[err-elem-cit-thesis-8-2] An \<article-title> element in a reference may contain characters and \<italic>, \<sub>, and \<sup>. No other elements are allowed. Reference 'XXXXXX' does not meet this requirement._
 
-**Action:** This error will fire if there are formatting elements (e.g. bold text) in a thesis reference title. Only italics, superscripts and subscripts are allowed - check the original submission to see what the title should look like and correct accordingly. 
+**Action:** This error will fire if there are formatting elements (e.g. bold text) in a thesis reference title. Only italics, superscripts and subscripts are allowed - check the original submission to see what the title should look like and correct accordingly.&#x20;
 
 #### err-elem-cit-thesis-9-2
 
 **Error**: _\[err-elem-cit-thesis-9-2] No elements are allowed inside \<publisher-name>. Reference 'XXXXXX' has child elements within the \<publisher-name> element._
 
-**Action:** This error will fire if there are formatting elements (e.g. bold text) in the publisher name element - these are not allowed. Check the original submission and correct accordingly. 
+**Action:** This error will fire if there are formatting elements (e.g. bold text) in the publisher name element - these are not allowed. Check the original submission and correct accordingly.&#x20;
 
 #### err-elem-cit-thesis-10-2
 
 **Error**: _\[err-elem-cit-thesis-10-2] No elements are allowed inside \<publisher-loc>. Reference 'XXXXXX' has child elements within the  element._
 
-**Action:** This error will fire if there are formatting elements (e.g. bold text) in the publisher location element - these are not allowed. Check the original submission and correct accordingly. 
+**Action:** This error will fire if there are formatting elements (e.g. bold text) in the publisher location element - these are not allowed. Check the original submission and correct accordingly.&#x20;
 
 ### XML structure checks
 
@@ -140,13 +140,13 @@ These checks relate to the XML structure of thesis references. ‌X or XXXXXX re
 
 **Error**: _\[err-elem-cit-thesis-11-1] A maximum of one \<pub-id> element is allowed. Reference 'XXXXXX' has XXXXXX  elements._
 
-**Action:** This error will fire if a thesis reference has more than one pub-id element (DOI field in Kriya). Check the original submission to see whether the thesis reference has a DOI - if so it should be entered in the DOI field. If not, this field is not necessary. 
+**Action:** This error will fire if a thesis reference has more than one pub-id element (DOI field in Kriya). Check the original submission to see whether the thesis reference has a DOI - if so it should be entered in the DOI field. If not, this field is not necessary.&#x20;
 
 #### err-elem-cit-thesis-2-2
 
 **Error**: _\[err-elem-cit-thesis-2-2] Each \<person-group> must have a @person-group-type attribute of type 'author'. Reference 'XXXXXX' has a \<person-group> element with @person-group-type attribute 'XXXXXX'._
 
-**Action:** This error will appear if a thesis reference has a person-group element with a type other than 'author'. The only allowed type for this element in a thesis reference is 'author'—double check the original submission to see whether the reference is definitely a thesis reference. If so, the author should be captured as such. If there is another type of person-group e.g. editor, this would suggest the reference should be a book instead. Double check with the Production team if unsure.  
+**Action:** This error will appear if a thesis reference has a person-group element with a type other than 'author'. The only allowed type for this element in a thesis reference is 'author'—double check the original submission to see whether the reference is definitely a thesis reference. If so, the author should be captured as such. If there is another type of person-group e.g. editor, this would suggest the reference should be a book instead. Double check with the Production team if unsure. &#x20;
 
 #### err-elem-cit-thesis-2-3
 
@@ -160,7 +160,7 @@ These checks relate to the XML structure of thesis references. ‌X or XXXXXX re
 
 **Error**: _\[err-elem-cit-thesis-11-2] The only allowed pub-id type is 'doi'. Reference 'XXXXXX' has a pub-id type of 'XXXXXX'._
 
-**Action:** This error will fire if a thesis reference has a pub-id with a type other than 'doi'. If there is a DOI for the reference, ensure this is captured appropriately. If there is no DOI for a thesis but a direct URL, this should be captured in an ext-link tag with the type 'uri' instead. 
+**Action:** This error will fire if a thesis reference has a pub-id with a type other than 'doi'. If there is a DOI for the reference, ensure this is captured appropriately. If there is no DOI for a thesis but a direct URL, this should be captured in an ext-link tag with the type 'uri' instead.&#x20;
 
 ## XML structure
 

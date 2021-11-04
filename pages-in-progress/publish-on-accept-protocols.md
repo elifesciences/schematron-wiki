@@ -102,7 +102,7 @@ Red sticky notes marked ‘FAO: Production’ or similar can be left since they 
 
 Any red notes will be exported alongside the article for typesetting, so if an issue is resolved before export, please change the note to green so that it does not get passed along.
 
-**Article revision number**
+#### Article revision number
 
 The full submission number is given at the top left of the summary screen.
 
@@ -116,11 +116,11 @@ In cases such as this, **DO NOT PROCEED WITH POA**. Instead, complete the revisi
 
 If the author does not want to PoA, push to export queue (see below for instructions on how to change the PoA status of an article at Post Acceptance Check).
 
-**Appeals**
+#### Appeals
 
 If an article has been accepted after an appeal against a rejection (e.g 01-12-2015-SR-eLife-13450R1-**Appeal**), it similarly may not have gone through Editorial’s revised submission checks. Process as above.
 
-**Acceptance letter**
+#### Acceptance letter
 
 The acceptance letter can be accessed by clicking on the decision statement in the bar at the top of the article summary page:
 
@@ -129,6 +129,8 @@ The acceptance letter can be accessed by clicking on the decision statement in t
 This should be checked for any additional comments the editor and reviewers might have raised in their decision. These will most likely be placed in the **first or second paragraphs, or in a summary of the reviewers’ comments at the end of the letter.** If any requests for changes have been made, the author will need to be contacted by email using the template ‘Publication: Potential revisions’, available under the ‘Send Manuscript Correspondence with Template’ option. This email will ask the authors whether they would like to make the changes now, prior to PoA publication, or whether they are happy to leave the edits until they are proofing the final version of their article.
 
 The article should then be placed on hold until the authors respond. Be aware that the authors may use this opportunity to address other issues in their submission. Changes at this stage outside of requested edits should be minor - any major rewrites should be brought to the attention of the production and editorial teams via the publish-on-accept Slack channel.
+
+### Files
 
 **Merged PDF**
 
@@ -150,37 +152,24 @@ The files submitted by the authors also need to undergo checks for content and q
 
 This gives access to the ‘Upload Files’ page (step 1 for article submission) allowing users to upload new files, replace existing files and alter the file type, description and order.
 
-**Article file**
+#### Article file
 
-1. **Format**
+1.  **Format:** The article can be in .doc, .docx, .tex or .pdf format for PoA. However, for export to the content processor, we will need an editable version of the file (.doc, .docx, .tex), so if the file is a PDF, please check whether the authors have included the editable version as a ‘related article file’.
 
-The article can be in .doc, .docx, .tex or .pdf format for PoA. However, for export to the content processor, we will need an editable version of the file (.doc, .docx, .tex), so if the file is a PDF, please check whether the authors have included the editable version as a ‘related article file’.
+    In cases where the author has done this, the editable file will need to be swapped in as the main article file following PoA, before the article is exported to the typesetters.
 
-In cases where the author has done this, the editable file will need to be swapped in as the main article file following PoA, before the article is exported to the typesetters.
-
-If no editable article file has been provided, please contact the author to request this. We cannot process the article without an editable article file.
-
-1. **Order**
-
-The article file must come before the figure files on the file list on the submission system, as this is important for the generation of the merged PDF.
-
-1. **Tracked changes**
-
-If tracked changes are visible in the merged PDF, these must be accepted prior to PoA publication. Download the article file and accept the changes, then replace the file on the system. Make sure that when accepting the tracked changes, the ‘tracked change’ option in Word is first turned off otherwise the Merged PDF will still show tracked changes.
+    If no editable article file has been provided, please contact the author to request this. We cannot process the article without an editable article file.
+2. **Order: **The article file must come before the figure files on the file list on the submission system, as this is important for the generation of the merged PDF.
+3. **Tracked changes: **If tracked changes are visible in the merged PDF, these must be accepted prior to PoA publication. Download the article file and accept the changes, then replace the file on the system. Make sure that when accepting the tracked changes, the ‘tracked change’ option in Word is first turned off otherwise the Merged PDF will still show tracked changes.
 
 ![](<../.gitbook/assets/9 (2).png>)
 
-**Image files**
+#### Image files
 
-1. **Quality**
+1. **Quality: **The figures and figure supplements appear at the end of the merged PDF. They should be checked to ensure that they are of a reasonable quality. Please note that the system will usually downsample the images slightly so that some pixelation is likely, but if the figures show at a particularly low resolution, please check the source files. If these are also poor quality, please ask the authors to provide higher resolution versions before proceeding with PoA.
+2. **Figures in text: **Occasionally, the authors will include copies of their figures throughout the main text, meaning they will be duplicated in the merged PDF. If the images throughout the text are good quality, please switch off the option to include the figures in the merged PDF and regenerate it.
 
-The figures and figure supplements appear at the end of the merged PDF. They should be checked to ensure that they are of a reasonable quality. Please note that the system will usually downsample the images slightly so that some pixelation is likely, but if the figures show at a particularly low resolution, please check the source files. If these are also poor quality, please ask the authors to provide higher resolution versions before proceeding with PoA.
-
-1. **Figures in text**
-
-Occasionally, the authors will include copies of their figures throughout the main text, meaning they will be duplicated in the merged PDF. If the images throughout the text are good quality, please switch off the option to include the figures in the merged PDF and regenerate it.
-
-![](../.gitbook/assets/10.png)
+![](<../.gitbook/assets/image (6).png>)
 
 Click the green ‘merge’ option to unselect it.
 
@@ -190,13 +179,13 @@ Repeat for all the figure files and then click ‘next’ to save the change and
 
 If the images inline with the text in the article file are very low quality, please download the file and remove them, then replace it on the system.
 
-**Videos**
+#### Videos
 
 Video files do not need to be checked for playability at this stage but the size of the file should be noted. If the videos are especially large (e.g. 100MB+) this may cause problems with the generation of the PoA files (see below) and with the production process. Articles with such large videos should therefore be flagged to the Production team on the publish-on-accept Slack channel.
 
 If the videos are showing as 0KB, it means they have not uploaded properly. Again, please alert Production if this is the case.
 
-**Source data files**
+#### Source data files
 
 Source data files will usually be associated with main figures or tables, but can exist as associated with the paper as a whole. This will be indicated in the label and likely in the file name as well.
 
@@ -208,29 +197,24 @@ If the source data is not associated with a main figure in the system, please en
 
 If it is unclear whether the source data is associated with a figure or not, please check the legends provided in the article text.
 
-**Source code files**
+#### Source code files
 
 These follow the same pattern as Source code. It is slightly more likely that authors may label these files incorrectly. For example, they may use the name of the file (e.g python\_code.py). Again, this must be changed to Source code 1, Source code 2 and so on.
 
-**Supplementary files**
+#### Supplementary files
 
 Again, if the file has been labelled against eLife convention (Supplementary file 1, Supplementary file 2 etc), this must be corrected before PoA using the legends in the article text as a guide.
 
-**Related article files**
+#### Related article files
 
-1. **Editable article files**
-
-If the article is a LaTex submission, the authors may have uploaded a PDF as their article file and included the editable .tex file as a related article file. This is fine for PoA but before export, please switch them over.
-
-1. **PDF for PoA publication**
-
-A check must be made for any Related Manuscript File that is described as being ‘merged PDF for PoA’ or ‘authors’ file for accepted publication’ or a similar phrase. This will be a version of the article that the authors have provided in anticipation of PoA and it must be this file, rather than the standard Merged PDF that should be used for PoA publication. This merged PDF on the system should be replaced on the system using the option at the stop of the files page.
+1. **Editable article files: **If the article is a LaTex submission, the authors may have uploaded a PDF as their article file and included the editable .tex file as a related article file. This is fine for PoA but before export, please switch them over.
+2. **PDF for PoA publication: **A check must be made for any Related Manuscript File that is described as being ‘merged PDF for PoA’ or ‘authors’ file for accepted publication’ or a similar phrase. This will be a version of the article that the authors have provided in anticipation of PoA and it must be this file, rather than the standard Merged PDF that should be used for PoA publication. This merged PDF on the system should be replaced on the system using the option at the stop of the files page.
 
 ![](../.gitbook/assets/13.png)
 
 PLEASE NOTE: if any changes are requested from the authors and they have included either of the above related article files on the system, the authors must be asked to provide new versions of these files as well.
 
-**Metadata**
+### Metadata
 
 **Generic note: no double quote marks are allowed in the metadata due to issues they cause during XML generation. Double quotes must therefore be changed to single quotes.**
 
@@ -238,69 +222,53 @@ To begin checking the metadata within the submission system, click next to move 
 
 ![](../.gitbook/assets/14.png)
 
-**Title**
+#### Title page
 
-1. **Title**
+1. **Title: **The title on the submission system must be compared against the title given in the article file. As the title is entered manually into the submission system, it is possible that typographical errors may have been introduced. Check for the following:
+   * Spelling errors - the spelling in the article file should be favoured.
+   * Missing formatting - formatting present in the article file should be replicated on the system using the appropriate tagging (italics, subscript and superscript are all allowed; bold and underlining are not).
+   * Double spacing - this should be changed to single spacing.
+   *   Line breaks - make sure there are no line breaks in the title. For example:
 
-The title on the submission system must be compared against the title given in the article file. As the title is entered manually into the submission system, it is possible that typographical errors may have been introduced. Check for the following:
+       “SMC condensin entraps chromosomal DNA by an
 
-* Spelling errors - the spelling in the article file should be favoured.
-* Missing formatting - formatting present in the article file should be replicated on the system using the appropriate tagging (italics, subscript and superscript are all allowed; bold and underlining are not).
-* Double spacing - this should be changed to single spacing.
-* Line breaks - make sure there are no line breaks in the title. For example:
+       ATP hydrolysis dependent loading mechanism in Bacillus subtilis”
 
-“SMC condensin entraps chromosomal DNA by an
+       should be changed to
 
-ATP hydrolysis dependent loading mechanism in Bacillus subtilis”
+       “SMC condensin entraps chromosomal DNA by an ATP hydrolysis dependent loading mechanism in _Bacillus subtilis_”
+   * Case - titles for eLife articles should be in sentence case (not ALL CAPITALS or Title Case (unless eg proper nouns). Prior to PoA, this should be corrected in the submission system but the article file does not need to be updated.
+2.  **Abstract: **Copy the abstract with formatting from the Word file (or merged PDF for LaTex file - and remove line breaks).
 
-should be changed to
+    If an article is a **Clinical trial**, the abstract will be structured with headings and additional details at the end (Clinical trial info and funding). All of this must be retained for publication. Clinical trial status will usually be indicated with a sticky note.
+3. **Impact statement:** This does not need to be checked. Use the ‘Next’ button to save any changes and move to the next screen.
 
-“SMC condensin entraps chromosomal DNA by an ATP hydrolysis dependent loading mechanism in _Bacillus subtilis_”
+#### Author information page
 
-* Case - titles for eLife articles should be in sentence case (not ALL CAPITALS or Title Case (unless eg proper nouns). Prior to PoA, this should be corrected in the submission system but the article file does not need to be updated.
+1. **Author list: **The following needs to be checked:
+   * Author first name, middle name(s) or initials and surname should all match the article file. Spelling/special characters should be updated in the system if they do not match the article file and any missing initials should be added. The exception to this is if the article file only lists first initials for all authors. eLife style favours full first names.
+   * Any full stops after author initials should be removed as this is against eLife style.
+   * The suffix field is reserved for numerals (I, II, III etc) and junior (Jr) and senior (Sr) indicators. Academic letters (PhD, MD etc) should be removed from this field. If it is unclear what a particular suffix means, query it with eLife Production.
+   * Author order must match the article file. This is **extremely important** as it may cause disputes between the authors and require an official correction if the authorship order is published incorrectly. Author order is designated in the ‘Author #’ column and can be altered by ‘drag and drop’ (click to the immediate right of the ‘Author #’ boxes to move the author block).
+   * If any authors listed in the article file are not present in the submission system, or any authors on the system are missing from the article file, this must be queried with the author). **Hold the article until this has been resolved.**
+   *   One corresponding author will be indicated using the **tick box** between the author number and name. This designates the primary corresponding author/corresponding author for proofs. Any additional corresponding authors should be indicated using the **‘co-corresponding author’ tick box** within the author details. All authors indicated as corresponding authors on the article cover page must be designated on the system using either the main corresponding author tick box or the co-corresponding author tick box.
 
-1. **Abstract**
+       ![](<../.gitbook/assets/image (7).png>)
 
-Copy the abstract with formatting from the Word file (or merged PDF for LaTex file - and remove line breaks).
 
-If an article is a **Clinical trial**, the abstract will be structured with headings and additional details at the end (Clinical trial info and funding). All of this must be retained for publication. Clinical trial status will usually be indicated with a sticky note.
+   * The email address for the corresponding author(s) should match that provided in the article file. If it does not, query the author (they may have used a personal account on the system but want to use an institutional account for correspondence from readers).
+   * Each author should have ‘author contributions’. These are checked prior to PoA, so no edits should be required to this section. However, please alert Editorial and Production if no contributions are present.
+2. **Author affiliations: **No need to check.
+3. **Competing interests: **No need to check.
+4.  **Group authors: **Any group authors mentioned in the author’s article file must be included on the submission system prior to PoA, if not already present in the author information.
 
-The impact statement does not need to be checked. Use the ‘Next’ button to save any changes and move to the next screen.
+    The order of the group author(s) is indicated by selecting from a drop-down menu. Ensure that the group author is placed in the correct sequence with the other authors as per the article file’s author list. Any competing interests listed for the group author(s) present in the article file but not on the system should be added prior to PoA publication.
 
-**Author information**
+    For every group author, check whether a list of the members of that group is given in the article file. Ideally, this list should give the full name of each member and their affiliation. If this list is not present, check whether it has been provided as a separate file and alert Production via slack.
 
-1. **Author list**
+    If the phrase ‘**on behalf of**’ is present in the author’s article file followed by the name of a group author or consortium, Production must be alerted prior to PoA so that they can update the XML manually.
 
-The following needs to be checked:
-
-* Author first name, middle name(s) or initials and surname should all match the article file. Spelling/special characters should be updated in the system if they do not match the article file and any missing initials should be added. The exception to this is if the article file only lists first initials for all authors. eLife style favours full first names.
-* Any full stops after author initials should be removed as this is against eLife style.
-* The suffix field is reserved for numerals (I, II, III etc) and junior (Jr) and senior (Sr) indicators. Academic letters (PhD, MD etc) should be removed from this field. If it is unclear what a particular suffix means, query it with eLife Production.
-* Author order must match the article file. This is **extremely important** as it may cause disputes between the authors and require an official correction if the authorship order is published incorrectly. Author order is designated in the ‘Author #’ column and can be altered by ‘drag and drop’ (click to the immediate right of the ‘Author #’ boxes to move the author block).
-* If any authors listed in the article file are not present in the submission system, or any authors on the system are missing from the article file, this must be queried with the author). **Hold the article until this has been resolved.**
-* One corresponding author will be indicated using the **tick box** between the author number and name. This designates the primary corresponding author/corresponding author for proofs. Any additional corresponding authors should be indicated using the **‘co-corresponding author’ tick box** within the author details. All authors indicated as corresponding authors on the article cover page must be designated on the system using either the main corresponding author tick box or the co-corresponding author tick box.![](<../.gitbook/assets/15 (1).png>)
-* The email address for the corresponding author(s) should match that provided in the article file. If it does not, query the author (they may have used a personal account on the system but want to use an institutional account for correspondence from readers).
-* Each author should have ‘author contributions’. These are checked prior to PoA, so no edits should be required to this section. However, please alert Editorial and Production if no contributions are present.
-
-1. **Author affiliations**
-
-No need to check.
-
-1. **Competing interests**
-
-No need to check.
-
-1. **Group authors**
-
-Any group authors mentioned in the author’s article file must be included on the submission system prior to PoA, if not already present in the author information.
-
-The order of the group author(s) is indicated by selecting from a drop-down menu. Ensure that the group author is placed in the correct sequence with the other authors as per the article file’s author list. Any competing interests listed for the group author(s) present in the article file but not on the system should be added prior to PoA publication.
-
-For every group author, check whether a list of the members of that group is given in the article file. Ideally, this list should give the full name of each member and their affiliation. If this list is not present, check whether it has been provided as a separate file and alert Production via slack.
-
-If the phrase ‘**on behalf of**’ is present in the author’s article file followed by the name of a group author or consortium, Production must be alerted prior to PoA so that they can update the XML manually.
-
-\<on-behalf-of> tagging must be added to the XML rather than the standard group authorship tagging. It should be placed after the authors and before the affiliations in the \<contrib-group>. This must be done while the article is in the elife-poa-packaging/outbox folder (see below):
+    \<on-behalf-of> tagging must be added to the XML rather than the standard group authorship tagging. It should be placed after the authors and before the affiliations in the \<contrib-group>. This must be done while the article is in the elife-poa-packaging/outbox folder (see below):
 
 ```markup
 <contrib-group>
@@ -323,83 +291,64 @@ If the phrase ‘**on behalf of**’ is present in the author’s article file f
  </contrib-group>
 ```
 
-**Major subject area(s)**
+#### Major subject area(s) page
 
-1. **Major subject areas(s)**
+1. **Major subject areas(s): **One or more of these will have been selected by the author. Does not need to be checked.
+2. **Research organisms(s): **One or more of these will have been selected by the author. Does not need to be checked.
+3. **Keywords/other research organism: **The author can add up to six keywords and/or free-text research organisms. Make sure that these are all in lower cases, excepting proper nouns (e.g. Parkinson's disease) and species names (_S. cerevisiae_).
 
-One or more of these will have been selected by the author. Does not need to be checked.
+#### Submission information page
 
-1. **Research organisms(s)**
+1.  **Permissions: **Authors may sometimes adapt or reproduce figures from other works as part of their figures. If they exactly reproduce images from previously published works not covered by an open access license or free of copyright, they will need permission to do so.
 
-One or more of these will have been selected by the author. Does not need to be checked.
+    During submission, the authors are asked to indicate if they have reused previously published images. At full and revised submission QC, possible cases where images require permissions will be flagged to Editorial using turquoise sticky notes. If permissions are required, the Editorial team will follow up with the authors for full details and add a red sticky note instructing Production/content processors that further action is required.
 
-1. **Keywords/other research organism**
+    The following details are required for adding a permissions statement for a reproduced image:
 
-The author can add up to six keywords and/or free-text research organisms. Make sure that these are all in lower cases, excepting proper nouns (e.g. Parkinson's disease) and species names (_S. cerevisiae_).
+    * Affected figure (e.g. Figure 1)
+    * Copyright year (e.g. 2009)
+    * Copyright holder (e.g. Elsevier)
+    * Permissions statement (e.g. ‘Panel A is reprinted from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.’
 
-**Submission information**
+    Please make sure that this information is present in the red sticky note and that there are no outstanding turquoise notes pending Editorial approval.
+2. **Funding: **No need to check.
+3.  **Datasets: **There are two parts to the datasets section, **Generated datasets** and **Previously published datasets**. The authors are asked to provide details of any major datasets that have been generated as part of their work and any previously published major datasets they have used in that work. They can include one or both of these types of dataset and the checks on them are largely the same.
 
-1. **Permissions**
+    The following fields should be completed for each dataset: **Author(s)**, **Year**, **Dataset Title**, **Direct URL to the Dataset** and **Accessibility Information** or **Accession No**.
 
-Authors may sometimes adapt or reproduce figures from other works as part of their figures. If they exactly reproduce images from previously published works not covered by an open access license or free of copyright, they will need permission to do so.
+    ![](<../.gitbook/assets/image (8).png>)
 
-During submission, the authors are asked to indicate if they have reused previously published images. At full and revised submission QC, possible cases where images require permissions will be flagged to Editorial using turquoise sticky notes. If permissions are required, the Editorial team will follow up with the authors for full details and add a red sticky note instructing Production/content processors that further action is required.
+    The following should be checked:
 
-The following details are required for adding a permissions statement for a reproduced image:
+    * If any of the information described above is completely missing, the authors should be queried to provide the missing details, UNLESS a working direct URL is present and the information can be taken directly from the dataset (e.g. GEO datasets such as [http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE14308](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE14308) list the full author list, year and title on the summary page)
+    * All provided URLs must be functional and the data must be publicly available. For any URLs that return ‘this data is not public’ or ‘not found’ pages, the author must be asked to make the data public (you can proceed once the author has agreed to make the data publicly available).
+    * If the URL redirects to some form of login page, please alert Production.
+    * Any URL provided must be a **direct link** to the dataset being cited. Links to the database are not specific enough. If an accession number is provided, it may be possible to derive the specific URL. Please see the [Common Changes guide](https://docs.google.com/document/d/1iKUW353vySZd8lqkW\_d7W7Ys21BpEWLXvOCYe62Ei5c/edit#bookmark=id.ebet0mx8eux1) for common dataset URL structures.
+    * If a review link is given for a dataset, this must be updated to the final URL. Review links can usually be identified because they contain ‘token’ or ‘review(er)’. Again, see the [Common Changes guide](https://docs.google.com/document/d/1iKUW353vySZd8lqkW\_d7W7Ys21BpEWLXvOCYe62Ei5c/edit#bookmark=id.ebet0mx8eux1) for examples common review URL structures.
+    * For Dryad and figshare datasets, a DOI link should be given as the URL rather than the direct URL for the dataset (e.g. [http://dx.doi.org/10.5061/dryad.50410](http://dx.doi.org/10.5061/dryad.50410)). If the author has just provided the DOI itself (e.g. DOI: 10.5061/dryad.50410) this needs to be updated to a URL in the above style.
+    * When checking that the URL provided works and gives access to a publicly available dataset, check that the title on the resulting page matches the title given in the system. Alert Production if this is not the case.
+    * For all publicly available datasets with an accession number, the Accessibility information should take the form ‘Publicly available at XXXX (accession no. XXXXX)’. This should be updated if the authors have only provided the accession number or the database name in this field. The accession number can be derived from most dataset URLs.
+    * For all publicly available datasets without an accession number, the Accessibility information should take the form ‘Publicly available at XXXX (http://XXXXX)’ where the bracketed term is the URL for the database homepage.
+    * EXCEPTION: Dryad datasets always have the following accessibility statement: ‘Available at Dryad Digital Repository under a CC0 Public Domain Dedication’
+4. **Ethics: **If exists, remove any double quotes if present
 
-* Affected figure (e.g. Figure 1)
-* Copyright year (e.g. 2009)
-* Copyright holder (e.g. Elsevier)
-* Permissions statement (e.g. ‘Panel A is reprinted from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.’
-
-Please make sure that this information is present in the red sticky note and that there are no outstanding turquoise notes pending Editorial approval.
-
-1. **Funding**
-
-No need to check.
-
-1. **Datasets**
-
-There are two parts to the datasets section, **Generated datasets** and **Previously published datasets**. The authors are asked to provide details of any major datasets that have been generated as part of their work and any previously published major datasets they have used in that work. They can include one or both of these types of dataset and the checks on them are largely the same.
-
-The following fields should be completed for each dataset: **Author(s)**, **Year**, **Dataset Title**, **Direct URL to the Dataset** and **Accessibility Information** or **Accession No**.
-
-![](<../.gitbook/assets/16 (1).png>)
-
-The following should be checked:
-
-* If any of the information described above is completely missing, the authors should be queried to provide the missing details, UNLESS a working direct URL is present and the information can be taken directly from the dataset (e.g. GEO datasets such as [http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE14308](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE14308) list the full author list, year and title on the summary page)
-* All provided URLs must be functional and the data must be publicly available. For any URLs that return ‘this data is not public’ or ‘not found’ pages, the author must be asked to make the data public (you can proceed once the author has agreed to make the data publicly available).
-* If the URL redirects to some form of login page, please alert Production.
-* Any URL provided must be a **direct link** to the dataset being cited. Links to the database are not specific enough. If an accession number is provided, it may be possible to derive the specific URL. Please see the [Common Changes guide](https://docs.google.com/document/d/1iKUW353vySZd8lqkW\_d7W7Ys21BpEWLXvOCYe62Ei5c/edit#bookmark=id.ebet0mx8eux1) for common dataset URL structures.
-* If a review link is given for a dataset, this must be updated to the final URL. Review links can usually be identified because they contain ‘token’ or ‘review(er)’. Again, see the [Common Changes guide](https://docs.google.com/document/d/1iKUW353vySZd8lqkW\_d7W7Ys21BpEWLXvOCYe62Ei5c/edit#bookmark=id.ebet0mx8eux1) for examples common review URL structures.
-* For Dryad and figshare datasets, a DOI link should be given as the URL rather than the direct URL for the dataset (e.g. [http://dx.doi.org/10.5061/dryad.50410](http://dx.doi.org/10.5061/dryad.50410)). If the author has just provided the DOI itself (e.g. DOI: 10.5061/dryad.50410) this needs to be updated to a URL in the above style.
-* When checking that the URL provided works and gives access to a publicly available dataset, check that the title on the resulting page matches the title given in the system. Alert Production if this is not the case.
-* For all publicly available datasets with an accession number, the Accessibility information should take the form ‘Publicly available at XXXX (accession no. XXXXX)’. This should be updated if the authors have only provided the accession number or the database name in this field. The accession number can be derived from most dataset URLs.
-* For all publicly available datasets without an accession number, the Accessibility information should take the form ‘Publicly available at XXXX (http://XXXXX)’ where the bracketed term is the URL for the database homepage.
-* EXCEPTION: Dryad datasets always have the following accessibility statement: ‘Available at Dryad Digital Repository under a CC0 Public Domain Dedication’
-
-1. **Ethics**
-
-If exists, remove any double quotes if present
-
-**eLife Digest**
+#### eLife Digest page
 
 This page can be ignored, no checks are required.
 
-**Publish on Accept**
+#### Publish on Accept
 
 This page contains the question the authors are asked concerning PoA. If the article is in the Post Acceptance Check, it will have been answered ‘yes’. This screen can be used to change the PoA status is required.
 
-**Author Suggestions**
+#### Author Suggestions
 
 This page can be ignored, no checks are required.
 
-**Publication Fee**
+#### Publication Fee
 
 This page can be ignored, no checks are required.
 
-**Licensing**
+#### Licensing
 
 This MUST be completed. Alert Editorial via the publish-on-accept slack channel immediately if it is not. A completed example is shown below. Clicking on ‘Edit’ brings up the specific license that has been completed.
 
@@ -407,7 +356,7 @@ This MUST be completed. Alert Editorial via the publish-on-accept slack channel 
 
 There are two options: **CCBY 4.0 Creative Commons license** and **CC0 1.0 Public Domain Dedication**. If any of the authors are affiliated with an American government organisation (e.g. the US Department of Energy or the National Institutes of Health), they MUST use the CC0 license.
 
-**Exporting PoA articles**
+## Exporting PoA articles
 
 Once the article is ready to send for PoA publication, click ‘Post Acceptance Checklist’ under ‘Manuscript Workflow Tasks.
 
@@ -421,17 +370,17 @@ Once this is done, the ‘Post Acceptance Check Completed’ button will appear.
 
 ![https://lh6.googleusercontent.com/ZNtVS1MA7pu1FOvqcsSeBGRXqfmNVtzy2tfZ7eckh1fG0tRpo6Z8WZKT2iG8n8vg2RBJjwa4JwxH9zNZ87XVu2ChVtNkuRXkKhG09o1Cnwb4x5SRxIRHufffRp7JvvcGB8VASnE](<../.gitbook/assets/20 (1).png>)
 
-The article will sit waiting for export until the next allotted export slot. These take place every nine past the hour, every hour, each day and will deliver any articles sent for PoA to the “elife-ejp-poa-delivery” bucket hosted on the Amazon Web Service (AWS). Any changes made to the files between approval for export and the actual export should be reflected in the package that is sent to the AWS.
+The article will be exported in the next allotted export slot. These take place every nine past the hour, every hour, each day and will deliver any articles sent for PoA to the “elife-ejp-poa-delivery” bucket hosted on the Amazon Web Service (AWS). Any changes made to the files between approval for export and the actual export should be reflected in the package that is sent to the AWS.
 
 Once an article has been sent for PoA, it will be moved to the ‘Manuscripts to Send’ folder within the Export system.
 
-**Removing articles from the Post Acceptance queue without export**
+### Removing articles from the Post Acceptance queue without export
 
 If an article ever needs to be removed from the post acceptance check queue without being sent for PoA, the same process as above should be followed but select the ‘No’ radio button viewing the checklist. On saving and clicking ‘Post Acceptance Check Completed’, the article will be moved directly to the ‘Manuscripts to Send’ folder without being queued for export.
 
 In cases where this is being done because an author has decided not to PoA their article after all, the ‘Previous Interactions’ screen in the Submission Information should then be updated to ‘PoA=no’.
 
-**PoA post-export process**
+### PoA post-export process
 
 Once daily, the submission system will automatically export PoA articles to the AWS bucket “elife-ejp-poa-delivery”. Hourly, the submission system will also export CSV files containing the results of SQL queries on the database holding the metadata for all submitted eLife articles. These are sent to the AWS folder “elife-ejp-ftp”.
 
