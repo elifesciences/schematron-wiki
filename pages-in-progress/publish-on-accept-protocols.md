@@ -60,41 +60,45 @@ Email notifications are sent for the following events:
 
 
 
+## ​Export checks for PoA articles
 
+​There are several checks that must be completed before an article is sent through for publication on acceptance.
 
+### Accessing PoA articles in the submission system​
 
+Active articles in the submission system are grouped into stages, represented by folders on the main tasks screen. The ‘Post Acceptance Check’ folder contains all articles that have been recently accepted where the authors have ticked ‘yes’ to the Publish on Accept option.
 
+Any article that is ‘PoA = no’ will instead go automatically into the ‘Manuscripts to Send’ folder within the ‘Export System’. This is also where ‘PoA = yes’ articles go once they have been sent for PoA publication. The number of articles in each folder is visible on the tasks screen.
 
+![Stage folder structure in the submission system](https://lh6.googleusercontent.com/89g8SU4tVtpBaxdHzy74ID8V5vTvw1Pg3R7-wWJiDogm6ZxBKQtn-kYbKEhcLKw86LuxK3ihgQ5GTsJJUAKlorXskk0ow7Vs\_tCCbHlCgIt5SRjTgpvIouGXrvicKDZepPpVM-bl)
 
-**Accessing ‘PoA = yes’ articles in the submission system**![](<../.gitbook/assets/0 (2).png>)
+Once an article has been exported to the production vendor for processing, it will no longer appear in a folder. At this point, articles can only be retrieved using the ‘Find Manuscript’ option, which allows a user to search for any article using the five digit manuscript number. This can also be used at any time to quickly retrieve an article. Please note, however, that the search will return all versions of an article with the given manuscript number, so make sure to select the accepted version when doing production work.
 
-All active articles in the submission system are grouped into different stages, represented by folders on the main tasks screen. The Post Acceptance Check folder contains all articles that have been recently accepted where the authors have ticked ‘yes’ to the Publish on Accept option.
+![An accepted submission on the search screen](https://lh4.googleusercontent.com/VV0bD54tIZqvVV9dXSFjsvtjWRaW-2han3529LhxfVhpb26PMslfY-kNNqpqC5z3M7kyT8vDcUN8kFYtVzKjIi6Iviban7mb5Z9y2LE99ijMp8w8YYTucHkqUzUPWECMH2FmdBKn)
 
-Any article that is ‘PoA=no’ will instead go automatically into the ‘Manuscripts to Send’ folder within the Export System. This is also where ‘PoA=yes’ articles go once they have been sent for PoA publication. The number of articles in each folder is visible on the tasks screen.
-
-Once an article has been exported to the vendor for production processing, it will no longer appear in a folder. At this point, articles can be retrieved using the Find Manuscript option, which allows a user to search for any article using the five digit manuscript number. This can also be used at any time to quickly retrieve an article. Please note, however, that the search will return all versions of an article with the given manuscript number, so be careful to select the version that has been accepted when doing production work.
-
-![](<../.gitbook/assets/1 (4).png>)
-
-**Article summary screen**
+### Article summary screen
 
 On accessing an article in the submission system, the user will be presented with a summary screen showing the article details and the files that have been uploaded for the submission. For an article at the Post Acceptance Check stage, prior to being sent for PoA, this will look like this:
 
-![](<../.gitbook/assets/2 (1).png>)
+![An accepted ‘PoA=yes’ submission](<../.gitbook/assets/2 (1).png>)
 
-This, therefore, will be the typical view seen by any user conducting the PoA checks on an article.
+Note the ‘Post Acceptance Checklist’ option under ‘Manuscript Workflow Tasks’. This is the button by which the article will be sent for publication once the checks are complete.
 
-Before conducting checks on the files and metadata, the following checks must be completed.
+The first check should be to look for any ‘sticky notes’ that have been applied to the submission.
 
-**Sticky notes**
+#### **Sticky notes**
 
-Sticky notes contain important information relevant to the paper. They are given different colours based on who will be using them (yellow, green, grey etc).![](<../.gitbook/assets/3 (1).png>)
+Sticky notes contain important information relevant to the paper. They are given different colours based on who will be using them (yellow, green, grey etc).
 
-Red sticky notes notes labelled "FAO Sue" contain requests to hold POA or Export if there are outstanding issues to resolve first. Red sticky notes labelled "FAO Staff - hold" indicate a member of the eLife Editorial team is dealing with an ongoing issue - this is generally used when minor issues are being resolved in parallel with the final review.
+Red sticky notes labelled "FAO Sue/Karen" contain requests to hold POA or Export if there are outstanding issues to resolve first. Red sticky notes labelled "FAO Staff - hold" indicate a member of the eLife Editorial team is dealing with an ongoing issue - this is generally used when minor issues are being resolved in parallel with the final review.
+
+![](https://lh3.googleusercontent.com/ko9-vMEghF-ptJN2TyEgcQ46108K1xp1eJHdjpBk4bTiKlctfBzp14laCJOBJW-sbCDMwj\_jJ52lNkXSsn5-\_fBLEc8EjvPm8IwFh\_MSrAFkEfdLzGr\_y7e5JcjQmVqHve7R7rLg)
 
 If a red sticky note indicates that the article has been submitted alongside another article (e.g ‘Co-submission’, ‘Hold for related article’ etc.), we will need to check the status of the related article and query Editorial on whether the two (or more) articles should be published together (or even PoA’d).
 
 Red sticky notes marked ‘FAO: Production’ or similar can be left since they will be dealt with later in the process.
+
+![](https://lh5.googleusercontent.com/PC1q71WHijruq3CB24tBKm8ppaG9WwXhGZkHo7nmi5ach00mnqp6ebnD11hozDb8O9trumz6CvtC6ZXH0xCfgWVp8stCeHUN9B2uEEpQpwIe9WRAChrzOgMPxgsRZU2Mtch56g\_p)
 
 Any red notes will be exported alongside the article for typesetting, so if an issue is resolved before export, please change the note to green so that it does not get passed along.
 
