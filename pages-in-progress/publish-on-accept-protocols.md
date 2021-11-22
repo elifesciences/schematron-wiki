@@ -258,17 +258,21 @@ To begin checking the metadata within the submission system, click next to move 
 
    * The email address for the corresponding author(s) should match that provided in the article file. If it does not, query the author (they may have used a personal account on the system but want to use an institutional account for correspondence from readers).
    * Each author should have ‘author contributions’. These are checked prior to PoA, so no edits should be required to this section. However, please alert Editorial and Production if no contributions are present.
-2. **Author affiliations: **No need to check.
+2. **Author affiliations: **Only one affiliation per author can be listed in the system.
+   * Ensure the details provided for each author match their first affiliation given in the article file.
+   * Expand abbreviations entered in the system e.g. 'Dept.' should be changed to 'Department'.
 3. **Competing interests: **No need to check.
 4.  **Group authors: **Any group authors mentioned in the author’s article file must be included on the submission system prior to PoA, if not already present in the author information.
 
     The order of the group author(s) is indicated by selecting from a drop-down menu. Ensure that the group author is placed in the correct sequence with the other authors as per the article file’s author list. Any competing interests listed for the group author(s) present in the article file but not on the system should be added prior to PoA publication.
 
-    For every group author, check whether a list of the members of that group is given in the article file. Ideally, this list should give the full name of each member and their affiliation. If this list is not present, check whether it has been provided as a separate file and alert Production via slack.
+    For every group author, check whether a list of the members of that group is given in the article file. Ideally, this list should give the full name of each member and their affiliation. If this list is not present, check whether it has been provided as a separate file and alert Production via Slack.
+
+    Once the system is updated, Production should be alerted to the presence of the group author regardless as the details will need to be added to the XML while the article is in the elife-poa-packaging/outbox folder.
 
     If the phrase ‘**on behalf of**’ is present in the author’s article file followed by the name of a group author or consortium, Production must be alerted prior to PoA so that they can update the XML manually.
 
-    \<on-behalf-of> tagging must be added to the XML rather than the standard group authorship tagging. It should be placed after the authors and before the affiliations in the \<contrib-group>. This must be done while the article is in the elife-poa-packaging/outbox folder (see below):
+    `<on-behalf-of>` tagging must be added to the XML rather than the standard group authorship tagging. It should be placed after the authors and before the affiliations in the \<contrib-group>. This must be done while the article is in the elife-poa-packaging/outbox folder (see below):
 
 ```markup
 <contrib-group>
