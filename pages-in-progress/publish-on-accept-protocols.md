@@ -32,8 +32,6 @@ At present, the PDF and supplementary files are transmitted to the eLife AWS sep
 
 The processing of PoA articles is handled automatically by the 'eLife bot'. Once the three files have been generated, they are delivered to an 'Outbox' folder in a third AWS bucket, .
 
-
-
 From here, the files will be compiled further into a single ZIP package and delivered to Continuum for checking and publication.
 
 ![PoA packages in the final delivery bucket; note name different from Version of Record packages](<../.gitbook/assets/Screenshot 2021-10-15 at 16.27.20 (1).png>)
@@ -136,9 +134,9 @@ The article should then be placed on hold until the authors respond. Be aware th
 
 ****![](<../.gitbook/assets/6 (3).png>)
 
-The next step is to download the merged PDF file containing the authors’ article text, figures and figure supplements. This is the second item in the ‘Manuscript Items’ list.
+The next step is to download the merged PDF file containing the authors’ article text, figures and figure supplements.
 
-This merged PDF - excepting the system-generated cover page - is what will be published as the PoA version of the article. A brief quality check is therefore required to make sure there are no major issues. These checks are detailed below in the sections referring to the individual files.
+This merged PDF - excepting the system-generated cover page - is what will be published as the PoA version of the article, so a brief quality check is required to make sure there are no major issues. These checks are detailed below in the sections referring to the individual files.
 
 Please note the size of the merged PDF. If this is particularly large (e.g. exceeding 150MB) it may cause readers problems when they try to download it. Please ask the author for a smaller merged PDF or remove the figure supplements from the merge to achieve a smaller size (see below; the figure supplements will be available in the figure/data zip package so this will not cause an issue).
 
