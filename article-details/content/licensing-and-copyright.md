@@ -32,11 +32,13 @@ For example, for redrawn figures:
 
 > FAO Exeter: Figure Permissions
 >
-> Figure 2A has been adapted from Figure 3A from Smith and Jones, 2015
+> Note: No additional XML tagging needed as figure is clear adaptation
+>
+> Permissions: Figure 2A has been adapted from Figure 3A from Smith and Jones, 2015
 
-In this case, the permissions statement should be added to the legend at the end of Figure 2A if it is not already present. 
+In this case, the permissions statement should be added to the legend at the end of Figure 2A if it is not already present.&#x20;
 
-For reproduced figures: 
+For reproduced figures:&#x20;
 
 > FAO Exeter: Figure Permissions
 >
@@ -61,10 +63,10 @@ The production team is the backstop in this process and should double-check the 
 
 ### Redrawn figures
 
-Figures and figure supplements (in part or in whole) may be redrawn or 'adapted' from previously published content. This usually means that the authors are not reproducing anything directly but are instead redrawing a figure or simply using the same data to create new content. However, as this term is used inconsistently by authors, eLife needs to determine whether the figure is an adaptation/re-drawing or a reproduction, either by comparing the image to the original if possible, or by asking the authors to confirm this. If the figure is a clear adaptation or redrawing, and as long as the authors provide a suitable citation and state clearly, for example, that “Panel A in Figure 2 has been adapted from Smith and Jones, 2015”, no further action is required. 
+Figures and figure supplements (in part or in whole) may be redrawn or 'adapted' from previously published content. This usually means that the authors are not reproducing anything directly but are instead redrawing a figure or simply using the same data to create new content. However, as this term is used inconsistently by authors, eLife needs to determine whether the figure is an adaptation/re-drawing or a reproduction, either by comparing the image to the original if possible, or by asking the authors to confirm this. If the figure is a clear adaptation or redrawing, and as long as the authors provide a suitable citation and state clearly, for example, that “Panel A in Figure 2 has been adapted from Figure 3A of Smith and Jones, 2015”, no further action is required.&#x20;
 
 {% hint style="info" %}
-If a figure is reproduced but with some additions/deletions, this can be counted as an adaptation. 
+If a figure is reproduced but with some additions/deletions, this can be counted as an adaptation.&#x20;
 {% endhint %}
 
 ### Reproduced figures
@@ -77,7 +79,7 @@ Note: if multiple panels have been reproduced and require permissions informatio
 
 #### Reproductions from CC BY-licensed content
 
-All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license. The CC BY 4.0 license allows content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions. 
+All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license. The CC BY 4.0 license allows content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions.&#x20;
 
 If an article has reproduced figures from content that was previously published under [**CC BY**](https://creativecommons.org/licenses/) (1-4), that content must be properly attributed and credited (provide full citation details and license). We may also need to add extra tagging. Check the license of the article (you can find this from the [**permissions-info**](licensing-and-copyright.md#permissions-info) message) and the license of the previously published content. This will differ depending on where the content was previously published but there should be copyright information on the website of the original content. The Production team can also check in with Editorial to find out if this was flagged at submission.
 
@@ -102,7 +104,7 @@ If an article has reproduced figures from content that was previously published 
 </permissions>
 ```
 
-If the reproduced image is CC-BY-SA, CC-BY-NC, CC-BY-ND, CC-BY-NC-SA or CC-BY-NC-ND, this also needs to be indicated in the underlying XML as these licenses are not as permissive as CC BY or CC0. For example, in 52371, the following text was present in a caption:
+If the reproduced image is CC-BY-SA, CC-BY-NC,&#x20;CC-BY-ND,&#x20;CC-BY-NC-SA or&#x20;CC-BY-NC-ND, this also needs to be indicated in the underlying XML as these licenses are not as permissive as CC BY or CC0. For example, in 52371, the following text was present in a caption:
 
 > Photo credit: Marine snail (Original photo by Katja Schulz, courtesy of Wikipedia, Creative Commons Attribution: Creative Commons, Attribution 2.0 Generic license); Chambered nautilus (Original photo by Profbergert, courtesy of Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported license)
 
@@ -182,7 +184,7 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 **Info**: _XXXXXX has permissions - 'XXXXXX'._
 
-**Action**: This information message will appear for any asset that has permissions information added. No action is required. 
+**Action**: This information message will appear for any asset that has permissions information added. No action is required.&#x20;
 
 #### permissions-test-1
 
@@ -190,37 +192,37 @@ These checks relate to the content of figures and figure supplements. X or XXXXX
 
 **Action**: This error will fire if the permissions wrapper for an article does not have a copyright-statement element. The copyright statement is made up of the copyright symbol © followed by the copyright year, and the copyright holder. The production vendors will need to add this, for example:`<copyright-statement>© 2019, Smith et al</copyright-statement>`
 
-This will not fire for CC0 articles as these do not have copyright statements. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
+This will not fire for CC0 articles as these do not have copyright statements. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0). &#x20;
 
 #### permissions-test-2
 
 **Error**: _permissions must contain copyright-year in the format 0000. Currently it is XXXXXX_
 
-**Action**: This error will fire if the copyright year of an article is entered in a format other than numerical e.g. 'two thousand and twenty' instead of '2020'. The production vendors will need to correct this. This will not fire for CC0 articles. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
+**Action**: This error will fire if the copyright year of an article is entered in a format other than numerical e.g. 'two thousand and twenty' instead of '2020'. The production vendors will need to correct this. This will not fire for CC0 articles. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0). &#x20;
 
 #### permissions-test-3
 
 **Error**: _permissions must contain copyright-holder._
 
-**Action**: This error will fire if there is no copyright holder for an article (does not apply to CC0 articles). The production vendors will need to correct this. The copyright holder should be entered as the surname of the first author followed by 'et al' (e.g. Smith et al). If there is only one author, the 'et al' is not required (e.g. Smith). If there are only two authors, the surnames of both authors should be entered with no 'et al' (e.g. Smith and Jones). See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
+**Action**: This error will fire if there is no copyright holder for an article (does not apply to CC0 articles). The production vendors will need to correct this. The copyright holder should be entered as the surname of the first author followed by 'et al' (e.g. Smith et al). If there is only one author, the 'et al' is not required (e.g. Smith). If there are only two authors, the surnames of both authors should be entered with no 'et al' (e.g. Smith and Jones). See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0). &#x20;
 
 #### permissions-test-4
 
-**Error**: _permissions must contain an ali:free_to_read element._
+**Error**: _permissions must contain an ali:free\_to\_read element._
 
-**Action**: This error will fire if there is no ali:free_to_read element in the permissions wrapper for the article. This will need to be added by the production vendors. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
+**Action**: This error will fire if there is no ali:free\_to\_read element in the permissions wrapper for the article. This will need to be added by the production vendors. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0). &#x20;
 
 #### permissions-test-5
 
 **Error**: _permissions must contain license._
 
-**Action**: This error will fire if there is no \<license> element in the permissions wrapper. This will need to be added by the production vendors. The license element contains information about which CC license the article is published under. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
+**Action**: This error will fire if there is no \<license> element in the permissions wrapper. This will need to be added by the production vendors. The license element contains information about which CC license the article is published under. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0). &#x20;
 
 #### permissions-test-6
 
 **Error**: _copyright-year must match the contents of the year in the pub-date\[@publication-format='electronic']\[@date-type='publication']. Currently, copyright-year=XXXXXX and pub-date=XXXXXX._
 
-**Action**: This error will fire if the copyright year for the article does not match the published date of the article (for example, if an article was published in 2020 but the copyright year is 2019). This will need to be corrected by the production vendors. This will not apply to CC0 articles as the permissions will not not contain a copyright year element.. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
+**Action**: This error will fire if the copyright year for the article does not match the published date of the article (for example, if an article was published in 2020 but the copyright year is 2019). This will need to be corrected by the production vendors. This will not apply to CC0 articles as the permissions will not not contain a copyright year element.. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0). &#x20;
 
 #### permissions-test-7
 
@@ -232,37 +234,37 @@ This will not fire for CC0 articles as these do not have copyright statements. S
 
 **Error**: _copyright-statement must contain a concatenation of '© ', copyright-year, and copyright-holder. Currently it is XXXXXX when according to the other values it should be XXXXXX_
 
-**Action**: This error will fire if the copyright statement for the article is incorrect. The copyright statement must be made up of the copyright symbol © followed by the correct copyright year, and the correct copyright holder (e.g. © 2019, Smith et al). This test checks whether the contents of the copyright statement match the values indicated in the copyright year and copyright holder fields. If any of these are incorrect, they will need to be fixed by the production vendors. 
+**Action**: This error will fire if the copyright statement for the article is incorrect. The copyright statement must be made up of the copyright symbol © followed by the correct copyright year, and the correct copyright holder (e.g. © 2019, Smith et al). This test checks whether the contents of the copyright statement match the values indicated in the copyright year and copyright holder fields. If any of these are incorrect, they will need to be fixed by the production vendors.&#x20;
 
 #### cc-0-test-1
 
 **Error**: _This is a CC0 licensed article (XXXXXX), but there is a copyright-statement (XXXXXX) which is not correct._
 
-**Action**: This error will fire if the article is CC0 licensed but has a copyright statement. First check whether the article is **supposed** to be CC0 licensed. Exeter can check the export from eJP, and eLife can check in eJP itself. If it should be CC BY instead, then Exeter will need to update accordingly. If it a CC0 article, then Exeter will need to remove the copyright-statement. 
+**Action**: This error will fire if the article is CC0 licensed but has a copyright statement. First check whether the article is **supposed** to be CC0 licensed. Exeter can check the export from eJP, and eLife can check in eJP itself. If it should be CC BY instead, then Exeter will need to update accordingly. If it a CC0 article, then Exeter will need to remove the copyright-statement.&#x20;
 
 #### cc-0-test-2
 
 **Error**: _This is a CC0 licensed article (XXXXXX), but there is a copyright-year (XXXXXX) which is not correct._
 
-**Action**: This error will fire if the article is CC0 licensed but has a copyright year. First check whether the article is **supposed** to be CC0 licensed. Exeter can check the export from eJP, and eLife can check in eJP itself. If it should be CC BY instead, then Exeter will need to update accordingly. If it a CC0 article, then Exeter will need to remove the copyright-year. 
+**Action**: This error will fire if the article is CC0 licensed but has a copyright year. First check whether the article is **supposed** to be CC0 licensed. Exeter can check the export from eJP, and eLife can check in eJP itself. If it should be CC BY instead, then Exeter will need to update accordingly. If it a CC0 article, then Exeter will need to remove the copyright-year.&#x20;
 
 #### cc-0-test-3
 
 **Error**: _This is a CC0 licensed article (XXXXXX), but there is a copyright-holder (XXXXXX) which is not correct._
 
-**Action**: This error will fire if the article is CC0 licensed but has a copyright holder. First check whether the article is **supposed** to be CC0 licensed. Exeter can check the export from eJP, and eLife can check in eJP itself. If it should be CC BY instead, then Exeter will need to update accordingly. If it a CC0 article, then Exeter will need to remove the copyright-holder. 
+**Action**: This error will fire if the article is CC0 licensed but has a copyright holder. First check whether the article is **supposed** to be CC0 licensed. Exeter can check the export from eJP, and eLife can check in eJP itself. If it should be CC BY instead, then Exeter will need to update accordingly. If it a CC0 article, then Exeter will need to remove the copyright-holder.&#x20;
 
 #### permissions-test-9
 
 **Error**: _license does not have an @xlink:href which is equal to '_[http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/)_' or '_[http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/)_'._
 
-**Action**: This error will fire if the license element for the article has a link other than _'_[http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/)_' _or _'_[http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/)_'. _This will need to be corrected by the production vendors. 
+**Action**: This error will fire if the license element for the article has a link other than _'_[http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/)_' _or _'_[http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/)_'. _This will need to be corrected by the production vendors.&#x20;
 
 #### license-test-1
 
-**Error**: _license must contain ali:license_ref._
+**Error**: _license must contain ali:license\_ref._
 
-**Action**: This error will fire if there is no ali:license_ref element in the license element for the article. This element includes an appropriate creative commons link depending on which license the article will be published under. The production vendors will need to add this. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
+**Action**: This error will fire if there is no ali:license\_ref element in the license element for the article. This element includes an appropriate creative commons link depending on which license the article will be published under. The production vendors will need to add this. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0). &#x20;
 
 #### license-test-2
 
@@ -322,7 +324,7 @@ See an example of XML for the article-level license of a CC-BY article [**here**
 
 **Action**: This warning will appear if a figure or video caption includes the text 'used with permission_'_ but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will discuss it with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
 
-#### fig-permissions-test-1 
+#### fig-permissions-test-1&#x20;
 
 **Error:** _permissions for XXXXXX has a copyright-statement, but not a copyright-year or copyright-holder which is incorrect._
 
@@ -366,7 +368,7 @@ See an example of XML for the article-level license of a CC-BY article [**here**
 
 #### fig-permissions-test-8
 
-**Error:** _permissions for XXXXXX has XXXXXX \<license> elements, when there can only be 0 or 1._ 
+**Error:** _permissions for XXXXXX has XXXXXX \<license> elements, when there can only be 0 or 1._&#x20;
 
 **Action**: This error will appear if a permissions statement has more than 1 `<license>` element. If the contents of these elements are the same, delete the duplicates. If they are different, double-check what the correct license should be by comparing with the instructions given by the Production team.
 
@@ -374,7 +376,7 @@ See an example of XML for the article-level license of a CC-BY article [**here**
 
 **Error**: _permissions for XXXXXX has a \<license> element, but not \<license-p> element, which is incorrect._
 
-**Action**: This error will appear if a permissions statement has a `<license>` element but no `<license-p>` element. Double-check the instructions given by the Production team to see what this should be. 
+**Action**: This error will appear if a permissions statement has a `<license>` element but no `<license-p>` element. Double-check the instructions given by the Production team to see what this should be.&#x20;
 
 #### fig-permissions-test-10
 
@@ -386,7 +388,7 @@ See an example of XML for the article-level license of a CC-BY article [**here**
 
 **Error**: _figure level permissions must either have a \<copyright-statement> or a  \<license> element, but those for XXXXXX have neither._
 
-**Action**: This error will appear if a permissions statement has no `<copyright-statement>` or `<license>` elements. Query the Production team if these were not provided in the permissions instructions. 
+**Action**: This error will appear if a permissions statement has no `<copyright-statement>` or `<license>` elements. Query the Production team if these were not provided in the permissions instructions.&#x20;
 
 #### fig-permissions-test-12
 
@@ -411,7 +413,7 @@ See an example of XML for the article-level license of a CC-BY article [**here**
 </permissions>
 ```
 
-The license-p element should be corrected to: 
+The license-p element should be corrected to:&#x20;
 
 ```markup
 <permissions>
@@ -432,13 +434,13 @@ The license-p element should be corrected to:
 </permissions>
 ```
 
-If there is no '[**https://creativecommons.org/**](https://creativecommons.org)' type link in the license element and also none in a ali:license_ref element (because the image is not CC-BY), the schematron will automatically assume the figure permission is 'All rights reserved' - query the Production team to check this is correct.
+If there is no '[**https://creativecommons.org/**](https://creativecommons.org)' type link in the license element and also none in a ali:license\_ref element (because the image is not CC-BY), the schematron will automatically assume the figure permission is 'All rights reserved' - query the Production team to check this is correct.
 
 #### fig-permissions-test-13
 
-**Warning**: _XXXXXX permissions - the \<license-p> contains a CC link, but the license does not have an ali:licens_ref element, which is very likely incorrect._
+**Warning**: _XXXXXX permissions - the \<license-p> contains a CC link, but the license does not have an ali:licens\_ref element, which is very likely incorrect._
 
-**Action**: This warning will fire if there is a '[**https://creativecommons.org/**](https://creativecommons.org)**' **type link in the license element but there is no ali:license_ref element. The production vendors will need to add the ali:license_ref element in. 
+**Action**: This warning will fire if there is a '[**https://creativecommons.org/**](https://creativecommons.org)**' **type link in the license element but there is no ali:license\_ref element. The production vendors will need to add the ali:license\_ref element in.&#x20;
 
 #### fig-permissions-test-14
 
@@ -460,13 +462,13 @@ These checks relate to the XML structure of licensing tagging.
 
 **Error**: _permissions is not allowed as a child of XXXXXX_
 
-**Action**: This error will fire if a permissions element is not wrapped under a parent asset such as a table, figure, video, box, or supplementary material. Check which asset the permissions element should be associated with and ask the production vendors to correct this.  
+**Action**: This error will fire if a permissions element is not wrapped under a parent asset such as a table, figure, video, box, or supplementary material. Check which asset the permissions element should be associated with and ask the production vendors to correct this. &#x20;
 
 #### test-permissions-presence
 
 **Error**: _There must be one and only one permissions element in the article-meta. Currently there are XXXXXX_
 
-**Action**: This error will fire if there are none or more than one permission elements under the article-meta. Every article should have article-level licensing including a permissions element in the front matter. If there are multiple, check which is correct by comparing against the copyright year, copyright holder and copyright statements (and checking the license of the article) and ask the production vendors to correct this. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0).  
+**Action**: This error will fire if there are none or more than one permission elements under the article-meta. Every article should have article-level licensing including a permissions element in the front matter. If there are multiple, check which is correct by comparing against the copyright year, copyright holder and copyright statements (and checking the license of the article) and ask the production vendors to correct this. See an example of XML for the article-level license of a CC-BY article [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) or a CC0 article [**here**](licensing-and-copyright.md#article-level-license-cc-0). &#x20;
 
 ## XML structure
 
@@ -576,7 +578,7 @@ These checks relate to the XML structure of licensing tagging.
 
 #### Changes
 
-* Added [**licensing flowchart**](licensing-and-copyright.md#figure-adaptations-and-reproductions) and clarifications about adding XML. 
+* Added [**licensing flowchart**](licensing-and-copyright.md#figure-adaptations-and-reproductions) and clarifications about adding XML.&#x20;
 
 ### 28/07/2021
 
