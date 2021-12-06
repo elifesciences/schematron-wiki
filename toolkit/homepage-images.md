@@ -16,17 +16,17 @@ On eLife's [**homepage**](https://elifesciences.org), we feature three [**striki
 
 ## What makes a great homepage image?
 
-When looking through the possible striking images, it is important to keep in mind that the image will be in landscape orientation with white text overlaying the image. The image should have a strong visual impact and ideally not contain more than one panel. As mentioned in the striking image [**guidance**](striking-images-1.md#requirements), there should be no graphs, text, or summary figures. The best choices are colour photographs, microscopy images, and illustrations. It is also good practise to look at the other images on the carousel and try to vary the theme of the images if you can. 
+When looking through the possible striking images, it is important to keep in mind that the image will be in landscape orientation with white text overlaying the image. The image should have a strong visual impact and ideally not contain more than one panel. As mentioned in the striking image [**guidance**](striking-images-1.md#requirements), there should be no graphs, text, or summary figures. The best choices are colour photographs, microscopy images, and illustrations. It is also good practise to look at the other images on the carousel and try to vary the theme of the images if you can.&#x20;
 
-The file requirements for Journal CMS (the content management system used to change the homepage image) are as follows: 
+The file requirements for Journal CMS (the content management system used to change the homepage image) are as follows:&#x20;
 
-* Maximum of 32MB 
+* Maximum of 32MB&#x20;
 * Image size larger than 1800x900 pixels
 * Accepted formats are png, jpg, and jpeg
 
 ### Examples
 
-Below are some of the images that have featured on the homepage. 
+Below are some of the images that have featured on the homepage.&#x20;
 
 ![Striking image for 55164](../.gitbook/assets/screen-shot-2020-08-13-at-08.58.15.png)
 
@@ -41,75 +41,75 @@ Here is a brief overview of the process for selecting a homepage image:
 * Monday AM: Email Peter for the homepage words
 * Tuesday PM: Change the homepage image
 
-You can pick the new homepage image from the striking images associated with VoR articles that have been published since Wednesday of the previous week. 
+You can pick the new homepage image from the striking images associated with VoR articles that have been published since Wednesday of the previous week.&#x20;
 
-As the words are requested on Monday mornings, it can be hard to be sure that an article will be published by the Tuesday afternoon, when the image is changed, if it is still in the Production workflow.  To avoid having to select a new image at the last minute, it is best practise to only use press papers that are already scheduled for that Tuesday, if selecting an unpublished paper. 
+As the words are requested on Monday mornings, it can be hard to be sure that an article will be published by the Tuesday afternoon, when the image is changed, if it is still in the Production workflow.  To avoid having to select a new image at the last minute, it is best practise to only use press papers that are already scheduled for that Tuesday, if selecting an unpublished paper.&#x20;
 
-You can use the Production team action [**sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) to look for articles that have been scheduled, and/or use the eLife's website to find VoR articles that have been published in the previous week. As you view each article, you will need to search the striking image bucket to see if it has a suitable image (please see the 'Uploading via the striking images AWS bucket' section [**here**](striking-images-1.md#uploading-via-the-striking-images-aws-bucket) on how to access this). Once you have found an image, you will then need to send this to Peter as outlined below. On the rare occasion that you do not find a suitable image, you should email Peter to let him know. Then either send an image later in the day when more articles have been published or at the very latest, Tuesday morning. 
+You can use the Production team action [**sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC\_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) to look for articles that have been scheduled, and/or use the eLife's website to find VoR articles that have been published in the previous week. As you view each article, you will need to search the striking image bucket to see if it has a suitable image (please see the 'Uploading via the striking images AWS bucket' section [**here**](striking-images-1.md#uploading-via-the-striking-images-aws-bucket) on how to access this). Once you have found an image, you will then need to send this to Peter as outlined below. On the rare occasion that you do not find a suitable image, you should email Peter to let him know. Then either send an image later in the day when more articles have been published or at the very latest, Tuesday morning.&#x20;
 
-Ideally, a PoA should not be used but in the rare cases that you cannot find a suitable image for a VoR article, Peter (the Features editor) should be emailed to discuss this. 
+Ideally, a PoA should not be used but in the rare cases that you cannot find a suitable image for a VoR article, Peter (the Features editor) should be emailed to discuss this.&#x20;
 
 ## Editing an image
 
-Sometimes, you may find the perfect image but it is not quite right, for example, the image may be slightly too small. Another reason may be that the image is too large so ideally it requires cropping slightly so that the right part of the image is the focus for the image carousel. Care should be taken not to edit the image beyond the point where the image quality drops significantly. 
+Sometimes, you may find the perfect image but it is not quite right, for example, the image may be slightly too small. Another reason may be that the image is too large so ideally it requires cropping slightly so that the right part of the image is the focus for the image carousel. Care should be taken not to edit the image beyond the point where the image quality drops significantly.&#x20;
 
-The striking image that was provided for 50645 was too narrow but would make a great homepage image. 
+The striking image that was provided for 50645 was too narrow but would make a great homepage image.&#x20;
 
 ![Striking image for 50645](../.gitbook/assets/screen-shot-2020-08-27-at-12.23.51.png)
 
-To make this more suitable for the homepage image, in Photoshop we extended the black background to at least our minimum image size (1800x900 pixels). Another change we made was to crop the image slightly so that the Jerboa's head is the main focus on the picture. In its current format, the image carousel would focus on the Jerboa's body, cutting off some of it's head. Sadly the funky feet had to go. 
+To make this more suitable for the homepage image, in Photoshop we extended the black background to at least our minimum image size (1800x900 pixels). Another change we made was to crop the image slightly so that the Jerboa's head is the main focus on the picture. In its current format, the image carousel would focus on the Jerboa's body, cutting off some of it's head. Sadly the funky feet had to go.&#x20;
 
-![The final edit to 50645 for the homepage](../.gitbook/assets/50645-a_striking_image.jpg)
+![The final edit to 50645 for the homepage](../.gitbook/assets/50645-a\_striking\_image.jpg)
 
-If you are not familiar with Photoshop, please do ask a member of the Production team who can assist you. 
+If you are not familiar with Photoshop, please do ask a member of the Production team who can assist you.&#x20;
 
-However, you should not make any significant changes to the photo that aren't for the purpose of re-sizing the image. This is due to respecting the author's original image submission. 
+However, you should not make any significant changes to the photo that aren't for the purpose of re-sizing the image. This is due to respecting the author's original image submission.&#x20;
 
 ## Homepage image wording
 
 The homepage image is selected by a nominated member of the Production team on a Monday morning. This image is emailed to Peter (the Features Editor) asking him to provide the wording which overlays the image. This text is a short description of the article, which you can see on the carousel at the top of this page.
 
-To ensure this is not forgotten, a reminder email is sent to the Production inbox and a reminder will appear in Slack. 
+To ensure this is not forgotten, a reminder email is sent to the Production inbox and a reminder will appear in Slack.&#x20;
 
 ![](../.gitbook/assets/screen-shot-2020-08-10-at-12.25.52.png)
 
 ![](../.gitbook/assets/screen-shot-2020-09-10-at-11.56.12.png)
 
-There will be a homepage image email thread for the month, typically in the format 'Homepages for August'. If it is a new month, a new email thread will need to be made. Ensure each request email contains both the manuscript number and the striking image you have selected. 
+There will be a homepage image email thread for the month, typically in the format 'Homepages for August'. If it is a new month, a new email thread will need to be made. Ensure each request email contains both the manuscript number and the striking image you have selected.&#x20;
 
-If the image selected is a large size, it is advisable to use a screenshot of the image to save on space in the inbox. 
+If the image selected is a large size, it is advisable to use a screenshot of the image to save on space in the inbox.&#x20;
 
-Peter will reply with the wording and this sentence should be transferred over to the Production team action sheet, including any italics used. 
+Peter will reply with the wording and this sentence should be transferred over to the Production team action sheet, including any italics used.&#x20;
 
 ![The MS number and homepage words on the Production action sheet](../.gitbook/assets/screen-shot-2020-08-13-at-10.29.19.png)
 
 ## Changing the homepage image
 
-The homepage image is changed on Tuesday afternoon, an email reminder will be sent to the Production inbox. 
+The homepage image is changed on Tuesday afternoon, an email reminder will be sent to the Production inbox.&#x20;
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-12.08.38.png)
 
-A reminder will also appear on Slack in the 'eLife_production' channel.
+A reminder will also appear on Slack in the 'eLife\_production' channel.
 
 ![](../.gitbook/assets/screen-shot-2020-09-10-at-11.57.55.png)
 
-To do this, follow the steps below. 
+To do this, follow the steps below.&#x20;
 
 * Go to [**https://prod--journal-cms.elifesciences.org/**](https://prod--journal-cms.elifesciences.org)****
-* Log in. If you do not have login credentials, please speak to a member of the Production team. 
+* Log in. If you do not have login credentials, please speak to a member of the Production team.&#x20;
 * Hover over the 'Structure' tab at the top of the page and click on 'Entityqueues'.
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-12.19.34.png)
 
-* In the queue 'Covers preview', click on 'Edit items'. 
+* In the queue 'Covers preview', click on 'Edit items'.&#x20;
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-12.19.14.png)
 
-* Scroll to the bottom of the page and click on 'Add new cover'. 
+* Scroll to the bottom of the page and click on 'Add new cover'.&#x20;
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-13.32.37.png)
 
-* In the 'Title' field, enter the words that Peter has provided. 
+* In the 'Title' field, enter the words that Peter has provided.&#x20;
 
 {% hint style="danger" %}
 There should be no full stop at the end of the sentence.
@@ -123,7 +123,7 @@ Italics should be added using `<i>` tags. For example
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-13.34.27.png)
 
-* Now 'Choose file' under the 'Image (banner) field. It may help to already have the chosen image saved to your desktop. After you have selected the image, the system will alert you if there are any problems with the image. Typically, this is due to size or file type. **Reminder: **the images must be a maximum of 32MB, larger than 1800x900 pixels, and only in the three following formats: png, jpg, or jpeg. Leave the field 'Alternative text' blank.
+* Now 'Choose file' under the 'Image (banner) field. It may help to already have the chosen image saved to your desktop. After you have selected the image, the system will alert you if there are any problems with the image. Typically, this is due to size or file type. **Reminder:** the images must be a maximum of 32MB, larger than 1800x900 pixels, and only in the three following formats: png, jpg, or jpeg. Leave the field 'Alternative text' blank.
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-13.41.18.png)
 
@@ -139,11 +139,11 @@ Italics should be added using `<i>` tags. For example
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-13.45.34.png)
 
-* Click on 'Add related content item' beneath the 'Related content item' field. 
+* Click on 'Add related content item' beneath the 'Related content item' field.&#x20;
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-13.45.52.png)
 
-* Click 'Create cover' which will put this new cover at the bottom of the items list. 
+* Click 'Create cover' which will put this new cover at the bottom of the items list.&#x20;
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-13.57.35.png)
 
@@ -151,13 +151,13 @@ Italics should be added using `<i>` tags. For example
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-14.00.12.png)
 
-* Now the cover is at the top of the page, you need to scroll down to the bottom of the page again and tick 'Publish items', then click 'Save'. 
+* Now the cover is at the top of the page, you need to scroll down to the bottom of the page again and tick 'Publish items', then click 'Save'.&#x20;
 
 ![](../.gitbook/assets/screen-shot-2020-08-13-at-14.03.25.png)
 
-* This process is now done. To ensure the homepage has updated correctly, check the eLife homepage after at least 15 minutes. 
+* This process is now done. To ensure the homepage has updated correctly, check the eLife homepage after at least 15 minutes.&#x20;
 
-If there are any issues with the Journal CMS website, Nathan can be contacted through the #journal-cms Slack channel. 
+If there are any issues with the Journal CMS website, Nathan can be contacted through the #journal-cms Slack channel.&#x20;
 
 ## Changelog
 

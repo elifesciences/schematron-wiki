@@ -36,7 +36,7 @@ For information, the following are not proper nouns: editors, early-careers rese
 
 Exceptions to sentence case rule:
 
-* Sub-title before the colon should be capital case and first letter of first word after colon should be capital: eg: 
+* Sub-title before the colon should be capital case and first letter of first word after colon should be capital: eg:&#x20;
   * Media Coverage: Nothing fishy…
   * Point of View: Strategies from UW-Madison for rescuing biomedical research in the US
   * Webinar Report: Removing barriers for women in science
@@ -90,14 +90,14 @@ When not to use either:
 * In titles (e.g. Press package: Cells sell sunscreen)
 * For ‘postdoc’
 
-**Note:** how to add an en-rule using HTML: 
+**Note:** how to add an en-rule using HTML:&#x20;
 
 * \&#8211;
 * See: http://www.ascii.cl/htmlcodes.htm
 
 ### **Colons**
 
-Use colons rather than en rules in titles, for example: 
+Use colons rather than en rules in titles, for example:&#x20;
 
 * Media coverage: Nothing fishy…
 * Press package: Cells sell sunscreen
@@ -195,11 +195,11 @@ Example of emphasis: I thought this was meant to be a ‘simple’ style guide!
 
 Regarding punctuation and quotations, punctuation marks belong within the quotations if text is a full sentence, and outside if not, for example:
 
-The eLife design is “beautiful and user-friendly”. 
+The eLife design is “beautiful and user-friendly”.&#x20;
 
 Eve Marder said, “Why do we have to have a house style anyway?”.
 
-### **References **
+### **References**&#x20;
 
 Non-paginated journal article (e.g. eLife):
 
@@ -221,7 +221,7 @@ The minimal information that can be given for a reader to locate an article is a
 
 ### **Abbreviations**
 
-Abbreviations can be used, as long as defined first. 
+Abbreviations can be used, as long as defined first.&#x20;
 
 Use discretion:
 
@@ -247,52 +247,52 @@ Gene names are italicized, proteins are not (follow the research article you are
 
 Current pages of the website
 
-* Homepage:** **[**https://elifesciences.org/**](https://elifesciences.org)
-* About:** **[**https://elifesciences.org/about**](https://elifesciences.org/about)
+* Homepage: **** [**https://elifesciences.org/**](https://elifesciences.org)
+* About: **** [**https://elifesciences.org/about**](https://elifesciences.org/about)
   * [**https://elifesciences.org/about/peer-review**](https://elifesciences.org/about/peer-review)
   * [**https://elifesciences.org/about/openness**](https://elifesciences.org/about/openness)
   * [**https://elifesciences.org/about/innovation**](https://elifesciences.org/about/innovation)
   * [**https://elifesciences.org/about/early-career**](https://elifesciences.org/about/early-career)
   * [**https://elifesciences.org/about/people**](https://elifesciences.org/about/people)
-* Community:** **[**https://elifesciences.org/community**](https://elifesciences.org/community)
+* Community: **** [**https://elifesciences.org/community**](https://elifesciences.org/community)
 * Search: [**https://elifesciences.org/search**](https://elifesciences.org/search)
-* March example:** **[**https://elifesciences.org/archive/2015/march**](https://elifesciences.org/archive/2015/march)
-* Magazine:** **[**https://elifesciences.org/magazine**](https://elifesciences.org/magazine)
-* Podcasts:** **[**https://elifesciences.org/podcast**](https://elifesciences.org/podcast)
-* Collections:** **[**https://elifesciences.org/collections**](https://elifesciences.org/collections)
+* March example: **** [**https://elifesciences.org/archive/2015/march**](https://elifesciences.org/archive/2015/march)
+* Magazine: **** [**https://elifesciences.org/magazine**](https://elifesciences.org/magazine)
+* Podcasts: **** [**https://elifesciences.org/podcast**](https://elifesciences.org/podcast)
+* Collections: **** [**https://elifesciences.org/collections**](https://elifesciences.org/collections)
 
 **Article page examples**
 
-* Research article:** **[**https://elifesciences.org/articles/05871**](https://elifesciences.org/articles/05871)
-* Insight:** **[**https://elifesciences.org/articles/07322**](https://elifesciences.org/articles/07322)
-* Editorial:** **[**https://elifesciences.org/articles/07083**](https://elifesciences.org/articles/07083)
-* Feature 1:** **[**https://elifesciences.org/articles/07364**](https://elifesciences.org/articles/07364)
-* Feature 2:** **[**https://elifesciences.org/articles/05849**](https://elifesciences.org/articles/05849)
+* Research article: **** [**https://elifesciences.org/articles/05871**](https://elifesciences.org/articles/05871)
+* Insight: **** [**https://elifesciences.org/articles/07322**](https://elifesciences.org/articles/07322)
+* Editorial: **** [**https://elifesciences.org/articles/07083**](https://elifesciences.org/articles/07083)
+* Feature 1: **** [**https://elifesciences.org/articles/07364**](https://elifesciences.org/articles/07364)
+* Feature 2: **** [**https://elifesciences.org/articles/05849**](https://elifesciences.org/articles/05849)
 
 **Footer**
 
-* Contact:** **[**https://elifesciences.org/contact**](https://elifesciences.org/contact)
-* For the press:** **[**https://elifesciences.org/for-the-press**](https://elifesciences.org/for-the-press)
-* Alerts:** **[**https://elifesciences.org/alerts**](https://elifesciences.org/alerts)
-* Resources:** **[**https://elifesciences.org/resources**](https://elifesciences.org/resources)
-* Who we work with:** **[**https://elifesciences.org/who-we-work-with**](https://elifesciences.org/who-we-work-with)
-* Terms and policy:** **[**https://elifesciences.org/terms**](https://elifesciences.org/terms)
-* Inside eLife:** **[**https://elifesciences.org/inside-elife**](https://elifesciences.org/inside-elife)
-* Labs:** **[**https://elifesciences.org/labs**](https://elifesciences.org/labs)
-* Monthly archive:** **[**https://elifesciences.org/archive/2017**](https://elifesciences.org/archive/2017)
+* Contact: **** [**https://elifesciences.org/contact**](https://elifesciences.org/contact)
+* For the press: **** [**https://elifesciences.org/for-the-press**](https://elifesciences.org/for-the-press)
+* Alerts: **** [**https://elifesciences.org/alerts**](https://elifesciences.org/alerts)
+* Resources: **** [**https://elifesciences.org/resources**](https://elifesciences.org/resources)
+* Who we work with: **** [**https://elifesciences.org/who-we-work-with**](https://elifesciences.org/who-we-work-with)
+* Terms and policy: **** [**https://elifesciences.org/terms**](https://elifesciences.org/terms)
+* Inside eLife: **** [**https://elifesciences.org/inside-elife**](https://elifesciences.org/inside-elife)
+* Labs: **** [**https://elifesciences.org/labs**](https://elifesciences.org/labs)
+* Monthly archive: **** [**https://elifesciences.org/archive/2017**](https://elifesciences.org/archive/2017)
 
 **Other**
 
-* Annual reports:** **[**https://elifesciences.org/annual-reports**](https://elifesciences.org/annual-reports)
-* Events:** **[**https://elifesciences.org/events**](https://elifesciences.org/events)
-* Early careers:** **[**https://elifesciences.org/community**](https://elifesciences.org/community)
-* Job vacancies:** **[**https://elifesciences.org/\[TBC\]**](https://elifesciences.org/\[TBC%7D)
-* Interviews:** **[**https://elifesciences.org/interviews**](https://elifesciences.org/interviews)
-* Research categories:** **[**https://elifesciences.org/subjects**](https://elifesciences.org/subjects)
-* Submit:** **[**https://submit.elifesciences.org/**](https://submit.elifesciences.org)
-* For authors:** **[**https://submit.elifesciences.org/html/elife_author_instructions.html**](https://submit.elifesciences.org/html/elife_author_instructions.html)
-* For reviewers: [**https://submit.elifesciences.org/html/elife_reviewer_instructions.html**](https://submit.elifesciences.org/html/elife_reviewer_instructions.html)
-* Contact us:** **[**https://submit.elifesciences.org/html/elife_contact.html**](https://submit.elifesciences.org/html/elife_contact.html)
+* Annual reports: **** [**https://elifesciences.org/annual-reports**](https://elifesciences.org/annual-reports)
+* Events: **** [**https://elifesciences.org/events**](https://elifesciences.org/events)
+* Early careers: **** [**https://elifesciences.org/community**](https://elifesciences.org/community)
+* Job vacancies: **** [**https://elifesciences.org/\[TBC\]**](https://elifesciences.org/\[TBC%7D)
+* Interviews: **** [**https://elifesciences.org/interviews**](https://elifesciences.org/interviews)
+* Research categories: **** [**https://elifesciences.org/subjects**](https://elifesciences.org/subjects)
+* Submit: **** [**https://submit.elifesciences.org/**](https://submit.elifesciences.org)
+* For authors: **** [**https://submit.elifesciences.org/html/elife\_author\_instructions.html**](https://submit.elifesciences.org/html/elife\_author\_instructions.html)
+* For reviewers: [**https://submit.elifesciences.org/html/elife\_reviewer\_instructions.html**](https://submit.elifesciences.org/html/elife\_reviewer\_instructions.html)
+* Contact us: **** [**https://submit.elifesciences.org/html/elife\_contact.html**](https://submit.elifesciences.org/html/elife\_contact.html)
 
 ## Changelog
 
@@ -300,5 +300,5 @@ Current pages of the website
 
 #### Changes
 
-* Removed 'Note: Research Article titles – colons are discouraged except in tools and resources.' from [**Colons**](elife-website-and-communication-house-style.md#colons) section. 
+* Removed 'Note: Research Article titles – colons are discouraged except in tools and resources.' from [**Colons**](elife-website-and-communication-house-style.md#colons) section.&#x20;
 

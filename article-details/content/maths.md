@@ -32,7 +32,7 @@ For example below, inline equations are marked in blue, and the display equation
 
 ## What can equations contain
 
-Display equations can (but don't have to) have a label. Inline equations cannot have a label. They both must contain some math markup, MathML. 
+Display equations can (but don't have to) have a label. Inline equations cannot have a label. They both must contain some math markup, MathML.&#x20;
 
 Equations should not be provided as images. If an author manuscript contains maths captured as images, either the production vendors need to typeset the maths themselves, or eLife production staff need to go back to authors and ask them to provide it in a machine readable format.
 
@@ -81,7 +81,7 @@ At post-author stages, any author feedback relating to equations should be addre
 
 ### Equations in abstracts
 
-Abstracts are sent to many downstream services, and some of these are not able to render maths if provided as MathML (or LaTeX, or images). Therefore, if it is possible to capture an equation in an abstract as plain text, then it should be done. 
+Abstracts are sent to many downstream services, and some of these are not able to render maths if provided as MathML (or LaTeX, or images). Therefore, if it is possible to capture an equation in an abstract as plain text, then it should be done.&#x20;
 
 For example, until recently PubMed were unable to render mathML in abstracts. As a result eLife currently replace any equation in an abstract with the text `[Formula: see text]` in the content that we send them.
 
@@ -115,7 +115,7 @@ If you are unfamiliar with LaTeX notation, then you can use a tool such as [**Ma
 
 ## LaTeX cheatsheet
 
-Below contains some simple LaTeX instructions which are standard and included in Kriya (as well as most packages). It is by no means an exhaustive list. Kriya's equation editor has instructions on how to capture certain markup that is helpful. 
+Below contains some simple LaTeX instructions which are standard and included in Kriya (as well as most packages). It is by no means an exhaustive list. Kriya's equation editor has instructions on how to capture certain markup that is helpful.&#x20;
 
 ### Subscript and superscript
 
@@ -182,7 +182,7 @@ Below contains some simple LaTeX instructions which are standard and included in
 
 ### Decorations and notation
 
-Use `\hat{x}` for this $$\hat{x}$$ instead of `\overset{^}{x}` 
+Use `\hat{x}` for this $$\hat{x}$$ instead of `\overset{^}{x}`&#x20;
 
 `\overline{x+y}=\underline{x+y}` $$\overline{x+y}=\underline{x+y}$$
 
@@ -192,7 +192,7 @@ Use `\hat{x}` for this $$\hat{x}$$ instead of `\overset{^}{x}`
 
 `\dot{x} + \ddot{y} + \ddddot{z} + \bar{\omega}` $$\dot{x}+\ddot{y}+\ddddot{z}+\bar{\omega}$$
 
-`\overrightarrow{AB} \underleftarrow{AB} \underleftrightarrow{AB}`  
+`\overrightarrow{AB} \underleftarrow{AB} \underleftrightarrow{AB}` &#x20;
 
 $$\overrightarrow{AB}\hspace{90pt} \underleftarrow{AB}\hspace{90pt} \underleftrightarrow{AB}$$
 
@@ -210,7 +210,7 @@ $$\overrightarrow{AB}\hspace{90pt} \underleftarrow{AB}\hspace{90pt} \underleftri
 
 `\oint{x}` $$\oint{x}$$
 
-`\oint\limits_{\oint{x} }^{y}{z}` $$\oint\limits_{\oint{x} }^{y}{z}$$  
+`\oint\limits_{\oint{x} }^{y}{z}` $$\oint\limits_{\oint{x} }^{y}{z}$$ &#x20;
 
 ### Spacing
 
@@ -248,7 +248,7 @@ $$\overrightarrow{AB}\hspace{90pt} \underleftarrow{AB}\hspace{90pt} \underleftri
 
 ### Fences (brackets)
 
-`() [] \Big[\Big] \{\} \langle \rangle \lfloor \rfloor \lceil \rceil | \| `
+`() [] \Big[\Big] \{\} \langle \rangle \lfloor \rfloor \lceil \rceil | \|`&#x20;
 
 $$\;()\hspace{5pt} []\hspace{20pt} \Big[\Big]\hspace{25pt} \{\}\hspace{15pt} \langle\hspace{30pt} \rangle\hspace{30pt} \lfloor\hspace{30pt} \rfloor\hspace{30pt} \lceil\hspace{25pt} \rceil\hspace{17pt} |\hspace{8pt} \|$$
 
@@ -282,13 +282,13 @@ $$\begin{align*} \nabla \cdot \mathbb{A}\; = \alpha \\ \nabla \cdot \mathbb{B}\;
 
 $$+ \hspace{3pt} - \hspace{7pt} \pm\hspace{14pt} \times\hspace{14pt} \div\hspace{16pt} \cdot\hspace{18pt} \oplus\hspace{27pt} \otimes\hspace{14pt} \ne\hspace{4pt} <\hspace{2pt} >\hspace{5pt} \le\hspace{9pt} \ge\hspace{15pt} \approx\hspace{20pt} \infty$$
 
-`\cong \neq \equiv \prec \succ \preceq \succeq \mp \vee \wedge \ll \gg` 
+`\cong \neq \equiv \prec \succ \preceq \succeq \mp \vee \wedge \ll \gg`&#x20;
 
 $$\hspace{10pt}\cong\hspace{15pt}\neq\hspace{15pt}\equiv\hspace{19pt}\prec\hspace{19pt}\succ\hspace{20pt}\preceq\hspace{25pt}\succeq\hspace{17.5pt}\mp\hspace{12pt}\vee\hspace{12pt}\wedge\hspace{12pt}\ll\hspace{10pt}\gg$$
 
 ## Equations on the eLife website
 
-Equations are rendered on the eLife website using [**MathJax**](https://www.mathjax.org). Note that there are certain space limitations on the eLife website for equations, if they are particularly long they may be wrapped across numerous lines in order to fit within the content container, and since they are an object which is separate from the normal text in the page, the wrapping may not correspond with the text (see also [**inline-formula-length-test-1**](maths.md#inline-formula-length-test-1)** **and the example therein).
+Equations are rendered on the eLife website using [**MathJax**](https://www.mathjax.org). Note that there are certain space limitations on the eLife website for equations, if they are particularly long they may be wrapped across numerous lines in order to fit within the content container, and since they are an object which is separate from the normal text in the page, the wrapping may not correspond with the text (see also [**inline-formula-length-test-1**](maths.md#inline-formula-length-test-1) **** and the example therein).
 
 eLife have an arrangement with the production vendors whereby they are paid more for LaTeX articles, and expected to carefully check the maths against the original files at pre-editing. LaTeX articles also have an extended turn-around time (compared with non-LaTeX articles).
 
@@ -304,8 +304,8 @@ During pre-publication checks, special care should be given to equations by eLif
 
 **Action**: In almost all cases this warning fires, a space will need to be added before the inline equation. The only exception would be if both of the following two conditions are satisfied:
 
-1.  A particular character or characters need to be captured as an inline equation so that the font matches how those characters appear elsewhere in the article (see above).
-2. This character (or characters) should be placed directly after the preceding text without any space. 
+1. &#x20;A particular character or characters need to be captured as an inline equation so that the font matches how those characters appear elsewhere in the article (see above).
+2. This character (or characters) should be placed directly after the preceding text without any space.&#x20;
 
 Here is an example of a case where the warning could be ignored, taken from [**https://elifesciences.org/articles/56942.pdf**](https://elifesciences.org/articles/56942.pdf).
 
@@ -321,8 +321,8 @@ If the production vendors are unsure, they can query the eLife production team v
 
 **Action**: In almost all cases this warning fires, a space will need to be added after the inline equation. The only exception would be if both of the following two conditions are satisfied:
 
-1.  A particular character or characters need to be captured as an inline equation so that the font matches how those characters appear elsewhere in the article (see above).
-2. This character (or characters) should be placed directly before the following text without any space. 
+1. &#x20;A particular character or characters need to be captured as an inline equation so that the font matches how those characters appear elsewhere in the article (see above).
+2. This character (or characters) should be placed directly before the following text without any space.&#x20;
 
 Here is an example of a case where the warning could be ignored taken from [**https://elifesciences.org/articles/56942.pdf**](https://elifesciences.org/articles/56942.pdf).
 
@@ -372,7 +372,7 @@ If the production vendors are unsure, they can query the eLife production team v
 
 **Warning**: _mml:math only contains 'μ', which is likely unnecessary. Should this be captured as a normal text 'μ' instead?_
 
-**Action**: Typically in scientific articles this character is used to denote micro. However, it may also (or instead) be used as a constant or variable in an equation which represents a certain value. Depending on it's usage in an article, it may be appropriate to retain this as an equation or to delete it and instead capture the character as plain text. 
+**Action**: Typically in scientific articles this character is used to denote micro. However, it may also (or instead) be used as a constant or variable in an equation which represents a certain value. Depending on it's usage in an article, it may be appropriate to retain this as an equation or to delete it and instead capture the character as plain text.&#x20;
 
 Check if the character has been used in a display equation elsewhere. If it has, and this is being used to denote that same variable, then it _must_ be left as an inline equation to retain consistent font throughout the article.
 
@@ -450,7 +450,7 @@ $$Br^{-}\quad F^{-}\quad N^{3-}\quad O^{2-}\quad S^{-}$$
 
 * We strongly advise against including formulae in abstracts since these are sent to various places downstream which are unable to render the maths. If possible, please rephrase your abstract accordingly and indicate where the formula(e) should be included in the main text instead.
 
-If the article has inline formulae in the abstract, the above query should still be left. If the authors are unable to remove the inline formula(e) from their abstract, this warning can be ignored. 
+If the article has inline formulae in the abstract, the above query should still be left. If the authors are unable to remove the inline formula(e) from their abstract, this warning can be ignored.&#x20;
 
 #### **math-test-19**
 
@@ -458,7 +458,7 @@ If the article has inline formulae in the abstract, the above query should still
 
 **Action**: This warning will fire for equations that contain words or letters which may be missing the required spacing in the MathML (in the XML) in order for the spacing to render on our site. Check the rest of the article or the source manuscript to determine whether authors intended the word(s)/term(s) to include a space or not.
 
-Here is a published example to illustrate case where intervention would be needed. 
+Here is a published example to illustrate case where intervention would be needed.&#x20;
 
 ****[**https://elifesciences.org/articles/47602#equ7**](https://elifesciences.org/articles/47602#equ7)****
 
@@ -506,7 +506,7 @@ At post-author stages, this warning can be ignored.
 
 **Warning**: _math (XXXXXX element) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. Please check this carefully against the original manuscript. If it's not a mistake, and the background colour is deliberate, then please ensure that the background colour is captured for the table cell (rather than the maths)._
 
-**Action**: This warning will fire at pre-author stages for maths in a table, which has background colour formatting (similar to highlighting). eLife do not permit background colouring for text, and only permit certain colours for text itself (red, blue, or purple), and [**certain colours for table cells**](allowed-assets/tables.md#allowed-colours-in-tables). The production vendors should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP. If the colours were present for the table cell(s) in the original manuscript then that formatting should be removed from the equation and added to the cell; then the steps required for colours in tables cells should be followed, as directed by the Schematron messages after re-validating (see also the [**Tables page**](allowed-assets/tables.md)). If, in the original manuscript, there was background colour for the maths, then it should be changed as colour for the text of the maths. 
+**Action**: This warning will fire at pre-author stages for maths in a table, which has background colour formatting (similar to highlighting). eLife do not permit background colouring for text, and only permit certain colours for text itself (red, blue, or purple), and [**certain colours for table cells**](allowed-assets/tables.md#allowed-colours-in-tables). The production vendors should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP. If the colours were present for the table cell(s) in the original manuscript then that formatting should be removed from the equation and added to the cell; then the steps required for colours in tables cells should be followed, as directed by the Schematron messages after re-validating (see also the [**Tables page**](allowed-assets/tables.md)). If, in the original manuscript, there was background colour for the maths, then it should be changed as colour for the text of the maths.&#x20;
 
 #### **final-mathbackground-test-1**
 
@@ -518,7 +518,7 @@ At post-author stages, this warning can be ignored.
 
 **Error**: _math (XXXXXX element) containing 'XXXXXX' has 'XXXXXX' colour background formatting. This likely means that there's a mistake in the content which will not render correctly online. If it's not a mistake, and the background colour is deliberate, then either the background colour will need to added to the table cell (rather than the maths), or it needs to be removed._
 
-**Action**: This warning will fire at post-author stages for maths in a table, which has background colour formatting (similar to highlighting). eLife do not permit background colouring for text, and only permit certain colours for text itself (red, blue, or purple), and [**certain colours for table cells**](allowed-assets/tables.md#allowed-colours-in-tables). The production vendors should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP. If the colours were present for the table cell(s) in the original manuscript then that formatting should be removed from the equation and added to the cell; then the steps required for colours in tables cells should be followed, as directed by the Schematron messages after re-validating (see also the [**Tables page**](allowed-assets/tables.md)). If, in the original manuscript, there was background colour for the maths, then it should be changed as colour for the text of the maths. 
+**Action**: This warning will fire at post-author stages for maths in a table, which has background colour formatting (similar to highlighting). eLife do not permit background colouring for text, and only permit certain colours for text itself (red, blue, or purple), and [**certain colours for table cells**](allowed-assets/tables.md#allowed-colours-in-tables). The production vendors should check that this isn't a processing error by confirming the colours were in the original manuscript exported from eJP. If the colours were present for the table cell(s) in the original manuscript then that formatting should be removed from the equation and added to the cell; then the steps required for colours in tables cells should be followed, as directed by the Schematron messages after re-validating (see also the [**Tables page**](allowed-assets/tables.md)). If, in the original manuscript, there was background colour for the maths, then it should be changed as colour for the text of the maths.&#x20;
 
 #### **mtext-test-1**
 
@@ -560,7 +560,7 @@ At post-author stages, if the above query has been added, then action should be 
 
 **Error**: _Duplicated display formula labels - XXXXXX is present more than once in the main body of the text._
 
-**Action**: This will fire at all stages if two or more equations in a single appendix have the same label. The production vendors should query the eLife Production team, who will determine the best course of action. If this is an obvious typo, then the equations can be renumbered so that they are sequential. Note that we can have equations 1a, 1b and so on, so it may be appropriate to renumber in that fashion. 
+**Action**: This will fire at all stages if two or more equations in a single appendix have the same label. The production vendors should query the eLife Production team, who will determine the best course of action. If this is an obvious typo, then the equations can be renumbered so that they are sequential. Note that we can have equations 1a, 1b and so on, so it may be appropriate to renumber in that fashion.&#x20;
 
 If the authors are referring to an equation from a different paper (for example Equation 1 from Smith et al. and there is also an equation 1 from the authors), then the label in the equation taken from the other paper can be removed, and references to it in the text can be updated to reflect that (any citations for Equation 1 changed to Equation 1 from Smith et al., 2020) etc. An author query should be added so that the authors are aware of the change and can suggest an alternative if desired:
 
@@ -578,7 +578,7 @@ If the authors are referring to an equation from a different paper (for example 
 
 **Error**: _disp-formula must contain an mml:math element._
 
-**Action**: This will fire at all stages if there is no mml:math element as a child of the disp-formula element. If this has fired, it means something has gone awry in Kriya, and will likely need to be looked into by the production vendor support team. 
+**Action**: This will fire at all stages if there is no mml:math element as a child of the disp-formula element. If this has fired, it means something has gone awry in Kriya, and will likely need to be looked into by the production vendor support team.&#x20;
 
 #### **disp-formula-test-3**
 
@@ -600,13 +600,13 @@ If the authors are referring to an equation from a different paper (for example 
 
 **Error**: _inline-formula must contain an mml:math element._
 
-**Action**: This will fire at all stages if there is no mml:math element as a child of the inline-formula element. If this has fired, it means something has gone awry in Kriya, and will likely need to be looked into by the production vendor support team. 
+**Action**: This will fire at all stages if there is no mml:math element as a child of the inline-formula element. If this has fired, it means something has gone awry in Kriya, and will likely need to be looked into by the production vendor support team.&#x20;
 
 #### **inline-formula-test-4**
 
 **Error**: _XXXXXX must be a child of p, td, th or title. The formula containing XXXXXX is a child of XXXXXX_
 
-**Action**: This will fire at all stages if an inline-formula element is not a child of either a p, title, td or th element. If this has fired, it means something has gone awry in Kriya, and will likely need to be looked into by the production vendor support team. 
+**Action**: This will fire at all stages if an inline-formula element is not a child of either a p, title, td or th element. If this has fired, it means something has gone awry in Kriya, and will likely need to be looked into by the production vendor support team.&#x20;
 
 #### **math-test-1**
 
@@ -640,25 +640,25 @@ Try re-entering the LaTeX for the equation in the equation editor in Kriya. If y
 
 **Error**: _mml:math @id in disp-formula must be in the format 'm0'. XXXXXX does not conform to this._
 
-**Action**: This error will fire at any stage_ _if an mml:math element in the main body or an appendix has an id which is not in the format `m0`. The production vendor support team will need to fix this.
+**Action**: This error will fire at any stage __ if an mml:math element in the main body or an appendix has an id which is not in the format `m0`. The production vendor support team will need to fix this.
 
 #### **sub-mml-math-id-test**
 
 **Error**: _mml:math @id in disp-formula must be in the format 'sa0m0'. XXXXXX does not conform to this._
 
-**Action**: This error will fire at any stage_ _if an mml:math element within a sub-article which is not in the format `sa0m0`. The production vendor support team will need to fix this.
+**Action**: This error will fire at any stage __ if an mml:math element within a sub-article which is not in the format `sa0m0`. The production vendor support team will need to fix this.
 
 #### **disp-formula-id-test**
 
 **Error**: _disp-formula @id must be in the format 'equ0'._
 
-**Action**: This error will fire at any stage_ _if an disp-formula element in the main body or an appendix has an id which is not in the format `equ0`. The production vendor support team will need to fix this.
+**Action**: This error will fire at any stage __ if an disp-formula element in the main body or an appendix has an id which is not in the format `equ0`. The production vendor support team will need to fix this.
 
 #### **sub-disp-formula-id-test**
 
 **Error**: _disp-formula @id must be in the format 'sa0equ0' when in a sub-article. XXXXXX does not conform to this._
 
-**Action**: This error will fire at any stage_ _if a disp-formula element within a sub-article which is not in the format `sa0equ0`. The production vendor support team will need to fix this.
+**Action**: This error will fire at any stage __ if a disp-formula element within a sub-article which is not in the format `sa0equ0`. The production vendor support team will need to fix this.
 
 ## XML structure
 
@@ -672,10 +672,10 @@ The top level element containing the equation is `<math>`. This element and any 
 
 The most common, basic elements are listed below. More information on MathML can be found [**here**](https://developer.mozilla.org/en-US/docs/Web/MathML).
 
-* `<mi>` - this element contains identifiers such as constants, variables or function names. 
-*  `<mo>` - this element contains operators such as equal signs, commas, parentheses, multiplication symbols, semicolons, and so on. 
+* `<mi>` - this element contains identifiers such as constants, variables or function names.&#x20;
+* &#x20;`<mo>` - this element contains operators such as equal signs, commas, parentheses, multiplication symbols, semicolons, and so on.&#x20;
 * `<mn>` - this element contains numerals, which could be just digits, digits with a comma or full stop, or roman numerals and so on.
-* `<mtext>` - this element contains text. 
+* `<mtext>` - this element contains text.&#x20;
 * `<mspace>` - this element denotes blank space. The size of the space is determined by its attributes.
 
 An inline equation:
@@ -815,7 +815,7 @@ A display equation without a label:
 
 #### Changes
 
-* Edited text of [**math-test-18**](maths.md#math-test-18) to add information about equations in abstracts. 
+* Edited text of [**math-test-18**](maths.md#math-test-18) to add information about equations in abstracts.&#x20;
 
 ### 06/10/2021
 

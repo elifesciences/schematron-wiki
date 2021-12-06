@@ -39,18 +39,18 @@ The following information can be added for journal references:
 
 Non-mandatory fields are required if they exist. Validation of references via PubMed or Crossref API tools should pull them in if the author did not provide them. Schematron warnings may also pick up incomplete references, and these should be checked at the source of the reference.
 
-* **Authors**: Enter each author name as a surname(s) followed by initials. 
-* **Collaboration: **Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
+* **Authors**: Enter each author name as a surname(s) followed by initials.&#x20;
+* **Collaboration:** Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
 * **Year**: This should be the year the article was published. This field can include a letter suffix (e.g. 2020a) if needed to distinguish between citations (see more [here](../reference-citations.md#what-is-a-reference-citation)).
 * **Article title**: The title of the article. Can contain italics, superscript and subscript as required.
 * **Journal name**: The full (not abbreviated) name of the journal in which the article was published.
-* **Volume: **The volume of the journal in which the article was published (if applicable). eLife does not include issue numbers in journal references, so this information does not need to be added.
+* **Volume:** The volume of the journal in which the article was published (if applicable). eLife does not include issue numbers in journal references, so this information does not need to be added.
 * **e-location ID:** The e-location identifier for the article (if applicable; most journal references will have either page numbers or an e-location ID).
-* **First page: **The page number on which the article starts (if applicable; most journal references will have either page numbers or an e-location ID). Some page numbers will be prefixed with letters.
+* **First page:** The page number on which the article starts (if applicable; most journal references will have either page numbers or an e-location ID). Some page numbers will be prefixed with letters.
 * **Last page:** The page number on which the article ends (if applicable; some articles are one-page long and so a last page is not required as it is the same as the first page). Some page numbers will be prefixed with letters.
 * **DOI:** The Digital Object Identifier for the article (if applicable).
-* **PMID: **The PubMed Identifier for the article (if applicable). This will not be supplied by the author but is added during pre-editing via the PubMed API tool.
-* **InPress**: If a paper has been accepted for publication but the final publication details are not yet known, this field should have the text 'In press'. 
+* **PMID:** The PubMed Identifier for the article (if applicable). This will not be supplied by the author but is added during pre-editing via the PubMed API tool.
+* **InPress**: If a paper has been accepted for publication but the final publication details are not yet known, this field should have the text 'In press'.&#x20;
 
 If any of the mandatory information is not provided, look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
 
@@ -64,9 +64,9 @@ Right-click where you want to add the citation and click on Add New > Add New Re
 
 The default fields in Kriya will need to be altered to include the following information in the order below. To delete an unnecessary field click the red 'bin' button (if this doesn't work, try re-validating after all fields have been filled out, or change the field type to the one you need). To add a field click the green '+' button to the entry above where you need to add it.
 
-* Author 
+* Author&#x20;
 * Collaboration (if applicable)
-* Year 
+* Year&#x20;
 * Article title
 * Journal name
 * Volume (if available)
@@ -112,33 +112,33 @@ This is the only way to add an 'In press' comment, as at the moment, it is not p
 
 ### Articles in preparation
 
-Papers that are 'in press' will have been accepted for publication but have not yet been assigned a volume/issue. An author may also cite manuscripts that have not yet been accepted for publication. Manuscripts that have not yet been accepted for publication are considered personal communication. The manuscript could still be rejected as it has not been accepted by a journal for publication. 
+Papers that are 'in press' will have been accepted for publication but have not yet been assigned a volume/issue. An author may also cite manuscripts that have not yet been accepted for publication. Manuscripts that have not yet been accepted for publication are considered personal communication. The manuscript could still be rejected as it has not been accepted by a journal for publication.&#x20;
 
-These are often referred to within the main text and reference list as 'manuscript in preparation', 'in production', 'under review', 'submitted', and typically do not have a publication year. An author is free to include as much information they wish for this in text citation including the title and where it has been submitted to. 
+These are often referred to within the main text and reference list as 'manuscript in preparation', 'in production', 'under review', 'submitted', and typically do not have a publication year. An author is free to include as much information they wish for this in text citation including the title and where it has been submitted to.&#x20;
 
 If any of this is present, Exeter should leave the following author query during pre-editing.
 
 * Please update this reference if this article is now in press. If it is still in preparation, it will need to be removed from the reference list and cited in the text as, for example 'Smith et al., in preparation. Alternatively, if this is available as a preprint, please can those details be provided so that we can add it to the reference list instead.'.
 
-If the authors respond to say the article is now in press, the 'In press' field will need to be added to the reference (see [**above**](journal-references.md#how-to-add-an-in-press-field)). If the authors respond to say the article is still in preparation and no preprint is available, the reference will need to be removed from the reference list. We would then add a plain text citation within the text, for example 'Smith et al., in preparation'. 
+If the authors respond to say the article is now in press, the 'In press' field will need to be added to the reference (see [**above**](journal-references.md#how-to-add-an-in-press-field)). If the authors respond to say the article is still in preparation and no preprint is available, the reference will need to be removed from the reference list. We would then add a plain text citation within the text, for example 'Smith et al., in preparation'.&#x20;
 
 ![An example in 61119.](../../../.gitbook/assets/screen-shot-2021-04-14-at-11.25.38.png)
 
-This is because the manuscript that is being cited is not yet a proper reference and is considered personal communication. The manuscript could still be rejected as it has not been accepted by a journal for publication. 
+This is because the manuscript that is being cited is not yet a proper reference and is considered personal communication. The manuscript could still be rejected as it has not been accepted by a journal for publication.&#x20;
 
 ## Finding reference details
 
-Journals are not standardised in the way they archive their articles. Some journals do not use volume numbers, page ranges, e-locations, or DOIs, so these details will not be present for all journal references. Many journals publish articles online 'ahead of print' (eLife calls this 'Publish on Acceptance', or 'PoA') so the full details may be unavailable until the print or full version is issued.  
+Journals are not standardised in the way they archive their articles. Some journals do not use volume numbers, page ranges, e-locations, or DOIs, so these details will not be present for all journal references. Many journals publish articles online 'ahead of print' (eLife calls this 'Publish on Acceptance', or 'PoA') so the full details may be unavailable until the print or full version is issued. &#x20;
 
 For example after entering the reference details below and searching Crossref, there doesn't appear to be any information about volume, page numbers, e-location IDs:
 
 ![](<../../../.gitbook/assets/screenshot-2020-05-27-at-16.23.28 (1).png>)
 
-Searching for this reference online, one of the results is the page below. This reference is to an article that has been published online ahead of print. As there is no information here about volume, e-location ID or page range here, these fields do not need to be filled out. 
+Searching for this reference online, one of the results is the page below. This reference is to an article that has been published online ahead of print. As there is no information here about volume, e-location ID or page range here, these fields do not need to be filled out.&#x20;
 
 ![](../../../.gitbook/assets/screenshot-2020-06-10-at-10.19.53.png)
 
-## Schematron checks 
+## Schematron checks&#x20;
 
 ### Content checks
 
@@ -146,19 +146,19 @@ These checks relate to the content of journal references. X or XXXXXX refers to 
 
 #### eloc-page-assert
 
-**Warning:**_ ref 'XXXXXX' is a journal, but it doesn't have a page range or e-location. Is this right?_
+**Warning:** _ref 'XXXXXX' is a journal, but it doesn't have a page range or e-location. Is this right?_
 
-**Action: **This warning will appear if a journal reference does not have a page range or e-location ID. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website to check whether these are available. These may be unavailable because the article has been published online before a print version (and so doesn't have those details yet). Some journals also do not use page ranges or e-location IDs to catalogue their articles. If you cannot find this information online, you can ignore this warning.
+**Action:** This warning will appear if a journal reference does not have a page range or e-location ID. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website to check whether these are available. These may be unavailable because the article has been published online before a print version (and so doesn't have those details yet). Some journals also do not use page ranges or e-location IDs to catalogue their articles. If you cannot find this information online, you can ignore this warning.
 
 #### **volume-assert**
 
-**Warning: **_ref 'XXXXXX' is a journal, but it doesn't have a volume. Is this right?_
+**Warning:** _ref 'XXXXXX' is a journal, but it doesn't have a volume. Is this right?_
 
-**Action: **This warning will appear if a journal reference does not have a volume. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website to check whether this is available. These may be unavailable because the article has been published online before a print version (and so doesn't have a volume number yet). Some journals also do not use volumes to catalogue their articles. If you cannot find this information online, you can ignore this warning.
+**Action:** This warning will appear if a journal reference does not have a volume. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website to check whether this is available. These may be unavailable because the article has been published online before a print version (and so doesn't have a volume number yet). Some journals also do not use volumes to catalogue their articles. If you cannot find this information online, you can ignore this warning.
 
 #### online-journal-w-page
 
-**Error: **_XXXXXX is a XXXXXX article, but has a page number, which is incorrect._ 
+**Error:** _XXXXXX is a XXXXXX article, but has a page number, which is incorrect._&#x20;
 
 **Action:** This error will appear if a journal reference has the journal name PLOS, eLife or mBio and a page number. These are the journals eLife knows never use page numbers for their articles, but instead use e-location IDs. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website to find the e-location ID, add this, and delete any page number fields.
 
@@ -172,13 +172,13 @@ While doing this check, look out for differing article information. If the autho
 
 #### err-elem-cit-journal-6-5-2
 
-**Error: **_\<lpage> must be larger than \<fpage>, if present. Reference 'XXXXXX' has first page \<fpage> = 'XXXXXX' but last page \<lpage> = 'XXXXXX'._
+**Error:** _\<lpage> must be larger than \<fpage>, if present. Reference 'XXXXXX' has first page \<fpage> = 'XXXXXX' but last page \<lpage> = 'XXXXXX'._
 
 **Action:** This error will appear if a journal reference has a first page value larger than the last page value (this can happen if the authors truncate the last page, e.g. 123-34). Look up the article on PubMed or the journal website to identify the appropriate page range information and correct the reference. If the article in fact has an e-location ID rather than a page range, remove any first or last pages and enter the ID in the e-location ID field.
 
 #### err-elem-cit-journal-6-6
 
-**Error:**_ If the content of \<fpage> begins with a letter, then the content of \<lpage> must begin with the same letter. Reference 'XXXXXX' does not._
+**Error:** _If the content of \<fpage> begins with a letter, then the content of \<lpage> must begin with the same letter. Reference 'XXXXXX' does not._
 
 **Action:** This error will appear if a journal reference has a first page value beginning with a letter, but a last page value that does not (e.g. first page: e45, last page: 60) Update the last page to start with the same letter(s) as the first page.
 
@@ -198,7 +198,7 @@ If the authors respond to say the article is now in press, add the 'In press' fi
 
 #### err-elem-cit-journal-10
 
-**Error: **_If \<pub-id pub-id-type="pmid"> is present, the content must be all numeric. The content of \<pub-id pub-id-type="pmid"> in Reference 'XXXXXX' is XXXXXX._
+**Error:** _If \<pub-id pub-id-type="pmid"> is present, the content must be all numeric. The content of \<pub-id pub-id-type="pmid"> in Reference 'XXXXXX' is XXXXXX._
 
 **Action:** This error will appear if a PubMed ID has any letters. PMIDs should only contain numbers - search for the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) to get the correct ID and enter this.
 
@@ -206,21 +206,21 @@ If the authors respond to say the article is now in press, add the 'In press' fi
 
 **Info:** _XXXXXX_ _contains an organism - 'XXXXXX - but there is no italic element with that correct capitalisation or spacing._
 
-**Example: **bib1 contains an organism - 'X. laevis' - but there is no italic element with that correct capitalisation or spacing.
+**Example:** bib1 contains an organism - 'X. laevis' - but there is no italic element with that correct capitalisation or spacing.
 
-**Action: **This message will appear if an article title contains a species name (or multiple) which should usually be italicised. In research content however, these messages do not need to be acted upon unless the author has specifically asked for these to be corrected. In feature content, the indicated species names should be italicised.
+**Action:** This message will appear if an article title contains a species name (or multiple) which should usually be italicised. In research content however, these messages do not need to be acted upon unless the author has specifically asked for these to be corrected. In feature content, the indicated species names should be italicised.
 
 #### PLOS-1
 
 **Error:** _ref 'XXXXXX' contains XXXXXX. 'PLOS' should be upper-case._
 
-**Action:** This error will appear if a journal reference has a 'journal name' field that includes 'PLOS' capitalised incorrectly. Make sure this is corrected to 'PLOS' in all cases. For example, 'Plos; PLoS; Plos Biology, PLoS Medicine' should be changed to 'PLOS, PLOS, PLOS Biology, PLOS Medicine'. 
+**Action:** This error will appear if a journal reference has a 'journal name' field that includes 'PLOS' capitalised incorrectly. Make sure this is corrected to 'PLOS' in all cases. For example, 'Plos; PLoS; Plos Biology, PLoS Medicine' should be changed to 'PLOS, PLOS, PLOS Biology, PLOS Medicine'.&#x20;
 
 #### PLOS-2
 
 **Error:** _ref 'XXXXXX' contains XXXXXX. 'PLOS ONE' should be upper-case._
 
-**Action:** This error will appear if a journal reference has a 'journal name' field that includes 'PLOS ONE' capitalised incorrectly. For example 'Plos one; PLoS One; PLOS One' should all be changed to 'PLOS ONE'. 
+**Action:** This error will appear if a journal reference has a 'journal name' field that includes 'PLOS ONE' capitalised incorrectly. For example 'Plos one; PLoS One; PLOS One' should all be changed to 'PLOS ONE'.&#x20;
 
 #### PNAS
 
@@ -238,7 +238,7 @@ If the authors respond to say the article is now in press, add the 'In press' fi
 
 **Error:** _ref 'XXXXXX' contains XXXXXX. 'BMJ' should be upper-case._
 
-**Action:** This error will appear if a journal reference has a journal name 'BMJ' with the incorrect capitalisation (e.g. bmj, Bmj). Make sure this is corrected to 'BMJ'. 
+**Action:** This error will appear if a journal reference has a journal name 'BMJ' with the incorrect capitalisation (e.g. bmj, Bmj). Make sure this is corrected to 'BMJ'.&#x20;
 
 #### G3
 
@@ -248,15 +248,15 @@ If the authors respond to say the article is now in press, add the 'In press' fi
 
 #### ampersand-check
 
-**Warning: **_ref 'XXXXXX' appears to contain the text 'amp', is this a broken ampersand?_
+**Warning:** _ref 'XXXXXX' appears to contain the text 'amp', is this a broken ampersand?_
 
-**Action: **This error will appear if a journal reference contains the text 'amp'. This usually indicates a conversion error where '&' has converted to the text string 'amp'. Please check the article online and correct as necessary - if the source used '&' please replace 'amp' with '&'; if the source used 'and' please update 'amp' to 'and'.
+**Action:** This error will appear if a journal reference contains the text 'amp'. This usually indicates a conversion error where '&' has converted to the text string 'amp'. Please check the article online and correct as necessary - if the source used '&' please replace 'amp' with '&'; if the source used 'and' please update 'amp' to 'and'.
 
 #### Research-gate-check
 
 **Error:** _ref 'XXXXXX' has a source title 'XXXXXX' which must be incorrect._
 
-**Action: **This error will appear if a journal name has been entered as 'Research Gate' (or 'research gate', 'researchgate' or any other capitalisation alternatives). Research Gate is a platform for scientists to collaborate and share articles - it is not a journal. Check what the correct journal name should be by looking up the article online and enter that instead. If the article can only be found on Research Gate, and the journal name is not clear, leave the following author query:
+**Action:** This error will appear if a journal name has been entered as 'Research Gate' (or 'research gate', 'researchgate' or any other capitalisation alternatives). Research Gate is a platform for scientists to collaborate and share articles - it is not a journal. Check what the correct journal name should be by looking up the article online and enter that instead. If the article can only be found on Research Gate, and the journal name is not clear, leave the following author query:
 
 * Please provide the journal name for this reference.
 
@@ -264,9 +264,9 @@ If the authors respond to say the article is now in press, add the 'In press' fi
 
 **Error:** X_XXXXX type reference XXXXXX is a zenodo one, which means that it must be one of the following reference types: data, software, preprint or report._
 
-**Example message: **_journal type reference (with the id bib20) is a zenodo one, which means that it must be one of the following reference types: data, software, preprint or report._
+**Example message:** _journal type reference (with the id bib20) is a zenodo one, which means that it must be one of the following reference types: data, software, preprint or report._
 
-**Action: **This error will appear if a reference which is not captured as either a data, software, preprint or report type reference and has a source element containing 'Zenodo' or similar, or a link or doi which points to Zenodo. Check the content on Zendod, and change the reference type to suit what kind of reference it should be.
+**Action:** This error will appear if a reference which is not captured as either a data, software, preprint or report type reference and has a source element containing 'Zenodo' or similar, or a link or doi which points to Zenodo. Check the content on Zendod, and change the reference type to suit what kind of reference it should be.
 
 #### elife-check
 
@@ -278,13 +278,13 @@ If the authors respond to say the article is now in press, add the 'In press' fi
 
 **Error:** _source_ _element contains the replacement character '�' which is unallowed - XXXXXX_
 
-**Action: **This error will appear if a journal name contains the character ‘�’. This usually indicates a conversion error has occurred and an unknown, unrecognized or unrepresentable character has been replaced with ‘�’. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website and update with the correct character.
+**Action:** This error will appear if a journal name contains the character ‘�’. This usually indicates a conversion error has occurred and an unknown, unrecognized or unrepresentable character has been replaced with ‘�’. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website and update with the correct character.
 
 #### journal-off-presence
 
-**Warning: **_ref 'XXXXXX' has a source title which contains the text 'official journal' - 'XXXXXX'. Is this necessary?_
+**Warning:** _ref 'XXXXXX' has a source title which contains the text 'official journal' - 'XXXXXX'. Is this necessary?_
 
-**Action: **This warning will appear if a journal name includes the text 'official journal'. Often this is because the tagline of the journal has been included in the field:
+**Action:** This warning will appear if a journal name includes the text 'official journal'. Often this is because the tagline of the journal has been included in the field:
 
 ![](../../../.gitbook/assets/screenshot-2020-06-10-at-10.25.26.png)
 
@@ -294,7 +294,7 @@ Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the jour
 
 **handbook-presence**
 
-**Error: **_Journal ref 'XXXXXX' has a journal name 'XXXXXX'. Should it be captured as a book type reference instead?_
+**Error:** _Journal ref 'XXXXXX' has a journal name 'XXXXXX'. Should it be captured as a book type reference instead?_
 
 **Action:** This error will appear if a journal reference has a journal name that includes the word 'handbook'. This indicates that the reference should actually be a book reference instead of a journal reference. Change the reference to a [**book reference**](book-references.md) and update the fields accordingly.
 
@@ -302,25 +302,25 @@ Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the jour
 
 **Info**: _ref 'XXXXXX' has an article-title with a full stop. Is this correct, or has the journal/source title been included? Or perhaps the full stop should be a colon ':'?_
 
-**Action: **This message will appear if a journal reference has a title including a full stop. The journal name may also have been pulled into the title e.g. 'Reversal of prolonged obesity-associated cerebrovascular dysfunction by inhibiting microglial Tak1. _Nature'. Neuroscience._ Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website to work out whether the full stop should be kept or replaced with a colon, or check whether the journal name has been incorrectly pulled into the article title.
+**Action:** This message will appear if a journal reference has a title including a full stop. The journal name may also have been pulled into the title e.g. 'Reversal of prolonged obesity-associated cerebrovascular dysfunction by inhibiting microglial Tak1. _Nature'. Neuroscience._ Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website to work out whether the full stop should be kept or replaced with a colon, or check whether the journal name has been incorrectly pulled into the article title.
 
 #### article-title-fullstop-check-2
 
 **Error:** ref 'XXXXXX' has an article-title which ends with a full stop, which cannot be correct - XXXXXX
 
-**Action: **This error will appear if a journal reference has an article title which ends with a full stop. The full stop should be removed as this will make the journal reference incorrectly formatted. 
+**Action:** This error will appear if a journal reference has an article title which ends with a full stop. The full stop should be removed as this will make the journal reference incorrectly formatted.&#x20;
 
 #### **article-title-fullstop-check-3**
 
 **Warning:** _ref 'XXXXXX' has an article-title which ends with some full stops - is this correct? - XXXXXX_
 
-**Action: **This error will appear if a journal reference has an article title which ends with 1+ full stops. All the full stops should be removed.
+**Action:** This error will appear if a journal reference has an article title which ends with 1+ full stops. All the full stops should be removed.
 
 #### **article-title-correction-check**
 
 **Warning:** _ref 'XXXXXX' has an article-title which begins with 'Correction', 'Retraction' or contains 'Erratum'. Is this a reference to the notice or the original article?_
 
-**Action: **This warning will appear if a journal reference has an article title beginning with 'Correction', 'Retraction' or contains 'Erratum'. Read the context surrounding the citation of this reference to work out what to do. If the reference list includes both the corrected/retracted article and the original article, or if the authors mention that the citation is to a corrected/retracted article in the context, you can leave this reference in. Otherwise, check the original submitted manuscript to make sure the wrong details have not been entered for this reference. If the original submitted manuscript cites the corrected/retracted paper, leave this reference in, but leave the following author query at the pre-editing stage:
+**Action:** This warning will appear if a journal reference has an article title beginning with 'Correction', 'Retraction' or contains 'Erratum'. Read the context surrounding the citation of this reference to work out what to do. If the reference list includes both the corrected/retracted article and the original article, or if the authors mention that the citation is to a corrected/retracted article in the context, you can leave this reference in. Otherwise, check the original submitted manuscript to make sure the wrong details have not been entered for this reference. If the original submitted manuscript cites the corrected/retracted paper, leave this reference in, but leave the following author query at the pre-editing stage:
 
 * This reference is to a correction/retraction/erratum. Please confirm whether this is correct.
 
@@ -328,21 +328,21 @@ If this warning appears at the post-editing stage, the authors may need to be as
 
 **article-title-journal-check**
 
-**Warning: **_ref 'XXXXXX' has an article-title which contains the text ' journal '. Is a journal name (source) erroneously included in the title? - 'XXXXXX'_
+**Warning:** _ref 'XXXXXX' has an article-title which contains the text ' journal '. Is a journal name (source) erroneously included in the title? - 'XXXXXX'_
 
-**Action: **This warning will appear if a journal reference has an article title which includes the text 'journal'. This may need to be removed if, for example it reads 'Journal: PNAS'. However, if the word 'journal' is part of the article title (e.g. 'The History and Meaning of the Journal Impact Factor'), it should be kept.
+**Action:** This warning will appear if a journal reference has an article title which includes the text 'journal'. This may need to be removed if, for example it reads 'Journal: PNAS'. However, if the word 'journal' is part of the article title (e.g. 'The History and Meaning of the Journal Impact Factor'), it should be kept.
 
 #### article-title-child-1
 
 **Warning:** _ref 'XXXXXX' has an article-title with one child XXXXXX element, and no text. This is almost certainly incorrect. - XXXXXX_
 
-**Action: **This warning will appear if a journal reference has an article title with formatting applied to the whole content (e.g. if the title is entirely in italics or bold formatting). Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website to see how it should be formatted and update accordingly. If you can't find the reference online, remove all formatting from the title.
+**Action:** This warning will appear if a journal reference has an article title with formatting applied to the whole content (e.g. if the title is entirely in italics or bold formatting). Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website to see how it should be formatted and update accordingly. If you can't find the reference online, remove all formatting from the title.
 
 #### a-title-replacement-character-presence
 
-**Error: **_article-title_** **_element contains the replacement character '�' which is unallowed - XXXXXX_
+**Error:** _article-title_ **** _element contains the replacement character '�' which is unallowed - XXXXXX_
 
-**Action: **This error will appear if an article title contains the character ‘�’. This usually indicates a conversion error has occurred and an unknown, unrecognized or unrepresentable character has been replaced with ‘�’. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website and update with the correct character.
+**Action:** This error will appear if an article title contains the character ‘�’. This usually indicates a conversion error has occurred and an unknown, unrecognized or unrepresentable character has been replaced with ‘�’. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website and update with the correct character.
 
 #### journal-preprint-check
 
@@ -354,7 +354,7 @@ If this warning appears at the post-editing stage, the authors may need to be as
 
 **Error:** ref 'XXXXXX' is an XXXXXX article, but it has no doi in the format 10.7554/eLife.00000, which must be incorrect.
 
-**Action:** This error will appear if a journal reference has the journal name 'eLife' but the doi is incorrectly formatted. eLife articles have dois in the format: 10.7554/eLife.XXXXX. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website to check what the doi should be. If the article hasn't been published yet, check to see whether it is in the production process, and add the manuscript number in place of 'XXXXX'. If you don't know the manuscript number, check with the Production team, who will look up the article title in eJP. 
+**Action:** This error will appear if a journal reference has the journal name 'eLife' but the doi is incorrectly formatted. eLife articles have dois in the format: 10.7554/eLife.XXXXX. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website to check what the doi should be. If the article hasn't been published yet, check to see whether it is in the production process, and add the manuscript number in place of 'XXXXX'. If you don't know the manuscript number, check with the Production team, who will look up the article title in eJP.&#x20;
 
 #### journal-conference-ref-check-1
 
@@ -378,25 +378,25 @@ These checks relate to the XML structure of journal references. For more informa
 
 #### pre-err-elem-cit-journal-2-1
 
-**Warning: **_Each \<element-citation> of type 'journal' must contain one and only one \<person-group> element. Reference 'XXXXXX' has XXXXXX \<person-group> elements. If this information is missing, please query the authors for it._
+**Warning:** _Each \<element-citation> of type 'journal' must contain one and only one \<person-group> element. Reference 'XXXXXX' has XXXXXX \<person-group> elements. If this information is missing, please query the authors for it._
 
 **Action:** This will fire at pre author stages. If there is no author list present, one will need to be added to the reference. Look the article up online if possible; otherwise raise an author query on the proof for the missing information. In cases where no author is given, 'Anon' will most likely need to be added in the 'Collaboration' field (\<collab>). Alternatively, if the article is an [editorial piece](https://www.nature.com/articles/d41586-020-01620-1), use the name of the journal in the 'Collaboration' field. If there are multiple person-group elements, this means there has been an error in processing - Exeter will need to fix this.
 
 #### final-err-elem-cit-journal-2-1
 
-**Error: **_Each \<element-citation> of type 'journal' must contain one and only one \<person-group> element. Reference 'XXXXXX' has XXXXXX \<person-group> elements._
+**Error:** _Each \<element-citation> of type 'journal' must contain one and only one \<person-group> element. Reference 'XXXXXX' has XXXXXX \<person-group> elements._
 
 **Action:** This will fire at post-author stages. If there is no author list present, one will need to be added to the reference. Look the article up online if possible; otherwise the eLife production team should contact the authors for the missing information. In cases where no author is given, 'Anon' will most likely need to be added in the 'Collaboration' field (\<collab>). Alternatively, if the article is an [editorial piece](https://www.nature.com/articles/d41586-020-01620-1), use the name of the journal in the 'Collaboration' field. If there are multiple person-group elements, this means there has been an error in processing - Exeter will need to fix this.
 
 #### pre-err-elem-cit-journal-2-2
 
-**Warning:**_ Each \<element-citation> of type 'journal' must contain one \<person-group> with the attribute person-group-type 'author'. Reference 'XXXXXX' has a \<person-group> type of 'XXXXXX'._
+**Warning:** _Each \<element-citation> of type 'journal' must contain one \<person-group> with the attribute person-group-type 'author'. Reference 'XXXXXX' has a \<person-group> type of 'XXXXXX'._
 
 **Action:** This warning will fire at pre-author stages if there is no author list, or if authors have been tagged as other kinds of contributors (e.g. editors or curators). If there is no author list, make sure this is added by searching for the article details online. If the details cannot be found, then add an author query in the proofs asking for the author list. If there are contributors other than authors or collaborations, this means there has been an error in processing - Exeter will need to fix this.
 
 #### final-err-elem-cit-journal-2-2
 
-**Error:**_ Each \<element-citation> of type 'journal' must contain one \<person-group> with the attribute person-group-type 'author'. Reference 'XXXXXX' has a \<person-group> type of 'XXXXXX'._
+**Error:** _Each \<element-citation> of type 'journal' must contain one \<person-group> with the attribute person-group-type 'author'. Reference 'XXXXXX' has a \<person-group> type of 'XXXXXX'._
 
 **Action:** This error will fire at post-author stages if there is no author list, or if authors have been tagged as other kinds of contributors (e.g. editors or curators). If there is no author list, make sure this is added by searching for the article details online. If the details cannot be found, then the eLife production team will need to contact the authors to ask for the author list. If there are contributors other than authors or collaborations, this means there has been an error in processing - Exeter will need to fix this.
 
@@ -408,13 +408,13 @@ These checks relate to the XML structure of journal references. For more informa
 
 * Please provide the title for this reference.
 
-If the reference has more than one article title, compare the details with the original submission to work out which is the correct article title and enter that. 
+If the reference has more than one article title, compare the details with the original submission to work out which is the correct article title and enter that.&#x20;
 
 #### err-elem-cit-journal-4-1
 
 **Error:** _Each \<element-citation> of type 'journal' must contain one and only one \<source> element. Reference 'XXXXXX' has XXXXXX \<source> elements._
 
-**Action: **This error will appear if a journal reference has more than one or no journal name. Check that the journal name has not been accidentally captured as part of the article title (which will result in no source, i.e. Journal name) or that the journal title or article title has not be split out over multiple source entries. If the authors have not provided the journal name but have given other bibliographic details (e.g. article title, volume, page range or elocation ID) it may be possible to search for the article online. If there are not enough details to find the article, add the following author query:
+**Action:** This error will appear if a journal reference has more than one or no journal name. Check that the journal name has not been accidentally captured as part of the article title (which will result in no source, i.e. Journal name) or that the journal title or article title has not be split out over multiple source entries. If the authors have not provided the journal name but have given other bibliographic details (e.g. article title, volume, page range or elocation ID) it may be possible to search for the article online. If there are not enough details to find the article, add the following author query:
 
 * Please provide the journal name for this reference.
 
@@ -452,7 +452,7 @@ If the reference has more than one article title, compare the details with the o
 
 **Error:** _If \<fpage> is present, neither \<elocation-id> nor \<comment>In press\</comment> may be present. Reference 'XXXXXX' has \<fpage> and one of those elements._
 
-**Action:** This error will appear if a journal reference has a first page and an e-location ID and/or 'In press' comment. It can only have one of these. This error may occur if a last page has been incorrectly captured as an e-location ID. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website and update the reference. If there is a first page and an 'In press' comment, check if the article has been published yet. If it hasn't, and the article is at the pre-author stage, leave the following author query: 
+**Action:** This error will appear if a journal reference has a first page and an e-location ID and/or 'In press' comment. It can only have one of these. This error may occur if a last page has been incorrectly captured as an e-location ID. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website and update the reference. If there is a first page and an 'In press' comment, check if the article has been published yet. If it hasn't, and the article is at the pre-author stage, leave the following author query:&#x20;
 
 * Please check whether this In press reference has now been published and, if so, please provide the full citation details.
 
@@ -460,9 +460,9 @@ If the authors do not have a publication date, or this message appears at post-a
 
 #### err-elem-cit-journal-6-3
 
-**Error:**_ If \<elocation-id> is present, neither \<fpage> nor \<comment>In press\</comment> may be present. Reference 'XXXXXX' has \<elocation-id> and one of those elements._
+**Error:** _If \<elocation-id> is present, neither \<fpage> nor \<comment>In press\</comment> may be present. Reference 'XXXXXX' has \<elocation-id> and one of those elements._
 
-**Action:** This error will appear if a journal reference has an e-location ID and a first page and/or 'In press' comment. It can only have one of these. This error may occur if a last page has been incorrectly captured as an e-location ID. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website and update the reference.  If there is an e-location ID and an 'In press' comment, check if the article has been published yet. If the article has not been published, leave the following author query: 
+**Action:** This error will appear if a journal reference has an e-location ID and a first page and/or 'In press' comment. It can only have one of these. This error may occur if a last page has been incorrectly captured as an e-location ID. Look up the article on [**PubMed**](https://pubmed.ncbi.nlm.nih.gov) or the journal website and update the reference.  If there is an e-location ID and an 'In press' comment, check if the article has been published yet. If the article has not been published, leave the following author query:&#x20;
 
 If the article has not been published, leave the following author query:
 
@@ -474,7 +474,7 @@ If the authors do not have a publication date, or this message appears at post-a
 
 **Error:** _If \<comment>In press\</comment> is present, neither \<fpage> nor \<elocation-id> may be present. Reference 'XXXXXX' has one of those elements._
 
-**Action:** This error will appear if a journal reference has an 'In press' comment and e-location ID and/or a first page. It can only have one of these. Look up the article online and update the reference. If the article has not been published, leave the following author query: 
+**Action:** This error will appear if a journal reference has an 'In press' comment and e-location ID and/or a first page. It can only have one of these. Look up the article online and update the reference. If the article has not been published, leave the following author query:&#x20;
 
 * Please check whether this In press reference has now been published and, if so, please provide the full citation details.
 
@@ -490,11 +490,11 @@ If the authors do not have a publication date or if the publication date will be
 
 **Error:** _The following elements may not occur more than once in an \<element-citation>: \<fpage>, \<lpage>, \<elocation-id>, and \<comment>In press\</comment>. Reference 'XXXXXX' has XXXXXX \<fpage>, XXXXXX \<lpage>, XXXXXX \<elocation-id>, and XXXXXX \<comment> elements._
 
-**Action:** This error will appear if a journal reference has more than one of any of the elements in the message (e.g. multiple first pages). Ensure that the beginning and end of a page range have been tagged as first page and last page respectively, and remove the extra instances of any duplicate elements. 
+**Action:** This error will appear if a journal reference has more than one of any of the elements in the message (e.g. multiple first pages). Ensure that the beginning and end of a page range have been tagged as first page and last page respectively, and remove the extra instances of any duplicate elements.&#x20;
 
 #### err-elem-cit-journal-9-1
 
-**Error:**_ Each \<pub-id>, if present in a journal reference, must have a @pub-id-type of either "doi" or "pmid". The pub-id-type attribute on \<pub-id> in Reference 'XXXXXX' is XXXXXX._
+**Error:** _Each \<pub-id>, if present in a journal reference, must have a @pub-id-type of either "doi" or "pmid". The pub-id-type attribute on \<pub-id> in Reference 'XXXXXX' is XXXXXX._
 
 **Action:** Remove any pub-ids that are not a DOI or a PubMed ID.
 

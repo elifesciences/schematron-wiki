@@ -6,7 +6,7 @@ For changelog, click [**here**](licensing-and-copyright.md#changelog). Updated 1
 
 ## Article-level licensing
 
-All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, which by default applies to the whole article including all assets. The CC BY 4.0 license permits content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions. The license of the article will be captured in the underlying XML (see [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0)** **and** **[**here**](licensing-and-copyright.md#article-level-license-cc-0)). A different copyright statement will be present for CC BY content compared to CC0 content in the article PDF.
+All eLife's articles are published under a [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC0**](https://creativecommons.org/share-your-work/public-domain/cc0/) license, which by default applies to the whole article including all assets. The CC BY 4.0 license permits content to be freely shared and adapted by others, as long as the original work is credited, while the CC0 license places the content in the public domain so it can be used freely with no restrictions. The license of the article will be captured in the underlying XML (see [**here**](licensing-and-copyright.md#article-level-license-cc-by-4-0) **** and **** [**here**](licensing-and-copyright.md#article-level-license-cc-0)). A different copyright statement will be present for CC BY content compared to CC0 content in the article PDF.
 
 ![An example of the copyright statement for a CC-BY licensed article ](../../.gitbook/assets/screenshot-2020-09-25-at-10.30.26.png)
 
@@ -258,7 +258,7 @@ This will not fire for CC0 articles as these do not have copyright statements. S
 
 **Error**: _license does not have an @xlink:href which is equal to '_[http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/)_' or '_[http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/)_'._
 
-**Action**: This error will fire if the license element for the article has a link other than _'_[http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/)_' _or _'_[http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/)_'. _This will need to be corrected by the production vendors.&#x20;
+**Action**: This error will fire if the license element for the article has a link other than _'_[http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/)_'_ or _'_[http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/)_'._ This will need to be corrected by the production vendors.&#x20;
 
 #### license-test-1
 
@@ -278,7 +278,7 @@ See an example of XML for the article-level license of a CC-BY article [**here**
 
 #### reproduce-test-1
 
-**Warning: **_The caption for XXXXXX contains the text 'reproduced from', but has no permissions. Is this correct?_
+**Warning:** _The caption for XXXXXX contains the text 'reproduced from', but has no permissions. Is this correct?_
 
 **Action**: This warning will appear if a figure or video caption includes the text 'reproduced from' but there is no permissions information tagged in the XML. If no notes have been left about permissions information to add, query the Production team who will discuss it with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
 
@@ -308,19 +308,19 @@ See an example of XML for the article-level license of a CC-BY article [**here**
 
 #### reproduce-test-6
 
-**Warning: **_The caption for XXXXXX contains the text 'modified from', but has no permissions. Is this correct?_
+**Warning:** _The caption for XXXXXX contains the text 'modified from', but has no permissions. Is this correct?_
 
 **Action**: This warning will appear if a figure or video caption includes the text 'modified from' but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will discuss it with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
 
 #### reproduce-test-7
 
-**Warning: **_The caption for XXXXXX contains the text 'modified with', but has no permissions. Is this correct?_
+**Warning:** _The caption for XXXXXX contains the text 'modified with', but has no permissions. Is this correct?_
 
 **Action**: This warning will appear if a figure or video caption includes the text 'modified with_'_ but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will discuss it with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
 
 #### reproduce-test-8
 
-**Warning: **_The caption for XXXXXX contains the text 'used with permission', but has no permissions. Is this correct?_
+**Warning:** _The caption for XXXXXX contains the text 'used with permission', but has no permissions. Is this correct?_
 
 **Action**: This warning will appear if a figure or video caption includes the text 'used with permission_'_ but there is no permissions information in the XML. If no notes have been left about permissions information, query the Production team who will discuss it with the Editorial team. See more about this [**here**](allowed-assets/figures.md#adapted-and-reproduced-images).
 
@@ -440,7 +440,7 @@ If there is no '[**https://creativecommons.org/**](https://creativecommons.org)'
 
 **Warning**: _XXXXXX permissions - the \<license-p> contains a CC link, but the license does not have an ali:licens\_ref element, which is very likely incorrect._
 
-**Action**: This warning will fire if there is a '[**https://creativecommons.org/**](https://creativecommons.org)**' **type link in the license element but there is no ali:license\_ref element. The production vendors will need to add the ali:license\_ref element in.&#x20;
+**Action**: This warning will fire if there is a '[**https://creativecommons.org/**](https://creativecommons.org)**'** type link in the license element but there is no ali:license\_ref element. The production vendors will need to add the ali:license\_ref element in.&#x20;
 
 #### fig-permissions-test-14
 

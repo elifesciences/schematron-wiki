@@ -13,11 +13,11 @@ For the changelog, click [**here**](funding-information.md#changelog). Updated 1
 The funding section is where all funding received by authors in the process of researching and publishing the article is listed. The name of the funder, the reference number of the grant (if appropriate), the author(s) who received the funding, and a funding statement are included in the funding table.
 
 * Every funder must have at least one author associated with it.
-* Grant references are optional. 
-  * [**Only one grant number**](funding-information.md#multiple-grant-references-in-one-entry) should be displayed per entry in the funding table. 
-  * If two or more grants are present in one entry, they should be [**split into multiple funding entries**](funding-information.md#multiple-grant-references-in-one-entry). 
+* Grant references are optional.&#x20;
+  * [**Only one grant number**](funding-information.md#multiple-grant-references-in-one-entry) should be displayed per entry in the funding table.&#x20;
+  * If two or more grants are present in one entry, they should be [**split into multiple funding entries**](funding-information.md#multiple-grant-references-in-one-entry).&#x20;
 * Whenever the funding section is edited, an author query must be added so the authors can approve the change.
-* The [**funding statement**](funding-information.md#funding-group-test-1) may differ depending on the article. 
+* The [**funding statement**](funding-information.md#funding-group-test-1) may differ depending on the article.&#x20;
 
 ![An example of a funding table](../../.gitbook/assets/screenshot-2020-04-07-at-11.47.55.png)
 
@@ -28,7 +28,7 @@ The funding section is where all funding received by authors in the process of r
 The details of each funding reference need to be checked individually. Ideally, every funder should be validated against the Funder Registry.
 
 Validated funders are indicated by a green tick at the end of the funder name. \
-If a funder is not validated, check whether it is on the[ **Funder Registry**](https://gitlab.com/crossref/open_funder_registry) list (note: this list is updated sporadically so please re-download it every time you need to check it). \
+If a funder is not validated, check whether it is on the[ **Funder Registry**](https://gitlab.com/crossref/open\_funder\_registry) list (note: this list is updated sporadically so please re-download it every time you need to check it). \
 Try re-typing the funder name if it is in the registry, this can make it "stick".  \
 If the funder is not in the registry, conduct an online search. Sometimes the name may need correcting slightly, or what the author has listed as the funder is funded by another organisation that is in the Funder Registry (see [**here**](funding-information.md#splitting-out-parent-and-sub-funders) for examples of how to capture this information).
 
@@ -39,7 +39,7 @@ The Funder Registry contains variants of funder names. For example, the followin
 * Ministry of Higher Education and Research
 * MESR
 
-All of these are valid. Leave as the author has provided as long as it validates. 
+All of these are valid. Leave as the author has provided as long as it validates.&#x20;
 
 ### Acknowledgements section
 
@@ -113,7 +113,7 @@ Some funders can be tricky to track down. For example, the acknowledgements sect
 
 > This work was supported by NIH/NINDS grants NS087095 and NS110945, **and the COBRE Neuroscience award P30 103498.** We thank Todd Clason, and the Molecular and Imaging Cores, at the University of Vermont. Thanks to John Clements for providing the deconvolution algorithm used to estimate the rate of synaptic vesicle release.
 
-The funding table did not include the information about the COBRE Neuroscience award: 
+The funding table did not include the information about the COBRE Neuroscience award:&#x20;
 
 ![](../../.gitbook/assets/screenshot-2020-03-18-at-14.36.19.png)
 
@@ -127,9 +127,9 @@ Note that this is a complicated example, and the authors should be asked to conf
 
 ### Joint funders
 
-Some funding is provided through multiple funding agencies. For example, the [**SFI-HRB-Wellcome Research Partnership**](https://wellcome.ac.uk/funding/sfi-hrb-wellcome-research-partnership)** **is funded jointly by the Science Foundation Ireland, Health Research Board and the Wellcome Trust. The acknowledgements section of 58925 stated:
+Some funding is provided through multiple funding agencies. For example, the [**SFI-HRB-Wellcome Research Partnership**](https://wellcome.ac.uk/funding/sfi-hrb-wellcome-research-partnership) **** is funded jointly by the Science Foundation Ireland, Health Research Board and the Wellcome Trust. The acknowledgements section of 58925 stated:
 
->  CJR’s work on this study was funded by the HRB/SFI/Wellcome Trust partnership (grant number 103049/Z/13/Z)
+> &#x20;CJR’s work on this study was funded by the HRB/SFI/Wellcome Trust partnership (grant number 103049/Z/13/Z)
 
 This was added to the funding table as below:
 
@@ -153,7 +153,7 @@ In this case, split the grant references into two entries, enter the same author
 
 ![](../../.gitbook/assets/8.png)
 
-Note that the presence of a comma or semi-colon doesn't always indicate that there are multiple grant references. For example, in article 53308: 
+Note that the presence of a comma or semi-colon doesn't always indicate that there are multiple grant references. For example, in article 53308:&#x20;
 
 ![](../../.gitbook/assets/screenshot-2020-04-07-at-11.38.37.png)
 
@@ -161,11 +161,11 @@ This is referring to a single grant - the 'project A09' part is just giving extr
 
 ![](../../.gitbook/assets/screen-shot-2020-04-07-at-15.42.53.png)
 
-The information in eJP was as below: 
+The information in eJP was as below:&#x20;
 
 ![](../../.gitbook/assets/screenshot-2020-04-08-at-10.13.26.png)
 
-In this case, 'R-GNOSIS Integrated project, grant agreement number 241796' is all referring to the same grant given out by the European Community 7th Framework. 
+In this case, 'R-GNOSIS Integrated project, grant agreement number 241796' is all referring to the same grant given out by the European Community 7th Framework.&#x20;
 
 It can be tricky to work out when grants should be split into multiple entries in the funding table. Therefore, make sure an author query is left whenever any change is made to the funding section to make sure the authors can approve the change.
 
@@ -175,9 +175,9 @@ Sometimes authors will include information about third-party funders in their ac
 
 > The authors thank Drs. Silvia Arber, Ruth Ashery-Padan, James Li, Andrew McMahon, Michael Robinson, David Ornitz, Xin Sun and Stephen Tsang for mice, Drs. Bridget Hogan, Gord Fishell, Suzanne Mansour and Gail Martin for in situ probes. We also thank Drs. Carlo Maurer and Kenneth Olive for help with Laser Capture Microscopy, Drs. Howard Worman and Ji-Yeon Shin for advice on Lamin A/C antibody, Dr. Mukesh Bansal for bioinformatics analysis, Joseph Ryo for critical reading of the manuscript. The work was supported by NIH (EY017061 and EY025933 to XZ). **The Columbia Ophthalmology Core Facility is supported by NIH Core grant 5P30EY019007 and unrestricted funds from Research to Prevent Blindness (RPB).** XZ is supported by Jules and Doris Stein Research to Prevent Blindness Professorship. AG was a recipient of STARR fellowship. QW is supported by a Postdoctoral Fellowship from Natural Sciences and Engineering Research Council of Canada.
 
-This information does not need to be added to the funding table as it refers to the Columbia Ophthalmology Core Facility and not a specific author. Note that the schematron validator would show the following [warning](funding-information.md#fundref-test-1) (with the doi for NIH listed): 
+This information does not need to be added to the funding table as it refers to the Columbia Ophthalmology Core Facility and not a specific author. Note that the schematron validator would show the following [warning](funding-information.md#fundref-test-1) (with the doi for NIH listed):&#x20;
 
-> Acknowledgements contains funder(s) in the open funder registry, but their doi is not listed in the funding section. Please check - 
+> Acknowledgements contains funder(s) in the open funder registry, but their doi is not listed in the funding section. Please check -&#x20;
 
 However, this is okay to ignore in this case.
 
@@ -219,17 +219,17 @@ When adding the Hamill Foundation as a funder, it did not validate against the F
 
 ![](../../.gitbook/assets/9.png)
 
-The following schematron [warning](funding-information.md#institution-id-test) was present: 
+The following schematron [warning](funding-information.md#institution-id-test) was present:&#x20;
 
 > Whenever possible, a funder should have a doi - please check whether there is an appropriate doi in the open funder registry. (institution-id\[@institution-id-type="FundRef"] is not present in institution-wrap).
 
-An online search for 'Hamill Foundation' leads to [this page](https://www.guidestar.org/profile/23-7028238). As this looks like a legitimate funder, we can ignore the schematron warning in this case.  
+An online search for 'Hamill Foundation' leads to [this page](https://www.guidestar.org/profile/23-7028238). As this looks like a legitimate funder, we can ignore the schematron warning in this case. &#x20;
 
 The funding table may also already have unvalidated funders in it. For example, in article 51712:
 
 ![](../../.gitbook/assets/screenshot-2020-04-07-at-12.58.29.png)
 
-An online search for the 'Triad Foundation' leads to [this page](https://fconline.foundationcenter.org/fdo-grantmaker-profile?collection=grantmakers\&key=TRIA018). As this looks like a legitimate funder, the schematron warning can be ignored. 
+An online search for the 'Triad Foundation' leads to [this page](https://fconline.foundationcenter.org/fdo-grantmaker-profile?collection=grantmakers\&key=TRIA018). As this looks like a legitimate funder, the schematron warning can be ignored.&#x20;
 
 ### Examples of when to ignore/pay attention to the schematron messages
 
@@ -245,13 +245,13 @@ This warning fired because the phrase 'Research and Development' was present in 
 
 ### No funding information given
 
-In rare cases, a study will not have any funders associated with it - in which case the funding statement should read 'No external funding was received for this work'. If this is not the case the following author query needs to be left asking the authors to confirm no funding was received. 
+In rare cases, a study will not have any funders associated with it - in which case the funding statement should read 'No external funding was received for this work'. If this is not the case the following author query needs to be left asking the authors to confirm no funding was received.&#x20;
 
 * Please confirm whether any funding was received for this work.
 
 ## Schematron checks
 
-The following tests are run on the funding section. X or XXXXXX refers to quoted text which will change depending on the article. 
+The following tests are run on the funding section. X or XXXXXX refers to quoted text which will change depending on the article.&#x20;
 
 ### Content checks
 
@@ -261,7 +261,7 @@ These warnings relate to the content of the funding section.
 
 **Error**: _There must be one and only one funding-group element in the article-meta. Currently there are XXXXXX._
 
-**Action: **This error will fire if there is 0 or more than 1 funding statements for an article. If there are no funding statements and the acknowledgements section mentions funding for the work, add the funders into the table, and the funding statement 'The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.' and leave the following author query: 
+**Action:** This error will fire if there is 0 or more than 1 funding statements for an article. If there are no funding statements and the acknowledgements section mentions funding for the work, add the funders into the table, and the funding statement 'The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.' and leave the following author query:&#x20;
 
 * We have added the additional funding information from your acknowledgements. Please check the changes to your funding details and confirm they are correct.
 
@@ -275,7 +275,7 @@ If there is more than one funding statement, this suggests something has gone wr
 
 **Warning:** _Is this funding-statement correct? - 'XXXXXX' Usually it should be 'No external funding was received for this work.'_
 
-**Action:** This will fire if there are no funding entries and the funding statement does not state 'No external funding was received for this work.' If the acknowledgements section mentions funding for the work, add the funders into the table and leave the following author query: 
+**Action:** This will fire if there are no funding entries and the funding statement does not state 'No external funding was received for this work.' If the acknowledgements section mentions funding for the work, add the funders into the table and leave the following author query:&#x20;
 
 * We have added the additional funding information from your acknowledgements. Please check the changes to your funding details and confirm they are correct.
 
@@ -307,7 +307,7 @@ Then it should be changed to the default statement (The funders had no role in s
 
 **Warning:** _Funding entry with id 'fundX' has a comma or semi-colon in the award id. Should this be separated out into several funding entries? - 'XXXXXX'_
 
-**Action:** This will fire if the grant reference has a comma or semi-colon. If this seems like multiple grant references, split them out into separate funding entries and leave the following author query. 
+**Action:** This will fire if the grant reference has a comma or semi-colon. If this seems like multiple grant references, split them out into separate funding entries and leave the following author query.&#x20;
 
 * Please check that the edited funding details are still correct.
 
@@ -339,7 +339,7 @@ The character / is appearing as broken unicode. Doing an online search for \&#x2
 
 **Warning:** _Whenever possible, a funder should have a doi - please check whether there is an appropriate doi in the open funder registry. (institution-id\[@institution-id-type="FundRef"] is not present in institution-wrap)._
 
-**Action:** This warning will fire if a funder does not have a Funder Registry DOI associated with it. In these cases, first check that the funder name has been entered correctly by looking it up in the [**Funder Registry**](https://gitlab.com/crossref/open_funder_registry). Try searching for partial matches to the provided text. If no matches are returned, search for the entered funder online.
+**Action:** This warning will fire if a funder does not have a Funder Registry DOI associated with it. In these cases, first check that the funder name has been entered correctly by looking it up in the [**Funder Registry**](https://gitlab.com/crossref/open\_funder\_registry). Try searching for partial matches to the provided text. If no matches are returned, search for the entered funder online.
 
 If an online search shows that the funder is legitimate (e.g. returns a website for the mentioned organisation) but it is not on the Funder Registry and has no parent funding body, this warning can be ignored (see [**above**](funding-information.md#funders-not-in-the-funder-registry)).
 
@@ -361,7 +361,7 @@ The University of Cambridge should not be listed in the funding table because it
 
 **Warning:** _There is no author associated with the funding for 'XXXXXX', which is incorrect. (There is no xref from a contrib pointing to this \<award-group id="fundX">). If you are unable to determine which author(s) are associated with this funding, please add an author query._
 
-**Action:** This will fire at pre-author stages. Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, please leave the following author query: 
+**Action:** This will fire at pre-author stages. Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, please leave the following author query:&#x20;
 
 * Please confirm which author received this funding.
 
@@ -379,13 +379,13 @@ The University of Cambridge should not be listed in the funding table because it
 
 ### XML structure checks
 
-These warnings relate to the XML structure of the funding section. For more information about what the XML should look like, see [below](funding-information.md#xml-structure). 
+These warnings relate to the XML structure of the funding section. For more information about what the XML should look like, see [below](funding-information.md#xml-structure).&#x20;
 
 #### funding-group-test-1
 
 **Error:** _One funding-statement should be present in funding-group._
 
-**Action:** Make sure the article has a funding statement. If no funding was received for the work, this should state 'No external funding was received for this work.' If funding was received for the work, the statement should state 'The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.' If neither of these are present, check the acknowledgements section - if it mentions funding for the work, add the funders into the table and leave the following author query: 
+**Action:** Make sure the article has a funding statement. If no funding was received for the work, this should state 'No external funding was received for this work.' If funding was received for the work, the statement should state 'The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.' If neither of these are present, check the acknowledgements section - if it mentions funding for the work, add the funders into the table and leave the following author query:&#x20;
 
 * We have added the additional funding information from your acknowledgements. Please check the changes to your funding details and confirm they are correct.
 
@@ -413,19 +413,19 @@ If the authors confirm no funding was received, make sure the funding statement 
 
 **Error:** _award-group must have an @id, the value of which conforms to the convention 'fund', followed by a digit._
 
-**Action:** Make sure each funder has a funding id in the format 'fund' and a number e.g. fund1, fund2. It should be impossible for this error to occur - please contact the Production team if you see it. 
+**Action:** Make sure each funder has a funding id in the format 'fund' and a number e.g. fund1, fund2. It should be impossible for this error to occur - please contact the Production team if you see it.&#x20;
 
 #### award-group-test-2
 
 **Error:** _award-group must contain a funding-source._
 
-**Action: **Make sure a funder name is present in the award group element (see [below](funding-information.md#xml-structure) for XML structure). It should be impossible for this error to occur - please contact the Production team if you see it. 
+**Action:** Make sure a funder name is present in the award group element (see [below](funding-information.md#xml-structure) for XML structure). It should be impossible for this error to occur - please contact the Production team if you see it.&#x20;
 
 #### pre-award-group-test-3
 
 **Warning:** _award-group must contain a principal-award-recipient. If it is not clear which author(s) are associated with this funding, please add an author query._
 
-**Action:** This will fire at pre-author stages. Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, please leave the following author query: 
+**Action:** This will fire at pre-author stages. Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, please leave the following author query:&#x20;
 
 * Please confirm which author received this funding.
 
@@ -433,61 +433,61 @@ If the authors confirm no funding was received, make sure the funding statement 
 
 **Error:** _award-group must contain a principal-award-recipient._
 
-**Action:** This will fire at post-author stages. Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, then the eLife team will have to contact the authors in order to determine who is should be attributed to. 
+**Action:** This will fire at post-author stages. Make sure the funder listed in the warning message has an author associated with it. If it doesn't, check eJP to see if this information is there and check the acknowledgements to see if the authors have mentioned which author received the funding in question. If there is no information about this, then the eLife team will have to contact the authors in order to determine who is should be attributed to.&#x20;
 
 #### award-group-test-4
 
 **Error:** _award-group may contain one and only one award-id._
 
-**Action:** Make sure there is only one grant reference per funder. It should be impossible for this error to occur - please contact the Production team if you see it. 
+**Action:** Make sure there is only one grant reference per funder. It should be impossible for this error to occur - please contact the Production team if you see it.&#x20;
 
 #### award-group-test-5
 
 **Error:** _funding-source must contain an institution-wrap._
 
-**Action:** Make sure the institution-wrap element (containing the funder doi and funder name) is present in the xml (see [**below**](funding-information.md#xml-structure) for XML structure). It should be impossible for this error to occur - please contact the Production team if you see it. 
+**Action:** Make sure the institution-wrap element (containing the funder doi and funder name) is present in the xml (see [**below**](funding-information.md#xml-structure) for XML structure). It should be impossible for this error to occur - please contact the Production team if you see it.&#x20;
 
 #### award-group-test-6
 
 **Error:** _Every piece of funding must have an institution. \<award-group id="XXXXXX"> does not have one._
 
-**Action:** Make sure there is an institution element in the xml per award group (see [below](funding-information.md#xml-structure) for XML structure). It should be impossible for this error to occur - please contact the Production team if you see it. 
+**Action:** Make sure there is an institution element in the xml per award group (see [below](funding-information.md#xml-structure) for XML structure). It should be impossible for this error to occur - please contact the Production team if you see it.&#x20;
 
 #### award-group-test-8
 
 **Error:** _Every piece of funding must only have 1 institution. \<award-group id="XXXXXX"> has XXXXXX - XXXXXX_
 
-**Action: **Make sure there is only institution element in the xml per award group (see [below](funding-information.md#xml-structure) for XML structure). It should be impossible for this error to occur - please contact the Production team if you see it. 
+**Action:** Make sure there is only institution element in the xml per award group (see [below](funding-information.md#xml-structure) for XML structure). It should be impossible for this error to occur - please contact the Production team if you see it.&#x20;
 
 #### institution-id-test-2
 
 **Error:** _institution-id element must have the attribute institution-id-type="FundRef"._
 
-**Action: **This will fire if an institution-id element does not have the attribute institution-id-type="FundRef". It means that something has gone wrong with XML generation and Exeter will have to contact the support team to fix the issue.
+**Action:** This will fire if an institution-id element does not have the attribute institution-id-type="FundRef". It means that something has gone wrong with XML generation and Exeter will have to contact the support team to fix the issue.
 
 #### institution-id-test-3
 
 **Error:** _The funding entry for XXXXXX has an empty institution-id element, which is not allowed._
 
-**Action: **Every institution-id element must contain content, and empty one will cause the article to fail loading to Continuum. This may occur sometimes due to a bug in Kriya. If it does, it can usually be fixed by re-validating the funder against the Funder registry in Kriya, and saving. This usually resolves the error. If it persists then Exeter will need to contact the support team in order to fix the problem.
+**Action:** Every institution-id element must contain content, and empty one will cause the article to fail loading to Continuum. This may occur sometimes due to a bug in Kriya. If it does, it can usually be fixed by re-validating the funder against the Funder registry in Kriya, and saving. This usually resolves the error. If it persists then Exeter will need to contact the support team in order to fix the problem.
 
 #### institution-id-test-4
 
 **Error:** _The institution-id element in funding entry for XXXXXX contains child element(s) (XXXXXX) which is not allowed._
 
-**Action: **institution-id elements cannot contain child elements. If this fires, it means that something has gone wrong with XML generation and Exeter will have to contact the support team to fix the issue.
+**Action:** institution-id elements cannot contain child elements. If this fires, it means that something has gone wrong with XML generation and Exeter will have to contact the support team to fix the issue.
 
 #### institution-id-test-5
 
 **Error:** _The institution-id element in funding entry for XXXXXX contains the following text - XXXXXX - which is not a fundref doi._
 
-**Action: **institution-id elements should only contain fundref dois. It should be impossible for this error to occur - please contact the Production team if you see it. 
+**Action:** institution-id elements should only contain fundref dois. It should be impossible for this error to occur - please contact the Production team if you see it.&#x20;
 
 #### other-xref-target-test
 
 **Error**: _xref with @ref-type='XXXXXX' points to XXXXXX. This is not correct._
 
-**Action: **This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to an award group, then the `ref-type` attribute value must be 'other'. If the link is meant to point to something else, which is not an award group, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
+**Action:** This means that the `ref-type` attribute on the `xref` is not correct with respect to what the link points to. If it is meant to point to an award group, then the `ref-type` attribute value must be 'other'. If the link is meant to point to something else, which is not an award group, then the link points to the incorrect location and will need to be updated. Exeter will need to correct the link in either case.
 
 ## XML structure
 

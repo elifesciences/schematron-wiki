@@ -35,14 +35,14 @@ The following information can be added for journal references:
 
 Non-mandatory fields are required if they exist. Check the source of the reference if possible (e.g. if the conference article is available online). Schematron warnings may also pick up incomplete references, and these should be checked at the source of the reference.
 
-* **Authors**: Enter each author name as a surname(s) followed by initials. 
-* **Collaboration: **Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
+* **Authors**: Enter each author name as a surname(s) followed by initials.&#x20;
+* **Collaboration:** Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
 * **Year**: This should be the year the conference article was presented/published. This field can include a letter suffix (e.g. 2020a) if needed to distinguish between citations (see more [**here**](../reference-citations.md#what-is-a-reference-citation)).
 * **Article title**: The title of the conference article. Can contain italics, superscript and subscript as required.
 * **Conference name**: The full  (not abbreviated) name of the conference at which the article was presented (or the proceedings thereof, where applicable e.g. [**Proceedings Volume 7804, Developments in X-Ray Tomography VII**](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7804.toc)).
 * **Conference location**: Where the conference took place. Usually some combination of city, state and country.
 * **e-location ID:** The e-location identifier for the article (if applicable; most references will have either page numbers or an e-location ID).
-* **First page: **The page number on which the article starts (if applicable). Some page numbers will be prefixed with letters.
+* **First page:** The page number on which the article starts (if applicable). Some page numbers will be prefixed with letters.
 * **Last page:** The page number on which the article ends (if applicable; some articles are one-page long and so a last page is not required as it is the same as the first page). Some page numbers will be prefixed with letters.
 * **DOI:** The Digital Object Identifier for the article (if applicable).
 
@@ -56,7 +56,7 @@ Right-click where you want to add the citation and click on Add New > Add New Re
 
 The default fields in Kriya will need to be altered to include the following information in the order below. To delete an unnecessary field click the red 'bin' button (if this doesn't work, try re-validating after all fields have been filled out, or change the field type to the one you need). To add a field click the green '+' button to the entry above where you need to add it.
 
-* Author 
+* Author&#x20;
 * Collaboration (if applicable)
 * Year
 * Article title
@@ -83,7 +83,7 @@ Conferences in optics and photonics may be found at the [**SPIE Digital Library*
 
 ![](../../../.gitbook/assets/screen-shot-2020-12-01-at-15.36.14.png)
 
-## Schematron checks 
+## Schematron checks&#x20;
 
 ### Content checks
 
@@ -109,11 +109,11 @@ Conferences in optics and photonics may be found at the [**SPIE Digital Library*
 
 * Please provide the correct page range for this reference.
 
-#### err-elem-cit-confproc-12-2	
+#### err-elem-cit-confproc-12-2&#x9;
 
 **Error**: _The citation may contain no more than one of any of \<fpage>, \<lpage>, and \<elocation-id> elements. Reference 'XXXXXX' has XXXXXX \<fpage> elements, XXXXXX \<lpage> elements, and XXXXXX \<elocation-id> elements._
 
-**Action:** This error will appear if a conference reference has more than one of any of the elements in the message (e.g. multiple first pages). Ensure that the beginning and end of a page range have been tagged as first page and last page respectively, and remove the extra instances of any duplicate elements. 
+**Action:** This error will appear if a conference reference has more than one of any of the elements in the message (e.g. multiple first pages). Ensure that the beginning and end of a page range have been tagged as first page and last page respectively, and remove the extra instances of any duplicate elements.&#x20;
 
 #### err-elem-cit-confproc-12-1
 

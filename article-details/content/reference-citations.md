@@ -49,7 +49,7 @@ Where references are cited within a parenthetical statement, square brackets may
 
 > ". . . behavioral policy (recurrent versus open-ended sessions, while controlling for trial perceived difficulty, as implemented by reaction times \[**Shenhav et al., 2013**; **Shenhav et al., 2014**])."
 
-Citations in parentheses may be accompanied by additional text, usually a direction to the reader. For example, "(see **Smith et al., 2010**)" or "(**Dare et al., 1950**; **Morgan et al., 1953**; for a review, see **Ellis, 2004**)". In these cases, square brackets are not required. 
+Citations in parentheses may be accompanied by additional text, usually a direction to the reader. For example, "(see **Smith et al., 2010**)" or "(**Dare et al., 1950**; **Morgan et al., 1953**; for a review, see **Ellis, 2004**)". In these cases, square brackets are not required.&#x20;
 
 Where multiple sets of parenthetical citations occur one after the other, these should be merged together. This applies to both reference and asset citations, which should be combined into the same set of brackets if they occur together. So, for example:
 
@@ -181,7 +181,7 @@ XXXXXX in this message will be the current, incorrect citation text. Note that t
 
 **Error**: _citation doesn't contain letters, which must be incorrect - XXXXXX_
 
-**Action**: This error will fire if a reference citation does not contain any letters, e.g. it is just '**2010**' rather than '**Smith et al., 2010**  ( `<xref ref-type="bibr" rid="bib16">2010</xref>`). Correct the citation text so that both name and year are present ( `<xref ref-type="bibr" rid="bib16">Smith et al., 2010</xref>`). 
+**Action**: This error will fire if a reference citation does not contain any letters, e.g. it is just '**2010**' rather than '**Smith et al., 2010**  ( `<xref ref-type="bibr" rid="bib16">2010</xref>`). Correct the citation text so that both name and year are present ( `<xref ref-type="bibr" rid="bib16">Smith et al., 2010</xref>`).&#x20;
 
 XXXXXX in this message will be the current, incorrect citation text. Note that this error will not occur if the citation is simply '**2010a**'. Regardless, [ref-xref-test-19](reference-citations.md#ref-xref-test-19) should identify this as incorrect.
 
@@ -189,7 +189,7 @@ XXXXXX in this message will be the current, incorrect citation text. Note that t
 
 **Warning**: _citation is preceded by text containing 2 or more open brackets, '('. eLife style is that parenthetical citations already in brackets should be contained in square brackets, '\['. Either there is a superfluous '(' in the preceding text, or the '(' needs changing to a '\['  - XXXXXX_
 
-**Action**: This error will fire if a reference citation is preceded by 2 or more left parentheses '('. This indicated that either there are too many left parentheses or that there is a missing right parentheses before the citation. Most commonly it will be the former. In cases where the citation is in a bracketed sentence, and the citation still needs to be also in brackets, then the second left parentheses should be replaced with a left square bracket, '\[', and if the citation is surround by parentheses then the following the citation should very likely be changed to a right square bracket as well, ']'. If the citation does not need to be brackets, the the left parentheses can be replaced with a semi-colon. 
+**Action**: This error will fire if a reference citation is preceded by 2 or more left parentheses '('. This indicated that either there are too many left parentheses or that there is a missing right parentheses before the citation. Most commonly it will be the former. In cases where the citation is in a bracketed sentence, and the citation still needs to be also in brackets, then the second left parentheses should be replaced with a left square bracket, '\[', and if the citation is surround by parentheses then the following the citation should very likely be changed to a right square bracket as well, ']'. If the citation does not need to be brackets, the the left parentheses can be replaced with a semi-colon.&#x20;
 
 XXXXXX in this message will be 10 preceding characters, the citation and the 10 following characters.
 
@@ -201,7 +201,7 @@ XXXXXX in this message will be 10 preceding characters, the citation and the 10 
 
 #### ref-xref-test-12
 
-**Warning**:_ 'XXXXXX' - citation is followed by a bracket and a possessive, preposition or verb which suggests the bracket is unnecessary._
+**Warning**: _'XXXXXX' - citation is followed by a bracket and a possessive, preposition or verb which suggests the bracket is unnecessary._
 
 **Action**: This warning will indicate instances such as "(**Shin et al., 2014**) also found that . . .", where it might not be appropriate to have the citation in parentheses. If the citation is part of the flow of the sentence, the parentheses should be removed. Please note that this message may appear even when the current text is fine (e.g. ". . . which were then treated as follows (**Karagöz et al., 2017**):"). See [above](reference-citations.md#citations-that-do-not-require-brackets) for more on when removing brackets is appropriate. XXXXXX in this message will be the text that needs checking.
 
@@ -283,7 +283,7 @@ XXXXXX in this message will indicate the text where this error is present.
 
 #### ref-xref-test-26
 
-**Warning**:_ citation is preceded by '; \[' - 'XXXXXX' - Are the square bracket(s) surrounding the citation required? If this citation is already in a bracketed sentence, then it's very likely they can be removed._
+**Warning**: _citation is preceded by '; \[' - 'XXXXXX' - Are the square bracket(s) surrounding the citation required? If this citation is already in a bracketed sentence, then it's very likely they can be removed._
 
 **Action**: This warning indicates will fire if a citation is preceded by '; \['. If the citation is already in parentheses such as
 
@@ -297,7 +297,7 @@ The same action should be taken in this case.
 
 #### ref-xref-test-27
 
-**Warning**:_ citation is followed by ') (', which in turn is followed by another link - 'XXXXXX'. Should the closing and opening brackets be replaced with a '; '? i.e. 'XXXXXX'._
+**Warning**: _citation is followed by ') (', which in turn is followed by another link - 'XXXXXX'. Should the closing and opening brackets be replaced with a '; '? i.e. 'XXXXXX'._
 
 **Action**: This warning indicates that two citations (to references or assets) have been placed in two set of parentheses immediately next to each other, e.g.  “(**Harrison et al, 2020**) (**Figure 1**) ”. The two sets of parentheses should be merged and the citations should be separated with a semi-colon instead (see [above](reference-citations.md#brackets-around-citations)). XXXXXX in this message will indicate the text that needs to be corrected and a suggestion for how to correct it, respectively.
 
@@ -327,7 +327,7 @@ Please note that this rule will fire regardless of the context in which 'refs.' 
 
 **Warning**: _Abstract contains a citation - 'XXXXXX' - which isn't usually allowed. Check that this is correct._
 
-**Action**: An article abstract should not contain any live reference citations as these cannot be rendered correctly on downstream services such as PubMed. If citations are present in the abstract, please delete them and inform the author using an author query. If these were the only citations of those references in the article (which is usually unlikely), please ask the author to add new citations for them in the main text. 
+**Action**: An article abstract should not contain any live reference citations as these cannot be rendered correctly on downstream services such as PubMed. If citations are present in the abstract, please delete them and inform the author using an author query. If these were the only citations of those references in the article (which is usually unlikely), please ask the author to add new citations for them in the main text.&#x20;
 
 Please note that this only refers to live reference citations. Plain text citations (e.g. the text 'Smith et al., 2019' without any linking to the reference list) are permitted in the abstracts for Research advances, Register reports or Replication studies so that a previous publication may be mentioned.
 

@@ -6,11 +6,11 @@ description: Tools to aid in the discovery and representation of an article
 
 ## What are keywords?
 
-Keywords are one-word (or two) terms that allow articles to be searchable on the journal's website and through online search engines, such as PMC and Google Scholar. These also provide an accurate representation of what the study was about. These should not be confused with research organisms which you can read about [**below**](keywords.md#research-organisms). 
+Keywords are one-word (or two) terms that allow articles to be searchable on the journal's website and through online search engines, such as PMC and Google Scholar. These also provide an accurate representation of what the study was about. These should not be confused with research organisms which you can read about [**below**](keywords.md#research-organisms).&#x20;
 
 ## Examples of keywords
 
-The words chosen should ideally be specific to the topic of the article, and it is beneficial to include additional words that are not included in the title.  
+The words chosen should ideally be specific to the topic of the article, and it is beneficial to include additional words that are not included in the title. &#x20;
 
 Here is an example of keywords for the following article:
 
@@ -18,7 +18,7 @@ Here is an example of keywords for the following article:
 
 **Subject area:** Structural Biology And Molecular Biophysics
 
-**Keywords: **molecular dynamics, simulation, statistics, thermodynamics, kinetics
+**Keywords:** molecular dynamics, simulation, statistics, thermodynamics, kinetics
 
 Keywords are not visible in the PDF but are included within the XML. These are present at the bottom of the article's webpage, alongside the research category. The eLife website changes these to capitals but in the XML these should be in lowercase as shown above.
 
@@ -26,18 +26,18 @@ Keywords are not visible in the PDF but are included within the XML. These are p
 
 ## What needs to be checked?
 
-Keywords are decided by the authors and entered into eJP during the submission process. 
+Keywords are decided by the authors and entered into eJP during the submission process.&#x20;
 
-Please check these are: 
+Please check these are:&#x20;
 
 * In lower case only, with the exception of proper nouns
 * In italics if appropriate (e.g. _E. coli_)
-* For species name the Genus should be reduced to first letter and full stop (eg _Escherichia coli _should be _E. coli_)
+* For species name the Genus should be reduced to first letter and full stop (eg _Escherichia coli_ should be _E. coli_)
 * One-word (or two) terms
 
 In eJP, authors are only allowed to enter a maximum of 6 separate keywords. During proofing, authors may request to add more. If these seem reasonable, this is fine to do but you may wish to run this past Editorial if you are unsure.
 
-Common abbreviations such as DNA, RNA, TNF, TSS etc should not be spelt out. If the author has decided to expand these when entering the keyword into eJP, these should be left as provided. 
+Common abbreviations such as DNA, RNA, TNF, TSS etc should not be spelt out. If the author has decided to expand these when entering the keyword into eJP, these should be left as provided.&#x20;
 
 ## Research organisms
 

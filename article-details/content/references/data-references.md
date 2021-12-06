@@ -14,7 +14,7 @@ A data reference gives bibliographic details for a dataset deposited in a struct
 
 ![Example of a data reference on the eLife website](../../../.gitbook/assets/screenshot-2021-06-24-at-12.07.58.png)
 
-For eLife articles, each part of the reference is formatted specifically: 
+For eLife articles, each part of the reference is formatted specifically:&#x20;
 
 ![Formatting display for a data reference in eLife articles ](../../../.gitbook/assets/data-reference-in-ref-list.png)
 
@@ -26,21 +26,21 @@ For eLife articles, each part of the reference is formatted specifically:
 
 The following information can be added for data references:
 
-| Kriya field      | Mandatory?                                                            | XML element                                                                                                                                                                                                                          | Example                                                                                 |
-| ---------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
-| Author(s)        | At least one author or collaboration is required; both can be present | \<person-group person-group-type="author">\<name>\<surname>Bloggs\</surname>\<given-names>J\</given-names>\</name>\</person-group>                                                                                                   | Bloggs J                                                                                |
-| Collaboration(s) | At least one author or collaboration is required; both can be present | \<person-group person-group-type="author">\<collab>Tulsa 1000 Investigators\</collab>\</person-group>                                                                                                                                | Tulsa 1000 Investigators                                                                |
-| Year             | Yes                                                                   | \<year iso-8601-date="2008">2008\</year>                                                                                                                                                                                             | 2008                                                                                    |
-| Dataset title    | Yes                                                                   | \<data-title>Transcriptomes of the hybrid mouse diversity panel subjected to Isoproterenol challenge\</data-title>                                                                                                                   | Transcriptomes of the hybrid mouse diversity panel subjected to Isoproterenol challenge |
-| Publisher        | Yes                                                                   | \<source>NCBI Gene Expression Omnibus\</source>                                                                                                                                                                                      | NCBI Gene Expression Omnibus                                                            |
-| Accession        | No                                                                    | \<pub-id assigning-authority="NCBI" pub-id-type="accession" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760">GSE48760\</pub-id>                                                                              | GSE48760                                                                                |
-| DOI              | No                                                                    | \<pub-id assigning-authority="Dryad" pub-id-type="doi">10.5061/dryad.zcrjdfn8n\</pub-id>                                                                                                                                             | 10.5061/dryad.zcrjdfn8n                                                                 |
-| Website          | Yes unless a DOI is present                                           | \<ext-link ext-link-type="uri" xlink:href="https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline">                 https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline\</ext-link> | https://github.com/ChristofferNellaker/Clinical_Face_Phenotype_Space_Pipeline           |
+| Kriya field      | Mandatory?                                                            | XML element                                                                                                                                                                                                                                  | Example                                                                                 |
+| ---------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| Author(s)        | At least one author or collaboration is required; both can be present | \<person-group person-group-type="author">\<name>\<surname>Bloggs\</surname>\<given-names>J\</given-names>\</name>\</person-group>                                                                                                           | Bloggs J                                                                                |
+| Collaboration(s) | At least one author or collaboration is required; both can be present | \<person-group person-group-type="author">\<collab>Tulsa 1000 Investigators\</collab>\</person-group>                                                                                                                                        | Tulsa 1000 Investigators                                                                |
+| Year             | Yes                                                                   | \<year iso-8601-date="2008">2008\</year>                                                                                                                                                                                                     | 2008                                                                                    |
+| Dataset title    | Yes                                                                   | \<data-title>Transcriptomes of the hybrid mouse diversity panel subjected to Isoproterenol challenge\</data-title>                                                                                                                           | Transcriptomes of the hybrid mouse diversity panel subjected to Isoproterenol challenge |
+| Publisher        | Yes                                                                   | \<source>NCBI Gene Expression Omnibus\</source>                                                                                                                                                                                              | NCBI Gene Expression Omnibus                                                            |
+| Accession        | No                                                                    | \<pub-id assigning-authority="NCBI" pub-id-type="accession" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48760">GSE48760\</pub-id>                                                                                      | GSE48760                                                                                |
+| DOI              | No                                                                    | \<pub-id assigning-authority="Dryad" pub-id-type="doi">10.5061/dryad.zcrjdfn8n\</pub-id>                                                                                                                                                     | 10.5061/dryad.zcrjdfn8n                                                                 |
+| Website          | Yes unless a DOI is present                                           | \<ext-link ext-link-type="uri" xlink:href="https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline">                 https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline\</ext-link> | https://github.com/ChristofferNellaker/Clinical\_Face\_Phenotype\_Space\_Pipeline       |
 
 Non-mandatory fields are required if they exist.
 
-* **Authors**: Enter each author name as a surname(s) followed by initials. 
-* **Collaboration: **Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
+* **Authors**: Enter each author name as a surname(s) followed by initials.&#x20;
+* **Collaboration:** Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
 * **Year**: This should be the year the article was published. This field can include a letter suffix (e.g. 2020a) if needed to distinguish between citations (see more [here](../reference-citations.md#what-is-a-reference-citation)).
 * **Dataset title**: The title of the dataset. Can contain italics, superscript and subscript as required.
 * **Publisher**: The full (not abbreviated) name of the database in which the dataset is stored.
@@ -58,9 +58,9 @@ Right-click where you want to add the citation and click on Add New > Add New Re
 
 The default fields in Kriya will need to be altered to include the following information in the order below. To delete an unnecessary field click the red 'bin' button (if this doesn't work, try re-validating after all fields have been filled out, or change the field type to the one you need). To add a field click the green '+' button to the entry above where you need to add it.
 
-* Author 
+* Author&#x20;
 * Collaboration (if applicable)
-* Year 
+* Year&#x20;
 * Data title
 * Publisher
 * DOI \[OR] Accession (where applicable)
@@ -96,7 +96,7 @@ In cases where no URL has been provided but an accession number is available, it
 
 **Error**: _Data references must have one and only one \<person-group person-group-type='author'>. Reference 'XXXXXX' has XXXXXX._
 
-**Action**: This error indicates either that there is more than one `<person-group>` element with the attribute `person-group-type` equal to "author" or that there is one or more `<person-group> `element with another value for this attribute. Multiple author lists should be combined and any `<person-group>` elements with incorrect attributes should be corrected. The latter will likely require support team intervention.
+**Action**: This error indicates either that there is more than one `<person-group>` element with the attribute `person-group-type` equal to "author" or that there is one or more `<person-group>` element with another value for this attribute. Multiple author lists should be combined and any `<person-group>` elements with incorrect attributes should be corrected. The latter will likely require support team intervention.
 
 Please note that while eLife allows compliers and curators in addition or instead of authors on datasets, the systems are not set up to allow this at present.
 
@@ -108,7 +108,7 @@ Please note that while eLife allows compliers and curators in addition or instea
 
 * Please provide the author list for this reference.
 
-#### final-err-elem-cit-data-3-2	
+#### final-err-elem-cit-data-3-2&#x9;
 
 **Error**: _Data references must have one and only one \<person-group person-group-type='author'>. Reference 'XXXXXX' has 0._
 

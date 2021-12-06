@@ -157,15 +157,15 @@ This gives access to the ‘Upload Files’ page (step 1 for article submission)
     In cases where the author has done this, the editable file will need to be swapped in as the main article file following PoA, before the article is exported to the typesetters.
 
     If no editable article file has been provided, please contact the author to request this. We cannot process the article without an editable article file.
-2. **Order: **The article file must come before the figure files on the file list on the submission system, as this is important for the generation of the merged PDF.
-3. **Tracked changes: **If tracked changes are visible in the merged PDF, these must be accepted prior to PoA publication. Download the article file and accept the changes, then replace the file on the system. Make sure that when accepting the tracked changes, the ‘tracked change’ option in Word is first turned off otherwise the Merged PDF will still show tracked changes.
+2. **Order:** The article file must come before the figure files on the file list on the submission system, as this is important for the generation of the merged PDF.
+3. **Tracked changes:** If tracked changes are visible in the merged PDF, these must be accepted prior to PoA publication. Download the article file and accept the changes, then replace the file on the system. Make sure that when accepting the tracked changes, the ‘tracked change’ option in Word is first turned off otherwise the Merged PDF will still show tracked changes.
 
 ![](<../.gitbook/assets/9 (2).png>)
 
 #### Image files
 
-1. **Quality: **The figures and figure supplements appear at the end of the merged PDF. They should be checked to ensure that they are of a reasonable quality. Please note that the system will usually downsample the images slightly so that some pixelation is likely, but if the figures show at a particularly low resolution, please check the source files. If these are also poor quality, please ask the authors to provide higher resolution versions before proceeding with PoA.
-2. **Figures in text: **Occasionally, the authors will include copies of their figures throughout the main text, meaning they will be duplicated in the merged PDF. If the images throughout the text are good quality, please switch off the option to include the figures in the merged PDF and regenerate it.
+1. **Quality:** The figures and figure supplements appear at the end of the merged PDF. They should be checked to ensure that they are of a reasonable quality. Please note that the system will usually downsample the images slightly so that some pixelation is likely, but if the figures show at a particularly low resolution, please check the source files. If these are also poor quality, please ask the authors to provide higher resolution versions before proceeding with PoA.
+2. **Figures in text:** Occasionally, the authors will include copies of their figures throughout the main text, meaning they will be duplicated in the merged PDF. If the images throughout the text are good quality, please switch off the option to include the figures in the merged PDF and regenerate it.
 
 ![](<../.gitbook/assets/image (6).png>)
 
@@ -205,8 +205,8 @@ Again, if the file has been labelled against eLife convention (Supplementary fil
 
 #### Related article files
 
-1. **Editable article files: **If the article is a LaTex submission, the authors may have uploaded a PDF as their article file and included the editable .tex file as a related article file. This is fine for PoA but before export, please switch them over.
-2. **PDF for PoA publication: **A check must be made for any Related Manuscript File that is described as being ‘merged PDF for PoA’ or ‘authors’ file for accepted publication’ or a similar phrase. This will be a version of the article that the authors have provided in anticipation of PoA and it must be this file, rather than the standard Merged PDF that should be used for PoA publication. This merged PDF on the system should be replaced on the system using the option at the stop of the files page.
+1. **Editable article files:** If the article is a LaTex submission, the authors may have uploaded a PDF as their article file and included the editable .tex file as a related article file. This is fine for PoA but before export, please switch them over.
+2. **PDF for PoA publication:** A check must be made for any Related Manuscript File that is described as being ‘merged PDF for PoA’ or ‘authors’ file for accepted publication’ or a similar phrase. This will be a version of the article that the authors have provided in anticipation of PoA and it must be this file, rather than the standard Merged PDF that should be used for PoA publication. This merged PDF on the system should be replaced on the system using the option at the stop of the files page.
 
 ![](../.gitbook/assets/13.png)
 
@@ -222,7 +222,7 @@ To begin checking the metadata within the submission system, click next to move 
 
 #### Title page
 
-1. **Title: **The title on the submission system must be compared against the title given in the article file. As the title is entered manually into the submission system, it is possible that typographical errors may have been introduced. Check for the following:
+1. **Title:** The title on the submission system must be compared against the title given in the article file. As the title is entered manually into the submission system, it is possible that typographical errors may have been introduced. Check for the following:
    * Spelling errors - the spelling in the article file should be favoured.
    * Missing formatting - formatting present in the article file should be replicated on the system using the appropriate tagging (italics, subscript and superscript are all allowed; bold and underlining are not).
    * Double spacing - this should be changed to single spacing.
@@ -236,33 +236,35 @@ To begin checking the metadata within the submission system, click next to move 
 
        “SMC condensin entraps chromosomal DNA by an ATP hydrolysis dependent loading mechanism in _Bacillus subtilis_”
    * Case - titles for eLife articles should be in sentence case (not ALL CAPITALS or Title Case (unless eg proper nouns). Prior to PoA, this should be corrected in the submission system but the article file does not need to be updated.
-2.  **Abstract: **Copy the abstract with formatting from the Word file (or merged PDF for LaTex file - and remove line breaks).
+2.  **Abstract:** Copy the abstract with formatting from the Word file (or merged PDF for LaTex file - and remove line breaks).
 
     If an article is a **Clinical trial**, the abstract will be structured with headings and additional details at the end (Clinical trial info and funding). All of this must be retained for publication. Clinical trial status will usually be indicated with a sticky note.
 3. **Impact statement:** This does not need to be checked. Use the ‘Next’ button to save any changes and move to the next screen.
 
 #### Author information page
 
-1. **Author list: **The following needs to be checked:
+1. **Author list:** The following needs to be checked:
    * Author first name, middle name(s) or initials and surname should all match the article file. Spelling/special characters should be updated in the system if they do not match the article file and any missing initials should be added. The exception to this is if the article file only lists first initials for all authors. eLife style favours full first names.
    * Any full stops after author initials should be removed as this is against eLife style.
-   * The suffix field is reserved for numerals (I, II, III etc) and junior (Jr) and senior (Sr) indicators. Academic letters (PhD, MD etc) should be removed from this field. If it is unclear what a particular suffix means, query it with eLife Production.
+   * The suffix field is reserved for numerals (I, II, III etc) and junior (Jr) and senior (Sr) indicators. Academic letters (PhD, MD etc) should be removed from this field. If it is unclear what a particular suffix means, query it with the eLife Production team.
    * Author order must match the article file. This is **extremely important** as it may cause disputes between the authors and require an official correction if the authorship order is published incorrectly. Author order is designated in the ‘Author #’ column and can be altered by ‘drag and drop’ (click to the immediate right of the ‘Author #’ boxes to move the author block).
-   * If any authors listed in the article file are not present in the submission system, or any authors on the system are missing from the article file, this must be queried with the author). **Hold the article until this has been resolved.**
-   *   One corresponding author will be indicated using the **tick box** between the author number and name. This designates the primary corresponding author/corresponding author for proofs. Any additional corresponding authors should be indicated using the **‘co-corresponding author’ tick box** within the author details. All authors indicated as corresponding authors on the article cover page must be designated on the system using either the main corresponding author tick box or the co-corresponding author tick box.
+   * If any authors listed in the article file are not present in the submission system, or any authors on the system are missing from the article file, this must be queried with the author. **Hold the article until the author list has been confirmed.**
+   *   One corresponding author will be indicated using the **tick box** between the author number and name ('Corr Author'). This designates the primary corresponding author/corresponding author for proofs. Any additional corresponding authors should be indicated using the **‘co-corresponding author’ tick box** within the author details. All authors indicated as corresponding authors on the article cover page must be designated on the system using either the main corresponding author tick box or the co-corresponding author tick box.
 
-       ![](<../.gitbook/assets/image (7).png>)
+       ![](<../.gitbook/assets/image (8).png>)
 
 
    * The email address for the corresponding author(s) should match that provided in the article file. If it does not, query the author (they may have used a personal account on the system but want to use an institutional account for correspondence from readers).
    * Each author should have ‘author contributions’. These are checked prior to PoA, so no edits should be required to this section. However, please alert Editorial and Production if no contributions are present.
-2. **Author affiliations: **Only one affiliation per author can be listed in the system.
-   * Ensure the details provided for each author match their first affiliation given in the article file.
-   * Expand abbreviations entered in the system e.g. 'Dept.' should be changed to 'Department'.
-3. **Competing interests: **No need to check.
-4.  **Group authors: **Any group authors mentioned in the author’s article file must be included on the submission system prior to PoA, if not already present in the author information.
+2. **Author affiliations:** Only one affiliation per author can be listed in the system.
+   * Ensure the details provided for each author match their first affiliation as given in the article file.
+   * Expand abbreviations entered in the system; e.g. 'Dept.' should be changed to 'Department'.
+3. **Competing interests:** No need to check.
+4.  **Group authors:** Any group authors mentioned in the author’s article file must be included on the submission system prior to PoA, if not already present in the author information.
 
-    The order of the group author(s) is indicated by selecting from a drop-down menu. Ensure that the group author is placed in the correct sequence with the other authors as per the article file’s author list. Any competing interests listed for the group author(s) present in the article file but not on the system should be added prior to PoA publication.
+
+
+    Any competing interests listed for the group author(s) present in the article file but not on the system should be added prior to PoA publication.
 
     For every group author, check whether a list of the members of that group is given in the article file. Ideally, this list should give the full name of each member and their affiliation. If this list is not present, check whether it has been provided as a separate file and alert Production via Slack.
 
@@ -295,13 +297,13 @@ To begin checking the metadata within the submission system, click next to move 
 
 #### Major subject area(s) page
 
-1. **Major subject areas(s): **One or more of these will have been selected by the author. Does not need to be checked.
-2. **Research organisms(s): **One or more of these will have been selected by the author. Does not need to be checked.
-3. **Keywords/other research organism: **The author can add up to six keywords and/or free-text research organisms. Make sure that these are all in lower cases, excepting proper nouns (e.g. Parkinson's disease) and species names (_S. cerevisiae_).
+1. **Major subject areas(s):** One or more of these will have been selected by the author. Does not need to be checked.
+2. **Research organisms(s):** One or more of these will have been selected by the author. Does not need to be checked.
+3. **Keywords/other research organism:** The author can add up to six keywords and/or free-text research organisms. Make sure that these are all in lower cases, excepting proper nouns (e.g. Parkinson's disease) and species names (_S. cerevisiae_).
 
 #### Submission information page
 
-1.  **Permissions: **Authors may sometimes adapt or reproduce figures from other works as part of their figures. If they exactly reproduce images from previously published works not covered by an open access license or free of copyright, they will need permission to do so.
+1.  **Permissions:** Authors may sometimes adapt or reproduce figures from other works as part of their figures. If they exactly reproduce images from previously published works not covered by an open access license or free of copyright, they will need permission to do so.
 
     During submission, the authors are asked to indicate if they have reused previously published images. At full and revised submission QC, possible cases where images require permissions will be flagged to Editorial using turquoise sticky notes. If permissions are required, the Editorial team will follow up with the authors for full details and add a red sticky note instructing Production/content processors that further action is required.
 
@@ -313,12 +315,12 @@ To begin checking the metadata within the submission system, click next to move 
     * Permissions statement (e.g. ‘Panel A is reprinted from Simonetta, et al, 2009, with permission from Elsevier. It is not covered by the CC-BY 4.0 licence and further reproduction of this panel would need permission from the copyright holder.’
 
     Please make sure that this information is present in the red sticky note and that there are no outstanding turquoise notes pending Editorial approval.
-2. **Funding: **No need to check.
-3.  **Datasets: **There are two parts to the datasets section, **Generated datasets** and **Previously published datasets**. The authors are asked to provide details of any major datasets that have been generated as part of their work and any previously published major datasets they have used in that work. They can include one or both of these types of dataset and the checks on them are largely the same.
+2. **Funding:** No need to check.
+3.  **Datasets:** There are two parts to the datasets section, **Generated datasets** and **Previously published datasets**. The authors are asked to provide details of any major datasets that have been generated as part of their work and any previously published major datasets they have used in that work. They can include one or both of these types of dataset and the checks on them are largely the same.
 
     The following fields should be completed for each dataset: **Author(s)**, **Year**, **Dataset Title**, **Direct URL to the Dataset** and **Accessibility Information** or **Accession No**.
 
-    ![](<../.gitbook/assets/image (8).png>)
+    ![](<../.gitbook/assets/image (8) (1).png>)
 
     The following should be checked:
 
@@ -332,7 +334,7 @@ To begin checking the metadata within the submission system, click next to move 
     * For all publicly available datasets with an accession number, the Accessibility information should take the form ‘Publicly available at XXXX (accession no. XXXXX)’. This should be updated if the authors have only provided the accession number or the database name in this field. The accession number can be derived from most dataset URLs.
     * For all publicly available datasets without an accession number, the Accessibility information should take the form ‘Publicly available at XXXX (http://XXXXX)’ where the bracketed term is the URL for the database homepage.
     * EXCEPTION: Dryad datasets always have the following accessibility statement: ‘Available at Dryad Digital Repository under a CC0 Public Domain Dedication’
-4. **Ethics: **If exists, remove any double quotes if present
+4. **Ethics:** If exists, remove any double quotes if present
 
 #### eLife Digest page
 

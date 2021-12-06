@@ -24,25 +24,25 @@ eLife currently allows four levels of headings:
 
 ![Level 1 'Introduction' heading in PDF](../../../.gitbook/assets/screen-shot-2020-07-14-at-16.49.07.png)
 
-* **Level 2 **- sub-section heading under a Level 1 heading:
+* **Level 2** - sub-section heading under a Level 1 heading:
 
 ![Level 2 heading 'Glycan synthesis in Golgi compartments' heading in online view](../../../.gitbook/assets/screen-shot-2020-07-14-at-16.51.12.png)
 
 ![Level 2 heading 'Glycan synthesis in Golgi compartments' heading in PDF](../../../.gitbook/assets/screen-shot-2020-07-14-at-16.51.30.png)
 
-* **Level 3 **- sub-section heading under a Level 2 heading:
+* **Level 3** - sub-section heading under a Level 2 heading:
 
 ![Level 3 heading 'Promiscuity' in online view](../../../.gitbook/assets/screen-shot-2020-07-14-at-16.53.45.png)
 
 ![Level 3 heading 'Promiscuity' in PDF](../../../.gitbook/assets/screen-shot-2020-07-14-at-16.53.21.png)
 
-* **Level 4 **- sub-section heading under a Level 3 heading.
+* **Level 4** - sub-section heading under a Level 3 heading.
 
 ![Level 4 heading 'Survival and water-electrolyte balance' in online view](../../../.gitbook/assets/screen-shot-2020-07-28-at-15.58.34.png)
 
 ![Level 4 heading 'Survival and water-electrolyte balance' in PDF](../../../.gitbook/assets/screen-shot-2020-07-28-at-15.59.05.png)
 
-Any number of Level 2, 3 or 4 headings may appear within their parent sections. However, eLife limits the number of Level 1 headings in research content to between one and four in most cases. Please note that levels cannot be skipped – for example, a Level 2 heading cannot be followed by a Level 4 heading. 
+Any number of Level 2, 3 or 4 headings may appear within their parent sections. However, eLife limits the number of Level 1 headings in research content to between one and four in most cases. Please note that levels cannot be skipped – for example, a Level 2 heading cannot be followed by a Level 4 heading.&#x20;
 
 ## Allowed article structures
 
@@ -184,7 +184,7 @@ The correct style for a numbered heading in an eLife articles is '1.1 Cube densi
 
 ## List of abbreviations
 
-eLife articles do not have 'List of abbreviations' sections - if the authors have provided these, the abbreviations should be expanded the first time they are used in the main text and display elements (e.g. figures, tables). The section should then be deleted.  
+eLife articles do not have 'List of abbreviations' sections - if the authors have provided these, the abbreviations should be expanded the first time they are used in the main text and display elements (e.g. figures, tables). The section should then be deleted. &#x20;
 
 ## Schematron checks
 
@@ -232,7 +232,7 @@ If this fires post-author, check the author's edits. If it is clear that they in
 
 **Action**: Section titles must not end in full stops. Remove the full stop from the indicated section title.
 
-#### sec-title-bold	
+#### sec-title-bold&#x9;
 
 **Error**: _All section title content is captured in bold. This is incorrect - XXXXXX_
 
@@ -250,7 +250,7 @@ If this fires post-author, check the author's edits. If it is clear that they in
 
 **Action**: Section titles should not be entirely in italics unless they only consist of a species name such as _C. elegans_. Scientific terms such as species names should be put in italics, but italics should be removed from any accompanying text.
 
-#### sec-title-dna	
+#### sec-title-dna&#x9;
 
 **Warning**: _Section title contains the phrase DNA, but it is not in all caps - XXXXXX_
 
@@ -268,7 +268,7 @@ If this fires post-author, check the author's edits. If it is clear that they in
 
 **Action**: This warning indicates that the abbreviation for dimension in, say, 2D, 3D, 4D etc, is a lowercase 'd'. Correct 2d, 3d, 4d etc to 2D, 3D, 4D etc.
 
-#### sec-title-hiv	
+#### sec-title-hiv&#x9;
 
 **Warning**: _Section title contains the word HIV, but it is not in all caps - XXXXXX_
 
@@ -308,25 +308,25 @@ In cases where the authors have included a top-level heading that is similar to 
 
 **Error**: The first top level section in a Medicine article should be 'Introduction'. This one is 'XXXXXX'.
 
-**Action**: This error indicates that the first section title in the body of an article with the MSA Medicine and/or Epidemiology and Global Health has a title which is not Introduction. If the title is misspelt or contains a typo (e.g. Intoduction), then it can simply be corrected. If the first section title is Methods, but there are paragraphs of text before it which are introductory, then the section title is simply missing and can be added in. If neither of these are the case, Exeter should inform Production, who will contact the Editorial team to check whether the unorthodox structure is permitted. 
+**Action**: This error indicates that the first section title in the body of an article with the MSA Medicine and/or Epidemiology and Global Health has a title which is not Introduction. If the title is misspelt or contains a typo (e.g. Intoduction), then it can simply be corrected. If the first section title is Methods, but there are paragraphs of text before it which are introductory, then the section title is simply missing and can be added in. If neither of these are the case, Exeter should inform Production, who will contact the Editorial team to check whether the unorthodox structure is permitted.&#x20;
 
 #### medicine-methods
 
 **Warning**: The second top level section in a Medicine article should be 'Methods' or 'Materials and methods'. This one is 'XXXXXX'.
 
-**Action**: This error indicates that the second section title in the body of an article with the MSA Medicine and/or Epidemiology and Global Health has a title which is not Methods or Materials and Methods. If the title is misspelt or contains a typo (e.g. Method), then it can simply be corrected. If the section title is simply missing then it can be added in. If neither of these are the case, check whether there are any notes from eJP relating to the article structure - there are exceptions to this rule - if there is a note indicating that the structure is fine, then this can be ignored. Otherwise Exeter should inform Production, who will contact the Editorial team to check whether the unorthodox structure is permitted. 
+**Action**: This error indicates that the second section title in the body of an article with the MSA Medicine and/or Epidemiology and Global Health has a title which is not Methods or Materials and Methods. If the title is misspelt or contains a typo (e.g. Method), then it can simply be corrected. If the section title is simply missing then it can be added in. If neither of these are the case, check whether there are any notes from eJP relating to the article structure - there are exceptions to this rule - if there is a note indicating that the structure is fine, then this can be ignored. Otherwise Exeter should inform Production, who will contact the Editorial team to check whether the unorthodox structure is permitted.&#x20;
 
 #### medicine-results
 
 **Warning**: The third top level section in a Medicine article should be 'Results'. This one is 'XXXXXX'.
 
-**Action**: This error indicates that the third section title in the body of an article with the MSA Medicine and/or Epidemiology and Global Health has a title which is not Results. If the title is misspelt or contains a typo (e.g. Result), then it can simply be corrected. If the section title is simply missing then it can be added in. If neither of these are the case, check whether there are any notes from eJP relating to the article structure - there are exceptions to this rule - if there is a note indicating that the structure is fine, then this can be ignored. Otherwise Exeter should inform Production, who will contact the Editorial team to check whether the unorthodox structure is permitted. 
+**Action**: This error indicates that the third section title in the body of an article with the MSA Medicine and/or Epidemiology and Global Health has a title which is not Results. If the title is misspelt or contains a typo (e.g. Result), then it can simply be corrected. If the section title is simply missing then it can be added in. If neither of these are the case, check whether there are any notes from eJP relating to the article structure - there are exceptions to this rule - if there is a note indicating that the structure is fine, then this can be ignored. Otherwise Exeter should inform Production, who will contact the Editorial team to check whether the unorthodox structure is permitted.&#x20;
 
 #### medicine-discussion
 
 **Warning**: The fourth top level section in a Medicine article should be 'Discussion'. This one is 'XXXXXX'.
 
-**Action**: This error indicates that the fourth section title in the body of an article with the MSA Medicine and/or Epidemiology and Global Health has a title which is not Discussion. If the title is misspelt or contains a typo (e.g. Discussio), then it can simply be corrected. If the section title is simply missing then it can be added in. If neither of these are the case, check whether there are any notes from eJP relating to the article structure - there are exceptions to this rule - if there is a note indicating that the structure is fine, then this can be ignored. Otherwise Exeter should inform Production, who will contact the Editorial team to check whether the unorthodox structure is permitted. 
+**Action**: This error indicates that the fourth section title in the body of an article with the MSA Medicine and/or Epidemiology and Global Health has a title which is not Discussion. If the title is misspelt or contains a typo (e.g. Discussio), then it can simply be corrected. If the section title is simply missing then it can be added in. If neither of these are the case, check whether there are any notes from eJP relating to the article structure - there are exceptions to this rule - if there is a note indicating that the structure is fine, then this can be ignored. Otherwise Exeter should inform Production, who will contact the Editorial team to check whether the unorthodox structure is permitted.&#x20;
 
 ### XML checks
 
@@ -385,7 +385,7 @@ If the headings 'Results' and 'Discussion' or 'Results and discussion' are not p
 | Materials and methods  | materials\|methods  |
 | Methods                | methods             |
 
-Correct the title to match the `@sec-type` value. 
+Correct the title to match the `@sec-type` value.&#x20;
 
 #### body-top-level-sec-id-test
 
@@ -397,11 +397,11 @@ Correct the title to match the `@sec-type` value.
 
 **Error**: _sec id must be a concatenation of its parent sec id and this element's position relative to its sibling secs. It must be XXXXXX._
 
-**Action: **The `@id` attribute on a section element `<sec>` should reflect its position within higher-level sections. So, for example, Level 2 sections, within a Level 1 section with the id s4, would have the ids s4-1, s4-2, s4-3 and so on. A Level 3 section within the third of these would have the ids s4-3-1, s4-3-2, s4-3-3 and so on. The Exeter support team will need to correct the id value to match the one recommended by the error message (XXXXXX).
+**Action:** The `@id` attribute on a section element `<sec>` should reflect its position within higher-level sections. So, for example, Level 2 sections, within a Level 1 section with the id s4, would have the ids s4-1, s4-2, s4-3 and so on. A Level 3 section within the third of these would have the ids s4-3-1, s4-3-2, s4-3-3 and so on. The Exeter support team will need to correct the id value to match the one recommended by the error message (XXXXXX).
 
 #### sec-test-1
 
-**Error**:_ sec must have a title_
+**Error**: _sec must have a title_
 
 **Action**: Each section should have a title. Check whether the text for the title has been captured as part of the first paragraph of this section and, if so, style it as a section heading. If the content looks correct, this error is likely an issue in the XML and the Exeter support team should be contacted in order to fix the issue.
 

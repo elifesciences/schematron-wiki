@@ -37,14 +37,14 @@ The following information can be added for software references:
 | Publisher                         | Yes (or Source must be entered instead)          | \<publisher-name>                                                           | Microsoft                                                                                      |
 | Website                           | No                                               | \<ext-link ext-link-type="uri" xlink:href="XXXXXX"> where XXXXXX is the URL | [http://doi.org/10.6084/m9.figshare.4742866.v1](http://doi.org/10.6084/m9.figshare.4742866.v1) |
 
-Where the optional information is available, this should also be added in. 
+Where the optional information is available, this should also be added in.&#x20;
 
-* **Authors**: Enter each author name as a surname followed by initials. This information may be present if you follow the link to the software website. 
-* **Collaboration: **If the software was made by a team this should be entered as a collaboration instead of authors** **e.g.** **R Development Core Team.
-* **Year**: This should be the year that the software being cited was released. 
+* **Authors**: Enter each author name as a surname followed by initials. This information may be present if you follow the link to the software website.&#x20;
+* **Collaboration:** If the software was made by a team this should be entered as a collaboration instead of authors **** e.g. **** R Development Core Team.
+* **Year**: This should be the year that the software being cited was released.&#x20;
 * **Software title**: The name of the software.
 * **Software name (Source in Kriya 2)**: Where the software is hosted (this does not necessarily mean the host owns the software), if applicable.
-* **Software version: **The version of software that was used. This is often mentioned in the article text - if it is not, it does not need to be added in. However, if it is provided it should be added and tagged correctly as a software version.
+* **Software version:** The version of software that was used. This is often mentioned in the article text - if it is not, it does not need to be added in. However, if it is provided it should be added and tagged correctly as a software version.
 * **Publisher location:** The location of the publishers of the software. This is separated into city and country fields in Kriya.
 * **Publisher**: The company or organisation that created the software and has ownership rights over it, if applicable.
 * **Website**: Some software providers add DOIs for their software. These need to be added as a full URL links (e.g. [http://doi.org/10.6084/m9.figshare.4742866.v1](http://doi.org/10.6084/m9.figshare.4742866.v1)) instead of just the DOI.
@@ -75,11 +75,11 @@ If the authors haven't cited the software as a software reference or provided an
 
 ## How to add a software reference
 
-To add a software reference in Kriya, right-click where you want to add the citation and click on Add New > Add New Reference and select Software under Reference Type. 
+To add a software reference in Kriya, right-click where you want to add the citation and click on Add New > Add New Reference and select Software under Reference Type.&#x20;
 
 ![The default fields in Kriya for a software reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.08.25.png)
 
-The default fields in Kriya will need to be altered to include the appropriate information. The fields we capture will differ slightly depending on the type of software reference. Make sure a citation is added whenever the software is mentioned in the text or in the key resources table. 
+The default fields in Kriya will need to be altered to include the appropriate information. The fields we capture will differ slightly depending on the type of software reference. Make sure a citation is added whenever the software is mentioned in the text or in the key resources table.&#x20;
 
 ### GitHub/GitLab
 
@@ -165,16 +165,16 @@ R software also has an [**RRID**](https://scicrunch.org/resolver/RRID:SCR\_00190
 
 After archiving code in Software Heritage (see how to do this [**here**](../../../toolkit/archiving-code.md)), a software reference needs to be added in the main text. The website should be the full directory link with contextual information (see [**here**](../../../toolkit/archiving-code.md#in-the-main-text) for how to obtain this). An example of a correctly entered Software Heritage software reference is below:
 
-| Fields                                          | Values                                                                                                                                                                                                                                                                   |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Author                                          | Zhan N                                                                                                                                                                                                                                                                   |
-| Year                                            | 2020                                                                                                                                                                                                                                                                     |
-| Software title                                  |  Zhan-Fan-et-al-2019-scRNAseq                                                                                                                                                                                                                                            |
-| <p>Software name (Source in Kriya 2)</p><p></p> | Software Heritage                                                                                                                                                                                                                                                        |
-| Software version                                | swh:1:rev:c008b3ff49d567a1abe9d9eed42afed4e9a27b42                                                                                                                                                                                                                       |
-| Website                                         | https://archive.softwareheritage.org/browse/directory/89513b41bd021137c72fa7cf3e57bcef4bf6c933/?origin_url=https://github.com/lifan36/Zhan-Fan-et-al-2019-scRNAseq\&revision=c008b3ff49d567a1abe9d9eed42afed4e9a27b42\&snapshot=7166156ca6702a41990236e9da386c44440b6609 |
+| Fields                                          | Values                                                                                                                                                                                                                                                                    |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Author                                          | Zhan N                                                                                                                                                                                                                                                                    |
+| Year                                            | 2020                                                                                                                                                                                                                                                                      |
+| Software title                                  |  Zhan-Fan-et-al-2019-scRNAseq                                                                                                                                                                                                                                             |
+| <p>Software name (Source in Kriya 2)</p><p></p> | Software Heritage                                                                                                                                                                                                                                                         |
+| Software version                                | swh:1:rev:c008b3ff49d567a1abe9d9eed42afed4e9a27b42                                                                                                                                                                                                                        |
+| Website                                         | https://archive.softwareheritage.org/browse/directory/89513b41bd021137c72fa7cf3e57bcef4bf6c933/?origin\_url=https://github.com/lifan36/Zhan-Fan-et-al-2019-scRNAseq\&revision=c008b3ff49d567a1abe9d9eed42afed4e9a27b42\&snapshot=7166156ca6702a41990236e9da386c44440b6609 |
 
-### **figshare **
+### **figshare**&#x20;
 
 An example of a figshare software reference is below. The authors may have provided a software version - if so, this should also be added.
 
@@ -186,9 +186,9 @@ An example of a figshare software reference is below. The authors may have provi
 | Software name (Source in Kriya 2) | figshare                                      |
 | Website                           | http://doi.org/10.6084/m9.figshare.4742866.v1 |
 
-Note, figshare can also be used for [**data references**](data-references.md) - double-check whether the link is for software or data and add the reference accordingly. If you cannot determine this, leave the following author query: 
+Note, figshare can also be used for [**data references**](data-references.md) - double-check whether the link is for software or data and add the reference accordingly. If you cannot determine this, leave the following author query:&#x20;
 
-* Please confirm whether this link refers to software or a dataset so we can capture it correctly in your reference list. 
+* Please confirm whether this link refers to software or a dataset so we can capture it correctly in your reference list.&#x20;
 
 Authors may upload a mixture of software and data to figshare. The Production team will liaise with the authors as necessary to decide how to capture this in these cases.
 
@@ -209,11 +209,11 @@ An example of a Zenodo software reference is below. The authors may have provide
 | Software version                  | 0.0.2                                  |
 | Website                           | https://doi.org/10.5281/zenodo.3653386 |
 
-Note, Zenodo can also be used for [**data references**](data-references.md) – double-check whether the link is for software or data and add the reference accordingly. If you cannot determine this, leave the following author query: 
+Note, Zenodo can also be used for [**data references**](data-references.md) – double-check whether the link is for software or data and add the reference accordingly. If you cannot determine this, leave the following author query:&#x20;
 
-* Please confirm whether this link refers to software or a dataset so we can capture it correctly in your reference list. 
+* Please confirm whether this link refers to software or a dataset so we can capture it correctly in your reference list.&#x20;
 
-Authors may upload a mixture of software and data to Zenodo. The Production team will liaise with the authors as necessary to decide how to capture this in these cases. 
+Authors may upload a mixture of software and data to Zenodo. The Production team will liaise with the authors as necessary to decide how to capture this in these cases.&#x20;
 
 ### Other
 
@@ -249,43 +249,43 @@ These checks relate to the content of software references. X or XXXXXX refers to
 
 **Error**: _Journal ref 'XXXXXX' has a source title 'XXXXXX' which must be incorrect. It should be a data or software type reference._
 
-**Action: **This error will fire if a Zenodo link has been entered as a journal reference, as in the example below. The ‘XXXXXX’ in this message will refer to the reference in question and its title respectively. Make sure the reference is changed to a software instead of a journal reference, and the fields are updated appropriately. 
+**Action:** This error will fire if a Zenodo link has been entered as a journal reference, as in the example below. The ‘XXXXXX’ in this message will refer to the reference in question and its title respectively. Make sure the reference is changed to a software instead of a journal reference, and the fields are updated appropriately.&#x20;
 
 Zenodo link incorrectly entered as a journal reference:
 
-| Fields        | Values                                |
-| ------------- | ------------------------------------- |
-| Author        | Winters S                             |
-| Year          | 2019                                  |
-| Article title | sandrawinters/guenon_occlusion: eLife |
-| Journal title | _Zenodo_                              |
-| DOI           | 10.5281/zenodo.357451                 |
+| Fields        | Values                                 |
+| ------------- | -------------------------------------- |
+| Author        | Winters S                              |
+| Year          | 2019                                   |
+| Article title | sandrawinters/guenon\_occlusion: eLife |
+| Journal title | _Zenodo_                               |
+| DOI           | 10.5281/zenodo.357451                  |
 
 When this is changed to a software reference, there will be several untagged fields
 
-| Fields   | Values                                |
-| -------- | ------------------------------------- |
-| Author   | Winters S                             |
-| Year     | 2019                                  |
-| unTagged | sandrawinters/guenon_occlusion: eLife |
-| unTagged | _Zenodo_                              |
+| Fields   | Values                                 |
+| -------- | -------------------------------------- |
+| Author   | Winters S                              |
+| Year     | 2019                                   |
+| unTagged | sandrawinters/guenon\_occlusion: eLife |
+| unTagged | _Zenodo_                               |
 
 These will need to be updated:
 
-| Fields           | Values                                |
-| ---------------- | ------------------------------------- |
-| Author           | Winters S                             |
-| Year             | 2019                                  |
-| Software title   | sandrawinters/guenon_occlusion: eLife |
-| Software name    | _Zenodo_                              |
-| Software version | 1.0                                   |
-| WebSite          | https://doi.org/10.5281/zenodo.357451 |
+| Fields           | Values                                 |
+| ---------------- | -------------------------------------- |
+| Author           | Winters S                              |
+| Year             | 2019                                   |
+| Software title   | sandrawinters/guenon\_occlusion: eLife |
+| Software name    | _Zenodo_                               |
+| Software version | 1.0                                    |
+| WebSite          | https://doi.org/10.5281/zenodo.357451  |
 
 #### **github-web-test**
 
 **Warning**: _web ref 'XXXXXX' has a link which contains 'github', therefore it should almost certainly be captured as a software ref (unless it's a blog post by GitHub)._
 
-**Action: **This warning will fire if a website reference contains the word ‘github’. If the link is to a repository on GitHub, this reference needs to be changed from a website to a software reference and the fields should be updated appropriately (see [**above**](software-references.md#how-to-add-a-software-reference)). In the example below, a repository is incorrectly captured as a website reference: 
+**Action:** This warning will fire if a website reference contains the word ‘github’. If the link is to a repository on GitHub, this reference needs to be changed from a website to a software reference and the fields should be updated appropriately (see [**above**](software-references.md#how-to-add-a-software-reference)). In the example below, a repository is incorrectly captured as a website reference:&#x20;
 
 ![A software reference incorrectly captured as a website reference](../../../.gitbook/assets/screenshot-2020-05-27-at-11.37.44.png)
 
@@ -322,27 +322,27 @@ If the link in the reference is to a blog post by GitHub however, as the example
 | Website       | https://github.blog/2020-05-15-remote-work-how-finance-legal-and-it-made-the-shift/ |
 | Accessed date | May 21, 2020                                                                        |
 
-#### **R-test-1 **
+#### **R-test-1**&#x20;
 
-**Error**: _software ref 'XXXXXX' has a data-title '_R: A Language and Environment for Statistical Computing'_ - but it does not have one collab element containing 'R Development Core Team'._
+**Error**: _software ref 'XXXXXX' has a data-title '_R: A Language and Environment for Statistical Computing' _- but it does not have one collab element containing 'R Development Core Team'._
 
 **Action:** During the conversion process, errors can occur. For example the collaboration 'R Development Core Team' can be mistakenly split over multiple collaboration fields or listed as an author. It may also be spelled incorrectly. If this error appears, make sure there is only one collaboration entered as ‘R Development Core Team’ for this reference and delete any other collaborations.
 
 #### **R-test-2**
 
-**Error**: _software ref 'XXXXXX' has a data-title '_R: A Language and Environment for Statistical Computing'_ - but it has XXXXXX collab element(s)._
+**Error**: _software ref 'XXXXXX' has a data-title '_R: A Language and Environment for Statistical Computing' _- but it has XXXXXX collab element(s)._
 
-**Action: **During the conversion process, errors can occur. For example the collaboration 'R Development Core Team' can be mistakenly split over multiple collaboration fields or listed as an author. It may also be spelled incorrectly. If this error appears, make sure there is only one collaboration entered as ‘R Development Core Team’ for this reference and delete any other collaborations.
+**Action:** During the conversion process, errors can occur. For example the collaboration 'R Development Core Team' can be mistakenly split over multiple collaboration fields or listed as an author. It may also be spelled incorrectly. If this error appears, make sure there is only one collaboration entered as ‘R Development Core Team’ for this reference and delete any other collaborations.
 
 **R-test-3**
 
-**Error**: _software ref 'XXXXXX' has a data-title '_R: A Language and Environment for Statistical Computing'_ - but does not have a \<publisher-loc>Vienna, Austria\</publisher-loc> element._
+**Error**: _software ref 'XXXXXX' has a data-title '_R: A Language and Environment for Statistical Computing' _- but does not have a \<publisher-loc>Vienna, Austria\</publisher-loc> element._
 
 **Action:** This error will appear if the data title of a software is ‘R: A Language and Environment for Statistical Computing’ and the publisher location is not entered correctly. 'Vienna' should be entered in the Publisher city field and 'Austria' should be entered in the Publisher country field.
 
 **R-test-4**
 
-**Error**: _software ref 'XXXXXX' has a data-title '_R: A Language and Environment for Statistical Computing'_ - but does not have a 'http://www.r-project.org' type link._
+**Error**: _software ref 'XXXXXX' has a data-title '_R: A Language and Environment for Statistical Computing' _- but does not have a 'http://www.r-project.org' type link._
 
 **Action:** This error will appear if the data title of a software is ‘R: A Language and Environment for Statistical Computing’ and the external link has not been entered correctly. Make sure the external link is added as a URI and entered as ‘http://www.r-project.org’.
 
@@ -360,7 +360,7 @@ If the link in the reference is to a blog post by GitHub however, as the example
 
 #### **R-test-7**
 
-**Error: **_software ref 'XXXXXX' with the title - XXXXXX - must have a publisher-name element (Software host) which contains 'R Foundation for Statistical Computing'._
+**Error:** _software ref 'XXXXXX' with the title - XXXXXX - must have a publisher-name element (Software host) which contains 'R Foundation for Statistical Computing'._
 
 **Action:** The publisher of R software is the 'R Foundation for Statistical Computing'. This error will fire if this has not been entered in the 'Publisher' field. Make sure this is corrected and there are no typos.
 
@@ -368,7 +368,7 @@ If the link in the reference is to a blog post by GitHub however, as the example
 
 **Error**: _software reference contains the replacement character '�' which is unallowed - XXXXXX_
 
-**Action: **This error will fire if a software reference contains the character ‘�’. This usually indicates a conversion error has occurred and an unknown, unrecognized or unrepresentable character has been replaced with ‘�’. Search for the reference in the original submission and update with the correct character.
+**Action:** This error will fire if a software reference contains the character ‘�’. This usually indicates a conversion error has occurred and an unknown, unrecognized or unrepresentable character has been replaced with ‘�’. Search for the reference in the original submission and update with the correct character.
 
 **software-doi-test-1**
 
@@ -390,7 +390,7 @@ Finally, just paste the URL into the Website field in Kriya.
 
 **Warning**: _XXXXXX is a software ref with a host (XXXXXX) known to register dois starting with '10.6084/m9.figshare'. Should it have a link in the format 'https://doi.org/10.6084/m9.figshare...'?_
 
-**Action: **If a software reference has a Software name (Source in Kriya 2) containing 'figshare', there needs to be a URL that contains '10.6084/m9.figshare'. This is because Continuum does not currently allow DOIs for software references. Make sure the DOI URL (including https://) is present in the website field in the reference.
+**Action:** If a software reference has a Software name (Source in Kriya 2) containing 'figshare', there needs to be a URL that contains '10.6084/m9.figshare'. This is because Continuum does not currently allow DOIs for software references. Make sure the DOI URL (including https://) is present in the website field in the reference.
 
 To get the full URL for a figshare dataset, on the dataset page, click on the 'Cite' button:
 
@@ -410,13 +410,13 @@ These checks relate to the XML structure of software references. X or XXXXXX ref
 
 **Error:** _Each \<element-citation> of type 'software' must contain one \<person-group> element with attribute person-group-type = author. Reference 'XXXXXX' has XXXXXX \<person-group> elements.‌_
 
-**Action: **This error will appear if a software reference has more than one \<person-group> element (which usually contains either authors or collaborations). It should be impossible for this error to occur - please contact support team if you see it. 
+**Action:** This error will appear if a software reference has more than one \<person-group> element (which usually contains either authors or collaborations). It should be impossible for this error to occur - please contact support team if you see it.&#x20;
 
 #### **err-elem-cit-software-2-2**
 
 **Error:** _The \<person-group> in a software reference must have the attribute person-group-type set to 'author'. Reference 'XXXXXX' has a \<person-group> type of 'XXXXXX'._
 
-**Action:** This error will appear if a software reference has a \<person-group> element with a person-group-type that isn't an author (e.g. an author has been tagged as an editor). It should be impossible for this error to occur - please contact the support team if you see it. 
+**Action:** This error will appear if a software reference has a \<person-group> element with a person-group-type that isn't an author (e.g. an author has been tagged as an editor). It should be impossible for this error to occur - please contact the support team if you see it.&#x20;
 
 #### **err-elem-cit-software-10-1**
 
@@ -428,7 +428,7 @@ These checks relate to the XML structure of software references. X or XXXXXX ref
 
 **Error**: _The only tags that are allowed as children of \<element-citation> with the publication-type="software" are: \<person-group>, \<year>, \<data-title>, \<source>, \<version>, \<publisher-name>, \<publisher-loc>, and \<ext-link> Reference 'XXXXXX' has other elements._
 
-**Action:** This error will fire if anything other than the named tags are present. It usually means a field in Kriya has been incorrectly selected for a software reference. Make sure the [correct fields](software-references.md#how-to-add-a-software-reference) are entered for a software reference. 
+**Action:** This error will fire if anything other than the named tags are present. It usually means a field in Kriya has been incorrectly selected for a software reference. Make sure the [correct fields](software-references.md#how-to-add-a-software-reference) are entered for a software reference.&#x20;
 
 #### **err-elem-cit-software-10-2**
 
@@ -440,13 +440,13 @@ These checks relate to the XML structure of software references. X or XXXXXX ref
 
 **Error**: _software ref 'XXXXXX' has both a source (Software name) - XXXXXX - and a publisher-name (Software host) - XXXXXX - which is incorrect. It should have either one or the other._
 
-**Action:** Software references can only have a source or a publisher - not both. This error will appear if the Software name (Source in Kriya 2) and Publisher fields have both been filled out. Make sure this is fixed - for more information about what these fields should contain, see [here](software-references.md#what-needs-to-be-added). 
+**Action:** Software references can only have a source or a publisher - not both. This error will appear if the Software name (Source in Kriya 2) and Publisher fields have both been filled out. Make sure this is fixed - for more information about what these fields should contain, see [here](software-references.md#what-needs-to-be-added).&#x20;
 
 #### **ref-software-test-2**
 
 **Error**: _software ref 'XXXXXX' with the title - XXXXXX - must contain either one source element (Software name) or one publisher-name element (Software host)._
 
-**Action:** Software references must have either a source or a publisher. This error will appear if the Software name (Source in Kriya 2) and Publisher fields have not been filled out. Make sure this is fixed - for more information about what these fields should contain, see [here](software-references.md#what-needs-to-be-added). 
+**Action:** Software references must have either a source or a publisher. This error will appear if the Software name (Source in Kriya 2) and Publisher fields have not been filled out. Make sure this is fixed - for more information about what these fields should contain, see [here](software-references.md#what-needs-to-be-added).&#x20;
 
 #### **ref-software-test-3**
 
@@ -462,7 +462,7 @@ These checks relate to the XML structure of software references. X or XXXXXX ref
 
 #### **ref-software-test-5**
 
-**Warning**: _XXXXXX software ref (with id 'XXXXXX') does not have a version number. Is this correct? _
+**Warning**: _XXXXXX software ref (with id 'XXXXXX') does not have a version number. Is this correct?_&#x20;
 
 **Action:** This warning will appear if a software reference does not have a version number. If the version number is mentioned in the text, add this information to the reference in the 'Software version' field. If the version number is not included, please leave the following query.
 
@@ -649,7 +649,7 @@ Zenodo
 
 #### Changes
 
-* Changed 'GitHub' heading to '[**GitHub/GitLab**](software-references.md#github-gitlab)' 
+* Changed 'GitHub' heading to '[**GitHub/GitLab**](software-references.md#github-gitlab)'&#x20;
 * Added information about how to add software references which don't fall into the given categories under '[**Other**](software-references.md#other)'.
 
 ### 13/09/2021

@@ -40,7 +40,7 @@ The content of a table can be broken down into three sections:
 * Table body
 * Table footer
 
-Of these three sections, the only mandatory one is the table body; it is possible and sometimes appropriate for tables to have no header or footer section. 
+Of these three sections, the only mandatory one is the table body; it is possible and sometimes appropriate for tables to have no header or footer section.&#x20;
 
 Tables can also have accompanying source data and/or source code files.
 
@@ -103,7 +103,7 @@ Typically an entire row should be captured as a header, although there are excep
 
 If a table has multiple headers, spans numerous pages in the PDF, and each header is of equal importance (or those in the body are more important than the top one), it _might_ be appropriate to include **no** table header. This is because (as stated in [the Table Header section](tables.md#table-header)), the PDF will display the top heading at the top of each subsequent page, and this would be inappropriate.
 
-****[**Here is an example**](https://elifesciences.org/articles/54090#table1). 
+****[**Here is an example**](https://elifesciences.org/articles/54090#table1).&#x20;
 
 ![](../../../.gitbook/assets/screen-shot-2020-06-05-at-15.27.58.png)
 
@@ -164,7 +164,7 @@ If a cell in the table body is entirely bold formatted, it may be appropriate to
 
 Table footers appear at the bottom of a table. They are intended to only contain extra relevant information (such as footnotes or attributions), and will not contain tabulated content. eLife use the footer to contain footnotes to the table. Often these are simple paragraphs which apply to the whole table. They can however be referred to from specific cells in the table, and this is done by including an indicator at the specific place in the cell/text and at the start of the footnote in the footer.
 
-All footnotes that have indicators should follow this sequence \*, †, ‡, §, ¶, \*\***, ††, ‡‡, §§, ¶¶, **\*\*\*, †††, ‡‡‡, §§§, ¶¶¶, \*\*\*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. in accordance with house style. Footnotes with numbers or letters as their indicators are not allowed.
+All footnotes that have indicators should follow this sequence \*, †, ‡, §, ¶, \*\***, ††, ‡‡, §§, ¶¶,** \*\*\*, †††, ‡‡‡, §§§, ¶¶¶, \*\*\*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. in accordance with house style. Footnotes with numbers or letters as their indicators are not allowed.
 
 For example a footnote labelled with 1, followed by 2, followed by 3 should be relabelled using †, ‡,  and § respectively.
 
@@ -172,7 +172,7 @@ For example a footnote labelled with 1, followed by 2, followed by 3 should be r
 
 ![Footnotes following the sequence set out above](../../../.gitbook/assets/screen-shot-2020-06-05-at-12.40.40.png)
 
-In the future we would like to be able to link footnote indicators in table cells to their respective footnotes, but currently this is not done, merely the symbol is included as (usually superscripted) text in both places. 
+In the future we would like to be able to link footnote indicators in table cells to their respective footnotes, but currently this is not done, merely the symbol is included as (usually superscripted) text in both places.&#x20;
 
 Table footers can also contain more general footnotes that are not specifically referred to from cells within the table, such as a list of abbreviations or more general notes on the table. This is also fine.
 
@@ -182,7 +182,7 @@ Footnotes should be placed in the following order:
 
 1. Footnotes with labels (if present; see above).
 2. p value footnotes (e.g. \*p<0.05; \*\*p<0.01; \*\*\*p<0.001) (if present).
-3. Undesignated footnotes (e.g. general notes) (if present). 
+3. Undesignated footnotes (e.g. general notes) (if present).&#x20;
 4. Abbreviations (if present).
 
 ### Table cell alignment
@@ -204,7 +204,7 @@ As with figure level source data, the label and title should be displayed undern
 eLife allow the following colours as background shading for Table cells:
 
 * Blue
-* Green 
+* Green&#x20;
 * Orange
 * Yellow
 * Purple
@@ -267,13 +267,13 @@ This element is placed as a child of the relevant cell (`<td>` or `<th>`).
 
 ## Key resources tables
 
-Key resources tables contain a list of resources (such as Genes, Strains, Antibodies, Reagents, Chemical compounds, Software etc.) that were used in generating the research communicated in an article. 
+Key resources tables contain a list of resources (such as Genes, Strains, Antibodies, Reagents, Chemical compounds, Software etc.) that were used in generating the research communicated in an article.&#x20;
 
 They are always placed at the start of the Materials and methods (or equivalent sections, such as Model and materials), except for those placed in an appendices.
 
 They have a label in the format 'Key resources table' or 'Appendix 1—key resources table', and no title or caption.
 
-They have a specific structure which must be followed - there will always be 5 columns, each with a header. When creating these tables, authors should use [**this template**](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). If the structure is not adhered to, then this has to be fixed during proofing. There are Schematron tests which will flag Key resources tables with the incorrect headers or number of columns.
+They have a specific structure which must be followed - there will always be 5 columns, each with a header. When creating these tables, authors should use [**this template**](https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx). If the structure is not adhered to, then this has to be fixed during proofing. There are Schematron tests which will flag Key resources tables with the incorrect headers or number of columns.
 
 In some articles, Key resources tables will be captured in a supplementary file instead. This is currently acceptable and no action needs to be taken (although in the future we will likely not allow this, and will instead mandate that these are captured in appendices).
 
@@ -287,7 +287,7 @@ Guidance for authors on Key resources tables can also be found [**here**](https:
 
 These are tables without labels. This means that they are not cited from elsewhere in the text, and should be placed in the flow of text that they have been in the original manuscript. Aside from a label, title and caption, they can contain the same content as any other table.
 
-****[**Here**](https://elifesciences.org/articles/55246#s4-24)** **is an example of two inline tables:
+****[**Here**](https://elifesciences.org/articles/55246#s4-24) **** is an example of two inline tables:
 
 ![](../../../.gitbook/assets/screen-shot-2020-06-05-at-12.53.03.png)
 
@@ -311,7 +311,7 @@ Correction and retraction notices may possibly contain tables. In these, it is n
 
 ## Table citations
 
-Labelled tables, which are not Key resources tables, within the main text of an article _must_ have a citation (the exception to this is tables in [corrections or retractions](tables.md#tables-in-corrections-and-retractions) and [feature content](tables.md#tables-in-feature-content)). Citations are optional for tables placed anywhere else in an article (appendices, boxes, and Decision letters/Author responses), but citations for tables in appendices should also be sought after where appropriate. 
+Labelled tables, which are not Key resources tables, within the main text of an article _must_ have a citation (the exception to this is tables in [corrections or retractions](tables.md#tables-in-corrections-and-retractions) and [feature content](tables.md#tables-in-feature-content)). Citations are optional for tables placed anywhere else in an article (appendices, boxes, and Decision letters/Author responses), but citations for tables in appendices should also be sought after where appropriate.&#x20;
 
 In the XML/HTML, tables should be placed directly after their first citation in the text.
 
@@ -331,7 +331,7 @@ If the citations are out of sequence and there are no other in sequence citation
 
 ## Schematron checks
 
-The following tests are run on tables. 
+The following tests are run on tables.&#x20;
 
 ### Content checks
 
@@ -354,7 +354,7 @@ Please ensure that the table label is either in one of these formats or (in the 
 
 **Error**: _XXXXXX - Table label does not conform to the usual format._
 
-**Action**: This will fire when a table in an appendix has a label which is not in the format 'Appendix 1—table 1.' 
+**Action**: This will fire when a table in an appendix has a label which is not in the format 'Appendix 1—table 1.'&#x20;
 
 Please ensure that there are no typos, missing or extra spaces, that the capitalisation is correct, that the character between 'Appendix X' and 'table X' is an [em dash](https://www.fileformat.info/info/unicode/char/2014/index.htm), and that the label ends with a full stop. Please also check for no-break spaces in the table label text. This error will fire if any are present, and they should always be replaced with normal spacing.
 
@@ -370,7 +370,7 @@ Depending on the case, the table will either need to be moved into its appropria
 
 **Warning**: _Footnote starts with what might be a label which is not in line with house style - XXXXXX. If it is a label, then it should changed to one of the allowed symbols, so that the order of labels in the footnotes follows this sequence \*, †, ‡, §, ¶, \*\*, ††, ‡‡, §§, ¶¶, etc._
 
-**Action**: Footnote indicators should be in the following sequence \*_, _†, ‡, §, ¶, \*\***, ††, ‡‡, §§, ¶¶, \*\*\***, †††, ‡‡‡, §§§, ¶¶¶, \*\*\*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. If this warning fires, it is because a footnote starts with what looks like a label which isn't one of the allowed symbols. If it is a label for the footnote, then it should be changed in line with the sequence above. If it is not a label, then the message should be ignored.
+**Action**: Footnote indicators should be in the following sequence \*_,_ †, ‡, §, ¶, \*\***, ††, ‡‡, §§, ¶¶, \*\*\***, †††, ‡‡‡, §§§, ¶¶¶, \*\*\*\*, ††††, ‡‡‡‡, §§§§, ¶¶¶¶, etc. If this warning fires, it is because a footnote starts with what looks like a label which isn't one of the allowed symbols. If it is a label for the footnote, then it should be changed in line with the sequence above. If it is not a label, then the message should be ignored.
 
 #### pre-body-table-report
 
@@ -468,14 +468,14 @@ See also [**Allowed colours in table cells**](tables.md#allowed-colours-in-table
 
 **Error**: _table-wrap has an inline id XXXXX but it has a label - XXXXX, which is not correct._
 
-**Example message**: table-wrap has an inline id inline-table1 but it has a label - Table 1., which is not correct.  
+**Example message**: table-wrap has an inline id inline-table1 but it has a label - Table 1., which is not correct. &#x20;
 
 **Action**: This will fire if a table has an id which is not correct based on its label. There are two possible scenarios here:
 
 1. A labelled table (e.g. Table 1) with the incorrect id.
 2. An inline (un-labelled) table with the correct id, but an unnecessary label.
 
-Check against the original manuscript in order to determine whether the table should be labelled or not. This can be determined if the author has included a label or if they have included a title and/or caption (if they have included a title and/or caption but no label in the original manuscript then one will have to provided). If (after having checked the manuscript) it should be a labelled table, then Exeter will have to correct the id. A table with a label must have an id in the format `table1`.  
+Check against the original manuscript in order to determine whether the table should be labelled or not. This can be determined if the author has included a label or if they have included a title and/or caption (if they have included a title and/or caption but no label in the original manuscript then one will have to provided). If (after having checked the manuscript) it should be a labelled table, then Exeter will have to correct the id. A table with a label must have an id in the format `table1`. &#x20;
 
 If the second scenario is the case, the erroneous label should be removed, and the id left as it is.
 
@@ -488,9 +488,9 @@ If the second scenario is the case, the erroneous label should be removed, and t
 1. A table with the correct id which is missing its label.
 2. An inline (un-labelled) table with the incorrect id.
 
-Check against the original manuscript in order to determine whether the table should be labelled or not. This can be determined if the author has included a label, or if they have included a title and/or caption. If (after having checked the manuscript) it should be a labelled table, then ensure the correct label is added (Exeter will have to do this). A table with id in the format `table1`, must have a label in the format 'Table 1.' 
+Check against the original manuscript in order to determine whether the table should be labelled or not. This can be determined if the author has included a label, or if they have included a title and/or caption. If (after having checked the manuscript) it should be a labelled table, then ensure the correct label is added (Exeter will have to do this). A table with id in the format `table1`, must have a label in the format 'Table 1.'&#x20;
 
-If the second scenario is the case, the id will need to be corrected so that it is in the format `inlinetable1`. 
+If the second scenario is the case, the id will need to be corrected so that it is in the format `inlinetable1`.&#x20;
 
 #### kr-table-wrap-test-1
 
@@ -526,7 +526,7 @@ The only exception to this is where the article contains an appendix and there i
 
 **Warning**: _There is no citation to XXXXXX. Is this correct?_
 
-**Action**: This will fire at all stages for tables (which are not Key resources tables) with labels, in feature content (insights or feature articles). 
+**Action**: This will fire at all stages for tables (which are not Key resources tables) with labels, in feature content (insights or feature articles).&#x20;
 
 If this fires at a **pre-author stage** (and there are no issues with labelling or the table id), then the following author query should be added:
 
@@ -552,7 +552,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Action**: This will fire at all stages if a Key resources table does not have the correct number of headings. All Key resources tables should have 5 headings/columns. If the table is typeset correctly (**please check this carefully**), as the author provided it, then the following author query should be added:
 
-* This Key resource table is not in the correct format. Please provide a revised table as a Word or Excel file in response to the proofing email. A template for the table can be found at https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+* This Key resource table is not in the correct format. Please provide a revised table as a Word or Excel file in response to the proofing email. A template for the table can be found at https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
 #### kr-table-header-2
 
@@ -560,7 +560,7 @@ If this fires at a **post-author stage**, this should be **ignored** by Exeter a
 
 **Action**: This will fire at all stages if a Key resources table has more than one row in it's header. It is **very** likely that this means the table has been incorrectly typeset. If this is the case please correct. If this has been checked very carefully and the table is as the author provided it, then the following author query should be added:
 
-* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file (such as word or excel) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx). The table can be provided as an editable file (such as word or excel) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
 #### kr-table-header-3
 
@@ -578,7 +578,7 @@ For example, the header may be present as a row in the body of the table, rather
 
 **Action**: This will fire at all stages if the first header in a Key resources table is not 'Reagent type (species) or resource'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be (see [above](tables.md#key-resources-tables)), then please add the following author query:
 
-* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file (such as word or excel) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx). The table can be provided as an editable file (such as word or excel) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
 #### kr-table-header-5
 
@@ -586,7 +586,7 @@ For example, the header may be present as a row in the body of the table, rather
 
 **Action**: This will fire at all stages if the second header in a Key resources table is not 'Designation'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be (see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)), then please add the following author query:
 
-* This Key resource table is not in the correct format. Please provide a revised table as a Word or Excel file in response to the proofing email. A template for the table can be found at https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+* This Key resource table is not in the correct format. Please provide a revised table as a Word or Excel file in response to the proofing email. A template for the table can be found at https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
 #### kr-table-header-6
 
@@ -594,7 +594,7 @@ For example, the header may be present as a row in the body of the table, rather
 
 **Action**: This will fire at all stages if the third header in a Key resources table is not 'Source or reference'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be (see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)), then please add the following author query:
 
-* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file (such as word or excel) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx). The table can be provided as an editable file (such as word or excel) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
 #### kr-table-header-7
 
@@ -602,7 +602,7 @@ For example, the header may be present as a row in the body of the table, rather
 
 **Action**: This will fire at all stages if the fourth header in a Key resources table is not 'Identifiers'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be (see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)), then please add the following author query:
 
-* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file (such as word or excel) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx). The table can be provided as an editable file (such as word or excel) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
 #### kr-table-header-8
 
@@ -610,11 +610,11 @@ For example, the header may be present as a row in the body of the table, rather
 
 **Action**: This will fire at all stages if the fifth header in a Key resources table is not 'Additional information'. If it's clearly a typo, then this should be corrected. If the table is completely different to how it should be (see [above](https://app.gitbook.com/@elifesciences/s/productionhowto/article-details/content/tables#key-resources-tables)), then please add the following author query:
 
-* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx](https://cdn.elifesciences.org/author-guide/key_resources_table.xlsx). The table can be provided as an editable file (such as word or excel) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
+* This Key resource table is not in the correct format. Please provide a revised table in the required format using this guide - [https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx](https://cdn.elifesciences.org/author-guide/key\_resources\_table.xlsx). The table can be provided as an editable file (such as word or excel) in response to the proofing email. We regret that this was not brought to your attention earlier and apologise for the inconvenience.
 
 #### kr-table-body-1
 
-**Error**: _Table cell in _Key resources_ table containing 'XXXXXX' is captured as a table header cell (th), which is not allowed. Ensure that this is changed to a normal table cell (td)._
+**Error**: _Table cell in_ Key resources _table containing 'XXXXXX' is captured as a table header cell (th), which is not allowed. Ensure that this is changed to a normal table cell (td)._
 
 **Action**: This will fire for any table cell in the body of a Key Resources table which is captured with heading formatting (as a `<th>` element). This should always be changed to a normal table cell (`<td>` element).
 
@@ -692,7 +692,7 @@ In a case like [this](https://elifesciences.org/articles/53910#table1)
 
 all the table cells next to 'Refinement (Phenix)' and 'Validation' (in their rows) should be given table header formatting.
 
-In a case like [this](https://elifesciences.org/articles/52505#table1) 
+In a case like [this](https://elifesciences.org/articles/52505#table1)&#x20;
 
 ![](../../../.gitbook/assets/screen-shot-2020-05-29-at-12.58.10.png)
 
@@ -734,7 +734,7 @@ the warning can be ignored, as all the cells in the first column serve as anothe
 
 **Example:** _'Table cell in Key resources table contains ' (Monk et al., 2012) '. Are the brackets around the citation(s) unnecessary?_
 
-**Action**: This will fire at all stages is a table cell contains a reference citation or reference citations and the text other than the citation(s) does not contain letters or numbers. In a case where, the content of the cell is just citations, then the brackets around them should be removed. If there is other text, which makes the brackets necessary, then they can be left. 
+**Action**: This will fire at all stages is a table cell contains a reference citation or reference citations and the text other than the citation(s) does not contain letters or numbers. In a case where, the content of the cell is just citations, then the brackets around them should be removed. If there is other text, which makes the brackets necessary, then they can be left.&#x20;
 
 #### pre-table-title-test-1
 
@@ -1442,5 +1442,5 @@ Vertical cell alignment is defined using the `valign` attribute.
 * Updated 2020-09-02 to include pre-table-title-test-1, final-table-title-test-1, table-title-test-2, table-title-test-3 and table-title-test-4.
 * Updated 2020-09-07 to include information on inline images.
 * Updated 2020-09-09 to include table-title-test-5 and table-title-test-6.
-* Updated 2020-10-21 to move table-xref-conformity-1 to 4 and table-xref-test-1 to 6 to asset citations page.  
+* Updated 2020-10-21 to move table-xref-conformity-1 to 4 and table-xref-test-1 to 6 to asset citations page. &#x20;
 * Updated 2020-11-30 to account for kr-table-not-tagged changing to warning.

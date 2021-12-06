@@ -4,7 +4,7 @@ description: eLife's published peer review material
 
 # Decision letters and Author responses
 
-## What needs to be checked?
+## What needs to be checked?&#x20;
 
 * Both a Decision letter and Author response are present prior to publication (an Author response may not be included in cases where the review was carried out by Review Commons, or in other very rare cases, but having both is the norm).
 * All Figures, Tables, and Videos display in the same way as in the main article.
@@ -36,7 +36,7 @@ The following article types typically contain both a Decision letter and an Auth
 * Scientific Correspondence
 * Feature Article (Template 5 only)
 
-The following articles will never have a Decision letter or Author response:
+The following articles will never have a Decision letter or Author response:&#x20;
 
 * Review article
 * Insight
@@ -67,7 +67,7 @@ DL Template
 
 4\. Next, the full submission version of the manuscript is opened in eJP. The decision letter (in the Decision Summary section) is copied from "Thank you…" to the end of Major comments. In other words, the minor comments are not included. All major comments are included. This text is copied into the template file under "Decision letter".
 
-5\. The [**Public Review tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd_STqhP7x0/edit#gid=0) is then checked, to see if the preprint has public reviews. If it does (the article is present in that spreadsheet), then the links in the preamble at the top of that template are edited to the specific Sciety and preprint links. If there is no public review for the article, then the preamble (including the '**Preamble**' heading) is removed. When the decision letter is processed by the elife-bot, the default template text will be instead added to the beginning of the decision letter. 
+5\. The [**Public Review tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd\_STqhP7x0/edit#gid=0) is then checked, to see if the preprint has public reviews. If it does (the article is present in that spreadsheet), then the links in the preamble at the top of that template are edited to the specific Sciety and preprint links. If there is no public review for the article, then the preamble (including the '**Preamble**' heading) is removed. When the decision letter is processed by the elife-bot, the default template text will be instead added to the beginning of the decision letter.&#x20;
 
 6\. After the content is pasted into the document, tracked changes are turned on, and the following amendments are made:
 
@@ -81,7 +81,7 @@ Here are the common options:
 3. ...reviewed by a Senior Editor, a Reviewing Editor, and three reviewers. \[when the Reviewing Editor ISN’T one of the three reviewers]   .
 4. ...reviewed by a Senior Editor, a Reviewing Editor, and two reviewers. \[when the Reviewing editor ISN’T one of the two reviewers]   .
 
-If the Reviewing Editor decided to share their identity, the respective sentence should be edited to say: 
+If the Reviewing Editor decided to share their identity, the respective sentence should be edited to say:&#x20;
 
 > Your article has been reviewed by three peer reviewers, including X as the Reviewing Editor and Reviewer #1, and the evaluation has been overseen by a Senior Editor.
 {% endhint %}
@@ -92,20 +92,20 @@ If the Reviewing Editor decided to share their identity, the respective sentence
 * All words used as numbers must be in full, i.e 2nd should be changed to second, 1 reviewer should be one reviewer.
 * Any HTML code showing must be removed and the actual formatting applied, i.e for Italics within the manuscript title itself (\<em>).
 
-7\. Once all changes are made, tracked changes are turned off and all the text is copied and pasted into the Author response. Then all that text is italicised. These serve as the quotes from the Decision letter that the authors respond to. 
+7\. Once all changes are made, tracked changes are turned off and all the text is copied and pasted into the Author response. Then all that text is italicised. These serve as the quotes from the Decision letter that the authors respond to.&#x20;
 
-8\. The next version of the manuscript (after full sub) in eJP is opened and in the section 'Response to reviewers', each response is pasted under the relevant section in the document. 
+8\. The next version of the manuscript (after full sub) in eJP is opened and in the section 'Response to reviewers', each response is pasted under the relevant section in the document.&#x20;
 
 9\. The first 2 opening paragraphs of the decision letter are removed from the author response, and if there is no response to the acceptance summary, this is removed from the response as well.
 
 {% hint style="info" %}
 In the Author response, the original comments from the editor/reviewers are in italics whereas the author replies are not:
 
-> **Decision letter> **
+> **Decision letter**
 >
 > Text, text, text
 >
-> _Reviewer 1:> _
+> _Reviewer 1:_
 >
 > Text, text, text
 >
@@ -115,28 +115,28 @@ In the Author response, the original comments from the editor/reviewers are in i
 >
 > \[...]
 >
-> **Author response> **
+> **Author response**
 >
-> _Text, text, text> _
+> _Text, text, text_
 >
 > Response, response, response
 >
 > Reviewer 1:
 >
-> _Text, text, text> _
+> _Text, text, text_
 >
 > Response, response, response
 >
 > Reviewer 2:
 >
-> _Text, text, text> _
+> _Text, text, text_
 >
 > Response, response, response
 {% endhint %}
 
-10\. Once all of these are added, tracked changes are turned back on and the macro is run** **(see [**Setting up the Macro**](decision-letters-and-author-responses.md#setting-up-the-macro)). After that has finished running the following edits are made:
+10\. Once all of these are added, tracked changes are turned back on and the macro is run **** (see [**Setting up the Macro**](decision-letters-and-author-responses.md#setting-up-the-macro)). After that has finished running the following edits are made:
 
-* Any reference to a Movie is changed to Video. 
+* Any reference to a Movie is changed to Video.&#x20;
 * References - if the decision letter or author response contains a numbered or unnumbered reference list this is included at the end of the document under the heading “References”. No formatting changes are required, but any endnote formatting is removed.
 * _eLife_ is capitalised correctly and italicised.
 * Species names are italicised and latin phrases are made roman. The macro should pick most of these up.
@@ -146,7 +146,7 @@ In the Author response, the original comments from the editor/reviewers are in i
 * Language/comments that could be construed as inappropriate or offensive are removed.
 
 {% hint style="info" %}
-It's context dependent and obviously a judgement call as to what constitutes inappropriate or offensive language, but there are some signals, such as: 
+It's context dependent and obviously a judgement call as to what constitutes inappropriate or offensive language, but there are some signals, such as:&#x20;
 
 * use of words such as "offensive", "offended", "unprofessional", "rude", "dismissive", "conflict of interest", "shocked", "strongly disagree".
 * use of exclamation marks may be a sign of enthusiasm (in which case this is okay) or a sign of an unsavoury disagreement (in which case the section should be read for context and edited as appropriate).
@@ -175,7 +175,7 @@ Ed office will flag any reproduced images to Production, and won't upload the DL
 
 ### Images
 
-Images should be captured as separate `.jpg` files (see below for formatting in Word doc for images - the images are not included inside the actual Word file). For images in PDFs, in Reader, take a snap shot, paste in Paint (or similar) and save as `.jpg`. For images in Word, right click, save as `.jpg`.
+Images should be captured as separate `.jpg` files (see below for formatting in Word doc for images - the images are not included inside the actual Word file). For images in PDFs, in Reader, take a snap shot, paste in Paint (or similar) and save as `.jpg`. For images in Word, right click, save as `.jpg`.
 
 {% hint style="info" %}
 When jpegs turn out to be too small and with reduced quality, a good solution is to enhance the size of the PDF file and take a screenshot of the figures (Alt+Print Screen in Windows, Command-Shift-4 in OS X). Please make sure to crop the images as appropriate (e.g. if the screenshot captures the whole screen).
@@ -189,7 +189,7 @@ Decision letter images should be added to the Word doc in the following way (the
 
 If there is no title or legend, the full stop in the tag must be present in order for the label to be correctly captured.
 
-Any titles or legends should be placed after a `<Decision letter image 1 title/legend>` tag (which is also yellow highlighted) and bolded text containing the label for that image (for example, **Decision letter image 1.** - note that the full stop should be present). It should then end with a `</Decision letter image 1 title/legend>` tag (see also image for Author response legends [**below**](decision-letters-and-author-responses.md#author-response-images)). 
+Any titles or legends should be placed after a `<Decision letter image 1 title/legend>` tag (which is also yellow highlighted) and bolded text containing the label for that image (for example, **Decision letter image 1.** - note that the full stop should be present). It should then end with a `</Decision letter image 1 title/legend>` tag (see also image for Author response legends [**below**](decision-letters-and-author-responses.md#author-response-images)).&#x20;
 
 #### Author response images
 
@@ -257,7 +257,7 @@ Examples can be found here:
 
 * Leave the name of the Macro as Macro1 (this will be automatically updated once the macro has been recorded). Ensure the option “All documents (Normal.dotm)” under “Store macro in:” is selected. Click OK.
 
-![](https://lh6.googleusercontent.com/riR9FVjKdtBYjJAiTWzLZVMHVaoQgAV7qHUkCJv_dRknlYfVRu4vh5NFp9JTkH0e3PeIDCnkZpDal4KBXNLZgNgXCDqIRV8rowL8ZXdGK1ARQ6KB_F-k-5fajLogpfKQFvnGKoA)
+![](https://lh6.googleusercontent.com/riR9FVjKdtBYjJAiTWzLZVMHVaoQgAV7qHUkCJv\_dRknlYfVRu4vh5NFp9JTkH0e3PeIDCnkZpDal4KBXNLZgNgXCDqIRV8rowL8ZXdGK1ARQ6KB\_F-k-5fajLogpfKQFvnGKoA)
 
 * A little cassette symbol will show up. Type something random, such as “eLife” and go again to the Macro drop down list and press “Stop recording”.
 
@@ -265,15 +265,15 @@ Examples can be found here:
 
 * Click again on Macros, and then on “View Macros”.
 
-![](https://lh4.googleusercontent.com/MEoo1cRFxMUdcD_sNmNHSh0S-56CUmPAYx5HQWhE5rPoivOOtDhguBHBIu3jWMySDnE08J9O8u0\_vO-uIAHWJ6X3hWQoTmvUFVyZENvpHHJYxhi17iM-spvA8hBsPZX7P8WEqh0)
+![](https://lh4.googleusercontent.com/MEoo1cRFxMUdcD\_sNmNHSh0S-56CUmPAYx5HQWhE5rPoivOOtDhguBHBIu3jWMySDnE08J9O8u0\_vO-uIAHWJ6X3hWQoTmvUFVyZENvpHHJYxhi17iM-spvA8hBsPZX7P8WEqh0)
 
 * In the resulting window, select “Macro1” and click on “Edit” on the right sidebar. This will allow you to edit the code.
 
-![](https://lh4.googleusercontent.com/FPQXBLzyaEvDC9YoItKC0vCneVnVeqhy1P7fE1ar5UnC0a-xxOrt2l0twzTXJa_Ih4TRWlI3UpJK4NbsMQOi68rC7kpbtWRDima0vp2K-q-RRfPOc85NpDhmF6HKo5x9Pt3L6Dg)
+![](https://lh4.googleusercontent.com/FPQXBLzyaEvDC9YoItKC0vCneVnVeqhy1P7fE1ar5UnC0a-xxOrt2l0twzTXJa\_Ih4TRWlI3UpJK4NbsMQOi68rC7kpbtWRDima0vp2K-q-RRfPOc85NpDhmF6HKo5x9Pt3L6Dg)
 
 * You will see something like the below, a terminal where you can edit the code.
 
-![](https://lh3.googleusercontent.com/lJyDYEaqRJ6LcximtoZ6LQudgKnPUPdQJIr-XkZTHwfENQZDVgVXrEeT5LXqmte4fzoPBckzuE9kNfFCYgZc4IClM7YGHRHmbcYTStwgp0u300Eil2smhag6tKKQeq-rGNW_VgI)
+![](https://lh3.googleusercontent.com/lJyDYEaqRJ6LcximtoZ6LQudgKnPUPdQJIr-XkZTHwfENQZDVgVXrEeT5LXqmte4fzoPBckzuE9kNfFCYgZc4IClM7YGHRHmbcYTStwgp0u300Eil2smhag6tKKQeq-rGNW\_VgI)
 
 * **Delete all the code** in there, and replace with the following:
 
@@ -421,7 +421,7 @@ The string `C:\Users\Maria\Dropbox\Decision letters and author responses_Macro\F
 
 * Save and click "Reset"
 
-![](https://lh5.googleusercontent.com/upkar0tbk0A4urIs3ZiuWb1HrJbnjP9ILK4XS9H5\_KS6CdlHSiHhMWaD8VYZOW9UzayrXy9qwHujc_hkSJ8-Fz5pkluhWdFeRt5Je_amZ4vDLtHf6FBNOKOcF1vOt6tV_bUaHQQ)
+![](https://lh5.googleusercontent.com/upkar0tbk0A4urIs3ZiuWb1HrJbnjP9ILK4XS9H5\_KS6CdlHSiHhMWaD8VYZOW9UzayrXy9qwHujc\_hkSJ8-Fz5pkluhWdFeRt5Je\_amZ4vDLtHf6FBNOKOcF1vOt6tV\_bUaHQQ)
 
 * Close the macro window and word. The macro has been set up.
 
@@ -429,11 +429,11 @@ The string `C:\Users\Maria\Dropbox\Decision letters and author responses_Macro\F
 
 Once set up (see [**Setting up the Macro**](decision-letters-and-author-responses.md#setting-up-the-macro)), the Macro can be run on a word document, by opening it in word, and going to "View Macros"
 
-![](https://lh5.googleusercontent.com/99BOZdu8n52-uELxZLfZz_jdHiuYXRvvlawIFhr5sAzk6BIL_X6CZaUQ_of5d52GPY3t71Qh7pJtyAawL8cGhB5AZu80uceZuNOwwvaploGTZIOBhilCeZqVtdNM9TBrH6yaIV0)
+![](https://lh5.googleusercontent.com/99BOZdu8n52-uELxZLfZz\_jdHiuYXRvvlawIFhr5sAzk6BIL\_X6CZaUQ\_of5d52GPY3t71Qh7pJtyAawL8cGhB5AZu80uceZuNOwwvaploGTZIOBhilCeZqVtdNM9TBrH6yaIV0)
 
 Select the macro and click Run
 
-![](https://lh6.googleusercontent.com/xlU0uo6YGoMt83Pyw3D3nhSd0aX0SJ1VUiBg2tFniXPvECayYHYXuIrb2GmW4Au-BgA_kJLAkHe8mQmhxBsoqnI05LZHnd1xu_CNcLi6\_sfdkCKIb0z5Slni15eltd7KL1PCMug)
+![](https://lh6.googleusercontent.com/xlU0uo6YGoMt83Pyw3D3nhSd0aX0SJ1VUiBg2tFniXPvECayYHYXuIrb2GmW4Au-BgA\_kJLAkHe8mQmhxBsoqnI05LZHnd1xu\_CNcLi6\_sfdkCKIb0z5Slni15eltd7KL1PCMug)
 
 {% hint style="danger" %}
 The macro should only be run once. Running it numerous times will introduce errors into the document.
@@ -483,7 +483,7 @@ Note how all the files are inside a folder called `elife-54591`. This would be t
 
 ## Kitchen sink Decision letter zip
 
-A 'Kitchen sink' Decision letter zip can be found here - [**https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test_data/elife-00666.zip**](https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test_data/elife-00666.zip). This contains all the kinds of content we can expect in Decision letters, and how to capture them in the Word file so that they are converted and sent correctly.
+A 'Kitchen sink' Decision letter zip can be found here - [**https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test\_data/elife-00666.zip**](https://github.com/elifesciences/decision-letter-parser/blob/develop/tests/test\_data/elife-00666.zip). This contains all the kinds of content we can expect in Decision letters, and how to capture them in the Word file so that they are converted and sent correctly.
 
 ## How are Decision letters and Author responses loaded?
 
@@ -501,11 +501,11 @@ Reloading a Decision letter is as simple as downloading the zip file from the `e
 
 ## Decision letter workflow
 
-eLife production will be made aware of any Decision letters being loaded by an automated email appearing in the Production Inbox. Certain actions may be required depending on whether the email indicates that the Decision letter was posted successfully or not (see also [**Decision letter loading**](../../toolkit/managing-production-queries.md#decision-letter-loading) for more information on how to handle this email). In the event that a Decision letter/Author response contains videos, Ed Office will inform Production prior to uploading, see [**below**](decision-letters-and-author-responses.md#dl-with-author-response-videos) on what to do when this occurs. 
+eLife production will be made aware of any Decision letters being loaded by an automated email appearing in the Production Inbox. Certain actions may be required depending on whether the email indicates that the Decision letter was posted successfully or not (see also [**Decision letter loading**](../../toolkit/managing-production-queries.md#decision-letter-loading) for more information on how to handle this email). In the event that a Decision letter/Author response contains videos, Ed Office will inform Production prior to uploading, see [**below**](decision-letters-and-author-responses.md#dl-with-author-response-videos) on what to do when this occurs.&#x20;
 
 ### The Decision letter was posted successfully
 
-The state of the article in Kriya will determine what stage it should proceed to, or not, as the case may be. See the below workflow diagram for successful Decision letter emails. 
+The state of the article in Kriya will determine what stage it should proceed to, or not, as the case may be. See the below workflow diagram for successful Decision letter emails.&#x20;
 
 {% hint style="info" %}
 Verifying whether a Decision letter has loaded in Kriya is as simple as refreshing the dashboard and checking whether the 'Upload sub-article' orange button has changed to a green 'Reupload sub-article'. Green indicates a Decision letter has been loaded, orange indicates it has not.
@@ -575,7 +575,7 @@ During revised QC checks, Ed Office flag any responses to the Public review that
 
 ## Schematron checks
 
-The following tests are run on Decision Letters and Author responses. 
+The following tests are run on Decision Letters and Author responses.&#x20;
 
 ### Content checks
 
@@ -622,7 +622,7 @@ The eLife production team should check the original Word file, in order to deter
 * ... am shocked ...
 * ... strongly disagree ...
 
-Exeter can ignore this warning. 
+Exeter can ignore this warning.&#x20;
 
 eLife should check to see whether the text (or perhaps the snippet from the Decision letter copied above) contains inflammatory or offensive language. If it seems that it is offensive, confer with other members of the Production team to decide whether it should be removed. It's a judgement call and there are no strict guidance or rules for this. If the Production team are still unsure, they may confer with Ed Office and Editorial to determine if this is the kind of language that should be removed.
 
@@ -669,7 +669,7 @@ The eLife production team should check the article in eJP (it might be that the 
 1. A reviewer simply has the wrong role provided, which needs correcting to 'Reviewer' by the production vendors.
 2. A 'Reviewing Editor' or 'Senior and Reviewing Editor' has been incorrectly captured as a Reviewer (`contrib[@contrib-type='reviewer']`).
 
-In order to determine which of these is the case, the production vendors should check the output from eJP, and eLife should check eJP itself. If it is still unclear from these details, the eLife production team should contact the editorial team in order to verify what role that contributor played, and update their details accordingly. 
+In order to determine which of these is the case, the production vendors should check the output from eJP, and eLife should check eJP itself. If it is still unclear from these details, the eLife production team should contact the editorial team in order to verify what role that contributor played, and update their details accordingly.&#x20;
 
 #### dec-letter-reviewer-test-6
 
@@ -699,7 +699,7 @@ In order to determine which of these is the case, the production vendors should 
 
 **Error**: _author response doesn't contain a disp-quote. This is very likely to be incorrect. Please check the original file._
 
-**Action**: disp-quote is the element which holds quotations. In the Author response, these will be quotations from the Decision letter. Almost every Author response will have some kind of quotation from the Decision letter, so if this fires, it means that there is 1 or more quotation in the Author response missing this tagging. In the original document, quotations are supplied in italics, so scan the Author response for any paragraph(s) entirely in italics, un-italicise them and mark them as display quotes in Kriya. In the very rare case that there are no quotations from the decision letter, this check can be ignored. 
+**Action**: disp-quote is the element which holds quotations. In the Author response, these will be quotations from the Decision letter. Almost every Author response will have some kind of quotation from the Decision letter, so if this fires, it means that there is 1 or more quotation in the Author response missing this tagging. In the original document, quotations are supplied in italics, so scan the Author response for any paragraph(s) entirely in italics, un-italicise them and mark them as display quotes in Kriya. In the very rare case that there are no quotations from the decision letter, this check can be ignored.&#x20;
 
 #### reply-body-test-2
 
@@ -1317,13 +1317,13 @@ If a public review has been posted, and there is _**not**_ an acceptance summary
 
 > Our editorial process produces two outputs: i) public reviews designed to be posted alongside the preprint for the benefit of readers; ii) feedback on the manuscript for the authors, including requests for revisions, shown below.
 
-If the production vendors notice this error fires, they should contact the eLife production team. The eLife production team should check [**this spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd_STqhP7x0/edit#gid=0) to determine whether a public review has been posted for that article, and use the correct text, as specified above, depending on whether a public review has been posted or not.
+If the production vendors notice this error fires, they should contact the eLife production team. The eLife production team should check [**this spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd\_STqhP7x0/edit#gid=0) to determine whether a public review has been posted for that article, and use the correct text, as specified above, depending on whether a public review has been posted or not.
 
 **dec-letter-box-test-2**
 
 **Error**: _At the top of the decision letter, the text 'public reviews' must contain an embedded link to Sciety where the public review for this article's preprint is located._
 
-**Action**: This message will fire if the boxed text at the top of the decision letter indicates that there is a public review for that article's preprint, but there is no link to Sciety in the correct part of the text. First check that there isn't already a link to Sciety which is embedded in the wrong text, and if so, then change it so that 'public reviews' has the link embedded. If that's not the case, and the preprint doi is known (for example if there is a link to the preprint in the text elsewhere), then the Sciety link can be added, it will be [`https://sciety.org/articles/activity/`](https://sciety.org/articles/activity/) followed by the doi of the preprint. Finally, if the preprint is not known, then the eLife production team should check [**this spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd_STqhP7x0/edit#gid=0) to determine whether a public review has been posted for that article. If there is an entry in there, the add the Sciety link from that spreadsheet. If there is not, then the text at the top of the decision letter should be changed to:
+**Action**: This message will fire if the boxed text at the top of the decision letter indicates that there is a public review for that article's preprint, but there is no link to Sciety in the correct part of the text. First check that there isn't already a link to Sciety which is embedded in the wrong text, and if so, then change it so that 'public reviews' has the link embedded. If that's not the case, and the preprint doi is known (for example if there is a link to the preprint in the text elsewhere), then the Sciety link can be added, it will be [`https://sciety.org/articles/activity/`](https://sciety.org/articles/activity/) followed by the doi of the preprint. Finally, if the preprint is not known, then the eLife production team should check [**this spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd\_STqhP7x0/edit#gid=0) to determine whether a public review has been posted for that article. If there is an entry in there, the add the Sciety link from that spreadsheet. If there is not, then the text at the top of the decision letter should be changed to:
 
 > In the interests of transparency, eLife publishes the most substantive revision requests and the accompanying author responses.
 
@@ -1331,7 +1331,7 @@ If the production vendors notice this error fires, they should contact the eLife
 
 **Error**: _At the top of the decision letter, the text 'the preprint' must contain an embedded link to this article's preprint._
 
-**Action**: This message will fire if the boxed text at the top of the decision letter indicates that there is a public review for that article's preprint, but there is no link to the preprint in the correct part of the text. First check that there isn't already a link to the preprint which is embedded in the wrong text, and if so, then change it so that 'the preprint' has the link embedded. If that's not the case, and the preprint link is known, then add it in. Finally, if the preprint is not known, then the eLife production team should check [**this spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd_STqhP7x0/edit#gid=0) to determine what it is. If there is an entry in there, the add the preprint link from that spreadsheet. If there is not, then the text at the top of the decision letter should be changed to:
+**Action**: This message will fire if the boxed text at the top of the decision letter indicates that there is a public review for that article's preprint, but there is no link to the preprint in the correct part of the text. First check that there isn't already a link to the preprint which is embedded in the wrong text, and if so, then change it so that 'the preprint' has the link embedded. If that's not the case, and the preprint link is known, then add it in. Finally, if the preprint is not known, then the eLife production team should check [**this spreadsheet**](https://docs.google.com/spreadsheets/d/1gMNmb3oxFq0m1Bmx8cyGeLkw28Il6Bxidd\_STqhP7x0/edit#gid=0) to determine what it is. If there is an entry in there, the add the preprint link from that spreadsheet. If there is not, then the text at the top of the decision letter should be changed to:
 
 > In the interests of transparency, eLife publishes the most substantive revision requests and the accompanying author responses.
 
@@ -1347,7 +1347,7 @@ If the production vendors notice this error fires, they should contact the eLife
 
 **Error**: _sub-article id must be in the format 'sa0', where '0' is its position (1 or 2)._
 
-**Action**: This test will fire if the id for a `<sub-article>` is not in the format `sa1`_ _or_ _`sa2` , and indicates that something has gone wrong with the processing of the Decision letter/Author response. It will likely need correcting by the production vendors, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
+**Action**: This test will fire if the id for a `<sub-article>` is not in the format `sa1` __ or __ `sa2` , and indicates that something has gone wrong with the processing of the Decision letter/Author response. It will likely need correcting by the production vendors, and it's also worth notifying Fred in the Production team so that he can feed this back to the developer responsible for the decision-letter-parser.
 
 #### dec-letter-reply-test-3
 

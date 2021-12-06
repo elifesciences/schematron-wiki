@@ -8,12 +8,12 @@ It is usually possible to work out whether a repository needs to be archived bas
 
 ### Context checklist
 
-* Code mentioned in the Data Availability Statement (e.g. “All analysis code has been made available on GitHub ([**https://github.com/learning-memory-and-decision-lab/NassarBrucknerFrank_eLife\_2019**](https://github.com/learning-memory-and-decision-lab/NassarBrucknerFrank_eLife\_2019)).”) should usually be archived.
+* Code mentioned in the Data Availability Statement (e.g. “All analysis code has been made available on GitHub ([**https://github.com/learning-memory-and-decision-lab/NassarBrucknerFrank\_eLife\_2019**](https://github.com/learning-memory-and-decision-lab/NassarBrucknerFrank\_eLife\_2019)).”) should usually be archived.
 * If one of the authors of the paper also authored the code, this usually indicates that it was generated for the work and should be archived.
 * Code that is mentioned in the text only and referred to as being a ‘package’ is unlikely to have been created for this specific work and therefore doesn’t need to be archived (unless it is a custom package). Adding a [**software reference**](../article-details/content/references/software-references.md#how-to-add-a-software-reference) would be more appropriate in these cases.
-* Any references to custom code or software usually indicates it needs to be archived. 
+* Any references to custom code or software usually indicates it needs to be archived.&#x20;
 * If the repository is years old, this usually indicates that the code should not be archived as it probably was not created specifically for the paper.
-* Code described in Tools and Resources articles usually does not need to be archived as there will be no results to replicate using it. However, there are some cases where this will be required ([**see below**](archiving-code.md#when-to-fork-code-in-tools-and-resources-papers)). 
+* Code described in Tools and Resources articles usually does not need to be archived as there will be no results to replicate using it. However, there are some cases where this will be required ([**see below**](archiving-code.md#when-to-fork-code-in-tools-and-resources-papers)).&#x20;
 
 ## Checklist for archiving repositories
 
@@ -47,9 +47,9 @@ If the repo contains code and is public, go to the [**Software Heritage archive*
 
 ![](../.gitbook/assets/screenshot-2020-10-06-at-11.30.09.png)
 
-Untick 'only show origins visited at least once' and 'filter out origins with no archived content', and enter the URL for the repo containing the code. 
+Untick 'only show origins visited at least once' and 'filter out origins with no archived content', and enter the URL for the repo containing the code.&#x20;
 
-If there are no results, this indicates that the code has yet to be archived. Follow the steps [**below**](archiving-code.md#how-to-archive-code-in-software-heritage) to do so. 
+If there are no results, this indicates that the code has yet to be archived. Follow the steps [**below**](archiving-code.md#how-to-archive-code-in-software-heritage) to do so.&#x20;
 
 If it's already archived it will appear in the results. Check that the result is the correct repo and the most up-to-date version of that repo (by comparing the latest commit date). If the latest version of the code is archived, the next step is to [**add the SWHID to the article**](archiving-code.md#add-the-swhid-to-the-article-text).
 
@@ -63,7 +63,7 @@ If the code is not the latest version, follow the steps [**below for archiving c
 
 ## How to archive code in Software Heritage
 
-From the [**search page**](https://archive.softwareheritage.org)**, **click 'Save code now' in the left-hand panel:
+From the [**search page**](https://archive.softwareheritage.org)**,** click 'Save code now' in the left-hand panel:
 
 ![](../.gitbook/assets/screenshot-2020-10-06-at-11.55.44.png)
 
@@ -142,7 +142,7 @@ If the authors have only referred to the code in the data availability statement
 
 * Please add a mention of your code to the main text of your article so we can add it to your reference list.
 
-What needs to be added in the main text is the text 'copy archived at XXXXXX', where XXXXXX is the revision SWHID without context, with a **full directory link with context **embedded.
+What needs to be added in the main text is the text 'copy archived at XXXXXX', where XXXXXX is the revision SWHID without context, with a **full directory link with context** embedded.
 
 Obtain the SWHID using the method [**above**](archiving-code.md#in-the-data-availability-statement) (the text that appears rather than the 'permalink' should be copied). This will be the text for the link.
 
@@ -162,7 +162,7 @@ The SWHID can also be obtained from the link itself. The section after `anchor=`
 
 **Example**
 
-> Our spike sorting code is freely available at [https://github.com/narendramukherjee/blech_clust](https://github.com/narendramukherjee/blech_clust) (Mukherjee, 2019; copy archived at [**swh:1:rev:86d380144b3f85c8951923de873893583bd25edf**](https://archive.softwareheritage.org/swh:1:dir:5025e62c4f6436576af0de3aa31d07cec877eb6c;origin=https://github.com/narendramukherjee/blech_clust;visit=swh:1:snp:816c8e048d2d81fb7cc4e89f3f94f18a2cda6f69;anchor=swh:1:rev:86d380144b3f85c8951923de873893583bd25edf)).
+> Our spike sorting code is freely available at [https://github.com/narendramukherjee/blech\_clust](https://github.com/narendramukherjee/blech\_clust) (Mukherjee, 2019; copy archived at [**swh:1:rev:86d380144b3f85c8951923de873893583bd25edf**](https://archive.softwareheritage.org/swh:1:dir:5025e62c4f6436576af0de3aa31d07cec877eb6c;origin=https://github.com/narendramukherjee/blech\_clust;visit=swh:1:snp:816c8e048d2d81fb7cc4e89f3f94f18a2cda6f69;anchor=swh:1:rev:86d380144b3f85c8951923de873893583bd25edf)).
 
 ### In references
 
@@ -209,7 +209,7 @@ For GitHub repositories, the licensing information, if available, can be seen in
 
 ![](../.gitbook/assets/screenshot-2020-06-24-at-11.15.54.png)
 
-You can check whether a license is open-source by clicking on it. In the above example, clicking on the MIT license brings up this information: 
+You can check whether a license is open-source by clicking on it. In the above example, clicking on the MIT license brings up this information:&#x20;
 
 ![](../.gitbook/assets/screenshot-2020-04-21-at-12.39.19.png)
 
@@ -239,7 +239,7 @@ Sometimes, authors will refer to code that has been forked or archived for a pre
 
 ![](../.gitbook/assets/screen-shot-2020-04-24-at-12.35.52.png)
 
-Comparing the forked/archived repositories to the ones that are linked in the article shows that the code has not been updated (see below, note both repositories were last updated 2 years ago). Therefore, the repository doesn't need to be archived. Instead, [**software references**](../article-details/content/references/software-references.md#how-to-add-a-software-reference) should be added. 
+Comparing the forked/archived repositories to the ones that are linked in the article shows that the code has not been updated (see below, note both repositories were last updated 2 years ago). Therefore, the repository doesn't need to be archived. Instead, [**software references**](../article-details/content/references/software-references.md#how-to-add-a-software-reference) should be added.&#x20;
 
 ![Repository linked in the article](../.gitbook/assets/screenshot-2020-04-24-at-13.02.03.png)
 
@@ -261,7 +261,7 @@ Sometimes authors provide a link to a GitHub user account instead of a specific 
 
 As this does not link to a specific repository, the code cannot be archived. We need the authors to confirm which repository holds the code for the study. Please leave the following author query:
 
-* Please confirm which repositories contain the code for this paper. 
+* Please confirm which repositories contain the code for this paper.&#x20;
 
 ### If code is hosted on an institutional website
 
@@ -291,7 +291,7 @@ The abstract of this paper states:
 
 As this paper describing the MaCaQuE system, and the code is for constructing this system, it does not need to be archived.
 
-However, if data was analysed in the paper as in the example below, the linked repositories should be archived. 
+However, if data was analysed in the paper as in the example below, the linked repositories should be archived.&#x20;
 
 ![](../.gitbook/assets/screenshot-2020-04-24-at-11.18.10.png)
 
@@ -317,7 +317,7 @@ The following tests relate to software that may need to be archived.
 
 **Error**: _ext-link - XXXXXX - contains the phrase 'copy archived', which is incorrect._
 
-**Action**: This error will appear if the phrase 'copy archived' is included in the hyperlink to the archived repository. 'XXXXXX' in this error message will be the text which has hyperlink formatting. When pasting in the SWHID link, make sure only the url is hyperlinked. 
+**Action**: This error will appear if the phrase 'copy archived' is included in the hyperlink to the archived repository. 'XXXXXX' in this error message will be the text which has hyperlink formatting. When pasting in the SWHID link, make sure only the url is hyperlinked.&#x20;
 
 #### final-missing-url-test
 
@@ -359,13 +359,13 @@ If the text is unrelated to any code archiving process (for example if it was pr
 
 Here's a working example:
 
-![](https://lh3.googleusercontent.com/MyhMP1OklYXem58oCz4UPTzQ7OZ_g7ArnzvBvz19GHZ45DV9HhyaX0P9oRve_KXqrf5k_XaV2d-idLOgM1I06kL3zPsPsI4J8HmzW9Xw9ZA-ukG_WnTEbZYHvck7Cj4B0pzUqZCDE48)
+![](https://lh3.googleusercontent.com/MyhMP1OklYXem58oCz4UPTzQ7OZ\_g7ArnzvBvz19GHZ45DV9HhyaX0P9oRve\_KXqrf5k\_XaV2d-idLOgM1I06kL3zPsPsI4J8HmzW9Xw9ZA-ukG\_WnTEbZYHvck7Cj4B0pzUqZCDE48)
 
 In this case, the link embedded in the id is:
 
 `https://archive.softwareheritage.org/swh:1:dir:506ed35220eaeab7de719a7093111e21a87646bb;origin=https://github.com/Arslan-Zaidi/popstructured;visit=swh:1:snp:ed79853f64e7ce7bb9fcad629912cb361d9ab156;anchor=swh:1:rev:1509a53ee491e3e01320c174ff55f9426da8923f/`
 
-This test checks that the content after `origin=` in the link (in this case `https://github.com/Arslan-Zaidi/popstructured`) is present as a separate link preceding the software heritage one. It will check up to three previous links, and will check the embedded links of those three previous links rather than the text. 
+This test checks that the content after `origin=` in the link (in this case `https://github.com/Arslan-Zaidi/popstructured`) is present as a separate link preceding the software heritage one. It will check up to three previous links, and will check the embedded links of those three previous links rather than the text.&#x20;
 
 So for example the following would be fine:
 

@@ -36,7 +36,7 @@ The following tests are run on general content.
 
 **Warning**: _'XXXXXXX' element contains the text '+cells' or '±cells' which is very likely to be incorrect spacing - XXXXXX._
 
-**Action**: This will fire at all stages if a table cell or paragraph contains the text `+cell` or `±cell`. If this fires, it's almost certain that a space needs adding between the plus sign and the word cell. It may also be necessary to remove the space (if there is one) before the plus sign depending on the content. For example `Ly6G +cells `should be changed to `Ly6G+ cells`.
+**Action**: This will fire at all stages if a table cell or paragraph contains the text `+cell` or `±cell`. If this fires, it's almost certain that a space needs adding between the plus sign and the word cell. It may also be necessary to remove the space (if there is one) before the plus sign depending on the content. For example `Ly6G +cells` should be changed to `Ly6G+ cells`.
 
 #### ring-diacritic-symbol-test
 
@@ -218,7 +218,7 @@ Otherwise the text should be captured as a proper citation.
 
 #### graphic-test-1
 
-**Error: **_has tif mime-subtype but filename does not end with '.tif' or '.tiff'. This cannot be correct._
+**Error:** _has tif mime-subtype but filename does not end with '.tif' or '.tiff'. This cannot be correct._
 
 #### graphic-test-2
 
@@ -226,7 +226,7 @@ Otherwise the text should be captured as a proper citation.
 
 #### graphic-test-3
 
-**Error: **_has jpeg mime-subtype but filename does not end with '.jpg' or '.jpeg'. This cannot be correct._
+**Error:** _has jpeg mime-subtype but filename does not end with '.jpg' or '.jpeg'. This cannot be correct._
 
 #### graphic-test-4
 
@@ -234,7 +234,7 @@ Otherwise the text should be captured as a proper citation.
 
 #### graphic-test-5
 
-**Error: **_must have an @xlink:href which contains a file reference._
+**Error:** _must have an @xlink:href which contains a file reference._
 
 #### graphic-test-6
 
@@ -250,9 +250,9 @@ Otherwise the text should be captured as a proper citation.
 
 #### label-fig-group-conformance-2
 
-**Error: **_XXXXXX contains the string 'Figure' but it's not placed in a \<fig-group> element, which is incorrect. Either the label needs updating, or it needs moving into the \<fig-group>._
+**Error:** _XXXXXX contains the string 'Figure' but it's not placed in a \<fig-group> element, which is incorrect. Either the label needs updating, or it needs moving into the \<fig-group>._
 
-**Action:** In the XML, the fig-group element contains a figure and its figure supplement(s) and/or figure video(s). This element will only be present if the figure has figure supplement(s) and/or figure video(s). This error will appear if a video is linked to a figure but not included in the fig-group element in the XML. This should be corrected by Exeter. 
+**Action:** In the XML, the fig-group element contains a figure and its figure supplement(s) and/or figure video(s). This element will only be present if the figure has figure supplement(s) and/or figure video(s). This error will appear if a video is linked to a figure but not included in the fig-group element in the XML. This should be corrected by Exeter.&#x20;
 
 An example of a figure video correctly placed in the fig-group element:
 
@@ -268,14 +268,14 @@ An example of a figure video correctly placed in the fig-group element:
 
 #### distinct-label-conformance
 
-**Error: **_Duplicated labels - XXXXXX is present more than once in the text._
+**Error:** _Duplicated labels - XXXXXX is present more than once in the text._
 
-**Action: **This error will appear if multiple assets have the same label. All assets should have distinct labels which are numbered in the order they are first cited in the text. Check the manuscript to see what the correct labels should be - Exeter will need to fix this.
+**Action:** This error will appear if multiple assets have the same label. All assets should have distinct labels which are numbered in the order they are first cited in the text. Check the manuscript to see what the correct labels should be - Exeter will need to fix this.
 
 #### private-char-test
 
-**Error: **_XXXXXX element contains private use character(s). They either need removing or changing to the correct character. Private characters:  XXXXXX._
+**Error:** _XXXXXX element contains private use character(s). They either need removing or changing to the correct character. Private characters:  XXXXXX._
 
-**Action: **This error will appear if a paragraph or table cell contains a character that has a unicode reserved for private use. These characters are not widely supported, and therefore of no use within the article; the inclusion of them will also cause the article to fail loading to PMC. It's almost certainly the result of an error when copying/converting the content from the original text format.
+**Action:** This error will appear if a paragraph or table cell contains a character that has a unicode reserved for private use. These characters are not widely supported, and therefore of no use within the article; the inclusion of them will also cause the article to fail loading to PMC. It's almost certainly the result of an error when copying/converting the content from the original text format.
 
 The original intended character will need to be checked (see [**Decision letters and Author responses**](decision-letters-and-author-responses.md) to see how to get the original documents if the character is within that content). Replace the character with its intended glyph/character or delete, as necessary.

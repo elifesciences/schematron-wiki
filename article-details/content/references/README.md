@@ -101,7 +101,7 @@ and the second
 * Keeley A, Soldati D, Smith J, Bloggs M. 2004b
 * Keeley A, Soldati D, Smith J, Bloggs M. 2004c
 
-resulting in citations of 'Keeley and Soldati, 2004a' and 'Keeley and Soldati, 2004b', and 'Keeley et al., 2004a', 'Keeley et al., 2004b' and 'Keeley et al., 2004c'. The dates are then treated in alphabetical sequence, so '2004b' must appear after '2004a' in the reference list. The year of publication is preserved without the letter using the `@iso-8601-date` attribute in the XML. That is, if the year has been changed to 2004a, `@iso-8601-date` for that reference will still be '2004'. 
+resulting in citations of 'Keeley and Soldati, 2004a' and 'Keeley and Soldati, 2004b', and 'Keeley et al., 2004a', 'Keeley et al., 2004b' and 'Keeley et al., 2004c'. The dates are then treated in alphabetical sequence, so '2004b' must appear after '2004a' in the reference list. The year of publication is preserved without the letter using the `@iso-8601-date` attribute in the XML. That is, if the year has been changed to 2004a, `@iso-8601-date` for that reference will still be '2004'.&#x20;
 
 Letters should be assigned on the basis of which reference is cited first in the text. So, the first reference citation should have the year suffix a, the second b, the third c and so on.
 
@@ -393,7 +393,7 @@ Check that the sequence of references is indeed incorrect, accounting for any sp
 
 #### duplicate-ref-test-3
 
-**Warning**:_ ref 'XXXXXX' has the same title and source as another reference, which is almost certainly incorrect - 'XXXXXX', 'XXXXXX'._
+**Warning**: _ref 'XXXXXX' has the same title and source as another reference, which is almost certainly incorrect - 'XXXXXX', 'XXXXXX'._
 
 **Action**: This warning will fire if two or more references have the same title and source (journal title, book title, database name etc). This may not be a mistake as sometimes journals will publish multiple articles with the same title, or the authors may be citing multiple editions of the same work. Check to see whether the reference details match beyond the title and source. If they have different authors or a different version/edition number is given, nothing needs to be changed. If the other reference details are identical, this likely indicates reference duplication. Exact duplicates should be removed and all citations updated to point to a single instance of the reference.
 
@@ -405,7 +405,7 @@ If it is unclear what action needs to be taken, the authors should be queried:
 
 **Warning:** _ref 'XXXXXX' has the same title as another reference, but a different source. Is this correct? - 'XXXXXX'_
 
-**Action:** This warning will appear if two references have the same title. This may happen if the authors include two separate reference lists which have been collated into one, leaving duplicate references. Check the details of both references and if the information is exactly the same, delete one of the duplicates. If the other details of the references differ (e.g. year, author list, where the article was published), then both references should be kept as they are to difference publications. For example, this warning will fire if the two references below are in the same article. However, as the other details of the references differ, both should be kept in the reference list. 
+**Action:** This warning will appear if two references have the same title. This may happen if the authors include two separate reference lists which have been collated into one, leaving duplicate references. Check the details of both references and if the information is exactly the same, delete one of the duplicates. If the other details of the references differ (e.g. year, author list, where the article was published), then both references should be kept as they are to difference publications. For example, this warning will fire if the two references below are in the same article. However, as the other details of the references differ, both should be kept in the reference list.&#x20;
 
 ![](../../../.gitbook/assets/screenshot-2020-06-12-at-09.39.00.png)
 
@@ -423,7 +423,7 @@ If it is unclear how to proceed, the authors should be queried:
 
 #### pre-ref-link-presence
 
-**Warning**:_ 'XXXXXX' has no linked citations. Either the reference should be removed or a citation linking to it needs to be added._
+**Warning**: _'XXXXXX' has no linked citations. Either the reference should be removed or a citation linking to it needs to be added._
 
 **Action**: At the pre-author stage, this warning indicates that a reference is not cited in the text. All reference listed must be cited at least once. The author should be queried to provide the missing citation.
 
@@ -643,7 +643,7 @@ In the event that a reference is only cited in a supporting file or in a figure 
 
 #### escuniculi-ref-article-title-check
 
-**Info**:_ ref XXXXXX references an organism - 'E. cuniculi' - but there is no italic element with that correct capitalisation or spacing._
+**Info**: _ref XXXXXX references an organism - 'E. cuniculi' - but there is no italic element with that correct capitalisation or spacing._
 
 **Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting (this formatting may not have been supplied when the article was sent to PubMed or Crossref). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
@@ -793,7 +793,7 @@ Info: _ref XXXXXX references an organism - 'S. rosetta' - but there is no italic
 
 #### hsapiens-ref-article-title-check
 
-**Info**:_ ref XXXXXX references an organism - 'H. sapiens' - but there is no italic element with that correct capitalisation or spacing._
+**Info**: _ref XXXXXX references an organism - 'H. sapiens' - but there is no italic element with that correct capitalisation or spacing._
 
 **Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting (this formatting may not have been supplied when the article was sent to PubMed or Crossref). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
@@ -1075,7 +1075,7 @@ Since these IDs are automatically generated by the system, this error will likel
 
 **Error**: _element-citation must have a publication-type attribute with one of these values: 'journal', 'book', 'data', 'patent', 'software', 'preprint', 'web', 'report', 'confproc', or 'thesis'. Reference 'XXXXXX' has 'XXXXXX'._
 
-**Action**: This error will fire if the `publication-type` attribute on an `<element-citation>` element is not does not one of the allowed values. The reference should be edited to ensure that it is set to one of the allowed reference types. If this does not resolve the problem, the content processors will need to send the article to the support team. 
+**Action**: This error will fire if the `publication-type` attribute on an `<element-citation>` element is not does not one of the allowed values. The reference should be edited to ensure that it is set to one of the allowed reference types. If this does not resolve the problem, the content processors will need to send the article to the support team.&#x20;
 
 #### err-elem-cit-gen-date-1-3
 
@@ -1197,7 +1197,7 @@ If this does not clear the error, the content processor's support team will need
 
 **Action**: A `<name>` element should zero or one and only one `<given-names>` element. Delete and re-enter the name and revalidate the reference. If this does not solve the issue, the content processor's support team will need to correct the XML to remove any extra `<given-name>` elements.
 
-## XML Structure <a href="xml-structure" id="xml-structure"></a>
+## XML Structure <a href="#xml-structure" id="xml-structure"></a>
 
 Example reference list structure:
 

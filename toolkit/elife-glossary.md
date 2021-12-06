@@ -18,7 +18,7 @@ Publish on accept. This is an eLife term for author accepted manuscripts publish
 
 #### **VoR**
 
-Version of record. This is standard term for the final full text version of an article that is published in full (in HTML on the eLife website). 
+Version of record. This is standard term for the final full text version of an article that is published in full (in HTML on the eLife website).&#x20;
 
 #### **Versions**
 
@@ -66,9 +66,9 @@ _Proposal_: Not sure whether we can add it as we were accepted by Medline a year
 
 This is the full XML version of the article for VoR. For PoA the file is limited to most metadata and an abstract, but does not contain the rest of the text.
 
-#### **Article PDF file** 
+#### **Article PDF file**&#x20;
 
-This is the typeset version of the article, and excludes the following: 
+This is the typeset version of the article, and excludes the following:&#x20;
 
 * Figure supplements, Source code, Source data and Supplementary file – these items are all mentioned in the pdf and linked out to them via DOI clickable links
 * Decision Letter, and Author’s response – not referenced but available in full in the XML version of the article
@@ -102,7 +102,7 @@ This is the automatic system that runs various workflows at set times daily (e.g
 
 eLife uses Amazon S3 buckets (a public cloud storage resource) to store objects consisting of data and its descriptive metadata
 
-#### **Crossref **
+#### **Crossref**&#x20;
 
 An agency that registers DOIs for articles
 

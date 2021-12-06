@@ -16,7 +16,7 @@ A preprint reference provides the bibliographic details for a preprint in the re
 
 ![The same preprint reference on the eLife website](../../../.gitbook/assets/screen-shot-2020-06-25-at-15.24.15.png)
 
-For eLife articles, each part of the reference is formatted specifically: 
+For eLife articles, each part of the reference is formatted specifically:&#x20;
 
 ![Formatting display for a preprint reference in eLife articles](../../../.gitbook/assets/pre-print-reference.png)
 
@@ -38,8 +38,8 @@ The following information can be added for preprint references:
 
 Validation of references via the Crossref API tool should pull in the information for preprints with a Crossref DOI (currently only preprints from bioRxiv that are funded by NIH are indexed on PubMed so it is not a comprehensive list). Please note some preprint servers may use DataCite for their DOIs and so will not be listed in the Crossref API. Schematron warnings may also pick up incomplete references, and these should be checked at the source of the reference.
 
-* **Authors**: Enter each author name as a surname(s) followed by initials. 
-* **Collaboration: **Preprints can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
+* **Authors**: Enter each author name as a surname(s) followed by initials.&#x20;
+* **Collaboration:** Preprints can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
 * **Year**: This should be the year the preprint was published. This field can include a letter suffix (e.g. 2020a) if needed to distinguish between citations (see more [here](../reference-citations.md#what-is-a-reference-citation)).
 * **Title**: The title of the article. Can contain italics, superscript and subscript as required.
 * **Preprint server**: The full (not abbreviated) name of the server in which the preprint was published.
@@ -60,9 +60,9 @@ Right-click where you want to add the citation and click on Add New > Add New Re
 
 The default fields in Kriya will need to be altered to include the following information in the order below. To delete an unnecessary field click the red 'bin' button (if this doesn't work, try re-validating after all fields have been filled out, or change the field type to the one you need). To add a field click the green '+' button to the entry above where you need to add it.
 
-* Author 
+* Author&#x20;
 * Collaboration (if applicable)
-* Year 
+* Year&#x20;
 * Title
 * Journal (preprint server)
 * Website (if applicable)
@@ -93,7 +93,7 @@ If a cited preprint has been published while an eLife article is in the producti
 
 This can be done in Kriya by Changing the Reference type from 'Preprint' to 'Journal':
 
-The fields which are common to both types of reference should remain the same. Fields which are in a preprint reference but not in a journal reference will change to 'unTagged'. These will need changing to the appropriate respective fields for journal references. 
+The fields which are common to both types of reference should remain the same. Fields which are in a preprint reference but not in a journal reference will change to 'unTagged'. These will need changing to the appropriate respective fields for journal references.&#x20;
 
 ![](<../../../.gitbook/assets/screen-shot-2020-07-02-at-11.20.26 (1).png>)
 
@@ -101,7 +101,7 @@ For example, 'Title' and 'Journal' now are 'unTagged' fields, and will need chan
 
 Edit the text and fields, as appropriate, to ensure that as much information as possible is captured (if an article is In press for example, information such as pages/elocation-ids, doi and pmid may not be available at this stage; see also [**Journal references**](journal-references.md)). Note that, if the preprint had a validated DOI and/or PMID and the Journal reference does not have one, then there is no mechanism available to eLife production for simply removing a DOI/PMID, and this will likely have to be done by Exeter.
 
-## Schematron checks 
+## Schematron checks&#x20;
 
 ### Content checks
 
@@ -128,7 +128,7 @@ These are the known preprint servers that are commonly cited in eLife articles. 
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'bioRxiv'._
 
-**Action**: This will fire if the preprint server (Journal field in Kriya, source element in the XML) contains the text bioRxiv without the correct capitalisation, for example 'Biorxiv' or 'BiOrXiV'. Ensure that bioRxiv is added with the correct capitalisation. 
+**Action**: This will fire if the preprint server (Journal field in Kriya, source element in the XML) contains the text bioRxiv without the correct capitalisation, for example 'Biorxiv' or 'BiOrXiV'. Ensure that bioRxiv is added with the correct capitalisation.&#x20;
 
 #### biorxiv-test-2
 
@@ -146,31 +146,31 @@ This test has two possible messages:
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'arXiv'._
 
-**Action**: This will fire if the preprint server (Journal field in Kriya, source element in the XML) contains the text arXiv without the correct capitalisation, for example 'Arxiv' or 'ArXiV'. Ensure that arXiv is added with the correct capitalisation. 
+**Action**: This will fire if the preprint server (Journal field in Kriya, source element in the XML) contains the text arXiv without the correct capitalisation, for example 'Arxiv' or 'ArXiV'. Ensure that arXiv is added with the correct capitalisation.&#x20;
 
 #### chemrxiv-test
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'ChemRxiv'._
 
-**Action**: This will fire if the preprint server (Journal field in Kriya, source element in the XML) contains the text ChemRxiv without the correct capitalisation, for example 'Chemrxiv' or 'ChEmRxIv'. Ensure that ChemRxiv is added with the correct capitalisation. 
+**Action**: This will fire if the preprint server (Journal field in Kriya, source element in the XML) contains the text ChemRxiv without the correct capitalisation, for example 'Chemrxiv' or 'ChEmRxIv'. Ensure that ChemRxiv is added with the correct capitalisation.&#x20;
 
 #### medrxiv-test
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'medRxiv'._
 
-**Action**: This will fire if the preprint server (Journal field in Kriya, source element in the XML) contains the text medRxiv without the correct capitalisation, for example 'Medrxiv' or 'MeDRxiv'. Ensure that medRxiv is added with the correct capitalisation. 
+**Action**: This will fire if the preprint server (Journal field in Kriya, source element in the XML) contains the text medRxiv without the correct capitalisation, for example 'Medrxiv' or 'MeDRxiv'. Ensure that medRxiv is added with the correct capitalisation.&#x20;
 
 #### peerjpreprints-test
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'PeerJ Preprints'._
 
-**Action**: This will fire if the preprint server (Journal field in Kriya, source element in the XML) contains the text PeerJ Preprints without the correct capitalisation, for example 'Peerj Preprints' or 'PEerJ PrePrints'. Ensure that PeerJ Preprints is added with the correct capitalisation. 
+**Action**: This will fire if the preprint server (Journal field in Kriya, source element in the XML) contains the text PeerJ Preprints without the correct capitalisation, for example 'Peerj Preprints' or 'PEerJ PrePrints'. Ensure that PeerJ Preprints is added with the correct capitalisation.&#x20;
 
 #### psyarxiv-test
 
 **Error:** _ref 'XXXXXX' has a source XXXXXX, which is not the correct proprietary capitalisation - 'PsyArXiv'._
 
-**Action**: This will fire if the preprint server (Journal field in Kriya, source element in the XML) contains the text PsyArXiv without the correct capitalisation, for example 'Psyarxiv' or 'PSyArXiv'. Ensure that PsyArXiv is added with the correct capitalisation. 
+**Action**: This will fire if the preprint server (Journal field in Kriya, source element in the XML) contains the text PsyArXiv without the correct capitalisation, for example 'Psyarxiv' or 'PSyArXiv'. Ensure that PsyArXiv is added with the correct capitalisation.&#x20;
 
 #### paleorxiv-test
 
@@ -208,7 +208,7 @@ These checks relate to the XML structure of preprint references. For more inform
 
 * Please provide the title for this reference.
 
-If the reference has more than one title, compare the details with the original submission to work out which is the correct title and enter that, delete the extra title. 
+If the reference has more than one title, compare the details with the original submission to work out which is the correct title and enter that, delete the extra title.&#x20;
 
 #### err-elem-cit-preprint-9-1
 

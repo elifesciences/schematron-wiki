@@ -34,7 +34,7 @@ Schematron warnings may pick up incomplete references, and these should be check
 * **Year**: This should be the year the thesis was completed.
 * **Article title**: The title of the thesis. Can contain italics, superscript and subscript as required.
 * **Publisher name**: The name of the institution where the thesis was produced.
-* **Publisher location: **The city/country of the institution.
+* **Publisher location:** The city/country of the institution.
 * **Website:** If available, a URL to the thesis.&#x20;
 * **DOI:** The Digital Object Identifier for the thesis (if applicable).
 

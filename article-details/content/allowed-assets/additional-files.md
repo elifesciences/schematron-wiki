@@ -16,7 +16,7 @@ eLife allows the following varieties of additional file.
 
 At present, eLife cannot support audio-only playback online so audio files (as distinct from videos) should be included as additional files. These are treated in all respects like [**Supplementary files**](additional-files.md#supplementary-files), but are labelled as Audio file 1, Audio file 2, etc. Please note that because of this, audio files cannot be associated with main assets in the way that videos can be. If authors require an audio file to be associated with a main figure or table, it will need to be handled as [**asset-level source data**](additional-files.md#source-files-asset-level).
 
-They are published in the Additional files section. A descriptive title should be provided for each file and a legend may be present as well. 
+They are published in the Additional files section. A descriptive title should be provided for each file and a legend may be present as well.&#x20;
 
 ![Display for audio files online](../../../.gitbook/assets/screen-shot-2021-04-20-at-12.35.49.png)
 
@@ -42,7 +42,7 @@ In the event that the data is too large or extensive to be captured within one o
 
 Source code may also be uploaded to an external repository, such as GitHub, and this is often preferable to inclusion as an additional file as it permits proper licensing of the code (see [**Archiving code**](../../../toolkit/archiving-code.md) for more on this). Again, if source code is hosted away from the article, it should not be listed as a source code file.
 
-Where it is included in an article, source code should be zipped or otherwise compressed so the original filenames are preserved. This is to account for dependency between multiple files (e.g. where one script includes a call to an accompanying one, though if this is the case the authors will usually have zipped the different files together in one archive). 
+Where it is included in an article, source code should be zipped or otherwise compressed so the original filenames are preserved. This is to account for dependency between multiple files (e.g. where one script includes a call to an accompanying one, though if this is the case the authors will usually have zipped the different files together in one archive).&#x20;
 
 These files are labelled respectively Source data 1, Source data 2, etc. and Source code 1, Source code 2, etc. Each source data and source code file should have a descriptive title and may be accompanied by a legend. They are published in the Additional files section at the back of the article.
 
@@ -86,7 +86,7 @@ Supplementary files are published in the Additional files section and should hav
 
 ### Transparent reporting form
 
-To facilitate the interpretation and replication of experiments, authors are asked during full submission to provide information relating to sample-size estimation, replicates, and statistical reporting. They are then encouraged to fill out a template form (available as a [**PDF**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.pdf)** **or a [**Word file**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent_reporting.docx)) describing the places within their article where this information has been included. This transparent reporting form (TRF) will be published alongside the final version of record.
+To facilitate the interpretation and replication of experiments, authors are asked during full submission to provide information relating to sample-size estimation, replicates, and statistical reporting. They are then encouraged to fill out a template form (available as a [**PDF**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent\_reporting.pdf) **** or a [**Word file**](https://elife-cdn.s3.amazonaws.com/xpub/guides/transparent\_reporting.docx)) describing the places within their article where this information has been included. This transparent reporting form (TRF) will be published alongside the final version of record.
 
 It is important to note that while TRFs accompany most articles, they are not mandatory. If, for example, an article does not describe experiments or the analysis of data (as might be the case in a Tools and Resources submission), the form would not be needed.
 
@@ -205,7 +205,7 @@ If this is at the post-author stage, check whether the author was previously que
 
 **Action**: This warning indicates that an additional file has an extension that may indicate it is source code rather than, for example, data. It currently checks for the following extensions: .m, .py, .lib, .jl, .c, .sh, .for, .cpproj, .ipynb, .mph, .cc, .rmd, .nlogo, .stan, .wrl, .pl, .r, .fas, .ijm, .llb, .ipf, .mdl, .h. If the title and/or legend does not clearly indicate that the file contains data alone, please query the author as to whether it should be changed to source code.
 
-* Should this file be labelled as source code? 
+* Should this file be labelled as source code?&#x20;
 
 #### supplementary-material-test-11
 
@@ -237,7 +237,7 @@ In cases where the source code title or legend mentions multiple figure suppleme
 
 #### supplementary-material-title-test-1
 
-**Warning**:_ 'XXXXXX' appears to have a title which is the beginning of a caption. Is this correct?_
+**Warning**: _'XXXXXX' appears to have a title which is the beginning of a caption. Is this correct?_
 
 **Action**: This warning will fire if a letter in brackets is present at the start of a file's title, e.g. "(a) Overview of number of samples . . ." This usually means that no actual title has been provided by the authors and the first line of the legend (usually a definition of part A/a if the file has multiple parts) has been picked up as the title. If this warning appears pre-author, please ask the author to provide an overall title:
 
@@ -374,7 +374,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 **Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
 
-**Action: **This error indicates the labelling for a figure-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Figure 1—source code 1, Figure 1—source code 3, Figure 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action:** This error indicates the labelling for a figure-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Figure 1—source code 1, Figure 1—source code 3, Figure 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### fig-code-id
 
@@ -392,7 +392,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 **Error**: 'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position.
 
-**Action: **This error indicates the labelling for a video-level source data file does not match the sequence in which the other files of that type have been placed. An example would be Video 1—source data 1, Video 1—source data 3, Video 1—source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action:** This error indicates the labelling for a video-level source data file does not match the sequence in which the other files of that type have been placed. An example would be Video 1—source data 1, Video 1—source data 3, Video 1—source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### vid-data-id
 
@@ -408,9 +408,9 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### vid-code-test-2
 
-**Error**:_ 'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
+**Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
 
-**Action: **This error indicates the labelling for a video-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Video 1—source code 1, Video 1—source code 3, Video 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action:** This error indicates the labelling for a video-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Video 1—source code 1, Video 1—source code 3, Video 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### vid-code-id
 
@@ -426,9 +426,9 @@ If it is more than one, this will need support intervention to remove the extra 
 
 #### table-data-test-2
 
-**Error**:_ 'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
+**Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
 
-**Action: **This error indicates the labelling for a table-level source data file does not match the sequence in which the other files of that type have been placed. An example would be Table 1—source data 1, Table 1—source data 3, Table 1—source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action:** This error indicates the labelling for a table-level source data file does not match the sequence in which the other files of that type have been placed. An example would be Table 1—source data 1, Table 1—source data 3, Table 1—source data 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### table-data-id
 
@@ -446,7 +446,7 @@ If it is more than one, this will need support intervention to remove the extra 
 
 **Error**: _'XXXXXX' ends with XXXXXX, but it is placed XXXXXX. Either it is misnumbered or it should be moved to a different position._
 
-**Action: **This error indicates the labelling for a table-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Table 1—source code 1, Table 1—source code 3, Table 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
+**Action:** This error indicates the labelling for a table-level source code file does not match the sequence in which the other files of that type have been placed. An example would be Table 1—source code 1, Table 1—source code 3, Table 1—source code 2. The production vendors will need to reorder the files into the correct sequence. The eLife production team may need to confirm that correct sequence by checking the submission system or querying the author if it is unclear where the error lies.
 
 #### table-code-id
 

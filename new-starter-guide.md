@@ -33,7 +33,7 @@ The cloud-based publishing platform that eLife uses. The production team and aut
 
 The office
 
-* [**Westbrook Rota**](https://docs.google.com/spreadsheets/d/1ZMtvlUvslRgyg\_czJC\_HnX6VQO0G13ztBJ1n5BUPp7k/edit#gid=0)** **- this is where you can book your place in the office.&#x20;
+* [**Westbrook Rota**](https://docs.google.com/spreadsheets/d/1ZMtvlUvslRgyg\_czJC\_HnX6VQO0G13ztBJ1n5BUPp7k/edit#gid=0) **** - this is where you can book your place in the office.&#x20;
 
 ### Equipment&#x20;
 
@@ -72,7 +72,7 @@ Various types of training you might receive, who you might contact for each one&
 * 'Welcome to eLife' Gitbook
 * Production GitBook&#x20;
 * Employee Handbook&#x20;
-* ****[**Breathe HR**](https://login.breathehr.com/login)**: **This is the employee HR portal which can be used to book holiday, sickness, training requests and to update your employee profile for any changes to your personal details, such as home address, bank account and emergency contacts etc. You can also find the eLife organogram here.&#x20;
+* ****[**Breathe HR**](https://login.breathehr.com/login)**:** This is the employee HR portal which can be used to book holiday, sickness, training requests and to update your employee profile for any changes to your personal details, such as home address, bank account and emergency contacts etc. You can also find the eLife organogram here.&#x20;
 
 ### Meeting other eLife staff members&#x20;
 

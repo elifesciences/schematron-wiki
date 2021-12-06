@@ -6,7 +6,7 @@ For change log, click [**here**](book-references.md#change-log).
 
 ## What is a book reference?
 
-A book reference gives bibliographic details for any electronic or in print books referred to in an article. 
+A book reference gives bibliographic details for any electronic or in print books referred to in an article.&#x20;
 
 \<insert book ref example>
 
@@ -35,18 +35,18 @@ The following information can be added for journal references:
 
 Non-mandatory fields are required if they exist. Validation of references via PubMed or Crossref API tools should pull them in if the author did not provide them. Schematron warnings may also pick up incomplete references, and these should be checked at the source of the reference.
 
-* **Authors**: Enter each author name as a surname(s) followed by initials. 
-* **Collaboration: **Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
+* **Authors**: Enter each author name as a surname(s) followed by initials.&#x20;
+* **Collaboration:** Articles can have group or individual authors or a combination of both. Group authors should be placed in the order in which they appear in the original source. An author list can be a mix of both individual and group authors e.g. Smith J, Jones T, National Institutes of Health, Bloggs J etc.
 * **Year**: This should be the year the book was published. This field can include a letter suffix (e.g. 2020a) if needed to distinguish between citations (see more [here](../reference-citations.md#what-is-a-reference-citation)).
 * **Article title**: The title of the book. Can contain italics, superscript and subscript as required.
 * **Journal name**: The full (not abbreviated) name of the journal in which the article was published.
-* **Volume: **The volume of the journal in which the article was published (if applicable). eLife does not include issue numbers in journal references, so this information does not need to be added.
+* **Volume:** The volume of the journal in which the article was published (if applicable). eLife does not include issue numbers in journal references, so this information does not need to be added.
 * **e-location ID:** The e-location identifier for the article (if applicable; most journal references will have either page numbers or an e-location ID).
-* **First page: **The page number on which the article starts (if applicable; most journal references will have either page numbers or an e-location ID). Some page numbers will be prefixed with letters.
+* **First page:** The page number on which the article starts (if applicable; most journal references will have either page numbers or an e-location ID). Some page numbers will be prefixed with letters.
 * **Last page:** The page number on which the article ends (if applicable; some articles are one-page long and so a last page is not required as it is the same as the first page). Some page numbers will be prefixed with letters.
 * **DOI:** The Digital Object Identifier for the article (if applicable).
-* **PMID: **The PubMed Identifier for the article (if applicable). This will not be supplied by the author but is added during pre-editing via the PubMed API tool.
-* **InPress**: If a paper has been accepted for publication but the final publication details are not yet known, this field should have the text 'In press'. 
+* **PMID:** The PubMed Identifier for the article (if applicable). This will not be supplied by the author but is added during pre-editing via the PubMed API tool.
+* **InPress**: If a paper has been accepted for publication but the final publication details are not yet known, this field should have the text 'In press'.&#x20;
 
 If any of the mandatory information is not provided, look up the book online. If the information still can't be found, please leave the following author query, replacing 'XXXXXX' with the missing information:
 
@@ -56,7 +56,7 @@ If any of the mandatory information is not provided, look up the book online. If
 
 ## Finding reference details
 
-## Schematron checks 
+## Schematron checks&#x20;
 
 ### Content checks
 
@@ -66,11 +66,11 @@ These checks relate to the content of book references. X or XXXXXX refers to quo
 
 **Warning**: _XXXXXX is a book ref without a doi, but its publisher (XXXXXX) is known to register dois with some books/chapters. Should it have one?_
 
-**Action:** This warning will appear if a book reference has no DOI and its publisher is known to register these in some cases. Look up the book online to see whether it should have a DOI and add one if so. If not, the warning can be ignored. 
+**Action:** This warning will appear if a book reference has no DOI and its publisher is known to register these in some cases. Look up the book online to see whether it should have a DOI and add one if so. If not, the warning can be ignored.&#x20;
 
 #### err-elem-cit-book-2-2
 
-**Error**:** **The only values allowed for @person-group-type in book references are "author" and "editor". Reference 'XXXXXX' has a \<person-group> type of 'XXXXXX'.
+**Error**: **** The only values allowed for @person-group-type in book references are "author" and "editor". Reference 'XXXXXX' has a \<person-group> type of 'XXXXXX'.
 
 **Action:** This error will fire if a book reference has a person-group with a type other than 'author' or 'editor'. These are the only allowed types - if another type is present (e.g. 'translator') this should be removed. Double-check the reference details and update accordingly. If there is any confusion, check with the Production team.
 
@@ -78,7 +78,7 @@ These checks relate to the content of book references. X or XXXXXX refers to quo
 
 **Warning**: _In a book reference, there should be a single person-group element (either author or editor) or one person-group with @person-group-type="author" and one person-group with @person-group-type=editor. Reference 'XXXXXX' has XXXXXX \<person-group> elements. If this finromation is missing, please query it with the authors._
 
-**Action:** This will appear as a warning at pre-author stages if a book reference has multiple person-group elements of the same type e.g.: 
+**Action:** This will appear as a warning at pre-author stages if a book reference has multiple person-group elements of the same type e.g.:&#x20;
 
 ```markup
 <element-citation publication-type="book">
@@ -101,7 +101,7 @@ These checks relate to the content of book references. X or XXXXXX refers to quo
 ...
 ```
 
-In the XML, authors should all be captured under the person-group type 'author' and editors should be captured in a separate person-group - 'editor'. Look up the book reference to see what the correct formatting is and update accordingly: 
+In the XML, authors should all be captured under the person-group type 'author' and editors should be captured in a separate person-group - 'editor'. Look up the book reference to see what the correct formatting is and update accordingly:&#x20;
 
 ```markup
 <ref id="bib1">
@@ -124,7 +124,7 @@ In the XML, authors should all be captured under the person-group type 'author' 
 ...
 ```
 
-If you are unsure of the correct details, please leave the following query (deleting as appropriate): 
+If you are unsure of the correct details, please leave the following query (deleting as appropriate):&#x20;
 
 * Please provide the author/editor list for this reference.
 
@@ -132,7 +132,7 @@ If you are unsure of the correct details, please leave the following query (dele
 
 **Error**: _In a book reference, there should be a single person-group element (either author or editor) or one person-group with @person-group-type="author" and one person-group with @person-group-type=editor. Reference 'XXXXXX' has XXXXXX \<person-group> elements._
 
-**Action: **This will appear as an error at post-author stages if a book reference has multiple person-group elements of the same type e.g.: 
+**Action:** This will appear as an error at post-author stages if a book reference has multiple person-group elements of the same type e.g.:&#x20;
 
 ```markup
 <element-citation publication-type="book">
@@ -155,7 +155,7 @@ If you are unsure of the correct details, please leave the following query (dele
 ...
 ```
 
-In the XML, authors should all be captured under the person-group type 'author' and editors should be captured in a separate person-group - 'editor'. Look up the book reference to see what the correct formatting is and update accordingly: 
+In the XML, authors should all be captured under the person-group type 'author' and editors should be captured in a separate person-group - 'editor'. Look up the book reference to see what the correct formatting is and update accordingly:&#x20;
 
 ```markup
 <ref id="bib1">
@@ -196,7 +196,7 @@ If you are unsure of the correct details, email the authors to clarify.
 ...
 ```
 
-This may happen if a chapter title is incorrectly tagged as a book title as well as the actual book title. Double check the reference to see how it should be formatted and correct accordingly.  
+This may happen if a chapter title is incorrectly tagged as a book title as well as the actual book title. Double check the reference to see how it should be formatted and correct accordingly. &#x20;
 
 ```markup
 ...
@@ -207,7 +207,7 @@ This may happen if a chapter title is incorrectly tagged as a book title as well
 ...
 ```
 
-If no title has been provided or you are unsure of the correct details, leave the following author query, editing as appropriate: 
+If no title has been provided or you are unsure of the correct details, leave the following author query, editing as appropriate:&#x20;
 
 * Please provide the XXXXXX for this reference.
 
@@ -227,7 +227,7 @@ If no title has been provided or you are unsure of the correct details, leave th
 ...
 ```
 
-This may happen if a chapter title is incorrectly tagged as a book title as well as the actual book title. Double check the reference to see how it should be formatted and correct accordingly.  
+This may happen if a chapter title is incorrectly tagged as a book title as well as the actual book title. Double check the reference to see how it should be formatted and correct accordingly. &#x20;
 
 ```markup
 ...
@@ -244,7 +244,7 @@ If no title has been provided or you are unsure of the correct details, email th
 
 **Error**: _A \<source> element within a \<element-citation> of type 'book' may only contain the child elements \<italic>, \<sub>, and \<sup>. No other elements are allowed. Reference 'XXXXXX' has child elements that are not allowed._
 
-**Action:** This error will fire if there are formatting elements (e.g. bold text) in a book reference title. Only italics, superscripts and subscripts are allowed - check the original submission to see what the title should look like and correct accordingly. 
+**Action:** This error will fire if there are formatting elements (e.g. bold text) in a book reference title. Only italics, superscripts and subscripts are allowed - check the original submission to see what the title should look like and correct accordingly.&#x20;
 
 #### pre-err-elem-cit-book-13-1
 

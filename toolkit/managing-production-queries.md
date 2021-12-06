@@ -10,28 +10,28 @@ For changelog, click [**here**](managing-production-queries.md#changelog). Updat
 
 ## Production q**ueries**
 
-The Production team receives daily queries from a variety of sources including external vendors, other eLife teams, and authors. Author queries arrive as emails, but we receive emails and use Slack for liaising with other eLife teams and some vendors (e.g. the production vendors and Editorial Office). It is important to respond to these queries in a timely manner to prevent articles being held up unnecessarily. Production staff are responsible for responding to these messages throughout the day, ideally as soon as possible without breaking the flow of other tasks. The first task in the mornings is to address emails that have arrived overnight. 
+The Production team receives daily queries from a variety of sources including external vendors, other eLife teams, and authors. Author queries arrive as emails, but we receive emails and use Slack for liaising with other eLife teams and some vendors (e.g. the production vendors and Editorial Office). It is important to respond to these queries in a timely manner to prevent articles being held up unnecessarily. Production staff are responsible for responding to these messages throughout the day, ideally as soon as possible without breaking the flow of other tasks. The first task in the mornings is to address emails that have arrived overnight.&#x20;
 
 {% hint style="info" %}
-* Emails from authors should be replied to within the same day (unless they arrive after 4PM), even if only with a note to say we are looking into the query and will respond with a resolution when it is available. Pre-publication author correspondence emails should be prioritised above other emails and production tasks. See more about interacting with authors [**here**](interacting-with-authors.md). 
+* Emails from authors should be replied to within the same day (unless they arrive after 4PM), even if only with a note to say we are looking into the query and will respond with a resolution when it is available. Pre-publication author correspondence emails should be prioritised above other emails and production tasks. See more about interacting with authors [**here**](interacting-with-authors.md).&#x20;
 * Slack queries and emails from our typesetters should be replied to as quickly as possible within the same day to prevent holding up articles.
 {% endhint %}
 
 ## **Using Hiver**
 
-The Production inbox is a shared inbox that everyone in the team has access to. We manage this using a collaboration tool called a Google Chrome plugin called Hiver (download [**here**](https://hiverhq.com)). Hiver allows us to clearly divide up the workload by assigning emails to ourselves. It also allows us to categorise and track the types of emails we get by adding tags. When an email needs responding to it is ‘open’, when resolved it can be closed. An email can also be marked ‘pending’ if further action is needed, or its progress needs to be tracked. 
+The Production inbox is a shared inbox that everyone in the team has access to. We manage this using a collaboration tool called a Google Chrome plugin called Hiver (download [**here**](https://hiverhq.com)). Hiver allows us to clearly divide up the workload by assigning emails to ourselves. It also allows us to categorise and track the types of emails we get by adding tags. When an email needs responding to it is ‘open’, when resolved it can be closed. An email can also be marked ‘pending’ if further action is needed, or its progress needs to be tracked.&#x20;
 
-The Hiver inbox can be seen on the left sidebar in Gmail. In the drop-down menu, you can view emails assigned to yourself/the rest of the team, as well as emails that have yet to be assigned, and pending emails. 
+The Hiver inbox can be seen on the left sidebar in Gmail. In the drop-down menu, you can view emails assigned to yourself/the rest of the team, as well as emails that have yet to be assigned, and pending emails.&#x20;
 
 ![](../.gitbook/assets/screenshot-2020-06-24-at-12.11.31.png)
 
-  
+&#x20;&#x20;
 
 ### **Assigning emails**
 
-General queries in the inbox can be replied to without assigning the email to yourself. However, if you are corresponding with an author about an article you are working on, it is useful to assign the email to yourself. 
+General queries in the inbox can be replied to without assigning the email to yourself. However, if you are corresponding with an author about an article you are working on, it is useful to assign the email to yourself.&#x20;
 
-To do this from the inbox, select the email and click on the![](../.gitbook/assets/screenshot-2020-06-24-at-12.16.44.png)icon. Then click on 'Select a user' and choose a name from the drop-down menu. 
+To do this from the inbox, select the email and click on the![](../.gitbook/assets/screenshot-2020-06-24-at-12.16.44.png)icon. Then click on 'Select a user' and choose a name from the drop-down menu.&#x20;
 
 ![](<../.gitbook/assets/captured (2) (1).gif>)
 
@@ -119,7 +119,7 @@ Crossref, the DOI registration agency, processes all of our DOIs and sub-DOIs wh
 
 ![](../.gitbook/assets/15.png)
 
-Scroll to the last 6 lines of the report. If there is anything in the ‘failure_count’ then action is needed (if there is anything in ‘warning_count’ this can usually be ignored). If all are zeros then it can be closed as all DOIs have successfully processed and registered.
+Scroll to the last 6 lines of the report. If there is anything in the ‘failure\_count’ then action is needed (if there is anything in ‘warning\_count’ this can usually be ignored). If all are zeros then it can be closed as all DOIs have successfully processed and registered.
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-11.50.01.png)
 
@@ -131,7 +131,7 @@ Every now and then we also get emails from Crossref to let us know about schedul
 
 ### **Decision letter loading**
 
-When the Editorial team uploads a decision letter via the decision letter API, we receive an email. 
+When the Editorial team uploads a decision letter via the decision letter API, we receive an email.&#x20;
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-11.53.32.png)
 
@@ -169,25 +169,25 @@ The production team uses GitHub and GitLab to collaborate with other teams. When
 
 ### **No-digest emails**
 
-Every week (usually on Wednesday or Thursday), the Features team sends us a list of the latest articles that are not getting digests. 
+Every week (usually on Wednesday or Thursday), the Features team sends us a list of the latest articles that are not getting digests.&#x20;
 
 ![](../.gitbook/assets/screenshot-2020-06-24-at-15.06.27.png)
 
-They will have already marked them as ‘no-digest’ articles in Kriya, however we need to double check all of them to ensure that the labels have stuck because Kriya 1 can be unstable. We also need to check and update the [**decision letter tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1oy8TIwsedSYdy6n3\_SFuqUcJ4Ljeg7tXnTS6q2CsNI8/edit?ts=57fe457c#gid=0) at the same time. 
+They will have already marked them as ‘no-digest’ articles in Kriya, however we need to double check all of them to ensure that the labels have stuck because Kriya 1 can be unstable. We also need to check and update the [**decision letter tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1oy8TIwsedSYdy6n3\_SFuqUcJ4Ljeg7tXnTS6q2CsNI8/edit?ts=57fe457c#gid=0) at the same time.&#x20;
 
-Search for each article from the email and add a 'No digest' status to any articles that haven't had the label stick. If an article has been sent to the 'Waiting for assets' queue and has had its decision letter loaded, marking it as 'no-digest' will send it straight to the authors for proofing. 
+Search for each article from the email and add a 'No digest' status to any articles that haven't had the label stick. If an article has been sent to the 'Waiting for assets' queue and has had its decision letter loaded, marking it as 'no-digest' will send it straight to the authors for proofing.&#x20;
 
 ![A no-digest article](<../.gitbook/assets/24 (1).png>)
 
-If the article is still waiting for its decision letter to be loaded, the [**decision letter tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1oy8TIwsedSYdy6n3\_SFuqUcJ4Ljeg7tXnTS6q2CsNI8/edit?ts=57fe457c#gid=0) will need to be updated so the Editorial Office team knows which decision letters should be prioritised. Search for the manuscript number and in the 'Notes' column, add the text 'No digest'. This should be done for all articles on the no-digest list, including any that are not yet in Kriya. 
+If the article is still waiting for its decision letter to be loaded, the [**decision letter tracking spreadsheet**](https://docs.google.com/spreadsheets/d/1oy8TIwsedSYdy6n3\_SFuqUcJ4Ljeg7tXnTS6q2CsNI8/edit?ts=57fe457c#gid=0) will need to be updated so the Editorial Office team knows which decision letters should be prioritised. Search for the manuscript number and in the 'Notes' column, add the text 'No digest'. This should be done for all articles on the no-digest list, including any that are not yet in Kriya.&#x20;
 
 ![](../.gitbook/assets/screenshot-2021-03-22-at-08.46.06.png)
 
-If the article is not yet in Kriya, add it to the [**Production actions sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) under the 'CONFIRMED NO DIGEST BUT NOT YET IN KRIYA' heading and update the 'last checked' date. This section of the sheet should be checked every day and once the article has loaded to Kriya, it should be marked as 'No digest'.
+If the article is not yet in Kriya, add it to the [**Production actions sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC\_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) under the 'CONFIRMED NO DIGEST BUT NOT YET IN KRIYA' heading and update the 'last checked' date. This section of the sheet should be checked every day and once the article has loaded to Kriya, it should be marked as 'No digest'.
 
 ![](../.gitbook/assets/screenshot-2020-06-25-at-12.36.21.png)
 
-Note, the decision letter tracker has a 'hold for export' section. This is for articles that are currently on hold with the Editorial Office (usually waiting for some additional information e.g about data availability). Articles in this section should still be marked as 'No digest' if relevant. 
+Note, the decision letter tracker has a 'hold for export' section. This is for articles that are currently on hold with the Editorial Office (usually waiting for some additional information e.g about data availability). Articles in this section should still be marked as 'No digest' if relevant.&#x20;
 
 ![](<../.gitbook/assets/screenshot-2021-03-22-at-09.02.13 (2).png>)
 
@@ -221,29 +221,29 @@ This is an automatic email that notifies us when the post-acceptance check has b
 
 ### **Press emails**
 
-Our Press Officer Emily will sometimes email us to ask about publication dates. Often she will cc in Editorial and Features, if the article’s progress is dependent upon post-acceptance checks or a digest. 
+Our Press Officer Emily will sometimes email us to ask about publication dates. Often she will cc in Editorial and Features, if the article’s progress is dependent upon post-acceptance checks or a digest.&#x20;
 
-Emily will also cc us in if she asks Editorial Office to put any recently accepted papers on hold, whilst she looks into potential press for them. 
+Emily will also cc us in if she asks Editorial Office to put any recently accepted papers on hold, whilst she looks into potential press for them.&#x20;
 
 ![](../.gitbook/assets/screenshot-2021-03-22-at-11.56.32.png)
 
-A 'Press' tag should be added to these emails. Add the article number to the [**Production team actions sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) under the 'PoAs on hold for possible press' heading.
+A 'Press' tag should be added to these emails. Add the article number to the [**Production team actions sheet**](https://docs.google.com/document/d/1gWMKdmcl4i7EC\_bHvrbpBcUKoXuMQ4WfrVDJ1HxQ0cc/edit?ts=56dd55b5) under the 'PoAs on hold for possible press' heading.
 
 ![](../.gitbook/assets/screenshot-2021-07-12-at-12.26.52.png)
 
-The initial request email (and hold confirmation response from Editorial Office) can then be closed. If Emily subsequently confirms the article is not getting press, the number can be removed from the actions sheet. If she decides a PoA article is getting press, she will ask Editorial Office to schedule the article and CC us in. 
+The initial request email (and hold confirmation response from Editorial Office) can then be closed. If Emily subsequently confirms the article is not getting press, the number can be removed from the actions sheet. If she decides a PoA article is getting press, she will ask Editorial Office to schedule the article and CC us in.&#x20;
 
 ![](../.gitbook/assets/screenshot-2021-03-22-at-12.00.05.png)
 
-At this point, move the manuscript number to the relevant press date section. The email can be closed once this is done. 
+At this point, move the manuscript number to the relevant press date section. The email can be closed once this is done.&#x20;
 
 ![](../.gitbook/assets/screenshot-2021-03-22-at-12.03.03.png)
 
-When Editorial Office confirm an article has been scheduled, double-check it appears under the 'Scheduled' section on the [**Continuum dashboard**](https://prod--ppp-dash.elifesciences.org/current)**. **
+When Editorial Office confirm an article has been scheduled, double-check it appears under the 'Scheduled' section on the [**Continuum dashboard**](https://prod--ppp-dash.elifesciences.org/current)**.**&#x20;
 
 ![](../.gitbook/assets/screenshot-2021-03-22-at-12.05.45.png)
 
-The green 'Scheduled' note can then be added on the Production team actions sheet and the email closed once more. 
+The green 'Scheduled' note can then be added on the Production team actions sheet and the email closed once more.&#x20;
 
 ### **Proofing emails and chasers**
 
@@ -261,17 +261,17 @@ If the proof is still not submitted, we will receive an email asking us to chase
 
 ### **PubMed loader report**
 
-Throughout the day we will also receive automated emails when articles are loaded to PubMed (see [**Pubmed and PMC protcols**](https://docs.google.com/document/d/1nngNI8tmRMgzOBqgO_s-w3dmCEjmwo6iTYjZr1HM5VQ/edit)). These emails can be closed.
+Throughout the day we will also receive automated emails when articles are loaded to PubMed (see [**Pubmed and PMC protcols**](https://docs.google.com/document/d/1nngNI8tmRMgzOBqgO\_s-w3dmCEjmwo6iTYjZr1HM5VQ/edit)). These emails can be closed.
 
 ![](../.gitbook/assets/16.png)
 
-If any articles have been rejected from PubMed, these will be listed in the loader report summary email and in a separate 'REJECTED ARTICLES' email. 
+If any articles have been rejected from PubMed, these will be listed in the loader report summary email and in a separate 'REJECTED ARTICLES' email.&#x20;
 
 ![](../.gitbook/assets/screenshot-2021-03-29-at-08.57.03.png)
 
 ![](../.gitbook/assets/screenshot-2021-03-29-at-09.01.00.png)
 
-This will need to be investigated further so add the 'Failure' and 'Huddle' tags and raise this in the daily Huddle meeting. The loader report email can be closed, but keep the REJECTED ARTICLES email open until this has been discussed and resolved. 
+This will need to be investigated further so add the 'Failure' and 'Huddle' tags and raise this in the daily Huddle meeting. The loader report email can be closed, but keep the REJECTED ARTICLES email open until this has been discussed and resolved.&#x20;
 
 ### **Striking images**
 
@@ -305,7 +305,7 @@ This email notifies us that articles have been exported from eJP. If they have a
 
 ### 22/03/2021
 
-* Made some edits to various sections after Production team feedback. 
+* Made some edits to various sections after Production team feedback.&#x20;
 
 ### 29/03/2021
 

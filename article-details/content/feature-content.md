@@ -36,7 +36,7 @@ The required template will be indicated using the article file name in the expor
 
 Feature content includes the following items not found in research content:
 
-* **Title prefix **- a brief category label displayed in front of the title, currently captured in the XML as a 'sub-display-channel' subject element. There is no predefined list of these prefixes - while some are used to categorise feature articles (e.g. 'Living Science' or 'Meta-Research'), those used in Insights will be chosen based on the specific content being covered. The text should be in title case.
+* **Title prefix** - a brief category label displayed in front of the title, currently captured in the XML as a 'sub-display-channel' subject element. There is no predefined list of these prefixes - while some are used to categorise feature articles (e.g. 'Living Science' or 'Meta-Research'), those used in Insights will be chosen based on the specific content being covered. The text should be in title case.
 
 ![Example sub-display channels](../../.gitbook/assets/screen-shot-2020-06-23-at-15.52.41.png)
 
@@ -121,7 +121,7 @@ In the text of the bio, the author's name should be bold and the bio should not 
 
 #### Key info box
 
-In Insight articles, a key info box will be displayed at the start of the Content page, just below the Abstract. It should contain the details of the related research article(s), with the DOI hyperlinked to the correct page. 
+In Insight articles, a key info box will be displayed at the start of the Content page, just below the Abstract. It should contain the details of the related research article(s), with the DOI hyperlinked to the correct page.&#x20;
 
 ![Key info box in the proofing system](../../.gitbook/assets/screen-shot-2020-07-07-at-15.40.35.png)
 
@@ -233,7 +233,7 @@ Publication of other feature content follows the same process as for research co
 
 **Error**: _XXXXXX is a template XXXXXX so the article element must have a @article-type="research-article". Instead the @article-type="XXXXXX"._
 
-**Action**: Template 5 feature articles must have an attribute of `@article-type="research-article"` on their `<article>` element. If this error fires, it indicates that the article-type attribute has another value and this needs to be corrected to "research-article". 
+**Action**: Template 5 feature articles must have an attribute of `@article-type="research-article"` on their `<article>` element. If this error fires, it indicates that the article-type attribute has another value and this needs to be corrected to "research-article".&#x20;
 
 #### feature-template-test-3
 
@@ -279,7 +279,7 @@ Action: This warning will fire if a Template 5 article does not have an author r
 
 #### final-feat-ok-test
 
-**Error**:_ XXXXXX element contains \[OK] or \[OK?] which should be removed - XXXXXX_
+**Error**: _XXXXXX element contains \[OK] or \[OK?] which should be removed - XXXXXX_
 
 **Action**: This error indicates that the text "**\[OK]**" or "**\[OK?]**" is present in the article. The Features team use this text as a way of querying the author during pre-production editing. It should be removed before final publication.
 
@@ -301,25 +301,25 @@ Action: This warning will fire if a Template 5 article does not have an author r
 </custom-meta-group>
 ```
 
-#### feat-custom-meta-test-2	
+#### feat-custom-meta-test-2&#x9;
 
 **Error**: _Template type meta-value must one of '1','2','3','4', or '5'._
 
 **Action**: This error indicates the template type in the XML (see above) is not 1, 2, 3, 4 or 5. Correct the template type to the one indicated by the name of the article file in the export package (e.g. ). If the template number given in the article file name is a value other than 1, 2, 3, 4 or 5, the Production team should check which value the Features team intended for the article and instruct the content processors accordingly.
 
-#### feat-custom-meta-test-info	
+#### feat-custom-meta-test-info&#x9;
 
 **Info**: _Template X._
 
 **Action**: No action required, this is just an information message stating the template used for the article. X will be the number of the template being used (1, 2, 3, 4 ,5).
 
-#### feat-custom-meta-test-3	
+#### feat-custom-meta-test-3&#x9;
 
 **Error**: _XXXXXX must be a template 1. Currently it is a template XXXXXX._
 
 **Action**: An article with the article type 'Insight' must use Template 1. The content processor will need to change the article to this template.
 
-#### feat-custom-meta-test-4	
+#### feat-custom-meta-test-4&#x9;
 
 **Error**: _XXXXXX must be a template 2. Currently it is a template XXXXXX._
 

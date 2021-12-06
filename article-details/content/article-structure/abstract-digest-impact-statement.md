@@ -6,9 +6,9 @@ For changelog, click [**here**](abstract-digest-impact-statement.md#changelog). 
 
 ## Abstracts
 
-An abstract provides a clear and concise summary of the work described in an article. Abstracts allow readers to have a quick overview before reading the whole article. For eLife articles, abstracts are usually 150-200 words (except medical submissions which can be around 250 words). If a non-medical abstract is over the word limit, this should be checked with Editorial (see more [**here**](https://elifesciences.gitbook.io/productionhowto/-M1eY9ikxECYR-0OcnGt/article-details/content/article-structure/abstract-digest-impact-statement#pre-abstract-word-count-restriction) and [**here**](https://elifesciences.gitbook.io/productionhowto/-M1eY9ikxECYR-0OcnGt/article-details/content/article-structure/abstract-digest-impact-statement#final-abstract-word-count-restriction)). 
+An abstract provides a clear and concise summary of the work described in an article. Abstracts allow readers to have a quick overview before reading the whole article. For eLife articles, abstracts are usually 150-200 words (except medical submissions which can be around 250 words). If a non-medical abstract is over the word limit, this should be checked with Editorial (see more [**here**](https://elifesciences.gitbook.io/productionhowto/-M1eY9ikxECYR-0OcnGt/article-details/content/article-structure/abstract-digest-impact-statement#pre-abstract-word-count-restriction) and [**here**](https://elifesciences.gitbook.io/productionhowto/-M1eY9ikxECYR-0OcnGt/article-details/content/article-structure/abstract-digest-impact-statement#final-abstract-word-count-restriction)).&#x20;
 
-In eLife articles, the abstract is the first section in the article, appearing after the author list and affiliations in the PDFs and on the website. 
+In eLife articles, the abstract is the first section in the article, appearing after the author list and affiliations in the PDFs and on the website.&#x20;
 
 ![Position of the abstract in the PDF](../../../.gitbook/assets/screenshot-2021-05-17-at-10.14.37.png)
 
@@ -16,9 +16,9 @@ In eLife articles, the abstract is the first section in the article, appearing a
 
 ### Structured abstracts
 
-Subheadings are not allowed in abstracts, except for medical submissions. All articles in the major subject areas 'Medicine' or 'Epidemiology and Global Health' with a received date after 04/04/2021 should have a structured abstract unless the sticky note from Editorial indicates otherwise. In rare cases, some articles outside these major subject areas will be clinical trials and so will require structured abstracts - these will also be indicated in the sticky notes. 
+Subheadings are not allowed in abstracts, except for medical submissions. All articles in the major subject areas 'Medicine' or 'Epidemiology and Global Health' with a received date after 04/04/2021 should have a structured abstract unless the sticky note from Editorial indicates otherwise. In rare cases, some articles outside these major subject areas will be clinical trials and so will require structured abstracts - these will also be indicated in the sticky notes.&#x20;
 
-Structured abstracts should have all the following subheadings: Background; Methods; Results; Conclusions; Funding; Clinical trial number (for submissions reporting results of a trial only - see more [**here**](../ethics.md#clinical-trials)). These headings should be tagged in the underlying XML using `<sec>` and `<title>` tags (not `<bold>` tags). See [**here**](abstract-digest-impact-statement.md#structured-abstract-including-clinical-trial-number-section) for an example of XML for a structured abstract. 
+Structured abstracts should have all the following subheadings: Background; Methods; Results; Conclusions; Funding; Clinical trial number (for submissions reporting results of a trial only - see more [**here**](../ethics.md#clinical-trials)). These headings should be tagged in the underlying XML using `<sec>` and `<title>` tags (not `<bold>` tags). See [**here**](abstract-digest-impact-statement.md#structured-abstract-including-clinical-trial-number-section) for an example of XML for a structured abstract.&#x20;
 
 | **Section**                      | **XML formatting**                                       |
 | -------------------------------- | -------------------------------------------------------- |
@@ -90,7 +90,7 @@ In extreme cases, where it is not possible to create an acceptable impact statem
 
 For Replication studies, the impact statement is used as an 'Editors' Summary', giving the outcome of the replication of a previously published work. There are several variations on this summary that apply to different outcomes:
 
-* Editors' Summary: This Replication Study has reproduced important parts of the original paper. 
+* Editors' Summary: This Replication Study has reproduced important parts of the original paper.&#x20;
 * Editors' Summary: This Replication Study has reproduced some parts of the original paper but other parts could not be interpreted.
 * Editors' Summary: This Replication Study has reproduced some parts of the original paper but it also contains results that are not consistent with other parts of the original paper.
 * Editors' Summary: This Replication Study did not reproduce those experiments in the original paper that it attempted to reproduce.
@@ -113,7 +113,7 @@ So the first five words of both were the same, "TLR5 participates in the TLR4". 
 
 If brackets can be replaced with commas, this should be done. For example, the following impact statement uses them to enclose the name of an enzyme:
 
-> "By combining structure-based computational predictions and a thorough structural analysis, a highly thermostable enzyme **(alcohol dehydrogenase) **has been engineered."
+> "By combining structure-based computational predictions and a thorough structural analysis, a highly thermostable enzyme **(alcohol dehydrogenase)** has been engineered."
 
 This can be corrected to the following without affecting the readability of the statement:
 
@@ -185,7 +185,7 @@ Simply referring to the work as 'a study' in the third person is fine, e.g.
 
 However, if phrases such as 'this study shows' or 'this work proves' are used, they will need to be edited. For example:
 
-> "**This study formulates **quantitative, experimentally testable predictions allowing to discriminate between contraction mechanisms in disordered actomyosin and microtubule/motor bundles."
+> "**This study formulates** quantitative, experimentally testable predictions allowing to discriminate between contraction mechanisms in disordered actomyosin and microtubule/motor bundles."
 
 This was changed to the following:
 
@@ -193,15 +193,15 @@ This was changed to the following:
 
 A more subtle example of this can be seen in the following, where the authors do not refer directly to the work, but instead just say 'here':
 
-> "Novel drug-binding sites of TRPC6 **identified here **could potentially facilitate future design of drugs to treat TRPC6-mediated diseases."
+> "Novel drug-binding sites of TRPC6 **identified here** could potentially facilitate future design of drugs to treat TRPC6-mediated diseases."
 
 In this case, simply removing 'identified here' was sufficient to provide a correct statement:
 
->  "Novel drug-binding sites of TRPC6 could potentially facilitate future design of drugs to treat TRPC6-mediated diseases."
+> &#x20;"Novel drug-binding sites of TRPC6 could potentially facilitate future design of drugs to treat TRPC6-mediated diseases."
 
 ### A note on full submissions
 
-Articles accepted at full submission (for example articles accepted through Review Commons) do not have impact statements on the submission system. The Editorial team will need to query the authors for this before the article is exported to Production; however if this is missed the authors should be queried for this: 
+Articles accepted at full submission (for example articles accepted through Review Commons) do not have impact statements on the submission system. The Editorial team will need to query the authors for this before the article is exported to Production; however if this is missed the authors should be queried for this:&#x20;
 
 * Please provide an impact statement (a single sentence, no longer than 40 words, that summarises the key findings of the work).
 
@@ -217,13 +217,13 @@ These checks relate to the content of abstracts, digests and impact statements. 
 
 **Action**: This error will appear if an article has zero or more than one abstract. Check the original submission to see whether an abstract was provided and add it in if so. If no abstract was provided (this will be a rare occurrence), the authors should be queried for this:
 
-* Please provide an abstract for your article (no more than 280 words). 
+* Please provide an abstract for your article (no more than 280 words).&#x20;
 
 #### abstract-child-test-1
 
 **Error**: _XXXXXX is not allowed as a child of abstract._
 
-**Action**: This error will appear if an abstract has any elements other than `<p>` , `<sec>` or `<title>`. For example: 
+**Action**: This error will appear if an abstract has any elements other than `<p>` , `<sec>` or `<title>`. For example:&#x20;
 
 ```markup
 <abstract>
@@ -237,13 +237,13 @@ These checks relate to the content of abstracts, digests and impact statements. 
 </abstract>
 ```
 
-Check where these additional elements may have come from by comparing against the original submission. The production vendors will need to correct the XML accordingly - if the additional elements should be somewhere else in the article, they will need to be moved, if they have been included in error and shouldn't be there at all they should be removed. 
+Check where these additional elements may have come from by comparing against the original submission. The production vendors will need to correct the XML accordingly - if the additional elements should be somewhere else in the article, they will need to be moved, if they have been included in error and shouldn't be there at all they should be removed.&#x20;
 
 #### abstract-test-4
 
 **Error**: _abstracts cannot contain display formulas._
 
-**Action**: This will appear if an abstract contains display formulae - although these are allowed in Continuum, they are converted to placeholder text for downstream deliverables. As a result, these should not be included in abstracts - if an article has display formulae in the abstract, please capture them in normal characters if possible. If this can't be done, convert the display formula into an inline formula and leave the following author query for the authors: 
+**Action**: This will appear if an abstract contains display formulae - although these are allowed in Continuum, they are converted to placeholder text for downstream deliverables. As a result, these should not be included in abstracts - if an article has display formulae in the abstract, please capture them in normal characters if possible. If this can't be done, convert the display formula into an inline formula and leave the following author query for the authors:&#x20;
 
 * We strongly advise against including formulae in abstracts since these are sent to various places downstream which are unable to render the maths. If possible, please rephrase your abstract accordingly and indicate where the formula(e) should be included in the main text instead.
 
@@ -259,13 +259,13 @@ If the authors are unable to remove the inline formula(e) from their abstract, [
 
 **Error**: _If an abstract is structured, then it must have 5 or 6 sections depending on whether it is a clinical trial. An article without a clinical trial should have 5 sections, whereas one with a clinical trial should have 6._
 
-**Action**: Structured abstracts must include the following sections: Background, Methods, Results, Conclusions, Funding and Clinical trial number if the article is a clinical trial. If a structured abstract has a number of sections other than 5 (or 6 if a clinical trial), this is incorrect. Check the original submission to see whether all section headings were provided and add them in if so (the production vendors may need to format these appropriately as [**here**](abstract-digest-impact-statement.md#structured-abstract)**).** If the authors did not provide these sections, the Editorial team should be consulted about this. 
+**Action**: Structured abstracts must include the following sections: Background, Methods, Results, Conclusions, Funding and Clinical trial number if the article is a clinical trial. If a structured abstract has a number of sections other than 5 (or 6 if a clinical trial), this is incorrect. Check the original submission to see whether all section headings were provided and add them in if so (the production vendors may need to format these appropriately as [**here**](abstract-digest-impact-statement.md#structured-abstract)**).** If the authors did not provide these sections, the Editorial team should be consulted about this.&#x20;
 
 #### abstract-test-6
 
 **Warning**: _Abstract starts with the word 'Abstract', which is almost certainly incorrect - XXXXXX_
 
-**Action**: If an abstract begins with the text 'abstract', and this is not part of the first sentence (e.g. 'Abstract thinking is an interesting aspect of human intelligence') this text should be deleted. 
+**Action**: If an abstract begins with the text 'abstract', and this is not part of the first sentence (e.g. 'Abstract thinking is an interesting aspect of human intelligence') this text should be deleted.&#x20;
 
 #### abstract-test-7
 
@@ -289,13 +289,13 @@ If the authors are unable to remove the inline formula(e) from their abstract, [
 
 **Warning**: _Medicine articles with a colon in their title must have a structured abstract. Either the colon in the title is incorrect, or the abstract should be changed to a structured format._
 
-**Action**: If an article is classed under the major subject areas 'Medicine' or 'Epidemiology and Global Health' and has a colon in the article title (e.g. 'Association of Toll-like receptor 7 variants with life-threatening COVID-19 disease in males: findings from a nested case-control study'), it should have a structured abstract. If there is a sticky note indicating the article does not require a structured abstract, this warning can be ignored. Check the original submission to see whether a structured abstract is present - if so, it should be tagged accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract) (see more [**here**](abstract-digest-impact-statement.md#structured-abstracts)). If not, the Editorial team will need to be consulted. 
+**Action**: If an article is classed under the major subject areas 'Medicine' or 'Epidemiology and Global Health' and has a colon in the article title (e.g. 'Association of Toll-like receptor 7 variants with life-threatening COVID-19 disease in males: findings from a nested case-control study'), it should have a structured abstract. If there is a sticky note indicating the article does not require a structured abstract, this warning can be ignored. Check the original submission to see whether a structured abstract is present - if so, it should be tagged accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract) (see more [**here**](abstract-digest-impact-statement.md#structured-abstracts)). If not, the Editorial team will need to be consulted.&#x20;
 
 #### medicine-abstract-conformance-2
 
 **Warning**: _XXXXXX articles submitted after 4th April 2021 should have a structured abstract, but this one does not. eLife please check this with Editorial. Exeter: Please flag this to the eLife Production team._
 
-**Action**: All articles submitted after 04/04/2021 and classed under the major subject areas 'Medicine' or 'Epidemiology and Global Health' should have structured abstracts. If there is a sticky note indicating the article does not require a structured abstract, this warning can be ignored. Otherwise, check the original submission to see whether a structured abstract is present - if so, it should be tagged accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract) (see more [**here**](abstract-digest-impact-statement.md#structured-abstracts)). If not, the Editorial team will need to be consulted. 
+**Action**: All articles submitted after 04/04/2021 and classed under the major subject areas 'Medicine' or 'Epidemiology and Global Health' should have structured abstracts. If there is a sticky note indicating the article does not require a structured abstract, this warning can be ignored. Otherwise, check the original submission to see whether a structured abstract is present - if so, it should be tagged accordingly as [**here**](abstract-digest-impact-statement.md#structured-abstract) (see more [**here**](abstract-digest-impact-statement.md#structured-abstracts)). If not, the Editorial team will need to be consulted.&#x20;
 
 #### clintrial-conformance-1
 
@@ -337,15 +337,15 @@ If the authors are unable to remove the inline formula(e) from their abstract, [
 
 **Warning**: _There are XXXXXX clinical trial numbers tagged in the structured abstract, which seems like a large number. Please check that this is correct and has not been mistagged._
 
-**Action**: This warning will appear for a structured abstract if there are more than 3 clinical trial numbers tagged. This will usually be a result of mis-tagging - double-check the original submission to see what the correct clinical trial numbers should be. If you are unsure, check with the Production team who may need to consult the Editorial team about this. 
+**Action**: This warning will appear for a structured abstract if there are more than 3 clinical trial numbers tagged. This will usually be a result of mis-tagging - double-check the original submission to see what the correct clinical trial numbers should be. If you are unsure, check with the Production team who may need to consult the Editorial team about this.&#x20;
 
 #### xref-bibr-presence
 
 **Warning**: _Abstract contains a citation - 'XXXXXX' - which isn't usually allowed. Check that this is correct._
 
-**Action**: Linked citations are not allowed in abstracts - if there are any, these should be changed to plain text citations instead. If the reference is only cited in the abstract, leave this query for the authors: 
+**Action**: Linked citations are not allowed in abstracts - if there are any, these should be changed to plain text citations instead. If the reference is only cited in the abstract, leave this query for the authors:&#x20;
 
-* Unfortunately we cannot support linked citations in eLife abstracts. Please add a citation of this reference in the main text of your article so we can add it to the reference list. 
+* Unfortunately we cannot support linked citations in eLife abstracts. Please add a citation of this reference in the main text of your article so we can add it to the reference list.&#x20;
 
 #### pre-res-comm-test
 
@@ -369,25 +369,25 @@ If the authors are unable to remove the inline formula(e) from their abstract, [
 
 **Action**: This warning will appear if an abstract has multiple paragraphs. Most eLife articles should only have single-paragraph abstracts (exceptions are articles with structured abstracts and Research Communications). Check the original submission to see whether the abstract has multiple paragraphs - if it does and it shouldn't, please leave the following query for the authors:
 
-* Please edit your abstract so it is only one paragraph. 
+* Please edit your abstract so it is only one paragraph.&#x20;
 
 #### corr-abstract-presence
 
 **Error**: _Correction notices should not contain abstracts._
 
-**Action**: Correction notices do not have abstracts - if this error appears, it is likely that some text has incorrectly been tagged as an abstract. The production vendors will need to correct this. 
+**Action**: Correction notices do not have abstracts - if this error appears, it is likely that some text has incorrectly been tagged as an abstract. The production vendors will need to correct this.&#x20;
 
 #### retr-abstract-presence
 
 **Error**: _XXXXXX notices should not contain abstracts._
 
-**Action**: Retraction notices do not have abstracts - if this error appears, it is likely that some text has incorrectly been tagged as an abstract. The production vendors will need to correct this. 
+**Action**: Retraction notices do not have abstracts - if this error appears, it is likely that some text has incorrectly been tagged as an abstract. The production vendors will need to correct this.&#x20;
 
 #### insight-abstract-impact-test-1
 
 **Warning**: _In insights, abstracts must be the same as impact statements. Here the abstract reads "XXXXXX", whereas the impact statement reads "XXXXXX"._
 
-**Action**_: _Except in very rare cases, Insight articles will have abstracts that match the impact statement. If this warning appears, check there are no typos in either the abstract or impact statement. If there are major differences between the two, check with the Production team who will clarify this with the Features team.
+**Action**_:_ Except in very rare cases, Insight articles will have abstracts that match the impact statement. If this warning appears, check there are no typos in either the abstract or impact statement. If there are major differences between the two, check with the Production team who will clarify this with the Features team.
 
 #### insight-abstract-impact-test-2
 
@@ -411,7 +411,7 @@ If the authors are unable to remove the inline formula(e) from their abstract, [
 
 **Error**: _digest paragraph contains \[OK] or \[OK?] which should be removed - XXXXXX_
 
-**Action**: The Features team will sometimes check the wording of a digest with the authors by adding '\[OK]' or '\[OK?]' into the text of the digest. These indicators should be removed at pub review (before final publication). 
+**Action**: The Features team will sometimes check the wording of a digest with the authors by adding '\[OK]' or '\[OK?]' into the text of the digest. These indicators should be removed at pub review (before final publication).&#x20;
 
 #### custom-meta-test-5
 
@@ -507,7 +507,7 @@ These checks relate to the XML structure of impact statements. X or XXXXXX refer
 
 **Error**: _At least 1 p element or sec element (with descendant p) must be present in abstract._
 
-**Action**: This error will appear if an abstract has no \<p> elements. The text of an abstract must be contained within a \<p> element - if this is not the case, it needs to be fixed by the production vendors. 
+**Action**: This error will appear if an abstract has no \<p> elements. The text of an abstract must be contained within a \<p> element - if this is not the case, it needs to be fixed by the production vendors.&#x20;
 
 #### clintrial-conformance-7
 
@@ -525,7 +525,7 @@ These checks relate to the XML structure of impact statements. X or XXXXXX refer
 </sec>
 ```
 
-This is not allowed and needs to be corrected by the production vendors. 
+This is not allowed and needs to be corrected by the production vendors.&#x20;
 
 #### clintrial-conformance-8
 
@@ -540,7 +540,7 @@ This is not allowed and needs to be corrected by the production vendors.
 </sec>
 ```
 
-This is incorrect and the ID should be changed accordingly by the production vendors (see [**here**](abstract-digest-impact-statement.md#structured-abstracts) for correct IDs). 
+This is incorrect and the ID should be changed accordingly by the production vendors (see [**here**](abstract-digest-impact-statement.md#structured-abstracts) for correct IDs).&#x20;
 
 #### clintrial-related-object-1
 
@@ -579,7 +579,7 @@ This is incorrect - the `<related-object>` element should be placed under the 'C
 
 **Error**: _XXXXXX must have an @source-type='clinical-trials-registry'._
 
-**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have a `source-type` that is 'clinical-trials-registry', for example: 
+**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have a `source-type` that is 'clinical-trials-registry', for example:&#x20;
 
 ```markup
 <sec id="abs6">
@@ -592,7 +592,7 @@ This is incorrect - the `<related-object>` element should be placed under the 'C
 </sec>
 ```
 
-This should be corrected by the production vendors, for example: 
+This should be corrected by the production vendors, for example:&#x20;
 
 ```markup
 <sec id="abs6">
@@ -610,7 +610,7 @@ This should be corrected by the production vendors, for example:
 
 **Error**: _XXXXXX must have an @source-id._
 
-**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have a `source-id`, for example: 
+**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have a `source-id`, for example:&#x20;
 
 ```markup
 <sec id="abs6">
@@ -624,7 +624,7 @@ This should be corrected by the production vendors, for example:
 </sec>
 ```
 
-This should be corrected by the production vendors, for example: 
+This should be corrected by the production vendors, for example:&#x20;
 
 ```markup
 <sec id="abs6">
@@ -642,7 +642,7 @@ This should be corrected by the production vendors, for example:
 
 **Error**: _XXXXXX must have an @source-id-type='registry-name'._
 
-**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have a `source-id-type` with the value 'registry-name' for example: 
+**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have a `source-id-type` with the value 'registry-name' for example:&#x20;
 
 ```markup
 <sec id="abs6">
@@ -656,7 +656,7 @@ This should be corrected by the production vendors, for example:
 </sec>
 ```
 
-This should be corrected by the production vendors, for example: 
+This should be corrected by the production vendors, for example:&#x20;
 
 ```markup
 <sec id="abs6">
@@ -674,7 +674,7 @@ This should be corrected by the production vendors, for example:
 
 **Error**: _XXXXXX must have an @document-id-type='clinical-trial-number'._
 
-**Action**: This error will appear for a structured abstract if the `<document-id-type>` element doesn't have the value `clinical-trial-number` (or if this is missing) for example: 
+**Action**: This error will appear for a structured abstract if the `<document-id-type>` element doesn't have the value `clinical-trial-number` (or if this is missing) for example:&#x20;
 
 ```markup
 <sec id="abs6">
@@ -688,7 +688,7 @@ This should be corrected by the production vendors, for example:
 </sec>
 ```
 
-This should be corrected by the production vendors, for example: 
+This should be corrected by the production vendors, for example:&#x20;
 
 ```markup
 <sec id="abs6">
@@ -706,7 +706,7 @@ This should be corrected by the production vendors, for example:
 
 **Error**: _XXXXXX must have an @document-id._
 
-**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have a `document-id` with the clinical trial number for example: 
+**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have a `document-id` with the clinical trial number for example:&#x20;
 
 ```markup
 <sec id="abs6">
@@ -720,7 +720,7 @@ This should be corrected by the production vendors, for example:
 </sec>
 ```
 
-This should be corrected by the production vendors, for example: 
+This should be corrected by the production vendors, for example:&#x20;
 
 ```markup
 <sec id="abs6">
@@ -738,7 +738,7 @@ This should be corrected by the production vendors, for example:
 
 **Error**: _XXXXXX must have an @xlink:href._
 
-**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have an `xlink:href` with a link to the clinical trial information at its registry, for example: 
+**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have an `xlink:href` with a link to the clinical trial information at its registry, for example:&#x20;
 
 ```markup
 <sec id="abs6">
@@ -752,7 +752,7 @@ This should be corrected by the production vendors, for example:
 </sec>
 ```
 
-This should be corrected by the production vendors, for example: 
+This should be corrected by the production vendors, for example:&#x20;
 
 ```markup
 <sec id="abs6">
@@ -784,7 +784,7 @@ This should be corrected by the production vendors, for example:
 </sec>
 ```
 
-The value in the `document-id` attribute should match the text within the `<related-object>` element. This should be corrected by the production vendors, for example: 
+The value in the `document-id` attribute should match the text within the `<related-object>` element. This should be corrected by the production vendors, for example:&#x20;
 
 ```markup
 <sec id="abs6">
@@ -802,7 +802,7 @@ The value in the `document-id` attribute should match the text within the `<rela
 
 **Error**: _XXXXXX must have an @id in the format 'RO1'. 'XXXXXX' does not conform to this convention._
 
-**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have an `id` in the exact format 'RO1' for example: 
+**Action**: This error will appear for a structured abstract if the `<related-object>` element doesn't have an `id` in the exact format 'RO1' for example:&#x20;
 
 ```markup
 <sec id="abs6">
@@ -816,7 +816,7 @@ The value in the `document-id` attribute should match the text within the `<rela
 </sec>
 ```
 
-This should be corrected by the production vendors, for example: 
+This should be corrected by the production vendors, for example:&#x20;
 
 ```markup
 <sec id="abs6">
@@ -840,13 +840,13 @@ This should be corrected by the production vendors, for example:
 
 **Error**: _XXXXXX @source-id value must be one of the subtitles of the Crossref clinical trial registries. "XXXXXX" is not one of the following XXXXXX_
 
-**Action**: This error will appear for a structured abstract if the `source-id` does not match any of the [**clinical trial registries permitted by eLife**](https://github.com/elifesciences/eLife-JATS-schematron/blob/master/src/clinical-trial-registries.xml). Check and correct any typos - if the value in the `source-id` element is completely different from any of the registries on the list, the Production team will need to investigate further. 
+**Action**: This error will appear for a structured abstract if the `source-id` does not match any of the [**clinical trial registries permitted by eLife**](https://github.com/elifesciences/eLife-JATS-schematron/blob/master/src/clinical-trial-registries.xml). Check and correct any typos - if the value in the `source-id` element is completely different from any of the registries on the list, the Production team will need to investigate further.&#x20;
 
 #### clintrial-related-object-12
 
-**Error**: _ClinicalTrials.gov trial links are in the format _[https://clinicaltrials.gov/show/{number}](https://clinicaltrials.gov/show/%7Bnumber%7D)_. This XXXXXX has the link 'XXXXXX', which based on the clinical trial registry (XXXXXX) and @document-id (XXXXXX) is not right. Either the xlink:href is wrong (should it be XXXXXX instead?) or the @document-id value is wrong, or the @source-id value is incorrect (or all/some combination of these)._
+**Error**: _ClinicalTrials.gov trial links are in the format_ [https://clinicaltrials.gov/show/{number}](https://clinicaltrials.gov/show/%7Bnumber%7D)_. This XXXXXX has the link 'XXXXXX', which based on the clinical trial registry (XXXXXX) and @document-id (XXXXXX) is not right. Either the xlink:href is wrong (should it be XXXXXX instead?) or the @document-id value is wrong, or the @source-id value is incorrect (or all/some combination of these)._
 
-**Action**: This error will appear for a structured abstract if there is a mismatch between the `document-id `value and the link in the `xlink:href` element. For example, if the link is https://clinicaltrials.gov/show/NCT04549831, the expected document-id would be NCT04549831. If these values don't match (as in the example below) then there is either an error in the link or the document-id (or the source-id value itself is incorrect, which will cause the schematron to compare against an incorrect format). Check the original submission and fix any typos that may have been made. If there are no typos, the Production team will need to check this with the Editorial team. 
+**Action**: This error will appear for a structured abstract if there is a mismatch between the `document-id` value and the link in the `xlink:href` element. For example, if the link is https://clinicaltrials.gov/show/NCT04549831, the expected document-id would be NCT04549831. If these values don't match (as in the example below) then there is either an error in the link or the document-id (or the source-id value itself is incorrect, which will cause the schematron to compare against an incorrect format). Check the original submission and fix any typos that may have been made. If there are no typos, the Production team will need to check this with the Editorial team.&#x20;
 
 ```markup
 <sec id="abs6">
@@ -878,13 +878,13 @@ This should be corrected by the production vendors, for example:
 </sec>
 ```
 
-This test checks that the `<related-object>` element is located within the abstract. This element is not currently used elsewhere so if this message appears, the production vendors will need to fix this. 
+This test checks that the `<related-object>` element is located within the abstract. This element is not currently used elsewhere so if this message appears, the production vendors will need to fix this.&#x20;
 
 #### feature-abstract-test-1
 
 **Error**: _abstract must contain one and only one title._
 
-**Action**: This error will appear if an article with a digest section doesn't have a `<title>` tag. The production vendors will need to add this in, and the title should be 'eLife digest'. 
+**Action**: This error will appear if an article with a digest section doesn't have a `<title>` tag. The production vendors will need to add this in, and the title should be 'eLife digest'.&#x20;
 
 #### feature-abstract-test-2
 
@@ -994,7 +994,7 @@ This test checks that the `<related-object>` element is located within the abstr
 </article>
 ```
 
-#### Digest 
+#### Digest&#x20;
 
 ```markup
 <abstract abstract-type="executive-summary">

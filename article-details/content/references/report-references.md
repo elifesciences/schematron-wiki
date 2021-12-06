@@ -51,7 +51,7 @@ If a DOI is present, use this option. However, because reports are not standard 
 
 ## Schematron checks
 
-### **Content checks **
+### **Content checks**&#x20;
 
 **warning-elem-cit-report-11-3**
 
