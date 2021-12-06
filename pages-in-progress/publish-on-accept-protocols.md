@@ -262,7 +262,7 @@ To begin checking the metadata within the submission system, click next to move 
 3. **Competing interests:** No need to check.
 4.  **Group authors:** Any group authors mentioned in the author’s article file must be included on the submission system prior to PoA, if not already present in the author information.
 
-    ![](broken-reference)
+    ![](<../.gitbook/assets/Screenshot 2021-12-06 at 14.35.37.png>)
 
     Any competing interests listed for the group author(s) present in the article file but not on the system should be added prior to PoA publication.
 
