@@ -167,7 +167,7 @@ This gives access to the ‘Upload Files’ page (step 1 for article submission)
 1. **Quality:** The figures and figure supplements appear at the end of the merged PDF. They should be checked to ensure that they are of a reasonable quality. Please note that the system will usually downsample the images slightly so that some pixelation is likely, but if the figures show at a particularly low resolution, please check the source files. If these are also poor quality, please ask the authors to provide higher resolution versions before proceeding with PoA.
 2. **Figures in text:** Occasionally, the authors will include copies of their figures throughout the main text, meaning they will be duplicated in the merged PDF. If the images throughout the text are good quality, please switch off the option to include the figures in the merged PDF and regenerate it.
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
 Click the green ‘merge’ option to unselect it.
 
@@ -262,35 +262,51 @@ To begin checking the metadata within the submission system, click next to move 
 3. **Competing interests:** No need to check.
 4.  **Group authors:** Any group authors mentioned in the author’s article file must be included on the submission system prior to PoA, if not already present in the author information.
 
-
+    ![](broken-reference)
 
     Any competing interests listed for the group author(s) present in the article file but not on the system should be added prior to PoA publication.
 
-    For every group author, check whether a list of the members of that group is given in the article file. Ideally, this list should give the full name of each member and their affiliation. If this list is not present, check whether it has been provided as a separate file and alert Production via Slack.
+    For every group author, check whether a list of the members of that group is given in the article file. Ideally, this list should give the full name of each member and their affiliation. If this list is not present, check whether it has been provided as a separate file and alert eLife Production via Slack.
 
-    Once the system is updated, Production should be alerted to the presence of the group author regardless as the details will need to be added to the XML while the article is in the elife-poa-packaging/outbox folder.
+    Once the system is updated, eLife Production should be alerted to the presence of the group author regardless as the details will need to be added to the XML while the article is in the elife-poa-packaging/outbox folder (see below).
 
     If the phrase ‘**on behalf of**’ is present in the author’s article file followed by the name of a group author or consortium, Production must be alerted prior to PoA so that they can update the XML manually.
 
-    `<on-behalf-of>` tagging must be added to the XML rather than the standard group authorship tagging. It should be placed after the authors and before the affiliations in the \<contrib-group>. This must be done while the article is in the elife-poa-packaging/outbox folder (see below):
+    `<on-behalf-of>` tagging must be added to the XML rather than the standard group authorship tagging. It should be placed after the authors and before the affiliations in the \<contrib-group>. This must also be done while the article is in the elife-poa-packaging/outbox folder.
+
+Tagging for a group author is as follows, compared to a normal author. A new `<contrib-group>` element should be added at the correct point in the author list e.g. where the group author has been listed in the article file. This element must contain the attribute `contrib-type="author"` and the sub-element `<collab>` containing the group name.
 
 ```markup
 <contrib-group>
-<contrib contrib-type="author" id="author-165641">
-<name><surname>Xiong</surname><given-names>Ziyi</given-names></name>
-<xref ref-type="aff" rid="aff1">1</xref>
-<xref ref-type="other" rid="par-19"/>
-<xref ref-type="fn" rid="conf1"/>
-</contrib>
-<contrib contrib-type="author" corresp="yes" id="author-20004">
-<name><surname>Kay</surname><given-names>Jon</given-names></name>
-<xref ref-type="aff" rid="aff1">1</xref>
-<xref ref-type="corresp" rid="cor2">*</xref>
-<xref ref-type="other" rid="par-1"/>
-<xref ref-type="fn" rid="conf1"/>
-</contrib>
-<on-behalf-of>on behalf of the International Visible Trait Genetics (VisiGen) Consortium</on-behalf-of>
-<aff id="aff1"><institution content-type="dept">Department of Genetic Identification</institution>, <institution>Erasmus MC University Medical Center</institution>, <addr-line><named-content content-type="city">Rotterdam</named-content></addr-line>, <country>Netherlands</country></aff>
+. . .
+    <contrib contrib-type="author" corresp="yes" id="author-116435">
+        <name><surname>Ferguson</surname><given-names>Adam R</given-names></name>
+        <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7102-1608</contrib-id>
+        <xref ref-type="aff" rid="aff1">1</xref>
+        <xref ref-type="corresp" rid="cor2">*</xref>
+        <xref ref-type="fn" rid="conf1"/>
+    </contrib>
+    <contrib contrib-type="author">
+        <collab>The TRACK-SCI Investigators</collab>
+    </contrib>
+. . .
+</contrib-group>
+```
+
+Tagging for an 'on behalf of' statement can be seen in the following example. The `<on-behalf-of>` element should be added after the last `<contrib-group>` in the author list and must contain the text as given in the article file.
+
+```markup
+<contrib-group>
+. . .
+ <contrib contrib-type="author" corresp="yes" id="author-20004">
+  <name><surname>Kay</surname><given-names>Jon</given-names></name>
+  <xref ref-type="aff" rid="aff1">1</xref>
+  <xref ref-type="corresp" rid="cor2">*</xref>
+  <xref ref-type="other" rid="par-1"/>
+  <xref ref-type="fn" rid="conf1"/>
+ </contrib>
+ <on-behalf-of>on behalf of the International Visible Trait 
+ Genetics (VisiGen) Consortium</on-behalf-of>
 . . .
  </contrib-group>
 ```
