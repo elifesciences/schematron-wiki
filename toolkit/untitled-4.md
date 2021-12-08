@@ -68,20 +68,17 @@ See [Keywords and research organisms](../article-details/content/keywords.md).
 * Footnote designators - \*,†, ‡, §,#, ¶,\*\*,††, ‡‡,§§,##,¶¶ Order: Designated footnotes, p value footnotes (\*p<0.05; \*\*p<0.01; \*\*\*p<0.001), undesignated footnotes and abbreviations last. All abbreviations used in tables must be defined in footnotes (unless on list of not required definition).
 * Sereal commas (Oxford comma), follow the author as long as it's consistent
 * Capitalisation
-*
-  1. After a colon - not allowed (exceptions listed above for titles)
-  2. Do not capitalise w in Western blot, but do for Southern blot
+  * After a colon - not allowed (exceptions listed above for titles)
+  * Do not capitalise w in Western blot, but do for Southern blot
 * &#x20;Italicisation - follow author, except
-
-1. Genus and species shuold be italicised. Capital with full stop, italics, e.g. E. coli. Genus should be provided on first use in main text and thereafter abbreviated to first letter and full stop. If only Genus is provided, still use italics \[this is applicable for Table and Figure captions). If both genus and species are given, use only abbreviated genus names with species in tables and figures (exceptions: For S. Typhi, S. Typhimurium, Drosophila, and Arabidopsis add an author query as to whether some or all instances should be Roman or italicised, but we should not autocorrect to italic (since on some occasions the change will be wrong - genus or species).
-2. Do not italicise latin terms (eg in vitro, in vivo)
-
+  * Genus and species should be italicised. Capital with full stop, italics, e.g. E. coli. Genus should be provided on first use in main text and thereafter abbreviated to first letter and full stop. If only Genus is provided, still use italics \[this is applicable for Table and Figure captions). If both genus and species are given, use only abbreviated genus names with species in tables and figures (exceptions: For S. Typhi, S. Typhimurium, Drosophila, and Arabidopsis add an author query as to whether some or all instances should be Roman or italicised, but we should not autocorrect to italic (since on some occasions the change will be wrong - genus or species).
+  * Do not italicise latin terms (eg in vitro, in vivo)
 * Language - follow the author, as long as consistent. \[In an article, if the author used US spelling in majority through out the article, but for one of the word if he has used UK spelling in majority, please change the UK spelling to US spelling for that particular word, as the whole article consistency is US.]
 * Quotation marks - single for emphasis, double for direct quote
 * Abbreviations - Lower case with full stops, (e.g., i.e.). Exception: etc (e.g., i.e. and etc only allowed in parentheses; in main text must spell out (for example, that is, and so on)) Do not automatically change that is to i.e. in parentheses during preediting. Change italic (e.g., i.e.,) to roman. Define, with abbreviation in brackets. Redefine if abbreviation used in abstract, figure, tables, etc (ie anything with it's own DOI)
+* First use Define, with abbreviation in brackets. Redefine if abbreviation used in abstract, figure, tables, etc (ie anything with it’s own DOI) In Headings Allowed At the beginning of sentence Allowed In Figures Allowed. Define in legend. Redefine previously used abbreviations in legends. e.g., i.e. and etc allowed in abbreviated form in legends In Table Allowed but define in footnotes Commonly used abbreviations No defined list, but standard STM abbreviations allowed with no definition Latin abbreviations Lower case with full stops, (e.g., i.e.). Exception: etc (e.g., i.e. and etc only allowed in parentheses; in main text must spell out (for example, that is, and so on)). Do not automatically change that is to i.e. in parentheses during preediting Chemical compounds As author provides Concentrations As author provides Organization Names Follow author
 
-1. First use Define, with abbreviation in brackets. Redefine if abbreviation used in abstract, figure, tables, etc (ie anything with it’s own DOI) In Headings Allowed At the beginning of sentence Allowed In Figures Allowed. Define in legend. Redefine previously used abbreviations in legends. e.g., i.e. and etc allowed in abbreviated form in legends In Table Allowed but define in footnotes Commonly used abbreviations No defined list, but standard STM abbreviations allowed with no definition Latin abbreviations Lower case with full stops, (e.g., i.e.). Exception: etc (e.g., i.e. and etc only allowed in parentheses; in main text must spell out (for example, that is, and so on)). Do not automatically change that is to i.e. in parentheses during preediting Chemical compounds As author provides Concentrations As author provides Organization Names Follow author
-2.
+1.
 
 *
 * Parentheses - round with square if within the round brackets (\[])
