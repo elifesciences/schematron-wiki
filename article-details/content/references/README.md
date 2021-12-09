@@ -1049,6 +1049,18 @@ Info: _ref XXXXXX references an organism - 'S. rosetta' - but there is no italic
 
 **Action**: This is an information message indicating that an organism is mentioned in a reference title without the correct italics, capitalisation or spacing. This is likely the result of reference validation bringing in the details without the ideal formatting (this formatting may not have been supplied when the article was sent to PubMed or Crossref). Unless an author complains, no changes are required. If they do request that organism names are fixed in the reference list, correct the indicated term to match the capitalisation and spacing in the message, and put it into italics.
 
+#### self-cite-1
+
+**Error**: 'XXXXXX' type references has a doi which is the same as this article - XXXXXX. Is the reference correct? Is the reference correct? If it is intentional, please remove the reference, and replace citations in the text with the text 'current work' or similar.
+
+**Action**: This error will fire if a reference has the same doi as the article. If there's an error with the reference (i.e. the doi is incorrect), then this should be corrected. Otherwise if the authors have intentionally 'cited' the article itself, the reference should be deleted and any citations to it in the text should be replaced with the text 'current work'.
+
+#### self-cite-2
+
+**Error**: 'XXXXXX' type reference looks to possibly be citing itself. If that's the case (and this isn't an error within the reference), please delete the reference and replace any citations in the text with the text 'current work
+
+**Action**: This error will fire if a reference has a source 'eLife' and title which is the same as the article title. If there's an error with the reference (i.e. those details are incorrect), then this should be corrected. Otherwise if the authors have intentionally 'cited' the article itself, the reference should be deleted and any citations to it in the text should be replaced with the text 'current work'.
+
 ### XML structure warnings
 
 #### ext-link-attribute-content-match
