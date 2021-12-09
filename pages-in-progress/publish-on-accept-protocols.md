@@ -397,41 +397,25 @@ If an article ever needs to be removed from the post acceptance check queue with
 
 In cases where this is being done because an author has decided not to PoA their article after all, the ‘Previous Interactions’ screen in the Submission Information should then be updated to ‘PoA=no’.
 
+## Post-export process
 
+At approximately ten past each hour, the submission system will send any pending PoA articles to the AWS bucket “elife-ejp-poa-delivery” and will export metadata in CSV format to the bucket “elife-ejp-ftp”.
 
+At approximately twenty past each hour, the eLife-bot will check for new files and process any it finds, generating the XML, decapitated PDF and supplementary ZIP files required for publication. These will be placed in the Outbox folder of the bucket “elife-poa-packaging”.
 
+Emil notifications are provided indicating the success or failure of this process.
 
+### Success and failures
 
-
-
-
-
-
-
-
-### PoA post-export process
-
-Once daily, the submission system will automatically export PoA articles to the AWS bucket “elife-ejp-poa-delivery”. Hourly, the submission system will also export CSV files containing the results of SQL queries on the database holding the metadata for all submitted eLife articles. These are sent to the AWS folder “elife-ejp-ftp”.
-
-At the moment, the deadline for PoA export is set at 11:00 BST. At 11:09 each day, the above exports will take place and the files sent at this point will be used for PoA generation.
-
-**Packaging**
-
-At 11:30 BST, the eLife Bot will look for files sent to “elife-ejp-poa-delivery”. If it finds them, it will use these files and the CSV output in “elife-ejp-ftp to generate the following files and place them in the folder “elife-poa-packaging”:
-
-* **Merged PDF** - this is the merged PDF from the submission system containing **Article Files** and **Figures** but crucially with the auto-generated cover page removed.
-* **Article XML** **file** - this is generated from the CSV output files containing the article metadata and is required for web display of the PoA article. Unlike the final article XML produced during typesetting, it contains only the metadata (author names, affiliations, received/acceptance date, abstract, keywords, funding, datasets). The published date is NOT added on initial generation and is only automatically added when the files are supplied to Continuum.
-* **Data Supplement (DS) file** - a compressed folder containing any figure supplements, data supplements, source data, source code, videos or supplementary files accompanying the submission. If a submission has none of these files, no DS file will be produced.
-
-**Success and failures**
-
-At 11:50 BST, the eLife Bot will send a message out to state whether it has succeeded or failed in generating these files from the raw files. This basic message will state the article DOI and which processes have run successfully (True) or not (False). It also lists the raw output file that has been processed from the elife-ejp-poa-delivery bucket (‘document’). The subject line will state either "Success!" or "FAILED" depending on whether all the process statuses are ‘true’ or not.
+The eLife-bot will send an email stating whether the files for an article have processed correctly or whether one or more of them has failed to generate. This basic message will state the article DOI and which processes have run successfully (True) or not (False). It also lists the raw output file that has been processed from the elife-ejp-poa-delivery bucket (‘document’). The subject line will state either "Success!" or "FAILED" depending on whether all the process statuses are ‘true’ or not.
 
 ![](<../.gitbook/assets/21 (1).png>)
 
 Success notices can just be filed. There are two main types of failures, listed below.
 
-* **Decapitation failure:** The eLife Bot removes the submission system-generated cover page by ‘decapitating’ the merged PDF - it works out how many pages the cover page occupies and then removes them. A small percentage of decapitations fail because the Bot cannot determine the end of the cover page. When this happens, the PDF will not generate.
+#### Decapitation failure
+
+The eLife Bot removes the submission system-generated cover page by ‘decapitating’ the merged PDF - it works out how many pages the cover page occupies and then removes them. A small percentage of decapitations fail because the Bot cannot determine the end of the cover page. When this happens, the PDF will not generate.
 
 ![](<../.gitbook/assets/22 (1).png>)
 
@@ -441,13 +425,15 @@ To fix this, Production staff will need to download the merged PDF from the subm
 
 Once this has been done, rename the file to decap\_elife\_poa\_eXXXXX.pdf (where XXXXX is the article number) and upload it into the elife-poa-packaging/outbox folder.
 
-* **XML generation failure:** When this happens, the problems will usually be because something is missing from the CSV output (e.g. Editor name) or because the Bot has encountered something in the CSV file it cannot process (e.g. an unusual character). If the problem is not immediately obvious from examining the article metadata, contact Graham Nott ([gnott@starglobal.ca](mailto:gnott@starglobal.ca)). An XML generation failure will mean that it is unlikely the article can be PoAed on the day of the failure. It will need to be re-exported once the issue has been fixed (see below).
+#### XML generation failure
+
+When this happens, the problems will usually be because something is missing from the CSV output (e.g. Editor name) or because the Bot has encountered something in the CSV file it cannot process (e.g. an unusual character). If the problem is not immediately obvious from examining the article metadata, contact Graham Nott ([gnott@starglobal.ca](mailto:gnott@starglobal.ca)). An XML generation failure will mean that it is unlikely the article can be PoAed on the day of the failure. It will need to be re-exported once the issue has been fixed (see below).
 
 ![](../.gitbook/assets/24.png)
 
-**Manually editing generated PoA files**
+### **Manually editing generated PoA files**
 
-Between 12:00 BST and 12:30 BST, the PoA article files are available in the elife-poa-packaging outbox to be replaced or deleted as necessary. If a PoA article is put on hold after it has been exported, for example, staff can go into the outbox and delete the corresponding files for that article before it can be sent on to Continuum. Similarly, if there is a decapitation failure (see above), the article PDF can be downloaded, modified and reuploaded.
+Prior to being delivered to Continuum, the PoA article files available in the elife-poa-packaging outbox can be replaced or deleted as necessary. If a PoA article is put on hold after it has been exported, for example, Production staff can go into the outbox folder and delete the corresponding files for that article, ensuring it is not delivered to Continuum. Similarly, if there is a decapitation failure (see above), the article PDF can be downloaded, modified and replaced.
 
 ![](<../.gitbook/assets/25 (1).png>)
 
@@ -459,7 +445,7 @@ After 12:30, the eLife Bot will begin packaging up the the PoA files and deliver
 
 The PoA article packages will be moved to Continuum delivery bucket (elife-production-final) and will copy them to the packaging archive (elife-poa-packaging/published, contains folders for each day).
 
-**Publishing PoA articles**
+## **Publishing PoA articles**
 
 Once an article has been processed into Continuum, it will be available to check on the Production staging site, [https://prod.elifesciences.org](https://prod.elifesciences.org). On the [publishing dashboard](https://prod--ppp-dash.elifesciences.org/current), PoA articles are indicated by the label on the left.
 
@@ -487,7 +473,7 @@ It may take a few minutes for the article to show up online on the front page. P
 
 ![](../.gitbook/assets/31.png)
 
-**Re-exporting PoA articles**
+## **Re-exporting PoA articles**
 
 If it is necessary to send an article again for PoA, either because the XML failed to generate or because it was put on hold after being exported, the article will need to be re-exported**.**
 
@@ -495,7 +481,7 @@ If it is necessary to send an article again for PoA, either because the XML fail
 
 Once any necessary edits have been made to the article files and metadata, go to the Tasks tab and select the ‘Resend PoA files’ button. This will bring up a list of the files to be resent and the option to do so. Once send has been clicked, the article will be exported with the rest of the PoA batch for that day at 11:09AM. Please note that there will be no repeat of the ‘Post Acceptance Checklist Completed’ email, as there is no checklist to complete when re-sending an article.
 
-**PoA version 2+**
+## **PoA version 2+**
 
 It is occasionally necessary to update PoA articles once they have been published. This can be for a variety of reasons, including errors the authors have identified after publications, mistakes in the generated XML document and issues with the merged PDF, to give three examples.
 
