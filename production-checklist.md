@@ -402,13 +402,13 @@ This will then move the article to Publisher Review where you can either make th
 
 ### **Content checks**&#x20;
 
-**final-feat-ok-test**
+#### **final-feat-ok-test**
 
 **Error**: _\[error-final-feat-ok-test] XXXXXX element contains \[OK] or \[OK?] which should be removed - XXXXXX_
 
 **Action**: This error will appear **** if the tag \[OK] or \[OK?] is present. This is flagged as it is likely an in-text query left by features, and should be removed at publisher review.&#x20;
 
-**final-feat-query-test**
+#### **final-feat-query-test**
 
 **Error**: _\[error-final-feat-query-test] XXXXXX element contains \[Query] or \[QUERY] which should be removed - XXXXXX_
 
