@@ -347,9 +347,6 @@ Tagging for an 'on behalf of' statement can be seen in the following example. Th
     * If a review link is given for a dataset, this must be updated to the final URL. Review links can usually be identified because they contain ‘token’ or ‘review(er)’. Again, see the [Common Changes guide](https://docs.google.com/document/d/1iKUW353vySZd8lqkW\_d7W7Ys21BpEWLXvOCYe62Ei5c/edit#bookmark=id.ebet0mx8eux1) for examples common review URL structures.
     * For Dryad and figshare datasets, a DOI link should be given as the URL rather than the direct URL for the dataset (e.g. [http://dx.doi.org/10.5061/dryad.50410](http://dx.doi.org/10.5061/dryad.50410)). If the author has just provided the DOI itself (e.g. DOI: 10.5061/dryad.50410) this needs to be updated to a URL in the above style.
     * When checking that the URL provided works and gives access to a publicly available dataset, check that the title on the resulting page matches the title given in the system. Alert Production if this is not the case.
-    * For all publicly available datasets with an accession number, the Accessibility information should take the form ‘Publicly available at XXXX (accession no. XXXXX)’. This should be updated if the authors have only provided the accession number or the database name in this field. The accession number can be derived from most dataset URLs.
-    * For all publicly available datasets without an accession number, the Accessibility information should take the form ‘Publicly available at XXXX (http://XXXXX)’ where the bracketed term is the URL for the database homepage.
-    * EXCEPTION: Dryad datasets always have the following accessibility statement: ‘Available at Dryad Digital Repository under a CC0 Public Domain Dedication’
 4. **Ethics:** If exists, remove any double quotes if present
 
 #### eLife Digest page
@@ -358,7 +355,7 @@ This page can be ignored, no checks are required.
 
 #### Publish on Accept
 
-This page contains the question the authors are asked concerning PoA. If the article is in the Post Acceptance Check, it will have been answered ‘yes’. This screen can be used to change the PoA status is required.
+This page contains the question the authors are asked concerning PoA. If the article is in the Post Acceptance Check, it will have been answered ‘yes’. This screen can be used to change the PoA status ifs required.
 
 #### Author Suggestions
 
@@ -399,6 +396,18 @@ Once an article has been sent for PoA, it will be moved to the ‘Manuscripts to
 If an article ever needs to be removed from the post acceptance check queue without being sent for PoA, the same process as above should be followed but select the ‘No’ radio button viewing the checklist. On saving and clicking ‘Post Acceptance Check Completed’, the article will be moved directly to the ‘Manuscripts to Send’ folder without being queued for export.
 
 In cases where this is being done because an author has decided not to PoA their article after all, the ‘Previous Interactions’ screen in the Submission Information should then be updated to ‘PoA=no’.
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### PoA post-export process
 
