@@ -274,7 +274,7 @@ To begin checking the metadata within the submission system, click next to move 
 
     `<on-behalf-of>` tagging must be added to the XML rather than the standard group authorship tagging. It should be placed after the authors and before the affiliations in the \<contrib-group>. This must also be done while the article is in the elife-poa-packaging/outbox folder.
 
-Tagging for a group author is as follows, compared to a normal author. A new `<contrib-group>` element should be added at the correct point in the author list e.g. where the group author has been listed in the article file. This element must contain the attribute `contrib-type="author"` and the sub-element `<collab>` containing the group name.
+Tagging for a group author is as follows, compared to a normal author. A new `<contrib-group>` element should be added at the correct point in the author list e.g. where the group author has been listed in the article file. This element must contain the attribute `contrib-type="author"` and the sub-element `<collab>` containing the group name. (Note that in this and the following example, line breaks have been added for clarity; no line breaks should be present in PoA XML files.)
 
 ```markup
 <contrib-group>
@@ -334,9 +334,9 @@ Tagging for an 'on behalf of' statement can be seen in the following example. Th
 2. **Funding:** No need to check.
 3.  **Datasets:** There are two parts to the datasets section, **Generated datasets** and **Previously published datasets**. The authors are asked to provide details of any major datasets that have been generated as part of their work and any previously published major datasets they have used in that work. They can include one or both of these types of dataset and the checks on them are largely the same.
 
-    The following fields should be completed for each dataset: **Author(s)**, **Year**, **Dataset Title**, **Direct URL to the Dataset** and **Accessibility Information** or **Accession No**.
+    The following fields should be completed for each dataset: **Author(s)**, **Year**, **Dataset Title**, **Dataset URL** and **Database and Identifier**.\
+    ![](<../.gitbook/assets/Screenshot 2021-12-09 at 17.33.16 (1).png>)\
 
-    ![](<../.gitbook/assets/image (8) (1).png>)
 
     The following should be checked:
 
