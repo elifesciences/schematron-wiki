@@ -315,6 +315,12 @@ Scopus is an abstract and citation database owned by Elsevier.
 
 Web of Science (WOS) is a website that provides subscription-based access to databases with citation data for academic content. It is maintained by Clarivate.
 
+It typically takes 3-4 weeks for an article to appear on WOS after having been sent to them.&#x20;
+
+#### Contacts
+
+Valerie (Val) Hinson (valerie.morales@clarivate.com)
+
 ### Zendy
 
 Zendy is a digital library based in Saudi Arabia. Zendy will render eLife articles on their site.
