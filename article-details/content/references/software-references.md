@@ -5,6 +5,8 @@ description: This is a page about entries for software in the reference list.
 # Software references
 
 {% hint style="info" %}
+
+
 For changelog, click [**here**](software-references.md#changelog). Updated 07/10/2021
 {% endhint %}
 
@@ -77,7 +79,7 @@ If the authors haven't cited the software as a software reference or provided an
 
 To add a software reference in Kriya, right-click where you want to add the citation and click on Add New > Add New Reference and select Software under Reference Type.&#x20;
 
-![The default fields in Kriya for a software reference](../../../.gitbook/assets/screenshot-2020-04-21-at-16.08.25.png)
+![Adding a software reference in Kriya 2](<../../../.gitbook/assets/Screenshot 2022-01-11 at 15.54.02.png>)
 
 The default fields in Kriya will need to be altered to include the appropriate information. The fields we capture will differ slightly depending on the type of software reference. Make sure a citation is added whenever the software is mentioned in the text or in the key resources table.&#x20;
 
