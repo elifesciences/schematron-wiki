@@ -56,7 +56,7 @@ If any of the mandatory information is not provided, look up the preprint on the
 
 Right-click where you want to add the citation and click on Add New > Add New Reference and select Preprint under Reference Type.
 
-![The default fields in Kriya for a preprint reference](../../../.gitbook/assets/screen-shot-2020-06-25-at-15.42.39.png)
+![Kriya 2 interface for adding a preprint reference](<../../../.gitbook/assets/Screenshot 2022-01-11 at 16.12.36 (1).png>)
 
 The default fields in Kriya will need to be altered to include the following information in the order below. To delete an unnecessary field click the red 'bin' button (if this doesn't work, try re-validating after all fields have been filled out, or change the field type to the one you need). To add a field click the green '+' button to the entry above where you need to add it.
 
