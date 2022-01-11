@@ -108,8 +108,6 @@ If you are unable to determine which revision control system is used, add an aut
 
 Software Heritage Identifiers (SWHIDs) are unique and persistent ids used to reference code. They can reference a specific line of code, file, repo, and version of code. For our purposes we want to point to a specific version of a whole repo (or repos).
 
-The authors may have referred to their code in the article text and/or in the data availability statement. Due to the long size of the links, and the functionality currently available in Kriya one of two types of links should be used.
-
 {% hint style="info" %}
 If the archiving at Software Heritage takes a long time, and as a result the SWHID link cannot be added yet, do not hold the article to wait until this has been completed (unless just before publication). Instead add the following text in the appropriate place(s) in the article:
 
@@ -118,43 +116,25 @@ If the archiving at Software Heritage takes a long time, and as a result the SWH
 `[URL to be added]` can then be replaced at a later stage (such as at PAV or Publisher Review) with the SWHID link.
 {% endhint %}
 
-### In the data availability statement
+Where code is mentioned in the data availability statement, add the text 'copy archived at XXXXXX', where XXXXXX is the revision SWHID without context, with a full directory link with context **** embedded. The same applies for mentions of code in the article text. You only need to add a link the first time it is mentioned in the article text (note, this needs to be done for each separate repository link if there are multiple). The authors may only have included this link in their Key Resources Table so make sure the new link is added there if this is the case.
 
-If a link to a repository is included the data availability statement, always add the text 'copy archived at XXXXXX', replacing 'XXXXXX' with the hyperlink to the archived code on Software Heritage.
-
-We cannot include embedded hyperlinks in data availability statements in Kriya 1.5, so the full URL has to be included instead of the SWHID with the embedded link. As a result, the link that should be used is the revision **without** the contextual information. This is because the links with contextual information are so long that they look strange on our site ([**example**](https://elifesciences.org/articles/56261/figures#data)).
-
-To obtain this link, click the 'Permalinks' sidebar tab (on the right-hand side of the page):
+To obtain the SWHID, click the 'Permalinks' sidebar tab (on the right-hand side of the page):
 
 ![](../.gitbook/assets/screenshot-2020-10-06-at-12.39.49.png)
 
-Click the revision tab in the sidebar, and **untick** 'Add contextual information':
+Click on the 'revision' tab and then untick the 'Add contextual information' followed by the 'Copy identifier' button.
 
-![](../.gitbook/assets/screenshot-2020-10-06-at-12.41.56.png)
+![](<../.gitbook/assets/Screenshot 2022-01-11 at 13.35.22.png>)
 
-The URL can be copied using the 'copy permalink' button.
+This will add the SWHID to your clipboard, and you can then paste it in. For example:
 
-### In the main text
+> copy archived at swh:1:rev:86d380144b3f85c8951923de873893583bd25edf
 
-If it is included in the article text, you only need to add a link the first time it is mentioned (note, this needs to be done for each separate repository link if there are multiple). The authors may only have included this link in their Key Resources Table so make sure the new link is added there if this is the case.
-
-If the authors have only referred to the code in the data availability statement, add the following query:
-
-* Please add a mention of your code to the main text of your article so we can add it to your reference list.
-
-What needs to be added in the main text is the text 'copy archived at XXXXXX', where XXXXXX is the revision SWHID without context, with a **full directory link with context** embedded.
-
-Obtain the SWHID using the method [**above**](archiving-code.md#in-the-data-availability-statement) (the text that appears rather than the 'permalink' should be copied). This will be the text for the link.
-
-To obtain **the link**, click the 'Permalinks' sidebar tab (on the right-hand side of the page):
-
-![](../.gitbook/assets/screenshot-2020-10-06-at-12.39.49.png)
-
-And use the 'directory' link with the 'Add contextual information' tick-box ticked:
+Then click on the 'directory' tab with the 'Add contextual information' box ticked:
 
 ![](../.gitbook/assets/screenshot-2020-11-09-at-10.08.26.png)
 
-The URL can be copied using the 'copy permalink' button.
+Copy the URL using the 'copy permalink' button and embed it in the SWHID.
 
 {% hint style="info" %}
 The SWHID can also be obtained from the link itself. The section after `anchor=` will be the SWHID that we want to add as text (in this case `swh:1:rev:86d380144b3f85c8951923de873893583bd25edf`).
@@ -164,11 +144,19 @@ The SWHID can also be obtained from the link itself. The section after `anchor=`
 
 > Our spike sorting code is freely available at [https://github.com/narendramukherjee/blech\_clust](https://github.com/narendramukherjee/blech\_clust) (Mukherjee, 2019; copy archived at [**swh:1:rev:86d380144b3f85c8951923de873893583bd25edf**](https://archive.softwareheritage.org/swh:1:dir:5025e62c4f6436576af0de3aa31d07cec877eb6c;origin=https://github.com/narendramukherjee/blech\_clust;visit=swh:1:snp:816c8e048d2d81fb7cc4e89f3f94f18a2cda6f69;anchor=swh:1:rev:86d380144b3f85c8951923de873893583bd25edf)).
 
+{% hint style="info" %}
+If the authors have only referred to the code in the data availability statement, add the following query at pre-author stages:
+
+* Please add a mention of your code to the main text of your article so we can add it to your reference list.
+
+At post-author stages, the authors don't need to be queried for this.
+{% endhint %}
+
 ### In references
 
 * A software reference also needs to be added in the main article (see [**here**](../article-details/content/references/software-references.md) for how to do this) - this should only be done after the code has been archived. Please note software citations can't be added in the data availability statement.
 
-The same link used in the main text should be added for the reference. See [**above**](archiving-code.md#in-the-main-text) for how to obtain this. An example of the fields and the type of information which needs inputting can be found [**here**](../article-details/content/references/software-references.md#software-heritage).
+The same link used in the main text should be added for the reference. See [**above**](archiving-code.md#in-the-main-text) for how to obtain this. An example of the fields and the type of information which needs inputting can be found [**here**](../article-details/content/references/software-references.md#software-heritage).&#x20;
 
 ## Add an author query
 
