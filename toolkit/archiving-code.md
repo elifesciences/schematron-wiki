@@ -53,7 +53,7 @@ If there are no results, this indicates that the code has yet to be archived. Fo
 
 If it's already archived it will appear in the results. Check that the result is the correct repo and the most up-to-date version of that repo (by comparing the latest commit date). If the latest version of the code is archived, the next step is to [**add the SWHID to the article**](archiving-code.md#add-the-swhid-to-the-article-text).
 
-If the code is not the latest version, follow the steps [**below for archiving code**](https://app.gitbook.com/@elifesciences/s/productionhowto/\~/drafts/-MIxO7WNOziUlsqSYqlV/toolkit/archiving-code#how-to-archive-code-in-software-heritage).
+If the code is not the latest version, follow the steps [**below for archiving code**](archiving-code.md#how-to-archive-code-in-software-heritage).
 
 ### Example of an older version that is archived
 
@@ -104,7 +104,7 @@ If you are unable to determine which revision control system is used, add an aut
 
 * Per eLife policy we would like to archive your code on Software Heritage. In order for us to do so, we need to know what revision control system is used in the repo. Please confirm this (for example, git, mercurial, subversion etc.).
 
-## **Add the SWHID to the article text**
+## **Add the SWHID to the article**
 
 Software Heritage Identifiers (SWHIDs) are unique and persistent ids used to reference code. They can reference a specific line of code, file, repo, and version of code. For our purposes we want to point to a specific version of a whole repo (or repos).
 
