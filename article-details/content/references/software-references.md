@@ -163,7 +163,7 @@ R software also has an [**RRID**](https://scicrunch.org/resolver/RRID:SCR\_00190
 
 ### Software Heritage
 
-After archiving code in Software Heritage (see how to do this [**here**](../../../toolkit/archiving-code.md)), a software reference needs to be added in the main text. The website should be the full directory link with contextual information (see [**here**](../../../toolkit/archiving-code.md#in-the-main-text) for how to obtain this). An example of a correctly entered Software Heritage software reference is below:
+After archiving code in Software Heritage (see how to do this [**here**](../../../toolkit/archiving-code.md#how-to-archive-code-in-software-heritage)), a software reference needs to be added in the main text. The website should be the full directory link with contextual information (see [**here**](../../../toolkit/archiving-code.md#add-the-swhid-to-the-article) for how to obtain this). An example of a correctly entered Software Heritage software reference is below:
 
 | Fields                                          | Values                                                                                                                                                                                                                                                                    |
 | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
