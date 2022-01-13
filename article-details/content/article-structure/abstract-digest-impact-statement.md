@@ -78,13 +78,11 @@ Whenever an impact statement is edited, the author must be notified using the fo
 
 * The impact statement has been edited. Please confirm whether the revised wording is acceptable.
 
-If the statement is longer than 40 words, it should be shortened if this is possible without changing the scientific meaning of the text. If it is unclear how to do this, the authors will need to be asked to shorten it themselves:
+If the statement is longer than 40 words, it should be shortened if this is possible without changing the scientific meaning of the text. If it is unclear how to do this, the authors will need to be asked to shorten it themselves.
 
-* Please rephrase this impact statement so that it is no more than 40 words in length.
+In this and other extreme cases where it is not possible to create an acceptable impact statement from the text provided (e.g. they have provided multiple sentences and it is unclear how they should be combined), the following query may be used to ask the authors to start again:
 
-In extreme cases, where it is not possible to create an acceptable impact statement from the text provided (e.g. they have provided multiple sentences and it is unclear how they should be combined), the following query may be used to ask the authors to start again:
-
-* The impact statement should be a single sentence that summarises the key findings of the work. Please provide a revised impact statement, no longer than 40 words, that clearly explains the main results of your study.
+* The impact statement should be a single sentence that summarises the key findings of the work. It should not contain semi-colons or possessive phrases such as 'we show', 'this study shows' etc. Please provide a revised impact statement, no longer than 40 words, that clearly explains the main results of your study.
 
 #### Impact statements in Replication studies
 
