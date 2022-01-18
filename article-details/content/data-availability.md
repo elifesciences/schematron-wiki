@@ -56,7 +56,7 @@ The same rules apply as for generated datasets, though it is far less likely tha
 
 Datasets will usually be entered by the authors on the submission system when they are uploading their article. The details will then be included in the export XML for content processing. At any point during proofing, datasets may be added or removed. Clicking the 'add dataset' control will bring up this editor:
 
-![](../../.gitbook/assets/screen-shot-2020-04-27-at-12.53.23.png)
+![](<../../.gitbook/assets/Screenshot 2022-01-18 at 09.34.35.png>)
 
 Each of these fields will need to be completed for the dataset to pass schematron validation.
 
@@ -211,9 +211,9 @@ Some authors misunderstand the instructions around datasets and include citation
 
 These can usually be because the URL provided will be a journal link, journal DOI or a PubMed or PMC link (e.g. https://www.nature.com/articles/nature19057, https://doi.org/10.1038/nature19057, https://www.ncbi.nlm.nih.gov/pubmed/16237209).
 
-![](../../.gitbook/assets/screen-shot-2020-05-12-at-13.58.34.png)
+![](<../../.gitbook/assets/Screenshot 2022-01-18 at 09.40.39.png>)
 
-If following this link leads to a journal website or a PubMed/PMC page, it is not appropraite for this entry to be left in the datasets section.
+If following this link leads to a journal website or a PubMed/PMC page, it is not appropriate for this entry to be left in the datasets section.
 
 Provided the article is also mentioned in the main reference list and cited in the text, the data entry should be removed. If the reference is not in the main reference list, the author should be asked to move it there with the following query:
 
