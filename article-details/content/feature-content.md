@@ -105,15 +105,15 @@ The following items should be checked:
 
 #### Title prefix
 
-The title prefix is displayed as the 'sub display channel' in the article details page. This should be in title case (as opposed to the sentence case used for all other eLife headings).
+The title prefix is displayed above the title in the proofing system. This should be in title case (as opposed to the sentence case used for all other eLife headings).
 
-![Title prefix in the proofing system](../../.gitbook/assets/screen-shot-2020-06-30-at-15.47.36.png)
+![The title prefix 'Mutations' in the proofing system](<../../.gitbook/assets/Screenshot 2022-01-18 at 09.21.02.png>)
 
 #### Author bio
 
-The author bio displays under the author name and can be edited in the author details panel.
+The author bio can be edited in the 'Edit Author' panel.
 
-![Author bio in the proofing system](../../.gitbook/assets/screen-shot-2020-06-30-at-15.47.55.png)
+![Author bio in the proofing system](<../../.gitbook/assets/Screenshot 2022-01-18 at 09.23.14.png>)
 
 The author bio and the affiliations for each author should be consistent, but they do not need to be identical. For example, the author bio might say that "**Louise Smith** is in the Department of Genetics and the Institute of Neuroscience, University of Bristol, Bristol, United Kingdom", whereas the affiliations will be given separately as "Department of Genetics, University of Bristol, Bristol, United Kingdom" and "Institute of Neuroscience, University of Bristol, Bristol, United Kingdom".
 
