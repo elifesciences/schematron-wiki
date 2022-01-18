@@ -40,7 +40,7 @@ During the submission process, authors need to answer the ethics section of the 
 
 Authors are expected to fill this in accurately as this information will be exported from eJP to the production vendors in the XML. The production vendors do not make any changes to this section during typesetting, unless it is to correct an obvious error such as a duplication of statement text 'Animal experimentation: and Human subjects:' which the authors may add in themselves. This is not required as they are generated automatically depending on the statement included.&#x20;
 
-![Example of an ethics statement in the proofing system.](../../.gitbook/assets/screen-shot-2021-01-08-at-14.06.35.png)
+![Example of ethics statement in the proofing system](<../../.gitbook/assets/Screenshot 2022-01-18 at 10.03.12.png>)
 
 ## Examples
 
