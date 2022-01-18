@@ -59,9 +59,9 @@ The statement should not repeat the title and it should not be written in the fi
 
 ### What needs to be checked?
 
-Impact statements display with the Article details, just below the title:
+Impact statements display just below the 'Data availability' section:
 
-![](../../../.gitbook/assets/screen-shot-2020-03-17-at-15.30.31.png)
+![](<../../../.gitbook/assets/Screenshot 2022-01-18 at 09.26.54.png>)
 
 Impact statements may need to be edited as follows:
 
