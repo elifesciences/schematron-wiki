@@ -74,7 +74,7 @@ When this article came out of pre-editing, the information for the Latham Vision
 
 1. Try entering the funder as ‘University of Washington department of Ophthalmology’. However, this does not appear as a funder so we can just keep it as ‘University of Washington’.
 
-![](../../.gitbook/assets/2.png)
+![](<../../.gitbook/assets/Screenshot 2022-01-19 at 15.19.31.png>)
 
 1. Enter the funder as ‘University of Washington’ and ‘Latham Vision Research Innovation Award’ as the grant reference, and assign the correct author to this funder (in this case, it would be ‘MBM’ i.e. Michael B Manookin)
 2.  Leave the following author query for the authors to confirm this information has been entered correctly.
