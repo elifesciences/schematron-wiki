@@ -65,11 +65,11 @@ The default fields in Kriya will need to be altered to include the following inf
 * e-location ID or first and last page (if available)
 * DOI (if available)
 
-![Adding a conference reference in the proofing system](../../../.gitbook/assets/screen-shot-2020-12-16-at-17.06.00.png)
-
 Once you have entered the information in the fields, click on 'Search PubMed'. This will compare the information entered to the PubMed database and ensures that a PubMed ID (if available; only some conference proceedings are indexed at this site). If this does not generate results, click on 'Search Crossref', which may return results if the conference DOIs were registered at CrossRef.
 
 Regardless of whether any corresponding PubMed or CrossRef records are returned, press 'Insert Reference' to add the entry to the reference list.
+
+![Adding a conference reference in the proofing system](<../../../.gitbook/assets/Screenshot 2022-01-19 at 16.13.51.png>)
 
 ## Finding reference details
 

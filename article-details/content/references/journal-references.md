@@ -60,7 +60,9 @@ If any of the mandatory information is not provided, look up the article on [**P
 
 Right-click where you want to add the citation and click on Add New > Add New Reference and select Journal under Reference Type.
 
-![The default fields in Kriya for a journal reference](../../../.gitbook/assets/screenshot-2020-05-27-at-14.49.46.png)
+
+
+![Default fields in Kriya for a journal reference](<../../../.gitbook/assets/Screenshot 2022-01-19 at 15.57.42.png>)
 
 The default fields in Kriya will need to be altered to include the following information in the order below. To delete an unnecessary field click the red 'bin' button (if this doesn't work, try re-validating after all fields have been filled out, or change the field type to the one you need). To add a field click the green '+' button to the entry above where you need to add it.
 
