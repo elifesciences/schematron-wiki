@@ -45,6 +45,10 @@ All of these are valid. Leave as the author has provided as long as it validates
 
 Please check the acknowledgements section of the article for additional funders that may not have been entered into the table. The schematron validator will present a warning if funders on the Funder Registry registry are not entered into the table - but it will not pick up every instance and will sometimes fire unnecessarily, for instance if the funder name is anglicised in the acknowledgements section but not in the funding table or if the author is acknowledging help or indirect funding. You will need to manually check and use your discretion to decide whether a funder belongs in the funding table.
 
+### Funding section present within the main text&#x20;
+
+Sometimes the authors will include a funding section within the main text of their article. This can be deleted, but only after you have checked that all the relevant details mentioned here are present in the funding table. As with the acknowledgements section, you will need to check and use your own discretion as to whether these details need to be included in the funding table.&#x20;
+
 ## Examples
 
 * ****[**Funder details in acknowledgements section but not in funding section**](funding-information.md#funder-details-in-acknowledgements-section-but-not-in-funding-section)****
