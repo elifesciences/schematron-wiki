@@ -129,6 +129,22 @@ Note that this is a complicated example, and the authors should be asked to conf
 
 * Please check that the edited funding details are still correct.
 
+### Funder details in a funding section in the main text but not in funding table&#x20;
+
+In article 59350, there is a funding section within the main text which states:&#x20;
+
+The study was supported by the Ministerio de Economia y Competitividad (MINECO, Spain) through grants SAF 2017-87688 (to Angulo A.), and RTI2018-094440-B-I00 (to Engel P.), by the grant “Strengthening the capacity of CerVirVac for research in virus immunology and vaccinology“, KK.01.1.1.01.0006, awarded to the Scientific Centre of Excellence for Virus Immunology and Vaccines and co-financed by the European Regional Development Fund (to Jonjic S.), by the University of Rijeka under the project number uniri-biomed-18-170 (to Krmpotić A.), by the Croatian-Swiss Research Program of the Croatian Science Foundation and the Swiss National Science 1091 Foundation with funds obtained from the Swiss-Croatian Cooperation Programme (to Oxenius A. and Krmpotić A.), and by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – Projektnummer 421451057 – FOR2830 (to Messerle M. and Jonjic S.) and HE2526/9-1 (to Hengel H.). Angulo G., and Puñet-Ortiz J. were supported by a Formación de Personal Investigador fellowship (MINECO).
+
+When this article came out of copy-editing, the some of this funding information was not present in the funding table.&#x20;
+
+![The funding table in the PDF following copy-editing](<../../.gitbook/assets/Screenshot 2022-01-26 at 17.05.26.png>)
+
+Though this section in the main text will ultimately need to be deleted, first the missing information needs to be transferred across to the funding table.&#x20;
+
+![The funding section in the final PDF](<../../.gitbook/assets/Screenshot 2022-01-26 at 17.10.20.png>)
+
+Once this information has been added, the funding section within the main text can be deleted.
+
 ### Joint funders
 
 Some funding is provided through multiple funding agencies. For example, the [**SFI-HRB-Wellcome Research Partnership**](https://wellcome.ac.uk/funding/sfi-hrb-wellcome-research-partnership) **** is funded jointly by the Science Foundation Ireland, Health Research Board and the Wellcome Trust. The acknowledgements section of 58925 stated:
