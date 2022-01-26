@@ -50,11 +50,11 @@ Files can be edited in the bucket elife-poa-packaging until delivery to Continuu
 
 Email notifications are sent for the following events:
 
-| Event                         | Email header                                                                                                                                                      |
-| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Successful package generation | PackagePOA Success! doi: 10.7554/eLife.64812, 2021-10-28 10:20, PackagePOA FAILED. doi: 10.7554/eLife.64615, 2021-10-05 10:20, eLife SWF domain: Publish: Publish |
-| Failed package generation     | PackagePOA FAILED. doi: 10.7554/eLife.64615, 2021-10-05 10:20, eLife SWF domain: Publish                                                                          |
-| Delivery to Continuum         | PublishFinalPOA Success! files: 9, 2021-10-28 11:00, eLife SWF domain: Publish                                                                                    |
+| Event                         | Email header                                                                              |
+| ----------------------------- | ----------------------------------------------------------------------------------------- |
+| Successful package generation | PackagePOA Success! doi: 10.7554/eLife.68388, 2022-01-26 11:20, eLife SWF domain: Publish |
+| Failed package generation     | PackagePOA FAILED. doi: 10.7554/eLife.64615, 2021-10-05 10:20, eLife SWF domain: Publish  |
+| Delivery to Continuum         | PublishFinalPOA Success! files: 9, 2021-10-28 11:00, eLife SWF domain: Publish            |
 
 
 
@@ -181,7 +181,7 @@ If the images inline with the text in the article file are very low quality, ple
 
 Video files do not need to be checked for playability at this stage but the size of the file should be noted. If the videos are especially large (e.g. 100MB+) this may cause problems with the generation of the PoA files (see below) and with the production process. Articles with such large videos should therefore be flagged to the Production team on the publish-on-accept Slack channel.
 
-If the videos are showing as 0KB, it means they have not uploaded properly. Again, please alert Production if this is the case.
+If the videos are showing as 0KB, it means they have not uploaded properly. The authors will need to be contacted to provide the complete files so they can be reuploaded.
 
 #### Source data files
 
@@ -201,20 +201,20 @@ These follow the same pattern as Source code. It is slightly more likely that au
 
 #### Supplementary files
 
-Again, if the file has been labelled against eLife convention (Supplementary file 1, Supplementary file 2 etc), this must be corrected before PoA using the legends in the article text as a guide.
+Again, if the file has been labelled against eLife convention (that is, something other than Supplementary file 1, Supplementary file 2 etc), this must be corrected before PoA using the legends in the article text as a guide.
 
 #### Related article files
 
 1. **Editable article files:** If the article is a LaTex submission, the authors may have uploaded a PDF as their article file and included the editable .tex file as a related article file. This is fine for PoA but before export, please switch them over.
-2. **PDF for PoA publication:** A check must be made for any Related Manuscript File that is described as being ‘merged PDF for PoA’ or ‘authors’ file for accepted publication’ or a similar phrase. This will be a version of the article that the authors have provided in anticipation of PoA and it must be this file, rather than the standard Merged PDF that should be used for PoA publication. This merged PDF on the system should be replaced on the system using the option at the stop of the files page.
+2. **PDF for PoA publication:** A check must be made for any Related Manuscript File that is described as being ‘merged PDF for PoA’, ‘authors’ file for accepted publication’ or similar. This will be a version of the article that the authors have provided in anticipation of PoA and it must be this file, rather than the standard Merged PDF that should be used for PoA publication. This merged PDF on the system should be replaced on the system using the option at the stop of the files page.
 
 ![](../.gitbook/assets/13.png)
 
-PLEASE NOTE: if any changes are requested from the authors and they have included either of the above related article files on the system, the authors must be asked to provide new versions of these files as well.
+**PLEASE NOTE:** if any changes are requested from the authors and they have included either a PDF for publication or a .tex article file as a related article file, the authors must be asked to provide new versions of these files as well.
 
 ### Metadata
 
-**Generic note: no double quote marks are allowed in the metadata due to issues they cause during XML generation. Double quotes must therefore be changed to single quotes.**
+**PLEASE NOTE:** no double quote marks are allowed in the metadata due to issues they cause during XML generation. Double quotes must therefore be changed to single quotes.
 
 To begin checking the metadata within the submission system, click next to move on from the ‘Files’ page to the ‘Title’ page.
 
@@ -222,7 +222,7 @@ To begin checking the metadata within the submission system, click next to move 
 
 #### Title page
 
-1. **Title:** The title on the submission system must be compared against the title given in the article file. As the title is entered manually into the submission system, it is possible that typographical errors may have been introduced. Check for the following:
+1. **Title:** The title on the submission system must be compared against the title given in the article file. As the title is entered manually into the submission system, it is possible typographical errors may have been introduced. Check for the following:
    * Spelling errors - the spelling in the article file should be favoured.
    * Missing formatting - formatting present in the article file should be replicated on the system using the appropriate tagging (italics, subscript and superscript are all allowed; bold and underlining are not).
    * Double spacing - this should be changed to single spacing.
@@ -340,7 +340,8 @@ Tagging for an 'on behalf of' statement can be seen in the following example. Th
 
     The following should be checked:
 
-    * If any of the information described above is completely missing, the authors should be queried to provide the missing details, UNLESS a working direct URL is present and the information can be taken directly from the dataset (e.g. GEO datasets such as [http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE14308](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE14308) list the full author list, year and title on the summary page)
+    * If any of the information described above is completely missing, the authors should be queried to provide the missing details, UNLESS a working direct URL is present and the information can be taken directly from the dataset (e.g. GEO datasets such as [http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE14308](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE14308) list the full author list, year and title on the summary page).
+    * Check that the year field contains a single year value, not a date range (2011-2015) or an exact date (12/10/2009). The first year given should be used where the authors have provided either of these.
     * All provided URLs must be functional and the data must be publicly available. For any URLs that return ‘this data is not public’ or ‘not found’ pages, the author must be asked to make the data public (you can proceed once the author has agreed to make the data publicly available).
     * If the URL redirects to some form of login page, please alert Production.
     * Any URL provided must be a **direct link** to the dataset being cited. Links to the database are not specific enough. If an accession number is provided, it may be possible to derive the specific URL. Please see the [Common Changes guide](https://docs.google.com/document/d/1iKUW353vySZd8lqkW\_d7W7Ys21BpEWLXvOCYe62Ei5c/edit#bookmark=id.ebet0mx8eux1) for common dataset URL structures.
@@ -353,13 +354,17 @@ Tagging for an 'on behalf of' statement can be seen in the following example. Th
 
 This page can be ignored, no checks are required.
 
-#### Publish on Accept
+#### Preprint Submission
 
-This page contains the question the authors are asked concerning PoA. If the article is in the Post Acceptance Check, it will have been answered ‘yes’. This screen can be used to change the PoA status ifs required.
+This page can be ignored, no checks are required.
 
 #### Author Suggestions
 
 This page can be ignored, no checks are required.
+
+#### Publish on Accept and ERA
+
+This page contains the question the authors are asked concerning PoA. If the article is in the Post Acceptance Check, it will have been answered ‘yes’. This screen can be used to change the PoA status ifs required.
 
 #### Publication Fee
 
@@ -381,11 +386,11 @@ Once the article is ready to send for PoA publication, click ‘Post Acceptance 
 
 This will bring up the following screen. Click ‘View Checklist’ then, ensuring that ‘Yes’ is selected, click ‘Save Changes’.
 
-![](<../.gitbook/assets/19 (1).png>)
+![Post acceptance checklist screen](<../.gitbook/assets/19 (1).png>)
 
 Once this is done, the ‘Post Acceptance Check Completed’ button will appear. Click this to export the article into the PoA workflow.
 
-![https://lh6.googleusercontent.com/ZNtVS1MA7pu1FOvqcsSeBGRXqfmNVtzy2tfZ7eckh1fG0tRpo6Z8WZKT2iG8n8vg2RBJjwa4JwxH9zNZ87XVu2ChVtNkuRXkKhG09o1Cnwb4x5SRxIRHufffRp7JvvcGB8VASnE](<../.gitbook/assets/20 (1).png>)
+![Option to complete the post acceptance checklist](<../.gitbook/assets/20 (1).png>)
 
 The article will be exported in the next allotted export slot. These take place every nine past the hour, every hour, each day and will deliver any articles sent for PoA to the “elife-ejp-poa-delivery” bucket hosted on the Amazon Web Service (AWS). Any changes made to the files between approval for export and the actual export should be reflected in the package that is sent to the AWS.
 
@@ -393,9 +398,9 @@ Once an article has been sent for PoA, it will be moved to the ‘Manuscripts to
 
 ### Removing articles from the Post Acceptance queue without export
 
-If an article ever needs to be removed from the post acceptance check queue without being sent for PoA, the same process as above should be followed but select the ‘No’ radio button viewing the checklist. On saving and clicking ‘Post Acceptance Check Completed’, the article will be moved directly to the ‘Manuscripts to Send’ folder without being queued for export.
+If an article ever needs to be removed from the post acceptance check queue without being sent for PoA, the same process as above should be followed but select the ‘No’ button while viewing the checklist. On saving and clicking ‘Post Acceptance Check Completed’, the article will be moved directly to the ‘Manuscripts to Send’ folder without being queued for PoA export.
 
-In cases where this is being done because an author has decided not to PoA their article after all, the ‘Previous Interactions’ screen in the Submission Information should then be updated to ‘PoA=no’.
+In cases where this is being done because an author has decided not to PoA their article after all, the ‘Publish on Accept and ERA’ screen in the Submission Information should then be updated to ‘PoA=no’.
 
 ## Post-export process
 
@@ -409,7 +414,7 @@ Emil notifications are provided indicating the success or failure of this proces
 
 The eLife-bot will send an email stating whether the files for an article have processed correctly or whether one or more of them has failed to generate. This basic message will state the article DOI and which processes have run successfully (True) or not (False). It also lists the raw output file that has been processed from the elife-ejp-poa-delivery bucket (‘document’). The subject line will state either "Success!" or "FAILED" depending on whether all the process statuses are ‘true’ or not.
 
-![](<../.gitbook/assets/21 (1).png>)
+![Email when a PoA package has generated successfully](<../.gitbook/assets/21 (1).png>)
 
 Success notices can just be filed. There are two main types of failures, listed below.
 
@@ -417,19 +422,19 @@ Success notices can just be filed. There are two main types of failures, listed 
 
 The eLife Bot removes the submission system-generated cover page by ‘decapitating’ the merged PDF - it works out how many pages the cover page occupies and then removes them. A small percentage of decapitations fail because the Bot cannot determine the end of the cover page. When this happens, the PDF will not generate.
 
-![](<../.gitbook/assets/22 (1).png>)
+![Email when a PoA article fails PDF decapitation](<../.gitbook/assets/22 (1).png>)
 
 To fix this, Production staff will need to download the merged PDF from the submission system and manually remove the cover page. This can be done by opening the file in Mac Preview, going to the Contact Sheet view and simply deleting the cover page(s):
 
-![](../.gitbook/assets/23.png)
+![Contact sheet option in Mac Preview](../.gitbook/assets/23.png)
 
 Once this has been done, rename the file to decap\_elife\_poa\_eXXXXX.pdf (where XXXXX is the article number) and upload it into the elife-poa-packaging/outbox folder.
 
 #### XML generation failure
 
-When this happens, the problems will usually be because something is missing from the CSV output (e.g. Editor name) or because the Bot has encountered something in the CSV file it cannot process (e.g. an unusual character). If the problem is not immediately obvious from examining the article metadata, contact Graham Nott ([gnott@starglobal.ca](mailto:gnott@starglobal.ca)). An XML generation failure will mean that it is unlikely the article can be PoAed on the day of the failure. It will need to be re-exported once the issue has been fixed (see below).
+When this happens, the problems will usually be because something is missing from the CSV output (e.g. an editor name is absent or the license status is not set) or because the Bot has encountered something in the CSV file it cannot process (e.g. an unusual character). If the problem is not immediately obvious from examining the article metadata, contact Graham Nott via Slack or email. An XML generation failure will mean that the article cannot be processed in the current run. The metadata will need to be corrected in the submission system and the article resent for PoA.
 
-![](../.gitbook/assets/24.png)
+![Email when a PoA article fails XML generation](../.gitbook/assets/24.png)
 
 ### **Manually editing generated PoA files**
 
@@ -437,11 +442,9 @@ Prior to being delivered to Continuum, the PoA article files available in the el
 
 ![](<../.gitbook/assets/25 (1).png>)
 
-If an article requires on behalf of tagging, this will need to be added at this stage. Download the XML and make the necessary edits (see PoA articles with ‘on behalf of’ tagging).
+If an article requires group author or on behalf of tagging, if the date needs to be changed for press, or if the article has a structured abstract, these edits should be made at this stage. Download the XML and make the required changes, then reupload the file to replace the previous version.
 
-Please note: as there is only half an hour available for this kind of editing, be aware of any exceptionally large article files (particularly Data Supplements). These can sometimes take longer than half an hour to download and replace, so may need to be edited once the article is on Continuum (see [PoA version 2+](broken-reference) process, below).
-
-After 12:30, the eLife Bot will begin packaging up the the PoA files and delivering them to Continuum. No further edits can be made to them after this point and they will be removed from the outbox as they are sent.
+At set times (10:00, 12:00, 14:00, 16:00), the eLife Bot will begin packaging up the the PoA files and delivering them to Continuum. No further edits can be made to them after this point and they will be removed from the outbox as they are sent.
 
 The PoA article packages will be moved to Continuum delivery bucket (elife-production-final) and will copy them to the packaging archive (elife-poa-packaging/published, contains folders for each day).
 
@@ -449,29 +452,29 @@ The PoA article packages will be moved to Continuum delivery bucket (elife-produ
 
 Once an article has been processed into Continuum, it will be available to check on the Production staging site, [https://prod.elifesciences.org](https://prod.elifesciences.org). On the [publishing dashboard](https://prod--ppp-dash.elifesciences.org/current), PoA articles are indicated by the label on the left.
 
-![](<../.gitbook/assets/26 (1).png>)
+![PoA article on the publishing dashboard](<../.gitbook/assets/26 (1).png>)
 
 As with fully typeset articles, users logged into the staging site can preview PoA articles using the right-hand buttons. The chief visual different on first viewing the article is that PoA content only shows the author list and abstract online, with no body text.
 
-![](<../.gitbook/assets/27 (1).png>)
+![PoA article page](<../.gitbook/assets/27 (1).png>)
 
-Check that the abstract is displaying correctly - it is possible that XML conversion errors may break certain characters or introduced bugs, so make sure that special characters like degrees signs, Greek letters and maths expressions are all showing up without issue. Download the article PDF from the top right-hand corner and check that this opens correctly, that there are no conversion errors and that the figures at the end show up correctly.
+Check that the abstract is displaying correctly - it is possible that XML conversion errors may break certain characters or introduced bugs, so make sure that special characters like degree signs, Greek letters and maths expressions are all showing without issue. Download the article PDF from the top right-hand corner and check that this opens correctly, that there are no conversion errors and that the figures at the end show up correctly.
 
 Quickly scan the roll-over boxes that show up when the cursor is hovered over the author names to ensure that the author affiliations and any competing interests are displaying correctly. Once this is done, scroll down and open the ‘Article and author information’ section to check that the funding information is being displayed correctly.
 
-![](../.gitbook/assets/28.png)
+![Author information section](../.gitbook/assets/28.png)
 
 Move to the ‘Figures and data’ tab. This will display the major datasets section and the download link for the supplementary files zipped folder. This should be downloaded and unzipped to ensure that none of the files within have become corrupted during preparation.
 
-![](../.gitbook/assets/29.png)
+![Figures and data tab for a PoA article](../.gitbook/assets/29.png)
 
 Once the article has been checked and is ready to publish, return to the dashboard and hit ‘Publish Now’. A box will pop up asking for confirmation; once this is OKed, the article will be queued for publication then published in about ten-twenty seconds.
 
-![](../.gitbook/assets/30.png)
+![Publish button](../.gitbook/assets/30.png)
 
 It may take a few minutes for the article to show up online on the front page. PoA articles will show without any impact statement under the title.
 
-![](../.gitbook/assets/31.png)
+![PoA articles on the eLife homepage](../.gitbook/assets/31.png)
 
 ## **Re-exporting PoA articles**
 
@@ -479,7 +482,7 @@ If it is necessary to send an article again for PoA, either because the XML fail
 
 ![https://lh6.googleusercontent.com/v16asXlL7g64LOUvpJ7LbcOma18QiNFUfz1wexpe17JhVxdj\_sD8rA2RiP0uir1Oylj1QTvlu8CvaVB18xZ63oddg29PLzq1AhMSFe-TP2XKqld45C9FFCW97J5W\_ZWLBfTM-Gw](../.gitbook/assets/32.png)
 
-Once any necessary edits have been made to the article files and metadata, go to the Tasks tab and select the ‘Resend PoA files’ button. This will bring up a list of the files to be resent and the option to do so. Once send has been clicked, the article will be exported with the rest of the PoA batch for that day at 11:09AM. Please note that there will be no repeat of the ‘Post Acceptance Checklist Completed’ email, as there is no checklist to complete when re-sending an article.
+Once any necessary edits have been made to the article files and metadata, go to the Tasks tab and select the ‘Resend PoA files’ button. This will bring up a list of the files to be resent and the option to do so. Once send has been clicked, the article will be exported with the rest of the PoA batch for that day at ten past the hour. Please note that there will be no repeat of the ‘Post Acceptance Checklist Completed’ email, as there is no checklist to complete when re-sending an article.
 
 ## **PoA version 2+**
 
