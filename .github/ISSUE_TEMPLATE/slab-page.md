@@ -10,12 +10,11 @@ assignees: ''
 - [ ] Create draft page using [template](https://elifeproduction.slab.com/templates/slab-page-template-6vvjfzj6) 
 - [ ] Add description of what is being covered
 - [ ] Add description of checks required on this content, compiled from current protocol documents if available
-- [ ] Add examples covering correct and incorrect scenarios, as required to support checks
+- [ ] Add examples (using screenshots) covering correct and incorrect scenarios as required to support checks
 - [ ] Populate with schematron messages
 - [ ] Provide explanations for how to fix schematron errors and warnings
-- [ ] Review house style document to ensure all requirements are covered by GitBook and schematron if appropriate
+- [ ] Review house style document to ensure all requirements are covered by Slab and schematron if appropriate
 - [ ] Review schematron messages related to this topic to ensure they are user friendly
-- [ ] Publish page and ensure it is shared with 'eLife Production' and 'eLife & Exeter' groups on Slab if appropriate
 - [ ] Fred approved page
 - [ ] James approved page
 - [ ] Naushin approved page
