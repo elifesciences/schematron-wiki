@@ -26,4 +26,5 @@ assignees: ''
 - [ ] Team reviewed and approved page?
 - [ ] Assign Fred to update the Schematron
 - [ ] Update changelog at the bottom of the page
+- [ ] Add any new author queries to the [Author queries list] (https://elifeproduction.slab.com/posts/author-queries-list-k9ae78mz?shr=k9ae78mz) and notify Exeter
 - [ ] Add link to '[Exeter pages](https://elifeproduction.slab.com/posts/exeter-pages-yps64svu)' if appropriate
